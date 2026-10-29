@@ -1,0 +1,18 @@
+{
+ "id": "1706.03461",
+ "title": "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning",
+ "authors": [
+  "Sören R. Künzel",
+  "Jasjeet S. Sekhon",
+  "Peter J. Bickel",
+  "Bin Yu"
+ ],
+ "v1_date": "2017-06-12",
+ "latest_version": 6,
+ "latest_date": "2019-04-24",
+ "journal_ref": "",
+ "doi": "10.1073/pnas.1804597116",
+ "comment": "",
+ "abstract": "There is growing interest in estimating and analyzing heterogeneous treatment effects in experimental and observational studies. We describe a number of meta-algorithms that can take advantage of any supervised learning or regression method in machine learning and statistics to estimate the Conditional Average Treatment Effect (CATE) function. Meta-algorithms build on base algorithms---such as Random Forests (RF), Bayesian Additive Regression Trees (BART) or neural networks---to estimate the CATE, a function that the base algorithms are not designed to estimate directly. We introduce a new meta-algorithm, the X-learner, that is provably efficient when the number of units in one treatment group is much larger than in the other, and can exploit structural properties of the CATE function. For example, if the CATE function is linear and the response functions in treatment and control are Lipschitz continuous, the X-learner can still achieve the parametric rate under regularity conditions. We then introduce versions of the X-learner that use RF and BART as base learners. In extensive simulation studies, the X-learner performs favorably, although none of the meta-learners is uniformly the best. In two persuasion field experiments from political science, we demonstrate how our new X-learner can be used to target treatment regimes and to shed light on underlying mechanisms. A software package is provided that implements our methods.",
+ "primary": "math.ST"
+}

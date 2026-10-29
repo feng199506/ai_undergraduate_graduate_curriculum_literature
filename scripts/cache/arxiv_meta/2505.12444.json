@@ -1,0 +1,19 @@
+{
+ "id": "2505.12444",
+ "title": "High-Dimensional Dynamic Covariance Models with Random Forests",
+ "authors": [
+  "Shuguang Yu",
+  "Fan Zhou",
+  "Yingjie Zhang",
+  "Ziqi Chen",
+  "Hongtu Zhu"
+ ],
+ "v1_date": "2025-05-18",
+ "latest_version": 1,
+ "latest_date": "2025-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a novel nonparametric method for estimating high-dimensional dynamic covariance matrices with multiple conditioning covariates, leveraging random forests and supported by robust theoretical guarantees. Unlike traditional static methods, our dynamic nonparametric covariance models effectively capture distributional heterogeneity. Furthermore, unlike kernel-smoothing methods, which are restricted to a single conditioning covariate, our approach accommodates multiple covariates in a fully nonparametric framework. To the best of our knowledge, this is the first method to use random forests for estimating high-dimensional dynamic covariance matrices. In high-dimensional settings, we establish uniform consistency theory, providing nonasymptotic error rates and model selection properties, even when the response dimension grows sub-exponentially with the sample size. These results hold uniformly across a range of conditioning variables. The method's effectiveness is demonstrated through simulations and a stock dataset analysis, highlighting its ability to model complex dynamics in high-dimensional scenarios.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2311.12356",
+ "title": "Random Linear Projections Loss for Hyperplane-Based Optimization in Neural Networks",
+ "authors": [
+  "Shyam Venkatasubramanian",
+  "Ahmed Aloui",
+  "Vahid Tarokh"
+ ],
+ "v1_date": "2023-11-21",
+ "latest_version": 3,
+ "latest_date": "2024-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Advancing loss function design is pivotal for optimizing neural network training and performance. This work introduces Random Linear Projections (RLP) loss, a novel approach that enhances training efficiency by leveraging geometric relationships within the data. Distinct from traditional loss functions that target minimizing pointwise errors, RLP loss operates by minimizing the distance between sets of hyperplanes connecting fixed-size subsets of feature-prediction pairs and feature-label pairs. Our empirical evaluations, conducted across benchmark datasets and synthetic examples, demonstrate that neural networks trained with RLP loss outperform those trained with traditional loss functions, achieving improved performance with fewer data samples, and exhibiting greater robustness to additive noise. We provide theoretical analysis supporting our empirical findings.",
+ "primary": "cs.LG"
+}

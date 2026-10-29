@@ -1,0 +1,15 @@
+{
+ "id": "2601.00850",
+ "title": "EdgeJury: Cross-Reviewed Small-Model Ensembles for Truthful Question Answering on Serverless Edge Inference",
+ "authors": [
+  "Aayush Kumar"
+ ],
+ "v1_date": "2025-12-29",
+ "latest_version": 1,
+ "latest_date": "2025-12-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages,3 Figures, Submitting to IEEE Access",
+ "abstract": "Hallucinations hinder reliable question answering, especially in resource-constrained deployments where frontier-scale models or retrieval pipelines may be impractical. We present EdgeJury, a lightweight ensemble framework that improves truthfulness and robustness using only small instruction-tuned language models (3B-8B) suitable for serverless edge inference. EdgeJury orchestrates four stages: (1) parallel role-specialized generation, (2) anonymized cross-review with structured critiques and rankings, (3) chairman synthesis that integrates the strongest content while addressing flagged issues, and (4) claim-level consistency labeling based on inter-model agreement. On TruthfulQA (MC1), EdgeJury achieves 76.2% accuracy (95% CI: 72.8-79.6%), a +21.4% relative improvement over a single 8B baseline (62.8%), and outperforms standard baselines including self-consistency and majority voting under transparent compute accounting (total tokens and platform cost reported). On a 200-question adversarial EdgeCases set, EdgeJury yields +48.2% relative gains (95% CI: 44.0-52.4%). Manual analysis on 100 incorrect answers shows an approximately 55% reduction in factual hallucination errors versus the single-model baseline. Deployed on Cloudflare Workers AI, EdgeJury achieves 8.4 s median end-to-end latency, demonstrating that coordinated small-model ensembles can improve truthfulness on misconception-heavy QA benchmarks without external retrieval or proprietary large-model APIs.",
+ "primary": "cs.LG"
+}

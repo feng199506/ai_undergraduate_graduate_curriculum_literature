@@ -1,0 +1,18 @@
+{
+ "id": "2507.14025",
+ "title": "Reference-Free Iterative Learning Model Predictive Control with Neural Certificates",
+ "authors": [
+  "Wataru Hashimoto",
+  "Kazumune Hashimoto",
+  "Masako Kishida",
+  "Shigemasa Takai"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 1,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper was submitted to IET Control Theory & Applications on May 19, 2025 (under review)",
+ "abstract": "In this paper, we propose a novel reference-free iterative learning model predictive control (MPC). In the proposed method, a certificate function based on the concept of Control Lyapunov Barrier Function (CLBF) is learned using data collected from past control executions and used to define the terminal set and cost in the MPC optimization problem at the current iteration. This scheme enables the progressive refinement of the MPC's terminal components over successive iterations. Unlike existing methods that rely on mixed-integer programming and suffer from numerical difficulties, the proposed approach formulates the MPC optimization problem as a standard nonlinear program, enabling more efficient online computation. The proposed method satisfies key MPC properties, including recursive feasibility and asymptotic stability. Additionally, we demonstrate that the performance cost is non-increasing with respect to the number of iterations, under certain assumptions. Numerical experiments including the simulation with PyBullet confirm that our control scheme iteratively enhances control performance and significantly improves online computational efficiency compared to the existing methods.",
+ "primary": "eess.SY"
+}

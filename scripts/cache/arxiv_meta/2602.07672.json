@@ -1,0 +1,15 @@
+{
+ "id": "2602.07672",
+ "title": "Debugging code world models",
+ "authors": [
+  "Babak Rahmani"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 2,
+ "latest_date": "2026-02-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures, under review in conference",
+ "abstract": "Code World Models (CWMs) are language models trained to simulate program execution by predicting explicit runtime state after every executed command. This execution-based world modeling enables internal verification within the model, offering an alternative to natural language chain-of-thought reasoning. However, the sources of errors and the nature of CWMs' limitations remain poorly understood. We study CWMs from two complementary perspectives: local semantic execution and long-horizon state tracking. On real-code benchmarks, we identify two dominant failure regimes. First, dense runtime state reveals produce token-intensive execution traces, leading to token-budget exhaustion on programs with long execution histories. Second, failures disproportionately concentrate in string-valued state, which we attribute to limitations of subword tokenization rather than program structure. To study long-horizon behavior, we use a controlled permutation-tracking benchmark that isolates state propagation under action execution. We show that long-horizon degradation is driven primarily by incorrect action generation: when actions are replaced with ground-truth commands, a Transformer-based CWM propagates state accurately over long horizons, despite known limitations of Transformers in long-horizon state tracking. These findings suggest directions for more efficient supervision and state representations in CWMs that are better aligned with program execution and data types.",
+ "primary": "cs.SE"
+}

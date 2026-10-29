@@ -1,0 +1,16 @@
+{
+ "id": "2410.11000",
+ "title": "Generating Global and Local Explanations for Tree-Ensemble Learning Methods by Answer Set Programming",
+ "authors": [
+  "Akihiro Takemura",
+  "Katsumi Inoue"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 1,
+ "latest_date": "2024-10-14",
+ "journal_ref": "Theory and Practice of Logic Programming 24 (2024) 973-1010",
+ "doi": "10.1017/s1471068424000401",
+ "comment": "Under consideration in Theory and Practice of Logic Programming (TPLP). Some parts of this paper were presented at ICLP 2021, and published in EPTCS 345, 2021, pp. 127-140, arXiv:2109.08290",
+ "abstract": "We propose a method for generating rule sets as global and local explanations for tree-ensemble learning methods using Answer Set Programming (ASP). To this end, we adopt a decompositional approach where the split structures of the base decision trees are exploited in the construction of rules, which in turn are assessed using pattern mining methods encoded in ASP to extract explanatory rules. For global explanations, candidate rules are chosen from the entire trained tree-ensemble models, whereas for local explanations, candidate rules are selected by only considering rules that are relevant to the particular predicted instance. We show how user-defined constraints and preferences can be represented declaratively in ASP to allow for transparent and flexible rule set generation, and how rules can be used as explanations to help the user better understand the models. Experimental evaluation with real-world datasets and popular tree-ensemble algorithms demonstrates that our approach is applicable to a wide range of classification tasks. Under consideration in Theory and Practice of Logic Programming (TPLP).",
+ "primary": "cs.AI"
+}

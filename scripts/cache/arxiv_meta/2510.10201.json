@@ -1,0 +1,21 @@
+{
+ "id": "2510.10201",
+ "title": "RLFR: Extending Reinforcement Learning for LLMs with Flow Environment",
+ "authors": [
+  "Jinghao Zhang",
+  "Naishan Zheng",
+  "Ruilin Li",
+  "Dongzhou Cheng",
+  "Zheming Liang",
+  "Feng Zhao",
+  "Jiaqi Wang"
+ ],
+ "v1_date": "2025-10-11",
+ "latest_version": 1,
+ "latest_date": "2025-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Project Website: https://jinghaoleven.github.io/RLFR/",
+ "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has recently emerged as a promising framework for improving reasoning abilities in Large Language Models (LLMs). However, policy optimized with binary verification prone to overlook potential valuable exploration in reasoning trajectory. In view of heavy annotation cost of golden Process Reward Models (PRMs), recent works attempt using auxiliary signals for reward shaping of process tokens, involving entropy and likelihood collected from logit space. In this work, we offer a novel perspective on shaping RLVR with flow rewards derived from latent space, and propose RLFR, where the flow fields of model latents are constructed from either off-policy high-quality data and on-policy rejection sampling data, and the velocity deviations of policy latents within it are quantified to serve as a reward signal. RLFR first demonstrates that a well-established flow field can be a sound environment for reward signal collection, highlighting the expressive latent space is much underexplored. Moreover, RLFR is able to compress any off-policy expert data as reference for constituting reward signals, and we show that the efficient context dependence compressed within the hidden states are utilized, rather than individual token-level denotation for context comprehending. Experiments on both language and multimodal reasoning benchmarks demonstrate the reliability of flow rewards, and suggesting a promising paradigm for reward shaping with auxiliary signals.",
+ "primary": "cs.LG"
+}

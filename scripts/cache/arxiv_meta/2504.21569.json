@@ -1,0 +1,17 @@
+{
+ "id": "2504.21569",
+ "title": "A Systematic Literature Review of Parameter-Efficient Fine-Tuning for Large Code Models",
+ "authors": [
+  "Saima Afrin",
+  "Md Zahidul Haque",
+  "Antonio Mastropaolo"
+ ],
+ "v1_date": "2025-04-29",
+ "latest_version": 3,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rise of Artificial Intelligence (AI)-and particularly Large Language Models (LLMs) for code-has reshaped Software Engineering (SE) by enabling the automation of tasks such as code generation, bug detection, and repair. However, these models require significant computational resources for training and fine-tuning, posing challenges for real-world adoption in resource-constrained environments. To address this, the research community has increasingly turned to Parameter-Efficient Fine-Tuning (PEFT)-a class of techniques that enables the adaptation of large models by updating only a small subset of parameters, rather than the entire model. In this Systematic Literature Review (SLR), we examine the growing application of PEFT techniques-across a wide range of software engineering tasks. We analyze how these methods are used to optimize various deep learning (DL) architectures, focusing on their impact on both performance and efficiency. Our study synthesizes findings from 28 peer-reviewed papers, identifying patterns in configuration strategies and adaptation trade-offs. The outcome of this review is a comprehensive taxonomy that categorizes PEFT usage by task type, distinguishing between generative (e.g., Code Summarization) and non-generative (e.g., Code Clone Detection) scenarios. Our findings aim to inform future research and guide the practical deployment of PEFT in sustainable, AI-powered software development. Our artifacts are publicly available at https://github.com/alvi75/SLR-PEFT",
+ "primary": "cs.SE"
+}

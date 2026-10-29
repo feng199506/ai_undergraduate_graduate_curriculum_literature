@@ -1,0 +1,16 @@
+{
+ "id": "2404.14783",
+ "title": "Randomized Large-Scale Quaternion Matrix Approximation: Practical Rangefinders and One-Pass Algorithm",
+ "authors": [
+  "Chao Chang",
+  "Yuning Yang"
+ ],
+ "v1_date": "2024-04-23",
+ "latest_version": 2,
+ "latest_date": "2024-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages",
+ "abstract": "Recently, randomized algorithms for low-rank approximation of quaternion matrices have received increasing attention. However, for large-scale problems, existing quaternion orthonormalizations are inefficient, leading to slow rangefinders. To address this, by appropriately leveraging efficient scientific computing libraries in the complex arithmetic, this work devises two practical quaternion rangefinders, one of which is non-orthonormal yet well-conditioned. They are then integrated into the quaternion version of a one-pass algorithm, which originally takes orthonormal rangefinders only. We establish the error bounds and demonstrate that the error is proportional to the condition number of the rangefinder. The probabilistic bounds are exhibited for both quaternion Gaussian and sub-Gaussian embeddings. Numerical experiments demonstrate that the one-pass algorithm with the proposed rangefinders significantly outperforms previous techniques in efficiency. Additionally, we tested the algorithm in a 3D Navier-Stokes equation ($5.22$GB) and a 4D Lorenz-type chaotic system ($5.74$GB) data compression, as well as a $31365\\times 27125$ image compression to demonstrate its capability for handling large-scale applications.",
+ "primary": "math.NA"
+}

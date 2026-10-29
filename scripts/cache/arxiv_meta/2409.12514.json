@@ -1,0 +1,26 @@
+{
+ "id": "2409.12514",
+ "title": "TinyVLA: Towards Fast, Data-Efficient Vision-Language-Action Models for Robotic Manipulation",
+ "authors": [
+  "Junjie Wen",
+  "Yichen Zhu",
+  "Jinming Li",
+  "Minjie Zhu",
+  "Kun Wu",
+  "Zhiyuan Xu",
+  "Ning Liu",
+  "Ran Cheng",
+  "Chaomin Shen",
+  "Yaxin Peng",
+  "Feifei Feng",
+  "Jian Tang"
+ ],
+ "v1_date": "2024-09-19",
+ "latest_version": 5,
+ "latest_date": "2025-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "add more citations",
+ "abstract": "Vision-Language-Action (VLA) models have shown remarkable potential in visuomotor control and instruction comprehension through end-to-end learning processes. However, current VLA models face significant challenges: they are slow during inference and require extensive pre-training on large amounts of robotic data, making real-world deployment difficult. In this paper, we introduce a new family of compact vision-language-action models, called TinyVLA, which offers two key advantages over existing VLA models: (1) faster inference speeds, and (2) improved data efficiency, eliminating the need for pre-training stage. Our framework incorporates two essential components to build TinyVLA: (1) initializing the policy backbone with robust, high-speed multimodal models, and (2) integrating a diffusion policy decoder during fine-tuning to enable precise robot actions. We conducted extensive evaluations of TinyVLA in both simulation and on real robots, demonstrating that our approach significantly outperforms the state-of-the-art VLA model, OpenVLA, in terms of speed and data efficiency, while delivering comparable or superior performance. Additionally, TinyVLA exhibits strong generalization capabilities across various dimensions, including language instructions, novel objects, unseen positions, changes in object appearance, background variations, and environmental shifts, often matching or exceeding the performance of OpenVLA. We believe that \\methodname offers an interesting perspective on utilizing pre-trained multimodal models for policy learning. Our project is at https://tiny-vla.github.io.",
+ "primary": "cs.RO"
+}

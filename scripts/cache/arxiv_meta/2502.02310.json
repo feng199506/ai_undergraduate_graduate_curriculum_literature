@@ -1,0 +1,18 @@
+{
+ "id": "2502.02310",
+ "title": "Gaussian processes for dynamics learning in model predictive control",
+ "authors": [
+  "Anna Scampicchio",
+  "Elena Arcari",
+  "Amon Lahr",
+  "Melanie N. Zeilinger"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 1,
+ "latest_date": "2025-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Due to its state-of-the-art estimation performance complemented by rigorous and non-conservative uncertainty bounds, Gaussian process regression is a popular tool for enhancing dynamical system models and coping with their inaccuracies. This has enabled a plethora of successful implementations of Gaussian process-based model predictive control in a variety of applications over the last years. However, despite its evident practical effectiveness, there are still many open questions when attempting to analyze the associated optimal control problem theoretically and to exploit the full potential of Gaussian process regression in view of safe learning-based control. The contribution of this review is twofold. The first is to survey the available literature on the topic, highlighting the major theoretical challenges such as (i) addressing scalability issues of Gaussian process regression; (ii) taking into account the necessary approximations to obtain a tractable MPC formulation; (iii) including online model updates to refine the dynamics description, exploiting data collected during operation. The second is to provide an extensive discussion of future research directions, collecting results on uncertainty quantification that are related to (but yet unexploited in) optimal control, among others. Ultimately, this paper provides a toolkit to study and advance Gaussian process-based model predictive control.",
+ "primary": "eess.SY"
+}

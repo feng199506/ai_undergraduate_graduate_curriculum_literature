@@ -1,0 +1,17 @@
+{
+ "id": "2506.04649",
+ "title": "Flex-TravelPlanner: A Benchmark for Flexible Planning with Language Agents",
+ "authors": [
+  "Juhyun Oh",
+  "Eunsu Kim",
+  "Alice Oh"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 1,
+ "latest_date": "2025-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Real-world planning problems require constant adaptation to changing requirements and balancing of competing constraints. However, current benchmarks for evaluating LLMs' planning capabilities primarily focus on static, single-turn scenarios. We introduce Flex-TravelPlanner, a benchmark that evaluates language models' ability to reason flexibly in dynamic planning scenarios. Building on the TravelPlanner dataset~\\citep{xie2024travelplanner}, we introduce two novel evaluation settings: (1) sequential constraint introduction across multiple turns, and (2) scenarios with explicitly prioritized competing constraints. Our analysis of GPT-4o and Llama 3.1 70B reveals several key findings: models' performance on single-turn tasks poorly predicts their ability to adapt plans across multiple turns; constraint introduction order significantly affects performance; and models struggle with constraint prioritization, often incorrectly favoring newly introduced lower priority preferences over existing higher-priority constraints. These findings highlight the importance of evaluating LLMs in more realistic, dynamic planning scenarios and suggest specific directions for improving model performance on complex planning tasks. The code and dataset for our framework are publicly available at https://github.com/juhyunohh/FlexTravelBench.",
+ "primary": "cs.CL"
+}

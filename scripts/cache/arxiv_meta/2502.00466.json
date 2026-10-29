@@ -1,0 +1,18 @@
+{
+ "id": "2502.00466",
+ "title": "EDELINE: Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling",
+ "authors": [
+  "Jia-Hua Lee",
+  "Bor-Jiun Lin",
+  "Wei-Fang Sun",
+  "Chun-Yi Lee"
+ ],
+ "v1_date": "2025-02-01",
+ "latest_version": 2,
+ "latest_date": "2025-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages",
+ "abstract": "World models represent a promising approach for training reinforcement learning agents with significantly improved sample efficiency. While most world model methods primarily rely on sequences of discrete latent variables to model environment dynamics, this compression often neglects critical visual details essential for reinforcement learning. Recent diffusion-based world models condition generation on a fixed context length of frames to predict the next observation, using separate recurrent neural networks to model rewards and termination signals. Although this architecture effectively enhances visual fidelity, the fixed context length approach inherently limits memory capacity. In this paper, we introduce EDELINE, a unified world model architecture that integrates state space models with diffusion models. Our approach outperforms existing baselines across visually challenging Atari 100k tasks, memory-demanding Crafter benchmark, and 3D first-person ViZDoom environments, demonstrating superior performance in all these diverse challenges.",
+ "primary": "cs.LG"
+}

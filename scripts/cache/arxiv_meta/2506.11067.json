@@ -1,0 +1,22 @@
+{
+ "id": "2506.11067",
+ "title": "A Large Language Model Based Pipeline for Review of Systems Entity Recognition from Clinical Notes",
+ "authors": [
+  "Hieu Nghiem",
+  "Zhuqi Miao",
+  "Hemanth Reddy Singareddy",
+  "Jivan Lamichhane",
+  "Abdulaziz Ahmed",
+  "Johnson Thomas",
+  "Dursun Delen",
+  "William Paiva"
+ ],
+ "v1_date": "2025-05-31",
+ "latest_version": 3,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by IEEE EMBC 2026. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works",
+ "abstract": "Objective: Develop a cost-effective, large language model (LLM)-based pipeline for automatically extracting Review of Systems (ROS) entities from clinical notes. Materials and Methods: The pipeline extracts ROS section from the clinical note using SecTag header terminology, followed by few-shot LLMs to identify ROS entities such as diseases or symptoms, their positive/negative status and associated body systems. We implemented the pipeline using 4 open-source LLM models: llama3.1:8b, gemma3:27b, mistral3.1:24b and gpt-oss:20b. Additionally, we introduced a novel attribution algorithm that aligns LLM-identified ROS entities with their source text, addressing non-exact and synonymous matches. The evaluation was conducted on 24 general medicine notes containing 340 annotated ROS entities. Results: Open-source LLMs enable a local, cost-efficient pipeline while delivering promising performance. Larger models like Gemma, Mistral, and Gpt-oss demonstrate robust performance across three entity recognition tasks of the pipeline: ROS entity extraction, negation detection and body system classification (highest F1 score = 0.952). With the attribution algorithm, all models show improvements across key performance metrics, including higher F1 score and accuracy, along with lower error rate. Notably, the smaller Llama model also achieved promising results despite using only one-third the VRAM of larger models. Discussion and Conclusion: From an application perspective, our pipeline provides a scalable, locally deployable solution to easing the ROS documentation burden. Open-source LLMs offer a practical AI option for resource-limited healthcare settings. Methodologically, our newly developed algorithm facilitates accuracy improvements for zero- and few-shot LLMs in named entity recognition.",
+ "primary": "cs.CL"
+}

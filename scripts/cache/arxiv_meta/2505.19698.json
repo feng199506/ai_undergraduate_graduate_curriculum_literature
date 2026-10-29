@@ -1,0 +1,21 @@
+{
+ "id": "2505.19698",
+ "title": "Performance Asymmetry in Model-Based Reinforcement Learning",
+ "authors": [
+  "Jing Yu Lim",
+  "Rushi Shah",
+  "Zarif Ikram",
+  "Samson Yu",
+  "Haozhe Ma",
+  "Tze-Yun Leong",
+  "Dianbo Liu"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 3,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint",
+ "abstract": "Recently, Model-Based Reinforcement Learning (MBRL) have achieved super-human level performance on the Atari100k benchmark on average. However, we discover that conventional aggregates mask a major problem, Performance Asymmetry: MBRL agents dramatically outperform humans in certain tasks (Agent-Optimal tasks) while drastically underperform humans in other tasks (Human-Optimal tasks). Indeed, despite achieving SOTA in the overall mean Human-Normalized Scores (HNS), the SOTA agent scored the worst among baselines on Human-Optimal tasks, with a striking 21X performance gap between the Human-Optimal and Agent-Optimal subsets. To address this, we partition Atari100k evenly into Human-Optimal and Agent-Optimal subsets, and introduce a more balanced aggregate, Sym-HNS. Furthermore, we trace the striking Performance Asymmetry in the SOTA pixel diffusion world model to the curse of dimensionality and its prowess on high visual detail tasks (e.g. Breakout). To this end, we propose a novel latent end-to-end Joint Embedding DIffusion (JEDI) world model that achieves SOTA results in Sym-HNS, Human-Optimal tasks, and Breakout -- thus reversing the worsening Performance Asymmetry trend while improving computational efficiency and remaining competitive on the full Atari100k.",
+ "primary": "cs.LG"
+}

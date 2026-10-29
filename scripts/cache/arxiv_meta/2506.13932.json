@@ -1,0 +1,20 @@
+{
+ "id": "2506.13932",
+ "title": "Code Reasoning for Software Engineering Tasks: A Survey and A Call to Action",
+ "authors": [
+  "Saurabh Pujar",
+  "Ira Ceka",
+  "Irene Manotas",
+  "Gail Kaiser",
+  "Baishakhi Ray",
+  "Shyam Ramji"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 3,
+ "latest_date": "2026-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in Transactions on Machine Learning Research (06/2026) 40 pages, 8 figures, 11 tables",
+ "abstract": "The rise of large language models (LLMs) has led to dramatic improvements across a wide range of natural language tasks. Their performance on certain tasks can be further enhanced by incorporating test-time reasoning techniques. These inference-time advances have been adopted into the code domain, enabling complex software engineering (SWE) tasks such as code generation, test generation and issue resolution. However, the impact of different reasoning techniques on code-centric SWE tasks has not been systematically explored. In this work, we survey code reasoning techniques that underpin these capabilities, with a focus on test-time compute and inference-time reasoning paradigms. We examine a variety of code-specific reasoning methods and progressively build up to SWE agents, which combine planning, tool use, and multi-step interaction. We also compare the impact of different techniques on coding tasks, highlighting their relative importance and outlining open challenges and future research directions. Across commonly used models and benchmarks, we find that approaches exploiting code-specific signals (e.g., structure and execution feedback) are frequently associated with improved performance, motivating a dedicated study of code reasoning beyond natural-language reasoning.",
+ "primary": "cs.SE"
+}

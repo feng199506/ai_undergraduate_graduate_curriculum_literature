@@ -1,0 +1,23 @@
+{
+ "id": "2410.12883",
+ "title": "Scaling Laws for Multilingual Language Models",
+ "authors": [
+  "Yifei He",
+  "Alon Benhaim",
+  "Barun Patra",
+  "Praneetha Vaddamanu",
+  "Sanchit Ahuja",
+  "Parul Chopra",
+  "Vishrav Chaudhary",
+  "Han Zhao",
+  "Xia Song"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 2,
+ "latest_date": "2024-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel scaling law for general-purpose decoder-only language models (LMs) trained on multilingual data, tackling the problem of balancing languages during multilingual pretraining. A primary challenge in studying multilingual scaling is the difficulty of analyzing individual language performance due to cross-lingual transfer. To address this, we shift the focus from individual languages to language families. We introduce and validate a hypothesis that the test cross-entropy loss for each language family is determined solely by its own sampling ratio, independent of other languages in the mixture. This insight simplifies the complexity of multilingual scaling and make the analysis scalable to an arbitrary number of languages. Building on this hypothesis, we derive a power-law relationship that links performance with dataset size, model size and sampling ratios. This relationship enables us to predict performance across various combinations of the above three quantities, and derive the optimal sampling ratios at different model scales. To demonstrate the effectiveness and accuracy of our proposed scaling law, we perform a large-scale empirical study, training more than 100 models on 23 languages spanning 5 language families. Our experiments show that the optimal sampling ratios derived from small models (85M parameters) generalize effectively to models that are several orders of magnitude larger (1.2B parameters), offering a resource-efficient approach for multilingual LM training at scale.",
+ "primary": "cs.CL"
+}

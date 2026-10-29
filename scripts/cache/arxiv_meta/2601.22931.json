@@ -1,0 +1,20 @@
+{
+ "id": "2601.22931",
+ "title": "Benchmarking Machine Translation on Chinese Social Media Texts",
+ "authors": [
+  "Kaiyan Zhao",
+  "Zheyong Xie",
+  "Zhongtao Miao",
+  "Xinze Lyu",
+  "Yao Hu",
+  "Shaosheng Cao"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 2,
+ "latest_date": "2026-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Camera ready version, to appear in EMNLP 2026, Findings",
+ "abstract": "The prevalence of rapidly evolving slang, neologisms, and highly stylized expressions in informal user-generated text, particularly on Chinese social media, poses significant challenges for Machine Translation (MT) benchmarking. Specifically, we identify two primary obstacles: (1) data scarcity, as high-quality parallel data requires bilingual annotators familiar with platform-specific slang, and stylistic cues in both languages; and (2) metric limitations, where traditional evaluators like COMET often fail to capture stylistic fidelity and nonstandard expressions. To bridge these gaps, we introduce CSM-MTBench, a benchmark covering five Chinese-foreign language directions and consisting of two expert-curated subsets: Fun Posts, featuring context-rich, slang- and neologism-heavy content, and Social Snippets, emphasizing concise, emotion- and style- driven expressions. Furthermore, we propose tailored evaluation approaches for each subset: measuring the translation success rate of slang and neologisms in Fun Posts, while assessing tone and style preservation in Social Snippets via a hybrid of embedding-based metrics and LLM-as-a-judge. Experiments on over 20 models reveal substantial variation in how current MT systems handle semantic fidelity and informal, social-media-specific stylistic cues. CSM-MTBench thus serves as a rigorous testbed for advancing MT systems capable of mastering real-world Chinese social media texts.",
+ "primary": "cs.CL"
+}

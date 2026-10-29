@@ -1,0 +1,18 @@
+{
+ "id": "2512.12868",
+ "title": "Counting Clues: A Lightweight Probabilistic Baseline Can Match an LLM",
+ "authors": [
+  "Furong Jia",
+  "Yuan Pu",
+  "Finn Guo",
+  "Monica Agrawal"
+ ],
+ "v1_date": "2025-12-14",
+ "latest_version": 2,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) excel on multiple-choice clinical diagnosis benchmarks, yet it is unclear how much of this performance reflects underlying probabilistic reasoning. We study this through questions from MedQA that ask for the most likely diagnosis. We introduce Frequency-Based Probabilistic Ranker (FBPR), a lightweight method that scores options with a smoothed Naive Bayes over concept-diagnosis co-occurrence statistics from a large corpus. When co-occurrence statistics are sourced from Dolma, the pretraining corpus for OLMo, and RedPajama, an open reproduction of the LLaMA pretraining-data recipe, FBPR achieves comparable performance to the corresponding LLMs. Furthermore, direct LLM inference and FBPR exhibit complementary strengths, correctly answering largely different subsets of questions with overlap barely above chance. Combining them with a simple hybrid method yields a notable gain over either method alone. These findings show that explicit probabilistic baselines can account for a substantial portion of the benchmark performance on diagnosis questions, while serving as historically grounded reference points and complementary signals for hybridization.",
+ "primary": "cs.CL"
+}

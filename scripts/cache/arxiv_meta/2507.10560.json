@@ -1,0 +1,15 @@
+{
+ "id": "2507.10560",
+ "title": "Tangma: A Tanh-Guided Activation Function with Learnable Parameters",
+ "authors": [
+  "Shreel Golwala"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 1,
+ "latest_date": "2025-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Activation functions are key to effective backpropagation and expressiveness in deep neural networks. This work introduces Tangma, a new activation function that combines the smooth shape of the hyperbolic tangent with two learnable parameters: $α$, which shifts the curve's inflection point to adjust neuron activation, and $γ$, which adds linearity to preserve weak gradients and improve training stability. Tangma was evaluated on MNIST and CIFAR-10 using custom networks composed of convolutional and linear layers, and compared against ReLU, Swish, and GELU. On MNIST, Tangma achieved the highest validation accuracy of 99.09% and the lowest validation loss, demonstrating faster and more stable convergence than the baselines. On CIFAR-10, Tangma reached a top validation accuracy of 78.15%, outperforming all other activation functions while maintaining a competitive training loss. Tangma also showed improved training efficiency, with lower average epoch runtimes compared to Swish and GELU. These results suggest that Tangma performs well on standard vision tasks and enables reliable, efficient training. Its learnable design gives more control over activation behavior, which may benefit larger models in tasks such as image recognition or language modeling.",
+ "primary": "cs.NE"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2507.20199",
+ "title": "StepFun-Prover Preview: Let's Think and Verify Step by Step",
+ "authors": [
+  "Shijie Shang",
+  "Ruosi Wan",
+  "Yue Peng",
+  "Yutong Wu",
+  "Xiong-hui Chen",
+  "Jie Yan",
+  "Xiangyu Zhang"
+ ],
+ "v1_date": "2025-07-27",
+ "latest_version": 3,
+ "latest_date": "2025-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Added links to GitHub and Hugging Face",
+ "abstract": "We present StepFun-Prover Preview, a large language model designed for formal theorem proving through tool-integrated reasoning. Using a reinforcement learning pipeline that incorporates tool-based interactions, StepFun-Prover can achieve strong performance in generating Lean 4 proofs with minimal sampling. Our approach enables the model to emulate human-like problem-solving strategies by iteratively refining proofs based on real-time environment feedback. On the miniF2F-test benchmark, StepFun-Prover achieves a pass@1 success rate of $70.0\\%$. Beyond advancing benchmark performance, we introduce an end-to-end training framework for developing tool-integrated reasoning models, offering a promising direction for automated theorem proving and Math AI assistant.",
+ "primary": "cs.AI"
+}

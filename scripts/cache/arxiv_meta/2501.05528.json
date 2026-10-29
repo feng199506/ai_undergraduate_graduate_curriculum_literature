@@ -1,0 +1,18 @@
+{
+ "id": "2501.05528",
+ "title": "Randomized Block Low-Rank Matrix Compression by Tagging",
+ "authors": [
+  "Katherine J. Pearce",
+  "Anna Yesypenko",
+  "James Levitt",
+  "Per-Gunnar Martinsson"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 2,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we present randomized compression algorithms for flat rank-structured matrices with shared bases, termed uniform Block Low-Rank (BLR) matrices. Our main contribution is a technique called tagging, which improves upon the efficiency of existing algorithms for basis matrix computation while preserving accuracy. Tagging operates on the matrix using matrix-vector products of the matrix and its adjoint, making it suitable for black-box environments where accessing individual matrix entries is computationally expensive or infeasible. We show tagging requires a constant number of matrix-vector products coupled with linear post-processing; crucially, the asymptotic pre-factors in tagging depend only on the rank parameter and the underlying problem geometry. We also establish a theoretical connection between the optimal construction of tagging matrices and projective varieties in algebraic geometry, suggesting a hybrid numeric-symbolic avenue of future work. To validate our approach, we apply tagging to compress uniform BLR matrices arising from the discretization of integral and partial differential equations. Empirical results show that tagging outperforms alternative compression techniques, significantly reducing both the number of required matrix-vector products and overall computational time. These findings highlight the practicality and scalability of tagging as an efficient method for flat rank-structured matrices in scientific computing.",
+ "primary": "math.NA"
+}

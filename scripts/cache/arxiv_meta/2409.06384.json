@@ -1,0 +1,17 @@
+{
+ "id": "2409.06384",
+ "title": "Randomized low-rank Runge-Kutta methods",
+ "authors": [
+  "Hei Yin Lam",
+  "Gianluca Ceruti",
+  "Daniel Kressner"
+ ],
+ "v1_date": "2024-09-10",
+ "latest_version": 1,
+ "latest_date": "2024-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages",
+ "abstract": "This work proposes and analyzes a new class of numerical integrators for computing low-rank approximations to solutions of matrix differential equation. We combine an explicit Runge-Kutta method with repeated randomized low-rank approximation to keep the rank of the stages limited. The so-called generalized Nyström method is particularly well suited for this purpose; it builds low-rank approximations from random sketches of the discretized dynamics. In contrast, all existing dynamical low-rank approximation methods are deterministic and usually perform tangent space projections to limit rank growth. Using such tangential projections can result in larger error compared to approximating the dynamics directly. Moreover, sketching allows for increased flexibility and efficiency by choosing structured random matrices adapted to the structure of the matrix differential equation. Under suitable assumptions, we establish moment and tail bounds on the error of our randomized low-rank Runge-Kutta methods. When combining the classical Runge-Kutta method with generalized Nyström, we obtain a method called Rand RK4, which exhibits fourth-order convergence numerically -- up to the low-rank approximation error. For a modified variant of Rand RK4, we also establish fourth-order convergence theoretically. Numerical experiments for a range of examples from the literature demonstrate that randomized low-rank Runge-Kutta methods compare favorably with two popular dynamical low-rank approximation methods, in terms of robustness and speed of convergence.",
+ "primary": "math.NA"
+}

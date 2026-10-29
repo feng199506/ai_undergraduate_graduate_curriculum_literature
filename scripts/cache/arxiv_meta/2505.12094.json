@@ -1,0 +1,15 @@
+{
+ "id": "2505.12094",
+ "title": "Attribution Projection Calculus: A Novel Framework for Causal Inference in Bayesian Networks",
+ "authors": [
+  "M Ruhul Amin"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 1,
+ "latest_date": "2025-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "*AI was used to improve Text and collecting Citations",
+ "abstract": "This paper introduces Attribution Projection Calculus (AP-Calculus), a novel mathematical framework for determining causal relationships in structured Bayesian networks. We investigate a specific network architecture with source nodes connected to destination nodes through intermediate nodes, where each input maps to a single label with maximum marginal probability. We prove that for each label, exactly one intermediate node acts as a deconfounder while others serve as confounders, enabling optimal attribution of features to their corresponding labels. The framework formalizes the dual nature of intermediate nodes as both confounders and deconfounders depending on the context, and establishes separation functions that maximize distinctions between intermediate representations. We demonstrate that the proposed network architecture is optimal for causal inference compared to alternative structures, including those based on Pearl's causal framework. AP-Calculus provides a comprehensive mathematical foundation for analyzing feature-label attributions, managing spurious correlations, quantifying information gain, ensuring fairness, and evaluating uncertainty in prediction models, including large language models. Theoretical verification shows that AP-Calculus not only extends but can also subsume traditional do-calculus for many practical applications, offering a more direct approach to causal inference in supervised learning contexts.",
+ "primary": "cs.LG"
+}

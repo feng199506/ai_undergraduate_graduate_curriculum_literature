@@ -1,0 +1,20 @@
+{
+ "id": "2403.03954",
+ "title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
+ "authors": [
+  "Yanjie Ze",
+  "Gu Zhang",
+  "Kangning Zhang",
+  "Chenyuan Hu",
+  "Muhan Wang",
+  "Huazhe Xu"
+ ],
+ "v1_date": "2024-03-06",
+ "latest_version": 7,
+ "latest_date": "2024-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at Robotics: Science and Systems (RSS) 2024. Videos, code, and data: https://3d-diffusion-policy.github.io",
+ "abstract": "Imitation learning provides an efficient way to teach robots dexterous skills; however, learning complex skills robustly and generalizablely usually consumes large amounts of human demonstrations. To tackle this challenging problem, we present 3D Diffusion Policy (DP3), a novel visual imitation learning approach that incorporates the power of 3D visual representations into diffusion policies, a class of conditional action generative models. The core design of DP3 is the utilization of a compact 3D visual representation, extracted from sparse point clouds with an efficient point encoder. In our experiments involving 72 simulation tasks, DP3 successfully handles most tasks with just 10 demonstrations and surpasses baselines with a 24.2% relative improvement. In 4 real robot tasks, DP3 demonstrates precise control with a high success rate of 85%, given only 40 demonstrations of each task, and shows excellent generalization abilities in diverse aspects, including space, viewpoint, appearance, and instance. Interestingly, in real robot experiments, DP3 rarely violates safety requirements, in contrast to baseline methods which frequently do, necessitating human intervention. Our extensive evaluation highlights the critical importance of 3D representations in real-world robot learning. Videos, code, and data are available on https://3d-diffusion-policy.github.io .",
+ "primary": "cs.RO"
+}

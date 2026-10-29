@@ -1,0 +1,23 @@
+{
+ "id": "2505.17451",
+ "title": "CLIMB: Class-imbalanced Learning Benchmark on Tabular Data",
+ "authors": [
+  "Zhining Liu",
+  "Zihao Li",
+  "Ze Yang",
+  "Tianxin Wei",
+  "Jian Kang",
+  "Yada Zhu",
+  "Hendrik Hamann",
+  "Jingrui He",
+  "Hanghang Tong"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 2,
+ "latest_date": "2025-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025, Dataset and Benchmark Track. 18 pages, 7 figures, 8 tables",
+ "abstract": "Class-imbalanced learning (CIL) on tabular data is important in many real-world applications where the minority class holds the critical but rare outcomes. In this paper, we present CLIMB, a comprehensive benchmark for class-imbalanced learning on tabular data. CLIMB includes 73 real-world datasets across diverse domains and imbalance levels, along with unified implementations of 29 representative CIL algorithms. Built on a high-quality open-source Python package with unified API designs, detailed documentation, and rigorous code quality controls, CLIMB supports easy implementation and comparison between different CIL algorithms. Through extensive experiments, we provide practical insights on method accuracy and efficiency, highlighting the limitations of naive rebalancing, the effectiveness of ensembles, and the importance of data quality. Our code, documentation, and examples are available at https://github.com/ZhiningLiu1998/imbalanced-ensemble.",
+ "primary": "cs.LG"
+}

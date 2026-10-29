@@ -1,0 +1,15 @@
+{
+ "id": "2610.18333",
+ "title": "On the Optimality of Random Features under General Conditions: Misspecified Cases and Robust Learning",
+ "authors": [
+  "Caixing Wang"
+ ],
+ "v1_date": "2026-10-13",
+ "latest_version": 1,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "61 pages, 10 figures, 2 tables",
+ "abstract": "Random features provide a standard approach to scaling kernel methods to large datasets by approximating the kernel with a finite-dimensional feature map. Existing works of random feature methods primarily focus on well-specified models and light-tailed noise conditions, leaving a gap in understanding their performance under more general conditions, such as misspecified models and heavy-tailed noise. In this paper, we provide a comprehensive and improved analysis of kernel ridge regression with random features (KRR-RF) under general conditions. In the light-tailed noise setting, we improve upon the worst-case uniform bounds of the feature map used in the previous works and lead to the minimax optimal learning rates with $2r+γ>α_0$, where $(r,γ,α_0)$ denote the regularity of the target function, the effective dimension of the kernel, and the embedding index of the RKHS, respectively. In the heavy-tailed noise setting, we leverage a recently developed Hilbert-valued Fuk-Nagaev inequality and extend the same optimal results under finite weak moment conditions. The additional cost to achieve robustness is a mildly stronger explicit sample-size requirement than in the light-tailed case. For both settings, our results recover the conditions random features budgets (up to log factors) required in the previous works. In the most benign case when $α_0=γ$, KRR-RF are minimax optimal for all $r \\in (0,1]$. To the best of our knowledge, this is the first work to establish optimal learning rates for KRR-RF under weak moment conditions in the misspecified setting. Numerical experiments and a real data analysis validate the derived learning rates and demonstrate their practical relevance in the presence of mis-specification and heavy-tailed noise.",
+ "primary": "stat.ML"
+}

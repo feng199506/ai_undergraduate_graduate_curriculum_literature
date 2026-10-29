@@ -1,0 +1,19 @@
+{
+ "id": "2402.14045",
+ "title": "A Systematic Review of Low-Rank and Local Low-Rank Matrix Approximation in Big Data Medical Imaging",
+ "authors": [
+  "Sisipho Hamlomo",
+  "Marcellin Atemkeng",
+  "Yusuf Brima",
+  "Chuneeta Nunhokee",
+  "Jeremy Baxter"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 4,
+ "latest_date": "2025-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The large volume and complexity of medical imaging datasets are bottlenecks for storage, transmission, and processing. To tackle these challenges, the application of low-rank matrix approximation (LRMA) and its derivative, local LRMA (LLRMA) has demonstrated potential. A detailed analysis of the literature identifies LRMA and LLRMA methods applied to various imaging modalities, and the challenges and limitations associated with existing LRMA and LLRMA methods are addressed. We note a significant shift towards a preference for LLRMA in the medical imaging field since 2015, demonstrating its potential and effectiveness in capturing complex structures in medical data compared to LRMA. Acknowledging the limitations of shallow similarity methods used with LLRMA, we suggest advanced semantic image segmentation for similarity measure, explaining in detail how it can be used to measure similar patches and its feasibility. We note that LRMA and LLRMA are mainly applied to unstructured medical data, and we propose extending their application to different medical data types, including structured and semi-structured. This paper also discusses how LRMA and LLRMA can be applied to regular data with missing entries and the impact of inaccuracies in predicting missing values and their effects. We discuss the impact of patch size and propose the use of random search (RS) to determine the optimal patch size. To enhance feasibility, a hybrid approach using Bayesian optimization and RS is proposed, which could improve the application of LRMA and LLRMA in medical imaging.",
+ "primary": "eess.IV"
+}

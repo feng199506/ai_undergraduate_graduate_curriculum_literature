@@ -1,0 +1,18 @@
+{
+ "id": "2511.11973",
+ "title": "Quantile Q-Learning: Revisiting Offline Extreme Q-Learning with Quantile Regression",
+ "authors": [
+  "Xinming Gao",
+  "Shangzhe Li",
+  "Yujin Cai",
+  "Wenwu Yu"
+ ],
+ "v1_date": "2025-11-15",
+ "latest_version": 2,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by TMLR 2026; Code available at: https://github.com/yunqianevergarden/Quantile-Q-Learning",
+ "abstract": "Offline reinforcement learning (RL) enables policy learning from fixed datasets without further environment interaction, making it particularly valuable in high-risk or costly domains. Extreme $Q$-Learning (XQL) is a recent offline RL method that models Bellman errors using the Extreme Value Theorem, yielding strong empirical performance. However, XQL and its stabilized variant MXQL suffer from notable limitations: both require extensive hyperparameter tuning specific to each dataset and domain, and also exhibit instability during training. To address these issues, we proposed a principled method to estimate the temperature coefficient $β$ via quantile regression under mild assumptions. To further improve training stability, we introduce a value regularization technique with mild generalization, inspired by recent advances in constrained value learning. Experimental results demonstrate that the proposed algorithm achieves competitive or superior performance across a range of benchmark tasks, including D4RL and NeoRL2, while maintaining stable training dynamics and using a consistent set of hyperparameters across all datasets and domains.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2508.15878",
+ "title": "Lean Meets Theoretical Computer Science: Scalable Synthesis of Theorem Proving Challenges in Formal-Informal Pairs",
+ "authors": [
+  "Terry Jingchen Zhang",
+  "Wenyuan Jiang",
+  "Rongchuan Liu",
+  "Yisong Wang",
+  "Junran Yang",
+  "Ning Wang",
+  "Nicole Ni",
+  "Yinya Huang",
+  "Mrinmaya Sachan"
+ ],
+ "v1_date": "2025-08-21",
+ "latest_version": 2,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AI4MATH@ICML2025",
+ "abstract": "Formal theorem proving (FTP) has emerged as a critical foundation for evaluating the reasoning capabilities of large language models, enabling automated verification of mathematical proofs at scale. However, progress has been constrained by limited datasets due to the high cost of manual curation and the scarcity of challenging problems with verified formal-informal correspondences. We propose leveraging theoretical computer science (TCS) as a scalable source of rigorous proof problems, where algorithmic definitions enable automated generation of arbitrarily many challenging theorem-proof pairs. We demonstrate this approach on two TCS domains: Busy Beaver problems, which involve proving bounds on Turing machine halting behavior, and Mixed Boolean Arithmetic problems, which combine logical and arithmetic reasoning. Our framework automatically synthesizes problems with parallel formal (Lean4) and informal (Markdown) specifications, creating a scalable pipeline for generating verified proof challenges. Evaluation on frontier models reveals substantial gaps in automated theorem proving: while DeepSeekProver-V2-671B achieves 57.5\\% success on Busy Beaver problems, it manages only 12\\% on Mixed Boolean Arithmetic problems. These results highlight the difficulty of long-form proof generation even for problems that are computationally easy to verify, demonstrating the value of TCS domains for advancing automated reasoning research.",
+ "primary": "cs.LO"
+}

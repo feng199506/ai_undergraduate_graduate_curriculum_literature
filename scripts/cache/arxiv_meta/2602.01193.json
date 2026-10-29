@@ -1,0 +1,16 @@
+{
+ "id": "2602.01193",
+ "title": "Bridging Lexical Ambiguity and Vision: A Mini Review on Visual Word Sense Disambiguation",
+ "authors": [
+  "Shashini Nilukshi",
+  "Deshan Sumanathilaka"
+ ],
+ "v1_date": "2026-02-01",
+ "latest_version": 1,
+ "latest_date": "2026-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 figures, 2 Tables, Accepted at IEEE TIC 2026",
+ "abstract": "This paper offers a mini review of Visual Word Sense Disambiguation (VWSD), which is a multimodal extension of traditional Word Sense Disambiguation (WSD). VWSD helps tackle lexical ambiguity in vision-language tasks. While conventional WSD depends only on text and lexical resources, VWSD uses visual cues to find the right meaning of ambiguous words with minimal text input. The review looks at developments from early multimodal fusion methods to new frameworks that use contrastive models like CLIP, diffusion-based text-to-image generation, and large language model (LLM) support. Studies from 2016 to 2025 are examined to show the growth of VWSD through feature-based, graph-based, and contrastive embedding techniques. It focuses on prompt engineering, fine-tuning, and adapting to multiple languages. Quantitative results show that CLIP-based fine-tuned models and LLM-enhanced VWSD systems consistently perform better than zero-shot baselines, achieving gains of up to 6-8\\% in Mean Reciprocal Rank (MRR). However, challenges still exist, such as limitations in context, model bias toward common meanings, a lack of multilingual datasets, and the need for better evaluation frameworks. The analysis highlights the growing overlap of CLIP alignment, diffusion generation, and LLM reasoning as the future path for strong, context-aware, and multilingual disambiguation systems.",
+ "primary": "cs.CL"
+}

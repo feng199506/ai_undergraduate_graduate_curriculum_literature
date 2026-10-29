@@ -1,0 +1,16 @@
+{
+ "id": "2506.11591",
+ "title": "Retrieval-Augmented Code Review Comment Generation",
+ "authors": [
+  "Hyunsun Hong",
+  "Jongmoon Baik"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 1,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automated code review comment generation (RCG) aims to assist developers by automatically producing natural language feedback for code changes. Existing approaches are primarily either generation-based, using pretrained language models, or information retrieval-based (IR), reusing comments from similar past examples. While generation-based methods leverage code-specific pretraining on large code-natural language corpora to learn semantic relationships between code and natural language, they often struggle to generate low-frequency but semantically important tokens due to their probabilistic nature. In contrast, IR-based methods excel at recovering such rare tokens by copying from existing examples but lack flexibility in adapting to new code contexts-for example, when input code contains identifiers or structures not found in the retrieval database. To bridge the gap between generation-based and IR-based methods, this work proposes to leverage retrieval-augmented generation (RAG) for RCG by conditioning pretrained language models on retrieved code-review exemplars. By providing relevant examples that illustrate how similar code has been previously reviewed, the model is better guided to generate accurate review comments. Our evaluation on the Tufano et al. benchmark shows that RAG-based RCG outperforms both generation-based and IR-based RCG. It achieves up to +1.67% higher exact match and +4.25% higher BLEU scores compared to generation-based RCG. It also improves the generation of low-frequency ground-truth tokens by up to 24.01%. We additionally find that performance improves as the number of retrieved exemplars increases.",
+ "primary": "cs.SE"
+}

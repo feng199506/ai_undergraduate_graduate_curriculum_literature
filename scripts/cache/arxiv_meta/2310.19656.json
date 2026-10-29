@@ -1,0 +1,25 @@
+{
+ "id": "2310.19656",
+ "title": "Domain Generalization in Computational Pathology: Survey and Guidelines",
+ "authors": [
+  "Mostafa Jahanifar",
+  "Manahil Raza",
+  "Kesi Xu",
+  "Trinh Vuong",
+  "Rob Jewsbury",
+  "Adam Shephard",
+  "Neda Zamanitajeddin",
+  "Jin Tae Kwak",
+  "Shan E Ahmed Raza",
+  "Fayyaz Minhas",
+  "Nasir Rajpoot"
+ ],
+ "v1_date": "2023-10-30",
+ "latest_version": 1,
+ "latest_date": "2023-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended Version",
+ "abstract": "Deep learning models have exhibited exceptional effectiveness in Computational Pathology (CPath) by tackling intricate tasks across an array of histology image analysis applications. Nevertheless, the presence of out-of-distribution data (stemming from a multitude of sources such as disparate imaging devices and diverse tissue preparation methods) can cause \\emph{domain shift} (DS). DS decreases the generalization of trained models to unseen datasets with slightly different data distributions, prompting the need for innovative \\emph{domain generalization} (DG) solutions. Recognizing the potential of DG methods to significantly influence diagnostic and prognostic models in cancer studies and clinical practice, we present this survey along with guidelines on achieving DG in CPath. We rigorously define various DS types, systematically review and categorize existing DG approaches and resources in CPath, and provide insights into their advantages, limitations, and applicability. We also conduct thorough benchmarking experiments with 28 cutting-edge DG algorithms to address a complex DG problem. Our findings suggest that careful experiment design and CPath-specific Stain Augmentation technique can be very effective. However, there is no one-size-fits-all solution for DG in CPath. Therefore, we establish clear guidelines for detecting and managing DS depending on different scenarios. While most of the concepts, guidelines, and recommendations are given for applications in CPath, we believe that they are applicable to most medical image analysis tasks as well.",
+ "primary": "eess.IV"
+}

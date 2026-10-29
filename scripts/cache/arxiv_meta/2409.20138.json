@@ -1,0 +1,16 @@
+{
+ "id": "2409.20138",
+ "title": "Constraint Guided Model Quantization of Neural Networks",
+ "authors": [
+  "Quinten Van Baelen",
+  "Peter Karsmakers"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 2,
+ "latest_date": "2025-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 8 tables, 1 figure",
+ "abstract": "Deploying neural networks on the edge has become increasingly important as deep learning is being applied in an increasing amount of applications. At the edge computing hardware typically has limited resources disallowing to run neural networks with high complexity. To reduce the complexity of neural networks a wide range of quantization methods have been proposed in recent years. This work proposes Constraint Guided Model Quantization (CGMQ), which is a quantization aware training algorithm that uses an upper bound on the computational resources and reduces the bit-widths of the parameters of the neural network. CGMQ does not require the tuning of a hyperparameter to result in a mixed precision neural network that satisfies the predefined computational cost constraint, while prior work does. It is shown on MNIST and CIFAR10 that the performance of CGMQ is competitive with state-of-the-art quantization aware training algorithms, while guaranteeing the satisfaction of an upper bound on the computational complexity defined by the computational resources of the on edge hardware.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2506.04619",
+ "title": "Deep Learning Reforms Image Matching: A Survey and Outlook",
+ "authors": [
+  "Shihua Zhang",
+  "Zizhuo Li",
+  "Kaining Zhang",
+  "Yifan Lu",
+  "Yuxin Deng",
+  "Linfeng Tang",
+  "Xingyu Jiang",
+  "Hao Zhang",
+  "Jiayi Ma"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 2,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 9 figures. Substantially expanded survey with updated references and experimental evaluations, including matching accuracy assessment and 3D reconstruction",
+ "abstract": "Image matching, which establishes correspondences between two images to recover 3D structure and camera geometry, is a cornerstone of computer vision and underpins a wide range of applications, including visual localization, 3D reconstruction, and simultaneous localization and mapping (SLAM). Traditional pipelines, composed of a detector-descriptor, a feature matcher, an outlier filter, and a geometric estimator, falter in challenging scenarios. Recent advances in deep learning have substantially improved both their robustness and accuracy. This survey reviews how deep learning has progressively transformed the classical image matching pipeline. Our taxonomy is aligned with the traditional pipeline and covers two aspects: i) replacing individual steps with learnable alternatives, including learnable detector-descriptors, outlier filters, and geometric estimators; and ii) merging multiple steps into end-to-end learnable modules, including middle-end sparse matchers, end-to-end semi-dense/dense matchers, and pose regressors. We first examine the design principles, advantages, and limitations of both aspects, and then benchmark representative methods on relative pose estimation, homography estimation, matching accuracy assessment, visual localization, and 3D reconstruction. Finally, we discuss open challenges and directions for future research. By systematically categorizing and evaluating learning-based methods, this survey offers a clear overview of how image matching is evolving and where further progress is needed. The project repository is available at https://github.com/ZizhuoLi/awesome-image-matching-survey.",
+ "primary": "cs.CV"
+}

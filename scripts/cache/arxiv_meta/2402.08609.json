@@ -1,0 +1,23 @@
+{
+ "id": "2402.08609",
+ "title": "Mixtures of Experts Unlock Parameter Scaling for Deep RL",
+ "authors": [
+  "Johan Obando-Ceron",
+  "Ghada Sokar",
+  "Timon Willi",
+  "Clare Lyle",
+  "Jesse Farebrother",
+  "Jakob Foerster",
+  "Gintare Karolina Dziugaite",
+  "Doina Precup",
+  "Pablo Samuel Castro"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 3,
+ "latest_date": "2024-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The recent rapid progress in (self) supervised learning models is in large part predicted by empirical scaling laws: a model's performance scales proportionally to its size. Analogous scaling laws remain elusive for reinforcement learning domains, however, where increasing the parameter count of a model often hurts its final performance. In this paper, we demonstrate that incorporating Mixture-of-Expert (MoE) modules, and in particular Soft MoEs (Puigcerver et al., 2023), into value-based networks results in more parameter-scalable models, evidenced by substantial performance increases across a variety of training regimes and model sizes. This work thus provides strong empirical evidence towards developing scaling laws for reinforcement learning.",
+ "primary": "cs.LG"
+}

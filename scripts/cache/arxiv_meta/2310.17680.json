@@ -1,0 +1,20 @@
+{
+ "id": "2310.17680",
+ "title": "CodeFusion: A Pre-trained Diffusion Model for Code Generation",
+ "authors": [
+  "Mukul Singh",
+  "José Cambronero",
+  "Sumit Gulwani",
+  "Vu Le",
+  "Carina Negreanu",
+  "Gust Verbruggen"
+ ],
+ "v1_date": "2023-10-26",
+ "latest_version": 3,
+ "latest_date": "2023-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Contains inappropriately sourced conjecture of OpenAI's ChatGPT parameter count from www.forbes.com/sites/forbestechcouncil/2023/02/17/is-bigger-better-why-the-chatgpt-vs-gpt-3-vs-gpt-4-battle-is-just-a-family-chat, a citation which was omitted. The authors do not have direct knowledge or verification of this information, and relied solely on this article, which may lead to public confusion",
+ "abstract": "Imagine a developer who can only change their last line of code, how often would they have to start writing a function from scratch before it is correct? Auto-regressive models for code generation from natural language have a similar limitation: they do not easily allow reconsidering earlier tokens generated. We introduce CodeFusion, a pre-trained diffusion code generation model that addresses this limitation by iteratively denoising a complete program conditioned on the encoded natural language. We evaluate CodeFusion on the task of natural language to code generation for Bash, Python, and Microsoft Excel conditional formatting (CF) rules. Experiments show that CodeFusion (75M parameters) performs on par with state-of-the-art auto-regressive systems (350M-175B parameters) in top-1 accuracy and outperforms them in top-3 and top-5 accuracy due to its better balance in diversity versus quality.",
+ "primary": "cs.SE"
+}

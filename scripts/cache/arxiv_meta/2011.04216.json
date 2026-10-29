@@ -1,0 +1,16 @@
+{
+ "id": "2011.04216",
+ "title": "DoWhy: An End-to-End Library for Causal Inference",
+ "authors": [
+  "Amit Sharma",
+  "Emre Kiciman"
+ ],
+ "v1_date": "2020-11-09",
+ "latest_version": 1,
+ "latest_date": "2020-11-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages",
+ "abstract": "In addition to efficient statistical estimators of a treatment's effect, successful application of causal inference requires specifying assumptions about the mechanisms underlying observed data and testing whether they are valid, and to what extent. However, most libraries for causal inference focus only on the task of providing powerful statistical estimators. We describe DoWhy, an open-source Python library that is built with causal assumptions as its first-class citizens, based on the formal framework of causal graphs to specify and test causal assumptions. DoWhy presents an API for the four steps common to any causal analysis---1) modeling the data using a causal graph and structural assumptions, 2) identifying whether the desired effect is estimable under the causal model, 3) estimating the effect using statistical estimators, and finally 4) refuting the obtained estimate through robustness checks and sensitivity analyses. In particular, DoWhy implements a number of robustness checks including placebo tests, bootstrap tests, and tests for unoberved confounding. DoWhy is an extensible library that supports interoperability with other implementations, such as EconML and CausalML for the the estimation step. The library is available at https://github.com/microsoft/dowhy",
+ "primary": "stat.ME"
+}

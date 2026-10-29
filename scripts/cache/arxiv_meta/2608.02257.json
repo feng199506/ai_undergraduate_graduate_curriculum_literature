@@ -1,0 +1,23 @@
+{
+ "id": "2608.02257",
+ "title": "Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation",
+ "authors": [
+  "Donglin Yang",
+  "Haoran Chen",
+  "Xingyu Chen",
+  "Lixing Liu",
+  "Manyi Li",
+  "Changhe Tu",
+  "Ke Xu",
+  "Xiaojian Ma",
+  "Si Liu"
+ ],
+ "v1_date": "2026-08-03",
+ "latest_version": 1,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures",
+ "abstract": "Mobile manipulation is a key capability for embodied intelligence, enabling robots to accomplish complex multi-stage tasks in open-world environments. However, mobile manipulation poses two key challenges for vision-language-action (VLA) policies: At the data level, the efficient collection of high-quality whole-body demonstrations demands the coordinated control of both the mobile base and the robotic arms; at the model level, existing VLA models predominantly rely on local camera observations, whose limited field of view hinders global spatial understanding. To address these challenges, we develop a whole-body teleoperation system and a panoramic-aware VLA policy. The system enables coordinated control of a wheeled bimanual robot through a single VR interface and supports the acquisition of a real-world mobile manipulation dataset comprising 5.5 hours of multimodal demonstrations. Building upon this dataset, we propose PanoVLA, a panorama-aware vision-language-action policy for mobile bimanual manipulation. Built upon a Mixture-of-Transformers architecture, PanoVLA introduces global spatial context through dedicated panorama encoding and fusion modules, enabling effective integration of panoramic observations with language instructions and robot states for action generation. Evaluation on four real-world mobile manipulation tasks demonstrates that PanoVLA achieves an average stage completion rate of 91.3\\% and an end-to-end success rate of 73.4\\%, substantially outperforming local-view baselines. These results demonstrate that incorporating panoramic spatial context improves spatial understanding and closed-loop manipulation performance in mobile robots.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.19932",
+ "title": "\"Newspaper Eat\" Means \"Not Tasty\": A Taxonomy and Benchmark for Coded Language in Real-World Chinese Online Reviews",
+ "authors": [
+  "Ruyuan Wan",
+  "Changye Li",
+  "Ting-Hao 'Kenneth' Huang"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 2,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Coded language is an important part of human communication. It refers to cases where users intentionally encode meaning so that the surface text differs from the intended meaning and must be decoded to be understood. Current language models handle coded language poorly. Progress has been limited by the lack of real-world datasets and clear taxonomies. This paper introduces CodedLang, a dataset of 7,744 Chinese Google Maps reviews, including 900 reviews with span-level annotations of coded language. We developed a seven-class taxonomy that captures common encoding strategies, including phonetic, orthographic, and cross-lingual substitutions. We benchmarked language models on coded language detection, classification, and review rating prediction. Results show that even strong models can fail to identify or understand coded language. Because many coded expressions rely on pronunciation-based strategies, we further conducted a phonetic analysis of coded and decoded forms. Our code and dataset are publicly available. Together, our results highlight coded language as an important and underexplored challenge for real-world NLP systems.",
+ "primary": "cs.CL"
+}

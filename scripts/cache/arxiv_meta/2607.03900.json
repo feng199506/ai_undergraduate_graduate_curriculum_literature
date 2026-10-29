@@ -1,0 +1,18 @@
+{
+ "id": "2607.03900",
+ "title": "USE: A Unified Self-Ensembling Framework for Test-Time Prompt Tuning",
+ "authors": [
+  "Siru Jiang",
+  "Jian Liang",
+  "Ran He",
+  "Tieniu Tan"
+ ],
+ "v1_date": "2026-07-04",
+ "latest_version": 1,
+ "latest_date": "2026-07-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026",
+ "abstract": "Test-time adaptation (TTA) has emerged as a popular paradigm for improving the performance of vision-language models (e.g., CLIP) on downstream tasks. Among existing CLIP-based TTA methods, Test-Time Prompt Tuning (TPT) is a pioneering work that optimizes textual prompts using multiple test-time augmentations and remains a strong baseline to date. In this work, we revisit TPT and reveal that its optimization can be interpreted as implicitly learning from self-generated pseudo labels. Building on this perspective, we propose a unified self-ensembling framework (USE) that ensures consistency between the optimization and inference stages. During optimization, we introduce a simple yet effective self-ensembling (SE) strategy that emphasizes the test image itself over its augmented views adaptively to obtain more reliable pseudo labels. To fully exploit the potential of augmentations, we further apply the same strategy at inference time, unifying the objectives of both stages. Notably, SE can also act as a lightweight optimization-free TTA method. Extensive experiments across multiple datasets demonstrate that SE and USE outperform their counterparts, respectively. Furthermore, SE yields consistent performance gains when integrated with existing TTA methods. The code is available at https://github.com/sirujiang/USE.",
+ "primary": "cs.CV"
+}

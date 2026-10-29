@@ -1,0 +1,17 @@
+{
+ "id": "2605.17058",
+ "title": "Learning Multi-Timescale Abstractions for Hierarchical Combinatorial Planning",
+ "authors": [
+  "Vivienne Huiling Wang",
+  "Tinghuai Wang",
+  "Joni Pajarinen"
+ ],
+ "v1_date": "2026-05-16",
+ "latest_version": 1,
+ "latest_date": "2026-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 8 figures, 23 tables",
+ "abstract": "The combination of exponentially large action spaces, stochastic dynamics, and long-horizon decision-making under limited resources makes Sequential Stochastic Combinatorial Optimization (SSCO) particularly challenging for reinforcement learning. Hierarchical Reinforcement Learning (HRL) offers a natural decomposition, but it places the high-level policy in a Semi-Markov Decision Process (SMDP) where actions have variable durations, making it difficult to learn a world model that is suitable for planning. We introduce a model-based hierarchical framework for sequential stochastic combinatorial decision-making that directly addresses this issue. Our method combines a latent-space tree-search planner with an SMDP-aware world model for variable-duration decisions. A multi-timescale objective structures the latent dynamics so that transition magnitudes reflect the effective temporal scales of abstract actions, enabling efficient lookahead under adaptive temporal abstraction. We further learn a subgoal-conditioned budget policy jointly with the world model to support context-aware resource allocation. Across challenging SSCO benchmarks, our method outperforms strong baselines.",
+ "primary": "cs.LG"
+}

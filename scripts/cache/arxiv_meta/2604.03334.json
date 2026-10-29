@@ -1,0 +1,16 @@
+{
+ "id": "2604.03334",
+ "title": "Bridging the Dimensionality Gap: A Taxonomy and Survey of 2D Vision Model Adaptation for 3D Analysis",
+ "authors": [
+  "Akshat Pandya",
+  "Bhavuk Jain"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 1,
+ "latest_date": "2026-04-03",
+ "journal_ref": "Proceedings of the 21st International Conference on Computer Vision Theory and Applications - Volume 3: VISAPP 2026; ISBN 978-989-758-804-4; ISSN 2184-4321, SciTePress, pages 353-364",
+ "doi": "10.5220/0014289900004084",
+ "comment": "VISAPP 2026",
+ "abstract": "The remarkable success of Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) in 2D vision has spurred significant research in extending these architectures to the complex domain of 3D analysis. Yet, a core challenge arises from a fundamental dichotomy between the regular, dense grids of 2D images and the irregular, sparse nature of 3D data such as point clouds and meshes. This survey provides a comprehensive review and a unified taxonomy of adaptation strategies that bridge this gap, classifying them into three families: (1) Data-centric methods that project 3D data into 2D formats to leverage off-the-shelf 2D models, (2) Architecture-centric methods that design intrinsic 3D networks, and (3) Hybrid methods, which synergistically combine the two modeling paradigms to benefit from both rich visual priors of large 2D datasets and explicit geometric reasoning of 3D models. Through this framework, we qualitatively analyze the fundamental trade-offs between these families concerning computational complexity, reliance on large-scale pre-training, and the preservation of geometric inductive biases. We discuss key open challenges and outline promising future research directions, including the development of 3D foundation models, advancements in self-supervised learning (SSL) for geometric data, and the deeper integration of multi-modal signals.",
+ "primary": "cs.CV"
+}

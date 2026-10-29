@@ -1,0 +1,18 @@
+{
+ "id": "2509.19020",
+ "title": "Investigating Test-Time Scaling with Reranking for Machine Translation",
+ "authors": [
+  "Shaomu Tan",
+  "Ryosuke Mitani",
+  "Ritvik Choudhary",
+  "Toshiyuki Sekiya"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 1,
+ "latest_date": "2025-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scaling model parameters has become the de facto strategy for improving NLP systems, but it comes with substantial computational costs. Test-Time Scaling (TTS) offers an alternative by allocating more computation at inference: generating multiple candidates and selecting the best. While effective in tasks such as mathematical reasoning, TTS has not been systematically explored for machine translation (MT). In this paper, we present the first systematic study of TTS for MT, investigating a simple but practical best-of-N framework on WMT24 benchmarks. Our experiments cover six high-resource and one low-resource language pairs, five model sizes (3B-72B), and various TTS compute budget (N up to 1024). Our results show that a) For high-resource languages, TTS generally improves translation quality according to multiple neural MT evaluation metrics, and our human evaluation confirms these gains; b) Augmenting smaller models with large $N$ can match or surpass larger models at $N{=}1$ with more compute cost; c) Under fixed compute budgets, larger models are typically more efficient, and TTS can degrade quality due to metric blind spots in low-resource cases.",
+ "primary": "cs.CL"
+}

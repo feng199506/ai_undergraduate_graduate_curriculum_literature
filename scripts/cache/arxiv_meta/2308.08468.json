@@ -1,0 +1,18 @@
+{
+ "id": "2308.08468",
+ "title": "An Expert's Guide to Training Physics-informed Neural Networks",
+ "authors": [
+  "Sifan Wang",
+  "Shyam Sankaran",
+  "Hanwen Wang",
+  "Paris Perdikaris"
+ ],
+ "v1_date": "2023-08-16",
+ "latest_version": 1,
+ "latest_date": "2023-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 25 figures, 13 tables",
+ "abstract": "Physics-informed neural networks (PINNs) have been popularized as a deep learning framework that can seamlessly synthesize observational data and partial differential equation (PDE) constraints. Their practical effectiveness however can be hampered by training pathologies, but also oftentimes by poor choices made by users who lack deep learning expertise. In this paper we present a series of best practices that can significantly improve the training efficiency and overall accuracy of PINNs. We also put forth a series of challenging benchmark problems that highlight some of the most prominent difficulties in training PINNs, and present comprehensive and fully reproducible ablation studies that demonstrate how different architecture choices and training strategies affect the test accuracy of the resulting models. We show that the methods and guiding principles put forth in this study lead to state-of-the-art results and provide strong baselines that future studies should use for comparison purposes. To this end, we also release a highly optimized library in JAX that can be used to reproduce all results reported in this paper, enable future research studies, as well as facilitate easy adaptation to new use-case scenarios.",
+ "primary": "cs.LG"
+}

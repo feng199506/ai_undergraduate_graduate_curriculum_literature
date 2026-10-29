@@ -1,0 +1,20 @@
+{
+ "id": "2605.01322",
+ "title": "Benchmarking LightGBM and BiLSTM for Sentiment Analysis on Indonesian E-Commerce Reviews",
+ "authors": [
+  "Lidia Natasyah Marpaung",
+  "Vania Claresta",
+  "Iqfina Haula Halika",
+  "Luluk Muthoharoh",
+  "Ardika Satria",
+  "Martin Clinton Tosima Manullang"
+ ],
+ "v1_date": "2026-05-02",
+ "latest_version": 1,
+ "latest_date": "2026-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 3 figures, 2 tables. The paper compares LightGBM, Logistic Regression, and linear SVM against a BiLSTM model for Indonesian e-commerce sentiment analysis using a 15,000-sample dataset from Hugging Face",
+ "abstract": "This study presents a comparative analysis between two primary approaches in Natural Language Processing (NLP): Machine Learning (ML) utilizing the PyCaret AutoML framework, and Deep Learning (DL). The evaluation is conducted on a sentiment analysis task using an Indonesian e-commerce review dataset sourced from Hugging Face. The dataset, consisting of 15,000 samples, is partitioned into training, validation, and testing sets. The ML experiments compare LightGBM, Logistic Regression, and Support Vector Machine (SVM) algorithms, whereas the DL experiment implements a Bidirectional Long Short-Term Memory (BiLSTM) architecture. The experimental results demonstrate that the BiLSTM model outperforms all ML models, achieving an accuracy of 98.87\\% and an F1-Score of 98.87\\%. Meanwhile, LightGBM emerges as the best-performing ML model with an accuracy of 98.23\\% in a highly efficient training time. This research proves that the BiLSTM architecture is highly capable of capturing the sequential context of Indonesian review texts, making it the superior model for this specific classification task.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.13668",
+ "title": "PeerQA: A Scientific Question Answering Dataset from Peer Reviews",
+ "authors": [
+  "Tim Baumgärtner",
+  "Ted Briscoe",
+  "Iryna Gurevych"
+ ],
+ "v1_date": "2025-02-19",
+ "latest_version": 1,
+ "latest_date": "2025-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NAACL 2025",
+ "abstract": "We present PeerQA, a real-world, scientific, document-level Question Answering (QA) dataset. PeerQA questions have been sourced from peer reviews, which contain questions that reviewers raised while thoroughly examining the scientific article. Answers have been annotated by the original authors of each paper. The dataset contains 579 QA pairs from 208 academic articles, with a majority from ML and NLP, as well as a subset of other scientific communities like Geoscience and Public Health. PeerQA supports three critical tasks for developing practical QA systems: Evidence retrieval, unanswerable question classification, and answer generation. We provide a detailed analysis of the collected dataset and conduct experiments establishing baseline systems for all three tasks. Our experiments and analyses reveal the need for decontextualization in document-level retrieval, where we find that even simple decontextualization approaches consistently improve retrieval performance across architectures. On answer generation, PeerQA serves as a challenging benchmark for long-context modeling, as the papers have an average size of 12k tokens. Our code and data is available at https://github.com/UKPLab/peerqa.",
+ "primary": "cs.CL"
+}

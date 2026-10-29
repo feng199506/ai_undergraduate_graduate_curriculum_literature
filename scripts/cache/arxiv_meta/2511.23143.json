@@ -1,0 +1,20 @@
+{
+ "id": "2511.23143",
+ "title": "Automated Generation of MDPs Using Logic Programming and LLMs for Robotic Applications",
+ "authors": [
+  "Enrico Saccon",
+  "Davide De Martini",
+  "Matteo Saveriano",
+  "Edoardo Lamon",
+  "Luigi Palopoli",
+  "Marco Roveri"
+ ],
+ "v1_date": "2025-11-28",
+ "latest_version": 1,
+ "latest_date": "2025-11-28",
+ "journal_ref": "IEEE Robotics and Automation Letters, vol. 11, no. 2, pp. 1770-1777, Feb. 2026",
+ "doi": "10.1109/lra.2025.3643276",
+ "comment": "9 pages, 11 figures, 2 tables, 2 algorithms, accepted for publication in IEEE Robotics and Automation Letters",
+ "abstract": "We present a novel framework that integrates Large Language Models (LLMs) with automated planning and formal verification to streamline the creation and use of Markov Decision Processes (MDP). Our system leverages LLMs to extract structured knowledge in the form of a Prolog knowledge base from natural language (NL) descriptions. It then automatically constructs an MDP through reachability analysis, and synthesises optimal policies using the Storm model checker. The resulting policy is exported as a state-action table for execution. We validate the framework in three human-robot interaction scenarios, demonstrating its ability to produce executable policies with minimal manual effort. This work highlights the potential of combining language models with formal methods to enable more accessible and scalable probabilistic planning in robotics.",
+ "primary": "cs.RO"
+}

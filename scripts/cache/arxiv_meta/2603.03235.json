@@ -1,0 +1,15 @@
+{
+ "id": "2603.03235",
+ "title": "The elbow statistic: Multiscale clustering statistical significance",
+ "authors": [
+  "Francisco J. Perez-Reche"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 2,
+ "latest_date": "2026-05-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 3 figures, 5 tables",
+ "abstract": "Selecting the number of clusters remains a fundamental challenge in unsupervised learning. Existing approaches typically focus on identifying a single \"optimal\" partition, often overlooking statistically meaningful structure present across multiple resolutions. We introduce ElbowSig, a general inferential framework for assessing clustering structure over a range of resolutions. The method formalizes the elbow heuristic by defining a normalized discrete curvature statistic based on the sequence of within-cluster heterogeneity values, and evaluates its significance relative to a null distribution of unstructured data. This yields hypothesis tests across resolutions, enabling simultaneous inference at multiple clustering scales. We derive the asymptotic behavior of the null statistic in both large-sample and high-dimensional regimes, characterizing its limiting form and variability. Because it depends only on the heterogeneity sequence, ElbowSig is compatible with a wide range of clustering algorithms, including hard, fuzzy, and model-based methods. Experiments on synthetic and real datasets show that the procedure controls Type-I error under unstructured data while providing power to detect multiscale organization, revealing structure that is often missed by single-resolution selection criteria.",
+ "primary": "stat.ML"
+}

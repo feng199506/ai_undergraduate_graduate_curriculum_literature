@@ -1,0 +1,22 @@
+{
+ "id": "2507.14969",
+ "title": "Think Like an Engineer: A Neuro-Symbolic Collaboration Agent for Generative Software Requirements Elicitation and Self-Review",
+ "authors": [
+  "Sai Zhang",
+  "Zhenchang Xing",
+  "Jieshan Chen",
+  "Dehai Zhao",
+  "Zizhong Zhu",
+  "Xiaowang Zhang",
+  "Zhiyong Feng",
+  "Xiaohong Li"
+ ],
+ "v1_date": "2025-07-20",
+ "latest_version": 1,
+ "latest_date": "2025-07-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The vision of End-User Software Engineering (EUSE) is to empower non-professional users with full control over the software development lifecycle. It aims to enable users to drive generative software development using only natural language requirements. However, since end-users often lack knowledge of software engineering, their requirement descriptions are frequently ambiguous, raising significant challenges to generative software development. Although existing approaches utilize structured languages like Gherkin to clarify user narratives, they still struggle to express the causal logic between preconditions and behavior actions. This paper introduces RequireCEG, a requirement elicitation and self-review agent that embeds causal-effect graphs (CEGs) in a neuro-symbolic collaboration architecture. RequireCEG first uses a feature tree to analyze user narratives hierarchically, clearly defining the scope of software components and their system behavior requirements. Next, it constructs the self-healing CEGs based on the elicited requirements, capturing the causal relationships between atomic preconditions and behavioral actions. Finally, the constructed CEGs are used to review and optimize Gherkin scenarios, ensuring consistency between the generated Gherkin requirements and the system behavior requirements elicited from user narratives. To evaluate our method, we created the RGPair benchmark dataset and conducted extensive experiments. It achieves an 87% coverage rate and raises diversity by 51.88%.",
+ "primary": "cs.SE"
+}

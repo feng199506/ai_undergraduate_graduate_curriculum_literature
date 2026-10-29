@@ -1,0 +1,33 @@
+{
+ "id": "2605.19597",
+ "title": "HyperLogic: A Hard, Forward-Authored Chinese Logical Reasoning Benchmark with Execution-Derived Answers",
+ "authors": [
+  "Ming Zhang",
+  "Qiyuan Peng",
+  "Yinxi Wei",
+  "Yujiong Shen",
+  "Kexin Tan",
+  "Yuhui Wang",
+  "Zhenghao Xiang",
+  "Junjie Ye",
+  "Zhangyue Yin",
+  "Zhiheng Xi",
+  "Shihan Dou",
+  "Weikang Wang",
+  "Yuhao Zhang",
+  "Tao Gui",
+  "Ruizhi Yang",
+  "Qi Zhang",
+  "Xuanjing Huang",
+  "Alex Chen",
+  "Maxm Pan"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 2,
+ "latest_date": "2026-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages. v2: substantially revised and retitled (v1 title: \"LLMEval-Logic: A Solver-Verified Chinese Benchmark for Logical Reasoning of LLMs with Adversarial Hardening\"); new construction pipeline, data tiers, and experiments",
+ "abstract": "Existing logic benchmarks primarily measure models' ability to answer reasoning questions directly. Scalable benchmarks often generate text from formal structures, which makes answers easy to compute but fixes the formalization before the problem is written. Forward construction preserves the challenge of finding a faithful formalization, yet makes difficulty and answer reliability harder to control. We introduce HyperLogic, a forward-construction pipeline that separates problem authoring from answer generation. A multi-agent workflow hardens undergraduate-authored Chinese seeds without solving them; two agents from different model families independently translate each finished item into executable finite-domain models; their encodings and solver-derived answers undergo layered, agent-assisted adjudication under human-expert oversight. HyperLogic-Base contains 195 items and 922 sub-questions and separates seven frontier models by 33.0 percentage points in strict item accuracy (44.6-77.6%). HyperLogic-Hard contains 100 items with larger, coupled search spaces, on which no model exceeds 16% accuracy in direct answering. We also use Hard to evaluate agents' ability to formalize and solve problems with tools, comparing a code sandbox alone with one that includes our logic modeling library. The sandbox improves every model by 16.7-40.1 points; adding the library helps five models and hurts two. These results highlight the difficulty of faithful formalization even with tool access.",
+ "primary": "cs.CL"
+}

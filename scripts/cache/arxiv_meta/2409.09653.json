@@ -1,0 +1,18 @@
+{
+ "id": "2409.09653",
+ "title": "KAN v.s. MLP for Offline Reinforcement Learning",
+ "authors": [
+  "Haihong Guo",
+  "Fengxin Li",
+  "Jiao Li",
+  "Hongyan Liu"
+ ],
+ "v1_date": "2024-09-15",
+ "latest_version": 1,
+ "latest_date": "2024-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages,2 figures",
+ "abstract": "Kolmogorov-Arnold Networks (KAN) is an emerging neural network architecture in machine learning. It has greatly interested the research community about whether KAN can be a promising alternative of the commonly used Multi-Layer Perceptions (MLP). Experiments in various fields demonstrated that KAN-based machine learning can achieve comparable if not better performance than MLP-based methods, but with much smaller parameter scales and are more explainable. In this paper, we explore the incorporation of KAN into the actor and critic networks for offline reinforcement learning (RL). We evaluated the performance, parameter scales, and training efficiency of various KAN and MLP based conservative Q-learning (CQL) on the the classical D4RL benchmark for offline RL. Our study demonstrates that KAN can achieve performance close to the commonly used MLP with significantly fewer parameters. This provides us an option to choose the base networks according to the requirements of the offline RL tasks.",
+ "primary": "cs.LG"
+}

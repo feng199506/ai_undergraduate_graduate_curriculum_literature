@@ -1,0 +1,18 @@
+{
+ "id": "2508.03317",
+ "title": "Architectural Insights into Knowledge Distillation for Object Detection: A Comprehensive Review",
+ "authors": [
+  "Mahdi Golizadeh",
+  "Nassibeh Golizadeh",
+  "Mohammad Ali Keyvanrad",
+  "Hossein Shirazi"
+ ],
+ "v1_date": "2025-08-05",
+ "latest_version": 1,
+ "latest_date": "2025-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 11 figures, This paper was submitted to IEEE Transactions on Neural Networks and Learning Systems",
+ "abstract": "Object detection has achieved remarkable accuracy through deep learning, yet these improvements often come with increased computational cost, limiting deployment on resource-constrained devices. Knowledge Distillation (KD) provides an effective solution by enabling compact student models to learn from larger teacher models. However, adapting KD to object detection poses unique challenges due to its dual objectives-classification and localization-as well as foreground-background imbalance and multi-scale feature representation. This review introduces a novel architecture-centric taxonomy for KD methods, distinguishing between CNN-based detectors (covering backbone-level, neck-level, head-level, and RPN/RoI-level distillation) and Transformer-based detectors (including query-level, feature-level, and logit-level distillation). We further evaluate representative methods using the MS COCO and PASCAL VOC datasets with mAP@0.5 as performance metric, providing a comparative analysis of their effectiveness. The proposed taxonomy and analysis aim to clarify the evolving landscape of KD in object detection, highlight current challenges, and guide future research toward efficient and scalable detection systems.",
+ "primary": "cs.CV"
+}

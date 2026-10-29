@@ -1,0 +1,16 @@
+{
+ "id": "2608.27472",
+ "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+ "authors": [
+  "Neville K. Kitson",
+  "Anthony Constantinou"
+ ],
+ "v1_date": "2026-08-19",
+ "latest_version": 1,
+ "latest_date": "2026-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted as a poster at Probabilistic Graphical Models (PGM) 2026 Conference",
+ "abstract": "Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose combining these complementary sources through a novel representation, termed Probabilistic Dependency Graphs (PDGs). In a PDG, each edge is associated with a distribution over directed, undirected, and absent states, enabling fusion via weighted averaging. We evaluate this approach on 26 benchmark networks, combining ensembles of three BNSL algorithms (FGES, Tabu, PC) with three LLMs (Gemini, Claude, GPT) across multiple prompts and random seeds. A simple 50/50 fusion improves F1 over the better of either source alone in 22 of 26 networks, with a statistically significant mean improvement of $0.056$ $(p<0.001)$. Analysis reveals that the two sources play complementary roles: BNSL contributes a high-recall edge skeleton (80\\% vs 60\\% for LLM), while LLM contributes accurate edge orientation (96\\% vs 77\\% for BNSL). Our results show that representing both sources as probabilistic uncertainty over edge existence and orientation is a practical and effective way to improve causal graph accuracy.",
+ "primary": "cs.AI"
+}

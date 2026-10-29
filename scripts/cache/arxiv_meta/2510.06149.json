@@ -1,0 +1,17 @@
+{
+ "id": "2510.06149",
+ "title": "Implicit Updates for Average-Reward Temporal Difference Learning",
+ "authors": [
+  "Hwanwoo Kim",
+  "Dongkyu Derek Cho",
+  "Eric Laber"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 1,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal difference (TD) learning is a cornerstone of reinforcement learning. In the average-reward setting, standard TD($λ$) is highly sensitive to the choice of step-size and thus requires careful tuning to maintain numerical stability. We introduce average-reward implicit TD($λ$), which employs an implicit fixed point update to provide data-adaptive stabilization while preserving the per iteration computational complexity of standard average-reward TD($λ$). In contrast to prior finite-time analyses of average-reward TD($λ$), which impose restrictive step-size conditions, we establish finite-time error bounds for the implicit variant under substantially weaker step-size requirements. Empirically, average-reward implicit TD($λ$) operates reliably over a much broader range of step-sizes and exhibits markedly improved numerical stability. This enables more efficient policy evaluation and policy learning, highlighting its effectiveness as a robust alternative to average-reward TD($λ$).",
+ "primary": "stat.ML"
+}

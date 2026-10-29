@@ -1,0 +1,20 @@
+{
+ "id": "2402.13777",
+ "title": "Deep Generative Models for Offline Policy Learning: Tutorial, Survey, and Perspectives on Future Directions",
+ "authors": [
+  "Jiayu Chen",
+  "Bhargav Ganguly",
+  "Yang Xu",
+  "Yongsheng Mei",
+  "Tian Lan",
+  "Vaneet Aggarwal"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 5,
+ "latest_date": "2024-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "We restructured the paper and added more discussion",
+ "abstract": "Deep generative models (DGMs) have demonstrated great success across various domains, particularly in generating texts, images, and videos using models trained from offline data. Similarly, data-driven decision-making and robotic control also necessitate learning a generator function from the offline data to serve as the strategy or policy. In this case, applying deep generative models in offline policy learning exhibits great potential, and numerous studies have explored in this direction. However, this field still lacks a comprehensive review and so developments of different branches are relatively independent. In this paper, we provide the first systematic review on the applications of deep generative models for offline policy learning. In particular, we cover five mainstream deep generative models, including Variational Auto-Encoders, Generative Adversarial Networks, Normalizing Flows, Transformers, and Diffusion Models, and their applications in both offline reinforcement learning (offline RL) and imitation learning (IL). Offline RL and IL are two main branches of offline policy learning and are widely-adopted techniques for sequential decision-making. Notably, for each type of DGM-based offline policy learning, we distill its fundamental scheme, categorize related works based on the usage of the DGM, and sort out the development process of algorithms in that field. Subsequent to the main content, we provide in-depth discussions on deep generative models and offline policy learning as a summary, based on which we present our perspectives on future research directions. This work offers a hands-on reference for the research progress in deep generative models for offline policy learning, and aims to inspire improved DGM-based offline RL or IL algorithms. For convenience, we maintain a paper list on https://github.com/LucasCJYSDL/DGMs-for-Offline-Policy-Learning.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2511.08875",
+ "title": "Matrices perturbed by random noise: The accuracy of low-rank approximation",
+ "authors": [
+  "Phuc Tran",
+  "Van Vu"
+ ],
+ "v1_date": "2025-11-12",
+ "latest_version": 5,
+ "latest_date": "2026-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Let $A$ be an $m \\times n$ matrix with rank $r$ and singular value decomposition $A = \\sum _{i=1}^r σ_i u_i v_i^\\top, $ where the $σ_i$ are its singular values, ordered decreasingly, and $u_i, v_i$ are the corresponding left and right singular vectors. For an integer $1 \\le p \\le r$, $A_p := \\sum_{i=1}^p σ_i u_i v_i^\\top$ is the best rank-$p$ approximation of $A$. In practice, one often chooses $p$ to be small, leading to the commonly used phrase ``low-rank approximation''. For a large data matrix $A$, one typically computes a rank-$p$ approximation $A_p$ for a suitably chosen small $p$, stores $A_p$, and uses it as input for further computations. The reduced dimension of $A_p$ enables faster computations and significant data compression. In practice, noise is inevitable. We often have access only to noisy data $\\tilde A = A + E$, where $E$ represents the noise. Consequently, the low-rank approximation used as input in many downstream tasks is $\\tilde A_p$, the best rank-$p$ approximation of $\\tilde A$, rather than $A_p$. Therefore, it is natural and important to estimate the error $ \\| \\tilde A_p - A_p \\|$. This error plays a critical role in assessing the accuracy of downstream procedures involving low-rank approximations of noisy inputs. The standard way to estimate this error is to use the Eckart--Young--Mirsky identity, which provides $$\\| \\tilde A_p -A_p\\| = O(σ_{p+1} + \\|E\\|).$$ A situation that occurs frequently in applications is that noise is random and $A$ has relatively low rank. In this situation, $σ_{p+1}$ often dominates $\\|E \\|$ by a large factor. Our main results in this paper show that in this situation, it is possible to improve the Eckart--Young--Mirsky bound by removing the term $σ_{p+1}$ completely or replacing it by a much smaller quantity.",
+ "primary": "math.NA"
+}

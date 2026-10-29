@@ -1,0 +1,17 @@
+{
+ "id": "2505.22209",
+ "title": "A Survey on Training-free Open-Vocabulary Semantic Segmentation",
+ "authors": [
+  "Naomi Kombol",
+  "Ivan Martinović",
+  "Siniša Šegvić"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 1,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semantic segmentation is one of the most fundamental tasks in image understanding with a long history of research, and subsequently a myriad of different approaches. Traditional methods strive to train models up from scratch, requiring vast amounts of computational resources and training data. In the advent of moving to open-vocabulary semantic segmentation, which asks models to classify beyond learned categories, large quantities of finely annotated data would be prohibitively expensive. Researchers have instead turned to training-free methods where they leverage existing models made for tasks where data is more easily acquired. Specifically, this survey will cover the history, nuance, idea development and the state-of-the-art in training-free open-vocabulary semantic segmentation that leverages existing multi-modal classification models. We will first give a preliminary on the task definition followed by an overview of popular model archetypes and then spotlight over 30 approaches split into broader research branches: purely CLIP-based, those leveraging auxiliary visual foundation models and ones relying on generative methods. Subsequently, we will discuss the limitations and potential problems of current research, as well as provide some underexplored ideas for future study. We believe this survey will serve as a good onboarding read to new researchers and spark increased interest in the area.",
+ "primary": "cs.CV"
+}

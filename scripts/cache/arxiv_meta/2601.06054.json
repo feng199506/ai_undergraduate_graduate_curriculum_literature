@@ -1,0 +1,17 @@
+{
+ "id": "2601.06054",
+ "title": "A Multi-Stage Workflow for the Review of Marketing Content with Reasoning Large Language Models",
+ "authors": [
+  "Alberto Purpura",
+  "Emily Chen",
+  "Swapnil Shinde"
+ ],
+ "v1_date": "2025-12-19",
+ "latest_version": 1,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reasoning Large Language Models (LLMs) have shown promising results when tasked with solving complex problems. In this paper, we propose and evaluate a multi-stage workflow that leverages the capabilities of fine-tuned reasoning LLMs to assist in the review process of marketing content, making sure they comply with a given list of requirements. The contributions of this paper are the following: (i) we present a novel approach -- that does not rely on any external knowledge representation -- for the automatic identification of compliance issues in textual content; (ii) compare the effectiveness of different fine-tuning strategies like Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO) in training models to solve this problem; (iii) we evaluate the effectiveness of training small LLMs to generate reasoning tokens before providing their final response; (iv) we evaluate how the choice and combinations of different reward functions affects the performance of a model trained with GRPO.",
+ "primary": "cs.CL"
+}

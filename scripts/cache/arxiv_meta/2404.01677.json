@@ -1,0 +1,21 @@
+{
+ "id": "2404.01677",
+ "title": "Towards Generalizable and Faithful Logic Reasoning over Natural Language via Resolution Refutation",
+ "authors": [
+  "Zhouhao Sun",
+  "Xiao Ding",
+  "Li Du",
+  "Bibo Cai",
+  "Jinglong Gao",
+  "Ting Liu",
+  "Qin Bing"
+ ],
+ "v1_date": "2024-04-02",
+ "latest_version": 2,
+ "latest_date": "2024-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "LREC-Coling 2024",
+ "abstract": "Large language models (LLMs) have achieved significant performance in various natural language reasoning tasks. However, they still struggle with performing first-order logic reasoning over formal logical theories expressed in natural language. This is because the previous LLMs-based reasoning systems have the theoretical incompleteness issue. As a result, it can only address a limited set of simple reasoning problems, which significantly decreases their generalization ability. To address this issue, we propose a novel framework, named Generalizable and Faithful Reasoner (GFaiR), which introduces the paradigm of resolution refutation. Resolution refutation has the capability to solve all first-order logic reasoning problems by extending reasoning rules and employing the principle of proof by contradiction, so our system's completeness can be improved by introducing resolution refutation. Experimental results demonstrate that our system outperforms previous works by achieving state-of-the-art performances in complex scenarios while maintaining performances in simple scenarios. Besides, we observe that GFaiR is faithful to its reasoning process.",
+ "primary": "cs.AI"
+}

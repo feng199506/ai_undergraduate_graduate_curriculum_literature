@@ -1,0 +1,17 @@
+{
+ "id": "2412.02546",
+ "title": "Fractional Order Distributed Optimization",
+ "authors": [
+  "Andrei Lixandru",
+  "Marcel van Gerven",
+  "Sergio Pequito"
+ ],
+ "v1_date": "2024-12-03",
+ "latest_version": 1,
+ "latest_date": "2024-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Distributed optimization is fundamental to modern machine learning applications like federated learning, but existing methods often struggle with ill-conditioned problems and face stability-versus-speed tradeoffs. We introduce fractional order distributed optimization (FrODO); a theoretically-grounded framework that incorporates fractional-order memory terms to enhance convergence properties in challenging optimization landscapes. Our approach achieves provable linear convergence for any strongly connected network. Through empirical validation, our results suggest that FrODO achieves up to 4 times faster convergence versus baselines on ill-conditioned problems and 2-3 times speedup in federated neural network training, while maintaining stability and theoretical guarantees.",
+ "primary": "cs.LG"
+}

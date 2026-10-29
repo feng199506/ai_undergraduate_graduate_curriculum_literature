@@ -1,0 +1,18 @@
+{
+ "id": "2508.01812",
+ "title": "HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark",
+ "authors": [
+  "Amir DN Cohen",
+  "Hilla Merhav",
+  "Yoav Goldberg",
+  "Reut Tsarfaty"
+ ],
+ "v1_date": "2025-08-03",
+ "latest_version": 1,
+ "latest_date": "2025-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Current benchmarks for Hebrew Natural Language Processing (NLP) focus mainly on morpho-syntactic tasks, neglecting the semantic dimension of language understanding. To bridge this gap, we set out to deliver a Hebrew Machine Reading Comprehension (MRC) dataset, where MRC is to be realized as extractive Question Answering. The morphologically rich nature of Hebrew poses a challenge to this endeavor: the indeterminacy and non-transparency of span boundaries in morphologically complex forms lead to annotation inconsistencies, disagreements, and flaws in standard evaluation metrics. To remedy this, we devise a novel set of guidelines, a controlled crowdsourcing protocol, and revised evaluation metrics that are suitable for the morphologically rich nature of the language. Our resulting benchmark, HeQ (Hebrew QA), features 30,147 diverse question-answer pairs derived from both Hebrew Wikipedia articles and Israeli tech news. Our empirical investigation reveals that standard evaluation metrics such as F1 scores and Exact Match (EM) are not appropriate for Hebrew (and other MRLs), and we propose a relevant enhancement. In addition, our experiments show low correlation between models' performance on morpho-syntactic tasks and on MRC, which suggests that models designed for the former might underperform on semantics-heavy tasks. The development and exploration of HeQ illustrate some of the challenges MRLs pose in natural language understanding (NLU), fostering progression towards more and better NLU models for Hebrew and other MRLs.",
+ "primary": "cs.CL"
+}

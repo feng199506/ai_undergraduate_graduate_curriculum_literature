@@ -1,0 +1,17 @@
+{
+ "id": "2507.02383",
+ "title": "A learning model predictive control for virtual coupling in railroads",
+ "authors": [
+  "Miguel A. Vaquero-Serrano",
+  "Francesco Borrelli",
+  "Jesus Felez"
+ ],
+ "v1_date": "2025-07-03",
+ "latest_version": 1,
+ "latest_date": "2025-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "The objective of this paper is to present a novel intelligent train control system for virtual coupling in railroads based on a Learning Model Predictive Control (LMPC). Virtual coupling is an emerging railroad technology that reduces the distance between trains to increase the capacity of the line, whereas LMPC is an optimization-based controller that incorporates artificial intelligence methods to improve its control policies. By incorporating data from past experiences into the optimization problem, LMPC can learn unmodeled dynamics and enhance system performance while satisfying constraints. The LMPC developed in this paper is simulated and compared, in terms of energy consumption, with a general MPC, without learning capabilities. The simulations are divided into two main practical applications: a LMPC applied only to the rear trains (followers) and a LMPC applied to both the followers and the first front train of the convoy (leader). Within each application, the LMPC is independently tested for three railroad categories: metro, regional, and high-speed. The results show that the LMPC reduces energy consumption in all simulation cases while approximately maintaining speed and travel time. The effect is more pronounced in rail applications with frequent speed variations, such as metro systems, compared to high-speed rail. Future research will investigate the impact of using real-world data in place of simulated data.",
+ "primary": "math.OC"
+}

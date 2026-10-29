@@ -1,0 +1,24 @@
+{
+ "id": "2602.03201",
+ "title": "SLOPE: Optimistic Potential Landscape Shaping for Model-based Reinforcement Learning",
+ "authors": [
+  "Yao-Hui Li",
+  "Zeyu Wang",
+  "Xin Li",
+  "Wei Pang",
+  "Yingfang Yuan",
+  "Zhengkun Chen",
+  "Boya Zhang",
+  "Riashat Islam",
+  "Alex Lamb",
+  "Yonggang Zhang"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 3,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Work in progress",
+ "abstract": "Model-based reinforcement learning (MBRL) is sample-efficient but struggles in sparse reward settings. A critical bottleneck arises from the lack of informative gradients in sparse settings, where standard reward models often yield flat landscapes that struggle to guide planning. To address this challenge, we propose Shaping Landscapes with Optimistic Potential Estimates (SLOPE), a novel framework that shifts reward modeling from predicting sparse scalars to constructing informative potential landscapes. SLOPE employs optimistic distributional regression to estimate high-confidence upper bounds, which amplifies rare success signals and ensures sufficient exploration gradients. Evaluations on 30+ tasks across 5 benchmarks and real-world robotic deployments, demonstrate that SLOPE consistently outperforms leading baselines in fully sparse, semi-sparse, and dense rewards.",
+ "primary": "cs.LG"
+}

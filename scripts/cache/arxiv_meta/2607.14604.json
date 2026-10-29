@@ -1,0 +1,15 @@
+{
+ "id": "2607.14604",
+ "title": "Accelerating A/B-Tests with Counterfactual Estimation: Reducing Variance through Policy Overlap",
+ "authors": [
+  "Olivier Jeunen"
+ ],
+ "v1_date": "2026-07-16",
+ "latest_version": 1,
+ "latest_date": "2026-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Online controlled experiments are the gold standard for hypothesis testing in online platforms. Notwithstanding their ubiquity, they are notoriously expensive to run, and issues of variance hamper statistical power in assessing treatment effects. While standard variance reduction techniques leverage model-based control variates to reduce outcome noise, they remain agnostic to potential structural relationships between competing policies. In this work, we identify a critical inefficiency in the standard A/B-testing protocol: when a treatment and control policy agree on an action, the resulting outcome contributes noise but no signal regarding the treatment effect -- unnecessarily inflating confidence intervals. We propose a novel experimental protocol that exploits this policy overlap to accelerate experimentation. The key insight is to frame the randomised treatment assignment mechanism as a meta-policy, and leverage $Δ$-Off-Policy Estimation methods to obtain unbiased estimates for average treatment effects. We prove analytically that our approach recovers standard A/B-testing practices in the general case, but that its variance scales with the divergence between policies rather than raw outcome variance. Hence, we dominate the standard Difference-in-Means estimator whenever policies have common support, and the improvement is strict whenever the overlap region contributes non-zero residual variance. Empirical results corroborate these theoretical insights -- holding promise for significant impact on the real-world evaluation of recommender systems, information retrieval pipelines, and large language model interfaces.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2610.15564",
+ "title": "UNISON: A Unified Framework for Learning from Scored Bags",
+ "authors": [
+  "Ofek Kirshenboim",
+  "Or Shkuri",
+  "Shani Finkelshtein",
+  "Yoram Louzoun"
+ ],
+ "v1_date": "2026-10-11",
+ "latest_version": 1,
+ "latest_date": "2026-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce UNISON, a unified framework that bridges multiple instance learning and recommendation systems by treating both as instances of learning from scored bag collections of (item, score) pairs. Unlike traditional approaches that address bag-level classification and personalized recommendation as separate problems, UNISON decomposes learning into three interconnected stages: (1) learning universal item representations, (2) modeling bag-specific preference patterns through lightweight personalized parameters, and (3) inferring bag-level characteristics from learned preferences. We justify the architectural choice of linear bag-specific scoring through a first-order analysis: when item embeddings are sufficiently smooth in the score, a linear function approximates the score up to a Taylor remainder controlled by the curvature of the underlying preference function. For cold-start scenarios, we show that the cold-bag fitting problem reduces to ridge-less linear regression with a closed-form solution, and provide convergence guarantees for the iterative variant. Empirically, UNISON matches or outperforms state-of-the-art approaches across diverse domains: entertainment (books, movies), immunology (T cell receptor (TCR) based classification), and microbiome, offering superior computational efficiency and interpretability. A controlled synthetic experiment further confirms that the bag-specific parameters ($w_j, b_j$) recover the latent factors that drive item scores even when the projection $φ$ has no access to the original scoring mechanism (AUC > 0.998). UNISON is available at https://github.com/louzounlab/UNISON.",
+ "primary": "cs.LG"
+}

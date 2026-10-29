@@ -1,0 +1,16 @@
+{
+ "id": "2408.07524",
+ "title": "Fast Inference for Probabilistic Answer Set Programs via the Residual Program",
+ "authors": [
+  "Damiano Azzolini",
+  "Fabrizio Riguzzi"
+ ],
+ "v1_date": "2024-08-14",
+ "latest_version": 1,
+ "latest_date": "2024-08-14",
+ "journal_ref": "Theory and Practice of Logic Programming 24 (2024) 682-697",
+ "doi": "10.1017/s1471068424000279",
+ "comment": "The paper has been accepted at the ICLP2024 conference and under consideration in Theory and Practice of Logic Programming (TPLP)",
+ "abstract": "When we want to compute the probability of a query from a Probabilistic Answer Set Program, some parts of a program may not influence the probability of a query, but they impact on the size of the grounding. Identifying and removing them is crucial to speed up the computation. Algorithms for SLG resolution offer the possibility of returning the residual program which can be used for computing answer sets for normal programs that do have a total well-founded model. The residual program does not contain the parts of the program that do not influence the probability. In this paper, we propose to exploit the residual program for performing inference. Empirical results on graph datasets show that the approach leads to significantly faster inference.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2401.15800",
+ "title": "Statistical Significance of Feature Importance Rankings",
+ "authors": [
+  "Jeremy Goldwasser",
+  "Giles Hooker"
+ ],
+ "v1_date": "2024-01-28",
+ "latest_version": 5,
+ "latest_date": "2025-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Feature importance scores are ubiquitous tools for understanding the predictions of machine learning models. However, many popular attribution methods suffer from high instability due to random sampling. Leveraging novel ideas from hypothesis testing, we devise techniques that ensure the most important features are correct with high-probability guarantees. These assess the set of $K$ top-ranked features, as well as the order of its elements. Given a set of local or global importance scores, we demonstrate how to retrospectively verify the stability of the highest ranks. We then introduce two efficient sampling algorithms that identify the $K$ most important features, perhaps in order, with probability exceeding $1-α$. The theoretical justification for these procedures is validated empirically on SHAP and LIME.",
+ "primary": "stat.ML"
+}

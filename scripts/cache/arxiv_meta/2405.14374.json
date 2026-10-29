@@ -1,0 +1,17 @@
+{
+ "id": "2405.14374",
+ "title": "State-Constrained Offline Reinforcement Learning",
+ "authors": [
+  "Charles A. Hepburn",
+  "Yue Jin",
+  "Giovanni Montana"
+ ],
+ "v1_date": "2024-05-23",
+ "latest_version": 2,
+ "latest_date": "2025-07-14",
+ "journal_ref": "Transactions on Machine Learning Research (05/2025)",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional offline reinforcement learning (RL) methods predominantly operate in a batch-constrained setting. This confines the algorithms to a specific state-action distribution present in the dataset, reducing the effects of distributional shift but restricting the policy to seen actions. In this paper, we alleviate this limitation by introducing state-constrained offline RL, a novel framework that focuses solely on the dataset's state distribution. This approach allows the policy to take high-quality out-of-distribution actions that lead to in-distribution states, significantly enhancing learning potential. The proposed setting not only broadens the learning horizon but also improves the ability to combine different trajectories from the dataset effectively, a desirable property inherent in offline RL. Our research is underpinned by theoretical findings that pave the way for subsequent advancements in this area. Additionally, we introduce StaCQ, a deep learning algorithm that achieves state-of-the-art performance on the D4RL benchmark datasets and aligns with our theoretical propositions. StaCQ establishes a strong baseline for forthcoming explorations in this domain.",
+ "primary": "stat.ML"
+}

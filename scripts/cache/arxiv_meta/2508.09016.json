@@ -1,0 +1,23 @@
+{
+ "id": "2508.09016",
+ "title": "A Survey on Training-free Alignment of Large Language Models",
+ "authors": [
+  "Birong Pan",
+  "Yongqi Li",
+  "Weiyu Zhang",
+  "Wenpeng Lu",
+  "Mayi Xu",
+  "Shen Zhou",
+  "Yuanyuan Zhu",
+  "Ming Zhong",
+  "Tieyun Qian"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 4,
+ "latest_date": "2025-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to EMNLP 2025 (findings), camera-ready version",
+ "abstract": "The alignment of large language models (LLMs) aims to ensure their outputs adhere to human values, ethical standards, and legal norms. Traditional alignment methods often rely on resource-intensive fine-tuning (FT), which may suffer from knowledge degradation and face challenges in scenarios where the model accessibility or computational resources are constrained. In contrast, training-free (TF) alignment techniques--leveraging in-context learning, decoding-time adjustments, and post-generation corrections--offer a promising alternative by enabling alignment without heavily retraining LLMs, making them adaptable to both open-source and closed-source environments. This paper presents the first systematic review of TF alignment methods, categorizing them by stages of pre-decoding, in-decoding, and post-decoding. For each stage, we provide a detailed examination from the viewpoint of LLMs and multimodal LLMs (MLLMs), highlighting their mechanisms and limitations. Furthermore, we identify key challenges and future directions, paving the way for more inclusive and effective TF alignment techniques. By synthesizing and organizing the rapidly growing body of research, this survey offers a guidance for practitioners and advances the development of safer and more reliable LLMs.",
+ "primary": "cs.CL"
+}

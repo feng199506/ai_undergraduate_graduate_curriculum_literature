@@ -1,0 +1,17 @@
+{
+ "id": "2509.13944",
+ "title": "Bridging Control Variates and Regression Adjustment in A/B Testing: From Design-Based to Model-Based Frameworks",
+ "authors": [
+  "Yu Zhang",
+  "Bokui Wan",
+  "Yongli Qin"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 2,
+ "latest_date": "2025-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 44 figures",
+ "abstract": "A B testing serves as the gold standard for large scale, data driven decision making in online businesses. To mitigate metric variability and enhance testing sensitivity, control variates and regression adjustment have emerged as prominent variance reduction techniques, leveraging pre experiment data to improve estimator performance. Over the past decade, these methods have spawned numerous derivatives, yet their theoretical connections and comparative properties remain underexplored. In this paper, we conduct a comprehensive analysis of their statistical properties, establish a formal bridge between the two frameworks in practical implementations, and extend the investigation from design based to model-based frameworks. Through simulation studies and real world experiments at ByteDance, we validate our theoretical insights across both frameworks. Our work aims to provide rigorous guidance for practitioners in online controlled experiments, addressing critical considerations of internal and external validity. The recommended method control variates with group specific coefficient estimates has been fully implemented and deployed on ByteDance's experimental platform.",
+ "primary": "stat.ME"
+}

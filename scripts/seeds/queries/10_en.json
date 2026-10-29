@@ -1,0 +1,20 @@
+[
+ {"q": "ti:survey AND abs:\"large language models\" AND abs:pretraining AND cat:cs.CL", "subtopic": "预训练与大模型概述"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"instruction tuning\" OR abs:\"supervised fine-tuning\") AND cat:cs.CL", "subtopic": "指令微调"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"parameter-efficient fine-tuning\"", "subtopic": "参数高效微调"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"", "subtopic": "对齐（RLHF/DPO）"},
+ {"q": "(ti:\"preference optimization\" OR ti:\"reward model\") AND cat:cs.LG", "subtopic": "对齐（RLHF/DPO）"},
+ {"q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL", "subtopic": "推理"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"test-time compute\" OR abs:\"test-time scaling\" OR abs:\"long chain-of-thought\")", "subtopic": "推理与测试时计算"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"", "subtopic": "检索增强生成（RAG）"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"", "subtopic": "工具调用"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE", "subtopic": "代码模型"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"", "subtopic": "智能体"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"", "subtopic": "多智能体"},
+ {"q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL", "subtopic": "智能体评测"},
+ {"q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL", "subtopic": "大模型评测"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"", "subtopic": "预训练与大模型概述"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"", "subtopic": "长上下文"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"", "subtopic": "推理与测试时计算"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"pretraining data\" AND abs:\"language model\"", "subtopic": "预训练数据"}
+]

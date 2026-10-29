@@ -1,0 +1,22 @@
+{
+ "id": "2606.23692",
+ "title": "From Heuristics to Transformers: A Comprehensive Survey of Type Inference from Stripped Binaries",
+ "authors": [
+  "Hua Zheng",
+  "Yuhang Guo",
+  "Kuanishbay Sadatdiynov",
+  "Cheng Wen",
+  "Muhammad Sadiq",
+  "Dugang Liu",
+  "Jawwad Ahmed Shamsi",
+  "Anam Qureshi"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The recovery of high-level type information from stripped binaries-executables devoid of symbol tables and debugging information-is a cornerstone of software reverse engineering, vulnerability analysis, and decompilation. This survey tracks the evolution of binary type inference from early rule-based heuristics and static analysis to modern deep learning architectures. We analyze the shift from \"duck typing\" and constraint-solving techniques (e.g., BITY, BinSub) to context-aware neural models (e.g., EKLAVYA, CATI) and finally to state-of-the-art Transformer and Graph Neural Network (GNN) architectures (e.g., SeeType, TYGR). We identify core challenges, including optimization-induced semantics loss and structural type recovery, and propose future research directions in neuro-symbolic inference.",
+ "primary": "cs.SE"
+}

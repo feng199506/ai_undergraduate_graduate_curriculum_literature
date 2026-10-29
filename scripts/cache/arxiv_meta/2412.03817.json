@@ -1,0 +1,18 @@
+{
+ "id": "2412.03817",
+ "title": "Detecting Redundant Health Survey Questions Using Language-agnostic BERT Sentence Embedding (LaBSE)",
+ "authors": [
+  "Sunghoon Kang",
+  "Hyeoneui Kim",
+  "Hyewon Park",
+  "Ricky Taira"
+ ],
+ "v1_date": "2024-12-05",
+ "latest_version": 1,
+ "latest_date": "2024-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The goal of this work was to compute the semantic similarity among publicly available health survey questions in order to facilitate the standardization of survey-based Person-Generated Health Data (PGHD). We compiled various health survey questions authored in both English and Korean from the NIH CDE Repository, PROMIS, Korean public health agencies, and academic publications. Questions were drawn from various health lifelog domains. A randomized question pairing scheme was used to generate a Semantic Text Similarity (STS) dataset consisting of 1758 question pairs. Similarity scores between each question pair were assigned by two human experts. The tagged dataset was then used to build three classifiers featuring: Bag-of-Words, SBERT with BERT-based embeddings, and SBRET with LaBSE embeddings. The algorithms were evaluated using traditional contingency statistics. Among the three algorithms, SBERT-LaBSE demonstrated the highest performance in assessing question similarity across both languages, achieving an Area Under the Receiver Operating Characteristic (ROC) and Precision-Recall Curves of over 0.99. Additionally, it proved effective in identifying cross-lingual semantic similarities.The SBERT-LaBSE algorithm excelled at aligning semantically equivalent sentences across both languages but encountered challenges in capturing subtle nuances and maintaining computational efficiency. Future research should focus on testing with larger multilingual datasets and on calibrating and normalizing scores across the health lifelog domains to improve consistency. This study introduces the SBERT-LaBSE algorithm for calculating semantic similarity across two languages, showing it outperforms BERT-based models and the Bag of Words approach, highlighting its potential to improve semantic interoperability of survey-based PGHD across language barriers.",
+ "primary": "cs.CL"
+}

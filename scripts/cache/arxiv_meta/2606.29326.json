@@ -1,0 +1,15 @@
+{
+ "id": "2606.29326",
+ "title": "Gradient boosting with vector-valued leafs",
+ "authors": [
+  "David Cortes"
+ ],
+ "v1_date": "2026-06-28",
+ "latest_version": 1,
+ "latest_date": "2026-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gradient boosting in the form of decision tree ensembles has successfully been applied to a variety of problems using simple objective functions based on log-likelihoods of a single variable. The concept extends naturally to objective functions operating on vectors - for example, multinomial logistic log-likelihood for multi-class classification, where observations have a score for each class - but popular frameworks approach these functions by either updating one value of the input vectors at a time, or by using a diagonal upper bound on the second derivative. This work extends the usual gradient boosting framework to functions of vector inputs and sketches a simple algorithm that can be used efficiently with histogram-based decision trees.",
+ "primary": "stat.ML"
+}

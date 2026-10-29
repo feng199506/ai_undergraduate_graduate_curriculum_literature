@@ -1,0 +1,17 @@
+{
+ "id": "2311.06034",
+ "title": "Structure of the space of folding protein sequences defined by large language models",
+ "authors": [
+  "A. Zambon",
+  "R. Zecchina",
+  "G. Tiana"
+ ],
+ "v1_date": "2023-11-10",
+ "latest_version": 1,
+ "latest_date": "2023-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Proteins populate a manifold in the high-dimensional sequence space whose geometrical structure guides their natural evolution. Leveraging recently-developed structure prediction tools based on transformer models, we first examine the protein sequence landscape as defined by the folding score function. This landscape shares characteristics with optimization challenges encountered in machine learning and constraint satisfaction problems. Our analysis reveals that natural proteins predominantly reside in wide, flat minima within this energy landscape. To investigate further, we employ statistical mechanics algorithms specifically designed to explore regions with high local entropy in relatively flat landscapes. Our findings indicate that these specialized algorithms can identify valleys with higher entropy compared to those found using traditional methods such as Monte Carlo Markov Chains. In a proof-of-concept case, we find that these highly entropic minima exhibit significant similarities to natural sequences, especially in critical key sites and local entropy. Additionally, evaluations through Molecular Dynamics suggests that the stability of these sequences closely resembles that of natural proteins. Our tool combines advancements in machine learning and statistical physics, providing new insights into the exploration of sequence landscapes where wide, flat minima coexist alongside a majority of narrower minima.",
+ "primary": "q-bio.BM"
+}

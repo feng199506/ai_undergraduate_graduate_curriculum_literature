@@ -1,0 +1,17 @@
+{
+ "id": "2506.02406",
+ "title": "Random at First, Fast at Last: NTK-Guided Fourier Pre-Processing for Tabular DL",
+ "authors": [
+  "Renat Sergazinov",
+  "Jing Wu",
+  "Shao-An Yin"
+ ],
+ "v1_date": "2025-06-03",
+ "latest_version": 1,
+ "latest_date": "2025-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 3 figures, 1 table",
+ "abstract": "While random Fourier features are a classic tool in kernel methods, their utility as a pre-processing step for deep learning on tabular data has been largely overlooked. Motivated by shortcomings in tabular deep learning pipelines - revealed through Neural Tangent Kernel (NTK) analysis - we revisit and repurpose random Fourier mappings as a parameter-free, architecture-agnostic transformation. By projecting each input into a fixed feature space via sine and cosine projections with frequencies drawn once at initialization, this approach circumvents the need for ad hoc normalization or additional learnable embeddings. We show within the NTK framework that this mapping (i) bounds and conditions the network's initial NTK spectrum, and (ii) introduces a bias that shortens the optimization trajectory, thereby accelerating gradient-based training. These effects pre-condition the network with a stable kernel from the outset. Empirically, we demonstrate that deep networks trained on Fourier-transformed inputs converge more rapidly and consistently achieve strong final performance, often with fewer epochs and less hyperparameter tuning. Our findings establish random Fourier pre-processing as a theoretically motivated, plug-and-play enhancement for tabular deep learning.",
+ "primary": "cs.LG"
+}

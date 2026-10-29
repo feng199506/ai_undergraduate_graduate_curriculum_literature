@@ -1,0 +1,16 @@
+{
+ "id": "2402.05951",
+ "title": "MinMaxMin $Q$-learning",
+ "authors": [
+  "Nitsan Soffair",
+  "Shie Mannor"
+ ],
+ "v1_date": "2024-02-03",
+ "latest_version": 3,
+ "latest_date": "2024-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Paper do not ready",
+ "abstract": "MinMaxMin $Q$-learning is a novel optimistic Actor-Critic algorithm that addresses the problem of overestimation bias ($Q$-estimations are overestimating the real $Q$-values) inherent in conservative RL algorithms. Its core formula relies on the disagreement among $Q$-networks in the form of the min-batch MaxMin $Q$-networks distance which is added to the $Q$-target and used as the priority experience replay sampling-rule. We implement MinMaxMin on top of TD3 and TD7, subjecting it to rigorous testing against state-of-the-art continuous-space algorithms-DDPG, TD3, and TD7-across popular MuJoCo and Bullet environments. The results show a consistent performance improvement of MinMaxMin over DDPG, TD3, and TD7 across all tested tasks.",
+ "primary": "cs.LG"
+}

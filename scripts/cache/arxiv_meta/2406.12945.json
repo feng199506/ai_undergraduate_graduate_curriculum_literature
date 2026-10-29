@@ -1,0 +1,18 @@
+{
+ "id": "2406.12945",
+ "title": "Tabular Data Generation Models: An In-Depth Survey and Performance Benchmarks with Extensive Tuning",
+ "authors": [
+  "G. Charbel N. Kindji",
+  "Lina Maria Rojas-Barahona",
+  "Elisa Fromont",
+  "Tanguy Urvoy"
+ ],
+ "v1_date": "2024-06-18",
+ "latest_version": 4,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The ability to train generative models that produce realistic, safe and useful tabular data is essential for data privacy, imputation, oversampling, explainability or simulation. However, generating tabular data is not straightforward due to its heterogeneity, non-smooth distributions, complex dependencies and imbalanced categorical features. Although diverse methods have been proposed in the literature, there is a need for a unified evaluation, under the same conditions, on a variety of datasets. This study addresses this need by fully considering the optimization of: hyperparameters, feature encodings, and architectures. We investigate the impact of dataset-specific tuning on five recent model families for tabular data generation through an extensive benchmark on 16 datasets. These datasets vary in terms of size (an average of 80,000 rows), data types, and domains. We also propose a reduced search space for each model that allows for quick optimization, achieving nearly equivalent performance at a significantly lower cost. Our benchmark demonstrates that, for most models, large-scale dataset-specific tuning substantially improves performance compared to the original configurations. Furthermore, we confirm that diffusion-based models generally outperform other models on tabular data. However, this advantage is not significant when the entire tuning and training process is restricted to the same GPU budget.",
+ "primary": "cs.LG"
+}

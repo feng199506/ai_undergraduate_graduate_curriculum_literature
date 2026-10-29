@@ -1,0 +1,20 @@
+{
+ "id": "2505.15712",
+ "title": "TurnaboutLLM: A Deductive Reasoning Benchmark from Detective Games",
+ "authors": [
+  "Yuan Yuan",
+  "Muyu He",
+  "Muhammad Adil Shahid",
+  "Jiani Huang",
+  "Ziyang Li",
+  "Li Zhang"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 2,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "In EMNLP 2025 main conference",
+ "abstract": "This paper introduces TurnaboutLLM, a novel framework and dataset for evaluating the deductive reasoning abilities of Large Language Models (LLMs) by leveraging the interactive gameplay of detective games Ace Attorney and Danganronpa. The framework tasks LLMs with identifying contradictions between testimonies and evidences within long narrative contexts, a challenging task due to the large answer space and diverse reasoning types presented by its questions. We evaluate twelve state-of-the-art LLMs on the dataset, hinting at limitations of popular strategies for enhancing deductive reasoning such as extensive thinking and Chain-of-Thought prompting. The results also suggest varying effects of context size, the number of reasoning step and answer space size on model performance. Overall, TurnaboutLLM presents a substantial challenge for LLMs' deductive reasoning abilities in complex, narrative-rich environments.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2506.10527",
+ "title": "LogiPlan: A Structured Benchmark for Logical Planning and Relational Reasoning in LLMs",
+ "authors": [
+  "Yanan Cai",
+  "Ahmed Salem",
+  "Besmira Nushi",
+  "Mark Russinovich"
+ ],
+ "v1_date": "2025-06-12",
+ "latest_version": 1,
+ "latest_date": "2025-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce LogiPlan, a novel benchmark designed to evaluate the capabilities of large language models (LLMs) in logical planning and reasoning over complex relational structures. Logical relational reasoning is important for applications that may rely on LLMs to generate and query structured graphs of relations such as network infrastructure, knowledge bases, or business process schema. Our framework allows for dynamic variation of task complexity by controlling the number of objects, relations, and the minimum depth of relational chains, providing a fine-grained assessment of model performance across difficulty levels. LogiPlan encompasses three complementary tasks: (1) Plan Generation, where models must construct valid directed relational graphs meeting specified structural constraints; (2) Consistency Detection, testing models' ability to identify inconsistencies in relational structures; and (3) Comparison Question, evaluating models' capacity to determine the validity of queried relationships within a given graph. Additionally, we assess models' self-correction capabilities by prompting them to verify and refine their initial solutions. We evaluate state-of-the-art models including DeepSeek R1, Gemini 2.0 Pro, Gemini 2 Flash Thinking, GPT-4.5, GPT-4o, Llama 3.1 405B, O3-mini, O1, and Claude 3.7 Sonnet across these tasks, revealing significant performance gaps that correlate with model scale and architecture. Our analysis demonstrates that while recent reasoning-enhanced models show promising results on simpler instances, they struggle with more complex configurations requiring deeper logical planning.",
+ "primary": "cs.AI"
+}

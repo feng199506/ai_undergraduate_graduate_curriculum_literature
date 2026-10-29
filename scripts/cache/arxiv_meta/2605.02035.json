@@ -1,0 +1,20 @@
+{
+ "id": "2605.02035",
+ "title": "VIDA: A Dataset for Visually Dependent Ambiguity in Multimodal Machine Translation",
+ "authors": [
+  "Jingheng Pan",
+  "Xintong Wang",
+  "Longyue Wang",
+  "Liang Ding",
+  "Weihua Luo",
+  "Chris Biemann"
+ ],
+ "v1_date": "2026-05-03",
+ "latest_version": 4,
+ "latest_date": "2026-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AACL-IJCNLP 2026 (Main Conference)",
+ "abstract": "Ambiguity resolution is a key challenge in multimodal machine translation (MMT), where models must genuinely leverage visual input to map an ambiguous expression to its intended meaning. Although prior work has proposed disambiguation-oriented benchmarks probing the role of vision, we observe that existing benchmarks remain limited by task-format mismatch, narrow ambiguity coverage, or insufficient visual-dependency validation. Moreover, existing ambiguity evaluations are not well suited to diverse ambiguity types in open-ended translation. To address these limitations, we present VIDA (Visually-Dependent Ambiguity), a dataset of 2,500 carefully curated instances in which resolving an annotated source span requires visual evidence. We further propose Disambiguation-Centric Metrics that use an LLM-as-a-judge classifier to verify whether annotated ambiguous expressions are resolved correctly at the span level. Evaluations with stronger recent LVLMs show that visual disambiguation remains challenging. Using chain-of-thought supervised fine-tuning as a diagnostic setting, we observe stronger out-of-distribution disambiguation than with SFT, with robust gains on collective-noun ambiguities and model-dependent gains on sentence-level ambiguities.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.00700",
+ "title": "Central Path Proximal Policy Optimization",
+ "authors": [
+  "Nikola Milosevic",
+  "Johannes Müller",
+  "Nico Scherf"
+ ],
+ "v1_date": "2025-05-31",
+ "latest_version": 2,
+ "latest_date": "2025-08-15",
+ "journal_ref": "The Exploration in AI Today Workshop at ICML 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "In constrained Markov decision processes, enforcing constraints during training is often thought of as decreasing the final return. Recently, it was shown that constraints can be incorporated directly into the policy geometry, yielding an optimization trajectory close to the central path of a barrier method, which does not compromise final return. Building on this idea, we introduce Central Path Proximal Policy Optimization (C3PO), a simple modification of the PPO loss that produces policy iterates, that stay close to the central path of the constrained optimization problem. Compared to existing on-policy methods, C3PO delivers improved performance with tighter constraint enforcement, suggesting that central path-guided updates offer a promising direction for constrained policy optimization.",
+ "primary": "cs.LG"
+}

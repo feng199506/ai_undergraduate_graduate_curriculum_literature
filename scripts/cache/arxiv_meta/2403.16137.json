@@ -1,0 +1,20 @@
+{
+ "id": "2403.16137",
+ "title": "A Survey on Self-Supervised Graph Foundation Models: Knowledge-Based Perspective",
+ "authors": [
+  "Ziwen Zhao",
+  "Yixin Su",
+  "Yuhua Li",
+  "Yixiong Zou",
+  "Ruixuan Li",
+  "Rui Zhang"
+ ],
+ "v1_date": "2024-03-24",
+ "latest_version": 3,
+ "latest_date": "2025-05-06",
+ "journal_ref": "",
+ "doi": "10.1109/tkde.2025.3568147",
+ "comment": "Accepted by TKDE; full version (27 pages, 9 figures)",
+ "abstract": "Graph self-supervised learning (SSL) is now a go-to method for pre-training graph foundation models (GFMs). There is a wide variety of knowledge patterns embedded in the graph data, such as node properties and clusters, which are crucial to learning generalized representations for GFMs. However, existing surveys of GFMs have several shortcomings: they lack comprehensiveness regarding the most recent progress, have unclear categorization of self-supervised methods, and take a limited architecture-based perspective that is restricted to only certain types of graph models. As the ultimate goal of GFMs is to learn generalized graph knowledge, we provide a comprehensive survey of self-supervised GFMs from a novel knowledge-based perspective. We propose a knowledge-based taxonomy, which categorizes self-supervised graph models by the specific graph knowledge utilized. Our taxonomy consists of microscopic (nodes, links, etc.), mesoscopic (context, clusters, etc.), and macroscopic knowledge (global structure, manifolds, etc.). It covers a total of 9 knowledge categories and more than 25 pretext tasks for pre-training GFMs, as well as various downstream task generalization strategies. Such a knowledge-based taxonomy allows us to re-examine graph models based on new architectures more clearly, such as graph language models, as well as provide more in-depth insights for constructing GFMs.",
+ "primary": "cs.LG"
+}

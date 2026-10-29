@@ -1,0 +1,20 @@
+{
+ "id": "2505.14656",
+ "title": "Cost-Awareness in Tree-Search LLM Planning: A Systematic Study",
+ "authors": [
+  "Zihao Zhang",
+  "Hui Wei",
+  "Kenan Jiang",
+  "Shijia Pan",
+  "Shu Kai",
+  "Fei Liu"
+ ],
+ "v1_date": "2025-05-20",
+ "latest_version": 2,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Planning under resource constraints is central to real-world decision making, yet most large language model (LLM) planners assume uniform action costs. We systematically analyze whether tree-search LLM planners are cost-aware and whether they efficiently generate budget-feasible plans. In contrast to black-box prompting, explicit search trees expose intermediate decisions, node evaluations, and failure modes, which allows for controlled ablations of planner behavior. We study depth-first search, breadth-first search, Monte Carlo Tree Search, and bidirectional search within a unified framework. Our experiments show that existing tree-based LLM planners often struggle to find cost-optimal plans, and that additional search computation does not reliably improve optimality. Among the methods evaluated, bidirectional search achieves the best overall efficiency and success rate. MCTS achieves the highest optimality on short-horizon tasks. Tree-search planners are especially valuable for studying LLM planning because their reasoning steps are explicit, in contrast to plain LLMs that internalize planning dynamics through post-training trajectories. Our findings suggest that improving LLM planning under resource constraints will likely require new search algorithms, rather than solely scaling inference-time compute.",
+ "primary": "cs.AI"
+}

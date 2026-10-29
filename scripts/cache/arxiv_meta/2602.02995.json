@@ -1,0 +1,17 @@
+{
+ "id": "2602.02995",
+ "title": "Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use Agents",
+ "authors": [
+  "Sizhe Tang",
+  "Rongqian Chen",
+  "Tian Lan"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While scaling test-time compute through trajectory-level sampling has significantly improved Graphical User Interface (GUI) agents, the lack of regressive ability prevents the reuse of partial successes and the recovery from early missteps. In this paper, we introduce Agent Alpha, a unified framework that synergizes generation, exploration, and evaluation through step-level Monte Carlo Tree Search (MCTS). It enables active modeling or exploiting structures of the planning space. By integrating alpha-UCT guided search into the interaction loop, Agent Alpha enables deliberate planning, facilitating early pruning of suboptimal branches and efficient prefix reuse. We also employ comparison-driven evaluation to mitigate absolute scoring biases and diversity-constrained expansion to maintain a compact, informative search space. Regret bound of alpha-UCT is analyzed. On the OSWorld benchmark, Agent Alpha achieves a state-of-the-art success rate of $\\sim 77\\%$, significantly outperforming trajectory-level baselines under equivalent compute.",
+ "primary": "cs.AI"
+}

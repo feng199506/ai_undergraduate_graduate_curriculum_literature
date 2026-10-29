@@ -1,0 +1,17 @@
+{
+ "id": "2410.15133",
+ "title": "Controllable RANSAC-based Anomaly Detection via Hypothesis Testing",
+ "authors": [
+  "Le Hong Phong",
+  "Ho Ngoc Luat",
+  "Vo Nguyen Le Duy"
+ ],
+ "v1_date": "2024-10-19",
+ "latest_version": 1,
+ "latest_date": "2024-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Detecting the presence of anomalies in regression models is a crucial task in machine learning, as anomalies can significantly impact the accuracy and reliability of predictions. Random Sample Consensus (RANSAC) is one of the most popular robust regression methods for addressing this challenge. However, this method lacks the capability to guarantee the reliability of the anomaly detection (AD) results. In this paper, we propose a novel statistical method for testing the AD results obtained by RANSAC, named CTRL-RANSAC (controllable RANSAC). The key strength of the proposed method lies in its ability to control the probability of misidentifying anomalies below a pre-specified level $α$ (e.g., $α= 0.05$). By examining the selection strategy of RANSAC and leveraging the Selective Inference (SI) framework, we prove that achieving controllable RANSAC is indeed feasible. Furthermore, we introduce a more strategic and computationally efficient approach to enhance the true detection rate and overall performance of the CTRL-RANSAC. Experiments conducted on synthetic and real-world datasets robustly support our theoretical results, showcasing the superior performance of the proposed method.",
+ "primary": "stat.ML"
+}

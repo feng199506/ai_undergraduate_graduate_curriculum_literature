@@ -1,0 +1,20 @@
+{
+ "id": "2601.20735",
+ "title": "Implementing Metric Temporal Answer Set Programming",
+ "authors": [
+  "Arvid Becker",
+  "Pedro Cabalar",
+  "Martin Diéguez",
+  "Susana Hahn",
+  "Javier Romero",
+  "Torsten Schaub"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 2,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under consideration in Theory and Practice of Logic Programming (TPLP)",
+ "abstract": "We develop a computational approach to Metric Answer Set Programming (ASP) to allow for expressing quantitative temporal constraints, like durations and deadlines. A central challenge is to maintain scalability when dealing with fine-grained timing constraints, which can significantly exacerbate ASP's grounding bottleneck. To address this issue, we leverage extensions of ASP with difference constraints, a simplified form of linear constraints, to handle time-related aspects externally. Our approach effectively decouples metric ASP from the granularity of time, resulting in a solution that is unaffected by time precision.",
+ "primary": "cs.AI"
+}

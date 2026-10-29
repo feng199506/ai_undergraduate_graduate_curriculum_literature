@@ -1,0 +1,25 @@
+{
+ "id": "2406.03430",
+ "title": "Computation-Efficient Era: A Comprehensive Survey of State Space Models in Medical Image Analysis",
+ "authors": [
+  "Moein Heidari",
+  "Sina Ghorbani Kolahi",
+  "Sanaz Karimijafarbigloo",
+  "Bobby Azad",
+  "Afshin Bozorgpour",
+  "Soheila Hatami",
+  "Reza Azad",
+  "Ali Diba",
+  "Ulas Bagci",
+  "Dorit Merhof",
+  "Ilker Hacihaliloglu"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 1,
+ "latest_date": "2024-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is the first version of our survey, and the paper is currently under review",
+ "abstract": "Sequence modeling plays a vital role across various domains, with recurrent neural networks being historically the predominant method of performing these tasks. However, the emergence of transformers has altered this paradigm due to their superior performance. Built upon these advances, transformers have conjoined CNNs as two leading foundational models for learning visual representations. However, transformers are hindered by the $\\mathcal{O}(N^2)$ complexity of their attention mechanisms, while CNNs lack global receptive fields and dynamic weight allocation. State Space Models (SSMs), specifically the \\textit{\\textbf{Mamba}} model with selection mechanisms and hardware-aware architecture, have garnered immense interest lately in sequential modeling and visual representation learning, challenging the dominance of transformers by providing infinite context lengths and offering substantial efficiency maintaining linear complexity in the input sequence. Capitalizing on the advances in computer vision, medical imaging has heralded a new epoch with Mamba models. Intending to help researchers navigate the surge, this survey seeks to offer an encyclopedic review of Mamba models in medical imaging. Specifically, we start with a comprehensive theoretical review forming the basis of SSMs, including Mamba architecture and its alternatives for sequence modeling paradigms in this context. Next, we offer a structured classification of Mamba models in the medical field and introduce a diverse categorization scheme based on their application, imaging modalities, and targeted organs. Finally, we summarize key challenges, discuss different future research directions of the SSMs in the medical domain, and propose several directions to fulfill the demands of this field. In addition, we have compiled the studies discussed in this paper along with their open-source implementations on our GitHub repository.",
+ "primary": "eess.IV"
+}

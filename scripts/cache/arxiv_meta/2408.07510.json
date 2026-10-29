@@ -1,0 +1,19 @@
+{
+ "id": "2408.07510",
+ "title": "Dominating Set Reconfiguration with Answer Set Programming",
+ "authors": [
+  "Masato Kato",
+  "Torsten Schaub",
+  "Takehide Soh",
+  "Naoyuki Tamura",
+  "Mutsunori Banbara"
+ ],
+ "v1_date": "2024-08-14",
+ "latest_version": 1,
+ "latest_date": "2024-08-14",
+ "journal_ref": "Theory and Practice of Logic Programming 24 (2024) 755-771",
+ "doi": "10.1017/s1471068424000292",
+ "comment": "",
+ "abstract": "The dominating set reconfiguration problem is defined as determining, for a given dominating set problem and two among its feasible solutions, whether one is reachable from the other via a sequence of feasible solutions subject to a certain adjacency relation. This problem is PSPACE-complete in general. The concept of the dominating set is known to be quite useful for analyzing wireless networks, social networks, and sensor networks. We develop an approach to solve the dominating set reconfiguration problem based on Answer Set Programming (ASP). Our declarative approach relies on a high-level ASP encoding, and both the grounding and solving tasks are delegated to an ASP-based combinatorial reconfiguration solver. To evaluate the effectiveness of our approach, we conduct experiments on a newly created benchmark set.",
+ "primary": "cs.AI"
+}

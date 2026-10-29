@@ -1,0 +1,16 @@
+{
+ "id": "2604.16982",
+ "title": "A phenotype-driven and evidence-governed framework for knowledge graph enrichment and hypotheses discovery in population data",
+ "authors": [
+  "Adela Bâra",
+  "Simona-Vasilica Oprea"
+ ],
+ "v1_date": "2026-04-18",
+ "latest_version": 1,
+ "latest_date": "2026-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Current knowledge graph (KG) construction methods are confirmatory, focusing on recovering known relationships rather than identifying novel or context-dependent nodes. This paper proposes a phenotype-driven and evidence-governed framework that shifts the paradigm toward structured hypothesis discovery and controlled KG expansion. The approach integrates graph neural networks (GNNs) for phenotype discovery, causal inference, probabilistic reasoning and large language models (LLMs) for hypothesis generation and claim extraction within a unified pipeline. The framework prioritizes relationships that are both structurally supported by data and underexplored in the literature. KG expansion is formulated as a multi-objective optimization problem, where candidate claims are jointly evaluated in terms of relevance, structural validation and novelty. Pareto-optimal selection enables the identification of non-dominated claims that balance confirmation and discovery, avoiding trivial or redundant knowledge inclusion. Experiments on heterogeneous population datasets demonstrate that the proposed framework produces more interpretable phenotypes, reveals context-dependent causal structures and generates high-quality claims that align with both data and scientific evidence. Compared to rule-based and LLM-only baselines, the method achieves the best trade-off across plausibility, novelty, validation and relevance. In retrieval-augmented settings, it significantly improves performance (Recall@5=0.98) while reducing hallucination rates (0.05), highlighting its effectiveness in grounding LLM outputs.",
+ "primary": "cs.AI"
+}

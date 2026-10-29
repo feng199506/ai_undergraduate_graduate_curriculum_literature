@@ -1,0 +1,15 @@
+{
+ "id": "2502.09235",
+ "title": "Hybrid Answer Set Programming: Foundations and Applications",
+ "authors": [
+  "Nicolas Rühling"
+ ],
+ "v1_date": "2025-02-13",
+ "latest_version": 1,
+ "latest_date": "2025-02-13",
+ "journal_ref": "EPTCS 416, 2025, pp. 374-380",
+ "doi": "10.4204/eptcs.416.38",
+ "comment": "In Proceedings ICLP 2024, arXiv:2502.08453",
+ "abstract": "Answer Set Programming (ASP) is a powerful tool for solving real-world problems. However, many problems involve numeric values and complex constraints beyond the capabilities of standard ASP solvers. Hybrid solvers like CLINGCON and CLINGO[DL] address this by using specialized methods for specific constraints. However, these solvers lack a strong theoretical foundation. This issue has first been addressed by introducing the Logic of Here-and-There with constraints (HT_c) as an extension of the Logic of Here-and-There (HT) and its non-monotone extension Equilibrium Logic. Nowadays, HT serves as a logical foundation for ASP and has facilitated a broader understanding of this paradigm. The idea is that HTC (and other extensions) play an analogous role for hybrid ASP. There remain many open questions about these logics regarding their fundamental characteristics as well as their practical use in solvers, ie. how they can guide the implementation. Having a formal understanding of these hybrid logics is also needed to better understand the inherent structure of the (real-world) problems they are applied to and to improve their representations in ASP. As an example of an application of ASP we use product configuration.",
+ "primary": "cs.AI"
+}

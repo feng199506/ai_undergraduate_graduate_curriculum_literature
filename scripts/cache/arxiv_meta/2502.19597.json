@@ -1,0 +1,15 @@
+{
+ "id": "2502.19597",
+ "title": "Introduction to Sequence Modeling with Transformers",
+ "authors": [
+  "Joni-Kristian Kämäräinen"
+ ],
+ "v1_date": "2025-02-26",
+ "latest_version": 1,
+ "latest_date": "2025-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 1 figure",
+ "abstract": "Understanding the transformer architecture and its workings is essential for machine learning (ML) engineers. However, truly understanding the transformer architecture can be demanding, even if you have a solid background in machine learning or deep learning. The main working horse is attention, which yields to the transformer encoder-decoder structure. However, putting attention aside leaves several programming components that are easy to implement but whose role for the whole is unclear. These components are 'tokenization', 'embedding' ('un-embedding'), 'masking', 'positional encoding', and 'padding'. The focus of this work is on understanding them. To keep things simple, the understanding is built incrementally by adding components one by one, and after each step investigating what is doable and what is undoable with the current model. Simple sequences of zeros (0) and ones (1) are used to study the workings of each step.",
+ "primary": "cs.LG"
+}

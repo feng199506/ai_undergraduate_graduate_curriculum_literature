@@ -1,0 +1,26 @@
+{
+ "id": "2607.00804",
+ "title": "Spotted: Location-informed Reidentification of Hyenas and Leopards in Camera Trap Surveys",
+ "authors": [
+  "Halil Sina Kelebek",
+  "Julia Hindel",
+  "Kobus Hoffman",
+  "Lauren Hoffman",
+  "Andrew Loveridge",
+  "Bob Mandinyenya",
+  "Kudakwashe Ncube",
+  "Justin Seymour-Smith",
+  "Andrea Sibanda",
+  "Abhinav Valada",
+  "Matthew Wijers",
+  "Daniele De Martini"
+ ],
+ "v1_date": "2026-07-01",
+ "latest_version": 1,
+ "latest_date": "2026-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Animal re-identification (ReID) in camera-trap surveys remains challenging due to low image quality, strong variation in illumination and viewpoint, and highly imbalanced numbers of observations per individual. As a result, current ReID performance is often insufficient for fully automated use, and practical workflows typically depend on expert review of algorithmically proposed candidate matches. Moreover, most existing approaches focus almost exclusively on visual cues and overlook auxiliary information routinely available in field studies, such as image timestamps and camera-trap locations. We introduce Spotted, a location-informed, human-in-the-loop animal ReID framework that integrates visual similarity with spatio-temporal feasibility priors derived from camera locations, thereby reducing the amount of required expert review. Our method (i) computes an image-model-agnostic feasibility score based on the minimum travel speed required for two detections to correspond to the same individual, (ii) uses these feasibility cues as pseudo-supervision to train a lightweight head on top of a frozen visual foundation model, and (iii) fuses adapted visual similarity with spatio-temporal feasibility to obtain a robust pairwise matching score. We additionally integrate an active pair sampling strategy to accelerate annotation by initially prioritizing uncertain predictions. We evaluate Spotted on three challenging camera-trap ReID datasets comprised of spotted hyenas and leopards, which we release as part of this work. Our model improves average top-5 identification accuracy by 9pp, 2pp and 9pp over the best baseline on our LeopardID102, SpottedHyenaID109 and SpottedHyenaID415 datasets, respectively. Further, we show that our human-in-the-loop strategy reduces the number of queried comparisons by up to 69pp while achieving equivalent positive matches.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2605.25720",
+ "title": "Learning to Search and Searching to Learn for Generalization in Planning",
+ "authors": [
+  "Michael Aichmüller",
+  "Yannik Hesse",
+  "Hector Geffner"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 1,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML 2026",
+ "abstract": "Combinatorial generalization remains a central challenge in Deep Reinforcement Learning (DRL). Classical planning provides a simple yet challenging setting to study this problem through explicit relational descriptions, without requiring learning from perception. In sparse-reward domains, standard RL exploration via real-time search is ineffective, and learning-based planning methods often rely on expert demonstrations, hindsight relabeling, or random walks from the goal state. In contrast, planners rely on best-first search methods such as $\\mathrm{A}^\\star$ to solve problems from scratch. We propose a self-improving $\\mathrm{WA}^\\star$ learning framework in combination with a value heuristic represented by a Relational Graph Neural Network: the heuristic guides search, and the resulting search data updates the heuristic via $Q$-learning. This loop yields heuristics that can function as general policies and solve new instances even without search, where DRL otherwise fails, as we show on puzzles such as Sokoban, PushWorld, The Witness, and the 2023 International Planning Competition benchmarks. Notably, we demonstrate strong zero-shot generalization: For example, heuristics trained on Blocksworld instances with fewer than 30 blocks successfully solve instances with 488 blocks without search.",
+ "primary": "cs.AI"
+}

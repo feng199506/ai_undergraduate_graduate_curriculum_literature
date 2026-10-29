@@ -1,0 +1,21 @@
+{
+ "id": "2410.20293",
+ "title": "A Systematic Review of Machine Learning Approaches for Detecting Deceptive Activities on Social Media: Methods, Challenges, and Biases",
+ "authors": [
+  "Yunchong Liu",
+  "Xiaorui Shen",
+  "Yeyubei Zhang",
+  "Zhongyan Wang",
+  "Yexin Tian",
+  "Jianglai Dai",
+  "Yuchen Cao"
+ ],
+ "v1_date": "2024-10-26",
+ "latest_version": 4,
+ "latest_date": "2025-03-09",
+ "journal_ref": "",
+ "doi": "10.1007/s41060-025-00850-8",
+ "comment": "",
+ "abstract": "Social media platforms like Twitter, Facebook, and Instagram have facilitated the spread of misinformation, necessitating automated detection systems. This systematic review evaluates 36 studies that apply machine learning (ML) and deep learning (DL) models to detect fake news, spam, and fake accounts on social media. Using the Prediction model Risk Of Bias ASsessment Tool (PROBAST), the review identified key biases across the ML lifecycle: selection bias due to non-representative sampling, inadequate handling of class imbalance, insufficient linguistic preprocessing (e.g., negations), and inconsistent hyperparameter tuning. Although models such as Support Vector Machines (SVM), Random Forests, and Long Short-Term Memory (LSTM) networks showed strong potential, over-reliance on accuracy as an evaluation metric in imbalanced data settings was a common flaw. The review highlights the need for improved data preprocessing (e.g., resampling techniques), consistent hyperparameter tuning, and the use of appropriate metrics like precision, recall, F1 score, and AUROC. Addressing these limitations can lead to more reliable and generalizable ML/DL models for detecting deceptive content, ultimately contributing to the reduction of misinformation on social media.",
+ "primary": "cs.LG"
+}

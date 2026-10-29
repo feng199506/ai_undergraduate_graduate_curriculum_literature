@@ -1,0 +1,20 @@
+{
+ "id": "2403.03517",
+ "title": "IB-Net: Initial Branch Network for Variable Decision in Boolean Satisfiability",
+ "authors": [
+  "Tsz Ho Chan",
+  "Wenyi Xiao",
+  "Junhua Huang",
+  "Huiling Zhen",
+  "Guangji Tian",
+  "Mingxuan Yuan"
+ ],
+ "v1_date": "2024-03-06",
+ "latest_version": 1,
+ "latest_date": "2024-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 12 figures",
+ "abstract": "Boolean Satisfiability problems are vital components in Electronic Design Automation, particularly within the Logic Equivalence Checking process. Currently, SAT solvers are employed for these problems and neural network is tried as assistance to solvers. However, as SAT problems in the LEC context are distinctive due to their predominantly unsatisfiability nature and a substantial proportion of UNSAT-core variables, existing neural network assistance has proven unsuccessful in this specialized domain. To tackle this challenge, we propose IB-Net, an innovative framework utilizing graph neural networks and novel graph encoding techniques to model unsatisfiable problems and interact with state-of-the-art solvers. Extensive evaluations across solvers and datasets demonstrate IB-Net's acceleration, achieving an average runtime speedup of 5.0% on industrial data and 8.3% on SAT competition data empirically. This breakthrough advances efficient solving in LEC workflows.",
+ "primary": "cs.AI"
+}

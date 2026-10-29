@@ -1,0 +1,17 @@
+{
+ "id": "2504.04101",
+ "title": "Quantum phase classification via partial tomography-based quantum hypothesis testing",
+ "authors": [
+  "Akira Tanji",
+  "Hiroshi Yano",
+  "Naoki Yamamoto"
+ ],
+ "v1_date": "2025-04-05",
+ "latest_version": 2,
+ "latest_date": "2026-02-04",
+ "journal_ref": "Scientific Reports 16, 4555 (2026)",
+ "doi": "10.1038/s41598-025-34610-2",
+ "comment": "24 pages, 12 figures",
+ "abstract": "Quantum phase classification is a fundamental problem in quantum many-body physics, traditionally approached using order parameters or quantum machine learning techniques such as quantum convolutional neural networks (QCNNs). However, these methods often require extensive prior knowledge of the system or large numbers of quantum state copies for reliable classification. In this work, we propose a classification algorithm based on the quantum Neyman-Pearson test, which is theoretically optimal for distinguishing between two quantum states. While directly constructing the optimal test for many-body systems via full state tomography is intractable due to the exponential growth of the Hilbert space, we introduce a partitioning strategy that applies hypothesis tests to subsystems rather than the entire state, effectively reducing the required number of quantum state copies while maintaining classification accuracy. We validate our approach through numerical simulations, demonstrating its advantages over conventional methods, including the order parameter-based classifier, the QCNN, and the recently developed classical machine learning algorithm enhanced with quantum data. Our results show that the proposed method achieves lower classification error probabilities with fewer required quantum state copies compared to all of these baselines, while also reducing the training cost relative to the QCNN and the classical machine learning algorithm enhanced with quantum data, and further decreasing the classical computational time in comparison with the latter. We additionally demonstrate scalability of our method in numerical experiments up to systems with 81 qubits. These findings highlight the potential of quantum hypothesis testing as a powerful tool for quantum phase classification, particularly in experimental settings where quantum measurements are combined with classical post-processing.",
+ "primary": "quant-ph"
+}

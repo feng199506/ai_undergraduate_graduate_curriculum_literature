@@ -1,0 +1,16 @@
+{
+ "id": "2403.12666",
+ "title": "Multi-Dimensional Machine Translation Evaluation: Model Evaluation and Resource for Korean",
+ "authors": [
+  "Dojun Park",
+  "Sebastian Padó"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 1,
+ "latest_date": "2024-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, accepted at LREC-COLING 2024",
+ "abstract": "Almost all frameworks for the manual or automatic evaluation of machine translation characterize the quality of an MT output with a single number. An exception is the Multidimensional Quality Metrics (MQM) framework which offers a fine-grained ontology of quality dimensions for scoring (such as style, fluency, accuracy, and terminology). Previous studies have demonstrated the feasibility of MQM annotation but there are, to our knowledge, no computational models that predict MQM scores for novel texts, due to a lack of resources. In this paper, we address these shortcomings by (a) providing a 1200-sentence MQM evaluation benchmark for the language pair English-Korean and (b) reframing MT evaluation as the multi-task problem of simultaneously predicting several MQM scores using SOTA language models, both in a reference-based MT evaluation setup and a reference-free quality estimation (QE) setup. We find that reference-free setup outperforms its counterpart in the style dimension while reference-based models retain an edge regarding accuracy. Overall, RemBERT emerges as the most promising model. Through our evaluation, we offer an insight into the translation quality in a more fine-grained, interpretable manner.",
+ "primary": "cs.CL"
+}

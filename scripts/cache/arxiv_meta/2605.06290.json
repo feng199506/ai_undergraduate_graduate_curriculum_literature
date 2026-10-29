@@ -1,0 +1,17 @@
+{
+ "id": "2605.06290",
+ "title": "Data Language Models: A New Foundation Model Class for Tabular Data",
+ "authors": [
+  "Eda Erol",
+  "Giuliano Pezzoli",
+  "Ozer Cem Kelahmet"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Every major data modality now has a foundation model that understands it natively: text has language models, images have vision models, audio has audio models. Tabular data, the modality on which many consequential real-world AI decisions are made, does not. Every approach to tabular AI today, from gradient-boosted trees to the latest tabular foundation models, requires a preprocessing pipeline before any model can consume the data. None of them understand tabular data as a modality. We introduce the Data Language Model (DLM), the missing foundation model for tabular data. A DLM understands tables the way a language model understands sentences: natively, without serialization or preprocessing, directly from raw cell values. It is the tabular data layer on which AI models, agents, and vertical AI applications can be built, eliminating the preprocessing pipelines that currently stand between raw data and every AI system that consumes it. We present Schema-1, the first DLM: a 140M parameter model trained on more than 2.3M synthetic and real-world tabular datasets. Schema-1 outperforms gradient-boosted ensembles, AutoML stacks, and the tabular foundation models we evaluate on established row-level prediction benchmarks. On missing value reconstruction it achieves lower reconstruction error than all classical statistical methods and frontier large language models on mean performance across conditions, establishing that structural understanding of a dataset's own distributional geometry is more useful for imputation than world knowledge encoded in language. It identifies the industry sector of any unseen dataset from raw cell values alone, reliably across any domain, a task no prior tabular model can perform. It is the native tabular understanding layer that has been missing from the AI stack.",
+ "primary": "cs.AI"
+}

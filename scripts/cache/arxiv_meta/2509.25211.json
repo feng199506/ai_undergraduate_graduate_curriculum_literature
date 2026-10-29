@@ -1,0 +1,16 @@
+{
+ "id": "2509.25211",
+ "title": "LEMs: A Primer On Large Execution Models",
+ "authors": [
+  "Remi Genet",
+  "Hugo Inzirillo"
+ ],
+ "v1_date": "2025-09-21",
+ "latest_version": 1,
+ "latest_date": "2025-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces Large Execution Models (LEMs), a novel deep learning framework that extends transformer-based architectures to address complex execution problems with flexible time boundaries and multiple execution constraints. Building upon recent advances in neural VWAP execution strategies, LEMs generalize the approach from fixed-duration orders to scenarios where execution duration is bounded between minimum and maximum time horizons, similar to share buyback contract structures. The proposed architecture decouples market information processing from execution allocation decisions: a common feature extraction pipeline using Temporal Kolmogorov-Arnold Networks (TKANs), Variable Selection Networks (VSNs), and multi-head attention mechanisms processes market data to create informational context, while independent allocation networks handle the specific execution logic for different scenarios (fixed quantity vs. fixed notional, buy vs. sell orders). This architectural separation enables a unified model to handle diverse execution objectives while leveraging shared market understanding across scenarios. Through comprehensive empirical evaluation on intraday cryptocurrency markets and multi-day equity trading using DOW Jones constituents, we demonstrate that LEMs achieve superior execution performance compared to traditional benchmarks by dynamically optimizing execution paths within flexible time constraints. The unified model architecture enables deployment across different execution scenarios (buy/sell orders, varying duration boundaries, volume/notional targets) through a single framework, providing significant operational advantages over asset-specific approaches.",
+ "primary": "cs.LG"
+}

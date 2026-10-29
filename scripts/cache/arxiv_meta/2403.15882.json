@@ -1,0 +1,19 @@
+{
+ "id": "2403.15882",
+ "title": "VLUE: A New Benchmark and Multi-task Knowledge Transfer Learning for Vietnamese Natural Language Understanding",
+ "authors": [
+  "Phong Nguyen-Thuan Do",
+  "Son Quoc Tran",
+  "Phu Gia Hoang",
+  "Kiet Van Nguyen",
+  "Ngan Luu-Thuy Nguyen"
+ ],
+ "v1_date": "2024-03-23",
+ "latest_version": 1,
+ "latest_date": "2024-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NAACL 2024 (Findings)",
+ "abstract": "The success of Natural Language Understanding (NLU) benchmarks in various languages, such as GLUE for English, CLUE for Chinese, KLUE for Korean, and IndoNLU for Indonesian, has facilitated the evaluation of new NLU models across a wide range of tasks. To establish a standardized set of benchmarks for Vietnamese NLU, we introduce the first Vietnamese Language Understanding Evaluation (VLUE) benchmark. The VLUE benchmark encompasses five datasets covering different NLU tasks, including text classification, span extraction, and natural language understanding. To provide an insightful overview of the current state of Vietnamese NLU, we then evaluate seven state-of-the-art pre-trained models, including both multilingual and Vietnamese monolingual models, on our proposed VLUE benchmark. Furthermore, we present CafeBERT, a new state-of-the-art pre-trained model that achieves superior results across all tasks in the VLUE benchmark. Our model combines the proficiency of a multilingual pre-trained model with Vietnamese linguistic knowledge. CafeBERT is developed based on the XLM-RoBERTa model, with an additional pretraining step utilizing a significant amount of Vietnamese textual data to enhance its adaptation to the Vietnamese language. For the purpose of future research, CafeBERT is made publicly available for research purposes.",
+ "primary": "cs.CL"
+}

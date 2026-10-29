@@ -1,0 +1,27 @@
+{
+ "id": "2608.24977",
+ "title": "Retrieved But Not Reliable: A Survey on Attacks, and Defenses in Retrieval-Augmented Generation",
+ "authors": [
+  "Minh Tran",
+  "Cuong Dang",
+  "Tuc Nguyen",
+  "Khanh-Tung Tran",
+  "Minh Huynh Nguyen",
+  "Trinh Chau",
+  "Kien Le",
+  "Do Xuan Long",
+  "Jiahao Zhang",
+  "Fali Wang",
+  "Hoang D. Nguyen",
+  "Thanh Le",
+  "Suhang Wang"
+ ],
+ "v1_date": "2026-08-25",
+ "latest_version": 2,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 6 figures. Accepted to Findings of the Association for Computational Linguistics: EMNLP 2026. Peer-reviewed through ACL Rolling Review (ARR)",
+ "abstract": "Retrieval-Augmented Generation (RAG) enhances large language models by grounding outputs in external knowledge, improving factuality and reducing hallucinations. At the same time, the retrieval-augmented pipeline introduces new robustness and security risks, including corpus poisoning, backdoor attacks, privacy leakage, and fairness violations. Despite rapid progress in this area, existing surveys remain limited in their treatment of attacker objectives, threat models, and stage-specific defenses across the full RAG pipeline. This survey presents a unified and pipeline-aware overview of RAG robustness. We formalize threat models over the corpus, retriever, and generator, and organize attacks into three main objectives: accuracy, privacy, and fairness. We further review defenses from a pipeline-aware perspective, covering the retrieval, rerank, generation, and traceback stages. In addition, we summarize robustness benchmarks and explainability methods for more deeply evaluating and explaining RAG robustness.",
+ "primary": "cs.CR"
+}

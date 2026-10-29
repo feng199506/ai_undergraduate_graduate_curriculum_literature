@@ -1,0 +1,27 @@
+{
+ "id": "2505.13518",
+ "title": "Data Balancing Strategies: A Systematic Survey of Resampling and Augmentation Methods",
+ "authors": [
+  "Behnam Yousefimehr",
+  "Mehdi Ghatee",
+  "Javad Fazli",
+  "Shervin Ghaffari",
+  "Zahra Rafei",
+  "Mohammad Amin Seifi",
+  "Sajed Tavakoli",
+  "Abolfazl Nikahd",
+  "Mahdi Razi Gandomani",
+  "Alireza Orouji",
+  "Ramtin Mahmoudi Kashani",
+  "Sarina Heshmati",
+  "Negin Sadat Mousavi"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 3,
+ "latest_date": "2026-07-18",
+ "journal_ref": "Machine Learning and Knowledge Extraction, 2026, 8(7), 211; https://www.mdpi.com/2504-4990/8/7/211",
+ "doi": "10.3390/make8070211",
+ "comment": "81 pages, 4 figures, 25 tables",
+ "abstract": "Imbalanced datasets, where one class significantly outnumbers others, remain a persistent challenge in machine learning, often biasing predictions toward the majority class and degrading classifier performance. This paper provides a comprehensive, systematic review of data balancing methods, extending beyond foundational oversampling techniques such as the Synthetic Minority Oversampling Technique (SMOTE) and its variants (e.g., Borderline SMOTE, K-Means SMOTE, and Safe-Level SMOTE) to encompass advanced adaptive methods (MWMOTE, AMDO), deep generative models (generative adversarial networks, variational autoencoders, and diffusion models), undersampling techniques (NearMiss, Tomek Links), combination/hybrid methods (SMOTE-ENN, SMOTE-Tomek, and SMOTE+OCSVM), ensemble strategies (SMOTEBoost, RUSBoost, Balanced Random Forest, and One-Sided Selection), and specialized approaches for multi-label and clustered data. Beyond descriptive categorization, this review critically examines each method's underlying assumptions, operational mechanisms, and suitability for diverse data characteristics, including high dimensionality, mixed feature types, class overlap, and noise. Key findings demonstrate that no single method universally outperforms others; optimal selection depends critically on dataset characteristics, classifier choice, and evaluation metrics. The paper concludes by identifying emerging research directions, including self-supervised learning for imbalance, diffusion-based generative oversampling, distribution-preserving resampling, knowledge distillation for imbalanced deployment, and the adaptation of foundation models to skewed distributions, offering practical guidelines for practitioners and a roadmap for future methodological development.",
+ "primary": "stat.ML"
+}

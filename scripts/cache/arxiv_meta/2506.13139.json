@@ -1,0 +1,16 @@
+{
+ "id": "2506.13139",
+ "title": "Random Matrix Theory for Deep Learning: Beyond Eigenvalues of Linear Models",
+ "authors": [
+  "Zhenyu Liao",
+  "Michael W. Mahoney"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 3,
+ "latest_date": "2026-06-26",
+ "journal_ref": "IEEE Signal Processing Magazine (Volume: 43, Issue: 2, March 2026) 93 - 106",
+ "doi": "10.1109/msp.2025.3618012",
+ "comment": "30 pages, 6 figures; extended technical report version of the IEEE SPM article, with appendices, minor corrections, and clarified derivations",
+ "abstract": "Modern Machine Learning (ML) and Deep Neural Networks (DNNs) often operate on high-dimensional data and rely on overparameterized models, where classical low-dimensional intuitions break down. In particular, the proportional regime where the data dimension, sample size, and number of model parameters are all large and comparable, gives rise to novel and sometimes counterintuitive behaviors. This paper extends traditional Random Matrix Theory (RMT) beyond eigenvalue-based analysis of linear models to address the challenges posed by nonlinear ML models such as DNNs in this regime. We introduce the concept of High-dimensional Equivalent, which unifies and generalizes both Deterministic Equivalent and Linear Equivalent, to systematically address three technical challenges: high dimensionality, nonlinearity, and the need to analyze generic eigenspectral functionals. Leveraging this framework, we provide precise characterizations of the training and generalization performance of linear models, nonlinear shallow networks, and deep networks. Our results capture rich phenomena, including scaling laws, double descent, and nonlinear learning dynamics, offering a unified perspective on the theoretical understanding of deep learning in high dimensions.",
+ "primary": "stat.ML"
+}

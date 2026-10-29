@@ -1,0 +1,17 @@
+{
+ "id": "2606.23233",
+ "title": "Judgment-Grounded Expansion for Peer Review Generation",
+ "authors": [
+  "Sheng Lu",
+  "Lizhen Qu",
+  "Iryna Gurevych"
+ ],
+ "v1_date": "2026-06-22",
+ "latest_version": 1,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automatic review generation is a promising direction for accelerating scientific progress. While most work adopts an end-to-end setup, its fully automated nature makes it less suitable for settings that demand accountability. To better balance automation and accountability, we formalize judgment-grounded expansion, a human-AI collaboration mode where a reviewer provides an evaluative claim and the system expands it into review comment candidate(s). We model it as a structured generate-check-refine process and conduct a user study to collect human-model interaction data. We study two practical challenges for judgment-grounded expansion: scalable evaluation and candidate set curation. We develop methods to simulate the process for large-scale evaluation, and show that conformal prediction is well suited to balancing candidate set size and target coverage. Our work establishes judgment-grounded expansion as a concrete task and provides empirical and methodological foundations for the design of future collaborative review generation systems.",
+ "primary": "cs.CL"
+}

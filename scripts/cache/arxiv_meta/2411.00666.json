@@ -1,0 +1,19 @@
+{
+ "id": "2411.00666",
+ "title": "Beyond the Boundaries of Proximal Policy Optimization",
+ "authors": [
+  "Charlie B. Tan",
+  "Edan Toledo",
+  "Benjamin Ellis",
+  "Jakob N. Foerster",
+  "Ferenc Huszár"
+ ],
+ "v1_date": "2024-11-01",
+ "latest_version": 1,
+ "latest_date": "2024-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Proximal policy optimization (PPO) is a widely-used algorithm for on-policy reinforcement learning. This work offers an alternative perspective of PPO, in which it is decomposed into the inner-loop estimation of update vectors, and the outer-loop application of updates using gradient ascent with unity learning rate. Using this insight we propose outer proximal policy optimization (outer-PPO); a framework wherein these update vectors are applied using an arbitrary gradient-based optimizer. The decoupling of update estimation and update application enabled by outer-PPO highlights several implicit design choices in PPO that we challenge through empirical investigation. In particular we consider non-unity learning rates and momentum applied to the outer loop, and a momentum-bias applied to the inner estimation loop. Methods are evaluated against an aggressively tuned PPO baseline on Brax, Jumanji and MinAtar environments; non-unity learning rates and momentum both achieve statistically significant improvement on Brax and Jumanji, given the same hyperparameter tuning budget.",
+ "primary": "cs.LG"
+}

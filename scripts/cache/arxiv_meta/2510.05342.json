@@ -1,0 +1,15 @@
+{
+ "id": "2510.05342",
+ "title": "Margin Adaptive DPO: Leveraging Reward Model for Granular Control in Preference Optimization",
+ "authors": [
+  "Hyung Gyu Rho"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 2,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Direct Preference Optimization (DPO) has emerged as a simple and effective method for aligning large language models. However, its reliance on a fixed temperature parameter leads to suboptimal training on diverse preference data, causing overfitting on easy examples and under-learning from informative ones. Recent methods have emerged to counter this. While IPO addresses general overfitting, its uniform regularization can be overly conservative. The more targeted approach of $β$-DPO suffers from its own limitations: its batch-level adaptation applies a single, compromised temperature to mixed-margin pairs, its linear update rule can produce unstable negative $β$ values, and its filtering mechanism discards potentially useful training signals. In this work, we introduce Margin-Adaptive Direct Preference Optimization (MADPO), a method that provides a stable, data-preserving, and instance-level solution. MADPO employs a practical two-step approach: it first trains a reward model to estimate preference margins and then uses these margins to apply a continuous, adaptive weight to the DPO loss for each individual training sample. This re-weighting scheme creates an effective target margin that is amplified for hard pairs and dampened for easy pairs, allowing for granular control over the learning signal. We provide a comprehensive theoretical analysis, proving that MADPO has a well-behaved optimization landscape and is robust to reward model estimation errors. We validate our theory with experiments on a summarization task using human preference data. MADPO consistently outperforms strong baselines across a comprehensive sweep of decoding temperatures.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2510.12733",
+ "title": "HYPE: Hybrid Planning with Ego Proposal-Conditioned Predictions",
+ "authors": [
+  "Hang Yu",
+  "Julian Jordan",
+  "Julian Schmidt",
+  "Silvan Lindner",
+  "Alessandro Canevaro",
+  "Wilhelm Stork"
+ ],
+ "v1_date": "2025-10-14",
+ "latest_version": 2,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to IEEE ITSC 2025",
+ "abstract": "Safe and interpretable motion planning in complex urban environments needs to reason about bidirectional multi-agent interactions. This reasoning requires to estimate the costs of potential ego driving maneuvers. Many existing planners generate initial trajectories with sampling-based methods and refine them by optimizing on learned predictions of future environment states, which requires a cost function that encodes the desired vehicle behavior. Designing such a cost function can be very challenging, especially if a wide range of complex urban scenarios has to be considered. We propose HYPE: HYbrid Planning with Ego proposal-conditioned predictions, a planner that integrates multimodal trajectory proposals from a learned proposal model as heuristic priors into a Monte Carlo Tree Search (MCTS) refinement. To model bidirectional interactions, we introduce an ego-conditioned occupancy prediction model, enabling consistent, scene-aware reasoning. Our design significantly simplifies cost function design in refinement by considering proposal-driven guidance, requiring only minimalistic grid-based cost terms. Evaluations on large-scale real-world benchmarks nuPlan and DeepUrban show that HYPE effectively achieves state-of-the-art performance, especially in safety and adaptability.",
+ "primary": "cs.RO"
+}

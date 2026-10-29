@@ -1,0 +1,16 @@
+{
+ "id": "2510.10290",
+ "title": "Grounded AI for Code Review: Resource-Efficient Large-Model Serving in Enterprise Pipelines",
+ "authors": [
+  "Sayan Mandal",
+  "Hua Jiang"
+ ],
+ "v1_date": "2025-10-11",
+ "latest_version": 1,
+ "latest_date": "2025-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to MLSys 2026",
+ "abstract": "Automated code review adoption lags in compliance-heavy settings, where static analyzers produce high-volume, low-rationale outputs, and naive LLM use risks hallucination and incurring cost overhead. We present a production system for grounded, PR-native review that pairs static-analysis findings with AST-guided context extraction and a single-GPU, on-demand serving stack (quantized open-weight model, multi-tier caching) to deliver concise explanations and remediation guidance. Evaluated on safety-oriented C/C++ standards, the approach achieves sub-minute median first-feedback (offline p50 build+LLM 59.8s) while maintaining competitive violation reduction and lower violation rates versus larger proprietary models. The architecture is decoupled: teams can adopt the grounding/prompting layer or the serving layer independently. A small internal survey (n=8) provides directional signals of reduced triage effort and moderate perceived grounding, with participants reporting fewer human review iterations. We outline operational lessons and limitations, emphasizing reproducibility, auditability, and pathways to broader standards and assisted patching.",
+ "primary": "cs.SE"
+}

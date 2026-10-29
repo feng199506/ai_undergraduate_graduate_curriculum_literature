@@ -1,0 +1,21 @@
+{
+ "id": "2312.07624",
+ "title": "A dynamical clipping approach with task feedback for Proximal Policy Optimization",
+ "authors": [
+  "Ziqi Zhang",
+  "Jingzehua Xu",
+  "Zifeng Zhuang",
+  "Hongyin Zhang",
+  "Jinxin Liu",
+  "Donglin wang",
+  "Shuai Zhang"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 3,
+ "latest_date": "2024-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Proximal Policy Optimization (PPO) has been broadly applied to robotics learning, showcasing stable training performance. However, the fixed clipping bound setting may limit the performance of PPO. Specifically, there is no theoretical proof that the optimal clipping bound remains consistent throughout the entire training process. Meanwhile, previous researches suggest that a fixed clipping bound restricts the policy's ability to explore. Therefore, many past studies have aimed to dynamically adjust the PPO clipping bound to enhance PPO's performance. However, the objective of these approaches are not directly aligned with the objective of reinforcement learning (RL) tasks, which is to maximize the cumulative Return. Unlike previous clipping approaches, we propose a bi-level proximal policy optimization objective that can dynamically adjust the clipping bound to better reflect the preference (maximizing Return) of these RL tasks. Based on this bi-level proximal policy optimization paradigm, we introduce a new algorithm named Preference based Proximal Policy Optimization (Pb-PPO). Pb-PPO utilizes a multi-armed bandit approach to refelect RL preference, recommending the clipping bound for PPO that can maximizes the current Return. Therefore, Pb-PPO results in greater stability and improved performance compared to PPO with a fixed clipping bound. We test Pb-PPO on locomotion benchmarks across multiple environments, including Gym-Mujoco and legged-gym. Additionally, we validate Pb-PPO on customized navigation tasks. Meanwhile, we conducted comparisons with PPO using various fixed clipping bounds and various of clipping approaches. The experimental results indicate that Pb-PPO demonstrates superior training performance compared to PPO and its variants. Our codebase has been released at : https://github.com/stevezhangzA/pb_ppo",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2506.18344",
+ "title": "Dynamic Hybrid Modeling: Incremental Identification and Model Predictive Control",
+ "authors": [
+  "Adrian Caspari",
+  "Thomas Bierweiler",
+  "Sarah Fadda",
+  "Daniel Labisch",
+  "Maarten Nauta",
+  "Franzisko Wagner",
+  "Merle Warmbold",
+  "Constantinos C. Pantelides"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 2,
+ "latest_date": "2026-01-18",
+ "journal_ref": "Computers & Chemical Engineering, Volume 204, January 2026, 109413",
+ "doi": "10.1016/j.compchemeng.2025.109413",
+ "comment": "21 pages, 11 Figures",
+ "abstract": "Mathematical models are crucial for optimizing and controlling chemical processes, yet they often face significant limitations in terms of computational time, algorithm complexity, and development costs. Hybrid models, which combine mechanistic models with data-driven models (i.e. models derived via the application of machine learning to experimental data), have emerged as a promising solution to these challenges. However, the identification of dynamic hybrid models remains difficult due to the need to integrate data-driven models within mechanistic model structures. We present an incremental identification approach for dynamic hybrid models that decouples the mechanistic and data-driven components to overcome computational and conceptual difficulties. Our methodology comprises four key steps: (1) regularized dynamic parameter estimation to determine optimal time profiles for flux variables, (2) correlation analysis to evaluate relationships between variables, (3) data-driven model identification using advanced machine learning techniques, and (4) hybrid model integration to combine the mechanistic and data-driven components. This approach facilitates early evaluation of model structure suitability, accelerates the development of hybrid models, and allows for independent identification of data-driven components. Three case studies are presented to illustrate the robustness, reliability, and efficiency of our incremental approach in handling complex systems and scenarios with limited data.",
+ "primary": "eess.SY"
+}

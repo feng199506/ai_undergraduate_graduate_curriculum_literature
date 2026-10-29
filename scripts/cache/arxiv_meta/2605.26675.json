@@ -1,0 +1,18 @@
+{
+ "id": "2605.26675",
+ "title": "CART Random Forests as Sequential Allocation over Random Opportunity Sets: A Stochastic-Control Theory of Ensemble Risk",
+ "authors": [
+  "Tianxing Mei",
+  "Yingying Fan",
+  "Mingming Leng",
+  "Jinchi Lv"
+ ],
+ "v1_date": "2026-05-26",
+ "latest_version": 1,
+ "latest_date": "2026-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "69 pages, 1 figure",
+ "abstract": "CART random forests are among the most widely used modern predictive methods, with well-documented empirical success. Yet, at the mechanistic level, the algorithm is often treated as a black box because of its complexity. In this paper, we develop a stochastic-control perspective on feature-subsampled CART random forests, named CART random opportunity-set allocation (CART-ROSA). At each node, the random subset of features is interpreted as a random feasible action set, and the CART split rule as a masked-action allocation policy. This policy induces a controlled stochastic process over informative split-count states, whose terminal law determines both single-tree error and cross-tree interaction terms in the forest mean squared error (MSE). Such representation opens the black box of CART-forests by separating two design levers: the informative-opportunity rate induced by feature subsampling, and the contraction strength from the within-mask split policy. We establish that the CART policy is locally stabilizing: it contracts imbalances in informative split allocations and concentrates terminal tree geometry. At the system level, however, it can be globally suboptimal for the forest objective. Specializing to the linear model, we derive the MSE risk expansion explicitly. Our results show how an operations-research perspective makes tractable a theoretical gap difficult to access from the standard algorithmic description of CART forests.",
+ "primary": "stat.ML"
+}

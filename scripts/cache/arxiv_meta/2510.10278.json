@@ -1,0 +1,17 @@
+{
+ "id": "2510.10278",
+ "title": "Simulating Viva Voce Examinations to Evaluate Clinical Reasoning in Large Language Models",
+ "authors": [
+  "Christopher Chiu",
+  "Silviu Pitis",
+  "Mihaela van der Schaar"
+ ],
+ "v1_date": "2025-10-11",
+ "latest_version": 1,
+ "latest_date": "2025-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clinical reasoning in medicine is a hypothesis-driven process where physicians refine diagnoses from limited information through targeted history, physical examination, and diagnostic investigations. In contrast, current medical benchmarks for large language models (LLMs) primarily assess knowledge recall through single-turn questions, where complete clinical information is provided upfront. To address this gap, we introduce VivaBench, a multi-turn benchmark that evaluates sequential clinical reasoning in LLM agents. Our dataset consists of 1762 physician-curated clinical vignettes structured as interactive scenarios that simulate a (oral) examination in medical training, requiring agents to actively probe for relevant findings, select appropriate investigations, and synthesize information across multiple steps to reach a diagnosis. While current LLMs demonstrate competence in diagnosing conditions from well-described clinical presentations, their performance degrades significantly when required to navigate iterative diagnostic reasoning under uncertainty in our evaluation. Our analysis identified several failure modes that mirror common cognitive errors in clinical practice, including: (1) fixation on initial hypotheses, (2) inappropriate investigation ordering, (3) premature diagnostic closure, and (4) failing to screen for critical conditions. These patterns reveal fundamental limitations in how current LLMs reason and make decisions under uncertainty. Through VivaBench, we provide a standardized benchmark for evaluating conversational medical AI systems for real-world clinical decision support. Beyond medical applications, we contribute to the larger corpus of research on agentic AI by demonstrating how sequential reasoning trajectories can diverge in complex decision-making environments.",
+ "primary": "cs.LG"
+}

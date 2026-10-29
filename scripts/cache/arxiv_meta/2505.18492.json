@@ -1,0 +1,19 @@
+{
+ "id": "2505.18492",
+ "title": "Formally Solving Answer-Construction Problems in Lean",
+ "authors": [
+  "Jialiang Sun",
+  "Yuzhi Tang",
+  "Ao Li",
+  "Chris J. Maddison",
+  "Kuldeep S. Meel"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 6,
+ "latest_date": "2026-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have achieved remarkable progress in formal mathematical reasoning. Mathematical competition problems fall into two broad types: theorem-proving problems ask for a proof of a fully specified statement, whereas answer-construction problems ask the solver to construct an answer object and prove that it satisfies the stated specification. Existing mathematical reasoning engines mainly target theorem-proving problems, yet answer-construction problems remain less studied. This setting is challenging because model capabilities are misaligned, with general LLMs better suited to answer construction and prover LLMs better suited to proof generation, and because Lean proof checking alone does not rule out inadmissible circular witnesses. To close this gap, we introduce Enumerate-Conjecture-Prove (ECP), a neuro-symbolic framework for solving answer-construction problems in Lean. ECP uses general LLMs to perform bounded enumeration and construct candidate answers, and invokes prover LLMs to produce machine-checked proofs. ECP introduces admissibility checking to ensure that each answer is canonical and does not involve a circular argument. On answer-construction problems from PutnamBench and autoformalized MathArena, ECP formally solves 17/346 PutnamBench instances and 18/75 MathArena instances with admissible answers and proofs, outperforming LLM baselines at aligned inference budgets.",
+ "primary": "cs.AI"
+}

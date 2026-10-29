@@ -1,0 +1,20 @@
+{
+ "id": "2411.03604",
+ "title": "Temporal-Difference Learning Using Distributed Error Signals",
+ "authors": [
+  "Jonas Guan",
+  "Shon Eduard Verch",
+  "Claas Voelcker",
+  "Ethan C. Jackson",
+  "Nicolas Papernot",
+  "William A. Cunningham"
+ ],
+ "v1_date": "2024-11-06",
+ "latest_version": 1,
+ "latest_date": "2024-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, to be published at NeurIPS 2024",
+ "abstract": "A computational problem in biological reward-based learning is how credit assignment is performed in the nucleus accumbens (NAc). Much research suggests that NAc dopamine encodes temporal-difference (TD) errors for learning value predictions. However, dopamine is synchronously distributed in regionally homogeneous concentrations, which does not support explicit credit assignment (like used by backpropagation). It is unclear whether distributed errors alone are sufficient for synapses to make coordinated updates to learn complex, nonlinear reward-based learning tasks. We design a new deep Q-learning algorithm, Artificial Dopamine, to computationally demonstrate that synchronously distributed, per-layer TD errors may be sufficient to learn surprisingly complex RL tasks. We empirically evaluate our algorithm on MinAtar, the DeepMind Control Suite, and classic control tasks, and show it often achieves comparable performance to deep RL algorithms that use backpropagation.",
+ "primary": "cs.LG"
+}

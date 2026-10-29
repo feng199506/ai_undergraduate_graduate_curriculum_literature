@@ -1,0 +1,17 @@
+{
+ "id": "2507.11005",
+ "title": "AdaMuon: Adaptive Muon Optimizer",
+ "authors": [
+  "Chongjie Si",
+  "Debing Zhang",
+  "Wei Shen"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 3,
+ "latest_date": "2025-12-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Codes are available at https://github.com/Chongjie-Si/AdaMuon",
+ "abstract": "We propose AdaMuon, a novel optimizer that combines element-wise adaptivity with orthogonal updates for large-scale neural network training. AdaMuon incorporates two tightly coupled mechanisms: (1) an element-wise second momentum estimator applied to orthogonalized update directions, and (2) a sign-stabilized orthogonal update, where the momentum is first sign-transformed before orthogonalization. These two components jointly enable variance-adaptive scaling while maintaining stable update geometry. In addition, AdaMuon employs an RMS-aligned rescaling strategy to match the root-mean-square update magnitude to Adam, allowing direct reuse of existing learning rate schedules without extra tuning. Experiments demonstrate that AdaMuon not only maintains stability but can surpass Adam by more than 40\\% training efficiency in large-scale scenarios.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2501.09734",
+ "title": "Random Subspace Cubic-Regularization Methods, with Applications to Low-Rank Functions",
+ "authors": [
+  "Coralia Cartis",
+  "Zhen Shao",
+  "Edward Tansley"
+ ],
+ "v1_date": "2025-01-16",
+ "latest_version": 1,
+ "latest_date": "2025-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose and analyze random subspace variants of the second-order Adaptive Regularization using Cubics (ARC) algorithm. These methods iteratively restrict the search space to some random subspace of the parameters, constructing and minimizing a local model only within this subspace. Thus, our variants only require access to (small-dimensional) projections of first- and second-order problem derivatives and calculate a reduced step inexpensively. Under suitable assumptions, the ensuing methods maintain the optimal first-order, and second-order, global rates of convergence of (full-dimensional) cubic regularization, while showing improved scalability both theoretically and numerically, particularly when applied to low-rank functions. When applied to the latter, our adaptive variant naturally adapts the subspace size to the true rank of the function, without knowing it a priori.",
+ "primary": "math.OC"
+}

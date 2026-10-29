@@ -1,0 +1,15 @@
+{
+ "id": "2508.04948",
+ "title": "Self-Error Adjustment: Theory and Practice of Balancing Individual Performance and Diversity in Ensemble Learning",
+ "authors": [
+  "Rui Zou"
+ ],
+ "v1_date": "2025-08-07",
+ "latest_version": 1,
+ "latest_date": "2025-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ensemble learning boosts performance by aggregating predictions from multiple base learners. A core challenge is balancing individual learner accuracy with diversity. Traditional methods like Bagging and Boosting promote diversity through randomness but lack precise control over the accuracy-diversity trade-off. Negative Correlation Learning (NCL) introduces a penalty to manage this trade-off but suffers from loose theoretical bounds and limited adjustment range. To overcome these limitations, we propose a novel framework called Self-Error Adjustment (SEA), which decomposes ensemble errors into two distinct components: individual performance terms, representing the self-error of each base learner, and diversity terms, reflecting interactions among learners. This decomposition allows us to introduce an adjustable parameter into the loss function, offering precise control over the contribution of each component, thus enabling finer regulation of ensemble performance. Compared to NCL and its variants, SEA provides a broader range of effective adjustments and more consistent changes in diversity. Furthermore, we establish tighter theoretical bounds for adjustable ensemble methods and validate them through empirical experiments. Experimental results on several public regression and classification datasets demonstrate that SEA consistently outperforms baseline methods across all tasks. Ablation studies confirm that SEA offers more flexible adjustment capabilities and superior performance in fine-tuning strategies.",
+ "primary": "cs.LG"
+}

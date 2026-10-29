@@ -1,0 +1,17 @@
+{
+ "id": "2512.12710",
+ "title": "Practical Hybrid Quantum Language Models with Observable Readout on Real Hardware",
+ "authors": [
+  "Stefan Balauca",
+  "Ada-Astrid Balauca",
+  "Adrian Iftene"
+ ],
+ "v1_date": "2025-12-14",
+ "latest_version": 1,
+ "latest_date": "2025-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hybrid quantum-classical models represent a crucial step toward leveraging near-term quantum devices for sequential data processing. We present Quantum Recurrent Neural Networks (QRNNs) and Quantum Convolutional Neural Networks (QCNNs) as hybrid quantum language models, reporting the first empirical demonstration of generative language modeling trained and evaluated end-to-end on real quantum hardware. Our architecture combines hardware-optimized parametric quantum circuits with a lightweight classical projection layer, utilizing a multi-sample SPSA strategy to efficiently train quantum parameters despite hardware noise. To characterize the capabilities of these models, we introduce a synthetic dataset designed to isolate syntactic dependencies in a controlled, low-resource environment. Experiments on IBM Quantum processors reveal the critical trade-offs between circuit depth and trainability, demonstrating that while noise remains a significant factor, observable-based readout enables the successful learning of sequential patterns on NISQ devices. These results establish a rigorous engineering baseline for generative quantum natural language processing, validating the feasibility of training complex sequence models on current quantum hardware.",
+ "primary": "quant-ph"
+}

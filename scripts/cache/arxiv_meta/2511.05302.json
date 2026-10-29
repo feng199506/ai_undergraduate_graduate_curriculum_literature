@@ -1,0 +1,18 @@
+{
+ "id": "2511.05302",
+ "title": "When More Retrieval Hurts: Retrieval-Augmented Code Review Generation",
+ "authors": [
+  "Qianru Meng",
+  "Xiao Zhang",
+  "Zhaochen Ren",
+  "Joost Visser"
+ ],
+ "v1_date": "2025-11-07",
+ "latest_version": 2,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Code review generation can reduce developer effort by producing concise, reviewer-style feedback for a given code snippet or code change. However, generation-only models often produce generic or off-point reviews, while retrieval-only methods struggle to adapt well to new contexts. In this paper, we view retrieval augmentation for code review as retrieval-augmented in-context learning, where retrieved historical reviews are placed in the input context as examples that guide the model's output. Based on this view, we propose RARe (Retrieval-Augmented Code Reviewer), a framework that retrieves relevant historical reviews from a corpus and conditions a large language model on the retrieved in-context examples. Experiments on two public benchmarks show that RARe outperforms strong baselines and reaches BLEU-4 scores of 12.32 and 12.96. A key finding is that more retrieval can hurt: using only the top-1 retrieved example works best, while adding more retrieved items can degrade performance due to redundancy and conflicting cues under limited context budgets. Human evaluation and interpretability analysis further support that retrieval-augmented generation reduces generic outputs and improves review focus.",
+ "primary": "cs.SE"
+}

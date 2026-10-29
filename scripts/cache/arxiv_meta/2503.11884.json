@@ -1,0 +1,16 @@
+{
+ "id": "2503.11884",
+ "title": "Mixing Condition Numbers and Oracles for Accurate Floating-point Debugging",
+ "authors": [
+  "Bhargav Kulkarni",
+  "Pavel Panchekha"
+ ],
+ "v1_date": "2025-03-14",
+ "latest_version": 1,
+ "latest_date": "2025-03-14",
+ "journal_ref": "",
+ "doi": "10.1109/arith64983.2025.00025",
+ "comment": "9 pages, 1 figure. To be published in 32nd IEEE International Symposium on Computer Arithmetic, ARITH 2025",
+ "abstract": "Recent advances have made numeric debugging tools much faster by using double-double oracles, and numeric analysis tools much more accurate by using condition numbers. But these techniques have downsides: double-double oracles have correlated error so miss floating-point errors while condition numbers cannot cleanly handle over- and under- flow. We combine both techniques to avoid these downsides. Our combination, EXPLANIFLOAT, computes condition numbers using double-double arithmetic, which avoids correlated errors. To handle over- and under- flow, it introduces a separate logarithmic oracle. As a result, EXPLANIFLOAT achieves a precision of 80.0% and a recall of 96.1% on a collection of 546 difficult numeric benchmarks: more accurate than double-double oracles yet dramatically faster than arbitrary-precision condition number computations.",
+ "primary": "math.NA"
+}

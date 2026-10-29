@@ -1,0 +1,16 @@
+{
+ "id": "2410.07976",
+ "title": "Addressing Rotational Learning Dynamics in Multi-Agent Reinforcement Learning",
+ "authors": [
+  "Baraah A. M. Sidahmed",
+  "Tatjana Chavdarova"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 2,
+ "latest_date": "2025-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multi-agent reinforcement learning (MARL) has emerged as a powerful paradigm for solving complex problems through agents' cooperation and competition, finding widespread applications across domains. Despite its success, MARL faces a reproducibility crisis. We show that, in part, this issue is related to the rotational optimization dynamics arising from competing agents' objectives, and require methods beyond standard optimization algorithms. We reframe MARL approaches using Variational Inequalities (VIs), offering a unified framework to address such issues. Leveraging optimization techniques designed for VIs, we propose a general approach for integrating gradient-based VI methods capable of handling rotational dynamics into existing MARL algorithms. Empirical results demonstrate significant performance improvements across benchmarks. In zero-sum games, Rock--paper--scissors and Matching pennies, VI methods achieve better convergence to equilibrium strategies, and in the Multi-Agent Particle Environment: Predator-prey, they also enhance team coordination. These results underscore the transformative potential of advanced optimization techniques in MARL.",
+ "primary": "stat.ML"
+}

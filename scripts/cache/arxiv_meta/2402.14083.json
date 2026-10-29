@@ -1,0 +1,21 @@
+{
+ "id": "2402.14083",
+ "title": "Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping",
+ "authors": [
+  "Lucas Lehnert",
+  "Sainbayar Sukhbaatar",
+  "DiJia Su",
+  "Qinqing Zheng",
+  "Paul Mcvay",
+  "Michael Rabbat",
+  "Yuandong Tian"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 2,
+ "latest_date": "2024-04-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While Transformers have enabled tremendous progress in various application settings, such architectures still trail behind traditional symbolic planners for solving complex decision making tasks. In this work, we demonstrate how to train Transformers to solve complex planning tasks. This is accomplished by training an encoder-decoder Transformer model to predict the search dynamics of the $A^*$ search algorithm. We fine tune this model to obtain a Searchformer, a Transformer model that optimally solves previously unseen Sokoban puzzles 93.7% of the time, while using up to 26.8% fewer search steps than the $A^*$ implementation that was used for training initially. In our training method, $A^*$'s search dynamics are expressed as a token sequence outlining when task states are added and removed into the search tree during symbolic planning. Searchformer significantly outperforms baselines that predict the optimal plan directly with a 5-10$\\times$ smaller model size and a 10$\\times$ smaller training dataset. Lastly, we demonstrate how Searchformer scales to larger and more complex decision making tasks with improved percentage of solved tasks and shortened search dynamics.",
+ "primary": "cs.AI"
+}

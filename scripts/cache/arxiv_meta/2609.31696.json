@@ -1,0 +1,22 @@
+{
+ "id": "2609.31696",
+ "title": "Data Processing for Offline Evaluation in Recommender Systems: a Survey",
+ "authors": [
+  "Alberto Carlo Maria Mancino",
+  "Angela Di Fazio",
+  "Danilo Danese",
+  "Matteo Attimonelli",
+  "Daniele Malitesta",
+  "Antonio Ferrara",
+  "Claudio Pomo",
+  "Tommaso Di Noia"
+ ],
+ "v1_date": "2026-09-18",
+ "latest_version": 1,
+ "latest_date": "2026-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Offline evaluation is the dominant experimental paradigm in recommender systems research, enabling reproducible and cost-effective comparisons on historical interaction data. Yet, while considerable attention has been devoted to recommendation models and evaluation methodologies, the data processing decisions that precede model training have received less scrutiny. These decisions determine the information available to recommendation algorithms and can affect the comparability and reproducibility of experimental results. This survey provides a systematic, cross-domain characterisation of data processing practices for the offline evaluation of recommender systems. We examine the data-centric pipeline, from dataset selection and interaction representation to data preparation, multimodal feature extraction, and train-validation-test splitting. Our analysis spans recommendation paradigms, including collaborative, sequential, session-based, graph-based, knowledge-aware, context-aware, multimodal, federated, cross-domain, contrastive-learning, and LLM-based recommendation. Beyond reviewing existing practices, we introduce a unified framework and taxonomy for describing data transformations and feature-extraction strategies, distinguishing data preparation from the extraction of representations from multimodal side information. Our empirical analysis reveals a landscape dominated by a narrow set of dataset-level transformations, particularly support-driven filtering, while representation-dependent transformations remain less common. We further identify substantial heterogeneity in how auxiliary information is prepared and represented, as well as inconsistencies in the specification of data splitting protocols, where similar labels may conceal different experimental conditions.",
+ "primary": "cs.IR"
+}

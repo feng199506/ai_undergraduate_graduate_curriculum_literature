@@ -1,0 +1,18 @@
+{
+ "id": "2503.02030",
+ "title": "Accelerating Multi-Task Temporal Difference Learning under Low-Rank Representation",
+ "authors": [
+  "Yitao Bai",
+  "Sihan Zeng",
+  "Justin Romberg",
+  "Thinh T. Doan"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 1,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 3 figures",
+ "abstract": "We study policy evaluation problems in multi-task reinforcement learning (RL) under a low-rank representation setting. In this setting, we are given $N$ learning tasks where the corresponding value function of these tasks lie in an $r$-dimensional subspace, with $r<N$. One can apply the classic temporal-difference (TD) learning method for solving these problems where this method learns the value function of each task independently. In this paper, we are interested in understanding whether one can exploit the low-rank structure of the multi-task setting to accelerate the performance of TD learning. To answer this question, we propose a new variant of TD learning method, where we integrate the so-called truncated singular value decomposition step into the update of TD learning. This additional step will enable TD learning to exploit the dominant directions due to the low rank structure to update the iterates, therefore, improving its performance. Our empirical results show that the proposed method significantly outperforms the classic TD learning, where the performance gap increases as the rank $r$ decreases. From the theoretical point of view, introducing the truncated singular value decomposition step into TD learning might cause an instability on the updates. We provide a theoretical result showing that the instability does not happen. Specifically, we prove that the proposed method converges at a rate $\\mathcal{O}(\\frac{\\ln(t)}{t})$, where $t$ is the number of iterations. This rate matches that of the standard TD learning.",
+ "primary": "cs.LG"
+}

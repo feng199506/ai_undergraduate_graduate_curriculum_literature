@@ -1,0 +1,19 @@
+{
+ "id": "2401.04472",
+ "title": "A Survey on Efficient Federated Learning Methods for Foundation Model Training",
+ "authors": [
+  "Herbert Woisetschläger",
+  "Alexander Isenko",
+  "Shiqiang Wang",
+  "Ruben Mayer",
+  "Hans-Arno Jacobsen"
+ ],
+ "v1_date": "2024-01-09",
+ "latest_version": 3,
+ "latest_date": "2024-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication at IJCAI 2024. Please cite the published paper via https://doi.org/10.24963/ijcai.2024/919",
+ "abstract": "Federated Learning (FL) has become an established technique to facilitate privacy-preserving collaborative training across a multitude of clients. However, new approaches to FL often discuss their contributions involving small deep-learning models only and focus on training full models on clients. In the wake of Foundation Models (FM), the reality is different for many deep learning applications. Typically, FMs have already been pre-trained across a wide variety of tasks and can be fine-tuned to specific downstream tasks over significantly smaller datasets than required for full model training. However, access to such datasets is often challenging. By its design, FL can help to open data silos. With this survey, we introduce a novel taxonomy focused on computational and communication efficiency, the vital elements to make use of FMs in FL systems. We discuss the benefits and drawbacks of parameter-efficient fine-tuning (PEFT) for FL applications, elaborate on the readiness of FL frameworks to work with FMs, and provide future research opportunities on how to evaluate generative models in FL as well as the interplay of privacy and PEFT.",
+ "primary": "cs.LG"
+}

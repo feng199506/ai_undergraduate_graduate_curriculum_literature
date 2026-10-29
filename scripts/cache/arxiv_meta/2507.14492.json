@@ -1,0 +1,19 @@
+{
+ "id": "2507.14492",
+ "title": "Glitches in Decision Tree Ensemble Models",
+ "authors": [
+  "Satyankar Chandra",
+  "Ashutosh Gupta",
+  "Kaushik Mallik",
+  "Krishna Shankaranarayanan",
+  "Namrita Varshney"
+ ],
+ "v1_date": "2025-07-19",
+ "latest_version": 1,
+ "latest_date": "2025-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many critical decision-making tasks are now delegated to machine-learned models, and it is imperative that their decisions are trustworthy and reliable, and their outputs are consistent across similar inputs. We identify a new source of unreliable behaviors-called glitches-which may significantly impair the reliability of AI models having steep decision boundaries. Roughly speaking, glitches are small neighborhoods in the input space where the model's output abruptly oscillates with respect to small changes in the input. We provide a formal definition of glitches, and use well-known models and datasets from the literature to demonstrate that they have widespread existence and argue they usually indicate potential model inconsistencies in the neighborhood of where they are found. We proceed to the algorithmic search of glitches for widely used gradient-boosted decision tree (GBDT) models. We prove that the problem of detecting glitches is NP-complete for tree ensembles, already for trees of depth 4. Our glitch-search algorithm for GBDT models uses an MILP encoding of the problem, and its effectiveness and computational feasibility are demonstrated on a set of widely used GBDT benchmarks taken from the literature.",
+ "primary": "cs.LG"
+}

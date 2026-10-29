@@ -1,0 +1,17 @@
+{
+ "id": "2407.09174",
+ "title": "DART: An Automated End-to-End Object Detection Pipeline with Data Diversification, Open-Vocabulary Bounding Box Annotation, Pseudo-Label Review, and Model Training",
+ "authors": [
+  "Chen Xin",
+  "Andreas Hartel",
+  "Enkelejda Kasneci"
+ ],
+ "v1_date": "2024-07-12",
+ "latest_version": 4,
+ "latest_date": "2025-06-22",
+ "journal_ref": "Expert Systems with Applications 258 (2024): 125124",
+ "doi": "10.1016/j.eswa.2024.125124",
+ "comment": "Corrected minor typos; no changes to results or conclusions",
+ "abstract": "Accurate real-time object detection is vital across numerous industrial applications, from safety monitoring to quality control. Traditional approaches, however, are hindered by arduous manual annotation and data collection, struggling to adapt to ever-changing environments and novel target objects. To address these limitations, this paper presents DART, an innovative automated end-to-end pipeline that revolutionizes object detection workflows from data collection to model evaluation. It eliminates the need for laborious human labeling and extensive data collection while achieving outstanding accuracy across diverse scenarios. DART encompasses four key stages: (1) Data Diversification using subject-driven image generation (DreamBooth with SDXL), (2) Annotation via open-vocabulary object detection (Grounding DINO) to generate bounding box and class labels, (3) Review of generated images and pseudo-labels by large multimodal models (InternVL-1.5 and GPT-4o) to guarantee credibility, and (4) Training of real-time object detectors (YOLOv8 and YOLOv10) using the verified data. We apply DART to a self-collected dataset of construction machines named Liebherr Product, which contains over 15K high-quality images across 23 categories. The current instantiation of DART significantly increases average precision (AP) from 0.064 to 0.832. Its modular design ensures easy exchangeability and extensibility, allowing for future algorithm upgrades, seamless integration of new object categories, and adaptability to customized environments without manual labeling and additional data collection. The code and dataset are released at https://github.com/chen-xin-94/DART.",
+ "primary": "cs.CV"
+}

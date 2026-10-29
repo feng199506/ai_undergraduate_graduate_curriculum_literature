@@ -1,0 +1,18 @@
+{
+ "id": "2401.03831",
+ "title": "We Need to Talk About Classification Evaluation Metrics in NLP",
+ "authors": [
+  "Peter Vickers",
+  "Loïc Barrault",
+  "Emilio Monti",
+  "Nikolaos Aletras"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 1,
+ "latest_date": "2024-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Appeared in AACL 2023",
+ "abstract": "In Natural Language Processing (NLP) classification tasks such as topic categorisation and sentiment analysis, model generalizability is generally measured with standard metrics such as Accuracy, F-Measure, or AUC-ROC. The diversity of metrics, and the arbitrariness of their application suggest that there is no agreement within NLP on a single best metric to use. This lack suggests there has not been sufficient examination of the underlying heuristics which each metric encodes. To address this we compare several standard classification metrics with more 'exotic' metrics and demonstrate that a random-guess normalised Informedness metric is a parsimonious baseline for task performance. To show how important the choice of metric is, we perform extensive experiments on a wide range of NLP tasks including a synthetic scenario, natural language understanding, question answering and machine translation. Across these tasks we use a superset of metrics to rank models and find that Informedness best captures the ideal model characteristics. Finally, we release a Python implementation of Informedness following the SciKitLearn classifier format.",
+ "primary": "cs.CL"
+}

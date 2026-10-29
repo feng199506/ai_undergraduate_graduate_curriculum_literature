@@ -1,0 +1,21 @@
+{
+ "id": "2405.18610",
+ "title": "DTR-Bench: An in silico Environment and Benchmark Platform for Reinforcement Learning Based Dynamic Treatment Regime",
+ "authors": [
+  "Zhiyao Luo",
+  "Mingcheng Zhu",
+  "Fenglin Liu",
+  "Jiali Li",
+  "Yangchen Pan",
+  "Jiandong Zhou",
+  "Tingting Zhu"
+ ],
+ "v1_date": "2024-05-28",
+ "latest_version": 1,
+ "latest_date": "2024-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages for main content",
+ "abstract": "Reinforcement learning (RL) has garnered increasing recognition for its potential to optimise dynamic treatment regimes (DTRs) in personalised medicine, particularly for drug dosage prescriptions and medication recommendations. However, a significant challenge persists: the absence of a unified framework for simulating diverse healthcare scenarios and a comprehensive analysis to benchmark the effectiveness of RL algorithms within these contexts. To address this gap, we introduce \\textit{DTR-Bench}, a benchmarking platform comprising four distinct simulation environments tailored to common DTR applications, including cancer chemotherapy, radiotherapy, glucose management in diabetes, and sepsis treatment. We evaluate various state-of-the-art RL algorithms across these settings, particularly highlighting their performance amidst real-world challenges such as pharmacokinetic/pharmacodynamic (PK/PD) variability, noise, and missing data. Our experiments reveal varying degrees of performance degradation among RL algorithms in the presence of noise and patient variability, with some algorithms failing to converge. Additionally, we observe that using temporal observation representations does not consistently lead to improved performance in DTR settings. Our findings underscore the necessity of developing robust, adaptive RL algorithms capable of effectively managing these complexities to enhance patient-specific healthcare. We have open-sourced our benchmark and code at https://github.com/GilesLuo/DTR-Bench.",
+ "primary": "cs.LG"
+}

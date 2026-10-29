@@ -1,0 +1,19 @@
+{
+ "id": "2402.13588",
+ "title": "PI-CoF: A Bilevel Optimization Framework for Solving Active Learning Problems using Physics-Information",
+ "authors": [
+  "Liqiu Dong",
+  "Marta Zagorowska",
+  "Tong Liu",
+  "Alex Durkin",
+  "Mehmet Mercangöz"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 1,
+ "latest_date": "2024-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to The 8th IEEE Conference on Control Technology and Applications (CCTA) 2024, 6 pages",
+ "abstract": "Physics informed neural networks (PINNs) have recently been proposed as surrogate models for solving process optimization problems. However, in an active learning setting collecting enough data for reliably training PINNs poses a challenge. This study proposes a broadly applicable method for incorporating physics information into existing machine learning (ML) models of any type. The proposed method - referred to as PI-CoF for Physics-Informed Correction Factors - introduces additive or multiplicative correction factors for pointwise inference, which are identified by solving a regularized unconstrained optimization problem for reconciliation of physics information and ML model predictions. When ML models are used in an optimization context, using the proposed approach translates into a bilevel optimization problem, where the reconciliation problem is solved as an inner problem each time before evaluating the objective and constraint functions of the outer problem. The utility of the proposed approach is demonstrated through a numerical example, emphasizing constraint satisfaction in a safe Bayesian optimization (BO) setting. Furthermore, a simulation study is carried out by using PI-CoF for the real-time optimization of a fuel cell system. The results show reduced fuel consumption and better reference tracking performance when using the proposed PI-CoF approach in comparison to a constrained BO algorithm not using physics information.",
+ "primary": "eess.SY"
+}

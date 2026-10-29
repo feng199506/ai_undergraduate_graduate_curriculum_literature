@@ -1,0 +1,22 @@
+[
+ {"q": "(ti:\"distributed training\" OR ti:parallelism OR ti:\"parallel training\") AND (ti:survey OR ti:review OR abs:\"large language model\")", "subtopic": "分布式训练与并行"},
+ {"q": "(abs:\"pipeline parallelism\" OR abs:\"tensor parallelism\" OR abs:\"sequence parallelism\" OR abs:\"context parallelism\") AND cat:cs.DC", "subtopic": "分布式训练与并行"},
+ {"q": "(ti:\"efficient\" OR ti:inference) AND (ti:\"large language model\" OR ti:LLM OR ti:LLMs) AND (ti:survey OR ti:review)", "subtopic": "推理优化综述"},
+ {"q": "ti:quantization AND (ti:LLM OR ti:\"language model\" OR ti:\"language models\") AND cat:cs.LG", "subtopic": "量化与压缩"},
+ {"q": "(ti:\"KV cache\" OR ti:\"key-value cache\") ", "subtopic": "KV cache 管理"},
+ {"q": "ti:\"speculative decoding\" OR (ti:speculative AND ti:survey)", "subtopic": "投机解码"},
+ {"q": "(ti:serving OR ti:\"inference system\" OR ti:\"inference engine\") AND (abs:\"large language model\" OR abs:LLM) AND cat:cs.DC", "subtopic": "模型服务系统"},
+ {"q": "(abs:\"prefill\" AND abs:\"decode\") AND (ti:disaggregat* OR ti:serving)", "subtopic": "模型服务系统"},
+ {"q": "(ti:GPU OR ti:kernel OR ti:kernels OR ti:attention) AND abs:\"memory hierarchy\" OR ti:FlashAttention", "subtopic": "GPU 计算与算子"},
+ {"q": "(ti:\"mixture of experts\" OR ti:MoE) AND (ti:system OR ti:serving OR ti:training OR ti:inference) AND cat:cs.DC", "subtopic": "MoE 系统"},
+ {"q": "(ti:MLOps OR ti:\"machine learning operations\" OR ti:LLMOps) ", "subtopic": "MLOps 与生命周期"},
+ {"q": "(ti:\"machine learning\" AND (ti:production OR ti:deployment OR ti:engineering)) AND (ti:survey OR ti:review OR ti:challenges) AND cat:cs.SE", "subtopic": "MLOps 与生命周期"},
+ {"q": "(ti:monitoring OR ti:\"drift detection\" OR ti:observability) AND (abs:\"machine learning model\" OR abs:\"deployed model\" OR abs:LLM)", "subtopic": "监控与漂移检测"},
+ {"q": "(ti:testing OR ti:regression) AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:LLM) AND cat:cs.SE AND (ti:survey OR ti:review OR abs:regression)", "subtopic": "回归测试与 ML 测试"},
+ {"q": "(ti:versioning OR ti:\"model management\" OR ti:\"model registry\" OR ti:provenance OR ti:\"model store\") AND (abs:\"machine learning\" OR abs:\"model zoo\")", "subtopic": "版本管理与模型管理"},
+ {"q": "(ti:\"edge\" OR ti:\"on-device\" OR ti:mobile) AND (ti:LLM OR ti:\"language model\" OR ti:inference) AND (ti:survey OR ti:review)", "subtopic": "端侧与边缘部署"},
+ {"q": "(ti:\"training\" AND ti:\"fault tolerance\") OR (ti:\"large-scale\" AND ti:training AND ti:cluster AND cat:cs.DC)", "subtopic": "大规模集群与容错"},
+ {"q": "(ti:\"machine learning systems\" OR ti:\"ML systems\" OR ti:\"AI infrastructure\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:benchmark)", "subtopic": "AI 系统综述"},
+ {"q": "(ti:MLPerf OR (ti:benchmark AND ti:inference AND abs:hardware))", "subtopic": "系统基准与性能评测"},
+ {"q": "(ti:\"memory\" AND ti:\"efficient\" AND ti:training) AND (abs:ZeRO OR abs:offload OR abs:checkpointing)", "subtopic": "分布式训练与并行"}
+]

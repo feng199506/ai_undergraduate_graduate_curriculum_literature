@@ -1,0 +1,22 @@
+[
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND ti:\"reinforcement learning\"", "subtopic": "强化学习综述与教程"},
+ {"q": "(ti:tutorial OR ti:introduction OR ti:primer OR ti:\"lecture notes\") AND abs:\"reinforcement learning\" AND cat:cs.LG", "subtopic": "强化学习综述与教程"},
+ {"q": "abs:\"dynamic programming\" AND abs:\"Markov decision process\" AND (ti:survey OR ti:tutorial OR ti:introduction)", "subtopic": "动态规划与马尔可夫决策过程"},
+ {"q": "ti:\"policy gradient\" AND (ti:survey OR ti:tutorial OR ti:review OR ti:introduction OR ti:primer)", "subtopic": "策略梯度与演员-评论家"},
+ {"q": "abs:\"proximal policy optimization\" AND cat:cs.LG", "subtopic": "策略梯度与演员-评论家"},
+ {"q": "(ti:\"value-based\" OR ti:\"Q-learning\" OR ti:\"temporal difference\") AND cat:cs.LG", "subtopic": "值函数方法与时序差分"},
+ {"q": "ti:\"offline reinforcement learning\"", "subtopic": "离线强化学习"},
+ {"q": "(ti:\"model-based reinforcement learning\" OR ti:\"world model\") AND (ti:survey OR abs:benchmark OR ti:review)", "subtopic": "模型式强化学习与世界模型"},
+ {"q": "abs:\"world model\" AND abs:\"reinforcement learning\" AND cat:cs.LG", "subtopic": "模型式强化学习与世界模型"},
+ {"q": "ti:\"model predictive control\" AND (ti:survey OR ti:tutorial OR ti:review OR abs:learning)", "subtopic": "最优控制与模型预测控制"},
+ {"q": "(ti:\"optimal control\" OR ti:\"learning-based control\") AND (ti:survey OR ti:tutorial OR ti:review OR ti:introduction)", "subtopic": "最优控制与模型预测控制"},
+ {"q": "abs:\"exploration\" AND ti:\"reinforcement learning\" AND (ti:survey OR ti:review)", "subtopic": "探索与样本效率"},
+ {"q": "(ti:\"multi-agent reinforcement learning\") AND (ti:survey OR ti:review OR ti:tutorial OR abs:benchmark)", "subtopic": "多智能体强化学习"},
+ {"q": "(ti:\"safe reinforcement learning\" OR ti:\"constrained reinforcement learning\") AND (ti:survey OR ti:review)", "subtopic": "安全与约束强化学习"},
+ {"q": "(ti:bandit OR ti:bandits) AND (ti:survey OR ti:tutorial OR ti:introduction OR ti:review)", "subtopic": "多臂老虎机与序贯决策"},
+ {"q": "ti:\"sequential decision\" AND (ti:survey OR ti:foundation OR ti:review OR ti:tutorial)", "subtopic": "多臂老虎机与序贯决策"},
+ {"q": "(ti:\"diffusion\" OR ti:\"transformer\") AND ti:\"reinforcement learning\" AND (ti:survey OR ti:review)", "subtopic": "生成模型与强化学习"},
+ {"q": "ti:\"reinforcement learning\" AND (ti:benchmark OR ti:library OR ti:environments) AND cat:cs.LG", "subtopic": "评测基准与实验方法"},
+ {"q": "(ti:\"inverse reinforcement learning\" OR ti:\"imitation learning\" OR ti:\"reward\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "逆强化学习与奖励设计"},
+ {"q": "(ti:\"hierarchical reinforcement learning\" OR ti:\"goal-conditioned\" OR ti:\"meta-reinforcement learning\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "分层、目标条件与元强化学习"}
+]

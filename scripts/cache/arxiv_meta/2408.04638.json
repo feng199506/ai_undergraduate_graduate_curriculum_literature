@@ -1,0 +1,25 @@
+{
+ "id": "2408.04638",
+ "title": "Affective Computing in the Era of Large Language Models: A Survey from the NLP Perspective",
+ "authors": [
+  "Yiqun Zhang",
+  "Xiaocui Yang",
+  "Xingle Xu",
+  "Zeran Gao",
+  "Yijie Huang",
+  "Shiyi Mu",
+  "Shi Feng",
+  "Daling Wang",
+  "Yifei Zhang",
+  "Kaisong Song",
+  "Ge Yu"
+ ],
+ "v1_date": "2024-07-30",
+ "latest_version": 2,
+ "latest_date": "2025-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Compared with the previous version, reinforcement learning has been added (as a new section), including RLHF, RLVR, and RLAIF",
+ "abstract": "Affective Computing (AC) integrates computer science, psychology, and cognitive science to enable machines to recognize, interpret, and simulate human emotions across domains such as social media, finance, healthcare, and education. AC commonly centers on two task families: Affective Understanding (AU) and Affective Generation (AG). While fine-tuned pre-trained language models (PLMs) have achieved solid AU performance, they often generalize poorly across tasks and remain limited for AG, especially in producing diverse, emotionally appropriate responses. The advent of Large Language Models (LLMs) (e.g., ChatGPT and LLaMA) has catalyzed a paradigm shift by offering in-context learning, broader world knowledge, and stronger sequence generation. This survey presents an NLP-oriented overview of AC in the LLM era. We (i) consolidate traditional AC tasks and preliminary LLM-based studies; (ii) review adaptation techniques that improve AU/AG, including Instruction Tuning (full and parameter-efficient methods such as LoRA, P-/Prompt-Tuning), Prompt Engineering (zero/few-shot, chain-of-thought, agent-based prompting), and Reinforcement Learning. For the latter, we summarize RL from human preferences (RLHF), verifiable/programmatic rewards (RLVR), and AI feedback (RLAIF), which provide preference- or rule-grounded optimization signals that can help steer AU/AG toward empathy, safety, and planning, achieving finer-grained or multi-objective control. To assess progress, we compile benchmarks and evaluation practices for both AU and AG. We also discuss open challenges-from ethics, data quality, and safety to robust evaluation and resource efficiency-and outline research directions. We hope this survey clarifies the landscape and offers practical guidance for building affect-aware, reliable, and responsible LLM systems.",
+ "primary": "cs.CL"
+}

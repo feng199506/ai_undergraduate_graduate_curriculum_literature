@@ -1,0 +1,18 @@
+{
+ "id": "2402.09838",
+ "title": "Performative Reinforcement Learning in Gradually Shifting Environments",
+ "authors": [
+  "Ben Rank",
+  "Stelios Triantafyllou",
+  "Debmalya Mandal",
+  "Goran Radanovic"
+ ],
+ "v1_date": "2024-02-15",
+ "latest_version": 2,
+ "latest_date": "2024-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When Reinforcement Learning (RL) agents are deployed in practice, they might impact their environment and change its dynamics. We propose a new framework to model this phenomenon, where the current environment depends on the deployed policy as well as its previous dynamics. This is a generalization of Performative RL (PRL) [Mandal et al., 2023]. Unlike PRL, our framework allows to model scenarios where the environment gradually adjusts to a deployed policy. We adapt two algorithms from the performative prediction literature to our setting and propose a novel algorithm called Mixed Delayed Repeated Retraining (MDRR). We provide conditions under which these algorithms converge and compare them using three metrics: number of retrainings, approximation guarantee, and number of samples per deployment. MDRR is the first algorithm in this setting which combines samples from multiple deployments in its training. This makes MDRR particularly suitable for scenarios where the environment's response strongly depends on its previous dynamics, which are common in practice. We experimentally compare the algorithms using a simulation-based testbed and our results show that MDRR converges significantly faster than previous approaches.",
+ "primary": "cs.LG"
+}

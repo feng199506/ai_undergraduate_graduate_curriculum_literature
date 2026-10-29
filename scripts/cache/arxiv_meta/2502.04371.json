@@ -1,0 +1,24 @@
+{
+ "id": "2502.04371",
+ "title": "PerPO: Perceptual Preference Optimization via Discriminative Rewarding",
+ "authors": [
+  "Zining Zhu",
+  "Liang Zhao",
+  "Kangheng Lin",
+  "Jinze Yang",
+  "En Yu",
+  "Chenglong Liu",
+  "Haoran Wei",
+  "Jianjian Sun",
+  "Zheng Ge",
+  "Xiangyu Zhang"
+ ],
+ "v1_date": "2025-02-05",
+ "latest_version": 1,
+ "latest_date": "2025-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents Perceptual Preference Optimization (PerPO), a perception alignment method aimed at addressing the visual discrimination challenges in generative pre-trained multimodal large language models (MLLMs). To align MLLMs with human visual perception process, PerPO employs discriminative rewarding to gather diverse negative samples, followed by listwise preference optimization to rank them.By utilizing the reward as a quantitative margin for ranking, our method effectively bridges generative preference optimization and discriminative empirical risk minimization. PerPO significantly enhances MLLMs' visual discrimination capabilities while maintaining their generative strengths, mitigates image-unconditional reward hacking, and ensures consistent performance across visual tasks. This work marks a crucial step towards more perceptually aligned and versatile MLLMs. We also hope that PerPO will encourage the community to rethink MLLM alignment strategies.",
+ "primary": "cs.AI"
+}

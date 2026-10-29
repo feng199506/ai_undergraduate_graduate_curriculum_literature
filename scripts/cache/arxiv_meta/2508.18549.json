@@ -1,0 +1,20 @@
+{
+ "id": "2508.18549",
+ "title": "COMET-poly: Machine Translation Metric Grounded in Other Candidates",
+ "authors": [
+  "Maike Züfle",
+  "Vilém Zouhar",
+  "Tu Anh Dinh",
+  "Felipe Maia Polo",
+  "Jan Niehues",
+  "Mrinmaya Sachan"
+ ],
+ "v1_date": "2025-08-25",
+ "latest_version": 1,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Maike Züfle, Vilém Zouhar, and Tu Anh Dinh contributed equally",
+ "abstract": "Automated metrics for machine translation attempt to replicate human judgment. Unlike humans, who often assess a translation in the context of multiple alternatives, these metrics typically consider only the source sentence and a single translation. This discrepancy in the evaluation setup may negatively impact the performance of automated metrics. We propose two automated metrics that incorporate additional information beyond the single translation. COMET-polycand uses alternative translations of the same source sentence to compare and contrast with the translation at hand, thereby providing a more informed assessment of its quality. COMET-polyic, inspired by retrieval-based in-context learning, takes in translations of similar source texts along with their human-labeled quality scores to guide the evaluation. We find that including a single additional translation in COMET-polycand improves the segment-level metric performance (0.079 to 0.118 Kendall's tau-b correlation), with further gains when more translations are added. Incorporating retrieved examples in COMET-polyic yields similar improvements (0.079 to 0.116 Kendall's tau-b correlation). We release our models publicly.",
+ "primary": "cs.CL"
+}

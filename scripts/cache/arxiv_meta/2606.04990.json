@@ -1,0 +1,25 @@
+{
+ "id": "2606.04990",
+ "title": "From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents",
+ "authors": [
+  "Yiqi Wang",
+  "Jiaqi Zhang",
+  "Zhangkai Wu",
+  "Taotao Cai",
+  "Zirui Liu",
+  "Zequn Sun",
+  "Mingkai Zheng",
+  "Manqing Dong",
+  "Yu-Xuan Qiu",
+  "Xuefei Yin",
+  "Yanming Zhu"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 6,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language model (LLM)-based agents are moving beyond text generation to planning, tool use, retrieval, memory access, environmental interaction, and multi-agent collaboration. Because their outputs depend on information and execution steps across an agent run, their execution processes are difficult to verify, debug, and audit. Even a correct final answer does not reveal which evidence supported its claims, whether tool calls were justified, how memory shaped decisions, or where execution failures originated. Relevant research addresses these questions across evidence attribution, tool-use safety, agent memory, and observability, but these areas emphasize different parts of the execution process. This survey brings them into a common framework through execution provenance, a typed graph of an agent run, and evidence tracing, its projection onto evidence-support relations, distinguishing evidence that supports a conclusion from execution that influences it. We introduce a six-dimensional taxonomy covering trace sources, evidence and execution units, provenance relations, tracing granularity and timing, representation forms, and trust functions, complemented by operational definitions of nine provenance relations and two cross-cutting attributes, provenance origin and trace assurance. Applying this framework to the surveyed systems and benchmarks reveals three gaps: limited integration of fine-grained provenance with multiple trust functions, no benchmark in our catalog that evaluates the complete provenance chain, and little reporting of tamper-evident or attested traces. These findings motivate research on unified trace schemas, semantic provenance, memory and multi-agent lineage, provenance-aware safety and recovery, realistic benchmarks, trace assurance, and privacy-aware auditing. Resources are available at https://github.com/xiaoqi-7/Agent-Tracing-Survey.",
+ "primary": "cs.CR"
+}

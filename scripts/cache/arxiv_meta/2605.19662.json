@@ -1,0 +1,30 @@
+{
+ "id": "2605.19662",
+ "title": "When Tabular Foundation Models Meet Strategic Tabular Data: A Prior Alignment Approach",
+ "authors": [
+  "Xinpeng Lv",
+  "Yunxin Mao",
+  "Renzhe Xu",
+  "Chunyuan Zheng",
+  "Yikai Chen",
+  "Haoxuan Li",
+  "Jinxuan Yang",
+  "Kun Kuang",
+  "Yuanlong Chen",
+  "Mingyang Geng",
+  "Wanrong Huang",
+  "Shixuan Liu",
+  "Shaowu Yang",
+  "Wenjing Yang",
+  "Zhouchen Lin",
+  "Haotian Wang"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 2,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICML2026",
+ "abstract": "Tabular foundation models based on pretrained prior-data fitted networks~(PFNs) have shown strong generalization on diverse tabular tasks, but they are typically designed for \\emph{non-strategic} settings where data distributions are independent of deployed classifiers. In many real-world decision scenarios, however, individuals may strategically modify their features after deployment to obtain favorable outcomes, inducing a post-deployment distribution shift. This paper studies whether PFN-style tabular foundation models can generalize to such \\emph{strategic} tabular data. We show that strategic manipulation creates a mismatch between the non-strategic prior learned during pretraining and the post-manipulation strategic prior, which leads to systematic prediction bias. To address this issue, we propose \\textbf{Strategic Prior-data Fitted Network}~\\textit{(SPN)}, an inference-time strategy-aware framework that adapts tabular foundation models to strategic environments without retraining. SPN constructs strategic in-context examples to approximate post-manipulation inputs and aligns PFN predictions with the induced strategic distribution. Experiments on real-world and synthetic tabular datasets show that SPN consistently improves robustness and predictive performance under strategic manipulation compared with both tabular foundation models and classical tabular methods.",
+ "primary": "cs.AI"
+}

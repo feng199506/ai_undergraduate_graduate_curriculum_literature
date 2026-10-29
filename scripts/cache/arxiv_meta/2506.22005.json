@@ -1,0 +1,20 @@
+{
+ "id": "2506.22005",
+ "title": "LeanConjecturer: Automatic Generation of Mathematical Conjectures for Theorem Proving",
+ "authors": [
+  "Naoto Onda",
+  "Kazumi Kasaura",
+  "Yuta Oriike",
+  "Masaya Taniguchi",
+  "Akiyoshi Sannai",
+  "Sho Sonoda"
+ ],
+ "v1_date": "2025-06-27",
+ "latest_version": 1,
+ "latest_date": "2025-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 4 figures, 5 tables",
+ "abstract": "We introduce LeanConjecturer, a pipeline for automatically generating university-level mathematical conjectures in Lean 4 using Large Language Models (LLMs). Our hybrid approach combines rule-based context extraction with LLM-based theorem statement generation, addressing the data scarcity challenge in formal theorem proving. Through iterative generation and evaluation, LeanConjecturer produced 12,289 conjectures from 40 Mathlib seed files, with 3,776 identified as syntactically valid and non-trivial, that is, cannot be proven by \\texttt{aesop} tactic. We demonstrate the utility of these generated conjectures for reinforcement learning through Group Relative Policy Optimization (GRPO), showing that targeted training on domain-specific conjectures can enhance theorem proving capabilities. Our approach generates 103.25 novel conjectures per seed file on average, providing a scalable solution for creating training data for theorem proving systems. Our system successfully verified several non-trivial theorems in topology, including properties of semi-open, alpha-open, and pre-open sets, demonstrating its potential for mathematical discovery beyond simple variations of existing results.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2510.16927",
+ "title": "Closing the Curvature Gap: Full Transformer Hessians",
+ "authors": [
+  "Egor Petrov",
+  "Nikita Kiselev",
+  "Vladislav Meshkov",
+  "Andrey Grabovoy"
+ ],
+ "v1_date": "2025-10-19",
+ "latest_version": 2,
+ "latest_date": "2026-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The optimization landscape of Transformer models remains poorly understood despite their widespread adoption. While recent studies have derived curvature properties for isolated self-attention mechanisms, a comprehensive theoretical characterization of the full Transformer block, accounting for the interactions between Layer Normalization, Feed-Forward Networks (FFNs), and residual connections, is missing. In this work, we close this gap by deriving the exact, closed-form Hessian for the complete Transformer block under arbitrary twice-differentiable loss functions. We utilize rigorous matrix calculus to handle the non-linearities of LayerNorm and row-wise activations, establishing explicit spectral norm bounds for the resulting Hessian blocks. Our analysis reveals how different architectural components contribute distinct curvature mechanisms, identifying the specific curvature contributions of particular sub-layers. Furthermore, empirical validation against automatic differentiation confirms the exactness of the derived formulas up to numerical precision and shows substantial computational speedups for the closed-form Jacobian evaluations.",
+ "primary": "cs.LG"
+}

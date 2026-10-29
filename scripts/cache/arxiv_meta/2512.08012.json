@@ -1,0 +1,16 @@
+{
+ "id": "2512.08012",
+ "title": "Benchmarking Offline Multi-Objective Reinforcement Learning in Critical Care",
+ "authors": [
+  "Aryaman Bansal",
+  "Divya Sharma"
+ ],
+ "v1_date": "2025-12-08",
+ "latest_version": 1,
+ "latest_date": "2025-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In critical care settings such as the Intensive Care Unit, clinicians face the complex challenge of balancing conflicting objectives, primarily maximizing patient survival while minimizing resource utilization (e.g., length of stay). Single-objective Reinforcement Learning approaches typically address this by optimizing a fixed scalarized reward function, resulting in rigid policies that fail to adapt to varying clinical priorities. Multi-objective Reinforcement Learning (MORL) offers a solution by learning a set of optimal policies along the Pareto Frontier, allowing for dynamic preference selection at test time. However, applying MORL in healthcare necessitates strict offline learning from historical data. In this paper, we benchmark three offline MORL algorithms, Conditioned Conservative Pareto Q-Learning (CPQL), Adaptive CPQL, and a modified Pareto Efficient Decision Agent (PEDA) Decision Transformer (PEDA DT), against three scalarized single-objective baselines (BC, CQL, and DDQN) on the MIMIC-IV dataset. Using Off-Policy Evaluation (OPE) metrics, we demonstrate that PEDA DT algorithm offers superior flexibility compared to static scalarized baselines. Notably, our results extend previous findings on single-objective Decision Transformers in healthcare, confirming that sequence modeling architectures remain robust and effective when scaled to multi-objective conditioned generation. These findings suggest that offline MORL is a promising framework for enabling personalized, adjustable decision-making in critical care without the need for retraining.",
+ "primary": "cs.LG"
+}

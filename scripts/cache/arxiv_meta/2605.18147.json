@@ -1,0 +1,27 @@
+{
+ "id": "2605.18147",
+ "title": "Tabular Foundation Models for Credit Risk Prediction: A Dedicated Review and Empirical Comparison",
+ "authors": [
+  "Bart Baesens",
+  "Andreas Goethals",
+  "Stefan Lessmann",
+  "Simon De Vos",
+  "Cristián Bravo",
+  "David Martens",
+  "Victor Medina-Olivares",
+  "Christophe Mues",
+  "Maria Oskarsdóttir",
+  "Seppe vanden Broucke",
+  "Tony Van Gestel",
+  "Tim Verdonck",
+  "Wouter Verbeke"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 3,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Predictive models are central to credit risk management, where the accuracy of default-probability and loss estimates affects the profitability of lending and the stability of the financial system. Decades of benchmarking research have consolidated the state of the art, with gradient-boosting models often representing the strongest machine-learning benchmark, while linear and logistic models remain important regulatory and industry reference models. The recent advent of tabular data foundation models introduces a new paradigm for predictive modeling. Rather than fitting a model to a target dataset, they use in-context learning to integrate information from the target dataset with prior knowledge acquired through large-scale pretraining on diverse collections of (synthetic) tabular data. We conjecture that access to information beyond the target data is beneficial in small-data settings and may help address longstanding challenges, including low-default portfolios. Whether this promise holds in practice remains an open question. This paper benchmarks state-of-the-art tabular foundation models against a broad set of classical and advanced machine learning competitors on two core tasks: Probability of Default (PD) and Loss Given Default (LGD) modeling. We evaluate $33$ classification methods across $14$ PD datasets and $27$ regression methods across $7$ LGD datasets, spanning a range of performance indicators and experimental conditions. The most recent tabular foundation models, in particular TabPFN-3 and TabICLv2, achieve the strongest average results, with the largest gains in small-sample and strongly imbalanced settings. These results are notable because these models are used with their pretrained parameters fixed and without downstream hyperparameter optimization or task-specific parameter updates.",
+ "primary": "cs.LG"
+}

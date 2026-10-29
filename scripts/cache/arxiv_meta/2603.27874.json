@@ -1,0 +1,17 @@
+{
+ "id": "2603.27874",
+ "title": "Stability and Sensitivity Analysis of Relative Temporal-Difference Learning: Extended Version",
+ "authors": [
+  "Masoud S. Sakha",
+  "Rushikesh Kamalapurkar",
+  "Sean Meyn"
+ ],
+ "v1_date": "2026-03-29",
+ "latest_version": 2,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended version of manuscript submitted to the 2026 IEEE CDC, March 31 2026",
+ "abstract": "Relative temporal-difference (TD) learning was introduced to mitigate the slow convergence of TD methods when the discount factor approaches one by subtracting a baseline from the temporal-difference update. While this idea has been studied in the tabular setting, stability guarantees with function approximation remain poorly understood. This paper analyzes relative TD learning with linear function approximation. We establish stability conditions for the algorithm and show that the choice of baseline distribution plays a central role. In particular, when the baseline is chosen as the empirical distribution of the state-action process, the algorithm is stable for any non-negative baseline weight and any discount factor. We also provide a sensitivity analysis of the resulting parameter estimates, characterizing both asymptotic bias and covariance. The asymptotic covariance and asymptotic bias are shown to remain uniformly bounded as the discount factor approaches one.",
+ "primary": "cs.LG"
+}

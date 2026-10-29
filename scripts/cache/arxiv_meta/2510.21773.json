@@ -1,0 +1,15 @@
+{
+ "id": "2510.21773",
+ "title": "Real-Time QP Solvers: A Concise Review and Practical Guide Towards Legged Robots",
+ "authors": [
+  "Van Nam Dinh"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 2,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 1 figure, 2 tables",
+ "abstract": "Quadratic programming (QP) underpins real-time robotics by enabling efficient, constrained optimization in state estimation, motion planning, and control. In legged locomotion and manipulation, essential modules like inverse dynamics, Model Predictive Control (MPC), and Whole-Body Control (WBC) are inherently QP-based, demanding reliable solutions amid tight timing, energy, and computational resources on embedded platforms. This paper presents a comprehensive analysis and benchmarking study of QP solvers for legged robotics. We begin by formulating the standard convex QP and classify solvers into principal algorithmic approaches: interior-point methods, active-set strategies, operator-splitting schemes, and augmented Lagrangian/proximal approaches, while also discussing solver code generation for fixed-structure QPs. Each solver is examined in terms of algorithmic structure, computational characteristics, and its ability to exploit problem structure and warm-starting. Performance is reviewed using publicly available benchmarks, with a focus on metrics such as computation time, constraint satisfaction, and robustness under perturbations. Unified comparison tables yield practical guidance for solver selection, underscoring trade-offs in speed, accuracy, and energy efficiency. Our findings emphasize the synergy between solvers, tasks, and hardware -- e.g., sparse structured IPMs for long-horizon MPC and dense active-set for high-frequency WBC to advance agile, autonomous legged systems, with emerging trends toward ill-conditioned, conic, and code-generated deployments.",
+ "primary": "cs.RO"
+}

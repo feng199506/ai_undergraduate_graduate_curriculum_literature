@@ -1,0 +1,29 @@
+{
+ "id": "2407.07321",
+ "title": "Benchmarking LLMs for Environmental Review and Permitting",
+ "authors": [
+  "Rounak Meyur",
+  "Hung Phan",
+  "Koby Hayashi",
+  "Ian Stewart",
+  "Shivam Sharma",
+  "Sarthak Chaturvedi",
+  "Mike Parker",
+  "Dan Nally",
+  "Sadie Montgomery",
+  "Karl Pazdernik",
+  "Ali Jannesari",
+  "Mahantesh Halappanavar",
+  "Sai Munikoti",
+  "Sameera Horawalavithana",
+  "Anurag Acharya"
+ ],
+ "v1_date": "2024-07-10",
+ "latest_version": 3,
+ "latest_date": "2025-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages",
+ "abstract": "The National Environment Policy Act (NEPA) stands as a foundational piece of environmental legislation in the United States, requiring federal agencies to consider the environmental impacts of their proposed actions. The primary mechanism for achieving this is through the preparation of Environmental Assessments (EAs) and, for significant impacts, comprehensive Environmental Impact Statements (EIS). Large Language Model (LLM)s' effectiveness in specialized domains like NEPA remains untested for adoption in federal decision-making processes. To address this gap, we present NEPA Question and Answering Dataset (NEPAQuAD), the first comprehensive benchmark derived from EIS documents, along with a modular and transparent evaluation pipeline, MAPLE, to assess LLM performance on NEPA-focused regulatory reasoning tasks. Our benchmark leverages actual EIS documents to create diverse question types, ranging from factual to complex problem-solving ones. We built a modular and transparent evaluation pipeline to test both closed- and open-source models in zero-shot or context-driven QA benchmarks. We evaluate five state-of-the-art LLMs using our framework to assess both their prior knowledge and their ability to process NEPA-specific information. The experimental results reveal that all the models consistently achieve their highest performance when provided with the gold passage as context. While comparing the other context-driven approaches for each model, Retrieval Augmented Generation (RAG)-based approaches substantially outperform PDF document contexts, indicating that neither model is well suited for long-context question-answering tasks. Our analysis suggests that NEPA-focused regulatory reasoning tasks pose a significant challenge for LLMs, particularly in terms of understanding the complex semantics and effectively processing the lengthy regulatory documents.",
+ "primary": "cs.CL"
+}

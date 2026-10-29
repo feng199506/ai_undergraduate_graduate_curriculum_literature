@@ -1,0 +1,24 @@
+{
+ "id": "2604.08304",
+ "title": "A Survey of Secure Retrieval-Augmented Generation",
+ "authors": [
+  "Yuming Xu",
+  "Mingtao Zhang",
+  "Zhuohan Ge",
+  "Haoyang Li",
+  "Nicole Hu",
+  "Yongqi Zhang",
+  "Zhiyuan Wen",
+  "Jason Chen Zhang",
+  "Qing Li",
+  "Lei Chen"
+ ],
+ "v1_date": "2026-04-09",
+ "latest_version": 5,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at EMNLP 2026",
+ "abstract": "Retrieval-augmented generation (RAG) improves large language models (LLMs) with external knowledge, but this access path creates security risks distinct from inherent prompt-only or parametric-model flaws. We frame secure RAG as securing external knowledge access. We conducted a systematic search and curated 135 works on attacks, defenses, and security evaluation, and organized them with SLOT: a taxonomy along the attack Surface (S) and the corresponding defense Layer (L), with cross-cutting axes Objective (O) and attack-target scope (T). Mapping these studies onto an external knowledge-access pipeline, we expose three mismatches: target mismatch (T2 attacks outpace T2 defenses and evaluation), stage mismatch (S1 attacks outnumber L1 defenses), and signal mismatch (fluent, retrievable, corpus-fitting S1 attacks challenge anomaly-based L2/L3 defenses). Finally, we discuss directions for more realistic targets, surface-complete defense stacks, standardized evaluation, confidentiality, and multimodal and agentic systems, and release the screening process, selected-paper metadata, and machine-readable SLOT labels at https://github.com/TreeAI-Lab/Awesome-RAG-Security.",
+ "primary": "cs.CR"
+}

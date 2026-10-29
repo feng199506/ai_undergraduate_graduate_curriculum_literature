@@ -1,0 +1,19 @@
+{
+ "id": "2410.06632",
+ "title": "Mirror descent method for stochastic multi-objective optimization",
+ "authors": [
+  "Linxi Yang",
+  "Liping Tang",
+  "Jiahao Lv",
+  "Yuehong He",
+  "Xinmin Yang"
+ ],
+ "v1_date": "2024-10-09",
+ "latest_version": 1,
+ "latest_date": "2024-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic multi-objective optimization (SMOO) has recently emerged as a powerful framework for addressing machine learning problems with multiple objectives. The bias introduced by the nonlinearity of the subproblem solution mapping complicates the convergence analysis of multi-gradient methods. In this paper, we propose a novel SMOO method called the Multi-gradient Stochastic Mirror Descent (MSMD) method, which incorporates stochastic mirror descent method to solve the SMOO subproblem, providing convergence guarantees. By selecting an appropriate Bregman function, our method enables analytical solutions of the weighting vector and requires only a single gradient sample at each iteration. We demonstrate the sublinear convergence rate of our MSMD method under four different inner and outer step setups. For SMOO with preferences, we propose a variant of MSMD method and demonstrate its convergence rate. Through extensive numerical experiments, we compare our method with both stochastic descent methods based on weighted sum and state-of-the-art SMOO methods. Our method consistently outperforms these methods in terms of generating superior Pareto fronts on benchmark test functions while also achieving competitive results in neural network training.",
+ "primary": "math.OC"
+}

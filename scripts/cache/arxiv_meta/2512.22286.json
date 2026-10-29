@@ -1,0 +1,15 @@
+{
+ "id": "2512.22286",
+ "title": "A General Weighting Theory for Ensemble Learning: Beyond Variance Reduction via Spectral and Geometric Structure",
+ "authors": [
+  "Ernest Fokoué"
+ ],
+ "v1_date": "2025-12-25",
+ "latest_version": 1,
+ "latest_date": "2025-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages",
+ "abstract": "Ensemble learning is traditionally justified as a variance-reduction strategy, explaining its strong performance for unstable predictors such as decision trees. This explanation, however, does not account for ensembles constructed from intrinsically stable estimators-including smoothing splines, kernel ridge regression, Gaussian process regression, and other regularized reproducing kernel Hilbert space (RKHS) methods whose variance is already tightly controlled by regularization and spectral shrinkage. This paper develops a general weighting theory for ensemble learning that moves beyond classical variance-reduction arguments. We formalize ensembles as linear operators acting on a hypothesis space and endow the space of weighting sequences with geometric and spectral constraints. Within this framework, we derive a refined bias-variance approximation decomposition showing how non-uniform, structured weights can outperform uniform averaging by reshaping approximation geometry and redistributing spectral complexity, even when variance reduction is negligible. Our main results provide conditions under which structured weighting provably dominates uniform ensembles, and show that optimal weights arise as solutions to constrained quadratic programs. Classical averaging, stacking, and recently proposed Fibonacci-based ensembles appear as special cases of this unified theory, which further accommodates geometric, sub-exponential, and heavy-tailed weighting laws. Overall, the work establishes a principled foundation for structure-driven ensemble learning, explaining why ensembles remain effective for smooth, low-variance base learners and setting the stage for distribution-adaptive and dynamically evolving weighting schemes developed in subsequent work.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2502.15822",
+ "title": "Financial fraud detection system based on improved random forest and gradient boosting machine (GBM)",
+ "authors": [
+  "Tianzuo Hu"
+ ],
+ "v1_date": "2025-02-20",
+ "latest_version": 1,
+ "latest_date": "2025-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a financial fraud detection system based on improved Random Forest (RF) and Gradient Boosting Machine (GBM). Specifically, the system introduces a novel model architecture called GBM-SSRF (Gradient Boosting Machine with Simplified and Strengthened Random Forest), which cleverly combines the powerful optimization capabilities of the gradient boosting machine (GBM) with improved randomization. The computational efficiency and feature extraction capabilities of the Simplified and Strengthened Random Forest (SSRF) forest significantly improve the performance of financial fraud detection. Although the traditional random forest model has good classification capabilities, it has high computational complexity when faced with large-scale data and has certain limitations in feature selection. As a commonly used ensemble learning method, the GBM model has significant advantages in optimizing performance and handling nonlinear problems. However, GBM takes a long time to train and is prone to overfitting problems when data samples are unbalanced. In response to these limitations, this paper optimizes the random forest based on the structure, reducing the computational complexity and improving the feature selection ability through the structural simplification and enhancement of the random forest. In addition, the optimized random forest is embedded into the GBM framework, and the model can maintain efficiency and stability with the help of GBM's gradient optimization capability. Experiments show that the GBM-SSRF model not only has good performance, but also has good robustness and generalization capabilities, providing an efficient and reliable solution for financial fraud detection.",
+ "primary": "q-fin.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2510.16123",
+ "title": "Zero-shot World Models via Search in Memory",
+ "authors": [
+  "Federico Malato",
+  "Ville Hautamäki"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 1,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 8 figures in main text + appendices",
+ "abstract": "World Models have vastly permeated the field of Reinforcement Learning. Their ability to model the transition dynamics of an environment have greatly improved sample efficiency in online RL. Among them, the most notorious example is Dreamer, a model that learns to act in a diverse set of image-based environments. In this paper, we leverage similarity search and stochastic representations to approximate a world model without a training procedure. We establish a comparison with PlaNet, a well-established world model of the Dreamer family. We evaluate the models on the quality of latent reconstruction and on the perceived similarity of the reconstructed image, on both next-step and long horizon dynamics prediction. The results of our study demonstrate that a search-based world model is comparable to a training based one in both cases. Notably, our model show stronger performance in long-horizon prediction with respect to the baseline on a range of visually different environments.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2408.14518",
+ "title": "A Survey on Reinforcement Learning Applications in SLAM",
+ "authors": [
+  "Mohammad Dehghani Tezerjani",
+  "Mohammad Khoshnazar",
+  "Mohammadhamed Tangestanizadeh",
+  "Arman Kiani",
+  "Qing Yang"
+ ],
+ "v1_date": "2024-08-26",
+ "latest_version": 3,
+ "latest_date": "2026-09-27",
+ "journal_ref": "Journal of Machine Learning and Deep Learning 1(1), 20-31 (2024)",
+ "doi": "10.64820/aepjmldl.11.20.31.122024",
+ "comment": "",
+ "abstract": "Simultaneous localization and mapping (SLAM) allows a mobile robot or autonomous vehicle to build a map of an unknown environment while estimating its own pose within that map. Reinforcement learning (RL), in which an agent learns a decision policy from interaction and reward, has been applied to decide how such systems move, explore, and recognize places they have visited before. This survey reviews the applications of RL in SLAM. We first distinguish passive SLAM, in which the robot's motion is not chosen by the SLAM system, from active SLAM, in which it is, and summarize the sensors that provide the input to SLAM. We then introduce the RL methods used in this literature, from value-based and policy-based methods to actor-critic and deep RL. Next, we classify RL applications in SLAM into three categories: path planning, including environment exploration and obstacle avoidance; loop closure detection; and active SLAM. Thirteen representative studies are compared in terms of their simulation environment, deep learning method, SLAM method, and RL algorithm. Most of these studies are evaluated mainly in simulation, and value-based methods from the deep Q-network family are the most common. Finally, we discuss the challenges of applying RL to SLAM, namely computational demands, safety, generalization, high-dimensional state and action spaces, sample efficiency, and sensor and actuator delays, and we outline directions for future research.",
+ "primary": "cs.RO"
+}

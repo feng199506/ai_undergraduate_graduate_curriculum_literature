@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:\"kernel methods\" OR ti:\"kernel ridge\" OR ti:\"reproducing kernel\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:lecture)", "subtopic": "核方法"},
+ {"q": "abs:\"kernel methods\" AND (abs:\"random features\" OR abs:Nystrom OR abs:\"neural tangent\") AND cat:stat.ML", "subtopic": "核方法"},
+ {"q": "(ti:\"gradient boosting\" OR ti:\"decision tree\" OR ti:\"random forest\" OR ti:\"tree ensembles\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:benchmark OR ti:theory)", "subtopic": "树模型与梯度提升"},
+ {"q": "(ti:\"random forests\" OR ti:\"gradient boosting\" OR ti:\"decision trees\") AND cat:stat.ML", "subtopic": "树模型与梯度提升"},
+ {"q": "(ti:\"tabular data\" OR ti:tabular) AND (ti:survey OR ti:benchmark OR ti:\"deep learning\" OR ti:\"foundation model\")", "subtopic": "表格数据学习"},
+ {"q": "(ti:ensemble OR ti:bagging OR ti:stacking OR ti:boosting) AND (ti:survey OR ti:review OR ti:theory OR ti:unified) AND cat:cs.LG", "subtopic": "集成学习"},
+ {"q": "(ti:generalization) AND (ti:survey OR ti:tutorial OR ti:\"lecture notes\" OR ti:primer) AND (abs:\"learning theory\" OR abs:\"generalization bounds\")", "subtopic": "泛化与学习理论"},
+ {"q": "(abs:\"PAC-Bayes\" OR abs:\"PAC-Bayesian\") AND (ti:introduction OR ti:primer OR ti:tutorial OR ti:survey)", "subtopic": "泛化与学习理论"},
+ {"q": "(abs:\"double descent\" OR abs:\"benign overfitting\" OR abs:\"bias-variance\") AND (ti:survey OR ti:tutorial OR ti:review OR ti:\"lecture\") ", "subtopic": "泛化与学习理论"},
+ {"q": "(ti:\"cross-validation\" OR ti:\"model selection\" OR ti:\"hyperparameter optimization\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:benchmark)", "subtopic": "模型选择与评估"},
+ {"q": "(ti:clustering) AND (ti:survey OR ti:review OR ti:tutorial) AND cat:cs.LG", "subtopic": "无监督学习"},
+ {"q": "(ti:\"dimensionality reduction\" OR ti:\"manifold learning\" OR ti:t-SNE OR ti:UMAP OR ti:\"principal component\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:understanding)", "subtopic": "无监督学习"},
+ {"q": "(ti:\"active learning\" OR ti:\"semi-supervised learning\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "监督学习范式"},
+ {"q": "(ti:\"imbalanced\" OR ti:\"class imbalance\" OR ti:\"label noise\" OR ti:\"noisy labels\") AND (ti:survey OR ti:review) AND cat:cs.LG", "subtopic": "监督学习范式"},
+ {"q": "(ti:\"AutoML\" OR ti:\"automated machine learning\") AND (ti:survey OR ti:review OR ti:benchmark)", "subtopic": "模型选择与评估"},
+ {"q": "(ti:\"machine learning\") AND (ti:\"lecture notes\" OR ti:introduction OR ti:primer OR ti:tutorial) AND cat:stat.ML", "subtopic": "机器学习导论"},
+ {"q": "(ti:\"support vector\" OR ti:\"Gaussian process regression\" OR ti:\"linear regression\" OR ti:\"logistic regression\" OR ti:\"nearest neighbor\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:theory) AND cat:stat.ML", "subtopic": "经典监督学习"},
+ {"q": "(ti:\"feature selection\" OR ti:\"feature engineering\" OR ti:\"distribution shift\" OR ti:\"covariate shift\") AND (ti:survey OR ti:review OR ti:benchmark) AND cat:cs.LG", "subtopic": "模型选择与评估"}
+]

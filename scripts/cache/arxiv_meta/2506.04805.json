@@ -1,0 +1,23 @@
+{
+ "id": "2506.04805",
+ "title": "Adaptive Preconditioners Trigger Loss Spikes in Adam",
+ "authors": [
+  "Zhiwei Bai",
+  "Zhangchen Zhou",
+  "Jiajie Zhao",
+  "Xiaolong Li",
+  "Zhiyu Li",
+  "Feiyu Xiong",
+  "Hongkang Yang",
+  "Yaoyu Zhang",
+  "Zhi-Qin John Xu"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 2,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ICML 2026",
+ "abstract": "Loss spikes commonly emerge during neural network training with the Adam optimizer across diverse architectures and scales, yet their underlying mechanism remains elusive. While previous explanations attribute these phenomena to sharper loss landscapes at lower loss, we show that landscape geometry alone is insufficient to explain the phenomenon. In this work, we pinpoint the root cause in the internal dynamics of Adam's second moment estimator. We identify a critical ``decoupling'' mechanism where the adaptive preconditioner $v_t$ fails to track the instantaneous squared gradients $g_t^2$, causing the adaptive mechanism to effectively fail. This decoupling allows the preconditioner to decay autonomously despite rising gradients, which pushes the maximum eigenvalue of the preconditioned Hessian beyond the stability threshold $2/η$ for sustained periods, manifesting as dramatic loss spikes. Through a quadratic approximation analysis, we theoretically and experimentally characterize five distinct stages of spike evolution and propose a predictor for anticipating spikes based on gradient-directional curvature. We empirically find that the proposed loss spike mechanism, although derived from simplified models, generalizes well to practical scenarios ranging from small neural networks to large-scale Transformers.",
+ "primary": "cs.LG"
+}

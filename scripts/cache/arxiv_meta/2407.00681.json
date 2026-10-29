@@ -1,0 +1,18 @@
+{
+ "id": "2407.00681",
+ "title": "Safe Reinforcement Learning for Power System Control: A Review",
+ "authors": [
+  "Peipei Yu",
+  "Zhenyi Wang",
+  "Hongcai Zhang",
+  "Yonghua Song"
+ ],
+ "v1_date": "2024-06-30",
+ "latest_version": 1,
+ "latest_date": "2024-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The large-scale integration of intermittent renewable energy resources introduces increased uncertainty and volatility to the supply side of power systems, thereby complicating system operation and control. Recently, data-driven approaches, particularly reinforcement learning (RL), have shown significant promise in addressing complex control challenges in power systems, because RL can learn from interactive feedback without needing prior knowledge of the system model. However, the training process of model-free RL methods relies heavily on random decisions for exploration, which may result in ``bad\" decisions that violate critical safety constraints and lead to catastrophic control outcomes. Due to the inability of RL methods to theoretically ensure decision safety in power systems, directly deploying traditional RL algorithms in the real world is deemed unacceptable. Consequently, the safety issue in RL applications, known as safe RL, has garnered considerable attention in recent years, leading to numerous important developments. This paper provides a comprehensive review of the state-of-the-art safe RL techniques and discusses how these techniques can be applied to power system control problems such as frequency regulation, voltage control, and energy management. We then present discussions on key challenges and future research directions, related to convergence and optimality, training efficiency, universality, and real-world deployment.",
+ "primary": "eess.SY"
+}

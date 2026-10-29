@@ -1,0 +1,22 @@
+{
+ "id": "2505.01353",
+ "title": "Differentiable Nonlinear Model Predictive Control",
+ "authors": [
+  "Jonathan Frey",
+  "Katrin Baumgärtner",
+  "Gianluca Frison",
+  "Dirk Reinhardt",
+  "Jasper Hoffmann",
+  "Leonard Fichtner",
+  "Sebastien Gros",
+  "Moritz Diehl"
+ ],
+ "v1_date": "2025-05-02",
+ "latest_version": 2,
+ "latest_date": "2025-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The efficient computation of parametric solution sensitivities is a key challenge in the integration of learning-enhanced methods with nonlinear model predictive control (MPC), as their availability is crucial for many learning algorithms. This paper discusses the computation of solution sensitivities of general nonlinear programs (NLPs) using the implicit function theorem (IFT) and smoothed optimality conditions treated in interior-point methods (IPM). We detail sensitivity computation within a sequential quadratic programming (SQP) method which employs an IPM for the quadratic subproblems. Previous works presented in the machine learning community are limited to convex or unconstrained formulations, or lack an implementation for efficient sensitivity evaluation. The publication is accompanied by an efficient open-source implementation within the acados framework, providing both forward and adjoint sensitivities for general optimal control problems, achieving speedups exceeding 3x over the state-of-the-art solvers mpc.pytorch and cvxpygen.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2501.17665",
+ "title": "Planning with Vision-Language Models and a Use Case in Robot-Assisted Teaching",
+ "authors": [
+  "Xuzhe Dang",
+  "Lada Kudláčková",
+  "Stefan Edelkamp"
+ ],
+ "v1_date": "2025-01-29",
+ "latest_version": 1,
+ "latest_date": "2025-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automating the generation of Planning Domain Definition Language (PDDL) with Large Language Model (LLM) opens new research topic in AI planning, particularly for complex real-world tasks. This paper introduces Image2PDDL, a novel framework that leverages Vision-Language Models (VLMs) to automatically convert images of initial states and descriptions of goal states into PDDL problems. By providing a PDDL domain alongside visual inputs, Imasge2PDDL addresses key challenges in bridging perceptual understanding with symbolic planning, reducing the expertise required to create structured problem instances, and improving scalability across tasks of varying complexity. We evaluate the framework on various domains, including standard planning domains like blocksworld and sliding tile puzzles, using datasets with multiple difficulty levels. Performance is assessed on syntax correctness, ensuring grammar and executability, and content correctness, verifying accurate state representation in generated PDDL problems. The proposed approach demonstrates promising results across diverse task complexities, suggesting its potential for broader applications in AI planning. We will discuss a potential use case in robot-assisted teaching of students with Autism Spectrum Disorder.",
+ "primary": "cs.RO"
+}

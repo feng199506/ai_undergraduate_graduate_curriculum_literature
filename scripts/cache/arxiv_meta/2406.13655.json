@@ -1,0 +1,19 @@
+{
+ "id": "2406.13655",
+ "title": "Improving GFlowNets with Monte Carlo Tree Search",
+ "authors": [
+  "Nikita Morozov",
+  "Daniil Tiapkin",
+  "Sergey Samsonov",
+  "Alexey Naumov",
+  "Dmitry Vetrov"
+ ],
+ "v1_date": "2024-06-19",
+ "latest_version": 1,
+ "latest_date": "2024-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2024 SPIGM Workshop",
+ "abstract": "Generative Flow Networks (GFlowNets) treat sampling from distributions over compositional discrete spaces as a sequential decision-making problem, training a stochastic policy to construct objects step by step. Recent studies have revealed strong connections between GFlowNets and entropy-regularized reinforcement learning. Building on these insights, we propose to enhance planning capabilities of GFlowNets by applying Monte Carlo Tree Search (MCTS). Specifically, we show how the MENTS algorithm (Xiao et al., 2019) can be adapted for GFlowNets and used during both training and inference. Our experiments demonstrate that this approach improves the sample efficiency of GFlowNet training and the generation fidelity of pre-trained GFlowNet models.",
+ "primary": "cs.LG"
+}

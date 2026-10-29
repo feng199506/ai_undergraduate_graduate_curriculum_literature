@@ -1,0 +1,16 @@
+{
+ "id": "2508.08610",
+ "title": "Optimizing Retrieval-Augmented Generation (RAG) for Colloquial Cantonese: A LoRA-Based Systematic Review",
+ "authors": [
+  "David Santandreu Calonge",
+  "Linda Smail"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 1,
+ "latest_date": "2025-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 1 figure, 8 tables",
+ "abstract": "This review examines recent advances in Parameter-Efficient Fine-Tuning (PEFT), with a focus on Low-Rank Adaptation (LoRA), to optimize Retrieval-Augmented Generation (RAG) systems like Qwen3, DeepSeek, and Kimi. These systems face challenges in understanding and generating authentic Cantonese colloquial expressions due to limited annotated data and linguistic variability. The review evaluates the integration of LoRA within RAG frameworks, benchmarks PEFT methods for retrieval and generation accuracy, identify domain adaptation strategies under limited data, and compares fine-tuning techniques aimed at improving semantic fidelity under data-scarce conditions. A systematic analysis of recent studies employing diverse LoRA variants, synthetic data generation, user feedback integration, and adaptive parameter allocation was conducted to assess their impact on computational efficiency, retrieval precision, linguistic authenticity, and scalability. Findings reveal that dynamic and ensemble LoRA adaptations significantly reduce trainable parameters without sacrificing retrieval accuracy and generation quality in dialectal contexts. However, limitations remain in fully preserving fine-grained linguistic nuances, especially for low-resource settings like Cantonese. The integration of real-time user feedback and domain-specific data remains underdeveloped, limiting model adaptability and personalization. While selective parameter freezing and nonlinear adaptation methods offer better trade-offs between efficiency and accuracy, their robustness at scale remains an open challenge. This review highlights the promise of PEFT-enhanced RAG systems for domain-specific language tasks and calls for future work targeting dialectal authenticity, dynamic adaptation, and scalable fine-tuning pipelines.",
+ "primary": "cs.CL"
+}

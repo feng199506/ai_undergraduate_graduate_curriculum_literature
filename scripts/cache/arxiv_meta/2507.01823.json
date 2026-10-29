@@ -1,0 +1,16 @@
+{
+ "id": "2507.01823",
+ "title": "TD-MPC-Opt: Distilling Model-Based Multi-Task Reinforcement Learning Agents",
+ "authors": [
+  "Dmytro Kuzmenko",
+  "Nadiya Shvai"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 1,
+ "latest_date": "2025-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint of a manuscript submitted for peer review",
+ "abstract": "We present a novel approach to knowledge transfer in model-based reinforcement learning, addressing the critical challenge of deploying large world models in resource-constrained environments. Our method efficiently distills a high-capacity multi-task agent (317M parameters) into a compact model (1M parameters) on the MT30 benchmark, significantly improving performance across diverse tasks. Our distilled model achieves a state-of-the-art normalized score of 28.45, surpassing the original 1M parameter model score of 18.93. This improvement demonstrates the ability of our distillation technique to capture and consolidate complex multi-task knowledge. We further optimize the distilled model through FP16 post-training quantization, reducing its size by $\\sim$50\\%. Our approach addresses practical deployment limitations and offers insights into knowledge representation in large world models, paving the way for more efficient and accessible multi-task reinforcement learning systems in robotics and other resource-constrained applications. Code available at https://github.com/dmytro-kuzmenko/td-mpc-opt.",
+ "primary": "cs.LG"
+}

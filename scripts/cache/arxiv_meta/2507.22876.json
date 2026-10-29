@@ -1,0 +1,19 @@
+{
+ "id": "2507.22876",
+ "title": "Discovering heuristics in a complex SAT solver with large language models",
+ "authors": [
+  "Yiwen Sun",
+  "Furong Ye",
+  "Zhihan Chen",
+  "Ke Wei",
+  "Shaowei Cai"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 2,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Satisfiability problem (SAT) is fundamental in computational complexity theory and has a wide range of industrial applications. Optimizing modern SAT solvers in real-world settings is quite challenging due to their intricate architectures. While automatic configuration frameworks have been developed, they rely on manually constrained search spaces. Here we develop AutoModSAT, a framework that uses large language models (LLMs) to automatically optimize SAT solvers. AutoModSAT combines an LLM-compatible modular solver design, unsupervised prompt optimization to diversify generated functions, and an efficient search procedure based on presearch strategy and a $(1+λ)$ evolutionary algorithm. Extensive experiments across a wide range of datasets demonstrate that AutoModSAT achieves $40\\%$ performance improvement over the baseline solver and $30\\%$ improvement over the state-of-the-art solvers. Moreover, AutoModSAT also attains a notable speedup compared to the parameter-tuned alternatives of the state-of-the-art solvers over most of the test datasets. These results demonstrate the potential of LLM-guided heuristic discovery for optimizing complex SAT solvers.",
+ "primary": "cs.AI"
+}

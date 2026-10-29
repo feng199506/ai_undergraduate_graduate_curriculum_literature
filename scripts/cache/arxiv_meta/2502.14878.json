@@ -1,0 +1,15 @@
+{
+ "id": "2502.14878",
+ "title": "Applications of Random Matrix Theory in Machine Learning and Brain Mapping",
+ "authors": [
+  "Katrina Lawrence"
+ ],
+ "v1_date": "2025-02-05",
+ "latest_version": 1,
+ "latest_date": "2025-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Brain mapping analyzes the wavelengths of brain signals and outputs them in a map, which is then analyzed by a radiologist. Introducing Machine Learning (ML) into the brain mapping process reduces the variable of human error in reading such maps and increases efficiency. A key area of interest is determining the correlation between the functional areas of the brain on a voxel (3-dimensional pixel) wise basis. This leads to determining how a brain is functioning and can be used to detect diseases, disabilities, and sicknesses. As such, random noise presents a challenge in consistently determining the actual signals from the scan. This paper discusses how an algorithm created by Random Matrix Theory (RMT) can be used as a tool for ML, as it detects the correlation of the functional areas of the brain. Random matrices are simulated to represent the voxel signal intensity strength for each time interval where a stimulus is presented in an fMRI scan. Using the Marchenko-Pastur law for Wishart Matrices, a result of RMT, it was found that no matter what type of noise was added to the random matrices, the observed eigenvalue distribution of the Wishart Matrices would converge to the theoretical distribution. This means that RMT is robust and has a high test-re-test reliability. These results further indicate that a strong correlation exists between the eigenvalues, and hence the functional regions of the brain. Any eigenvalue that differs significantly from those predicted from RMT may indicate the discovery of a new discrete brain network.",
+ "primary": "q-bio.NC"
+}

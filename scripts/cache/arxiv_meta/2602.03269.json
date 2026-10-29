@@ -1,0 +1,16 @@
+{
+ "id": "2602.03269",
+ "title": "Systematic review of self-supervised foundation models for brain network representation using electroencephalography",
+ "authors": [
+  "Hannah Portmann",
+  "Yosuke Morishima"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 1 figure, 3 tables",
+ "abstract": "Automated analysis of electroencephalography (EEG) has recently undergone a paradigm shift. The introduction of transformer architectures and self-supervised pretraining (SSL) has led to the development of EEG foundation models. These models are pretrained on large amounts of unlabeled data and can be adapted to a range of downstream tasks. This systematic review summarizes recent SSL-trained EEG foundation models that learn whole-brain representations from multichannel EEG rather than representations derived from a single channel. We searched PubMed, IEEE Xplore, Scopus, and arXiv through July 21, 2025. Nineteen preprints and peer-reviewed articles met inclusion criteria. We extracted information regarding pretraining datasets, model architectures, pretraining SSL objectives, and downstream task applications. While pretraining data heavily relied on the Temple University EEG corpus, there was significant heterogeneity in model architecture and training objectives across studies. Transformer architectures were identified as the predominant pretraining architecture with state-space models such as MAMBA and S4 as emerging alternatives. Concerning SSL objectives, masked auto-encoding was most common, and other studies incorporate contrastive learning. Downstream tasks varied widely and implemented diverse fine-tuning strategies, which made direct comparison challenging. Furthermore, most studies used single-task fine-tuning, and a generalizable EEG foundation model remains lacking. In conclusion, the field is advancing rapidly but still limited by limited dataset diversity and the absence of standardized benchmarks. Progress will likely depend on larger and more diverse pretraining datasets, standardized evaluation protocols, and multi-task validation. The development will advance EEG foundation models towards robust and general-purpose relevant to both basic and clinical applications.",
+ "primary": "q-bio.NC"
+}

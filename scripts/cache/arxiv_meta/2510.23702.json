@@ -1,0 +1,17 @@
+{
+ "id": "2510.23702",
+ "title": "In Search of the Unknown Unknowns: A Multi-Metric Distance Ensemble for Out of Distribution Anomaly Detection in Astronomical Surveys",
+ "authors": [
+  "Siddharth Chaini",
+  "Federica B. Bianco",
+  "Ashish Mahabal"
+ ],
+ "v1_date": "2025-10-27",
+ "latest_version": 1,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 5 figures, Accepted at the 2025 Machine Learning and the Physical Sciences (ML4PS) workshop at NeurIPS",
+ "abstract": "Distance-based methods involve the computation of distance values between features and are a well-established paradigm in machine learning. In anomaly detection, anomalies are identified by their large distance from normal data points. However, the performance of these methods often hinges on a single, user-selected distance metric (e.g., Euclidean), which may not be optimal for the complex, high-dimensional feature spaces common in astronomy. Here, we introduce a novel anomaly detection method, Distance Multi-Metric Anomaly Detection (DiMMAD), which uses an ensemble of distance metrics to find novelties. Using multiple distance metrics is effectively equivalent to using different geometries in the feature space. By using a robust ensemble of diverse distance metrics, we overcome the metric-selection problem, creating an anomaly score that is not reliant on any single definition of distance. We demonstrate this multi-metric approach as a tool for simple, interpretable scientific discovery on astronomical time series -- (1) with simulated data for the upcoming Vera C. Rubin Observatory Legacy Survey of Space and Time, and (2) real data from the Zwicky Transient Facility. We find that DiMMAD excels at out-of-distribution anomaly detection -- anomalies in the data that might be new classes -- and beats other state-of-the-art methods in the goal of maximizing the diversity of new classes discovered. For rare in-distribution anomaly detection, DiMMAD performs similarly to other methods, but may allow for improved interpretability. All our code is open source: DiMMAD is implemented within DistClassiPy: https://github.com/sidchaini/distclassipy/, while all code to reproduce the results of this paper is available here: https://github.com/sidchaini/dimmad/.",
+ "primary": "astro-ph.IM"
+}

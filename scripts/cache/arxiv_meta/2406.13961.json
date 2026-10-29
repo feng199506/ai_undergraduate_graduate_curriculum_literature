@@ -1,0 +1,20 @@
+{
+ "id": "2406.13961",
+ "title": "Equivariant Offline Reinforcement Learning",
+ "authors": [
+  "Arsh Tangri",
+  "Ondrej Biza",
+  "Dian Wang",
+  "David Klee",
+  "Owen Howell",
+  "Robert Platt"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 1,
+ "latest_date": "2024-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sample efficiency is critical when applying learning-based methods to robotic manipulation due to the high cost of collecting expert demonstrations and the challenges of on-robot policy learning through online Reinforcement Learning (RL). Offline RL addresses this issue by enabling policy learning from an offline dataset collected using any behavioral policy, regardless of its quality. However, recent advancements in offline RL have predominantly focused on learning from large datasets. Given that many robotic manipulation tasks can be formulated as rotation-symmetric problems, we investigate the use of $SO(2)$-equivariant neural networks for offline RL with a limited number of demonstrations. Our experimental results show that equivariant versions of Conservative Q-Learning (CQL) and Implicit Q-Learning (IQL) outperform their non-equivariant counterparts. We provide empirical evidence demonstrating how equivariance improves offline learning algorithms in the low-data regime.",
+ "primary": "cs.LG"
+}

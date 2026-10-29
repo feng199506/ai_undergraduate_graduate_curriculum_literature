@@ -1,0 +1,18 @@
+{
+ "id": "2404.09276",
+ "title": "Algorithm xxx: Faster Randomized SVD with Dynamic Shifts",
+ "authors": [
+  "Xu Feng",
+  "Wenjian Yu",
+  "Yuyang Xie",
+  "Jie Tang"
+ ],
+ "v1_date": "2024-04-14",
+ "latest_version": 1,
+ "latest_date": "2024-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, accepted by ACM Transactions on Mathematical Software",
+ "abstract": "Aiming to provide a faster and convenient truncated SVD algorithm for large sparse matrices from real applications (i.e. for computing a few of largest singular values and the corresponding singular vectors), a dynamically shifted power iteration technique is applied to improve the accuracy of the randomized SVD method. This results in a dynamic shifts based randomized SVD (dashSVD) algorithm, which also collaborates with the skills for handling sparse matrices. An accuracy-control mechanism is included in the dashSVD algorithm to approximately monitor the per vector error bound of computed singular vectors with negligible overhead. Experiments on real-world data validate that the dashSVD algorithm largely improves the accuracy of randomized SVD algorithm or attains same accuracy with fewer passes over the matrix, and provides an efficient accuracy-control mechanism to the randomized SVD computation, while demonstrating the advantages on runtime and parallel efficiency. A bound of the approximation error of the randomized SVD with the shifted power iteration is also proved.",
+ "primary": "cs.MS"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2501.04871",
+ "title": "RieszBoost: Gradient Boosting for Riesz Regression",
+ "authors": [
+  "Kaitlyn J. Lee",
+  "Alejandro Schuler"
+ ],
+ "v1_date": "2025-01-08",
+ "latest_version": 2,
+ "latest_date": "2025-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Answering causal questions often involves estimating linear functionals of conditional expectations, such as the average treatment effect or the effect of a longitudinal modified treatment policy. By the Riesz representation theorem, these functionals can be expressed as the expected product of the conditional expectation of the outcome and the Riesz representer, a key component in doubly robust estimation methods. Traditionally, the Riesz representer is estimated indirectly by deriving its explicit analytical form, estimating its components, and substituting these estimates into the known form (e.g., the inverse propensity score). However, deriving or estimating the analytical form can be challenging, and substitution methods are often sensitive to practical positivity violations, leading to higher variance and wider confidence intervals. In this paper, we propose a novel gradient boosting algorithm to directly estimate the Riesz representer without requiring its explicit analytical form. This method is particularly suited for tabular data, offering a flexible, nonparametric, and computationally efficient alternative to existing methods for Riesz regression. Through simulation studies, we demonstrate that our algorithm performs on par with or better than indirect estimation techniques across a range of functionals, providing a user-friendly and robust solution for estimating causal quantities.",
+ "primary": "stat.ML"
+}

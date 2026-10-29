@@ -1,0 +1,19 @@
+{
+ "id": "2509.21811",
+ "title": "Scaling Laws for Neural Material Models",
+ "authors": [
+  "Akshay Trikha",
+  "Kyle Chu",
+  "Advait Gosai",
+  "Parker Szachta",
+  "Eric Weiner"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 1,
+ "latest_date": "2025-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 11 figures, preprint",
+ "abstract": "Predicting material properties is crucial for designing better batteries, semiconductors, and medical devices. Deep learning helps scientists quickly find promising materials by predicting their energy, forces, and stresses. Companies scale capacities of deep learning models in multiple domains, such as language modeling, and invest many millions of dollars into such models. Our team analyzes how scaling training data (giving models more information to learn from), model sizes (giving models more capacity to learn patterns), and compute (giving models more computational resources) for neural networks affects their performance for material property prediction. In particular, we trained both transformer and EquiformerV2 neural networks to predict material properties. We find empirical scaling laws for these models: we can predict how increasing each of the three hyperparameters (training data, model size, and compute) affects predictive performance. In particular, the loss $L$ can be measured with a power law relationship $L = α\\cdot N^{-β}$, where $α$ and $β$ are constants while $N$ is the relevant hyperparameter. We also incorporate command-line arguments for changing training settings such as the amount of epochs, maximum learning rate, and whether mixed precision is enabled. Future work could entail further investigating scaling laws for other neural network models in this domain, such as GemNet and fully connected networks, to assess how they compare to the models we trained.",
+ "primary": "cs.LG"
+}

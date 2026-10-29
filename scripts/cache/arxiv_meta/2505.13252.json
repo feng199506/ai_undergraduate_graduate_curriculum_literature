@@ -1,0 +1,19 @@
+{
+ "id": "2505.13252",
+ "title": "A Reality Check of Language Models as Formalizers on Constraint Satisfaction Problems",
+ "authors": [
+  "Rikhil Amonkar",
+  "Ceyhun Efe Kayan",
+  "Qimei Lai",
+  "Ronan Le Bras",
+  "Li Zhang"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 6,
+ "latest_date": "2026-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent work shows superior performance when using large language models (LLMs) as formalizers instead of as end-to-end solvers for symbolic reasoning problems. Given the problem description, the LLM generates a formal program that derives a solution via an external solver. We systematically investigate the formalization capability of LLMs on real-life constraint satisfaction problems on 4 benchmarks, 6 LLMs, and 2 types of formal languages. We show that LLM-as-formalizer by no means trivializes the problem but underperforms LLM-as-solver in 15 out of 24 model-dataset combinations, despite the former's verifiability and interpretability. Although the formalization space is magnitudes smaller than the search space, our scaling analysis shows that LLM-as-formalizer still drastically degrades as problem complexity increases similar to LLM-as-solver. To better understand this limitation, we observe excessive, solver-like reasoning tokens that sometimes lead to hard-coded solutions, highlighting a key challenge for improving LLM-based formalization.",
+ "primary": "cs.CL"
+}

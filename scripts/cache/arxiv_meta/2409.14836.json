@@ -1,0 +1,24 @@
+{
+ "id": "2409.14836",
+ "title": "Orthogonal Finetuning for Direct Preference Optimization",
+ "authors": [
+  "Chenxu Yang",
+  "Ruipeng Jia",
+  "Naibin Gu",
+  "Zheng Lin",
+  "Siyuan Chen",
+  "Chao Pang",
+  "Weichong Yin",
+  "Yu Sun",
+  "Hua Wu",
+  "Weiping Wang"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 3,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "DPO is an effective preference optimization algorithm. However, the DPO-tuned models tend to overfit on the dispreferred samples, manifested as overly long generations lacking diversity. While recent regularization approaches have endeavored to alleviate this issue by modifying the objective function, they achieved that at the cost of alignment performance degradation. In this paper, we innovatively incorporate regularization from the perspective of weight updating to curb alignment overfitting. Through the pilot experiment, we discovered that there exists a positive correlation between overfitting and the hyperspherical energy fluctuation. Hence, we introduce orthogonal finetuning for DPO via a weight-Rotated Preference Optimization (RoPO) method, which merely conducts rotational and magnitude-stretching updates on the weight parameters to maintain the hyperspherical energy invariant, thereby preserving the knowledge encoded in the angle between neurons. Extensive experiments demonstrate that our model aligns perfectly with human preferences while retaining the original expressive capacity using only 0.0086% of the trainable parameters, suggesting an effective regularization against overfitting. Specifically, RoPO outperforms DPO by up to 10 points on MT-Bench and by up to 2.8 points on AlpacaEval 2, while enhancing the generation diversity by an average of 6 points.",
+ "primary": "cs.CL"
+}

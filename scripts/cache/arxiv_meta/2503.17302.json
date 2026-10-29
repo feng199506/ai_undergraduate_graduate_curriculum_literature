@@ -1,0 +1,19 @@
+{
+ "id": "2503.17302",
+ "title": "Bugdar: AI-Augmented Secure Code Review for GitHub Pull Requests",
+ "authors": [
+  "John Naulty",
+  "Eason Chen",
+  "Joy Wang",
+  "George Digkas",
+  "Kostas Chalkias"
+ ],
+ "v1_date": "2025-03-21",
+ "latest_version": 1,
+ "latest_date": "2025-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4 pages, 1 figure, accepted at IEEE Conference on Artificial Intelligence (CAI) 2025",
+ "abstract": "As software systems grow increasingly complex, ensuring security during development poses significant challenges. Traditional manual code audits are often expensive, time-intensive, and ill-suited for fast-paced workflows, while automated tools frequently suffer from high false-positive rates, limiting their reliability. To address these issues, we introduce Bugdar, an AI-augmented code review system that integrates seamlessly into GitHub pull requests, providing near real-time, context-aware vulnerability analysis. Bugdar leverages fine-tunable Large Language Models (LLMs) and Retrieval Augmented Generation (RAGs) to deliver project-specific, actionable feedback that aligns with each codebase's unique requirements and developer practices. Supporting multiple programming languages, including Solidity, Move, Rust, and Python, Bugdar demonstrates exceptional efficiency, processing an average of 56.4 seconds per pull request or 30 lines of code per second. This is significantly faster than manual reviews, which could take hours per pull request. By facilitating a proactive approach to secure coding, Bugdar reduces the reliance on manual reviews, accelerates development cycles, and enhances the security posture of software systems without compromising productivity.",
+ "primary": "cs.CR"
+}

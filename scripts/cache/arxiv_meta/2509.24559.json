@@ -1,0 +1,18 @@
+{
+ "id": "2509.24559",
+ "title": "Emergent World Representations in OpenVLA",
+ "authors": [
+  "Marco Molinari",
+  "Leonardo Nevali",
+  "Saharsha Navani",
+  "Omar G. Younis"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 1,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Vision Language Action models (VLAs) trained with policy-based reinforcement learning (RL) encode complex behaviors without explicitly modeling environmental dynamics. However, it remains unclear whether VLAs implicitly learn world models, a hallmark of model-based RL. We propose an experimental methodology using embedding arithmetic on state representations to probe whether OpenVLA, the current state of the art in VLAs, contains latent knowledge of state transitions. Specifically, we measure the difference between embeddings of sequential environment states and test whether this transition vector is recoverable from intermediate model activations. Using linear and non linear probes trained on activations across layers, we find statistically significant predictive ability on state transitions exceeding baselines (embeddings), indicating that OpenVLA encodes an internal world model (as opposed to the probes learning the state transitions). We investigate the predictive ability of an earlier checkpoint of OpenVLA, and uncover hints that the world model emerges as training progresses. Finally, we outline a pipeline leveraging Sparse Autoencoders (SAEs) to analyze OpenVLA's world model.",
+ "primary": "cs.LG"
+}

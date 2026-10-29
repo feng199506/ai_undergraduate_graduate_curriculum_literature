@@ -1,0 +1,21 @@
+{
+ "id": "2401.09334",
+ "title": "Large Language Models Are Neurosymbolic Reasoners",
+ "authors": [
+  "Meng Fang",
+  "Shilong Deng",
+  "Yudi Zhang",
+  "Zijing Shi",
+  "Ling Chen",
+  "Mykola Pechenizkiy",
+  "Jun Wang"
+ ],
+ "v1_date": "2024-01-17",
+ "latest_version": 1,
+ "latest_date": "2024-01-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by AAAI 2024",
+ "abstract": "A wide range of real-world applications is characterized by their symbolic nature, necessitating a strong capability for symbolic reasoning. This paper investigates the potential application of Large Language Models (LLMs) as symbolic reasoners. We focus on text-based games, significant benchmarks for agents with natural language capabilities, particularly in symbolic tasks like math, map reading, sorting, and applying common sense in text-based worlds. To facilitate these agents, we propose an LLM agent designed to tackle symbolic challenges and achieve in-game objectives. We begin by initializing the LLM agent and informing it of its role. The agent then receives observations and a set of valid actions from the text-based games, along with a specific symbolic module. With these inputs, the LLM agent chooses an action and interacts with the game environments. Our experimental results demonstrate that our method significantly enhances the capability of LLMs as automated agents for symbolic reasoning, and our LLM agent is effective in text-based games involving symbolic tasks, achieving an average performance of 88% across all tasks.",
+ "primary": "cs.CL"
+}

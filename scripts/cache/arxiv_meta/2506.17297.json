@@ -1,0 +1,20 @@
+{
+ "id": "2506.17297",
+ "title": "SafeRL-Lite: A Lightweight, Explainable, and Constrained Reinforcement Learning Library",
+ "authors": [
+  "Satyam Mishra",
+  "Phung Thao Vi",
+  "Shivam Mishra",
+  "Vishwanath Bijalwan",
+  "Vijay Bhaskar Semwal",
+  "Abdul Manan Khan"
+ ],
+ "v1_date": "2025-06-17",
+ "latest_version": 1,
+ "latest_date": "2025-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 7 figures, open-source library, PyPI installable: pip install saferl-lite",
+ "abstract": "We introduce SafeRL-Lite, an open-source Python library for building reinforcement learning (RL) agents that are both constrained and explainable. Existing RL toolkits often lack native mechanisms for enforcing hard safety constraints or producing human-interpretable rationales for decisions. SafeRL-Lite provides modular wrappers around standard Gym environments and deep Q-learning agents to enable: (i) safety-aware training via constraint enforcement, and (ii) real-time post-hoc explanation via SHAP values and saliency maps. The library is lightweight, extensible, and installable via pip, and includes built-in metrics for constraint violations. We demonstrate its effectiveness on constrained variants of CartPole and provide visualizations that reveal both policy logic and safety adherence. The full codebase is available at: https://github.com/satyamcser/saferl-lite.",
+ "primary": "cs.LG"
+}

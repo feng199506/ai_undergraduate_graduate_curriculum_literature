@@ -1,0 +1,19 @@
+{
+ "id": "2503.01459",
+ "title": "Primer C-VAE: An interpretable deep learning primer design method to detect emerging virus variants",
+ "authors": [
+  "Hanyu Wang",
+  "Emmanuel K. Tsinda",
+  "Anthony J. Dunn",
+  "Francis Chikweto",
+  "Alain B. Zemkoho"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 2,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivation: PCR is more economical and quicker than Next Generation Sequencing for detecting target organisms, with primer design being a critical step. In epidemiology with rapidly mutating viruses, designing effective primers is challenging. Traditional methods require substantial manual intervention and struggle to ensure effective primer design across different strains. For organisms with large, similar genomes like Escherichia coli and Shigella flexneri, differentiating between species is also difficult but crucial. Results: We developed Primer C-VAE, a model based on a Variational Auto-Encoder framework with Convolutional Neural Networks to identify variants and generate specific primers. Using SARS-CoV-2, our model classified variants (alpha, beta, gamma, delta, omicron) with 98% accuracy and generated variant-specific primers. These primers appeared with >95% frequency in target variants and <5% in others, showing good performance in in-silico PCR tests. For Alpha, Delta, and Omicron, our primer pairs produced fragments <200 bp, suitable for qPCR detection. The model also generated effective primers for organisms with longer gene sequences like E. coli and S. flexneri. Conclusion: Primer C-VAE is an interpretable deep learning approach for developing specific primer pairs for target organisms. This flexible, semi-automated and reliable tool works regardless of sequence completeness and length, allowing for qPCR applications and can be applied to organisms with large and highly similar genomes.",
+ "primary": "q-bio.GN"
+}

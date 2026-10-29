@@ -1,0 +1,16 @@
+{
+ "id": "2607.04531",
+ "title": "Lyapunov-Guided Training for Hardware-Safe Neural Networks Under Fixed-Point Arithmetic",
+ "authors": [
+  "Anis Hamadouche",
+  "Amir Hussain"
+ ],
+ "v1_date": "2026-07-05",
+ "latest_version": 1,
+ "latest_date": "2026-07-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Low-precision neural networks are attractive for resource-constrained hardware, but fixed-point arithmetic introduces failure modes that are often hidden by idealised quantisation models. In particular, two's-complement overflow wrapping can corrupt hidden activations by changing both their magnitude and sign, leading to unstable numerical error propagation and severe accuracy degradation. This paper proposes a Lyapunov-stabilised quantisation framework for low-precision neural networks operating under hardware-style wrapping arithmetic. The hidden-state energy is monitored through a layerwise Lyapunov function, and a monotone projection is applied to enforce bounded and non-increasing state evolution across depth. The method is evaluated on MNIST using a compact patch-based transformer under post-training quantisation and quantisation-aware training with fixed-point bit-widths from 4 to 16 bits. Monte Carlo results show that unconstrained wrapped quantisation-aware training collapses to near-chance accuracy across 6-16 bits, with activation overflow rates exceeding 11%. In contrast, the proposed monotone Lyapunov projection suppresses activation overflow to below 0.012% and restores stable low-precision learning, achieving 86.55% accuracy at 12 bits. These results demonstrate that Lyapunov-based state control can act as a hardware-aware stabilisation mechanism for reliable fixed-point neural inference and training.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2503.09829",
+ "title": "SE(3)-Equivariant Robot Learning and Control: A Tutorial Survey",
+ "authors": [
+  "Joohwan Seo",
+  "Soochul Yoo",
+  "Junwoo Chang",
+  "Hyunseok An",
+  "Hyunwoo Ryu",
+  "Soomi Lee",
+  "Arvind Kruthiventy",
+  "Jongeun Choi",
+  "Roberto Horowitz"
+ ],
+ "v1_date": "2025-03-12",
+ "latest_version": 3,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to International Journcal of Control, Automation and Systems (IJCAS)",
+ "abstract": "Recent advances in deep learning and Transformers have driven major breakthroughs in robotics by employing techniques such as imitation learning, reinforcement learning, and LLM-based multimodal perception and decision-making. However, conventional deep learning and Transformer models often struggle to process data with inherent symmetries and invariances, typically relying on large datasets or extensive data augmentation. Equivariant neural networks overcome these limitations by explicitly integrating symmetry and invariance into their architectures, leading to improved efficiency and generalization. This tutorial survey reviews a wide range of equivariant deep learning and control methods for robotics, from classic to state-of-the-art, with a focus on SE(3)-equivariant models that leverage the natural 3D rotational and translational symmetries in visual robotic manipulation and control design. Using unified mathematical notation, we begin by reviewing key concepts from group theory, along with matrix Lie groups and Lie algebras. We then introduce foundational group-equivariant neural network design and show how the group-equivariance can be obtained through their structure. Next, we discuss the applications of SE(3)-equivariant neural networks in robotics in terms of imitation learning and reinforcement learning. The SE(3)-equivariant control design is also reviewed from the perspective of geometric control. Finally, we highlight the challenges and future directions of equivariant methods in developing more robust, sample-efficient, and multi-modal real-world robotic systems.",
+ "primary": "cs.RO"
+}

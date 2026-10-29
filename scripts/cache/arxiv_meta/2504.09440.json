@@ -1,0 +1,16 @@
+{
+ "id": "2504.09440",
+ "title": "Enhancing Mathematical Reasoning in Large Language Models with Self-Consistency-Based Hallucination Detection",
+ "authors": [
+  "MingShan Liu",
+  "Jialing Fang"
+ ],
+ "v1_date": "2025-04-13",
+ "latest_version": 3,
+ "latest_date": "2025-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have demonstrated strong mathematical reasoning capabilities but remain susceptible to hallucinations producing plausible yet incorrect statements especially in theorem proving, symbolic manipulation, and numerical computation. While self-consistency (SC) has been explored as a means to improve factuality in LLMs, existing approaches primarily apply SC to final-answer selection, neglecting the logical consistency of intermediate reasoning steps. In this work, we introduce a structured self-consistency framework designed to enhance the reliability of mathematical reasoning. Our method enforces self-consistency across intermediate steps and final outputs, reducing logical inconsistencies and hallucinations. We evaluate our approach across three core mathematical tasks: theorem proving, symbolic transformation, and numerical computation. Experimental results demonstrate that SC significantly improves proof validity, symbolic reasoning accuracy, and numerical stability while maintaining computational efficiency. Further analysis reveals that structured self-consistency not only enhances problem-solving accuracy but also reduces the variance of model-generated outputs. These findings highlight self-consistency as a robust mechanism for improving mathematical reasoning in LLMs, paving the way for more reliable and interpretable AI-driven mathematics.",
+ "primary": "cs.AI"
+}

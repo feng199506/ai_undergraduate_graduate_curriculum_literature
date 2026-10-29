@@ -1,0 +1,21 @@
+{
+ "id": "2311.08152",
+ "title": "Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration",
+ "authors": [
+  "Zhenran Xu",
+  "Senbao Shi",
+  "Baotian Hu",
+  "Jindi Yu",
+  "Dongfang Li",
+  "Min Zhang",
+  "Yuxiang Wu"
+ ],
+ "v1_date": "2023-11-14",
+ "latest_version": 2,
+ "latest_date": "2023-12-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 6 figures, 11 tables. Work in progress",
+ "abstract": "Large Language Models (LLMs) have shown remarkable capabilities in general natural language processing tasks but often fall short in complex reasoning tasks. Recent studies have explored human-like problem-solving strategies, such as self-correct, to push further the boundary of single-model reasoning ability. In this work, we let a single model \"step outside the box\" by engaging multiple models to correct each other. We introduce a multi-agent collaboration strategy that emulates the academic peer review process. Each agent independently constructs its own solution, provides reviews on the solutions of others, and assigns confidence levels to its reviews. Upon receiving peer reviews, agents revise their initial solutions. Extensive experiments on three different types of reasoning tasks show that our collaboration approach delivers superior accuracy across all ten datasets compared to existing methods. Further study underscores the effectiveness of integrating confidence in reviews, demonstrates the superiority of feedback exchange over mere solution sharing, and highlights the role of capability and diversity in fostering successful collaboration.",
+ "primary": "cs.CL"
+}

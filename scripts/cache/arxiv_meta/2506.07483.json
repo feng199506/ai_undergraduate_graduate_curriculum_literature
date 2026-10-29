@@ -1,0 +1,19 @@
+{
+ "id": "2506.07483",
+ "title": "A Hybrid GA LLM Framework for Structured Task Optimization",
+ "authors": [
+  "William Shum",
+  "Rachel Chan",
+  "Jonas Lin",
+  "Benny Feng",
+  "Patrick Lau"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 2,
+ "latest_date": "2025-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages",
+ "abstract": "GA LLM is a hybrid framework that combines Genetic Algorithms with Large Language Models to handle structured generation tasks under strict constraints. Each output, such as a plan or report, is treated as a gene, and evolutionary operations like selection, crossover, and mutation are guided by the language model to iteratively improve solutions. The language model provides domain knowledge and creative variation, while the genetic algorithm ensures structural integrity and global optimization. GA LLM has proven effective in tasks such as itinerary planning, academic outlining, and business reporting, consistently producing well structured and requirement satisfying results. Its modular design also makes it easy to adapt to new tasks. Compared to using a language model alone, GA LLM achieves better constraint satisfaction and higher quality solutions by combining the strengths of both components.",
+ "primary": "cs.CL"
+}

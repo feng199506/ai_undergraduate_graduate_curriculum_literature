@@ -1,0 +1,19 @@
+{
+ "id": "2408.08250",
+ "title": "Computer Vision Model Compression Techniques for Embedded Systems: A Survey",
+ "authors": [
+  "Alexandre Lopes",
+  "Fernando Pereira dos Santos",
+  "Diulhio de Oliveira",
+  "Mauricio Schiezaro",
+  "Helio Pedrini"
+ ],
+ "v1_date": "2024-08-15",
+ "latest_version": 1,
+ "latest_date": "2024-08-15",
+ "journal_ref": "Computers & Graphics, Volume 123, October 2024, 104015",
+ "doi": "10.1016/j.cag.2024.104015",
+ "comment": "",
+ "abstract": "Deep neural networks have consistently represented the state of the art in most computer vision problems. In these scenarios, larger and more complex models have demonstrated superior performance to smaller architectures, especially when trained with plenty of representative data. With the recent adoption of Vision Transformer (ViT) based architectures and advanced Convolutional Neural Networks (CNNs), the total number of parameters of leading backbone architectures increased from 62M parameters in 2012 with AlexNet to 7B parameters in 2024 with AIM-7B. Consequently, deploying such deep architectures faces challenges in environments with processing and runtime constraints, particularly in embedded systems. This paper covers the main model compression techniques applied for computer vision tasks, enabling modern models to be used in embedded systems. We present the characteristics of compression subareas, compare different approaches, and discuss how to choose the best technique and expected variations when analyzing it on various embedded devices. We also share codes to assist researchers and new practitioners in overcoming initial implementation challenges for each subarea and present trends for Model Compression. Case studies for compression models are available at \\href{https://github.com/venturusbr/cv-model-compression}{https://github.com/venturusbr/cv-model-compression}.",
+ "primary": "cs.CV"
+}

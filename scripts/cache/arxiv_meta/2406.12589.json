@@ -1,0 +1,20 @@
+{
+ "id": "2406.12589",
+ "title": "Discovering Minimal Reinforcement Learning Environments",
+ "authors": [
+  "Jarek Liesen",
+  "Chris Lu",
+  "Andrei Lupu",
+  "Jakob N. Foerster",
+  "Henning Sprekeler",
+  "Robert T. Lange"
+ ],
+ "v1_date": "2024-06-18",
+ "latest_version": 1,
+ "latest_date": "2024-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 7 figures",
+ "abstract": "Reinforcement learning (RL) agents are commonly trained and evaluated in the same environment. In contrast, humans often train in a specialized environment before being evaluated, such as studying a book before taking an exam. The potential of such specialized training environments is still vastly underexplored, despite their capacity to dramatically speed up training. The framework of synthetic environments takes a first step in this direction by meta-learning neural network-based Markov decision processes (MDPs). The initial approach was limited to toy problems and produced environments that did not transfer to unseen RL algorithms. We extend this approach in three ways: Firstly, we modify the meta-learning algorithm to discover environments invariant towards hyperparameter configurations and learning algorithms. Secondly, by leveraging hardware parallelism and introducing a curriculum on an agent's evaluation episode horizon, we can achieve competitive results on several challenging continuous control problems. Thirdly, we surprisingly find that contextual bandits enable training RL agents that transfer well to their evaluation environment, even if it is a complex MDP. Hence, we set up our experiments to train synthetic contextual bandits, which perform on par with synthetic MDPs, yield additional insights into the evaluation environment, and can speed up downstream applications.",
+ "primary": "cs.LG"
+}

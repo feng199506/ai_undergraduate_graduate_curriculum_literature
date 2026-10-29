@@ -1,0 +1,17 @@
+{
+ "id": "2608.15339",
+ "title": "Learning Sequential Mobility Choice: A Review of Route and Activity Choice through Inverse Reinforcement Learning and Imitation Learning",
+ "authors": [
+  "Hung Tran",
+  "Viet Bui",
+  "Tien Mai"
+ ],
+ "v1_date": "2026-08-15",
+ "latest_version": 2,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Route and activity choice are distinct transportation problems that both require models of feasible decisions unfolding over networks and time. This critical integrative review connects transportation choice modeling with inverse reinforcement learning (IRL) and imitation learning (IL), while distinguishing evidence from transportation applications, transferable methods from other fields, and emerging proposals. We develop a four-layer sequential mobility choice framework comprising the environment, behavioral objective, stochastic choice mechanism, and observation process. Under stated assumptions, recursive logit, logit dynamic discrete choice, and maximum-entropy IRL use the same soft Bellman recursion linking future opportunities to current choice probabilities. Expected state-action visitation also satisfies conservation equations analogous to network flows. These mathematical connections do not make utility, reward, policy, occupancy, constraints, and observation error behaviorally interchangeable. Transportation evidence is strongest for network-scale planning, context-dependent reward learning, inference from incomplete trajectories, and activity-schedule generation, but remains limited for actual interventions and transfer across networks. We therefore propose a behaviorally disciplined hybrid architecture that keeps feasible actions, interpretable trade-offs, observation processes, and system feedback explicit while using machine learning for scalable computation, contextual representation, heterogeneity, and data integration.",
+ "primary": "econ.EM"
+}

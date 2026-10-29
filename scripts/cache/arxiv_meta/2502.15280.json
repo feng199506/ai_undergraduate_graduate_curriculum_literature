@@ -1,0 +1,20 @@
+{
+ "id": "2502.15280",
+ "title": "Hyperspherical Normalization for Scalable Deep Reinforcement Learning",
+ "authors": [
+  "Hojoon Lee",
+  "Youngdo Lee",
+  "Takuma Seno",
+  "Donghu Kim",
+  "Peter Stone",
+  "Jaegul Choo"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 2,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages. ICML'25 (spotlight)",
+ "abstract": "Scaling up the model size and computation has brought consistent performance improvements in supervised learning. However, this lesson often fails to apply to reinforcement learning (RL) because training the model on non-stationary data easily leads to overfitting and unstable optimization. In response, we introduce SimbaV2, a novel RL architecture designed to stabilize optimization by (i) constraining the growth of weight and feature norm by hyperspherical normalization; and (ii) using a distributional value estimation with reward scaling to maintain stable gradients under varying reward magnitudes. Using the soft actor-critic as a base algorithm, SimbaV2 scales up effectively with larger models and greater compute, achieving state-of-the-art performance on 57 continuous control tasks across 4 domains. The code is available at https://dojeon-ai.github.io/SimbaV2.",
+ "primary": "cs.LG"
+}

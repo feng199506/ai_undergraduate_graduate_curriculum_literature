@@ -1,0 +1,23 @@
+{
+ "id": "2509.00930",
+ "title": "SATQuest: A Verifier for Logical Reasoning Evaluation and Reinforcement Fine-Tuning of LLMs",
+ "authors": [
+  "Yanxiao Zhao",
+  "Yaqian Li",
+  "Zihao Bo",
+  "Rinyoichi Takezoe",
+  "Haojia Hui",
+  "Mo Guang",
+  "Lei Ren",
+  "Xiaolin Qin",
+  "Kaiwen Long"
+ ],
+ "v1_date": "2025-08-31",
+ "latest_version": 2,
+ "latest_date": "2026-07-19",
+ "journal_ref": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2109-2131. Association for Computational Linguistics, 2026",
+ "doi": "10.18653/v1/2026.acl-long.96",
+ "comment": "23 pages, 8 figures. ACL 2026 Main Conference long paper (oral presentation)",
+ "abstract": "Large language models (LLMs) exhibit strong general reasoning, yet the community lacks controllable, scalable, and verifiable tools to analyze and improve these abilities. We present SATQuest, a verifier that generates diverse SAT-based reasoning tasks directly from Conjunctive Normal Form (CNF) instances and checks answers objectively with PySAT. SATQuest factorizes evaluation along three orthogonal dimensions: instance, problem type, and question format, enabling fine-grained, multi-dimensional analysis and reinforcement fine-tuning. Randomized CNF generation mitigates memorization and supports reproducible experiments. Using SATQuest, we benchmark a range of open- and closed-weight LLMs and uncover persistent gaps in logical reasoning, particularly on higher-complexity tasks and in transfer beyond familiar mathematical notation to machine or narrative formats. We further show that reinforcement fine-tuning with SATQuest rewards substantially boosts targeted performance and generalizes to larger instances, while cross-format robustness remains challenging. Collectively, SATQuest provides verifier-backed infrastructure for controlled, scalable, and reproducible empirical research on LLM logical reasoning and its training.",
+ "primary": "cs.AI"
+}

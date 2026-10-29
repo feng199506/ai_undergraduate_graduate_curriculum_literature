@@ -1,0 +1,19 @@
+{
+ "id": "2410.13203",
+ "title": "TabSeq: A Framework for Deep Learning on Tabular Data via Sequential Ordering",
+ "authors": [
+  "Al Zadid Sultan Bin Habib",
+  "Kesheng Wang",
+  "Mary-Anne Hartley",
+  "Gianfranco Doretto",
+  "Donald A. Adjeroh"
+ ],
+ "v1_date": "2024-10-17",
+ "latest_version": 2,
+ "latest_date": "2024-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper has been accepted for presentation at the 27th International Conference on Pattern Recognition (ICPR 2024) in Kolkata, India",
+ "abstract": "Effective analysis of tabular data still poses a significant problem in deep learning, mainly because features in tabular datasets are often heterogeneous and have different levels of relevance. This work introduces TabSeq, a novel framework for the sequential ordering of features, addressing the vital necessity to optimize the learning process. Features are not always equally informative, and for certain deep learning models, their random arrangement can hinder the model's learning capacity. Finding the optimum sequence order for such features could improve the deep learning models' learning process. The novel feature ordering technique we provide in this work is based on clustering and incorporates both local ordering and global ordering. It is designed to be used with a multi-head attention mechanism in a denoising autoencoder network. Our framework uses clustering to align comparable features and improve data organization. Multi-head attention focuses on essential characteristics, whereas the denoising autoencoder highlights important aspects by rebuilding from distorted inputs. This method improves the capability to learn from tabular data while lowering redundancy. Our research, demonstrating improved performance through appropriate feature sequence rearrangement using raw antibody microarray and two other real-world biomedical datasets, validates the impact of feature ordering. These results demonstrate that feature ordering can be a viable approach to improved deep learning of tabular data.",
+ "primary": "cs.LG"
+}

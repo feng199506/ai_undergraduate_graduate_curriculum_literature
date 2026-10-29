@@ -1,0 +1,16 @@
+{
+ "id": "2410.22183",
+ "title": "An alternating low-rank projection approach for partial differential equations with random inputs",
+ "authors": [
+  "Guanjie Wang",
+  "Qifeng Liao"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 2,
+ "latest_date": "2025-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "It is known that standard stochastic Galerkin methods face challenges when solving partial differential equations (PDEs) with random inputs. These challenges are typically attributed to the large number of required physical basis functions and stochastic basis functions. Therefore, it becomes crucial to select effective basis functions to properly reduce the dimensionality of both the physical and stochastic approximation spaces. In this study, our focus is on the stochastic Galerkin approximation associated with generalized polynomial chaos (gPC). We delve into the low-rank approximation of the quasimatrix, whose columns represent the coefficients in the gPC expansions of the solution. We conduct an investigation into the singular value decomposition (SVD) of this quasimatrix, proposing a strategy to identify the rank required for a desired accuracy. Subsequently, we introduce both a simultaneous low-rank projection approach and an alternating low-rank projection approach to compute the low-rank approximation of the solution for PDEs with random inputs. Numerical results demonstrate the efficiency of our proposed methods for both diffusion and Helmholtz problems.",
+ "primary": "math.NA"
+}

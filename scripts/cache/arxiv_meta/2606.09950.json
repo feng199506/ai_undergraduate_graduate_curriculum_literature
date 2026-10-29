@@ -1,0 +1,15 @@
+{
+ "id": "2606.09950",
+ "title": "Integrating Out, Twice:The Open-System Case That Neural-Network Ensemble Theory Is Missing",
+ "authors": [
+  "Jin Lei"
+ ],
+ "v1_date": "2026-06-08",
+ "latest_version": 1,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Averaging a neural network over its random parameters and marginalizing a Gaussian sector are the same operation, the Schur complement of the eliminated block, and when that block is closed it returns a covariance and its inverse. That is all a network ensemble produces, the closed case. The open case is missing, and nuclear reaction theory has it worked out. Projecting a scattering problem onto a chosen set of channels, with the rest carrying probability irreversibly to a continuum, leaves a non-Hermitian effective generator that conserves and itemizes exactly what it loses: the nuclear optical model and its generalized optical theorem. I set the two cases side by side using only the moments of a distribution, the algebra of Gaussians, and block inversion, no field theory, and give the closed-case dictionary in full: the neural tangent kernel is the Fisher sensitivity kernel, the infinite-width Gaussian limit is the Gaussian-process emulator, and the lazy-to-feature transition is the validity boundary of a reduced-basis emulator. I then test the open export on a truncated attention map, a token-level transfer operator, and a sparse expert router, and report a mostly negative result. The conserved flux ledger ports wherever openness is genuinely present, but its distinctive content is absent, an artifact of the chosen partition, or pinned near a floor by the training objective, and the operationally useful uncertainty turns out to be epistemic, living in the closed half of the correspondence, not the open one. The negative has a structural reason this note makes precise: the open case needs an eliminated sector with a continuous spectrum and wave-like, not relaxational, dynamics, which mainstream learning's finite or dissipative objects do not supply. This is a note, not a result; its main finding is that negative one, and its value is the map that locates it.",
+ "primary": "cs.LG"
+}

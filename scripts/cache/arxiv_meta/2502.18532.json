@@ -1,0 +1,20 @@
+{
+ "id": "2502.18532",
+ "title": "CuDIP: Enhancing Theorem Proving in LLMs via Curriculum Learning-based Direct Preference Optimization",
+ "authors": [
+  "Shuming Shi",
+  "Ruobing Zuo",
+  "Gaolei He",
+  "Jianlin Wang",
+  "Chenyang Xu",
+  "Zhengfeng Yang"
+ ],
+ "v1_date": "2025-02-25",
+ "latest_version": 1,
+ "latest_date": "2025-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automated theorem proving (ATP) is one of the most challenging mathematical reasoning tasks for Large Language Models (LLMs). Most existing LLM-based ATP methods rely on supervised fine-tuning, which results in a limited alignment between the theorem proving process and human preferences. Direct Preference Optimization (DPO), which aligns LLMs with human preferences, has shown positive effects for certain tasks. However, the lack of high-quality preference data for theorem proving presents a significant challenge. In this paper, we innovatively apply DPO to formal automated theorem proving and introduces a Curriculum Learning-based DPO Iterative Theorem Proving (CuDIP) method. Specifically, we propose a method for constructing preference data which utilizes LLMs and existing theorem proving data to enhance the diversity of the preference data while reducing the reliance on human preference annotations. We then integrate this preference data construction method with curriculum learning to iteratively fine-tune the theorem proving model through DPO. Experimental results on the MiniF2F and ProofNet datasets demonstrate the effectiveness of the proposed method.",
+ "primary": "cs.AI"
+}

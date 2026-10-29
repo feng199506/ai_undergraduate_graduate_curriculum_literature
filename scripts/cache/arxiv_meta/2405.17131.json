@@ -1,0 +1,19 @@
+{
+ "id": "2405.17131",
+ "title": "Digital Signal Processing Techniques for Noise Characterization of Lasers and Optical Frequency Combs: A Tutorial",
+ "authors": [
+  "Jasper Riebesehl",
+  "Holger R. Heebøll",
+  "Aleksandr Razumov",
+  "Michael Galili",
+  "Darko Zibar"
+ ],
+ "v1_date": "2024-05-27",
+ "latest_version": 2,
+ "latest_date": "2024-07-13",
+ "journal_ref": "APL Photonics 1 August 2024; 9 (8): 081101",
+ "doi": "10.1063/5.0212592",
+ "comment": "23 pages, 13 figures Invited by and submitted to APL Photonics",
+ "abstract": "Performing noise characterizations of lasers and optical frequency combs on sampled data offers numerous advantages compared to analog measurement techniques. One of the main advantages is that the measurement setup is greatly simplified. Only a balanced detector followed by an analog-to-digital converter is needed, allowing all the complexity to be moved to the digital domain. Secondly, near-optimal phase estimators are efficiently implementable, providing accurate phase noise estimation in the presence of the measurement noise. Finally, joint processing of multiple comb lines is feasible, enabling computation of phase noise correlation matrix, which includes all information about the phase noise of the optical frequency comb. This tutorial introduces a framework based on digital signal processing for phase noise characterization of lasers and optical frequency combs. The framework is based on the extended Kalman filter (EKF) and automatic differentiation. The EKF is a near-optimal estimator of the optical phase in the presence of measurement noise, making it very suitable for phase noise measurements. Automatic differentiation is key to efficiently optimizing many parameters entering the EKF framework. More specifically, the combination of EKF and automatic differentiation enables the efficient optimization of phase noise measurement for optical frequency combs with arbitrarily complex noise dynamics that may include many free parameters. We show the framework's efficacy through simulations and experimental data, showcasing its application across various comb types and in dual-comb measurements, highlighting its accuracy and versatility. Finally, we discuss its capability for digital phase noise compensation, which is highly relevant to free-running dual-comb spectroscopy applications.",
+ "primary": "physics.optics"
+}

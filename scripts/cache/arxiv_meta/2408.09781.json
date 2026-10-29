@@ -1,0 +1,17 @@
+{
+ "id": "2408.09781",
+ "title": "Neural Horizon Model Predictive Control -- Increasing Computational Efficiency with Neural Networks",
+ "authors": [
+  "Hendrik Alsmeier",
+  "Anton Savchenko",
+  "Rolf Findeisen"
+ ],
+ "v1_date": "2024-08-19",
+ "latest_version": 1,
+ "latest_date": "2024-08-19",
+ "journal_ref": "American Control Conference 2024 1646-1651",
+ "doi": "10.23919/acc60939.2024.10644452",
+ "comment": "6 pages, 4 figures, 4 tables, American Control Conference (ACC) 2024",
+ "abstract": "The expansion in automation of increasingly fast applications and low-power edge devices poses a particular challenge for optimization based control algorithms, like model predictive control. Our proposed machine-learning supported approach addresses this by utilizing a feed-forward neural network to reduce the computation load of the online-optimization. We propose approximating part of the problem horizon, while maintaining safety guarantees -- constraint satisfaction -- via the remaining optimization part of the controller. The approach is validated in simulation, demonstrating an improvement in computational efficiency, while maintaining guarantees and near-optimal performance. The proposed MPC scheme can be applied to a wide range of applications, including those requiring a rapid control response, such as robotics and embedded applications with limited computational resources.",
+ "primary": "eess.SY"
+}

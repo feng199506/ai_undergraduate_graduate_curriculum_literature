@@ -1,0 +1,19 @@
+{
+ "id": "2411.06568",
+ "title": "Meta-Learning Objectives for Preference Optimization",
+ "authors": [
+  "Carlo Alfano",
+  "Silvia Sapora",
+  "Jakob Nicolaus Foerster",
+  "Patrick Rebeschini",
+  "Yee Whye Teh"
+ ],
+ "v1_date": "2024-11-10",
+ "latest_version": 4,
+ "latest_date": "2026-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Evaluating preference optimization (PO) algorithms on LLM alignment is a challenging task that presents prohibitive costs, noise, and several variables like model size and hyper-parameters. In this work, we show that it is possible to gain insights on the efficacy of PO algorithm on simpler benchmarks. We design a diagnostic suite of MuJoCo tasks and datasets, which we use to systematically evaluate PO algorithms, establishing a more controlled and cheaper benchmark. We then propose a novel family of PO algorithms based on mirror descent, which we call Mirror Preference Optimization (MPO). Through evolutionary strategies, we search this class to discover algorithms specialized to specific properties of preference datasets, such as mixed-quality or noisy data. We demonstrate that our discovered PO algorithms outperform all known algorithms in the targeted MuJoCo settings. Finally, based on the insights gained from our MuJoCo experiments, we design a PO algorithm that significantly outperform existing baselines in an LLM alignment task.",
+ "primary": "cs.LG"
+}

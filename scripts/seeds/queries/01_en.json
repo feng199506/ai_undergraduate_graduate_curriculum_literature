@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:tutorial OR ti:primer OR ti:introduction OR ti:\"lecture notes\") AND abs:\"linear algebra\" AND (abs:\"machine learning\" OR abs:\"deep learning\")", "subtopic": "线性代数与 ML 数学基础"},
+ {"q": "abs:\"matrix calculus\" OR ti:\"matrix calculus\"", "subtopic": "矩阵微积分"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:\"lecture notes\") AND abs:\"randomized numerical linear algebra\"", "subtopic": "随机数值线性代数"},
+ {"q": "ti:\"randomized\" AND (ti:\"low-rank\" OR ti:SVD OR ti:sketching OR ti:\"matrix approximation\") AND cat:math.NA", "subtopic": "随机数值线性代数"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND abs:\"tensor decomposition\"", "subtopic": "张量分解与张量计算"},
+ {"q": "(ti:survey OR ti:tutorial OR ti:introduction OR ti:review) AND abs:\"automatic differentiation\"", "subtopic": "自动微分的数学"},
+ {"q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)", "subtopic": "ML 所需数学的教学型综述"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:\"numerical linear algebra\" AND (abs:\"machine learning\" OR abs:GPU OR abs:\"mixed precision\")", "subtopic": "数值计算与 ML"},
+ {"q": "(ti:\"mixed precision\" OR ti:\"floating point\" OR ti:\"low precision\") AND (ti:survey OR ti:review OR abs:\"numerical analysis\")", "subtopic": "浮点与混合精度数值计算"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:\"matrix functions\"", "subtopic": "矩阵分析"},
+ {"q": "(ti:tutorial OR ti:survey OR ti:introduction) AND (abs:\"spectral graph theory\" OR abs:\"graph Laplacian\")", "subtopic": "离散数学与谱图论"},
+ {"q": "(ti:survey OR ti:tutorial OR ti:review OR ti:introduction) AND (abs:\"neural ODE\" OR abs:\"differential equations\") AND abs:\"deep learning\" AND cat:math.NA", "subtopic": "微分方程数值方法与 ML"},
+ {"q": "(ti:\"optimal transport\") AND (ti:introduction OR ti:tutorial OR ti:survey OR ti:\"lecture notes\")", "subtopic": "多元分析与最优传输数学"},
+ {"q": "(ti:\"Krylov\" OR ti:\"iterative methods\" OR ti:\"preconditioning\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "数值线性代数迭代法"},
+ {"q": "(ti:\"Hessian\" OR ti:\"curvature\") AND ti:\"neural network\" AND (abs:\"matrix\" OR abs:\"eigenvalue\") AND (ti:survey OR ti:introduction OR ti:tutorial OR ti:primer)", "subtopic": "矩阵分析在深度学习中的应用"},
+ {"q": "(ti:\"random matrix theory\") AND (abs:\"machine learning\" OR abs:\"neural network\")", "subtopic": "随机矩阵理论"},
+ {"q": "(ti:\"geometric deep learning\" OR ti:\"group theory\" OR ti:\"equivariant\") AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:\"lecture notes\")", "subtopic": "代数与几何基础"},
+ {"q": "(ti:\"large language models\" OR abs:\"large language models\") AND (ti:mathematics OR ti:\"theorem proving\") AND (ti:survey OR ti:review)", "subtopic": "AI 与数学（教学参考）"}
+]

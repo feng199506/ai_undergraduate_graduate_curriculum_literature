@@ -1,0 +1,19 @@
+{
+ "id": "2507.13887",
+ "title": "A Survey of Dimension Estimation Methods",
+ "authors": [
+  "James A. D. Binnie",
+  "Paweł Dłotko",
+  "John Harvey",
+  "Jakub Malinowski",
+  "Ka Man Yim"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 1,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages + appendices, 24 figures",
+ "abstract": "It is a standard assumption that datasets in high dimension have an internal structure which means that they in fact lie on, or near, subsets of a lower dimension. In many instances it is important to understand the real dimension of the data, hence the complexity of the dataset at hand. A great variety of dimension estimators have been developed to find the intrinsic dimension of the data but there is little guidance on how to reliably use these estimators. This survey reviews a wide range of dimension estimation methods, categorising them by the geometric information they exploit: tangential estimators which detect a local affine structure; parametric estimators which rely on dimension-dependent probability distributions; and estimators which use topological or metric invariants. The paper evaluates the performance of these methods, as well as investigating varying responses to curvature and noise. Key issues addressed include robustness to hyperparameter selection, sample size requirements, accuracy in high dimensions, precision, and performance on non-linear geometries. In identifying the best hyperparameters for benchmark datasets, overfitting is frequent, indicating that many estimators may not generalise well beyond the datasets on which they have been tested.",
+ "primary": "stat.ML"
+}

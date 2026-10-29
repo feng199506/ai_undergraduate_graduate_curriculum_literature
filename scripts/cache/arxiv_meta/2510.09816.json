@@ -1,0 +1,17 @@
+{
+ "id": "2510.09816",
+ "title": "A mathematical theory for understanding when abstract representations emerge in neural networks",
+ "authors": [
+  "Bin Wang",
+  "W. Jeffrey Johnston",
+  "Stefano Fusi"
+ ],
+ "v1_date": "2025-10-10",
+ "latest_version": 2,
+ "latest_date": "2026-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 8 figures",
+ "abstract": "Recent experiments in neuroscience reveal that task-relevant variables are often encoded in approximately orthogonal subspaces of neural population activity. These disentangled, or abstract, representations have been observed in multiple brain areas and across different species. These representations have been shown to support out of distribution generalization and rapid learning of novel tasks. The mechanisms by which these representations emerge remain poorly understood, especially in the case of supervised task behavior. Here, we show mathematically that abstract representations of latent variables are guaranteed to appear in the hidden layer of feedforward nonlinear networks when they are trained on tasks that depend directly on these latent variables. These learned abstract representations reflect the semantics of the input stimuli. To show this, we reformulate the usual optimization over the network weights into a mean field optimization problem over the distribution of neural preactivations. We then apply this framework to finite-width ReLU networks and show that the hidden layer of these networks will exhibit an abstract representation at all global minima of the task objective. Finally, we extend our findings to two broad families of activation functions as well as deep feedforward architectures. Together, our results provide an explanation for the widely observed abstract representations in both the brain and artificial neural networks. In addition, the general framework that we develop here provides a mathematically tractable toolkit for understanding the emergence of different kinds of representations in task-optimized, feature-learning network models.",
+ "primary": "q-bio.NC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2504.18633",
+ "title": "Statistical Inference for Clustering-based Anomaly Detection",
+ "authors": [
+  "Nguyen Thi Minh Phu",
+  "Duong Tan Loc",
+  "Vo Nguyen Le Duy"
+ ],
+ "v1_date": "2025-04-25",
+ "latest_version": 1,
+ "latest_date": "2025-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Unsupervised anomaly detection (AD) is a fundamental problem in machine learning and statistics. A popular approach to unsupervised AD is clustering-based detection. However, this method lacks the ability to guarantee the reliability of the detected anomalies. In this paper, we propose SI-CLAD (Statistical Inference for CLustering-based Anomaly Detection), a novel statistical framework for testing the clustering-based AD results. The key strength of SI-CLAD lies in its ability to rigorously control the probability of falsely identifying anomalies, maintaining it below a pre-specified significance level $α$ (e.g., $α= 0.05$). By analyzing the selection mechanism inherent in clustering-based AD and leveraging the Selective Inference (SI) framework, we prove that false detection control is attainable. Moreover, we introduce a strategy to boost the true detection rate, enhancing the overall performance of SI-CLAD. Extensive experiments on synthetic and real-world datasets provide strong empirical support for our theoretical findings, showcasing the superior performance of the proposed method.",
+ "primary": "stat.ML"
+}

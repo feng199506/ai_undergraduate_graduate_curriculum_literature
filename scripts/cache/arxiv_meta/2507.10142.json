@@ -1,0 +1,20 @@
+{
+ "id": "2507.10142",
+ "title": "Toward Adaptable Multi-Agent Reinforcement Learning: An Assumption-Aware Review",
+ "authors": [
+  "Siyi Hu",
+  "Mohamad A Hady",
+  "Jianglin Qiao",
+  "Jimmy Cao",
+  "Mahardhika Pratama",
+  "Ryszard Kowalczyk"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 2,
+ "latest_date": "2026-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multi-Agent Reinforcement Learning (MARL) has achieved strong performance in simulated benchmarks, yet real deployments often violate the assumptions under which algorithms are designed and evaluated. Agent populations may change, objectives may shift, centralized information may be unavailable, execution may become asynchronous, and partner policies may be unfamiliar. Existing surveys discuss related desiderata such as scalability, robustness, generalization, and transferability, but these terms often refer to different objects of analysis and different kinds of distributional or structural shift. This survey proposes \\textit{adaptability} as an assumption-aware taxonomy for organizing these shifts, rather than as a universal requirement that every MARL algorithm should succeed in every setting. We distinguish three dimensions: \\textit{learning adaptability}, which concerns the applicability of learning paradigms under changed training or system assumptions; \\textit{policy adaptability}, which concerns the reuse or adaptation of learned policies under deployment-time changes; and \\textit{scenario-driven adaptability}, which concerns whether benchmarks and evaluation protocols expose controlled, diagnostically useful shifts. By separating what changes, when the change occurs, what adaptation is allowed, and what success means, the framework clarifies how established concepts fit together and identifies where current MARL evaluation remains underspecified.",
+ "primary": "cs.AI"
+}

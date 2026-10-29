@@ -1,0 +1,16 @@
+{
+ "id": "2408.03492",
+ "title": "Automated Theorem Provers Help Improve Large Language Model Reasoning",
+ "authors": [
+  "Lachlan McGinness",
+  "Peter Baumgartner"
+ ],
+ "v1_date": "2024-08-07",
+ "latest_version": 1,
+ "latest_date": "2024-08-07",
+ "journal_ref": "Proceedings LPAR 2024, EPiC Series in Computing, vol. 100, pp 51-69",
+ "doi": "10.29007/2n9m",
+ "comment": "",
+ "abstract": "In this paper we demonstrate how logic programming systems and Automated first-order logic Theorem Provers (ATPs) can improve the accuracy of Large Language Models (LLMs) for logical reasoning tasks where the baseline performance is given by direct LLM solutions. We first evaluate LLM reasoning on steamroller problems using the PRONTOQA benchmark. We show how accuracy can be improved with a neuro-symbolic architecture where the LLM acts solely as a front-end for translating a given problem into a formal logic language and an automated reasoning engine is called for solving it. However, this approach critically hinges on the correctness of the LLM translation. To assess this translation correctness, we secondly define a framework of syntactic and semantic error categories. We implemented the framework and used it to identify errors that LLMs make in the benchmark domain. Based on these findings, we thirdly extended our method with capabilities for automatically correcting syntactic and semantic errors. For semantic error correction we integrate first-order logic ATPs, which is our main and novel contribution. We demonstrate that this approach reduces semantic errors significantly and further increases the accurracy of LLM logical reasoning.",
+ "primary": "cs.AI"
+}

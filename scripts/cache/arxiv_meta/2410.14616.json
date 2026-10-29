@@ -1,0 +1,18 @@
+{
+ "id": "2410.14616",
+ "title": "Benchmarking Deep Reinforcement Learning for Navigation in Denied Sensor Environments",
+ "authors": [
+  "Mariusz Wisniewski",
+  "Paraskevas Chatzithanos",
+  "Weisi Guo",
+  "Antonios Tsourdos"
+ ],
+ "v1_date": "2024-10-18",
+ "latest_version": 1,
+ "latest_date": "2024-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 19 figures. For associated code, see https://github.com/mazqtpopx/cranfield-navigation-gym",
+ "abstract": "Deep Reinforcement learning (DRL) is used to enable autonomous navigation in unknown environments. Most research assume perfect sensor data, but real-world environments may contain natural and artificial sensor noise and denial. Here, we present a benchmark of both well-used and emerging DRL algorithms in a navigation task with configurable sensor denial effects. In particular, we are interested in comparing how different DRL methods (e.g. model-free PPO vs. model-based DreamerV3) are affected by sensor denial. We show that DreamerV3 outperforms other methods in the visual end-to-end navigation task with a dynamic goal - and other methods are not able to learn this. Furthermore, DreamerV3 generally outperforms other methods in sensor-denied environments. In order to improve robustness, we use adversarial training and demonstrate an improved performance in denied environments, although this generally comes with a performance cost on the vanilla environments. We anticipate this benchmark of different DRL methods and the usage of adversarial training to be a starting point for the development of more elaborate navigation strategies that are capable of dealing with uncertain and denied sensor readings.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2606.17165",
+ "title": "Statistical Foundations of LLM-based A/B Testing: A Surrogacy Framework for Human Causal Inference",
+ "authors": [
+  "Joel Persson",
+  "Mårten Schultzberg",
+  "Sebastian Ankargren"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 3,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Organizations and researchers show increasing interest in using large language models (LLMs) in place of human participants in A/B tests, in the hope of experimenting faster and at lower cost. We study when a treatment effect estimated on LLM outcomes can recover the effect for the human population of interest. Distributional equivalence between LLM and human outcomes would make any standard estimator valid but is unrealistic. We therefore develop a statistical framework that adapts surrogate endpoint theory to LLMs, showing that calibrating LLM outcomes to human outcomes identifies the average treatment effect under surrogacy and comparability conditions that are jointly weaker than distributional equivalence. We present a falsification test for surrogacy and a bound on the worst-case bias from limited overlap between the LLM and human samples. We further show that the stochasticity inherent to LLMs can weaken surrogacy for identification while also introducing bias and variance during estimation, but that using an average over multiple LLM draws per unit as the surrogate mitigates these issues. Simulations validate the results, and an empirical application to the Upworthy Research Archive dataset shows that raw LLM outputs recover only 39% of the human treatment effect while nonparametric calibration closes the gap. A central takeaway is that A/B testing on LLM responses is correct only by assumption, whereas A/B testing on humans is correct by design, and that the required assumptions are hardest to justify precisely where LLMs promise the greatest benefit. We discuss the choice of LLM, prompting, and temperature as design variables, the compounded challenge posed by long-term outcomes, and how to size human pilot studies for validation.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2603.06607",
+ "title": "Multi-Agent Reinforcement Learning for V2X Resource Allocation: Disentangling MARL Challenges Through Benchmarking",
+ "authors": [
+  "Siyuan Wang",
+  "Lei Lei",
+  "Pranav Maheshwari",
+  "Sam Bellefeuille",
+  "Kan Zheng"
+ ],
+ "v1_date": "2026-02-18",
+ "latest_version": 2,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Radio resource allocation (RRA) is a critical function in cellular vehicle-to-everything (C-V2X) networks, where vehicles must share limited wireless resources to support safety-critical communications. Multi-agent reinforcement learning (MARL) has emerged as a promising approach for this problem. However, key MARL challenges, including non-stationarity, coordination difficulty, large action space, partial observability, and limited robustness and generalization, are often intertwined, making it difficult to assess their individual impact on performance in vehicular environments. Moreover, existing studies primarily focus on developing new algorithms, while systematic benchmarking and comparative analyses remain limited. To address this gap, we formulate C-V2X RRA as a hierarchy of multi-agent interference games that progressively introduce key MARL challenges. Based on this framework, we develop a suite of benchmark learning tasks and construct training and testing datasets from SUMO-generated highway traces with diverse vehicular topologies and interference conditions. Using the proposed benchmark, we evaluate representative MARL algorithms spanning value-based, actor-critic, Independent Learning (IL), and Centralized Training with Decentralized Execution (CTDE) paradigms. The results identify robustness and generalization across diverse vehicular topologies as the dominant challenge among those considered in this work, reducing average normalized return by up to 59 percentage points, and show that, on the most challenging task, the best actor-critic method outperforms the best value-based method by 42\\%. By revealing the relative strengths and limitations of different MARL paradigms and open-sourcing the code, datasets, and benchmark suite, this work provides a systematic and reproducible foundation for evaluating and advancing MARL algorithms in vehicular networks.",
+ "primary": "cs.MA"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2404.05055",
+ "title": "Percentile Criterion Optimization in Offline Reinforcement Learning",
+ "authors": [
+  "Elita A. Lobo",
+  "Cyrus Cousins",
+  "Yair Zick",
+  "Marek Petrik"
+ ],
+ "v1_date": "2024-04-07",
+ "latest_version": 1,
+ "latest_date": "2024-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at Neurips 2023",
+ "abstract": "In reinforcement learning, robust policies for high-stakes decision-making problems with limited data are usually computed by optimizing the \\emph{percentile criterion}. The percentile criterion is approximately solved by constructing an \\emph{ambiguity set} that contains the true model with high probability and optimizing the policy for the worst model in the set. Since the percentile criterion is non-convex, constructing ambiguity sets is often challenging. Existing work uses \\emph{Bayesian credible regions} as ambiguity sets, but they are often unnecessarily large and result in learning overly conservative policies. To overcome these shortcomings, we propose a novel Value-at-Risk based dynamic programming algorithm to optimize the percentile criterion without explicitly constructing any ambiguity sets. Our theoretical and empirical results show that our algorithm implicitly constructs much smaller ambiguity sets and learns less conservative robust policies.",
+ "primary": "cs.LG"
+}

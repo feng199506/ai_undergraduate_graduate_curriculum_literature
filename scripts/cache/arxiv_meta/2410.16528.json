@@ -1,0 +1,18 @@
+{
+ "id": "2410.16528",
+ "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
+ "authors": [
+  "Siva Viknesh",
+  "Younes Tatari",
+  "Chase Christenson",
+  "Amirhossein Arzani"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 3,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Identifying dynamical systems characterized by nonlinear parameters presents significant challenges in deriving mathematical models that enhance understanding of physics. Traditional methods, such as Sparse Identification of Nonlinear Dynamics (SINDy) and symbolic regression, can extract governing equations from observational data; however, they also come with distinct advantages and disadvantages. This paper introduces a novel method within the SINDy framework, termed ADAM-SINDy, which synthesizes the strengths of established approaches by employing the ADAM optimization algorithm. This facilitates the simultaneous optimization of nonlinear parameters and coefficients associated with nonlinear candidate functions, enabling precise parameter estimation without requiring prior knowledge of nonlinear characteristics such as trigonometric frequencies, exponential bandwidths, or polynomial exponents, thereby addressing a key limitation of SINDy. Through an integrated global optimization, ADAM-SINDy dynamically adjusts all unknown variables in response to data, resulting in an adaptive identification procedure that reduces the sensitivity to the library of candidate functions. The performance of the ADAM-SINDy methodology is demonstrated across a spectrum of dynamical systems, including benchmark coupled nonlinear ordinary differential equations such as oscillators, chaotic fluid flows, reaction kinetics, pharmacokinetics, as well as nonlinear partial differential equations (wildfire transport). The results demonstrate significant improvements in identifying parameterized dynamical systems and underscore the importance of concurrently optimizing all parameters, particularly those characterized by nonlinear parameters. These findings highlight the potential of ADAM-SINDy to extend the applicability of the SINDy framework in addressing more complex challenges in dynamical system identification.",
+ "primary": "cs.LG"
+}

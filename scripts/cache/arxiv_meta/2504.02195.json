@@ -1,0 +1,19 @@
+{
+ "id": "2504.02195",
+ "title": "SymCERE: Symmetric Contrastive Learning for Robust Review-Enhanced Recommendation",
+ "authors": [
+  "Toyotaro Suzumura",
+  "Hisashi Ikari",
+  "Hiroki Kanezashi",
+  "Md Mostafizur Rahman",
+  "Yu Hirate"
+ ],
+ "v1_date": "2025-04-03",
+ "latest_version": 3,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern recommendation systems fuse user behavior graphs and review texts but often encounter a \"Fusion Gap\" caused by False Negatives, Popularity Bias, and Signal Ambiguity. We propose SymCERE (Symmetric NCE), a contrastive learning framework bridging this gap via structural geometric alignment. First, we introduce a symmetric NCE loss that leverages full interaction history to exclude false negatives. Second, we integrate L2 normalization to structurally neutralize popularity bias. Experiments on 15 datasets (e-commerce, local reviews, travel) demonstrate that SymCERE outperforms strong baselines, improving NDCG@10 by up to 43.6%. Notably, we validate this on raw reviews, addressing significant noise. Analysis reveals \"Semantic Anchoring,\" where the model aligns on objective vocabulary (e.g., \"OEM,\" \"gasket\") rather than generic sentiment. This indicates effective alignment stems from extracting factual attributes, offering a path toward robust, interpretable systems. The code is available at https://anonymous.4open.science/r/ReviewGNN-2E1E.",
+ "primary": "cs.IR"
+}

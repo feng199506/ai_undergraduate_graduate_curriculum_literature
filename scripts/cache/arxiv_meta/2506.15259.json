@@ -1,0 +1,17 @@
+{
+ "id": "2506.15259",
+ "title": "Splitting-based randomized dynamical low-rank approximations for stiff matrix differential equations",
+ "authors": [
+  "Zi Wu",
+  "Yong-Liang Zhao",
+  "Xian-Ming Gu"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 3,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 figures, 12 tables",
+ "abstract": "In the fields of control theory and machine learning, the dynamic low-rank approximation for large-scale matrices has received substantial attention. Considering large-scale semilinear stiff matrix differential equations, we propose splitting-based randomized dynamical low-rank approximations for a low-rank solution of the stiff matrix differential equation. We first split such the equation into a stiff linear subproblem and a nonstiff nonlinear subproblem. Then, a low-rank exponential integrator is applied to the linear subproblem. Two randomized low-rank approaches are employed for the nonlinear subproblem. Furthermore, we extend the proposed methods to rank-adaptation scenarios. Through rigorous validation on canonical stiff matrix differential problems, including spatially discretized Allen-Cahn equations and differential Riccati equations, we demonstrate that our methods achieve desired convergence orders. Numerical results confirm the robustness and accuracy of the proposed methods.",
+ "primary": "math.NA"
+}

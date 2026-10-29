@@ -1,0 +1,16 @@
+{
+ "id": "2504.07835",
+ "title": "pychop: Emulating Low-Precision Arithmetic in Numerical Methods and Neural Networks",
+ "authors": [
+  "Erin Carson",
+  "Xinye Chen"
+ ],
+ "v1_date": "2025-04-10",
+ "latest_version": 7,
+ "latest_date": "2026-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by the growing demand for reduced-precision arithmetic in computational science, we exploit lower-precision emulation in Python{--}widely regarded as the dominant programming language for numerical analysis and machine learning. Low-precision paradigms have revolutionized deep learning by enabling more efficient computation and reduced memory footprint while maintaining model fidelity. To better enable numerical experimentation with and exploration of reduced-precision computation, we developed \\texttt{pychop}, which supports customizable floating-point formats and a comprehensive set of rounding modes in Python, allowing users to benefit from fast, reduced-precision emulation in numerous applications. \\texttt{pychop} also provides flexible interfaces for array and tensor backends, enabling efficient reduced-precision emulation on both CPUs and GPUs for neural network deployment. In this paper, we offer a comprehensive exposition of the design and applications of \\texttt{pychop}. Furthermore, we present empirical results on reduced-precision emulation for image classification and object detection using published datasets, illustrating the sensitivity to low precision and delivering valuable insights into its quantization-aware training and post-quantization impacts. Establishing itself as a foundational tool for advancing mixed-precision algorithms, \\texttt{pychop} enables in-depth investigations into the effects of numerical precision in scientific computing and deep learning deployment, facilitating the development of novel hardware accelerators.",
+ "primary": "cs.LG"
+}

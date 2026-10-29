@@ -1,0 +1,17 @@
+{
+ "id": "2509.18083",
+ "title": "Reasoning Core: A Scalable RL Environment for LLM Symbolic Reasoning",
+ "authors": [
+  "Valentin Lacombe",
+  "Valentin Quesnel",
+  "Damien Sileo"
+ ],
+ "v1_date": "2025-09-22",
+ "latest_version": 1,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce Reasoning Core, a new scalable environment for Reinforcement Learning with Verifiable Rewards (RLVR), designed to advance foundational symbolic reasoning in Large Language Models (LLMs). Unlike existing benchmarks that focus on games or isolated puzzles, Reasoning Core procedurally generates problems across core formal domains, including PDDL planning, first-order logic, context-free grammar parsing, causal reasoning, and system equation solving. The environment is built on key design principles of high-generality problem distributions, verification via external tools, and continuous difficulty control, which together provide a virtually infinite supply of novel training instances. Initial zero-shot evaluations with frontier LLMs confirm the difficulty of Reasoning Core's tasks, positioning it as a promising resource to improve the reasoning capabilities of future models.",
+ "primary": "cs.AI"
+}

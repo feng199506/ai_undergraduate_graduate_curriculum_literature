@@ -1,0 +1,17 @@
+{
+ "id": "2403.03871",
+ "title": "Decoupled Vertical Federated Learning for Practical Training on Vertically Partitioned Data",
+ "authors": [
+  "Avi Amalanshu",
+  "Yash Sirvi",
+  "David I. Inouye"
+ ],
+ "v1_date": "2024-03-06",
+ "latest_version": 2,
+ "latest_date": "2024-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revised manuscript. Nothing removed, additional baseline results added",
+ "abstract": "Vertical Federated Learning (VFL) is an emergent distributed machine learning paradigm for collaborative learning between clients who have disjoint features of common entities. However, standard VFL lacks fault tolerance, with each participant and connection being a single point of failure. Prior attempts to induce fault tolerance in VFL focus on the scenario of \"straggling clients\", usually entailing that all messages eventually arrive or that there is an upper bound on the number of late messages. To handle the more general problem of arbitrary crashes, we propose Decoupled VFL (DVFL). To handle training with faults, DVFL decouples training between communication rounds using local unsupervised objectives. By further decoupling label supervision from aggregation, DVFL also enables redundant aggregators. As secondary benefits, DVFL can enhance data efficiency and provides immunity against gradient-based attacks. In this work, we implement DVFL for split neural networks with a self-supervised autoencoder loss. When there are faults, DVFL outperforms the best VFL-based alternative (97.58% vs 96.95% on an MNIST task). Even under perfect conditions, performance is comparable.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.11909",
+ "title": "Neural Guided Diffusion Bridges",
+ "authors": [
+  "Gefan Yang",
+  "Frank van der Meulen",
+  "Stefan Sommer"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 3,
+ "latest_date": "2025-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel method for simulating conditioned diffusion processes (diffusion bridges) in Euclidean spaces. By training a neural network to approximate bridge dynamics, our approach eliminates the need for computationally intensive Markov Chain Monte Carlo (MCMC) methods or score modeling. Compared to existing methods, it offers greater robustness across various diffusion specifications and conditioning scenarios. This applies in particular to rare events and multimodal distributions, which pose challenges for score-learning- and MCMC-based approaches. We introduce a flexible variational family, partially specified by a neural network, for approximating the diffusion bridge path measure. Once trained, it enables efficient sampling of independent bridges at a cost comparable to sampling the unconditioned (forward) process.",
+ "primary": "stat.ML"
+}

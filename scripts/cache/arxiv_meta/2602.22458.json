@@ -1,0 +1,15 @@
+{
+ "id": "2602.22458",
+ "title": "Model Predictive Control for output tracking with prescribed performance",
+ "authors": [
+  "Dario Dennstädt"
+ ],
+ "v1_date": "2026-02-25",
+ "latest_version": 1,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "PhD thesis",
+ "abstract": "Model Predictive Control (MPC) offers a versatile framework for constraint handling and multi-objective optimisation, yet practical application faces challenges regarding initial and recursive feasibility, robustness against model mismatches, and sampled-data constraints. This thesis develops a novel MPC framework for a class of non-linear continuous-time systems governed by functional differential equations. It targets output tracking within prescribed error bounds while systematically overcoming these challenges. First, we introduce funnel MPC, an algorithm eliminating reliance on terminal conditions or restrictive long prediction horizons. Utilising funnel penalty functions -- state costs penalising tracking error deviations from time-varying boundaries -- this framework ensures feasibility while rigorously enforcing tracking performance guarantees. Next, we unify funnel MPC with model-free funnel feedback into a hybrid architecture. This synergises model-based optimisation with adaptive feedback compensation, achieving prescribed tracking performance despite structural model-plant mismatches, unmodelled dynamics, and unknown disturbances. To further enhance predictive accuracy, we integrate a data-driven learning framework that iteratively refines the model using system measurements, improving long-term performance without compromising robustness. Finally, we formalise the transition to sampled-data implementations. We derive explicit bounds on sampling rates and control effort to guarantee stability under piecewise constant control signals, a critical step for digital hardware deployment. By addressing feasibility, robustness, learning, and sampling, this thesis establishes a cohesive framework for output tracking within prescribed bounds, paving the way for future advances in learning-enhanced and robust MPC.",
+ "primary": "math.OC"
+}

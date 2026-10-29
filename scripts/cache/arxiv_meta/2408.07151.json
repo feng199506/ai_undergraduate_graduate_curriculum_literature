@@ -1,0 +1,17 @@
+{
+ "id": "2408.07151",
+ "title": "Alpha-Trimming: Locally Adaptive Tree Pruning for Random Forests",
+ "authors": [
+  "Nikola Surjanovic",
+  "Andrew Henrey",
+  "Thomas M. Loughin"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 1,
+ "latest_date": "2024-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We demonstrate that adaptively controlling the size of individual regression trees in a random forest can improve predictive performance, contrary to the conventional wisdom that trees should be fully grown. A fast pruning algorithm, alpha-trimming, is proposed as an effective approach to pruning trees within a random forest, where more aggressive pruning is performed in regions with a low signal-to-noise ratio. The amount of overall pruning is controlled by adjusting the weight on an information criterion penalty as a tuning parameter, with the standard random forest being a special case of our alpha-trimmed random forest. A remarkable feature of alpha-trimming is that its tuning parameter can be adjusted without refitting the trees in the random forest once the trees have been fully grown once. In a benchmark suite of 46 example data sets, mean squared prediction error is often substantially lowered by using our pruning algorithm and is never substantially increased compared to a random forest with fully-grown trees at default parameter settings.",
+ "primary": "stat.ML"
+}

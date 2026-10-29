@@ -1,0 +1,27 @@
+{
+ "id": "2402.02242",
+ "title": "Parameter-Efficient Fine-Tuning for Pre-Trained Vision Models: A Survey and Benchmark",
+ "authors": [
+  "Yi Xin",
+  "Jianjiang Yang",
+  "Siqi Luo",
+  "Yuntao Du",
+  "Qi Qin",
+  "Kangrui Cen",
+  "Yangfan He",
+  "Zhiwei Zhang",
+  "Bin Fu",
+  "Xiaokang Yang",
+  "Guangtao Zhai",
+  "Ming-Hsuan Yang",
+  "Xiaohong Liu"
+ ],
+ "v1_date": "2024-02-03",
+ "latest_version": 7,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to IJCV",
+ "abstract": "Pre-trained vision models (PVMs) have demonstrated remarkable adaptability across a wide range of downstream vision tasks, showcasing exceptional performance. However, as these models scale to billions or even trillions of parameters, conventional full fine-tuning has become increasingly impractical due to its high computational and storage demands. To address these challenges, parameter-efficient fine-tuning (PEFT) has emerged as a promising alternative, aiming to achieve performance comparable to full fine-tuning while making minimal adjustments to the model parameters. This paper presents a comprehensive survey of the latest advancements in the visual PEFT field, systematically reviewing current methodologies and categorizing them into four primary categories: addition-based, partial-based, unified-based, and multi-task tuning. In addition, this paper offers an in-depth analysis of widely used visual datasets and real-world applications where PEFT methods have been successfully applied. Furthermore, this paper introduces the V-PEFT Bench, a unified benchmark designed to standardize the evaluation of PEFT methods across a diverse set of vision tasks, ensuring consistency and fairness in comparison. Finally, the paper outlines potential directions for future research to propel advances in the PEFT field. A comprehensive collection of resources is available at https://github.com/synbol/Awesome-Parameter-Efficient-Transfer-Learning.",
+ "primary": "cs.CV"
+}

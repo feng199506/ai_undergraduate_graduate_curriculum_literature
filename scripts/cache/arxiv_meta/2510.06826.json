@@ -1,0 +1,21 @@
+{
+ "id": "2510.06826",
+ "title": "Mid-Training of Large Language Models: A Survey",
+ "authors": [
+  "Kaixiang Mo",
+  "Yuxin Shi",
+  "Weiwei Weng",
+  "Zhiqiang Zhou",
+  "Shuman Liu",
+  "Haibo Zhang",
+  "Anxiang Zeng"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 1,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) are typically developed through large-scale pre-training followed by task-specific fine-tuning. Recent advances highlight the importance of an intermediate mid-training stage, where models undergo multiple annealing-style phases that refine data quality, adapt optimization schedules, and extend context length. This stage mitigates diminishing returns from noisy tokens, stabilizes convergence, and expands model capability in late training. Its effectiveness can be explained through gradient noise scale, the information bottleneck, and curriculum learning, which together promote generalization and abstraction. Despite widespread use in state-of-the-art systems, there has been no prior survey of mid-training as a unified paradigm. We introduce the first taxonomy of LLM mid-training spanning data distribution, learning-rate scheduling, and long-context extension. We distill practical insights, compile evaluation benchmarks, and report gains to enable structured comparisons across models. We also identify open challenges and propose avenues for future research and practice.",
+ "primary": "cs.CL"
+}

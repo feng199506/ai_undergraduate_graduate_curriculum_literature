@@ -1,0 +1,16 @@
+{
+ "id": "2409.07325",
+ "title": "Statistically Valid Information Bottleneck via Multiple Hypothesis Testing",
+ "authors": [
+  "Amirmohammad Farzaneh",
+  "Osvaldo Simeone"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 2,
+ "latest_date": "2024-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The information bottleneck (IB) problem is a widely studied framework in machine learning for extracting compressed features that are informative for downstream tasks. However, current approaches to solving the IB problem rely on a heuristic tuning of hyperparameters, offering no guarantees that the learned features satisfy information-theoretic constraints. In this work, we introduce a statistically valid solution to this problem, referred to as IB via multiple hypothesis testing (IB-MHT), which ensures that the learned features meet the IB constraints with high probability, regardless of the size of the available dataset. The proposed methodology builds on Pareto testing and learn-then-test (LTT), and it wraps around existing IB solvers to provide statistical guarantees on the IB constraints. We demonstrate the performance of IB-MHT on classical and deterministic IB formulations, including experiments on distillation of language models. The results validate the effectiveness of IB-MHT in outperforming conventional methods in terms of statistical robustness and reliability.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2508.09676",
+ "title": "DeputyDev -- AI Powered Developer Assistant: Breaking the Code Review Logjam through Contextual AI to Boost Developer Productivity",
+ "authors": [
+  "Vishal Khare",
+  "Vijay Saini",
+  "Deepak Sharma",
+  "Anand Kumar",
+  "Ankit Rana",
+  "Anshul Yadav"
+ ],
+ "v1_date": "2025-08-13",
+ "latest_version": 1,
+ "latest_date": "2025-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 5 figures, 6 pages of supplementary materials",
+ "abstract": "This study investigates the implementation and efficacy of DeputyDev, an AI-powered code review assistant developed to address inefficiencies in the software development process. The process of code review is highly inefficient for several reasons, such as it being a time-consuming process, inconsistent feedback, and review quality not being at par most of the time. Using our telemetry data, we observed that at TATA 1mg, pull request (PR) processing exhibits significant inefficiencies, with average pick-up and review times of 73 and 82 hours, respectively, resulting in a 6.2 day closure cycle. The review cycle was marked by prolonged iterative communication between the reviewing and submitting parties. Research from the University of California, Irvine indicates that interruptions can lead to an average of 23 minutes of lost focus, critically affecting code quality and timely delivery. To address these challenges, we developed DeputyDev's PR review capabilities by providing automated, contextual code reviews. We conducted a rigorous double-controlled A/B experiment involving over 200 engineers to evaluate DeputyDev's impact on review times. The results demonstrated a statistically significant reduction in both average per PR (23.09%) and average per-line-of-code (40.13%) review durations. After implementing safeguards to exclude outliers, DeputyDev has been effectively rolled out across the entire organisation. Additionally, it has been made available to external companies as a Software-as-a-Service (SaaS) solution, currently supporting the daily work of numerous engineering professionals. This study explores the implementation and effectiveness of AI-assisted code reviews in improving development workflow timelines and code.",
+ "primary": "cs.SE"
+}

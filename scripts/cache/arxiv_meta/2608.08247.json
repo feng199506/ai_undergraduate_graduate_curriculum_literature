@@ -1,0 +1,16 @@
+{
+ "id": "2608.08247",
+ "title": "Conditional Distribution Estimation for Functional Responses with Random Forests",
+ "authors": [
+  "Poorbita Kundu",
+  "Antonio R. Linero"
+ ],
+ "v1_date": "2026-08-08",
+ "latest_version": 1,
+ "latest_date": "2026-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many functional data analyses reduce random functions to scalar summaries or conditional mean curves. This is limiting when we wish to understand how covariates affect the distribution of entire functional responses, including their shape, timing, or variability. We study the problem of estimating conditional laws of functional outcomes and show that these objects can be estimated and evaluated in a practical nonparametric framework. To do this, we introduce functional distributional random forests, which estimate each conditional law as a covariate-dependent distribution over sampled functions by training a random forest to minimize a kernel-based maximum mean discrepancy within the leaf nodes of the decision tree. This supports inference on arbitrary functionals of the conditional distribution while keeping predictive samples tied to realistic curves. We consider a variety of kernels defined on function spaces, including Sobolev and operator-induced kernels. We also provide conditions for consistency of our estimator and develop scoring rules for comparing it to baseline estimators. In simulations, our method recovers distributional changes that are missed by baseline methods. In an application to NHANES accelerometer data, it identifies interesting covariate-associated changes in both median activity profiles and predictive dispersion.",
+ "primary": "stat.ME"
+}

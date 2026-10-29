@@ -1,0 +1,15 @@
+{
+ "id": "2606.00371",
+ "title": "How Much Orthogonalization Does Muon Need?",
+ "authors": [
+  "Hua Huang"
+ ],
+ "v1_date": "2026-05-29",
+ "latest_version": 1,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Muon optimizers improve neural-network training by replacing ill-conditioned momentum updates with approximately semi-orthogonal updates. This motivates a practical question: how much orthogonalization does Muon actually require? We study this question using a relaxed cubic Newton--Schulz schedule derived directly for Muon's low precision singular value band. The resulting five-step cubic construction uses ten dominant matrix multiplications, compared with fifteen for five quintic Newton--Schulz iterations. The cubic schedule is not intended as a more accurate polar solver; instead, it is a principled low-cost variant that lets us probe the relation between polar accuracy, spectral shaping, and training quality. Across synthetic diagnostics, NanoGPT ablations, and training experiments on hybrid MoE/Mamba models, we find that training quality is not governed monotonically by polar-decomposition accuracy: truncated Polar Express, Muon-Jordan, cubic Newton--Schulz, and an explicit FP32 SVD polar factor can reach nearly indistinguishable final loss on GPT-2 Small, and cubic5 matches the Muon-Jordan quintic update within about $10^{-3}$ validation loss on hybrid MoE/Mamba models with one billion to four billion parameters. These results support cubic5 as a practical low-cost Muon orthogonalization variant, with empirical evidence of training-quality parity in the settings tested.",
+ "primary": "cs.LG"
+}

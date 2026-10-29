@@ -1,0 +1,16 @@
+{
+ "id": "2404.17525",
+ "title": "Large Language Model Agent as a Mechanical Designer",
+ "authors": [
+  "Yayati Jadhav",
+  "Amir Barati Farimani"
+ ],
+ "v1_date": "2024-04-26",
+ "latest_version": 3,
+ "latest_date": "2025-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conventional mechanical design follows an iterative process in which initial concepts are refined through cycles of expert assessment and resource-intensive Finite Element Method (FEM) analysis to meet performance goals. While machine learning models have been developed to assist in parts of this process, they typically require large datasets, extensive training, and are often tailored to specific tasks, limiting their generalizability. To address these limitations, we propose a framework that leverages a pretrained Large Language Model (LLM) in conjunction with an FEM module to autonomously generate, evaluate, and refine structural designs based on performance specifications and numerical feedback. The LLM operates without domain-specific fine-tuning, using general reasoning to propose design candidates, interpret FEM-derived performance metrics, and apply structurally sound modifications. Using 2D truss structures as a testbed, we show that the LLM can effectively navigate highly discrete and multi-faceted design spaces, balance competing objectives, and identify convergence when further optimization yields diminishing returns. Compared to Non-dominated Sorting Genetic Algorithm II (NSGA-II), our method achieves faster convergence and fewer FEM evaluations. Experiments with varying temperature settings (0.5, 1.0, 1.2) and model sizes (GPT-4.1 and GPT-4.1-mini) indicate that smaller models yield higher constraint satisfaction with fewer steps, while lower temperatures enhance design consistency. These results establish LLMs as a promising new class of reasoning-based, natural language-driven optimizers for autonomous design and iterative structural refinement.",
+ "primary": "cs.LG"
+}

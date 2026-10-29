@@ -1,0 +1,18 @@
+{
+ "id": "2504.01919",
+ "title": "Bridging the Linguistic Divide: A Survey on Leveraging Large Language Models for Machine Translation",
+ "authors": [
+  "Baban Gain",
+  "Dibyanayan Bandyopadhyay",
+  "Asif Ekbal",
+  "Trilok Nath Singh"
+ ],
+ "v1_date": "2025-04-02",
+ "latest_version": 4,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "10.1007/s10579-026-09919-7",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) are rapidly reshaping machine translation (MT), particularly by introducing instruction-following, in-context learning, and preference-based alignment into what has traditionally been a supervised encoder-decoder paradigm. This survey provides a comprehensive and up-to-date overview of how LLMs are being leveraged for MT across data regimes, languages, and application settings. We systematically analyze prompting-based methods, parameter-efficient and full fine-tuning strategies, synthetic data generation, preference-based optimization, and reinforcement learning with human and weakly supervised feedback. Special attention is given to low-resource translation, where we examine the roles of synthetic data quality, diversity, and preference signals, as well as the limitations of current RLHF pipelines. We further review recent advances in Mixture-of-Experts models, MT-focused LLMs, and multilingual alignment, highlighting trade-offs between scalability, specialization, and accessibility. Beyond sentence-level translation, we survey emerging document-level and discourse-aware MT methods with LLMs, showing that most approaches extend sentence-level pipelines through structured context selection, post-editing, or reranking rather than requiring fundamentally new data regimes or architectures. Finally, we discuss LLM-based evaluation, its strengths and biases, and its role alongside learned metrics. Overall, this survey positions LLM-based MT as an evolution of traditional MT systems, where gains increasingly depend on data quality, preference alignment, and context utilization rather than scale alone, and outlines open challenges for building robust, inclusive, and controllable translation systems.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.18537",
+ "title": "Transformer World Model for Sample Efficient Multi-Agent Reinforcement Learning",
+ "authors": [
+  "Azad Deihim",
+  "Eduardo Alonso",
+  "Dimitra Apostolopoulou"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 1,
+ "latest_date": "2025-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present the Multi-Agent Transformer World Model (MATWM), a novel transformer-based world model designed for multi-agent reinforcement learning in both vector- and image-based environments. MATWM combines a decentralized imagination framework with a semi-centralized critic and a teammate prediction module, enabling agents to model and anticipate the behavior of others under partial observability. To address non-stationarity, we incorporate a prioritized replay mechanism that trains the world model on recent experiences, allowing it to adapt to agents' evolving policies. We evaluated MATWM on a broad suite of benchmarks, including the StarCraft Multi-Agent Challenge, PettingZoo, and MeltingPot. MATWM achieves state-of-the-art performance, outperforming both model-free and prior world model approaches, while demonstrating strong sample efficiency, achieving near-optimal performance in as few as 50K environment interactions. Ablation studies confirm the impact of each component, with substantial gains in coordination-heavy tasks.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2405.12433",
+ "title": "LLM+Reasoning+Planning for Supporting Incomplete User Queries in Presence of APIs",
+ "authors": [
+  "Sudhir Agarwal",
+  "Anu Sreepathy",
+  "David H. Alonso",
+  "Prarit Lamba"
+ ],
+ "v1_date": "2024-05-21",
+ "latest_version": 3,
+ "latest_date": "2025-02-13",
+ "journal_ref": "EPTCS 416, 2025, pp. 29-58",
+ "doi": "10.4204/eptcs.416.3",
+ "comment": "In Proceedings ICLP 2024, arXiv:2502.08453",
+ "abstract": "Recent availability of Large Language Models (LLMs) has led to the development of numerous LLM-based approaches aimed at providing natural language interfaces for various end-user tasks. These end-user tasks in turn can typically be accomplished by orchestrating a given set of APIs. In practice, natural language task requests (user queries) are often incomplete, i.e., they may not contain all the information required by the APIs. While LLMs excel at natural language processing (NLP) tasks, they frequently hallucinate on missing information or struggle with orchestrating the APIs. The key idea behind our proposed approach is to leverage logical reasoning and classical AI planning along with an LLM for accurately answering user queries including identification and gathering of any missing information in these queries. Our approach uses an LLM and ASP (Answer Set Programming) solver to translate a user query to a representation in Planning Domain Definition Language (PDDL) via an intermediate representation in ASP. We introduce a special API \"get_info_api\" for gathering missing information. We model all the APIs as PDDL actions in a way that supports dataflow between the APIs. Our approach then uses a classical AI planner to generate an orchestration of API calls (including calls to get_info_api) to answer the user query. Our evaluation results show that our approach significantly outperforms a pure LLM based approach by achieving over 95% success rate in most cases on a dataset containing complete and incomplete single goal and multi-goal queries where the multi-goal queries may or may not require dataflow among the APIs.",
+ "primary": "cs.AI"
+}

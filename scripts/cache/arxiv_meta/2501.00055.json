@@ -1,0 +1,21 @@
+{
+ "id": "2501.00055",
+ "title": "LLM-Virus: Evolutionary Jailbreak Attack on Large Language Models",
+ "authors": [
+  "Miao Yu",
+  "Junfeng Fang",
+  "Yingjie Zhou",
+  "Xing Fan",
+  "Kun Wang",
+  "Shirui Pan",
+  "Qingsong Wen"
+ ],
+ "v1_date": "2024-12-28",
+ "latest_version": 1,
+ "latest_date": "2024-12-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While safety-aligned large language models (LLMs) are increasingly used as the cornerstone for powerful systems such as multi-agent frameworks to solve complex real-world problems, they still suffer from potential adversarial queries, such as jailbreak attacks, which attempt to induce harmful content. Researching attack methods allows us to better understand the limitations of LLM and make trade-offs between helpfulness and safety. However, existing jailbreak attacks are primarily based on opaque optimization techniques (e.g. token-level gradient descent) and heuristic search methods like LLM refinement, which fall short in terms of transparency, transferability, and computational cost. In light of these limitations, we draw inspiration from the evolution and infection processes of biological viruses and propose LLM-Virus, a jailbreak attack method based on evolutionary algorithm, termed evolutionary jailbreak. LLM-Virus treats jailbreak attacks as both an evolutionary and transfer learning problem, utilizing LLMs as heuristic evolutionary operators to ensure high attack efficiency, transferability, and low time cost. Our experimental results on multiple safety benchmarks show that LLM-Virus achieves competitive or even superior performance compared to existing attack methods.",
+ "primary": "cs.CR"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2506.00674",
+ "title": "Thinking Out of the Box: Hybrid SAT Solving by Unconstrained Continuous Optimization",
+ "authors": [
+  "Zhiwei Zhang",
+  "Samy Wu Fung",
+  "Anastasios Kyrillidis",
+  "Stanley Osher",
+  "Moshe Y. Vardi"
+ ],
+ "v1_date": "2025-05-31",
+ "latest_version": 1,
+ "latest_date": "2025-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Boolean satisfiability (SAT) problem lies at the core of many applications in combinatorial optimization, software verification, cryptography, and machine learning. While state-of-the-art solvers have demonstrated high efficiency in handling conjunctive normal form (CNF) formulas, numerous applications require non-CNF (hybrid) constraints, such as XOR, cardinality, and Not-All-Equal constraints. Recent work leverages polynomial representations to represent such hybrid constraints, but it relies on box constraints that can limit the use of powerful unconstrained optimizers. In this paper, we propose unconstrained continuous optimization formulations for hybrid SAT solving by penalty terms. We provide theoretical insights into when these penalty terms are necessary and demonstrate empirically that unconstrained optimizers (e.g., Adam) can enhance SAT solving on hybrid benchmarks. Our results highlight the potential of combining continuous optimization and machine-learning-based methods for effective hybrid SAT solving.",
+ "primary": "cs.LO"
+}

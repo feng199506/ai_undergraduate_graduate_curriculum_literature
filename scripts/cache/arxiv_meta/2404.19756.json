@@ -1,0 +1,22 @@
+{
+ "id": "2404.19756",
+ "title": "KAN: Kolmogorov-Arnold Networks",
+ "authors": [
+  "Ziming Liu",
+  "Yixuan Wang",
+  "Sachin Vaidya",
+  "Fabian Ruehle",
+  "James Halverson",
+  "Marin Soljačić",
+  "Thomas Y. Hou",
+  "Max Tegmark"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 5,
+ "latest_date": "2025-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by International Conference on Learning Representations (ICLR) 2025 (conference version: https://openreview.net/forum?id=Ozo7qJ5vZi). Codes are available at https://github.com/KindXiaoming/pykan",
+ "abstract": "Inspired by the Kolmogorov-Arnold representation theorem, we propose Kolmogorov-Arnold Networks (KANs) as promising alternatives to Multi-Layer Perceptrons (MLPs). While MLPs have fixed activation functions on nodes (\"neurons\"), KANs have learnable activation functions on edges (\"weights\"). KANs have no linear weights at all -- every weight parameter is replaced by a univariate function parametrized as a spline. We show that this seemingly simple change makes KANs outperform MLPs in terms of accuracy and interpretability. For accuracy, much smaller KANs can achieve comparable or better accuracy than much larger MLPs in data fitting and PDE solving. Theoretically and empirically, KANs possess faster neural scaling laws than MLPs. For interpretability, KANs can be intuitively visualized and can easily interact with human users. Through two examples in mathematics and physics, KANs are shown to be useful collaborators helping scientists (re)discover mathematical and physical laws. In summary, KANs are promising alternatives for MLPs, opening opportunities for further improving today's deep learning models which rely heavily on MLPs.",
+ "primary": "cs.LG"
+}

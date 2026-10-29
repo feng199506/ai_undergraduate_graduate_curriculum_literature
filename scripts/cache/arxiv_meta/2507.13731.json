@@ -1,0 +1,17 @@
+{
+ "id": "2507.13731",
+ "title": "Pass-efficient Randomized Algorithms for Low-rank Approximation of Quaternion Matrices",
+ "authors": [
+  "Salman Ahmadi-Asl",
+  "Malihe Nobakht Kooshkghazi",
+  "Valentin Leplat"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 3,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized algorithms for low-rank approximation of quaternion matrices have gained increasing attention in recent years. However, existing methods overlook pass efficiency, the ability to limit the number of passes over the input matrix-which is critical in modern computing environments dominated by communication costs. We address this gap by proposing a suite of pass-efficient randomized algorithms that let users directly trade pass budget for approximation accuracy. Our contributions include: (i) a family of arbitrary-pass randomized algorithms for low-rank approximation of quaternion matrices that operate under a user-specified number of matrix views, and (ii) a pass-efficient extension of block Krylov subspace methods that accelerates convergence for matrices with slowly decaying spectra. Furthermore, we establish spectral norm error bounds showing that the expected approximation error decays exponentially with the number of passes. Finally, we validate our framework through extensive numerical experiments and demonstrate its practical relevance across multiple applications, including quaternionic data compression, matrix completion, image super-resolution, and deep learning.",
+ "primary": "math.NA"
+}

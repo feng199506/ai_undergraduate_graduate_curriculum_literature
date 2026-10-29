@@ -1,0 +1,17 @@
+{
+ "id": "2509.18822",
+ "title": "On the Convergence of Policy Mirror Descent with Temporal Difference Evaluation",
+ "authors": [
+  "Jiacai Liu",
+  "Wenye Li",
+  "Ke Wei"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 1,
+ "latest_date": "2025-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Policy mirror descent (PMD) is a general policy optimization framework in reinforcement learning, which can cover a wide range of typical policy optimization methods by specifying different mirror maps. Existing analysis of PMD requires exact or approximate evaluation (for example unbiased estimation via Monte Carlo simulation) of action values solely based on policy. In this paper, we consider policy mirror descent with temporal difference evaluation (TD-PMD). It is shown that, given the access to exact policy evaluations, the dimension-free $O(1/T)$ sublinear convergence still holds for TD-PMD with any constant step size and any initialization. In order to achieve this result, new monotonicity and shift invariance arguments have been developed. The dimension free $γ$-rate linear convergence of TD-PMD is also established provided the step size is selected adaptively. For the two common instances of TD-PMD (i.e., TD-PQA and TD-NPG), it is further shown that they enjoy the convergence in the policy domain. Additionally, we investigate TD-PMD in the inexact setting and give the sample complexity for it to achieve the last iterate $\\varepsilon$-optimality under a generative model, which improves the last iterate sample complexity for PMD over the dependence on $1/(1-γ)$.",
+ "primary": "math.OC"
+}

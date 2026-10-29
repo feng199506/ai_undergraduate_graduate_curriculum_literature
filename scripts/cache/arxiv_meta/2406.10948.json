@@ -1,0 +1,17 @@
+{
+ "id": "2406.10948",
+ "title": "Incorporating uncertainty quantification into travel mode choice modeling: a Bayesian neural network (BNN) approach and an uncertainty-guided active survey framework",
+ "authors": [
+  "Shuwen Zheng",
+  "Zhou Fang",
+  "Liang Zhao"
+ ],
+ "v1_date": "2024-06-16",
+ "latest_version": 1,
+ "latest_date": "2024-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Existing deep learning approaches for travel mode choice modeling fail to inform modelers about their prediction uncertainty. Even when facing scenarios that are out of the distribution of training data, which implies high prediction uncertainty, these approaches still provide deterministic answers, potentially leading to misguidance. To address this limitation, this study introduces the concept of uncertainty from the field of explainable artificial intelligence into travel mode choice modeling. We propose a Bayesian neural network-based travel mode prediction model (BTMP) that quantifies the uncertainty of travel mode predictions, enabling the model itself to \"know\" and \"tell\" what it doesn't know. With BTMP, we further propose an uncertainty-guided active survey framework, which dynamically formulates survey questions representing travel mode choice scenarios with high prediction uncertainty. Through iterative collection of responses to these dynamically tailored survey questions, BTMP is iteratively trained to achieve the desired accuracy faster with fewer questions, thereby reducing survey costs. Experimental validation using synthetic datasets confirms the effectiveness of BTMP in quantifying prediction uncertainty. Furthermore, experiments, utilizing both synthetic and real-world data, demonstrate that the BTMP model, trained with the uncertainty-guided active survey framework, requires 20% to 50% fewer survey responses to match the performance of the model trained on randomly collected survey data. Overall, the proposed BTMP model and active survey framework innovatively incorporate uncertainty quantification into travel mode choice modeling, providing model users with essential insights into prediction reliability while optimizing data collection for deep learning model training in a cost-efficient manner.",
+ "primary": "cs.LG"
+}

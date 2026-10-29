@@ -1,0 +1,16 @@
+{
+ "id": "2501.07670",
+ "title": "A Survey of Early Exit Deep Neural Networks in NLP",
+ "authors": [
+  "Divya Jyoti Bajpai",
+  "Manjesh Kumar Hanawal"
+ ],
+ "v1_date": "2025-01-13",
+ "latest_version": 1,
+ "latest_date": "2025-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep Neural Networks (DNNs) have grown increasingly large in size to achieve state of the art performance across a wide range of tasks. However, their high computational requirements make them less suitable for resource-constrained applications. Also, real-world datasets often consist of a mixture of easy and complex samples, necessitating adaptive inference mechanisms that account for sample difficulty. Early exit strategies offer a promising solution by enabling adaptive inference, where simpler samples are classified using the initial layers of the DNN, thereby accelerating the overall inference process. By attaching classifiers at different layers, early exit methods not only reduce inference latency but also improve the model robustness against adversarial attacks. This paper presents a comprehensive survey of early exit methods and their applications in NLP.",
+ "primary": "cs.LG"
+}

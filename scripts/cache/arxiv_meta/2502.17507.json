@@ -1,0 +1,22 @@
+{
+ "id": "2502.17507",
+ "title": "C2-DPO: Constrained Controlled Direct Preference Optimization",
+ "authors": [
+  "Kavosh Asadi",
+  "Julien Han",
+  "Idan Pipano",
+  "Xingzi Xu",
+  "Dominique Perrault-Joncas",
+  "Shoham Sabach",
+  "Karim Bouyarmane",
+  "Mohammad Ghavamzadeh"
+ ],
+ "v1_date": "2025-02-22",
+ "latest_version": 2,
+ "latest_date": "2025-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Direct preference optimization (\\texttt{DPO}) has emerged as a promising approach for solving the alignment problem in AI. In this paper, we make two counter-intuitive observations about \\texttt{DPO}. First, we show that \\texttt{DPO} loss could be derived by starting from an alternative optimization problem that only defines the KL guardrail on in-sample responses, unlike the original RLHF problem where guardrails are defined on the entire distribution. Second, we prove a surprising property of this alternative optimization problem, namely that under its optimal policy, both preferred and rejected responses tend to decrease in probability, a phenomenon typically displayed by DPO in practice. To control this behavior, we propose a set of constraints designed to limit the displacement of probability mass between the preferred and rejected responses in the reference and target policies. The resulting algorithm, which we call Constrained Controlled DPO (\\texttt{C2-DPO}), has a meaningful RLHF interpretation. By hedging against the displacement, \\texttt{C2-DPO} provides practical improvements over vanilla \\texttt{DPO} when aligning several language models using standard preference datasets.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2603.15670",
+ "title": "I Know What I Don't Know: Latent Posterior Factor Models for Multi-Evidence Probabilistic Reasoning",
+ "authors": [
+  "Aliyu Agboola Alege"
+ ],
+ "v1_date": "2026-03-13",
+ "latest_version": 2,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "202 pages, 52 figures, 105 tables. Comprehensive presentation of the Latent Posterior Factors (LPF) framework for multi-evidence probabilistic reasoning, including theoretical analysis, algorithmic design, and extensive empirical evaluation across synthetic and real-world benchmarks",
+ "abstract": "Real-world decision-making, from tax compliance assessment to medical diagnosis, requires aggregating multiple noisy and potentially contradictory evidence sources. Existing approaches either lack explicit uncertainty quantification (neural aggregation methods) or rely on manually engineered discrete predicates (probabilistic logic frameworks), limiting scalability to unstructured data. We introduce Latent Posterior Factors (LPF), a framework that transforms Variational Autoencoder (VAE) latent posteriors into soft likelihood factors for Sum-Product Network (SPN) inference, enabling tractable probabilistic reasoning over unstructured evidence while preserving calibrated uncertainty estimates. We instantiate LPF as LPF-SPN (structured factor-based inference) and LPF-Learned (end-to-end learned aggregation), enabling a principled comparison between explicit probabilistic reasoning and learned aggregation under a shared uncertainty representation. Across eight domains (seven synthetic and the FEVER benchmark), LPF-SPN achieves high accuracy (up to 97.8%), low calibration error (ECE 1.4%), and strong probabilistic fit, substantially outperforming evidential deep learning, LLMs and graph-based baselines over 15 random seeds. Contributions: (1) A framework bridging latent uncertainty representations with structured probabilistic reasoning. (2) Dual architectures enabling controlled comparison of reasoning paradigms. (3) Reproducible training methodology with seed selection. (4) Evaluation against EDL, BERT, R-GCN, and large language model baselines. (5) Cross-domain validation. (6) Formal guarantees in a companion paper.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,22 @@
+[
+ {"q": "ti:\"graph neural network\" AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "图神经网络综述与教程"},
+ {"q": "(ti:\"graph representation learning\" OR ti:\"graph embedding\" OR ti:\"network embedding\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "图表示学习"},
+ {"q": "ti:expressive* AND abs:\"graph neural network\" AND (ti:survey OR ti:review OR abs:Weisfeiler)", "subtopic": "GNN 表达能力"},
+ {"q": "(ti:oversmoothing OR ti:over-smoothing OR ti:oversquashing OR ti:over-squashing) AND abs:\"graph neural\"", "subtopic": "过平滑与过挤压"},
+ {"q": "ti:\"graph transformer\" OR ti:\"graph transformers\"", "subtopic": "图 Transformer"},
+ {"q": "(ti:\"graph foundation model\" OR ti:\"graph foundation models\" OR (ti:graph AND ti:\"large language model\")) AND (ti:survey OR ti:review)", "subtopic": "图基础模型与图+LLM"},
+ {"q": "(ti:\"self-supervised\" OR ti:contrastive OR ti:\"pre-training\") AND ti:graph AND (ti:survey OR ti:review)", "subtopic": "图自监督与预训练"},
+ {"q": "(ti:\"recommender system\" OR ti:\"recommender systems\" OR ti:recommendation) AND (ti:survey OR ti:review OR ti:tutorial) AND cat:cs.IR", "subtopic": "推荐系统综述"},
+ {"q": "ti:\"sequential recommendation\" AND (ti:survey OR ti:review OR abs:benchmark OR abs:reproducibility)", "subtopic": "序列推荐"},
+ {"q": "ti:\"generative recommendation\" OR (ti:generative AND ti:recommend* AND ti:survey)", "subtopic": "生成式推荐"},
+ {"q": "abs:\"semantic ID\" AND cat:cs.IR", "subtopic": "生成式推荐"},
+ {"q": "(ti:\"large language model\" OR ti:\"large language models\" OR ti:LLM) AND ti:recommend* AND (ti:survey OR ti:review)", "subtopic": "LLM 推荐"},
+ {"q": "ti:\"graph\" AND ti:recommend* AND (ti:survey OR ti:review)", "subtopic": "图推荐与协同过滤"},
+ {"q": "(ti:\"collaborative filtering\" OR ti:\"matrix factorization\") AND cat:cs.IR", "subtopic": "图推荐与协同过滤"},
+ {"q": "(ti:\"learning to rank\" OR ti:ranking OR ti:reranking) AND (ti:survey OR ti:review OR ti:tutorial) AND cat:cs.IR", "subtopic": "排序与学习排序"},
+ {"q": "(ti:evaluation OR ti:reproducibility OR ti:offline OR ti:metrics) AND ti:recommend* AND cat:cs.IR", "subtopic": "推荐评测与可复现性"},
+ {"q": "(ti:scaling OR ti:\"scaling law\") AND ti:recommend*", "subtopic": "生成式推荐"},
+ {"q": "(ti:\"knowledge graph\") AND (ti:survey OR ti:review) AND abs:embedding", "subtopic": "知识图谱表示"},
+ {"q": "ti:\"temporal graph\" OR ti:\"dynamic graph\" AND (ti:survey OR ti:benchmark)", "subtopic": "动态与时序图"},
+ {"q": "ti:graph AND (ti:benchmark OR ti:benchmarking) AND cat:cs.LG", "subtopic": "图学习基准"}
+]

@@ -1,0 +1,17 @@
+{
+ "id": "2402.11228",
+ "title": "Adaptive Split Balancing for Optimal Random Forest",
+ "authors": [
+  "Yuqian Zhang",
+  "Weijie Ji",
+  "Jelena Bradic"
+ ],
+ "v1_date": "2024-02-17",
+ "latest_version": 2,
+ "latest_date": "2024-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose a new random forest algorithm that constructs the trees using a novel adaptive split-balancing method. Rather than relying on the widely-used random feature selection, we propose a permutation-based balanced splitting criterion. The adaptive split balancing forest (ASBF), achieves minimax optimality under the Lipschitz class. Its localized version, which fits local regressions at the leaf level, attains the minimax rate under the broad Hölder class $\\mathcal{H}^{q,β}$ of problems for any $q\\in\\mathbb{N}$ and $β\\in(0,1]$. We identify that over-reliance on auxiliary randomness in tree construction may compromise the approximation power of trees, leading to suboptimal results. Conversely, the proposed less random, permutation-based approach demonstrates optimality over a wide range of models. Although random forests are known to perform well empirically, their theoretical convergence rates are slow. Simplified versions that construct trees without data dependence offer faster rates but lack adaptability during tree growth. Our proposed method achieves optimality in simple, smooth scenarios while adaptively learning the tree structure from the data. Additionally, we establish uniform upper bounds and demonstrate that ASBF improves dimensionality dependence in average treatment effect estimation problems. Simulation studies and real-world applications demonstrate our methods' superior performance over existing random forests.",
+ "primary": "stat.ML"
+}

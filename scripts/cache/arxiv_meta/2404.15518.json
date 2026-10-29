@@ -1,0 +1,18 @@
+{
+ "id": "2404.15518",
+ "title": "An MRP Formulation for Supervised Learning: Generalized Temporal Difference Learning Models",
+ "authors": [
+  "Yangchen Pan",
+  "Junfeng Wen",
+  "Chenjun Xiao",
+  "Philip Torr"
+ ],
+ "v1_date": "2024-04-23",
+ "latest_version": 4,
+ "latest_date": "2025-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by JAIR. The abstract above is more concise than the one in the paper to meet the requirements of the arXiv website",
+ "abstract": "In traditional statistical learning, data points are usually assumed to be independently and identically distributed (i.i.d.) following an unknown probability distribution. This paper presents a contrasting viewpoint, perceiving data points as interconnected and employing a Markov reward process (MRP) for data modeling. We reformulate the typical supervised learning as an on-policy policy evaluation problem within reinforcement learning (RL), introducing a generalized temporal difference (TD) learning algorithm as a resolution. Theoretically, our analysis establishes connections between the solutions of linear TD learning and ordinary least squares (OLS). Under specific conditions -- particularly when the noise is correlated -- the TD solution serves as a more effective estimator than OLS. Furthermore, we show that when our algorithm is applied with many commonly used loss functions -- such as those found in generalized linear models -- it corresponds to the application of a novel and generalized Bellman operator. We prove that this operator admits a unique fixed point, and based on this, we establish convergence guarantees for our generalized TD algorithm under linear function approximation. Empirical studies verify our theoretical results, examine the vital design of our TD algorithm and show practical utility across various datasets, encompassing tasks such as regression and image classification with deep learning.",
+ "primary": "cs.LG"
+}

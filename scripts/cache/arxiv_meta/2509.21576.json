@@ -1,0 +1,24 @@
+{
+ "id": "2509.21576",
+ "title": "Vision Language Models Cannot Plan, but Can They Formalize?",
+ "authors": [
+  "Muyu He",
+  "Yuxi Zheng",
+  "Yuchen Liu",
+  "Zijian An",
+  "Bill Cai",
+  "Jiani Huang",
+  "Lifeng Zhou",
+  "Feng Liu",
+  "Ziyang Li",
+  "Li Zhang"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 2,
+ "latest_date": "2026-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The advancement of vision language models (VLMs) has empowered embodied agents to accomplish simple multimodal planning tasks, but not long-horizon ones requiring long sequences of actions. In text-only simulations, long-horizon planning has seen significant improvement brought by repositioning the role of LLMs. Instead of directly generating action sequences, LLMs translate the planning domain and problem into a formal planning language like the Planning Domain Definition Language (PDDL), which can call a formal solver to derive the plan in a verifiable manner. In multimodal environments, research on VLM-as-formalizer remains scarce, usually involving gross simplifications such as predefined object vocabulary or overly similar few-shot examples. In this work, we present a suite of five VLM-as-formalizer pipelines that tackle one-shot, open-vocabulary, and multimodal PDDL formalization. We evaluate those on an existing benchmark while presenting another two that for the first time account for planning with authentic, multi-view, and low-quality images. We conclude that VLM-as-formalizer greatly outperforms end-to-end plan generation. We find that visual grounding of object relations remains the primary bottleneck for weaker VLMs, while stronger models have largely overcome this limitation. While generating intermediate, textual representations such as captions or scene graphs partially compensate for the performance, their inconsistent gain leaves headroom for future research directions on multimodal planning formalization.",
+ "primary": "cs.CL"
+}

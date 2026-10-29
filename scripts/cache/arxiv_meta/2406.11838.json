@@ -1,0 +1,19 @@
+{
+ "id": "2406.11838",
+ "title": "Autoregressive Image Generation without Vector Quantization",
+ "authors": [
+  "Tianhong Li",
+  "Yonglong Tian",
+  "He Li",
+  "Mingyang Deng",
+  "Kaiming He"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 3,
+ "latest_date": "2024-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Neurips 2024 (Spotlight). Code: https://github.com/LTH14/mar",
+ "abstract": "Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens. We observe that while a discrete-valued space can facilitate representing a categorical distribution, it is not a necessity for autoregressive modeling. In this work, we propose to model the per-token probability distribution using a diffusion procedure, which allows us to apply autoregressive models in a continuous-valued space. Rather than using categorical cross-entropy loss, we define a Diffusion Loss function to model the per-token probability. This approach eliminates the need for discrete-valued tokenizers. We evaluate its effectiveness across a wide range of cases, including standard autoregressive models and generalized masked autoregressive (MAR) variants. By removing vector quantization, our image generator achieves strong results while enjoying the speed advantage of sequence modeling. We hope this work will motivate the use of autoregressive generation in other continuous-valued domains and applications. Code is available at: https://github.com/LTH14/mar.",
+ "primary": "cs.CV"
+}

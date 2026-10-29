@@ -1,0 +1,20 @@
+{
+ "id": "2504.08609",
+ "title": "A Survey of Machine Learning Models and Datasets for the Multi-label Classification of Textual Hate Speech in English",
+ "authors": [
+  "Julian Bäumler",
+  "Louis Blöcher",
+  "Lars-Joel Frey",
+  "Xian Chen",
+  "Markus Bayer",
+  "Christian Reuter"
+ ],
+ "v1_date": "2025-04-11",
+ "latest_version": 1,
+ "latest_date": "2025-04-11",
+ "journal_ref": "ACM Transactions on Knowledge Discovery from Data (2026)",
+ "doi": "10.1145/3820778",
+ "comment": "35 pages, 4 figures, 4 tables",
+ "abstract": "The dissemination of online hate speech can have serious negative consequences for individuals, online communities, and entire societies. This and the large volume of hateful online content prompted both practitioners', i.e., in content moderation or law enforcement, and researchers' interest in machine learning models to automatically classify instances of hate speech. Whereas most scientific works address hate speech classification as a binary task, practice often requires a differentiation into sub-types, e.g., according to target, severity, or legality, which may overlap for individual content. Hence, researchers created datasets and machine learning models that approach hate speech classification in textual data as a multi-label problem. This work presents the first systematic and comprehensive survey of scientific literature on this emerging research landscape in English (N=46). We contribute with a concise overview of 28 datasets suited for training multi-label classification models that reveals significant heterogeneity regarding label-set, size, meta-concept, annotation process, and inter-annotator agreement. Our analysis of 24 publications proposing suitable classification models further establishes inconsistency in evaluation and a preference for architectures based on Bidirectional Encoder Representation from Transformers (BERT) and Recurrent Neural Networks (RNNs). We identify imbalanced training data, reliance on crowdsourcing platforms, small and sparse datasets, and missing methodological alignment as critical open issues and formulate ten recommendations for research.",
+ "primary": "cs.CL"
+}

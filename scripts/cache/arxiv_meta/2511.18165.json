@@ -1,0 +1,18 @@
+{
+ "id": "2511.18165",
+ "title": "Towards a General Framework for HTN Modeling with LLMs",
+ "authors": [
+  "Israel Puerta-Merino",
+  "Carlos Núñez-Molina",
+  "Pablo Mesejo",
+  "Juan Fernández-Olivares"
+ ],
+ "v1_date": "2025-11-22",
+ "latest_version": 1,
+ "latest_date": "2025-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 5 figures, to be published in the Workshop on Planning in the Era of LLMs ( LM4Plan - https://llmforplanning.github.io ) and the Workshop on Hierarchical Planning ( HPlan - https://icaps25.icaps-conference.org/program/workshops/hplan/ ), both in the International Conference on Automated Planning and Scheduling (ICAPS) 2025",
+ "abstract": "The use of Large Language Models (LLMs) for generating Automated Planning (AP) models has been widely explored; however, their application to Hierarchical Planning (HP) is still far from reaching the level of sophistication observed in non-hierarchical architectures. In this work, we try to address this gap. We present two main contributions. First, we propose L2HP, an extension of L2P (a library to LLM-driven PDDL models generation) that support HP model generation and follows a design philosophy of generality and extensibility. Second, we apply our framework to perform experiments where we compare the modeling capabilities of LLMs for AP and HP. On the PlanBench dataset, results show that parsing success is limited but comparable in both settings (around 36\\%), while syntactic validity is substantially lower in the hierarchical case (1\\% vs. 20\\% of instances). These findings underscore the unique challenges HP presents for LLMs, highlighting the need for further research to improve the quality of generated HP models.",
+ "primary": "cs.SE"
+}

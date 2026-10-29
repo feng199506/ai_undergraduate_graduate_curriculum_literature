@@ -1,0 +1,16 @@
+{
+ "id": "2510.11501",
+ "title": "Context-Aware Model-Based Reinforcement Learning for Autonomous Racing",
+ "authors": [
+  "Emran Yasser Moustafa",
+  "Ivana Dusparic"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 1,
+ "latest_date": "2025-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to IEEE ICAR 2025",
+ "abstract": "Autonomous vehicles have shown promising potential to be a groundbreaking technology for improving the safety of road users. For these vehicles, as well as many other safety-critical robotic technologies, to be deployed in real-world applications, we require algorithms that can generalize well to unseen scenarios and data. Model-based reinforcement learning algorithms (MBRL) have demonstrated state-of-the-art performance and data efficiency across a diverse set of domains. However, these algorithms have also shown susceptibility to changes in the environment and its transition dynamics. In this work, we explore the performance and generalization capabilities of MBRL algorithms for autonomous driving, specifically in the simulated autonomous racing environment, Roboracer (formerly F1Tenth). We frame the head-to-head racing task as a learning problem using contextual Markov decision processes and parameterize the driving behavior of the adversaries using the context of the episode, thereby also parameterizing the transition and reward dynamics. We benchmark the behavior of MBRL algorithms in this environment and propose a novel context-aware extension of the existing literature, cMask. We demonstrate that context-aware MBRL algorithms generalize better to out-of-distribution adversary behaviors relative to context-free approaches. We also demonstrate that cMask displays strong generalization capabilities, as well as further performance improvement relative to other context-aware MBRL approaches when racing against adversaries with in-distribution behaviors.",
+ "primary": "cs.LG"
+}

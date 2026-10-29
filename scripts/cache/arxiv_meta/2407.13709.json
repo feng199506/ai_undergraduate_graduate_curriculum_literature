@@ -1,0 +1,17 @@
+{
+ "id": "2407.13709",
+ "title": "Understanding Reference Policies in Direct Preference Optimization",
+ "authors": [
+  "Yixin Liu",
+  "Pengfei Liu",
+  "Arman Cohan"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 2,
+ "latest_date": "2024-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "GitHub Repo: https://github.com/yale-nlp/refdpo",
+ "abstract": "Direct Preference Optimization (DPO) has become a widely used training method for the instruction fine-tuning of large language models (LLMs). In this work, we explore an under-investigated aspect of DPO - its dependency on the reference model or policy. Such reference policies, typically instantiated as the model to be further fine-tuned, are important since they can impose an upper limit on DPO's effectiveness. Therefore, we address three related research questions in this work. First, we explore the optimal strength of the KL divergence constraint in DPO, which penalizes deviations from the reference policy, and find that DPO is sensitive to this strength. Next, we examine the necessity of the KL-constraint from the reference policies in DPO by providing both theoretical and empirical comparisons between DPO and related learning objectives, demonstrating DPO's superiority in this controlled setting. Additionally, we investigate whether DPO benefits from stronger reference policies, finding that a stronger reference policy can lead to improved performance, but only when it is similar to the model being fine-tuned. Our findings highlight the confounding role of reference policies in DPO and offer insights for best practices, while also identifying open research questions for future studies.",
+ "primary": "cs.CL"
+}

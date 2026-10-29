@@ -1,0 +1,18 @@
+{
+ "id": "2411.00201",
+ "title": "YOLO Evolution: A Comprehensive Benchmark and Architectural Review of YOLOv12, YOLO11, and Their Previous Versions",
+ "authors": [
+  "Nidhal Jegham",
+  "Chan Young Koh",
+  "Marwan Abdelatti",
+  "Abdeltawab Hendawi"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 4,
+ "latest_date": "2025-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages",
+ "abstract": "This study presents a comprehensive benchmark analysis of various YOLO (You Only Look Once) algorithms. It represents the first comprehensive experimental evaluation of YOLOv3 to the latest version, YOLOv12, on various object detection challenges. The challenges considered include varying object sizes, diverse aspect ratios, and small-sized objects of a single class, ensuring a comprehensive assessment across datasets with distinct challenges. To ensure a robust evaluation, we employ a comprehensive set of metrics, including Precision, Recall, Mean Average Precision (mAP), Processing Time, GFLOPs count, and Model Size. Our analysis highlights the distinctive strengths and limitations of each YOLO version. For example: YOLOv9 demonstrates substantial accuracy but struggles with detecting small objects and efficiency whereas YOLOv10 exhibits relatively lower accuracy due to architectural choices that affect its performance in overlapping object detection but excels in speed and efficiency. Additionally, the YOLO11 family consistently shows superior performance maintaining a remarkable balance of accuracy and efficiency. However, YOLOv12 delivered underwhelming results, with its complex architecture introducing computational overhead without significant performance gains. These results provide critical insights for both industry and academia, facilitating the selection of the most suitable YOLO algorithm for diverse applications and guiding future enhancements.",
+ "primary": "cs.CV"
+}

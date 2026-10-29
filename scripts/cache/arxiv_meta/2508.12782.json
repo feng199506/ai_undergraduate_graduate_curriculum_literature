@@ -1,0 +1,20 @@
+{
+ "id": "2508.12782",
+ "title": "HeroBench: A Benchmark for Long-Horizon Planning and Structured Reasoning in Virtual Worlds",
+ "authors": [
+  "Petr Anokhin",
+  "Roman Khalikov",
+  "Stefan Rebrikov",
+  "Viktor Volkov",
+  "Artyom Sorokin",
+  "Vincent Bissonnette"
+ ],
+ "v1_date": "2025-08-18",
+ "latest_version": 2,
+ "latest_date": "2026-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code is available at https://github.com/stefanrer/HeroBench",
+ "abstract": "Large language models (LLMs) perform well on step-by-step reasoning benchmarks such as mathematics and code generation, yet their ability to carry out robust long-horizon planning under realistic constraints remains insufficiently evaluated. Existing planning benchmarks often rely on abstract domains or interactive feedback, obscuring end-to-end planning failures and feasibility errors. We introduce HeroBench, a benchmark for evaluating long-horizon, hierarchical planning and structured reasoning in a complex RPG-inspired virtual world. Tasks require models to select numerically feasible equipment, reason over multi-level crafting and resource dependencies, and execute hundreds to thousands of actions as a single end-to-end plan. HeroBench integrates symbolic planning, numeric combat simulation, spatial reasoning, and resource management, while supporting scalable difficulty and adversarial distractors. HeroBench evaluates executable plans through simulation, enabling both success-based and fine-grained progress metrics, as well as detailed failure mode analysis. An evaluation of 25 state-of-the-art LLMs reveals large performance disparities rarely observed in conventional reasoning benchmarks. While reasoning models perform substantially better, no model reliably solves the hardest tasks, highlighting persistent challenges in long-horizon autonomous planning.",
+ "primary": "cs.AI"
+}

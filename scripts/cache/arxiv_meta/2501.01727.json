@@ -1,0 +1,15 @@
+{
+ "id": "2501.01727",
+ "title": "Proposing Hierarchical Goal-Conditioned Policy Planning in Multi-Goal Reinforcement Learning",
+ "authors": [
+  "Gavin B. Rens"
+ ],
+ "v1_date": "2025-01-03",
+ "latest_version": 1,
+ "latest_date": "2025-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 4 figures, this is a preprint of the peer-reviewed version published by SCITEPRESS for ICAART-2025",
+ "abstract": "Humanoid robots must master numerous tasks with sparse rewards, posing a challenge for reinforcement learning (RL). We propose a method combining RL and automated planning to address this. Our approach uses short goal-conditioned policies (GCPs) organized hierarchically, with Monte Carlo Tree Search (MCTS) planning using high-level actions (HLAs). Instead of primitive actions, the planning process generates HLAs. A single plan-tree, maintained during the agent's lifetime, holds knowledge about goal achievement. This hierarchy enhances sample efficiency and speeds up reasoning by reusing HLAs and anticipating future actions. Our Hierarchical Goal-Conditioned Policy Planning (HGCPP) framework uniquely integrates GCPs, MCTS, and hierarchical RL, potentially improving exploration and planning in complex tasks.",
+ "primary": "cs.AI"
+}

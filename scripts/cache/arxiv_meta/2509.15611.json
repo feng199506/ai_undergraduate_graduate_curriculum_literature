@@ -1,0 +1,17 @@
+{
+ "id": "2509.15611",
+ "title": "Interpretable Network-assisted Random Forest+",
+ "authors": [
+  "Tiffany M. Tang",
+  "Elizaveta Levina",
+  "Ji Zhu"
+ ],
+ "v1_date": "2025-09-19",
+ "latest_version": 2,
+ "latest_date": "2026-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning algorithms often assume that training samples are independent. When data points are connected by a network, the induced dependency between samples is both a challenge, reducing effective sample size, and an opportunity to improve prediction by leveraging information from network neighbors. Multiple methods taking advantage of this opportunity are available, but many, including graph neural networks, are not easily interpretable, limiting their usefulness for understanding how models make predictions. Others, such as network-assisted linear regression, are interpretable but often yield worse prediction performance. We bridge this gap by proposing a family of flexible network-assisted models built upon a generalization of random forests (RF+), which achieves highly-competitive prediction accuracy and can be understood through intrinsic interpretability measures, derived directly from the model parameters and structure. In particular, we develop a suite of interpretation tools that enable researchers to both identify important features that drive model predictions and quantify the importance of the network contribution to prediction. Importantly, we provide global and local feature importances as well as sample influence measures to assess the impact of individual observations. This suite of tools broadens the scope and applicability of network-assisted machine learning for high-impact problems where interpretability and transparency are essential.",
+ "primary": "stat.ML"
+}

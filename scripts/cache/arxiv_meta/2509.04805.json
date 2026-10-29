@@ -1,0 +1,15 @@
+{
+ "id": "2509.04805",
+ "title": "AI-Driven Fronthaul Link Compression in Wireless Communication Systems: Review and Method Design",
+ "authors": [
+  "Keqin Zhang"
+ ],
+ "v1_date": "2025-09-05",
+ "latest_version": 1,
+ "latest_date": "2025-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern fronthaul links in wireless systems must transport high-dimensional signals under stringent bandwidth and latency constraints, which makes compression indispensable. Traditional strategies such as compressed sensing, scalar quantization, and fixed-codec pipelines often rely on restrictive priors, degrade sharply at high compression ratios, and are hard to tune across channels and deployments. Recent progress in Artificial Intelligence (AI) has brought end-to-end learned transforms, vector and hierarchical quantization, and learned entropy models that better exploit the structure of Channel State Information(CSI), precoding matrices, I/Q samples, and LLRs. This paper first surveys AI-driven compression techniques and then provides a focused analysis of two representative high-compression routes: CSI feedback with end-to-end learning and Resource Block (RB) granularity precoding optimization combined with compression. Building on these insights, we propose a fronthaul compression strategy tailored to cell-free architectures. The design targets high compression with controlled performance loss, supports RB-level rate adaptation, and enables low-latency inference suitable for centralized cooperative transmission in next-generation networks.",
+ "primary": "eess.SP"
+}

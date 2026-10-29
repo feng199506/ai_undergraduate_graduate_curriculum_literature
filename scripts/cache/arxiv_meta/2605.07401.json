@@ -1,0 +1,17 @@
+{
+ "id": "2605.07401",
+ "title": "Learning myopic mixed-integer nonlinear model predictive control from expert demonstrations",
+ "authors": [
+  "Christopher Anthony Orrico",
+  "W. P. M. H. Heemels",
+  "Dinesh Krishnamoorthy"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted proceedings 23rd IFAC World Congress, Busan Korea",
+ "abstract": "Applying nonlinear model predictive control (NMPC) to systems with hybrid dynamics or discrete actions typically yields mixed-integer nonlinear programs (MINLPs), whose real-time solution remains a major challenge and limits the applicability of mixed-integer NMPC (MINMPC). This paper proposes a myopic MINMPC framework that incorporates value-function approximation to substantially reduce the online computational burden. Using Bellman's principle of optimality, we shorten the prediction horizon and append a value function learned offline from expert state-action demonstrations via inverse optimization with optimality residual minimization. A central feature is the dual treatment of discrete decisions, whereby integer constraints are relaxed during offline learning to enable KKT-residual-based value function synthesis, while the online controller enforces the true integer constraints to ensure feasibility. The learned value function induces a policy that is approximately policy-consistent with the expert demonstrations. The resulting controller achieves high closed-loop performance with a significantly shorter horizon, enabling real-time MINMPC. The effectiveness of the approach is demonstrated on the Lotka-Volterra fishing problem and a satellite attitude control system with discrete actuators.",
+ "primary": "eess.SY"
+}

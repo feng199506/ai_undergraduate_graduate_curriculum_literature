@@ -1,0 +1,17 @@
+{
+ "id": "2408.01926",
+ "title": "Efficient Decision Trees for Tensor Regressions",
+ "authors": [
+  "Hengrui Luo",
+  "Akira Horiguchi",
+  "Li Ma"
+ ],
+ "v1_date": "2024-08-04",
+ "latest_version": 2,
+ "latest_date": "2025-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 11 Figures",
+ "abstract": "We proposed the tensor-input tree (TT) method for scalar-on-tensor and tensor-on-tensor regression problems. We first address scalar-on-tensor problem by proposing scalar-output regression tree models whose input variable are tensors (i.e., multi-way arrays). We devised and implemented fast randomized and deterministic algorithms for efficient fitting of scalar-on-tensor trees, making TT competitive against tensor-input GP models. Based on scalar-on-tensor tree models, we extend our method to tensor-on-tensor problems using additive tree ensemble approaches. Theoretical justification and extensive experiments on real and synthetic datasets are provided to illustrate the performance of TT.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2402.03640",
+ "title": "torchmSAT: A GPU-Accelerated Approximation To The Maximum Satisfiability Problem",
+ "authors": [
+  "Abdelrahman Hosny",
+  "Sherief Reda"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 1,
+ "latest_date": "2024-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The remarkable achievements of machine learning techniques in analyzing discrete structures have drawn significant attention towards their integration into combinatorial optimization algorithms. Typically, these methodologies improve existing solvers by injecting learned models within the solving loop to enhance the efficiency of the search process. In this work, we derive a single differentiable function capable of approximating solutions for the Maximum Satisfiability Problem (MaxSAT). Then, we present a novel neural network architecture to model our differentiable function, and progressively solve MaxSAT using backpropagation. This approach eliminates the need for labeled data or a neural network training phase, as the training process functions as the solving algorithm. Additionally, we leverage the computational power of GPUs to accelerate these computations. Experimental results on challenging MaxSAT instances show that our proposed methodology outperforms two existing MaxSAT solvers, and is on par with another in terms of solution cost, without necessitating any training or access to an underlying SAT solver. Given that numerous NP-hard problems can be reduced to MaxSAT, our novel technique paves the way for a new generation of solvers poised to benefit from neural network GPU acceleration.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "2602.00733",
+ "title": "EchoReview: Learning Peer Review from the Echoes of Scientific Citations",
+ "authors": [
+  "Yinuo Zhang",
+  "Dingcheng Huang",
+  "Haifeng Suo",
+  "Yizhuo Li",
+  "Ziya Zhao",
+  "Junhao Xu",
+  "Zhiying Tu",
+  "Dianhui Chu",
+  "Deming Zhai",
+  "Xianming Liu",
+  "Xiaoyan Yu",
+  "Dianbo Sui"
+ ],
+ "v1_date": "2026-01-31",
+ "latest_version": 1,
+ "latest_date": "2026-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As the volume of scientific submissions continues to grow rapidly, traditional peer review systems are facing unprecedented scalability pressures, highlighting the urgent need for automated reviewing methods that are both scalable and reliable. Existing supervised fine-tuning approaches based on real review data are fundamentally constrained by single-source of data as well as the inherent subjectivity and inconsistency of human reviews, limiting their ability to support high-quality automated reviewers. To address these issues, we propose EchoReview, a citation-context-driven data synthesis framework that systematically mines implicit collective evaluative signals from academic citations and transforms scientific community's long-term judgments into structured review-style data. Based on this pipeline, we construct EchoReview-16K, the first large-scale, cross-conference, and cross-year citation-driven review dataset, and train an automated reviewer, EchoReviewer-7B. Experimental results demonstrate that EchoReviewer-7B can achieve significant and stable improvements on core review dimensions such as evidence support and review comprehensiveness, validating citation context as a robust and effective data paradigm for reliable automated peer review.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,24 @@
+{
+ "id": "2507.17520",
+ "title": "InstructVLA: Vision-Language-Action Instruction Tuning from Understanding to Manipulation",
+ "authors": [
+  "Shuai Yang",
+  "Hao Li",
+  "Bin Wang",
+  "Yilun Chen",
+  "Yang Tian",
+  "Tai Wang",
+  "Hanqing Wang",
+  "Feng Zhao",
+  "Yiyi Liao",
+  "Jiangmiao Pang"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 2,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages",
+ "abstract": "To operate effectively in the real world, robots should integrate multimodal reasoning with precise action generation. However, existing vision-language-action (VLA) models often sacrifice one for the other, narrow their abilities to task-specific manipulation data, and suffer catastrophic forgetting of pre-trained vision-language capabilities. To bridge this gap, we introduce InstructVLA, an end-to-end VLA model that preserves the flexible reasoning of large vision-language models (VLMs) while delivering leading manipulation performance with the help of embodied reasoning. InstructVLA introduces a novel training paradigm, Vision-Language-Action Instruction Tuning (VLA-IT), which employs multimodal training with mixture-of-experts adaptation to jointly optimize embodied reasoning and action generation on both standard VLM corpora and a curated 650K-sample VLA-IT dataset. On in-domain SimplerEnv tasks, InstructVLA achieves 33% improvement over SpatialVLA. To evaluate generalization, we introduce SimplerEnv-Instruct, an 80-task benchmark requiring closed-loop control and high-level instruction understanding, where it outperforms a fine-tuned OpenVLA by 96% and an action expert aided by GPT-4o by 29%. Additionally, InstructVLA surpasses baseline VLMs on multimodal tasks and exhibits inference-time scaling by leveraging textual reasoning to boost manipulation performance in both simulated and real-world settings. These results demonstrate InstructVLA's potential for bridging intuitive and steerable human-robot interaction with efficient policy learning.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.06604",
+ "title": "Object-Centric World Models Meet Monte Carlo Tree Search",
+ "authors": [
+  "Rodion Vakhitov",
+  "Leonid Ugadiarov",
+  "Aleksandr Panov"
+ ],
+ "v1_date": "2026-01-10",
+ "latest_version": 1,
+ "latest_date": "2026-01-10",
+ "journal_ref": "",
+ "doi": "10.1007/978-3-032-13612-1_42",
+ "comment": "",
+ "abstract": "In this paper, we introduce ObjectZero, a novel reinforcement learning (RL) algorithm that leverages the power of object-level representations to model dynamic environments more effectively. Unlike traditional approaches that process the world as a single undifferentiated input, our method employs Graph Neural Networks (GNNs) to capture intricate interactions among multiple objects. These objects, which can be manipulated and interact with each other, serve as the foundation for our model's understanding of the environment. We trained the algorithm in a complex setting teeming with diverse, interactive objects, demonstrating its ability to effectively learn and predict object dynamics. Our results highlight that a structured world model operating on object-centric representations can be successfully integrated into a model-based RL algorithm utilizing Monte Carlo Tree Search as a planning module.",
+ "primary": "cs.AI"
+}

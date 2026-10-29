@@ -1,0 +1,20 @@
+{
+ "id": "2408.04841",
+ "title": "Kolmogorov-Arnold Network for Online Reinforcement Learning",
+ "authors": [
+  "Victor Augusto Kich",
+  "Jair Augusto Bottega",
+  "Raul Steinmetz",
+  "Ricardo Bedin Grando",
+  "Ayano Yorozu",
+  "Akihisa Ohya"
+ ],
+ "v1_date": "2024-08-09",
+ "latest_version": 3,
+ "latest_date": "2024-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Paper accepted at 24th International Conference on Control, Automation and Systems (ICCAS)",
+ "abstract": "Kolmogorov-Arnold Networks (KANs) have shown potential as an alternative to Multi-Layer Perceptrons (MLPs) in neural networks, providing universal function approximation with fewer parameters and reduced memory usage. In this paper, we explore the use of KANs as function approximators within the Proximal Policy Optimization (PPO) algorithm. We evaluate this approach by comparing its performance to the original MLP-based PPO using the DeepMind Control Proprio Robotics benchmark. Our results indicate that the KAN-based reinforcement learning algorithm can achieve comparable performance to its MLP-based counterpart, often with fewer parameters. These findings suggest that KANs may offer a more efficient option for reinforcement learning models.",
+ "primary": "cs.LG"
+}

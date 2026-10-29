@@ -1,0 +1,20 @@
+{
+ "id": "2603.14756",
+ "title": "Towards Privacy-Preserving Machine Translation at the Inference Stage: A New Task and Benchmark",
+ "authors": [
+  "Wei Shao",
+  "Lemao Liu",
+  "Yinqiao Li",
+  "Guoping Huang",
+  "Shuming Shi",
+  "Linqi Song"
+ ],
+ "v1_date": "2026-03-16",
+ "latest_version": 1,
+ "latest_date": "2026-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 5 figures, Accepted by IEEE Journal of Selected Topics in Signal Processing",
+ "abstract": "Current online translation services require sending user text to cloud servers, posing a risk of privacy leakage when the text contains sensitive information. This risk hinders the application of online translation services in privacy-sensitive scenarios. One way to mitigate this risk for online translation services is introducing privacy protection mechanisms targeting the inference stage of translation models. However, compared to subfields of NLP like text classification and summarization, the machine translation research community has limited exploration of privacy protection during the inference stage. There is no clearly defined privacy protection task for the inference stage, dedicated evaluation datasets and metrics, and reference benchmark methods. The absence of these elements has seriously constrained researchers' in-depth exploration of this direction. To bridge this gap, this paper proposes a novel \"Privacy-Preserving Machine Translation\" (PPMT) task, aiming to protect the private information in text during the model inference stage. For this task, we constructed three benchmark test datasets, designed corresponding evaluation metrics, and proposed a series of benchmark methods as a starting point for this task. The definition of privacy is complex and diverse. Considering that named entities often contain a large amount of personal privacy and commercial secrets, we have focused our research on protecting only the named entity's privacy in the text. We expect this research work will provide a new perspective and a solid foundation for the privacy protection problem in machine translation.",
+ "primary": "cs.CL"
+}

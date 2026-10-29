@@ -1,0 +1,24 @@
+{
+ "id": "2407.17465",
+ "title": "u-$μ$P: The Unit-Scaled Maximal Update Parametrization",
+ "authors": [
+  "Charlie Blake",
+  "Constantin Eichenberg",
+  "Josef Dean",
+  "Lukas Balles",
+  "Luke Y. Prince",
+  "Björn Deiseroth",
+  "Andres Felipe Cruz-Salinas",
+  "Carlo Luschi",
+  "Samuel Weinbach",
+  "Douglas Orr"
+ ],
+ "v1_date": "2024-07-24",
+ "latest_version": 3,
+ "latest_date": "2025-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages",
+ "abstract": "The Maximal Update Parametrization ($μ$P) aims to make the optimal hyperparameters (HPs) of a model independent of its size, allowing them to be swept using a cheap proxy model rather than the full-size target model. We present a new scheme, u-$μ$P, which improves upon $μ$P by combining it with Unit Scaling, a method for designing models that makes them easy to train in low-precision. The two techniques have a natural affinity: $μ$P ensures that the scale of activations is independent of model size, and Unit Scaling ensures that activations, weights and gradients begin training with a scale of one. This synthesis opens the door to a simpler scheme, whose default values are near-optimal. This in turn facilitates a more efficient sweeping strategy, with u-$μ$P models reaching a loss that is equal to or lower than comparable $μ$P models and working out-of-the-box in FP8.",
+ "primary": "cs.LG"
+}

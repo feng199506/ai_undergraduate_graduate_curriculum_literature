@@ -1,0 +1,17 @@
+{
+ "id": "2504.12860",
+ "title": "When do Random Forests work?",
+ "authors": [
+  "C. Revelas",
+  "O. Boldea",
+  "B. J. M. Werker"
+ ],
+ "v1_date": "2025-04-17",
+ "latest_version": 2,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This second version updates the contact information of the first author and contains the following minor changes: A/ the discussion on MSE decompositions is more explicit; B/ Table 1 is added and consequently the table count is changed; C/ descriptions of tables and graphs are now more detailed; D/ a new Section 5 on practical considerations and future work is added",
+ "abstract": "We study the effectiveness of randomizing split-directions in random forests. Prior literature has shown that, randomization can reduce variance through decorrelation, and, randomization regularizes and works in low signal-to-noise ratio (SNR) environments. First, we revisit decorrelation and regularization by presenting a systematic analysis of out-of-sample mean-squared error (MSE) for different SNR scenarios based on commonly-used data-generating processes. We point out that there is no consensus in the literature on how the MSE is computed and the terms \"variance\" and \"bias\" are not uniquely defined. We obtain MSE decompositions by averaging over training sets first and then covariates. We find that variance reduction tends to increase with the SNR and forests outperform bagging when the SNR is low because, in low SNR cases, variance dominates bias for both methods. Second, we show that the effectiveness of randomization is a question that goes beyond SNRs. We present a simulation study with fixed and moderate SNR, in which we examine the effectiveness of randomization for other data characteristics. In particular, we find that (i) randomization can increase bias in the presence of fat tails in the distribution of covariates; (ii) in the presence of irrelevant covariates randomization is ineffective because bias dominates variance; and (iii) when covariates are mutually correlated randomization tends to be effective because variance dominates bias. Beyond randomization, we find that, for both bagging and random forests, bias can be significantly reduced in the presence of correlated covariates. This last finding goes beyond the prevailing view that averaging mostly works by variance reduction. Given that in practice covariates are often correlated, our findings on correlated covariates could open the way for a better understanding of why random forests work well in many applications.",
+ "primary": "stat.ML"
+}

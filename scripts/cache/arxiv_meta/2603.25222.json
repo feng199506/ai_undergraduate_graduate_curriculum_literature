@@ -1,0 +1,21 @@
+{
+ "id": "2603.25222",
+ "title": "Translation or Recitation? Calibrating Evaluation Scores for Machine Translation of Extremely Low-Resource Languages",
+ "authors": [
+  "Danlu Chen",
+  "Ka Sing He",
+  "Jiahe Tian",
+  "Chenghao Xiao",
+  "Zhaofeng Wu",
+  "Taylor Berg-Kirkpatrick",
+  "Freda Shi"
+ ],
+ "v1_date": "2026-03-26",
+ "latest_version": 1,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The landscape of extremely low-resource machine translation (MT) is characterized by perplexing variability in reported performance, often making results across different language pairs difficult to contextualize. For researchers focused on specific language groups -- such as ancient languages -- it is nearly impossible to determine if breakthroughs reported in other contexts (e.g., native African or American languages) result from superior methodologies or are merely artifacts of benchmark collection. To address this problem, we introduce the FRED Difficulty Metrics, which include the Fertility Ratio (F), Retrieval Proxy (R), Pre-training Exposure (E), and Corpus Diversity (D) and serve as dataset-intrinsic metrics to contextualize reported scores. These metrics reveal that a significant portion of result variability is explained by train-test overlap and pre-training exposure rather than model capability. Additionally, we identify that some languages -- particularly extinct and non-Latin indigenous languages -- suffer from poor tokenization coverage (high token fertility), highlighting a fundamental limitation of transferring models from high-resource languages that lack a shared vocabulary. By providing these indices alongside performance scores, we enable more transparent evaluation of cross-lingual transfer and provide a more reliable foundation for the XLR MT community.",
+ "primary": "cs.CL"
+}

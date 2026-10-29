@@ -1,0 +1,18 @@
+{
+ "id": "2510.03182",
+ "title": "Simulation to Rules: A Dual-VLM Framework for Formal Visual Planning",
+ "authors": [
+  "Yilun Hao",
+  "Yongchao Chen",
+  "Chuchu Fan",
+  "Yang Zhang"
+ ],
+ "v1_date": "2025-10-03",
+ "latest_version": 2,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 6 figures, 13 tables",
+ "abstract": "Vision Language Models (VLMs) show strong potential for visual planning but struggle with precise spatial and long-horizon reasoning, while Planning Domain Definition Language (PDDL) planners excel at formal long-horizon planning but cannot interpret visual inputs. Recent works combine these complementary advantages by translating visual problems into PDDL. However, while VLMs can generate PDDL problem files satisfactorily, accurately generating PDDL domain files, which encode planning rules, remains challenging and typically requires human expertise or environment interaction. We propose VLMFP, a Dual-VLM-guided framework that autonomously generates both PDDL problem and domain files for formal visual planning. VLMFP combines a SimVLM that simulates action consequences with a GenVLM that generates and iteratively refines PDDL files by aligning symbolic execution with simulated outcomes, enabling multiple levels of generalization across unseen instances, visual appearances, and game rules. We evaluate VLMFP on 6 grid-world domains and demonstrate its generalization capability. On average, SimVLM achieves 87.3% and 86.0% scenario understanding and action simulation for seen and unseen appearances, respectively. With the guidance of SimVLM, VLMFP attains 70.0%, 54.1% planning success on unseen instances in seen and unseen appearances, respectively. We further demonstrate that VLMFP scales to complex long-horizon 3D planning tasks, including multi-robot collaboration and assembly scenarios with partial observability and diverse visual variations. Project page: https://sites.google.com/view/vlmfp.",
+ "primary": "cs.RO"
+}

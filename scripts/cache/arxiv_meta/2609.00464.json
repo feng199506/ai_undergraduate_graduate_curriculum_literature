@@ -1,0 +1,18 @@
+{
+ "id": "2609.00464",
+ "title": "Does Reasoning Mitigate Backdoor Attacks? A Neuro-Symbolic Perspective",
+ "authors": [
+  "Marco Antonio Corallo",
+  "Andrea Agiollo",
+  "Mauro Conti",
+  "Alberto Giaretta"
+ ],
+ "v1_date": "2026-08-31",
+ "latest_version": 1,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neuro-Symbolic (NeSy) AI has recently emerged as a novel paradigm to enable trustworthy AI, aiming at integrating sub-symbolic neural perception with grounded symbolic reasoning. The neuro-symbolic integration process that characterizes these models has been proven beneficial to achieve more transparent, explainable and efficient AI systems. Meanwhile, their properties under adversarial settings have been overlooked being frequently deemed robust-by-design. However, the neural-symbolic integration process they leverage constitutes an additional layer of complexity that may provide an attack entry-point. Therefore, in this paper, we claim that an in-depth investigation of the adversarial robustness of NeSy models is necessary and provide the first systematic evaluation of backdoor attacks against NeSy. To this end, we compare the most popular NeSy framework, namely DeepProbLog, against baseline neural networks across a total of eight backdoor settings and four reasoning tasks. Our experimental results show that while NeSy models are indeed more robust than their neural counterpart on average, their robustness vastly depend on the strictness of the reasoning process being enforced and its compatibility with the chosen adversarial target. The source code to reproduce our experiments is made available at https://github.com/marcoantoniocorallo/NeSy-Backdoor.",
+ "primary": "cs.CR"
+}

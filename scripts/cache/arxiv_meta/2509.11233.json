@@ -1,0 +1,16 @@
+{
+ "id": "2509.11233",
+ "title": "TransZero: Parallel Tree Expansion in MuZero using Transformer Networks",
+ "authors": [
+  "Emil Malmsten",
+  "Wendelin Böhmer"
+ ],
+ "v1_date": "2025-09-14",
+ "latest_version": 1,
+ "latest_date": "2025-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to BNAIC/BeNeLearn 2025. 15 pages, 4 figures",
+ "abstract": "We present TransZero, a model-based reinforcement learning algorithm that removes the sequential bottleneck in Monte Carlo Tree Search (MCTS). Unlike MuZero, which constructs its search tree step by step using a recurrent dynamics model, TransZero employs a transformer-based network to generate multiple latent future states simultaneously. Combined with the Mean-Variance Constrained (MVC) evaluator that eliminates dependence on inherently sequential visitation counts, our approach enables the parallel expansion of entire subtrees during planning. Experiments in MiniGrid and LunarLander show that TransZero achieves up to an eleven-fold speedup in wall-clock time compared to MuZero while maintaining sample efficiency. These results demonstrate that parallel tree construction can substantially accelerate model-based reinforcement learning, bringing real-time decision-making in complex environments closer to practice. The code is publicly available on GitHub.",
+ "primary": "cs.LG"
+}

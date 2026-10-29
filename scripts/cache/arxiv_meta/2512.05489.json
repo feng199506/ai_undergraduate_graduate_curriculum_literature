@@ -1,0 +1,17 @@
+{
+ "id": "2512.05489",
+ "title": "Beyond Adam: Disentangling Optimizer Effects in the Fine-Tuning of Atomistic Foundation Models",
+ "authors": [
+  "Xiaoqing Liu",
+  "Yangshuai Wang",
+  "Teng Zhao"
+ ],
+ "v1_date": "2025-12-05",
+ "latest_version": 1,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Atomistic foundation models constitute a paradigm shift in computational materials science by providing universal machine-learned interatomic potentials with broad transferability across chemical spaces. Although fine-tuning is essential for adapting these pretrained models to specific target systems, the influence of the optimization algorithm on this process remains insufficiently characterized. In this work, we perform a rigorous benchmark of seven first-order optimizers, including Adam, AdamW, RAdam, SGD, LAMB, Ranger, and ScheduleFree, for the fine-tuning of foundation models across molecular, crystalline, and liquid regimes. We evaluate these algorithms based on energy and force accuracy for both in-distribution and out-of-distribution configurations, as well as their impact on downstream physical properties such as elastic moduli, phonon spectra, and interfacial dynamics. We interpret these empirical results through a preconditioning framework that views each optimizer as a data-dependent linear transformation of the gradient. This analysis clarifies how different update rules impose specific spectral filters on the effective loss Hessian. Across all regimes, AdamW and ScheduleFree achieve superior curvature conditioning and force accuracy, whereas stochastic gradient descent exhibits slow convergence and instability. Furthermore, we demonstrate that a brief second-order refinement stage reduces residual anisotropy in the loss landscape and enhances the fidelity of physical observables without increasing inference costs. These findings provide conceptual insight and practical guidance for selecting and designing optimizers to ensure the stable and efficient fine-tuning of universal interatomic potentials.",
+ "primary": "physics.comp-ph"
+}

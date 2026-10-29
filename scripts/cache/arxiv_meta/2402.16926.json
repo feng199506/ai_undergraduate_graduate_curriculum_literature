@@ -1,0 +1,20 @@
+{
+ "id": "2402.16926",
+ "title": "On the (In)feasibility of ML Backdoor Detection as an Hypothesis Testing Problem",
+ "authors": [
+  "Georg Pichler",
+  "Marco Romanelli",
+  "Divya Prakash Manivannan",
+  "Prashanth Krishnamurthy",
+  "Farshad Khorrami",
+  "Siddharth Garg"
+ ],
+ "v1_date": "2024-02-26",
+ "latest_version": 1,
+ "latest_date": "2024-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a formal statistical definition for the problem of backdoor detection in machine learning systems and use it to analyze the feasibility of such problems, providing evidence for the utility and applicability of our definition. The main contributions of this work are an impossibility result and an achievability result for backdoor detection. We show a no-free-lunch theorem, proving that universal (adversary-unaware) backdoor detection is impossible, except for very small alphabet sizes. Thus, we argue, that backdoor detection methods need to be either explicitly, or implicitly adversary-aware. However, our work does not imply that backdoor detection cannot work in specific scenarios, as evidenced by successful backdoor detection methods in the scientific literature. Furthermore, we connect our definition to the probably approximately correct (PAC) learnability of the out-of-distribution detection problem.",
+ "primary": "cs.CR"
+}

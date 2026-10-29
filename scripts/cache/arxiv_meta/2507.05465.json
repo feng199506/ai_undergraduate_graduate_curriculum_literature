@@ -1,0 +1,17 @@
+{
+ "id": "2507.05465",
+ "title": "2048: Reinforcement Learning in a Delayed Reward Environment",
+ "authors": [
+  "Prady Saligram",
+  "Tanvir Bhathal",
+  "Robby Manihani"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 2,
+ "latest_date": "2025-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "We found an issue with our result aggregation scripts: some evaluation logs were incomplete and others duplicated, causing incorrect numbers in tables and figures. Because these graphs and tables underpin key comparisons, we are withdrawing the paper to regenerate verified results",
+ "abstract": "Delayed and sparse rewards present a fundamental obstacle for reinforcement-learning (RL) agents, which struggle to assign credit for actions whose benefits emerge many steps later. The sliding-tile game 2048 epitomizes this challenge: although frequent small score changes yield immediate feedback, they often mislead agents into locally optimal but globally suboptimal strategies. In this work, we introduce a unified, distributional multi-step RL framework designed to directly optimize long-horizon performance. Using the open source Gym-2048 environment we develop and compare four agent variants: standard DQN, PPO, QR-DQN (Quantile Regression DQN), and a novel Horizon-DQN (H-DQN) that integrates distributional learning, dueling architectures, noisy networks, prioritized replay, and more. Empirical evaluation reveals a clear hierarchy in effectiveness: max episode scores improve from 3.988K (DQN) to 5.756K (PPO), 8.66K (QR-DQN), and 18.21K (H-DQN), with H-DQN reaching the 2048 tile. Upon scaling H-DQN it reaches a max score 41.828K and a 4096 tile. These results demonstrate that distributional, multi-step targets substantially enhance performance in sparse-reward domains, and they suggest promising avenues for further gains through model-based planning and curriculum learning.",
+ "primary": "cs.LG"
+}

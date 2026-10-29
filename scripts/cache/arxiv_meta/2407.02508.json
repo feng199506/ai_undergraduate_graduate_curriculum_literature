@@ -1,0 +1,18 @@
+{
+ "id": "2407.02508",
+ "title": "Physics-informed Imitative Reinforcement Learning for Real-world Driving",
+ "authors": [
+  "Hang Zhou",
+  "Yihao Qin",
+  "Dan Xu",
+  "Yiding Ji"
+ ],
+ "v1_date": "2024-06-18",
+ "latest_version": 3,
+ "latest_date": "2025-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in imitative reinforcement learning (IRL) have considerably enhanced the ability of autonomous agents to assimilate expert demonstrations, leading to rapid skill acquisition in a range of demanding tasks. However, such learning-based agents face significant challenges when transferring knowledge to highly dynamic closed-loop environments. Their performance is significantly impacted by the conflicting optimization objectives of imitation learning (IL) and reinforcement learning (RL), sample inefficiency, and the complexity of uncovering the hidden world model and physics. To address this challenge, we propose a physics-informed IRL that is entirely data-driven. It leverages both expert demonstration data and exploratory data with a joint optimization objective, allowing the underlying physical principles of vehicle dynamics to emerge naturally from the training process. The performance is evaluated through empirical experiments and results exceed popular IL, RL and IRL algorithms in closed-loop settings on Waymax benchmark. Our approach exhibits 37.8% reduction in collision rate and 22.2% reduction in off-road rate compared to the baseline method.",
+ "primary": "cs.RO"
+}

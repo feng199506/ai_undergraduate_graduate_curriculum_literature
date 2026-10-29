@@ -1,0 +1,24 @@
+{
+ "id": "2412.13178",
+ "title": "SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents",
+ "authors": [
+  "Sheng Yin",
+  "Xianghe Pang",
+  "Yuanzhuo Ding",
+  "Menglan Chen",
+  "Yutong Bi",
+  "Yichen Xiong",
+  "Wenhao Huang",
+  "Zhen Xiang",
+  "Jing Shao",
+  "Siheng Chen"
+ ],
+ "v1_date": "2024-12-17",
+ "latest_version": 5,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 19 tables, 15 figures",
+ "abstract": "With the integration of large language models (LLMs), embodied agents have strong capabilities to understand and plan complicated natural language instructions. However, a foreseeable issue is that those embodied agents can also flawlessly execute some hazardous tasks, potentially causing damages in the real world. Existing benchmarks predominantly overlook critical safety risks, focusing solely on planning performance, while a few evaluate LLMs' safety awareness only on non-interactive image-text data. To address this gap, we present SafeAgentBench -- the first comprehensive benchmark for safety-aware task planning of embodied LLM agents in interactive simulation environments, covering both explicit and implicit hazards. SafeAgentBench includes: (1) an executable, diverse, and high-quality dataset of 750 tasks, rigorously curated to cover 10 potential hazards and 3 task types; (2) SafeAgentEnv, a universal embodied environment with a low-level controller, supporting multi-agent execution with 17 high-level actions for 9 state-of-the-art baselines; and (3) reliable evaluation methods from both execution and semantic perspectives. Experimental results show that, although agents based on different design frameworks exhibit substantial differences in task success rates, their overall safety awareness remains weak. The most safety-conscious baseline achieves only a 10% rejection rate for detailed hazardous tasks. Moreover, simply replacing the LLM driving the agent does not lead to notable improvements in safety awareness. Dataset and codes are available in https://github.com/shengyin1224/SafeAgentBench and https://huggingface.co/datasets/safeagentbench/SafeAgentBench.",
+ "primary": "cs.CR"
+}

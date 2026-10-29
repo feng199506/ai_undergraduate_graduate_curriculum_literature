@@ -1,0 +1,18 @@
+{
+ "id": "2501.05468",
+ "title": "LatteReview: A Multi-Agent Framework for Systematic Review Automation Using Large Language Models",
+ "authors": [
+  "Pouria Rouzrokh",
+  "Bardia Khosravi",
+  "Parsa Rouzrokh",
+  "Moein Shariatnia"
+ ],
+ "v1_date": "2025-01-05",
+ "latest_version": 2,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 5 figures, 5 tables",
+ "abstract": "Systematic literature reviews and meta-analyses are essential for synthesizing research insights, but they remain time-intensive and labor-intensive due to the iterative processes of screening, evaluation, and data extraction. This paper introduces and evaluates LatteReview, a Python-based framework that leverages large language models (LLMs) and multi-agent systems to automate key elements of the systematic review process. Designed to streamline workflows while maintaining rigor, LatteReview utilizes modular agents for tasks such as title and abstract screening, relevance scoring, and structured data extraction. These agents operate within orchestrated workflows, supporting sequential and parallel review rounds, dynamic decision-making, and iterative refinement based on user feedback. LatteReview's architecture integrates LLM providers, enabling compatibility with both cloud-based and locally hosted models. The framework supports features such as Retrieval-Augmented Generation (RAG) for incorporating external context, multimodal reviews, Pydantic-based validation for structured inputs and outputs, and asynchronous programming for handling large-scale datasets. The framework is available on the GitHub repository, with detailed documentation and an installable package.",
+ "primary": "cs.CL"
+}

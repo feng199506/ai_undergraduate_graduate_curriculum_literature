@@ -1,0 +1,20 @@
+{
+ "id": "2503.24259",
+ "title": "Advances in Continual Graph Learning for Anti-Money Laundering Systems: A Comprehensive Review",
+ "authors": [
+  "Bruno Deprez",
+  "Wei Wei",
+  "Wouter Verbeke",
+  "Bart Baesens",
+  "Kevin Mets",
+  "Tim Verdonck"
+ ],
+ "v1_date": "2025-03-31",
+ "latest_version": 1,
+ "latest_date": "2025-03-31",
+ "journal_ref": "",
+ "doi": "10.1002/wics.70040",
+ "comment": "",
+ "abstract": "Financial institutions are required by regulation to report suspicious financial transactions related to money laundering. Therefore, they need to constantly monitor vast amounts of incoming and outgoing transactions. A particular challenge in detecting money laundering is that money launderers continuously adapt their tactics to evade detection. Hence, detection methods need constant fine-tuning. Traditional machine learning models suffer from catastrophic forgetting when fine-tuning the model on new data, thereby limiting their effectiveness in dynamic environments. Continual learning methods may address this issue and enhance current anti-money laundering (AML) practices, by allowing models to incorporate new information while retaining prior knowledge. Research on continual graph learning for AML, however, is still scarce. In this review, we critically evaluate state-of-the-art continual graph learning approaches for AML applications. We categorise methods into replay-based, regularization-based, and architecture-based strategies within the graph neural network (GNN) framework, and we provide in-depth experimental evaluations on both synthetic and real-world AML data sets that showcase the effect of the different hyperparameters. Our analysis demonstrates that continual learning improves model adaptability and robustness in the face of extreme class imbalances and evolving fraud patterns. Finally, we outline key challenges and propose directions for future research.",
+ "primary": "cs.LG"
+}

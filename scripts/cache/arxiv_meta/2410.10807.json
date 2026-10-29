@@ -1,0 +1,16 @@
+{
+ "id": "2410.10807",
+ "title": "HardNet: Hard-Constrained Neural Networks with Universal Approximation Guarantees",
+ "authors": [
+  "Youngjae Min",
+  "Navid Azizan"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 4,
+ "latest_date": "2025-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Incorporating prior knowledge or specifications of input-output relationships into machine learning models has attracted significant attention, as it enhances generalization from limited data and yields conforming outputs. However, most existing approaches use soft constraints by penalizing violations through regularization, which offers no guarantee of constraint satisfaction, especially on inputs far from the training distribution--an essential requirement in safety-critical applications. On the other hand, imposing hard constraints on neural networks may hinder their representational power, adversely affecting performance. To address this, we propose HardNet, a practical framework for constructing neural networks that inherently satisfy hard constraints without sacrificing model capacity. Unlike approaches that modify outputs only at inference time, HardNet enables end-to-end training with hard constraint guarantees, leading to improved performance. To the best of our knowledge, HardNet is the first method that enables efficient and differentiable enforcement of more than one input-dependent inequality constraint. It allows unconstrained optimization of the network parameters using standard algorithms by appending a differentiable closed-form enforcement layer to the network's output. Furthermore, we show that HardNet retains neural networks' universal approximation capabilities. We demonstrate its versatility and effectiveness across various applications: learning with piecewise constraints, learning optimization solvers with guaranteed feasibility, and optimizing control policies in safety-critical systems.",
+ "primary": "cs.LG"
+}

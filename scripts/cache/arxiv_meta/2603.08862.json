@@ -1,0 +1,21 @@
+{
+ "id": "2603.08862",
+ "title": "APPLV: Adaptive Planner Parameter Learning from Vision-Language-Action Model",
+ "authors": [
+  "Yuanjie Lu",
+  "Beichen Wang",
+  "Zhengqi Wu",
+  "Yang Li",
+  "Xiaomin Lin",
+  "Chengzhi Mao",
+  "Xuesu Xiao"
+ ],
+ "v1_date": "2026-03-09",
+ "latest_version": 2,
+ "latest_date": "2026-07-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Autonomous navigation in highly constrained environments remains challenging for mobile robots. Classical navigation approaches offer safety assurances but require environment-specific parameter tuning; end-to-end learning bypasses parameter tuning but struggles with precise control in constrained spaces. To this end, recent robot learning approaches automate parameter tuning while retaining classical systems' safety, yet still face challenges in generalizing to unseen environments. Recently, Vision-Language-Action (VLA) models have shown promise by leveraging foundation models' scene understanding capabilities, but still struggle with precise control and inference latency in navigation tasks. In this paper, we propose Adaptive Planner Parameter Learning from Vision-Language-Action Model (\\textsc{applv}). Unlike traditional VLA models that directly output actions, \\textsc{applv} leverages pre-trained vision-language models with a regression head to predict planner parameters that configure classical planners. We develop two training strategies: supervised learning fine-tuning from collected navigation trajectories and reinforcement learning fine-tuning to further optimize navigation performance. We evaluate \\textsc{applv} across multiple motion planners on the simulated Benchmark Autonomous Robot Navigation (BARN) dataset and in physical robot experiments. Results demonstrate that \\textsc{applv} outperforms existing methods in both navigation performance and generalization to unseen environments.",
+ "primary": "cs.RO"
+}

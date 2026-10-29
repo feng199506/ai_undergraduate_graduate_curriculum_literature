@@ -1,0 +1,15 @@
+{
+ "id": "2509.11226",
+ "title": "Foundational theory for optimal decision tree problems. I. Algorithmic and geometric foundations",
+ "authors": [
+  "Xi He"
+ ],
+ "v1_date": "2025-09-14",
+ "latest_version": 2,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "62 pages, Correct typos, include discussion on optimal decision tree problem over binary feature data",
+ "abstract": "In the first paper (part I) of this series of two, we introduce four novel definitions of the ODT problems: three for size-constrained trees and one for depth-constrained trees. These definitions are stated unambiguously through executable recursive programs, satisfying all criteria we propose for a formal specification. In this sense, they resemble the \"standard form\" used in the study of general-purpose solvers. Grounded in algebraic programming theory-a relational formalism for deriving correct-by-construction algorithms from specifications-we can not only establish the existence or nonexistence of dynamic programming solutions but also derive them constructively whenever they exist. Consequently, the four generic problem definitions yield four novel optimal algorithms for ODT problems with arbitrary splitting rules that satisfy the axioms and objective functions of a given form. These algorithms encompass the known depth-constrained, axis-parallel ODT algorithm as the special case, while providing a unified, efficient, and elegant solution for the general ODT problem. In Part II, we present the first optimal hypersurface decision tree algorithm and provide comprehensive experiments against axis-parallel decision tree algorithms, including heuristic CART and state-of-the-art optimal methods. The results demonstrate the significant potential of decision trees with flexible splitting rules. Moreover, our framework is readily extendable to support algorithms for constructing even more flexible decision trees, including those with mixed splitting rules.",
+ "primary": "cs.LG"
+}

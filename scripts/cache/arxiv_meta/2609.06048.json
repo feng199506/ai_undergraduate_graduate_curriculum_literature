@@ -1,0 +1,20 @@
+{
+ "id": "2609.06048",
+ "title": "Generating Adversarial Texts for Machine Translation via GRPO",
+ "authors": [
+  "Florian Zogaj",
+  "Jakob Hütteneder",
+  "Giovanni De Muri",
+  "Federico Villa",
+  "Aryan Sood",
+  "Vilém Zouhar"
+ ],
+ "v1_date": "2026-09-05",
+ "latest_version": 1,
+ "latest_date": "2026-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at KONVENS 2026",
+ "abstract": "As machine translation (MT) systems continue to improve, standard benchmarks become less informative for exposing remaining weaknesses. Traditional methods for creating challenging test sets rely on expensive manual creation or curation, while automated approaches struggle to produce sets with the necessary translation difficulty and linguistic diversity. We propose a scalable reinforcement-learning-based approach for rewriting existing source texts into instances that are more difficult to translate for MT systems. We fine-tune a large language model with Group Relative Policy Optimization (GRPO), using reward signals based on translation difficulty together with constraints for semantic similarity, grammaticality, and approximate length preservation. On WMT25, our approach substantially reduces average COMET translation quality from 0.63 to 0.48, while preserving grammaticality and readability, whereas the base model remains at 0.64. Evaluations on the unseen WMT19-WMT24 benchmarks confirm that this behavior generalizes beyond the training data, and human evaluation further shows that the rewrites substantially lower translation quality while incurring a moderate drop in naturalness and only a small change in grammaticality. We release our code to support reproducibility.",
+ "primary": "cs.CL"
+}

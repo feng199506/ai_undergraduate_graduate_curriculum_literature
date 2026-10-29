@@ -1,0 +1,17 @@
+{
+ "id": "2507.03294",
+ "title": "MGAA: Multi-Granular Adaptive Allocation fof Low-Rank Compression of LLMs",
+ "authors": [
+  "Guangyan Li",
+  "Yongqiang Tang",
+  "Wensheng Zhang"
+ ],
+ "v1_date": "2025-07-04",
+ "latest_version": 1,
+ "latest_date": "2025-07-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 8 figures",
+ "abstract": "The enormous parameter scale of large language models (LLMs) has made model compression a research hotspot, which aims to alleviate computational resource demands during deployment and inference. As a promising direction, low-rank approximation technique has made remarkable achievements. Nevertheless, unfortunately, the vast majority of studies to low-rank approximation compression generally apply uniform compression ratios across all weight matrices, while disregarding their inherently differentiated impacts on the model's performance. Although a few recent work attempts to employ heuristic search strategies to achieve the optimal parameter allocation, such strategies are computationally inefficient and lose the generalization ability in the era of LLMs. In this study, we propose a novel parameter Multi-Granular Adaptive Allocation (MGAA) method, which can adaptively allocate parameters between and within sublayers without task-specific evaluations in the compression process. MGAA consists of two components: 1) Among different sublayers, it assigns compression ratios based on their cosine similarity between inputs and outputs, allowing for a more tailored compression in sublayers with varying degrees of importance, and 2) Within each sublayer, it allocates different compression ratios to weight matrices based on their energy distribution characteristics, ensuring a consistent energy retention ratio while optimizing compression efficiency. Comprehensive evaluations of MGAA across multiple LLMs backbone models and benchmark datasets demonstrate its superior performance. Additionally, we apply our MGAA to multimodal model LLaVA, exhibiting remarkable performance improvements.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.13456",
+ "title": "OGBoost: A Python Package for Ordinal Gradient Boosting",
+ "authors": [
+  "Mansour T. A. Sharabiani",
+  "Alex Bottle",
+  "Alireza S. Mahani"
+ ],
+ "v1_date": "2025-02-19",
+ "latest_version": 1,
+ "latest_date": "2025-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces OGBoost, a scikit-learn-compatible Python package for ordinal regression using gradient boosting. Ordinal variables (e.g., rating scales, quality assessments) lie between nominal and continuous data, necessitating specialized methods that reflect their inherent ordering. Built on a coordinate-descent approach for optimization and the latent-variable framework for ordinal regression, OGBoost performs joint optimization of a latent continuous regression function (functional gradient descent) and a threshold vector that converts the latent continuous value into discrete class probabilities (classical gradient descent). In addition to the stanadard methods for scikit-learn classifiers, the GradientBoostingOrdinal class implements a \"decision_function\" that returns the (scalar) value of the latent function for each observation, which can be used as a high-resolution alternative to class labels for comparing and ranking observations. The class has the option to use cross-validation for early stopping rather than a single holdout validation set, a more robust approach for small and/or imbalanced datasets. Furthermore, users can select base learners with different underlying algorithms and/or hyperparameters for use throughout the boosting iterations, resulting in a `heterogeneous' ensemble approach that can be used as a more efficient alternative to hyperparameter tuning (e.g. via grid search). We illustrate the capabilities of OGBoost through examples, using the wine quality dataset from the UCI respository. The package is available on PyPI and can be installed via \"pip install ogboost\".",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2511.00052",
+ "title": "Feature-Guided Analysis of Neural Networks: A Replication Study",
+ "authors": [
+  "Federico Formica",
+  "Stefano Gregis",
+  "Aurora Francesca Zanenga",
+  "Andrea Rota",
+  "Mark Lawford",
+  "Claudio Menghi"
+ ],
+ "v1_date": "2025-10-28",
+ "latest_version": 1,
+ "latest_date": "2025-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding why neural networks make certain decisions is pivotal for their use in safety-critical applications. Feature-Guided Analysis (FGA) extracts slices of neural networks relevant to their tasks. Existing feature-guided approaches typically monitor the activation of the neural network neurons to extract the relevant rules. Preliminary results are encouraging and demonstrate the feasibility of this solution by assessing the precision and recall of Feature-Guided Analysis on two pilot case studies. However, the applicability in industrial contexts needs additional empirical evidence. To mitigate this need, this paper assesses the applicability of FGA on a benchmark made by the MNIST and LSC datasets. We assessed the effectiveness of FGA in computing rules that explain the behavior of the neural network. Our results show that FGA has a higher precision on our benchmark than the results from the literature. We also evaluated how the selection of the neural network architecture, training, and feature selection affect the effectiveness of FGA. Our results show that the selection significantly affects the recall of FGA, while it has a negligible impact on its precision.",
+ "primary": "cs.LG"
+}

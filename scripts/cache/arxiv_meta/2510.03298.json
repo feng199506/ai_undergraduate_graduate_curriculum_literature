@@ -1,0 +1,16 @@
+{
+ "id": "2510.03298",
+ "title": "CAFL-L: Constraint-Aware Federated Learning with Lagrangian Dual Optimization for On-Device Language Models",
+ "authors": [
+  "Dongqi Zheng",
+  "Wenjin Fu"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 2,
+ "latest_date": "2025-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by 39th NeurIPS - Constrained Optimization for Machine Learning",
+ "abstract": "We introduce Constraint-Aware Federated Learning with Lagrangian Dual Optimization (CAFL-L), a principled extension of FedAvg that explicitly incorporates device-level resource constraints including energy, communication, memory, and thermal budgets. CAFL-L employs Lagrangian dual optimization to dynamically adapt training hyperparameters -- freezing depth, local steps, batch size, and communication compression -- while preserving training stability through token-budget preservation via gradient accumulation. Experiments on a character-level language model demonstrate that CAFL-L achieves superior constraint satisfaction compared to standard FedAvg (reducing memory usage by 20% and communication by 95%) while maintaining competitive validation performance, making it practical for deployment on resource-constrained edge devices.",
+ "primary": "cs.LG"
+}

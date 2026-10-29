@@ -1,0 +1,18 @@
+{
+ "id": "2511.21871",
+ "title": "Bayesian Risk-averse Model Predictive Control with Consistency and Stability Guarantees",
+ "authors": [
+  "Yingke Li",
+  "Yifan Lin",
+  "Enlu Zhou",
+  "Fumin Zhang"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 1,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model Predictive Control (MPC) is a powerful framework for constrained control, but its performance and safety can be severely degraded when the prediction model is learned online and thus remains uncertain. In this work, we develop a Bayesian risk-averse MPC framework for stochastic, discrete-time, nonlinear systems that provides theoretical guarantees on the consistency of Bayesian learning and closed-loop stability. First, we study Bayesian learning under the conditionally independent state transitions induced by feedback control and establish explicit conditions for Bayesian consistency on an infinitely countable parameter space. Second, we introduce a general notion of risk-averse asymptotic stability (RAAS), defined via comparison function classes and independent of any specific coherent risk measure or convergence rate, and we derive a risk-averse Lyapunov stability theorem together with MPC-specific stability conditions. Third, building on these foundations, we design a practical Bayesian risk-averse MPC scheme that separates epistemic (parametric) and aleatoric (disturbance) uncertainty: additive disturbances are treated in a risk-neutral fashion, while parametric uncertainty is managed via dynamically shrinking ambiguity sets constructed from Bayesian credible intervals, approximated online using particle filtering. To enable real-time implementation, we propose both an optimal and a sub-optimal receding-horizon control policy, the latter obtained by warm-starting from the previous solution, and prove that asymptotic RAAS is recovered as the Bayesian estimator becomes consistent.",
+ "primary": "math.OC"
+}

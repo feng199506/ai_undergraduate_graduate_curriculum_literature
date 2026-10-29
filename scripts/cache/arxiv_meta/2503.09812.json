@@ -1,0 +1,16 @@
+{
+ "id": "2503.09812",
+ "title": "Methods of Selective Inference for Linear Mixed Models: a Review and Empirical Comparison",
+ "authors": [
+  "Matteo D'Alessandro",
+  "Magne Thoresen"
+ ],
+ "v1_date": "2025-03-12",
+ "latest_version": 1,
+ "latest_date": "2025-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 5 figures",
+ "abstract": "Selective inference aims at providing valid inference after a data-driven selection of models or hypotheses. It is essential to avoid overconfident results and replicability issues. While significant advances have been made in this area for standard regression models, relatively little attention has been given to linear mixed models (LMMs), which are widely used for analyzing clustered or longitudinal data. This paper reviews the existing selective inference approaches developed for LMMs, focusing on selection of fixed effects, where the random effects structure is given. We present these methods in detail and, through comparative simulations, assess their practical performance and computational feasibility under varying data structures. In addition, we apply them to a real-world biological dataset to examine how method choice can impact inference in practice. Our findings highlight an existing trade-off between computational complexity and statistical power and emphasize the scarcity of methods that perform well as the number of variables increases. In such scenarios, basic sample splitting emerges as the most reliable approach.",
+ "primary": "stat.ME"
+}

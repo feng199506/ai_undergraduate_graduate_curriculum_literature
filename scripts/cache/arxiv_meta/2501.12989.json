@@ -1,0 +1,17 @@
+{
+ "id": "2501.12989",
+ "title": "Distributed Model Predictive Control Design for Multi-agent Systems via Bayesian Optimization",
+ "authors": [
+  "Hossein Nejatbakhsh Esfahani",
+  "Kai Liu",
+  "Javad Mohammadpour Velni"
+ ],
+ "v1_date": "2025-01-22",
+ "latest_version": 2,
+ "latest_date": "2025-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a new approach that leverages Multi-agent Bayesian Optimization (MABO) to design Distributed Model Predictive Control (DMPC) schemes for multi-agent systems. The primary objective is to learn optimal DMPC schemes even when local model predictive controllers rely on imperfect local models. The proposed method invokes a dual decomposition-based distributed optimization framework, incorporating an Alternating Direction Method of Multipliers (ADMM)-based MABO algorithm to enable coordinated learning of parameterized DMPC schemes. This enhances the closed-loop performance of local controllers, despite discrepancies between their models and the actual multi-agent system dynamics. In addition to the newly proposed algorithms, this work also provides rigorous proofs establishing the optimality and convergence of the underlying learning method. Finally, numerical examples are given to demonstrate the efficacy of the proposed MABO-based learning approach.",
+ "primary": "eess.SY"
+}

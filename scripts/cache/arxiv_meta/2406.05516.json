@@ -1,0 +1,22 @@
+{
+ "id": "2406.05516",
+ "title": "BayesAgent: Bayesian Agentic Reasoning Under Uncertainty via Verbalized Probabilistic Graphical Modeling",
+ "authors": [
+  "Hengguan Huang",
+  "Xing Shen",
+  "Songtao Wang",
+  "Lingfa Meng",
+  "Dianbo Liu",
+  "David Alejandro Duchene",
+  "Hao Wang",
+  "Samir Bhatt"
+ ],
+ "v1_date": "2024-06-08",
+ "latest_version": 4,
+ "latest_date": "2026-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AAAI 2026",
+ "abstract": "Human cognition excels at transcending sensory input and forming latent representations that structure our understanding of the world. While Large Language Model (LLM) agents demonstrate emergent reasoning and decision-making abilities, they lack a principled framework for capturing latent structures and modeling uncertainty. In this work, we explore for the first time how to bridge LLM agents with probabilistic graphical models (PGMs) to address agentic reasoning under uncertainty. To this end, we introduce Verbalized Probabilistic Graphical Modeling (vPGM), a Bayesian agentic framework that (i) guides LLM agents in following key principles of PGMs through natural language and (ii) refines the resulting posterior distributions via numerical Bayesian inference. Unlike many traditional probabilistic methods requiring substantial domain expertise, vPGM bypasses expert-driven model design, making it well-suited for scenarios with limited assumptions. We evaluated our model on several agentic reasoning tasks, both close-ended and open-ended. Our results indicate that the model effectively enhances confidence calibration and text generation quality.",
+ "primary": "cs.LG"
+}

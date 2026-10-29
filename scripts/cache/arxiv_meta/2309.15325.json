@@ -1,0 +1,20 @@
+{
+ "id": "2309.15325",
+ "title": "Neural Operators for Accelerating Scientific Simulations and Design",
+ "authors": [
+  "Kamyar Azizzadenesheli",
+  "Nikola Kovachki",
+  "Zongyi Li",
+  "Miguel Liu-Schiaffini",
+  "Jean Kossaifi",
+  "Anima Anandkumar"
+ ],
+ "v1_date": "2023-09-27",
+ "latest_version": 5,
+ "latest_date": "2024-01-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scientific discovery and engineering design are currently limited by the time and cost of physical experiments, selected mostly through trial-and-error and intuition that require deep domain expertise. Numerical simulations present an alternative to physical experiments but are usually infeasible for complex real-world domains due to the computational requirements of existing numerical methods. Artificial intelligence (AI) presents a potential paradigm shift by developing fast data-driven surrogate models. In particular, an AI framework, known as Neural Operators, presents a principled framework for learning mappings between functions defined on continuous domains, e.g., spatiotemporal processes and partial differential equations (PDE). They can extrapolate and predict solutions at new locations unseen during training, i.e., perform zero-shot super-resolution. Neural Operators can augment or even replace existing simulators in many applications, such as computational fluid dynamics, weather forecasting, and material modeling, while being 4-5 orders of magnitude faster. Further, Neural Operators can be integrated with physics and other domain constraints enforced at finer resolutions to obtain high-fidelity solutions and good generalization. Since Neural Operators are differentiable, they can directly optimize parameters for inverse design and other inverse problems. We believe that Neural Operators present a transformative approach to simulation and design, enabling rapid research and development.",
+ "primary": "cs.LG"
+}

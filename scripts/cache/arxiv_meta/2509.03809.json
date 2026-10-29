@@ -1,0 +1,25 @@
+{
+ "id": "2509.03809",
+ "title": "Align-then-Slide: A complete evaluation framework for Ultra-Long Document-Level Machine Translation",
+ "authors": [
+  "Jiaxin Guo",
+  "Daimeng Wei",
+  "Yuanchang Luo",
+  "Xiaoyu Chen",
+  "Zhanglin Wu",
+  "Huan Yang",
+  "Hengchao Shang",
+  "Zongyao Li",
+  "Zhiqiang Rao",
+  "Jinlong Yang",
+  "Hao Yang"
+ ],
+ "v1_date": "2025-09-04",
+ "latest_version": 1,
+ "latest_date": "2025-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "under preview",
+ "abstract": "Large language models (LLMs) have ushered in a new era for document-level machine translation (\\textit{doc}-mt), yet their whole-document outputs challenge existing evaluation methods that assume sentence-by-sentence alignment. We introduce \\textit{\\textbf{Align-then-Slide}}, a complete evaluation framework for ultra-long doc-mt. In the Align stage, we automatically infer sentence-level source-target correspondences and rebuild the target to match the source sentence number, resolving omissions and many-to-one/one-to-many mappings. In the n-Chunk Sliding Evaluate stage, we calculate averaged metric scores under 1-, 2-, 3- and 4-chunk for multi-granularity assessment. Experiments on the WMT benchmark show a Pearson correlation of 0.929 between our method with expert MQM rankings. On a newly curated real-world test set, our method again aligns closely with human judgments. Furthermore, preference data produced by Align-then-Slide enables effective CPO training and its direct use as a reward model for GRPO, both yielding translations preferred over a vanilla SFT baseline. The results validate our framework as an accurate, robust, and actionable evaluation tool for doc-mt systems.",
+ "primary": "cs.CL"
+}

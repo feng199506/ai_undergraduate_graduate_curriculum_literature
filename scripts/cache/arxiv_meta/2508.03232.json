@@ -1,0 +1,22 @@
+{
+ "id": "2508.03232",
+ "title": "CookBench: A Long-Horizon Embodied Planning Benchmark for Complex Cooking Scenarios",
+ "authors": [
+  "Muzhen Cai",
+  "Xiubo Chen",
+  "Yining An",
+  "Jiaxin Zhang",
+  "Xuesong Wang",
+  "Wang Xu",
+  "Weinan Zhang",
+  "Ting Liu"
+ ],
+ "v1_date": "2025-08-05",
+ "latest_version": 1,
+ "latest_date": "2025-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 5 figures",
+ "abstract": "Embodied Planning is dedicated to the goal of creating agents capable of executing long-horizon tasks in complex physical worlds. However, existing embodied planning benchmarks frequently feature short-horizon tasks and coarse-grained action primitives. To address this challenge, we introduce CookBench, a benchmark for long-horizon planning in complex cooking scenarios. By leveraging a high-fidelity simulation environment built upon the powerful Unity game engine, we define frontier AI challenges in a complex, realistic environment. The core task in CookBench is designed as a two-stage process. First, in Intention Recognition, an agent needs to accurately parse a user's complex intent. Second, in Embodied Interaction, the agent should execute the identified cooking goal through a long-horizon, fine-grained sequence of physical actions. Unlike existing embodied planning benchmarks, we refine the action granularity to a spatial level that considers crucial operational information while abstracting away low-level robotic control. Besides, We provide a comprehensive toolset that encapsulates the simulator. Its unified API supports both macro-level operations, such as placing orders and purchasing ingredients, and a rich set of fine-grained embodied actions for physical interaction, enabling researchers to focus on high-level planning and decision-making. Furthermore, we present an in-depth analysis of state-of-the-art, closed-source Large Language Model and Vision-Language Model, revealing their major shortcomings and challenges posed by complex, long-horizon tasks. The full benchmark will be open-sourced to facilitate future research.",
+ "primary": "cs.RO"
+}

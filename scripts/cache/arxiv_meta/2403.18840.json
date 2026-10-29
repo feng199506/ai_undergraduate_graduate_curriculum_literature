@@ -1,0 +1,22 @@
+{
+ "id": "2403.18840",
+ "title": "An AI-powered Technology Stack for Solving Many-Electron Field Theory",
+ "authors": [
+  "Pengcheng Hou",
+  "Tao Wang",
+  "Daniel Cerkoney",
+  "Xiansheng Cai",
+  "Zhiyi Li",
+  "Youjin Deng",
+  "Lei Wang",
+  "Kun Chen"
+ ],
+ "v1_date": "2024-02-28",
+ "latest_version": 2,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantum field theory (QFT) for interacting many-electron systems is fundamental to condensed matter physics, yet achieving accurate solutions confronts computational challenges in managing the combinatorial complexity of Feynman diagrams, implementing systematic renormalization, and evaluating high-dimensional integrals. We present a unifying framework that integrates QFT computational workflows with an AI-powered technology stack. A cornerstone of this framework is representing Feynman diagrams as computational graphs, which structures the inherent mathematical complexity and facilitates the application of optimized algorithms developed for machine learning and high-performance computing. Consequently, automatic differentiation, native to these graph representations, delivers efficient, fully automated, high-order field-theoretic renormalization procedures. This graph-centric approach also enables sophisticated numerical integration; our neural-network-enhanced Monte Carlo method, accelerated via massively parallel GPU implementation, efficiently evaluates challenging high-dimensional diagrammatic integrals. Applying this framework to the uniform electron gas, we determine the quasiparticle effective mass to a precision significantly surpassing current state-of-the-art simulations. Our work demonstrates the transformative potential of integrating AI-driven computational advances with QFT, opening systematic pathways for solving complex quantum many-body problems across disciplines.",
+ "primary": "hep-th"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2511.10383",
+ "title": "Infinitesimal Operator World Models: Finite-Sample Guarantees for Offline Reinforcement Learning",
+ "authors": [
+  "Nicolas Hoischen",
+  "Petar Bevanda",
+  "Max Beier",
+  "Stefan Sosnowski",
+  "Boris Houska",
+  "Sandra Hirche"
+ ],
+ "v1_date": "2025-11-13",
+ "latest_version": 2,
+ "latest_date": "2026-10-09",
+ "journal_ref": "IEEE Open Journal of Control Systems, 01 October 2026",
+ "doi": "10.1109/ojcsys.2026.3739678",
+ "comment": "",
+ "abstract": "Continuous-time stochastic processes underlie many natural and engineered systems. In healthcare, autonomous driving, and industrial control, direct interaction with the environment is often unsafe or impractical, motivating offline reinforcement learning from historical data. However, there is limited statistical understanding of the approximation errors inherent in learning policies from offline datasets. We address this by linking reinforcement learning to the Hamilton-Jacobi-Bellman equation and proposing an operator-theoretic algorithm based on a simple dynamic programming recursion. Specifically, we represent our world model in terms of the infinitesimal generator of controlled diffusion processes learned in a reproducing kernel Hilbert space. By integrating statistical learning methods and operator theory, we establish global convergence of the value function under sufficiently small generator-approximation error and derive explicit finite-sample guarantees with bounds tied directly to system properties such as smoothness and stability. Our theoretical and proof-of-concept results indicate that operator-based approaches may hold promise for solving offline reinforcement learning using continuous-time optimal control.",
+ "primary": "stat.ML"
+}

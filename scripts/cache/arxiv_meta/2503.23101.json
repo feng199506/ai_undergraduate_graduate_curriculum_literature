@@ -1,0 +1,24 @@
+{
+ "id": "2503.23101",
+ "title": "RL2Grid: Benchmarking Reinforcement Learning in Power Grid Operations",
+ "authors": [
+  "Enrico Marchesini",
+  "Benjamin Donnot",
+  "Constance Crozier",
+  "Ian Dytham",
+  "Christian Merz",
+  "Lars Schewe",
+  "Nico Westerbeck",
+  "Cathy Wu",
+  "Antoine Marot",
+  "Priya L. Donti"
+ ],
+ "v1_date": "2025-03-29",
+ "latest_version": 2,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reinforcement learning (RL) can provide adaptive and scalable controllers essential for power grid decarbonization. However, RL methods struggle with power grids' complex dynamics, long-horizon goals, and hard physical constraints. For these reasons, we present RL2Grid, a benchmark designed in collaboration with power system operators to accelerate progress in grid control and foster RL maturity. Built on RTE France's power simulation framework, RL2Grid standardizes tasks, state and action spaces, and reward structures for a systematic evaluation and comparison of RL algorithms. Moreover, we integrate operational heuristics and design safety constraints based on human expertise to ensure alignment with physical requirements. By establishing reference performance metrics for classic RL baselines on RL2Grid's tasks, we highlight the need for novel methods capable of handling real systems and discuss future directions for RL-based grid control.",
+ "primary": "cs.LG"
+}

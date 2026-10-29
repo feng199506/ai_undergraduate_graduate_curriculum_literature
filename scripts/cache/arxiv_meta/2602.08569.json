@@ -1,0 +1,25 @@
+{
+ "id": "2602.08569",
+ "title": "Towards Reliable Social A/B Testing: Spillover-Contained Clustering with Robust Post-Experiment Analysis",
+ "authors": [
+  "Xu Min",
+  "Zhaoxu Yang",
+  "Kaixuan Tan",
+  "Juan Yan",
+  "Xunbin Xiong",
+  "Zihao Zhu",
+  "Kaiyu Zhu",
+  "Fenglin Cui",
+  "Yang Yang",
+  "Sihua Yang",
+  "Jianhui Bu"
+ ],
+ "v1_date": "2026-02-09",
+ "latest_version": 1,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A/B testing is the foundation of decision-making in online platforms, yet social products often suffer from network interference: user interactions cause treatment effects to spill over into the control group. Such spillovers bias causal estimates and undermine experimental conclusions. Existing approaches face key limitations: user-level randomization ignores network structure, while cluster-based methods often rely on general-purpose clustering that is not tailored for spillover containment and has difficulty balancing unbiasedness and statistical power at scale. We propose a spillover-contained experimentation framework with two stages. In the pre-experiment stage, we build social interaction graphs and introduce a Balanced Louvain algorithm that produces stable, size-balanced clusters while minimizing cross-cluster edges, enabling reliable cluster-based randomization. In the post-experiment stage, we develop a tailored CUPAC estimator that leverages pre-experiment behavioral covariates to reduce the variance induced by cluster-level assignment, thereby improving statistical power. Together, these components provide both structural spillover containment and robust statistical inference. We validate our approach through large-scale social sharing experiments on Kuaishou, a platform serving hundreds of millions of users. Results show that our method substantially reduces spillover and yields more accurate assessments of social strategies than traditional user-level designs, establishing a reliable and scalable framework for networked A/B testing.",
+ "primary": "cs.SI"
+}

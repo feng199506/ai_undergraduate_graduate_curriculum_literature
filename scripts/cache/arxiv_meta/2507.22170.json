@@ -1,0 +1,18 @@
+{
+ "id": "2507.22170",
+ "title": "Stacked SVD or SVD stacked? A Random Matrix Theory perspective on data integration",
+ "authors": [
+  "Tavor Z. Baharav",
+  "Phillip B. Nicol",
+  "Rafael A. Irizarry",
+  "Rong Ma"
+ ],
+ "v1_date": "2025-07-29",
+ "latest_version": 2,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "61 pages. Analysis extended to handle multiple, partially shared components per dataset",
+ "abstract": "Modern data analysis increasingly requires identifying shared latent structure across multiple high-dimensional datasets. A commonly used model assumes that the data matrices are noisy observations of low-rank matrices with a shared singular subspace. In this case, two primary methods have emerged for estimating this shared structure, which vary in how they integrate information across datasets. The first approach, termed Stack-SVD, concatenates all the datasets, and then performs a singular value decomposition (SVD). The second approach, termed SVD-Stack, first performs an SVD separately for each dataset, then aggregates the top singular vectors across these datasets, and finally computes a consensus amongst them. While these methods are widely used, they have not been rigorously studied in the proportional asymptotic regime, which is of great practical relevance in today's world of increasing data size and dimensionality. Consequently, it remains unclear when one method should be preferred over another. In this work, we derive exact expressions for the asymptotic performance and phase transitions of these two methods and develop optimal weighting schemes to further improve both methods. Our analysis reveals that while neither method uniformly dominates the other in the unweighted case, optimally weighted Stack-SVD dominates optimally weighted SVD-Stack when the low rank signal is fully shared across the datasets. We then analyze multiple, partially shared components per dataset and demonstrate that SVD-Stack can yield improved performance without requiring estimation of subspace alignment. Finally, we provide practical algorithms for estimating optimal weights from data, offering theoretical guidance for method selection in practical data integration problems. Extensive numerical simulations and semi-synthetic experiments on genomic data corroborate our theoretical findings.",
+ "primary": "stat.ML"
+}

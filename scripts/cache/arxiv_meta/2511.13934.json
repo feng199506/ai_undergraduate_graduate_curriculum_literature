@@ -1,0 +1,17 @@
+{
+ "id": "2511.13934",
+ "title": "Empirical Likelihood for Random Forests and Ensembles",
+ "authors": [
+  "Harold D. Chiang",
+  "Yukitoshi Matsushita",
+  "Taisuke Otsu"
+ ],
+ "v1_date": "2025-11-17",
+ "latest_version": 1,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 1 figure",
+ "abstract": "We develop an empirical likelihood (EL) framework for random forests and related ensemble methods, providing a likelihood-based approach to quantify their statistical uncertainty. Exploiting the incomplete $U$-statistic structure inherent in ensemble predictions, we construct an EL statistic that is asymptotically chi-squared when subsampling induced by incompleteness is not overly sparse. Under sparser subsampling regimes, the EL statistic tends to over-cover due to loss of pivotality; we therefore propose a modified EL that restores pivotality through a simple adjustment. Our method retains key properties of EL while remaining computationally efficient. Theory for honest random forests and simulations demonstrate that modified EL achieves accurate coverage and practical reliability relative to existing inference methods.",
+ "primary": "stat.ML"
+}

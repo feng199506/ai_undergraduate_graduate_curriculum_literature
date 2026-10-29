@@ -1,0 +1,18 @@
+{
+ "id": "2608.27313",
+ "title": "A Finite-Sample Analysis of Quantile Temporal-Difference Learning",
+ "authors": [
+  "Zijie Cheng",
+  "Xiang Li",
+  "Yang Peng",
+  "Zhihua Zhang"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 2,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantile temporal-difference learning (QTD) is an effective method for learning return distributions through quantile approximation, yet its finite-time behavior remains poorly understood. Its update is nonlinear and nonsmooth, and the stability needed for a sharp convergence rate holds only near the target. We establish a global high-probability last-iterate guarantee for synchronous tabular QTD under general positive, nonincreasing step-size sequences and arbitrary initialization in the natural parameter range. For polynomially decaying step sizes with exponent $a\\in(0,1)$, the last iterate converges to the target at rate $T^{-a/2}$ in the infinity norm, up to logarithmic and lower-order terms. A suitably tuned harmonic schedule recovers the $T^{-1/2}$ statistical rate up to logarithmic factors. For the $m$-quantile representation, its $\\infty$-Wasserstein error scales as $\\sqrt{m/T}$ up to logarithmic factors, matching the leading polynomial dependence on the quantile resolution and sample size of the corresponding model-based estimator. The proof uses a two-stage global-to-local argument. From arbitrary initialization, Bellman contraction and CDF monotonicity first bring the iterate close to the target, after which, a novel variance--drift matching argument sharpens the control of accumulated noise and local contraction reduces the remaining errors, yielding the sharp rate. Simulations verify the predicted polynomial decay and assess the finite-time entrance bound.",
+ "primary": "stat.ML"
+}

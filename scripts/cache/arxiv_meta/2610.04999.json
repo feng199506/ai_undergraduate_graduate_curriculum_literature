@@ -1,0 +1,18 @@
+{
+ "id": "2610.04999",
+ "title": "Beyond Overparameterization: Provable Learning of Input-Convex Multi-Layer Polynomial Networks with Active Queries",
+ "authors": [
+  "Jinqi Tang",
+  "Qian Chen",
+  "Shihong Ding",
+  "Cong Fang"
+ ],
+ "v1_date": "2026-10-04",
+ "latest_version": 1,
+ "latest_date": "2026-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The theoretical understanding of multi-layer neural networks is largely confined to overparameterized settings, which obscure parameter identifiability and incur high sample complexity. Neural tangent kernel (NTK) provides a general theory for wide networks, but does not offer efficient sample-complexity guarantees. Recent feature-learning results go beyond kernel methods for single-neuron, multi-index, and hierarchical targets. However, the analysis is often restricted to shallow or specific architectures and to the overparameterized regime. We break this paradigm to achieve parameter-level recovery of deep target networks, albeit by using active data queries. Specifically, we study $L$-layer polynomial networks with even degree-$k$ monomial activations and nonnegative higher-layer weights. This structure makes the target network input-convex, while the optimization landscape remains highly nonconvex with respect to the parameters. Leveraging input convexity and active queries, we propose \\textbf{ASPIRE} (\\textbf{A}ctive \\textbf{S}am\\textbf{P}ling for \\textbf{I}terative \\textbf{R}ecovery via \\textbf{E}igendirections), a layerwise sampling-based diagonalization algorithm that recovers all network parameters to $δ$-accuracy with sample complexity $ \\widetilde O_{k,L}\\left(d^{L^2+O(L)}δ^{-2e}\\right) $ in polynomial time. To our knowledge, this is the \\emph{first} parameter-recovery guarantee for deep target networks whose exponent grows only polynomially with depth, as well as the \\emph{first} justification for the effectiveness of using high-quality data in neural network training, with a remarkably \\emph{exponential} separation.",
+ "primary": "cs.LG"
+}

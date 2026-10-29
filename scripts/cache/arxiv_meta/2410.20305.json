@@ -1,0 +1,16 @@
+{
+ "id": "2410.20305",
+ "title": "Accelerating Direct Preference Optimization with Prefix Sharing",
+ "authors": [
+  "Franklin Wang",
+  "Sumanth Hegde"
+ ],
+ "v1_date": "2024-10-27",
+ "latest_version": 2,
+ "latest_date": "2024-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in NeurIPS 2024 in the Fine-Tuning in Machine Learning Workshop",
+ "abstract": "Offline paired preference optimization algorithms have become a popular approach for fine-tuning on preference data, outperforming traditional supervised fine-tuning in various tasks. However, traditional implementations often involve redundant computations, especially for tasks with long shared prompts. We introduce prefix sharing for preference tuning, a novel technique that processes chosen and rejected responses as one sequence with a shared prefix. To prevent cross-response contamination, we use a custom block-sparse attention mask. Our method achieves $1.1$-$1.5\\times$ improvement in training throughput on popular DPO datasets, without any effect on convergence. When combined with sequence packing, we observe consistent $1.3$-$1.6\\times$ speedups, benefiting even datasets with smaller sequence lengths. While we focus on Direct Preference Optimization (DPO), our approach is applicable to other paired preference tuning methods. By enhancing computational efficiency, our work contributes to making preference-based fine-tuning more accessible for a wider range of applications and model sizes. We open-source our code at https://github.com/frankxwang/dpo-prefix-sharing.",
+ "primary": "cs.LG"
+}

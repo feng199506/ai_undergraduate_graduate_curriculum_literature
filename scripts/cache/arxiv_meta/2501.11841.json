@@ -1,0 +1,15 @@
+{
+ "id": "2501.11841",
+ "title": "Survey on Monocular Metric Depth Estimation",
+ "authors": [
+  "Jiuling Zhang"
+ ],
+ "v1_date": "2025-01-21",
+ "latest_version": 4,
+ "latest_date": "2025-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Monocular Depth Estimation (MDE) enables spatial understanding, 3D reconstruction, and autonomous navigation, yet deep learning approaches often predict only relative depth without a consistent metric scale. This limitation reduces reliability in applications such as visual SLAM, precise 3D modeling, and view synthesis. Monocular Metric Depth Estimation (MMDE) overcomes this challenge by producing depth maps with absolute scale, ensuring geometric consistency and enabling deployment without additional calibration. This survey reviews the evolution of MMDE, from geometry-based methods to state-of-the-art deep models, with emphasis on the datasets that drive progress. Key benchmarks, including KITTI, NYU-D, ApolloScape, and TartanAir, are examined in terms of modality, scene type, and application domain. Methodological advances are analyzed, covering domain generalization, boundary preservation, and the integration of synthetic and real data. Techniques such as unsupervised and semi-supervised learning, patch-based inference, architectural innovations, and generative modeling are evaluated for their strengths and limitations. By synthesizing current progress, highlighting the importance of high-quality datasets, and identifying open challenges, this survey provides a structured reference for advancing MMDE and supporting its adoption in real-world computer vision systems.",
+ "primary": "cs.CV"
+}

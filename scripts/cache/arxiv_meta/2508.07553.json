@@ -1,0 +1,16 @@
+{
+ "id": "2508.07553",
+ "title": "Efficient adaptive randomized algorithms for fixed-threshold low-rank matrix approximation",
+ "authors": [
+  "Qiaohua Liu",
+  "Yuejuan Yu"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 1,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The low-rank matrix approximation problems within a threshold are widely applied in information retrieval, image processing, background estimation of the video sequence problems and so on. This paper presents an adaptive randomized rank-revealing algorithm of the data matrix $A$, in which the basis matrix $Q$ of the approximate range space is adaptively built block by block, through a recursive deflation procedure on $A$. Detailed analysis of randomized projection schemes are provided to analyze the numerical rank reduce during the deflation. The provable spectral and Frobenius error $(I-QQ^T)A$ of the approximate low-rank matrix $\\tilde A=QQ^TA$ are presented, as well as the approximate singular values. This blocked deflation technique is pass-efficient and can accelerate practical computations of large matrices. Applied to image processing and background estimation problems, the blocked randomized algorithm behaves more reliable and more efficient than the known Lanczos-based method and a rank-revealing algorithm proposed by Lee, Li and Zeng (in SIAM J. Matrix Anal. Appl. 31 (2009), pp. 503-525).",
+ "primary": "math.NA"
+}

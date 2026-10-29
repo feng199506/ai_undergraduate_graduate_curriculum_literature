@@ -1,0 +1,18 @@
+{
+ "id": "2508.04293",
+ "title": "Comparative Analysis of Novel NIRMAL Optimizer Against Adam and SGD with Momentum",
+ "authors": [
+  "Nirmal Gaud",
+  "Surej Mouli",
+  "Preeti Katiyar",
+  "Vaduguru Venkata Ramya"
+ ],
+ "v1_date": "2025-08-06",
+ "latest_version": 1,
+ "latest_date": "2025-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 12 figures",
+ "abstract": "This study proposes NIRMAL (Novel Integrated Robust Multi-Adaptation Learning), a novel optimization algorithm that combines multiple strategies inspired by the movements of the chess piece. These strategies include gradient descent, momentum, stochastic perturbations, adaptive learning rates, and non-linear transformations. We carefully evaluated NIRMAL against two widely used and successful optimizers, Adam and SGD with Momentum, on four benchmark image classification datasets: MNIST, FashionMNIST, CIFAR-10, and CIFAR-100. The custom convolutional neural network (CNN) architecture is applied on each dataset. The experimental results show that NIRMAL achieves competitive performance, particularly on the more challenging CIFAR-100 dataset, where it achieved a test accuracy of 45.32\\%and a weighted F1-score of 0.4328. This performance surpasses Adam (41.79\\% accuracy, 0.3964 F1-score) and closely matches SGD with Momentum (46.97\\% accuracy, 0.4531 F1-score). Also, NIRMAL exhibits robust convergence and strong generalization capabilities, especially on complex datasets, as evidenced by stable training results in loss and accuracy curves. These findings underscore NIRMAL's significant ability as a versatile and effective optimizer for various deep learning tasks.",
+ "primary": "cs.IR"
+}

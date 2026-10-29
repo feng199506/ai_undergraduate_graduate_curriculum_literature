@@ -1,0 +1,18 @@
+{
+ "id": "2510.11586",
+ "title": "Survey Response Generation: Generating Closed-Ended Survey Responses In-Silico with Large Language Models",
+ "authors": [
+  "Georg Ahnert",
+  "Anna-Carolina Haensch",
+  "Barbara Plank",
+  "Markus Strohmaier"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 2,
+ "latest_date": "2026-04-24",
+ "journal_ref": "ACL 2026",
+ "doi": "10.18653/v1/2026.acl-long.1927",
+ "comment": "",
+ "abstract": "Many in-silico simulations of human survey responses with large language models (LLMs) focus on generating closed-ended survey responses, whereas LLMs are typically trained to generate open-ended text instead. Previous research has used a diverse range of methods for generating closed-ended survey responses with LLMs, and a standard practice remains to be identified. In this paper, we systematically investigate the impact that various Survey Response Generation Methods have on predicted survey responses. We present the results of 32 mio. simulated survey responses across 8 Survey Response Generation Methods, 4 political attitude surveys, and 10 open-weight language models. We find significant differences between the Survey Response Generation Methods in both individual-level and subpopulation-level alignment. Our results show that Restricted Generation Methods perform best overall, and that reasoning output does not consistently improve alignment. Our work underlines the significant impact that Survey Response Generation Methods have on simulated survey responses, and we develop practical recommendations on the application of Survey Response Generation Methods.",
+ "primary": "cs.CL"
+}

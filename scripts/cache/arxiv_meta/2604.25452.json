@@ -1,0 +1,20 @@
+{
+ "id": "2604.25452",
+ "title": "Benchmarking Logistic Regression, SVM, and LightGBM Against BiLSTM with Attention for Sentiment Analysis on Indonesian Product Reviews",
+ "authors": [
+  "Razin Hafid Hamdi",
+  "Ivana Margareth Hutabarat",
+  "Hanna Gresia Sinaga",
+  "Luluk Muthoharoh",
+  "Ardika Satria",
+  "Martin C. T. Manullang"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 1,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 2 figures. Benchmarking study comparing PyCaret-based machine learning models (Logistic Regression, SVM, LightGBM) with a BiLSTM+Attention model for sentiment analysis on Indonesian product reviews",
+ "abstract": "Sentiment analysis of product reviews on e-commerce platforms plays a critical role in automatically understanding customer satisfaction and providing actionable insights for sellers seeking to improve product quality. This paper presents a comprehensive benchmarking study comparing a Machine Learning (ML) approach via the PyCaret AutoML framework against a Deep Learning (DL) approach based on a Bidirectional Long Short-Term Memory (BiLSTM) architecture with an Attention mechanism for binary sentiment classification on Indonesian product reviews. The dataset comprises 19,728 samples balanced equally between positive and negative reviews. For the ML approach, three prominent algorithms were evaluated via 10-fold stratified cross-validation: Logistic Regression (LR), Support Vector Machine (SVM) with a linear kernel, and Light Gradient Boosting Machine (LightGBM). Logistic Regression achieved the best ML performance with an accuracy of 97.26\\% and an F1-score of 97.26\\%. The BiLSTM with Attention model, evaluated on 3,946 held-out test samples, achieved an accuracy of 97.24\\% and an F1-score of 97.24\\%. These comparative results demonstrate that traditional ML algorithms with proper preprocessing and feature extraction can compete closely with, and even marginally outperform, more complex sequential DL architectures on high-dimensional datasets, while simultaneously offering greater computational efficiency.",
+ "primary": "cs.CL"
+}

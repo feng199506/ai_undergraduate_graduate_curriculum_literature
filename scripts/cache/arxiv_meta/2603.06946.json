@@ -1,0 +1,17 @@
+{
+ "id": "2603.06946",
+ "title": "Joint MDPs and Reinforcement Learning in Coupled-Dynamics Environments",
+ "authors": [
+  "Ege C. Kaya",
+  "Mahsa Ghasemi",
+  "Abolfazl Hashemi"
+ ],
+ "v1_date": "2026-03-06",
+ "latest_version": 2,
+ "latest_date": "2026-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 7 figures. To be presented at UAI 2026",
+ "abstract": "Many distributional quantities in reinforcement learning are intrinsically joint across actions, including distributions of gaps and probabilities of superiority. However, the classical Markov decision process (MDP) formalism specifies only marginal laws and leaves the joint law of counterfactual one-step outcomes across multiple possible actions at a state unspecified. We study coupled-dynamics environments with a multi-action generative interface which can sample counterfactual one-step outcomes for multiple actions under shared exogenous randomness. We propose joint MDPs (JMDPs) as a formalism for such environments by augmenting an MDP with a multi-action sample transition model which specifies a coupling of one-step counterfactual outcomes, while preserving standard MDP interaction as marginal observations. We adopt and formalize a one-step coupling regime where dependence across actions is confined to immediate counterfactual outcomes at the queried state. In this regime, we derive Bellman operators for $n$th-order return moments, providing dynamic programming and incremental algorithms with convergence guarantees.",
+ "primary": "cs.LG"
+}

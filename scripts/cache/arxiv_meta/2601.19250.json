@@ -1,0 +1,18 @@
+{
+ "id": "2601.19250",
+ "title": "Precision-induced Adaptive Randomized Low-Rank Approximation for SVD and Matrix Inversion",
+ "authors": [
+  "Weiwei Xu",
+  "Weijie Shen",
+  "Zhengjian Bai",
+  "Chen Xu"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 1,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Singular value decomposition (SVD) and matrix inversion are ubiquitous in scientific computing. Both tasks are computationally demanding for large scale matrices. Existing algorithms can approximatively solve these problems with a given rank, which however is unknown in practice and requires considerable cost for tuning. In this paper, we tackle the SVD and matrix inversion problems from a new angle, where the optimal rank for the approximate solution is explicitly guided by the distribution of the singular values. Under the framework, we propose a precision-induced random re-normalization procedure for the considered problems without the need of guessing a good rank. The new algorithms built upon the procedure simultaneously calculate the optimal rank for the task at a desired precision level and lead to the corresponding approximate solution with a substantially reduced computational cost. The promising performance of the new algorithms is supported by both theory and numerical examples.",
+ "primary": "math.NA"
+}

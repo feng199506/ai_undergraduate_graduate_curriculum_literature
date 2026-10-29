@@ -1,0 +1,17 @@
+{
+ "id": "2407.13490",
+ "title": "Combining Constraint Programming Reasoning with Large Language Model Predictions",
+ "authors": [
+  "Florian Régin",
+  "Elisabetta De Maria",
+  "Alexandre Bonlarron"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 1,
+ "latest_date": "2024-07-18",
+ "journal_ref": "In 30th International Conference on Principles and Practice of Constraint Programming (CP 2024). Leibniz International Proceedings in Informatics (LIPIcs), Volume 307, pp. 25:1-25:18, Schloss Dagstuhl - Leibniz-Zentrum fur Informatik (2024)",
+ "doi": "10.4230/lipics.cp.2024.25",
+ "comment": "To appear at The 30th International Conference on Principles and Practice of Constraint Programming (CP 2024)",
+ "abstract": "Constraint Programming (CP) and Machine Learning (ML) face challenges in text generation due to CP's struggle with implementing \"meaning'' and ML's difficulty with structural constraints. This paper proposes a solution by combining both approaches and embedding a Large Language Model (LLM) in CP. The LLM handles word generation and meaning, while CP manages structural constraints. This approach builds on GenCP, an improved version of On-the-fly Constraint Programming Search (OTFS) using LLM-generated domains. Compared to Beam Search (BS), a standard NLP method, this combined approach (GenCP with LLM) is faster and produces better results, ensuring all constraints are satisfied. This fusion of CP and ML presents new possibilities for enhancing text generation under constraints.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2506.17634",
+ "title": "Scalable Machine Learning Algorithms using Path Signatures",
+ "authors": [
+  "Csaba Tóth"
+ ],
+ "v1_date": "2025-06-21",
+ "latest_version": 2,
+ "latest_date": "2025-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "PhD thesis",
+ "abstract": "The interface between stochastic analysis and machine learning is a rapidly evolving field, with path signatures - iterated integrals that provide faithful, hierarchical representations of paths - offering a principled and universal feature map for sequential and structured data. Rooted in rough path theory, path signatures are invariant to reparameterization and well-suited for modelling evolving dynamics, long-range dependencies, and irregular sampling - common challenges in real-world time series and graph data. This thesis investigates how to harness the expressive power of path signatures within scalable machine learning pipelines. It introduces a suite of models that combine theoretical robustness with computational efficiency, bridging rough path theory with probabilistic modelling, deep learning, and kernel methods. Key contributions include: Gaussian processes with signature kernel-based covariance functions for uncertainty-aware time series modelling; the Seq2Tens framework, which employs low-rank tensor structure in the weight space for scalable deep modelling of long-range dependencies; and graph-based models where expected signatures over graphs induce hypo-elliptic diffusion processes, offering expressive yet tractable alternatives to standard graph neural networks. Further developments include Random Fourier Signature Features, a scalable kernel approximation with theoretical guarantees, and Recurrent Sparse Spectrum Signature Gaussian Processes, which combine Gaussian processes, signature kernels, and random features with a principled forgetting mechanism for multi-horizon time series forecasting with adaptive context length. We hope this thesis serves as both a methodological toolkit and a conceptual bridge, and provides a useful reference for the current state of the art in scalable, signature-based learning for sequential and structured data.",
+ "primary": "stat.ML"
+}

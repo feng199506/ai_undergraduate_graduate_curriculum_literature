@@ -1,0 +1,20 @@
+{
+ "id": "2601.01827",
+ "title": "Aspect Extraction from E-Commerce Product and Service Reviews",
+ "authors": [
+  "Valiant Lance D. Dionela",
+  "Fatima Kriselle S. Dy",
+  "Robin James M. Hombrebueno",
+  "Aaron Rae M. Nicolas",
+  "Charibeth K. Cheng",
+  "Raphael W. Gonda"
+ ],
+ "v1_date": "2026-01-05",
+ "latest_version": 1,
+ "latest_date": "2026-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Aspect Extraction (AE) is a key task in Aspect-Based Sentiment Analysis (ABSA), yet it remains difficult to apply in low-resource and code-switched contexts like Taglish, a mix of Tagalog and English commonly used in Filipino e-commerce reviews. This paper introduces a comprehensive AE pipeline designed for Taglish, combining rule-based, large language model (LLM)-based, and fine-tuning techniques to address both aspect identification and extraction. A Hierarchical Aspect Framework (HAF) is developed through multi-method topic modeling, along with a dual-mode tagging scheme for explicit and implicit aspects. For aspect identification, four distinct models are evaluated: a Rule-Based system, a Generative LLM (Gemini 2.0 Flash), and two Fine-Tuned Gemma-3 1B models trained on different datasets (Rule-Based vs. LLM-Annotated). Results indicate that the Generative LLM achieved the highest performance across all tasks (Macro F1 0.91), demonstrating superior capability in handling implicit aspects. In contrast, the fine-tuned models exhibited limited performance due to dataset imbalance and architectural capacity constraints. This work contributes a scalable and linguistically adaptive framework for enhancing ABSA in diverse, code-switched environments.",
+ "primary": "cs.CL"
+}

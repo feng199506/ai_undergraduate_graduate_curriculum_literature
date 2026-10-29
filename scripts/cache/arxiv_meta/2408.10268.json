@@ -1,0 +1,17 @@
+{
+ "id": "2408.10268",
+ "title": "Generating Streamlining Constraints with Large Language Models",
+ "authors": [
+  "Florentina Voboril",
+  "Vaidyanathan Peruvemba Ramaswamy",
+  "Stefan Szeider"
+ ],
+ "v1_date": "2024-08-16",
+ "latest_version": 3,
+ "latest_date": "2025-11-18",
+ "journal_ref": "F. Voboril, V. P. Ramaswamy, S. Szeider, Generating Streamlining Constraints with Large Language Models, Journal of Artificial Intelligence Research, volume 84, pages 16:1-16:19, 2025",
+ "doi": "10.1613/jair.1.18965",
+ "comment": "23 page; deeper analysis of streamliners and statistics about benchmark instances added",
+ "abstract": "Streamlining constraints (or streamliners, for short) narrow the search space, enhancing the speed and feasibility of solving complex constraint satisfaction problems. Traditionally, streamliners were crafted manually or generated through systematically combined atomic constraints with high-effort offline testing. Our approach utilizes the creativity of Large Language Models (LLMs) to propose effective streamliners for problems specified in the MiniZinc constraint programming language and integrates feedback to the LLM with quick empirical tests for validation. Evaluated across seven diverse constraint satisfaction problems, our method achieves substantial runtime reductions. We compare the results to obfuscated and disguised variants of the problem to see whether the results depend on LLM memorization. We also analyze whether longer off-line runs improve the quality of streamliners and whether the LLM can propose good combinations of streamliners.",
+ "primary": "cs.SE"
+}

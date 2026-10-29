@@ -1,0 +1,17 @@
+{
+ "id": "2606.20195",
+ "title": "On the Robustness of Sparse Randomized Sketching to FP16 Rounding on GPUs",
+ "authors": [
+  "Aryaman Jeendgar",
+  "Clément Flint",
+  "Hartwig Anzt"
+ ],
+ "v1_date": "2026-06-18",
+ "latest_version": 2,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 7 figures",
+ "abstract": "Randomized sketching replaces large matrices with smaller surrogates that preserve geometry for downstream numerical linear algebra. Sparse sketches promise faster formation than dense projections, but irregular GPU atomic updates become costly when each input row contributes to several output rows, as in SparseStack. FP16 accumulation halves sketch storage and update traffic, relieving cache pressure. How much does this rounding affect sketch geometry and downstream accuracy? For SparseStack with four nonzeros per column, cuSPARSE's FP16 path is slower than its FP32 baseline. Our custom kernel instead pairs FP32 inputs and signed products with packed FP16 vector atomic accumulation, turning lower precision into substantial gains. On NVIDIA H200, it forms complete sketches up to $1.91\\times$ faster than our FP32 baseline and up to $1.58\\times$ faster than cuSPARSE FP32. Under stated independence and range assumptions, random sketch signs cancel round-to-nearest conversion-error cross terms, giving expected squared Frobenius error no greater than ideal stochastic rounding. We assess accumulation empirically. At a sketch dimension of twice the number of input columns, the least-squares pipeline is $1.44$-$1.47\\times$ faster than FP32, with median paired residual increases below $0.4\\%$. Rescaling exposes range limitations and cases where stochastic conversion degrades accuracy.",
+ "primary": "cs.PF"
+}

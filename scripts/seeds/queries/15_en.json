@@ -1,0 +1,21 @@
+[
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:\"signal processing\" AND (abs:\"machine learning\" OR abs:\"deep learning\")", "subtopic": "信号处理与机器学习"},
+ {"q": "(ti:tutorial OR ti:primer OR ti:\"lecture notes\") AND (abs:\"signal processing\" OR abs:\"Fourier\" OR abs:wavelet)", "subtopic": "信号处理基础"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"time series forecasting\"", "subtopic": "时间序列预测"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"time series\" AND (abs:\"foundation model\" OR abs:\"large language model\")", "subtopic": "时间序列基础模型"},
+ {"q": "abs:\"time series\" AND abs:\"foundation model\" AND abs:\"zero-shot\" AND abs:forecasting AND cat:cs.LG", "subtopic": "时间序列基础模型"},
+ {"q": "(ti:benchmark OR ti:evaluation) AND abs:\"time series\" AND (abs:forecasting OR abs:\"anomaly detection\")", "subtopic": "评测与基准"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"time series anomaly detection\"", "subtopic": "异常检测"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"time series\" AND (abs:classification OR abs:\"representation learning\" OR abs:\"self-supervised\")", "subtopic": "时间序列分析"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"state space model\" OR abs:\"Kalman filter\") AND abs:\"time series\"", "subtopic": "状态空间"},
+ {"q": "(ti:tutorial OR ti:introduction OR ti:primer) AND (abs:\"Kalman filter\" OR abs:\"Bayesian filtering\" OR abs:\"particle filter\")", "subtopic": "状态空间"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"spatio-temporal\" OR abs:spatiotemporal) AND (abs:\"deep learning\" OR abs:\"graph neural\")", "subtopic": "时空建模"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"time series\" AND (abs:imputation OR abs:\"irregularly sampled\" OR abs:\"missing values\")", "subtopic": "时间序列分析"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"time series\" AND (abs:diffusion OR abs:generative)", "subtopic": "时间序列分析"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"time series\" AND abs:transformer", "subtopic": "时间序列预测"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"probabilistic forecasting\"", "subtopic": "时间序列预测"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"change point detection\" OR abs:\"causal discovery\") AND abs:\"time series\"", "subtopic": "时间序列分析"},
+ {"q": "(ti:survey OR ti:review) AND (abs:EEG OR abs:\"audio signal\" OR abs:\"speech signal\" OR abs:radar) AND abs:\"deep learning\" AND cat:eess.SP", "subtopic": "信号处理与机器学习"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"graph signal processing\" OR abs:\"compressed sensing\" OR abs:\"sparse representation\")", "subtopic": "信号处理基础"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"weather forecasting\" AND abs:\"machine learning\"", "subtopic": "时空建模"}
+]

@@ -1,0 +1,17 @@
+{
+ "id": "2405.19345",
+ "title": "Review of Deep Representation Learning Techniques for Brain-Computer Interfaces and Recommendations",
+ "authors": [
+  "Pierre Guetschel",
+  "Sara Ahmadi",
+  "Michael Tangermann"
+ ],
+ "v1_date": "2024-05-17",
+ "latest_version": 1,
+ "latest_date": "2024-05-17",
+ "journal_ref": "Journal of Neural Engineering (2024)",
+ "doi": "10.1088/1741-2552/ad8962",
+ "comment": "Submitted to: Journal of Neural Engineering (JNE)",
+ "abstract": "In the field of brain-computer interfaces (BCIs), the potential for leveraging deep learning techniques for representing electroencephalogram (EEG) signals has gained substantial interest. This review synthesizes empirical findings from a collection of articles using deep representation learning techniques for BCI decoding, to provide a comprehensive analysis of the current state-of-the-art. Each article was scrutinized based on three criteria: (1) the deep representation learning technique employed, (2) the underlying motivation for its utilization, and (3) the approaches adopted for characterizing the learned representations. Among the 81 articles finally reviewed in depth, our analysis reveals a predominance of 31 articles using autoencoders. We identified 13 studies employing self-supervised learning (SSL) techniques, among which ten were published in 2022 or later, attesting to the relative youth of the field. However, at the time being, none of these have led to standard foundation models that are picked up by the BCI community. Likewise, only a few studies have introspected their learned representations. We observed that the motivation in most studies for using representation learning techniques is for solving transfer learning tasks, but we also found more specific motivations such as to learn robustness or invariances, as an algorithmic bridge, or finally to uncover the structure of the data. Given the potential of foundation models to effectively tackle these challenges, we advocate for a continued dedication to the advancement of foundation models specifically designed for EEG signal decoding by using SSL techniques. We also underline the imperative of establishing specialized benchmarks and datasets to facilitate the development and continuous improvement of such foundation models.",
+ "primary": "eess.SP"
+}

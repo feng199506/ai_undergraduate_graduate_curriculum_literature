@@ -1,0 +1,17 @@
+{
+ "id": "2403.16508",
+ "title": "Return to Tradition: Learning Reliable Heuristics with Classical Machine Learning",
+ "authors": [
+  "Dillon Z. Chen",
+  "Felipe Trevizan",
+  "Sylvie Thiébaux"
+ ],
+ "v1_date": "2024-03-25",
+ "latest_version": 1,
+ "latest_date": "2024-03-25",
+ "journal_ref": "",
+ "doi": "10.1609/icaps.v34i1.31462",
+ "comment": "Extended version of ICAPS 2024 paper",
+ "abstract": "Current approaches for learning for planning have yet to achieve competitive performance against classical planners in several domains, and have poor overall performance. In this work, we construct novel graph representations of lifted planning tasks and use the WL algorithm to generate features from them. These features are used with classical machine learning methods which have up to 2 orders of magnitude fewer parameters and train up to 3 orders of magnitude faster than the state-of-the-art deep learning for planning models. Our novel approach, WL-GOOSE, reliably learns heuristics from scratch and outperforms the $h^{\\text{FF}}$ heuristic in a fair competition setting. It also outperforms or ties with LAMA on 4 out of 10 domains on coverage and 7 out of 10 domains on plan quality. WL-GOOSE is the first learning for planning model which achieves these feats. Furthermore, we study the connections between our novel WL feature generation method, previous theoretically flavoured learning architectures, and Description Logic Features for planning.",
+ "primary": "cs.AI"
+}

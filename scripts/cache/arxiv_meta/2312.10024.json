@@ -1,0 +1,20 @@
+{
+ "id": "2312.10024",
+ "title": "Accelerating Neural Network Training: A Brief Review",
+ "authors": [
+  "Sahil Nokhwal",
+  "Priyanka Chilakalapudi",
+  "Preeti Donekal",
+  "Suman Nokhwal",
+  "Saurabh Pahune",
+  "Ankit Chaudhary"
+ ],
+ "v1_date": "2023-12-15",
+ "latest_version": 2,
+ "latest_date": "2023-12-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The process of training a deep neural network is characterized by significant time requirements and associated costs. Although researchers have made considerable progress in this area, further work is still required due to resource constraints. This study examines innovative approaches to expedite the training process of deep neural networks (DNN), with specific emphasis on three state-of-the-art models such as ResNet50, Vision Transformer (ViT), and EfficientNet. The research utilizes sophisticated methodologies, including Gradient Accumulation (GA), Automatic Mixed Precision (AMP), and Pin Memory (PM), in order to optimize performance and accelerate the training procedure. The study examines the effects of these methodologies on the DNN models discussed earlier, assessing their efficacy with regard to training rate and computational efficacy. The study showcases the efficacy of including GA as a strategic approach, resulting in a noteworthy decrease in the duration required for training. This enables the models to converge at a faster pace. The utilization of AMP enhances the speed of computations by taking advantage of the advantages offered by lower precision arithmetic while maintaining the correctness of the model. Furthermore, this study investigates the application of Pin Memory as a strategy to enhance the efficiency of data transmission between the central processing unit and the graphics processing unit, thereby offering a promising opportunity for enhancing overall performance. The experimental findings demonstrate that the combination of these sophisticated methodologies significantly accelerates the training of DNNs, offering vital insights for experts seeking to improve the effectiveness of deep learning processes.",
+ "primary": "cs.LG"
+}

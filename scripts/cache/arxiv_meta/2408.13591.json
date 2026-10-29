@@ -1,0 +1,16 @@
+{
+ "id": "2408.13591",
+ "title": "Optimal Kernel Quantile Learning with Random Features",
+ "authors": [
+  "Caixing Wang",
+  "Xingdong Feng"
+ ],
+ "v1_date": "2024-08-24",
+ "latest_version": 2,
+ "latest_date": "2025-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Fix some typos and errors",
+ "abstract": "The random feature (RF) approach is a well-established and efficient tool for scalable kernel methods, but existing literature has primarily focused on kernel ridge regression with random features (KRR-RF), which has limitations in handling heterogeneous data with heavy-tailed noises. This paper presents a generalization study of kernel quantile regression with random features (KQR-RF), which accounts for the non-smoothness of the check loss in KQR-RF by introducing a refined error decomposition and establishing a novel connection between KQR-RF and KRR-RF. Our study establishes the capacity-dependent learning rates for KQR-RF under mild conditions on the number of RFs, which are minimax optimal up to some logarithmic factors. Importantly, our theoretical results, utilizing a data-dependent sampling strategy, can be extended to cover the agnostic setting where the target quantile function may not precisely align with the assumed kernel space. By slightly modifying our assumptions, the capacity-dependent error analysis can also be applied to cases with Lipschitz continuous losses, enabling broader applications in the machine learning community. To validate our theoretical findings, simulated experiments and a real data application are conducted.",
+ "primary": "stat.ML"
+}

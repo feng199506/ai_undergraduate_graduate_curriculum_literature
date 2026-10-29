@@ -1,0 +1,19 @@
+{
+ "id": "2408.06687",
+ "title": "Masked Image Modeling: A Survey",
+ "authors": [
+  "Vlad Hondru",
+  "Florinel Alin Croitoru",
+  "Shervin Minaee",
+  "Radu Tudor Ionescu",
+  "Nicu Sebe"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 3,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the International Journal of Computer Vision",
+ "abstract": "In this work, we survey recent studies on masked image modeling (MIM), an approach that emerged as a powerful self-supervised learning technique in computer vision. The MIM task involves masking some information, e.g. pixels, patches, or even latent representations, and training a model, usually an autoencoder, to predicting the missing information by using the context available in the visible part of the input. We identify and formalize two categories of approaches on how to implement MIM as a pretext task, one based on reconstruction and one based on contrastive learning. Then, we construct a taxonomy and review the most prominent papers in recent years. We complement the manually constructed taxonomy with a dendrogram obtained by applying a hierarchical clustering algorithm. We further identify relevant clusters via manually inspecting the resulting dendrogram. Our review also includes datasets that are commonly used in MIM research. We aggregate the performance results of various masked image modeling methods on the most popular datasets, to facilitate the comparison of competing methods. Finally, we identify research gaps and propose several interesting directions of future work. We supplement our survey with the following public repository containing organized references: https://github.com/vladhondru25/MIM-Survey.",
+ "primary": "cs.CV"
+}

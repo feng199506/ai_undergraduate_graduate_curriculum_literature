@@ -1,0 +1,20 @@
+[
+ {"q": "abs:reproducibility AND abs:\"machine learning research\"", "subtopic": "可复现性"},
+ {"q": "(ti:reproducibility OR ti:replicability) AND cat:cs.LG", "subtopic": "可复现性"},
+ {"q": "(ti:evaluation OR ti:benchmarking) AND abs:\"statistical significance\" AND cat:cs.LG", "subtopic": "ML 评测规范与统计严谨性"},
+ {"q": "abs:\"evaluation practices\" AND (cat:cs.LG OR cat:cs.CL)", "subtopic": "ML 评测规范与统计严谨性"},
+ {"q": "(ti:benchmark AND (ti:design OR ti:validity OR ti:critique OR ti:pitfalls)) AND (cat:cs.LG OR cat:cs.CL OR cat:cs.AI)", "subtopic": "基准设计与批判"},
+ {"q": "abs:\"benchmark contamination\" OR abs:\"data contamination\" AND abs:evaluation", "subtopic": "基准设计与批判"},
+ {"q": "(abs:\"dataset documentation\" OR abs:\"datasheets\" OR abs:\"data cards\") AND (cat:cs.LG OR cat:cs.CY)", "subtopic": "数据集设计与文档化"},
+ {"q": "abs:\"ablation\" AND abs:\"baselines\" AND abs:\"research practice\"", "subtopic": "基线与消融"},
+ {"q": "(ti:\"literature review\" OR ti:\"systematic review\") AND abs:\"large language models\" AND (abs:automat OR abs:screening)", "subtopic": "文献阅读与综述方法"},
+ {"q": "(ti:\"scientific writing\" OR ti:\"academic writing\" OR ti:\"writing papers\") AND (cat:cs.CL OR cat:cs.CY OR cat:cs.LG)", "subtopic": "学术写作"},
+ {"q": "abs:\"peer review\" AND (cat:cs.LG OR cat:cs.DL OR cat:cs.CY) AND (abs:\"machine learning conferences\" OR abs:reviewers)", "subtopic": "学术写作与同行评审"},
+ {"q": "(ti:ethics OR ti:\"ethical\") AND abs:\"research\" AND (cat:cs.CY) AND abs:\"machine learning\"", "subtopic": "研究伦理"},
+ {"q": "abs:\"research questions\" AND abs:\"machine learning\" AND (ti:guide OR ti:how OR ti:primer OR ti:pitfalls)", "subtopic": "研究问题设计"},
+ {"q": "(ti:pitfalls OR ti:\"common mistakes\" OR ti:\"lessons\") AND abs:\"machine learning\" AND (cat:cs.LG OR cat:stat.ML)", "subtopic": "ML 研究方法论"},
+ {"q": "(ti:\"AI scientist\" OR ti:\"automated research\" OR ti:\"research agents\") AND (cat:cs.AI OR cat:cs.CL)", "subtopic": "AI 辅助科研与研究流程"},
+ {"q": "abs:\"leaderboard\" AND (abs:\"evaluation methodology\" OR abs:\"construct validity\")", "subtopic": "基准设计与批判"},
+ {"q": "abs:\"hyperparameter tuning\" AND abs:\"fair comparison\" AND cat:cs.LG", "subtopic": "基线与消融"},
+ {"q": "abs:\"open science\" AND (abs:\"code release\" OR abs:\"artifact\") AND (cat:cs.LG OR cat:cs.SE)", "subtopic": "可复现性"}
+]

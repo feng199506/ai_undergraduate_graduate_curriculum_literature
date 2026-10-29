@@ -1,0 +1,20 @@
+{
+ "id": "2601.12024",
+ "title": "Beyond Sentiment: A Multi-Agent Pipeline for Actionable Business Advice from Reviews",
+ "authors": [
+  "Kartikey Singh Bhandari",
+  "Tanish Jain",
+  "Archit Agrawal",
+  "Dhruv Kumar",
+  "Praveen Kumar",
+  "Pratik Narang"
+ ],
+ "v1_date": "2026-01-17",
+ "latest_version": 2,
+ "latest_date": "2026-05-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Customer reviews contain valuable signals about service quality, but converting large-scale review corpora into actionable business recommendations remains difficult. Standard sentiment/aspect analysis is largely descriptive, while direct prompting of large language models (LLMs) often yields generic and repetitive advice that is weakly grounded in user feedback. We propose a hierarchical decision-support pipeline that explicitly separates signal compression, problem abstraction, candidate generation, objective-based evaluation, and cost-aware routing into different agents. This architectural decomposition produces auditable intermediate artifacts and enables controllable trade-offs between advice quality and token budget. Experiments on Yelp reviews from three service domains show consistent improvements over single-pass LLM baselines across multiple advice quality dimensions, including actionability, relevance, and non-redundancy. A human evaluation further indicates that users generally prefer our system's recommendations. These results highlight the value of structured agentic decomposition for scalable, cost-aware business decision support.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2405.01663",
+ "title": "Oversmoothing Alleviation in Graph Neural Networks: A Survey and Unified View",
+ "authors": [
+  "Yufei Jin",
+  "Xingquan Zhu"
+ ],
+ "v1_date": "2024-05-02",
+ "latest_version": 2,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages; Published at Knowledge and Information Systems Journal",
+ "abstract": "Oversmoothing is a common challenge in learning graph neural networks (GNN), where, as layers increase, embedding features learned from GNNs quickly become similar or indistinguishable, making them incapable of differentiating network proximity. A GNN with shallow layer architectures can only learn short-term relation or localized structure information, limiting its power of learning long-term connection, evidenced by their inferior learning performance on heterophilous graphs. Tackling oversmoothing is crucial for harnessing deep-layer architectures for GNNs. To date, many methods have been proposed to alleviate oversmoothing. The vast difference behind their design principles, combined with graph complications, make it difficult to understand and even compare the difference between different approaches in tackling the oversmoothing. In this paper, we propose ATNPA, a unified view with five key steps: Augmentation, Transformation, Normalization, Propagation, and Aggregation, to summarize GNN oversmoothing alleviation approaches. We first propose a taxonomy for GNN oversmoothing alleviation which includes three themes to tackle oversmoothing. After that, we separate all methods into six categories, followed by detailed reviews of representative methods, including their relation to ATNPA, and discussion of their niche, strength, and weakness. The review not only draws an in-depth understanding of existing methods in the field but also shows a clear road map for future study.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2405.04215",
+ "title": "NL2Plan: Robust LLM-Driven Planning from Minimal Text Descriptions",
+ "authors": [
+  "Elliot Gestrin",
+  "Marco Kuhlmann",
+  "Jendrik Seipp"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 2,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for the ICAPS 2024 Workshop on Human-Aware and Explainable Planning",
+ "abstract": "Classical planners are powerful systems, but modeling tasks in input formats such as PDDL is tedious and error-prone. In contrast, planning with Large Language Models (LLMs) allows for almost any input text, but offers no guarantees on plan quality or even soundness. In an attempt to merge the best of these two approaches, some work has begun to use LLMs to automate parts of the PDDL creation process. However, these methods still require various degrees of expert input or domain-specific adaptations. We present NL2Plan, the first fully automatic system for generating complete PDDL tasks from minimal natural language descriptions. NL2Plan uses an LLM to incrementally extract the necessary information from the short text input before creating a complete PDDL description of both the domain and the problem which is finally solved by a classical planner. We evaluate NL2Plan on seven planning domains, five of which are novel and thus not in the LLM training data, and find that NL2Plan outperforms directly generating the files with an LLM+validator combination. As such, NL2Plan is a powerful tool for assistive PDDL modeling and a step towards solving natural language planning task with interpretability and guarantees.",
+ "primary": "cs.AI"
+}

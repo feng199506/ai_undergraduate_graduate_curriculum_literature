@@ -1,0 +1,16 @@
+{
+ "id": "2509.17205",
+ "title": "Conditional Policy Generator for Dynamic Constraint Satisfaction and Optimization",
+ "authors": [
+  "Wook Lee",
+  "Frans A. Oliehoek"
+ ],
+ "v1_date": "2025-09-21",
+ "latest_version": 1,
+ "latest_date": "2025-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Leveraging machine learning methods to solve constraint satisfaction problems has shown promising, but they are mostly limited to a static situation where the problem description is completely known and fixed from the beginning. In this work we present a new approach to constraint satisfaction and optimization in dynamically changing environments, particularly when variables in the problem are statistically independent. We frame it as a reinforcement learning problem and introduce a conditional policy generator by borrowing the idea of class conditional generative adversarial networks (GANs). Assuming that the problem includes both static and dynamic constraints, the former are used in a reward formulation to guide the policy training such that it learns to map to a probabilistic distribution of solutions satisfying static constraints from a noise prior, which is similar to a generator in GANs. On the other hand, dynamic constraints in the problem are encoded to different class labels and fed with the input noise. The policy is then simultaneously updated for maximum likelihood of correctly classifying given the dynamic conditions in a supervised manner. We empirically demonstrate a proof-of-principle experiment with a multi-modal constraint satisfaction problem and compare between unconditional and conditional cases.",
+ "primary": "cs.LG"
+}

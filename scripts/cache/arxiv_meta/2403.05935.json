@@ -1,0 +1,18 @@
+{
+ "id": "2403.05935",
+ "title": "Unique reconstruction for discretized inverse problems: a random sketching approach via subsampling",
+ "authors": [
+  "Ruhui Jin",
+  "Qin Li",
+  "Anjali Nair",
+  "Samuel Stechmann"
+ ],
+ "v1_date": "2024-03-09",
+ "latest_version": 2,
+ "latest_date": "2024-09-13",
+ "journal_ref": "Inverse Problems (2025)",
+ "doi": "10.1088/1361-6420/adc14e",
+ "comment": "",
+ "abstract": "Theoretical inverse problems are often studied in an ideal infinite-dimensional setting. The well-posedness theory provides a unique reconstruction of the parameter function, when an infinite amount of data is given. Through the lens of PDE-constrained optimization, this means one attains the zero-loss property of the mismatch function in this setting. This is no longer true in computations when we are limited to finite amount of measurements due to experimental or economical reasons. Consequently, one must compromise the goal, from inferring a function, to a discrete approximation. What is the reconstruction power of a fixed number of data observations? How many parameters can one reconstruct? Here we describe a probabilistic approach, and spell out the interplay of the observation size $(r)$ and the number of parameters to be uniquely identified $(m)$. The technical pillar here is the random sketching strategy, in which the matrix concentration inequality and sampling theory are largely employed. By analyzing a randomly subsampled Hessian matrix, we attain a well-conditioned reconstruction problem with high probability. Our main theory is validated in numerical experiments, using an elliptic inverse problem as an example.",
+ "primary": "math.NA"
+}

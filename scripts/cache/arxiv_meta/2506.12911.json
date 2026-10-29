@@ -1,0 +1,19 @@
+{
+ "id": "2506.12911",
+ "title": "Constraint-Guided Prediction Refinement via Deterministic Diffusion Trajectories",
+ "authors": [
+  "Pantelis Dogoulis",
+  "Fabien Bernier",
+  "Félix Fourreau",
+  "Karim Tit",
+  "Maxime Cordy"
+ ],
+ "v1_date": "2025-06-15",
+ "latest_version": 2,
+ "latest_date": "2025-11-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many real-world machine learning tasks require outputs that satisfy hard constraints, such as physical conservation laws, structured dependencies in graphs, or column-level relationships in tabular data. Existing approaches rely either on domain-specific architectures and losses or on strong assumptions on the constraint space, restricting their applicability to linear or convex constraints. We propose a general-purpose framework for constraint-aware refinement that leverages denoising diffusion implicit models (DDIMs). Starting from a coarse prediction, our method iteratively refines it through a deterministic diffusion trajectory guided by a learned prior and augmented by constraint gradient corrections. The approach accommodates a wide class of non-convex and nonlinear equality constraints and can be applied post hoc to any base model. We demonstrate the method in two representative domains: constrained adversarial attack generation on tabular data with column-level dependencies and in AC power flow prediction under Kirchhoff's laws. Across both settings, our diffusion-guided refinement improves both constraint satisfaction and performance while remaining lightweight and model-agnostic.",
+ "primary": "cs.AI"
+}

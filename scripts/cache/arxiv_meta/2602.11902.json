@@ -1,0 +1,21 @@
+{
+ "id": "2602.11902",
+ "title": "Mitigating Mismatch within Reference-based Preference Optimization",
+ "authors": [
+  "Suqin Yuan",
+  "Xingrui Yu",
+  "Jiyang Zheng",
+  "Lei Feng",
+  "Dadong Wang",
+  "Ivor Tsang",
+  "Tongliang Liu"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 1,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICLR 2026",
+ "abstract": "Direct Preference Optimization (DPO) has become the de facto standard for offline preference alignment of large language models, but its reliance on a reference policy introduces a critical tension. DPO weighs each update relative to a reference, which stabilizes the training by regularizing the updates within a trusted region. This reliance becomes problematic for pessimistic pairs, where the reference model prefers the rejected response. For these pairs, DPO prematurely attenuates the gradient as soon as the policy margin ($Δ_θ$) merely beats the reference margin ($Δ_{\\mathrm{ref}}$) even if the policy is still wrong ($Δ_θ<0$). We name this failure premature satisfaction, which is a concrete form of the training-inference mismatch. Reference-free objectives remove this mismatch by optimizing the absolute margin, but at the cost of discarding the stabilizing signal of the reference. We mitigate this tension with Hybrid-DPO (HyPO), a drop-in modification to DPO that applies reference conditionally: HyPO behaves exactly like DPO when the reference is optimistic or neutral, and it treats the reference as neutral when it is pessimistic by replacing $Δ_θ-Δ_{\\mathrm{ref}}$ with $Δ_θ-\\max\\{0,Δ_{\\mathrm{ref}}\\}$. This one-line change strictly strengthens per-example learning signals on pessimistic pairs while preserving DPO's objective form and computational cost. By conditionally debiasing the pessimistic reference signal, HyPO mitigates premature satisfaction; empirically, across preference alignment, HyPO improves inference-aligned metrics and achieves higher pairwise win rates. Our results provide evidence that direct preference alignment could be enhanced by conditionally debiasing the reference signal, rather than discarding it.",
+ "primary": "cs.LG"
+}

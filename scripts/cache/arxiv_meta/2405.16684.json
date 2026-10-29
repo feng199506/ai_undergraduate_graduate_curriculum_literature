@@ -1,0 +1,15 @@
+{
+ "id": "2405.16684",
+ "title": "gzip Predicts Data-dependent Scaling Laws",
+ "authors": [
+  "Rohan Pandey"
+ ],
+ "v1_date": "2024-05-26",
+ "latest_version": 1,
+ "latest_date": "2024-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 9 figures",
+ "abstract": "Past work has established scaling laws that predict the performance of a neural language model (LM) as a function of its parameter count and the number of tokens it's trained on, enabling optimal allocation of a fixed compute budget. Are these scaling laws agnostic to training data as some prior work suggests? We generate training datasets of varying complexities by modulating the syntactic properties of a PCFG, finding that 1) scaling laws are sensitive to differences in data complexity and that 2) gzip, a compression algorithm, is an effective predictor of how data complexity impacts scaling properties. We propose a new data-dependent scaling law for LM's that accounts for the training data's gzip-compressibility; its compute-optimal frontier increases in dataset size preference (over parameter count preference) as training data becomes harder to compress.",
+ "primary": "cs.CL"
+}

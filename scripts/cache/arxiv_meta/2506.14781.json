@@ -1,0 +1,18 @@
+{
+ "id": "2506.14781",
+ "title": "Two-dimensional Parallel Tempering for Constrained Optimization",
+ "authors": [
+  "Corentin Delacour",
+  "M Mahmudul Hasan Sajeeb",
+  "Joao P. Hespanha",
+  "Kerem Y. Camsari"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 2,
+ "latest_date": "2025-07-30",
+ "journal_ref": "Physical Review E (2025)",
+ "doi": "10.1103/mr2n-qqrb",
+ "comment": "Added references in Introduction",
+ "abstract": "Sampling Boltzmann probability distributions plays a key role in machine learning and optimization, motivating the design of hardware accelerators such as Ising machines. While the Ising model can in principle encode arbitrary optimization problems, practical implementations are often hindered by soft constraints that either slow down mixing when too strong, or fail to enforce feasibility when too weak. We introduce a two-dimensional extension of the powerful parallel tempering algorithm (PT) that addresses this challenge by adding a second dimension of replicas interpolating the penalty strengths. This scheme ensures constraint satisfaction in the final replicas, analogous to low-energy states at low temperature. The resulting two-dimensional parallel tempering algorithm (2D-PT) improves mixing in heavily constrained replicas and eliminates the need to explicitly tune the penalty strength. In a representative example of graph sparsification with copy constraints, 2D-PT achieves near-ideal mixing, with Kullback-Leibler divergence decaying as O(1/t). When applied to sparsified Wishart instances, 2D-PT yields orders of magnitude speedup over conventional PT with the same number of replicas. The method applies broadly to constrained Ising problems and can be deployed on existing Ising machines.",
+ "primary": "cs.LG"
+}

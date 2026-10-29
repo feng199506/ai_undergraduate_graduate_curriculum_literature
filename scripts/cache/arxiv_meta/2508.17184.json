@@ -1,0 +1,21 @@
+{
+ "id": "2508.17184",
+ "title": "Towards Alignment-Centric Paradigm: A Survey of Instruction Tuning in Large Language Models",
+ "authors": [
+  "Xudong Han",
+  "Junjie Yang",
+  "Tianyang Wang",
+  "Ziqian Bi",
+  "Xinyuan Song",
+  "Junfeng Hao",
+  "Junhao Song"
+ ],
+ "v1_date": "2025-08-24",
+ "latest_version": 2,
+ "latest_date": "2025-11-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 7 figures, 5 tables",
+ "abstract": "Instruction tuning is a pivotal technique for aligning large language models (LLMs) with human intentions, safety constraints, and domain-specific requirements. This survey provides a comprehensive overview of the full pipeline, encompassing (i) data collection methodologies, (ii) full-parameter and parameter-efficient fine-tuning strategies, and (iii) evaluation protocols. We categorized data construction into three major paradigms: expert annotation, distillation from larger models, and self-improvement mechanisms, each offering distinct trade-offs between quality, scalability, and resource cost. Fine-tuning techniques range from conventional supervised training to lightweight approaches, such as low-rank adaptation (LoRA) and prefix tuning, with a focus on computational efficiency and model reusability. We further examine the challenges of evaluating faithfulness, utility, and safety across multilingual and multimodal scenarios, highlighting the emergence of domain-specific benchmarks in healthcare, legal, and financial applications. Finally, we discuss promising directions for automated data generation, adaptive optimization, and robust evaluation frameworks, arguing that a closer integration of data, algorithms, and human feedback is essential for advancing instruction-tuned LLMs. This survey aims to serve as a practical reference for researchers and practitioners seeking to design LLMs that are both effective and reliably aligned with human intentions.",
+ "primary": "cs.CL"
+}

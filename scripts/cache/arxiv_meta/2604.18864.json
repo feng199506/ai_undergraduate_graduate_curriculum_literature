@@ -1,0 +1,16 @@
+{
+ "id": "2604.18864",
+ "title": "ParamBoost: Gradient Boosted Piecewise Cubic Polynomials",
+ "authors": [
+  "Nicolas Salvadé",
+  "Tim Hillel"
+ ],
+ "v1_date": "2026-04-20",
+ "latest_version": 1,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalized Additive Models (GAMs) can be used to create non-linear glass-box (i.e. explicitly interpretable) models, where the predictive function is fully observable over the complete input space. However, glass-box interpretability itself does not allow for the incorporation of expert knowledge from the modeller. In this paper, we present ParamBoost, a novel GAM whose shape functions (i.e. mappings from individual input features to the output) are learnt using a Gradient Boosting algorithm that fits cubic polynomial functions at leaf nodes. ParamBoost incorporates several constraints commonly used in parametric analysis to ensure well-refined shape functions. These constraints include: (i) continuity of the shape functions and their derivatives (up to C2); (ii) monotonicity; (iii) convexity; (iv) feature interaction constraints; and (v) model specification constraints. Empirical results show that the unconstrained ParamBoost model consistently outperforms state-of-the-art GAMs across several real-world datasets. We further demonstrate that modellers can selectively impose required constraints at a modest trade-off in predictive performance, allowing the model to be fully tailored to application-specific interpretability and parametric-analysis requirements.",
+ "primary": "cs.LG"
+}

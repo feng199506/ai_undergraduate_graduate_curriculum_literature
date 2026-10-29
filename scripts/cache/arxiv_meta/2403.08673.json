@@ -1,0 +1,17 @@
+{
+ "id": "2403.08673",
+ "title": "When can we Approximate Wide Contrastive Models with Neural Tangent Kernels and Principal Component Analysis?",
+ "authors": [
+  "Gautham Govind Anil",
+  "Pascal Esser",
+  "Debarghya Ghoshdastidar"
+ ],
+ "v1_date": "2024-03-13",
+ "latest_version": 1,
+ "latest_date": "2024-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Contrastive learning is a paradigm for learning representations from unlabelled data that has been highly successful for image and text data. Several recent works have examined contrastive losses to claim that contrastive models effectively learn spectral embeddings, while few works show relations between (wide) contrastive models and kernel principal component analysis (PCA). However, it is not known if trained contrastive models indeed correspond to kernel methods or PCA. In this work, we analyze the training dynamics of two-layer contrastive models, with non-linear activation, and answer when these models are close to PCA or kernel methods. It is well known in the supervised setting that neural networks are equivalent to neural tangent kernel (NTK) machines, and that the NTK of infinitely wide networks remains constant during training. We provide the first convergence results of NTK for contrastive losses, and present a nuanced picture: NTK of wide networks remains almost constant for cosine similarity based contrastive losses, but not for losses based on dot product similarity. We further study the training dynamics of contrastive models with orthogonality constraints on output layer, which is implicitly assumed in works relating contrastive learning to spectral embedding. Our deviation bounds suggest that representations learned by contrastive models are close to the principal components of a certain matrix computed from random features. We empirically show that our theoretical results possibly hold beyond two-layer networks.",
+ "primary": "cs.LG"
+}

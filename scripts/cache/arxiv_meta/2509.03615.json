@@ -1,0 +1,16 @@
+{
+ "id": "2509.03615",
+ "title": "E-ARMOR: Edge case Assessment and Review of Multilingual Optical Character Recognition",
+ "authors": [
+  "Aryan Gupta",
+  "Anupam Purwar"
+ ],
+ "v1_date": "2025-09-03",
+ "latest_version": 1,
+ "latest_date": "2025-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Sprinklr OCR provides a fast and compute light way of performing OCR",
+ "abstract": "Optical Character Recognition (OCR) in multilingual, noisy, and diverse real-world images remains a significant challenge for optical character recognition systems. With the rise of Large Vision-Language Models (LVLMs), there is growing interest in their ability to generalize and reason beyond fixed OCR pipelines. In this work, we introduce Sprinklr-Edge-OCR, a novel OCR system built specifically optimized for edge deployment in resource-constrained environments. We present a large-scale comparative evaluation of five state-of-the-art LVLMs (InternVL, Qwen, GOT OCR, LLaMA, MiniCPM) and two traditional OCR systems (Sprinklr-Edge-OCR, SuryaOCR) on a proprietary, doubly hand annotated dataset of multilingual (54 languages) images. Our benchmark covers a broad range of metrics including accuracy, semantic consistency, language coverage, computational efficiency (latency, memory, GPU usage), and deployment cost. To better reflect real-world applicability, we also conducted edge case deployment analysis, evaluating model performance on CPU only environments. Among the results, Qwen achieved the highest precision (0.54), while Sprinklr-Edge-OCR delivered the best overall F1 score (0.46) and outperformed others in efficiency, processing images 35 faster (0.17 seconds per image on average) and at less than 0.01 of the cost (0.006 USD per 1,000 images) compared to LVLM. Our findings demonstrate that the most optimal OCR systems for edge deployment are the traditional ones even in the era of LLMs due to their low compute requirements, low latency, and very high affordability.",
+ "primary": "cs.CL"
+}

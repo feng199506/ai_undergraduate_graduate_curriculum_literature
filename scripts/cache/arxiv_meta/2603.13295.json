@@ -1,0 +1,25 @@
+{
+ "id": "2603.13295",
+ "title": "ICPRL: Acquiring Physical Intuition from Interactive Control",
+ "authors": [
+  "Xinrun Xu",
+  "Pi Bu",
+  "Ye Wang",
+  "Börje F. Karlsson",
+  "Ziming Wang",
+  "Tengtao Song",
+  "Qi Zhu",
+  "Jun Song",
+  "Shuo Zhang",
+  "Zhiming Ding",
+  "Bo Zheng"
+ ],
+ "v1_date": "2026-03-01",
+ "latest_version": 1,
+ "latest_date": "2026-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages",
+ "abstract": "VLMs excel at static perception but falter in interactive reasoning in dynamic physical environments, which demands planning and adaptation to dynamic outcomes. Existing physical reasoning methods often depend on abstract symbolic inputs or lack the ability to learn and adapt from direct, pixel-based visual interaction in novel scenarios. We introduce ICPRL (In-Context Physical Reinforcement Learning), a framework inspired by In-Context Reinforcement Learning (ICRL) that empowers VLMs to acquire physical intuition and adapt their policies in-context. Our approach trains a vision-grounded policy model via multi-turn Group Relative Policy Optimization (GRPO) over diverse multi-episode interaction histories. This enables the agent to adapt strategies by conditioning on past trial-and-error sequences, without requiring any weight updates. This adaptive policy works in concert with a separately trained world model that provides explicit physical reasoning by predicting the results of potential actions. At inference, the policy proposes candidate actions, while the world model predicts outcomes to guide a root-node PUCT search to select the most promising action. Evaluated on the diverse physics-based puzzle-solving tasks in the DeepPHY benchmark, ICPRL demonstrates significant improvements across both its I. policy-only, and II. world-model-augmented stages. Notably, these gains are retained in unseen physical environments, demonstrating that our framework facilitates genuine in-context acquisition of the environment's physical dynamics from interactive experience.",
+ "primary": "cs.LG"
+}

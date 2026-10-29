@@ -1,0 +1,29 @@
+{
+ "id": "2505.05512",
+ "title": "Occupancy World Model for Robots",
+ "authors": [
+  "Zhang Zhang",
+  "Qiang Zhang",
+  "Wei Cui",
+  "Shuai Shi",
+  "Yijie Guo",
+  "Gang Han",
+  "Wen Zhao",
+  "Jingkai Sun",
+  "Jiahang Cao",
+  "Jiaxu Wang",
+  "Hao Cheng",
+  "Xiaozhu Ju",
+  "Zhengping Che",
+  "Renjing Xu",
+  "Jian Tang"
+ ],
+ "v1_date": "2025-05-07",
+ "latest_version": 1,
+ "latest_date": "2025-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding and forecasting the scene evolutions deeply affect the exploration and decision of embodied agents. While traditional methods simulate scene evolutions through trajectory prediction of potential instances, current works use the occupancy world model as a generative framework for describing fine-grained overall scene dynamics. However, existing methods cluster on the outdoor structured road scenes, while ignoring the exploration of forecasting 3D occupancy scene evolutions for robots in indoor scenes. In this work, we explore a new framework for learning the scene evolutions of observed fine-grained occupancy and propose an occupancy world model based on the combined spatio-temporal receptive field and guided autoregressive transformer to forecast the scene evolutions, called RoboOccWorld. We propose the Conditional Causal State Attention (CCSA), which utilizes camera poses of next state as conditions to guide the autoregressive transformer to adapt and understand the indoor robotics scenarios. In order to effectively exploit the spatio-temporal cues from historical observations, Hybrid Spatio-Temporal Aggregation (HSTA) is proposed to obtain the combined spatio-temporal receptive field based on multi-scale spatio-temporal windows. In addition, we restructure the OccWorld-ScanNet benchmark based on local annotations to facilitate the evaluation of the indoor 3D occupancy scene evolution prediction task. Experimental results demonstrate that our RoboOccWorld outperforms state-of-the-art methods in indoor 3D occupancy scene evolution prediction task. The code will be released soon.",
+ "primary": "cs.CV"
+}

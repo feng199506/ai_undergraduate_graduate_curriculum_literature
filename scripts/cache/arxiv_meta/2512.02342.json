@@ -1,0 +1,16 @@
+{
+ "id": "2512.02342",
+ "title": "Safeguarded Stochastic Polyak Step Sizes for Non-smooth Optimization: Robust Performance Without Small (Sub)Gradients",
+ "authors": [
+  "Dimitris Oikonomou",
+  "Nicolas Loizou"
+ ],
+ "v1_date": "2025-12-02",
+ "latest_version": 3,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43rd International Conference on Machine Learning (ICML 2026)",
+ "abstract": "The stochastic Polyak step size (SPS) has proven to be a promising choice for stochastic gradient descent (SGD), delivering competitive performance relative to state-of-the-art methods on smooth convex and non-convex optimization problems, including deep neural network training. However, extensions of this approach to non-smooth settings remain in their early stages, often relying on interpolation assumptions or requiring knowledge of the optimal solution. In this work, we propose a novel SPS variant, Safeguarded SPS (SPS$_{safe}$), for the stochastic subgradient method, and provide rigorous convergence guarantees for non-smooth convex optimization with no need for strong assumptions. We further incorporate momentum into the update rule, yielding equally tight theoretical results. Comprehensive experiments on convex benchmarks and deep neural networks corroborate our theory: the proposed step size achieves competitive performance to existing adaptive baselines and exhibits stable behavior across a wide range of problem settings. Finally, in the context of deep neural network training, the gradient norms under our step size do not collapse to (near) zero, indicating robustness to vanishing gradients.",
+ "primary": "math.OC"
+}

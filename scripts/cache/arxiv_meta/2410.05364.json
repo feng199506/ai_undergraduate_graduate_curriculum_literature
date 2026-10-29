@@ -1,0 +1,23 @@
+{
+ "id": "2410.05364",
+ "title": "Diffusion Model Predictive Control",
+ "authors": [
+  "Guangyao Zhou",
+  "Sivaramakrishnan Swaminathan",
+  "Rajkumar Vasudeva Raju",
+  "J. Swaroop Guntupalli",
+  "Wolfgang Lehrach",
+  "Joseph Ortiz",
+  "Antoine Dedieu",
+  "Miguel Lázaro-Gredilla",
+  "Kevin Murphy"
+ ],
+ "v1_date": "2024-10-07",
+ "latest_version": 2,
+ "latest_date": "2025-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at TMLR",
+ "abstract": "We propose Diffusion Model Predictive Control (D-MPC), a novel MPC approach that learns a multi-step action proposal and a multi-step dynamics model, both using diffusion models, and combines them for use in online MPC. On the popular D4RL benchmark, we show performance that is significantly better than existing model-based offline planning methods using MPC (e.g. MBOP) and competitive with state-of-the-art (SOTA) model-based and model-free reinforcement learning methods. We additionally illustrate D-MPC's ability to optimize novel reward functions at run time and adapt to novel dynamics, and highlight its advantages compared to existing diffusion-based planning baselines.",
+ "primary": "cs.LG"
+}

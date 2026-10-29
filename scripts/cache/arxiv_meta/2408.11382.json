@@ -1,0 +1,17 @@
+{
+ "id": "2408.11382",
+ "title": "Towards Inducing Long-Context Abilities in Multilingual Neural Machine Translation Models",
+ "authors": [
+  "Varun Gumma",
+  "Pranjal A. Chitale",
+  "Kalika Bali"
+ ],
+ "v1_date": "2024-08-21",
+ "latest_version": 3,
+ "latest_date": "2025-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NAACL 2025",
+ "abstract": "Neural Machine Translation (NMT) models have traditionally used Sinusoidal Positional Embeddings (PEs), which often struggle to capture long-range dependencies and are inefficient for handling extended context or document-level translation tasks. This work addresses the challenge of transitioning pre-trained NMT models from absolute Sinusoidal PEs to Relative PEs, such as RoPE and ALiBi, without compromising performance. We demonstrate that parameter-efficient fine-tuning, using only a small amount of high-quality data, can successfully facilitate this transition. Experimental results indicate that switching from Sinusoidal to Relative PEs results in competitive translation quality on sentence-level evaluation benchmarks. Additionally, models trained with RoPE consistently outperform those using ALiBi and Sinusoidal PEs on document-level benchmarks across both string-based metrics and qualitative evaluations. Moreover, we find that a small amount of long-context data in a few languages is sufficient for cross-lingual length generalization, thereby inducing long-context capabilities.",
+ "primary": "cs.CL"
+}

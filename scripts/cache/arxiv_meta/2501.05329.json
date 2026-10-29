@@ -1,0 +1,16 @@
+{
+ "id": "2501.05329",
+ "title": "Knowledge Transfer in Model-Based Reinforcement Learning Agents for Efficient Multi-Task Learning",
+ "authors": [
+  "Dmytro Kuzmenko",
+  "Nadiya Shvai"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 1,
+ "latest_date": "2025-01-09",
+ "journal_ref": "Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025), pp. 2597-2599, ACM, 2025",
+ "doi": "",
+ "comment": "Preprint of an extended abstract accepted to AAMAS 2025",
+ "abstract": "We propose an efficient knowledge transfer approach for model-based reinforcement learning, addressing the challenge of deploying large world models in resource-constrained environments. Our method distills a high-capacity multi-task agent (317M parameters) into a compact 1M parameter model, achieving state-of-the-art performance on the MT30 benchmark with a normalized score of 28.45, a substantial improvement over the original 1M parameter model's score of 18.93. This demonstrates the ability of our distillation technique to consolidate complex multi-task knowledge effectively. Additionally, we apply FP16 post-training quantization, reducing the model size by 50% while maintaining performance. Our work bridges the gap between the power of large models and practical deployment constraints, offering a scalable solution for efficient and accessible multi-task reinforcement learning in robotics and other resource-limited domains.",
+ "primary": "cs.LG"
+}

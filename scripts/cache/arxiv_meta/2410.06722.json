@@ -1,0 +1,22 @@
+{
+ "id": "2410.06722",
+ "title": "Scaling Laws For Mixed Quantization",
+ "authors": [
+  "Zeyu Cao",
+  "Boyang Gu",
+  "Cheng Zhang",
+  "Pedro Gimenes",
+  "Jianqiao Lu",
+  "Jianyi Cheng",
+  "Xitong Gao",
+  "Yiren Zhao"
+ ],
+ "v1_date": "2024-10-09",
+ "latest_version": 3,
+ "latest_date": "2025-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Post-training quantization of Large Language Models (LLMs) has proven effective in reducing the memory and computational requirements for inference. In this study, we focus on a straightforward question: When aiming for a target accuracy or perplexity with low-precision quantization, how much high-precision computation needs to be preserved, and how fine-grained this quantization would need to be as we scale LLMs to larger sizes? We first introduce two critical metrics, named the quantization ratio ($Q_r$) and quantization block size ($Q_b$). The former measures the number of parameters quantized to low-precision arithmetic normalized by the total parameter count, whereas the latter defines the number of values within a block that share a scaling factor, akin to the block size concept introduced in the FP4 format in NVIDIA's Blackwell architecture. Through extensive and carefully controlled experiments across different models and quantization methods, we propose a unified scaling law on post-training quantization (PTQ) that can predict loss degeneration for varying $Q_r$ and $Q_b$. For $Q_r$, our scaling law implies that parameter scaling and ratio scaling have a multiplicative relationship. Consequently, larger models are more amenable to a higher quantization ratio $Q_r$, thus supporting an increase in the adoption of mixed quantization for inference. Regarding $Q_b$, our findings indicate that a small block size, similar to that used in Blackwell, is not essential for large models. Employing a small $Q_b$ can instead unnecessarily complicate the design of the hardware circuit.",
+ "primary": "cs.CL"
+}

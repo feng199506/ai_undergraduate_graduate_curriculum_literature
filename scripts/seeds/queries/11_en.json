@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:survey OR ti:review) AND (abs:\"image restoration\" OR abs:\"image super-resolution\" OR abs:\"image denoising\")", "subtopic": "图像处理"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"3D reconstruction\" OR abs:\"structure from motion\" OR abs:\"multi-view stereo\") AND cat:cs.CV", "subtopic": "视觉几何"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"neural radiance fields\" OR abs:NeRF)", "subtopic": "视觉几何"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"gaussian splatting\"", "subtopic": "视觉几何"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"vision transformer\" OR abs:\"image classification\") AND cat:cs.CV", "subtopic": "识别"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"visual foundation model\" OR abs:\"vision foundation model\" OR abs:\"self-supervised visual\")", "subtopic": "识别"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"object detection\" AND cat:cs.CV", "subtopic": "检测"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"open-vocabulary\" OR abs:\"open vocabulary\") AND (abs:detection OR abs:segmentation)", "subtopic": "检测"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"semantic segmentation\" OR abs:\"instance segmentation\" OR abs:\"segment anything\")", "subtopic": "分割"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"video understanding\" OR abs:\"action recognition\" OR abs:\"video recognition\")", "subtopic": "视频理解"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"object tracking\" OR abs:\"optical flow\")", "subtopic": "视频理解"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"point cloud\" OR abs:\"3D object detection\" OR abs:\"3D vision\")", "subtopic": "三维视觉"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"depth estimation\" OR abs:\"visual SLAM\")", "subtopic": "视觉几何"},
+ {"q": "abs:\"feed-forward\" AND abs:\"3D reconstruction\" AND cat:cs.CV AND (ti:transformer OR ti:geometry OR ti:VGGT OR ti:DUSt3R)", "subtopic": "视觉几何"},
+ {"q": "(ti:benchmark OR ti:dataset) AND abs:\"computer vision\" AND (abs:robustness OR abs:evaluation) AND cat:cs.CV", "subtopic": "评测与基准"},
+ {"q": "(ti:tutorial OR ti:primer OR ti:introduction) AND abs:\"computer vision\"", "subtopic": "计算机视觉教程"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"pose estimation\" OR abs:\"human mesh\")", "subtopic": "三维视觉"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"low-light\" OR abs:\"image enhancement\" OR abs:\"computational photography\")", "subtopic": "图像处理"}
+]

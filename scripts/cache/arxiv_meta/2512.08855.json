@@ -1,0 +1,16 @@
+{
+ "id": "2512.08855",
+ "title": "Reinforcement Learning From State and Temporal Differences",
+ "authors": [
+  "Lex Weaver",
+  "Jonathan Baxter"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 2,
+ "latest_date": "2025-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Technical Report, Department of Computer Science, Australian National University, May 1999 New version uploaded 2025 after original source taken offline",
+ "abstract": "TD($λ$) with function approximation has proved empirically successful for some complex reinforcement learning problems. For linear approximation, TD($λ$) has been shown to minimise the squared error between the approximate value of each state and the true value. However, as far as policy is concerned, it is error in the relative ordering of states that is critical, rather than error in the state values. We illustrate this point, both in simple two-state and three-state systems in which TD($λ$)--starting from an optimal policy--converges to a sub-optimal policy, and also in backgammon. We then present a modified form of TD($λ$), called STD($λ$), in which function approximators are trained with respect to relative state values on binary decision problems. A theoretical analysis, including a proof of monotonic policy improvement for STD($λ$) in the context of the two-state system, is presented, along with a comparison with Bertsekas' differential training method [1]. This is followed by successful demonstrations of STD($λ$) on the two-state system and a variation on the well known acrobot problem.",
+ "primary": "cs.LG"
+}

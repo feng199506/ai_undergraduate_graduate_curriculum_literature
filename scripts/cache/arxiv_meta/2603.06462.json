@@ -1,0 +1,17 @@
+{
+ "id": "2603.06462",
+ "title": "Bayesian Additive Distribution Regression",
+ "authors": [
+  "Antonio R. Linero",
+  "Soumyabrata Bose",
+  "Jared Murray"
+ ],
+ "v1_date": "2026-03-06",
+ "latest_version": 1,
+ "latest_date": "2026-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Distribution regression, where the goal is to predict a scalar response from a distribution-valued predictor, arises naturally in settings where observations are grouped and outcomes depend on group-level characteristics rather than on individual measurements. We introduce DistBART, a Bayesian nonparametric approach to distribution regression that models the regression function as a linear functional with the Riesz representer assigned a Bayesian additive regression trees (BART) prior. We argue that shallow decision tree ensembles encode reasonable inductive biases for tabular data, making them appropriate in settings where the functional depends primarily on low-dimensional marginals of the distributions. We show this both empirically on synthetic and real data and theoretically through an adaptive posterior concentration result. We also establish connections to kernel methods, and use this connection to motivate variants of DistBART that can learn nonlinear functionals. To enable scalability to large datasets, we develop a random-feature approximation that samples trees from the BART prior and reduces inference to sparse Bayesian linear regression, achieving computational efficiency while retaining uncertainty quantification.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2602.12778",
+ "title": "Aspect-Based Sentiment Analysis for Future Tourism Experiences: A BERT-MoE Framework for Persian User Reviews",
+ "authors": [
+  "Hamidreza Kazemi Taskooh",
+  "Taha Zare Harofte"
+ ],
+ "v1_date": "2026-02-13",
+ "latest_version": 1,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 12 figures, 4 tables",
+ "abstract": "This study advances aspect-based sentiment analysis (ABSA) for Persian-language user reviews in the tourism domain, addressing challenges of low-resource languages. We propose a hybrid BERT-based model with Top-K routing and auxiliary losses to mitigate routing collapse and improve efficiency. The pipeline includes: (1) overall sentiment classification using BERT on 9,558 labeled reviews, (2) multi-label aspect extraction for six tourism-related aspects (host, price, location, amenities, cleanliness, connectivity), and (3) integrated ABSA with dynamic routing. The dataset consists of 58,473 preprocessed reviews from the Iranian accommodation platform Jabama, manually annotated for aspects and sentiments. The proposed model achieves a weighted F1-score of 90.6% for ABSA, outperforming baseline BERT (89.25%) and a standard hybrid approach (85.7%). Key efficiency gains include a 39% reduction in GPU power consumption compared to dense BERT, supporting sustainable AI deployment in alignment with UN SDGs 9 and 12. Analysis reveals high mention rates for cleanliness and amenities as critical aspects. This is the first ABSA study focused on Persian tourism reviews, and we release the annotated dataset to facilitate future multilingual NLP research in tourism.",
+ "primary": "cs.CL"
+}

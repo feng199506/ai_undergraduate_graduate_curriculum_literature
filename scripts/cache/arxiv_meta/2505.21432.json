@@ -1,0 +1,26 @@
+{
+ "id": "2505.21432",
+ "title": "Hume: Introducing System-2 Thinking in Visual-Language-Action Model",
+ "authors": [
+  "Haoming Song",
+  "Delin Qu",
+  "Yuanqi Yao",
+  "Qizhi Chen",
+  "Qi Lv",
+  "Yiwen Tang",
+  "Modi Shi",
+  "Guanghui Ren",
+  "Maoqing Yao",
+  "Bin Zhao",
+  "Dong Wang",
+  "Xuelong Li"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 4,
+ "latest_date": "2025-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Humans practice slow thinking before performing actual actions when handling complex tasks in the physical world. This thinking paradigm, recently, has achieved remarkable advancement in boosting Large Language Models (LLMs) to solve complex tasks in digital domains. However, the potential of slow thinking remains largely unexplored for robotic foundation models interacting with the physical world. In this work, we propose Hume: a dual-system Vision-Language-Action (VLA) model with value-guided System-2 thinking and cascaded action denoising, exploring human-like thinking capabilities of Vision-Language-Action models for dexterous robot control. System 2 of Hume implements value-Guided thinking by extending a Vision-Language-Action Model backbone with a novel value-query head to estimate the state-action value of predicted actions. The value-guided thinking is conducted by repeat sampling multiple action candidates and selecting one according to state-action value. System 1 of Hume is a lightweight reactive visuomotor policy that takes System 2 selected action and performs cascaded action denoising for dexterous robot control. At deployment time, System 2 performs value-guided thinking at a low frequency while System 1 asynchronously receives the System 2 selected action candidate and predicts fluid actions in real time. We show that Hume outperforms the existing state-of-the-art Vision-Language-Action models across multiple simulation benchmark and real-robot deployments.",
+ "primary": "cs.RO"
+}

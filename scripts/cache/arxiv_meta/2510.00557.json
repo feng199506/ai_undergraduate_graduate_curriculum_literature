@@ -1,0 +1,17 @@
+{
+ "id": "2510.00557",
+ "title": "Mathematical Theory of Collinearity Effects on Machine Learning Variable Importance Measures",
+ "authors": [
+  "Kelvyn K. Bladen",
+  "D. Richard Cutler",
+  "Alan Wisler"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 1,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 5 figures",
+ "abstract": "In many machine learning problems, understanding variable importance is a central concern. Two common approaches are Permute-and-Predict (PaP), which randomly permutes a feature in a validation set, and Leave-One-Covariate-Out (LOCO), which retrains models after permuting a training feature. Both methods deem a variable important if predictions with the original data substantially outperform those with permutations. In linear regression, empirical studies have linked PaP to regression coefficients and LOCO to $t$-statistics, but a formal theory has been lacking. We derive closed-form expressions for both measures, expressed using square-root transformations. PaP is shown to be proportional to the coefficient and predictor variability: $\\text{PaP}_i = β_i \\sqrt{2\\operatorname{Var}(\\mathbf{x}^v_i)}$, while LOCO is proportional to the coefficient but dampened by collinearity (captured by $Δ$): $\\text{LOCO}_i = β_i (1 -Δ)\\sqrt{1 + c}$. These derivations explain why PaP is largely unaffected by multicollinearity, whereas LOCO is highly sensitive to it. Monte Carlo simulations confirm these findings across varying levels of collinearity. Although derived for linear regression, we also show that these results provide reasonable approximations for models like Random Forests. Overall, this work establishes a theoretical basis for two widely used importance measures, helping analysts understand how they are affected by the true coefficients, dimension, and covariance structure. This work bridges empirical evidence and theory, enhancing the interpretability and application of variable importance measures.",
+ "primary": "math.ST"
+}

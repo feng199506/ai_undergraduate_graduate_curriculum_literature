@@ -1,0 +1,18 @@
+{
+ "id": "2601.06403",
+ "title": "Steer Model beyond Assistant: Controlling System Prompt Strength via Contrastive Decoding",
+ "authors": [
+  "Yijiang River Dong",
+  "Tiancheng Hu",
+  "Zheng Hui",
+  "Nigel Collier"
+ ],
+ "v1_date": "2026-01-10",
+ "latest_version": 1,
+ "latest_date": "2026-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models excel at complex instructions yet struggle to deviate from their helpful assistant persona, as post-training instills strong priors that resist conflicting instructions. We introduce system prompt strength, a training-free method that treats prompt adherence as a continuous control. By contrasting logits from target and default system prompts, we isolate and amplify the behavioral signal unique to the target persona by a scalar factor alpha. Across five diverse benchmarks spanning constraint satisfaction, behavioral control, pluralistic alignment, capability modulation, and stylistic control, our method yields substantial improvements: up to +8.5 strict accuracy on IFEval, +45pp refusal rate on OffTopicEval, and +13% steerability on Prompt-Steering. Our approach enables practitioners to modulate system prompt strength, providing dynamic control over model behavior without retraining.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2501.13083",
+ "title": "Boosting MCTS with Free Energy Minimization",
+ "authors": [
+  "Mawaba Pascal Dao",
+  "Adrian M. Peter"
+ ],
+ "v1_date": "2025-01-22",
+ "latest_version": 1,
+ "latest_date": "2025-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Active Inference, grounded in the Free Energy Principle, provides a powerful lens for understanding how agents balance exploration and goal-directed behavior in uncertain environments. Here, we propose a new planning framework, that integrates Monte Carlo Tree Search (MCTS) with active inference objectives to systematically reduce epistemic uncertainty while pursuing extrinsic rewards. Our key insight is that MCTS already renowned for its search efficiency can be naturally extended to incorporate free energy minimization by blending expected rewards with information gain. Concretely, the Cross-Entropy Method (CEM) is used to optimize action proposals at the root node, while tree expansions leverage reward modeling alongside intrinsic exploration bonuses. This synergy allows our planner to maintain coherent estimates of value and uncertainty throughout planning, without sacrificing computational tractability. Empirically, we benchmark our planner on a diverse set of continuous control tasks, where it demonstrates performance gains over both standalone CEM and MCTS with random rollouts.",
+ "primary": "cs.AI"
+}

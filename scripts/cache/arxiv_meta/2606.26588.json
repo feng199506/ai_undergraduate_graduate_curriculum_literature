@@ -1,0 +1,19 @@
+{
+ "id": "2606.26588",
+ "title": "Inference-Time Robot Behavior Steering through Physically-Aware Reconfiguration of Task-Structure",
+ "authors": [
+  "Yiyuan Pan",
+  "Hanjiang Hu",
+  "Shangtao Li",
+  "Xusheng Luo",
+  "Changliu Liu"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 3,
+ "latest_date": "2026-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to CoRL 2026",
+ "abstract": "A central challenge in deploying robot policies is inference-time policy steering: redirecting a policy to satisfy natural-language preferences unseen in training, without retraining. Existing methods fail in two modes: end-to-end policies such as vision-language-action models (VLAs) require fine-tuning or expert-level guidance, while neuro-symbolic methods rely on predefined symbols whose edits can yield logically valid but physically infeasible plans. We propose ReStruct, a zero-shot method built on a neural automaton policy that decomposes a visuomotor policy into a high-level state-machine skeleton and a low-level residual controller. A vision-language model (VLM) grounds the preference in the skeleton's learned symbols, refining them if needed, and compiles it into a temporal-logic automaton, whose synchronous product with the skeleton reconfigures the task structure. With the controller frozen, the skeleton's action priors are updated for physically-aware control. In simulation and real-world experiments, ReStruct steers preferences from object-centric specifications to temporal-logic constraints, including novel combinations of demonstrated behaviors that require compositional generalization. Average preference-following success is 70.9% in simulation and 92.5% on a real robot, surpassing baselines like the prompt-steered vision-language-action model π0.5.",
+ "primary": "cs.RO"
+}

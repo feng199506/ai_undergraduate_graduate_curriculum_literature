@@ -1,0 +1,17 @@
+{
+ "id": "2403.03430",
+ "title": "Discrete Consensus-Based Optimization",
+ "authors": [
+  "Junhyeok Byeon",
+  "Seung-Yeal Ha",
+  "Joong-Ho Won"
+ ],
+ "v1_date": "2024-03-06",
+ "latest_version": 3,
+ "latest_date": "2024-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose Discrete Consensus-Based Optimization (DCBO), a fully discrete version of the Consensus-Based Optimization (CBO) framework. DCBO is a multi-agent method for the global optimization of possibly non-convex and non-differentiable functions. It aligns with the CBO paradigm, which promotes a consensus among agents towards a global optimum through simple stochastic dynamics amenable to rigorous mathematical analysis. Despite the promises, there has been a gap between the analysis of CBO and the actual behavior of the agents from its time-discrete implementation, as the former has focused on the system of continuous stochastic differential equations defining the model or its mean-field approximation. In particular, direct analysis of CBO-type algorithms with heterogeneous stochasticity is very challenging. DCBO distinguishes itself from these approaches in the sense that it has no continuous counterpart, thanks to the replacement of the \"softmin\" operator with the \"hardmin\" one, which is inherently discrete. Yet, it maintains the operational principles of CBO and allows for rich mathematical analysis. We present conditions, independent of the number of agents, for achieving a consensus or convergence and study the circumstances under which global optimization occurs. We test DCBO on a large number of benchmark functions to show its merits. We also demonstrate that DCBO is applicable to a diverse range of real-world problems, including neural network training, compressed sensing, and portfolio optimization, with competitive performance.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2609.24703",
+ "title": "Offline Reinforcement Learning for Distribution-Grid Protection",
+ "authors": [
+  "Julian Oelhaf",
+  "Alexander Luce",
+  "Christian Bergler",
+  "Andreas Maier",
+  "Siming Bayer"
+ ],
+ "v1_date": "2026-09-21",
+ "latest_version": 1,
+ "latest_date": "2026-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for presentation at the IEEE Power & Energy Student Summit (PESS 2026), Karlsruhe, Germany. 6 pages, 2 figures. Code: https://github.com/julianoelhaf/offline-cql-protection",
+ "abstract": "Data-driven protection may complement conventional relays in distribution grids whose operating conditions vary with distributed generation, switching events, and changing short-circuit levels. We study line-selective tripping from static trajectories of a realistically simulated CIGRE medium-voltage network using offline reinforcement learning. A convolutional Q-network receives causal voltage-current phasor and apparent-impedance features, optionally together with raw waveforms, and is trained with conservative Q-learning (CQL). A controlled sensitivity study evaluates two observation windows, reward variants, and three CQL weights under a common split and training protocol; one exploratory post-hoc run additionally increases the discount factor from $γ$=0.95 to 0.99. On 225 held-out episodes, the best per-timestep result is obtained with combined input and CQL weight $α$=0.9, reaching precision 0.9993, recall 0.9496, and F1-score 0.9738. Because dense per-timestep scores do not encode the terminal semantics of relay operation, we also evaluate the first non-wait action in each episode. The default combined-input agent selects the correct line-trip action first in 98.13% of 214 fault episodes, but trips in 72.73% of the 11 non-fault episodes. In the post-hoc run, the corresponding rates are 98.60% and 54.55%, respectively. The results show that dense predictive performance and terminal protection behavior can lead to different model rankings. Offline CQL therefore demonstrates strong faulted-line selection on the simulated fault episodes, while the static trajectories, small non-fault set, and single-seed post-hoc design preclude conclusions about practical relay security or deployment readiness.",
+ "primary": "eess.SY"
+}

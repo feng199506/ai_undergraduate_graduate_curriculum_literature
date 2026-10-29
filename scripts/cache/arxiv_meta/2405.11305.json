@@ -1,0 +1,21 @@
+{
+ "id": "2405.11305",
+ "title": "Large Neighborhood Prioritized Search for Combinatorial Optimization with Answer Set Programming",
+ "authors": [
+  "Irumi Sugimori",
+  "Katsumi Inoue",
+  "Hidetomo Nabeshima",
+  "Torsten Schaub",
+  "Takehide Soh",
+  "Naoyuki Tamura",
+  "Mutsunori Banbara"
+ ],
+ "v1_date": "2024-05-18",
+ "latest_version": 1,
+ "latest_date": "2024-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages",
+ "abstract": "We propose Large Neighborhood Prioritized Search (LNPS) for solving combinatorial optimization problems in Answer Set Programming (ASP). LNPS is a metaheuristic that starts with an initial solution and then iteratively tries to find better solutions by alternately destroying and prioritized searching for a current solution. Due to the variability of neighborhoods, LNPS allows for flexible search without strongly depending on the destroy operators. We present an implementation of LNPS based on ASP. The resulting heulingo solver demonstrates that LNPS can significantly enhance the solving performance of ASP for optimization. Furthermore, we establish the competitiveness of our LNPS approach by empirically contrasting it to (adaptive) large neighborhood search.",
+ "primary": "cs.AI"
+}

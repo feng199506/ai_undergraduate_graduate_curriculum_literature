@@ -1,0 +1,23 @@
+{
+ "id": "2303.00654",
+ "title": "How to DP-fy ML: A Practical Guide to Machine Learning with Differential Privacy",
+ "authors": [
+  "Natalia Ponomareva",
+  "Hussein Hazimeh",
+  "Alex Kurakin",
+  "Zheng Xu",
+  "Carson Denison",
+  "H. Brendan McMahan",
+  "Sergei Vassilvitskii",
+  "Steve Chien",
+  "Abhradeep Thakurta"
+ ],
+ "v1_date": "2023-03-01",
+ "latest_version": 3,
+ "latest_date": "2023-07-31",
+ "journal_ref": "Journal of Artificial Intelligence Research 77 (2023) 1113-1201",
+ "doi": "10.1613/jair.1.14649",
+ "comment": "",
+ "abstract": "ML models are ubiquitous in real world applications and are a constant focus of research. At the same time, the community has started to realize the importance of protecting the privacy of ML training data. Differential Privacy (DP) has become a gold standard for making formal statements about data anonymization. However, while some adoption of DP has happened in industry, attempts to apply DP to real world complex ML models are still few and far between. The adoption of DP is hindered by limited practical guidance of what DP protection entails, what privacy guarantees to aim for, and the difficulty of achieving good privacy-utility-computation trade-offs for ML models. Tricks for tuning and maximizing performance are scattered among papers or stored in the heads of practitioners. Furthermore, the literature seems to present conflicting evidence on how and whether to apply architectural adjustments and which components are \"safe\" to use with DP. This work is a self-contained guide that gives an in-depth overview of the field of DP ML and presents information about achieving the best possible DP ML model with rigorous privacy guarantees. Our target audience is both researchers and practitioners. Researchers interested in DP for ML will benefit from a clear overview of current advances and areas for improvement. We include theory-focused sections that highlight important topics such as privacy accounting and its assumptions, and convergence. For a practitioner, we provide a background in DP theory and a clear step-by-step guide for choosing an appropriate privacy definition and approach, implementing DP training, potentially updating the model architecture, and tuning hyperparameters. For both researchers and practitioners, consistently and fully reporting privacy guarantees is critical, and so we propose a set of specific best practices for stating guarantees.",
+ "primary": "cs.LG"
+}

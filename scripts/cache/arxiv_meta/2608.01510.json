@@ -1,0 +1,18 @@
+{
+ "id": "2608.01510",
+ "title": "scikit-covtest: Covariance Matrix Hypothesis Testing in Python",
+ "authors": [
+  "Austin Talbot",
+  "Ilha Hwang",
+  "Cristina Trevino",
+  "Alex V Kotlar"
+ ],
+ "v1_date": "2026-08-02",
+ "latest_version": 1,
+ "latest_date": "2026-08-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Covariance matrices play a central role across diverse domains such as finance, machine learning, neuroscience, and genetics, where they are used for tasks including dimensionality reduction, connectivity inference, and risk estimation. Many of these applications require testing whether a covariance matrix follows a specific structure. While several R packages provide partial coverage of such tests, Python, an important language in machine learning, lacks a comprehensive, well-tested implementation. To address this gap, we introduce scikit-covtest, a Python package implementing a variety of hypothesis tests for covariance matrices spanning four categories: identity, sphericity, proportionality, and two-sample equality. The package provides a consistent SciPy-style API, extensive documentation, and supporting functionality for multiple testing correction, synthetic data generation, and diagnostic evaluation. scikit-covtest is open source, available through PyPI, and lowers the barrier to applying modern covariance-testing methods in scientific applications.",
+ "primary": "stat.CO"
+}

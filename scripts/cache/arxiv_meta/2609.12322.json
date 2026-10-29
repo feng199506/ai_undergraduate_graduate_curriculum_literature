@@ -1,0 +1,17 @@
+{
+ "id": "2609.12322",
+ "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
+ "authors": [
+  "Reina Mun",
+  "Zishen Wan",
+  "Vijay Janapa Reddi"
+ ],
+ "v1_date": "2026-09-11",
+ "latest_version": 1,
+ "latest_date": "2026-09-11",
+ "journal_ref": "",
+ "doi": "10.1109/mic.2026.3732091",
+ "comment": "Accepted for publication in IEEE Internet Computing, Special Issue on Wearable Computing (Sep/Oct 2026). 4 figures, 2 tables",
+ "abstract": "Affective computing has advanced wearable state inference, but on-device reasoning about whether, when, and how to intervene remains challenging. We present Affective Agent, a three-layer reference architecture for personalized intervention reasoning under uncertainty on wearable-class hardware. It combines a compact sub-billion-parameter language model with physiological evidence, context, and user history to decide whether, when, and how to intervene, without cloud dependency or per-user retraining. The architecture is organized into three interacting layers (perception, personalization, and reasoning), adapting to individual users through host-managed structured memory evolution rather than per-user weight updates. We instantiate Affective Agent in indoor environmental quality control and evaluate it on held-out, simulator-generated longitudinal scenarios spanning physiological variation, context, signal quality, and intervention history. Results show that memory-driven personalization and two-pass structured reasoning improve intervention decisions within this synthetic evaluation. By moving the decision layer on-device, this work demonstrates a path from wearable state inference toward closed-loop, personalized intervention on wearable-class hardware.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2311.16865",
+ "title": "A Benchmark for Evaluating Machine Translation Metrics on Dialects Without Standard Orthography",
+ "authors": [
+  "Noëmi Aepli",
+  "Chantal Amrhein",
+  "Florian Schottmann",
+  "Rico Sennrich"
+ ],
+ "v1_date": "2023-11-28",
+ "latest_version": 1,
+ "latest_date": "2023-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "WMT 2023 Research Paper",
+ "abstract": "For sensible progress in natural language processing, it is important that we are aware of the limitations of the evaluation metrics we use. In this work, we evaluate how robust metrics are to non-standardized dialects, i.e. spelling differences in language varieties that do not have a standard orthography. To investigate this, we collect a dataset of human translations and human judgments for automatic machine translations from English to two Swiss German dialects. We further create a challenge set for dialect variation and benchmark existing metrics' performances. Our results show that existing metrics cannot reliably evaluate Swiss German text generation outputs, especially on segment level. We propose initial design adaptations that increase robustness in the face of non-standardized dialects, although there remains much room for further improvement. The dataset, code, and models are available here: https://github.com/textshuttle/dialect_eval",
+ "primary": "cs.CL"
+}

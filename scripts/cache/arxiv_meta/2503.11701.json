@@ -1,0 +1,26 @@
+{
+ "id": "2503.11701",
+ "title": "A Survey of Direct Preference Optimization",
+ "authors": [
+  "Shunyu Liu",
+  "Wenkai Fang",
+  "Zetian Hu",
+  "Junjie Zhang",
+  "Yang Zhou",
+  "Kongcheng Zhang",
+  "Rongcheng Tu",
+  "Ting-En Lin",
+  "Fei Huang",
+  "Mingli Song",
+  "Yongbin Li",
+  "Dacheng Tao"
+ ],
+ "v1_date": "2025-03-12",
+ "latest_version": 1,
+ "latest_date": "2025-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) have demonstrated unprecedented generative capabilities, yet their alignment with human values remains critical for ensuring helpful and harmless deployments. While Reinforcement Learning from Human Feedback (RLHF) has emerged as a powerful paradigm for aligning LLMs with human preferences, its reliance on complex reward modeling introduces inherent trade-offs in computational efficiency and training stability. In this context, Direct Preference Optimization (DPO) has recently gained prominence as a streamlined alternative that directly optimizes LLMs using human preferences, thereby circumventing the need for explicit reward modeling. Owing to its theoretical elegance and computational efficiency, DPO has rapidly attracted substantial research efforts exploring its various implementations and applications. However, this field currently lacks systematic organization and comparative analysis. In this survey, we conduct a comprehensive overview of DPO and introduce a novel taxonomy, categorizing previous works into four key dimensions: data strategy, learning framework, constraint mechanism, and model property. We further present a rigorous empirical analysis of DPO variants across standardized benchmarks. Additionally, we discuss real-world applications, open challenges, and future directions for DPO. This work delivers both a conceptual framework for understanding DPO and practical guidance for practitioners, aiming to advance robust and generalizable alignment paradigms. All collected resources are available and will be continuously updated at https://github.com/liushunyu/awesome-direct-preference-optimization.",
+ "primary": "cs.LG"
+}

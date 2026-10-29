@@ -1,0 +1,16 @@
+{
+ "id": "2508.18162",
+ "title": "The Computational Complexity of Satisfiability in State Space Models",
+ "authors": [
+  "Eric Alsmann",
+  "Martin Lange"
+ ],
+ "v1_date": "2025-08-25",
+ "latest_version": 1,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ECAI 25",
+ "abstract": "We analyse the complexity of the satisfiability problem ssmSAT for State Space Models (SSM), which asks whether an input sequence can lead the model to an accepting configuration. We find that ssmSAT is undecidable in general, reflecting the computational power of SSM. Motivated by practical settings, we identify two natural restrictions under which ssmSAT becomes decidable and establish corresponding complexity bounds. First, for SSM with bounded context length, ssmSAT is NP-complete when the input length is given in unary and in NEXPTIME (and PSPACE-hard) when the input length is given in binary. Second, for quantised SSM operating over fixed-width arithmetic, ssmSAT is PSPACE-complete resp. in EXPSPACE depending on the bit-width encoding. While these results hold for diagonal gated SSM we also establish complexity bounds for time-invariant SSM. Our results establish a first complexity landscape for formal reasoning in SSM and highlight fundamental limits and opportunities for the verification of SSM-based language models.",
+ "primary": "cs.LO"
+}

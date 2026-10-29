@@ -1,0 +1,19 @@
+{
+ "id": "2404.18923",
+ "title": "Holmes: A Benchmark to Assess the Linguistic Competence of Language Models",
+ "authors": [
+  "Andreas Waldis",
+  "Yotam Perlitz",
+  "Leshem Choshen",
+  "Yufang Hou",
+  "Iryna Gurevych"
+ ],
+ "v1_date": "2024-04-29",
+ "latest_version": 5,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce Holmes, a new benchmark designed to assess language models (LMs) linguistic competence - their unconscious understanding of linguistic phenomena. Specifically, we use classifier-based probing to examine LMs' internal representations regarding distinct linguistic phenomena (e.g., part-of-speech tagging). As a result, we meet recent calls to disentangle LMs' linguistic competence from other cognitive abilities, such as following instructions in prompting-based evaluations. Composing Holmes, we review over 270 probing studies and include more than 200 datasets to assess syntax, morphology, semantics, reasoning, and discourse phenomena. Analyzing over 50 LMs reveals that, aligned with known trends, their linguistic competence correlates with model size. However, surprisingly, model architecture and instruction tuning also significantly influence performance, particularly in morphology and syntax. Finally, we propose FlashHolmes, a streamlined version that reduces the computation load while maintaining high-ranking precision.",
+ "primary": "cs.CL"
+}

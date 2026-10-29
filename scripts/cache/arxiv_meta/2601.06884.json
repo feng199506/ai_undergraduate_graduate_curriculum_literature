@@ -1,0 +1,15 @@
+{
+ "id": "2601.06884",
+ "title": "Paraphrasing Adversarial Attack on LLM-as-a-Reviewer",
+ "authors": [
+  "Masahiro Kaneko"
+ ],
+ "v1_date": "2026-01-11",
+ "latest_version": 1,
+ "latest_date": "2026-01-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The use of large language models (LLMs) in peer review systems has attracted growing attention, making it essential to examine their potential vulnerabilities. Prior attacks rely on prompt injection, which alters manuscript content and conflates injection susceptibility with evaluation robustness. We propose the Paraphrasing Adversarial Attack (PAA), a black-box optimization method that searches for paraphrased sequences yielding higher review scores while preserving semantic equivalence and linguistic naturalness. PAA leverages in-context learning, using previous paraphrases and their scores to guide candidate generation. Experiments across five ML and NLP conferences with three LLM reviewers and five attacking models show that PAA consistently increases review scores without changing the paper's claims. Human evaluation confirms that generated paraphrases maintain meaning and naturalness. We also find that attacked papers exhibit increased perplexity in reviews, offering a potential detection signal, and that paraphrasing submissions can partially mitigate attacks.",
+ "primary": "cs.CL"
+}

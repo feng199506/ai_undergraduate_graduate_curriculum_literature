@@ -1,0 +1,17 @@
+{
+ "id": "2605.13464",
+ "title": "A Unified Three-Stage Machine Learning Framework for Diabetes Detection, Subtype Discrimination, and Cognitive-Metabolic Hypothesis Testing",
+ "authors": [
+  "Vishal Pandey",
+  "Ruzina Haque Laskar",
+  "Rishav Tewari"
+ ],
+ "v1_date": "2026-05-13",
+ "latest_version": 1,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 Pages",
+ "abstract": "Diabetes mellitus affects over 537 million adults worldwide and remains a major challenge in preventive healthcare. Existing machine-learning studies primarily formulate diabetes prediction as a binary classification problem, while subtype-oriented analysis and glycaemic-cognitive associations remain comparatively underexplored. We present a reproducible three-stage machine learning framework for diabetes detection, subtype-oriented clustering, and metabolic-cognitive association analysis. In Stage 1, five supervised classifiers together with a stacking ensemble are benchmarked on the NCSU Diabetes Dataset using stratified five-fold cross-validation and evaluation metrics including ROC-AUC, balanced accuracy, recall, and F1-score. SVM-RBF and Logistic Regression achieve the highest ROC-AUC ($0.825 \\pm 0.026$), while Random Forest achieves the highest accuracy ($0.762 \\pm 0.030$). SHAP explainability identifies Glucose, BMI, and Age as the dominant predictive biomarkers. In Stage 2, silhouette-validated K-Means clustering ($k=2$, silhouette $\\approx 0.116$) is applied to confirmed diabetic cases using Glucose, Insulin, and Age, recovering clinically plausible subtype-oriented partitions without requiring ground-truth subtype labels. In Stage 3, statistical analysis of the Ohio Longitudinal Cognitive Dataset ($n=373$) reveals a significant positive association between glycaemic control and cognitive function ($ρ_s = 0.208$, $p = 5.29 \\times 10^{-5}$), which survives Holm correction. The findings support the utility of statistically grounded and interpretable ML pipelines for reproducible diabetes analytics and subtype-aware exploratory analysis.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.13759",
+ "title": "Discrete Diffusion in Large Language and Multimodal Models: A Survey",
+ "authors": [
+  "Runpeng Yu",
+  "Qi Li",
+  "Xinchao Wang"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 5,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we provide a systematic survey of Discrete Diffusion Language Models (dLLMs) and Discrete Diffusion Multimodal Language Models (dMLLMs). Unlike autoregressive (AR) models, dLLMs and dMLLMs adopt a multi-token, parallel decoding paradigm using full attention and a denoising-based generation strategy. This paradigm naturally enables parallel generation, fine-grained output control, and dynamic perception. These capabilities are previously difficult to achieve with AR models. A growing number of industrial-scale proprietary d(M)LLMs, as well as a large number of open-source academic d(M)LLMs, have demonstrated performance comparable to their autoregressive counterparts, while achieving up to 10$\\times$ acceleration in inference speed. These developments position discrete diffusion models as a promising alternative to intelligence based on the traditional autoregressive approach. In this work, we present a comprehensive overview of the research in the dLLM and dMLLM domains. We trace the historical development of dLLMs and dMLLMs, formalize the underlying mathematical frameworks, list commonly-used modeling methods, and categorize representative models. We further analyze key techniques for training, inference, quantization. We also discuss the trustworthy issues and summarize emerging applications across language, vision-language, and biological domains and etc.. We conclude by discussing future directions for research and deployment. Relative papers are collected in https://github.com/LiQiiiii/Awesome-Discrete-Diffusion-LLM_MLLM",
+ "primary": "cs.LG"
+}

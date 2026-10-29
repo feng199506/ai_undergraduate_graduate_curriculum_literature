@@ -1,0 +1,17 @@
+{
+ "id": "2507.23135",
+ "title": "ISO-Bench: Benchmarking Multimodal Causal Reasoning in Visual-Language Models through Procedural Plans",
+ "authors": [
+  "Ananya Sadana",
+  "Yash Kumar Lal",
+  "Jiawei Zhou"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 1,
+ "latest_date": "2025-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding causal relationships across modalities is a core challenge for multimodal models operating in real-world environments. We introduce ISO-Bench, a benchmark for evaluating whether models can infer causal dependencies between visual observations and procedural text. Each example presents an image of a task step and a text snippet from a plan, with the goal of deciding whether the visual step occurs before or after the referenced text step. Evaluation results on ten frontier vision-language models show underwhelming performance: the best zero-shot F1 is only 0.57, and chain-of-thought reasoning yields only modest gains (up to 0.62 F1), largely behind humans (0.98 F1). Our analysis further highlights concrete directions for improving causal understanding in multimodal models.",
+ "primary": "cs.CL"
+}

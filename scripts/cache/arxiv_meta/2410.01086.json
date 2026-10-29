@@ -1,0 +1,15 @@
+{
+ "id": "2410.01086",
+ "title": "An Introduction to Deep Survival Analysis Models for Predicting Time-to-Event Outcomes",
+ "authors": [
+  "George H. Chen"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 1,
+ "latest_date": "2024-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code is available at https://github.com/georgehc/survival-intro",
+ "abstract": "Many applications involve reasoning about time durations before a critical event happens--also called time-to-event outcomes. When will a customer cancel a subscription, a coma patient wake up, or a convicted criminal reoffend? Time-to-event outcomes have been studied extensively within the field of survival analysis primarily by the statistical, medical, and reliability engineering communities, with textbooks already available in the 1970s and '80s. This monograph aims to provide a reasonably self-contained modern introduction to survival analysis. We focus on predicting time-to-event outcomes at the individual data point level with the help of neural networks. Our goal is to provide the reader with a working understanding of precisely what the basic time-to-event prediction problem is, how it differs from standard regression and classification, and how key \"design patterns\" have been used time after time to derive new time-to-event prediction models, from classical methods like the Cox proportional hazards model to modern deep learning approaches such as deep kernel Kaplan-Meier estimators and neural ordinary differential equation models. We further delve into two extensions of the basic time-to-event prediction setup: predicting which of several critical events will happen first along with the time until this earliest event happens (the competing risks setting), and predicting time-to-event outcomes given a time series that grows in length over time (the dynamic setting). We conclude with a discussion of a variety of topics such as fairness, causal reasoning, interpretability, and statistical guarantees. Our monograph comes with an accompanying code repository that implements every model and evaluation metric that we cover in detail.",
+ "primary": "stat.ML"
+}

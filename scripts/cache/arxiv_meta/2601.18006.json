@@ -1,0 +1,17 @@
+{
+ "id": "2601.18006",
+ "title": "PEAR: Pairwise Evaluation for Automatic Relative Scoring in Machine Translation",
+ "authors": [
+  "Lorenzo Proietti",
+  "Roman Grundkiewicz",
+  "Matt Post"
+ ],
+ "v1_date": "2026-01-25",
+ "latest_version": 2,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ACL 2026 Main Conference. 19 pages",
+ "abstract": "We present PEAR (Pairwise Evaluation for Automatic Relative Scoring), a supervised quality estimation (QE) metric family that reframes reference-free machine translation (MT) evaluation as a graded pairwise comparison. Given a source segment and two candidate translations, PEAR predicts the direction and magnitude of their quality difference. The metrics are trained using pairwise supervision derived from differences in human judgments, with an additional regularization term that encourages sign inversion under candidate order reversal. On the WMT24 meta-evaluation benchmark, PEAR outperforms strictly matched single-candidate QE baselines trained with the same data and backbones, isolating the benefit of the proposed pairwise formulation. Despite using substantially fewer parameters than recent large metrics, PEAR surpasses far larger QE models and reference-based metrics. Our analysis further indicates that PEAR yields a less redundant evaluation signal relative to other top metrics. Finally, we show that PEAR is an effective utility function for minimum Bayes risk (MBR) decoding, reducing pairwise scoring cost at negligible impact.",
+ "primary": "cs.CL"
+}

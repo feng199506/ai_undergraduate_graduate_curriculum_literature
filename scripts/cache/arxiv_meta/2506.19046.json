@@ -1,0 +1,22 @@
+{
+ "id": "2506.19046",
+ "title": "From Rows to Yields: How Foundation Models for Tabular Data Simplify Crop Yield Prediction",
+ "authors": [
+  "Filip Sabo",
+  "Michele Meroni",
+  "Maria Piles",
+  "Martin Claverie",
+  "Fanie Ferreira",
+  "Elna Van Den Berg",
+  "Francesco Collivignarelli",
+  "Felix Rembold"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 1,
+ "latest_date": "2025-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present an application of a foundation model for small- to medium-sized tabular data (TabPFN), to sub-national yield forecasting task in South Africa. TabPFN has recently demonstrated superior performance compared to traditional machine learning (ML) models in various regression and classification tasks. We used the dekadal (10-days) time series of Earth Observation (EO; FAPAR and soil moisture) and gridded weather data (air temperature, precipitation and radiation) to forecast the yield of summer crops at the sub-national level. The crop yield data was available for 23 years and for up to 8 provinces. Covariate variables for TabPFN (i.e., EO and weather) were extracted by region and aggregated at a monthly scale. We benchmarked the results of the TabPFN against six ML models and three baseline models. Leave-one-year-out cross-validation experiment setting was used in order to ensure the assessment of the models capacity to forecast an unseen year. Results showed that TabPFN and ML models exhibit comparable accuracy, outperforming the baselines. Nonetheless, TabPFN demonstrated superior practical utility due to its significantly faster tuning time and reduced requirement for feature engineering. This renders TabPFN a more viable option for real-world operation yield forecasting applications, where efficiency and ease of implementation are paramount.",
+ "primary": "cs.AI"
+}

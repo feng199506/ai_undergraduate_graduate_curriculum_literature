@@ -1,0 +1,16 @@
+{
+ "id": "2509.09863",
+ "title": "Off Policy Lyapunov Stability in Reinforcement Learning",
+ "authors": [
+  "Sarvan Gill",
+  "Daniela Constantinescu"
+ ],
+ "v1_date": "2025-09-11",
+ "latest_version": 2,
+ "latest_date": "2026-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Conference on Robot Learning (CORL) 2025",
+ "abstract": "Traditional reinforcement learning lacks the ability to provide stability guarantees. More recent algorithms learn Lyapunov functions alongside the control policies to ensure stable learning. However, the current self-learned Lyapunov functions are sample inefficient due to their on-policy nature. This paper introduces a method for learning Lyapunov functions off-policy and incorporates the proposed off-policy Lyapunov function into the Soft Actor Critic and Proximal Policy Optimization algorithms to provide them with a data efficient stability certificate. Simulations of an inverted pendulum and a quadrotor illustrate the improved performance of the two algorithms when endowed with the proposed off-policy Lyapunov function.",
+ "primary": "eess.SY"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2311.04412",
+ "title": "Human Conditional Reasoning in Answer Set Programming",
+ "authors": [
+  "Chiaki Sakama"
+ ],
+ "v1_date": "2023-11-08",
+ "latest_version": 2,
+ "latest_date": "2023-12-30",
+ "journal_ref": "Theory and Practice of Logic Programming, vol.24(1), January 2024, pp. 157-192",
+ "doi": "10.1017/s1471068423000376",
+ "comment": "34 pages. Shorter version: in Proceedings of the 21st International Workshop on Non-Monotonic Reasoning (NMR-2023)",
+ "abstract": "Given a conditional sentence \"P=>Q\" (if P then Q) and respective facts, four different types of inferences are observed in human reasoning. Affirming the antecedent (AA) (or modus ponens) reasons Q from P; affirming the consequent (AC) reasons P from Q; denying the antecedent (DA) reasons -Q from -P; and denying the consequent (DC) (or modus tollens) reasons -P from -Q. Among them, AA and DC are logically valid, while AC and DA are logically invalid and often called logical fallacies. Nevertheless, humans often perform AC or DA as pragmatic inference in daily life. In this paper, we realize AC, DA and DC inferences in answer set programming. Eight different types of completion are introduced and their semantics are given by answer sets. We investigate formal properties and characterize human reasoning tasks in cognitive psychology. Those completions are also applied to commonsense reasoning in AI.",
+ "primary": "cs.AI"
+}

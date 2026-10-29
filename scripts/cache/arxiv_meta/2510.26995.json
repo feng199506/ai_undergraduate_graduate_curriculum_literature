@@ -1,0 +1,18 @@
+{
+ "id": "2510.26995",
+ "title": "LLMs are Overconfident: Evaluating Confidence Interval Calibration with FermiEval",
+ "authors": [
+  "Elliot L. Epstein",
+  "John Winnicki",
+  "Thanawat Sornwanee",
+  "Rajat Dwaraknath"
+ ],
+ "v1_date": "2025-10-30",
+ "latest_version": 1,
+ "latest_date": "2025-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages",
+ "abstract": "Large language models (LLMs) excel at numerical estimation but struggle to correctly quantify uncertainty. We study how well LLMs construct confidence intervals around their own answers and find that they are systematically overconfident. To evaluate this behavior, we introduce FermiEval, a benchmark of Fermi-style estimation questions with a rigorous scoring rule for confidence interval coverage and sharpness. Across several modern models, nominal 99\\% intervals cover the true answer only 65\\% of the time on average. With a conformal prediction based approach that adjusts the intervals, we obtain accurate 99\\% observed coverage, and the Winkler interval score decreases by 54\\%. We also propose direct log-probability elicitation and quantile adjustment methods, which further reduce overconfidence at high confidence levels. Finally, we develop a perception-tunnel theory explaining why LLMs exhibit overconfidence: when reasoning under uncertainty, they act as if sampling from a truncated region of their inferred distribution, neglecting its tails.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2502.16459",
+ "title": "Deep learning approaches to surgical video segmentation and object detection: A Scoping Review",
+ "authors": [
+  "Devanish N. Kamtam",
+  "Joseph B. Shrager",
+  "Satya Deepya Malla",
+  "Nicole Lin",
+  "Juan J. Cardona",
+  "Jake J. Kim",
+  "Clarence Hu"
+ ],
+ "v1_date": "2025-02-23",
+ "latest_version": 1,
+ "latest_date": "2025-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 2 figures",
+ "abstract": "Introduction: Computer vision (CV) has had a transformative impact in biomedical fields such as radiology, dermatology, and pathology. Its real-world adoption in surgical applications, however, remains limited. We review the current state-of-the-art performance of deep learning (DL)-based CV models for segmentation and object detection of anatomical structures in videos obtained during surgical procedures. Methods: We conducted a scoping review of studies on semantic segmentation and object detection of anatomical structures published between 2014 and 2024 from 3 major databases - PubMed, Embase, and IEEE Xplore. The primary objective was to evaluate the state-of-the-art performance of semantic segmentation in surgical videos. Secondary objectives included examining DL models, progress toward clinical applications, and the specific challenges with segmentation of organs/tissues in surgical videos. Results: We identified 58 relevant published studies. These focused predominantly on procedures from general surgery [20(34.4%)], colorectal surgery [9(15.5%)], and neurosurgery [8(13.8%)]. Cholecystectomy [14(24.1%)] and low anterior rectal resection [5(8.6%)] were the most common procedures addressed. Semantic segmentation [47(81%)] was the primary CV task. U-Net [14(24.1%)] and DeepLab [13(22.4%)] were the most widely used models. Larger organs such as the liver (Dice score: 0.88) had higher accuracy compared to smaller structures such as nerves (Dice score: 0.49). Models demonstrated real-time inference potential ranging from 5-298 frames-per-second (fps). Conclusion: This review highlights the significant progress made in DL-based semantic segmentation for surgical videos with real-time applicability, particularly for larger organs. Addressing challenges with smaller structures, data availability, and generalizability remains crucial for future advancements.",
+ "primary": "eess.IV"
+}

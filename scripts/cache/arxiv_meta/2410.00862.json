@@ -1,0 +1,17 @@
+{
+ "id": "2410.00862",
+ "title": "Timber! Poisoning Decision Trees",
+ "authors": [
+  "Stefano Calzavara",
+  "Lorenzo Cazzaro",
+  "Massimo Vettori"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 2,
+ "latest_date": "2025-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This work has been accepted for publication in the 3rd IEEE Conference on Secure and Trustworthy Machine Learning (IEEE SaTML 2025). The final version will be available on IEEE Xplore. 17 pages, 7 figures, 5 tables",
+ "abstract": "We present Timber, the first white-box poisoning attack targeting decision trees. Timber is based on a greedy attack strategy that leverages sub-tree retraining to efficiently estimate the damage caused by poisoning a given training instance. The attack relies on a tree annotation procedure, which enables the sorting of training instances so that they are processed in increasing order of the computational cost of sub-tree retraining. This sorting yields a variant of Timber that supports an early stopping criterion, designed to make poisoning attacks more efficient and feasible on larger datasets. We also discuss an extension of Timber to traditional random forest models, which is valuable since decision trees are typically combined into ensembles to improve their predictive power. Our experimental evaluation on public datasets demonstrates that our attacks outperform existing baselines in terms of effectiveness, efficiency, or both. Moreover, we show that two representative defenses can mitigate the effect of our attacks, but fail to effectively thwart them.",
+ "primary": "cs.LG"
+}

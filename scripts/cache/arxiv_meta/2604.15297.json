@@ -1,0 +1,18 @@
+{
+ "id": "2604.15297",
+ "title": "Benchmarking Optimizers for MLPs in Tabular Deep Learning",
+ "authors": [
+  "Yury Gorishniy",
+  "Ivan Rubachev",
+  "Dmitrii Feoktistov",
+  "Artem Babenko"
+ ],
+ "v1_date": "2026-04-16",
+ "latest_version": 2,
+ "latest_date": "2026-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code: https://github.com/yandex-research/tabular-dl-optimizers",
+ "abstract": "MLP is a heavily used backbone in modern deep learning (DL) architectures for supervised learning on tabular data, and AdamW is the go-to optimizer used to train tabular DL models. Unlike architecture design, however, the choice of optimizer for tabular DL has not been examined systematically, despite new optimizers showing promise in other domains. To fill this gap, we benchmark 15 optimizers on 17 tabular datasets for training MLP-based models in the standard supervised learning setting under a shared experiment protocol. Our main finding is that the Muon optimizer consistently outperforms AdamW, and thus should be considered a strong and practical choice for practitioners and researchers, if the associated training efficiency overhead is affordable. Additionally, we find exponential moving average of model weights to be a simple yet effective technique that improves AdamW on vanilla MLPs, though its effect is less consistent across model variants.",
+ "primary": "cs.LG"
+}

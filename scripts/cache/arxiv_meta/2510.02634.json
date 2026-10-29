@@ -1,0 +1,19 @@
+{
+ "id": "2510.02634",
+ "title": "Automatic Building Code Review: A Case Study",
+ "authors": [
+  "Hanlong Wan",
+  "Weili Xu",
+  "Michael Rosenberg",
+  "Jian Zhang",
+  "Aysha Siddika"
+ ],
+ "v1_date": "2025-10-03",
+ "latest_version": 1,
+ "latest_date": "2025-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Building officials, particularly those in resource-constrained or rural jurisdictions, face labor-intensive, error-prone, and costly manual reviews of design documents as projects increase in size and complexity. The growing adoption of Building Information Modeling (BIM) and Large Language Models (LLMs) presents opportunities for automated code review (ACR) solutions. This study introduces a novel agent-driven framework that integrates BIM-based data extraction with automated verification using both retrieval-augmented generation (RAG) and Model Context Protocol (MCP) agent pipelines. The framework employs LLM-enabled agents to extract geometry, schedules, and system attributes from heterogeneous file types, which are then processed for building code checking through two complementary mechanisms: (1) direct API calls to the US Department of Energy COMcheck engine, providing deterministic and audit-ready outputs, and (2) RAG-based reasoning over rule provisions, enabling flexible interpretation where coverage is incomplete or ambiguous. The framework was evaluated through case demonstrations, including automated extraction of geometric attributes (such as surface area, tilt, and insulation values), parsing of operational schedules, and validation of lighting allowances under ASHRAE Standard 90.1-2022. Comparative performance tests across multiple LLMs showed that GPT-4o achieved the best balance of efficiency and stability, while smaller models exhibited inconsistencies or failures. Results confirm that MCP agent pipelines outperform RAG reasoning pipelines in rigor and reliability. This work advances ACR research by demonstrating a scalable, interoperable, and production-ready approach that bridges BIM with authoritative code review tools.",
+ "primary": "cs.SE"
+}

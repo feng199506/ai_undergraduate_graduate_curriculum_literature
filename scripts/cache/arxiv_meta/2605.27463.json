@@ -1,0 +1,16 @@
+{
+ "id": "2605.27463",
+ "title": "When prompt perturbations break your A/B test: A valid statistical test for generative surveying",
+ "authors": [
+  "Hayden Helm",
+  "Carey Priebe"
+ ],
+ "v1_date": "2026-05-26",
+ "latest_version": 1,
+ "latest_date": "2026-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative surveying -- where collections of LLM-based personas provide feedback on messages -- has emerged as a cheap and scalable alternative to traditional market research. However, LLMs are sensitive to small variations in prompt design and conclusions drawn from generative surveys may depend on arbitrary phrasing choices. Controlling for this sensitivity requires including semantically equivalent perturbations in the analysis. In this paper, we show that standard hypothesis tests, including the sign test and Wilcoxon signed-rank test, are invalid under a statistical model for generative surveying that includes realistic perturbation structure. We propose a permutation test that is valid under this model and formally characterize the conditions under which standard tests fail. Applying our framework to a simple generative surveying problem, we estimate relevant parameters, characterize the power of the permutation test under realistic conditions, and provide practical guidance on budget allocation across personas, perturbations, and replicates. Finally, we show that both the magnitude and direction of the estimated effect are sensitive to the choice of model, even within the same model family.",
+ "primary": "stat.ME"
+}

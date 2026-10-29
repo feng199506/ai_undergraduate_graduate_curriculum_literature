@@ -1,0 +1,15 @@
+{
+ "id": "2503.02129",
+ "title": "The Mathematical Theory of Double Descent as Shrinkage, not Overfitting: Matching Bounds for Path-Regularized Multilayer Neural Networks",
+ "authors": [
+  "Hao Yu"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 4,
+ "latest_date": "2026-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "54 pages",
+ "abstract": "We give a nonasymptotic generalization theory for multilayer fully connected neural networks trained with path regularization, for general Lipschitz losses and without assuming the loss bounded, the architecture sparse, or any width or depth limit. Approximation error is modelled explicitly, and along the way we settle an open problem of E et al. on approximation rates in generalized Barron spaces. We treat the underparameterized and overparameterized regimes separately, which is what allows the resulting curve to be non-monotone in the width. We then prove lower bounds on the error itself, valid at every target and at every local minimizer, and combine them with the upper bounds into a theorem asserting that the error - not merely our bound on it - descends, rises and descends again as the width grows, with a peak exceeding the final plateau by a factor diverging in the sample size. Having both sides of the bound also identifies what drives the ascent, and it is not overfitting: once the regularization exceeds the dual norm of the noise, which the prescribed schedule does at every width, a slow-rate oracle inequality controls the error with no variance term at all. The rise is instead the shrinkage demanded by the regularization that the underparameterized regime requires, and we show it cannot be removed by any width-independent regularization under which the theory's guarantees hold. This mechanism is a property of the estimator analyzed here; we do not claim it accounts for the double descent reported for unregularized training.",
+ "primary": "cs.LG"
+}

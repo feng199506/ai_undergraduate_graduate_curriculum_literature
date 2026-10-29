@@ -1,0 +1,16 @@
+{
+ "id": "2506.17263",
+ "title": "Memory Allocation in Resource-Constrained Reinforcement Learning",
+ "authors": [
+  "Massimiliano Tamborski",
+  "David Abel"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 1,
+ "latest_date": "2025-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "RLDM 2025",
+ "abstract": "Resource constraints can fundamentally change both learning and decision-making. We explore how memory constraints influence an agent's performance when navigating unknown environments using standard reinforcement learning algorithms. Specifically, memory-constrained agents face a dilemma: how much of their limited memory should be allocated to each of the agent's internal processes, such as estimating a world model, as opposed to forming a plan using that model? We study this dilemma in MCTS- and DQN-based algorithms and examine how different allocations of memory impact performance in episodic and continual learning settings.",
+ "primary": "cs.LG"
+}

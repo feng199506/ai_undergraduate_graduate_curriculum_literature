@@ -1,0 +1,20 @@
+{
+ "id": "2509.04462",
+ "title": "Benchmarking GPT-5 for biomedical natural language processing",
+ "authors": [
+  "Yu Hou",
+  "Zaifu Zhan",
+  "Min Zeng",
+  "Yifan Wu",
+  "Shuang Zhou",
+  "Rui Zhang"
+ ],
+ "v1_date": "2025-08-28",
+ "latest_version": 2,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Biomedical literature and clinical narratives pose multifaceted challenges for natural language understanding, from precise entity extraction and document synthesis to multi-step diagnostic reasoning. This study extends a unified benchmark to evaluate GPT-5 and GPT-4o under zero-, one-, and five-shot prompting across five core biomedical NLP tasks: named entity recognition, relation extraction, multi-label document classification, summarization, and simplification, and nine expanded biomedical QA datasets covering factual knowledge, clinical reasoning, and multimodal visual understanding. Using standardized prompts, fixed decoding parameters, and consistent inference pipelines, we assessed model performance, latency, and token-normalized cost under official pricing. GPT-5 consistently outperformed GPT-4o, with the largest gains on reasoning-intensive datasets such as MedXpertQA and DiagnosisArena and stable improvements in multimodal QA. In core tasks, GPT-5 achieved better chemical NER and ChemProt scores but remained below domain-tuned baselines for disease NER and summarization. Despite producing longer outputs, GPT-5 showed comparable latency and 30 to 50 percent lower effective cost per correct prediction. Fine-grained analyses revealed improvements in diagnosis, treatment, and reasoning subtypes, whereas boundary-sensitive extraction and evidence-dense summarization remain challenging. Overall, GPT-5 approaches deployment-ready performance for biomedical QA while offering a favorable balance of accuracy, interpretability, and economic efficiency. The results support a tiered prompting strategy: direct prompting for large-scale or cost-sensitive applications, and chain-of-thought scaffolds for analytically complex or high-stakes scenarios, highlighting the continued need for hybrid solutions where precision and factual fidelity are critical.",
+ "primary": "cs.CL"
+}

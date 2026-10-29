@@ -1,0 +1,18 @@
+{
+ "id": "2511.22708",
+ "title": "Distributed quantum architecture search using multi-agent reinforcement learning",
+ "authors": [
+  "Mikhail Sergeev",
+  "Georgii Paradezhenko",
+  "Daniil Rabinovich",
+  "Vladimir V. Palyulin"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 1,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 10 figures",
+ "abstract": "Quantum architecture search (QAS) automates the design of parameterized quantum circuits for variational quantum algorithms. The framework finds a well-suited problem-specific structure of a variational ansatz. Among possible implementations of QAS the reinforcement learning (RL) stands out as one of the most promising. Current RL approaches are single-agent-based and show poor scalability with a number of qubits due to the increase of the action space dimension and the computational cost. We propose a novel multi-agent RL algorithm for QAS with each agent acting separately on its own block of a quantum circuit. This procedure allows to significantly accelerate the convergence of the RL-based QAS and reduce its computational cost. We benchmark the proposed algorithm on MaxCut problem on 3-regular graphs and on ground energy estimation for the Schwinger Hamiltonian. In addition, the proposed multi-agent approach naturally fits into the set-up of distributed quantum computing, favoring its implementation on modern intermediate scale quantum devices.",
+ "primary": "quant-ph"
+}

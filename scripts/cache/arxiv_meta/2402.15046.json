@@ -1,0 +1,20 @@
+{
+ "id": "2402.15046",
+ "title": "CARBD-Ko: A Contextually Annotated Review Benchmark Dataset for Aspect-Level Sentiment Classification in Korean",
+ "authors": [
+  "Dongjun Jang",
+  "Jean Seo",
+  "Sungjoo Byun",
+  "Taekyoung Kim",
+  "Minseok Kim",
+  "Hyopil Shin"
+ ],
+ "v1_date": "2024-02-23",
+ "latest_version": 1,
+ "latest_date": "2024-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper explores the challenges posed by aspect-based sentiment classification (ABSC) within pretrained language models (PLMs), with a particular focus on contextualization and hallucination issues. In order to tackle these challenges, we introduce CARBD-Ko (a Contextually Annotated Review Benchmark Dataset for Aspect-Based Sentiment Classification in Korean), a benchmark dataset that incorporates aspects and dual-tagged polarities to distinguish between aspect-specific and aspect-agnostic sentiment classification. The dataset consists of sentences annotated with specific aspects, aspect polarity, aspect-agnostic polarity, and the intensity of aspects. To address the issue of dual-tagged aspect polarities, we propose a novel approach employing a Siamese Network. Our experimental findings highlight the inherent difficulties in accurately predicting dual-polarities and underscore the significance of contextualized sentiment analysis models. The CARBD-Ko dataset serves as a valuable resource for future research endeavors in aspect-level sentiment classification.",
+ "primary": "cs.CL"
+}

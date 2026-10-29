@@ -1,0 +1,17 @@
+{
+ "id": "2408.16591",
+ "title": "CUR for Implicit Time Integration of Random Partial Differential Equations on Low-Rank Matrix Manifolds",
+ "authors": [
+  "Mohammad Hossein Naderi",
+  "Sara Akhavan",
+  "Hessam Babaee"
+ ],
+ "v1_date": "2024-08-29",
+ "latest_version": 1,
+ "latest_date": "2024-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dynamical low-rank approximation allows for solving large-scale matrix differential equations (MDEs) with significantly fewer degrees of freedom and has been applied to a growing number of applications. However, most existing techniques rely on explicit time integration schemes. In this work, we introduce a cost-effective Newton's method for the implicit time integration of stiff, nonlinear MDEs on low-rank matrix manifolds. Our methodology is focused on MDEs resulting from the discretization of random partial differential equations (PDEs). Cost-effectiveness is achieved by solving the MDE at the minimum number of entries required for a rank-$r$ approximation. We present a novel CUR low-rank approximation that requires solving the parametric PDE at $r$ strategically selected parameters and $\\mathcal{O}(r)$ grid points using Newton's method. The selected random samples and grid points adaptively vary over time and are chosen using the discrete empirical interpolation method or similar techniques. The proposed methodology is developed for high-order implicit multistep and Runge-Kutta schemes and incorporates rank adaptivity, allowing for dynamic rank adjustment over time to control error. Several analytical and PDE examples, including the stochastic Burgers' and Gray-Scott equations, demonstrate the accuracy and efficiency of the presented methodology.",
+ "primary": "math.NA"
+}

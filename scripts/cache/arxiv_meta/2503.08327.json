@@ -1,0 +1,18 @@
+{
+ "id": "2503.08327",
+ "title": "Adding Chocolate to Mint: Mitigating Metric Interference in Machine Translation",
+ "authors": [
+  "José Pombal",
+  "Nuno M. Guerreiro",
+  "Ricardo Rei",
+  "André F. T. Martins"
+ ],
+ "v1_date": "2025-03-11",
+ "latest_version": 2,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As automatic metrics become increasingly stronger and widely adopted, the risk of unintentionally \"gaming the metric\" during model development rises. This issue is caused by metric interference (MINT), i.e., the use of the same or related metrics for both model tuning and evaluation. MINT can misguide practitioners into being overoptimistic about the performance of their systems: as system outputs become a function of the interfering metric, their estimated quality loses correlation with human judgments. In this work, we analyze two common cases of MINT in machine translation-related tasks: filtering of training data, and decoding with quality signals. Importantly, we find that MINT strongly distorts instance-level metric scores, even when metrics are not directly optimized for-questioning the common strategy of leveraging a different, yet related metric for evaluation that is not used for tuning. To address this problem, we propose MINTADJUST, a method for more reliable evaluation under MINT. On the WMT24 MT shared task test set, MINTADJUST ranks translations and systems more accurately than state-of-the-art metrics across a majority of language pairs, especially for high-quality systems. Furthermore, MINTADJUST outperforms AUTORANK, the ensembling method used by the organizers.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2504.19188",
+ "title": "Hierarchical Attention Generates Better Proofs",
+ "authors": [
+  "Jianlong Chen",
+  "Chao Li",
+  "Yang Yuan",
+  "Andrew C Yao"
+ ],
+ "v1_date": "2025-04-27",
+ "latest_version": 1,
+ "latest_date": "2025-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages with 3 figures",
+ "abstract": "Large language models (LLMs) have shown promise in formal theorem proving, but their token-level processing often fails to capture the inherent hierarchical nature of mathematical proofs. We introduce \\textbf{Hierarchical Attention}, a regularization method that aligns LLMs' attention mechanisms with mathematical reasoning structures. Our approach establishes a five-level hierarchy from foundational elements to high-level concepts, ensuring structured information flow in proof generation. Experiments demonstrate that our method improves proof success rates by 2.05\\% on miniF2F and 1.69\\% on ProofNet while reducing proof complexity by 23.81\\% and 16.50\\% respectively. The code is available at https://github.com/Car-pe/HAGBP.",
+ "primary": "cs.LG"
+}

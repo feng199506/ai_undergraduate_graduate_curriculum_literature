@@ -1,0 +1,17 @@
+{
+ "id": "2603.13971",
+ "title": "Chunk-Guided Q-Learning",
+ "authors": [
+  "Gwanwoo Song",
+  "Kwanyoung Park",
+  "Youngwoon Lee"
+ ],
+ "v1_date": "2026-03-14",
+ "latest_version": 1,
+ "latest_date": "2026-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Project page: https://gwanwoosong.github.io/cgq",
+ "abstract": "In offline reinforcement learning (RL), single-step temporal-difference (TD) learning can suffer from bootstrapping error accumulation over long horizons. Action-chunked TD methods mitigate this by backing up over multiple steps, but can introduce suboptimality by restricting the policy class to open-loop action sequences. To resolve this trade-off, we present Chunk-Guided Q-Learning (CGQ), a single-step TD algorithm that guides a fine-grained single-step critic by regularizing it toward a chunk-based critic trained using temporally extended backups. This reduces compounding error while preserving fine-grained value propagation. We theoretically show that CGQ attains tighter critic optimality bounds than either single-step or action-chunked TD learning alone. Empirically, CGQ achieves strong performance on challenging long-horizon OGBench tasks, often outperforming both single-step and action-chunked methods.",
+ "primary": "cs.LG"
+}

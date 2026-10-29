@@ -1,0 +1,17 @@
+{
+ "id": "2402.07249",
+ "title": "Impact of Domain Knowledge and Multi-Modality on Intelligent Molecular Property Prediction: A Systematic Survey",
+ "authors": [
+  "Taojie Kuang",
+  "Pengfei Liu",
+  "Zhixiang Ren"
+ ],
+ "v1_date": "2024-02-11",
+ "latest_version": 3,
+ "latest_date": "2024-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The precise prediction of molecular properties is essential for advancements in drug development, particularly in virtual screening and compound optimization. The recent introduction of numerous deep learning-based methods has shown remarkable potential in enhancing molecular property prediction (MPP), especially improving accuracy and insights into molecular structures. Yet, two critical questions arise: does the integration of domain knowledge augment the accuracy of molecular property prediction and does employing multi-modal data fusion yield more precise results than unique data source methods? To explore these matters, we comprehensively review and quantitatively analyze recent deep learning methods based on various benchmarks. We discover that integrating molecular information significantly improves molecular property prediction (MPP) for both regression and classification tasks. Specifically, regression improvements, measured by reductions in root mean square error (RMSE), are up to 4.0%, while classification enhancements, measured by the area under the receiver operating characteristic curve (ROC-AUC), are up to 1.7%. We also discover that enriching 2D graphs with 1D SMILES boosts multi-modal learning performance for regression tasks by up to 9.1%, and augmenting 2D graphs with 3D information increases performance for classification tasks by up to 13.2%, with both enhancements measured using ROC-AUC. The two consolidated insights offer crucial guidance for future advancements in drug discovery.",
+ "primary": "cs.LG"
+}

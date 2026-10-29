@@ -1,0 +1,19 @@
+{
+ "id": "2409.12789",
+ "title": "Reinforcement Learning-based Model Predictive Control for Greenhouse Climate Control",
+ "authors": [
+  "Samuel Mallick",
+  "Filippo Airaldi",
+  "Azita Dabiri",
+  "Congcong Sun",
+  "Bart De Schutter"
+ ],
+ "v1_date": "2024-09-19",
+ "latest_version": 3,
+ "latest_date": "2025-01-02",
+ "journal_ref": "",
+ "doi": "10.1016/j.atech.2024.100751",
+ "comment": "15 pages, 10 figures, code available at https://github.com/SamuelMallick/mpcrl-greenhouse, accepted for publication in Smart Agricultural Technology",
+ "abstract": "Greenhouse climate control is concerned with maximizing performance in terms of crop yield and resource efficiency. One promising approach is model predictive control (MPC), which leverages a model of the system to optimize the control inputs, while enforcing physical constraints. However, prediction models for greenhouse systems are inherently inaccurate due to the complexity of the real system and the uncertainty in predicted weather profiles. For model-based control approaches such as MPC, this can degrade performance and lead to constraint violations. Existing approaches address uncertainty in the prediction model with robust or stochastic MPC methodology; however, these necessarily reduce crop yield due to conservatism and often bear higher computational loads. In contrast, learning-based control approaches, such as reinforcement learning (RL), can handle uncertainty naturally by leveraging data to improve performance. This work proposes an MPC-based RL control framework to optimize the climate control performance in the presence of prediction uncertainty. The approach employs a parametrized MPC scheme that learns directly from data, in an online fashion, the parametrization of the constraints, prediction model, and optimization cost that minimizes constraint violations and maximizes climate control performance. Simulations show that the approach can learn an MPC controller that significantly outperforms the current state-of-the-art in terms of constraint violations and efficient crop growth.",
+ "primary": "eess.SY"
+}

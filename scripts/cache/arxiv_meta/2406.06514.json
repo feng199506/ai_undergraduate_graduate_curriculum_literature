@@ -1,0 +1,17 @@
+{
+ "id": "2406.06514",
+ "title": "Random Features Approximation for Control-Affine Systems",
+ "authors": [
+  "Kimia Kazemian",
+  "Yahya Sattar",
+  "Sarah Dean"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 2,
+ "latest_date": "2024-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 3 figures",
+ "abstract": "Modern data-driven control applications call for flexible nonlinear models that are amenable to principled controller synthesis and realtime feedback. Many nonlinear dynamical systems of interest are control affine. We propose two novel classes of nonlinear feature representations which capture control affine structure while allowing for arbitrary complexity in the state dependence. Our methods make use of random features (RF) approximations, inheriting the expressiveness of kernel methods at a lower computational cost. We formalize the representational capabilities of our methods by showing their relationship to the Affine Dot Product (ADP) kernel proposed by Castañeda et al. (2021) and a novel Affine Dense (AD) kernel that we introduce. We further illustrate the utility by presenting a case study of data-driven optimization-based control using control certificate functions (CCF). Simulation experiments on a double pendulum empirically demonstrate the advantages of our methods.",
+ "primary": "cs.LG"
+}

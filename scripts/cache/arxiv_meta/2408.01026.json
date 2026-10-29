@@ -1,0 +1,19 @@
+{
+ "id": "2408.01026",
+ "title": "PINNs for Medical Image Analysis: A Survey",
+ "authors": [
+  "Chayan Banerjee",
+  "Kien Nguyen",
+  "Olivier Salvado",
+  "Truyen Tran",
+  "Clinton Fookes"
+ ],
+ "v1_date": "2024-08-02",
+ "latest_version": 1,
+ "latest_date": "2024-08-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The incorporation of physical information in machine learning frameworks is transforming medical image analysis (MIA). By integrating fundamental knowledge and governing physical laws, these models achieve enhanced robustness and interpretability. In this work, we explore the utility of physics-informed approaches for MIA (PIMIA) tasks such as registration, generation, classification, and reconstruction. We present a systematic literature review of over 80 papers on physics-informed methods dedicated to MIA. We propose a unified taxonomy to investigate what physics knowledge and processes are modelled, how they are represented, and the strategies to incorporate them into MIA models. We delve deep into a wide range of image analysis tasks, from imaging, generation, prediction, inverse imaging (super-resolution and reconstruction), registration, and image analysis (segmentation and classification). For each task, we thoroughly examine and present in a tabular format the central physics-guided operation, the region of interest (with respect to human anatomy), the corresponding imaging modality, the dataset used for model training, the deep network architecture employed, and the primary physical process, equation, or principle utilized. Additionally, we also introduce a novel metric to compare the performance of PIMIA methods across different tasks and datasets. Based on this review, we summarize and distil our perspectives on the challenges, open research questions, and directions for future research. We highlight key open challenges in PIMIA, including selecting suitable physics priors and establishing a standardized benchmarking platform.",
+ "primary": "eess.IV"
+}

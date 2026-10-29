@@ -1,0 +1,21 @@
+{
+ "id": "2401.05446",
+ "title": "Self-supervised Learning for Electroencephalogram: A Systematic Survey",
+ "authors": [
+  "Weining Weng",
+  "Yang Gu",
+  "Shuai Guo",
+  "Yuan Ma",
+  "Zhaohua Yang",
+  "Yuchen Liu",
+  "Yiqiang Chen"
+ ],
+ "v1_date": "2024-01-09",
+ "latest_version": 1,
+ "latest_date": "2024-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 12 figures",
+ "abstract": "Electroencephalogram (EEG) is a non-invasive technique to record bioelectrical signals. Integrating supervised deep learning techniques with EEG signals has recently facilitated automatic analysis across diverse EEG-based tasks. However, the label issues of EEG signals have constrained the development of EEG-based deep models. Obtaining EEG annotations is difficult that requires domain experts to guide collection and labeling, and the variability of EEG signals among different subjects causes significant label shifts. To solve the above challenges, self-supervised learning (SSL) has been proposed to extract representations from unlabeled samples through well-designed pretext tasks. This paper concentrates on integrating SSL frameworks with temporal EEG signals to achieve efficient representation and proposes a systematic review of the SSL for EEG signals. In this paper, 1) we introduce the concept and theory of self-supervised learning and typical SSL frameworks. 2) We provide a comprehensive review of SSL for EEG analysis, including taxonomy, methodology, and technique details of the existing EEG-based SSL frameworks, and discuss the difference between these methods. 3) We investigate the adaptation of the SSL approach to various downstream tasks, including the task description and related benchmark datasets. 4) Finally, we discuss the potential directions for future SSL-EEG research.",
+ "primary": "eess.SP"
+}

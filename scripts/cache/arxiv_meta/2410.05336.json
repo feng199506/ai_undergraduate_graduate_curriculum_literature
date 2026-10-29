@@ -1,0 +1,17 @@
+{
+ "id": "2410.05336",
+ "title": "GreenLight-Gym: Reinforcement learning benchmark environment for control of greenhouse production systems",
+ "authors": [
+  "Bart van Laatum",
+  "Eldert J. van Henten",
+  "Sjoerd Boersma"
+ ],
+ "v1_date": "2024-10-06",
+ "latest_version": 2,
+ "latest_date": "2025-05-09",
+ "journal_ref": "IFAC-PapersOnLine 59 (23), (2025), 437-442",
+ "doi": "10.1016/j.ifacol.2025.11.827",
+ "comment": "This submission replaces our previous pre-print with the version accepted to the 2025 IFAC conference. A new Git repository (https://github.com/BartvLaatum/GreenLight-Gym) accompanies this paper; the repository for the prior version remains live at https://github.com/YourOrg/GreenLightGym. The earlier pre-print is still available on ArXiv under the previous submission number",
+ "abstract": "This study presents GreenLight-Gym, a new, fast, open-source benchmark environment for developing reinforcement learning (RL) methods in greenhouse crop production control. Built on the state-of-the-art GreenLight model, it features a differentiable C++ implementation leveraging the CasADi framework for efficient numerical integration. GreenLight-Gym improves simulation speed by a factor of 17 over the original GreenLight implementation. A modular Python environment wrapper enables flexible configuration of control tasks and RL-based controllers. This flexibility is demonstrated by learning controllers under parametric uncertainty using two well-known RL algorithms. GreenLight-Gym provides a standardized benchmark for advancing RL methodologies and evaluating greenhouse control solutions under diverse conditions. The greenhouse control community is encouraged to use and extend this benchmark to accelerate innovation in greenhouse crop production.",
+ "primary": "eess.SY"
+}

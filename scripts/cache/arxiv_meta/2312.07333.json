@@ -1,0 +1,21 @@
+{
+ "id": "2312.07333",
+ "title": "Survey of Gravitationally lensed Objects in HSC Imaging (SuGOHI) $-$ X. Strong Lens Finding in The HSC-SSP using Convolutional Neural Networks",
+ "authors": [
+  "Anton T. Jaelani",
+  "Anupreeta More",
+  "Kenneth C. Wong",
+  "Kaiki T. Inoue",
+  "Dani C. -Y. Chao",
+  "Premana W. Premadi",
+  "Raoul Cañameras"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 1,
+ "latest_date": "2023-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to MNRAS, 16 pages, 13 figures. Comments welcome",
+ "abstract": "We apply a novel model based on convolutional neural networks (CNNs) to identify gravitationally-lensed galaxies in multi-band imaging of the Hyper Suprime Cam Subaru Strategic Program (HSC-SSP) Survey. The trained model is applied to a parent sample of 2 350 061 galaxies selected from the $\\sim$ 800 deg$^2$ Wide area of the HSC-SSP Public Data Release 2. The galaxies in HSC Wide are selected based on stringent pre-selection criteria, such as multiband magnitudes, stellar mass, star formation rate, extendedness limit, photometric redshift range, etc. Initially, the CNNs provide a total of 20 241 cutouts with a score greater than 0.9, but this number is subsequently reduced to 1 522 cutouts by removing definite non-lenses for further inspection by human eyes. We discover 43 definite and 269 probable lenses, of which 97 are completely new. In addition, out of 880 potential lenses, we recovered 289 known systems in the literature. We identify 143 candidates from the known systems that had higher confidence in previous searches. Our model can also recover 285 candidate galaxy-scale lenses from the Survey of Gravitationally lensed Objects in HSC Imaging (SuGOHI), where a single foreground galaxy acts as the deflector. Even though group-scale and cluster-scale lens systems were not included in the training, a sample of 32 SuGOHI-c (i.e., group/cluster-scale systems) lens candidates was retrieved. Our discoveries will be useful for ongoing and planned spectroscopic surveys, such as the Subaru Prime Focus Spectrograph project, to measure lens and source redshifts in order to enable detailed lens modelling.",
+ "primary": "astro-ph.GA"
+}

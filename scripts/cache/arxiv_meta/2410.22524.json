@@ -1,0 +1,18 @@
+{
+ "id": "2410.22524",
+ "title": "Hindsight Experience Replay Accelerates Proximal Policy Optimization",
+ "authors": [
+  "Douglas C. Crowder",
+  "Darrien M. McKenzie",
+  "Matthew L. Trappett",
+  "Frances S. Chance"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 1,
+ "latest_date": "2024-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages. 10 Figures",
+ "abstract": "Hindsight experience replay (HER) accelerates off-policy reinforcement learning algorithms for environments that emit sparse rewards by modifying the goal of the episode post-hoc to be some state achieved during the episode. Because post-hoc modification of the observed goal violates the assumptions of on-policy algorithms, HER is not typically applied to on-policy algorithms. Here, we show that HER can dramatically accelerate proximal policy optimization (PPO), an on-policy reinforcement learning algorithm, when tested on a custom predator-prey environment.",
+ "primary": "cs.LG"
+}

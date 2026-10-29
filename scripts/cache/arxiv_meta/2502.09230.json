@@ -1,0 +1,15 @@
+{
+ "id": "2502.09230",
+ "title": "Relating Answer Set Programming and Many-sorted Logics for Formal Verification",
+ "authors": [
+  "Zachary Hansen"
+ ],
+ "v1_date": "2025-02-13",
+ "latest_version": 1,
+ "latest_date": "2025-02-13",
+ "journal_ref": "EPTCS 416, 2025, pp. 332-344",
+ "doi": "10.4204/eptcs.416.33",
+ "comment": "In Proceedings ICLP 2024, arXiv:2502.08453",
+ "abstract": "Answer Set Programming (ASP) is an important logic programming paradigm within the field of Knowledge Representation and Reasoning. As a concise, human-readable, declarative language, ASP is an excellent tool for developing trustworthy (especially, artificially intelligent) software systems. However, formally verifying ASP programs offers some unique challenges, such as 1. a lack of modularity (the meanings of rules are difficult to define in isolation from the enclosing program), 2. the ground-and-solve semantics (the meanings of rules are dependent on the input data with which the program is grounded), and 3. limitations of existing tools. My research agenda has been focused on addressing these three issues with the intention of making ASP verification an accessible, routine task that is regularly performed alongside program development. In this vein, I have investigated alternative semantics for ASP based on translations into the logic of here-and-there and many-sorted first-order logic. These semantics promote a modular understanding of logic programs, bypass grounding, and enable us to use automated theorem provers to automatically verify properties of programs.",
+ "primary": "cs.LO"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2502.11596",
+ "title": "LLM Embeddings for Deep Learning on Tabular Data",
+ "authors": [
+  "Boshko Koloski",
+  "Andrei Margeloiu",
+  "Xiangjian Jiang",
+  "Blaž Škrlj",
+  "Nikola Simidjievski",
+  "Mateja Jamnik"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tabular deep-learning methods require embedding numerical and categorical input features into high-dimensional spaces before processing them. Existing methods deal with this heterogeneous nature of tabular data by employing separate type-specific encoding approaches. This limits the cross-table transfer potential and the exploitation of pre-trained knowledge. We propose a novel approach that first transforms tabular data into text, and then leverages pre-trained representations from LLMs to encode this data, resulting in a plug-and-play solution to improv ing deep-learning tabular methods. We demonstrate that our approach improves accuracy over competitive models, such as MLP, ResNet and FT-Transformer, by validating on seven classification datasets.",
+ "primary": "cs.LG"
+}

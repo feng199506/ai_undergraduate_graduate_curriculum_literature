@@ -1,0 +1,18 @@
+{
+ "id": "2402.11133",
+ "title": "Two-Sample Hypothesis Testing for Large Random Graphs of Unequal Size",
+ "authors": [
+  "Xin Jin",
+  "Kit Chan",
+  "Ian Barnett",
+  "Riddhi Pratim Ghosh"
+ ],
+ "v1_date": "2024-02-16",
+ "latest_version": 1,
+ "latest_date": "2024-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Two-sample hypothesis testing for large graphs is popular in cognitive science, probabilistic machine learning and artificial intelligence. While numerous methods have been proposed in the literature to address this problem, less attention has been devoted to scenarios involving graphs of unequal size or situations where there are only one or a few samples of graphs. In this article, we propose a Frobenius test statistic tailored for small sample sizes and unequal-sized random graphs to test whether they are generated from the same model or not. Our approach involves an algorithm for generating bootstrapped adjacency matrices from estimated community-wise edge probability matrices, forming the basis of the Frobenius test statistic. We derive the asymptotic distribution of the proposed test statistic and validate its stability and efficiency in detecting minor differences in underlying models through simulations. Furthermore, we explore its application to fMRI data where we are able to distinguish brain activity patterns when subjects are exposed to sentences and pictures for two different stimuli and the control group.",
+ "primary": "stat.ME"
+}

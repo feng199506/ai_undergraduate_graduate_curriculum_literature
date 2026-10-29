@@ -1,0 +1,17 @@
+{
+ "id": "2409.09471",
+ "title": "Randomized sketched TT-GMRES for linear systems with tensor structure",
+ "authors": [
+  "Alberto Bucci",
+  "Davide Palitta",
+  "Leonardo Robol"
+ ],
+ "v1_date": "2024-09-14",
+ "latest_version": 1,
+ "latest_date": "2024-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the last decade, tensors have shown their potential as valuable tools for various tasks in numerical linear algebra. While most of the research has been focusing on how to compress a given tensor in order to maintain information as well as reducing the storage demand for its allocation, the solution of linear tensor equations is a less explored venue. Even if many of the routines available in the literature are based on alternating minimization schemes (ALS), we pursue a different path and utilize Krylov methods instead. The use of Krylov methods in the tensor realm is not new. However, these routines often turn out to be rather expensive in terms of computational cost and ALS procedures are preferred in practice. We enhance Krylov methods for linear tensor equations with a panel of diverse randomization-based strategies which remarkably increase the efficiency of these solvers making them competitive with state-of-the-art ALS schemes. The up-to-date randomized approaches we employ range from sketched Krylov methods with incomplete orthogonalization and structured sketching transformations to streaming algorithms for tensor rounding. The promising performance of our new solver for linear tensor equations is demonstrated by many numerical results.",
+ "primary": "math.NA"
+}

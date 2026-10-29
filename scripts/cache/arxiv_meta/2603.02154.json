@@ -1,0 +1,18 @@
+{
+ "id": "2603.02154",
+ "title": "Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)",
+ "authors": [
+  "Nhat D. A. Nguyen",
+  "Duong D. Nguyen",
+  "Gianluca Rizzo",
+  "Hung X. Nguyen"
+ ],
+ "v1_date": "2026-03-02",
+ "latest_version": 2,
+ "latest_date": "2026-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in ICAPS 2026",
+ "abstract": "Decentralized Monte Carlo Tree Search (Dec-MCTS) is widely used for cooperative multi-agent planning but struggles in sparse or skewed reward environments. We introduce Coordinated Boltzmann MCTS (CB-MCTS), which replaces deterministic UCT with a stochastic Boltzmann policy and a decaying entropy bonus for sustained yet focused exploration. While Boltzmann exploration has been studied in single-agent MCTS, applying it in multi-agent systems poses unique challenges. CB-MCTS is the first to address this. We analyze CB-MCTS in the simple-regret setting and show in simulations that it outperforms Dec-MCTS in deceptive scenarios and remains competitive on standard benchmarks, providing a robust solution for multi-agent planning.",
+ "primary": "cs.MA"
+}

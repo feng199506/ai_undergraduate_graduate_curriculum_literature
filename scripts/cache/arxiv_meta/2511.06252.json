@@ -1,0 +1,25 @@
+{
+ "id": "2511.06252",
+ "title": "MrCoM: A Meta-Regularized World-Model Generalizing Across Multi-Scenarios",
+ "authors": [
+  "Xuantang Xiong",
+  "Ni Mu",
+  "Runpeng Xie",
+  "Senhao Yang",
+  "Yaqing Wang",
+  "Lexiang Wang",
+  "Yao Luan",
+  "Siyuan Li",
+  "Shuang Xu",
+  "Yiqin Yang",
+  "Bo Xu"
+ ],
+ "v1_date": "2025-11-09",
+ "latest_version": 1,
+ "latest_date": "2025-11-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model-based reinforcement learning (MBRL) is a crucial approach to enhance the generalization capabilities and improve the sample efficiency of RL algorithms. However, current MBRL methods focus primarily on building world models for single tasks and rarely address generalization across different scenarios. Building on the insight that dynamics within the same simulation engine share inherent properties, we attempt to construct a unified world model capable of generalizing across different scenarios, named Meta-Regularized Contextual World-Model (MrCoM). This method first decomposes the latent state space into various components based on the dynamic characteristics, thereby enhancing the accuracy of world-model prediction. Further, MrCoM adopts meta-state regularization to extract unified representation of scenario-relevant information, and meta-value regularization to align world-model optimization with policy learning across diverse scenario objectives. We theoretically analyze the generalization error upper bound of MrCoM in multi-scenario settings. We systematically evaluate our algorithm's generalization ability across diverse scenarios, demonstrating significantly better performance than previous state-of-the-art methods.",
+ "primary": "cs.LG"
+}

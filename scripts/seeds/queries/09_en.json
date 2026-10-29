@@ -1,0 +1,19 @@
+[
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:\"computational linguistics\" AND cat:cs.CL", "subtopic": "语言学基础与计算语言学"},
+ {"q": "(ti:survey OR ti:review) AND (abs:syntax OR abs:\"syntactic parsing\" OR abs:\"dependency parsing\" OR abs:morphology) AND cat:cs.CL", "subtopic": "语言学基础与计算语言学"},
+ {"q": "(ti:survey OR ti:review OR ti:primer) AND (abs:tokenization OR abs:\"subword\") AND cat:cs.CL", "subtopic": "文本表示与分词"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"text embedding\" OR abs:\"sentence embedding\" OR abs:\"word embedding\") AND cat:cs.CL", "subtopic": "文本表示与分词"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"sequence modeling\" OR abs:\"state space model\" OR abs:\"recurrent neural network\") AND cat:cs.CL", "subtopic": "序列建模"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"machine translation\" AND cat:cs.CL", "subtopic": "机器翻译"},
+ {"q": "ti:\"machine translation\" AND (abs:benchmark OR abs:evaluation OR abs:metric) AND cat:cs.CL", "subtopic": "机器翻译"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"information extraction\" OR abs:\"named entity recognition\" OR abs:\"relation extraction\" OR abs:\"event extraction\") AND cat:cs.CL", "subtopic": "信息抽取"},
+ {"q": "(ti:survey OR ti:review) AND (abs:multilingual OR abs:\"cross-lingual\") AND cat:cs.CL", "subtopic": "多语言与低资源处理"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"low-resource\" AND abs:language AND cat:cs.CL", "subtopic": "多语言与低资源处理"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"natural language generation\" AND abs:evaluation) AND cat:cs.CL", "subtopic": "NLP 评测"},
+ {"q": "(ti:benchmark OR ti:evaluation) AND abs:\"natural language understanding\" AND cat:cs.CL", "subtopic": "NLP 评测"},
+ {"q": "(ti:survey OR ti:review) AND (abs:summarization) AND cat:cs.CL", "subtopic": "文本生成与摘要"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"question answering\" OR abs:\"reading comprehension\") AND cat:cs.CL", "subtopic": "问答与阅读理解"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"sentiment analysis\" OR abs:\"text classification\") AND cat:cs.CL", "subtopic": "文本分类与情感分析"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"speech\" AND abs:\"spoken language\") AND cat:cs.CL", "subtopic": "口语与语音语言处理"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"language models\" AND abs:linguistic) AND cat:cs.CL", "subtopic": "语言学基础与计算语言学"}
+]

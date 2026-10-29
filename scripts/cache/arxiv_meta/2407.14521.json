@@ -1,0 +1,16 @@
+{
+ "id": "2407.14521",
+ "title": "Towards Automated Functional Equation Proving: A Benchmark Dataset and A Domain-Specific In-Context Agent",
+ "authors": [
+  "Mahdi Buali",
+  "Robert Hoehndorf"
+ ],
+ "v1_date": "2024-07-05",
+ "latest_version": 1,
+ "latest_date": "2024-07-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages",
+ "abstract": "Automated Theorem Proving (ATP) faces challenges due to its complexity and computational demands. Recent work has explored using Large Language Models (LLMs) for ATP action selection, but these methods can be resource-intensive. This study introduces FEAS, an agent that enhances the COPRA in-context learning framework within Lean. FEAS refines prompt generation, response parsing, and incorporates domain-specific heuristics for functional equations. It introduces FunEq, a curated dataset of functional equation problems with varying difficulty. FEAS outperforms baselines on FunEq, particularly with the integration of domain-specific heuristics. The results demonstrate FEAS's effectiveness in generating and formalizing high-level proof strategies into Lean proofs, showcasing the potential of tailored approaches for specific ATP challenges.",
+ "primary": "cs.AI"
+}

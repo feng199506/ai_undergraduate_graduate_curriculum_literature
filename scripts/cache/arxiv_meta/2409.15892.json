@@ -1,0 +1,18 @@
+{
+ "id": "2409.15892",
+ "title": "Symmetries and Expressive Requirements for Learning General Policies",
+ "authors": [
+  "Dominik Drexler",
+  "Simon Ståhlberg",
+  "Blai Bonet",
+  "Hector Geffner"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 1,
+ "latest_date": "2024-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the 21st International Conference on Principles of Knowledge Representation and Reasoning (KR2024) in the Reasoning, Learning, and Decision Making track",
+ "abstract": "State symmetries play an important role in planning and generalized planning. In the first case, state symmetries can be used to reduce the size of the search; in the second, to reduce the size of the training set. In the case of general planning, however, it is also critical to distinguish non-symmetric states, i.e., states that represent non-isomorphic relational structures. However, while the language of first-order logic distinguishes non-symmetric states, the languages and architectures used to represent and learn general policies do not. In particular, recent approaches for learning general policies use state features derived from description logics or learned via graph neural networks (GNNs) that are known to be limited by the expressive power of C_2, first-order logic with two variables and counting. In this work, we address the problem of detecting symmetries in planning and generalized planning and use the results to assess the expressive requirements for learning general policies over various planning domains. For this, we map planning states to plain graphs, run off-the-shelf algorithms to determine whether two states are isomorphic with respect to the goal, and run coloring algorithms to determine if C_2 features computed logically or via GNNs distinguish non-isomorphic states. Symmetry detection results in more effective learning, while the failure to detect non-symmetries prevents general policies from being learned at all in certain domains.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2410.19878",
+ "title": "Parameter-Efficient Fine-Tuning in Large Models: A Survey of Methodologies",
+ "authors": [
+  "Luping Wang",
+  "Sheng Chen",
+  "Linnan Jiang",
+  "Shu Pan",
+  "Runze Cai",
+  "Sen Yang",
+  "Fei Yang"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 3,
+ "latest_date": "2025-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The large models, as predicted by scaling raw forecasts, have made groundbreaking progress in many fields, particularly in natural language generation tasks, where they have approached or even surpassed human levels. However, the unprecedented scale of their parameters brings significant computational and storage costs. These large models require substantial computational resources and GPU memory to operate. When adapting large models to specific downstream tasks, their massive parameter scale poses a significant challenge in fine-tuning on hardware platforms with limited computational power and GPU memory. To address this issue, Parameter-Efficient Fine-Tuning (PEFT) offers a practical solution by efficiently adjusting the parameters of large pre-trained models to suit various downstream tasks. Specifically, PEFT adjusts the parameters of pre-trained large models to adapt to specific tasks or domains, minimizing the introduction of additional parameters and the computational resources required. This review mainly introduces the preliminary knowledge of PEFT, the core ideas and principles of various PEFT algorithms, the applications of PEFT, and potential future research directions. By reading this review, we believe that interested parties can quickly grasp the PEFT methodology, thereby accelerating its development and innovation.",
+ "primary": "cs.CL"
+}

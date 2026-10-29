@@ -1,0 +1,16 @@
+{
+ "id": "2412.00318",
+ "title": "Bayesian FFT Modal Identification for Multi-setup Experimental Modal Analysis",
+ "authors": [
+  "Peixiang Wang",
+  "Binbin Li"
+ ],
+ "v1_date": "2024-11-30",
+ "latest_version": 1,
+ "latest_date": "2024-11-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages",
+ "abstract": "In full-scale forced vibration tests, the demand often arises to capture high-spatial-resolution mode shapes with limited number of sensors and shakers. Multi-setup experimental modal analysis (EMA) addresses this challenge by roving sensors and shakers across multiple setups. To enable fast and accurate multi-setup EMA, this paper develops a Bayesian modal identification strategy by extending an existing single-setup algorithm. Specifically, a frequency-domain probabilistic model is first formulated using multiple sets of structural multiple-input, multiple-output (MIMO) vibration data. A constrained Laplace method is then employed for Bayesian posterior approximation, providing the maximum a posteriori estimates of modal parameters along with a posterior covariance matrix (PCM) for uncertainty quantification. Utilizing complex matrix calculus, analytical expressions are derived for parameter updates in the coordinate descent optimization, as well as for PCM computation, enhancing both coding simplicity and computational efficiency. The proposed algorithm is intensively validated by investigating empirical examples with synthetic and field data. It demonstrates that the proposed method yields highly consistent results compared to scenarios with adequate test equipment. The resulting high-fidelity MIMO model enables structural response prediction under future loading conditions and supports condition assessment.",
+ "primary": "cs.CE"
+}

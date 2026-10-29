@@ -1,0 +1,33 @@
+{
+ "id": "2606.20698",
+ "title": "SafeDojo: Safe Reinforcement Learning for VLA via Interactive World Model",
+ "authors": [
+  "Kai Tang",
+  "Peidong Jia",
+  "Zhong Chu",
+  "Jiajun Cao",
+  "Jixian Wu",
+  "Bohua Zhang",
+  "Rui Ma",
+  "Fangyuan Zhao",
+  "Sixiang Chen",
+  "Yichen Guo",
+  "Xiaowei Chi",
+  "Chun-Kai Fan",
+  "Kevin Zhang",
+  "Jinchang Xu",
+  "Fubing Yang",
+  "Weishi Mi",
+  "Xiaozhu Ju",
+  "Jian Tang",
+  "Shanghang Zhang"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 2,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "CoRL 2026",
+ "abstract": "Safe control is a prerequisite for real-world embodied intelligence, for which safe reinforcement learning has emerged as a promising paradigm. However, existing safe reinforcement learning methods either require costly real-world exploration or depend on hand-crafted safety functions. Neither scales to vision-language-action models deployed in open-world physical environments. We propose SafeDojo, a model-based safe reinforcement learning framework that improves vision-language-action policies through world-model imagination. SafeDojo performs online reinforcement learning on top of an interactive video world model. A ResNet success classifier scores predicted future frames, while a lightweight safety head predicts per-step contact probabilities from the current latent context and proposed action chunk, jointly assessing task execution and trajectory safety. These decoupled signals are balanced through Lagrangian-constrained GRPO. On SafeLIBERO Level I, SafeDojo improves average safe-success rate by 8.25 percentage points over the strongest baseline; on the zero-shot Level II setting, it is competitive with the strongest model-free baseline. Real-world Franka deployment further shows the best average task and safe-success rates across five tasks. These results support world-model-based safe reinforcement learning as a promising path toward safer embodied intelligence.",
+ "primary": "cs.RO"
+}

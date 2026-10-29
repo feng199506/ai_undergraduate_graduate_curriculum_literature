@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:survey OR ti:review) AND abs:\"explainable\" AND cat:cs.LG", "subtopic": "可解释性"},
+ {"q": "(ti:survey OR ti:review OR ti:primer OR ti:tutorial) AND abs:\"mechanistic interpretability\"", "subtopic": "机制可解释性"},
+ {"q": "(ti:\"sparse autoencoders\" OR ti:\"circuit\") AND abs:interpretability AND cat:cs.LG", "subtopic": "机制可解释性"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"adversarial robustness\" OR abs:\"adversarial examples\") AND cat:cs.LG", "subtopic": "鲁棒性"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"distribution shift\" OR abs:\"out-of-distribution\") AND cat:cs.LG", "subtopic": "鲁棒性与分布外泛化"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:\"uncertainty quantification\" AND cat:cs.LG", "subtopic": "不确定性"},
+ {"q": "(ti:survey OR ti:review) AND (abs:calibration OR abs:uncertainty) AND abs:\"language models\"", "subtopic": "不确定性"},
+ {"q": "(ti:survey OR ti:review) AND abs:fairness AND (abs:\"machine learning\" OR abs:bias) AND cat:cs.LG", "subtopic": "公平性"},
+ {"q": "(ti:survey OR ti:review) AND abs:bias AND abs:fairness AND abs:\"language models\"", "subtopic": "公平性"},
+ {"q": "(ti:survey OR ti:review) AND (abs:jailbreak OR abs:\"red teaming\" OR abs:\"AI safety\") AND abs:\"language models\"", "subtopic": "安全"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"backdoor\" OR abs:\"data poisoning\")", "subtopic": "安全"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:\"differential privacy\" AND cat:cs.LG", "subtopic": "隐私（差分隐私）"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"federated learning\" AND cat:cs.LG", "subtopic": "隐私（联邦学习）"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"membership inference\" OR abs:\"machine unlearning\")", "subtopic": "隐私攻击与机器遗忘"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"data governance\" OR abs:\"data provenance\" OR abs:\"copyright\") AND abs:\"machine learning\"", "subtopic": "数据治理"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"trustworthy\" AND (abs:\"large language models\" OR abs:\"machine learning\")", "subtopic": "可信 AI 综合"},
+ {"q": "(ti:survey OR ti:review) AND abs:watermark AND abs:\"language model\"", "subtopic": "安全与溯源（水印）"},
+ {"q": "(ti:survey OR ti:review) AND abs:hallucination AND abs:\"large language models\"", "subtopic": "可信 AI 综合"}
+]

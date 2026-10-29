@@ -1,0 +1,20 @@
+{
+ "id": "2502.01188",
+ "title": "FairUDT: Fairness-aware Uplift Decision Trees",
+ "authors": [
+  "Anam Zahid",
+  "Abdur Rehman Ali",
+  "Shaina Raza",
+  "Rai Shahnawaz",
+  "Faisal Kamiran",
+  "Asim Karim"
+ ],
+ "v1_date": "2025-02-03",
+ "latest_version": 1,
+ "latest_date": "2025-02-03",
+ "journal_ref": "Knowledge-based Systems 311 (2025) 113068",
+ "doi": "10.1016/j.knosys.2025.113068",
+ "comment": "Published in Knowledge-based Systems (2025)",
+ "abstract": "Training data used for developing machine learning classifiers can exhibit biases against specific protected attributes. Such biases typically originate from historical discrimination or certain underlying patterns that disproportionately under-represent minority groups, such as those identified by their gender, religion, or race. In this paper, we propose a novel approach, FairUDT, a fairness-aware Uplift-based Decision Tree for discrimination identification. FairUDT demonstrates how the integration of uplift modeling with decision trees can be adapted to include fair splitting criteria. Additionally, we introduce a modified leaf relabeling approach for removing discrimination. We divide our dataset into favored and deprived groups based on a binary sensitive attribute, with the favored dataset serving as the treatment group and the deprived dataset as the control group. By applying FairUDT and our leaf relabeling approach to preprocess three benchmark datasets, we achieve an acceptable accuracy-discrimination tradeoff. We also show that FairUDT is inherently interpretable and can be utilized in discrimination detection tasks. The code for this project is available https://github.com/ara-25/FairUDT",
+ "primary": "cs.LG"
+}

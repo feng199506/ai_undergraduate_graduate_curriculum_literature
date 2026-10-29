@@ -1,0 +1,20 @@
+{
+ "id": "2404.02877",
+ "title": "FlightScope: An Experimental Comparative Review of Aircraft Detection Algorithms in Satellite Imagery",
+ "authors": [
+  "Safouane El Ghazouali",
+  "Arnaud Gucciardi",
+  "Francesca Venturini",
+  "Nicola Venturi",
+  "Michael Rueegsegger",
+  "Umberto Michelucci"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 4,
+ "latest_date": "2024-12-17",
+ "journal_ref": "MDPI Remote Sens. 2024, 16, 4715",
+ "doi": "10.3390/rs16244715",
+ "comment": "16 figures, 5 tables, comprehensive survey, comparative study",
+ "abstract": "Object detection in remotely sensed satellite pictures is fundamental in many fields such as biophysical, and environmental monitoring. While deep learning algorithms are constantly evolving, they have been mostly implemented and tested on popular ground-based taken photos. This paper critically evaluates and compares a suite of advanced object detection algorithms customized for the task of identifying aircraft within satellite imagery. Using the large HRPlanesV2 dataset, together with a rigorous validation with the GDIT dataset, this research encompasses an array of methodologies including YOLO versions 5 and 8, Faster RCNN, CenterNet, RetinaNet, RTMDet, and DETR, all trained from scratch. This exhaustive training and validation study reveal YOLOv5 as the preeminent model for the specific case of identifying airplanes from remote sensing data, showcasing high precision and adaptability across diverse imaging conditions. This research highlight the nuanced performance landscapes of these algorithms, with YOLOv5 emerging as a robust solution for aerial object detection, underlining its importance through superior mean average precision, Recall, and Intersection over Union scores. The findings described here underscore the fundamental role of algorithm selection aligned with the specific demands of satellite imagery analysis and extend a comprehensive framework to evaluate model efficacy. The benchmark toolkit and codes, available via https://github.com/toelt-llc/FlightScope_Bench, aims to further exploration and innovation in the realm of remote sensing object detection, paving the way for improved analytical methodologies in satellite imagery applications.",
+ "primary": "cs.CV"
+}

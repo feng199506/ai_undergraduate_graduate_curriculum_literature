@@ -1,0 +1,17 @@
+{
+ "id": "2606.10563",
+ "title": "Predicting Current Outcomes From Historical Survey Data With Weighted Conformal Prediction",
+ "authors": [
+  "Chihoon Lee",
+  "Sungkyu Jung",
+  "Hyokyung G. Hong"
+ ],
+ "v1_date": "2026-06-09",
+ "latest_version": 1,
+ "latest_date": "2026-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Journal of the Royal Statistical Society Series B. 89 pages, 14 figures. Includes supplementary material",
+ "abstract": "In large-scale complex surveys such as the National Health and Nutrition Examination Survey (NHANES), some outcomes are measured only in selected years, leaving incomplete records across survey waves. We develop a weighted conformal prediction framework that enables valid population-level prediction of unobserved outcomes using information from earlier surveys. The method accommodates covariate shift, where both continuous and categorical covariate distributions evolve over time while survey design affects representativeness. It integrates subgroup-specific density ratio and subgroup-proportion estimation to approximate likelihood ratios between the historical and target covariate distributions, and we establish coverage guarantees for the resulting prediction sets. Simulation studies and an application predicting low-density lipoprotein cholesterol (LDL-C) for the current U.S. population show that the proposed approach achieves coverage close to the nominal level and improved efficiency over existing methods, particularly when covariate distributions are complex or unknown.",
+ "primary": "stat.ME"
+}

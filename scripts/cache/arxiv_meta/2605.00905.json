@@ -1,0 +1,21 @@
+{
+ "id": "2605.00905",
+ "title": "DIAGRAMS: A Review Framework for Reasoning-Level Attribution in Diagram QA",
+ "authors": [
+  "Anirudh Iyengar Kaniyar Narayana Iyengar",
+  "Tampu Ravi Kumar",
+  "Manan Suri",
+  "Raviteja Bommireddy",
+  "Dinesh Manocha",
+  "Puneet Mathur",
+  "Vivek Gupta"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 1,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 Pages, 4 figures",
+ "abstract": "Diagram question answering (Diagram QA) requires reasoning-level attribution that links each question-answer pair to all visual regions needed to derive the answer, rather than only the region containing the final response. Creating such structured evidence across diagrams, charts, maps, circuits, and infographics is time-consuming, and existing annotation tools tightly couple their interfaces to dataset-specific formats. We present DIAGRAMS, a lightweight, schema-driven review framework that decouples interface logic from dataset-specific JSON structures through an internal meta-schema and dataset adapters. Given an image and QA pair with optional candidate regions, the system performs QA-conditioned evidence selection and proposes the regions required for reasoning. When QA pairs or candidate regions are missing, it generates them and supports human verification and refinement. Across six Diagram QA datasets, model-suggested evidence achieves 85.39% precision and 75.30% recall against reviewer-final selections (micro-averaged). These results indicate that the review-first framework reduces manual region creation while maintaining high agreement with final reasoning-level attributions. We release a public demo and installable package to support dataset auditing, grounded supervision creation, and grounded evaluation.",
+ "primary": "cs.CL"
+}

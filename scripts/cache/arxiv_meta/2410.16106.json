@@ -1,0 +1,18 @@
+{
+ "id": "2410.16106",
+ "title": "Statistical Inference for Policy Evaluation with Temporal Difference Learning",
+ "authors": [
+  "Weichen Wu",
+  "Gen Li",
+  "Yuting Wei",
+  "Alessandro Rinaldo"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 6,
+ "latest_date": "2026-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the statistical properties of Temporal Difference (TD) learning with Polyak-Ruppert averaging, arguably one of the most widely used algorithms in reinforcement learning, for the task of estimating the parameters of the optimal linear approximation to the value function. Assuming independent samples, we make three theoretical contributions that improve upon the current state-of-the-art results: (i) we establish refined high-dimensional Berry-Esseen bounds over the class of convex sets, achieving faster rates than the best known results, and (ii) we propose and analyze a novel, computationally efficient online plug-in estimator of the asymptotic covariance matrix; (iii) we derive sharper high probability convergence guarantees that depend explicitly on the asymptotic variance and hold under weaker conditions than those adopted in the literature. These results enable the construction of confidence regions and simultaneous confidence intervals for the linear parameters of the value function approximation, with guaranteed finite-sample coverage. We demonstrate the applicability of our theoretical findings through numerical experiments.",
+ "primary": "stat.ML"
+}

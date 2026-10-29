@@ -1,0 +1,17 @@
+{
+ "id": "2505.12384",
+ "title": "Is Semantic SLAM Ready for Embedded Systems ? A Comparative Survey",
+ "authors": [
+  "Calvin Galagain",
+  "Martyna Poreba",
+  "François Goulette"
+ ],
+ "v1_date": "2025-05-18",
+ "latest_version": 2,
+ "latest_date": "2026-09-13",
+ "journal_ref": "",
+ "doi": "10.1016/j.robot.2026.105715",
+ "comment": "Accepted for publication in Elsevier Robotics and Autonomous Systems (RAS)",
+ "abstract": "Semantic SLAM holds promise for robust robot navigation in complex environments, but its practicality on embedded systems remains uncertain. This paper presents a comparative survey of existing semantic visual SLAM systems from an embedded-deployment perspective. Unlike recent surveys centered on implicit representations, NeRFs, or 3D Gaussian Splatting as scene representations, our scope is the deployability of complete Semantic SLAM pipelines on resource-constrained robotics platforms, with particular emphasis on the NVIDIA Jetson AGX Orin. Three semantic-aware architectural approaches, namely Geometric SLAM, NeRF, and Gaussian Splatting-based SLAM, are evaluated with respect to accuracy, semantic reconstruction quality, memory footprint, power consumption, and throughput. Our Jetson measurements show that Semantic Geometric SLAM currently offers the most practical balance between accuracy and efficiency, whereas Gaussian Splatting-based systems require more than 16 GB of memory, draw more than 15 W, and remain far from real-time execution. The results also show that offline semantic preprocessing can mask the true cost of semantic integration. We therefore identify a research gap in adapting Semantic SLAM algorithms for embedded systems and propose directions for future work, including hardware-algorithm co-design and energy-efficient optimization.",
+ "primary": "cs.RO"
+}

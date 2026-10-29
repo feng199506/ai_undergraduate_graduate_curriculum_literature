@@ -1,0 +1,16 @@
+{
+ "id": "2501.14630",
+ "title": "Extracting Problem Structure with LLMs for Optimized SAT Local Search",
+ "authors": [
+  "André Schidler",
+  "Stefan Szeider"
+ ],
+ "v1_date": "2025-01-24",
+ "latest_version": 2,
+ "latest_date": "2025-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Local search preprocessing makes Conflict-Driven Clause Learning (CDCL) solvers faster by providing high-quality starting points and modern SAT solvers have incorporated this technique into their preprocessing steps. However, these tools rely on basic strategies that miss the structural patterns in problems. We present a method that applies Large Language Models (LLMs) to analyze Python-based encoding code. This reveals hidden structural patterns in how problems convert into SAT. Our method automatically generates specialized local search algorithms that find these patterns and use them to create strong initial assignments. This works for any problem instance from the same encoding type. Our tests show encouraging results, achieving faster solving times compared to baseline preprocessing systems.",
+ "primary": "cs.AI"
+}

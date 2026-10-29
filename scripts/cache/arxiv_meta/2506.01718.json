@@ -1,0 +1,17 @@
+{
+ "id": "2506.01718",
+ "title": "Signature Maximum Mean Discrepancy Two-Sample Statistical Tests",
+ "authors": [
+  "Andrew Alden",
+  "Blanka Horvath",
+  "Zacharia Issa"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 1,
+ "latest_date": "2025-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 19 figures",
+ "abstract": "Maximum Mean Discrepancy (MMD) is a widely used concept in machine learning research which has gained popularity in recent years as a highly effective tool for comparing (finite-dimensional) distributions. Since it is designed as a kernel-based method, the MMD can be extended to path space valued distributions using the signature kernel. The resulting signature MMD (sig-MMD) can be used to define a metric between distributions on path space. Similarly to the original use case of the MMD as a test statistic within a two-sample testing framework, the sig-MMD can be applied to determine if two sets of paths are drawn from the same stochastic process. This work is dedicated to understanding the possibilities and challenges associated with applying the sig-MMD as a statistical tool in practice. We introduce and explain the sig-MMD, and provide easily accessible and verifiable examples for its practical use. We present examples that can lead to Type 2 errors in the hypothesis test, falsely indicating that samples have been drawn from the same underlying process (which generally occurs in a limited data setting). We then present techniques to mitigate the occurrence of this type of error.",
+ "primary": "stat.ML"
+}

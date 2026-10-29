@@ -1,0 +1,25 @@
+{
+ "id": "2410.12138",
+ "title": "Preference Optimization with Multi-Sample Comparisons",
+ "authors": [
+  "Chaoqi Wang",
+  "Zhuokai Zhao",
+  "Chen Zhu",
+  "Karthik Abinav Sankararaman",
+  "Michal Valko",
+  "Xuefei Cao",
+  "Zhaorun Chen",
+  "Madian Khabsa",
+  "Yuxin Chen",
+  "Hao Ma",
+  "Sinong Wang"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 2,
+ "latest_date": "2025-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code is available at https://github.com/alecwangcq/multi-sample-alignment",
+ "abstract": "Recent advancements in generative models, particularly large language models (LLMs) and diffusion models, have been driven by extensive pretraining on large datasets followed by post-training. However, current post-training methods such as reinforcement learning from human feedback (RLHF) and direct alignment from preference methods (DAP) primarily utilize single-sample comparisons. These approaches often fail to capture critical characteristics such as generative diversity and bias, which are more accurately assessed through multiple samples. To address these limitations, we introduce a novel approach that extends post-training to include multi-sample comparisons. To achieve this, we propose Multi-sample Direct Preference Optimization (mDPO) and Multi-sample Identity Preference Optimization (mIPO). These methods improve traditional DAP methods by focusing on group-wise characteristics. Empirically, we demonstrate that multi-sample comparison is more effective in optimizing collective characteristics~(e.g., diversity and bias) for generative models than single-sample comparison. Additionally, our findings suggest that multi-sample comparisons provide a more robust optimization framework, particularly for dataset with label noise.",
+ "primary": "cs.LG"
+}

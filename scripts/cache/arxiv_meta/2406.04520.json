@@ -1,0 +1,25 @@
+{
+ "id": "2406.04520",
+ "title": "NATURAL PLAN: Benchmarking LLMs on Natural Language Planning",
+ "authors": [
+  "Huaixiu Steven Zheng",
+  "Swaroop Mishra",
+  "Hugh Zhang",
+  "Xinyun Chen",
+  "Minmin Chen",
+  "Azade Nova",
+  "Le Hou",
+  "Heng-Tze Cheng",
+  "Quoc V. Le",
+  "Ed H. Chi",
+  "Denny Zhou"
+ ],
+ "v1_date": "2024-06-06",
+ "latest_version": 1,
+ "latest_date": "2024-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce NATURAL PLAN, a realistic planning benchmark in natural language containing 3 key tasks: Trip Planning, Meeting Planning, and Calendar Scheduling. We focus our evaluation on the planning capabilities of LLMs with full information on the task, by providing outputs from tools such as Google Flights, Google Maps, and Google Calendar as contexts to the models. This eliminates the need for a tool-use environment for evaluating LLMs on Planning. We observe that NATURAL PLAN is a challenging benchmark for state of the art models. For example, in Trip Planning, GPT-4 and Gemini 1.5 Pro could only achieve 31.1% and 34.8% solve rate respectively. We find that model performance drops drastically as the complexity of the problem increases: all models perform below 5% when there are 10 cities, highlighting a significant gap in planning in natural language for SoTA LLMs. We also conduct extensive ablation studies on NATURAL PLAN to further shed light on the (in)effectiveness of approaches such as self-correction, few-shot generalization, and in-context planning with long-contexts on improving LLM planning.",
+ "primary": "cs.CL"
+}

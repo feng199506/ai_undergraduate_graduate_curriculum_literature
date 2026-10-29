@@ -1,0 +1,32 @@
+{
+ "id": "2212.12794",
+ "title": "GraphCast: Learning skillful medium-range global weather forecasting",
+ "authors": [
+  "Remi Lam",
+  "Alvaro Sanchez-Gonzalez",
+  "Matthew Willson",
+  "Peter Wirnsberger",
+  "Meire Fortunato",
+  "Ferran Alet",
+  "Suman Ravuri",
+  "Timo Ewalds",
+  "Zach Eaton-Rosen",
+  "Weihua Hu",
+  "Alexander Merose",
+  "Stephan Hoyer",
+  "George Holland",
+  "Oriol Vinyals",
+  "Jacklynn Stott",
+  "Alexander Pritzel",
+  "Shakir Mohamed",
+  "Peter Battaglia"
+ ],
+ "v1_date": "2022-12-24",
+ "latest_version": 2,
+ "latest_date": "2023-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "GraphCast code and trained weights are available at: https://github.com/deepmind/graphcast",
+ "abstract": "Global medium-range weather forecasting is critical to decision-making across many social and economic domains. Traditional numerical weather prediction uses increased compute resources to improve forecast accuracy, but cannot directly use historical weather data to improve the underlying model. We introduce a machine learning-based method called \"GraphCast\", which can be trained directly from reanalysis data. It predicts hundreds of weather variables, over 10 days at 0.25 degree resolution globally, in under one minute. We show that GraphCast significantly outperforms the most accurate operational deterministic systems on 90% of 1380 verification targets, and its forecasts support better severe event prediction, including tropical cyclones, atmospheric rivers, and extreme temperatures. GraphCast is a key advance in accurate and efficient weather forecasting, and helps realize the promise of machine learning for modeling complex dynamical systems.",
+ "primary": "cs.LG"
+}

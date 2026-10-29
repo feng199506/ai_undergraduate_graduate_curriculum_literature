@@ -1,0 +1,19 @@
+{
+ "id": "2403.12153",
+ "title": "Routing and Scheduling in Answer Set Programming applied to Multi-Agent Path Finding: Preliminary Report",
+ "authors": [
+  "Roland Kaminski",
+  "Torsten Schaub",
+  "Tran Cao Son",
+  "Jiří Švancara",
+  "Philipp Wanko"
+ ],
+ "v1_date": "2024-03-18",
+ "latest_version": 1,
+ "latest_date": "2024-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present alternative approaches to routing and scheduling in Answer Set Programming (ASP), and explore them in the context of Multi-agent Path Finding. The idea is to capture the flow of time in terms of partial orders rather than time steps attached to actions and fluents. This also abolishes the need for fixed upper bounds on the length of plans. The trade-off for this avoidance is that (parts of) temporal trajectories must be acyclic, since multiple occurrences of the same action or fluent cannot be distinguished anymore. While this approach provides an interesting alternative for modeling routing, it is without alternative for scheduling since fine-grained timings cannot be represented in ASP in a feasible way. This is different for partial orders that can be efficiently handled by external means such as acyclicity and difference constraints. We formally elaborate upon this idea and present several resulting ASP encodings. Finally, we demonstrate their effectiveness via an empirical analysis.",
+ "primary": "cs.AI"
+}

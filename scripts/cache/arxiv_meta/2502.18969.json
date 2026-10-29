@@ -1,0 +1,17 @@
+{
+ "id": "2502.18969",
+ "title": "(Mis)Fitting: A Survey of Scaling Laws",
+ "authors": [
+  "Margaret Li",
+  "Sneha Kudugunta",
+  "Luke Zettlemoyer"
+ ],
+ "v1_date": "2025-02-26",
+ "latest_version": 1,
+ "latest_date": "2025-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 3 figure, first two authors contributed equally. ICLR, 2025",
+ "abstract": "Modern foundation models rely heavily on using scaling laws to guide crucial training decisions. Researchers often extrapolate the optimal architecture and hyper parameters settings from smaller training runs by describing the relationship between, loss, or task performance, and scale. All components of this process vary, from the specific equation being fit, to the training setup, to the optimization method. Each of these factors may affect the fitted law, and therefore, the conclusions of a given study. We discuss discrepancies in the conclusions that several prior works reach, on questions such as the optimal token to parameter ratio. We augment this discussion with our own analysis of the critical impact that changes in specific details may effect in a scaling study, and the resulting altered conclusions. Additionally, we survey over 50 papers that study scaling trends: while 45 of these papers quantify these trends using a power law, most under-report crucial details needed to reproduce their findings. To mitigate this, we we propose a checklist for authors to consider while contributing to scaling law research.",
+ "primary": "cs.LG"
+}

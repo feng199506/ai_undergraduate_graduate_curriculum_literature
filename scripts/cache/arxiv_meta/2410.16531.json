@@ -1,0 +1,18 @@
+{
+ "id": "2410.16531",
+ "title": "Bayesian scaling laws for in-context learning",
+ "authors": [
+  "Aryaman Arora",
+  "Dan Jurafsky",
+  "Christopher Potts",
+  "Noah D. Goodman"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 4,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "COLM 2025 camera-ready version; 9 pages main text, 39 pages total",
+ "abstract": "In-context learning (ICL) is a powerful technique for getting language models to perform complex tasks with no training updates. Prior work has established strong correlations between the number of in-context examples provided and the accuracy of the model's predictions. In this paper, we seek to explain this correlation by showing that ICL approximates a Bayesian learner. This perspective gives rise to a novel Bayesian scaling law for ICL. In experiments with \\mbox{GPT-2} models of different sizes, our scaling law matches existing scaling laws in accuracy while also offering interpretable terms for task priors, learning efficiency, and per-example probabilities. To illustrate the analytic power that such interpretable scaling laws provide, we report on controlled synthetic dataset experiments designed to inform real-world studies of safety alignment. In our experimental protocol, we use SFT or DPO to suppress an unwanted existing model capability and then use ICL to try to bring that capability back (many-shot jailbreaking). We then study ICL on real-world instruction-tuned LLMs using capabilities benchmarks as well as a new many-shot jailbreaking dataset. In all cases, Bayesian scaling laws accurately predict the conditions under which ICL will cause suppressed behaviors to reemerge, which sheds light on the ineffectiveness of post-training at increasing LLM safety.",
+ "primary": "cs.CL"
+}

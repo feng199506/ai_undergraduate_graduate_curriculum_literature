@@ -1,0 +1,20 @@
+{
+ "id": "2510.21329",
+ "title": "TripTide: A Benchmark for Adaptive Travel Planning under Disruptions",
+ "authors": [
+  "Priyanshu Karmakar",
+  "Soumyabrata Chaudhuri",
+  "Shubhojit Mallick",
+  "Manish Gupta",
+  "Abhik Jana",
+  "Shreya Ghosh"
+ ],
+ "v1_date": "2025-10-24",
+ "latest_version": 1,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 12 tables and 7 figures",
+ "abstract": "Recent efforts like TripCraft and TravelPlanner have advanced the use of Large Language Models ( LLMs) for personalized, constraint aware travel itinerary generation. Yet, real travel often faces disruptions. To address this, we present TripTide, the first benchmark evaluating LLM's ability to revise itineraries under realistic disruptions. TripTide models key dimensions such as disruption severity and traveler tolerance, enabling nuanced assessment of LLM adaptability to events like flight cancellations, weather closures, or overbooked attractions. We conduct a threefold evaluation. First, we introduce automatic metrics including Preservation of Intent (how well the revised plan maintains feasibility and goals), Responsiveness (promptness and appropriateness of disruption handling), and Adaptability (semantic, spatial, and sequential divergence between original and revised plans). Second, we apply an LLM-as-a-judge approach to automatically assess revision quality. Third, we perform manual expert evaluation to verify whether revisions preserve semantic, spatial, sequential, and responsive aspects. Our experiments show that LLMs maintain strong sequential consistency and semantic stability, while spatial deviations are larger for shorter trips but decrease with longer ones, indicating that extended plans encourage better geographic coherence. However, disruption-handling ability declines as plan length increases, highlighting limits in LLM robustness. TripTide establishes a benchmark for evaluating adaptability, personalization, and resilience in LLM-based travel planning under real-world uncertainty.",
+ "primary": "cs.CL"
+}

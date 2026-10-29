@@ -1,0 +1,20 @@
+{
+ "id": "2507.00699",
+ "title": "A Hierarchical and Evolvable Benchmark for Fine-Grained Code Instruction Following with Multi-Turn Feedback",
+ "authors": [
+  "Guoliang Duan",
+  "Mingwei Liu",
+  "Yanlin Wang",
+  "Chong Wang",
+  "Xin Peng",
+  "Zibin Zheng"
+ ],
+ "v1_date": "2025-07-01",
+ "latest_version": 1,
+ "latest_date": "2025-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have advanced significantly in code generation, yet their ability to follow complex programming instructions with layered and diverse constraints remains underexplored. Existing benchmarks often prioritize functional correctness, overlooking the nuanced requirements found in real-world development. We introduce MultiCodeIF, a comprehensive benchmark designed to evaluate instruction-following in code generation across multiple dimensions: constraint type, hierarchical levels, and iterative refinement. Built upon a structured taxonomy of 9 categories and 27 constraint types, MultiCodeIF enables granular assessment of both functional and non-functional instruction adherence. Using an automated pipeline, ConstraGen, we synthesize and evolve 2,021 code tasks sourced from 14 programming languages, supporting multi-turn evaluation through feedback-driven task variants. Empirical evaluation of six state-of-the-art LLMs uncovers substantial performance disparities. The top-performing model, Claude-3-7-Sonnet, achieves 63.0% average constraint satisfaction, while smaller models like Qwen3-1.7B fall to 44.8%. Models perform well on explicit constraints, but struggle with implicit or abstract constraints. Tasks with multiple hierarchical constraints significantly reduce model success rates, from 54.5% in single-level to just 18.8% in multi-level scenarios. However, structured feedback enables progressive improvement: average constraint satisfaction rises from 63.0% to 83.4% over four iterative refinement rounds. MultiCodeIF provides a scalable, constraint-aware, and feedback-sensitive framework to benchmark LLMs under realistic code generation scenarios, bridging the gap between synthetic evaluations and real-world instruction complexity. The full benchmark dataset, evaluation pipeline, and source code are available at https://github.com/SYSUSELab/MultiCodeIF.",
+ "primary": "cs.SE"
+}

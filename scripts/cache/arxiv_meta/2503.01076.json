@@ -1,0 +1,21 @@
+{
+ "id": "2503.01076",
+ "title": "Active Learning for Direct Preference Optimization",
+ "authors": [
+  "Branislav Kveton",
+  "Xintong Li",
+  "Julian McAuley",
+  "Ryan Rossi",
+  "Jingbo Shang",
+  "Junda Wu",
+  "Tong Yu"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 1,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Direct preference optimization (DPO) is a form of reinforcement learning from human feedback (RLHF) where the policy is learned directly from preferential feedback. Although many models of human preferences exist, the critical task of selecting the most informative feedback for training them is under-explored. We propose an active learning framework for DPO, which can be applied to collect human feedback online or to choose the most informative subset of already collected feedback offline. We propose efficient algorithms for both settings. The key idea is to linearize the DPO objective at the last layer of the neural network representation of the optimized policy and then compute the D-optimal design to collect preferential feedback. We prove that the errors in our DPO logit estimates diminish with more feedback. We show the effectiveness of our algorithms empirically in the setting that matches our theory and also on large language models.",
+ "primary": "cs.LG"
+}

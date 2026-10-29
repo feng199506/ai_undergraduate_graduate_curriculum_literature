@@ -1,0 +1,17 @@
+{
+ "id": "2411.01248",
+ "title": "Guiding Neural Collapse: Optimising Towards the Nearest Simplex Equiangular Tight Frame",
+ "authors": [
+  "Evan Markou",
+  "Thalaiyasingam Ajanthan",
+  "Stephen Gould"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 1,
+ "latest_date": "2024-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2024",
+ "abstract": "Neural Collapse (NC) is a recently observed phenomenon in neural networks that characterises the solution space of the final classifier layer when trained until zero training loss. Specifically, NC suggests that the final classifier layer converges to a Simplex Equiangular Tight Frame (ETF), which maximally separates the weights corresponding to each class. By duality, the penultimate layer feature means also converge to the same simplex ETF. Since this simple symmetric structure is optimal, our idea is to utilise this property to improve convergence speed. Specifically, we introduce the notion of nearest simplex ETF geometry for the penultimate layer features at any given training iteration, by formulating it as a Riemannian optimisation. Then, at each iteration, the classifier weights are implicitly set to the nearest simplex ETF by solving this inner-optimisation, which is encapsulated within a declarative node to allow backpropagation. Our experiments on synthetic and real-world architectures for classification tasks demonstrate that our approach accelerates convergence and enhances training stability.",
+ "primary": "cs.LG"
+}

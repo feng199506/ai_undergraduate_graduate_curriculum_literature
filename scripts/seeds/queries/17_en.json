@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:\"causal inference\" OR ti:causality) AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer)", "subtopic": "因果推断基础"},
+ {"q": "(ti:\"causal discovery\" OR ti:\"causal structure learning\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:benchmark)", "subtopic": "因果发现"},
+ {"q": "(ti:\"causal discovery\" OR ti:\"structure learning\") AND (abs:DAG OR abs:\"acyclic\") AND cat:stat.ML", "subtopic": "因果发现"},
+ {"q": "(ti:\"double machine learning\" OR ti:\"debiased machine learning\" OR ti:\"double/debiased\" OR ti:\"orthogonal\") AND abs:causal", "subtopic": "双重机器学习"},
+ {"q": "(ti:\"treatment effect\" OR ti:\"heterogeneous treatment\" OR ti:\"conditional average treatment\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:benchmark)", "subtopic": "处理效应估计"},
+ {"q": "(ti:counterfactual OR ti:identification OR ti:\"do-calculus\") AND abs:\"causal\" AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "识别与反事实"},
+ {"q": "(ti:\"causal representation learning\" OR ti:\"causal machine learning\") AND (ti:survey OR ti:review OR ti:position OR ti:tutorial OR ti:perspective)", "subtopic": "因果表示学习"},
+ {"q": "(ti:causal OR ti:causality) AND abs:\"large language models\" AND (ti:survey OR ti:benchmark OR ti:evaluating)", "subtopic": "因果与大模型"},
+ {"q": "(ti:\"instrumental variable\" OR ti:\"difference-in-differences\" OR ti:\"synthetic control\" OR ti:\"regression discontinuity\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:primer)", "subtopic": "因果推断基础"},
+ {"q": "(ti:\"physics-informed neural networks\" OR ti:PINN OR ti:PINNs) AND (ti:survey OR ti:review OR ti:tutorial OR ti:benchmark OR ti:\"failure\")", "subtopic": "物理信息神经网络"},
+ {"q": "(ti:\"neural operator\" OR ti:\"neural operators\" OR ti:\"operator learning\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:benchmark)", "subtopic": "神经算子"},
+ {"q": "(ti:\"scientific machine learning\" OR ti:\"scientific discovery\" OR ti:\"AI for science\") AND (ti:survey OR ti:review OR ti:perspective OR ti:tutorial)", "subtopic": "科学机器学习综述"},
+ {"q": "(ti:\"physics-informed machine learning\" OR ti:\"hybrid modeling\" OR ti:\"grey-box\" OR ti:\"knowledge-guided\") AND (ti:survey OR ti:review OR abs:mechanistic)", "subtopic": "机理与数据融合"},
+ {"q": "(abs:\"partial differential equations\" OR abs:PDE) AND (ti:benchmark OR ti:\"foundation model\" OR ti:dataset) AND cat:cs.LG", "subtopic": "PDE 求解基准与基础模型"},
+ {"q": "(ti:\"symbolic regression\" OR ti:\"equation discovery\" OR ti:SINDy) AND (ti:survey OR ti:review OR ti:benchmark OR abs:\"language model\")", "subtopic": "方程发现与符号回归"},
+ {"q": "(ti:\"neural ODE\" OR ti:\"neural differential equations\" OR ti:\"differentiable physics\" OR ti:\"differentiable simulation\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "微分方程与可微模拟"},
+ {"q": "(ti:\"weather forecasting\" OR ti:\"climate\" OR ti:\"molecular dynamics\" OR ti:\"materials\") AND (abs:\"machine learning\" OR abs:\"deep learning\") AND (ti:survey OR ti:review) AND cat:cs.LG", "subtopic": "科学计算应用"},
+ {"q": "(ti:\"uncertainty quantification\" OR ti:\"surrogate model\") AND (abs:\"scientific machine learning\" OR abs:\"physics-informed\" OR abs:\"PDE\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "机理与数据融合"}
+]

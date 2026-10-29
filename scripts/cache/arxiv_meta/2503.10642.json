@@ -1,0 +1,17 @@
+{
+ "id": "2503.10642",
+ "title": "Text2Zinc: A Cross-Domain Dataset for Modeling Optimization and Satisfaction Problems in MiniZinc",
+ "authors": [
+  "Akash Singirikonda",
+  "Serdar Kadioglu",
+  "Karthik Uppuluri"
+ ],
+ "v1_date": "2025-02-22",
+ "latest_version": 1,
+ "latest_date": "2025-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "There is growing interest in utilizing large language models (LLMs) as co-pilots for combinatorial optimization and constraint programming tasks across various problems. This paper aims to advance this line of research by introducing Text2Zinc}, a cross-domain dataset for capturing optimization and satisfaction problems specified in natural language text. Our work is distinguished from previous attempts by integrating both satisfaction and optimization problems within a unified dataset using a solver-agnostic modeling language. To achieve this, we leverage MiniZinc's solver-and-paradigm-agnostic modeling capabilities to formulate these problems. Using the Text2Zinc dataset, we conduct comprehensive baseline experiments to compare execution and solution accuracy across several methods, including off-the-shelf prompting strategies, chain-of-thought reasoning, and a compositional approach. Additionally, we explore the effectiveness of intermediary representations, specifically knowledge graphs. Our findings indicate that LLMs are not yet a push-button technology to model combinatorial problems from text. We hope that Text2Zinc serves as a valuable resource for researchers and practitioners to advance the field further.",
+ "primary": "cs.CL"
+}

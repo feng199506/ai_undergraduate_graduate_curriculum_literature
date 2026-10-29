@@ -1,0 +1,16 @@
+{
+ "id": "2502.15575",
+ "title": "Feature maps for the Laplacian kernel and its generalizations",
+ "authors": [
+  "Sudhendu Ahir",
+  "Parthe Pandit"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 1,
+ "latest_date": "2025-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent applications of kernel methods in machine learning have seen a renewed interest in the Laplacian kernel, due to its stability to the bandwidth hyperparameter in comparison to the Gaussian kernel, as well as its expressivity being equivalent to that of the neural tangent kernel of deep fully connected networks. However, unlike the Gaussian kernel, the Laplacian kernel is not separable. This poses challenges for techniques to approximate it, especially via the random Fourier features (RFF) methodology and its variants. In this work, we provide random features for the Laplacian kernel and its two generalizations: Matérn kernel and the Exponential power kernel. We provide efficiently implementable schemes to sample weight matrices so that random features approximate these kernels. These weight matrices have a weakly coupled heavy-tailed randomness. Via numerical experiments on real datasets we demonstrate the efficacy of these random feature maps.",
+ "primary": "stat.ML"
+}

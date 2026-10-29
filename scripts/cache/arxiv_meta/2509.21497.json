@@ -1,0 +1,16 @@
+{
+ "id": "2509.21497",
+ "title": "Functional Encryption in Secure Neural Network Training: Data Leakage and Practical Mitigations",
+ "authors": [
+  "Alexandru Ioniţă",
+  "Andreea Ioniţă"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 1,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at RAID 2025. (c) IEEE",
+ "abstract": "With the increased interest in artificial intelligence, Machine Learning as a Service provides the infrastructure in the Cloud for easy training, testing, and deploying models. However, these systems have a major privacy issue: uploading sensitive data to the Cloud, especially during training. Therefore, achieving secure Neural Network training has been on many researchers' minds lately. More and more solutions for this problem are built around a main pillar: Functional Encryption (FE). Although these approaches are very interesting and offer a new perspective on ML training over encrypted data, some vulnerabilities do not seem to be taken into consideration. In our paper, we present an attack on neural networks that uses FE for secure training over encrypted data. Our approach uses linear programming to reconstruct the original input, unveiling the previous security promises. To address the attack, we propose two solutions for secure training and inference that involve the client during the computation phase. One approach ensures security without relying on encryption, while the other uses function-hiding inner-product techniques.",
+ "primary": "cs.CR"
+}

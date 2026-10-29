@@ -1,0 +1,17 @@
+{
+ "id": "2603.14248",
+ "title": "Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective",
+ "authors": [
+  "Mohamed Aghzal",
+  "Gregory J. Stein",
+  "Ziyu Yao"
+ ],
+ "v1_date": "2026-03-15",
+ "latest_version": 2,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to The 64th Annual Meeting of the Association for Computational Linguistics (ACL) 2026",
+ "abstract": "Large language model (LLM) web agents are increasingly used for web navigation but remain far from human reliability on realistic, long-horizon tasks. Existing evaluations focus primarily on end-to-end success, offering limited insight into where failures arise. We propose a hierarchical planning framework to analyze web agents across three layers (i.e., high-level planning, low-level execution, and replanning), enabling process-based evaluation of reasoning, grounding, and recovery. Our experiments show that structured Planning Domain Definition Language (PDDL) plans produce more concise and goal-directed strategies than natural language (NL) plans, but low-level execution remains the dominant bottleneck. These results indicate that improving perceptual grounding and adaptive control, not only high-level reasoning, is critical for achieving human-level reliability. This hierarchical perspective provides a principled foundation for diagnosing and advancing LLM web agents.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")", "subtopic": "具身智能综述"},
+ {"q": "(ti:\"vision-language-action\" OR ti:VLA) AND (ti:survey OR ti:review)", "subtopic": "视觉-语言-动作模型"},
+ {"q": "abs:\"vision-language-action\" AND cat:cs.RO", "subtopic": "视觉-语言-动作模型"},
+ {"q": "(ti:\"foundation models\" OR ti:\"large language models\") AND ti:robot* AND (ti:survey OR ti:review)", "subtopic": "机器人基础模型"},
+ {"q": "abs:\"generalist robot policy\" AND cat:cs.RO", "subtopic": "机器人基础模型"},
+ {"q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)", "subtopic": "模仿学习与策略学习"},
+ {"q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "机器人操作与学习"},
+ {"q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "定位与 SLAM"},
+ {"q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "定位与 SLAM"},
+ {"q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "运动规划"},
+ {"q": "(ti:kinematics OR ti:dynamics OR ti:\"rigid body\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey)", "subtopic": "运动学与动力学"},
+ {"q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "机器人控制与运动"},
+ {"q": "ti:\"reinforcement learning\" AND ti:robot* AND (ti:survey OR ti:review)", "subtopic": "机器人控制与运动"},
+ {"q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)", "subtopic": "机器人感知"},
+ {"q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)", "subtopic": "仿真与迁移"},
+ {"q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO", "subtopic": "数据集与评测"},
+ {"q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)", "subtopic": "具身导航"},
+ {"q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)", "subtopic": "具身世界模型"}
+]

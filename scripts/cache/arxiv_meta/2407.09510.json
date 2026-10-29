@@ -1,0 +1,21 @@
+{
+ "id": "2407.09510",
+ "title": "3DGS.zip: A survey on 3D Gaussian Splatting Compression Methods",
+ "authors": [
+  "Milena T. Bagdasarian",
+  "Paul Knoll",
+  "Yi-Hsin Li",
+  "Florian Barthel",
+  "Anna Hilsmann",
+  "Peter Eisert",
+  "Wieland Morgenstern"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 5,
+ "latest_date": "2025-03-05",
+ "journal_ref": "Computer Graphics Forum, Volume 44, Issue 2 (2025)",
+ "doi": "10.1111/cgf.70078",
+ "comment": "3D Gaussian Splatting compression survey; 3DGS compression; updated discussion; new approaches added; new illustrations",
+ "abstract": "3D Gaussian Splatting (3DGS) has emerged as a cutting-edge technique for real-time radiance field rendering, offering state-of-the-art performance in terms of both quality and speed. 3DGS models a scene as a collection of three-dimensional Gaussians, with additional attributes optimized to conform to the scene's geometric and visual properties. Despite its advantages in rendering speed and image fidelity, 3DGS is limited by its significant storage and memory demands. These high demands make 3DGS impractical for mobile devices or headsets, reducing its applicability in important areas of computer graphics. To address these challenges and advance the practicality of 3DGS, this survey provides a comprehensive and detailed examination of compression and compaction techniques developed to make 3DGS more efficient. We classify existing methods into two categories: compression, which focuses on reducing file size, and compaction, which aims to minimize the number of Gaussians. Both methods aim to maintain or improve quality, each by minimizing its respective attribute: file size for compression and Gaussian count for compaction. We introduce the basic mathematical concepts underlying the analyzed methods, as well as key implementation details and design choices. Our report thoroughly discusses similarities and differences among the methods, as well as their respective advantages and disadvantages. We establish a consistent framework for comparing the surveyed methods based on key performance metrics and datasets. Specifically, since these methods have been developed in parallel and over a short period of time, currently, no comprehensive comparison exists. This survey, for the first time, presents a unified framework to evaluate 3DGS compression techniques. We maintain a website that will be regularly updated with emerging methods: https://w-m.github.io/3dgs-compression-survey/ .",
+ "primary": "cs.CV"
+}

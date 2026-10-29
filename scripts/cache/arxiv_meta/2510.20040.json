@@ -1,0 +1,19 @@
+{
+ "id": "2510.20040",
+ "title": "Approximate Model Predictive Control for Microgrid Energy Management via Imitation Learning",
+ "authors": [
+  "Changrui Liu",
+  "Shengling Shi",
+  "Anil Alan",
+  "Ganesh Kumar Venayagamoorthy",
+  "Bart De Schutter"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 2,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "10.1016/j.engappai.2026.115837",
+ "comment": "Submitted to Engineering Applications of Artificial Intelligence (EAAI) and IFAC WC 2026 (Accepted by the IFAC WC 2026) Main changes: (1) extensive simulations with real data; (2) formal feasibility and recursive feasibility guarantees using discrete-time control barrier functions",
+ "abstract": "Efficient energy management is essential for reliable and sustainable microgrid operation amid increasing renewable integration. In this paper, an imitation learning-based framework to approximate mixed-integer Economic Model Predictive Control (EMPC) is proposed for microgrid energy management, considering fuel generators, renewable energy resources, a unified energy storage unit, and curtailable loads. Within the proposed framework, a neural network is trained to imitate expert EMPC control actions from offline trajectories, thereby enabling fast real-time decision making without solving online mixed-integer optimization problems, which often exhibit highly variable solution times across instances and do not scale well to large problem sizes; in particular, worst-case solve times can be excessively large and therefore unsuitable for real-time deployment. In contrast, the learned policy provides predictable and consistently low computation times. To enhance robustness and generalization, the learning process incorporates noise injection during training to mitigate distribution shift and explicitly accounts for forecast uncertainty in renewable generation and demand. Furthermore, a constraint-tightening approach combined with a projection layer is proposed to ensure recursive feasibility and constraint satisfaction of the learned controller. Simulation results demonstrate that the learned policy achieves economic performance comparable to EMPC, while reducing computation time by approximately one order of magnitude relative to the optimization-based EMPC.",
+ "primary": "eess.SY"
+}

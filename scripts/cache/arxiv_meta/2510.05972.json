@@ -1,0 +1,18 @@
+{
+ "id": "2510.05972",
+ "title": "LexiCon: a Benchmark for Planning under Temporal Constraints in Natural Language",
+ "authors": [
+  "Periklis Mantenoglou",
+  "Rishi Hazra",
+  "Pedro Zuidberg Dos Martires",
+  "Luc De Raedt"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 1,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Owing to their reasoning capabilities, large language models (LLMs) have been evaluated on planning tasks described in natural language. However, LLMs have largely been tested on planning domains without constraints. In order to deploy them in real-world settings where adherence to constraints, in particular safety constraints, is critical, we need to evaluate their performance on constrained planning tasks. We introduce LexiCon -- a natural language-based (Lexi) constrained (Con) planning benchmark, consisting of a suite of environments, that can be used to evaluate the planning capabilities of LLMs in a principled fashion. The core idea behind LexiCon is to take existing planning environments and impose temporal constraints on the states. These constrained problems are then translated into natural language and given to an LLM to solve. A key feature of LexiCon is its extensibility. That is, the set of supported environments can be extended with new (unconstrained) environment generators, for which temporal constraints are constructed automatically. This renders LexiCon future-proof: the hardness of the generated planning problems can be increased as the planning capabilities of LLMs improve. Our experiments reveal that the performance of state-of-the-art LLMs, including reasoning models like GPT-5, o3, and R1, deteriorates as the degree of constrainedness of the planning tasks increases.",
+ "primary": "cs.CL"
+}

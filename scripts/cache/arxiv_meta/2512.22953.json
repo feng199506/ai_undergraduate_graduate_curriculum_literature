@@ -1,0 +1,15 @@
+{
+ "id": "2512.22953",
+ "title": "APO: Alpha-Divergence Preference Optimization",
+ "authors": [
+  "Wang Zixian"
+ ],
+ "v1_date": "2025-12-28",
+ "latest_version": 1,
+ "latest_date": "2025-12-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Two divergence regimes dominate modern alignment practice. Supervised fine-tuning and many distillation-style objectives implicitly minimize the forward KL divergence KL(q || pi_theta), yielding stable mode-covering updates but often under-exploiting high-reward modes. In contrast, PPO-style online reinforcement learning from human feedback behaves closer to reverse KL divergence KL(pi_theta || q), enabling mode-seeking improvements but risking mode collapse. Recent anchored methods, such as ADPO, show that performing the projection in anchored coordinates can substantially improve stability, yet they typically commit to a single divergence. We introduce Alpha-Divergence Preference Optimization (APO), an anchored framework that uses Csiszar alpha-divergence to continuously interpolate between forward and reverse KL behavior within the same anchored geometry. We derive unified gradient dynamics parameterized by alpha, analyze gradient variance properties, and propose a practical reward-and-confidence-guarded alpha schedule that transitions from coverage to exploitation only when the policy is both improving and confidently calibrated. Experiments on Qwen3-1.7B with math-level3 demonstrate that APO achieves competitive performance with GRPO and GSPO baselines while maintaining training stability.",
+ "primary": "cs.LG"
+}

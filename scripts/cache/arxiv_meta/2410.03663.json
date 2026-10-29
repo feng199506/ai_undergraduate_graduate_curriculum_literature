@@ -1,0 +1,18 @@
+{
+ "id": "2410.03663",
+ "title": "Learning from Committee: Reasoning Distillation from a Mixture of Teachers with Peer-Review",
+ "authors": [
+  "Zhuochun Li",
+  "Yuelyu Ji",
+  "Rui Meng",
+  "Daqing He"
+ ],
+ "v1_date": "2024-10-04",
+ "latest_version": 4,
+ "latest_date": "2025-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 5 figures",
+ "abstract": "While reasoning capabilities typically emerge in large language models (LLMs) with tens of billions of parameters, recent research focuses on improving smaller open-source models through knowledge distillation (KD) from commercial LLMs. However, many of these studies rely solely on responses from a single LLM as the gold rationale, unlike the natural human learning process, which involves understanding both the correct answers and the reasons behind mistakes. In this paper, we introduce a novel Fault-Aware DistIllation via Peer-Review (FAIR) approach: 1) instead of merely obtaining rationales from teachers, our method asks teachers to identify and explain the student's mistakes, providing customized instruction learning data; 2) we design a simulated peer-review process between teacher LLMs, and selects only the generated rationales above the acceptance threshold, which reduces the chance of teachers guessing correctly with flawed rationale, improving instructional data quality. Comprehensive experiments and analysis on mathematical, commonsense, and logical reasoning tasks demonstrate the effectiveness of our method. Our code is available at https://github.com/zhuochunli/Learn-from-Committee.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "2409.13416",
+ "title": "Longitudinal Segmentation of MS Lesions via Temporal Difference Weighting",
+ "authors": [
+  "Maximilian Rokuss",
+  "Yannick Kirchhoff",
+  "Saikat Roy",
+  "Balint Kovacs",
+  "Constantin Ulrich",
+  "Tassilo Wald",
+  "Maximilian Zenk",
+  "Stefan Denner",
+  "Fabian Isensee",
+  "Philipp Vollmuth",
+  "Jens Kleesiek",
+  "Klaus Maier-Hein"
+ ],
+ "v1_date": "2024-09-20",
+ "latest_version": 1,
+ "latest_date": "2024-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at MICCAI 2024 LDTM",
+ "abstract": "Accurate segmentation of Multiple Sclerosis (MS) lesions in longitudinal MRI scans is crucial for monitoring disease progression and treatment efficacy. Although changes across time are taken into account when assessing images in clinical practice, most existing deep learning methods treat scans from different timepoints separately. Among studies utilizing longitudinal images, a simple channel-wise concatenation is the primary albeit suboptimal method employed to integrate timepoints. We introduce a novel approach that explicitly incorporates temporal differences between baseline and follow-up scans through a unique architectural inductive bias called Difference Weighting Block. It merges features from two timepoints, emphasizing changes between scans. We achieve superior scores in lesion segmentation (Dice Score, Hausdorff distance) as well as lesion detection (lesion-level $F_1$ score) as compared to state-of-the-art longitudinal and single timepoint models across two datasets. Our code is made publicly available at www.github.com/MIC-DKFZ/Longitudinal-Difference-Weighting.",
+ "primary": "eess.IV"
+}

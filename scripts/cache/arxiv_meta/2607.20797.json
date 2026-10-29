@@ -1,0 +1,18 @@
+{
+ "id": "2607.20797",
+ "title": "A Multimodal Approach to Star--Galaxy Separation using SPHEREx Spectrophotometry and DESI Legacy Survey Imaging",
+ "authors": [
+  "Kendrick Nguyen",
+  "Richard M. Feder",
+  "Sean Bruton",
+  "Uroš Seljak"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 1,
+ "latest_date": "2026-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 14 figures",
+ "abstract": "Stellar contamination is a critical systematic for increasingly precise large-scale structure analyses from ongoing and next-generation surveys. Experiments targeting constraints on local primordial non-Gaussianity with $σ(f_{\\rm NL}^{\\rm loc}) \\sim \\mathcal{O}(1)$ demand sub-percent stellar contamination rates to avoid misidentifying spurious large-scale power induced by Galactic structure as true cosmological signal. In this work, we explore the use of multimodal models for star--galaxy separation, harnessing the information from both optical broad-band imaging data and SPHEREx near-infrared low-resolution spectrophotometry. The two modalities are integrated using contrastive learning, which projects image- and spectrum-based embeddings into a shared latent space. We find that classifiers trained on these transformed representations outperform those trained on the original embeddings and show less performance degradation when simpler classifiers are used. These results suggest that multimodal alignment organizes the embedding space along dimensions that are better suited to source classification. The improvement is particularly strong for image-based classification, which we connect to increased predictability of highly-discriminative infrared spectral features from the transformed image embeddings. Applying redshift error-based selections and extrapolating to the full SPHEREx footprint, we demonstrate that stellar contamination can be controlled at the sub-percent level across most of the extragalactic sky, with completeness tradeoffs largely confined to low redshift. Our work highlights the utility of multimodal methods for modern galaxy surveys such as SPHEREx and $\\textit{Rubin}$ LSST.",
+ "primary": "astro-ph.CO"
+}

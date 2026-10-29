@@ -1,0 +1,17 @@
+{
+ "id": "2507.20560",
+ "title": "Statistical Inference for Differentially Private Stochastic Gradient Descent",
+ "authors": [
+  "Xintao Xia",
+  "Linjun Zhang",
+  "Zhanrui Cai"
+ ],
+ "v1_date": "2025-07-28",
+ "latest_version": 2,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Privacy preservation in machine learning, particularly through Differentially Private Stochastic Gradient Descent (DP-SGD), is critical for sensitive data analysis. However, existing statistical inference methods for SGD predominantly focus on cyclic subsampling, while DP-SGD requires randomized subsampling. This paper first bridges this gap by establishing the asymptotic properties of SGD under the randomized rule and extending these results to DP-SGD. For the output of DP-SGD, we show that the asymptotic variance decomposes into statistical, sampling, and privacy-induced components. Two methods are proposed for constructing valid confidence intervals: the plug-in method and the random scaling method. We also perform extensive numerical analysis, which shows that the proposed confidence intervals achieve nominal coverage rates while maintaining privacy.",
+ "primary": "stat.ML"
+}

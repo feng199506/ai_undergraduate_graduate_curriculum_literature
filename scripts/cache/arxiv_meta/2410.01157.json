@@ -1,0 +1,19 @@
+{
+ "id": "2410.01157",
+ "title": "A Deep Learning Approach for Imbalanced Tabular Data in Advertiser Prospecting: A Case of Direct Mail Prospecting",
+ "authors": [
+  "Sadegh Farhang",
+  "William Hayes",
+  "Nick Murphy",
+  "Jonathan Neddenriep",
+  "Nicholas Tyris"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 1,
+ "latest_date": "2024-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Third KDD Workshop on End-to-End Customer Journey Optimization",
+ "abstract": "Acquiring new customers is a vital process for growing businesses. Prospecting is the process of identifying and marketing to potential customers using methods ranging from online digital advertising, linear television, out of home, and direct mail. Despite the rapid growth in digital advertising (particularly social and search), research shows that direct mail remains one of the most effective ways to acquire new customers. However, there is a notable gap in the application of modern machine learning techniques within the direct mail space, which could significantly enhance targeting and personalization strategies. Methodologies deployed through direct mail are the focus of this paper. In this paper, we propose a supervised learning approach for identifying new customers, i.e., prospecting, which comprises how we define labels for our data and rank potential customers. The casting of prospecting to a supervised learning problem leads to imbalanced tabular data. The current state-of-the-art approach for tabular data is an ensemble of tree-based methods like random forest and XGBoost. We propose a deep learning framework for tabular imbalanced data. This framework is designed to tackle large imbalanced datasets with vast number of numerical and categorical features. Our framework comprises two components: an autoencoder and a feed-forward neural network. We demonstrate the effectiveness of our framework through a transparent real-world case study of prospecting in direct mail advertising. Our results show that our proposed deep learning framework outperforms the state of the art tree-based random forest approach when applied in the real-world.",
+ "primary": "cs.LG"
+}

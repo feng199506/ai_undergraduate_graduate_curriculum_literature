@@ -1,0 +1,19 @@
+{
+ "id": "2407.00956",
+ "title": "A Closer Look at Deep Learning Methods on Tabular Datasets",
+ "authors": [
+  "Han-Jia Ye",
+  "Si-Yang Liu",
+  "Hao-Run Cai",
+  "Qi-Le Zhou",
+  "De-Chuan Zhan"
+ ],
+ "v1_date": "2024-07-01",
+ "latest_version": 4,
+ "latest_date": "2025-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tabular data is prevalent across diverse domains in machine learning. With the rapid progress of deep tabular prediction methods, especially pretrained (foundation) models, there is a growing need to evaluate these methods systematically and to understand their behavior. We present an extensive study on TALENT, a collection of 300+ datasets spanning broad ranges of size, feature composition (numerical/categorical mixes), domains, and output types (binary, multi--class, regression). Our evaluation shows that ensembling benefits both tree-based and neural approaches. Traditional gradient-boosted trees remain very strong baselines, yet recent pretrained tabular models now match or surpass them on many tasks, narrowing--but not eliminating--the historical advantage of tree ensembles. Despite architectural diversity, top performance concentrates within a small subset of models, providing practical guidance for method selection. To explain these outcomes, we quantify dataset heterogeneity by learning from meta-features and early training dynamics to predict later validation behavior. This dynamics-aware analysis indicates that heterogeneity--such as the interplay of categorical and numerical attributes--largely determines which family of methods is favored. Finally, we introduce a two-level design beyond the 300 common-size datasets: a compact TALENT-tiny core (45 datasets) for rapid, reproducible evaluation, and a TALENT-extension suite targeting high-dimensional, many-class, and very large-scale settings for stress testing. In summary, these results offer actionable insights into the strengths, limitations, and future directions for improving deep tabular learning.",
+ "primary": "cs.LG"
+}

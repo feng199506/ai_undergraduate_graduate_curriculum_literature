@@ -1,0 +1,18 @@
+{
+ "id": "2507.22842",
+ "title": "Tricks and Plug-ins for Gradient Boosting in Image Classification",
+ "authors": [
+  "Biyi Fang",
+  "Truong Vo",
+  "Jean Utke",
+  "Diego Klabjan"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 4,
+ "latest_date": "2025-11-15",
+ "journal_ref": "2025 IEEE International Conference on Big Data (BigData), pp. 1382-1388",
+ "doi": "10.1109/bigdata66926.2025.11402372",
+ "comment": "6 pages, 5 figures. Experimental results reported on CIFAR-10, SVHN, and ImageNetSub datasets",
+ "abstract": "Convolutional Neural Networks (CNNs) have achieved remarkable success across a wide range of machine learning tasks by leveraging hierarchical feature learning through deep architectures. However, the large number of layers and millions of parameters often make CNNs computationally expensive to train, requiring extensive time and manual tuning to discover optimal architectures. In this paper, we introduce a novel framework for boosting CNN performance that integrates dynamic feature selection with the principles of BoostCNN. Our approach incorporates two key strategies: subgrid selection and importance sampling, to guide training toward informative regions of the feature space. We further develop a family of algorithms that embed boosting weights directly into the network training process using a least squares loss formulation. This integration not only alleviates the burden of manual architecture design but also enhances accuracy and efficiency. Experimental results across several fine-grained classification benchmarks demonstrate that our boosted CNN variants consistently outperform conventional CNNs in both predictive performance and training speed.",
+ "primary": "stat.ML"
+}

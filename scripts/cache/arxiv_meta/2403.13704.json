@@ -1,0 +1,18 @@
+{
+ "id": "2403.13704",
+ "title": "Improving the Adaptive Moment Estimation (ADAM) stochastic optimizer through an Implicit-Explicit (IMEX) time-stepping approach",
+ "authors": [
+  "Abhinab Bhattacharjee",
+  "Andrey A. Popov",
+  "Arash Sarshar",
+  "Adrian Sandu"
+ ],
+ "v1_date": "2024-03-20",
+ "latest_version": 2,
+ "latest_date": "2024-09-14",
+ "journal_ref": "",
+ "doi": "10.1615/jmachlearnmodelcomput.2024053508",
+ "comment": "",
+ "abstract": "The Adam optimizer, often used in Machine Learning for neural network training, corresponds to an underlying ordinary differential equation (ODE) in the limit of very small learning rates. This work shows that the classical Adam algorithm is a first-order implicit-explicit (IMEX) Euler discretization of the underlying ODE. Employing the time discretization point of view, we propose new extensions of the Adam scheme obtained by using higher-order IMEX methods to solve the ODE. Based on this approach, we derive a new optimization algorithm for neural network training that performs better than classical Adam on several regression and classification problems.",
+ "primary": "cs.CE"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2407.14049",
+ "title": "Prompted Aspect Key Point Analysis for Quantitative Review Summarization",
+ "authors": [
+  "An Quang Tang",
+  "Xiuzhen Zhang",
+  "Minh Ngoc Dinh",
+  "Erik Cambria"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 1,
+ "latest_date": "2024-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ACL 2024 Main Conference",
+ "abstract": "Key Point Analysis (KPA) aims for quantitative summarization that provides key points (KPs) as succinct textual summaries and quantities measuring their prevalence. KPA studies for arguments and reviews have been reported in the literature. A majority of KPA studies for reviews adopt supervised learning to extract short sentences as KPs before matching KPs to review comments for quantification of KP prevalence. Recent abstractive approaches still generate KPs based on sentences, often leading to KPs with overlapping and hallucinated opinions, and inaccurate quantification. In this paper, we propose Prompted Aspect Key Point Analysis (PAKPA) for quantitative review summarization. PAKPA employs aspect sentiment analysis and prompted in-context learning with Large Language Models (LLMs) to generate and quantify KPs grounded in aspects for business entities, which achieves faithful KPs with accurate quantification, and removes the need for large amounts of annotated data for supervised training. Experiments on the popular review dataset Yelp and the aspect-oriented review summarization dataset SPACE show that our framework achieves state-of-the-art performance. Source code and data are available at: https://github.com/antangrocket1312/PAKPA",
+ "primary": "cs.CL"
+}

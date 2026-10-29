@@ -1,0 +1,19 @@
+{
+ "id": "2507.17079",
+ "title": "Few-Shot Learning in Video and 3D Object Detection: A Survey",
+ "authors": [
+  "Md Meftahul Ferdaus",
+  "Kendall N. Niles",
+  "Joe Tom",
+  "Mahdi Abdelguerfi",
+  "Elias Ioup"
+ ],
+ "v1_date": "2025-07-22",
+ "latest_version": 1,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under review in ACM Computing Surveys",
+ "abstract": "Few-shot learning (FSL) enables object detection models to recognize novel classes given only a few annotated examples, thereby reducing expensive manual data labeling. This survey examines recent FSL advances for video and 3D object detection. For video, FSL is especially valuable since annotating objects across frames is more laborious than for static images. By propagating information across frames, techniques like tube proposals and temporal matching networks can detect new classes from a couple examples, efficiently leveraging spatiotemporal structure. FSL for 3D detection from LiDAR or depth data faces challenges like sparsity and lack of texture. Solutions integrate FSL with specialized point cloud networks and losses tailored for class imbalance. Few-shot 3D detection enables practical autonomous driving deployment by minimizing costly 3D annotation needs. Core issues in both domains include balancing generalization and overfitting, integrating prototype matching, and handling data modality properties. In summary, FSL shows promise for reducing annotation requirements and enabling real-world video, 3D, and other applications by efficiently leveraging information across feature, temporal, and data modalities. By comprehensively surveying recent advancements, this paper illuminates FSL's potential to minimize supervision needs and enable deployment across video, 3D, and other real-world applications.",
+ "primary": "cs.CV"
+}

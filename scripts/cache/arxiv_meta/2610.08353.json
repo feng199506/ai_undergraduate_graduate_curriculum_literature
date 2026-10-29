@@ -1,0 +1,15 @@
+{
+ "id": "2610.08353",
+ "title": "Uncertainty Quantification Is Indispensable for Reliable Connectome-Based Graph Learning: A Narrative Review and Case Study",
+ "authors": [
+  "Mansooreh Pakravan"
+ ],
+ "v1_date": "2026-10-06",
+ "latest_version": 1,
+ "latest_date": "2026-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While graph neural networks (GNNs) have shown substantial promise in connectome-based diagnostic classification, deterministic models inevitably suppress pipeline-induced noise and model ambiguities, yielding overconfident predictions. Although uncertainty quantification (UQ) is widely adopted in voxel-level segmentation, its role in connectomic graph learning remains largely unaddressed. This paper presents a comprehensive narrative review of UQ frameworks tailored to connectome graph learning alongside an empirical case study demonstrating the perils of uncalibrated predictions. We delineate sources of aleatoric and epistemic uncertainty across neuroimaging pipelines and review prominent UQ paradigms, from Bayesian approximations and ensemble methods to evidential learning and conformal prediction. In our case study, a temporal Graph Attention Network (GAT) trained on dynamic functional connectivity (dFC) matrices from the SUDMEX CONN dataset achieves 80.0% diagnostic accuracy (F1 = 0.794) for Cocaine Use Disorder. However, a post-hoc uncertainty audit via Monte Carlo dropout reveals severe overconfidence (ECE = 0.127), with misclassified subjects assigned prediction confidences up to 95%. This empirical divergence between discrimination and calibration underscores the confidence paradox in deep connectomics. Our findings establish that rigorous UQ, calibration, and selective prediction mechanisms are indispensable for deploying trustworthy graph-based biomarkers in clinical neuroscience.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2408.07221",
+ "title": "A Review of Pseudo-Labeling for Computer Vision",
+ "authors": [
+  "Patrick Kage",
+  "Jay C. Rothenberger",
+  "Pavlos Andreadis",
+  "Dimitrios I. Diochnos"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 3,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "10.1613/jair.1.19656",
+ "comment": "40 pages, 4 figures, 2 tables",
+ "abstract": "Deep neural models have achieved state of the art performance on a wide range of problems in computer science, especially in computer vision. However, deep neural networks often require large datasets of labeled samples to generalize effectively, and an important area of active research is semi-supervised learning, which attempts to instead utilize large quantities of (easily acquired) unlabeled samples. One family of methods in this space is pseudo-labeling, a class of algorithms that use model outputs to assign labels to unlabeled samples which are then used as labeled samples during training. Such assigned labels, called pseudo-labels, are most commonly associated with the field of semi-supervised learning. In this work we explore a broader interpretation of pseudo-labels within both self-supervised and unsupervised methods. By drawing the connection between these areas we identify new directions when advancements in one area would likely benefit others, such as curriculum learning and self-supervised regularization.",
+ "primary": "cs.CV"
+}

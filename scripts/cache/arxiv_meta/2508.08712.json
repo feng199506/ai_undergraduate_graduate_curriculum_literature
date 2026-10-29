@@ -1,0 +1,25 @@
+{
+ "id": "2508.08712",
+ "title": "A Survey on Parallel Text Generation: From Parallel Decoding to Diffusion Language Models",
+ "authors": [
+  "Lingzhe Zhang",
+  "Liancheng Fang",
+  "Chiming Duan",
+  "Minghua He",
+  "Leyi Pan",
+  "Pei Xiao",
+  "Shiyu Huang",
+  "Yunpeng Zhai",
+  "Xuming Hu",
+  "Philip S. Yu",
+  "Aiwei Liu"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 4,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As text generation has become a core capability of modern Large Language Models (LLMs), it underpins a wide range of downstream applications. However, most existing LLMs rely on autoregressive (AR) generation, producing one token at a time based on previously generated context-resulting in limited generation speed due to the inherently sequential nature of the process. To address this challenge, an increasing number of researchers have begun exploring parallel text generation-a broad class of techniques aimed at breaking the token-by-token generation bottleneck and improving inference efficiency. Despite growing interest, there remains a lack of comprehensive analysis on what specific techniques constitute parallel text generation and how they improve inference performance. To bridge this gap, we present a systematic survey of parallel text generation methods. We categorize existing approaches into AR-based and Non-AR-based paradigms, and provide a detailed examination of the core techniques within each category. Following this taxonomy, we assess their theoretical trade-offs in terms of speed, quality, and efficiency, and examine their potential for combination and comparison with alternative acceleration strategies. Finally, based on our findings, we highlight recent advancements, identify open challenges, and outline promising directions for future research in parallel text generation. We have also created a GitHub repository for indexing relevant papers and open resources available at https://github.com/zhanglingzhe0820/Awesome-Parallel-Text-Generation.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2608.15700",
+ "title": "Adaptive Mixing of Policies from Searching and Policies from Learning",
+ "authors": [
+  "Gavin B. Rens"
+ ],
+ "v1_date": "2026-08-16",
+ "latest_version": 1,
+ "latest_date": "2026-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 16 figures",
+ "abstract": "Background: Distillation of training targets generated thru search/planning has proven useful in reinforcement learning, but search can take exceedingly long. Objectives: Rather than perform search to the same depth every time (typically at a fixed period of steps), reduce the search depth proportionally to the quality of the policy network priors. Methods: We describe Flexer, an architecture that, for each step, mixes the policy from a neural network and the policy from Monte Carlo tree search. The mixing factor favors the MCTS policy as the policy imitation error of the network and the environment models' variance increases. Results: Flexer outperforms a version of AlphaZero (and DQN and ADP) for some experiments on three toy symbolic problems.",
+ "primary": "cs.AI"
+}

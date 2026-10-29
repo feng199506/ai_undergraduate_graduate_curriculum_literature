@@ -1,0 +1,19 @@
+{
+ "id": "2601.18012",
+ "title": "Evaluating Semantic and Syntactic Understanding in Large Language Models for Payroll Systems",
+ "authors": [
+  "Hendrika Maclean",
+  "Mert Can Cakmak",
+  "Muzakkiruddin Ahmed Mohammed",
+  "Shames Al Mandalawi",
+  "John Talburt"
+ ],
+ "v1_date": "2026-01-25",
+ "latest_version": 2,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ITNG 2026 conference",
+ "abstract": "Large language models are now used daily for writing, search, and analysis, and their natural language understanding continues to improve. However, they remain unreliable on exact numerical calculation and on producing outputs that are straightforward to audit. We study synthetic payroll system as a focused, high-stakes example and evaluate whether models can understand a payroll schema, apply rules in the right order, and deliver cent-accurate results. Our experiments span a tiered dataset from basic to complex cases, a spectrum of prompts from minimal baselines to schema-guided and reasoning variants, and multiple model families including GPT, Claude, Perplexity, Grok and Gemini. Results indicate clear regimes where careful prompting is sufficient and regimes where explicit computation is required. The work offers a compact, reproducible framework and practical guidance for deploying LLMs in settings that demand both accuracy and assurance.",
+ "primary": "cs.CL"
+}

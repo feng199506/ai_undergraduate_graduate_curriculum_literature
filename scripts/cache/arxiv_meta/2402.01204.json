@@ -1,0 +1,19 @@
+{
+ "id": "2402.01204",
+ "title": "A Survey on Self-Supervised Learning for Non-Sequential Tabular Data",
+ "authors": [
+  "Wei-Yao Wang",
+  "Wei-Wei Du",
+  "Derek Xu",
+  "Wei Wang",
+  "Wen-Chih Peng"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 4,
+ "latest_date": "2024-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ACML-24 Journal Track. The paper list can be found at https://github.com/wwweiwei/awesome-self-supervised-learning-for-tabular-data",
+ "abstract": "Self-supervised learning (SSL) has been incorporated into many state-of-the-art models in various domains, where SSL defines pretext tasks based on unlabeled datasets to learn contextualized and robust representations. Recently, SSL has become a new trend in exploring the representation learning capability in the realm of tabular data, which is more challenging due to not having explicit relations for learning descriptive representations. This survey aims to systematically review and summarize the recent progress and challenges of SSL for non-sequential tabular data (SSL4NS-TD). We first present a formal definition of NS-TD and clarify its correlation to related studies. Then, these approaches are categorized into three groups - predictive learning, contrastive learning, and hybrid learning, with their motivations and strengths of representative methods in each direction. Moreover, application issues of SSL4NS-TD are presented, including automatic data engineering, cross-table transferability, and domain knowledge integration. In addition, we elaborate on existing benchmarks and datasets for NS-TD applications to analyze the performance of existing tabular models. Finally, we discuss the challenges of SSL4NS-TD and provide potential directions for future research. We expect our work to be useful in terms of encouraging more research on lowering the barrier to entry SSL for the tabular domain, and of improving the foundations for implicit tabular data.",
+ "primary": "cs.LG"
+}

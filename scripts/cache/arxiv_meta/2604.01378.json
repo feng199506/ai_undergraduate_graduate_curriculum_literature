@@ -1,0 +1,16 @@
+{
+ "id": "2604.01378",
+ "title": "Residuals-based Offline Reinforcement Learning",
+ "authors": [
+  "Qing Zhu",
+  "Xian Yu"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Offline reinforcement learning (RL) has received increasing attention for learning policies from previously collected data without interaction with the real environment, which is particularly important in high-stakes applications. While a growing body of work has developed offline RL algorithms, these methods often rely on restrictive assumptions about data coverage and suffer from distribution shift. In this paper, we propose a residuals-based offline RL framework for general state and action spaces. Specifically, we define a residuals-based Bellman optimality operator that explicitly incorporates estimation error in learning transition dynamics into policy optimization by leveraging empirical residuals. We show that this Bellman operator is a contraction mapping and identify conditions under which its fixed point is asymptotically optimal and possesses finite-sample guarantees. We further develop a residuals-based offline deep Q-learning (DQN) algorithm. Using a stochastic CartPole environment, we demonstrate the effectiveness of our residuals-based offline DQN algorithm.",
+ "primary": "cs.LG"
+}

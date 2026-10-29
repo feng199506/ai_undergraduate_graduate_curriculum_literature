@@ -1,0 +1,17 @@
+{
+ "id": "2609.33563",
+ "title": "MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning",
+ "authors": [
+  "Brandon Gary Kaplowitz",
+  "Osaze James Obahor",
+  "Christian Schroeder de Witt"
+ ],
+ "v1_date": "2026-09-27",
+ "latest_version": 2,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "World models improve sample efficiency by training policies on imagined trajectories, but their usefulness depends on learning representations that capture the information needed for future control. We study whether self-supervised joint-embedding prediction (JEPA) can provide this learning signal for multi-agent reinforcement learning. We introduce MA-JEPA, a stochastic world model that replaces observation reconstruction with prediction of target representations, enabling model-based multi-agent reinforcement learning with centralized training and decentralized execution. A categorical latent state and a causal Transformer are trained with posterior and action-conditioned dynamics prediction objectives and are then used for actor-critic learning from latent imagination. A training-only joint predictor conditions on all agents' local states and actions to predict each agent's next local observation embedding. These predictions are passed through the same local posterior used during real interaction with a centralized critic that is used only for value learning, with execution remaining decentralized. Our experiments show that this architecture performs strongly on SMAC, matching or exceeding the strongest reported comparator mean win rate on four of eight evaluated maps.",
+ "primary": "cs.LG"
+}

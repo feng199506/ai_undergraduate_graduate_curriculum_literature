@@ -1,0 +1,20 @@
+{
+ "id": "2603.03704",
+ "title": "Large-Language-Model-Guided State Estimation for Partially Observable Task and Motion Planning",
+ "authors": [
+  "Yoonwoo Kim",
+  "Raghav Arora",
+  "Roberto Martín-Martín",
+  "Peter Stone",
+  "Ben Abbatematteo",
+  "Yoonchang Sung"
+ ],
+ "v1_date": "2026-03-04",
+ "latest_version": 2,
+ "latest_date": "2026-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robot planning in partially observable environments, where not all objects are known or visible, is a challenging problem, as it requires reasoning under uncertainty through partially observable Markov decision processes. During the execution of a computed plan, a robot may unexpectedly observe task-irrelevant objects, which are typically ignored by naive planners. In this work, we propose incorporating two types of common-sense knowledge: (1) certain objects are more likely to be found in specific locations; and (2) similar objects are likely to be co-located, while dissimilar objects are less likely to be found together. Manually engineering such knowledge is complex, so we explore leveraging the powerful common-sense reasoning capabilities of large language models (LLMs). Our planning and execution framework, CoCo-TAMP, introduces a hierarchical state estimation that uses LLM-guided information to shape the belief over task-relevant objects, enabling efficient solutions to long-horizon task and motion planning problems. In experiments, CoCo-TAMP achieves an average reduction of 62.7% in planning and execution time in simulation, and 72.6% in real-world demonstrations, compared to a baseline that does not incorporate either type of common-sense knowledge.",
+ "primary": "cs.RO"
+}

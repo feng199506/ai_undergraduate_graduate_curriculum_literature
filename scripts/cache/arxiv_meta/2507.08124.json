@@ -1,0 +1,18 @@
+{
+ "id": "2507.08124",
+ "title": "Physics-Informed Neural Networks with Hard Nonlinear Equality and Inequality Constraints",
+ "authors": [
+  "Ashfaq Iftakher",
+  "Rahul Golder",
+  "Bimol Nath Roy",
+  "M. M. Faruque Hasan"
+ ],
+ "v1_date": "2025-07-10",
+ "latest_version": 2,
+ "latest_date": "2025-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 12 figures",
+ "abstract": "Traditional physics-informed neural networks (PINNs) do not guarantee strict constraint satisfaction. This is problematic in engineering systems where minor violations of governing laws can degrade the reliability and consistency of model predictions. In this work, we introduce KKT-Hardnet, a neural network architecture that enforces linear and nonlinear equality and inequality constraints up to machine precision. It leverages a differentiable projection onto the feasible region by solving Karush-Kuhn-Tucker (KKT) conditions of a distance minimization problem. Furthermore, we reformulate the nonlinear KKT conditions via a log-exponential transformation to construct a sparse system with linear and exponential terms. We apply KKT-Hardnet to nonconvex pooling problem and a real-world chemical process simulation. Compared to multilayer perceptrons and PINNs, KKT-Hardnet achieves strict constraint satisfaction. It also circumvents the need to balance data and physics residuals in PINN training. This enables the integration of domain knowledge into machine learning towards reliable hybrid modeling of complex systems.",
+ "primary": "cs.LG"
+}

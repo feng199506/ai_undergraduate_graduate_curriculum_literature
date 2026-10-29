@@ -1,0 +1,16 @@
+{
+ "id": "2412.02972",
+ "title": "Model Predictive Control of Nonlinear Dynamics Using Online Adaptive Koopman Operators",
+ "authors": [
+  "Daisuke Uchida",
+  "Karthik Duraisamy"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 1,
+ "latest_date": "2024-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a methodology for adaptive data-driven Model Predictive Control (MPC) using Koopman operators. While MPC is ubiquitous in various fields of engineering, the controller performance can deteriorate if the modeling error between the control model and the true dynamics persists, which may often be the case with complex nonlinear dynamics. Adaptive MPC techniques learn models online such that the controller can compensate for the modeling error by incorporating newly available data. We utilize the Koopman operator framework to formulate an adaptive MPC technique that corrects for model discrepancies in a computationally efficient manner by virtue of convex optimization. With the use of neural networks to learn embedding spaces, Koopman operator models enable accurate dynamics modeling. Such complex model forms, however, often lead to unstable online learning. To this end, the proposed method utilizes the soft update of target networks, a technique used in stabilization of model learning in Reinforcement Learning (RL). Also, we provide a discussion on which parameters to be chosen as online updated parameters based on a specific description of linear embedding models. Numerical simulations on a canonical nonlinear dynamical system show that the proposed method performs favorably compared to other data-driven MPC methods while achieving superior computational efficiency through the utilization of Koopman operators.",
+ "primary": "math.OC"
+}

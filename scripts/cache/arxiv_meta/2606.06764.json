@@ -1,0 +1,19 @@
+{
+ "id": "2606.06764",
+ "title": "Optimal Rates for Generalization of Gradient Descent Methods with Deep Neural Networks",
+ "authors": [
+  "Junyu Zhou",
+  "Puyu Wang",
+  "Yunwen Lei",
+  "Yiming Ying",
+  "Ding-Xuan Zhou"
+ ],
+ "v1_date": "2026-06-04",
+ "latest_version": 1,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 1 table",
+ "abstract": "Recent progress has been made in understanding the statistical generalization performance of gradient descent methods for overparameterized neural networks within the neural tangent kernel (NTK) regime. However, most of the existing work on regression problems is limited to shallow network architectures, leaving a notable gap in the theory of deep neural networks. This paper addresses this gap by presenting a comprehensive generalization analysis for deep ReLU networks trained using gradient descent (GD) and stochastic gradient descent (SGD). Specifically, we establish the first known minimax-optimal rates of excess population risk for both GD and SGD with deep ReLU networks, under the assumption that the network width scales polynomially with respect to the network depth and training sample size. Our results demonstrate that with sufficient width, gradient descent methods for deep ReLU networks can achieve optimal generalization rates on par with kernel methods.",
+ "primary": "stat.ML"
+}

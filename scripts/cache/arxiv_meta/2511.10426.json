@@ -1,0 +1,17 @@
+{
+ "id": "2511.10426",
+ "title": "A Decomposition Approach to Solving Numerical Constraint Satisfaction Problems on Directed Acyclic Graphs",
+ "authors": [
+  "Max Mowbray",
+  "Nilay Shah",
+  "Benoît Chachuat"
+ ],
+ "v1_date": "2025-11-13",
+ "latest_version": 1,
+ "latest_date": "2025-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Certifying feasibility in decision-making, critical in many industries, can be framed as a constraint satisfaction problem. This paper focuses on characterising a subset of parameter values from an a priori set that satisfy constraints on a directed acyclic graph of constituent functions. The main assumption is that these functions and constraints may be evaluated for given parameter values, but they need not be known in closed form and could result from expensive or proprietary simulations. This setting lends itself to using sampling methods to gain an inner approximation of the feasible domain. To mitigate the curse of dimensionality, the paper contributes new methodology to leverage the graph structure for decomposing the problem into lower-dimensional subproblems defined on the respective nodes. The working hypothesis that the Cartesian product of the solution sets yielded by the subproblems will tighten the a priori parameter domain, before solving the full problem defined on the graph, is demonstrated through four case studies relevant to machine learning and engineering. Future research will extend this approach to cyclic graphs and account for parametric uncertainty.",
+ "primary": "eess.SY"
+}

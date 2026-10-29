@@ -1,0 +1,15 @@
+{
+ "id": "2409.06752",
+ "title": "A tutorial on automatic differentiation with complex numbers",
+ "authors": [
+  "Nicholas Krämer"
+ ],
+ "v1_date": "2024-09-10",
+ "latest_version": 3,
+ "latest_date": "2024-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automatic differentiation is everywhere, but there exists only minimal documentation of how it works in complex arithmetic beyond stating \"derivatives in $\\mathbb{C}^d$\" $\\cong$ \"derivatives in $\\mathbb{R}^{2d}$\" and, at best, shallow references to Wirtinger calculus. Unfortunately, the equivalence $\\mathbb{C}^d \\cong \\mathbb{R}^{2d}$ becomes insufficient as soon as we need to derive custom gradient rules, e.g., to avoid differentiating \"through\" expensive linear algebra functions or differential equation simulators. To combat such a lack of documentation, this article surveys forward- and reverse-mode automatic differentiation with complex numbers, covering topics such as Wirtinger derivatives, a modified chain rule, and different gradient conventions while explicitly avoiding holomorphicity and the Cauchy--Riemann equations (which would be far too restrictive). To be precise, we will derive, explain, and implement a complex version of Jacobian-vector and vector-Jacobian products almost entirely with linear algebra without relying on complex analysis or differential geometry. This tutorial is a call to action, for users and developers alike, to take complex values seriously when implementing custom gradient propagation rules -- the manuscript explains how.",
+ "primary": "cs.MS"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2507.02356",
+ "title": "Offline Reinforcement Learning with Penalized Action Noise Injection",
+ "authors": [
+  "JunHyeok Oh",
+  "Byung-Jun Lee"
+ ],
+ "v1_date": "2025-07-03",
+ "latest_version": 1,
+ "latest_date": "2025-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Offline reinforcement learning (RL) optimizes a policy using only a fixed dataset, making it a practical approach in scenarios where interaction with the environment is costly. Due to this limitation, generalization ability is key to improving the performance of offline RL algorithms, as demonstrated by recent successes of offline RL with diffusion models. However, it remains questionable whether such diffusion models are necessary for highly performing offline RL algorithms, given their significant computational requirements during inference. In this paper, we propose Penalized Action Noise Injection (PANI), a method that simply enhances offline learning by utilizing noise-injected actions to cover the entire action space, while penalizing according to the amount of noise injected. This approach is inspired by how diffusion models have worked in offline RL algorithms. We provide a theoretical foundation for this method, showing that offline RL algorithms with such noise-injected actions solve a modified Markov Decision Process (MDP), which we call the noisy action MDP. PANI is compatible with a wide range of existing off-policy and offline RL algorithms, and despite its simplicity, it demonstrates significant performance improvements across various benchmarks.",
+ "primary": "cs.LG"
+}

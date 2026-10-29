@@ -1,0 +1,16 @@
+{
+ "id": "2505.12151",
+ "title": "Reasoning Large Language Model Errors Arise from Hallucinating Critical Problem Features",
+ "authors": [
+  "Alex Heyman",
+  "Joel Zylberberg"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 3,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages (9 excluding references and appendices); 9 figures (6 excluding appendices)",
+ "abstract": "Large language models have recently made great strides in reasoning task performance through chain-of-thought (CoT) strategies trained via reinforcement learning; however, these \"reasoning large language models\" (RLLMs) remain imperfect reasoners, and understanding the frequencies and causes of their failure modes is important for both users and developers. We test o1-mini, o3-mini, DeepSeek-R1, Claude 3.7 Sonnet, Gemini 2.5 Pro Preview, and Grok 3 Mini Beta on graph coloring as a variable-complexity constraint-satisfaction logic problem, and find evidence from both error rate comparisons and CoT/explanation text analysis that RLLMs are prone to hallucinate graph edges not specified in the prompt. This phenomenon persists across multiple problem complexity levels and semantic frames, and it appears to account for a significant fraction of the incorrect answers from every tested model, and the vast majority of them for some models. We also validate the generalizability of this input-conflicting hallucination phenomenon with smaller-scale experiments on a type of stable matching problem. Our results indicate that RLLMs may possess broader issues with misrepresentation of problem specifics, and we offer suggestions for design choices to mitigate this weakness.",
+ "primary": "cs.LG"
+}

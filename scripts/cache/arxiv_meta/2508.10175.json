@@ -1,0 +1,19 @@
+{
+ "id": "2508.10175",
+ "title": "Estimating Machine Translation Difficulty",
+ "authors": [
+  "Lorenzo Proietti",
+  "Stefano Perrella",
+  "Vilém Zouhar",
+  "Roberto Navigli",
+  "Tom Kocmi"
+ ],
+ "v1_date": "2025-08-13",
+ "latest_version": 2,
+ "latest_date": "2025-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine translation quality has steadily improved over the years, achieving near-perfect translations in recent benchmarks. These high-quality outputs make it difficult to distinguish between state-of-the-art models and to identify areas for future improvement. In this context, automatically identifying texts where machine translation systems struggle holds promise for developing more discriminative evaluations and guiding future research. In this work, we address this gap by formalizing the task of translation difficulty estimation, defining a text's difficulty based on the expected quality of its translations. We introduce a new metric to evaluate difficulty estimators and use it to assess both baselines and novel approaches. Finally, we demonstrate the practical utility of difficulty estimators by using them to construct more challenging benchmarks for machine translation. Our results show that dedicated models outperform both heuristic-based methods and LLM-as-a-judge approaches, with Sentinel-src achieving the best performance. Thus, we release two improved models for difficulty estimation, Sentinel-src-24 and Sentinel-src-25, which can be used to scan large collections of texts and select those most likely to challenge contemporary machine translation systems.",
+ "primary": "cs.CL"
+}

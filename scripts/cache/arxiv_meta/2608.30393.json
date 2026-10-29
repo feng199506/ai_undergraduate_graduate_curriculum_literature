@@ -1,0 +1,19 @@
+{
+ "id": "2608.30393",
+ "title": "Quantitative Evidence Mining for Plausibility-Aware Biomedical AI: A Narrative Review and Conceptual Framework",
+ "authors": [
+  "Negin Sadat Babaiha",
+  "Stefan Geissler",
+  "Marie-Christine Simon",
+  "Martin Hofmann-Apitius",
+  "Marc Jacobs"
+ ],
+ "v1_date": "2026-08-31",
+ "latest_version": 2,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Biomedical artificial intelligence is moving from literature retrieval toward evidence synthesis for knowledge graphs, clinical decision support, and computational models. Yet most information-extraction systems still represent findings as simple relations, discarding the quantitative and contextual detail needed for interpretation and reuse. A claim that one entity affects another is insufficient when the magnitude, unit, population, comparator, experimental conditions, uncertainty, and provenance are missing. We define quantitative evidence mining as a framework for transforming biomedical findings into structured, context-rich, and auditable evidence units. We define the core elements of an evidence unit: the claim; measured entity and property; value, unit, or scale; comparator; population; biological or clinical conditions; temporal context; uncertainty; provenance; validation results; and expert-review status. We propose an eight-stage reference architecture spanning corpus selection, entity recognition, quantity extraction, context linking, normalization, evidence-unit assembly, multidimensional plausibility assessment, and export and governance. A central principle is that plausibility should not be collapsed into a single truth label; statistical, biological, methodological, contextual, and provenance-based support should remain explicit. The framework links information extraction to evidence synthesis and computational reuse, with applications in clinical-trial analysis, biomarker research, pharmacovigilance, knowledge-graph construction, and mechanistic modelling. It is a research agenda rather than a validated end-to-end system. Progress will require annotated multimodal benchmarks, rigorous component- and workflow-level evaluation, prospective testing, transparent provenance, and sustained expert oversight.",
+ "primary": "cs.CL"
+}

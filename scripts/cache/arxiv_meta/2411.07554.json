@@ -1,0 +1,17 @@
+{
+ "id": "2411.07554",
+ "title": "Exogenous Randomness Empowering Random Forests",
+ "authors": [
+  "Tianxing Mei",
+  "Yingying Fan",
+  "Jinchi Lv"
+ ],
+ "v1_date": "2024-11-12",
+ "latest_version": 1,
+ "latest_date": "2024-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "103 pages, 10 figures",
+ "abstract": "We offer theoretical and empirical insights into the impact of exogenous randomness on the effectiveness of random forests with tree-building rules independent of training data. We formally introduce the concept of exogenous randomness and identify two types of commonly existing randomness: Type I from feature subsampling, and Type II from tie-breaking in tree-building processes. We develop non-asymptotic expansions for the mean squared error (MSE) for both individual trees and forests and establish sufficient and necessary conditions for their consistency. In the special example of the linear regression model with independent features, our MSE expansions are more explicit, providing more understanding of the random forests' mechanisms. It also allows us to derive an upper bound on the MSE with explicit consistency rates for trees and forests. Guided by our theoretical findings, we conduct simulations to further explore how exogenous randomness enhances random forest performance. Our findings unveil that feature subsampling reduces both the bias and variance of random forests compared to individual trees, serving as an adaptive mechanism to balance bias and variance. Furthermore, our results reveal an intriguing phenomenon: the presence of noise features can act as a \"blessing\" in enhancing the performance of random forests thanks to feature subsampling.",
+ "primary": "stat.ML"
+}

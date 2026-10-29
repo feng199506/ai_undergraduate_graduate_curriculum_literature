@@ -1,0 +1,17 @@
+{
+ "id": "2602.14369",
+ "title": "Mixed precision and mixed accuracy explicit two-derivative Runge--Kutta methods",
+ "authors": [
+  "Sigal Gottlieb",
+  "Zachary J. Grant",
+  "Cesar Herrera"
+ ],
+ "v1_date": "2026-02-16",
+ "latest_version": 1,
+ "latest_date": "2026-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixed precision Runge--Kutta methods have been recently developed and used for the time-evolution of partial differential equations. Two-derivative Runge--Kutta schemes may offer enhanced stability and accuracy properties compared to classical one-derivative methods, making them attractive in a wide variety of problems. However, their computational cost can be significant, motivating the use of a mixed-precision paradigm that employs different floating-point precisions for different function evaluations to balance efficiency and accuracy. To ensure that the perturbations introduced by the low precision computations do not destroy the accuracy of the solution, we need to understand how these perturbation errors propagate. We extend the numerical analysis mixed precision framework previously developed for Runge--Kutta methods to characterize the propagation of the perturbation errors arising from mixed precision computations in explicit and implicit two-derivative Runge--Kutta methods. We use this framework for analyzing the order of the perturbation errors, and for designing new methods that are less sensitive to the effect of the low precision computations. Numerical experiments on linear and nonlinear representative PDEs, demonstrate that appropriately designed mixed-precision two-derivative Runge--Kutta methods achieve the predicted accuracy.",
+ "primary": "math.NA"
+}

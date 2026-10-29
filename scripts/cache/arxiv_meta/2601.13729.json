@@ -1,0 +1,18 @@
+{
+ "id": "2601.13729",
+ "title": "On Temperature-Constrained Non-Deterministic Machine Translation: Potential and Evaluation",
+ "authors": [
+  "Weichuan Wang",
+  "Mingyang Liu",
+  "Linqi Song",
+  "Chen Ma"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 2,
+ "latest_date": "2026-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 22 figures",
+ "abstract": "In recent years, the non-deterministic properties of language models have garnered considerable attention and have shown a significant influence on real-world applications. However, such properties remain under-explored in machine translation (MT), a complex, non-deterministic NLP task. In this study, we systematically evaluate modern MT systems and identify temperature-constrained Non-Deterministic MT (ND-MT) as a distinct phenomenon. Additionally, we demonstrate that ND-MT exhibits significant potential in addressing the multimodality issue that has long challenged MT research and provides higher-quality candidates than Deterministic MT (D-MT) under temperature constraints. However, ND-MT introduces new challenges in evaluating system performance. Specifically, the evaluation framework designed for D-MT fails to yield consistent evaluation results when applied to ND-MT. We further investigate this emerging challenge by evaluating state-of-the-art ND-MT systems using both lexical-based and semantic-based metrics at varying sampling sizes. The results reveal a Buckets Effect across these systems: the ranking of ND-MT systems is dominated by the worst-quality candidate translation, as shown by automatic evaluation metrics. To mitigate this issue, we propose ExpectoSample, a strategy that first identifies reliable metrics and then enables robust ND-MT system selection for real-world.",
+ "primary": "cs.CL"
+}

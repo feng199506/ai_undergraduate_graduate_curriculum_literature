@@ -1,0 +1,16 @@
+{
+ "id": "2405.18248",
+ "title": "Extreme Value Monte Carlo Tree Search for Classical Planning",
+ "authors": [
+  "Masataro Asai",
+  "Stephen Wissow"
+ ],
+ "v1_date": "2024-05-28",
+ "latest_version": 3,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in AAAI-26. arXiv admin note: substantial text overlap with arXiv:2305.09840 (background section)",
+ "abstract": "Despite being successful in board games and reinforcement learning (RL), Monte Carlo Tree Search (MCTS) combined with Multi Armed Bandits (MABs) has seen limited success in domain-independent classical planning until recently. Previous work (Wissow and Asai 2024) showed that UCB1, designed for bounded rewards, does not perform well as applied to cost-to-go estimates in classical planning, which are unbounded in $\\R$, and showed improved performance using a Gaussian reward MAB instead. This paper further sharpens our understanding of ideal bandits for planning tasks. Existing work has two issues: first, Gaussian MABs under-specify the support of cost-to-go estimates as $(-\\infty,\\infty)$, which we can narrow down. Second, Full Bellman backup (Schulte and Keller 2014), which backpropagates sample max/min, lacks theoretical justification. We use \\emph{Peaks-Over-Threashold Extreme Value Theory} to resolve both issues at once, and propose a new bandit algorithm (UCB1-Uniform). We formally prove its regret bound and empirically demonstrate its performance in classical planning.",
+ "primary": "cs.AI"
+}

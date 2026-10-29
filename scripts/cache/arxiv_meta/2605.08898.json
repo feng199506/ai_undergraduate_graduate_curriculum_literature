@@ -1,0 +1,21 @@
+{
+ "id": "2605.08898",
+ "title": "LLM-Agnostic Semantic Representation Attack",
+ "authors": [
+  "Jiawei Lian",
+  "Jianhong Pan",
+  "Lefan Wang",
+  "Yi Wang",
+  "Tairan Huang",
+  "Shaohui Mei",
+  "Lap-Pui Chau"
+ ],
+ "v1_date": "2026-05-09",
+ "latest_version": 1,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2509.19360",
+ "abstract": "Large Language Models (LLMs) increasingly employ alignment techniques to prevent harmful outputs. Despite these safeguards, attackers can circumvent them by crafting adversarial prompts. Predominant token-level optimization methods primarily rely on optimizing for exact affirmative templates (e.g., ``\\textit{Sure, here is...}''). However, these paradigms frequently encounter bottlenecks such as suboptimal convergence, compromised prompt naturalness, and poor cross-model generalization. To address these limitations, we propose Semantic Representation Attack (SRA), a novel LLM-agnostic paradigm that fundamentally reconceptualizes adversarial objectives from exact textual targeting to malicious semantic representations. Theoretically, we establish the semantic Coherence-Convergence Relationship and derive a Cross-Model Semantic Generalization bound, proving that maintaining semantic coherence guarantees both white-box semantic convergence and black-box transferability. Technically, we operationalize this framework via the Semantic Representation Heuristic Search (SRHS) algorithm, which preserves interpretability and structural coherence of the adversarial prompts during incremental discrete token chunk expansion. Extensive evaluations demonstrate that our framework achieves a 99.71% average attack success rate across 26 open-source LLMs, with strong transferability and stealth.",
+ "primary": "cs.CL"
+}

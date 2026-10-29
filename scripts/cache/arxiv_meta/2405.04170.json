@@ -1,0 +1,15 @@
+{
+ "id": "2405.04170",
+ "title": "D-NLP at SemEval-2024 Task 2: Evaluating Clinical Inference Capabilities of Large Language Models",
+ "authors": [
+  "Duygu Altinok"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 1,
+ "latest_date": "2024-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "accepted to SemEval-2024, ranked 9th on Task 2",
+ "abstract": "Large language models (LLMs) have garnered significant attention and widespread usage due to their impressive performance in various tasks. However, they are not without their own set of challenges, including issues such as hallucinations, factual inconsistencies, and limitations in numerical-quantitative reasoning. Evaluating LLMs in miscellaneous reasoning tasks remains an active area of research. Prior to the breakthrough of LLMs, Transformers had already proven successful in the medical domain, effectively employed for various natural language understanding (NLU) tasks. Following this trend, LLMs have also been trained and utilized in the medical domain, raising concerns regarding factual accuracy, adherence to safety protocols, and inherent limitations. In this paper, we focus on evaluating the natural language inference capabilities of popular open-source and closed-source LLMs using clinical trial reports as the dataset. We present the performance results of each LLM and further analyze their performance on a development set, particularly focusing on challenging instances that involve medical abbreviations and require numerical-quantitative reasoning. Gemini, our leading LLM, achieved a test set F1-score of 0.748, securing the ninth position on the task scoreboard. Our work is the first of its kind, offering a thorough examination of the inference capabilities of LLMs within the medical domain.",
+ "primary": "cs.CL"
+}

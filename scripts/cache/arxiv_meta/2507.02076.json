@@ -1,0 +1,31 @@
+{
+ "id": "2507.02076",
+ "title": "Reasoning on a Budget: A Survey of Adaptive and Controllable Test-Time Compute in LLMs",
+ "authors": [
+  "Mohammad Ali Alomrani",
+  "Yingxue Zhang",
+  "Derek Li",
+  "Qianyi Sun",
+  "Soumyasundar Pal",
+  "Zhanguang Zhang",
+  "Yaochen Hu",
+  "Rohan Deepak Ajwani",
+  "Antonios Valkanas",
+  "Raika Karimi",
+  "Peng Cheng",
+  "Yunzhou Wang",
+  "Pengyi Liao",
+  "Hanrui Huang",
+  "Bin Wang",
+  "Jianye Hao",
+  "Mark Coates"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 1,
+ "latest_date": "2025-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have rapidly progressed into general-purpose agents capable of solving a broad spectrum of tasks. However, current models remain inefficient at reasoning: they apply fixed inference-time compute regardless of task complexity, often overthinking simple problems while underthinking hard ones. This survey presents a comprehensive review of efficient test-time compute (TTC) strategies, which aim to improve the computational efficiency of LLM reasoning. We introduce a two-tiered taxonomy that distinguishes between L1-controllability, methods that operate under fixed compute budgets, and L2-adaptiveness, methods that dynamically scale inference based on input difficulty or model confidence. We benchmark leading proprietary LLMs across diverse datasets, highlighting critical trade-offs between reasoning performance and token usage. Compared to prior surveys on efficient reasoning, our review emphasizes the practical control, adaptability, and scalability of TTC methods. Finally, we discuss emerging trends such as hybrid thinking models and identify key challenges for future work towards making LLMs more computationally efficient, robust, and responsive to user constraints.",
+ "primary": "cs.AI"
+}

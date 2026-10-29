@@ -1,0 +1,17 @@
+{
+ "id": "2509.23127",
+ "title": "Statistical Inference for Gradient Boosting Regression",
+ "authors": [
+  "Haimo Fang",
+  "Kevin Tan",
+  "Giles Hooker"
+ ],
+ "v1_date": "2025-09-27",
+ "latest_version": 1,
+ "latest_date": "2025-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2025",
+ "abstract": "Gradient boosting is widely popular due to its flexibility and predictive accuracy. However, statistical inference and uncertainty quantification for gradient boosting remain challenging and under-explored. We propose a unified framework for statistical inference in gradient boosting regression. Our framework integrates dropout or parallel training with a recently proposed regularization procedure that allows for a central limit theorem (CLT) for boosting. With these enhancements, we surprisingly find that increasing the dropout rate and the number of trees grown in parallel at each iteration substantially enhances signal recovery and overall performance. Our resulting algorithms enjoy similar CLTs, which we use to construct built-in confidence intervals, prediction intervals, and rigorous hypothesis tests for assessing variable importance. Numerical experiments demonstrate that our algorithms perform well, interpolate between regularized boosting and random forests, and confirm the validity of their built-in statistical inference procedures.",
+ "primary": "stat.ML"
+}

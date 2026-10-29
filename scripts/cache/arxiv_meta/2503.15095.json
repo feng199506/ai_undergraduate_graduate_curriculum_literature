@@ -1,0 +1,17 @@
+{
+ "id": "2503.15095",
+ "title": "Diffusion-Based Forecasting for Uncertainty-Aware Model Predictive Control",
+ "authors": [
+  "Stelios Zarifis",
+  "Ioannis Kordonis",
+  "Petros Maragos"
+ ],
+ "v1_date": "2025-03-19",
+ "latest_version": 1,
+ "latest_date": "2025-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, 3 figures, 3 tables. This version is submitted to the 33rd European Signal Processing Conference (EUSIPCO 2025), to be held in Isola delle Femmine - Palermo - Italy, on September 8-12, 2025",
+ "abstract": "We propose Diffusion-Informed Model Predictive Control (D-I MPC), a generic framework for uncertainty-aware prediction and decision-making in partially observable stochastic systems by integrating diffusion-based time series forecasting models in Model Predictive Control algorithms. In our approach, a diffusion-based time series forecasting model is used to probabilistically estimate the evolution of the system's stochastic components. These forecasts are then incorporated into MPC algorithms to estimate future trajectories and optimize action selection under the uncertainty of the future. We evaluate the framework on the task of energy arbitrage, where a Battery Energy Storage System participates in the day-ahead electricity market of the New York state. Experimental results indicate that our model-based approach with a diffusion-based forecaster significantly outperforms both implementations with classical forecasting methods and model-free reinforcement learning baselines.",
+ "primary": "cs.LG"
+}

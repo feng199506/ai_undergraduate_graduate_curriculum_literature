@@ -1,0 +1,18 @@
+{
+ "id": "2510.09316",
+ "title": "A Survey of LLM Prompt Datasets: Taxonomy, Linguistic Patterns, and Practical Uses",
+ "authors": [
+  "Yuanming Zhang",
+  "Yan Lin",
+  "Arijit Khan",
+  "Huaiyu Wan"
+ ],
+ "v1_date": "2025-10-10",
+ "latest_version": 3,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Findings of the Association for Computational Linguistics: EMNLP 2026. 30 pages",
+ "abstract": "We compile 129 public LLM prompt datasets with more than 1.22TB and more than 673M instances and organize them into a unified taxonomy. We use seven datasets for detailed analysis and identify lexical, syntactic, and semantic patterns that distinguish prompts from general text. We evaluate these features in prompt filtering, source domain routing, and elicited response quality analysis. A 63 dimensional linguistic feature set that can be extracted on a CPU achieves over 91% of the F1 of GPU sentence embeddings and reduces latency per request by nearly half. In cross dataset routing, sentence embeddings reach 0.74 Macro-F1 and a structural feature subset reaches 0.61, compared with the chance level of 0.20. Structural routing features remain negatively associated with elicited response quality after prompt length is controlled on UltraFeedback. The apparent positive association of type to token ratio becomes much smaller under the same control. These findings support prompt processing pipelines that combine efficient structural features with robust semantic routing. Our catalogue, annotations, and code are given at https://github.com/ymzhang-cs/prompt-dataset-analysis.",
+ "primary": "cs.LG"
+}

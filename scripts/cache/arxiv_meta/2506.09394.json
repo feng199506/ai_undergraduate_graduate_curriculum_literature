@@ -1,0 +1,16 @@
+{
+ "id": "2506.09394",
+ "title": "Subspace-constrained randomized coordinate descent for linear systems with good low-rank matrix approximations",
+ "authors": [
+  "Jackie Lok",
+  "Elizaveta Rebrova"
+ ],
+ "v1_date": "2025-06-11",
+ "latest_version": 3,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The randomized coordinate descent (RCD) method is a classical algorithm with simple, lightweight iterations that is widely used for various optimization problems, including the solution of positive semidefinite linear systems. As a linear solver, RCD is particularly effective when the matrix is well-conditioned; however, its convergence rate deteriorates rapidly in the presence of large spectral outliers. In this paper, we introduce the subspace-constrained randomized coordinate descent (SC-RCD) method, in which the dynamics of RCD are restricted to an affine subspace corresponding to a column Nyström approximation, efficiently computed using the recently analyzed RPCholesky algorithm. We prove that SC-RCD converges at a rate that is unaffected by large spectral outliers, making it an effective and memory-efficient solver for large-scale, dense linear systems with rapidly decaying spectra, such as those encountered in kernel ridge regression. Experimental validation and comparisons with related solvers based on coordinate descent and the conjugate gradient method demonstrate the efficiency of SC-RCD. Our theoretical results are derived by developing a more general subspace-constrained framework for the sketch-and-project method. This framework, which may be of independent interest, generalizes popular algorithms such as randomized Kaczmarz and coordinate descent, and provides a flexible, implicit preconditioning strategy for a variety of iterative solvers.",
+ "primary": "math.NA"
+}

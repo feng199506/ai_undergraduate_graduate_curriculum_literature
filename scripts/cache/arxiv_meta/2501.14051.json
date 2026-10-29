@@ -1,0 +1,18 @@
+{
+ "id": "2501.14051",
+ "title": "Revisiting CLIP: Efficient Alignment of 3D MRI and Tabular Data using Domain-Specific Foundation Models",
+ "authors": [
+  "Jakob Krogh Petersen",
+  "Valdemar Licht",
+  "Mads Nielsen",
+  "Asbjørn Munk"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 1,
+ "latest_date": "2025-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 2 figures. To be published in ISBI 2025",
+ "abstract": "Multi-modal models require aligned, shared embedding spaces. However, common CLIP-based approaches need large amounts of samples and do not natively support 3D or tabular data, both of which are crucial in the medical domain. To address these issues, we revisit CLIP-style alignment by training a domain-specific 3D foundation model as an image encoder and demonstrate that modality alignment is feasible with only 62 MRI scans. Our approach is enabled by a simple embedding accumulation strategy required for training in 3D, which scales the amount of negative pairs across batches in order to stabilize training. We perform a thorough evaluation of various design choices, including the choice of backbone and loss functions, and evaluate the proposed methodology on zero-shot classification and image-retrieval tasks. While zero-shot image-retrieval remains challenging, zero-shot classification results demonstrate that the proposed approach can meaningfully align the representations of 3D MRI with tabular data.",
+ "primary": "cs.CV"
+}

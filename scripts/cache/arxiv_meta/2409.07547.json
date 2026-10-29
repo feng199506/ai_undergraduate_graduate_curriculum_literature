@@ -1,0 +1,16 @@
+{
+ "id": "2409.07547",
+ "title": "Machine Learning and Constraint Programming for Efficient Healthcare Scheduling",
+ "authors": [
+  "Aymen Ben Said",
+  "Malek Mouhoub"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 1,
+ "latest_date": "2024-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Solving combinatorial optimization problems involve satisfying a set of hard constraints while optimizing some objectives. In this context, exact or approximate methods can be used. While exact methods guarantee the optimal solution, they often come with an exponential running time as opposed to approximate methods that trade the solutions quality for a better running time. In this context, we tackle the Nurse Scheduling Problem (NSP). The NSP consist in assigning nurses to daily shifts within a planning horizon such that workload constraints are satisfied while hospitals costs and nurses preferences are optimized. To solve the NSP, we propose implicit and explicit approaches. In the implicit solving approach, we rely on Machine Learning methods using historical data to learn and generate new solutions through the constraints and objectives that may be embedded in the learned patterns. To quantify the quality of using our implicit approach in capturing the embedded constraints and objectives, we rely on the Frobenius Norm, a quality measure used to compute the average error between the generated solutions and historical data. To compensate for the uncertainty related to the implicit approach given that the constraints and objectives may not be concretely visible in the produced solutions, we propose an alternative explicit approach where we first model the NSP using the Constraint Satisfaction Problem (CSP) framework. Then we develop Stochastic Local Search methods and a new Branch and Bound algorithm enhanced with constraint propagation techniques and variables/values ordering heuristics. Since our implicit approach may not guarantee the feasibility or optimality of the generated solution, we propose a data-driven approach to passively learn the NSP as a constraint network. The learned constraint network, formulated as a CSP, will then be solved using the methods we listed earlier.",
+ "primary": "cs.AI"
+}

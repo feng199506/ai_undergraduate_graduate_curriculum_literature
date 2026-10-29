@@ -1,0 +1,18 @@
+{
+ "id": "2507.17066",
+ "title": "Risk In Context: Benchmarking Privacy Leakage of Foundation Models in Synthetic Tabular Data Generation",
+ "authors": [
+  "Jessup Byun",
+  "Xiaofeng Lin",
+  "Joshua Ward",
+  "Guang Cheng"
+ ],
+ "v1_date": "2025-07-22",
+ "latest_version": 1,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by Agentic & GenAI Evaluation KDD2025, poster presentation",
+ "abstract": "Synthetic tabular data is essential for machine learning workflows, especially for expanding small or imbalanced datasets and enabling privacy-preserving data sharing. However, state-of-the-art generative models (GANs, VAEs, diffusion models) rely on large datasets with thousands of examples. In low-data settings, often the primary motivation for synthetic data, these models can overfit, leak sensitive records, and require frequent retraining. Recent work uses large pre-trained transformers to generate rows via in-context learning (ICL), which needs only a few seed examples and no parameter updates, avoiding retraining. But ICL repeats seed rows verbatim, introducing a new privacy risk that has only been studied in text. The severity of this risk in tabular synthesis-where a single row may identify a person-remains unclear. We address this gap with the first benchmark of three foundation models (GPT-4o-mini, LLaMA 3.3 70B, TabPFN v2) against four baselines on 35 real-world tables from health, finance, and policy. We evaluate statistical fidelity, downstream utility, and membership inference leakage. Results show foundation models consistently have the highest privacy risk. LLaMA 3.3 70B reaches up to 54 percentage points higher true-positive rate at 1% FPR than the safest baseline. GPT-4o-mini and TabPFN are also highly vulnerable. We plot the privacy-utility frontier and show that CTGAN and GPT-4o-mini offer better tradeoffs. A factorial study finds that three zero-cost prompt tweaks-small batch size, low temperature, and using summary statistics-can reduce worst-case AUC by 14 points and rare-class leakage by up to 39 points while maintaining over 90% fidelity. Our benchmark offers a practical guide for safer low-data synthesis with foundation models.",
+ "primary": "cs.LG"
+}

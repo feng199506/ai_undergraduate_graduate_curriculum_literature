@@ -1,0 +1,17 @@
+{
+ "id": "2505.18008",
+ "title": "Deep Operator Neural Network Model Predictive Control",
+ "authors": [
+  "Thomas Oliver de Jong",
+  "Khemraj Shukla",
+  "Mircea Lazar"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 1,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we consider the design of model predictive control (MPC) algorithms based on deep operator neural networks (DeepONets). These neural networks are capable of accurately approximating real and complex valued solutions of continuous time nonlinear systems without relying on recurrent architectures. The DeepONet architecture is made up of two feedforward neural networks: the branch network, which encodes the input function space, and the trunk network, which represents dependencies on temporal variables or initial conditions. Utilizing the original DeepONet architecture as a predictor within MPC for Multi Input Multi Output (MIMO) systems requires multiple branch networks, to generate multi output predictions, one for each input. Moreover, to predict multiple time steps into the future, the network has to be evaluated multiple times. Motivated by this, we introduce a multi step DeepONet (MS-DeepONet) architecture that computes in one shot multi step predictions of system outputs from multi step input sequences, which is better suited for MPC. We prove that the MS DeepONet is a universal approximator in terms of multi step sequence prediction. Additionally, we develop automated hyper parameter selection strategies and implement MPC frameworks using both the standard DeepONet and the proposed MS DeepONet architectures in PyTorch. The implementation is publicly available on GitHub. Simulation results demonstrate that MS-DeepONet consistently outperforms the standard DeepONet in learning and predictive control tasks across several nonlinear benchmark systems: the van der Pol oscillator, the quadruple tank process, and a cart pendulum unstable system, where it successfully learns and executes multiple swing up and stabilization policies.",
+ "primary": "math.OC"
+}

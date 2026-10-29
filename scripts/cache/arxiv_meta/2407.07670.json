@@ -1,0 +1,17 @@
+{
+ "id": "2407.07670",
+ "title": "Generalization Analysis of Online Stochastic Gradient Descent for Overparameterized Two-Layer Neural Networks",
+ "authors": [
+  "Dinghao Cao",
+  "Zheng-Chu Guo",
+  "Lei Shi"
+ ],
+ "v1_date": "2024-07-10",
+ "latest_version": 2,
+ "latest_date": "2026-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the generalization performance of online stochastic gradient descent (SGD) for overparameterized two-layer neural networks under the Neural Tangent Kernel (NTK) regime. Leveraging the NTK approximation together with the convergence theory of stochastic approximation in reproducing kernel Hilbert spaces (RKHSs), we develop a unified framework that connects the optimization dynamics of neural networks with kernel-based statistical learning. This framework enables us to derive sharp convergence rates for the \\emph{generalization error of the last iterate} of online SGD. The obtained rates coincide with the optimal statistical rates for kernel methods under appropriate source assumptions on target function. In contrast to existing NTK analyses, which primarily establish optimization convergence or analyze averaged SGD, our results directly characterize the statistical behavior of the practically implemented last-iterate online SGD algorithm for streaming data. Moreover, our analysis substantially relaxes the required degree of overparameterization by reducing the network-width requirement from exponential to polynomial dependence on the sample size or the number of optimization iterations. These results provide a unified theoretical perspective on stochastic optimization, kernel methods, and statistical learning for overparameterized neural networks, while significantly narrowing the gap between existing theory and practical deep learning.",
+ "primary": "stat.ML"
+}

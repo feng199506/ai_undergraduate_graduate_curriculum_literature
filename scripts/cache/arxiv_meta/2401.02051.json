@@ -1,0 +1,22 @@
+{
+ "id": "2401.02051",
+ "title": "Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model",
+ "authors": [
+  "Fei Liu",
+  "Xialiang Tong",
+  "Mingxuan Yuan",
+  "Xi Lin",
+  "Fu Luo",
+  "Zhenkun Wang",
+  "Zhichao Lu",
+  "Qingfu Zhang"
+ ],
+ "v1_date": "2024-01-04",
+ "latest_version": 3,
+ "latest_date": "2024-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Heuristics are widely used for dealing with complex search and optimization problems. However, manual design of heuristics can be often very labour extensive and requires rich working experience and knowledge. This paper proposes Evolution of Heuristic (EoH), a novel evolutionary paradigm that leverages both Large Language Models (LLMs) and Evolutionary Computation (EC) methods for Automatic Heuristic Design (AHD). EoH represents the ideas of heuristics in natural language, termed thoughts. They are then translated into executable codes by LLMs. The evolution of both thoughts and codes in an evolutionary search framework makes it very effective and efficient for generating high-performance heuristics. Experiments on three widely studied combinatorial optimization benchmark problems demonstrate that EoH outperforms commonly used handcrafted heuristics and other recent AHD methods including FunSearch. Particularly, the heuristic produced by EoH with a low computational budget (in terms of the number of queries to LLMs) significantly outperforms widely-used human hand-crafted baseline algorithms for the online bin packing problem.",
+ "primary": "cs.NE"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2311.00508",
+ "title": "Robustness Tests for Automatic Machine Translation Metrics with Adversarial Attacks",
+ "authors": [
+  "Yichen Huang",
+  "Timothy Baldwin"
+ ],
+ "v1_date": "2023-11-01",
+ "latest_version": 1,
+ "latest_date": "2023-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in Findings of EMNLP 2023",
+ "abstract": "We investigate MT evaluation metric performance on adversarially-synthesized texts, to shed light on metric robustness. We experiment with word- and character-level attacks on three popular machine translation metrics: BERTScore, BLEURT, and COMET. Our human experiments validate that automatic metrics tend to overpenalize adversarially-degraded translations. We also identify inconsistencies in BERTScore ratings, where it judges the original sentence and the adversarially-degraded one as similar, while judging the degraded translation as notably worse than the original with respect to the reference. We identify patterns of brittleness that motivate more robust metric development.",
+ "primary": "cs.CL"
+}

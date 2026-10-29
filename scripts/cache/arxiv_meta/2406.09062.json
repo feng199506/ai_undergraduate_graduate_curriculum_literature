@@ -1,0 +1,19 @@
+{
+ "id": "2406.09062",
+ "title": "State-Space Modeling in Long Sequence Processing: A Survey on Recurrence in the Transformer Era",
+ "authors": [
+  "Matteo Tiezzi",
+  "Michele Casoni",
+  "Alessandro Betti",
+  "Marco Gori",
+  "Stefano Melacci"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 2,
+ "latest_date": "2025-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Currently under review",
+ "abstract": "Effectively learning from sequential data is a longstanding goal of Artificial Intelligence, especially in the case of long sequences. From the dawn of Machine Learning, several researchers have pursued algorithms and architectures capable of processing sequences of patterns, retaining information about past inputs while still leveraging future data, without losing precious long-term dependencies and correlations. While such an ultimate goal is inspired by the human hallmark of continuous real-time processing of sensory information, several solutions have simplified the learning paradigm by artificially limiting the processed context or dealing with sequences of limited length, given in advance. These solutions were further emphasized by the ubiquity of Transformers, which initially overshadowed the role of Recurrent Neural Nets. However, recurrent networks are currently experiencing a strong recent revival due to the growing popularity of (deep) State-Space models and novel instances of large-context Transformers, which are both based on recurrent computations that aim to go beyond several limits of currently ubiquitous technologies. The fast development of Large Language Models has renewed the interest in efficient solutions to process data over time. This survey provides an in-depth summary of the latest approaches that are based on recurrent models for sequential data processing. A complete taxonomy of recent trends in architectural and algorithmic solutions is reported and discussed, guiding researchers in this appealing research field. The emerging picture suggests that there is room for exploring novel routes, constituted by learning algorithms that depart from the standard Backpropagation Through Time, towards a more realistic scenario where patterns are effectively processed online, leveraging local-forward computations, and opening new directions for research on this topic.",
+ "primary": "cs.LG"
+}

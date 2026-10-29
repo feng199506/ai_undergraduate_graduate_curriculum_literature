@@ -1,0 +1,16 @@
+{
+ "id": "2503.18617",
+ "title": "Scaling Laws for Emulation of Stellar Spectra",
+ "authors": [
+  "Tomasz Różański",
+  "Yuan-Sen Ting"
+ ],
+ "v1_date": "2025-03-24",
+ "latest_version": 2,
+ "latest_date": "2025-06-04",
+ "journal_ref": "",
+ "doi": "10.33232/001c.140607",
+ "comment": "25 pages, 11 figures, accepted for publication in the Open Journal of Astrophysics",
+ "abstract": "Neural network-based emulators for the inference of stellar parameters and elemental abundances represent an increasingly popular methodology in modern spectroscopic surveys. However, these approaches are often constrained by their emulation precision and domain transfer capabilities. Greater generalizability has previously been achieved only with significantly larger model architectures, as demonstrated by Transformer-based models in natural language processing. This observation aligns with neural scaling laws, where model performance predictably improves with increased model size, computational resources allocated to model training, and training data volume. In this study, we demonstrate that these scaling laws also apply to Transformer-based spectral emulators in astronomy. Building upon our previous work with TransformerPayne and incorporating Maximum Update Parametrization techniques from natural language models, we provide training guidelines for scaling models to achieve optimal performance. Our results show that within the explored parameter space, clear scaling relationships emerge. These findings suggest that optimal computational resource allocation requires balanced scaling. Specifically, given a tenfold increase in training compute, achieving an optimal seven-fold reduction in mean squared error necessitates an approximately 2.5-fold increase in dataset size and a 3.8-fold increase in model size. This study establishes a foundation for developing spectral foundational models with enhanced domain transfer capabilities.",
+ "primary": "astro-ph.IM"
+}

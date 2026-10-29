@@ -1,0 +1,23 @@
+{
+ "id": "2510.13002",
+ "title": "From Narratives to Probabilistic Reasoning: Predicting and Interpreting Drivers' Hazardous Actions in Crashes Using Large Language Model",
+ "authors": [
+  "Boyou Chen",
+  "Gerui Xu",
+  "Zifei Wang",
+  "Huizhong Guo",
+  "Ananna Ahmed",
+  "Zhaonan Sun",
+  "Zhen Hu",
+  "Kaihan Zhang",
+  "Shan Bao"
+ ],
+ "v1_date": "2025-10-14",
+ "latest_version": 1,
+ "latest_date": "2025-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Vehicle crashes involve complex interactions between road users, split-second decisions, and challenging environmental conditions. Among these, two-vehicle crashes are the most prevalent, accounting for approximately 70% of roadway crashes and posing a significant challenge to traffic safety. Identifying Driver Hazardous Action (DHA) is essential for understanding crash causation, yet the reliability of DHA data in large-scale databases is limited by inconsistent and labor-intensive manual coding practices. Here, we present an innovative framework that leverages a fine-tuned large language model to automatically infer DHAs from textual crash narratives, thereby improving the validity and interpretability of DHA classifications. Using five years of two-vehicle crash data from MTCF, we fine-tuned the Llama 3.2 1B model on detailed crash narratives and benchmarked its performance against conventional machine learning classifiers, including Random Forest, XGBoost, CatBoost, and a neural network. The fine-tuned LLM achieved an overall accuracy of 80%, surpassing all baseline models and demonstrating pronounced improvements in scenarios with imbalanced data. To increase interpretability, we developed a probabilistic reasoning approach, analyzing model output shifts across original test sets and three targeted counterfactual scenarios: variations in driver distraction and age. Our analysis revealed that introducing distraction for one driver substantially increased the likelihood of \"General Unsafe Driving\"; distraction for both drivers maximized the probability of \"Both Drivers Took Hazardous Actions\"; and assigning a teen driver markedly elevated the probability of \"Speed and Stopping Violations.\" Our framework and analytical methods provide a robust and interpretable solution for large-scale automated DHA detection, offering new opportunities for traffic safety analysis and intervention.",
+ "primary": "cs.AI"
+}

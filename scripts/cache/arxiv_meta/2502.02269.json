@@ -1,0 +1,19 @@
+{
+ "id": "2502.02269",
+ "title": "Survey of Quantization Techniques for On-Device Vision-based Crack Detection",
+ "authors": [
+  "Yuxuan Zhang",
+  "Luciano Sebastian Martinez-Rau",
+  "Quynh Nguyen Phuong Vu",
+  "Bengt Oelmann",
+  "Sebastian Bader"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 1,
+ "latest_date": "2025-02-04",
+ "journal_ref": "2025 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)",
+ "doi": "10.1109/i2mtc62753.2025.11078998",
+ "comment": "Accepted by IEEE International Instrumentation and Measurement Technology Conference (I2MTC) 2025",
+ "abstract": "Structural Health Monitoring (SHM) ensures the safety and longevity of infrastructure by enabling timely damage detection. Vision-based crack detection, combined with UAVs, addresses the limitations of traditional sensor-based SHM methods but requires the deployment of efficient deep learning models on resource-constrained devices. This study evaluates two lightweight convolutional neural network models, MobileNetV1x0.25 and MobileNetV2x0.5, across TensorFlow, PyTorch, and Open Neural Network Exchange platforms using three quantization techniques: dynamic quantization, post-training quantization (PTQ), and quantization-aware training (QAT). Results show that QAT consistently achieves near-floating-point accuracy, such as an F1-score of 0.8376 for MBNV2x0.5 with Torch-QAT, while maintaining efficient resource usage. PTQ significantly reduces memory and energy consumption but suffers from accuracy loss, particularly in TensorFlow. Dynamic quantization preserves accuracy but faces deployment challenges on PyTorch. By leveraging QAT, this work enables real-time, low-power crack detection on UAVs, enhancing safety, scalability, and cost-efficiency in SHM applications, while providing insights into balancing accuracy and efficiency across different platforms for autonomous inspections.",
+ "primary": "cs.CV"
+}

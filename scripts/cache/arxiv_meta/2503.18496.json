@@ -1,0 +1,16 @@
+{
+ "id": "2503.18496",
+ "title": "Randomized strong rank-revealing QR for column subset selection and low-rank matrix approximation",
+ "authors": [
+  "Laura Grigori",
+  "Zhipeng Xue"
+ ],
+ "v1_date": "2025-03-24",
+ "latest_version": 1,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We discuss a randomized strong rank-revealing QR factorization that effectively reveals the spectrum of a matrix $\\textbf{M}$. This factorization can be used to address problems such as selecting a subset of the columns of $\\textbf{M}$, computing its low-rank approximation, estimating its rank, or approximating its null space. Given a random sketching matrix $\\pmbΩ$ that satisfies the $ε$-embedding property for a subspace within the range of $\\textbf{M}$, the factorization relies on selecting columns that allow to reveal the spectrum via a deterministic strong rank-revealing QR factorization of $\\textbf{M}^{sk} = \\pmbΩ\\textbf{M}$, the sketch of $\\textbf{M}$. We show that this selection leads to a factorization with strong rank-revealing properties, making it suitable for approximating the singular values of $\\textbf{M}$.",
+ "primary": "math.NA"
+}

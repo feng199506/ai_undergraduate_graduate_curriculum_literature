@@ -1,0 +1,18 @@
+{
+ "id": "2407.13579",
+ "title": "Towards Zero-Shot Multimodal Machine Translation",
+ "authors": [
+  "Matthieu Futeral",
+  "Cordelia Schmid",
+  "Benoît Sagot",
+  "Rachel Bawden"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 2,
+ "latest_date": "2025-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NAACL 2025 (Findings)",
+ "abstract": "Current multimodal machine translation (MMT) systems rely on fully supervised data (i.e models are trained on sentences with their translations and accompanying images). However, this type of data is costly to collect, limiting the extension of MMT to other language pairs for which such data does not exist. In this work, we propose a method to bypass the need for fully supervised data to train MMT systems, using multimodal English data only. Our method, called ZeroMMT, consists in adapting a strong text-only machine translation (MT) model by training it on a mixture of two objectives: visually conditioned masked language modelling and the Kullback-Leibler divergence between the original and new MMT outputs. We evaluate on standard MMT benchmarks and the recently released CoMMuTE, a contrastive benchmark aiming to evaluate how well models use images to disambiguate English sentences. We obtain disambiguation performance close to state-of-the-art MMT models trained additionally on fully supervised examples. To prove that our method generalizes to languages with no fully supervised training data available, we extend the CoMMuTE evaluation dataset to three new languages: Arabic, Russian and Chinese. We further show that we can control the trade-off between disambiguation capabilities and translation fidelity at inference time using classifier-free guidance and without any additional data. Our code, data and trained models are publicly accessible.",
+ "primary": "cs.CL"
+}

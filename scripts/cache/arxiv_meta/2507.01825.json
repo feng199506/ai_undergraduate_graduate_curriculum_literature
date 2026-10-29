@@ -1,0 +1,17 @@
+{
+ "id": "2507.01825",
+ "title": "MILP-SAT-GNN: Yet Another Neural SAT Solver",
+ "authors": [
+  "Franco Alberto Cardillo",
+  "Hamza Khyari",
+  "Umberto Straccia"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 1,
+ "latest_date": "2025-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We proposes a novel method that enables Graph Neural Networks (GNNs) to solve SAT problems by leveraging a technique developed for applying GNNs to Mixed Integer Linear Programming (MILP). Specifically, k-CNF formulae are mapped into MILP problems, which are then encoded as weighted bipartite graphs and subsequently fed into a GNN for training and testing. From a theoretical perspective: (i) we establish permutation and equivalence invariance results, demonstrating that the method produces outputs that are stable under reordering of clauses and variables; (ii) we identify a theoretical limitation, showing that for a class of formulae called foldable formulae, standard GNNs cannot always distinguish satisfiable from unsatisfiable instances; (iii) we prove a universal approximation theorem, establishing that with Random Node Initialization (RNI), the method can approximate SAT solving to arbitrary precision on finite datasets, that is, the GNN becomes approximately sound and complete on such datasets. Furthermore, we show that for unfoldable formulae, the same approximation guarantee can be achieved without the need for RNI. Finally, we conduct an experimental evaluation of our approach, which show that, despite the simplicity of the neural architecture, the method achieves promising results.",
+ "primary": "cs.LG"
+}

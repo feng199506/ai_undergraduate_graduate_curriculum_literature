@@ -1,0 +1,18 @@
+{
+ "id": "2312.03311",
+ "title": "On the Nystrom Approximation for Preconditioning in Kernel Machines",
+ "authors": [
+  "Amirhesam Abedsoltan",
+  "Parthe Pandit",
+  "Luis Rademacher",
+  "Mikhail Belkin"
+ ],
+ "v1_date": "2023-12-06",
+ "latest_version": 4,
+ "latest_date": "2024-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel methods are a popular class of nonlinear predictive models in machine learning. Scalable algorithms for learning kernel models need to be iterative in nature, but convergence can be slow due to poor conditioning. Spectral preconditioning is an important tool to speed-up the convergence of such iterative algorithms for training kernel models. However computing and storing a spectral preconditioner can be expensive which can lead to large computational and storage overheads, precluding the application of kernel methods to problems with large datasets. A Nystrom approximation of the spectral preconditioner is often cheaper to compute and store, and has demonstrated success in practical applications. In this paper we analyze the trade-offs of using such an approximated preconditioner. Specifically, we show that a sample of logarithmic size (as a function of the size of the dataset) enables the Nystrom-based approximated preconditioner to accelerate gradient descent nearly as well as the exact preconditioner, while also reducing the computational and storage overheads.",
+ "primary": "stat.ML"
+}

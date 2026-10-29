@@ -1,0 +1,21 @@
+{
+ "id": "2410.16204",
+ "title": "Machine Learning Approaches for Mental Illness Detection on Social Media: A Systematic Review of Biases and Methodological Challenges",
+ "authors": [
+  "Yuchen Cao",
+  "Jianglai Dai",
+  "Zhongyan Wang",
+  "Yeyubei Zhang",
+  "Xiaorui Shen",
+  "Yunchong Liu",
+  "Yexin Tian"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 3,
+ "latest_date": "2025-02-15",
+ "journal_ref": "Journal of Behavioral Data Science, 5(1)",
+ "doi": "10.35566/jbds/caoyc",
+ "comment": "",
+ "abstract": "The global increase in mental illness requires innovative detection methods for early intervention. Social media provides a valuable platform to identify mental illness through user-generated content. This systematic review examines machine learning (ML) models for detecting mental illness, with a particular focus on depression, using social media data. It highlights biases and methodological challenges encountered throughout the ML lifecycle. A search of PubMed, IEEE Xplore, and Google Scholar identified 47 relevant studies published after 2010. The Prediction model Risk Of Bias ASsessment Tool (PROBAST) was utilized to assess methodological quality and risk of bias. The review reveals significant biases affecting model reliability and generalizability. A predominant reliance on Twitter (63.8%) and English-language content (over 90%) limits diversity, with most studies focused on users from the United States and Europe. Non-probability sampling (80%) limits representativeness. Only 23% explicitly addressed linguistic nuances like negations, crucial for accurate sentiment analysis. Inconsistent hyperparameter tuning (27.7%) and inadequate data partitioning (17%) risk overfitting. While 74.5% used appropriate evaluation metrics for imbalanced data, others relied on accuracy without addressing class imbalance, potentially skewing results. Reporting transparency varied, often lacking critical methodological details. These findings highlight the need to diversify data sources, standardize preprocessing, ensure consistent model development, address class imbalance, and enhance reporting transparency. By overcoming these challenges, future research can develop more robust and generalizable ML models for depression detection on social media, contributing to improved mental health outcomes globally.",
+ "primary": "cs.LG"
+}

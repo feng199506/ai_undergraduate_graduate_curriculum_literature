@@ -1,0 +1,18 @@
+{
+ "id": "2605.18077",
+ "title": "LLM-Guided Communication for Cooperative Multi-Agent Reinforcement Learning",
+ "authors": [
+  "Sangjun Bae",
+  "Yisak Park",
+  "Sanghyeon Lee",
+  "Seungyul Han"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 2,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages for main, 32 pages for total, Accepted to ICML 2026",
+ "abstract": "Communication is a key component in multi-agent reinforcement learning (MARL) for mitigating partial observability, yet prior approaches often rely on inefficient information exchange or fail to transmit sufficient state information. To address this, we propose LLM-driven Multi-Agent Communication (LMAC), which leverages an LLM's reasoning capability to design a communication protocol that enables all agents to reconstruct the underlying state as accurately and uniformly as possible. LMAC iteratively refines the protocol using an explicit state-awareness criterion, improving state recovery while narrowing differences in agents' knowledge. Experiments on diverse MARL benchmarks show that LMAC improves state reconstruction across agents and yields substantial performance gains over prior communication baselines.",
+ "primary": "cs.AI"
+}

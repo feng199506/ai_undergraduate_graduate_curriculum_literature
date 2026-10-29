@@ -1,0 +1,26 @@
+{
+ "id": "2508.10308",
+ "title": "ReviewRL: Towards Automated Scientific Review with RL",
+ "authors": [
+  "Sihang Zeng",
+  "Kai Tian",
+  "Kaiyan Zhang",
+  "Yuru wang",
+  "Junqi Gao",
+  "Runze Liu",
+  "Sa Yang",
+  "Jingxuan Li",
+  "Xinwei Long",
+  "Jiaheng Ma",
+  "Biqing Qi",
+  "Bowen Zhou"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 1,
+ "latest_date": "2025-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 5 figures",
+ "abstract": "Peer review is essential for scientific progress but faces growing challenges due to increasing submission volumes and reviewer fatigue. Existing automated review approaches struggle with factual accuracy, rating consistency, and analytical depth, often generating superficial or generic feedback lacking the insights characteristic of high-quality human reviews. We introduce ReviewRL, a reinforcement learning framework for generating comprehensive and factually grounded scientific paper reviews. Our approach combines: (1) an ArXiv-MCP retrieval-augmented context generation pipeline that incorporates relevant scientific literature, (2) supervised fine-tuning that establishes foundational reviewing capabilities, and (3) a reinforcement learning procedure with a composite reward function that jointly enhances review quality and rating accuracy. Experiments on ICLR 2025 papers demonstrate that ReviewRL significantly outperforms existing methods across both rule-based metrics and model-based quality assessments. ReviewRL establishes a foundational framework for RL-driven automatic critique generation in scientific discovery, demonstrating promising potential for future development in this domain. The implementation of ReviewRL will be released at GitHub.",
+ "primary": "cs.CL"
+}

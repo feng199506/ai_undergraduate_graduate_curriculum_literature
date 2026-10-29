@@ -1,0 +1,19 @@
+{
+ "id": "2404.08564",
+ "title": "Federated Distillation: A Survey",
+ "authors": [
+  "Lin Li",
+  "Jianping Gou",
+  "Baosheng Yu",
+  "Lan Du",
+  "Zhang Yiand Dacheng Tao"
+ ],
+ "v1_date": "2024-04-02",
+ "latest_version": 1,
+ "latest_date": "2024-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Federated Learning (FL) seeks to train a model collaboratively without sharing private training data from individual clients. Despite its promise, FL encounters challenges such as high communication costs for large-scale models and the necessity for uniform model architectures across all clients and the server. These challenges severely restrict the practical applications of FL. To address these limitations, the integration of knowledge distillation (KD) into FL has been proposed, forming what is known as Federated Distillation (FD). FD enables more flexible knowledge transfer between clients and the server, surpassing the mere sharing of model parameters. By eliminating the need for identical model architectures across clients and the server, FD mitigates the communication costs associated with training large-scale models. This paper aims to offer a comprehensive overview of FD, highlighting its latest advancements. It delves into the fundamental principles underlying the design of FD frameworks, delineates FD approaches for tackling various challenges, and provides insights into the diverse applications of FD across different scenarios.",
+ "primary": "cs.LG"
+}

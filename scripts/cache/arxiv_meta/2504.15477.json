@@ -1,0 +1,23 @@
+{
+ "id": "2504.15477",
+ "title": "In-context Ranking Preference Optimization",
+ "authors": [
+  "Junda Wu",
+  "Rohan Surana",
+  "Zhouhang Xie",
+  "Yiran Shen",
+  "Yu Xia",
+  "Tong Yu",
+  "Ryan A. Rossi",
+  "Prithviraj Ammanabrolu",
+  "Julian McAuley"
+ ],
+ "v1_date": "2025-04-21",
+ "latest_version": 2,
+ "latest_date": "2025-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages",
+ "abstract": "Recent developments in Direct Preference Optimization (DPO) allow large language models (LLMs) to function as implicit ranking models by maximizing the margin between preferred and non-preferred responses. In practice, user feedback on such lists typically involves identifying a few relevant items in context rather than providing detailed pairwise comparisons for every possible item pair. Moreover, many complex information retrieval tasks, such as conversational agents and summarization systems, critically depend on ranking the highest-quality outputs at the top, emphasizing the need to support natural and flexible forms of user feedback. To address the challenge of limited and sparse pairwise feedback in the in-context setting, we propose an In-context Ranking Preference Optimization (IRPO) framework that directly optimizes LLMs based on ranking lists constructed during inference. To further capture flexible forms of feedback, IRPO extends the DPO objective by incorporating both the relevance of items and their positions in the list. Modeling these aspects jointly is non-trivial, as ranking metrics are inherently discrete and non-differentiable, making direct optimization difficult. To overcome this, IRPO introduces a differentiable objective based on positional aggregation of pairwise item preferences, enabling effective gradient-based optimization of discrete ranking metrics. We further provide theoretical insights showing that IRPO (i) automatically emphasizes items with greater disagreement between the model and the reference ranking, and (ii) links its gradient to an importance sampling estimator, yielding an unbiased estimator with reduced variance. Empirical results show IRPO outperforms standard DPO approaches in ranking performance, highlighting its effectiveness in aligning LLMs with direct in-context ranking preferences.",
+ "primary": "cs.LG"
+}

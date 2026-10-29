@@ -1,0 +1,15 @@
+{
+ "id": "2503.09651",
+ "title": "Bags of Projected Nearest Neighbours: Competitors to Random Forests?",
+ "authors": [
+  "David P. Hofmeyr"
+ ],
+ "v1_date": "2025-03-12",
+ "latest_version": 1,
+ "latest_date": "2025-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Currently under submission for potential publication by IEEE",
+ "abstract": "In this paper we introduce a simple and intuitive adaptive k nearest neighbours classifier, and explore its utility within the context of bootstrap aggregating (\"bagging\"). The approach is based on finding discriminant subspaces which are computationally efficient to compute, and are motivated by enhancing the discrimination of classes through nearest neighbour classifiers. This adaptiveness promotes diversity of the individual classifiers fit across different bootstrap samples, and so further leverages the variance reducing effect of bagging. Extensive experimental results are presented documenting the strong performance of the proposed approach in comparison with Random Forest classifiers, as well as other nearest neighbours based ensembles from the literature, plus other relevant benchmarks. Code to implement the proposed approach is available in the form of an R package from https://github.com/DavidHofmeyr/BOPNN.",
+ "primary": "cs.LG"
+}

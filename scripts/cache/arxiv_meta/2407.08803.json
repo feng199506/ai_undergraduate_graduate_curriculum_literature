@@ -1,0 +1,17 @@
+{
+ "id": "2407.08803",
+ "title": "PID Accelerated Temporal Difference Algorithms",
+ "authors": [
+  "Mark Bedaywi",
+  "Amin Rakhsha",
+  "Amir-massoud Farahmand"
+ ],
+ "v1_date": "2024-07-11",
+ "latest_version": 2,
+ "latest_date": "2024-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Long-horizon tasks, which have a large discount factor, pose a challenge for most conventional reinforcement learning (RL) algorithms. Algorithms such as Value Iteration and Temporal Difference (TD) learning have a slow convergence rate and become inefficient in these tasks. When the transition distributions are given, PID VI was recently introduced to accelerate the convergence of Value Iteration using ideas from control theory. Inspired by this, we introduce PID TD Learning and PID Q-Learning algorithms for the RL setting, in which only samples from the environment are available. We give a theoretical analysis of the convergence of PID TD Learning and its acceleration compared to the conventional TD Learning. We also introduce a method for adapting PID gains in the presence of noise and empirically verify its effectiveness.",
+ "primary": "cs.LG"
+}

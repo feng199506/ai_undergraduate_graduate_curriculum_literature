@@ -1,0 +1,24 @@
+{
+ "id": "2601.14628",
+ "title": "NeuroVLA: A Brain-inspired Embodied Intelligence for Fluid and Fast Reflexive Robotics Control",
+ "authors": [
+  "Weiyu Guo",
+  "He Zhang",
+  "Pengteng Li",
+  "Tiefu Cai",
+  "Ziyang Chen",
+  "Yandong Guo",
+  "Xiao He",
+  "Yongkui Yang",
+  "Ying Sun",
+  "Hui Xiong"
+ ],
+ "v1_date": "2026-01-21",
+ "latest_version": 2,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 8 figures. Added NeuroVLA to the title; clarified language-model design inertia, high-frequency proprioception, motor memory and local feedback; revised biological analogies; corrected figure captions and references. Experimental figures and main quantitative results are unchanged",
+ "abstract": "Vision-language-action (VLA) models inherit powerful semantic representations from large language models, but carrying over their design priorities can leave the demands of physical control under-specified. Stable manipulation requires high-frequency proprioceptive feedback and persistent motor state, in addition to instruction understanding. Here we introduce Neuromorphic Vision-Language-Action (NeuroVLA), a brain-inspired architecture that couples a cortical vision-language planner to recurrent cerebellar modulation and a stateful spiking spinal controller. These components translate semantic intent into actions while incorporating high-frequency proprioceptive and force feedback, maintaining short-term motor memory, and enabling local responses to unexpected contact. In simulated and physical manipulation tasks, the cerebellar module reduces mean commanded jerk by 75.6%, and NeuroVLA achieves a 54.8% collision-recovery rate compared with 0.0% for the evaluated VLA baselines. The spinal controller implemented on an FPGA-based neuromorphic processor achieves 2.19 ms inference latency and 0.87 mJ per inference, corresponding to approximately 0.4 W during inference. These results motivate moving beyond inherited language-model design priorities toward embodied architectures that explicitly integrate semantic planning, high-frequency bodily feedback, motor memory, and local correction.",
+ "primary": "cs.RO"
+}

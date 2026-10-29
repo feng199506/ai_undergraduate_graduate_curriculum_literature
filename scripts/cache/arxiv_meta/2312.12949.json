@@ -1,0 +1,27 @@
+{
+ "id": "2312.12949",
+ "title": "Estimating Photometric Redshift from Mock Flux for CSST Survey by using Weighted Random Forest",
+ "authors": [
+  "Junhao Lu",
+  "Zhijian Luo",
+  "Zhu Chen",
+  "Liping Fu",
+  "Wei Du",
+  "Yan Gong",
+  "Yicheng Li",
+  "Xian-Min Meng",
+  "Zhirui Tang",
+  "Shaohua Zhang",
+  "Chenggang Shu",
+  "Xingchen Zhou",
+  "Zuhui Fan"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 2,
+ "latest_date": "2023-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate estimation of photometric redshifts (photo-$z$) is crucial in studies of both galaxy evolution and cosmology using current and future large sky surveys. In this study, we employ Random Forest (RF), a machine learning algorithm, to estimate photo-$z$ and investigate the systematic uncertainties affecting the results. Using galaxy flux and color as input features, we construct a mapping between input features and redshift by using a training set of simulated data, generated from the Hubble Space Telescope Advanced Camera for Surveys (HST-ACS) and COSMOS catalogue, with the expected instrumental effects of the planned China Space Station Telescope (CSST). To improve the accuracy and confidence of predictions, we incorporate inverse variance weighting and perturb the catalog using input feature errors. Our results show that weighted RF can achieve a photo-$z$ accuracy of $\\rm σ_{NMAD}=0.025$ and an outlier fraction of $\\rm η=2.045\\%$, significantly better than the values of $\\rm σ_{NMAD}=0.043$ and $\\rm η=6.45\\%$ obtained by the widely used Easy and Accurate Zphot from Yale (EAZY) software which uses template-fitting method. Furthermore, we have calculated the importance of each input feature for different redshift ranges and found that the most important input features reflect the approximate position of the break features in galaxy spectra, demonstrating the algorithm's ability to extract physical information from data. Additionally, we have established confidence indices and error bars for each prediction value based on the shape of the redshift probability distribution function, suggesting that screening sources with high confidence can further reduce the outlier fraction.",
+ "primary": "astro-ph.CO"
+}

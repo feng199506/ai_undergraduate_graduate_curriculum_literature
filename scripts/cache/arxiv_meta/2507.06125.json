@@ -1,0 +1,18 @@
+{
+ "id": "2507.06125",
+ "title": "Subspace-based Approximate Hessian Method for Zeroth-Order Optimization",
+ "authors": [
+  "Dongyoon Kim",
+  "Sungjae Lee",
+  "Wonjin Lee",
+  "Kwang In Kim"
+ ],
+ "v1_date": "2025-07-08",
+ "latest_version": 1,
+ "latest_date": "2025-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 8 figures",
+ "abstract": "Zeroth-order optimization addresses problems where gradient information is inaccessible or impractical to compute. While most existing methods rely on first-order approximations, incorporating second-order (curvature) information can, in principle, significantly accelerate convergence. However, the high cost of function evaluations required to estimate Hessian matrices often limits practical applicability. We present the subspace-based approximate Hessian (ZO-SAH) method, a zeroth-order optimization algorithm that mitigates these costs by focusing on randomly selected two-dimensional subspaces. Within each subspace, ZO-SAH estimates the Hessian by fitting a quadratic polynomial to the objective function and extracting its second-order coefficients. To further reduce function-query costs, ZO-SAH employs a periodic subspace-switching strategy that reuses function evaluations across optimization steps. Experiments on eight benchmark datasets, including logistic regression and deep neural network training tasks, demonstrate that ZO-SAH achieves significantly faster convergence than existing zeroth-order methods.",
+ "primary": "cs.LG"
+}

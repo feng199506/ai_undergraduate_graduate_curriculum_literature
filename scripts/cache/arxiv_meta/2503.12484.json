@@ -1,0 +1,19 @@
+{
+ "id": "2503.12484",
+ "title": "SING: Semantic Image Communications using Null-Space and INN-Guided Diffusion Models",
+ "authors": [
+  "Jiakang Chen",
+  "Selim F. Yilmaz",
+  "Di You",
+  "Pier Luigi Dragotti",
+  "Deniz Gündüz"
+ ],
+ "v1_date": "2025-03-16",
+ "latest_version": 1,
+ "latest_date": "2025-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Joint source-channel coding systems based on deep neural networks (DeepJSCC) have recently demonstrated remarkable performance in wireless image transmission. Existing methods primarily focus on minimizing distortion between the transmitted image and the reconstructed version at the receiver, often overlooking perceptual quality. This can lead to severe perceptual degradation when transmitting images under extreme conditions, such as low bandwidth compression ratios (BCRs) and low signal-to-noise ratios (SNRs). In this work, we propose SING, a novel two-stage JSCC framework that formulates the recovery of high-quality source images from corrupted reconstructions as an inverse problem. Depending on the availability of information about the DeepJSCC encoder/decoder and the channel at the receiver, SING can either approximate the stochastic degradation as a linear transformation, or leverage invertible neural networks (INNs) for precise modeling. Both approaches enable the seamless integration of diffusion models into the reconstruction process, enhancing perceptual quality. Experimental results demonstrate that SING outperforms DeepJSCC and other approaches, delivering superior perceptual quality even under extremely challenging conditions, including scenarios with significant distribution mismatches between the training and test data.",
+ "primary": "eess.IV"
+}

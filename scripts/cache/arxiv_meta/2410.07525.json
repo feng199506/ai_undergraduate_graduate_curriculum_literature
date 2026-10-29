@@ -1,0 +1,17 @@
+{
+ "id": "2410.07525",
+ "title": "Offline Inverse Constrained Reinforcement Learning for Safe-Critical Decision Making in Healthcare",
+ "authors": [
+  "Nan Fang",
+  "Guiliang Liu",
+  "Wei Gong"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 2,
+ "latest_date": "2024-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reinforcement Learning (RL) applied in healthcare can lead to unsafe medical decisions and treatment, such as excessive dosages or abrupt changes, often due to agents overlooking common-sense constraints. Consequently, Constrained Reinforcement Learning (CRL) is a natural choice for safe decisions. However, specifying the exact cost function is inherently difficult in healthcare. Recent Inverse Constrained Reinforcement Learning (ICRL) is a promising approach that infers constraints from expert demonstrations. ICRL algorithms model Markovian decisions in an interactive environment. These settings do not align with the practical requirement of a decision-making system in healthcare, where decisions rely on historical treatment recorded in an offline dataset. To tackle these issues, we propose the Constraint Transformer (CT). Specifically, 1) we utilize a causal attention mechanism to incorporate historical decisions and observations into the constraint modeling, while employing a Non-Markovian layer for weighted constraints to capture critical states. 2) A generative world model is used to perform exploratory data augmentation, enabling offline RL methods to simulate unsafe decision sequences. In multiple medical scenarios, empirical results demonstrate that CT can capture unsafe states and achieve strategies that approximate lower mortality rates, reducing the occurrence probability of unsafe behaviors.",
+ "primary": "cs.LG"
+}

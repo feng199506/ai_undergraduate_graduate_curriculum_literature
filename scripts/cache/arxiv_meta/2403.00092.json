@@ -1,0 +1,22 @@
+{
+ "id": "2403.00092",
+ "title": "PROC2PDDL: Open-Domain Planning Representations from Texts",
+ "authors": [
+  "Tianyi Zhang",
+  "Li Zhang",
+  "Zhaoyi Hou",
+  "Ziyu Wang",
+  "Yuling Gu",
+  "Peter Clark",
+  "Chris Callison-Burch",
+  "Niket Tandon"
+ ],
+ "v1_date": "2024-02-29",
+ "latest_version": 2,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "In NLRSE 2024, the 2nd Natural Language Reasoning and Structured Explanations Workshop",
+ "abstract": "Planning in a text-based environment continues to be a major challenge for AI systems. Recent approaches have used language models to predict a planning domain definition (e.g., PDDL) but have only been evaluated in closed-domain simulated environments. To address this, we present Proc2PDDL , the first dataset containing open-domain procedural texts paired with expert-annotated PDDL representations. Using this dataset, we evaluate state-of-the-art models on defining the preconditions and effects of actions. We show that Proc2PDDL is highly challenging, with GPT-3.5's success rate close to 0% and GPT-4's around 35%. Our analysis shows both syntactic and semantic errors, indicating LMs' deficiency in both generating domain-specific prgorams and reasoning about events. We hope this analysis and dataset helps future progress towards integrating the best of LMs and formal planning.",
+ "primary": "cs.CL"
+}

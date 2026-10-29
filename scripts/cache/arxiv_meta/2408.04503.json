@@ -1,0 +1,16 @@
+{
+ "id": "2408.04503",
+ "title": "Row-aware Randomized SVD with applications",
+ "authors": [
+  "Davide Palitta",
+  "Sascha Portaro"
+ ],
+ "v1_date": "2024-08-08",
+ "latest_version": 4,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 6 figures",
+ "abstract": "The randomized singular value decomposition proposed in [27] has certainly become one of the most well-established randomization-based algorithms in numerical linear algebra. The key ingredient of the entire procedure is the computation of a subspace which is close to the column space of the target matrix $\\mathbf{A}$ up to a certain probabilistic confidence. In this paper we employ a modification to the standard randomized SVD procedure which leads, in general, to better approximations to $\\text{Range}(\\mathbf{A})$ at the same computational cost. To this end, we explicitly construct information from the row space of $\\mathbf{A}$ enhancing the quality of the approximation. We derive novel error bounds which improve over existing results for $\\mathbf{A}$ having important gaps in its singular values. We also observe that very few pieces of information from $\\text{Range}(\\mathbf{A}^T)$ may be necessary. We thus design a variant of this algorithm equipped with a subsampling step which largely increases the efficiency of the procedure while often attaining competitive accuracy records. Our findings are supported by both theoretical analysis and numerical results.",
+ "primary": "math.NA"
+}

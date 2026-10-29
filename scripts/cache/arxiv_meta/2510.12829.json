@@ -1,0 +1,16 @@
+{
+ "id": "2510.12829",
+ "title": "Mathematics with large language models as provers and verifiers",
+ "authors": [
+  "Hieu Le Duc",
+  "Leo Liberti"
+ ],
+ "v1_date": "2025-10-11",
+ "latest_version": 3,
+ "latest_date": "2025-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "During 2024 and 2025 the discussion about the theorem-proving capabilities of large language models started reporting interesting success stories, mostly to do with difficult exercises (such as problems from the International Mathematical Olympiad), but also with conjectures [Feldman & Karbasi, arXiv:2509.18383v1] formulated for the purpose of verifying whether the artificial intelligence could prove it. In this paper we report a theorem proving feat achieved by ChatGPT by using a protocol involving different prover and verifier instances of the gpt-5 model working collaboratively. To make sure that the produced proofs do not suffer from hallucinations, the final proof is formally verified by the lean proof assistant, and the conformance of premises and conclusion of the lean code is verified by a human. Our methodology is by no means complete or exact. It was nonetheless able to solve five out of six 2025 IMO problems, and close about a third of the sixty-six number theory conjectures in [Cohen, Journal of Integer Sequences, 2025].",
+ "primary": "cs.CL"
+}

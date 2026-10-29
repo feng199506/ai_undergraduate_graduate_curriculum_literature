@@ -1,0 +1,22 @@
+{
+ "id": "2406.02722",
+ "title": "Model Predictive Control for Magnetically-Actuated Cellbots",
+ "authors": [
+  "Mehdi Kermanshah",
+  "Logan E. Beaver",
+  "Max Sokolich",
+  "Fatma Ceren Kirmizitas",
+  "Sambeeta Das",
+  "Roberto Tron",
+  "Ron Weiss",
+  "Calin Belta"
+ ],
+ "v1_date": "2024-06-04",
+ "latest_version": 2,
+ "latest_date": "2024-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a control framework for magnetically actuated cellbots, which combines Model Predictive Control (MPC) with Gaussian Processes (GPs) as a disturbance estimator for precise trajectory tracking. To address the challenges posed by unmodeled dynamics, we integrate data-driven modeling with model-based control to accurately track desired trajectories using relatively small data. To the best of our knowledge, this is the first work to integrate data-driven modeling with model-based control for the magnetic actuation of cellbots. The GP effectively learns and predicts unmodeled disturbances, providing uncertainty bounds as well. We validate our method through experiments with cellbots, demonstrating improved trajectory tracking accuracy.",
+ "primary": "cs.RO"
+}

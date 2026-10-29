@@ -1,0 +1,18 @@
+{
+ "id": "2605.29033",
+ "title": "Moment Matching Q-Learning",
+ "authors": [
+  " Yiyan",
+  " Liang",
+  "Sifei Liu",
+  "Weitong Zhang"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 1,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 14 figures, 10 tables, accepted by ICML 2026",
+ "abstract": "Score-based and flow-based generative models exhibit remarkable expressive capacity in capturing complex distributions, and have been extensively deployed in tasks ranging from image generation to reinforcement learning. Nevertheless, these models suffer from prolonged inference latency, which imposes a significant computational bottleneck in RL with iterative sampling. To overcome this limitation, we propose a new framework named Moment Matching Q-Learning (MoMa QL), which utilizes a technique from statistical hypothesis testing known as maximum mean discrepancy (MMD) that intend to match all orders of statistics between the original and target distribution. By enforcing strong regularization on all moment statistics, this algorithm guarantees distribution-level convergence for conditional score function and remains stable under various hyperparameters. Empirically, we show that our method MoMa QL is more computationally efficient with a comparable if not competitive performance in various D4RL tasks. Remarkably, by accelerating the action sampling process for flow-based policies, MoMa QL demonstrates superior performance in offline-to-online RL tasks because of faster and stronger adaptability for online interactive finetuning.",
+ "primary": "cs.LG"
+}

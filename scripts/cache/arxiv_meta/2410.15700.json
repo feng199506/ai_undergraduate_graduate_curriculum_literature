@@ -1,0 +1,22 @@
+{
+ "id": "2410.15700",
+ "title": "InternLM2.5-StepProver: Advancing Automated Theorem Proving via Critic-Guided Search",
+ "authors": [
+  "Zijian Wu",
+  "Suozhi Huang",
+  "Zhejian Zhou",
+  "Huaiyuan Ying",
+  "Zheng Yuan",
+  "Wenwei Zhang",
+  "Dahua Lin",
+  "Kai Chen"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 2,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) have emerged as powerful tools in mathematical theorem proving, particularly when utilizing formal languages such as LEAN. A prevalent proof method involves the LLM prover iteratively constructing the proof tactic by tactic, typically following a best-first search scheme. However, this method often ignores the critical preference information inside the existing tactic trajectories, hindering the search for deeper proofs. We propose an intuitive yet effective method, which utilizes a critic model to capture the preference information and to guide the search of the prover model at runtime. Given the prover-critic framework, a large-scale expert iteration with more than 20,000 CPU days is then applied to further fine-tune the prover and the critic. The trained InternLM2.5-StepProver critic significantly boosts the performance of the prover model (59.4% to 65.9%). We also analyze the impact of the critic on various aspects of the theorem proving process during expert iteration, providing insights into its effectiveness. We open-source our models and searched proofs at https://github.com/InternLM/InternLM-Math and https://huggingface.co/datasets/internlm/Lean-Workbook.",
+ "primary": "cs.AI"
+}

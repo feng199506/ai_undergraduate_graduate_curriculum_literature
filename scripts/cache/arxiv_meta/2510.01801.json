@@ -1,0 +1,21 @@
+{
+ "id": "2510.01801",
+ "title": "Detecting LLM-Generated Spam Reviews by Integrating Language Model Embeddings and Graph Neural Network",
+ "authors": [
+  "Xin Liu",
+  "Rongwu Xu",
+  "Xinyi Jia",
+  "Jason Liao",
+  "Jiao Sun",
+  "Ling Huang",
+  "Wei Xu"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 2,
+ "latest_date": "2026-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rise of large language models (LLMs) has enabled the generation of highly persuasive spam reviews that closely mimic human writing. These reviews pose significant challenges for existing detection systems and threaten the credibility of online platforms. In this work, we first create three realistic LLM-generated spam review datasets using three distinct LLMs, each guided by product metadata and genuine reference reviews. Evaluations by GPT-4.1 confirm the high persuasion and deceptive potential of these reviews. To address this threat, we propose FraudSquad, a hybrid detection model that integrates text embeddings from a pre-trained language model with a gated graph transformer for spam node classification. FraudSquad captures both semantic and behavioral signals without relying on manual feature engineering or massive training resources. Experiments show that FraudSquad outperforms state-of-the-art baselines by up to 44.22% in precision and 43.01% in recall on three LLM-generated datasets, while also achieving promising results on two human-written spam datasets. Furthermore, FraudSquad maintains a modest model size and requires minimal labeled training data, making it a practical solution for real-world applications. Our contributions include new synthetic datasets, a practical detection framework, and empirical evidence highlighting the urgency of adapting spam detection to the LLM era. Our code and datasets are available at: https://anonymous.4open.science/r/FraudSquad-5389/.",
+ "primary": "cs.CL"
+}

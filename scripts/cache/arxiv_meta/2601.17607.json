@@ -1,0 +1,15 @@
+{
+ "id": "2601.17607",
+ "title": "A Thermodynamic Theory of Learning I: Irreversible Ensemble Transport and Epistemic Costs",
+ "authors": [
+  "Daisuke Okanohara"
+ ],
+ "v1_date": "2026-01-24",
+ "latest_version": 2,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages. Part I of a planned series entitled \"A Thermodynamic Theory of Learning.\" Minor revisions throughout; appendix added. Clarified the treatment of the noise temperature T and refined the presentation of the Epistemic Speed Limit",
+ "abstract": "Learning systems acquire structured internal representations from data, yet classical information-theoretic results state that deterministic transformations do not increase information. This raises a fundamental question: how can learning produce abstraction and insight without violating information-theoretic limits? We argue that learning is inherently an irreversible process when performed over finite time, and that the realization of epistemic structure necessarily incurs entropy production. To formalize this perspective, we model learning as a transport process in the space of probability distributions over model configurations and introduce an epistemic free-energy framework. Within this framework, we define the free-energy reduction as a bookkeeping quantity that records the total reduction of epistemic free energy along a learning trajectory. This formulation highlights that realizing such a reduction over finite time necessarily incurs irreversible entropy production. We then derive the Epistemic Speed Limit (ESL), a finite-time inequality that lower-bounds the minimal entropy production required by any learning process to realize a given distributional transformation. This bound depends only on the Wasserstein distance between initial and final ensemble distributions and is independent of the specific learning algorithm.",
+ "primary": "cs.LG"
+}

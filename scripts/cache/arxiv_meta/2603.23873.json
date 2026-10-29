@@ -1,0 +1,15 @@
+{
+ "id": "2603.23873",
+ "title": "The DeepXube Software Package for Solving Pathfinding Problems with Learned Heuristic Functions and Search",
+ "authors": [
+  "Forest Agostinelli"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 1,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "DeepXube is a free and open-source Python package and command-line tool that seeks to automate the solution of pathfinding problems by using machine learning to learn heuristic functions that guide heuristic search algorithms tailored to deep neural networks (DNNs). DeepXube is comprised of the latest advances in deep reinforcement learning, heuristic search, and formal logic for solving pathfinding problems. This includes limited-horizon Bellman-based learning, hindsight experience replay, batched heuristic search, and specifying goals with answer-set programming. A robust multiple-inheritance structure simplifies the definition of pathfinding domains and the generation of training data. Training heuristic functions is made efficient through the automatic parallelization of the generation of training data across central processing units (CPUs) and reinforcement learning updates across graphics processing units (GPUs). Pathfinding algorithms that take advantage of the parallelism of GPUs and DNN architectures, such as batch weighted A* and Q* search and beam search are easily employed to solve pathfinding problems through command-line arguments. Finally, several convenient features for visualization, code profiling, and progress monitoring during training and solving are available. The GitHub repository is publicly available at https://github.com/forestagostinelli/deepxube.",
+ "primary": "cs.AI"
+}

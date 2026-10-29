@@ -1,0 +1,17 @@
+{
+ "id": "2606.27695",
+ "title": "How far does a random forest generalize from a 54-run LAMMPS+SPICA benchmark?",
+ "authors": [
+  "Dennis Alves Pedersen",
+  "Paulo Henrique Leme Ramalho",
+  "Fábio Andrijauskas"
+ ],
+ "v1_date": "2026-06-26",
+ "latest_version": 1,
+ "latest_date": "2026-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Selecting near-optimal hybrid MPI+OpenMP configurations for molecular dynamics workloads on modern HPC clusters has traditionally required exhaustive empirical benchmarking, consuming allocation budget proportional to the number of configurations evaluated. This work investigates whether a cold-start Random Forest surrogate, trained once on a small, structured benchmark dataset, can reliably predict execution performance and recommend high-performing configurations without further cluster runs. The training dataset comprises 54 LAMMPS+SPICA runs of the antimicrobial peptide Tritrpticin on a hydrated DOPC bilayer (4 354 coarse-grained beads), spanning 18 hybrid configurations on 1-8 AMD EPYC 7662 nodes of the Lovelace cluster at CENAPAD-SP, with three independent replications each. Nine topology and resource features feed five regressors that predict loop time and four internal LAMMPS timing fractions (Pair, Kspace, Comm, Modify). In-sample mean absolute error is 0.49 s on loop time (4.0 % relative). Feature importance localizes predictive signal in topology variables (OpenMP threads and MPI/OpenMP ratio dominate; raw node and core counts contribute under 3 %). Leave-one-dimension-out generalization reveals that accuracy is governed by hardware regime membership: within a common regime (single-node, multi-node, or shared threading tier) the surrogate ranks configurations correctly, and degrades when targets cross architectural boundaries. The result is an interpretable map of where the surrogate's recommendations can be trusted, useful for scoping further benchmark campaigns at a fraction of their nominal cost.",
+ "primary": "cs.DC"
+}

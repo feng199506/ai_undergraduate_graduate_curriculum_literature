@@ -1,0 +1,17 @@
+{
+ "id": "2602.23974",
+ "title": "Pessimistic Auxiliary Policy for Offline Reinforcement Learning",
+ "authors": [
+  "Fan Zhang",
+  "Baoru Huang",
+  "Xin Zhang"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 2,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Withdrawn due to a crucial mistake",
+ "abstract": "Offline reinforcement learning aims to learn an agent from pre-collected datasets, avoiding unsafe and inefficient real-time interaction. However, inevitable access to out-ofdistribution actions during the learning process introduces approximation errors, causing the error accumulation and considerable overestimation. In this paper, we construct a new pessimistic auxiliary policy for sampling reliable actions. Specifically, we develop a pessimistic auxiliary strategy by maximizing the lower confidence bound of the Q-function. The pessimistic auxiliary strategy exhibits a relatively high value and low uncertainty in the vicinity of the learned policy, avoiding the learned policy sampling high-value actions with potentially high errors during the learning process. Less approximation error introduced by sampled action from pessimistic auxiliary strategy leads to the alleviation of error accumulation. Extensive experiments on offline reinforcement learning benchmarks reveal that utilizing the pessimistic auxiliary strategy can effectively improve the efficacy of other offline RL approaches.",
+ "primary": "cs.AI"
+}

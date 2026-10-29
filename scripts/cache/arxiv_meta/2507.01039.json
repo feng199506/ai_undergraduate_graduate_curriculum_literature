@@ -1,0 +1,17 @@
+{
+ "id": "2507.01039",
+ "title": "On-Policy Optimization of ANFIS Policies Using Proximal Policy Optimization",
+ "authors": [
+  "Kaaustaaub Shankar",
+  "Wilhelm Louw",
+  "Kelly Cohen"
+ ],
+ "v1_date": "2025-06-22",
+ "latest_version": 2,
+ "latest_date": "2025-07-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NAFIPS 2025",
+ "abstract": "We present a reinforcement learning method for training neuro-fuzzy controllers using Proximal Policy Optimization (PPO). Unlike prior approaches that used Deep Q-Networks (DQN) with Adaptive Neuro-Fuzzy Inference Systems (ANFIS), our PPO-based framework leverages a stable on-policy actor-critic setup. Evaluated on the CartPole-v1 environment across multiple seeds, PPO-trained fuzzy agents consistently achieved the maximum return of 500 with zero variance after 20000 updates, outperforming ANFIS-DQN baselines in both stability and convergence speed. This highlights PPO's potential for training explainable neuro-fuzzy agents in reinforcement learning tasks.",
+ "primary": "cs.LG"
+}

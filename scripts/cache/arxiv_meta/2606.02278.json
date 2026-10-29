@@ -1,0 +1,17 @@
+{
+ "id": "2606.02278",
+ "title": "Physics-Guided Recurrent State-Space Neural Networks for Multi-Step Prediction",
+ "authors": [
+  "Ruiyuan Li",
+  "Ajay Seth",
+  "Manon Kok"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 3 figures. Accepted at IFAC World Congress 2026",
+ "abstract": "State-space models are traditionally based on physical knowledge, but multi-step predictions from these physical models can be poor due to model inaccuracy. Black-box deep learning has shown promise as an alternative. However, these methods rely on the availability of large datasets and potentially available physical knowledge is neglected. We propose the PG-RSSNN, a physics-guided recurrent state-space neural network that incorporates recurrent structures to enable the use of non-saturating activation functions in multi-step prediction. It mitigates the vanishing gradients and eliminates the risk of numerical divergence in training seen in existing structures that feed back state estimates. Results across multiple systems with various physical model imperfections, from linear state-space models with Gaussian noise to a robotic arm and a cascaded water tank system, show that the proposed PG-RSSNN maintains stable training behavior, and improves multi-step predictions, as compared with black-box neural networks and physics-only models, even with limited training data and when physical models are only partially known.",
+ "primary": "eess.SY"
+}

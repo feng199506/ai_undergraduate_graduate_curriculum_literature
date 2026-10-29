@@ -1,0 +1,25 @@
+{
+ "id": "2311.16424",
+ "title": "Manifold Preserving Guided Diffusion",
+ "authors": [
+  "Yutong He",
+  "Naoki Murata",
+  "Chieh-Hsin Lai",
+  "Yuhta Takida",
+  "Toshimitsu Uesaka",
+  "Dongjun Kim",
+  "Wei-Hsiang Liao",
+  "Yuki Mitsufuji",
+  "J. Zico Kolter",
+  "Ruslan Salakhutdinov",
+  "Stefano Ermon"
+ ],
+ "v1_date": "2023-11-28",
+ "latest_version": 1,
+ "latest_date": "2023-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Despite the recent advancements, conditional image generation still faces challenges of cost, generalizability, and the need for task-specific training. In this paper, we propose Manifold Preserving Guided Diffusion (MPGD), a training-free conditional generation framework that leverages pretrained diffusion models and off-the-shelf neural networks with minimal additional inference cost for a broad range of tasks. Specifically, we leverage the manifold hypothesis to refine the guided diffusion steps and introduce a shortcut algorithm in the process. We then propose two methods for on-manifold training-free guidance using pre-trained autoencoders and demonstrate that our shortcut inherently preserves the manifolds when applied to latent diffusion models. Our experiments show that MPGD is efficient and effective for solving a variety of conditional generation applications in low-compute settings, and can consistently offer up to 3.8x speed-ups with the same number of diffusion steps while maintaining high sample quality compared to the baselines.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2510.01276",
+ "title": "LLM Based Sentiment Classification From Bangladesh E-Commerce Reviews",
+ "authors": [
+  "Sumaiya Tabassum"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 1,
+ "latest_date": "2025-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sentiment analysis is an essential part of text analysis, which is a larger field that includes determining and evaluating the author's emotional state. This method is essential since it makes it easier to comprehend consumers' feelings, viewpoints, and preferences holistically. The introduction of large language models (LLMs), such as Llama, has greatly increased the availability of cutting-edge model applications, such as sentiment analysis. However, accurate sentiment analysis is hampered by the intricacy of written language and the diversity of languages used in evaluations. The viability of using transformer-based BERT models and other LLMs for sentiment analysis from Bangladesh e commerce reviews is investigated in this paper. A subset of 4000 samples from the original dataset of Bangla and English customer reviews was utilized to fine-tune the model. The fine tuned Llama-3.1-8B model outperformed other fine-tuned models, including Phi-3.5-mini-instruct, Mistral-7B-v0.1, DistilBERT-multilingual, mBERT, and XLM-R-base, with an overall accuracy, precision, recall, and F1 score of 95.5%, 93%, 88%, 90%. The study emphasizes how parameter efficient fine-tuning methods (LoRA and PEFT) can lower computational overhead and make it appropriate for contexts with limited resources. The results show how LLMs can",
+ "primary": "cs.CL"
+}

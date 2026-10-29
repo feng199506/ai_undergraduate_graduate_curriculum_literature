@@ -1,0 +1,20 @@
+{
+ "id": "2407.20684",
+ "title": "RevGNN: Negative Sampling Enhanced Contrastive Graph Learning for Academic Reviewer Recommendation",
+ "authors": [
+  "Weibin Liao",
+  "Yifan Zhu",
+  "Yanyan Li",
+  "Qi Zhang",
+  "Zhonghong Ou",
+  "Xuesong Li"
+ ],
+ "v1_date": "2024-07-30",
+ "latest_version": 1,
+ "latest_date": "2024-07-30",
+ "journal_ref": "",
+ "doi": "10.1145/3679200",
+ "comment": "Accepted by ACM Transactions on Information Systems (TOIS)",
+ "abstract": "Acquiring reviewers for academic submissions is a challenging recommendation scenario. Recent graph learning-driven models have made remarkable progress in the field of recommendation, but their performance in the academic reviewer recommendation task may suffer from a significant false negative issue. This arises from the assumption that unobserved edges represent negative samples. In fact, the mechanism of anonymous review results in inadequate exposure of interactions between reviewers and submissions, leading to a higher number of unobserved interactions compared to those caused by reviewers declining to participate. Therefore, investigating how to better comprehend the negative labeling of unobserved interactions in academic reviewer recommendations is a significant challenge. This study aims to tackle the ambiguous nature of unobserved interactions in academic reviewer recommendations. Specifically, we propose an unsupervised Pseudo Neg-Label strategy to enhance graph contrastive learning (GCL) for recommending reviewers for academic submissions, which we call RevGNN. RevGNN utilizes a two-stage encoder structure that encodes both scientific knowledge and behavior using Pseudo Neg-Label to approximate review preference. Extensive experiments on three real-world datasets demonstrate that RevGNN outperforms all baselines across four metrics. Additionally, detailed further analyses confirm the effectiveness of each component in RevGNN.",
+ "primary": "cs.IR"
+}

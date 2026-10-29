@@ -1,0 +1,16 @@
+{
+ "id": "2605.16645",
+ "title": "Statistical Unlearning of Distributions: A Hypothesis Testing Approach",
+ "authors": [
+  "Aaradhya Pandey",
+  "Sanjeev Kulkarni"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Comments welcome",
+ "abstract": "Machine learning systems increasingly face requirements to forget not only individual data points, but entire domains of information, such as toxic language, copyrighted corpora, or demographic biases. This raises a fundamental dilemma of statistical-computational tradeoffs: removing all samples from an unwanted domain may be computationally prohibitive, while randomly removing a subset may not provide distribution-level statistical guarantees. We propose a statistical framework for distributional unlearning, in which domains are modeled as probability distributions, and the goal is to remove a carefully chosen subset of samples that reduces the effect of an unwanted distribution while preserving performance on a desired one. We formalize this using a hypothesis test of the edited data with the desired and unwanted domains, leading to an interpretable and robust criterion for selecting samples to remove. Within this statistical framework, we characterize the fundamental region of the allowable edited data distributions and the removal-preservation Pareto frontier for a broad class of distribution families. This includes parametric families such as shifted Gaussians of arbitrary dimension, a one-dimensional location family with log-concave noise, and the one-dimensional Poisson family. It also includes nonparametric families such as the Gaussian white noise model, a canonical model for nonparametric regression. We prove composition rules that describe how distributional unlearning behaves across multimodal unwanted domains, and introduce a central-limit behavior for the removal-preservation baselines when composing a large number of such families. Finally, we provide finite sample guarantees by providing Pareto frontiers for some selection algorithms, and observe an information-computation gap.",
+ "primary": "math.ST"
+}

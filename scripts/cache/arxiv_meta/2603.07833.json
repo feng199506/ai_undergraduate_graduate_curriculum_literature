@@ -1,0 +1,22 @@
+{
+ "id": "2603.07833",
+ "title": "Gradient Iterated Temporal-Difference Learning",
+ "authors": [
+  "Théo Vincent",
+  "Kevin Gerhardt",
+  "Yogesh Tripathi",
+  "Habib Maraqten",
+  "Adam White",
+  "Martha White",
+  "Jan Peters",
+  "Carlo D'Eramo"
+ ],
+ "v1_date": "2026-03-08",
+ "latest_version": 2,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal-difference (TD) learning is highly effective at controlling and evaluating an agent's long-term outcomes. Most approaches in this paradigm implement a semi-gradient update to boost the learning speed, which consists of ignoring the gradient of the bootstrapped estimate. While popular, this type of update is prone to divergence, as Baird's counterexample illustrates. Gradient TD methods were introduced to overcome this issue, but have not been widely used, potentially due to issues with learning speed compared to semi-gradient methods. Recently, iterated TD learning was developed to increase the learning speed of TD methods. For that, it learns a sequence of action-value functions in parallel, where each function is optimized to represent the application of the Bellman operator over the previous function in the sequence. While promising, this algorithm can be unstable due to its semi-gradient nature, as each function tracks a moving target. In this work, we modify iterated TD learning by computing the gradients over those moving targets, aiming to build a powerful gradient TD method that competes with semi-gradient methods. Our evaluation reveals that this algorithm, called Gradient Iterated Temporal-Difference learning, has a competitive learning speed against semi-gradient methods across various benchmarks, including Atari games, a result that no prior work on gradient TD methods has demonstrated.",
+ "primary": "cs.LG"
+}

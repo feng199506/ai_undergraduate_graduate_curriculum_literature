@@ -1,0 +1,16 @@
+{
+ "id": "2603.29345",
+ "title": "Open Machine Translation for Esperanto",
+ "authors": [
+  "Ona de Gibert",
+  "Lluís de Gibert"
+ ],
+ "v1_date": "2026-03-31",
+ "latest_version": 1,
+ "latest_date": "2026-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to SIGUL 2026",
+ "abstract": "Esperanto is a widespread constructed language, known for its regular grammar and productive word formation. Besides having substantial resources available thanks to its online community, it remains relatively underexplored in the context of modern machine translation (MT) approaches. In this work, we present the first comprehensive evaluation of open-source MT systems for Esperanto, comparing rule-based systems, encoder-decoder models, and LLMs across model sizes. We evaluate translation quality across six language directions involving English, Spanish, Catalan, and Esperanto using multiple automatic metrics as well as human evaluation. Our results show that the NLLB family achieves the best performance in all language pairs, followed closely by our trained compact models and a fine-tuned general-purpose LLM. Human evaluation confirms this trend, with NLLB translations preferred in approximately half of the comparisons, although noticeable errors remain. In line with Esperanto's tradition of openness and international collaboration, we release our code and best-performing models publicly.",
+ "primary": "cs.CL"
+}

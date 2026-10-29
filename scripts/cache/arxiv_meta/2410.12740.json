@@ -1,0 +1,16 @@
+{
+ "id": "2410.12740",
+ "title": "Just Ramp-up: Debiasing Regression-based Estimator for A/B Tests under Network Interference",
+ "authors": [
+  "Qianyi Chen",
+  "Bo Li"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 4,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2026",
+ "abstract": "Network interference complicates A/B testing on online platforms, such as social networks and marketplaces, where causal methods based on single experiments often suffer from significant bias due to complex interference patterns. This paper demonstrates the statistical benefits of merging data from multiple experiments with varying treatment proportions. Sequential experimentation with increasing traffic, or ramp-up, is widely used in tech companies for risk management and cost control. Beyond operational benefits, we show that regression-based estimators trained on merged data achieve substantial bias reduction, even under simple randomization schemes and regression models. We focus on the global average treatment effect (GATE), a key estimand in the tech industry, and consider a general interference pattern that extends beyond the 1-hop setting. We present a closed-form bias variance analysis of the linear regression estimator and show that, in practical settings, the bias term dominates. Moreover, we characterize how merging data across ramp-up stages improves regression training and reduces bias. We also offer an intuitive explanation for this reduction and highlight the synergy between cluster-level randomization and our approach. Furthermore, we consider a refined estimator based on graph neural networks (GNN). Extensive simulations across challenging scenarios confirm that our methodology significantly improves the accuracy of regression-based estimators.",
+ "primary": "stat.ME"
+}

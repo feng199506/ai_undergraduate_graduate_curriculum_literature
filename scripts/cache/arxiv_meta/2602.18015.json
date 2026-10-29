@@ -1,0 +1,20 @@
+{
+ "id": "2602.18015",
+ "title": "Flow Actor-Critic for Offline Reinforcement Learning",
+ "authors": [
+  "Jongseong Chae",
+  "Jongeui Park",
+  "Yongjae Shin",
+  "Gyeongmin Kim",
+  "Seungyul Han",
+  "Youngchul Sung"
+ ],
+ "v1_date": "2026-02-20",
+ "latest_version": 1,
+ "latest_date": "2026-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ICLR 2026",
+ "abstract": "The dataset distributions in offline reinforcement learning (RL) often exhibit complex and multi-modal distributions, necessitating expressive policies to capture such distributions beyond widely-used Gaussian policies. To handle such complex and multi-modal datasets, in this paper, we propose Flow Actor-Critic, a new actor-critic method for offline RL, based on recent flow policies. The proposed method not only uses the flow model for actor as in previous flow policies but also exploits the expressive flow model for conservative critic acquisition to prevent Q-value explosion in out-of-data regions. To this end, we propose a new form of critic regularizer based on the flow behavior proxy model obtained as a byproduct of flow-based actor design. Leveraging the flow model in this joint way, we achieve new state-of-the-art performance for test datasets of offline RL including the D4RL and recent OGBench benchmarks.",
+ "primary": "cs.LG"
+}

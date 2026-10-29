@@ -1,0 +1,17 @@
+{
+ "id": "2510.20258",
+ "title": "Using Large Language Models for Abstraction of Planning Domains - Extended Version",
+ "authors": [
+  "Bita Banihashemi",
+  "Megh Patel",
+  "Yves Lespérance"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 1,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generating an abstraction of a dynamic domain that aligns with a given purpose remains a significant challenge given that the choice of such an abstraction can impact an agent's ability to plan, reason, and provide explanations effectively. We model the agent's concrete behaviors in PDDL and investigate the use of in-context learning with large language models (LLMs) for the generation of abstract PDDL domains and problem instances, given an abstraction objective specified in natural language. The benchmark examples we use are new and have not been part of the data any LLMs have been trained on. We consider three categories of abstractions: abstraction of choice of alternative concrete actions, abstraction of sequences of concrete actions, and abstraction of action/predicate parameters, as well as combinations of these. The generated abstract PDDL domains and problem instances are then checked by symbolic validation tools as well as human experts. Our experiments show that GPT-4o can generally synthesize useful planning domain abstractions in simple settings, although it is better at abstracting over actions than over the associated fluents.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.20030",
+ "title": "Offline Reinforcement Learning via Inverse Optimization",
+ "authors": [
+  "Ioannis Dimanidis",
+  "Tolga Ok",
+  "Peyman Mohajerin Esfahani"
+ ],
+ "v1_date": "2025-02-27",
+ "latest_version": 3,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "preprint",
+ "abstract": "Inspired by the recent successes of Inverse Optimization (IO) across various application domains, we propose a novel offline Reinforcement Learning (ORL) algorithm for continuous state and action spaces, leveraging the convex loss function called ``sub-optimality loss'' from the IO literature. To mitigate the distribution shift commonly observed in ORL problems, we further employ a robust and non-causal Model Predictive Control (MPC) expert steering a nominal model of the dynamics using in-hindsight information stemming from the model mismatch. Unlike the existing literature, our robust MPC expert enjoys an exact and tractable convex reformulation. In the second part of this study, we show that the IO hypothesis class, trained by the proposed convex loss function, enjoys ample expressiveness and {reliably recovers teacher behavior in MuJoCo benchmarks. The method achieves competitive results compared to widely-used baselines in sample-constrained settings, despite using} orders of magnitude fewer parameters. To facilitate the reproducibility of our results, we provide an open-source package implementing the proposed algorithms and the experiments. The code is available at https://github.com/TolgaOk/offlineRLviaIO.",
+ "primary": "cs.LG"
+}

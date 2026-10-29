@@ -1,0 +1,16 @@
+{
+ "id": "2412.17558",
+ "title": "A Survey of Query Optimization in Large Language Models",
+ "authors": [
+  "Mingyang Song",
+  "Mao Zheng"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 3,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Ongoing Work",
+ "abstract": "Query Optimization (QO) has become essential for enhancing Large Language Model (LLM) effectiveness, particularly in Retrieval-Augmented Generation (RAG) systems where query quality directly determines retrieval and response performance. This survey provides a systematic and comprehensive analysis of query optimization techniques with three principal contributions. \\textit{First}, we introduce the \\textbf{Query Optimization Lifecycle (QOL) Framework}, a five-phase pipeline covering Intent Recognition, Query Transformation, Retrieval Execution, Evidence Integration, and Response Synthesis, providing a unified lens for understanding the optimization process. \\textit{Second}, we propose a \\textbf{Query Complexity Taxonomy} that classifies queries along two dimensions, namely evidence type (explicit vs.\\ implicit) and evidence quantity (single vs.\\ multiple), establishing principled mappings between query characteristics and optimization strategies. \\textit{Third}, we conduct an in-depth analysis of four atomic operations, namely \\textbf{Query Expansion}, \\textbf{Query Decomposition}, \\textbf{Query Disambiguation}, and \\textbf{Query Abstraction}, synthesizing a broad spectrum of representative methods from premier venues. We further examine evaluation methodologies, identify critical gaps in existing benchmarks, and discuss open challenges including process reward models, efficiency optimization, and multi-modal query handling. This survey offers both a structured foundation for research and actionable guidance for practitioners.",
+ "primary": "cs.CL"
+}

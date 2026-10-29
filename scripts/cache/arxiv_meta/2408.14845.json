@@ -1,0 +1,19 @@
+{
+ "id": "2408.14845",
+ "title": "AAVENUE: Detecting LLM Biases on NLU Tasks in AAVE via a Novel Benchmark",
+ "authors": [
+  "Abhay Gupta",
+  "Philip Meng",
+  "Ece Yurtseven",
+  "Sean O'Brien",
+  "Kevin Zhu"
+ ],
+ "v1_date": "2024-08-27",
+ "latest_version": 3,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at NLP4PI @ EMNLP 2024",
+ "abstract": "Detecting biases in natural language understanding (NLU) for African American Vernacular English (AAVE) is crucial to developing inclusive natural language processing (NLP) systems. To address dialect-induced performance discrepancies, we introduce AAVENUE ({AAVE} {N}atural Language {U}nderstanding {E}valuation), a benchmark for evaluating large language model (LLM) performance on NLU tasks in AAVE and Standard American English (SAE). AAVENUE builds upon and extends existing benchmarks like VALUE, replacing deterministic syntactic and morphological transformations with a more flexible methodology leveraging LLM-based translation with few-shot prompting, improving performance across our evaluation metrics when translating key tasks from the GLUE and SuperGLUE benchmarks. We compare AAVENUE and VALUE translations using five popular LLMs and a comprehensive set of metrics including fluency, BARTScore, quality, coherence, and understandability. Additionally, we recruit fluent AAVE speakers to validate our translations for authenticity. Our evaluations reveal that LLMs consistently perform better on SAE tasks than AAVE-translated versions, underscoring inherent biases and highlighting the need for more inclusive NLP models. We have open-sourced our source code on GitHub and created a website to showcase our work at https://aavenuee.github.io.",
+ "primary": "cs.CL"
+}

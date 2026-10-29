@@ -1,0 +1,16 @@
+{
+ "id": "2402.00807",
+ "title": "Augmenting Offline Reinforcement Learning with State-only Interactions",
+ "authors": [
+  "Shangzhe Li",
+  "Xinhua Zhang"
+ ],
+ "v1_date": "2024-02-01",
+ "latest_version": 2,
+ "latest_date": "2024-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Batch offline data have been shown considerably beneficial for reinforcement learning. Their benefit is further amplified by upsampling with generative models. In this paper, we consider a novel opportunity where interaction with environment is feasible, but only restricted to observations, i.e., \\textit{no reward} feedback is available. This setting is broadly applicable, as simulators or even real cyber-physical systems are often accessible, while in contrast reward is often difficult or expensive to obtain. As a result, the learner must make good sense of the offline data to synthesize an efficient scheme of querying the transition of state. Our method first leverages online interactions to generate high-return trajectories via conditional diffusion models. They are then blended with the original offline trajectories through a stitching algorithm, and the resulting augmented data can be applied generically to downstream reinforcement learners. Superior empirical performance is demonstrated over state-of-the-art data augmentation methods that are extended to utilize state-only interactions.",
+ "primary": "cs.LG"
+}

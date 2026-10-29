@@ -1,0 +1,18 @@
+{
+ "id": "2505.07416",
+ "title": "ViMRHP: A Vietnamese Benchmark Dataset for Multimodal Review Helpfulness Prediction via Human-AI Collaborative Annotation",
+ "authors": [
+  "Truc Mai-Thanh Nguyen",
+  "Dat Minh Nguyen",
+  "Son T. Luu",
+  "Kiet Van Nguyen"
+ ],
+ "v1_date": "2025-05-12",
+ "latest_version": 2,
+ "latest_date": "2025-07-04",
+ "journal_ref": "",
+ "doi": "10.1007/978-3-031-97141-9_20",
+ "comment": "Accepted at NLDB 2025",
+ "abstract": "Multimodal Review Helpfulness Prediction (MRHP) is an essential task in recommender systems, particularly in E-commerce platforms. Determining the helpfulness of user-generated reviews enhances user experience and improves consumer decision-making. However, existing datasets focus predominantly on English and Indonesian, resulting in a lack of linguistic diversity, especially for low-resource languages such as Vietnamese. In this paper, we introduce ViMRHP (Vietnamese Multimodal Review Helpfulness Prediction), a large-scale benchmark dataset for MRHP task in Vietnamese. This dataset covers four domains, including 2K products with 46K reviews. Meanwhile, a large-scale dataset requires considerable time and cost. To optimize the annotation process, we leverage AI to assist annotators in constructing the ViMRHP dataset. With AI assistance, annotation time is reduced (90 to 120 seconds per task down to 20 to 40 seconds per task) while maintaining data quality and lowering overall costs by approximately 65%. However, AI-generated annotations still have limitations in complex annotation tasks, which we further examine through a detailed performance analysis. In our experiment on ViMRHP, we evaluate baseline models on human-verified and AI-generated annotations to assess their quality differences. The ViMRHP dataset is publicly available at https://github.com/trng28/ViMRHP",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2512.20657",
+ "title": "Graph Neural Networks for Source Detection: A Review and Benchmark Study",
+ "authors": [
+  "Martin Sterchi",
+  "Nathan Brack",
+  "Lorenz Hilfiker"
+ ],
+ "v1_date": "2025-12-18",
+ "latest_version": 2,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The source detection problem arises when an epidemic process unfolds over a contact network, and the objective is to identify its point of origin, i.e., the source node. Research on this problem began with the seminal work of Shah and Zaman in 2010, who formally defined it and introduced the notion of rumor centrality. With the emergence of Graph Neural Networks (GNNs), several studies have proposed GNN-based approaches to source detection. However, there is room to strengthen methodological clarity and reproducibility across these works. As a result, it remains unclear whether GNNs truly outperform more traditional source detection methods across comparable settings. In this paper, we first systematically review existing GNN-based methods for source detection, clearly outlining the specific settings each addresses and the architectures they employ. We then reproduce and benchmark four representative GNN architectures against a diverse set of traditional and MLP-based baselines under controlled, comparable conditions. We also investigate key questions surrounding this problem, including how detectability evolves over time, how performance scales with training set size, and how sensitive methods are to uncertainty in observation timing and epidemic parameters. Our experiments show that GNNs substantially outperform all other methods we test across a variety of network topologies. Although we initially set out to challenge the notion of GNNs as a solution to source detection, our results instead demonstrate their remarkable effectiveness for this task. To ensure full reproducibility, we release all code and data on GitHub. Finally, we argue that epidemic source detection constitutes a natural and attractive benchmark task for evaluating GNN architectures.",
+ "primary": "cs.SI"
+}

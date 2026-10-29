@@ -1,0 +1,17 @@
+{
+ "id": "2505.15544",
+ "title": "A Temporal Difference Method for Stochastic Continuous Dynamics",
+ "authors": [
+  "Haruki Settai",
+  "Naoya Takeishi",
+  "Takehisa Yairi"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 4,
+ "latest_date": "2025-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For continuous systems modeled by dynamical equations such as ODEs and SDEs, Bellman's Principle of Optimality takes the form of the Hamilton-Jacobi-Bellman (HJB) equation, which provides the theoretical target of reinforcement learning (RL). Although recent advances in RL successfully leverage this formulation, the existing methods typically assume the underlying dynamics are known a priori because they need explicit access to the coefficient functions of dynamical equations to update the value function following the HJB equation. We address this inherent limitation of HJB-based RL; we propose a model-free approach still targeting the HJB equation and propose the corresponding temporal difference method. We establish exponential convergence of the idealized continuous-time dynamics and empirically demonstrate its potential advantages over transition-kernel-based formulations. The proposed formulation paves the way toward bridging stochastic control and model-free reinforcement learning.",
+ "primary": "cs.LG"
+}

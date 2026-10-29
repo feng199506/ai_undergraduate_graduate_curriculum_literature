@@ -1,0 +1,18 @@
+{
+ "id": "2604.16380",
+ "title": "Data Mixing for Large Language Models Pretraining: A Survey and Outlook",
+ "authors": [
+  "Zhuo Chen",
+  "Yuxuan Miao",
+  " Supryadi",
+  "Deyi Xiong"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 1,
+ "latest_date": "2026-03-25",
+ "journal_ref": "Data Intelligence 8 (2026), Art. No. 2026r01",
+ "doi": "10.3724/2096-7004.di.2026.0055",
+ "comment": "41 pages, 4 figures, 1 table",
+ "abstract": "Large language models (LLMs) rely on pretraining on massive and heterogeneous corpora, where training data composition has a decisive impact on training efficiency and downstream generalization under realistic compute and data budget constraints. Unlike sample-level data selection, data mixing optimizes domain-level sampling weights to allocate limited budgets more effectively. In recent years, a growing body of work has proposed principled data mixing methods for LLM pretraining; however, the literature remains fragmented and lacks a dedicated, systematic survey. This paper provides a comprehensive review of data mixing for LLM pretraining. We first formalize data mixture optimization as a bilevel problem on the probability simplex and clarify the role of data mixing in the pretraining pipeline, and briefly explain how existing methods make this formulation tractable in practice. We then introduce a fine-grained taxonomy that organizes existing methods along two dimensions: static versus dynamic mixing. Static mixing is further categorized into rule-based and learning-based methods, while dynamic mixing is grouped into adaptive and externally guided families. For each class, we summarize representative approaches and analyze their strengths and limitations from a performance-cost trade-off perspective. Building on this analysis, we highlight challenges that cut across methods, including limited transferability across data domains, optimization objectives, models, and validation sets, as well as unstandardized evaluation protocols and benchmarks, and the inherent tension between performance gains and cost control in learning-based methods. Finally, we outline several exploratory directions, including finer-grained domain partitioning and inverse data mixing, as well as pipeline-aware designs, aiming to provide conceptual and methodological insights for future research.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2401.04062",
+ "title": "Variance Reduction in Ratio Metrics for Efficient Online Experiments",
+ "authors": [
+  "Shubham Baweja",
+  "Neeti Pokharna",
+  "Aleksei Ustimenko",
+  "Olivier Jeunen"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 1,
+ "latest_date": "2024-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the European Conference on Information Retrieval (ECIR '24) Industry Day",
+ "abstract": "Online controlled experiments, such as A/B-tests, are commonly used by modern tech companies to enable continuous system improvements. Despite their paramount importance, A/B-tests are expensive: by their very definition, a percentage of traffic is assigned an inferior system variant. To ensure statistical significance on top-level metrics, online experiments typically run for several weeks. Even then, a considerable amount of experiments will lead to inconclusive results (i.e. false negatives, or type-II error). The main culprit for this inefficiency is the variance of the online metrics. Variance reduction techniques have been proposed in the literature, but their direct applicability to commonly used ratio metrics (e.g. click-through rate or user retention) is limited. In this work, we successfully apply variance reduction techniques to ratio metrics on a large-scale short-video platform: ShareChat. Our empirical results show that we can either improve A/B-test confidence in 77% of cases, or can retain the same level of confidence with 30% fewer data points. Importantly, we show that the common approach of including as many covariates as possible in regression is counter-productive, highlighting that control variates based on Gradient-Boosted Decision Tree predictors are most effective. We discuss the practicalities of implementing these methods at scale and showcase the cost reduction they beget.",
+ "primary": "cs.LG"
+}

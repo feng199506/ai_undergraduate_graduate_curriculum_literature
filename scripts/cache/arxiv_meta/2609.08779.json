@@ -1,0 +1,18 @@
+{
+ "id": "2609.08779",
+ "title": "Improving Term Evaluation in Machine Translation: Variation Matters",
+ "authors": [
+  "Nicolas Dahan",
+  "Ziqian Peng",
+  "François Yvon",
+  "Rachel Bawden"
+ ],
+ "v1_date": "2026-09-08",
+ "latest_version": 1,
+ "latest_date": "2026-09-08",
+ "journal_ref": "AMTA 2026 - 17th Conference of the Association for Machine Translation in the Americas, Aug 2026, Quebec City, Canada",
+ "doi": "",
+ "comment": "",
+ "abstract": "Terminology evaluation in machine translation (MT) usually assumes a single correct target form per source term. However, human translators routinely introduce variation that current metrics penalize as inconsistency. We examine how to account for this variation in document-level MT evaluation of English-French scientific translation, combining glossary-based accuracy, translation consistency, and a new cross-term variation (CTV) diagnostic measure that tests whether variation relationships are preserved across languages. Based on analyses of two parallel corpora, translated by four MT systems, we find that (1) MT systems generate less target-side variation than human translators; (2) transfer patterns strongly depend on the variation type; (3) consistency rankings vary with the choice of metric; and (4) constraining MT with a glossary improves accuracy and consistency but degrades CTV by suppressing valid variation. We argue for variation-aware evaluation that conditions consistency penalties on whether target-side variation mirrors source-side variation.",
+ "primary": "cs.CL"
+}

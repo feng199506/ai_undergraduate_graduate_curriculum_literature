@@ -1,0 +1,16 @@
+{
+ "id": "2501.18138",
+ "title": "B3C: A Minimalist Approach to Offline Multi-Agent Reinforcement Learning",
+ "authors": [
+  "Woojun Kim",
+  "Katia Sycara"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 3,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)",
+ "abstract": "Overestimation arising from selecting unseen actions during policy evaluation is a major challenge in offline reinforcement learning (RL). A minimalist approach in the single-agent setting -- adding behavior cloning (BC) regularization to existing online RL algorithms -- has been shown to be effective; however, this approach is understudied in multi-agent settings. In particular, overestimation becomes worse in multi-agent settings due to the presence of multiple actions, resulting in the BC regularization-based approach easily suffering from either over-regularization or critic divergence. To address this, we propose a simple yet effective method, Behavior Cloning regularization with Critic Clipping (B3C), which clips the target critic value in policy evaluation based on the maximum return in the dataset and pushes the limit of the weight on the RL objective over BC regularization, thereby improving performance. Additionally, we leverage existing value factorization techniques, particularly non-linear factorization, which is understudied in offline settings. Integrated with non-linear value factorization, B3C outperforms state-of-the-art algorithms on various offline multi-agent benchmarks.",
+ "primary": "cs.LG"
+}

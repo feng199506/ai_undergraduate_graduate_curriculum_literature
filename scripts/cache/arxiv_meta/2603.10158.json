@@ -1,0 +1,23 @@
+{
+ "id": "2603.10158",
+ "title": "Cross-Hand Latent Representation for Vision-Language-Action Models",
+ "authors": [
+  "Guangqi Jiang",
+  "Yutong Liang",
+  "Jianglong Ye",
+  "Jia-Yang Huang",
+  "Changwei Jing",
+  "Rocky Duan",
+  "Pieter Abbeel",
+  "Xiaolong Wang",
+  "Xueyan Zou"
+ ],
+ "v1_date": "2026-03-10",
+ "latest_version": 1,
+ "latest_date": "2026-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Website: https://xl-vla.github.io",
+ "abstract": "Dexterous manipulation is essential for real-world robot autonomy, mirroring the central role of human hand coordination in daily activity. Humans rely on rich multimodal perception--vision, sound, and language-guided intent--to perform dexterous actions, motivating vision-based, language-conditioned manipulation systems for robots. However, training reliable vision-language-action (VLA) models for dexterous manipulation requires large-scale demonstrations across many robotic hands. In addition, as new dexterous embodiments appear rapidly, collecting data for each becomes costly and impractical, creating a need for scalable cross-embodiment learning. We introduce XL-VLA, a vision-language-action framework integrated with a unified latent action space shared across diverse dexterous hands. This embodiment-invariant latent space is directly pluggable into standard VLA architectures, enabling seamless cross-embodiment training and efficient reuse of both existing and newly collected data. Experimental results demonstrate that XL-VLA consistently outperforms baseline VLA models operating in raw joint spaces, establishing it as an effective solution for scalable cross-embodiment dexterous manipulation.",
+ "primary": "cs.RO"
+}

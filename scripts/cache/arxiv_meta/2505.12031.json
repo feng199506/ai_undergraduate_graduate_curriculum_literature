@@ -1,0 +1,23 @@
+{
+ "id": "2505.12031",
+ "title": "LLM-based Automated Theorem Proving Hinges on Scalable Synthetic Data Generation",
+ "authors": [
+  "Junyu Lai",
+  "Jiakun Zhang",
+  "Shuo Xu",
+  "Taolue Chen",
+  "Zihang Wang",
+  "Yao Yang",
+  "Jiarui Zhang",
+  "Chun Cao",
+  "Jingwei Xu"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 1,
+ "latest_date": "2025-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages",
+ "abstract": "Recent advancements in large language models (LLMs) have sparked considerable interest in automated theorem proving and a prominent line of research integrates stepwise LLM-based provers into tree search. In this paper, we introduce a novel proof-state exploration approach for training data synthesis, designed to produce diverse tactics across a wide range of intermediate proof states, thereby facilitating effective one-shot fine-tuning of LLM as the policy model. We also propose an adaptive beam size strategy, which effectively takes advantage of our data synthesis method and achieves a trade-off between exploration and exploitation during tree search. Evaluations on the MiniF2F and ProofNet benchmarks demonstrate that our method outperforms strong baselines under the stringent Pass@1 metric, attaining an average pass rate of $60.74\\%$ on MiniF2F and $21.18\\%$ on ProofNet. These results underscore the impact of large-scale synthetic data in advancing automated theorem proving.",
+ "primary": "cs.AI"
+}

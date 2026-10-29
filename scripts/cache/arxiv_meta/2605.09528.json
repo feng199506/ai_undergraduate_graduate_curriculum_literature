@@ -1,0 +1,16 @@
+{
+ "id": "2605.09528",
+ "title": "Cplus2ASP: Computing Action Language C+ in Answer Set Programming",
+ "authors": [
+  "Joseph Babb",
+  "Joohyung Lee"
+ ],
+ "v1_date": "2026-05-10",
+ "latest_version": 1,
+ "latest_date": "2026-05-10",
+ "journal_ref": "In Proceedings of the 12th International Conference on Logic Programming and Nonmonotonic Reasoning (LPNMR 2013), 122-134, 2013",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present Version 2 of system Cplus2ASP, which implements the definite fragment of action language C+. Its input language is fully compatible with the language of the Causal Calculator Version 2, but the new system is significantly faster thanks to modern answer set solving techniques. The translation implemented in the system is a composition of several recent theoretical results. The system orchestrates a tool chain, consisting of f2lp, clingo, iclingo, and as2transition. Under the incremental execution mode, the system translates a C+ description into the input language of iclingo, exploiting its incremental grounding mechanism. The correctness of this execution is justified by the module theorem extended to programs with nested expressions. In addition, the input language of the system has many useful features, such as external atoms by means of Lua calls and the user interactive mode. The system supports extensible multi-modal translations for other action languages, such as B and BC, as well.",
+ "primary": "cs.AI"
+}

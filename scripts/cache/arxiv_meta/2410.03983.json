@@ -1,0 +1,18 @@
+{
+ "id": "2410.03983",
+ "title": "MetricX-24: The Google Submission to the WMT 2024 Metrics Shared Task",
+ "authors": [
+  "Juraj Juraska",
+  "Daniel Deutsch",
+  "Mara Finkelstein",
+  "Markus Freitag"
+ ],
+ "v1_date": "2024-10-04",
+ "latest_version": 1,
+ "latest_date": "2024-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to WMT24",
+ "abstract": "In this paper, we present the MetricX-24 submissions to the WMT24 Metrics Shared Task and provide details on the improvements we made over the previous version of MetricX. Our primary submission is a hybrid reference-based/-free metric, which can score a translation irrespective of whether it is given the source segment, the reference, or both. The metric is trained on previous WMT data in a two-stage fashion, first on the DA ratings only, then on a mixture of MQM and DA ratings. The training set in both stages is augmented with synthetic examples that we created to make the metric more robust to several common failure modes, such as fluent but unrelated translation, or undertranslation. We demonstrate the benefits of the individual modifications via an ablation study, and show a significant performance increase over MetricX-23 on the WMT23 MQM ratings, as well as our new synthetic challenge set.",
+ "primary": "cs.CL"
+}

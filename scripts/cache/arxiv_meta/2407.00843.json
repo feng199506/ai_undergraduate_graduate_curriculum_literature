@@ -1,0 +1,16 @@
+{
+ "id": "2407.00843",
+ "title": "A Unified Approach to Extract Interpretable Rules from Tree Ensembles via Integer Programming",
+ "authors": [
+  "Lorenzo Bonasera",
+  "Emilio Carrizosa"
+ ],
+ "v1_date": "2024-06-30",
+ "latest_version": 3,
+ "latest_date": "2025-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "- Improved overall manuscript flow and clearness - Added related work on explanation fidelity - Added computational results on fidelity - Fixed some flaws on data inference - Optimization problem with weighted objectives - Added appendix containing qualitative examples - New computational results",
+ "abstract": "Tree ensembles are very popular machine learning models, known for their effectiveness in supervised classification and regression tasks. Their performance derives from aggregating predictions of multiple decision trees, which are renowned for their interpretability properties. However, tree ensemble models do not reliably exhibit interpretable output. Our work aims to extract an optimized list of rules from a trained tree ensemble, providing the user with a condensed, interpretable model that retains most of the predictive power of the full model. Our approach consists of solving a set partitioning problem formulated through Integer Programming. The proposed method works with either tabular or time series data, for both classification and regression tasks, and its flexible formulation can include any arbitrary loss or regularization functions. Our extensive computational experiments offer statistically significant evidence that our method is competitive with other rule extraction methods in terms of predictive performance and fidelity towards the tree ensemble. Moreover, we empirically show that the proposed method effectively extracts interpretable rules from tree ensemble that are designed for time series data.",
+ "primary": "math.OC"
+}

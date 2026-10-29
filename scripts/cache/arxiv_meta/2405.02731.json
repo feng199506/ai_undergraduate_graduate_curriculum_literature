@@ -1,0 +1,17 @@
+{
+ "id": "2405.02731",
+ "title": "Systematic Review: Anomaly Detection in Connected and Autonomous Vehicles",
+ "authors": [
+  "J. R. V. Solaas",
+  "N. Tuptuk",
+  "E. Mariconti"
+ ],
+ "v1_date": "2024-05-04",
+ "latest_version": 1,
+ "latest_date": "2024-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 2 tables, 5 figures",
+ "abstract": "This systematic review focuses on anomaly detection for connected and autonomous vehicles. The initial database search identified 2160 articles, of which 203 were included in this review after rigorous screening and assessment. This study revealed that the most commonly used Artificial Intelligence (AI) algorithms employed in anomaly detection are neural networks like LSTM, CNN, and autoencoders, alongside one-class SVM. Most anomaly-based models were trained using real-world operational vehicle data, although anomalies, such as attacks and faults, were often injected artificially into the datasets. These models were evaluated mostly using five key evaluation metrics: recall, accuracy, precision, F1-score, and false positive rate. The most frequently used selection of evaluation metrics used for anomaly detection models were accuracy, precision, recall, and F1-score. This systematic review presents several recommendations. First, there is a need to incorporate multiple evaluation metrics to provide a comprehensive assessment of the anomaly detection models. Second, only a small proportion of the studies have made their models open source, indicating a need to share models publicly to facilitate collaboration within the research community, and to validate and compare findings effectively. Third, there is a need for benchmarking datasets with predefined anomalies or cyberattacks to test and improve the effectiveness of the proposed anomaly-based detection models. Furthermore, there is a need for future research to investigate the deployment of anomaly detection to a vehicle to assess its performance on the road. There is a notable lack of research done on intrusion detection systems using different protocols to CAN, such as Ethernet and FlexRay.",
+ "primary": "cs.LG"
+}

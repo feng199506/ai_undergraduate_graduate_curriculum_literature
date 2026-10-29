@@ -1,0 +1,16 @@
+{
+ "id": "2404.12639",
+ "title": "Data-Incremental Continual Offline Reinforcement Learning",
+ "authors": [
+  "Sibo Gai",
+  "Donglin Wang"
+ ],
+ "v1_date": "2024-04-19",
+ "latest_version": 3,
+ "latest_date": "2024-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 9 figures",
+ "abstract": "In this work, we propose a new setting of continual learning: data-incremental continual offline reinforcement learning (DICORL), in which an agent is asked to learn a sequence of datasets of a single offline reinforcement learning (RL) task continually, instead of learning a sequence of offline RL tasks with respective datasets. Then, we propose that this new setting will introduce a unique challenge to continual learning: active forgetting, which means that the agent will forget the learnt skill actively. The main reason for active forgetting is conservative learning used by offline RL, which is used to solve the overestimation problem. With conservative learning, the offline RL method will suppress the value of all actions, learnt or not, without selection, unless it is in the just learning dataset. Therefore, inferior data may overlay premium data because of the learning sequence. To solve this problem, we propose a new algorithm, called experience-replay-based ensemble implicit Q-learning (EREIQL), which introduces multiple value networks to reduce the initial value and avoid using conservative learning, and the experience replay to relieve catastrophic forgetting. Our experiments show that EREIQL relieves active forgetting in DICORL and performs well.",
+ "primary": "cs.LG"
+}

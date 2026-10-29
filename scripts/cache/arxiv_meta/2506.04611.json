@@ -1,0 +1,21 @@
+{
+ "id": "2506.04611",
+ "title": "Revisiting Test-Time Scaling: A Survey and a Diversity-Aware Method for Efficient Reasoning",
+ "authors": [
+  "Ho-Lam Chung",
+  "Teng-Yun Hsiao",
+  "Hsiao-Ying Huang",
+  "Chunerh Cho",
+  "Jian-Ren Lin",
+  "Zhang Ziwei",
+  "Yun-Nung Chen"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 1,
+ "latest_date": "2025-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "emnlp 2025 submission",
+ "abstract": "Test-Time Scaling (TTS) improves the reasoning performance of Large Language Models (LLMs) by allocating additional compute during inference. We conduct a structured survey of TTS methods and categorize them into sampling-based, search-based, and trajectory optimization strategies. We observe that reasoning-optimized models often produce less diverse outputs, which limits TTS effectiveness. To address this, we propose ADAPT (A Diversity Aware Prefix fine-Tuning), a lightweight method that applies prefix tuning with a diversity-focused data strategy. Experiments on mathematical reasoning tasks show that ADAPT reaches 80% accuracy using eight times less compute than strong baselines. Our findings highlight the essential role of generative diversity in maximizing TTS effectiveness.",
+ "primary": "cs.CL"
+}

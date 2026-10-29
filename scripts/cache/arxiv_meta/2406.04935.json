@@ -1,0 +1,17 @@
+{
+ "id": "2406.04935",
+ "title": "SLOPE: Search with Learned Optimal Pruning-based Expansion",
+ "authors": [
+  "Davor Bokan",
+  "Zlatan Ajanovic",
+  "Bakir Lacevic"
+ ],
+ "v1_date": "2024-06-07",
+ "latest_version": 1,
+ "latest_date": "2024-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "presented at the ICAPS 2024 workshop on Bridging the Planning and Reinforcement Learning",
+ "abstract": "Heuristic search is often used for motion planning and pathfinding problems, for finding the shortest path in a graph while also promising completeness and optimal efficiency. The drawback is it's space complexity, specifically storing all expanded child nodes in memory and sorting large lists of active nodes, which can be a problem in real-time scenarios with limited on-board computation. To combat this, we present the Search with Learned Optimal Pruning-based Expansion (SLOPE), which, learns the distance of a node from a possible optimal path, unlike other approaches that learn a cost-to-go value. The unfavored nodes are then pruned according to the said distance, which in turn reduces the size of the open list. This ensures that the search explores only the region close to optimal paths while lowering memory and computational costs. Unlike traditional learning methods, our approach is orthogonal to estimating cost-to-go heuristics, offering a complementary strategy for improving search efficiency. We demonstrate the effectiveness of our approach evaluating it as a standalone search method and in conjunction with learned heuristic functions, achieving comparable-or-better node expansion metrics, while lowering the number of child nodes in the open list. Our code is available at https://github.com/dbokan1/SLOPE.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2606.22978",
+ "title": "Joint Air Traffic Flow and Capacity Management via Answer Set Programming",
+ "authors": [
+  "Alexander Beiser",
+  "Markus Hecher",
+  "Nysret Musliu",
+  "Stefan Woltran"
+ ],
+ "v1_date": "2026-06-22",
+ "latest_version": 1,
+ "latest_date": "2026-06-22",
+ "journal_ref": "Proceedings of the 18th International Conference on Logic Programming and Nonmonotonic Reasoning, LPNMR 2026. Klagenfurt, Austria",
+ "doi": "",
+ "comment": "This is the version including the appendix/supplementary material",
+ "abstract": "Operational Air Traffic Flow and Capacity Management (ATFCM) balances flight demand with available sector capacity, to ensure safe and efficient operations. Mathematical models enhance operational ATFCM performance by framing demand-capacity balancing as an optimization problem, maximizing efficiency while adhering to safety constraints. However, SOTA research optimizes the aircraft trajectories (called ATFM) or the sector configuration (called DAC) separately. This leaves a research gap of whether joint optimization of ATFM and DAC can bring benefits. We partially address this limitation by introducing a joint ATFCM model with an encoding in Answer Set Programming (ASP). The ASP implementation is evaluated against two baselines applied to our joint model: a SOTA Mixed Integer Programming (MIP) model and an iterative CASA-based heuristic. Computational experiments utilize an instance generator fitted to historical OpenSky Network flight data. Our results indicate that the ASP model outperforms the MIP model, while ASP remains competitive against heuristics on small instances. Furthermore, while DAC has the largest improvement on solving performance compared to rerouting and delaying, unrestricted variants of DAC or rerouting lead to search space thrashing.",
+ "primary": "cs.AI"
+}

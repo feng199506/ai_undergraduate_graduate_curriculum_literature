@@ -1,0 +1,17 @@
+{
+ "id": "2312.09844",
+ "title": "Small Dataset, Big Gains: Enhancing Reinforcement Learning by Offline Pre-Training with Model Based Augmentation",
+ "authors": [
+  "Girolamo Macaluso",
+  "Alessandro Sestini",
+  "Andrew D. Bagdanov"
+ ],
+ "v1_date": "2023-12-15",
+ "latest_version": 2,
+ "latest_date": "2023-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Offline reinforcement learning leverages pre-collected datasets of transitions to train policies. It can serve as effective initialization for online algorithms, enhancing sample efficiency and speeding up convergence. However, when such datasets are limited in size and quality, offline pre-training can produce sub-optimal policies and lead to degraded online reinforcement learning performance. In this paper we propose a model-based data augmentation strategy to maximize the benefits of offline reinforcement learning pre-training and reduce the scale of data needed to be effective. Our approach leverages a world model of the environment trained on the offline dataset to augment states during offline pre-training. We evaluate our approach on a variety of MuJoCo robotic tasks and our results show it can jump-start online fine-tuning and substantially reduce - in some cases by an order of magnitude - the required number of environment interactions.",
+ "primary": "cs.LG"
+}

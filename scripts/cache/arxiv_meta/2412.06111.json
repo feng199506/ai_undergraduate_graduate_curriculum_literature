@@ -1,0 +1,16 @@
+{
+ "id": "2412.06111",
+ "title": "Randomized algorithms for streaming low-rank approximation in tree tensor network format",
+ "authors": [
+  "Alberto Bucci",
+  "Gianfranco Verzella"
+ ],
+ "v1_date": "2024-12-09",
+ "latest_version": 1,
+ "latest_date": "2024-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we present the tree tensor network Nyström (TTNN), an algorithm that extends recent research on streamable tensor approximation, such as for Tucker and tensor-train formats, to the more general tree tensor network format, enabling a unified treatment of various existing methods. Our method retains the key features of the generalized Nyström approximation for matrices, that is randomized, single-pass, streamable, and cost-effective. Additionally, the structure of the sketching allows for parallel implementation. We provide a deterministic error bound for the algorithm and, in the specific case of Gaussian dimension reduction maps, also a probabilistic one. We also introduce a sequential variant of the algorithm, referred to as sequential tree tensor network Nyström (STTNN), which offers better performance for dense tensors. Furthermore, both algorithms are well-suited for the recompression or rounding of tensors in the tree tensor network format. Numerical experiments highlight the efficiency and effectiveness of the proposed methods.",
+ "primary": "math.NA"
+}

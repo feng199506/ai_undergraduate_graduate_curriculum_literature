@@ -1,0 +1,19 @@
+{
+ "id": "2504.05150",
+ "title": "A Reinforcement Learning Method for Environments with Stochastic Variables: Post-Decision Proximal Policy Optimization with Dual Critic Networks",
+ "authors": [
+  "Leonardo Kanashiro Felizardo",
+  "Edoardo Fadda",
+  "Paolo Brandimarte",
+  "Emilio Del-Moral-Hernandez",
+  "Mariá Cristina Vasconcelos Nascimento"
+ ],
+ "v1_date": "2025-04-07",
+ "latest_version": 2,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "10.1109/ijcnn64981.2025.11227565",
+ "comment": "12 pages, 4 figures. Accepted for presentation at IJCNN 2025",
+ "abstract": "This paper presents Post-Decision Proximal Policy Optimization (PDPPO), a novel variation of the leading deep reinforcement learning method, Proximal Policy Optimization (PPO). The PDPPO state transition process is divided into two steps: a deterministic step resulting in the post-decision state and a stochastic step leading to the next state. Our approach incorporates post-decision states and dual critics to reduce the problem's dimensionality and enhance the accuracy of value function estimation. Lot-sizing is a mixed integer programming problem for which we exemplify such dynamics. The objective of lot-sizing is to optimize production, delivery fulfillment, and inventory levels in uncertain demand and cost parameters. This paper evaluates the performance of PDPPO across various environments and configurations. Notably, PDPPO with a dual critic architecture achieves nearly double the maximum reward of vanilla PPO in specific scenarios, requiring fewer episode iterations and demonstrating faster and more consistent learning across different initializations. On average, PDPPO outperforms PPO in environments with a stochastic component in the state transition. These results support the benefits of using a post-decision state. Integrating this post-decision state in the value function approximation leads to more informed and efficient learning in high-dimensional and stochastic environments.",
+ "primary": "cs.LG"
+}

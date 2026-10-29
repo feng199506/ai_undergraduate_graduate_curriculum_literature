@@ -1,0 +1,15 @@
+{
+ "id": "2501.00539",
+ "title": "MCP-Solver: Integrating Language Models with Constraint Programming Systems",
+ "authors": [
+  "Stefan Szeider"
+ ],
+ "v1_date": "2024-12-31",
+ "latest_version": 2,
+ "latest_date": "2025-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The MCP Solver bridges Large Language Models (LLMs) with symbolic solvers through the Model Context Protocol (MCP), an open-source standard for AI system integration. Providing LLMs access to formal solving and reasoning capabilities addresses their key deficiency while leveraging their strengths. Our implementation offers interfaces for constraint programming (Minizinc), propositional satisfiability (PySAT), and SAT modulo Theories (Python Z3). The system employs an editing approach with iterated validation to ensure model consistency during modifications and enable structured refinement.",
+ "primary": "cs.AI"
+}

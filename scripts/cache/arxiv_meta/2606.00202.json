@@ -1,0 +1,19 @@
+{
+ "id": "2606.00202",
+ "title": "From Rashomon Theory to PRAXIS: Efficient Decision Tree Rashomon Sets",
+ "authors": [
+  "Zakk Heile",
+  "Hayden McTavish",
+  "Varun Babbar",
+  "Margo Seltzer",
+  "Cynthia Rudin"
+ ],
+ "v1_date": "2026-05-29",
+ "latest_version": 2,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026",
+ "abstract": "Standard machine learning pipelines often admit many near-optimal models. These \"Rashomon sets\" pose a range of challenges and opportunities for uncertainty-aware, robust decision making. They allow users to incorporate domain knowledge and preferences that would otherwise be difficult to specify directly in an objective, and they quantify diversity among valid models for a given training dataset and objective function. However, computation of Rashomon sets, even for simple, interpretable model classes such as sparse decision trees, continues to require immense memory and runtime resources. We present PRAXIS, an algorithm to approximate this Rashomon set with orders of magnitude improvement in runtime and memory usage. We validate that PRAXIS regularly recovers almost all of the full Rashomon set. PRAXIS allows researchers and practitioners to scalably model the Rashomon set for real-world datasets. Code for PRAXIS is available at https://github.com/zakk-h/PRAXIS",
+ "primary": "cs.LG"
+}

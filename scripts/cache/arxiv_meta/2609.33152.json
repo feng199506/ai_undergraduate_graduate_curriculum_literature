@@ -1,0 +1,19 @@
+{
+ "id": "2609.33152",
+ "title": "Convergence of Practical Muon",
+ "authors": [
+  "Haonan Wang",
+  "Yu Wu",
+  "Minghui Liwang",
+  "Xinlei Yi",
+  "Yiguang Hong"
+ ],
+ "v1_date": "2026-09-27",
+ "latest_version": 1,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Muon is emerging as a promising alternative to AdamW for large-scale neural network training, yet theoretical understanding of its practical implementation remains incomplete, as existing analyses often simplify or omit two key components: (i) practical Newton--Schulz iterations with empirically tuned polynomial coefficients $(3.4445,-4.7750,2.0315)$; and (ii) decoupled weight decay for regularization. In this paper, we provide an optimization interpretation and establish convergence for practical Muon, jointly accounting for both components. Specifically, we interpret practical Muon as right-preconditioned optimization of the original loss with a dynamic weighted $\\ell_2$ regularizer that vanishes as stationarity is approached, so that the optimization target remains the original objective. We then establish, to our best knowledge, the first convergence guarantee for practical Muon in the stochastic nonconvex setting, with an $\\mathcal{O}(T^{-1/4})$ convergence rate in terms of the expected Frobenius norm of the gradient, improving the dimension dependence of the best known AdamW's convergence rate by a factor of $\\sqrt{d}$, where $T$ is the iteration horizon and $d$ is the parameter dimension. Experiments further support the theoretical convergence results.",
+ "primary": "cs.LG"
+}

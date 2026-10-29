@@ -1,0 +1,25 @@
+{
+ "id": "2603.09542",
+ "title": "NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models",
+ "authors": [
+  "Ziyue Zhu",
+  "Shangyang Wu",
+  "Shuai Zhao",
+  "Zhiqiu Zhao",
+  "Jian Zhang",
+  "Shengjie Li",
+  "Yi Wang",
+  "Anh Tuan Luu",
+  "Xinliang Zhou",
+  "Fang Li",
+  "Haoran Luo"
+ ],
+ "v1_date": "2026-03-10",
+ "latest_version": 3,
+ "latest_date": "2026-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 10 figures, 2 tables. Removed the submission checklist; the scientific content is unchanged from v2. Project page: https://zuzuzzy.github.io/NS-VLA/",
+ "abstract": "Vision-Language-Action (VLA) models are formulated to ground instructions in visual context and generate action sequences for robotic manipulation. Despite recent progress, VLA models still face structure-blind backbones, backbone-bound generalization, and flat single-objective optimization. To address these challenges, we propose a novel Neuro-Symbolic Vision-Language-Action (NS-VLA) framework. It introduces a Neuro-Symbolic Encoder for plan-constrained primitive inference, a Neuro-Symbolic Solver that conditions a backbone-agnostic policy on the active primitive, and Hierarchical Joint Policy Optimization with reward-granularity matching. Experiments on robotic manipulation benchmarks demonstrate that NS-VLA outperforms previous methods in both one-shot training and data-perturbed settings, while simultaneously exhibiting superior zero-shot generalizability and expanded exploration space. Our code is publicly available.",
+ "primary": "cs.RO"
+}

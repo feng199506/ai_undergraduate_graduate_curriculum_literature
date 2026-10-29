@@ -1,0 +1,24 @@
+{
+ "id": "2604.23988",
+ "title": "Hindsight Preference Optimization for Financial Time Series Advisory",
+ "authors": [
+  "Yanwei Cui",
+  "Guanghui Wang",
+  "Xing Zhang",
+  "Peiyang He",
+  "Ziyuan Li",
+  "Bing Zhu",
+  "Wei Qiu",
+  "Xusheng Wang",
+  "Zheng Yu",
+  "Anqi Xin"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICLR 2026 TSALM Workshop",
+ "abstract": "Time series models predict numbers; decision-makers need advisory -- directional signals with reasoning, actionable suggestions, and risk management. Training language models for such predictive advisory faces a fundamental challenge: quality depends on outcomes unknown at prediction time. We bridge two ideas from reinforcement learning -- using information unavailable during execution to retrospectively generate training signal, and preference alignment -- and propose Hindsight Preference Optimization: observed outcomes let an LLM judge rank candidate advisories on dimensions that scalar metrics cannot capture, producing preference pairs for DPO without human annotation. We apply this to Vision-Language-Model-based predictive advisories on S&P 500 equity time series, demonstrated by a 4B model outperforming its 235B teacher on both accuracy and advisory quality.",
+ "primary": "cs.LG"
+}

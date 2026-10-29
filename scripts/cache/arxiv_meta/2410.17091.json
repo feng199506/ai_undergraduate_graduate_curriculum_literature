@@ -1,0 +1,15 @@
+{
+ "id": "2410.17091",
+ "title": "Randomized methods for dynamical low-rank approximation",
+ "authors": [
+  "Benjamin Carrel"
+ ],
+ "v1_date": "2024-10-22",
+ "latest_version": 3,
+ "latest_date": "2025-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "In version 3, minor modifications have been made to the text and typos were corrected",
+ "abstract": "We introduce novel dynamical low-rank methods for solving large-scale matrix differential equations, motivated by algorithms from randomized numerical linear algebra. In terms of performance (cost and accuracy), our methods overperform existing dynamical low-rank techniques. Several applications to stiff differential equations demonstrate the robustness, accuracy and low variance of the new methods, despite their inherent randomness. Allowing augmentation of the range and corange, the new methods have a good potential for preserving critical physical quantities such as the energy, mass and momentum. Numerical experiments on the Vlasov-Poisson equation are particularly encouraging. The new methods comprise two essential steps: a range estimation step followed by a post-processing step. The range estimation is achieved through a novel dynamical rangefinder method. Subsequently, we propose two methods for post-processing, leading to two time-stepping methods: dynamical randomized singular value decomposition (DRSVD) and dynamical generalized Nyström (DGN). The new methods naturally extend to the rank-adaptive framework by estimating the error via Gaussian sampling.",
+ "primary": "math.NA"
+}

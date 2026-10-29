@@ -1,0 +1,27 @@
+{
+ "id": "2402.17733",
+ "title": "Tower: An Open Multilingual Large Language Model for Translation-Related Tasks",
+ "authors": [
+  "Duarte M. Alves",
+  "José Pombal",
+  "Nuno M. Guerreiro",
+  "Pedro H. Martins",
+  "João Alves",
+  "Amin Farajian",
+  "Ben Peters",
+  "Ricardo Rei",
+  "Patrick Fernandes",
+  "Sweta Agrawal",
+  "Pierre Colombo",
+  "José G. C. de Souza",
+  "André F. T. Martins"
+ ],
+ "v1_date": "2024-02-27",
+ "latest_version": 1,
+ "latest_date": "2024-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While general-purpose large language models (LLMs) demonstrate proficiency on multiple tasks within the domain of translation, approaches based on open LLMs are competitive only when specializing on a single task. In this paper, we propose a recipe for tailoring LLMs to multiple tasks present in translation workflows. We perform continued pretraining on a multilingual mixture of monolingual and parallel data, creating TowerBase, followed by finetuning on instructions relevant for translation processes, creating TowerInstruct. Our final model surpasses open alternatives on several tasks relevant to translation workflows and is competitive with general-purpose closed LLMs. To facilitate future research, we release the Tower models, our specialization dataset, an evaluation framework for LLMs focusing on the translation ecosystem, and a collection of model generations, including ours, on our benchmark.",
+ "primary": "cs.CL"
+}

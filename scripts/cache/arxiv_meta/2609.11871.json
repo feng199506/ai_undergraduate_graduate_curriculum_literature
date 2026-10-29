@@ -1,0 +1,21 @@
+{
+ "id": "2609.11871",
+ "title": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance",
+ "authors": [
+  "Jiaming Zhong",
+  "Reza Valiollahi Mehrizi",
+  "Mohammad Pirani",
+  "Chao Yu",
+  "Alireza Kasaiezadeh",
+  "Yash Vardhan Pant",
+  "Amir Khajepour"
+ ],
+ "v1_date": "2026-09-10",
+ "latest_version": 1,
+ "latest_date": "2026-09-10",
+ "journal_ref": "IEEE Transactions on Intelligent Transportation Systems, vol. 25, no. 11, pp. 17482-17492, November 2024",
+ "doi": "10.1109/tits.2024.3435551",
+ "comment": "12 pages. Author accepted manuscript",
+ "abstract": "Agent-based model predictive control (AMPC) has recently been proposed as a distributed scheme that collaborates with all agents to achieve optimal holistic performance. However, its optimality highly depends on the prediction accuracy that requires all agents or their contributions to be known, which is too idealistic for actual implementation. This research proposes a novel practical hybrid control scheme - learning agent-based MPC (LAMPC), combining the model-based AMPC approach and data-based learning methods to improve the holistic vehicle performance for multi-agent systems. The Gaussian process regression (GPR) enhanced by an online data management strategy serves as the learning core to predict unknown contributions. A novel multi-step prediction mechanism leverages the GPR learning potential along the horizon. The predicted mean, representing the learned unknown contributions, completes the system model in the MPC for more accurate control. Meanwhile, a stochastic framework is formulated to guarantee control safety and feasibility using soft chance constraints based on the prediction variance. Both simulations and experiments show that, with the learning capability, LAMPC outperforms the traditional AMPC. LAMPC can achieve higher tracking performance in well-learned scenarios and always guarantee constraint satisfaction even in less-learned scenarios. Moreover, the proposed hybrid control scheme is efficient for real-time implementation and is flexible to any control agent topology.",
+ "primary": "cs.RO"
+}

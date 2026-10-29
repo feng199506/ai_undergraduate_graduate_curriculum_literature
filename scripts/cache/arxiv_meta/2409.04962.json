@@ -1,0 +1,21 @@
+{
+ "id": "2409.04962",
+ "title": "A foundation model enpowered by a multi-modal prompt engine for universal seismic geobody interpretation across surveys",
+ "authors": [
+  "Hang Gao",
+  "Xinming Wu",
+  "Luming Liang",
+  "Hanlin Sheng",
+  "Xu Si",
+  "Gao Hui",
+  "Yaxing Li"
+ ],
+ "v1_date": "2024-09-08",
+ "latest_version": 2,
+ "latest_date": "2024-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Seismic geobody interpretation is crucial for structural geology studies and various engineering applications. Existing deep learning methods show promise but lack support for multi-modal inputs and struggle to generalize to different geobody types or surveys. We introduce a promptable foundation model for interpreting any geobodies across seismic surveys. This model integrates a pre-trained vision foundation model (VFM) with a sophisticated multi-modal prompt engine. The VFM, pre-trained on massive natural images and fine-tuned on seismic data, provides robust feature extraction for cross-survey generalization. The prompt engine incorporates multi-modal prior information to iteratively refine geobody delineation. Extensive experiments demonstrate the model's superior accuracy, scalability from 2D to 3D, and generalizability to various geobody types, including those unseen during training. To our knowledge, this is the first highly scalable and versatile multi-modal foundation model capable of interpreting any geobodies across surveys while supporting real-time interactions. Our approach establishes a new paradigm for geoscientific data interpretation, with broad potential for transfer to other tasks.",
+ "primary": "physics.geo-ph"
+}

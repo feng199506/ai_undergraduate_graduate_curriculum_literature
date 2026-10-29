@@ -1,0 +1,17 @@
+{
+ "id": "2412.00300",
+ "title": "Aligning LLM+PDDL Symbolic Plans with Human Objective Specifications through Evolutionary Algorithm Guidance",
+ "authors": [
+  "Owen Burns",
+  "Dana Hughes",
+  "Katia Sycara"
+ ],
+ "v1_date": "2024-11-30",
+ "latest_version": 2,
+ "latest_date": "2025-10-09",
+ "journal_ref": "2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, 2025, pp. 1584-1590",
+ "doi": "10.1109/case58245.2025.11163939",
+ "comment": "7 pages, 5 figures",
+ "abstract": "Automated planning using a symbolic planning language, such as PDDL, is a general approach to producing optimal plans to achieve a stated goal. However, creating suitable machine understandable descriptions of the planning domain, problem, and goal requires expertise in the planning language, limiting the utility of these tools for non-expert humans. Recent efforts have explored utilizing a symbolic planner in conjunction with a large language model to generate plans from natural language descriptions given by a non-expert human (LLM+PDDL). Our approach performs initial translation of goal specifications to a set of PDDL goal constraints using an LLM; such translations often result in imprecise symbolic specifications, which are difficult to validate directly. We account for this using an evolutionary approach to generate a population of symbolic goal specifications with slight differences from the initial translation, and utilize a trained LSTM-based validation model to assess whether each induced plan in the population adheres to the natural language specifications. We evaluate our approach on a collection of prototypical specifications in a notional naval disaster recovery task, and demonstrate that our evolutionary approach improve adherence of generated plans to natural language specifications when compared to plans generated using only LLM translations. The code for our method can be found at https://github.com/owenonline/PlanCritic.",
+ "primary": "cs.AI"
+}

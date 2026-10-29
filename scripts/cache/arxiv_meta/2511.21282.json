@@ -1,0 +1,15 @@
+{
+ "id": "2511.21282",
+ "title": "Learning Across Experiments and Time: Tackling Heterogeneity in A/B Testing",
+ "authors": [
+  "Xinran Li"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 1,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A/B testing plays a central role in data-driven product development, guiding launch decisions for new features and designs. However, treatment effect estimates are often noisy due to short horizons, early stopping, and slowly accumulating long-tail metrics, making early conclusions unreliable. A natural remedy is to pool information across related experiments, but naive pooling potentially fails: within experiments, treatment effects may evolve over time, so mixing early and late outcomes without accounting for nonstationarity induces bias; across experiments, heterogeneity in product, user population, or season dilutes the signal with unrelated noise. These issues highlight the need for pooling strategies that adapt to both temporal evolution and cross-experiment variability. To address these challenges, we propose a local empirical Bayes framework that adapts to both temporal and cross-experiment heterogeneity. Throughout an experiment's timeline, our method builds a tailored comparison set: time-aware within the experiment to respect nonstationarity, and context-aware across experiments to draw only from comparable counterparts. The estimator then borrows strength selectively from this set, producing stabilized treatment effect estimates that remain sensitive to both time dynamics and experimental context. Through theoretical analysis and empirical evaluation, we show that the proposed local pooling strategy consistently outperforms global pooling by reducing variance while avoiding bias. Our proposed framework enhances the reliability of A/B testing under practical constraints, thereby enabling more timely and informed decision-making.",
+ "primary": "stat.ME"
+}

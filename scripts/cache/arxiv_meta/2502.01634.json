@@ -1,0 +1,18 @@
+{
+ "id": "2502.01634",
+ "title": "Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data",
+ "authors": [
+  "Huawei Lin",
+  "Jun Woo Chung",
+  "Yingjie Lao",
+  "Weijie Zhao"
+ ],
+ "v1_date": "2025-02-03",
+ "latest_version": 1,
+ "latest_date": "2025-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 11 figures, 16 tables. Keywords: Decremental Learning, Incremental Learning, Machine Unlearning, Online Learning, Gradient Boosting Decision Trees, GBDTs",
+ "abstract": "Gradient Boosting Decision Tree (GBDT) is one of the most popular machine learning models in various applications. However, in the traditional settings, all data should be simultaneously accessed in the training procedure: it does not allow to add or delete any data instances after training. In this paper, we propose an efficient online learning framework for GBDT supporting both incremental and decremental learning. To the best of our knowledge, this is the first work that considers an in-place unified incremental and decremental learning on GBDT. To reduce the learning cost, we present a collection of optimizations for our framework, so that it can add or delete a small fraction of data on the fly. We theoretically show the relationship between the hyper-parameters of the proposed optimizations, which enables trading off accuracy and cost on incremental and decremental learning. The backdoor attack results show that our framework can successfully inject and remove backdoor in a well-trained model using incremental and decremental learning, and the empirical results on public datasets confirm the effectiveness and efficiency of our proposed online learning framework and optimizations.",
+ "primary": "cs.LG"
+}

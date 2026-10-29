@@ -1,0 +1,17 @@
+{
+ "id": "2602.06533",
+ "title": "LogicSkills: A Structured Benchmark for Formal Reasoning in Large Language Models",
+ "authors": [
+  "Brian Rabern",
+  "Philipp Mondorf",
+  "Barbara Plank"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 3,
+ "latest_date": "2026-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EMNLP 2026, 13 pages, 5 figures",
+ "abstract": "Large language models perform well on many logical reasoning benchmarks, but it remains unclear which core logical skills they truly master. To address this, we introduce LogicSkills, a benchmark that isolates three fundamental logical skills: (i) $\\textit{formal symbolization}\\unicode{x2014}{}$translating premises into first-order logic; (ii) $\\textit{countermodel construction}\\unicode{x2014}$showing that an argument is logically invalid by constructing a finite countermodel; and (iii) $\\textit{validity assessment}\\unicode{x2014}$determining whether a conclusion follows from a set of premises. Items are drawn from the two-variable fragment of first-order logic without identity and are presented in both English and a Carrollian nonce-word language. All instances are solver-verified with Z3 for correctness and non-triviality. Across conventional instruction-tuned LLMs, performance is high on $\\textit{validity assessment}$ but substantially lower on $\\textit{formal symbolization}$ and $\\textit{countermodel construction}$, highlighting that high task-level accuracy can mask weaknesses in core logical skills. In contrast, recent reasoning-tuned models perform strongly across all three tasks, suggesting a more systematic logical skill profile.",
+ "primary": "cs.AI"
+}

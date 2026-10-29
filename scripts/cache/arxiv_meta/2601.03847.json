@@ -1,0 +1,16 @@
+{
+ "id": "2601.03847",
+ "title": "xDNN(ASP): Explanation Generation System for Deep Neural Networks powered by Answer Set Programming",
+ "authors": [
+  "Ly Ly Trieu",
+  "Tran Cao Son"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 1,
+ "latest_date": "2026-01-07",
+ "journal_ref": "EPTCS 439, 2026, pp. 438-452",
+ "doi": "10.4204/eptcs.439.30",
+ "comment": "In Proceedings ICLP 2025, arXiv:2601.00047",
+ "abstract": "Explainable artificial intelligence (xAI) has gained significant attention in recent years. Among other things, explainablility for deep neural networks has been a topic of intensive research due to the meteoric rise in prominence of deep neural networks and their \"black-box\" nature. xAI approaches can be characterized along different dimensions such as their scope (global versus local explanations) or underlying methodologies (statistic-based versus rule-based strategies). Methods generating global explanations aim to provide reasoning process applicable to all possible output classes while local explanation methods focus only on a single, specific class. SHAP (SHapley Additive exPlanations), a well-known statistical technique, identifies important features of a network. Deep neural network rule extraction method constructs IF-THEN rules that link input conditions to a class. Another approach focuses on generating counterfactuals which help explain how small changes to an input can affect the model's predictions. However, these techniques primarily focus on the input-output relationship and thus neglect the structure of the network in explanation generation. In this work, we propose xDNN(ASP), an explanation generation system for deep neural networks that provides global explanations. Given a neural network model and its training data, xDNN(ASP) extracts a logic program under answer set semantics that-in the ideal case-represents the trained model, i.e., answer sets of the extracted program correspond one-to-one to input-output pairs of the network. We demonstrate experimentally, using two synthetic datasets, that not only the extracted logic program maintains a high-level of accuracy in the prediction task, but it also provides valuable information for the understanding of the model such as the importance of features as well as the impact of hidden nodes on the prediction. The latter can be used as a guide for reducing the number of nodes used in hidden layers, i.e., providing a means for optimizing the network.",
+ "primary": "cs.AI"
+}

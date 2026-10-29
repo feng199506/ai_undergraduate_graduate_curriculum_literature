@@ -1,0 +1,15 @@
+{
+ "id": "2501.14329",
+ "title": "K-Anonymous A/B Testing",
+ "authors": [
+  "Matthew Gershoff"
+ ],
+ "v1_date": "2025-01-24",
+ "latest_version": 1,
+ "latest_date": "2025-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 7 tables",
+ "abstract": "A core principle of Privacy by Design (PbD) is minimizing the data that is stored or shared about each individual respondent. PbD principles are mandated by the GDPR (see Article 5c and Article 25), as well as informing aspects of California Privacy Rights Act (CPRA). This paper describes a simple and effective approach that can be used in many a/b testing and similar contexts to help meet these PbD goals. Specifically, the method presented describes an approach to run OLS regression on k-anonymized data. To help illustrate the general utility of this approach, descriptions of two important use cases are offered: 1) calculating partial f-tests as a simple way to both check for a/b test interactions and to test for heterogeneity of treatment effects; and 2) regression adjustment using an approach similar to the popular CUPED method, as a variance reduction method for a/b tests. Using this method has advantages for privacy and compliance, as well as often reducing data storage and processing costs, by storing, sharing, or analyzing only aggregate level rather than individual level data.",
+ "primary": "stat.AP"
+}

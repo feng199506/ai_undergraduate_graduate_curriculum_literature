@@ -1,0 +1,17 @@
+{
+ "id": "2504.19625",
+ "title": "Rulebook: bringing co-routines to reinforcement learning environments",
+ "authors": [
+  "Massimo Fioravanti",
+  "Samuele Pasini",
+  "Giovanni Agosta"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 1,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reinforcement learning (RL) algorithms, due to their reliance on external systems to learn from, require digital environments (e.g., simulators) with very simple interfaces, which in turn constrain significantly the implementation of such environments. In particular, these environments are implemented either as separate processes or as state machines, leading to synchronization and communication overheads in the first case, and to unstructured programming in the second. We propose a new domain-specific, co-routine-based, compiled language, called Rulebook, designed to automatically generate the state machine required to interact with machine learning (ML) algorithms and similar applications, with no performance overhead. Rulebook allows users to express programs without needing to be aware of the specific interface required by the ML components. By decoupling the execution model of the program from the syntactical encoding of the program, and thus without the need for manual state management, Rulebook allows to create larger and more sophisticated environments at a lower development cost.",
+ "primary": "cs.PL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2312.05397",
+ "title": "On the Performance of Temporal Difference Learning With Neural Networks",
+ "authors": [
+  "Haoxing Tian",
+  "Ioannis Ch. Paschalidis",
+  "Alex Olshevsky"
+ ],
+ "v1_date": "2023-12-08",
+ "latest_version": 1,
+ "latest_date": "2023-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neural Temporal Difference (TD) Learning is an approximate temporal difference method for policy evaluation that uses a neural network for function approximation. Analysis of Neural TD Learning has proven to be challenging. In this paper we provide a convergence analysis of Neural TD Learning with a projection onto $B(θ_0, ω)$, a ball of fixed radius $ω$ around the initial point $θ_0$. We show an approximation bound of $O(ε) + \\tilde{O} (1/\\sqrt{m})$ where $ε$ is the approximation quality of the best neural network in $B(θ_0, ω)$ and $m$ is the width of all hidden layers in the network.",
+ "primary": "cs.LG"
+}

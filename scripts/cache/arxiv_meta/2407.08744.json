@@ -1,0 +1,17 @@
+{
+ "id": "2407.08744",
+ "title": "Toward Efficient Deep Spiking Neuron Networks:A Survey On Compression",
+ "authors": [
+  "Hui Xie",
+  "Ge Yang",
+  "Wenjuan Gao"
+ ],
+ "v1_date": "2024-06-03",
+ "latest_version": 1,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the rapid development of deep learning, Deep Spiking Neural Networks (DSNNs) have emerged as promising due to their unique spike event processing and asynchronous computation. When deployed on neuromorphic chips, DSNNs offer significant power advantages over Deep Artificial Neural Networks (DANNs) and eliminate time and energy consuming multiplications due to the binary nature of spikes (0 or 1). Additionally, DSNNs excel in processing temporal information, making them potentially superior for handling temporal data compared to DANNs. However, their deep network structure and numerous parameters result in high computational costs and energy consumption, limiting real-life deployment. To enhance DSNNs efficiency, researchers have adapted methods from DANNs, such as pruning, quantization, and knowledge distillation, and developed specific techniques like reducing spike firing and pruning time steps. While previous surveys have covered DSNNs algorithms, hardware deployment, and general overviews, focused research on DSNNs compression and efficiency has been lacking. This survey addresses this gap by concentrating on efficient DSNNs and their compression methods. It begins with an exploration of DSNNs' biological background and computational units, highlighting differences from DANNs. It then delves into various compression methods, including pruning, quantization, knowledge distillation, and reducing spike firing, and concludes with suggestions for future research directions.",
+ "primary": "cs.NE"
+}

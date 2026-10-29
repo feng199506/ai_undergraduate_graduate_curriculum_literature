@@ -1,0 +1,18 @@
+{
+ "id": "2311.08526",
+ "title": "GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer",
+ "authors": [
+  "Urchade Zaratiana",
+  "Nadi Tomeh",
+  "Pierre Holat",
+  "Thierry Charnois"
+ ],
+ "v1_date": "2023-11-14",
+ "latest_version": 1,
+ "latest_date": "2023-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Work in progress",
+ "abstract": "Named Entity Recognition (NER) is essential in various Natural Language Processing (NLP) applications. Traditional NER models are effective but limited to a set of predefined entity types. In contrast, Large Language Models (LLMs) can extract arbitrary entities through natural language instructions, offering greater flexibility. However, their size and cost, particularly for those accessed via APIs like ChatGPT, make them impractical in resource-limited scenarios. In this paper, we introduce a compact NER model trained to identify any type of entity. Leveraging a bidirectional transformer encoder, our model, GLiNER, facilitates parallel entity extraction, an advantage over the slow sequential token generation of LLMs. Through comprehensive testing, GLiNER demonstrate strong performance, outperforming both ChatGPT and fine-tuned LLMs in zero-shot evaluations on various NER benchmarks.",
+ "primary": "cs.CL"
+}

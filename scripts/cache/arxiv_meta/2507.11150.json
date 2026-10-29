@@ -1,0 +1,18 @@
+{
+ "id": "2507.11150",
+ "title": "Fine-grained Timing Analysis of Digital Integrated Circuits in Answer Set Programming",
+ "authors": [
+  "Alessandro Bertagnon",
+  "Marcello Dalpasso",
+  "Michele Favalli",
+  "Marco Gavanelli"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 1,
+ "latest_date": "2025-07-15",
+ "journal_ref": "Theory and Practice of Logic Programming 25 (2025) 522-539",
+ "doi": "10.1017/s1471068425100288",
+ "comment": "Accepted for publication in the issues of Theory and Practice of Logic Programming (TPLP) dedicated to ICLP 2025, 16 pages, 9 figures",
+ "abstract": "In the design of integrated circuits, one critical metric is the maximum delay introduced by combinational modules within the circuit. This delay is crucial because it represents the time required to perform a computation: in an Arithmetic-Logic Unit it represents the maximum time taken by the circuit to perform an arithmetic operation. When such a circuit is part of a larger, synchronous system, like a CPU, the maximum delay directly impacts the maximum clock frequency of the entire system. Typically, hardware designers use Static Timing Analysis to compute an upper bound of the maximum delay because it can be determined in polynomial time. However, relying on this upper bound can lead to suboptimal processor speeds, thereby missing performance opportunities. In this work, we tackle the challenging task of computing the actual maximum delay, rather than an approximate value. Since the problem is computationally hard, we model it in Answer Set Programming (ASP), a logic language featuring extremely efficient solvers. We propose non-trivial encodings of the problem into ASP. Experimental results show that ASP is a viable solution to address complex problems in hardware design.",
+ "primary": "cs.AI"
+}

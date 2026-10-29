@@ -1,0 +1,19 @@
+{
+ "id": "2408.02295",
+ "title": "Generalized Gaussian Temporal Difference Error for Uncertainty-aware Reinforcement Learning",
+ "authors": [
+  "Seyeon Kim",
+  "Joonhun Lee",
+  "Namhoon Cho",
+  "Sungjun Han",
+  "Wooseop Hwang"
+ ],
+ "v1_date": "2024-08-05",
+ "latest_version": 4,
+ "latest_date": "2026-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conventional uncertainty-aware temporal difference (TD) learning often models TD errors as zero-mean Gaussian. This assumption can miss the heavy-tailed and heteroscedastic residuals induced by bootstrapping and exploration. We introduce a state-conditioned shape head based on the Generalized Gaussian Distribution (GGD) and use a numerically modified GGD loss as an online surrogate for nonstationary TD residuals. We distinguish two mathematical facts that are sometimes conflated: the exact GGD likelihood is normalized for every $β>0$, whereas its exponential density kernel is positive definite for $β\\in(0,2]$. We use the learned shape to construct a simple monotone weighting heuristic and propose Batch Inverse Error Variance (BIEV) regularization from the variance and sample excess kurtosis of ensemble TD errors. Across continuous and discrete control benchmarks, the shape-aware variants improve over Gaussian-based variants in several settings, although the gains are task- and regime-dependent.",
+ "primary": "cs.LG"
+}

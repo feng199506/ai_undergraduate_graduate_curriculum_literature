@@ -1,0 +1,15 @@
+{
+ "id": "2412.20173",
+ "title": "Debiased Nonparametric Regression for Statistical Inference and Distributionally Robustness",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2024-12-28",
+ "latest_version": 3,
+ "latest_date": "2025-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study proposes a debiasing method for smooth nonparametric estimators. While machine learning techniques such as random forests and neural networks have demonstrated strong predictive performance, their theoretical properties remain relatively underexplored. In particular, many modern algorithms lack guarantees of pointwise and uniform risk convergence, as well as asymptotic normality. These properties are essential for statistical inference and robust estimation and have been well-established for classical methods such as Nadaraya-Watson regression. To ensure these properties for various nonparametric regression estimators, we introduce a model-free debiasing method. By incorporating a correction term that estimates the conditional expected residual of the original estimator, or equivalently, its estimation error, into the initial nonparametric regression estimator, we obtain a debiased estimator that satisfies pointwise and uniform risk convergence, along with asymptotic normality, under mild smoothness conditions. These properties facilitate statistical inference and enhance robustness to covariate shift, making the method broadly applicable to a wide range of nonparametric regression problems.",
+ "primary": "stat.ME"
+}

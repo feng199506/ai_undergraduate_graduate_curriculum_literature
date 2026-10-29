@@ -1,0 +1,21 @@
+{
+ "id": "2509.17249",
+ "title": "Extending Automatic Machine Translation Evaluation to Book-Length Documents",
+ "authors": [
+  "Kuang-Da Wang",
+  "Shuoyang Ding",
+  "Chao-Han Huck Yang",
+  "Ping-Chun Hsieh",
+  "Wen-Chih Peng",
+  "Vitaly Lavrukhin",
+  "Boris Ginsburg"
+ ],
+ "v1_date": "2025-09-21",
+ "latest_version": 1,
+ "latest_date": "2025-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for EMNLP 2025 main conference",
+ "abstract": "Despite Large Language Models (LLMs) demonstrating superior translation performance and long-context capabilities, evaluation methodologies remain constrained to sentence-level assessment due to dataset limitations, token number restrictions in metrics, and rigid sentence boundary requirements. We introduce SEGALE, an evaluation scheme that extends existing automatic metrics to long-document translation by treating documents as continuous text and applying sentence segmentation and alignment methods. Our approach enables previously unattainable document-level evaluation, handling translations of arbitrary length generated with document-level prompts while accounting for under-/over-translations and varied sentence boundaries. Experiments show our scheme significantly outperforms existing long-form document evaluation schemes, while being comparable to evaluations performed with groundtruth sentence alignments. Additionally, we apply our scheme to book-length texts and newly demonstrate that many open-weight LLMs fail to effectively translate documents at their reported maximum context lengths.",
+ "primary": "cs.CL"
+}

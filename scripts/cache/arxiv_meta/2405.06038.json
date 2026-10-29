@@ -1,0 +1,27 @@
+{
+ "id": "2405.06038",
+ "title": "From Algorithm to Hardware: A Survey on Efficient and Safe Deployment of Deep Neural Networks",
+ "authors": [
+  "Xue Geng",
+  "Zhe Wang",
+  "Chunyun Chen",
+  "Qing Xu",
+  "Kaixin Xu",
+  "Chao Jin",
+  "Manas Gupta",
+  "Xulei Yang",
+  "Zhenghua Chen",
+  "Mohamed M. Sabry Aly",
+  "Jie Lin",
+  "Min Wu",
+  "Xiaoli Li"
+ ],
+ "v1_date": "2024-05-09",
+ "latest_version": 1,
+ "latest_date": "2024-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This manuscript is the accepted version for TNNLS(IEEE Transactions on Neural Networks and Learning Systems)",
+ "abstract": "Deep neural networks (DNNs) have been widely used in many artificial intelligence (AI) tasks. However, deploying them brings significant challenges due to the huge cost of memory, energy, and computation. To address these challenges, researchers have developed various model compression techniques such as model quantization and model pruning. Recently, there has been a surge in research of compression methods to achieve model efficiency while retaining the performance. Furthermore, more and more works focus on customizing the DNN hardware accelerators to better leverage the model compression techniques. In addition to efficiency, preserving security and privacy is critical for deploying DNNs. However, the vast and diverse body of related works can be overwhelming. This inspires us to conduct a comprehensive survey on recent research toward the goal of high-performance, cost-efficient, and safe deployment of DNNs. Our survey first covers the mainstream model compression techniques such as model quantization, model pruning, knowledge distillation, and optimizations of non-linear operations. We then introduce recent advances in designing hardware accelerators that can adapt to efficient model compression approaches. Additionally, we discuss how homomorphic encryption can be integrated to secure DNN deployment. Finally, we discuss several issues, such as hardware evaluation, generalization, and integration of various compression approaches. Overall, we aim to provide a big picture of efficient DNNs, from algorithm to hardware accelerators and security perspectives.",
+ "primary": "cs.LG"
+}

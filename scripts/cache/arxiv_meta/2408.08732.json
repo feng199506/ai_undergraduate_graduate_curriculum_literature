@@ -1,0 +1,17 @@
+{
+ "id": "2408.08732",
+ "title": "Symbolic Parameter Learning in Probabilistic Answer Set Programming",
+ "authors": [
+  "Damiano Azzolini",
+  "Elisabetta Gentili",
+  "Fabrizio Riguzzi"
+ ],
+ "v1_date": "2024-08-16",
+ "latest_version": 1,
+ "latest_date": "2024-08-16",
+ "journal_ref": "Theory and Practice of Logic Programming 24 (2024) 698-715",
+ "doi": "10.1017/s1471068424000334",
+ "comment": "The paper has been accepted at the ICLP2024 conference and is under consideration in Theory and Practice of Logic Programming (TPLP)",
+ "abstract": "Parameter learning is a crucial task in the field of Statistical Relational Artificial Intelligence: given a probabilistic logic program and a set of observations in the form of interpretations, the goal is to learn the probabilities of the facts in the program such that the probabilities of the interpretations are maximized. In this paper, we propose two algorithms to solve such a task within the formalism of Probabilistic Answer Set Programming, both based on the extraction of symbolic equations representing the probabilities of the interpretations. The first solves the task using an off-the-shelf constrained optimization solver while the second is based on an implementation of the Expectation Maximization algorithm. Empirical results show that our proposals often outperform existing approaches based on projected answer set enumeration in terms of quality of the solution and in terms of execution time. The paper has been accepted at the ICLP2024 conference and is under consideration in Theory and Practice of Logic Programming (TPLP).",
+ "primary": "cs.AI"
+}

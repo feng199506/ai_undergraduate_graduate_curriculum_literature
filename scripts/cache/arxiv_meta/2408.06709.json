@@ -1,0 +1,17 @@
+{
+ "id": "2408.06709",
+ "title": "Review Learning: Advancing All-in-One Ultra-High-Definition Image Restoration Training Method",
+ "authors": [
+  "Xin Su",
+  "Zhuoran Zheng",
+  "Chen Wu"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 1,
+ "latest_date": "2024-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "All-in-one image restoration tasks are becoming increasingly important, especially for ultra-high-definition (UHD) images. Existing all-in-one UHD image restoration methods usually boost the model's performance by introducing prompt or customized dynamized networks for different degradation types. For the inference stage, it might be friendly, but in the training stage, since the model encounters multiple degraded images of different quality in an epoch, these cluttered learning objectives might be information pollution for the model. To address this problem, we propose a new training paradigm for general image restoration models, which we name \\textbf{Review Learning}, which enables image restoration models to be capable enough to handle multiple types of degradation without prior knowledge and prompts. This approach begins with sequential training of an image restoration model on several degraded datasets, combined with a review mechanism that enhances the image restoration model's memory for several previous classes of degraded datasets. In addition, we design a lightweight all-purpose image restoration network that can efficiently reason about degraded images with 4K ($3840 \\times 2160$) resolution on a single consumer-grade GPU.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2310.08848",
+ "title": "Semi-Supervised End-To-End Contrastive Learning For Time Series Classification",
+ "authors": [
+  "Huili Cai",
+  "Xiang Zhang",
+  "Xiaofeng Liu"
+ ],
+ "v1_date": "2023-10-13",
+ "latest_version": 2,
+ "latest_date": "2025-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to NeurIPS 2023",
+ "abstract": "Time series classification is a critical task in various domains, such as finance, healthcare, and sensor data analysis. Unsupervised contrastive learning has garnered significant interest in learning effective representations from time series data with limited labels. The prevalent approach in existing contrastive learning methods consists of two separate stages: pre-training the encoder on unlabeled datasets and fine-tuning the well-trained model on a small-scale labeled dataset. However, such two-stage approaches suffer from several shortcomings, such as the inability of unsupervised pre-training contrastive loss to directly affect downstream fine-tuning classifiers, and the lack of exploiting the classification loss which is guided by valuable ground truth. In this paper, we propose an end-to-end model called SLOTS (Semi-supervised Learning fOr Time clasSification). SLOTS receives semi-labeled datasets, comprising a large number of unlabeled samples and a small proportion of labeled samples, and maps them to an embedding space through an encoder. We calculate not only the unsupervised contrastive loss but also measure the supervised contrastive loss on the samples with ground truth. The learned embeddings are fed into a classifier, and the classification loss is calculated using the available true labels. The unsupervised, supervised contrastive losses and classification loss are jointly used to optimize the encoder and classifier. We evaluate SLOTS by comparing it with ten state-of-the-art methods across five datasets. The results demonstrate that SLOTS is a simple yet effective framework. When compared to the two-stage framework, our end-to-end SLOTS utilizes the same input data, consumes a similar computational cost, but delivers significantly improved performance. We release code and datasets at https://anonymous.4open.science/r/SLOTS-242E.",
+ "primary": "cs.LG"
+}

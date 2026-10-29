@@ -1,0 +1,16 @@
+{
+ "id": "2509.22626",
+ "title": "Learning Admissible Heuristics for A*: Theory and Practice",
+ "authors": [
+  "Ehsan Futuhi",
+  "Nathan R. Sturtevant"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2026-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Heuristic functions are central to the performance of search algorithms such as A-star, where admissibility - the property of never overestimating the true shortest-path cost - guarantees solution optimality. Recent deep learning approaches often disregard admissibility and provide limited guarantees on generalization beyond the training data. This paper addresses both of these limitations. First, we pose heuristic learning as a constrained optimization problem and introduce Cross-Entropy Admissibility (CEA), a loss function that enforces admissibility during training. On the Rubik's Cube domain, this method yields near-admissible heuristics with significantly stronger guidance than compressed pattern database (PDB) heuristics. Theoretically, we study the sample complexity of learning heuristics. By leveraging PDB abstractions and the structural properties of graphs such as the Rubik's Cube, we tighten the bound on the number of training samples needed for A-star to generalize. Replacing a general hypothesis class with a ReLU neural network gives bounds that depend primarily on the network's width and depth, rather than on graph size. Using the same network, we also provide the first generalization guarantees for goal-dependent heuristics.",
+ "primary": "cs.LG"
+}

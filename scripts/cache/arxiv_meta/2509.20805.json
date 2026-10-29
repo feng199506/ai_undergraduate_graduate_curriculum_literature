@@ -1,0 +1,15 @@
+{
+ "id": "2509.20805",
+ "title": "Few-Shot and Training-Free Review Generation via Conversational Prompting",
+ "authors": [
+  "Genki Kusano"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 1,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Personalized review generation helps businesses understand user preferences, yet most existing approaches assume extensive review histories of the target user or require additional model training. Real-world applications often face few-shot and training-free situations, where only a few user reviews are available and fine-tuning is infeasible. It is well known that large language models (LLMs) can address such low-resource settings, but their effectiveness depends on prompt engineering. In this paper, we propose Conversational Prompting, a lightweight method that reformulates user reviews as multi-turn conversations. Its simple variant, Simple Conversational Prompting (SCP), relies solely on the user's own reviews, while the contrastive variant, Contrastive Conversational Prompting (CCP), inserts reviews from other users or LLMs as incorrect replies and then asks the model to correct them, encouraging the model to produce text in the user's style. Experiments on eight product domains and five LLMs showed that the conventional non-conversational prompt often produced reviews similar to those written by random users, based on text-based metrics such as ROUGE-L and BERTScore, and application-oriented tasks like user identity matching and sentiment analysis. In contrast, both SCP and CCP produced reviews much closer to those of the target user, even when each user had only two reviews. CCP brings further improvements when high-quality negative examples are available, whereas SCP remains competitive when such data cannot be collected. These results suggest that conversational prompting offers a practical solution for review generation under few-shot and training-free constraints.",
+ "primary": "cs.CL"
+}

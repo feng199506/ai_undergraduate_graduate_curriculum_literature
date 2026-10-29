@@ -1,0 +1,18 @@
+{
+ "id": "2402.11427",
+ "title": "OptEx: Expediting First-Order Optimization with Approximately Parallelized Iterations",
+ "authors": [
+  "Yao Shu",
+  "Jiongfeng Fang",
+  "Ying Tiffany He",
+  "Fei Richard Yu"
+ ],
+ "v1_date": "2024-02-18",
+ "latest_version": 2,
+ "latest_date": "2024-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published as a conference paper at NeurIPS 2024",
+ "abstract": "First-order optimization (FOO) algorithms are pivotal in numerous computational domains such as machine learning and signal denoising. However, their application to complex tasks like neural network training often entails significant inefficiencies due to the need for many sequential iterations for convergence. In response, we introduce first-order optimization expedited with approximately parallelized iterations (OptEx), the first framework that enhances the efficiency of FOO by leveraging parallel computing to mitigate its iterative bottleneck. OptEx employs kernelized gradient estimation to make use of gradient history for future gradient prediction, enabling parallelization of iterations -- a strategy once considered impractical because of the inherent iterative dependency in FOO. We provide theoretical guarantees for the reliability of our kernelized gradient estimation and the iteration complexity of SGD-based OptEx, confirming that estimation errors diminish to zero as historical gradients accumulate and that SGD-based OptEx enjoys an effective acceleration rate of $Ω(\\sqrt{N})$ over standard SGD given parallelism of N. We also use extensive empirical studies, including synthetic functions, reinforcement learning tasks, and neural network training across various datasets, to underscore the substantial efficiency improvements achieved by OptEx.",
+ "primary": "cs.LG"
+}

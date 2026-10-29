@@ -1,0 +1,18 @@
+{
+ "id": "2410.00695",
+ "title": "E-MPC: Edge-assisted Model Predictive Control",
+ "authors": [
+  "Yuan-Yao Lou",
+  "Jonathan Spencer",
+  "Kwang Taik Kim",
+  "Mung Chiang"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 1,
+ "latest_date": "2024-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model predictive control (MPC) has become the de facto standard action space for local planning and learning-based control in many continuous robotic control tasks, including autonomous driving. MPC solves a long-horizon cost optimization as a series of short-horizon optimizations based on a global planner-supplied reference path. The primary challenge in MPC, however, is that the computational budget for re-planning has a hard limit, which frequently inhibits exact optimization. Modern edge networks provide low-latency communication and heterogeneous properties that can be especially beneficial in this situation. We propose a novel framework for edge-assisted MPC (E-MPC) for path planning that exploits the heterogeneity of edge networks in three important ways: 1) varying computational capacity, 2) localized sensor information, and 3) localized observation histories. Theoretical analysis and extensive simulations are undertaken to demonstrate quantitatively the benefits of E-MPC in various scenarios, including maps, channel dynamics, and availability and density of edge nodes. The results confirm that E-MPC has the potential to reduce costs by a greater percentage than standard MPC does.",
+ "primary": "cs.DC"
+}

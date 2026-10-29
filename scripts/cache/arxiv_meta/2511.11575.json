@@ -1,0 +1,15 @@
+{
+ "id": "2511.11575",
+ "title": "Detecting Statistically Significant Fairness Violations in Recidivism Forecasting Algorithms",
+ "authors": [
+  "Animesh Joshi"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 1,
+ "latest_date": "2025-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages",
+ "abstract": "Machine learning algorithms are increasingly deployed in critical domains such as finance, healthcare, and criminal justice [1]. The increasing popularity of algorithmic decision-making has stimulated interest in algorithmic fairness within the academic community. Researchers have introduced various fairness definitions that quantify disparities between privileged and protected groups, use causal inference to determine the impact of race on model predictions, and that test calibration of probability predictions from the model. Existing literature does not provide a way in which to assess whether observed disparities between groups are statistically significant or merely due to chance. This paper introduces a rigorous framework for testing the statistical significance of fairness violations by leveraging k-fold cross-validation [2] to generate sampling distributions of fairness metrics. This paper introduces statistical tests that can be used to identify statistically significant violations of fairness metrics based on disparities between predicted and actual outcomes, model calibration, and causal inference techniques [1]. We demonstrate this approach by testing recidivism forecasting algorithms trained on data from the National Institute of Justice. Our findings reveal that machine learning algorithms used for recidivism forecasting exhibit statistically significant bias against Black individuals under several fairness definitions, while also exhibiting no bias or bias against White individuals under other definitions. The results from this paper underscore the importance of rigorous and robust statistical testing while evaluating algorithmic decision-making systems.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2407.20299",
+ "title": "Dataset Distillation for Offline Reinforcement Learning",
+ "authors": [
+  "Jonathan Light",
+  "Yuanzhe Liu",
+  "Ziniu Hu"
+ ],
+ "v1_date": "2024-07-29",
+ "latest_version": 3,
+ "latest_date": "2025-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2024 DMLR Workshop Our project site is available at https://datasetdistillation4rl.github.io We also provide our implementation at https://github.com/ggflow123/DDRL",
+ "abstract": "Offline reinforcement learning often requires a quality dataset that we can train a policy on. However, in many situations, it is not possible to get such a dataset, nor is it easy to train a policy to perform well in the actual environment given the offline data. We propose using data distillation to train and distill a better dataset which can then be used for training a better policy model. We show that our method is able to synthesize a dataset where a model trained on it achieves similar performance to a model trained on the full dataset or a model trained using percentile behavioral cloning. Our project site is available at https://datasetdistillation4rl.github.io . We also provide our implementation at https://github.com/ggflow123/DDRL .",
+ "primary": "cs.LG"
+}

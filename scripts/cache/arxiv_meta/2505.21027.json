@@ -1,0 +1,19 @@
+{
+ "id": "2505.21027",
+ "title": "TabAttackBench: A Benchmark for Adversarial Attacks on Tabular Data",
+ "authors": [
+  "Zhipeng He",
+  "Chun Ouyang",
+  "Lijie Wen",
+  "Cong Liu",
+  "Catarina Moreira"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 2,
+ "latest_date": "2025-10-13",
+ "journal_ref": "Expert Systems with Applications 301 (2026) 130491",
+ "doi": "10.1016/j.eswa.2025.130491",
+ "comment": "71 pages, 21 figures, 11 tables",
+ "abstract": "Adversarial attacks pose a significant threat to machine learning models by inducing incorrect predictions through imperceptible perturbations to input data. While these attacks are well studied in unstructured domains such as images, their behaviour on tabular data remains underexplored due to mixed feature types and complex inter-feature dependencies. This study introduces a comprehensive benchmark that evaluates adversarial attacks on tabular datasets with respect to both effectiveness and imperceptibility. We assess five white-box attack algorithms (FGSM, BIM, PGD, DeepFool, and C\\&W) across four representative models (LR, MLP, TabTransformer and FT-Transformer) using eleven datasets spanning finance, energy, and healthcare domains. The benchmark employs four quantitative imperceptibility metrics (proximity, sparsity, deviation, and sensitivity) to characterise perturbation realism. The analysis quantifies the trade-off between these two aspects and reveals consistent differences between attack types, with $\\ell_\\infty$-based attacks achieving higher success but lower subtlety, and $\\ell_2$-based attacks offering more realistic perturbations. The benchmark findings offer actionable insights for designing more imperceptible adversarial attacks, advancing the understanding of adversarial vulnerability in tabular machine learning.",
+ "primary": "cs.LG"
+}

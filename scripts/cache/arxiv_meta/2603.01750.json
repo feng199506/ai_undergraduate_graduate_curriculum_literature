@@ -1,0 +1,19 @@
+{
+ "id": "2603.01750",
+ "title": "Practical Deep Heteroskedastic Regression",
+ "authors": [
+  "Mikkel Jordahn",
+  "Jonas Vestergaard Jensen",
+  "James Harrison",
+  "Michael Riis Andersen",
+  "Mikkel N. Schmidt"
+ ],
+ "v1_date": "2026-03-02",
+ "latest_version": 1,
+ "latest_date": "2026-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Uncertainty quantification (UQ) in deep learning regression is of wide interest, as it supports critical applications including sequential decision making and risk-sensitive tasks. In heteroskedastic regression, where the uncertainty of the target depends on the input, a common approach is to train a neural network that parameterizes the mean and the variance of the predictive distribution. Still, training deep heteroskedastic regression models poses practical challenges in the trade-off between uncertainty quantification and mean prediction, such as optimization difficulties, representation collapse, and variance overfitting. In this work we identify previously undiscussed fallacies and propose a simple and efficient procedure that addresses these challenges jointly by post-hoc fitting a variance model across the intermediate layers of a pretrained network on a hold-out dataset. We demonstrate that our method achieves on-par or state-of-the-art uncertainty quantification on several molecular graph datasets, without compromising mean prediction accuracy and remaining cheap to use at prediction time.",
+ "primary": "cs.LG"
+}

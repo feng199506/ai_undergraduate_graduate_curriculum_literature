@@ -1,0 +1,16 @@
+{
+ "id": "2506.18091",
+ "title": "Evaluating Prompt-Based and Fine-Tuned Approaches to Czech Anaphora Resolution",
+ "authors": [
+  "Patrik Stano",
+  "Aleš Horák"
+ ],
+ "v1_date": "2025-06-22",
+ "latest_version": 1,
+ "latest_date": "2025-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages",
+ "abstract": "Anaphora resolution plays a critical role in natural language understanding, especially in morphologically rich languages like Czech. This paper presents a comparative evaluation of two modern approaches to anaphora resolution on Czech text: prompt engineering with large language models (LLMs) and fine-tuning compact generative models. Using a dataset derived from the Prague Dependency Treebank, we evaluate several instruction-tuned LLMs, including Mistral Large 2 and Llama 3, using a series of prompt templates. We compare them against fine-tuned variants of the mT5 and Mistral models that we trained specifically for Czech anaphora resolution. Our experiments demonstrate that while prompting yields promising few-shot results (up to 74.5% accuracy), the fine-tuned models, particularly mT5-large, outperform them significantly, achieving up to 88% accuracy while requiring fewer computational resources. We analyze performance across different anaphora types, antecedent distances, and source corpora, highlighting key strengths and trade-offs of each approach.",
+ "primary": "cs.CL"
+}

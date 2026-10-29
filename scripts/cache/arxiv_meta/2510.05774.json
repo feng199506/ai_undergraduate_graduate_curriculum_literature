@@ -1,0 +1,21 @@
+{
+ "id": "2510.05774",
+ "title": "ConstraintLLM: A Neuro-Symbolic Framework for Industrial-Level Constraint Programming",
+ "authors": [
+  "Weichun Shi",
+  "Minghao Liu",
+  "Wanting Zhang",
+  "Langchen Shi",
+  "Fuqi Jia",
+  "Feifei Ma",
+  "Jian Zhang"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 1,
+ "latest_date": "2025-10-07",
+ "journal_ref": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 15999-16019",
+ "doi": "10.18653/v1/2025.emnlp-main.809",
+ "comment": "Accepted to the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025), Main Conference",
+ "abstract": "Constraint programming (CP) is a crucial technology for solving real-world constraint optimization problems (COPs), with the advantages of rich modeling semantics and high solving efficiency. Using large language models (LLMs) to generate formal modeling automatically for COPs is becoming a promising approach, which aims to build trustworthy neuro-symbolic AI with the help of symbolic solvers. However, CP has received less attention compared to works based on operations research (OR) models. We introduce ConstraintLLM, the first LLM specifically designed for CP modeling, which is trained on an open-source LLM with multi-instruction supervised fine-tuning. We propose the Constraint-Aware Retrieval Module (CARM) to increase the in-context learning capabilities, which is integrated in a Tree-of-Thoughts (ToT) framework with guided self-correction mechanism. Moreover, we construct and release IndusCP, the first industrial-level benchmark for CP modeling, which contains 140 challenging tasks from various domains. Our experiments demonstrate that ConstraintLLM achieves state-of-the-art solving accuracy across multiple benchmarks and outperforms the baselines by 2x on the new IndusCP benchmark. Code and data are available at: https://github.com/william4s/ConstraintLLM.",
+ "primary": "cs.AI"
+}

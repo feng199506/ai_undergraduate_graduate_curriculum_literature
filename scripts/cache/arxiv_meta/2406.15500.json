@@ -1,0 +1,18 @@
+{
+ "id": "2406.15500",
+ "title": "Pure interaction effects unseen by Random Forests",
+ "authors": [
+  "Ricardo Blum",
+  "Munir Hiabu",
+  "Enno Mammen",
+  "Joseph Theo Meyer"
+ ],
+ "v1_date": "2024-06-19",
+ "latest_version": 2,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2309.01460",
+ "abstract": "Random Forests are widely claimed to capture interactions well. However, some simple examples suggest that they perform poorly in the presence of certain pure interactions that the conventional CART criterion struggles to capture during tree construction. Motivated from this, it is argued that simple alternative partitioning schemes used in the tree growing procedure can enhance identification of these interactions. In a simulation study these variants are compared to conventional Random Forests and Extremely Randomized Trees. The results validate that the modifications considered enhance the model's fitting ability in scenarios where pure interactions play a crucial role. Finally, the methods are applied to real datasets.",
+ "primary": "stat.ML"
+}

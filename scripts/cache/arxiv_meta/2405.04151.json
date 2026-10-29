@@ -1,0 +1,19 @@
+{
+ "id": "2405.04151",
+ "title": "Gas Source Localization Using physics Guided Neural Networks",
+ "authors": [
+  "Victor Scott Prieto Ruiz",
+  "Patrick Hinsen",
+  "Thomas Wiedemann",
+  "Constantin Christof",
+  "Dmitriy Shutin"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 1,
+ "latest_date": "2024-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submission to the International Symposium of Electronic Nose (ISOEN)",
+ "abstract": "This work discusses a novel method for estimating the location of a gas source based on spatially distributed concentration measurements taken, e.g., by a mobile robot or flying platform that follows a predefined trajectory to collect samples. The proposed approach uses a Physics-Guided Neural Network to approximate the gas dispersion with the source location as an additional network input. After an initial offline training phase, the neural network can be used to efficiently solve the inverse problem of localizing the gas source based on measurements. The proposed approach allows avoiding rather costly numerical simulations of gas physics needed for solving inverse problems. Our experiments show that the method localizes the source well, even when dealing with measurements affected by noise.",
+ "primary": "cs.LG"
+}

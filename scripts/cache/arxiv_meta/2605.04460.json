@@ -1,0 +1,19 @@
+{
+ "id": "2605.04460",
+ "title": "Discovering Sparse Counterfactual Factors via Latent Adjustment for Survey-based Community Intervention",
+ "authors": [
+  "Fatima Ashraf",
+  "Muhammad Ayub Sabir",
+  "Junbiao Pang",
+  "Yufang Zhou",
+  "Yan Shang"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 2,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transportation surveys are widely used to understand travel preferences and adoption barriers, yet most survey-based analyses remain descriptive or predictive and rarely provide sparse, policy-feasible intervention strategies. We study sparse counterfactual community intervention from survey responses, where the goal is to shift a target respondent group toward a desired reference group through controllable survey-variable adjustments. We formulate this task as a policy-feasible distributional alignment problem using a fixed-basis nonnegative latent representation that preserves pre/post comparability and provides a stable map from latent factors to original variables. To make latent movement actionable, target-relevant latent factors are identified through Shapley-guided attribution and transferred to controllable variables as intervention priorities. Feasible group-level adjustments are then learned by minimizing an entropy-regularized optimal-transport discrepancy between the post-intervention target distribution and the reference distribution, together with a weighted $\\ell_{2,1}$ penalty that promotes shared policy-lever sparsity. Experiments on real-world transportation survey datasets show that the proposed framework produces compact and interpretable policy-feasible interventions with explicit adjustment magnitudes, improves population-level conversion, and preserves intervention sparsity. Code and datasets are publicly available at: https://github.com/pangjunbiao/latent-group-alignment.git",
+ "primary": "cs.LG"
+}

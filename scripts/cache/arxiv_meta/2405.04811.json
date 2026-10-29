@@ -1,0 +1,18 @@
+{
+ "id": "2405.04811",
+ "title": "A unified error analysis for randomized low-rank approximation with application to data assimilation",
+ "authors": [
+  "Alexandre Scotto Di Perrotolo",
+  "Youssef Diouane",
+  "Selime Gürol",
+  "Xavier Vasseur"
+ ],
+ "v1_date": "2024-05-08",
+ "latest_version": 2,
+ "latest_date": "2025-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized algorithms have proven to perform well on a large class of numerical linear algebra problems. Their theoretical analysis is critical to provide guarantees on their behaviour, and in this sense, the stochastic analysis of the randomized low-rank approximation error plays a central role. Indeed, several randomized methods for the approximation of dominant eigen- or singular modes can be rewritten as low-rank approximation methods. However, despite the large variety of algorithms, the existing theoretical frameworks for their analysis rely on a specific structure for the covariance matrix that is not adapted to all the algorithms. We propose a unified framework for the stochastic analysis of the low-rank approximation error in Frobenius norm for centered and non-standard Gaussian matrices. Under minimal assumptions on the covariance matrix, we derive accurate bounds both in expectation and probability. Our bounds have clear interpretations that enable us to derive properties and motivate practical choices for the covariance matrix resulting in efficient low-rank approximation algorithms. The most commonly used bounds in the literature have been demonstrated as a specific instance of the bounds proposed here, with the additional contribution of being tighter. Numerical experiments related to data assimilation further illustrate that exploiting the problem structure to select the covariance matrix improves the performance as suggested by our bounds.",
+ "primary": "math.NA"
+}

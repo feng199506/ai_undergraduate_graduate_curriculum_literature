@@ -1,0 +1,20 @@
+{
+ "id": "2402.02054",
+ "title": "Towards Neural Scaling Laws on Graphs",
+ "authors": [
+  "Jingzhe Liu",
+  "Haitao Mao",
+  "Zhikai Chen",
+  "Tong Zhao",
+  "Neil Shah",
+  "Jiliang Tang"
+ ],
+ "v1_date": "2024-02-03",
+ "latest_version": 3,
+ "latest_date": "2024-11-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep graph models (e.g., graph neural networks and graph transformers) have become important techniques for leveraging knowledge across various types of graphs. Yet, the neural scaling laws on graphs, i.e., how the performance of deep graph models changes with model and dataset sizes, have not been systematically investigated, casting doubts on the feasibility of achieving large graph models. To fill this gap, we benchmark many graph datasets from different tasks and make an attempt to establish the neural scaling laws on graphs from both model and data perspectives. The model size we investigated is up to 100 million parameters, and the dataset size investigated is up to 50 million samples. We first verify the validity of such laws on graphs, establishing proper formulations to describe the scaling behaviors. For model scaling, we identify that despite the parameter numbers, the model depth also plays an important role in affecting the model scaling behaviors, which differs from observations in other domains such as CV and NLP. For data scaling, we suggest that the number of graphs can not effectively measure the graph data volume in scaling law since the sizes of different graphs are highly irregular. Instead, we reform the data scaling law with the number of nodes or edges as the metric to address the irregular graph sizes. We further demonstrate that the reformed law offers a unified view of the data scaling behaviors for various fundamental graph tasks including node classification, link prediction, and graph classification. This work provides valuable insights into neural scaling laws on graphs, which can serve as an important tool for collecting new graph data and developing large graph models.",
+ "primary": "cs.LG"
+}

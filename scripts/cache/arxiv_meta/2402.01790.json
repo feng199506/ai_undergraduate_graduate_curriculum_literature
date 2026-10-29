@@ -1,0 +1,15 @@
+{
+ "id": "2402.01790",
+ "title": "An introduction to graphical tensor notation for mechanistic interpretability",
+ "authors": [
+  "Jordan K. Taylor"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 1,
+ "latest_date": "2024-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 75 figures",
+ "abstract": "Graphical tensor notation is a simple way of denoting linear operations on tensors, originating from physics. Modern deep learning consists almost entirely of operations on or between tensors, so easily understanding tensor operations is quite important for understanding these systems. This is especially true when attempting to reverse-engineer the algorithms learned by a neural network in order to understand its behavior: a field known as mechanistic interpretability. It's often easy to get confused about which operations are happening between tensors and lose sight of the overall structure, but graphical tensor notation makes it easier to parse things at a glance and see interesting equivalences. The first half of this document introduces the notation and applies it to some decompositions (SVD, CP, Tucker, and tensor network decompositions), while the second half applies it to some existing some foundational approaches for mechanistically understanding language models, loosely following ``A Mathematical Framework for Transformer Circuits'', then constructing an example ``induction head'' circuit in graphical tensor notation.",
+ "primary": "cs.LG"
+}

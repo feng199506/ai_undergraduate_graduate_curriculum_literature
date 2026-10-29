@@ -1,0 +1,21 @@
+{
+ "id": "2403.00784",
+ "title": "Utilizing BERT for Information Retrieval: Survey, Applications, Resources, and Challenges",
+ "authors": [
+  "Jiajia Wang",
+  "Jimmy X. Huang",
+  "Xinhui Tu",
+  "Junmei Wang",
+  "Angela J. Huang",
+  "Md Tahmid Rahman Laskar",
+  "Amran Bhuiyan"
+ ],
+ "v1_date": "2024-02-18",
+ "latest_version": 1,
+ "latest_date": "2024-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent years have witnessed a substantial increase in the use of deep learning to solve various natural language processing (NLP) problems. Early deep learning models were constrained by their sequential or unidirectional nature, such that they struggled to capture the contextual relationships across text inputs. The introduction of bidirectional encoder representations from transformers (BERT) leads to a robust encoder for the transformer model that can understand the broader context and deliver state-of-the-art performance across various NLP tasks. This has inspired researchers and practitioners to apply BERT to practical problems, such as information retrieval (IR). A survey that focuses on a comprehensive analysis of prevalent approaches that apply pretrained transformer encoders like BERT to IR can thus be useful for academia and the industry. In light of this, we revisit a variety of BERT-based methods in this survey, cover a wide range of techniques of IR, and group them into six high-level categories: (i) handling long documents, (ii) integrating semantic information, (iii) balancing effectiveness and efficiency, (iv) predicting the weights of terms, (v) query expansion, and (vi) document expansion. We also provide links to resources, including datasets and toolkits, for BERT-based IR systems. A key highlight of our survey is the comparison between BERT's encoder-based models and the latest generative Large Language Models (LLMs), such as ChatGPT, which rely on decoders. Despite the popularity of LLMs, we find that for specific tasks, finely tuned BERT encoders still outperform, and at a lower deployment cost. Finally, we summarize the comprehensive outcomes of the survey and suggest directions for future research in the area.",
+ "primary": "cs.IR"
+}

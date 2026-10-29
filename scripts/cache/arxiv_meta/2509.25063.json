@@ -1,0 +1,18 @@
+{
+ "id": "2509.25063",
+ "title": "Learning from Convenience Samples: Fine-Tuning LLMs to Predict Voting Choices from Biased Survey Samples",
+ "authors": [
+  "Tobias Holtdirk",
+  "Dennis Assenmacher",
+  "Arnim Bleier",
+  "Claudia Wagner"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 2,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at KONVENS 2026",
+ "abstract": "Survey research increasingly relies on convenience samples as rising costs and nonresponse make representative probability sampling more difficult. This creates a central challenge for public opinion research and electoral studies: how to recover reliable population-level inferences from socially and demographically biased data. While recent work has explored the use of large language models (LLMs) for simulating survey responses, most studies focus on the U.S. population and assume relatively favourable data conditions with limited or random missingness. In this work, we investigate whether LLMs can leverage contextual knowledge about socio-demographic and political patterns to predict vote choice in the German population under sampling constraints. We systematically vary both the size and composition of training data, ranging from large representative samples to small, biased convenience samples, and compare zero-shot prompting and supervised fine-tuning against established tabular classifiers such as CatBoost. Our results show that when representative training data are available, fine-tuned LLMs achieve predictive performance comparable to strong tabular baselines and substantially outperform zero-shot prompting. Under small and biased convenience samples, however, fine-tuned LLMs more accurately recover both individual-level vote choice and population-level distributions than zero-shot approaches and often outperform tabular methods. These findings suggest that fine-tuned LLMs can combine sample-specific information with contextual knowledge acquired during pre-training, enabling more robust inference under conditions of sampling bias and missing data.",
+ "primary": "cs.CY"
+}

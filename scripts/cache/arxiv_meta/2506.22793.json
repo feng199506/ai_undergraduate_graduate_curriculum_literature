@@ -1,0 +1,19 @@
+{
+ "id": "2506.22793",
+ "title": "Offline Reinforcement Learning for Mobility Robustness Optimization",
+ "authors": [
+  "Pegah Alizadeh",
+  "Anastasios Giovanidis",
+  "Pradeepa Ramachandra",
+  "Vasileios Koutsoukis",
+  "Osama Arouk"
+ ],
+ "v1_date": "2025-06-28",
+ "latest_version": 1,
+ "latest_date": "2025-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, double column, 4 figures, 6 tables, conference submission",
+ "abstract": "In this work we revisit the Mobility Robustness Optimisation (MRO) algorithm and study the possibility of learning the optimal Cell Individual Offset tuning using offline Reinforcement Learning. Such methods make use of collected offline datasets to learn the optimal policy, without further exploration. We adapt and apply a sequence-based method called Decision Transformers as well as a value-based method called Conservative Q-Learning to learn the optimal policy for the same target reward as the vanilla rule-based MRO. The same input features related to failures, ping-pongs, and other handover issues are used. Evaluation for realistic New Radio networks with 3500 MHz carrier frequency on a traffic mix including diverse user service types and a specific tunable cell-pair shows that offline-RL methods outperform rule-based MRO, offering up to 7% improvement. Furthermore, offline-RL can be trained for diverse objective functions using the same available dataset, thus offering operational flexibility compared to rule-based methods.",
+ "primary": "cs.NI"
+}

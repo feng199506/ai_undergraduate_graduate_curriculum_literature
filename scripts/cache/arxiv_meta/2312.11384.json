@@ -1,0 +1,19 @@
+{
+ "id": "2312.11384",
+ "title": "DiffTune-MPC: Closed-Loop Learning for Model Predictive Control",
+ "authors": [
+  "Ran Tao",
+  "Sheng Cheng",
+  "Xiaofeng Wang",
+  "Shenlong Wang",
+  "Naira Hovakimyan"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 3,
+ "latest_date": "2024-07-04",
+ "journal_ref": "published by IEEE Robotics and Automation Letters in July 2024",
+ "doi": "10.1109/lra.2024.3422836",
+ "comment": "The first two authors contributed equally to this work",
+ "abstract": "Model predictive control (MPC) has been applied to many platforms in robotics and autonomous systems for its capability to predict a system's future behavior while incorporating constraints that a system may have. To enhance the performance of a system with an MPC controller, one can manually tune the MPC's cost function. However, it can be challenging due to the possibly high dimension of the parameter space as well as the potential difference between the open-loop cost function in MPC and the overall closed-loop performance metric function. This paper presents DiffTune-MPC, a novel learning method, to learn the cost function of an MPC in a closed-loop manner. The proposed framework is compatible with the scenario where the time interval for performance evaluation and MPC's planning horizon have different lengths. We show the auxiliary problem whose solution admits the analytical gradients of MPC and discuss its variations in different MPC settings, including nonlinear MPCs that are solved using sequential quadratic programming. Simulation results demonstrate the learning capability of DiffTune-MPC and the generalization capability of the learned MPC parameters.",
+ "primary": "cs.RO"
+}

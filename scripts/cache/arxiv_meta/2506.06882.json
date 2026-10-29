@@ -1,0 +1,17 @@
+{
+ "id": "2506.06882",
+ "title": "On the randomized SVD in infinite dimensions",
+ "authors": [
+  "Daniel Kressner",
+  "David Persson",
+  "André Uschmajew"
+ ],
+ "v1_date": "2025-06-07",
+ "latest_version": 2,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted manuscript. Published version available at https://doi.org/10.1016/j.laa.2026.01.011",
+ "abstract": "Randomized methods, such as the randomized SVD (singular value decomposition) and Nyström approximation, are an effective way to compute low-rank approximations of large matrices. Motivated by applications to operator learning, Boullé and Townsend (FoCM, 2023) recently proposed an infinite-dimensional extension of the randomized SVD for a Hilbert-Schmidt operator $A$ that invokes randomness through a Gaussian process with a covariance operator $K$. While the non-isotropy introduced by $K$ allows one to incorporate prior information on $A$, an unfortunate choice may lead to unfavorable performance and large constants in the error bounds. In this work, we introduce a novel infinite-dimensional extension of the randomized SVD that does not require such a choice and enjoys error bounds that match those for the finite-dimensional case. Our extension implicitly uses isotropic random vectors, reflecting a choice commonly made in the finite-dimensional case. In fact, the theoretical results of this work show how the usual randomized SVD applied to a discretization of $A$ approaches our infinite-dimensional extension as the discretization gets refined, both in terms of error bounds and the Wasserstein distance. We also present and analyze a novel extension of the Nyström approximation for self-adjoint positive semi-definite trace class operators.",
+ "primary": "math.NA"
+}

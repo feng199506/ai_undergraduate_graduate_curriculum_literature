@@ -1,0 +1,21 @@
+{
+ "id": "2510.07858",
+ "title": "Augur: Modeling Covariate Causal Associations in Time Series via Large Language Models",
+ "authors": [
+  "Zhiqing Cui",
+  "Binwu Wang",
+  "Qingxiang Liu",
+  "Yeqiang Wang",
+  "Zhengyang Zhou",
+  "Yuxuan Liang",
+  "Yang Wang"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 2,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 9 figures",
+ "abstract": "Large language models (LLM) have emerged as a promising avenue for time series forecasting, offering the potential to integrate multimodal data. However, existing LLM-based approaches face notable limitations-such as marginalized role in model architectures, reliance on coarse statistical text prompts, and lack of interpretability. In this work, we introduce Augur, a fully LLM driven time series forecasting framework that exploits LLM causal reasoning to discover and use directed causal associations among covariates. Augur uses a two stage teacher student architecture where a powerful teacher LLM infers a directed causal graph from time series using heuristic search together with pairwise causality testing. A lightweight student agent then refines the graph and fine tune on high confidence causal associations that are encoded as rich textual prompts to perform forecasting. This design improves predictive accuracy while yielding transparent, traceable reasoning about variable interactions. Extensive experiments on real-world datasets with 26 baselines demonstrate that Augur achieves competitive performance and robust zero-shot generalization.",
+ "primary": "cs.AI"
+}

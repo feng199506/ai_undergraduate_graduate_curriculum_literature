@@ -1,0 +1,23 @@
+{
+ "id": "2502.11741",
+ "title": "SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL",
+ "authors": [
+  "Shuai Lyu",
+  "Haoran Luo",
+  "Ripeng Li",
+  "Zhonghong Ou",
+  "Jiangfeng Sun",
+  "Yang Qin",
+  "Xiaoran Shang",
+  "Meina Song",
+  "Yifan Zhu"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 3,
+ "latest_date": "2025-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages,12 figures",
+ "abstract": "Text-to-SQL (Text2SQL) aims to map natural language questions to executable SQL queries. Although large language models (LLMs) have driven significant progress, current approaches struggle with poor transferability to open-source LLMs, limited robustness against logic and function errors in complex queries, and inefficiencies in structured search. We introduce SQL-o1, a self-reward-driven heuristic search framework built on an agent-based architecture to enhance model reasoning capabilities. SQL-o1 leverages Monte Carlo Tree Search (MCTS) for structured, multi-step exploration, and incorporates a dynamic pruning strategy to accelerate inference without sacrificing accuracy. On the Spider and Bird benchmarks, SQL-o1 achieves a +10.8 execution accuracy improvement on the complex Bird dataset, surpassing even GPT-4-based models. Notably, it exhibits strong few-shot generalization and robust cross-model transferability across open-source LLMs. Our code is available at:https://github.com/ShuaiLyu0110/SQL-o1.",
+ "primary": "cs.DB"
+}

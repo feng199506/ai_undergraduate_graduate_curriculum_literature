@@ -1,0 +1,21 @@
+{
+ "id": "2509.26103",
+ "title": "End-to-End Aspect-Guided Review Summarization at Scale",
+ "authors": [
+  "Ilya Boytsov",
+  "Vinny DeGenova",
+  "Mikhail Balyasin",
+  "Joseph Walt",
+  "Caitlin Eusden",
+  "Marie-Claire Rochat",
+  "Margaret Pierson"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 1,
+ "latest_date": "2025-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Camera-ready preprint for EMNLP 2025 Industry Track",
+ "abstract": "We present a scalable large language model (LLM)-based system that combines aspect-based sentiment analysis (ABSA) with guided summarization to generate concise and interpretable product review summaries for the Wayfair platform. Our approach first extracts and consolidates aspect-sentiment pairs from individual reviews, selects the most frequent aspects for each product, and samples representative reviews accordingly. These are used to construct structured prompts that guide the LLM to produce summaries grounded in actual customer feedback. We demonstrate the real-world effectiveness of our system through a large-scale online A/B test. Furthermore, we describe our real-time deployment strategy and release a dataset of 11.8 million anonymized customer reviews covering 92,000 products, including extracted aspects and generated summaries, to support future research in aspect-guided review summarization.",
+ "primary": "cs.CL"
+}

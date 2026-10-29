@@ -1,0 +1,16 @@
+{
+ "id": "2610.35505",
+ "title": "Constraint Learning by Optimizing over Trained Neural Networks: A Pragmatic Tutorial",
+ "authors": [
+  "Jiaxiao Fang",
+  "Thiago Serra"
+ ],
+ "v1_date": "2026-10-26",
+ "latest_version": 1,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Constraint learning is an emerging paradigm of modeling optimization problems with the help of machine learning. In this paradigm, trained machine learning models are embedded into the optimization model. For example, we can learn constraints empirically from available data, or we can avoid using a nonlinear objective function by learning a simpler approximation for it. Neural networks become a compelling option if the machine learning models must capture more elaborate and nuanced relationships. However, optimization models embedding neural networks may become too large or too slow to solve. In this tutorial, we present practical considerations for an effective and efficient use of constraint learning with neural networks and validate it with a case study highlighting the benefit of smaller and sparser networks.",
+ "primary": "math.OC"
+}

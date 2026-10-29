@@ -1,0 +1,18 @@
+{
+ "id": "2609.12421",
+ "title": "Inference for Newton Methods with Accelerated Sketch-and-Project via Random Scaling",
+ "authors": [
+  "Xinchen Du",
+  "Elizaveta Rebrova",
+  "Michał Dereziński",
+  "Sen Na"
+ ],
+ "v1_date": "2026-09-11",
+ "latest_version": 1,
+ "latest_date": "2026-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 3 figures, 4 tables",
+ "abstract": "We study an online sketched Newton method that approximates the Newton direction at each step via a state-of-the-art sketching solver, called the generalized accelerated sketch-and-project solver (GAS), thereby mitigating the computational bottleneck of classical second-order methods. The GAS solver improves upon vanilla, unaccelerated sketch-and-project solvers by achieving accelerated convergence through Nesterov momentum updates, and accommodates a flexible projection metric whose proper choice further reduces computational cost. Building on this design, we establish asymptotic normality of the averaged sketched Newton iterates and characterize their limiting covariance matrix. The resulting covariance recovers that of the unaccelerated sketched Newton method under a specific choice of acceleration parameters, converges more rapidly (in the number of sketching steps) to the minimax-optimal covariance in general, and is smaller than that of the last iterate produced by the accelerated method. Finally, we strengthen these results by establishing a functional central limit theorem for the Newton iterates, which allows us to bypass explicit covariance estimation and develop an online inference procedure based on random scaling. Specifically, we construct a pivotal test statistic by appropriately rescaling the averaged iterates, so that its limiting distribution is free of any unknown parameters, enabling asymptotically valid online inference. Numerical experiments demonstrate superior performance of the proposed inference procedure.",
+ "primary": "stat.ML"
+}

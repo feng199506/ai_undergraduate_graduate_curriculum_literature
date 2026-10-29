@@ -1,0 +1,16 @@
+{
+ "id": "2605.07286",
+ "title": "Sparse Random-Feature Neural Networks with Krylov-Based SVD for Singularly Perturbed ODE",
+ "authors": [
+  "Kevin Kurian Thomas Vaidyan",
+  "Siddharth Rout"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Random-feature neural networks (RFNNs), including architectures with fixed hidden layers and analytically determined output weights, offer fast training but often suffer from issues due to dense representations of the hidden layer activation. Their reliance on dense feature mappings and least squares solvers can limit scalability and numerical stability, particularly for high-dimensional or stiff systems. Specifically, the activation matrix is observed to be low-rank and extremely ill-conditioned. In this work, we propose a sparse framework for RFNNs that integrates structured sparsity into the hidden layer activations that increases the rank and employs Sparse Singular Value Decomposition (sSVD) for solving the resulting linear least squares problem scalably and efficiently while catering to the bad condition number. We explore the theory behind Lanczos-Golub-Kahan Bidiagonalization technique for sparse SVD and conduct some experiments to identify some limitations and justify the requirement for orthogonalization step in our application. Then, we demonstrate that the proposed method maintains or improves solution accuracy for solving the benchmark one-dimensional steady convection-diffusion equations case having stronger advection, while achieving substantial gains in training efficiency and robustness compared to standard dense implementations.",
+ "primary": "math.NA"
+}

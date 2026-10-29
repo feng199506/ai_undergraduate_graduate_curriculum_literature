@@ -1,0 +1,17 @@
+{
+ "id": "2405.06003",
+ "title": "Binary Hypothesis Testing for Softmax Models and Leverage Score Models",
+ "authors": [
+  "Yuzhou Gu",
+  "Zhao Song",
+  "Junze Yin"
+ ],
+ "v1_date": "2024-05-09",
+ "latest_version": 2,
+ "latest_date": "2025-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2025",
+ "abstract": "Softmax distributions are widely used in machine learning, including Large Language Models (LLMs), where the attention unit uses softmax distributions. We abstract the attention unit as the softmax model, where given a vector input, the model produces an output drawn from the softmax distribution (which depends on the vector input). We consider the fundamental problem of binary hypothesis testing in the setting of softmax models. That is, given an unknown softmax model, which is known to be one of the two given softmax models, how many queries are needed to determine which one is the truth? We show that the sample complexity is asymptotically $O(ε^{-2})$ where $ε$ is a certain distance between the parameters of the models. Furthermore, we draw an analogy between the softmax model and the leverage score model, an important tool for algorithm design in linear algebra and graph theory. The leverage score model, on a high level, is a model which, given a vector input, produces an output drawn from a distribution dependent on the input. We obtain similar results for the binary hypothesis testing problem for leverage score models.",
+ "primary": "stat.ML"
+}

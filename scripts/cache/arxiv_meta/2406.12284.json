@@ -1,0 +1,17 @@
+{
+ "id": "2406.12284",
+ "title": "Demystifying the Recency Heuristic in Temporal-Difference Learning",
+ "authors": [
+  "Brett Daley",
+  "Marlos C. Machado",
+  "Martha White"
+ ],
+ "v1_date": "2024-06-18",
+ "latest_version": 2,
+ "latest_date": "2024-08-26",
+ "journal_ref": "Reinforcement Learning Journal, vol. 1, no. 1, 2024",
+ "doi": "",
+ "comment": "RLC 2024. 18 pages, 8 figures, 1 table",
+ "abstract": "The recency heuristic in reinforcement learning is the assumption that stimuli that occurred closer in time to an acquired reward should be more heavily reinforced. The recency heuristic is one of the key assumptions made by TD($λ$), which reinforces recent experiences according to an exponentially decaying weighting. In fact, all other widely used return estimators for TD learning, such as $n$-step returns, satisfy a weaker (i.e., non-monotonic) recency heuristic. Why is the recency heuristic effective for temporal credit assignment? What happens when credit is assigned in a way that violates this heuristic? In this paper, we analyze the specific mathematical implications of adopting the recency heuristic in TD learning. We prove that any return estimator satisfying this heuristic: 1) is guaranteed to converge to the correct value function, 2) has a relatively fast contraction rate, and 3) has a long window of effective credit assignment, yet bounded worst-case variance. We also give a counterexample where on-policy, tabular TD methods violating the recency heuristic diverge. Our results offer some of the first theoretical evidence that credit assignment based on the recency heuristic facilitates learning.",
+ "primary": "cs.LG"
+}

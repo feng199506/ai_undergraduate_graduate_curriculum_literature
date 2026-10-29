@@ -1,0 +1,18 @@
+{
+ "id": "2607.13550",
+ "title": "Parallel gradient boosting for flexible estimation of conditional distributions",
+ "authors": [
+  "Rémy Chapelle",
+  "Nicolas Vayatis",
+  "Bruno Falissard",
+  "Mohammed Sedki"
+ ],
+ "v1_date": "2026-07-15",
+ "latest_version": 2,
+ "latest_date": "2026-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Boosting is one of the most successful learning techniques for standard classification and regression tasks. Its extension to multi-output prediction problems has found an increasing number of applications in recent years. Among them is the prediction of entire conditional distributions rather than single functionals, which can often be framed as a multi-output regression problem, for example multiple quantile regression. Addressing such problems with classical implementations of boosting is computationally challenging, because usually one base model is trained for each target at every iteration. More efficient variants of boosting have been proposed to speed up training, but they tend to be tied to specific loss functions and classes of base learners, usually decision trees. In this work, we study a modification of the gradient boosting algorithm, which we call parallel gradient boosting, designed to circumvent all these limitations. The core idea is to use a common descent direction for all training observations. By doing so, only one base model is needed at each iteration, regardless of the number of targets, which allows for considerable performance gains. We establish sufficient conditions for the convergence of the algorithm, whose practical use is introduced via the multiple quantile regression setting. We show that in such a setting, it provides predictions of similar quality to state-of-the-art boosting libraries such as XGBoost, while being faster by several orders of magnitude. Then, we evaluate the properties of the resulting conditional distribution estimator, which is shown empirically to outperform other nonparametric and semiparametric estimators, especially in high-dimensional settings and in the presence of mixed and/or missing covariates.",
+ "primary": "stat.ML"
+}

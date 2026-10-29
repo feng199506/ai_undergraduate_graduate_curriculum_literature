@@ -1,0 +1,20 @@
+{
+ "id": "2506.03817",
+ "title": "Survey of Active Learning Hyperparameters: Insights from a Large-Scale Experimental Grid",
+ "authors": [
+  "Julius Gonsior",
+  "Tim Rieß",
+  "Anja Reusch",
+  "Claudio Hartmann",
+  "Maik Thiele",
+  "Wolfgang Lehner"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 1,
+ "latest_date": "2025-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Annotating data is a time-consuming and costly task, but it is inherently required for supervised machine learning. Active Learning (AL) is an established method that minimizes human labeling effort by iteratively selecting the most informative unlabeled samples for expert annotation, thereby improving the overall classification performance. Even though AL has been known for decades, AL is still rarely used in real-world applications. As indicated in the two community web surveys among the NLP community about AL, two main reasons continue to hold practitioners back from using AL: first, the complexity of setting AL up, and second, a lack of trust in its effectiveness. We hypothesize that both reasons share the same culprit: the large hyperparameter space of AL. This mostly unexplored hyperparameter space often leads to misleading and irreproducible AL experiment results. In this study, we first compiled a large hyperparameter grid of over 4.6 million hyperparameter combinations, second, recorded the performance of all combinations in the so-far biggest conducted AL study, and third, analyzed the impact of each hyperparameter in the experiment results. In the end, we give recommendations about the influence of each hyperparameter, demonstrate the surprising influence of the concrete AL strategy implementation, and outline an experimental study design for reproducible AL experiments with minimal computational effort, thus contributing to more reproducible and trustworthy AL research in the future.",
+ "primary": "cs.LG"
+}

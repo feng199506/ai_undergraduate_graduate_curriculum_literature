@@ -1,0 +1,16 @@
+{
+ "id": "2511.03553",
+ "title": "MultiZebraLogic: A Multilingual Logical Reasoning Benchmark",
+ "authors": [
+  "Sofie Helene Bruun",
+  "Dan Saattrup Smart"
+ ],
+ "v1_date": "2025-11-05",
+ "latest_version": 2,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Camera-ready version for RESOURCEFUL 2026 at LREC 2026",
+ "abstract": "We create high-quality datasets for LLM evaluation of logical reasoning skills across nine different languages, which have been manually checked by fluent speakers. The datasets consist of so-called zebra puzzles, and we analyse different ways of tuning the difficulty of the puzzles to fit modern LLMs. This includes the size of the puzzle (number of objects and number of clues), as well as a novel addition of red herring clues containing only irrelevant information. We show that presence of red herrings indeed makes the puzzles significantly harder for the models, and we find puzzle sizes 2x3 and 4x5 are sufficiently challenging for GPT-4o mini (a non-reasoning model) and o3-mini (a reasoning model), respectively. We analyse whether LLM performance of these are sensitive to the language, the cultural sensitivity of the puzzle theme, and the choice of clue types. These analyses are conducted with English and Danish, where we show that there is no significant difference for either of these three aspects, at least for the OpenAI models GPT-4o mini and o3-mini, chosen as representative non-reasoning and reasoning models, respectively. We publish the datasets for each of the nine languages for the identified sizes 2x3 and 4x5. We also publish the code used to generate the puzzles, which can be used to extend the benchmark into more languages.",
+ "primary": "cs.CL"
+}

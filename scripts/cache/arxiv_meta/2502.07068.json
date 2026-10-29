@@ -1,0 +1,20 @@
+{
+ "id": "2502.07068",
+ "title": "Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations",
+ "authors": [
+  "Yong Cao",
+  "Haijiang Liu",
+  "Arnav Arora",
+  "Isabelle Augenstein",
+  "Paul Röttger",
+  "Daniel Hershcovich"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 2,
+ "latest_date": "2025-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 9 figures, accepted to NAACL 2025 main",
+ "abstract": "Large-scale surveys are essential tools for informing social science research and policy, but running surveys is costly and time-intensive. If we could accurately simulate group-level survey results, this would therefore be very valuable to social science research. Prior work has explored the use of large language models (LLMs) for simulating human behaviors, mostly through prompting. In this paper, we are the first to specialize LLMs for the task of simulating survey response distributions. As a testbed, we use country-level results from two global cultural surveys. We devise a fine-tuning method based on first-token probabilities to minimize divergence between predicted and actual response distributions for a given question. Then, we show that this method substantially outperforms other methods and zero-shot classifiers, even on unseen questions, countries, and a completely unseen survey. While even our best models struggle with the task, especially on unseen questions, our results demonstrate the benefits of specialization for simulation, which may accelerate progress towards sufficiently accurate simulation in the future.",
+ "primary": "cs.CL"
+}

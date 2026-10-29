@@ -1,0 +1,20 @@
+{
+ "id": "2507.11783",
+ "title": "EEG Foundation Models: A Critical Review of Current Progress and Future Directions",
+ "authors": [
+  "Gayal Kuruppu",
+  "Neeraj Wagh",
+  "Vaclav Kremen",
+  "Sandipan Pati",
+  "Gregory Worrell",
+  "Yogatheesan Varatharajah"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 3,
+ "latest_date": "2025-12-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages (main), 5 figures (main), 4 tables (main + supplement)",
+ "abstract": "Premise. Patterns of electrical brain activity recorded via electroencephalography (EEG) offer immense value for scientific and clinical investigations. The inability of supervised EEG encoders to learn robust EEG patterns and their over-reliance on expensive signal annotations have sparked a transition towards general-purpose self-supervised EEG encoders, i.e., EEG foundation models (EEG-FMs), for robust and scalable EEG feature extraction. However, the real-world readiness of early EEG-FMs and the rubrics for long-term research progress remain unclear. Objective. In this work, we conduct a review of ten early EEG-FMs to capture common trends and identify key directions for future development of EEG-FMs. Methods. We comparatively analyze each EEG-FM using three fundamental pillars of foundation modeling, namely the representation of input data, self-supervised modeling, and the evaluation strategy. Based on this analysis, we present a critical synthesis of EEG-FM methodology, empirical findings, and outstanding research gaps. Results. We find that most EEG-FMs adopt a sequence-based modeling scheme that relies on transformer-based backbones and the reconstruction of masked temporal EEG sequences for self-supervision. However, model evaluations remain heterogeneous and largely limited, making it challenging to assess their practical off-the-shelf utility. In addition to adopting standardized and realistic evaluations, future work should demonstrate more substantial scaling effects and make principled and trustworthy choices throughout the EEG representation learning pipeline. Significance. Our review indicates that the development of benchmarks, software tools, technical methodologies, and applications in collaboration with domain experts may advance the translational utility and real-world adoption of EEG-FMs.",
+ "primary": "eess.SP"
+}

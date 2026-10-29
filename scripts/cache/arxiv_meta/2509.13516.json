@@ -1,0 +1,15 @@
+{
+ "id": "2509.13516",
+ "title": "An Analysis of Optimizer Choice on Energy Efficiency and Performance in Neural Network Training",
+ "authors": [
+  "Tom Almog"
+ ],
+ "v1_date": "2025-09-16",
+ "latest_version": 1,
+ "latest_date": "2025-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages. 3 figures",
+ "abstract": "As machine learning models grow increasingly complex and computationally demanding, understanding the environmental impact of training decisions becomes critical for sustainable AI development. This paper presents a comprehensive empirical study investigating the relationship between optimizer choice and energy efficiency in neural network training. We conducted 360 controlled experiments across three benchmark datasets (MNIST, CIFAR-10, CIFAR-100) using eight popular optimizers (SGD, Adam, AdamW, RMSprop, Adagrad, Adadelta, Adamax, NAdam) with 15 random seeds each. Using CodeCarbon for precise energy tracking on Apple M1 Pro hardware, we measured training duration, peak memory usage, carbon dioxide emissions, and final model performance. Our findings reveal substantial trade-offs between training speed, accuracy, and environmental impact that vary across datasets and model complexity. We identify AdamW and NAdam as consistently efficient choices, while SGD demonstrates superior performance on complex datasets despite higher emissions. These results provide actionable insights for practitioners seeking to balance performance and sustainability in machine learning workflows.",
+ "primary": "cs.LG"
+}

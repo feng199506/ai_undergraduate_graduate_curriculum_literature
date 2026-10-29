@@ -1,0 +1,18 @@
+{
+ "id": "2502.17788",
+ "title": "On-device edge learning for IoT data streams: a survey",
+ "authors": [
+  "Afonso Lourenço",
+  "João Rodrigo",
+  "João Gama",
+  "Goreti Marreiros"
+ ],
+ "v1_date": "2025-02-25",
+ "latest_version": 1,
+ "latest_date": "2025-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This literature review explores continual learning methods for on-device training in the context of neural networks (NNs) and decision trees (DTs) for classification tasks on smart environments. We highlight key constraints, such as data architecture (batch vs. stream) and network capacity (cloud vs. edge), which impact TinyML algorithm design, due to the uncontrolled natural arrival of data streams. The survey details the challenges of deploying deep learners on resource-constrained edge devices, including catastrophic forgetting, data inefficiency, and the difficulty of handling IoT tabular data in open-world settings. While decision trees are more memory-efficient for on-device training, they are limited in expressiveness, requiring dynamic adaptations, like pruning and meta-learning, to handle complex patterns and concept drifts. We emphasize the importance of multi-criteria performance evaluation tailored to edge applications, which assess both output-based and internal representation metrics. The key challenge lies in integrating these building blocks into autonomous online systems, taking into account stability-plasticity trade-offs, forward-backward transfer, and model convergence.",
+ "primary": "cs.LG"
+}

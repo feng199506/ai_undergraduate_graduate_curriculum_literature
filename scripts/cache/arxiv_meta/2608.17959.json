@@ -1,0 +1,17 @@
+{
+ "id": "2608.17959",
+ "title": "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+ "authors": [
+  "Isidoro Tamassia",
+  "Lennert De Smet",
+  "Giuseppe Marra"
+ ],
+ "v1_date": "2026-08-18",
+ "latest_version": 2,
+ "latest_date": "2026-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "State-of-the-art model-based reinforcement learning methods learn neural world models that allow policy improvement by planning in a latent space, without assumptions on the structure of the underlying environment. While expressive, these models are generally task-dependent: they learn uninterpretable latent representations that are tied to the training task and thus hard to generalize to new tasks. In this work, we present a novel world model formulation where the reward prediction only depends on a subset of structured, symbolic components of the whole latent state. Decoupling observation reconstruction and reward prediction allows us to learn world models that can adapt zero-shot, i.e. without further environment interactions, to new reward functions defined over the same symbolic state space. We discuss the main advantages and challenges of learning these neurosymbolic world models and demonstrate the strong generalisation properties of our approach over purely neural methods.",
+ "primary": "cs.AI"
+}

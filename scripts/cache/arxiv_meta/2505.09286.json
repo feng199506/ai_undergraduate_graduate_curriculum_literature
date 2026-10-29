@@ -1,0 +1,16 @@
+{
+ "id": "2505.09286",
+ "title": "A Scalable Unsupervised Framework for multi-aspect labeling of Multilingual and Multi-Domain Review Data",
+ "authors": [
+  "Jiin Park",
+  "Misuk Kim"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 2,
+ "latest_date": "2026-01-12",
+ "journal_ref": "Knowledge-Based Systems, Volume 335, 28 February 2026, Article 115210",
+ "doi": "10.1016/j.knosys.2025.115210",
+ "comment": "36 pages, 10 figures. Published in Knowledge-Based Systems",
+ "abstract": "Effectively analyzing online review data is essential across industries. However, many existing studies are limited to specific domains and languages or depend on supervised learning approaches that require large-scale labeled datasets. To address these limitations, we propose a multilingual, scalable, and unsupervised framework for cross-domain aspect detection. This framework is designed for multi-aspect labeling of multilingual and multi-domain review data. In this study, we apply automatic labeling to Korean and English review datasets spanning various domains and assess the quality of the generated labels through extensive experiments. Aspect category candidates are first extracted through clustering, and each review is then represented as an aspect-aware embedding vector using negative sampling. To evaluate the framework, we conduct multi-aspect labeling and fine-tune several pretrained language models to measure the effectiveness of the automatically generated labels. Results show that these models achieve high performance, demonstrating that the labels are suitable for training. Furthermore, comparisons with publicly available large language models highlight the framework's superior consistency and scalability when processing large-scale data. A human evaluation also confirms that the quality of the automatic labels is comparable to those created manually. This study demonstrates the potential of a robust multi-aspect labeling approach that overcomes limitations of supervised methods and is adaptable to multilingual, multi-domain environments. Future research will explore automatic review summarization and the integration of artificial intelligence agents to further improve the efficiency and depth of review analysis.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2402.15691",
+ "title": "Orthogonal Gradient Boosting for Simpler Additive Rule Ensembles",
+ "authors": [
+  "Fan Yang",
+  "Pierre Le Bodic",
+  "Michael Kamp",
+  "Mario Boley"
+ ],
+ "v1_date": "2024-02-24",
+ "latest_version": 1,
+ "latest_date": "2024-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 11 figures, accepted at AISTATS 2024",
+ "abstract": "Gradient boosting of prediction rules is an efficient approach to learn potentially interpretable yet accurate probabilistic models. However, actual interpretability requires to limit the number and size of the generated rules, and existing boosting variants are not designed for this purpose. Though corrective boosting refits all rule weights in each iteration to minimise prediction risk, the included rule conditions tend to be sub-optimal, because commonly used objective functions fail to anticipate this refitting. Here, we address this issue by a new objective function that measures the angle between the risk gradient vector and the projection of the condition output vector onto the orthogonal complement of the already selected conditions. This approach correctly approximate the ideal update of adding the risk gradient itself to the model and favours the inclusion of more general and thus shorter rules. As we demonstrate using a wide range of prediction tasks, this significantly improves the comprehensibility/accuracy trade-off of the fitted ensemble. Additionally, we show how objective values for related rule conditions can be computed incrementally to avoid any substantial computational overhead of the new method.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2412.00685",
+ "title": "EM-based Fast Uncertainty Quantification for Bayesian Multi-setup Operational Modal Analysis",
+ "authors": [
+  "Wei Zhu",
+  "Binbin Li",
+  "Zuo Zhu"
+ ],
+ "v1_date": "2024-12-01",
+ "latest_version": 1,
+ "latest_date": "2024-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 13 figures",
+ "abstract": "The current Bayesian FFT algorithm relies on direct differentiation to obtain the posterior covariance matrix (PCM), which is time-consuming, memory-intensive, and hard to code, especially for the multi-setup operational modal analysis (OMA). Aiming at accelerating the uncertainty quantification in multi-setup OMA, an expectation-maximization (EM)-based algorithm is proposed by reformulating the Hessian matrix of the negative log-likelihood function (NLLF) as a sum of simplified components corresponding to the complete-data NLLF. Matrix calculus is employed to derive these components in a compact manner, resulting in expressions similar to those in the single-setup case. This similarity allows for the reuse of existing Bayesian single-setup OMA codes, simplifying implementation. The singularity caused by mode shape norm constraints is addressed through null space projection, eliminating potential numerical errors from the conventional pseudoinverse operation. A sparse assembly strategy is further adopted, avoiding unnecessary calculations and storage of predominant zero elements in the Hessian matrix. The proposed method is then validated through a comprehensive parametric study and applied to a multi-setup OMA of a high-rise building. Results demonstrate that the proposed method efficiently calculates the PCM within seconds, even for cases with hundreds of parameters. This represents an efficiency improvement of at least one order of magnitude over the state-of-the-art method. Such performance paves the way for a real-time modal identification of large-scale structures, including those with closely-spaced modes.",
+ "primary": "stat.CO"
+}

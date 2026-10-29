@@ -1,0 +1,17 @@
+{
+ "id": "2502.18841",
+ "title": "Sentiment Analysis of Movie Reviews Using BERT",
+ "authors": [
+  "Gibson Nkhata",
+  "Usman Anjum",
+  "Justin Zhan"
+ ],
+ "v1_date": "2025-02-26",
+ "latest_version": 1,
+ "latest_date": "2025-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 3 figures, published in the proceedings The Fifteenth International Conference on Information, Process, and Knowledge Management (eKNOW 2023)",
+ "abstract": "Sentiment Analysis (SA) or opinion mining is analysis of emotions and opinions from any kind of text. SA helps in tracking peoples viewpoints and it is an important factor when it comes to social media monitoring product and brand recognition customer satisfaction customer loyalty advertising and promotions success and product acceptance. That is why SA is one of the active research areas in Natural Language Processing (NLP). SA is applied on data sourced from various media platforms to mine sentiment knowledge from them. Various approaches have been deployed in the literature to solve the problem. Most techniques devise complex and sophisticated frameworks in order to attain optimal accuracy. This work aims to finetune Bidirectional Encoder Representations from Transformers (BERT) with Bidirectional Long Short-Term Memory (BiLSTM) for movie reviews sentiment analysis and still provide better accuracy than the State-of-The-Art (SOTA) methods. The paper also shows how sentiment analysis can be applied if someone wants to recommend a certain movie for example by computing overall polarity of its sentiments predicted by the model. That is our proposed method serves as an upper-bound baseline in prediction of a predominant reaction to a movie. To compute overall polarity a heuristic algorithm is applied to BERTBiLSTM output vector. Our model can be extended to three-class four-class or any fine-grained classification and apply overall polarity computation again. This is intended to be exploited in future work.",
+ "primary": "cs.CL"
+}

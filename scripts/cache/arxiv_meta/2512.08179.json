@@ -1,0 +1,17 @@
+{
+ "id": "2512.08179",
+ "title": "Distributional Random Forests for Complex Survey Designs",
+ "authors": [
+  "Yating Zou",
+  "Marcos Matabuena",
+  "Michael R. Kosorok"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 3,
+ "latest_date": "2026-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study estimation of the conditional law $P(Y|X = x)$ and continuous measurable maps of it when $Y \\in \\mathcal{Y}$ takes values in a locally compact Polish space (e.g., $\\mathbb{R}^d$), $X \\in \\mathbb{R}^p$, and the observations arise from a complex survey design: a single- or multi-stage sampling scheme that may involve unequal selection, stratification, and clustering. We propose a survey-calibrated distributional random forest (SDRF) that incorporates complex-design features via the pseudo-population bootstrap, PSU-level honesty, and a Maximum Mean Discrepancy (MMD) split criterion computed from kernel mean embeddings of design-weighted node distributions. We provide a framework for analyzing forest-based estimators under various survey designs; establish consistency for both finite- and super-population conditional laws under explicit conditions on the design, kernel, resampling multipliers, and tree partitions. As far as we are aware, these are the first results on model-free estimation of conditional distributions under survey designs. Simulations under a stratified two-stage cluster design expose the systematic bias incurred by ignoring survey structure. We illustrate the broad applicability of SDRF on NHANES, estimating the conditional joint tolerance regions for two diabetes biomarkers, revealing subgroup-level distributional heterogeneity relevant to diabetes risk profiling in the U.S. population.",
+ "primary": "stat.ME"
+}

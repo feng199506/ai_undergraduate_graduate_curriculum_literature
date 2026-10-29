@@ -1,0 +1,18 @@
+{
+ "id": "2311.02746",
+ "title": "Staged Reinforcement Learning for Complex Tasks through Decomposed Environments",
+ "authors": [
+  "Rafael Pina",
+  "Corentin Artaud",
+  "Xiaolan Liu",
+  "Varuna De Silva"
+ ],
+ "v1_date": "2023-11-05",
+ "latest_version": 1,
+ "latest_date": "2023-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Intelligent Systems and Pattern Recognition 2023 (ISPR 2023)",
+ "abstract": "Reinforcement Learning (RL) is an area of growing interest in the field of artificial intelligence due to its many notable applications in diverse fields. Particularly within the context of intelligent vehicle control, RL has made impressive progress. However, currently it is still in simulated controlled environments where RL can achieve its full super-human potential. Although how to apply simulation experience in real scenarios has been studied, how to approximate simulated problems to the real dynamic problems is still a challenge. In this paper, we discuss two methods that approximate RL problems to real problems. In the context of traffic junction simulations, we demonstrate that, if we can decompose a complex task into multiple sub-tasks, solving these tasks first can be advantageous to help minimising possible occurrences of catastrophic events in the complex task. From a multi-agent perspective, we introduce a training structuring mechanism that exploits the use of experience learned under the popular paradigm called Centralised Training Decentralised Execution (CTDE). This experience can then be leveraged in fully decentralised settings that are conceptually closer to real settings, where agents often do not have access to a central oracle and must be treated as isolated independent units. The results show that the proposed approaches improve agents performance in complex tasks related to traffic junctions, minimising potential safety-critical problems that might happen in these scenarios. Although still in simulation, the investigated situations are conceptually closer to real scenarios and thus, with these results, we intend to motivate further research in the subject.",
+ "primary": "cs.LG"
+}

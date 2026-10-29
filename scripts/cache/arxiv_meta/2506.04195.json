@@ -1,0 +1,25 @@
+{
+ "id": "2506.04195",
+ "title": "MACS: Multi-Agent Reinforcement Learning for Optimization of Crystal Structures",
+ "authors": [
+  "Elena Zamaraeva",
+  "Christopher M. Collins",
+  "George R. Darling",
+  "Matthew S. Dyer",
+  "Bei Peng",
+  "Rahul Savani",
+  "Dmytro Antypov",
+  "Vladimir V. Gusev",
+  "Judith Clymo",
+  "Paul G. Spirakis",
+  "Matthew J. Rosseinsky"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 1,
+ "latest_date": "2025-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Geometry optimization of atomic structures is a common and crucial task in computational chemistry and materials design. Following the learning to optimize paradigm, we propose a new multi-agent reinforcement learning method called Multi-Agent Crystal Structure optimization (MACS) to address periodic crystal structure optimization. MACS treats geometry optimization as a partially observable Markov game in which atoms are agents that adjust their positions to collectively discover a stable configuration. We train MACS across various compositions of reported crystalline materials to obtain a policy that successfully optimizes structures from the training compositions as well as structures of larger sizes and unseen compositions, confirming its excellent scalability and zero-shot transferability. We benchmark our approach against a broad range of state-of-the-art optimization methods and demonstrate that MACS optimizes periodic crystal structures significantly faster, with fewer energy calculations, and the lowest failure rate.",
+ "primary": "cs.LG"
+}

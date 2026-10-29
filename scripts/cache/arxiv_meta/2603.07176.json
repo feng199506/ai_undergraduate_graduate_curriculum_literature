@@ -1,0 +1,19 @@
+{
+ "id": "2603.07176",
+ "title": "Learning to Rank the Initial Branching Order of SAT Solvers",
+ "authors": [
+  "Arvid Eriksson",
+  "Gabriel Poesia",
+  "Roman Bresson",
+  "Karl Henrik Johansson",
+  "David Broman"
+ ],
+ "v1_date": "2026-03-07",
+ "latest_version": 1,
+ "latest_date": "2026-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at VerifAI-2: The Second Workshop on AI Verification in the Wild",
+ "abstract": "Finding good branching orders is key to solving SAT problems efficiently, but finding such branching orders is a difficult problem. Using a learning based approach to predict a good branching order before solving, therefore, has potential. In this paper, we investigate predicting branching orders using graph neural networks as a preprocessing step to conflict-driven clause learning (CDCL) SAT solvers. We show that there are significant gains to be made in existing CDCL SAT solvers by providing a good initial branching. Further, we provide three labeling methods to find such initial branching orders in a tractable way. Finally, we train a graph neural network to predict these branching orders and show through our evaluations that a GNN-initialized ordering yields significant speedups on random 3-CNF and pseudo-industrial benchmarks, with generalization capabilities to instances much larger than the training set. However, we also find that the predictions fail at speeding up more difficult and industrial instances. We attribute this to the solver's dynamic heuristics, which rapidly overwrite the provided initialization, and to the complexity of these instances, making GNN prediction hard.",
+ "primary": "cs.AI"
+}

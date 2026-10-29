@@ -1,0 +1,16 @@
+{
+ "id": "2509.10000",
+ "title": "Neural Scaling Laws for Deep Regression",
+ "authors": [
+  "Tilen Cadez",
+  "Kyoung-Min Kim"
+ ],
+ "v1_date": "2025-09-12",
+ "latest_version": 2,
+ "latest_date": "2025-11-24",
+ "journal_ref": "Machine Learning: Science and Technology, 7 025011 (2026)",
+ "doi": "10.1088/2632-2153/ae484c",
+ "comment": "Supplementary Information will be provided with the published manuscript",
+ "abstract": "Neural scaling laws--power-law relationships between generalization errors and characteristics of deep learning models--are vital tools for developing reliable models while managing limited resources. Although the success of large language models highlights the importance of these laws, their application to deep regression models remains largely unexplored. Here, we empirically investigate neural scaling laws in deep regression using a parameter estimation model for twisted van der Waals magnets. We observe power-law relationships between the loss and both training dataset size and model capacity across a wide range of values, employing various architectures--including fully connected networks, residual networks, and vision transformers. Furthermore, the scaling exponents governing these relationships range from 1 to 2, with specific values depending on the regressed parameters and model details. The consistent scaling behaviors and their large scaling exponents suggest that the performance of deep regression models can improve substantially with increasing data size.",
+ "primary": "cs.LG"
+}

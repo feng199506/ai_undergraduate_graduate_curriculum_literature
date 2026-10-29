@@ -1,0 +1,16 @@
+{
+ "id": "2510.03468",
+ "title": "Improving Sensitivity in A/B Tests: Integrating CUPED with Trimmed Mean Techniques",
+ "authors": [
+  "Kevin Charette",
+  "Tristan Boudreault"
+ ],
+ "v1_date": "2025-10-03",
+ "latest_version": 1,
+ "latest_date": "2025-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 3 tables",
+ "abstract": "Accurate estimation of treatment effects in online A/B testing is challenging with zero-inflated and skewed metrics. Traditional tests, like Welch's t-test, often lack sensitivity with heavy-tailed data due to their reliance on means, as opposed to e.g., percentiles. The Controlled Experiments Using Pre-experiment Data (CUPED) technique improves sensitivity by reducing variance, yet that variance reduction is insufficient for highly skewed metrics. Alternatively, Yuen's t-test uses trimmed means to robustly handle outliers and skewness. This paper introduces a method that combines the variance reduction of CUPED with the robustness of Yuen's t-test to enhance hypothesis testing sensitivity. Our novel approach integrates trimmed data in a principled manner, offering a framework that balances variance reduction with robust location measures. We demonstrate improved detection of significant effects with smaller sample sizes, enabling quicker experimental decisions without sacrificing statistical power. This work broadens the utility of controlled experiments in environments characterized by highly skewed or high-variance data.",
+ "primary": "stat.ME"
+}

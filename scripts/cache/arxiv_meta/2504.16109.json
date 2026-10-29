@@ -1,0 +1,19 @@
+{
+ "id": "2504.16109",
+ "title": "Representation Learning for Tabular Data: A Comprehensive Survey",
+ "authors": [
+  "Jun-Peng Jiang",
+  "Si-Yang Liu",
+  "Hao-Run Cai",
+  "Qile Zhou",
+  "Han-Jia Ye"
+ ],
+ "v1_date": "2025-04-17",
+ "latest_version": 1,
+ "latest_date": "2025-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tabular data, structured as rows and columns, is among the most prevalent data types in machine learning classification and regression applications. Models for learning from tabular data have continuously evolved, with Deep Neural Networks (DNNs) recently demonstrating promising results through their capability of representation learning. In this survey, we systematically introduce the field of tabular representation learning, covering the background, challenges, and benchmarks, along with the pros and cons of using DNNs. We organize existing methods into three main categories according to their generalization capabilities: specialized, transferable, and general models. Specialized models focus on tasks where training and evaluation occur within the same data distribution. We introduce a hierarchical taxonomy for specialized models based on the key aspects of tabular data -- features, samples, and objectives -- and delve into detailed strategies for obtaining high-quality feature- and sample-level representations. Transferable models are pre-trained on one or more datasets and subsequently fine-tuned on downstream tasks, leveraging knowledge acquired from homogeneous or heterogeneous sources, or even cross-modalities such as vision and language. General models, also known as tabular foundation models, extend this concept further, allowing direct application to downstream tasks without fine-tuning. We group these general models based on the strategies used to adapt across heterogeneous datasets. Additionally, we explore ensemble methods, which integrate the strengths of multiple tabular models. Finally, we discuss representative extensions of tabular learning, including open-environment tabular machine learning, multimodal learning with tabular data, and tabular understanding. More information can be found in the following repository: https://github.com/LAMDA-Tabular/Tabular-Survey.",
+ "primary": "cs.LG"
+}

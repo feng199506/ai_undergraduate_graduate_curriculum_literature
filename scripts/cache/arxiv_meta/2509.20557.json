@@ -1,0 +1,29 @@
+{
+ "id": "2509.20557",
+ "title": "SiniticMTError: A Machine Translation Dataset with Error Annotations for Sinitic Languages",
+ "authors": [
+  "Hannah Liu",
+  "Junghyun Min",
+  "En-Shiun Annie Lee",
+  "Ethan Yue Heng Cheung",
+  "Shou-Yi Hung",
+  "Elsie Chan",
+  "Shiyao Qian",
+  "Runtong Liang",
+  "Kimlan Huynh",
+  "Wing Yu Yip",
+  "York Hay Ng",
+  "TSZ Fung Yau",
+  "Ka Ieng Charlotte Lo",
+  "You-Wei Wu",
+  "Richard Tzong-Han Tsai"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 2,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "LREC 2026 camera-ready. 23 pages, 2 figures, 11 tables",
+ "abstract": "Despite major advances in machine translation (MT) in recent years, progress remains limited for many low-resource languages that lack large-scale training data and linguistic resources. In this paper, we introduce \\dsname, a novel fine-grained dataset that builds on existing parallel corpora to provide error span, error type, and error severity annotations in machine-translated examples from English to Mandarin, Cantonese, and Wu Chinese, along with a Mandarin-Hokkien component derived from a non-parallel source. Our dataset serves as a resource for the MT community to fine-tune models with error detection capabilities, supporting research on translation quality estimation, error-aware generation, and low-resource language evaluation. We also establish baseline results using language models to benchmark translation error detection performance. Specifically, we evaluate multiple open source and closed source LLMs using span-level and correlation-based MQM metrics, revealing their limited precision, underscoring the need for our dataset. Finally, we report our rigorous annotation process by native speakers, with analyses on pilot studies, iterative feedback, insights, and patterns in error type and severity.",
+ "primary": "cs.CL"
+}

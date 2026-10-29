@@ -1,0 +1,16 @@
+{
+ "id": "2312.04249",
+ "title": "Extending Answer Set Programming with Rational Numbers",
+ "authors": [
+  "Francesco Pacenza",
+  "Jessica Zangari"
+ ],
+ "v1_date": "2023-12-07",
+ "latest_version": 1,
+ "latest_date": "2023-12-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Answer Set Programming (ASP) is a widely used declarative programming paradigm that has shown great potential in solving complex computational problems. However, the inability to natively support non-integer arithmetic has been highlighted as a major drawback in real-world applications. This feature is crucial to accurately model and manage real-world data and information as emerged in various contexts, such as the smooth movement of video game characters, the 3D movement of mechanical arms, and data streamed by sensors. Nevertheless, extending ASP in this direction, without affecting its declarative nature and its well-defined semantics, poses non-trivial challenges; thus, no ASP system is able to reason natively with non-integer domains. Indeed, the widespread floating-point arithmetic is not applicable to the ASP case, as the reproducibility of results cannot be guaranteed and the semantics of an ASP program would not be uniquely and declaratively determined, regardless of the employed machine or solver. To overcome such limitations and in the realm of pure ASP, this paper proposes an extension of ASP in which non-integers are approximated to rational numbers, fully granting reproducibility and declarativity. We provide a well-defined semantics for the ASP-Core-2 standard extended with rational numbers and an implementation thereof. We hope this work could serve as a stepping stone towards a more expressive and versatile ASP language that can handle a broader range of real-world problems.",
+ "primary": "cs.AI"
+}

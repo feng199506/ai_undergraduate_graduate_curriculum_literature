@@ -1,0 +1,18 @@
+{
+ "id": "2501.16733",
+ "title": "Dream to Drive with Predictive Individual World Model",
+ "authors": [
+  "Yinfeng Gao",
+  "Qichao Zhang",
+  "Da-wei Ding",
+  "Dongbin Zhao"
+ ],
+ "v1_date": "2025-01-28",
+ "latest_version": 1,
+ "latest_date": "2025-01-28",
+ "journal_ref": "",
+ "doi": "10.1109/tiv.2024.3408830.",
+ "comment": "Codes: https://github.com/gaoyinfeng/PIWM",
+ "abstract": "It is still a challenging topic to make reactive driving behaviors in complex urban environments as road users' intentions are unknown. Model-based reinforcement learning (MBRL) offers great potential to learn a reactive policy by constructing a world model that can provide informative states and imagination training. However, a critical limitation in relevant research lies in the scene-level reconstruction representation learning, which may overlook key interactive vehicles and hardly model the interactive features among vehicles and their long-term intentions. Therefore, this paper presents a novel MBRL method with a predictive individual world model (PIWM) for autonomous driving. PIWM describes the driving environment from an individual-level perspective and captures vehicles' interactive relations and their intentions via trajectory prediction task. Meanwhile, a behavior policy is learned jointly with PIWM. It is trained in PIWM's imagination and effectively navigates in the urban driving scenes leveraging intention-aware latent states. The proposed method is trained and evaluated on simulation environments built upon real-world challenging interactive scenarios. Compared with popular model-free and state-of-the-art model-based reinforcement learning methods, experimental results show that the proposed method achieves the best performance in terms of safety and efficiency.",
+ "primary": "cs.RO"
+}

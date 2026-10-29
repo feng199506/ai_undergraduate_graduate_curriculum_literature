@@ -1,0 +1,15 @@
+{
+ "id": "2511.08019",
+ "title": "Model Predictive Control via Probabilistic Inference: A Tutorial and Survey",
+ "authors": [
+  "Kohei Honda"
+ ],
+ "v1_date": "2025-11-11",
+ "latest_version": 4,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 7 figures",
+ "abstract": "This paper presents a tutorial and survey on Probabilistic Inference-based Model Predictive Control (PI-MPC). PI-MPC reformulates finite-horizon optimal control as inference over an optimal control distribution expressed as a Boltzmann distribution weighted by a control prior, and generates actions through variational inference. In the tutorial part, we derive this formulation and explain action generation via variational inference, highlighting Model Predictive Path Integral (MPPI) control as a representative algorithm with a closed-form sampling update. In the survey part, we organize existing PI-MPC research around key design dimensions, including prior design, multi-modality, constraint handling, scalability, hardware acceleration, and theoretical analysis. This paper provides a unified conceptual perspective on PI-MPC and a practical entry point for researchers and practitioners in robotics and other control applications.",
+ "primary": "cs.RO"
+}

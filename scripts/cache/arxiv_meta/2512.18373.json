@@ -1,0 +1,15 @@
+{
+ "id": "2512.18373",
+ "title": "Towards Guided Descent: Optimization Algorithms for Training Neural Networks At Scale",
+ "authors": [
+  "Ansh Nagwekar"
+ ],
+ "v1_date": "2025-12-20",
+ "latest_version": 1,
+ "latest_date": "2025-12-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Master's Thesis at the University of Pennsylvania",
+ "abstract": "Neural network optimization remains one of the most consequential yet poorly understood challenges in modern AI research, where improvements in training algorithms can lead to enhanced feature learning in foundation models, order-of-magnitude reductions in training time, and improved interpretability into how networks learn. While stochastic gradient descent (SGD) and its variants have become the de facto standard for training deep networks, their success in these over-parameterized regimes often appears more empirical than principled. This thesis investigates this apparent paradox by tracing the evolution of optimization algorithms from classical first-order methods to modern higher-order techniques, revealing how principled algorithmic design can demystify the training process. Starting from first principles with SGD and adaptive gradient methods, the analysis progressively uncovers the limitations of these conventional approaches when confronted with anisotropy that is representative of real-world data. These breakdowns motivate the exploration of sophisticated alternatives rooted in curvature information: second-order approximation techniques, layer-wise preconditioning, adaptive learning rates, and more. Next, the interplay between these optimization algorithms and the broader neural network training toolkit, which includes prior and recent developments such as maximal update parametrization, learning rate schedules, and exponential moving averages, emerges as equally essential to empirical success. To bridge the gap between theoretical understanding and practical deployment, this paper offers practical prescriptions and implementation strategies for integrating these methods into modern deep learning workflows.",
+ "primary": "cs.LG"
+}

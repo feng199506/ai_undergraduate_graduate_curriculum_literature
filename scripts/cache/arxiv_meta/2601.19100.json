@@ -1,0 +1,18 @@
+{
+ "id": "2601.19100",
+ "title": "Reward Engineering for Software Tasks: A Survey of Reinforcement Learning Approaches",
+ "authors": [
+  "Md Rayhanul Masud",
+  "Azmine Toushik Wasi",
+  "Salman Rahman",
+  "Md Rizwan Parvez"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 2,
+ "latest_date": "2026-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at EMNLP 2026 (Findings)",
+ "abstract": "Reinforcement learning is increasingly used for code-centric software engineering tasks, including code generation, understanding, repair, testing, and optimization, especially with the rise of large language models and autonomous agents. A core challenge in these settings is reward design. Unlike standard RL domains with clear scalar objectives, software tasks involve competing goals such as correctness, security, efficiency, and readability, which are difficult to capture with a single reward. As a result, RL-for-SE systems rely on heterogeneous signals, including compilation results, unit tests, coverage metrics, retrieval scores, and learned preferences. Yet this work remains scattered across tasks and communities. This survey provides the first systematic review of reward engineering for RL in software tasks. We organize prior work by reward source, granularity, and aggregation. We then distill the findings into practical guidance, including a decision matrix, a design guide, and a reward engineering reporting standard for future RL-for-SE systems.",
+ "primary": "cs.SE"
+}

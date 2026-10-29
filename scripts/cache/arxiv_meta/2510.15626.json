@@ -1,0 +1,17 @@
+{
+ "id": "2510.15626",
+ "title": "Adaptive Legged Locomotion via Online Learning for Model Predictive Control",
+ "authors": [
+  "Hongyu Zhou",
+  "Xiaoyu Zhang",
+  "Vasileios Tzoumas"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 2,
+ "latest_date": "2025-11-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "IEEE Robotics and Automation Letters",
+ "abstract": "We provide an algorithm for adaptive legged locomotion via online learning and model predictive control. The algorithm is composed of two interacting modules: model predictive control (MPC) and online learning of residual dynamics. The residual dynamics can represent modeling errors and external disturbances. We are motivated by the future of autonomy where quadrupeds will autonomously perform complex tasks despite real-world unknown uncertainty, such as unknown payload and uneven terrains. The algorithm uses random Fourier features to approximate the residual dynamics in reproducing kernel Hilbert spaces. Then, it employs MPC based on the current learned model of the residual dynamics. The model is updated online in a self-supervised manner using least squares based on the data collected while controlling the quadruped. The algorithm enjoys sublinear \\textit{dynamic regret}, defined as the suboptimality against an optimal clairvoyant controller that knows how the residual dynamics. We validate our algorithm in Gazebo and MuJoCo simulations, where the quadruped aims to track reference trajectories. The Gazebo simulations include constant unknown external forces up to $12\\boldsymbol{g}$, where $\\boldsymbol{g}$ is the gravity vector, in flat terrain, slope terrain with $20\\degree$ inclination, and rough terrain with $0.25m$ height variation. The MuJoCo simulations include time-varying unknown disturbances with payload up to $8~kg$ and time-varying ground friction coefficients in flat terrain.",
+ "primary": "cs.RO"
+}

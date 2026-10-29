@@ -1,0 +1,17 @@
+{
+ "id": "2602.15866",
+ "title": "NLP Privacy Risk Identification in Social Media (NLP-PRISM): A Survey",
+ "authors": [
+  "Dhiman Goswami",
+  "Jai Kruthunz Naveen Kumar",
+  "Sanchari Das"
+ ],
+ "v1_date": "2026-01-26",
+ "latest_version": 1,
+ "latest_date": "2026-01-26",
+ "journal_ref": "In Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "Natural Language Processing (NLP) is integral to social media analytics but often processes content containing Personally Identifiable Information (PII), behavioral cues, and metadata raising privacy risks such as surveillance, profiling, and targeted advertising. To systematically assess these risks, we review 203 peer-reviewed papers and propose the NLP Privacy Risk Identification in Social Media (NLP-PRISM) framework, which evaluates vulnerabilities across six dimensions: data collection, preprocessing, visibility, fairness, computational risk, and regulatory compliance. Our analysis shows that transformer models achieve F1-scores ranging from 0.58-0.84, but incur a 1% - 23% drop under privacy-preserving fine-tuning. Using NLP-PRISM, we examine privacy coverage in six NLP tasks: sentiment analysis (16), emotion detection (14), offensive language identification (19), code-mixed processing (39), native language identification (29), and dialect detection (24) revealing substantial gaps in privacy research. We further found a (reduced by 2% - 9%) trade-off in model utility, MIA AUC (membership inference attacks) 0.81, AIA accuracy 0.75 (attribute inference attacks). Finally, we advocate for stronger anonymization, privacy-aware learning, and fairness-driven training to enable ethical NLP in social media contexts.",
+ "primary": "cs.CL"
+}

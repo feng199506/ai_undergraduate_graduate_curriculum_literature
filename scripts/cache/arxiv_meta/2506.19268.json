@@ -1,0 +1,20 @@
+{
+ "id": "2506.19268",
+ "title": "Health App Reviews for Privacy & Trust (HARPT): A Corpus for Analyzing Patient Privacy Concerns, Trust in Providers and Trust in Applications",
+ "authors": [
+  "Timoteo Kelly",
+  "Abdulkadir Korkmaz",
+  "Samuel Mallet",
+  "Connor Souders",
+  "Sadra Aliakbarpour",
+  "Praveen Rao"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 4,
+ "latest_date": "2025-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Background: User reviews of Telehealth and Patient Portal mobile applications (apps) hereon referred to as electronic health (eHealth) apps are a rich source of unsolicited patient feedback, revealing critical insights into patient perceptions. However, the lack of large-scale, annotated datasets specific to privacy and trust has limited the ability of researchers to systematically analyze these concerns using natural language processing (NLP) techniques. Objective: This study aims to develop and benchmark Health App Reviews for Privacy & Trust (HARPT), a large-scale annotated corpus of patient reviews from eHealth apps to advance research in patient privacy and trust. Methods: We employed a multistage data construction strategy. This integrated keyword-based filtering, iterative manual labeling with review, targeted data augmentation, and weak supervision using transformer-based classifiers. A curated subset of 7,000 reviews was manually annotated to support machine learning model development and evaluation. The resulting dataset was used to benchmark a broad range of models. Results: The HARPT corpus comprises 480,000 patient reviews annotated across seven categories capturing critical aspects of trust in the application (TA), trust in the provider (TP), and privacy concerns (PC). We provide comprehensive benchmark performance for a range of machine learning models on the manually annotated subset, establishing a baseline for future research. Conclusions: The HARPT corpus is a significant resource for advancing the study of privacy and trust in the eHealth domain. By providing a large-scale, annotated dataset and initial benchmarks, this work supports reproducible research in usable privacy and trust within health informatics. HARPT is released under an open resource license.",
+ "primary": "cs.HC"
+}

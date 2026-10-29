@@ -1,0 +1,15 @@
+{
+ "id": "2409.14309",
+ "title": "Sketch 'n Solve: An Efficient Python Package for Large-Scale Least Squares Using Randomized Numerical Linear Algebra",
+ "authors": [
+  "Alex Lavaee"
+ ],
+ "v1_date": "2024-09-22",
+ "latest_version": 2,
+ "latest_date": "2024-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present Sketch 'n Solve, an open-source Python package that implements efficient randomized numerical linear algebra (RandNLA) techniques for solving large-scale least squares problems. While sketch-and-solve algorithms have demonstrated theoretical promise, their practical adoption has been limited by the lack of robust, user-friendly implementations. Our package addresses this gap by providing an optimized implementation built on NumPy and SciPy, featuring both dense and sparse sketching operators with a clean API. Through extensive benchmarking, we demonstrate that our implementation achieves up to 50x speedup over traditional LSQR while maintaining high accuracy, even for ill-conditioned matrices. The package shows particular promise for applications in machine learning optimization, signal processing, and scientific computing.",
+ "primary": "cs.LG"
+}

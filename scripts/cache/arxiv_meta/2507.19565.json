@@ -1,0 +1,19 @@
+{
+ "id": "2507.19565",
+ "title": "Review of Deep Learning Applications to Structural Proteomics Enabled by Cryogenic Electron Microscopy and Tomography",
+ "authors": [
+  "Brady K. Zhou",
+  "Jason J. Hu",
+  "Jane K. J. Lee",
+  "Z. Hong Zhou",
+  "Demetri Terzopoulos"
+ ],
+ "v1_date": "2025-07-25",
+ "latest_version": 1,
+ "latest_date": "2025-07-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "The past decade's \"cryoEM revolution\" has produced exponential growth in high-resolution structural data through advances in cryogenic electron microscopy (cryoEM) and tomography (cryoET). Deep learning integration into structural proteomics workflows addresses longstanding challenges including low signal-to-noise ratios, preferred orientation artifacts, and missing-wedge problems that historically limited efficiency and scalability. This review examines AI applications across the entire cryoEM pipeline, from automated particle picking using convolutional neural networks (Topaz, crYOLO, CryoSegNet) to computational solutions for preferred orientation bias (spIsoNet, cryoPROS) and advanced denoising algorithms (Topaz-Denoise). In cryoET, tools like IsoNet employ U-Net architectures for simultaneous missing-wedge correction and noise reduction, while TomoNet streamlines subtomogram averaging through AI-driven particle detection. The workflow culminates with automated atomic model building using sophisticated tools like ModelAngelo, DeepTracer, and CryoREAD that translate density maps into interpretable biological structures. These AI-enhanced approaches have achieved near-atomic resolution reconstructions with minimal manual intervention, resolved previously intractable datasets suffering from severe orientation bias, and enabled successful application to diverse biological systems from HIV virus-like particles to in situ ribosomal complexes. As deep learning evolves, particularly with large language models and vision transformers, the future promises sophisticated automation and accessibility in structural biology, potentially revolutionizing our understanding of macromolecular architecture and function.",
+ "primary": "q-bio.QM"
+}

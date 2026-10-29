@@ -1,0 +1,19 @@
+{
+ "id": "2503.12181",
+ "title": "Action-Gradient Monte Carlo Tree Search for Non-Parametric Continuous (PO)MDPs",
+ "authors": [
+  "Idan Lev-Yehudi",
+  "Michael Novitsky",
+  "Moran Barenboim",
+  "Ron Benchetrit",
+  "Vadim Indelman"
+ ],
+ "v1_date": "2025-03-15",
+ "latest_version": 4,
+ "latest_date": "2026-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Online planning in continuous state, action, and observation spaces remains challenging for autonomous systems. While Monte Carlo Tree Search (MCTS) scales effectively via sampling, most continuous (PO)MDP solvers do not exploit gradient-based action optimization. We propose Action-Gradient MCTS (AGMCTS), a framework that combines global tree search with local gradient-based action refinement, while maintaining consistent value estimates. We provide three key theoretical contributions: (1) an action score gradient theorem for particle belief states; (2) the Multiple Importance Sampling (MIS) Tree that supports frequent action-branch updates by reusing prior samples without introducing estimator drift; and (3) tractable action score gradients for smooth generative models using the Area Formula. Empirical results demonstrate that AGMCTS outperforms state-of-the-art sample-based solvers in multiple challenging continuous MDP and POMDP benchmarks.",
+ "primary": "cs.AI"
+}

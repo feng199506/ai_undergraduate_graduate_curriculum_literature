@@ -1,0 +1,20 @@
+{
+ "id": "2506.22521",
+ "title": "A Survey on Model Extraction Attacks and Defenses for Large Language Models",
+ "authors": [
+  "Kaixiang Zhao",
+  "Lincan Li",
+  "Kaize Ding",
+  "Neil Zhenqiang Gong",
+  "Yue Zhao",
+  "Yushun Dong"
+ ],
+ "v1_date": "2025-06-26",
+ "latest_version": 1,
+ "latest_date": "2025-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model extraction attacks pose significant security threats to deployed language models, potentially compromising intellectual property and user privacy. This survey provides a comprehensive taxonomy of LLM-specific extraction attacks and defenses, categorizing attacks into functionality extraction, training data extraction, and prompt-targeted attacks. We analyze various attack methodologies including API-based knowledge distillation, direct querying, parameter recovery, and prompt stealing techniques that exploit transformer architectures. We then examine defense mechanisms organized into model protection, data privacy protection, and prompt-targeted strategies, evaluating their effectiveness across different deployment scenarios. We propose specialized metrics for evaluating both attack effectiveness and defense performance, addressing the specific challenges of generative language models. Through our analysis, we identify critical limitations in current approaches and propose promising research directions, including integrated attack methodologies and adaptive defense mechanisms that balance security with model utility. This work serves NLP researchers, ML engineers, and security professionals seeking to protect language models in production environments.",
+ "primary": "cs.CR"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2501.09649",
+ "title": "Monte Carlo Tree Search with Velocity Obstacles for safe and efficient motion planning in dynamic environments",
+ "authors": [
+  "Lorenzo Bonanni",
+  "Daniele Meli",
+  "Alberto Castellini",
+  "Alessandro Farinelli"
+ ],
+ "v1_date": "2025-01-16",
+ "latest_version": 1,
+ "latest_date": "2025-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Online motion planning is a challenging problem for intelligent robots moving in dense environments with dynamic obstacles, e.g., crowds. In this work, we propose a novel approach for optimal and safe online motion planning with minimal information about dynamic obstacles. Specifically, our approach requires only the current position of the obstacles and their maximum speed, but it does not need any information about their exact trajectories or dynamic model. The proposed methodology combines Monte Carlo Tree Search (MCTS), for online optimal planning via model simulations, with Velocity Obstacles (VO), for obstacle avoidance. We perform experiments in a cluttered simulated environment with walls, and up to 40 dynamic obstacles moving with random velocities and directions. With an ablation study, we show the key contribution of VO in scaling up the efficiency of MCTS, selecting the safest and most rewarding actions in the tree of simulations. Moreover, we show the superiority of our methodology with respect to state-of-the-art planners, including Non-linear Model Predictive Control (NMPC), in terms of improved collision rate, computational and task performance.",
+ "primary": "cs.AI"
+}

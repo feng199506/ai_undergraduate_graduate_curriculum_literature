@@ -1,0 +1,29 @@
+{
+ "id": "2404.10109",
+ "title": "Rotation and flipping invariant self-organizing maps with astronomical images: A cookbook and application to the VLA Sky Survey QuickLook images",
+ "authors": [
+  "A. N. Vantyghem",
+  "T. J. Galvin",
+  "B. Sebastian",
+  "C. P. O'Dea",
+  "Y. A. Gordon",
+  "M. Boyce",
+  "L. Rudnick",
+  "K. Polsterer",
+  "Heinz Andernach",
+  "M. Dionyssiou",
+  "P. Venkataraman",
+  "R. Norris",
+  "S. A. Baum",
+  "X. R. Wang",
+  "M. Huynh"
+ ],
+ "v1_date": "2024-04-15",
+ "latest_version": 1,
+ "latest_date": "2024-04-15",
+ "journal_ref": "",
+ "doi": "10.1016/j.ascom.2024.100824",
+ "comment": "Accepted for publication in Astronomy and Computing",
+ "abstract": "Modern wide field radio surveys typically detect millions of objects. Techniques based on machine learning are proving to be useful for classifying large numbers of objects. The self-organizing map (SOM) is an unsupervised machine learning algorithm that projects a many-dimensional dataset onto a two- or three-dimensional lattice of neurons. This dimensionality reduction allows the user to visualize common features of the data better and develop algorithms for classifying objects that are not otherwise possible with large datasets. To this aim, we use the PINK implementation of a SOM. PINK incorporates rotation and flipping invariance so that the SOM algorithm may be applied to astronomical images. In this cookbook we provide instructions for working with PINK, including preprocessing the input images, training the model, and offering lessons learned through experimentation. The problem of imbalanced classes can be improved by careful selection of the training sample and increasing the number of neurons in the SOM (chosen by the user). Because PINK is not scale-invariant, structure can be smeared in the neurons. This can also be improved by increasing the number of neurons in the SOM. We also introduce pyink, a Python package used to read and write PINK binary files, assist in common preprocessing operations, perform standard analyses, visualize the SOM and preprocessed images, and create image-based annotations using a graphical interface. A tutorial is also provided to guide the user through the entire process. We present an application of PINK to VLA Sky Survey (VLASS) images. We demonstrate that the PINK is generally able to group VLASS sources with similar morphology together. We use the results of PINK to estimate the probability that a given source in the VLASS QuickLook Catalogue is actually due to sidelobe contamination.",
+ "primary": "astro-ph.IM"
+}

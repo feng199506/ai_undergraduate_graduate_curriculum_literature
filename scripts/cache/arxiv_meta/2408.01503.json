@@ -1,0 +1,20 @@
+{
+ "id": "2408.01503",
+ "title": "Physics Inspired Neural Networks Enable Efficient Graph Coloring",
+ "authors": [
+  "Lorenzo Colantonio",
+  "Andrea Cacioppo",
+  "Federico Scarpati",
+  "Maria Chiara Angelini",
+  "Federico Ricci-Tersenghi",
+  "Stefano Giagu"
+ ],
+ "v1_date": "2024-08-02",
+ "latest_version": 3,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 6 figures",
+ "abstract": "Combinatorial optimization problems near algorithmic phase transitions represent a fundamental challenge for both classical algorithms and machine learning approaches. Among them, graph coloring is a prototypical constraint satisfaction problem characterized by phase transitions that fragment the solution space into distinct clusters, making the search for valid solutions challenging. Here we introduce a physics-inspired neural framework that learns to solve large-scale graph coloring instances by combining graph neural networks with statistical-mechanics principles. Our approach integrates a planting-based supervised signal, symmetry-breaking regularization, and iterative noise-annealed neural dynamics to navigate complex solution landscapes. When the number of iterations scales quadratically with graph size, the learned solver successfully tackles increasingly challenging instances, even in regimes where finding valid solutions becomes particularly difficult, demonstrating its ability to extract meaningful information from the graph structure. The model generalizes from small training graphs to instances up to 20 times larger, demonstrating that neural architectures can learn scalable algorithmic strategies that remain effective in hard connectivity regions. These results establish a general framework for learning neural solvers that operate near fundamental phase boundaries in combinatorial optimization and inference.",
+ "primary": "cs.LG"
+}

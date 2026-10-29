@@ -1,0 +1,18 @@
+{
+ "id": "2404.00666",
+ "title": "Accelerated Parameter-Free Stochastic Optimization",
+ "authors": [
+  "Itai Kreisler",
+  "Maor Ivgi",
+  "Oliver Hinder",
+  "Yair Carmon"
+ ],
+ "v1_date": "2024-03-31",
+ "latest_version": 2,
+ "latest_date": "2024-07-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a method that achieves near-optimal rates for smooth stochastic convex optimization and requires essentially no prior knowledge of problem parameters. This improves on prior work which requires knowing at least the initial distance to optimality d0. Our method, U-DoG, combines UniXGrad (Kavis et al., 2019) and DoG (Ivgi et al., 2023) with novel iterate stabilization techniques. It requires only loose bounds on d0 and the noise magnitude, provides high probability guarantees under sub-Gaussian noise, and is also near-optimal in the non-smooth case. Our experiments show consistent, strong performance on convex problems and mixed results on neural network training.",
+ "primary": "cs.LG"
+}

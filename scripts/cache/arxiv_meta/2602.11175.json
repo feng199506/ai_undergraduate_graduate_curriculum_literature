@@ -1,0 +1,22 @@
+{
+ "id": "2602.11175",
+ "title": "Barriers to Discrete Reasoning with Transformers: A Survey Across Depth, Exactness, and Bandwidth",
+ "authors": [
+  "Michelle Yuan",
+  "Weiyi Sun",
+  "Amir H. Rezaeian",
+  "Jyotika Singh",
+  "Sandip Ghoshal",
+  "Yao-Ting Wang",
+  "Miguel Ballesteros",
+  "Yassine Benajiba"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 1,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to EACL 2026 Main Conference",
+ "abstract": "Transformers have become the foundational architecture for a broad spectrum of sequence modeling applications, underpinning state-of-the-art systems in natural language processing, vision, and beyond. However, their theoretical limitations in discrete reasoning tasks, such as arithmetic, logical inference, and algorithmic composition, remain a critical open problem. In this survey, we synthesize recent studies from three theoretical perspectives: circuit complexity, approximation theory, and communication complexity, to clarify the structural and computational barriers that transformers face when performing symbolic computations. By connecting these established theoretical frameworks, we provide an accessible and unified account of why current transformer architectures struggle to implement exact discrete algorithms, even as they excel at pattern matching and interpolation. We review key definitions, seminal results, and illustrative examples, highlighting challenges such as depth constraints, difficulty approximating discontinuities, and bottlenecks in inter-token communication. Finally, we discuss implications for model design and suggest promising directions for overcoming these foundational limitations.",
+ "primary": "cs.CL"
+}

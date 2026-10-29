@@ -1,0 +1,18 @@
+{
+ "id": "2510.03187",
+ "title": "ProxSTORM -- A Stochastic Trust-Region Algorithm for Nonsmooth Optimization",
+ "authors": [
+  "Robert J. Baraldi",
+  "Aurya Javeed",
+  "Drew P. Kouri",
+  "Katya Scheinberg"
+ ],
+ "v1_date": "2025-10-03",
+ "latest_version": 2,
+ "latest_date": "2026-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a stochastic trust-region algorithm for minimizing the sum of a Lipschitz-smooth but possibly nonconvex function and a convex but possibly nonsmooth function. Such a problem class arises in many applications, including data science, operations research, and PDE-constrained optimization. This algorithm, which we call ProxSTORM, generalizes STORM [15,11]-a stochastic trust-region algorithm for the unconstrained optimization of smooth functions-and the inexact deterministic proximal trust-region algorithm in [5]. In the absence of a nonsmooth term, we recover the original STORM algorithm, moreover, we improve and simplify certain aspects of STORM analysis, while maintaining STORM martingale framework arguments to prove global convergence and an expected complexity bound. We demonstrate ProxSTORM capabilities on neural network training and topology optimization under uncertainty.",
+ "primary": "math.OC"
+}

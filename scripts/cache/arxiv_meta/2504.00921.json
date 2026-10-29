@@ -1,0 +1,19 @@
+{
+ "id": "2504.00921",
+ "title": "Benchmarking Federated Machine Unlearning methods for Tabular Data",
+ "authors": [
+  "Chenguang Xiao",
+  "Abhirup Ghosh",
+  "Han Wu",
+  "Shuo Wang",
+  "Diederick van Thiel"
+ ],
+ "v1_date": "2025-04-01",
+ "latest_version": 1,
+ "latest_date": "2025-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine unlearning, which enables a model to forget specific data upon request, is increasingly relevant in the era of privacy-centric machine learning, particularly within federated learning (FL) environments. This paper presents a pioneering study on benchmarking machine unlearning methods within a federated setting for tabular data, addressing the unique challenges posed by cross-silo FL where data privacy and communication efficiency are paramount. We explore unlearning at the feature and instance levels, employing both machine learning, random forest and logistic regression models. Our methodology benchmarks various unlearning algorithms, including fine-tuning and gradient-based approaches, across multiple datasets, with metrics focused on fidelity, certifiability, and computational efficiency. Experiments demonstrate that while fidelity remains high across methods, tree-based models excel in certifiability, ensuring exact unlearning, whereas gradient-based methods show improved computational efficiency. This study provides critical insights into the design and selection of unlearning algorithms tailored to the FL environment, offering a foundation for further research in privacy-preserving machine learning.",
+ "primary": "cs.LG"
+}

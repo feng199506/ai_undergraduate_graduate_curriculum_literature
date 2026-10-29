@@ -1,0 +1,23 @@
+{
+ "id": "2605.09716",
+ "title": "Medical Model Synthesis Architectures: A Case Study",
+ "authors": [
+  "Katherine M. Collins",
+  "Marlene Berke",
+  "Ilia Sucholutsky",
+  "Ayman Ali",
+  "Adrian Weller",
+  "Timothy J. O'Donnell",
+  "Tyler Brooke-Wilson",
+  "Lionel Wong",
+  "Joshua B. Tenenbaum"
+ ],
+ "v1_date": "2026-05-10",
+ "latest_version": 1,
+ "latest_date": "2026-05-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Working paper",
+ "abstract": "Medicine is rife with high-stakes uncertainty. Doctors routinely make clinical judgments and decisions that juggle many fundamental unknowns, like predictions about what might be causing a patients' symptoms or decisions about what treatment to try next. Despite increasing interest in developing AI systems that aid or even replace doctors in clinical settings, current systems struggle with calibrated reasoning under uncertainty, and are often deeply opaque about their reasoning. We propose a framework for AI systems that can make practically useful but formally transparent clinical predictions under uncertainty. Given a clinical situation, our framework (MedMSA) uses language models to retrieve relevant prior knowledge, but constructs a formal probabilistic model to support calibrated and verifiable inferences under uncertainty. We show how an initial proof-of-concept of this framework can be used for differential diagnosis, producing an uncertainty-weighted list of potential diagnoses that could explain a patients' symptoms, and discuss future applications and directions for applying this framework more generally for safe clinical collaborations.",
+ "primary": "cs.AI"
+}

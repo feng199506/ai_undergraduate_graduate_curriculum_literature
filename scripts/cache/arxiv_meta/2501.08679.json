@@ -1,0 +1,16 @@
+{
+ "id": "2501.08679",
+ "title": "Diagonal Over-parameterization in Reproducing Kernel Hilbert Spaces as an Adaptive Feature Model: Generalization and Adaptivity",
+ "authors": [
+  "Yicheng Li",
+  "Qian Lin"
+ ],
+ "v1_date": "2025-01-15",
+ "latest_version": 1,
+ "latest_date": "2025-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2409.00894",
+ "abstract": "This paper introduces a diagonal adaptive kernel model that dynamically learns kernel eigenvalues and output coefficients simultaneously during training. Unlike fixed-kernel methods tied to the neural tangent kernel theory, the diagonal adaptive kernel model adapts to the structure of the truth function, significantly improving generalization over fixed-kernel methods, especially when the initial kernel is misaligned with the target. Moreover, we show that the adaptivity comes from learning the right eigenvalues during training, showing a feature learning behavior. By extending to deeper parameterization, we further show how extra depth enhances adaptability and generalization. This study combines the insights from feature learning and implicit regularization and provides new perspective into the adaptivity and generalization potential of neural networks beyond the kernel regime.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2509.26435",
+ "title": "Adaptive Planning for Multi-Attribute Controllable Summarization with Monte Carlo Tree Search",
+ "authors": [
+  "Sangwon Ryu",
+  "Heejin Do",
+  "Yunsu Kim",
+  "Gary Geunbae Lee",
+  "Jungseul Ok"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 2,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ACL 2026",
+ "abstract": "Controllable summarization moves beyond generic outputs toward human-aligned summaries guided by specified attributes. In practice, the interdependence among attributes makes it challenging for language models to satisfy correlated constraints consistently. Moreover, previous approaches often require per-attribute fine-tuning, limiting flexibility across diverse summary attributes. In this paper, we propose adaptive planning for multi-attribute controllable summarization (PACO), a training-free framework that reframes the task as planning the order of sequential attribute control with a customized Monte Carlo Tree Search (MCTS). In PACO, nodes represent summaries, and actions correspond to single-attribute adjustments, enabling progressive refinement of only the attributes requiring further control. This strategy adaptively discovers optimal control orders, ultimately producing summaries that effectively meet all constraints. Extensive experiments across diverse domains and models demonstrate that PACO achieves robust multi-attribute controllability, surpassing both LLM-based self-planning models and fine-tuned baselines. Remarkably, PACO with Llama-3.2-1B rivals the controllability of the much larger Llama-3.3-70B baselines. With larger models, PACO achieves superior control performance, outperforming all competitors.",
+ "primary": "cs.CL"
+}

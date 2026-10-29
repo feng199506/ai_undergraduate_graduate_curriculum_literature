@@ -1,0 +1,23 @@
+{
+ "id": "2508.04227",
+ "title": "Continual Learning for VLMs: A Survey and Taxonomy Beyond Forgetting",
+ "authors": [
+  "Yuyang Liu",
+  "Qiuhe Hong",
+  "Linlan Huang",
+  "Alexandra Gomez-Villa",
+  "Dipam Goswami",
+  "Tiantian Peng",
+  "Xialei Liu",
+  "Joost van de Weijer",
+  "Yonghong Tian"
+ ],
+ "v1_date": "2025-08-06",
+ "latest_version": 3,
+ "latest_date": "2026-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Vision-language models (VLMs), spanning predictive architectures to generative Multimodal Large Language Models (MLLMs), have revolutionized artificial intelligence through powerful cross-modal alignment and zero-shot generalization. However, enabling them to learn continually from non-stationary data remains a major challenge, as their cross-modal alignment and generalization capabilities are particularly vulnerable to catastrophic forgetting. Unlike traditional unimodal continual learning (CL), VLMs face unique challenges such as cross-modal feature drift, parameter interference due to shared architectures, and zero-shot capability erosion. Furthermore, generative MLLMs exhibit a unique \"alignment tax,\" where catastrophic forgetting manifests not merely as factual amnesia, but as a systemic collapse of deep Chain-of-Thought (CoT) reasoning. This survey presents the first comprehensive diagnostic review bridging continual learning across predictive VLMs and generative MLLMs. We systematically deconstruct the aforementioned failure modes and propose a challenge-driven taxonomy comprising four core paradigms: (1) Multi-Modal Replay Strategies addressing explicit and implicit memory drift; (2) Cross-Modal Regularization enforcing topological and geometric alignment; (3) Parameter-Efficient Adaptation utilizing dynamic routing and subspace projections; and the emerging (4) Model Fusion and Decoupling paradigms. We critically analyze the evolution of evaluation protocols, highlighting the essential shift toward dual-track benchmarks (Domain vs. Ability CL). Finally, we chart a roadmap for future research, emphasizing compositional zero-shot learning, embodied AI with sensor fusion, and autonomous agentic ecosystems. All resources are available at: https://github.com/YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models",
+ "primary": "cs.CV"
+}

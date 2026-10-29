@@ -1,0 +1,21 @@
+{
+ "id": "2601.22708",
+ "title": "A Unified Study of LoRA Variants: Taxonomy, Review, Codebase, and Empirical Evaluation",
+ "authors": [
+  "Haonan He",
+  "Jingqi Ye",
+  "Minglei Li",
+  "Zhengbo Wang",
+  "Tao Chen",
+  "Lei Bai",
+  "Peng Ye"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 1,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence, Under Review",
+ "abstract": "Low-Rank Adaptation (LoRA) is a fundamental parameter-efficient fine-tuning method that balances efficiency and performance in large-scale neural networks. However, the proliferation of LoRA variants has led to fragmentation in methodology, theory, code, and evaluation. To this end, this work presents the first unified study of LoRA variants, offering a systematic taxonomy, unified theoretical review, structured codebase, and standardized empirical assessment. First, we categorize LoRA variants along four principal axes: rank, optimization dynamics, initialization, and integration with Mixture-of-Experts. Then, we review their relationships and evolution within a common theoretical framework focused on low-rank update dynamics. Further, we introduce LoRAFactory, a modular codebase that implements variants through a unified interface, supporting plug-and-play experimentation and fine-grained analysis. Last, using this codebase, we conduct a large-scale evaluation across natural language generation, natural language understanding, and image classification tasks, systematically exploring key hyperparameters. Our results uncover several findings, notably: LoRA and its variants exhibit pronounced sensitivity to the choices of learning rate compared to other hyperparameters; moreover, with proper hyperparameter configurations, LoRA consistently matches or surpasses the performance of most of its variants.",
+ "primary": "cs.LG"
+}

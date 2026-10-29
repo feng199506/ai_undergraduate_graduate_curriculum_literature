@@ -1,0 +1,17 @@
+{
+ "id": "2602.12935",
+ "title": "A Stochastic Optimal Control Formulation for Mine Counter Measure Simulations with Multiple Autonomous Survey Vehicles",
+ "authors": [
+  "Philippe Blondeel",
+  "Filip Van Utterbeeck",
+  "Ben Lauwens"
+ ],
+ "v1_date": "2026-02-13",
+ "latest_version": 1,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modelling and simulating mine counter measure search missions performed by autonomous vehicles equipped with a sensor capable of detecting mines at sea is a challenging endeavour. To address this, we formulated and implemented the problem as a stochastic optimal control model. Our implementation computes an optimal path within a user chosen quadrilateral domain such that the mission duration is minimized for a given residual risk of undetected sea mines. First, we compare the stochastic optimal control implementation against the traditionally used boustrophedon implementation. We show that the mission duration in case of the stochastic optimal control implementation is shorter. Then, by building on our previous work, we introduce a novel mathematical approach that enables multiple autonomous survey vehicles to investigate the domain concurrently. We present results for up to six vehicles, including computed trajectories and an analysis of how mission duration varies with the number of vehicles. Our findings show that mission time decreases non-linearly, , i.e., we observe diminishing returns as more vehicles are added.",
+ "primary": "math.OC"
+}

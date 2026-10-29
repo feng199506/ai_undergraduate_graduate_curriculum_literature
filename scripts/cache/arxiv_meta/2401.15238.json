@@ -1,0 +1,15 @@
+{
+ "id": "2401.15238",
+ "title": "Deep Learning with Tabular Data: A Self-supervised Approach",
+ "authors": [
+  "Tirth Kiranbhai Vyas"
+ ],
+ "v1_date": "2024-01-26",
+ "latest_version": 1,
+ "latest_date": "2024-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We have described a novel approach for training tabular data using the TabTransformer model with self-supervised learning. Traditional machine learning models for tabular data, such as GBDT are being widely used though our paper examines the effectiveness of the TabTransformer which is a Transformer based model optimised specifically for tabular data. The TabTransformer captures intricate relationships and dependencies among features in tabular data by leveraging the self-attention mechanism of Transformers. We have used a self-supervised learning approach in this study, where the TabTransformer learns from unlabelled data by creating surrogate supervised tasks, eliminating the need for the labelled data. The aim is to find the most effective TabTransformer model representation of categorical and numerical features. To address the challenges faced during the construction of various input settings into the Transformers. Furthermore, a comparative analysis is also been conducted to examine performance of the TabTransformer model against baseline models such as MLP and supervised TabTransformer. The research has presented with a novel approach by creating various variants of TabTransformer model namely, Binned-TT, Vanilla-MLP-TT, MLP- based-TT which has helped to increase the effective capturing of the underlying relationship between various features of the tabular dataset by constructing optimal inputs. And further we have employed a self-supervised learning approach in the form of a masking-based unsupervised setting for tabular data. The findings shed light on the best way to represent categorical and numerical features, emphasizing the TabTransormer performance when compared to established machine learning models and other self-supervised learning methods.",
+ "primary": "cs.LG"
+}

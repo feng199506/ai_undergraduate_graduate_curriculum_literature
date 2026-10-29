@@ -1,0 +1,19 @@
+{
+ "id": "2509.19284",
+ "title": "What Characterizes Effective Reasoning? Revisiting Length, Review, and Structure of CoT",
+ "authors": [
+  "Yunzhen Feng",
+  "Julia Kempe",
+  "Cheng Zhang",
+  "Parag Jain",
+  "Anthony Hartshorn"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 1,
+ "latest_date": "2025-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large reasoning models (LRMs) spend substantial test-time compute on long chain-of-thought (CoT) traces, but what *characterizes* an effective CoT remains unclear. While prior work reports gains from lengthening CoTs and increasing review (revisiting earlier steps) via appended *wait* tokens, recent studies suggest that shorter thinking can outperform longer traces. We therefore conduct a systematic evaluation across ten LRMs on math and scientific reasoning. Contrary to the \"longer-is-better\" narrative, we find that both naive CoT lengthening and increased review are associated with *lower* accuracy. As CoT unfolds step by step, token-level metrics can conflate verbosity with process quality. We introduce a graph view of CoT to extract structure and identify a single statistic-the *Failed-Step Fraction (FSF)*, the fraction of steps in abandoned branches-that consistently outpredicts length and review ratio for correctness across models. To probe causality, we design two interventions. First, we rank candidate CoTs by each metric at test time, where FSF yields the largest pass@1 gains; second, we edit CoTs to remove failed branches, which significantly improves accuracy, indicating that failed branches bias subsequent reasoning. Taken together, these results characterize effective CoTs as those that *fail less* and support *structure-aware* test-time scaling over indiscriminately generating long CoT.",
+ "primary": "cs.LG"
+}

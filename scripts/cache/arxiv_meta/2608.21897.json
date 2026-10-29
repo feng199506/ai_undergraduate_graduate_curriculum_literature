@@ -1,0 +1,21 @@
+{
+ "id": "2608.21897",
+ "title": "From Solver Feedback to Faithful Plans: Multi-Role Reinforcement Learning for Symbolic Planning",
+ "authors": [
+  "Chenghao Zhang",
+  "Yikai Mao",
+  "Haoyu Gao",
+  "Saisai Hu",
+  "Yuxi Cheng",
+  "Shanqi Liu",
+  "Dan Roth"
+ ],
+ "v1_date": "2026-08-22",
+ "latest_version": 2,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable planning requires converting natural-language instructions into executable symbolic specifications, yet large language models remain brittle without costly PDDL annotations and may exploit solver success in semantically unfaithful ways. We study how to learn faithful natural-language-to-PDDL formalization using only solver feedback, without human-written demonstrations. We propose a solvergrounded multi-role reinforcement learning framework where a single language model acts as an Actor, Judge, and Editor for generation, verification, and repair. The Actor proposes PDDL specifications, the Judge provides a solver-calibrated quality signal, and the Editor performs bounded diagnostic-conditioned refinement. On PlanBench, our method improves average success from 35.5% for LLM+P to 70.8%, achieves 66.3% faithful success, and reduces semantic drift to 6.4%. These results show that organizing solver feedback into generation, verification, and repair roles enables more scalable and faithful annotation-free symbolic planning",
+ "primary": "cs.AI"
+}

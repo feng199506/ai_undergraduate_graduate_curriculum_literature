@@ -1,0 +1,18 @@
+{
+ "id": "2610.01413",
+ "title": "Optimal Transport Meets Reinforcement Learning: A Survey",
+ "authors": [
+  "Yujie Zhu",
+  "Charles A. Hepburn",
+  "Matthew Thorpe",
+  "Giovanni Montana"
+ ],
+ "v1_date": "2026-10-01",
+ "latest_version": 1,
+ "latest_date": "2026-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reinforcement learning (RL) algorithms frequently compare probability distributions, such as state visitation distributions induced by policies and experts, action distributions from learned policies and offline datasets, or transition distributions from learned models and environments. However, commonly used divergences may become ineffective when these distributions overlap weakly, which is frequently encountered in imitation learning, offline RL, and deployment under distribution shift. Optimal transport (OT) offers an alternative by measuring the cost of \\emph{moving} probability mass from one distribution to another under a ground cost that encodes task geometry. This survey covers how OT is used inside RL objectives and algorithms. For each method, we identify: the role OT plays, the distributions compared, the OT formulation used, and the treatment of temporal structure. Beyond categorising existing methods, we discuss the motivations behind different OT choices, practical considerations such as cost design and computational challenges, and highlight open problems including scalable trajectory-level transport, principled handling of mass mismatch, and theoretical analysis for OT-regularised RL.",
+ "primary": "stat.ML"
+}

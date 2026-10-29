@@ -1,0 +1,19 @@
+{
+ "id": "2508.05328",
+ "title": "A low-rank solver for the Stokes-Darcy model with random hydraulic conductivity and Beavers-Joseph condition",
+ "authors": [
+  "Yujun Zhu",
+  "Yulan Ning",
+  "Zhipeng Yang",
+  "Xiaoming He",
+  "Ju Ming"
+ ],
+ "v1_date": "2025-08-07",
+ "latest_version": 1,
+ "latest_date": "2025-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes, analyzes, and demonstrates an efficient low-rank solver for the stochastic Stokes-Darcy interface model with a random hydraulic conductivity both in the porous media domain and on the interface. We consider three interface conditions with randomness, including the Beavers-Joseph interface condition with the random hydraulic conductivity, on the interface between the free flow and the porous media flow. Our solver employs a novel generalized low-rank approximation of the large-scale stiffness matrices, which can significantly cut down the computational costs and memory requirements associated with matrix inversion without losing accuracy. Therefore, by adopting a suitable data compression ratio, the low-rank solver can maintain a high numerical precision with relatively low computational and space complexities. We also propose a strategy to determine the best choice of data compression ratios. Furthermore, we carry out the error analysis of the generalized low-rank matrix approximation algorithm and the low-rank solver. Finally, numerical experiments are conducted to validate the proposed algorithms and the theoretical conclusions.",
+ "primary": "math.NA"
+}

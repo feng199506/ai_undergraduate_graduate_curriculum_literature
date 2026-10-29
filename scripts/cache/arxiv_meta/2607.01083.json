@@ -1,0 +1,24 @@
+{
+ "id": "2607.01083",
+ "title": "Scaling Laws for Collapse in Asynchronous GRPO",
+ "authors": [
+  "Jingwei Song",
+  "Haofeng Xu",
+  "Jie Xiao",
+  "Chengke Bao",
+  "Jingwei Shi",
+  "Pengbin Feng",
+  "Yuhang Han",
+  "Weixun Wang",
+  "Eric Yang",
+  "Tianyu Shi"
+ ],
+ "v1_date": "2026-07-01",
+ "latest_version": 3,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 8 figures",
+ "abstract": "Asynchronous reinforcement learning improves the throughput of large language model post-training by decoupling rollout generation from policy optimization, but introduces a mismatch between the behavior and learner policies. How the resulting policy staleness couples with the learning rate to govern training stability and collapse time remains poorly understood. We investigate this coupling in vanilla GRPO through controlled sweeps of the synchronization interval $S$ and constant learning rate $η$ on Llama-3.2-1B/3B, complemented by experiments on Qwen3-8B. We identify two empirical scaling laws: (i) Stability-boundary scaling: the largest stable learning rate scales approximately as $S^{-1}$, yielding a stability boundary characterized by an approximately constant product $Sη$. (ii) Collapse-time scaling: among collapsing runs, estimated collapse times scale approximately as $η^{-1}$, corresponding to a model- and setup-dependent cumulative learning-rate budget that aligns across synchronization intervals in the Llama sweeps. We interpret these laws through a local analysis of the behavior-dependent GRPO surrogate and a complementary mean-field model. Under local regularity conditions, the analysis yields an $O(Sη)$ upper bound on the staleness-induced update bias that resets at synchronization. The mean-field model shows how sufficiently strong positive feedback can sustain directional drift when update directions persist across synchronization cycles. When drift speed saturates under optimizer normalization, this mechanism predicts exit from a local surrogate-validity region after an approximately fixed cumulative learning rate. Together, these findings motivate a practical calibration rule: estimate the stability threshold and collapse budget from a coarse sweep, then jointly select $S$ and $η$ for the intended training horizon.",
+ "primary": "cs.LG"
+}

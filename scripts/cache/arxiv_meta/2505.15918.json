@@ -1,0 +1,18 @@
+{
+ "id": "2505.15918",
+ "title": "Extracting Probabilistic Knowledge from Large Language Models for Bayesian Network Parameterization",
+ "authors": [
+  "Aliakbar Nafar",
+  "Kristen Brent Venable",
+  "Zijun Cui",
+  "Parisa Kordjamshidi"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 3,
+ "latest_date": "2026-09-15",
+ "journal_ref": "Transactions on Machine Learning Research (05/2026)",
+ "doi": "",
+ "comment": "41 pages. Updated to the TMLR camera-ready version, including the final acknowledgments",
+ "abstract": "In this work, we evaluate the potential of Large Language Models (LLMs) in building Bayesian Networks (BNs) by approximating domain expert priors. LLMs have demonstrated potential as factual knowledge bases; however, their capability to generate probabilistic knowledge about real-world events remains understudied. We explore utilizing the probabilistic knowledge inherent in LLMs to derive probability estimates for statements regarding events and their relationships within a BN. Using LLMs in this context allows for the parameterization of BNs, enabling probabilistic modeling within specific domains. Our experiments on eighty publicly available Bayesian Networks, from healthcare to finance, demonstrate that querying LLMs about the conditional probabilities of events provides meaningful results when compared to baselines, including random and uniform distributions, as well as approaches based on next-token generation probabilities. We explore how these LLM-derived distributions can serve as expert priors to refine distributions extracted from data, especially when data is scarce. Overall, this work introduces a promising strategy for automatically constructing Bayesian Networks by combining probabilistic knowledge extracted from LLMs with real-world data. Additionally, we establish the first comprehensive baseline for assessing LLM performance in extracting probabilistic knowledge.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.01361",
+ "title": "Stabilizing Temporal Difference Learning via Implicit Stochastic Recursion",
+ "authors": [
+  "Hwanwoo Kim",
+  "Panos Toulis",
+  "Eric Laber"
+ ],
+ "v1_date": "2025-05-02",
+ "latest_version": 3,
+ "latest_date": "2026-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal difference (TD) learning is a foundational algorithm in reinforcement learning (RL). For nearly forty years, TD learning has served as a workhorse for applied RL as well as a building block for more complex and specialized algorithms. However, despite its widespread use, TD procedures are generally sensitive to step size specification. A poor choice of step size can dramatically increase variance and slow convergence in both on-policy and off-policy evaluation tasks. In practice, researchers often use trial and error to identify stable step sizes, but these approaches tend to be ad hoc and inefficient. As an alternative, we propose implicit TD algorithms that reformulate TD updates into fixed-point equations. Such updates are more stable and less sensitive to step size without sacrificing computational efficiency. Moreover, we derive almost sure convergence guarantees and finite-time error bounds (with a projection step) for the proposed implicit TD algorithms. Our results show that implicit TD algorithms are applicable to a much broader range of step sizes, and thus provide a robust and versatile framework for policy evaluation and value approximation in modern RL tasks. We demonstrate these benefits empirically through extensive numerical experiments spanning both on-policy and off-policy tasks.",
+ "primary": "cs.LG"
+}

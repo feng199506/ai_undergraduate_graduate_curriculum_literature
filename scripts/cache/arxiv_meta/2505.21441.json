@@ -1,0 +1,18 @@
+{
+ "id": "2505.21441",
+ "title": "Autoencoding Random Forests",
+ "authors": [
+  "Binh Duc Vu",
+  "Jan Kapar",
+  "Marvin Wright",
+  "David S. Watson"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 4,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages main text, 27 pages total. 9 figures, 4 tables. To be published in proceedings of the 39th Conference on Neural Information Processing Systems (NeurIPS 2025)",
+ "abstract": "We propose a principled method for autoencoding with random forests. Our strategy builds on foundational results from nonparametric statistics and spectral graph theory to learn a low-dimensional embedding of the model that optimally represents relationships in the data. We provide exact and approximate solutions to the decoding problem via constrained optimization, split relabeling, and nearest neighbors regression. These methods effectively invert the compression pipeline, establishing a map from the embedding space back to the input space using splits learned by the ensemble's constituent trees. The resulting decoders are universally consistent under common regularity assumptions. The procedure works with supervised or unsupervised models, providing a window into conditional or joint distributions. We demonstrate various applications of this autoencoder, including powerful new tools for visualization, compression, clustering, and denoising. Experiments illustrate the ease and utility of our method in a wide range of settings, including tabular, image, and genomic data.",
+ "primary": "stat.ML"
+}

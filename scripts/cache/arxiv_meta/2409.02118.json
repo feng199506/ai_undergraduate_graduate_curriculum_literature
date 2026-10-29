@@ -1,0 +1,21 @@
+{
+ "id": "2409.02118",
+ "title": "TSO: Self-Training with Scaled Preference Optimization",
+ "authors": [
+  "Kaihui Chen",
+  "Hao Yi",
+  "Qingyang Li",
+  "Tianyu Qi",
+  "Yulan Hu",
+  "Fuzheng Zhang",
+  "Yong Liu"
+ ],
+ "v1_date": "2024-08-31",
+ "latest_version": 1,
+ "latest_date": "2024-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Enhancing the conformity of large language models (LLMs) to human preferences remains an ongoing research challenge. Recently, offline approaches such as Direct Preference Optimization (DPO) have gained prominence as attractive options due to offering effective improvement in simple, efficient, and stable without interactions with reward models. However, these offline preference optimization methods highly rely on the quality of pairwise preference samples. Meanwhile, numerous iterative methods require additional training of reward models to select positive and negative samples from the model's own generated responses for preference learning. Furthermore, as LLMs' capabilities advance, it is quite challenging to continuously construct high-quality positive and negative preference instances from the model's outputs due to the lack of diversity. To tackle these challenges, we propose TSO, or Self-Training with Scaled Preference Optimization, a framework for preference optimization that conducts self-training preference learning without training an additional reward model. TSO enhances the diversity of responses by constructing a model matrix and incorporating human preference responses. Furthermore, TSO introduces corrections for model preference errors through human and AI feedback. Finally, TSO adopts iterative and dual clip reward strategies to update the reference model and its responses, adaptively adjusting preference data and balancing the optimization process. Experimental results demonstrate that TSO outperforms existing mainstream methods on various alignment evaluation benchmarks, providing practical insight into preference data construction and model training strategies in the alignment domain.",
+ "primary": "cs.LG"
+}

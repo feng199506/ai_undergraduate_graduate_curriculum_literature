@@ -1,0 +1,17 @@
+{
+ "id": "2512.22627",
+ "title": "Chain-of-thought Reviewing and Correction for Time Series Question Answering",
+ "authors": [
+  "Chen Su",
+  "Yuanhe Tian",
+  "Yan Song"
+ ],
+ "v1_date": "2025-12-27",
+ "latest_version": 1,
+ "latest_date": "2025-12-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the advancement of large language models (LLMs), diverse time series analysis tasks are reformulated as time series question answering (TSQA) through a unified natural language interface. However, existing LLM-based approaches largely adopt general natural language processing techniques and are prone to reasoning errors when handling complex numerical sequences. Different from purely textual tasks, time series data are inherently verifiable, enabling consistency checking between reasoning steps and the original input. Motivated by this property, we propose T3LLM, which performs multi-step reasoning with an explicit correction mechanism for time series question answering. The T3LLM framework consists of three LLMs, namely, a worker, a reviewer, and a student, that are responsible for generation, review, and reasoning learning, respectively. Within this framework, the worker generates step-wise chains of thought (CoT) under structured prompts, while the reviewer inspects the reasoning, identifies erroneous steps, and provides corrective comments. The collaboratively generated corrected CoT are used to fine-tune the student model, internalizing multi-step reasoning and self-correction into its parameters. Experiments on multiple real-world TSQA benchmarks demonstrate that T3LLM achieves state-of-the-art performance over strong LLM-based baselines.",
+ "primary": "cs.CL"
+}

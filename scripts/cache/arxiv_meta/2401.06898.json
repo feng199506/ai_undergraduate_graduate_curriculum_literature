@@ -1,0 +1,18 @@
+{
+ "id": "2401.06898",
+ "title": "Always-Sparse Training by Growing Connections with Guided Stochastic Exploration",
+ "authors": [
+  "Mike Heddes",
+  "Narayan Srinivasa",
+  "Tony Givargis",
+  "Alexandru Nicolau"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 2,
+ "latest_date": "2025-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at the 2025 International Joint Conference on Neural Networks (IJCNN)",
+ "abstract": "The excessive computational requirements of modern artificial neural networks (ANNs) are posing limitations on the machines that can run them. Sparsification of ANNs is often motivated by time, memory and energy savings only during model inference, yielding no benefits during training. A growing body of work is now focusing on providing the benefits of model sparsification also during training. While these methods greatly improve the training efficiency, the training algorithms yielding the most accurate models still materialize the dense weights, or compute dense gradients during training. We propose an efficient, always-sparse training algorithm with excellent scaling to larger and sparser models, supported by its linear time complexity with respect to the model width during training and inference. Moreover, our guided stochastic exploration algorithm improves over the accuracy of previous sparse training methods. We evaluate our method on CIFAR-10/100 and ImageNet using ResNet, VGG, and ViT models, and compare it against a range of sparsification methods.",
+ "primary": "cs.LG"
+}

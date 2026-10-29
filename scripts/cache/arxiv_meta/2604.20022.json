@@ -1,0 +1,24 @@
+{
+ "id": "2604.20022",
+ "title": "MoBayes: A Modular Bayesian Framework for Separating Reasoning from Language in Conversational Clinical Decision Support",
+ "authors": [
+  "Yusuf Kesmen",
+  "Fay Elhassan",
+  "Jiayi Ma",
+  "Julien Stalhandske",
+  "Yena Chang",
+  "David Sasu",
+  "Alexandra Kulinkina",
+  "Akhil Arora",
+  "Lars Klein",
+  "Mary-Anne Hartley"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 3,
+ "latest_date": "2026-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages including appendix, 13 figures, 22 tables. Preprint",
+ "abstract": "Large language models (LLMs) are increasingly used for conversational clinical decision support, yet they conflate next token prediction with probabilistic decision making. We argue that this conflation reflects an architectural limitation: such systems lack explicit posterior tracking, controllable abstention thresholds, and auditable reasoning chains. We introduce MoBayes, a Modular Bayesian dialogue framework that separates reasoning from language. The LLM acts only as a language interface, parsing patient conversation into structured observations, while a Bayesian module performs probabilistic inference over these observations to update posteriors, select follow-up questions via expected-information-gain and determine when to stop or defer through calibrated decision thresholds. This design enables explicit posterior tracking, controllable selective decision-making, and replaceable population-specific statistical backends without retraining the language model. Across empirical and LLM-generated knowledge bases, MoBayes outperforms standalone frontier LLM doctors, including matched model-family comparisons where inexpensive sensor models paired with MoBayes exceed larger autonomous models at lower cost. The advantage persists under adversarial patient communication styles and across varying diagnostic scenarios. These results suggest that reliable conversational clinical decision support systems should separate probabilistic reasoning from language generation rather than scaling model size alone. Code is available at https://anonymous.4open.science/r/MoBayes/",
+ "primary": "cs.LG"
+}

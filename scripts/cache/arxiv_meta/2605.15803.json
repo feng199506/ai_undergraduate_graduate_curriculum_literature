@@ -1,0 +1,20 @@
+{
+ "id": "2605.15803",
+ "title": "Embedding-perturbed Exploration Preference Optimization for Flow Models",
+ "authors": [
+  "Sujie Hu",
+  "Chubin Chen",
+  "Jiashu Zhu",
+  "Jiahong Wu",
+  "Xiangxiang Chu",
+  "Xiu Li"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICML 2026",
+ "abstract": "Recent advancements have established Reinforcement Learning (RL) as a pivotal paradigm for aligning generative models with human intent. However, group-based optimization frameworks (e.g., GRPO) face a critical limitation: the rapid decay of intra-group variance. As the distinctiveness among samples within a group diminishes, the variance approaches zero. This eliminates the very learning signal required for optimization, rendering the process unstable and forcing the policy into premature stagnation or reward hacking. Existing strategies, such as varying the initial noise or increasing group sizes, often fail to address this fundamental issue, resulting in training instability or diminishing returns. To overcome these challenges, we propose $\\textbf{Embedding-perturbed Exploration Preference Optimization (}E^2\\textbf{PO)}$, a novel framework that sustains optimization through embedding-level perturbation. Our method introduces structured, embedding-level perturbations within sample groups, guaranteeing a robust variance that preserves the discriminative signal throughout the training process. Extensive experiments demonstrate that our approach significantly outperforms state-of-the-art baselines, achieving a more faithful alignment with human preference.",
+ "primary": "cs.CV"
+}

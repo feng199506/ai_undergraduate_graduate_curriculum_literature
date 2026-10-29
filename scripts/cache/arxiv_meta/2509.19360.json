@@ -1,0 +1,20 @@
+{
+ "id": "2509.19360",
+ "title": "Semantic Representation Attack against Aligned Large Language Models",
+ "authors": [
+  "Jiawei Lian",
+  "Jianhong Pan",
+  "Lefan Wang",
+  "Yi Wang",
+  "Shaohui Mei",
+  "Lap-Pui Chau"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 2,
+ "latest_date": "2025-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) increasingly employ alignment techniques to prevent harmful outputs. Despite these safeguards, attackers can circumvent them by crafting prompts that induce LLMs to generate harmful content. Current methods typically target exact affirmative responses, such as ``Sure, here is...'', suffering from limited convergence, unnatural prompts, and high computational costs. We introduce Semantic Representation Attack, a novel paradigm that fundamentally reconceptualizes adversarial objectives against aligned LLMs. Rather than targeting exact textual patterns, our approach exploits the semantic representation space comprising diverse responses with equivalent harmful meanings. This innovation resolves the inherent trade-off between attack efficacy and prompt naturalness that plagues existing methods. The Semantic Representation Heuristic Search algorithm is proposed to efficiently generate semantically coherent and concise adversarial prompts by maintaining interpretability during incremental expansion. We establish rigorous theoretical guarantees for semantic convergence and demonstrate that our method achieves unprecedented attack success rates (89.41\\% averaged across 18 LLMs, including 100\\% on 11 models) while maintaining stealthiness and efficiency. Comprehensive experimental results confirm the overall superiority of our Semantic Representation Attack. The code will be publicly available.",
+ "primary": "cs.CL"
+}

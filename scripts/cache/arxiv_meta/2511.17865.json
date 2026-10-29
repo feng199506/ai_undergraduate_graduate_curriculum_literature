@@ -1,0 +1,20 @@
+{
+ "id": "2511.17865",
+ "title": "Generative Model Predictive Control in Manufacturing Processes: A Review",
+ "authors": [
+  "Suk Ki Lee",
+  "Ronnie F. P. Stone",
+  "Max Gao",
+  "Wenlong Zhang",
+  "Zhenghui Sha",
+  "Hyunwoong Ko"
+ ],
+ "v1_date": "2025-11-22",
+ "latest_version": 1,
+ "latest_date": "2025-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 5 figures, Review article",
+ "abstract": "Manufacturing processes are inherently dynamic and uncertain, with varying parameters and nonlinear behaviors, making robust control essential for maintaining quality and reliability. Traditional control methods often fail under these conditions due to their reactive nature. Model Predictive Control (MPC) has emerged as a more advanced framework, leveraging process models to predict future states and optimize control actions. However, MPC relies on simplified models that often fail to capture complex dynamics, and it struggles with accurate state estimation and handling the propagation of uncertainty in manufacturing environments. Machine learning (ML) has been introduced to enhance MPC by modeling nonlinear dynamics and learning latent representations that support predictive modeling, state estimation, and optimization. Yet existing ML-driven MPC approaches remain deterministic and correlation-focused, motivating the exploration of generative. Generative ML offers new opportunities by learning data distributions, capturing hidden patterns, and inherently managing uncertainty, thereby complementing MPC. This review highlights five representative methods and examines how each has been integrated into MPC components, including predictive modeling, state estimation, and optimization. By synthesizing these cases, we outline the common ways generative ML can systematically enhance MPC and provide a framework for understanding its potential in diverse manufacturing processes. We identify key research gaps, propose future directions, and use a representative case to illustrate how generative ML-driven MPC can extend broadly across manufacturing. Taken together, this review positions generative ML not as an incremental add-on but as a transformative approach to reshape predictive control for next-generation manufacturing systems.",
+ "primary": "eess.SY"
+}

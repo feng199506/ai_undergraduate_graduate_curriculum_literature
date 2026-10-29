@@ -1,0 +1,27 @@
+{
+ "id": "2510.18225",
+ "title": "Joint Optimization of Cooperation Efficiency and Communication Covertness for Target Detection with AUVs",
+ "authors": [
+  "Xueyao Zhang",
+  "Bo Yang",
+  "Zhiwen Yu",
+  "Xuelin Cao",
+  "Wei Xiang",
+  "Bin Guo",
+  "Liang Wang",
+  "Billy Pik Lik Lau",
+  "George C. Alexandropoulos",
+  "Jun Luo",
+  "Mérouane Debbah",
+  "Zhu Han",
+  "Chau Yuen"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 1,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper investigates underwater cooperative target detection using autonomous underwater vehicles (AUVs), with a focus on the critical trade-off between cooperation efficiency and communication covertness. To tackle this challenge, we first formulate a joint trajectory and power control optimization problem, and then present an innovative hierarchical action management framework to solve it. According to the hierarchical formulation, at the macro level, the master AUV models the agent selection process as a Markov decision process and deploys the proximal policy optimization algorithm for strategic task allocation. At the micro level, each selected agent's decentralized decision-making is modeled as a partially observable Markov decision process, and a multi-agent proximal policy optimization algorithm is used to dynamically adjust its trajectory and transmission power based on its local observations. Under the centralized training and decentralized execution paradigm, our target detection framework enables adaptive covert cooperation while satisfying both energy and mobility constraints. By comprehensively modeling the considered system, the involved signals and tasks, as well as energy consumption, theoretical insights and practical solutions for the efficient and secure operation of multiple AUVs are provided, offering significant implications for the execution of underwater covert communication tasks.",
+ "primary": "cs.LG"
+}

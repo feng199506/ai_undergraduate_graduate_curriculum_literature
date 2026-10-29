@@ -1,0 +1,23 @@
+{
+ "id": "2505.01146",
+ "title": "Retrieval-Augmented Generation in Biomedicine: A Survey of Technologies, Datasets, and Clinical Applications",
+ "authors": [
+  "Jiawei He",
+  "Boya Zhang",
+  "Hossein Rouhizadeh",
+  "Yingjian Chen",
+  "Rui Yang",
+  "Jin Lu",
+  "Xudong Chen",
+  "Nan Liu",
+  "Douglas Teodoro"
+ ],
+ "v1_date": "2025-05-02",
+ "latest_version": 4,
+ "latest_date": "2025-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages",
+ "abstract": "Large language models (LLMs) in biomedicine face a fundamental conflict between static parameter knowledge and the dynamic nature of clinical evidence. Retrieval-Augmented Generation (RAG) addresses this by grounding generation in external data, yet it introduces new complexities in latency and architecture. This survey synthesizes the biomedical RAG landscape (2020-2025), classifying systems into naive, advanced, and modular paradigms. Beyond a technological taxonomy, we formalize the biomedical RAG trilemma, identifying the inherent trade-offs between reasoning depth, inference latency, and data privacy that constrain current clinical deployment. We analyze how recent agentic workflows enhance diagnostic reasoning but risk prohibitive latency, and how privacy constraints dictate the choice between powerful cloud-based models and local deployment. Finally, we outline the alignment gap in multimodal RAG and propose future directions for self-correcting, verifiable clinical agents.",
+ "primary": "q-bio.OT"
+}

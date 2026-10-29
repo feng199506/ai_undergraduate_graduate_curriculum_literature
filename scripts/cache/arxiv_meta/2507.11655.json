@@ -1,0 +1,17 @@
+{
+ "id": "2507.11655",
+ "title": "Counting Answer Sets of Disjunctive Answer Set Programs",
+ "authors": [
+  "Mohimenul Kabir",
+  "Supratik Chakraborty",
+  "Kuldeep S Meel"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 1,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under consideration in Theory and Practice of Logic Programming (TPLP)",
+ "abstract": "Answer Set Programming (ASP) provides a powerful declarative paradigm for knowledge representation and reasoning. Recently, counting answer sets has emerged as an important computational problem with applications in probabilistic reasoning, network reliability analysis, and other domains. This has motivated significant research into designing efficient ASP counters. While substantial progress has been made for normal logic programs, the development of practical counters for disjunctive logic programs remains challenging. We present SharpASP-SR, a novel framework for counting answer sets of disjunctive logic programs based on subtractive reduction to projected propositional model counting. Our approach introduces an alternative characterization of answer sets that enables efficient reduction while ensuring that intermediate representations remain of polynomial size. This allows SharpASP-SR to leverage recent advances in projected model counting technology. Through extensive experimental evaluation on diverse benchmarks, we demonstrate that SharpASP-SR significantly outperforms existing counters on instances with large answer set counts. Building on these results, we develop a hybrid counting approach that combines enumeration techniques with SharpASP-SR to achieve state-of-the-art performance across the full spectrum of disjunctive programs.",
+ "primary": "cs.LO"
+}

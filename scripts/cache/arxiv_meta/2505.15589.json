@@ -1,0 +1,16 @@
+{
+ "id": "2505.15589",
+ "title": "World Models as Reference Trajectories for Rapid Motor Adaptation",
+ "authors": [
+  "Carlos Stein Brito",
+  "Daniel McNamee"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 1,
+ "latest_date": "2025-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deploying learned control policies in real-world environments poses a fundamental challenge. When system dynamics change unexpectedly, performance degrades until models are retrained on new data. We introduce Reflexive World Models (RWM), a dual control framework that uses world model predictions as implicit reference trajectories for rapid adaptation. Our method separates the control problem into long-term reward maximization through reinforcement learning and robust motor execution through rapid latent control. This dual architecture achieves significantly faster adaptation with low online computational cost compared to model-based RL baselines, while maintaining near-optimal performance. The approach combines the benefits of flexible policy learning through reinforcement learning with rapid error correction capabilities, providing a principled approach to maintaining performance in high-dimensional continuous control tasks under varying dynamics.",
+ "primary": "cs.LG"
+}

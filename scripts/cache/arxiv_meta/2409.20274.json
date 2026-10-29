@@ -1,0 +1,16 @@
+{
+ "id": "2409.20274",
+ "title": "Probabilistic Answer Set Programming with Discrete and Continuous Random Variables",
+ "authors": [
+  "Damiano Azzolini",
+  "Fabrizio Riguzzi"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 1,
+ "latest_date": "2024-09-30",
+ "journal_ref": "Theory and Practice of Logic Programming 25 (2025) 1-32",
+ "doi": "10.1017/s1471068424000437",
+ "comment": "Under consideration in Theory and Practice of Logic Programming (TPLP)",
+ "abstract": "Probabilistic Answer Set Programming under the credal semantics (PASP) extends Answer Set Programming with probabilistic facts that represent uncertain information. The probabilistic facts are discrete with Bernoulli distributions. However, several real-world scenarios require a combination of both discrete and continuous random variables. In this paper, we extend the PASP framework to support continuous random variables and propose Hybrid Probabilistic Answer Set Programming (HPASP). Moreover, we discuss, implement, and assess the performance of two exact algorithms based on projected answer set enumeration and knowledge compilation and two approximate algorithms based on sampling. Empirical results, also in line with known theoretical results, show that exact inference is feasible only for small instances, but knowledge compilation has a huge positive impact on the performance. Sampling allows handling larger instances, but sometimes requires an increasing amount of memory. Under consideration in Theory and Practice of Logic Programming (TPLP).",
+ "primary": "cs.AI"
+}

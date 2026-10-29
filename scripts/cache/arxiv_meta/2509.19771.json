@@ -1,0 +1,16 @@
+{
+ "id": "2509.19771",
+ "title": "Frictional Q-Learning",
+ "authors": [
+  "Hyunwoo Kim",
+  "Hyo Kyung Lee"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 7,
+ "latest_date": "2026-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Off-policy reinforcement learning suffers from extrapolation errors when a learned policy selects actions that are weakly supported in the replay buffer. In this study, we address this issue by drawing an analogy to static friction. From this perspective, the replay buffer is represented as a smooth, low-dimensional action manifold, where the support directions correspond to the tangential component, while the normal component captures the dominant first-order extrapolation error. This decomposition reveals an intrinsic anisotropy in value sensitivity that naturally induces a stability condition analogous to a friction threshold. To mitigate deviations toward unsupported actions, we propose Frictional Q-Learning, an off-policy algorithm that encodes supported actions as tangent directions using a contrastive variational autoencoder. We further show that an orthonormal basis of the orthogonal complement corresponds to normal components under mild local isometry assumptions. Extensive empirical results on standard continuous-control benchmarks consistently demonstrate robust and stable performance compared with competitive baselines.",
+ "primary": "cs.LG"
+}

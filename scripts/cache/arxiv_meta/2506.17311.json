@@ -1,0 +1,20 @@
+{
+ "id": "2506.17311",
+ "title": "Can Large Language Models Be Trusted Paper Reviewers? A Feasibility Study",
+ "authors": [
+  "Chuanlei Li",
+  "Xu Hu",
+  "Minghui Xu",
+  "Kun Li",
+  "Yue Zhang",
+  "Xiuzhen Cheng"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 1,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Academic paper review typically requires substantial time, expertise, and human resources. Large Language Models (LLMs) present a promising method for automating the review process due to their extensive training data, broad knowledge base, and relatively low usage cost. This work explores the feasibility of using LLMs for academic paper review by proposing an automated review system. The system integrates Retrieval Augmented Generation (RAG), the AutoGen multi-agent system, and Chain-of-Thought prompting to support tasks such as format checking, standardized evaluation, comment generation, and scoring. Experiments conducted on 290 submissions from the WASA 2024 conference using GPT-4o show that LLM-based review significantly reduces review time (average 2.48 hours) and cost (average \\$104.28 USD). However, the similarity between LLM-selected papers and actual accepted papers remains low (average 38.6\\%), indicating issues such as hallucination, lack of independent judgment, and retrieval preferences. Therefore, it is recommended to use LLMs as assistive tools to support human reviewers, rather than to replace them.",
+ "primary": "cs.CY"
+}

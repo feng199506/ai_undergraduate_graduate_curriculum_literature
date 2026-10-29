@@ -1,0 +1,18 @@
+{
+ "id": "2505.10296",
+ "title": "Optimizing Electric Bus Charging Scheduling with Uncertainties Using Hierarchical Deep Reinforcement Learning",
+ "authors": [
+  "Jiaju Qi",
+  "Lei Lei",
+  "Thorsteinn Jonsson",
+  "Dusit Niyato"
+ ],
+ "v1_date": "2025-05-15",
+ "latest_version": 1,
+ "latest_date": "2025-05-15",
+ "journal_ref": "",
+ "doi": "10.1109/jiot.2025.3552532",
+ "comment": "",
+ "abstract": "The growing adoption of Electric Buses (EBs) represents a significant step toward sustainable development. By utilizing Internet of Things (IoT) systems, charging stations can autonomously determine charging schedules based on real-time data. However, optimizing EB charging schedules remains a critical challenge due to uncertainties in travel time, energy consumption, and fluctuating electricity prices. Moreover, to address real-world complexities, charging policies must make decisions efficiently across multiple time scales and remain scalable for large EB fleets. In this paper, we propose a Hierarchical Deep Reinforcement Learning (HDRL) approach that reformulates the original Markov Decision Process (MDP) into two augmented MDPs. To solve these MDPs and enable multi-timescale decision-making, we introduce a novel HDRL algorithm, namely Double Actor-Critic Multi-Agent Proximal Policy Optimization Enhancement (DAC-MAPPO-E). Scalability challenges of the Double Actor-Critic (DAC) algorithm for large-scale EB fleets are addressed through enhancements at both decision levels. At the high level, we redesign the decentralized actor network and integrate an attention mechanism to extract relevant global state information for each EB, decreasing the size of neural networks. At the low level, the Multi-Agent Proximal Policy Optimization (MAPPO) algorithm is incorporated into the DAC framework, enabling decentralized and coordinated charging power decisions, reducing computational complexity and enhancing convergence speed. Extensive experiments with real-world data demonstrate the superior performance and scalability of DAC-MAPPO-E in optimizing EB fleet charging schedules.",
+ "primary": "cs.LG"
+}

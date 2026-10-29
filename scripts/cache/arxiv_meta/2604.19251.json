@@ -1,0 +1,18 @@
+{
+ "id": "2604.19251",
+ "title": "Streamliners for Answer Set Programming",
+ "authors": [
+  "Florentina Voboril",
+  "Martin Gebser",
+  "Stefan Szeider",
+  "Alice Tarzariol"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 2,
+ "latest_date": "2026-07-23",
+ "journal_ref": "EPTCS 450, 2026, pp. 236-255",
+ "doi": "10.4204/eptcs.450.19",
+ "comment": "In Proceedings ICLP 2026, arXiv:2607.17707",
+ "abstract": "Streamliner constraints reduce the search space of combinatorial problems by ruling out portions of the solution space. We adapt the StreamLLM approach, which uses Large Language Models (LLMs) to generate streamliners for Constraint Programming, to Answer Set Programming (ASP). Given an ASP encoding and a few small training instances, we prompt multiple LLMs to propose candidate constraints. Candidates that cause syntax errors, render satisfiable instances unsatisfiable, or degrade performance on all training instances are discarded. The surviving streamliners are evaluated together with the original encoding, and we report results for a virtual best encoding (VBE) that, for each instance, selects the fastest among the original encoding and its streamlined variants. On three ASP competition benchmarks (Partner Units Problem, Sokoban, Towers of Hanoi), the VBE achieves speedups of up to 4 to 5 times over the original encoding.",
+ "primary": "cs.LO"
+}

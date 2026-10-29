@@ -1,0 +1,18 @@
+{
+ "id": "2410.08022",
+ "title": "Probabilistic Satisfaction of Temporal Logic Constraints in Reinforcement Learning via Adaptive Policy-Switching",
+ "authors": [
+  "Xiaoshan Lin",
+  "Sadık Bera Yüksel",
+  "Yasin Yazıcıoğlu",
+  "Derya Aksaray"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 2,
+ "latest_date": "2024-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Constrained Reinforcement Learning (CRL) is a subset of machine learning that introduces constraints into the traditional reinforcement learning (RL) framework. Unlike conventional RL which aims solely to maximize cumulative rewards, CRL incorporates additional constraints that represent specific mission requirements or limitations that the agent must comply with during the learning process. In this paper, we address a type of CRL problem where an agent aims to learn the optimal policy to maximize reward while ensuring a desired level of temporal logic constraint satisfaction throughout the learning process. We propose a novel framework that relies on switching between pure learning (reward maximization) and constraint satisfaction. This framework estimates the probability of constraint satisfaction based on earlier trials and properly adjusts the probability of switching between learning and constraint satisfaction policies. We theoretically validate the correctness of the proposed algorithm and demonstrate its performance through comprehensive simulations.",
+ "primary": "cs.AI"
+}

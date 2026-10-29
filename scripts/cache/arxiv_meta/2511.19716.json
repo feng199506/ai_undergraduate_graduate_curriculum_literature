@@ -1,0 +1,21 @@
+{
+ "id": "2511.19716",
+ "title": "Design Criteria for SGD Preconditioners: Local Conditioning, Noise Floors, and Basin Stability",
+ "authors": [
+  "Mitchell Scott",
+  "Tianshi Xu",
+  "Ziyuan Tang",
+  "Alexandra Pichette-Emmons",
+  "Qiang Ye",
+  "Yousef Saad",
+  "Yuanzhe Xi"
+ ],
+ "v1_date": "2025-11-24",
+ "latest_version": 3,
+ "latest_date": "2026-08-04",
+ "journal_ref": "Trans. of Mach. Learning Research, 06/2026",
+ "doi": "",
+ "comment": "31 pages, 11 Figures",
+ "abstract": "Stochastic Gradient Descent (SGD) often slows in the late stage of training due to anisotropic curvature and gradient noise. We analyze preconditioned SGD in the geometry induced by a symmetric positive definite matrix $\\mathbf{M}$, deriving bounds in which both the convergence rate and the stochastic noise floor are governed by $\\mathbf{M}$-dependent quantities: the rate through an effective condition number in the $\\mathbf{M}$-metric, and the floor through the product of that condition number and the preconditioned noise level. For nonconvex objectives, we establish a preconditioner-dependent basin-stability guarantee: when smoothness and basin size are measured in the $\\mathbf{M}$-norm, the probability that the iterates remain in a well-behaved local region admits an explicit lower bound. This perspective is particularly relevant in Scientific Machine Learning (SciML), where achieving small training loss under stochastic updates is closely tied to physical fidelity, numerical stability, and constraint satisfaction. The framework applies to both diagonal/adaptive and curvature-aware preconditioners and yields a simple design principle: choose $\\mathbf{M}$ to improve local conditioning while attenuating noise. Experiments on a quadratic diagnostic and three SciML benchmarks validate the predicted rate-floor behavior.",
+ "primary": "math.NA"
+}

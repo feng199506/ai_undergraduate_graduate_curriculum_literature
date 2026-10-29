@@ -1,0 +1,18 @@
+{
+ "id": "2406.03894",
+ "title": "Transductive Off-policy Proximal Policy Optimization",
+ "authors": [
+  "Yaozhong Gan",
+  "Xiaoyang Tan",
+  "Zhe Wu",
+  "Junliang Xing"
+ ],
+ "v1_date": "2024-06-06",
+ "latest_version": 4,
+ "latest_date": "2026-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18",
+ "abstract": "Proximal Policy Optimization (PPO) is a popular model-free reinforcement learning algorithm, esteemed for its simplicity and efficacy. However, due to its inherent on-policy nature, its proficiency in harnessing data from disparate policies is constrained. This paper introduces a novel off-policy extension to the original PPO method, christened Transductive Off-policy PPO (ToPPO). Herein, we provide theoretical justification for incorporating off-policy data in PPO training and prudent guidelines for its safe application. Our contribution includes a novel formulation of the policy improvement lower bound for prospective policies derived from off-policy data, accompanied by a computationally efficient mechanism to optimize this bound, underpinned by assurances of monotonic improvement. Comprehensive experimental results across six representative tasks underscore ToPPO's promising performance.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2508.20511",
+ "title": "Languages Still Left Behind: Toward a Better Multilingual Machine Translation Benchmark",
+ "authors": [
+  "Chihiro Taguchi",
+  "Seng Mai",
+  "Keita Kurabe",
+  "Yusuke Sakai",
+  "Georgina Agyei",
+  "Soudabeh Eslami",
+  "David Chiang"
+ ],
+ "v1_date": "2025-08-28",
+ "latest_version": 1,
+ "latest_date": "2025-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 7 tables, 2 figures. Accepted at EMNLP Main 2025. Code and data released at https://github.com/ctaguchi/LSLB",
+ "abstract": "Multilingual machine translation (MT) benchmarks play a central role in evaluating the capabilities of modern MT systems. Among them, the FLORES+ benchmark is widely used, offering English-to-many translation data for over 200 languages, curated with strict quality control protocols. However, we study data in four languages (Asante Twi, Japanese, Jinghpaw, and South Azerbaijani) and uncover critical shortcomings in the benchmark's suitability for truly multilingual evaluation. Human assessments reveal that many translations fall below the claimed 90% quality standard, and the annotators report that source sentences are often too domain-specific and culturally biased toward the English-speaking world. We further demonstrate that simple heuristics, such as copying named entities, can yield non-trivial BLEU scores, suggesting vulnerabilities in the evaluation protocol. Notably, we show that MT models trained on high-quality, naturalistic data perform poorly on FLORES+ while achieving significant gains on our domain-relevant evaluation set. Based on these findings, we advocate for multilingual MT benchmarks that use domain-general and culturally neutral source texts rely less on named entities, in order to better reflect real-world translation challenges.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "2310.17274",
+ "title": "cuRobo: Parallelized Collision-Free Minimum-Jerk Robot Motion Generation",
+ "authors": [
+  "Balakumar Sundaralingam",
+  "Siva Kumar Sastry Hari",
+  "Adam Fishman",
+  "Caelan Garrett",
+  "Karl Van Wyk",
+  "Valts Blukis",
+  "Alexander Millane",
+  "Helen Oleynikova",
+  "Ankur Handa",
+  "Fabio Ramos",
+  "Nathan Ratliff",
+  "Dieter Fox"
+ ],
+ "v1_date": "2023-10-26",
+ "latest_version": 2,
+ "latest_date": "2023-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "revised technical report, 62 pages, Website: https://curobo.org",
+ "abstract": "This paper explores the problem of collision-free motion generation for manipulators by formulating it as a global motion optimization problem. We develop a parallel optimization technique to solve this problem and demonstrate its effectiveness on massively parallel GPUs. We show that combining simple optimization techniques with many parallel seeds leads to solving difficult motion generation problems within 50ms on average, 60x faster than state-of-the-art (SOTA) trajectory optimization methods. We achieve SOTA performance by combining L-BFGS step direction estimation with a novel parallel noisy line search scheme and a particle-based optimization solver. To further aid trajectory optimization, we develop a parallel geometric planner that plans within 20ms and also introduce a collision-free IK solver that can solve over 7000 queries/s. We package our contributions into a state of the art GPU accelerated motion generation library, cuRobo and release it to enrich the robotics community. Additional details are available at https://curobo.org",
+ "primary": "cs.RO"
+}

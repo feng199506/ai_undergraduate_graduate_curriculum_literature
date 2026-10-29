@@ -1,0 +1,15 @@
+{
+ "id": "2603.00839",
+ "title": "Randomized Tensor Krylov Subspace Methods via Sketched Einstein Product with Applications to Image and Video Restoration",
+ "authors": [
+  "Achraf Badahmane"
+ ],
+ "v1_date": "2026-02-28",
+ "latest_version": 1,
+ "latest_date": "2026-02-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a randomized extension of tensor Krylov subspace methods based on the Einstein product for solving large-scale multilinear systems arising in image and video restoration. The classical tensor global GMRES method relies on Frobenius inner products and full tensor orthogonalization, which become computationally expensive for high-dimensional problems. We introduce a sketched Einstein inner product constructed via mode-wise random projections and develop a randomized tensor global Arnoldi process. The resulting Randomized Tensor Global GMRES (RTG-GMRES) method significantly reduces orthogonalization cost while preserving convergence properties under tensor subspace embedding assumptions. Residual bounds, perturbation analysis and projected Tikhonov regularization are derived. The proposed method provides an efficient framework for solving ill-posed multidimensional problems arising in color image and video restoration.",
+ "primary": "math.NA"
+}

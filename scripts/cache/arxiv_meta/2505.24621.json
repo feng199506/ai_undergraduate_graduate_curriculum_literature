@@ -1,0 +1,17 @@
+{
+ "id": "2505.24621",
+ "title": "Benchmarking Large Language Models for Cryptanalysis and Side-Channel Vulnerabilities",
+ "authors": [
+  "Utsav Maskey",
+  "Chencheng Zhu",
+  "Usman Naseem"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 3,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EMNLP'25 Findings",
+ "abstract": "Recent advancements in large language models (LLMs) have transformed natural language understanding and generation, leading to extensive benchmarking across diverse tasks. However, cryptanalysis - a critical area for data security and its connection to LLMs' generalization abilities - remains underexplored in LLM evaluations. To address this gap, we evaluate the cryptanalytic potential of state-of-the-art LLMs on ciphertexts produced by a range of cryptographic algorithms. We introduce a benchmark dataset of diverse plaintexts, spanning multiple domains, lengths, writing styles, and topics, paired with their encrypted versions. Using zero-shot and few-shot settings along with chain-of-thought prompting, we assess LLMs' decryption success rate and discuss their comprehension abilities. Our findings reveal key insights into LLMs' strengths and limitations in side-channel scenarios and raise concerns about their susceptibility to under-generalization-related attacks. This research highlights the dual-use nature of LLMs in security contexts and contributes to the ongoing discussion on AI safety and security.",
+ "primary": "cs.CL"
+}

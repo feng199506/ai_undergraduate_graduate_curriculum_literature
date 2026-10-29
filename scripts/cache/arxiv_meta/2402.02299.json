@@ -1,0 +1,18 @@
+{
+ "id": "2402.02299",
+ "title": "A Review and Comparison of AI Enhanced Side Channel Analysis",
+ "authors": [
+  "Max Panoff",
+  "Honggang Yu",
+  "Haoqi Shan",
+  "Yier Jin"
+ ],
+ "v1_date": "2024-02-03",
+ "latest_version": 1,
+ "latest_date": "2024-02-03",
+ "journal_ref": "",
+ "doi": "10.1145/3517810",
+ "comment": "This paper has been accepted by ACM Journal on Emerging Technologies in Computing Systems (JETC)",
+ "abstract": "Side Channel Analysis (SCA) presents a clear threat to privacy and security in modern computing systems. The vast majority of communications are secured through cryptographic algorithms. These algorithms are often provably-secure from a cryptographical perspective, but their implementation on real hardware introduces vulnerabilities. Adversaries can exploit these vulnerabilities to conduct SCA and recover confidential information, such as secret keys or internal states. The threat of SCA has greatly increased as machine learning, and in particular deep learning, enhanced attacks become more common. In this work, we will examine the latest state-of-the-art deep learning techniques for side channel analysis, the theory behind them, and how they are conducted. Our focus will be on profiling attacks using deep learning techniques, but we will also examine some new and emerging methodologies enhanced by deep learning techniques, such as non-profiled attacks, artificial trace generation, and others. Finally, different deep learning enhanced SCA schemes attempted against the ANSSI SCA Database (ASCAD) and their relative performance will be evaluated and compared. This will lead to new research directions to secure cryptographic implementations against the latest SCA attacks.",
+ "primary": "cs.CR"
+}

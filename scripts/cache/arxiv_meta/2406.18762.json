@@ -1,0 +1,16 @@
+{
+ "id": "2406.18762",
+ "title": "Categorical Syllogisms Revisited: A Review of the Logical Reasoning Abilities of LLMs for Analyzing Categorical Syllogism",
+ "authors": [
+  "Shi Zong",
+  "Jimmy Lin"
+ ],
+ "v1_date": "2024-06-26",
+ "latest_version": 2,
+ "latest_date": "2024-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "camera-ready version",
+ "abstract": "There have been a huge number of benchmarks proposed to evaluate how large language models (LLMs) behave for logic inference tasks. However, it remains an open question how to properly evaluate this ability. In this paper, we provide a systematic overview of prior works on the logical reasoning ability of LLMs for analyzing categorical syllogisms. We first investigate all the possible variations for the categorical syllogisms from a purely logical perspective and then examine the underlying configurations (i.e., mood and figure) tested by the existing datasets. Our results indicate that compared to template-based synthetic datasets, crowdsourcing approaches normally sacrifice the coverage of configurations (i.e., mood and figure) of categorical syllogisms for more language variations, thus bringing challenges to fully testing LLMs under different situations. We then proceed to summarize the findings and observations for the performances of LLMs to infer the validity of syllogisms from the current literature. The error rate breakdown analyses suggest that the interpretation of the quantifiers seems to be the current bottleneck that limits the performances of the LLMs and is thus worth more attention. Finally, we discuss several points that might be worth considering when researchers plan on the future release of categorical syllogism datasets. We hope our work will not only provide a timely review of the current literature regarding categorical syllogisms, but also motivate more interdisciplinary research between communities, specifically computational linguists and logicians.",
+ "primary": "cs.CL"
+}

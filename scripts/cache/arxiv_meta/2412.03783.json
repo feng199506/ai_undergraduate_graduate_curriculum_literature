@@ -1,0 +1,23 @@
+{
+ "id": "2412.03783",
+ "title": "Expressivity of Representation Learning on Continuous-Time Dynamic Graphs: An Information-Flow Centric Review",
+ "authors": [
+  "Sofiane Ennadir",
+  "Gabriela Zarzar Gandler",
+  "Filip Cornell",
+  "Lele Cao",
+  "Oleg Smirnov",
+  "Tianze Wang",
+  "Levente Zólyomi",
+  "Björn Brinne",
+  "Sahar Asadi"
+ ],
+ "v1_date": "2024-12-05",
+ "latest_version": 2,
+ "latest_date": "2025-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by TMLR. Source code: https://github.com/king/ctdg-info-flow",
+ "abstract": "Graphs are ubiquitous in real-world applications, ranging from social networks to biological systems, and have inspired the development of Graph Neural Networks (GNNs) for learning expressive representations. While most research has centered on static graphs, many real-world scenarios involve dynamic, temporally evolving graphs, motivating the need for Continuous-Time Dynamic Graph (CTDG) models. This paper provides a comprehensive review of Graph Representation Learning (GRL) on CTDGs with a focus on Self-Supervised Representation Learning (SSRL). We introduce a novel theoretical framework that analyzes the expressivity of CTDG models through an Information-Flow (IF) lens, quantifying their ability to propagate and encode temporal and structural information. Leveraging this framework, we categorize existing CTDG methods based on their suitability for different graph types and application scenarios. Within the same scope, we examine the design of SSRL methods tailored to CTDGs, such as predictive and contrastive approaches, highlighting their potential to mitigate the reliance on labeled data. Empirical evaluations on synthetic and real-world datasets validate our theoretical insights, demonstrating the strengths and limitations of various methods across long-range, bi-partite and community-based graphs. This work offers both a theoretical foundation and practical guidance for selecting and developing CTDG models, advancing the understanding of GRL in dynamic settings.",
+ "primary": "cs.LG"
+}

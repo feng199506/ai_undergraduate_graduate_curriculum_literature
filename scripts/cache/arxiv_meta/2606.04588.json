@@ -1,0 +1,17 @@
+{
+ "id": "2606.04588",
+ "title": "VCIFBench: Evaluating Complex Instruction Following for Video Understanding",
+ "authors": [
+  "Huangchen Xu",
+  "Yuan Wu",
+  "Yi Chang"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multimodal large language models have made rapid progress in video understanding, yet existing benchmarks largely rely on simple prompts and provide limited evidence about whether models can satisfy explicit output constraints. We introduce VCIFBench, a benchmark for evaluating complex instruction following in video understanding. VCIFBench constructs constraint-rich instructions from both benchmark-adapted and directly video-grounded prompts, covering content, format, style, and structure requirements, and evaluates model outputs with a hybrid verification pipeline. The benchmark contains 306 satisfiable test instructions, 540 DPO training instances, and a 100-item diagnostic set for evaluating whether models can recognize instruction conflicts. Experiments on 10 MLLMs show that joint constraint satisfaction remains challenging. Preference optimization improves instruction following for two model families, while Conflict-100 reveals that models usually execute a satisfiable-looking subset instead of detecting global incompatibility.",
+ "primary": "cs.CL"
+}

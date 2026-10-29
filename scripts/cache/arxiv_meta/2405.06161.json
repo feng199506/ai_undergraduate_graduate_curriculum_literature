@@ -1,0 +1,15 @@
+{
+ "id": "2405.06161",
+ "title": "An Initial Introduction to Cooperative Multi-Agent Reinforcement Learning",
+ "authors": [
+  "Christopher Amato"
+ ],
+ "v1_date": "2024-05-10",
+ "latest_version": 7,
+ "latest_date": "2026-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multi-agent reinforcement learning (MARL) has exploded in popularity in recent years. While numerous approaches have been developed, they can be broadly categorized into three main types: centralized training and execution (CTE), centralized training for decentralized execution (CTDE), and decentralized training and execution (DTE). CTE methods assume centralization during training and execution (e.g., with fast, free, and perfect communication) and have the most information during execution. CTDE methods are the most common, as they leverage centralized information during training while enabling decentralized execution -- using only information available to that agent during execution. Decentralized training and execution methods make the fewest assumptions and are often simple to implement. This text is an introduction to cooperative MARL -- MARL in which all agents share a single, joint reward. It is meant to explain the setting, basic concepts, and common methods for the CTE, CTDE, and DTE settings. It does not cover all work in cooperative MARL as the area is quite extensive. I have included work that I believe is important for understanding the main concepts in the area and apologize to those that I have omitted. Topics include simple applications of single-agent methods to CTE as well as some more scalable methods that exploit the multi-agent structure, independent Q-learning and policy gradient methods and their extensions, as well as value function factorization methods including the well-known VDN, QMIX, and QPLEX approaches, and centralized critic methods including MADDPG, COMA, and MAPPO. I also discuss common misconceptions, the relationship between different approaches, and some open questions.",
+ "primary": "cs.LG"
+}

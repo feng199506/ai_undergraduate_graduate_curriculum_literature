@@ -1,0 +1,17 @@
+{
+ "id": "2311.14206",
+ "title": "GMRES with randomized sketching and deflated restarting",
+ "authors": [
+  "Liam Burke",
+  "Stefan Güttel",
+  "Kirk M. Soodhalter"
+ ],
+ "v1_date": "2023-11-23",
+ "latest_version": 2,
+ "latest_date": "2024-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 Pages; 6 Figures; 4 Tables",
+ "abstract": "We present a new Krylov subspace recycling method for solving a linear system of equations, or a sequence of slowly changing linear systems. Our approach is to reduce the computational overhead of recycling techniques while still benefiting from the acceleration afforded by such techniques. As such, this method augments an unprojected Krylov subspace. Furthermore, it combines randomized sketching and deflated restarting in a way that avoids orthogononalizing a full Krylov basis. We call this new method GMRES-SDR (sketched deflated restarting). With this new method, we provide new theory, which initially characterizes unaugmented sketched GMRES as a projection method for which the projectors involve the sketching operator. We demonstrate that sketched GMRES and its sibling method sketched FOM are an MR/OR pairing, just like GMRES and FOM. We furthermore obtain residual convergence estimates. Building on this, we characterize GMRES-SDR also in terms of sketching-based projectors. Compression of the augmented Krylov subspace for recycling is performed using a sketched version of harmonic Ritz vectors. We present results of numerical experiments demonstrating the effectiveness of GMRES-SDR over competitor methods such as GMRES-DR and GCRO-DR.",
+ "primary": "math.NA"
+}

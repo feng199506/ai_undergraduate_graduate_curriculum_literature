@@ -1,0 +1,16 @@
+{
+ "id": "2607.04612",
+ "title": "StructuredEdit: Constraint-Aware Graphic Design Editing via Differentiable Parameter Propagation",
+ "authors": [
+  "Veeramanohar Avudaiappan",
+  "Ritwik Murali"
+ ],
+ "v1_date": "2026-07-06",
+ "latest_version": 1,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "3 page poster short paper.2 Figures, 2 Tables. Planned to submit to SIGGRAPH Asia",
+ "abstract": "Graphic design editing requires precise manipulation of typography, layout, and visual hierarchy under strict design constraints. Following the introduction of large language models, organizations have increasingly promoted vision-language models to enhance productivity. However, current models operate on pixels and achieve only 52% constraint satisfaction on structured design edits, thereby limiting their reliability for professional workflows. We present StructuredEdit, a pipeline that reframes design editing as parameter manipulation rather than pixel generation. Our core technical contribution is Differentiable Parameter Propagation (DPP), a training method that embeds hard design constraints into vision-language model fine-tuning by backpropagating pixel-level constraint violations through a lightweight differentiable rasterizer. A hybrid candidate-and-filter pipeline produces 125k validated edit triplets. The resulting system reaches 89% constraint satisfaction versus 52% for GPT-4V, 0.82 matched-element Intersection over Union, and 76% top-1 font accuracy over the 100 most-frequent design typefaces. In a user study (N=35), editing time drops 33% and correction iterations drop 44% relative to a GPT-4V baseline.",
+ "primary": "cs.GR"
+}

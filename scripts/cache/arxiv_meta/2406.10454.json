@@ -1,0 +1,19 @@
+{
+ "id": "2406.10454",
+ "title": "HumanPlus: Humanoid Shadowing and Imitation from Humans",
+ "authors": [
+  "Zipeng Fu",
+  "Qingqing Zhao",
+  "Qi Wu",
+  "Gordon Wetzstein",
+  "Chelsea Finn"
+ ],
+ "v1_date": "2024-06-15",
+ "latest_version": 1,
+ "latest_date": "2024-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "project website: https://humanoid-ai.github.io/",
+ "abstract": "One of the key arguments for building robots that have similar form factors to human beings is that we can leverage the massive human data for training. Yet, doing so has remained challenging in practice due to the complexities in humanoid perception and control, lingering physical gaps between humanoids and humans in morphologies and actuation, and lack of a data pipeline for humanoids to learn autonomous skills from egocentric vision. In this paper, we introduce a full-stack system for humanoids to learn motion and autonomous skills from human data. We first train a low-level policy in simulation via reinforcement learning using existing 40-hour human motion datasets. This policy transfers to the real world and allows humanoid robots to follow human body and hand motion in real time using only a RGB camera, i.e. shadowing. Through shadowing, human operators can teleoperate humanoids to collect whole-body data for learning different tasks in the real world. Using the data collected, we then perform supervised behavior cloning to train skill policies using egocentric vision, allowing humanoids to complete different tasks autonomously by imitating human skills. We demonstrate the system on our customized 33-DoF 180cm humanoid, autonomously completing tasks such as wearing a shoe to stand up and walk, unloading objects from warehouse racks, folding a sweatshirt, rearranging objects, typing, and greeting another robot with 60-100% success rates using up to 40 demonstrations. Project website: https://humanoid-ai.github.io/",
+ "primary": "cs.RO"
+}

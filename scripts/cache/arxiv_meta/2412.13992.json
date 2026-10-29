@@ -1,0 +1,16 @@
+{
+ "id": "2412.13992",
+ "title": "Adaptive randomized pivoting for column subset selection, DEIM, and low-rank approximation",
+ "authors": [
+  "Alice Cortinovis",
+  "Daniel Kressner"
+ ],
+ "v1_date": "2024-12-18",
+ "latest_version": 2,
+ "latest_date": "2025-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We derive a new adaptive leverage score sampling strategy for solving the Column Subset Selection Problem (CSSP). The resulting algorithm, called Adaptive Randomized Pivoting, can be viewed as a randomization of Osinsky's recently proposed deterministic algorithm for CSSP. It guarantees, in expectation, an approximation error that matches the optimal existence result in the Frobenius norm. Although the same guarantee can be achieved with volume sampling, our sampling strategy is much simpler and less expensive. To show the versatility of Adaptive Randomized Pivoting, we apply it to select indices in the Discrete Empirical Interpolation Method, in cross/skeleton approximation of general matrices, and in the Nystroem approximation of symmetric positive semi-definite matrices. In all these cases, the resulting randomized algorithms are new and they enjoy bounds on the expected error that match -- or improve -- the best known deterministic results. A derandomization of the algorithm for the Nystroem approximation results in a new deterministic algorithm with a rather favorable error bound.",
+ "primary": "math.NA"
+}

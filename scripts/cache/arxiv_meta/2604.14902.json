@@ -1,0 +1,21 @@
+{
+ "id": "2604.14902",
+ "title": "ADAPT: Benchmarking Commonsense Planning under Unspecified Affordance Constraints",
+ "authors": [
+  "Pei-An Chen",
+  "Yong-Ching Liang",
+  "Jia-Fong Yeh",
+  "Hung-Ting Su",
+  "Yi-Ting Chen",
+  "Min Sun",
+  "Winston Hsu"
+ ],
+ "v1_date": "2026-04-16",
+ "latest_version": 2,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Intelligent embodied agents should not simply follow instructions, as real-world environments often involve unexpected conditions and exceptions. However, existing methods usually focus on directly executing instructions, without considering whether the target objects can actually be manipulated, meaning they fail to assess available affordances. To address this limitation, we introduce DynAfford, a benchmark that evaluates embodied agents in dynamic environments where object affordances may change over time and are not specified in the instruction. DynAfford requires agents to perceive object states, infer implicit preconditions, and adapt their actions accordingly. To enable this capability, we introduce ADAPT, a plug-and-play module that augments existing planners with explicit affordance reasoning. Experiments demonstrate that incorporating ADAPT significantly improves robustness and task success across both seen and unseen environments. We also show that a domain-adapted, LoRA-finetuned vision-language model used as the affordance inference backend outperforms a commercial LLM (GPT-4o), highlighting the importance of task-aligned affordance grounding.",
+ "primary": "cs.AI"
+}

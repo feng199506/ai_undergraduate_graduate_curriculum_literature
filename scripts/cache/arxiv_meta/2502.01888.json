@@ -1,0 +1,17 @@
+{
+ "id": "2502.01888",
+ "title": "Randomized block-Krylov subspace methods for low-rank approximation of matrix functions",
+ "authors": [
+  "David Persson",
+  "Tyler Chen",
+  "Christopher Musco"
+ ],
+ "v1_date": "2025-02-03",
+ "latest_version": 2,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The randomized SVD is a method to compute an inexpensive, yet accurate, low-rank approximation of a matrix. The algorithm assumes access to the matrix through matrix-vector products (matvecs). Therefore, when we would like to apply the randomized SVD to a matrix function, $f(A)$, one needs to approximate matvecs with $f(A)$ using some other algorithm, which is typically treated as a black-box. Chen and Hallman (SIMAX 2023) argued that, in the common setting where matvecs with $f(A)$ are approximated using Krylov subspace methods (KSMs), a more efficient low-rank approximation is possible if we open this black-box. They present an alternative approach that significantly outperforms the naive combination of KSMs with the randomized SVD, although the method lacked theoretical justification. In this work, we take a closer look at the method, and provide strong and intuitive error bounds that justify its excellent performance for low-rank approximation of matrix functions.",
+ "primary": "math.NA"
+}

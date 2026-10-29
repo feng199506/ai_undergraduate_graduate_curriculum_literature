@@ -1,0 +1,20 @@
+{
+ "id": "2603.01292",
+ "title": "Integrating LTL Constraints into PPO for Safe Reinforcement Learning",
+ "authors": [
+  "Maifang Zhang",
+  "Hang Yu",
+  "Qian Zuo",
+  "Cheng Wang",
+  "Vaishak Belle",
+  "Fengxiang He"
+ ],
+ "v1_date": "2026-03-01",
+ "latest_version": 1,
+ "latest_date": "2026-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes Proximal Policy Optimization with Linear Temporal Logic Constraints (PPO-LTL), a framework that integrates safety constraints written in LTL into PPO for safe reinforcement learning. LTL constraints offer rigorous representations of complex safety requirements, such as regulations that broadly exist in robotics, enabling systematic monitoring of safety requirements. Violations against LTL constraints are monitored by limit-deterministic Büchi automata, and then translated by a logic-to-cost mechanism into penalty signals. The signals are further employed for guiding the policy optimization via the Lagrangian scheme. Extensive experiments on the Zones and CARLA environments show that our PPO-LTL can consistently reduce safety violations, while maintaining competitive performance, against the state-of-the-art methods. The code is at https://github.com/EVIEHub/PPO-LTL.",
+ "primary": "cs.LG"
+}

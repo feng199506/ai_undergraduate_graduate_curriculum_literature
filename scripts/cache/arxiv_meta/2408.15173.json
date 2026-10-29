@@ -1,0 +1,16 @@
+{
+ "id": "2408.15173",
+ "title": "Exploiting Approximate Symmetry for Efficient Multi-Agent Reinforcement Learning",
+ "authors": [
+  "Batuhan Yardim",
+  "Niao He"
+ ],
+ "v1_date": "2024-08-27",
+ "latest_version": 1,
+ "latest_date": "2024-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 figures",
+ "abstract": "Mean-field games (MFG) have become significant tools for solving large-scale multi-agent reinforcement learning problems under symmetry. However, the assumption of exact symmetry limits the applicability of MFGs, as real-world scenarios often feature inherent heterogeneity. Furthermore, most works on MFG assume access to a known MFG model, which might not be readily available for real-world finite-agent games. In this work, we broaden the applicability of MFGs by providing a methodology to extend any finite-player, possibly asymmetric, game to an \"induced MFG\". First, we prove that $N$-player dynamic games can be symmetrized and smoothly extended to the infinite-player continuum via explicit Kirszbraun extensions. Next, we propose the notion of $α,β$-symmetric games, a new class of dynamic population games that incorporate approximate permutation invariance. For $α,β$-symmetric games, we establish explicit approximation bounds, demonstrating that a Nash policy of the induced MFG is an approximate Nash of the $N$-player dynamic game. We show that TD learning converges up to a small bias using trajectories of the $N$-player game with finite-sample guarantees, permitting symmetrized learning without building an explicit MFG model. Finally, for certain games satisfying monotonicity, we prove a sample complexity of $\\widetilde{\\mathcal{O}}(\\varepsilon^{-6})$ for the $N$-agent game to learn an $\\varepsilon$-Nash up to symmetrization bias. Our theory is supported by evaluations on MARL benchmarks with thousands of agents.",
+ "primary": "cs.GT"
+}

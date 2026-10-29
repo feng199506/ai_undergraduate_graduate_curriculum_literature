@@ -1,0 +1,18 @@
+{
+ "id": "2505.22776",
+ "title": "A Contingency Model Predictive Control Framework for Safe Learning",
+ "authors": [
+  "Merlijne Geurts",
+  "Tren Baltussen",
+  "Alexander Katriniok",
+  "Maurice Heemels"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 1,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "10.1109/lcsys.2025.3575191",
+ "comment": "6 pages, 3 figures. To appear in the IEEE Control Systems Letters",
+ "abstract": "This research introduces a multi-horizon contingency model predictive control (CMPC) framework in which classes of robust MPC (RMPC) algorithms are combined with classes of learning-based MPC (LB-MPC) algorithms to enable safe learning. We prove that the CMPC framework inherits the robust recursive feasibility properties of the underlying RMPC scheme, thereby ensuring safety of the CMPC in the sense of constraint satisfaction. The CMPC leverages the LB-MPC to safely learn the unmodeled dynamics to reduce conservatism and improve performance compared to standalone RMPC schemes, which are conservative in nature. In addition, we present an implementation of the CMPC framework that combines a particular RMPC and a Gaussian Process MPC scheme. A simulation study on automated lane merging demonstrates the advantages of our general CMPC framework.",
+ "primary": "math.OC"
+}

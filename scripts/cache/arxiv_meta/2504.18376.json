@@ -1,0 +1,18 @@
+{
+ "id": "2504.18376",
+ "title": "Evaluating the Scalability and Adversarial Generalization of GRPO-Trained NLI Models",
+ "authors": [
+  "Pablo Miralles-González",
+  "Javier Huertas-Tato",
+  "Alejandro Martín",
+  "David Camacho"
+ ],
+ "v1_date": "2025-04-25",
+ "latest_version": 3,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Natural Language Inference (NLI) is a central task in natural language understanding with applications in fact-checking, question answering, and information retrieval. Despite its importance, current NLI systems heavily rely on supervised learning with datasets that often contain annotation artifacts and biases, limiting generalization and real-world applicability. In this work, we apply a reinforcement learning-based approach using Group Relative Policy Optimization (GRPO) for Chain-of-Thought (CoT) learning in NLI, eliminating the need for human-labeled rationales and enabling this type of training on challenging datasets such as ANLI. We fine-tune 7B, 14B, and 32B language models using parameter-efficient techniques (LoRA and QLoRA), demonstrating strong performance across standard and adversarial NLI benchmarks. At the 32B scale, GRPO-trained models generalize better than other supervised baselines in adversarial sets. With AWQ quantization, the 32B model fits within 22GB of CUDA memory. This work provides a scalable and practical framework for building robust NLI systems without sacrificing inference quality.",
+ "primary": "cs.CL"
+}

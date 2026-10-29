@@ -1,0 +1,18 @@
+{
+ "id": "2407.16313",
+ "title": "Deep Learning for Pancreas Segmentation: a Systematic Review",
+ "authors": [
+  "Andrea Moglia",
+  "Matteo Cavicchioli",
+  "Luca Mainardi",
+  "Pietro Cerveri"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 1,
+ "latest_date": "2024-07-23",
+ "journal_ref": "Artificial Intelligence Review 58, 220 (2025)",
+ "doi": "10.1007/s10462-024-11050-4",
+ "comment": "",
+ "abstract": "Pancreas segmentation has been traditionally challenging due to its small size in computed tomography abdominal volumes, high variability of shape and positions among patients, and blurred boundaries due to low contrast between the pancreas and surrounding organs. Many deep learning models for pancreas segmentation have been proposed in the past few years. We present a thorough systematic review based on the Preferred Reporting Items for Systematic Reviews and Meta-analyses (PRISMA) statement. The literature search was conducted on PubMed, Web of Science, Scopus, and IEEE Xplore on original studies published in peer-reviewed journals from 2013 to 2023. Overall, 130 studies were retrieved. We initially provided an overview of the technical background of the most common network architectures and publicly available datasets. Then, the analysis of the studies combining visual presentation in tabular form and text description was reported. The tables grouped the studies specifying the application, dataset size, design (model architecture, learning strategy, and loss function), results, and main contributions. We first analyzed the studies focusing on parenchyma segmentation using coarse-to-fine approaches, multi-organ segmentation, semi-supervised learning, and unsupervised learning, followed by those studies on generalization to other datasets and those concerning the design of new loss functions. Then, we analyzed the studies on segmentation of tumors, cysts, and inflammation reporting multi-stage methods, semi-supervised learning, generalization to other datasets, and design of new loss functions. Finally, we provided a critical discussion on the subject based on the published evidence underlining current issues that need to be addressed before clinical translation.",
+ "primary": "eess.IV"
+}

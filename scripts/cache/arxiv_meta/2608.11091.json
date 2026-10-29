@@ -1,0 +1,18 @@
+{
+ "id": "2608.11091",
+ "title": "Randomized Tucker-Sketched GMRES",
+ "authors": [
+  "Alberto Bucci",
+  "Martina Iannacito",
+  "Mirjeta Pasha",
+  "Rudi Smith"
+ ],
+ "v1_date": "2026-08-11",
+ "latest_version": 1,
+ "latest_date": "2026-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 6 figures, 2 tables",
+ "abstract": "We address the problem of solving large-scale tensor-structured linear systems in the Tucker format. In this setting, standard iterative solvers such as GMRES face a fundamental bottleneck: the multilinear ranks of the Krylov basis vectors grow with the iteration count, leading to rapidly increasing tensor operation costs and memory requirements. To overcome these challenges, we propose two randomized algorithms within the sketched GMRES framework that replace full Arnoldi orthogonalization with short recurrences. The first, RHOSVD-Tucker sGMRES, uses randomized HOSVD with per-iteration rank selection, providing robustness across a wide range of problems. The second method, MLN-Tucker sGMRES, leverages the multilinear Nyström approximation with a fixed rank, enabling streaming computations; the streamability of the approximation further allows, at no additional cost, a memory-efficient reconstruction of the solution from a compact sketched representation of the Krylov basis. Both methods outperform standard low-rank Tucker solvers in symmetric and non-symmetric settings. Applied to inverse problems, the low-rank Tucker constraint acts as an implicit regularizer; combined with adaptive projected Tikhonov penalization and automatic regularization parameter selection, the methods yield stable reconstructions.",
+ "primary": "math.NA"
+}

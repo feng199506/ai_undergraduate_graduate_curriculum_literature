@@ -1,0 +1,16 @@
+{
+ "id": "2508.09128",
+ "title": "A Review On Safe Reinforcement Learning Using Lyapunov and Barrier Functions",
+ "authors": [
+  "Dhruv Singh Kushwaha",
+  "Zoleikha Abdollahi Biron"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 4,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "pages - 63, figures - 10, tables - 9",
+ "abstract": "Reinforcement learning (RL) has proven to be particularly effective in solving complex decision-making problems for a wide range of applications. Safe reinforcement learning refers to a class of constrained problems where the constraint violations lead to partial or complete system failure. The goal of this review is to provide an overview of safe RL techniques using Lyapunov and barrier functions to guarantee this notion of safety (stability of the system in terms of a computed policy and constraint satisfaction during training and deployment). Three concrete takeaways emerge from our analysis: (i) the field has shifted decisively from model-based to model-free formulations since 2017, with combined CLF-CBF approaches becoming the most active sub-area post-2022; (ii) per-class open problems are now well-defined, certificate validity under function approximation and distribution shift for Lyapunov methods, feasibility and deadlock under hard CBF-QP shielding for barrier methods, and joint CLF--CBF feasibility under model uncertainty for combined methods; and (iii) deployment to high-dimensional and partially observable settings remains the dominant scalability barrier across all three classes. The different approaches employed are discussed in detail along with their shortcomings and benefits to provide critique and possible future research directions. The review demonstrates promising scope for providing safety guarantees for complex dynamical systems with operational constraints using model-based and model-free RL.",
+ "primary": "eess.SY"
+}

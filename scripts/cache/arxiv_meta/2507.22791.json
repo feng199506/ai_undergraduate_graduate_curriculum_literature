@@ -1,0 +1,21 @@
+{
+ "id": "2507.22791",
+ "title": "Modality-Aware Feature Matching in Visual and Vision-Language Applications: A Comprehensive Survey",
+ "authors": [
+  "Weide Liu",
+  "Wei Zhou",
+  "Jun Liu",
+  "Ping Hu",
+  "Jun Cheng",
+  "Jungong Han",
+  "Weisi Lin"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 2,
+ "latest_date": "2026-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "CSUR",
+ "abstract": "Feature matching is a cornerstone task in computer vision, essential for applications such as image retrieval, stereo matching, 3D reconstruction, and SLAM. This survey comprehensively reviews modality-based feature matching, exploring traditional handcrafted methods and emphasizing contemporary deep learning approaches across various modalities, including RGB images, depth images, 3D point clouds, LiDAR scans, medical images, and vision-language interactions. Traditional methods, leveraging detectors like Harris corners and descriptors such as SIFT and ORB, demonstrate robustness under moderate intra-modality variations but struggle with significant modality gaps. Contemporary deep learning-based methods, exemplified by detector-free strategies like CNN-based SuperPoint and transformer-based LoFTR, substantially improve robustness and adaptability across modalities. We highlight modality-aware advancements, such as geometric and depth-specific descriptors for depth images, sparse and dense learning methods for 3D point clouds, attention-enhanced neural networks for LiDAR scans, and specialized solutions like the MIND descriptor for complex medical image matching. Cross-modal applications, particularly in medical image registration and vision-language tasks, underscore the evolution of feature matching to handle increasingly diverse data interactions.",
+ "primary": "cs.CV"
+}

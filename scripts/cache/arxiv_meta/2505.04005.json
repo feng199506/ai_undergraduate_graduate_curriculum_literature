@@ -1,0 +1,15 @@
+{
+ "id": "2505.04005",
+ "title": "Iterative Orthogonalization Scaling Laws",
+ "authors": [
+  "Devan Selvaraj"
+ ],
+ "v1_date": "2025-05-06",
+ "latest_version": 2,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The muon optimizer has picked up much attention as of late as a possible replacement to the seemingly omnipresent Adam optimizer. Recently, care has been taken to document the scaling laws of hyper-parameters under muon such as weight decay and learning rate. However, at much larger scales the iterative orthogonalization procedure present in muon may suffer a possible issue as the singular values of random matrices shrink with scale. This paper shows this scaling behavior theoretically and empirically on random matrices but does not suggest what to do about it.",
+ "primary": "cs.LG"
+}

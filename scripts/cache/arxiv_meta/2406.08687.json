@@ -1,0 +1,16 @@
+{
+ "id": "2406.08687",
+ "title": "AlphaZeroES: Direct score maximization outperforms planning loss minimization",
+ "authors": [
+  "Carlos Martin",
+  "Tuomas Sandholm"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 1,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2308.08693",
+ "abstract": "Planning at execution time has been shown to dramatically improve performance for agents in both single-agent and multi-agent settings. A well-known family of approaches to planning at execution time are AlphaZero and its variants, which use Monte Carlo Tree Search together with a neural network that guides the search by predicting state values and action probabilities. AlphaZero trains these networks by minimizing a planning loss that makes the value prediction match the episode return, and the policy prediction at the root of the search tree match the output of the full tree expansion. AlphaZero has been applied to both single-agent environments (such as Sokoban) and multi-agent environments (such as chess and Go) with great success. In this paper, we explore an intriguing question: In single-agent environments, can we outperform AlphaZero by directly maximizing the episode score instead of minimizing this planning loss, while leaving the MCTS algorithm and neural architecture unchanged? To directly maximize the episode score, we use evolution strategies, a family of algorithms for zeroth-order blackbox optimization. Our experiments indicate that, across multiple environments, directly maximizing the episode score outperforms minimizing the planning loss.",
+ "primary": "cs.AI"
+}

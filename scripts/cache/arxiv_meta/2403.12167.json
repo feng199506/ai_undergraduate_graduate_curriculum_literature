@@ -1,0 +1,21 @@
+{
+ "id": "2403.12167",
+ "title": "A Systematic Review of Generalization Research in Medical Image Classification",
+ "authors": [
+  "Sarah Matta",
+  "Mathieu Lamard",
+  "Philippe Zhang",
+  "Alexandre Le Guilcher",
+  "Laurent Borderie",
+  "Béatrice Cochener",
+  "Gwenolé Quellec"
+ ],
+ "v1_date": "2024-03-18",
+ "latest_version": 3,
+ "latest_date": "2024-09-17",
+ "journal_ref": "",
+ "doi": "10.1016/j.compbiomed.2024.109256",
+ "comment": "",
+ "abstract": "Numerous Deep Learning (DL) classification models have been developed for a large spectrum of medical image analysis applications, which promises to reshape various facets of medical practice. Despite early advances in DL model validation and implementation, which encourage healthcare institutions to adopt them, a fundamental questions remain: how can these models effectively handle domain shift? This question is crucial to limit DL models performance degradation. Medical data are dynamic and prone to domain shift, due to multiple factors. Two main shift types can occur over time: 1) covariate shift mainly arising due to updates to medical equipment and 2) concept shift caused by inter-grader variability. To mitigate the problem of domain shift, existing surveys mainly focus on domain adaptation techniques, with an emphasis on covariate shift. More generally, no work has reviewed the state-of-the-art solutions while focusing on the shift types. This paper aims to explore existing domain generalization methods for DL-based classification models through a systematic review of literature. It proposes a taxonomy based on the shift type they aim to solve. Papers were searched and gathered on Scopus till 10 April 2023, and after the eligibility screening and quality evaluation, 77 articles were identified. Exclusion criteria included: lack of methodological novelty (e.g., reviews, benchmarks), experiments conducted on a single mono-center dataset, or articles not written in English. The results of this paper show that learning based methods are emerging, for both shift types. Finally, we discuss future challenges, including the need for improved evaluation protocols and benchmarks, and envisioned future developments to achieve robust, generalized models for medical image classification.",
+ "primary": "eess.IV"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2512.06874",
+ "title": "An Analysis of Large Language Models for Simulating User Responses in Surveys",
+ "authors": [
+  "Ziyun Yu",
+  "Yiru Zhou",
+  "Chen Zhao",
+  "Hongyi Wen"
+ ],
+ "v1_date": "2025-12-07",
+ "latest_version": 1,
+ "latest_date": "2025-12-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to IJCNLP-AACL 2025 (Main Conference)",
+ "abstract": "Using Large Language Models (LLMs) to simulate user opinions has received growing attention. Yet LLMs, especially trained with reinforcement learning from human feedback (RLHF), are known to exhibit biases toward dominant viewpoints, raising concerns about their ability to represent users from diverse demographic and cultural backgrounds. In this work, we examine the extent to which LLMs can simulate human responses to cross-domain survey questions through direct prompting and chain-of-thought prompting. We further propose a claim diversification method CLAIMSIM, which elicits viewpoints from LLM parametric knowledge as contextual input. Experiments on the survey question answering task indicate that, while CLAIMSIM produces more diverse responses, both approaches struggle to accurately simulate users. Further analysis reveals two key limitations: (1) LLMs tend to maintain fixed viewpoints across varying demographic features, and generate single-perspective claims; and (2) when presented with conflicting claims, LLMs struggle to reason over nuanced differences among demographic features, limiting their ability to adapt responses to specific user profiles.",
+ "primary": "cs.CL"
+}

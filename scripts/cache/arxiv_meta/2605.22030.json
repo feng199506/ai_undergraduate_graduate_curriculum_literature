@@ -1,0 +1,16 @@
+{
+ "id": "2605.22030",
+ "title": "Eigen for Statistical and Machine Learning Computing: A Lightweight C++ Tutorial with Python Bindings",
+ "authors": [
+  "Seyoung Lee",
+  "Kwan-Young Bak"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This note provides a lightweight tutorial on using Eigen, a C++ template library for linear algebra, to implement statistical and machine learning algorithms. The emphasis is practical rather than methodological: we show how common matrix operations, decomposition-based solvers, and vectorized updates can be written in readable C++ and then connected to Python through pybind11. Two examples are used throughout the tutorial: kernel ridge regression and matrix factorization with stochastic gradient descent. The examples are intentionally small enough to be studied as code, but they contain many operations that appear in larger research software projects, including kernel matrix construction, regularized linear system solving, row-wise updates, and NumPy--Eigen data conversion. The goal is to provide a reproducible starting point for researchers who want to move from mathematical formulas to efficient C++ implementations while retaining a convenient Python workflow.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2402.11903",
+ "title": "DiLA: Enhancing LLM Tool Learning with Differential Logic Layer",
+ "authors": [
+  "Yu Zhang",
+  "Hui-Ling Zhen",
+  "Zehua Pei",
+  "Yingzhao Lian",
+  "Lihao Yin",
+  "Mingxuan Yuan",
+  "Bei Yu"
+ ],
+ "v1_date": "2024-02-19",
+ "latest_version": 4,
+ "latest_date": "2025-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2305.12295 by other authors",
+ "abstract": "Considering the challenges faced by large language models (LLMs) in logical reasoning and planning, prior efforts have sought to augment LLMs with access to external solvers. While progress has been made on simple reasoning problems, solving classical constraint satisfaction problems, such as the Boolean Satisfiability Problem (SAT) and Graph Coloring Problem (GCP), remains difficult for off-the-shelf solvers due to their intricate expressions and exponential search spaces. In this paper, we propose a novel differential logic layer-aided language modeling (DiLA) approach, where logical constraints are integrated into the forward and backward passes of a network layer, to provide another option for LLM tool learning. In DiLA, LLM aims to transform the language description to logic constraints and identify initial solutions of the highest quality, while the differential logic layer focuses on iteratively refining the LLM-prompted solution. Leveraging the logic layer as a bridge, DiLA enhances the logical reasoning ability of LLMs on a range of reasoning problems encoded by Boolean variables, guaranteeing the efficiency and correctness of the solution process. We evaluate the performance of DiLA on two classic reasoning problems and empirically demonstrate its consistent outperformance against existing prompt-based and solver-aided approaches.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2404.10693",
+ "title": "A hybrid Quantum-Classical Algorithm for Mixed-Integer Optimization in Power Systems",
+ "authors": [
+  "Petros Ellinas",
+  "Samuel Chevalier",
+  "Spyros Chatzivasileiadis"
+ ],
+ "v1_date": "2024-04-16",
+ "latest_version": 1,
+ "latest_date": "2024-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixed Integer Linear Programming (MILP) can be considered the backbone of the modern power system optimization process, with a large application spectrum, from Unit Commitment and Optimal Transmission Switching to verifying Neural Networks for power system applications. The main issue of these formulations is the computational complexity of the solution algorithms, as they are considered NP-Hard problems. Quantum computing has been tested as a potential solution towards reducing the computational burden imposed by these problems, providing promising results, motivating the can be used to speedup the solution of MILPs. In this work, we present a general framework for solving power system optimization problems with a Quantum Computer (QC), which leverages mathematical tools and QCs' sampling ability to provide accelerated solutions. Our guiding applications are the optimal transmission switching and the verification of neural networks trained to solve a DC Optimal Power Flow. Specifically, using an accelerated version of Benders Decomposition , we split a given MILP into an Integer Master Problem and a linear Subproblem and solve it through a hybrid ``quantum-classical'' approach, getting the best of both worlds. We provide 2 use cases, and benchmark the developed framework against other classical and hybrid methodologies, to demonstrate the opportunities and challenges of hybrid quantum-classical algorithms for power system mixed integer optimization problems.",
+ "primary": "quant-ph"
+}

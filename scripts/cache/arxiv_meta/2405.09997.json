@@ -1,0 +1,18 @@
+{
+ "id": "2405.09997",
+ "title": "Generative Design through Quality-Diversity Data Synthesis and Language Models",
+ "authors": [
+  "Adam Gaier",
+  "James Stoddart",
+  "Lorenzo Villaggi",
+  "Shyam Sudhakaran"
+ ],
+ "v1_date": "2024-05-16",
+ "latest_version": 1,
+ "latest_date": "2024-05-16",
+ "journal_ref": "",
+ "doi": "10.1145/3638529.3654138",
+ "comment": "8 pages, 8 figures, GECCO 2024",
+ "abstract": "Two fundamental challenges face generative models in engineering applications: the acquisition of high-performing, diverse datasets, and the adherence to precise constraints in generated designs. We propose a novel approach combining optimization, constraint satisfaction, and language models to tackle these challenges in architectural design. Our method uses Quality-Diversity (QD) to generate a diverse, high-performing dataset. We then fine-tune a language model with this dataset to generate high-level designs. These designs are then refined into detailed, constraint-compliant layouts using the Wave Function Collapse algorithm. Our system demonstrates reliable adherence to textual guidance, enabling the generation of layouts with targeted architectural and performance features. Crucially, our results indicate that data synthesized through the evolutionary search of QD not only improves overall model performance but is essential for the model's ability to closely adhere to textual guidance. This improvement underscores the pivotal role evolutionary computation can play in creating the datasets key to training generative models for design. Web article at https://tilegpt.github.io",
+ "primary": "cs.NE"
+}

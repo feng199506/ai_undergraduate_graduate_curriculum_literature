@@ -1,0 +1,17 @@
+{
+ "id": "2312.14824",
+ "title": "An investigation of belief-free DRL and MCTS for inspection and maintenance planning",
+ "authors": [
+  "Daniel Koutas",
+  "Elizabeth Bismut",
+  "Daniel Straub"
+ ],
+ "v1_date": "2023-12-22",
+ "latest_version": 1,
+ "latest_date": "2023-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel Deep Reinforcement Learning (DRL) architecture for sequential decision processes under uncertainty, as encountered in inspection and maintenance (I&M) planning. Unlike other DRL algorithms for (I&M) planning, the proposed +RQN architecture dispenses with computing the belief state and directly handles erroneous observations instead. We apply the algorithm to a basic I&M planning problem for a one-component system subject to deterioration. In addition, we investigate the performance of Monte Carlo tree search for the I&M problem and compare it to the +RQN. The comparison includes a statistical analysis of the two methods' resulting policies, as well as their visualization in the belief space.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2501.04982",
+ "title": "CuRLA: Curriculum Learning Based Deep Reinforcement Learning for Autonomous Driving",
+ "authors": [
+  "Bhargava Uppuluri",
+  "Anjel Patel",
+  "Neil Mehta",
+  "Sridhar Kamath",
+  "Pratyush Chakraborty"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 1,
+ "latest_date": "2025-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To be published in the 17th International Conference on Agents and Artificial Intelligence (ICAART), Feb 2025",
+ "abstract": "In autonomous driving, traditional Computer Vision (CV) agents often struggle in unfamiliar situations due to biases in the training data. Deep Reinforcement Learning (DRL) agents address this by learning from experience and maximizing rewards, which helps them adapt to dynamic environments. However, ensuring their generalization remains challenging, especially with static training environments. Additionally, DRL models lack transparency, making it difficult to guarantee safety in all scenarios, particularly those not seen during training. To tackle these issues, we propose a method that combines DRL with Curriculum Learning for autonomous driving. Our approach uses a Proximal Policy Optimization (PPO) agent and a Variational Autoencoder (VAE) to learn safe driving in the CARLA simulator. The agent is trained using two-fold curriculum learning, progressively increasing environment difficulty and incorporating a collision penalty in the reward function to promote safety. This method improves the agent's adaptability and reliability in complex environments, and understand the nuances of balancing multiple reward components from different feedback signals in a single scalar reward function. Keywords: Computer Vision, Deep Reinforcement Learning, Variational Autoencoder, Proximal Policy Optimization, Curriculum Learning, Autonomous Driving.",
+ "primary": "cs.RO"
+}

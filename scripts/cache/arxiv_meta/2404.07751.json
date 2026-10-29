@@ -1,0 +1,18 @@
+{
+ "id": "2404.07751",
+ "title": "Generating consistent PDDL domains with Large Language Models",
+ "authors": [
+  "Pavel Smirnov",
+  "Frank Joublin",
+  "Antonello Ceravola",
+  "Michael Gienger"
+ ],
+ "v1_date": "2024-04-11",
+ "latest_version": 1,
+ "latest_date": "2024-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) are capable of transforming natural language domain descriptions into plausibly looking PDDL markup. However, ensuring that actions are consistent within domains still remains a challenging task. In this paper we present a novel concept to significantly improve the quality of LLM-generated PDDL models by performing automated consistency checking during the generation process. Although the proposed consistency checking strategies still can't guarantee absolute correctness of generated models, they can serve as valuable source of feedback reducing the amount of correction efforts expected from a human in the loop. We demonstrate the capabilities of our error detection approach on a number of classical and custom planning domains (logistics, gripper, tyreworld, household, pizza).",
+ "primary": "cs.RO"
+}

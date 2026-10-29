@@ -1,0 +1,20 @@
+{
+ "id": "2504.10415",
+ "title": "LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models",
+ "authors": [
+  "Parshin Shojaee",
+  "Ngoc-Hieu Nguyen",
+  "Kazem Meidani",
+  "Amir Barati Farimani",
+  "Khoa D Doan",
+  "Chandan K Reddy"
+ ],
+ "v1_date": "2025-04-14",
+ "latest_version": 2,
+ "latest_date": "2025-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2025 Oral. Project page: https://github.com/deep-symbolic-mathematics/llm-srbench , Benchmark page: https://huggingface.co/datasets/nnheui/llm-srbench",
+ "abstract": "Scientific equation discovery is a fundamental task in the history of scientific progress, enabling the derivation of laws governing natural phenomena. Recently, Large Language Models (LLMs) have gained interest for this task due to their potential to leverage embedded scientific knowledge for hypothesis generation. However, evaluating the true discovery capabilities of these methods remains challenging, as existing benchmarks often rely on common equations that are susceptible to memorization by LLMs, leading to inflated performance metrics that do not reflect discovery. In this paper, we introduce LLM-SRBench, a comprehensive benchmark with 239 challenging problems across four scientific domains specifically designed to evaluate LLM-based scientific equation discovery methods while preventing trivial memorization. Our benchmark comprises two main categories: LSR-Transform, which transforms common physical models into less common mathematical representations to test reasoning beyond memorized forms, and LSR-Synth, which introduces synthetic, discovery-driven problems requiring data-driven reasoning. Through extensive evaluation of several state-of-the-art methods, using both open and closed LLMs, we find that the best-performing system so far achieves only 31.5% symbolic accuracy. These findings highlight the challenges of scientific equation discovery, positioning LLM-SRBench as a valuable resource for future research.",
+ "primary": "cs.CL"
+}

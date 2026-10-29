@@ -1,0 +1,23 @@
+{
+ "id": "2601.08003",
+ "title": "LLM Review: Enhancing Creative Writing via Blind Peer Review Feedback",
+ "authors": [
+  "Weiyue Li",
+  "Mingxiao Song",
+  "Zhenda Shen",
+  "Dachuan Zhao",
+  "Yunfan Long",
+  "Yi Li",
+  "Yongce Li",
+  "Ruyi Yang",
+  "Mengyu Wang"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 1,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) often struggle with creative generation, and multi-agent frameworks that improve reasoning through interaction can paradoxically hinder creativity by inducing content homogenization. We introduce LLM Review, a peer-review-inspired framework implementing Blind Peer Review: agents exchange targeted feedback while revising independently, preserving divergent creative trajectories. To enable rigorous evaluation, we propose SciFi-100, a science fiction writing dataset with a unified framework combining LLM-as-a-judge scoring, human annotation, and rule-based novelty metrics. Experiments demonstrate that LLM Review consistently outperforms multi-agent baselines, and smaller models with our framework can surpass larger single-agent models, suggesting interaction structure may substitute for model scale.",
+ "primary": "cs.CL"
+}

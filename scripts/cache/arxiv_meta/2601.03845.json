@@ -1,0 +1,17 @@
+{
+ "id": "2601.03845",
+ "title": "Formally Explaining Decision Tree Models with Answer Set Programming",
+ "authors": [
+  "Akihiro Takemura",
+  "Masayuki Otani",
+  "Katsumi Inoue"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 1,
+ "latest_date": "2026-01-07",
+ "journal_ref": "EPTCS 439, 2026, pp. 420-437",
+ "doi": "10.4204/eptcs.439.29",
+ "comment": "In Proceedings ICLP 2025, arXiv:2601.00047",
+ "abstract": "Decision tree models, including random forests and gradient-boosted decision trees, are widely used in machine learning due to their high predictive performance. However, their complex structures often make them difficult to interpret, especially in safety-critical applications where model decisions require formal justification. Recent work has demonstrated that logical and abductive explanations can be derived through automated reasoning techniques. In this paper, we propose a method for generating various types of explanations, namely, sufficient, contrastive, majority, and tree-specific explanations, using Answer Set Programming (ASP). Compared to SAT-based approaches, our ASP-based method offers greater flexibility in encoding user preferences and supports enumeration of all possible explanations. We empirically evaluate the approach on a diverse set of datasets and demonstrate its effectiveness and limitations compared to existing methods.",
+ "primary": "cs.AI"
+}

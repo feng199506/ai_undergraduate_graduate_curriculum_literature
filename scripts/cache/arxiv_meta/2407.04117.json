@@ -1,0 +1,17 @@
+{
+ "id": "2407.04117",
+ "title": "Predictive Coding Networks and Inference Learning: Tutorial and Survey",
+ "authors": [
+  "Björn van Zwol",
+  "Ro Jefferson",
+  "Egon L. van den Broek"
+ ],
+ "v1_date": "2024-07-04",
+ "latest_version": 3,
+ "latest_date": "2026-03-06",
+ "journal_ref": "",
+ "doi": "10.1145/3797870",
+ "comment": "47 pages, 11 figures, 9 tables",
+ "abstract": "Recent years have witnessed a growing call for renewed emphasis on neuroscience-inspired approaches in artificial intelligence research, under the banner of NeuroAI. A prime example of this is predictive coding networks (PCNs), based on the neuroscientific framework of predictive coding. This framework views the brain as a hierarchical Bayesian inference model that minimizes prediction errors through feedback connections. Unlike traditional neural networks trained with backpropagation (BP), PCNs utilize inference learning (IL), a more biologically plausible algorithm that explains patterns of neural activity that BP cannot. Historically, IL has been more computationally intensive, but recent advancements have demonstrated that it can achieve higher efficiency than BP with sufficient parallelization. Furthermore, PCNs can be mathematically considered a superset of traditional feedforward neural networks (FNNs), significantly extending the range of trainable architectures. As inherently probabilistic (graphical) latent variable models, PCNs provide a versatile framework for both supervised learning and unsupervised (generative) modeling that goes beyond traditional artificial neural networks. This work provides a comprehensive review and detailed formal specification of PCNs, particularly situating them within the context of modern ML methods. This positions PC as a promising framework for future ML innovations.",
+ "primary": "cs.LG"
+}

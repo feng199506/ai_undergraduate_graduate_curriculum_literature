@@ -1,0 +1,17 @@
+{
+ "id": "2602.05619",
+ "title": "Mode-Dependent Rectification for Stable PPO Training",
+ "authors": [
+  "Mohamad Mohamad",
+  "Francesco Ponzio",
+  "Xavier Descombes"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 2,
+ "latest_date": "2026-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mode-dependent architectural components (layers that behave differently during training and evaluation, such as Batch Normalization or dropout) are commonly used in visual reinforcement learning but can destabilize on-policy optimization. We show that in Proximal Policy Optimization (PPO), discrepancies between training and evaluation behavior induced by Batch Normalization lead to policy mismatch, distributional drift, and reward collapse. We propose Mode-Dependent Rectification (MDR), a lightweight dual-phase training procedure that stabilizes PPO under mode-dependent layers without architectural changes. Experiments across procedurally generated games and real-world patch-localization tasks demonstrate that MDR consistently improves stability and performance, and extends naturally to other mode-dependent layers.",
+ "primary": "cs.LG"
+}

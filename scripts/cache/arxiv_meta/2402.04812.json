@@ -1,0 +1,17 @@
+{
+ "id": "2402.04812",
+ "title": "Aspect-Based Sentiment Analysis for Open-Ended HR Survey Responses",
+ "authors": [
+  "Lois Rink",
+  "Job Meijdam",
+  "David Graus"
+ ],
+ "v1_date": "2024-02-07",
+ "latest_version": 1,
+ "latest_date": "2024-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NLP4HR Workshop at EACL2024",
+ "abstract": "Understanding preferences, opinions, and sentiment of the workforce is paramount for effective employee lifecycle management. Open-ended survey responses serve as a valuable source of information. This paper proposes a machine learning approach for aspect-based sentiment analysis (ABSA) of Dutch open-ended responses in employee satisfaction surveys. Our approach aims to overcome the inherent noise and variability in these responses, enabling a comprehensive analysis of sentiments that can support employee lifecycle management. Through response clustering we identify six key aspects (salary, schedule, contact, communication, personal attention, agreements), which we validate by domain experts. We compile a dataset of 1,458 Dutch survey responses, revealing label imbalance in aspects and sentiments. We propose few-shot approaches for ABSA based on Dutch BERT models, and compare them against bag-of-words and zero-shot baselines. Our work significantly contributes to the field of ABSA by demonstrating the first successful application of Dutch pre-trained language models to aspect-based sentiment analysis in the domain of human resources (HR).",
+ "primary": "cs.CL"
+}

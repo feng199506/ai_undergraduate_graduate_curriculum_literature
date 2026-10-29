@@ -1,0 +1,15 @@
+{
+ "id": "2409.09558",
+ "title": "A Statistical Viewpoint on Differential Privacy: Hypothesis Testing, Representation and Blackwell's Theorem",
+ "authors": [
+  "Weijie J. Su"
+ ],
+ "v1_date": "2024-09-14",
+ "latest_version": 2,
+ "latest_date": "2024-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in Annual Review of Statistics and Its Application",
+ "abstract": "Differential privacy is widely considered the formal privacy for privacy-preserving data analysis due to its robust and rigorous guarantees, with increasingly broad adoption in public services, academia, and industry. Despite originating in the cryptographic context, in this review paper we argue that, fundamentally, differential privacy can be considered a \\textit{pure} statistical concept. By leveraging David Blackwell's informativeness theorem, our focus is to demonstrate based on prior work that all definitions of differential privacy can be formally motivated from a hypothesis testing perspective, thereby showing that hypothesis testing is not merely convenient but also the right language for reasoning about differential privacy. This insight leads to the definition of $f$-differential privacy, which extends other differential privacy definitions through a representation theorem. We review techniques that render $f$-differential privacy a unified framework for analyzing privacy bounds in data analysis and machine learning. Applications of this differential privacy definition to private deep learning, private convex optimization, shuffled mechanisms, and U.S.\\ Census data are discussed to highlight the benefits of analyzing privacy bounds under this framework compared to existing alternatives.",
+ "primary": "math.ST"
+}

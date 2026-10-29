@@ -1,0 +1,21 @@
+{
+ "id": "2412.08012",
+ "title": "Of Dice and Games: A Theory of Generalized Boosting",
+ "authors": [
+  "Marco Bressan",
+  "Nataly Brukhim",
+  "Nicolò Cesa-Bianchi",
+  "Emmanuel Esposito",
+  "Yishay Mansour",
+  "Shay Moran",
+  "Maximilian Thiessen"
+ ],
+ "v1_date": "2024-12-11",
+ "latest_version": 1,
+ "latest_date": "2024-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cost-sensitive loss functions are crucial in many real-world prediction problems, where different types of errors are penalized differently; for example, in medical diagnosis, a false negative prediction can lead to worse consequences than a false positive prediction. However, traditional PAC learning theory has mostly focused on the symmetric 0-1 loss, leaving cost-sensitive losses largely unaddressed. In this work, we extend the celebrated theory of boosting to incorporate both cost-sensitive and multi-objective losses. Cost-sensitive losses assign costs to the entries of a confusion matrix, and are used to control the sum of prediction errors accounting for the cost of each error type. Multi-objective losses, on the other hand, simultaneously track multiple cost-sensitive losses, and are useful when the goal is to satisfy several criteria at once (e.g., minimizing false positives while keeping false negatives below a critical threshold). We develop a comprehensive theory of cost-sensitive and multi-objective boosting, providing a taxonomy of weak learning guarantees that distinguishes which guarantees are trivial (i.e., can always be achieved), which ones are boostable (i.e., imply strong learning), and which ones are intermediate, implying non-trivial yet not arbitrarily accurate learning. For binary classification, we establish a dichotomy: a weak learning guarantee is either trivial or boostable. In the multiclass setting, we describe a more intricate landscape of intermediate weak learning guarantees. Our characterization relies on a geometric interpretation of boosting, revealing a surprising equivalence between cost-sensitive and multi-objective losses.",
+ "primary": "cs.LG"
+}

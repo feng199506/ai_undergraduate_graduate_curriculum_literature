@@ -1,0 +1,20 @@
+{
+ "id": "2407.13917",
+ "title": "LinSATNet: The Positive Linear Satisfiability Neural Networks",
+ "authors": [
+  "Runzhong Wang",
+  "Yunhao Zhang",
+  "Ziao Guo",
+  "Tianyi Chen",
+  "Xiaokang Yang",
+  "Junchi Yan"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 1,
+ "latest_date": "2024-07-18",
+ "journal_ref": "",
+ "doi": "10.5555/3618408.3619931",
+ "comment": "This is a revised version of our ICML'23 publication that fixes a minor issue in Eq (11). In Proceedings of the 40th International Conference on Machine Learning (ICML'23)",
+ "abstract": "Encoding constraints into neural networks is attractive. This paper studies how to introduce the popular positive linear satisfiability to neural networks. We propose the first differentiable satisfiability layer based on an extension of the classic Sinkhorn algorithm for jointly encoding multiple sets of marginal distributions. We further theoretically characterize the convergence property of the Sinkhorn algorithm for multiple marginals. In contrast to the sequential decision e.g.\\ reinforcement learning-based solvers, we showcase our technique in solving constrained (specifically satisfiability) problems by one-shot neural networks, including i) a neural routing solver learned without supervision of optimal solutions; ii) a partial graph matching network handling graphs with unmatchable outliers on both sides; iii) a predictive network for financial portfolios with continuous constraints. To our knowledge, there exists no one-shot neural solver for these scenarios when they are formulated as satisfiability problems. Source code is available at https://github.com/Thinklab-SJTU/LinSATNet",
+ "primary": "cs.AI"
+}

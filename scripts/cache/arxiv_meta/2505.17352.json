@@ -1,0 +1,18 @@
+{
+ "id": "2505.17352",
+ "title": "Alignment and Safety of Diffusion Models via Reinforcement Learning and Reward Modeling: A Survey",
+ "authors": [
+  "Preeti Lamba",
+  "Kiran Ravish",
+  "Ankita Kushwaha",
+  "Pawan Kumar"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 2,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "3 figures, 1 table",
+ "abstract": "Diffusion models have become a central paradigm for image and multimodal generation, yet their deployment raises persistent questions about alignment, safety, preference satisfaction, and robustness to misuse. This survey reviews recent progress on aligning text-to-image diffusion models through reinforcement learning, reward modeling, preference optimization, and safety-specific fine-tuning. We organize the literature along five axes: the source of feedback, the form of the reward or preference signal, the optimization mechanism, the treatment of distribution shift and reward overoptimization, and the extent to which safety is addressed as an explicit constraint rather than a generic preference. The review covers reinforcement learning from human feedback, KL-regularized policy optimization, direct preference optimization, binary utility optimization, differentiable reward fine-tuning, surrogate reward learning, region-aware fine-tuning, and safety-oriented DPO variants. To make the survey accessible, we include tutorial explanations of diffusion sampling, reward modeling, and preference optimization, and briefly connect image diffusion alignment to emerging text and masked language diffusion models. We also compare representative methods in terms of feedback requirements, computational cost, scalability, susceptibility to reward hacking, and suitability for safety-critical deployment. Finally, we synthesize the literature into a set of open challenges: multi-objective alignment, feedback-efficient preference learning, adversarially robust safety alignment, continual alignment under changing norms, and interpretable reward modeling. The goal of this survey is to provide a coherent technical map of the emerging area of diffusion model alignment and to identify the methodological gaps that must be addressed before aligned generative models can be reliably deployed.",
+ "primary": "cs.CV"
+}

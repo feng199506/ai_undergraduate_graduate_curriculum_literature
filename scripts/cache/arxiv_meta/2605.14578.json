@@ -1,0 +1,17 @@
+{
+ "id": "2605.14578",
+ "title": "Woodelf++: A Fast and Unified Partial Dependence Plot Algorithm for Decision Tree Ensembles",
+ "authors": [
+  "Ron Wettenstein",
+  "Alexander Nadel",
+  "Udi Boker"
+ ],
+ "v1_date": "2026-05-14",
+ "latest_version": 1,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended version of the paper to appear at IJCAI 2026",
+ "abstract": "Partial Dependence Plots (PDPs) visualize how changes in a single feature affect the average model prediction. They are widely used in practice to interpret decision tree ensembles and other machine learning models. Joint-PDPs extend this idea to pairs of features, revealing their combined effect. Partial Dependence Interaction Values (PDIVs) measure feature interactions. The Any-Order-PDIVs task computes these interactions for every feature subset across all rows of the dataset. We introduce Woodelf++, a unified and efficient approach for computing all these useful explainability tools on decision tree ensembles, building on Woodelf, an algorithm for efficient SHAP computation. By deriving suitable metrics over pseudo-Boolean functions, Woodelf++ can compute PDPs (exact and approximate), Joint-PDPs, and Any-Order-PDIVs in a unified framework. Our method delivers substantial complexity improvements over the state of the art, including an exponential gain for Any-Order-PDIVs. Additionally, we introduce and efficiently compute Full PDPs, which leverage the model's split thresholds to faithfully capture its behavior across all possible feature values. Woodelf++ is implemented in pure Python and supports GPU acceleration. On a dataset with 400,000 rows, Woodelf++ computes PDP and Joint-PDP up to 6x faster than the state of the art and up to five orders of magnitude faster than scikit-learn. For Any-Order-PDIVs, the gap is even larger: Woodelf++ computes all interaction values in 5 minutes, while the state of the art is estimated to require over 1,000,000 years.",
+ "primary": "cs.LG"
+}

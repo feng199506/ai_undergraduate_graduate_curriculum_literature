@@ -1,0 +1,17 @@
+{
+ "id": "2404.17687",
+ "title": "Knowledge Transfer for Cross-Domain Reinforcement Learning: A Systematic Review",
+ "authors": [
+  "Sergio A. Serrano",
+  "Jose Martinez-Carranza",
+  "L. Enrique Sucar"
+ ],
+ "v1_date": "2024-04-26",
+ "latest_version": 2,
+ "latest_date": "2024-11-20",
+ "journal_ref": "IEEE Access, Volume 12, 2024, Pages 114552-114572",
+ "doi": "10.1109/access.2024.3435558",
+ "comment": "",
+ "abstract": "Reinforcement Learning (RL) provides a framework in which agents can be trained, via trial and error, to solve complex decision-making problems. Learning with little supervision causes RL methods to require large amounts of data, rendering them too expensive for many applications (e.g., robotics). By reusing knowledge from a different task, knowledge transfer methods present an alternative to reduce the training time in RL. Given the severe data scarcity, due to their flexibility, there has been a growing interest in methods capable of transferring knowledge across different domains (i.e., problems with different representations). However, identifying similarities and adapting knowledge across tasks from different domains requires matching their representations or finding domain-invariant features. These processes can be data-demanding, which poses the main challenge in cross-domain knowledge transfer: to select and transform knowledge in a data-efficient way, such that it accelerates learning in the target task, despite the presence of significant differences across problems (e.g., robots with distinct morphologies). Thus, this review presents a unifying analysis of methods focused on transferring knowledge across different domains. Through a taxonomy based on a transfer-approach categorization and a characterization of works based on their data-assumption requirements, the contributions of this article are 1) a comprehensive and systematic revision of knowledge transfer methods for the cross-domain RL setting, 2) a categorization and characterization of such methods to provide an analysis based on relevant features such as their transfer approach and data requirements, and 3) a discussion on the main challenges regarding cross-domain knowledge transfer, as well as on ideas of future directions worth exploring to address these problems.",
+ "primary": "cs.LG"
+}

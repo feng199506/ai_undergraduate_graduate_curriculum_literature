@@ -1,0 +1,16 @@
+{
+ "id": "2507.14487",
+ "title": "Federated Reinforcement Learning in Heterogeneous Environments",
+ "authors": [
+  "Ukjo Hwang",
+  "Songnam Hong"
+ ],
+ "v1_date": "2025-07-19",
+ "latest_version": 1,
+ "latest_date": "2025-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate a Federated Reinforcement Learning with Environment Heterogeneity (FRL-EH) framework, where local environments exhibit statistical heterogeneity. Within this framework, agents collaboratively learn a global policy by aggregating their collective experiences while preserving the privacy of their local trajectories. To better reflect real-world scenarios, we introduce a robust FRL-EH framework by presenting a novel global objective function. This function is specifically designed to optimize a global policy that ensures robust performance across heterogeneous local environments and their plausible perturbations. We propose a tabular FRL algorithm named FedRQ and theoretically prove its asymptotic convergence to an optimal policy for the global objective function. Furthermore, we extend FedRQ to environments with continuous state space through the use of expectile loss, addressing the key challenge of minimizing a value function over a continuous subset of the state space. This advancement facilitates the seamless integration of the principles of FedRQ with various Deep Neural Network (DNN)-based RL algorithms. Extensive empirical evaluations validate the effectiveness and robustness of our FRL algorithms across diverse heterogeneous environments, consistently achieving superior performance over the existing state-of-the-art FRL algorithms.",
+ "primary": "cs.LG"
+}

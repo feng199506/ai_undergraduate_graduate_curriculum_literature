@@ -1,0 +1,18 @@
+{
+ "id": "2407.13734",
+ "title": "Understanding Reinforcement Learning-Based Fine-Tuning of Diffusion Models: A Tutorial and Review",
+ "authors": [
+  "Masatoshi Uehara",
+  "Yulai Zhao",
+  "Tommaso Biancalani",
+  "Sergey Levine"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 1,
+ "latest_date": "2024-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "We plan to add more content/codes. Please let us know if there are any comments",
+ "abstract": "This tutorial provides a comprehensive survey of methods for fine-tuning diffusion models to optimize downstream reward functions. While diffusion models are widely known to provide excellent generative modeling capability, practical applications in domains such as biology require generating samples that maximize some desired metric (e.g., translation efficiency in RNA, docking score in molecules, stability in protein). In these cases, the diffusion model can be optimized not only to generate realistic samples but also to explicitly maximize the measure of interest. Such methods are based on concepts from reinforcement learning (RL). We explain the application of various RL algorithms, including PPO, differentiable optimization, reward-weighted MLE, value-weighted sampling, and path consistency learning, tailored specifically for fine-tuning diffusion models. We aim to explore fundamental aspects such as the strengths and limitations of different RL-based fine-tuning algorithms across various scenarios, the benefits of RL-based fine-tuning compared to non-RL-based approaches, and the formal objectives of RL-based fine-tuning (target distributions). Additionally, we aim to examine their connections with related topics such as classifier guidance, Gflownets, flow-based diffusion models, path integral control theory, and sampling from unnormalized distributions such as MCMC. The code of this tutorial is available at https://github.com/masa-ue/RLfinetuning_Diffusion_Bioseq",
+ "primary": "cs.LG"
+}

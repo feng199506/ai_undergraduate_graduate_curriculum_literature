@@ -1,0 +1,17 @@
+{
+ "id": "2605.01797",
+ "title": "Neural Decision-Propagation for Answer Set Programming",
+ "authors": [
+  "Thomas Eiter",
+  "Katsumi Inoue",
+  "Sota Moriyama"
+ ],
+ "v1_date": "2026-05-03",
+ "latest_version": 2,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is the full version (with appendix) of a paper appearing at the 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026)",
+ "abstract": "Integration of Answer Set Programming (ASP) with neural networks has emerged as a promising tool in Neuro-symbolic AI. While existing approaches extend the capabilities of ASP to real world domains, their reasoning pipelines depend on classical solvers, which is a bottleneck for scalability. To tackle this problem, we propose a new method to compute stable models, called decision-propagation (DProp), which alternates falsity decisions and truth propagations. Successful DProp computations are shown to capture the stable model semantics. We then develop Neural DProp (NDProp), a differentiable extension of DProp with neural computation for decisions and fuzzy evaluation for propagations. We evaluate the capabilities of NDProp for learning decision heuristics as well as neuro-symbolic integration, and compare it with existing neuro-symbolic approaches. The results show that NDProp can learn to efficiently compute stable models, and it improves accuracy and scalability on neuro-symbolic benchmarks.",
+ "primary": "cs.AI"
+}

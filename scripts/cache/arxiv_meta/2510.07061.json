@@ -1,0 +1,18 @@
+{
+ "id": "2510.07061",
+ "title": "Revisiting Metric Reliability for Fine-grained Evaluation of Machine Translation and Summarization in Indian Languages",
+ "authors": [
+  "Amir Hossein Yari",
+  "Kalmit Kulkarni",
+  "Ahmad Raza Khan",
+  "Fajri Koto"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 2,
+ "latest_date": "2026-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 14 figures",
+ "abstract": "While automatic metrics drive progress in Machine Translation (MT) and Text Summarization (TS), existing metrics have been developed and validated almost exclusively for English and other high-resource languages. This narrow focus leaves Indian languages, spoken by over 1.5 billion people, largely overlooked, casting doubt on the universality of current evaluation practices. To address this gap, we introduce ITEM, a large-scale benchmark that systematically evaluates the alignment of 29 automatic metrics with human judgments across six major Indian languages, enriched with fine-grained annotations. Our extensive evaluation, covering agreement with human judgments, sensitivity to outliers, language-specific reliability, inter-metric correlations, and resilience to controlled perturbations reveals four central findings: (1) LLM-based evaluators show the strongest alignment with human judgments at both segment and system levels; (2) outliers exert a significant impact on metric-human agreement; (3) In TS, metrics are more effective at capturing content fidelity, whereas in MT, they better reflect fluency; and (4) Metrics differ in their robustness and sensitivity when subjected to diverse perturbations. Collectively, these findings offer critical guidance for advancing metric design and evaluation in Indian languages.",
+ "primary": "cs.CL"
+}

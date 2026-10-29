@@ -1,0 +1,19 @@
+{
+ "id": "2602.14028",
+ "title": "GRRM: Group Relative Reward Modeling for Machine Translation",
+ "authors": [
+  "Sen Yang",
+  "Shanbo Cheng",
+  "Lu Xu",
+  "Jianbing Zhang",
+  "Shujian Huang"
+ ],
+ "v1_date": "2026-02-15",
+ "latest_version": 2,
+ "latest_date": "2026-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by EMNLP2026; 23 pages, 7 figures",
+ "abstract": "While Group Relative Policy Optimization (GRPO) offers a powerful framework for LLM post-training, its effectiveness in open-ended domains like Machine Translation hinges on accurate intra-group ranking. We identify that standard Pointwise Quality Metrics (PQM) fall short in this context: candidates are evaluated in isolation, so the comparative context is missing for distinguishing fine-grained linguistic nuances. To address this, we introduce the Group Quality Metric (GQM) paradigm and its instantiation, the Group Relative Reward Model (GRRM). Unlike traditional independent scorers, GRRM jointly processes the entire candidate group, leveraging comparative analysis to rigorously resolve relative quality and adaptive granularity. Empirical evaluations confirm that GRRM achieves competitive ranking accuracy among all baselines; integrating GRRM into the GRPO training not only improves general translation quality but also unlocks reasoning capabilities comparable to state-of-the-art reasoning models. We release codes, datasets, and model checkpoints at https://github.com/NJUNLP/GRRM.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2602.01270",
+ "title": "Mixture-of-World Models: Scaling Multi-Task Reinforcement Learning with Modular Latent Dynamics",
+ "authors": [
+  "Boxuan Zhang",
+  "Weipu Zhang",
+  "Zhaohan Feng",
+  "Wei Xiao",
+  "Jian Sun",
+  "Jie Chen",
+  "Gang Wang"
+ ],
+ "v1_date": "2026-02-01",
+ "latest_version": 1,
+ "latest_date": "2026-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A fundamental challenge in multi-task reinforcement learning (MTRL) is achieving sample efficiency in visual domains where tasks exhibit substantial heterogeneity in both observations and dynamics. Model-based reinforcement learning offers a promising path to improved sample efficiency through world models, but standard monolithic architectures struggle to capture diverse task dynamics, resulting in poor reconstruction and prediction accuracy. We introduce Mixture-of-World Models (MoW), a scalable architecture that combines modular variational autoencoders for task-adaptive visual compression, a hybrid Transformer-based dynamics model with task-conditioned experts and a shared backbone, and a gradient-based task clustering strategy for efficient parameter allocation. On the Atari 100k benchmark, a single MoW agent trained once on 26 Atari games achieves a mean human-normalized score of 110.4%, competitive with the score of 114.2% achieved by STORM, an ensemble of 26 task-specific models, while using 50% fewer parameters. On Meta-World, MoW achieves a 74.5% average success rate within 300 thousand environment steps, establishing a new state of the art. These results demonstrate that MoW provides a scalable and parameter-efficient foundation for generalist world models.",
+ "primary": "cs.LG"
+}

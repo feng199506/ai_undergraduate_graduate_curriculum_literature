@@ -1,0 +1,17 @@
+{
+ "id": "2501.14851",
+ "title": "JustLogic: A Comprehensive Benchmark for Evaluating Deductive Reasoning in Large Language Models",
+ "authors": [
+  "Michael K. Chen",
+  "Xikun Zhang",
+  "Dacheng Tao"
+ ],
+ "v1_date": "2025-01-24",
+ "latest_version": 2,
+ "latest_date": "2025-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Logical reasoning is a critical component of Large Language Models (LLMs), and substantial research efforts in recent years have aimed to enhance their deductive reasoning capabilities. However, existing deductive reasoning benchmarks, which are crucial for evaluating and advancing LLMs, are inadequate due to their lack of task complexity, presence of prior knowledge as a confounder, and superficial error analysis. To address these deficiencies, we introduce JustLogic, a synthetically generated deductive reasoning benchmark designed for rigorous evaluation of LLMs. JustLogic is (i) highly complex, capable of generating a diverse range of linguistic patterns, vocabulary, and argument structures; (ii) prior knowledge independent, eliminating the advantage of models possessing prior knowledge and ensuring that only deductive reasoning is used to answer questions; and (iii) capable of in-depth error analysis on the heterogeneous effects of reasoning depth and argument form on model accuracy. Our experimental results on JustLogic reveal that (i) state-of-the-art (SOTA) reasoning LLMs perform on par or better than the human average but significantly worse than the human ceiling, and (ii) SOTA non-reasoning models still underperform the human average. All code and data are available at https://github.com/michaelchen-lab/JustLogic",
+ "primary": "cs.CL"
+}

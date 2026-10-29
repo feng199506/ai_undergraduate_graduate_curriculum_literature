@@ -1,0 +1,22 @@
+{
+ "id": "2505.24306",
+ "title": "GridRoute: A Benchmark for LLM-Based Route Planning with Cardinal Movement in Grid Environments",
+ "authors": [
+  "Kechen Li",
+  "Yaotian Tao",
+  "Ximing Wen",
+  "Quanwei Sun",
+  "Zifei Gong",
+  "Chang Xu",
+  "Xizhe Zhang",
+  "Tianbo Ji"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 2,
+ "latest_date": "2025-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages",
+ "abstract": "Recent advancements in Large Language Models (LLMs) have demonstrated their potential in planning and reasoning tasks, offering a flexible alternative to classical pathfinding algorithms. However, most existing studies focus on LLMs' independent reasoning capabilities and overlook the potential synergy between LLMs and traditional algorithms. To fill this gap, we propose a comprehensive evaluation benchmark GridRoute to assess how LLMs can take advantage of traditional algorithms. We also propose a novel hybrid prompting technique called Algorithm of Thought (AoT), which introduces traditional algorithms' guidance into prompting. Our benchmark evaluates six LLMs ranging from 7B to 72B parameters across various map sizes, assessing their performance in correctness, optimality, and efficiency in grid environments with varying sizes. Our results show that AoT significantly boosts performance across all model sizes, particularly in larger or more complex environments, suggesting a promising approach to addressing path planning challenges. Our code is open-sourced at https://github.com/LinChance/GridRoute.",
+ "primary": "cs.AI"
+}

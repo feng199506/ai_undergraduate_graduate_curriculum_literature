@@ -1,0 +1,19 @@
+{
+ "id": "2505.05968",
+ "title": "Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition",
+ "authors": [
+  "Dan Qiao",
+  "Wenhao Li",
+  "Shanchao Yang",
+  "Hongyuan Zha",
+  "Baoxiang Wang"
+ ],
+ "v1_date": "2025-05-09",
+ "latest_version": 3,
+ "latest_date": "2026-05-28",
+ "journal_ref": "Forty-Third International Conference on Machine Learning, 2026",
+ "doi": "",
+ "comment": "ICML 2026 Accepted",
+ "abstract": "Offline cooperative multi-agent reinforcement learning (MARL) faces unique challenges due to distributional shifts, particularly stemming from the high dimensionality of joint action spaces and the presence of out-of-distribution joint action selections. In this work, we highlight that a fundamental challenge in offline MARL arises from the multi-equilibrium nature of cooperative tasks, which induces a highly multimodal joint behavior policy space coupled with heterogeneous-quality behavior data. This makes it difficult for individual policy regularization to align with a consistent coordination pattern, leading to the policy distribution shift problems. To tackle this challenge, we design a sequential score function decomposition method that distills per-agent regularization signals from the joint behavior policy, which induces coordinated modality selection under decentralized execution constraints. Then we leverage a flexible diffusion-based generative model to learn these score functions from multimodal offline data, and integrate them into joint-action critics to guide policy updates toward high-reward, in-distribution regions under a shared team reward. Our approach achieves state-of-the-art performance across multiple particle environments and Multi-agent MuJoCo benchmarks consistently. To the best of our knowledge, this is the first work to explicitly address the distributional gap between offline and online MARL, paving the way for more generalizable offline policy-based MARL methods.",
+ "primary": "cs.LG"
+}

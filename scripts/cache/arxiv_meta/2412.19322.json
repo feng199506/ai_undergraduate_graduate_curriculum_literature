@@ -1,0 +1,21 @@
+{
+ "id": "2412.19322",
+ "title": "Mixed-precision numerics in scientific applications: survey and perspectives",
+ "authors": [
+  "Aditya Kashi",
+  "Hao Lu",
+  "Wesley Brewer",
+  "David Rogers",
+  "Michael Matheson",
+  "Mallikarjun Shankar",
+  "Feiyi Wang"
+ ],
+ "v1_date": "2024-12-26",
+ "latest_version": 3,
+ "latest_date": "2025-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Journal of Supercomputing",
+ "abstract": "The explosive demand for artificial intelligence (AI) workloads has led to a significant increase in silicon area dedicated to lower-precision computations on recent high-performance computing hardware designs. However, mixed-precision capabilities, which can achieve performance improvements of 8x compared to double-precision in extreme compute-intensive workloads, remain largely untapped in most scientific applications. A growing number of efforts have shown that mixed-precision algorithmic innovations can deliver superior performance without sacrificing accuracy. These developments should prompt computational scientists to seriously consider whether their scientific modeling and simulation applications could benefit from the acceleration offered by new hardware and mixed-precision algorithms. In this survey, we (1) review progress across diverse scientific domains -- including fluid dynamics, weather and climate, quantum chemistry, and computational genomics -- that have begun adopting mixed-precision strategies; (2) examine state-of-the-art algorithmic techniques such as iterative refinement, splitting and emulation schemes, and adaptive precision solvers; (3) assess their implications for accuracy, performance, and resource utilization; and (4) survey the emerging software ecosystem that enables mixed-precision methods at scale. We conclude with perspectives and recommendations on cross-cutting opportunities, domain-specific challenges, and the role of co-design between application scientists, numerical analysts and computer scientists. Collectively, this survey underscores that mixed-precision numerics can reshape computational science by aligning algorithms with the evolving landscape of hardware capabilities.",
+ "primary": "cs.CE"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2510.18913",
+ "title": "ADPO: Anchored Direct Preference Optimization",
+ "authors": [
+  "Wang Zixian"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 7,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present Anchored Direct Preference Optimization (ADPO), a policy alignment method derived from first principles of KL-regularized reinforcement learning. Unlike standard approaches that treat the reference policy merely as a regularizer, we show that the optimal policy in reinforcement learning from human feedback inherently operates in a differential coordinate system, optimizing relative advantage in the form of log ratios rather than absolute probabilities. ADPO explicitly parameterizes this optimal structure through anchored logits, effectively decoupling response quality from prior popularity and creating an implicit trust region through curvature scaling. We show that this formulation unifies supervised fine-tuning, reinforcement learning, and ranking-based objectives under a single geometric perspective. Theoretically, ADPO resolves the probability smearing problem of supervised fine-tuning while avoiding the mode-seeking instability characteristic of reverse-KL methods. Empirically, the listwise ranking variant of ADPO achieves state-of-the-art performance on reasoning tasks, outperforming GRPO by 30.9 percent on Qwen3-1.7B and demonstrating superior robustness under distribution shift.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2512.11755",
+ "title": "SUMFORU: An LLM-Based Review Summarization Framework for Personalized Purchase Decision Support",
+ "authors": [
+  "Yuming Feng",
+  "Xinrui Jiang"
+ ],
+ "v1_date": "2025-12-12",
+ "latest_version": 1,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code available at https://github.com/Harry20030331/SumForU",
+ "abstract": "Online product reviews contain rich but noisy signals that overwhelm users and hinder effective decision-making. Existing LLM-based summarizers remain generic and fail to account for individual preferences, limiting their practical utility. We propose SUMFORU, a steerable review summarization framework that aligns outputs with explicit user personas to support personalized purchase decisions. Our approach integrates a high-quality data pipeline built from the Amazon 2023 Review Dataset with a two-stage alignment procedure: (1) persona-aware Supervised Fine-Tuning (SFT) via asymmetric knowledge distillation, and (2) Reinforcement Learning with AI Feedback (RLAIF) using a preference estimator to capture fine-grained, persona-relevant signals. We evaluate the model across rule-based, LLM-based, and human-centered metrics, demonstrating consistent improvements in consistency, grounding, and preference alignment. Our framework achieves the highest performance across all evaluation settings and generalizes effectively to unseen product categories. Our results highlight the promise of steerable pluralistic alignment for building next-generation personalized decision-support systems.",
+ "primary": "cs.CL"
+}

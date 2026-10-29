@@ -1,0 +1,18 @@
+{
+ "id": "2410.20187",
+ "title": "Uncertainty-Penalized Direct Preference Optimization",
+ "authors": [
+  "Sam Houliston",
+  "Alizée Pace",
+  "Alexander Immer",
+  "Gunnar Rätsch"
+ ],
+ "v1_date": "2024-10-26",
+ "latest_version": 1,
+ "latest_date": "2024-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the NeurIPS 2024 FITML Workshop",
+ "abstract": "Aligning Large Language Models (LLMs) to human preferences in content, style, and presentation is challenging, in part because preferences are varied, context-dependent, and sometimes inherently ambiguous. While successful, Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) are prone to the issue of proxy reward overoptimization. Analysis of the DPO loss reveals a critical need for regularization for mislabeled or ambiguous preference pairs to avoid reward hacking. In this work, we develop a pessimistic framework for DPO by introducing preference uncertainty penalization schemes, inspired by offline reinforcement learning. The penalization serves as a correction to the loss which attenuates the loss gradient for uncertain samples. Evaluation of the methods is performed with GPT2 Medium on the Anthropic-HH dataset using a model ensemble to obtain uncertainty estimates, and shows improved overall performance compared to vanilla DPO, as well as better completions on prompts from high-uncertainty chosen/rejected responses.",
+ "primary": "cs.LG"
+}

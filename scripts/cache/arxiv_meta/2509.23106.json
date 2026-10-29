@@ -1,0 +1,24 @@
+{
+ "id": "2509.23106",
+ "title": "Effective Quantization of Muon Optimizer States",
+ "authors": [
+  "Aman Gupta",
+  "Rafael Celente",
+  "Abhishek Shivanna",
+  "D. T. Braithwaite",
+  "Gregory Dexter",
+  "Shao Tang",
+  "Hiroto Udagawa",
+  "Daniel Silva",
+  "Rohan Ramanath",
+  "S. Sathiya Keerthi"
+ ],
+ "v1_date": "2025-09-27",
+ "latest_version": 3,
+ "latest_date": "2026-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "The Muon optimizer, based on matrix orthogonalization, has recently shown faster convergence and better computational efficiency over AdamW in LLM pre-training. However, the memory overhead of maintaining high-precision optimizer states remains a challenge for large-scale deployment. In this paper, we introduce the 8-bit Muon optimizer using blockwise quantization. In extensive Chinchilla-optimal experiments on pre-training models of up to 2.7B in size and fine-tuning them for instruction following, we demonstrate that 8-bit Muon achieves parity with Muon in terms of validation loss and downstream benchmarks, while achieving up to a 62\\% reduction in optimizer state footprint. Crucially, we show that Muon's update mechanism is uniquely compatible with a simple linear quantization scheme, bypassing the complex dynamic scaling required for quantized AdamW. We supplement our empirical findings with a theoretical analysis of Muon's robustness to quantization noise.",
+ "primary": "cs.LG"
+}

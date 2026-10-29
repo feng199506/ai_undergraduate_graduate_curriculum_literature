@@ -1,0 +1,19 @@
+{
+ "id": "2409.06560",
+ "title": "A Primer on Variational Inference for Physics-Informed Deep Generative Modelling",
+ "authors": [
+  "Alex Glyn-Davies",
+  "Arnaud Vadeboncoeur",
+  "O. Deniz Akyildiz",
+  "Ieva Kazlauskaite",
+  "Mark Girolami"
+ ],
+ "v1_date": "2024-09-10",
+ "latest_version": 2,
+ "latest_date": "2025-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variational inference (VI) is a computationally efficient and scalable methodology for approximate Bayesian inference. It strikes a balance between accuracy of uncertainty quantification and practical tractability. It excels at generative modelling and inversion tasks due to its built-in Bayesian regularisation and flexibility, essential qualities for physics related problems. For such problems, the underlying physical model determines the dependence between variables of interest, which in turn will require a tailored derivation for the central VI learning objective. Furthermore, in many physical inference applications this structure has rich meaning and is essential for accurately capturing the dynamics of interest. In this paper, we provide an accessible and thorough technical introduction to VI for forward and inverse problems, guiding the reader through standard derivations of the VI framework and how it can best be realized through deep learning. We then review and unify recent literature exemplifying the flexibility allowed by VI. This paper is designed for a general scientific audience looking to solve physics-based problems with an emphasis on uncertainty quantification",
+ "primary": "stat.ML"
+}

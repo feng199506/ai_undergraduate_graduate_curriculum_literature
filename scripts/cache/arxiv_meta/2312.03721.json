@@ -1,0 +1,16 @@
+{
+ "id": "2312.03721",
+ "title": "Exploring the Robustness of Model-Graded Evaluations and Automated Interpretability",
+ "authors": [
+  "Simon Lermen",
+  "Ondřej Kvapil"
+ ],
+ "v1_date": "2023-11-26",
+ "latest_version": 2,
+ "latest_date": "2023-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "There has been increasing interest in evaluations of language models for a variety of risks and characteristics. Evaluations relying on natural language understanding for grading can often be performed at scale by using other language models. We test the robustness of these model-graded evaluations to injections on different datasets including a new Deception Eval. These injections resemble direct communication between the testee and the evaluator to change their grading. We extrapolate that future, more intelligent models might manipulate or cooperate with their evaluation model. We find significant susceptibility to these injections in state-of-the-art commercial models on all examined evaluations. Furthermore, similar injections can be used on automated interpretability frameworks to produce misleading model-written explanations. The results inspire future work and should caution against unqualified trust in evaluations and automated interpretability.",
+ "primary": "cs.CL"
+}

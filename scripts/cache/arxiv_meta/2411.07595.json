@@ -1,0 +1,17 @@
+{
+ "id": "2411.07595",
+ "title": "Entropy Controllable Direct Preference Optimization",
+ "authors": [
+  "Motoki Omura",
+  "Yasuhiro Fujita",
+  "Toshiki Kataoka"
+ ],
+ "v1_date": "2024-11-12",
+ "latest_version": 2,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2025 Workshop on Models of Human Feedback for AI Alignment",
+ "abstract": "In the post-training of large language models (LLMs), Reinforcement Learning from Human Feedback (RLHF) is an effective approach to achieve generation aligned with human preferences. Direct Preference Optimization (DPO) allows for policy training with a simple binary cross-entropy loss without a reward model. The objective of DPO is regularized by reverse KL divergence that encourages mode-seeking fitting to the reference policy. Nonetheless, we indicate that minimizing reverse KL divergence could fail to capture a mode of the reference distribution, which may hurt the policy's performance. Based on this observation, we propose a simple modification to DPO, H-DPO, which allows for control over the entropy of the resulting policy, enhancing the distribution's sharpness and thereby enabling mode-seeking fitting more effectively. In our experiments, we show that H-DPO outperformed DPO across various tasks, demonstrating superior results in pass@$k$ evaluations for mathematical tasks. Moreover, H-DPO is simple to implement, requiring only minor modifications to the loss calculation of DPO, which makes it highly practical and promising for wide-ranging applications in the training of LLMs.",
+ "primary": "cs.LG"
+}

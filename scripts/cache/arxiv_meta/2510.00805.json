@@ -1,0 +1,20 @@
+{
+ "id": "2510.00805",
+ "title": "Planning-Augmented Sampling with Early Guidance for High-Reward Discovery",
+ "authors": [
+  "Rui Zhu",
+  "Yudong Zhang",
+  "Xuan Yu",
+  "Chen Zhang",
+  "Xu Wang",
+  "Yang Wang"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 3,
+ "latest_date": "2026-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative Flow Networks (GFlowNets) enable structured generation with inherent diversity, but existing sampling strategies often rely on weak guided exploration, slowing early discovery of high-reward candidates. In tasks such as molecular design, rapid and consistent generation of high-reward solutions can outweigh faithful distribution matching. We propose a planning-augmented framework in which Monte Carlo Tree Search using polynomial upper confidence bounds provides online value estimates, and a controllable soft-greedy mechanism integrates these planning signals into the GFlowNets forward policy. This design fosters early exploration of high-reward trajectories and gradually shifts to policy-driven exploitation as experience accumulates. Empirical results show that our method accelerates early high-reward discovery, sustains top-quality sample generation, and preserves diversity across representative tasks. All implementations are available at https://github.com/ZRNB/PLUS.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2603.17303",
+ "title": "From Words to Worlds: Benchmarking Cross-Cultural Cultural Understanding in Machine Translation",
+ "authors": [
+  "Bangju Han",
+  "Yingqi Wang",
+  "Huang Qing",
+  "Tiyuan Li",
+  "Fengyi Yang",
+  "Ahtamjan Ahmat",
+  "Abibulla Atawulla",
+  "Yating Yang",
+  "Xi Zhou"
+ ],
+ "v1_date": "2026-03-18",
+ "latest_version": 1,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Culture-expressions, such as idioms, slang, and culture-specific items (CSIs), are pervasive in natural language and encode meanings that go beyond literal linguistic form. Accurately translating such expressions remains challenging for machine translation systems. Despite this, existing benchmarks remain fragmented and do not provide a systematic framework for evaluating translation performance on culture-loaded expressions. To address this gap, we introduce CulT-Eval, a benchmark designed to evaluate how models handle different types of culturally grounded expressions. CulT-Eval comprises over 7,959 carefully curated instances spanning multiple types of culturally grounded expressions, with a comprehensive error taxonomy covering culturally grounded expressions. Through extensive evaluation of large language models and detailed analysis, we identify recurring and systematic failure modes that are not adequately captured by existing automatic metrics. Accordingly, we propose a complementary evaluation metric that targets culturally induced meaning deviations overlooked by standard MT metrics. The results indicate that current models struggle to preserve culturally grounded meaning and to capture the cultural and contextual nuances essential for accurate translation. Our benchmark and code are available at https://anonymous.4open.science/r/CulT-Eval-E75D/.",
+ "primary": "cs.CL"
+}

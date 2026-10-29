@@ -1,0 +1,15 @@
+{
+ "id": "2501.10069",
+ "title": "A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks",
+ "authors": [
+  "Xinzhe Li"
+ ],
+ "v1_date": "2025-01-17",
+ "latest_version": 4,
+ "latest_date": "2025-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "TMLR (camera-ready). Details on https://openreview.net/forum?id=x9VQFjtOPS",
+ "abstract": "LLM test-time compute (or LLM inference) via search has emerged as a promising research area with rapid developments. However, current frameworks often adopt distinct perspectives on three key aspects: task definition, LLM profiling, and search procedures, making direct comparisons challenging. Moreover, the search algorithms employed often diverge from standard implementations, and their specific characteristics are not thoroughly specified. This survey aims to provide a comprehensive but integrated technical review on existing LIS frameworks. Specifically, we unify task definitions under Markov Decision Process (MDP) and provides modular definitions of LLM profiling and search procedures. The definitions enable precise comparisons of various LLM inference frameworks while highlighting their departures from conventional search algorithms. We also discuss the applicability, performance, and efficiency of these methods. For ongoing paper updates, please refer to our GitHub repository: https://github.com/xinzhel/LLM-Search.",
+ "primary": "cs.AI"
+}

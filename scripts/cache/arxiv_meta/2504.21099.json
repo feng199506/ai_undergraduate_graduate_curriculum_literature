@@ -1,0 +1,19 @@
+{
+ "id": "2504.21099",
+ "title": "A Survey on Parameter-Efficient Fine-Tuning for Foundation Models in Federated Learning",
+ "authors": [
+  "Jieming Bian",
+  "Yuanzhe Peng",
+  "Lei Wang",
+  "Yin Huang",
+  "Jie Xu"
+ ],
+ "v1_date": "2025-04-29",
+ "latest_version": 1,
+ "latest_date": "2025-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "survey paper, under updating",
+ "abstract": "Foundation models have revolutionized artificial intelligence by providing robust, versatile architectures pre-trained on large-scale datasets. However, adapting these massive models to specific downstream tasks requires fine-tuning, which can be prohibitively expensive in computational resources. Parameter-Efficient Fine-Tuning (PEFT) methods address this challenge by selectively updating only a small subset of parameters. Meanwhile, Federated Learning (FL) enables collaborative model training across distributed clients without sharing raw data, making it ideal for privacy-sensitive applications. This survey provides a comprehensive review of the integration of PEFT techniques within federated learning environments. We systematically categorize existing approaches into three main groups: Additive PEFT (which introduces new trainable parameters), Selective PEFT (which fine-tunes only subsets of existing parameters), and Reparameterized PEFT (which transforms model architectures to enable efficient updates). For each category, we analyze how these methods address the unique challenges of federated settings, including data heterogeneity, communication efficiency, computational constraints, and privacy concerns. We further organize the literature based on application domains, covering both natural language processing and computer vision tasks. Finally, we discuss promising research directions, including scaling to larger foundation models, theoretical analysis of federated PEFT methods, and sustainable approaches for resource-constrained environments.",
+ "primary": "cs.LG"
+}

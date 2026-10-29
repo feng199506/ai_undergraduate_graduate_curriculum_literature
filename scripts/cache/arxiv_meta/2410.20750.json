@@ -1,0 +1,23 @@
+{
+ "id": "2410.20750",
+ "title": "ODRL: A Benchmark for Off-Dynamics Reinforcement Learning",
+ "authors": [
+  "Jiafei Lyu",
+  "Kang Xu",
+  "Jiacheng Xu",
+  "Mengbei Yan",
+  "Jingwen Yang",
+  "Zongzhang Zhang",
+  "Chenjia Bai",
+  "Zongqing Lu",
+  "Xiu Li"
+ ],
+ "v1_date": "2024-10-28",
+ "latest_version": 1,
+ "latest_date": "2024-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2024 D&B Track",
+ "abstract": "We consider off-dynamics reinforcement learning (RL) where one needs to transfer policies across different domains with dynamics mismatch. Despite the focus on developing dynamics-aware algorithms, this field is hindered due to the lack of a standard benchmark. To bridge this gap, we introduce ODRL, the first benchmark tailored for evaluating off-dynamics RL methods. ODRL contains four experimental settings where the source and target domains can be either online or offline, and provides diverse tasks and a broad spectrum of dynamics shifts, making it a reliable platform to comprehensively evaluate the agent's adaptation ability to the target domain. Furthermore, ODRL includes recent off-dynamics RL algorithms in a unified framework and introduces some extra baselines for different settings, all implemented in a single-file manner. To unpack the true adaptation capability of existing methods, we conduct extensive benchmarking experiments, which show that no method has universal advantages across varied dynamics shifts. We hope this benchmark can serve as a cornerstone for future research endeavors. Our code is publicly available at https://github.com/OffDynamicsRL/off-dynamics-rl.",
+ "primary": "cs.LG"
+}

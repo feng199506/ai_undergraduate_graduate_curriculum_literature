@@ -1,0 +1,17 @@
+{
+ "id": "2512.01819",
+ "title": "Decision Tree Embedding by Leaf-Means",
+ "authors": [
+  "Cencheng Shen",
+  "Yuexiao Dong",
+  "Carey E. Priebe"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 1,
+ "latest_date": "2025-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages",
+ "abstract": "Decision trees and random forest remain highly competitive for classification on medium-sized, standard datasets due to their robustness, minimal preprocessing requirements, and interpretability. However, a single tree suffers from high estimation variance, while large ensembles reduce this variance at the cost of substantial computational overhead and diminished interpretability. In this paper, we propose Decision Tree Embedding (DTE), a fast and effective method that leverages the leaf partitions of a trained classification tree to construct an interpretable feature representation. By using the sample means within each leaf region as anchor points, DTE maps inputs into an embedding space defined by the tree's partition structure, effectively circumventing the high variance inherent in decision-tree splitting rules. We further introduce an ensemble extension based on additional bootstrap trees, and pair the resulting embedding with linear discriminant analysis for classification. We establish several population-level theoretical properties of DTE, including its preservation of conditional density under mild conditions and a characterization of the resulting classification error. Empirical studies on synthetic and real datasets demonstrate that DTE strikes a strong balance between accuracy and computational efficiency, outperforming or matching random forest and shallow neural networks while requiring only a fraction of their training time in most cases. Overall, the proposed DTE method can be viewed either as a scalable decision tree classifier that improves upon standard split rules, or as a neural network model whose weights are learned from tree-derived anchor points, achieving an intriguing integration of both paradigms.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2408.14438",
+ "title": "Evaluating Large Language Models on Spatial Tasks: A Multi-Task Benchmarking Study",
+ "authors": [
+  "Liuchang Xu",
+  "Shuo Zhao",
+  "Qingming Lin",
+  "Luyao Chen",
+  "Qianqian Luo",
+  "Sensen Wu",
+  "Xinyue Ye",
+  "Hailin Feng",
+  "Zhenhong Du"
+ ],
+ "v1_date": "2024-08-26",
+ "latest_version": 4,
+ "latest_date": "2025-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The emergence of large language models such as ChatGPT, Gemini, and others highlights the importance of evaluating their diverse capabilities, ranging from natural language understanding to code generation. However, their performance on spatial tasks has not been thoroughly assessed. This study addresses this gap by introducing a new multi-task spatial evaluation dataset designed to systematically explore and compare the performance of several advanced models on spatial tasks. The dataset includes twelve distinct task types, such as spatial understanding and simple route planning, each with verified and accurate answers. We evaluated multiple models, including OpenAI's gpt-3.5-turbo, gpt-4-turbo, gpt-4o, ZhipuAI's glm-4, Anthropic's claude-3-sonnet-20240229, and MoonShot's moonshot-v1-8k, using a two-phase testing approach. First, we conducted zero-shot testing. Then, we categorized the dataset by difficulty and performed prompt-tuning tests. Results show that gpt-4o achieved the highest overall accuracy in the first phase, with an average of 71.3%. Although moonshot-v1-8k slightly underperformed overall, it outperformed gpt-4o in place name recognition tasks. The study also highlights the impact of prompt strategies on model performance in specific tasks. For instance, the Chain-of-Thought (CoT) strategy increased gpt-4o's accuracy in simple route planning from 12.4% to 87.5%, while a one-shot strategy improved moonshot-v1-8k's accuracy in mapping tasks from 10.1% to 76.3%.",
+ "primary": "cs.CL"
+}

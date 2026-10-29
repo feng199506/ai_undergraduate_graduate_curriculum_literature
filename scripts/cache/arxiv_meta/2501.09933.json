@@ -1,0 +1,17 @@
+{
+ "id": "2501.09933",
+ "title": "Statistical Inference for Sequential Feature Selection after Domain Adaptation",
+ "authors": [
+  "Duong Tan Loc",
+  "Nguyen Thang Loi",
+  "Vo Nguyen Le Duy"
+ ],
+ "v1_date": "2025-01-17",
+ "latest_version": 1,
+ "latest_date": "2025-01-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In high-dimensional regression, feature selection methods, such as sequential feature selection (SeqFS), are commonly used to identify relevant features. When data is limited, domain adaptation (DA) becomes crucial for transferring knowledge from a related source domain to a target domain, improving generalization performance. Although SeqFS after DA is an important task in machine learning, none of the existing methods can guarantee the reliability of its results. In this paper, we propose a novel method for testing the features selected by SeqFS-DA. The main advantage of the proposed method is its capability to control the false positive rate (FPR) below a significance level $α$ (e.g., 0.05). Additionally, a strategic approach is introduced to enhance the statistical power of the test. Furthermore, we provide extensions of the proposed method to SeqFS with model selection criteria including AIC, BIC, and adjusted R-squared. Extensive experiments are conducted on both synthetic and real-world datasets to validate the theoretical results and demonstrate the proposed method's superior performance.",
+ "primary": "stat.ML"
+}

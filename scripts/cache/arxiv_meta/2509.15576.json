@@ -1,0 +1,23 @@
+{
+ "id": "2509.15576",
+ "title": "Subset Selection for Stratified Sampling in Online Controlled Experiments",
+ "authors": [
+  "Haru Momozu",
+  "Yuki Uehara",
+  "Naoki Nishimura",
+  "Koya Ohashi",
+  "Deddy Jobson",
+  "Yilin Li",
+  "Phuong Dinh",
+  "Noriyoshi Sukegawa",
+  "Yuichi Takano"
+ ],
+ "v1_date": "2025-09-19",
+ "latest_version": 1,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 15 figures, The 22nd Pacific Rim International Conference on Artificial Intelligence 2025 (PRICAI 2025)",
+ "abstract": "Online controlled experiments, also known as A/B testing, are the digital equivalent of randomized controlled trials for estimating the impact of marketing campaigns on website visitors. Stratified sampling is a traditional technique for variance reduction to improve the sensitivity (or statistical power) of controlled experiments; this technique first divides the population into strata (homogeneous subgroups) based on stratification variables and then draws samples from each stratum to avoid sampling bias. To enhance the estimation accuracy of stratified sampling, we focus on the problem of selecting a subset of stratification variables that are effective in variance reduction. We design an efficient algorithm that selects stratification variables one by one by simulating a series of stratified sampling processes. We also estimate the computational complexity of our subset selection algorithm. Computational experiments using synthetic and real-world datasets demonstrate that our method can outperform other variance reduction techniques especially when multiple variables have a certain correlation with the outcome variable. Our subset selection method for stratified sampling can improve the sensitivity of online controlled experiments, thus enabling more reliable marketing decisions.",
+ "primary": "stat.CO"
+}

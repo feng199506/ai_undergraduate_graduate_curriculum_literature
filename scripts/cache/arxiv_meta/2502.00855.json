@@ -1,0 +1,21 @@
+{
+ "id": "2502.00855",
+ "title": "Psychometric-Based Evaluation for Theorem Proving with Large Language Models",
+ "authors": [
+  "Jianyu Zhang",
+  "Yongwang Zhao",
+  "Long Zhang",
+  "Jilin Hu",
+  "Xiaokun Luan",
+  "Zhiwei Xu",
+  "Feng Yang"
+ ],
+ "v1_date": "2025-02-02",
+ "latest_version": 1,
+ "latest_date": "2025-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) for formal theorem proving have become a prominent research focus. At present, the proving ability of these LLMs is mainly evaluated through proof pass rates on datasets such as miniF2F. However, this evaluation method overlooks the varying importance of theorems. As a result, it fails to highlight the real performance disparities between LLMs and leads to high evaluation costs. This study proposes a psychometric-based evaluation method for theorem proving with LLMs, comprising two main components: Dataset Annotation and Adaptive Evaluation. First, we propose a metric calculation method to annotate the dataset with difficulty and discrimination metrics. Specifically, we annotate each theorem in the miniF2F dataset and grade them into varying difficulty levels according to the performance of LLMs, resulting in an enhanced dataset: miniF2F-Graded. Experimental results show that the difficulty grading in miniF2F-Graded better reflects the theorem difficulty perceived by LLMs. Secondly, we design an adaptive evaluation method to dynamically select the most suitable theorems for testing based on the annotated metrics and the real-time performance of LLMs. We apply this method to evaluate 10 LLMs. The results show that our method finely highlights the performance disparities between LLMs. It also reduces evaluation costs by using only 23% of the theorems in the dataset.",
+ "primary": "cs.AI"
+}

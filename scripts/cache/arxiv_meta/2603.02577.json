@@ -1,0 +1,18 @@
+{
+ "id": "2603.02577",
+ "title": "Towards Parameter-Free Temporal Difference Learning",
+ "authors": [
+  "Yunxiang Li",
+  "Mark Schmidt",
+  "Reza Babanezhad",
+  "Sharan Vaswani"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 1,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal difference (TD) learning is a fundamental algorithm for estimating value functions in reinforcement learning. Recent finite-time analyses of TD with linear function approximation quantify its theoretical convergence rate. However, they often require setting the algorithm parameters using problem-dependent quantities that are difficult to estimate in practice -- such as the minimum eigenvalue of the feature covariance (\\(ω\\)) or the mixing time of the underlying Markov chain (\\(τ_{\\text{mix}}\\)). In addition, some analyses rely on nonstandard and impractical modifications, exacerbating the gap between theory and practice. To address these limitations, we use an exponential step-size schedule with the standard TD(0) algorithm. We analyze the resulting method under two sampling regimes: independent and identically distributed (i.i.d.) sampling from the stationary distribution, and the more practical Markovian sampling along a single trajectory. In the i.i.d.\\ setting, the proposed algorithm does not require knowledge of problem-dependent quantities such as \\(ω\\), and attains the optimal bias-variance trade-off for the last iterate. In the Markovian setting, we propose a regularized TD(0) algorithm with an exponential step-size schedule. The resulting algorithm achieves a comparable convergence rate to prior works, without requiring projections, iterate averaging, or knowledge of \\(τ_{\\text{mix}}\\) or \\(ω\\).",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2503.16717",
+ "title": "Random-sketching Techniques to Enhance the Numerical Stability of Block Orthogonalization Algorithms for s-step GMRES",
+ "authors": [
+  "Ichitaro Yamazaki",
+  "Andrew J. Higgins",
+  "Erik G. Boman",
+  "Daniel B. Szyld"
+ ],
+ "v1_date": "2025-03-20",
+ "latest_version": 3,
+ "latest_date": "2025-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages",
+ "abstract": "We integrate random sketching techniques into block orthogonalization schemes needed for s-step GMRES. The resulting block orthogonalization schemes generate the basis vectors whose overall orthogonality error is bounded by machine precision as long as each of the corresponding block vectors are numerically full rank. We implement these randomized block orthogonalization schemes using standard distributed-memory linear algebra kernels for s-step GMRES available in the Trilinos software packages. Our performance results on the Perlmutter supercomputer (with four NVIDIA A100 GPUs per node) demonstrate that these randomized techniques can enhance the numerical stability of the orthogonalization and overall solver, without a significant increase in the execution time.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2606.29089",
+ "title": "TAP-VLA: Tactile Annotation Prompting for Vision Language Action Models",
+ "authors": [
+  "Mark Van der Merwe",
+  "Mohamad Louai Shehab",
+  "Jayjun Lee",
+  "Youngsun Wi",
+  "Yinpei Dai",
+  "Dmitry Berenson",
+  "Nima Fazeli"
+ ],
+ "v1_date": "2026-06-27",
+ "latest_version": 1,
+ "latest_date": "2026-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages + references",
+ "abstract": "Vision-Language-Action (VLA) models demonstrate impressive reasoning over visual, semantic, and spatial task variations by leveraging large-scale vision and language pre-training. They remain, however, largely blind to contact forces, which seldom manifest clearly in visual feedback but are central to contact-rich manipulation. Tactile sensing measures these forces directly, but integrating it into VLAs is difficult: tactile data is absent from the large-scale corpora used to pre-train VLAs, so adding it as a new input modality induces a distribution shift that erodes the very pre-training that makes VLAs effective. We propose Tactile Annotation Prompting for Vision-Language-Action models (TAP-VLA), a simple framework that supplies tactile feedback through visual augmentation rather than architectural change. TAP-VLA extracts shear fields from visuo-tactile sensors and overlays them as spatially-grounded vectors onto the multi-view RGB images the policy already consumes, yielding a clear, interpretable tactile cue in the VLA's native observation space. Because the architecture is untouched, the approach requires no tactile pre-training, adds negligible compute, and stays close to the pre-training distribution. Across four contact-rich tasks, TAP-VLA succeeds on 78% of trials, compared to under 50% for vision-only fine-tuning and alternative tactile-fusion baselines -- including tasks where the baselines perform no better than chance.",
+ "primary": "cs.RO"
+}

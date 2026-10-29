@@ -1,0 +1,18 @@
+{
+ "id": "2403.12309",
+ "title": "Reinforcement Learning from Delayed Observations via World Models",
+ "authors": [
+  "Armin Karamzade",
+  "Kyungmin Kim",
+  "Montek Kalsi",
+  "Roy Fox"
+ ],
+ "v1_date": "2024-03-18",
+ "latest_version": 2,
+ "latest_date": "2024-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In standard reinforcement learning settings, agents typically assume immediate feedback about the effects of their actions after taking them. However, in practice, this assumption may not hold true due to physical constraints and can significantly impact the performance of learning algorithms. In this paper, we address observation delays in partially observable environments. We propose leveraging world models, which have shown success in integrating past observations and learning dynamics, to handle observation delays. By reducing delayed POMDPs to delayed MDPs with world models, our methods can effectively handle partial observability, where existing approaches achieve sub-optimal performance or degrade quickly as observability decreases. Experiments suggest that one of our methods can outperform a naive model-based approach by up to 250%. Moreover, we evaluate our methods on visual delayed environments, for the first time showcasing delay-aware reinforcement learning continuous control with visual observations.",
+ "primary": "cs.LG"
+}

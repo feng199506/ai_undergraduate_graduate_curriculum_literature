@@ -1,0 +1,15 @@
+{
+ "id": "2508.04035",
+ "title": "A Comparative Survey of PyTorch vs TensorFlow for Deep Learning: Usability, Performance, and Deployment Trade-offs",
+ "authors": [
+  "Zakariya Ba Alawi"
+ ],
+ "v1_date": "2025-08-06",
+ "latest_version": 1,
+ "latest_date": "2025-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 15 figures, 43 references",
+ "abstract": "This paper presents a comprehensive comparative survey of TensorFlow and PyTorch, the two leading deep learning frameworks, focusing on their usability, performance, and deployment trade-offs. We review each framework's programming paradigm and developer experience, contrasting TensorFlow's graph-based (now optionally eager) approach with PyTorch's dynamic, Pythonic style. We then compare model training speeds and inference performance across multiple tasks and data regimes, drawing on recent benchmarks and studies. Deployment flexibility is examined in depth - from TensorFlow's mature ecosystem (TensorFlow Lite for mobile/embedded, TensorFlow Serving, and JavaScript support) to PyTorch's newer production tools (TorchScript compilation, ONNX export, and TorchServe). We also survey ecosystem and community support, including library integrations, industry adoption, and research trends (e.g., PyTorch's dominance in recent research publications versus TensorFlow's broader tooling in enterprise). Applications in computer vision, natural language processing, and other domains are discussed to illustrate how each framework is used in practice. Finally, we outline future directions and open challenges in deep learning framework design, such as unifying eager and graph execution, improving cross-framework interoperability, and integrating compiler optimizations (XLA, JIT) for improved speed. Our findings indicate that while both frameworks are highly capable for state-of-the-art deep learning, they exhibit distinct trade-offs: PyTorch offers simplicity and flexibility favored in research, whereas TensorFlow provides a fuller production-ready ecosystem - understanding these trade-offs is key for practitioners selecting the appropriate tool. We include charts, code snippets, and more than 20 references to academic papers and official documentation to support this comparative analysis",
+ "primary": "cs.LG"
+}

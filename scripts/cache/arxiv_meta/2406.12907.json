@@ -1,0 +1,16 @@
+{
+ "id": "2406.12907",
+ "title": "Reconciling Kaplan and Chinchilla Scaling Laws",
+ "authors": [
+  "Tim Pearce",
+  "Jinyeop Song"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 3,
+ "latest_date": "2024-11-21",
+ "journal_ref": "TMLR 2024",
+ "doi": "",
+ "comment": "Published in TMLR 2024",
+ "abstract": "Kaplan et al. [2020] (`Kaplan') and Hoffmann et al. [2022] (`Chinchilla') studied the scaling behavior of transformers trained on next-token language prediction. These studies produced different estimates for how the number of parameters ($N$) and training tokens ($D$) should be set to achieve the lowest possible loss for a given compute budget ($C$). Kaplan: $N_\\text{optimal} \\propto C^{0.73}$, Chinchilla: $N_\\text{optimal} \\propto C^{0.50}$. This paper finds that much of this discrepancy can be attributed to Kaplan counting non-embedding rather than total parameters, combined with their analysis being performed at small scale. Simulating the Chinchilla study under these conditions produces biased scaling coefficients close to Kaplan's. Hence, this paper reaffirms Chinchilla's scaling coefficients, by explaining the primary cause of Kaplan's original overestimation. As a second contribution, the paper explains differences in the reported relationships between loss and compute. These findings lead us to recommend that future scaling studies use total parameters and compute.",
+ "primary": "cs.LG"
+}

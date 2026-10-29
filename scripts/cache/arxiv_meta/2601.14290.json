@@ -1,0 +1,17 @@
+{
+ "id": "2601.14290",
+ "title": "Project Aletheia: Verifier-Guided Distillation of Backtracking for Small Language Models",
+ "authors": [
+  "Aradhya Dixit",
+  "Tianxi Liang",
+  "Jai Telang"
+ ],
+ "v1_date": "2026-01-14",
+ "latest_version": 1,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Small Language Models (SLMs, under 10B parameters) are attractive for private, on-device deployment, yet they frequently fail on strict constraint-satisfaction problems due to linear, overconfident reasoning traces that do not recover from early mistakes. We introduce Verifier-Guided Distillation, a training protocol that transfers the process of error repair - explicit conflict detection and backtracking - rather than only correct final answers. By training a 7B model on verified reasoning traces that include mistakes and self-corrections, we show that latent verification behavior can emerge in small models, enabling them to occasionally stop, detect contradictions, and revise earlier assumptions.",
+ "primary": "cs.CL"
+}

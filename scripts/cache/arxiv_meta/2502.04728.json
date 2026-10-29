@@ -1,0 +1,22 @@
+{
+ "id": "2502.04728",
+ "title": "Generating Symbolic World Models via Test-time Scaling of Large Language Models",
+ "authors": [
+  "Zhouliang Yu",
+  "Yuhuan Yuan",
+  "Tim Z. Xiao",
+  "Fuxiang Frank Xia",
+  "Jie Fu",
+  "Ge Zhang",
+  "Ge Lin",
+  "Weiyang Liu"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 2,
+ "latest_date": "2025-05-08",
+ "journal_ref": "Transactions on Machine Learning Research, 2025",
+ "doi": "",
+ "comment": "Accepted by TMLR2025 (32 pages, 6 figures)",
+ "abstract": "Solving complex planning problems requires Large Language Models (LLMs) to explicitly model the state transition to avoid rule violations, comply with constraints, and ensure optimality-a task hindered by the inherent ambiguity of natural language. To overcome such ambiguity, Planning Domain Definition Language (PDDL) is leveraged as a planning abstraction that enables precise and formal state descriptions. With PDDL, we can generate a symbolic world model where classic searching algorithms, such as A*, can be seamlessly applied to find optimal plans. However, directly generating PDDL domains with current LLMs remains an open challenge due to the lack of PDDL training data. To address this challenge, we propose to scale up the test-time computation of LLMs to enhance their PDDL reasoning capabilities, thereby enabling the generation of high-quality PDDL domains. Specifically, we introduce a simple yet effective algorithm, which first employs a Best-of-N sampling approach to improve the quality of the initial solution and then refines the solution in a fine-grained manner with verbalized machine learning. Our method outperforms o1-mini by a considerable margin in the generation of PDDL domains, achieving over 50\\% success rate on two tasks (i.e., generating PDDL domains from natural language description or PDDL problems). This is done without requiring additional training. By taking advantage of PDDL as state abstraction, our method is able to outperform current state-of-the-art methods on almost all competition-level planning tasks.",
+ "primary": "cs.AI"
+}

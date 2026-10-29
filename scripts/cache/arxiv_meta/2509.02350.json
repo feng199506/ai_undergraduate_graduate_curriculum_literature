@@ -1,0 +1,23 @@
+{
+ "id": "2509.02350",
+ "title": "Implicit Reasoning in Large Language Models: A Comprehensive Survey",
+ "authors": [
+  "Jindong Li",
+  "Yali Fu",
+  "Li Fan",
+  "Jiahong Liu",
+  "Yao Shu",
+  "Chengwei Qin",
+  "Menglin Yang",
+  "Irwin King",
+  "Rex Ying"
+ ],
+ "v1_date": "2025-09-02",
+ "latest_version": 1,
+ "latest_date": "2025-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) have demonstrated strong generalization across a wide range of tasks. Reasoning with LLMs is central to solving multi-step problems and complex decision-making. To support efficient reasoning, recent studies have shifted attention from explicit chain-of-thought prompting toward implicit reasoning, where reasoning occurs silently via latent structures without emitting intermediate textual steps. Implicit reasoning brings advantages such as lower generation cost, faster inference, and better alignment with internal computation. Although prior surveys have discussed latent representations in the context of reasoning, a dedicated and mechanism-level examination of how reasoning unfolds internally within LLMs remains absent. This survey fills that gap by introducing a taxonomy centered on execution paradigms, shifting the focus from representational forms to computational strategies. We organize existing methods into three execution paradigms based on \\textbf{\\textit{how and where internal computation unfolds}}: latent optimization, signal-guided control, and layer-recurrent execution. We also review structural, behavioral and representation-based evidence that supports the presence of implicit reasoning in LLMs. We further provide a structured overview of the evaluation metrics and benchmarks used in existing works to assess the effectiveness and reliability of implicit reasoning. We maintain a continuously updated project at: https://github.com/digailab/awesome-llm-implicit-reasoning.",
+ "primary": "cs.CL"
+}

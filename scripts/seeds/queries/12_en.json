@@ -1,0 +1,21 @@
+[
+ {"q": "(ti:tutorial OR ti:introduction OR ti:primer) AND abs:\"diffusion models\"", "subtopic": "扩散模型"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"diffusion models\" AND cat:cs.LG", "subtopic": "扩散模型"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:guide) AND abs:\"flow matching\"", "subtopic": "流匹配"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"variational autoencoder\" OR abs:VAE)", "subtopic": "VAE"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"generative adversarial network\" OR abs:GAN)", "subtopic": "GAN"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"deep generative models\"", "subtopic": "生成模型综述"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"text-to-image\" OR abs:\"image generation\") AND abs:diffusion", "subtopic": "多模态生成"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"video generation\" OR abs:\"video diffusion\")", "subtopic": "多模态生成"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"text-to-3D\" OR abs:\"3D generation\")", "subtopic": "多模态生成"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"vision-language\" OR abs:\"CLIP\") AND abs:pretraining", "subtopic": "跨模态表示"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"multimodal large language model\" OR abs:\"multimodal large language models\")", "subtopic": "多模态理解"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"unified\" AND abs:multimodal AND abs:\"understanding and generation\"", "subtopic": "多模态理解与生成"},
+ {"q": "(ti:benchmark OR ti:evaluation) AND abs:\"multimodal large language models\"", "subtopic": "多模态评测"},
+ {"q": "(ti:survey OR ti:review) AND (abs:autoregressive AND abs:\"visual generation\")", "subtopic": "多模态生成"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"audio generation\" OR abs:\"speech synthesis\" OR abs:\"text-to-audio\")", "subtopic": "多模态生成"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"consistency models\" OR abs:\"fast sampling\" OR abs:distillation) AND abs:diffusion", "subtopic": "扩散模型"},
+ {"q": "(ti:survey OR ti:review) AND (abs:\"normalizing flows\" OR abs:\"energy-based models\" OR abs:\"score-based\")", "subtopic": "生成模型综述"},
+ {"q": "(ti:survey OR ti:review) AND (abs:hallucination) AND abs:multimodal", "subtopic": "多模态理解"},
+ {"q": "(ti:survey OR ti:review) AND abs:\"discrete diffusion\"", "subtopic": "扩散模型"}
+]

@@ -1,0 +1,16 @@
+{
+ "id": "2405.19878",
+ "title": "Learning from Random Demonstrations: Offline Reinforcement Learning with Importance-Sampled Diffusion Models",
+ "authors": [
+  "Zeyu Fang",
+  "Tian Lan"
+ ],
+ "v1_date": "2024-05-30",
+ "latest_version": 1,
+ "latest_date": "2024-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative models such as diffusion have been employed as world models in offline reinforcement learning to generate synthetic data for more effective learning. Existing work either generates diffusion models one-time prior to training or requires additional interaction data to update it. In this paper, we propose a novel approach for offline reinforcement learning with closed-loop policy evaluation and world-model adaptation. It iteratively leverages a guided diffusion world model to directly evaluate the offline target policy with actions drawn from it, and then performs an importance-sampled world model update to adaptively align the world model with the updated policy. We analyzed the performance of the proposed method and provided an upper bound on the return gap between our method and the real environment under an optimal policy. The result sheds light on various factors affecting learning performance. Evaluations in the D4RL environment show significant improvement over state-of-the-art baselines, especially when only random or medium-expertise demonstrations are available -- thus requiring improved alignment between the world model and offline policy evaluation.",
+ "primary": "cs.LG"
+}

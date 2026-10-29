@@ -1,0 +1,29 @@
+{
+ "id": "2410.14682",
+ "title": "ET-Plan-Bench: Embodied Task-level Planning Benchmark Towards Spatial-Temporal Cognition with Foundation Models",
+ "authors": [
+  "Lingfeng Zhang",
+  "Yuening Wang",
+  "Hongjian Gu",
+  "Atia Hamidizadeh",
+  "Zhanguang Zhang",
+  "Yuecheng Liu",
+  "Yutong Wang",
+  "David Gamaliel Arcos Bravo",
+  "Junyi Dong",
+  "Shunbo Zhou",
+  "Tongtong Cao",
+  "Xingyue Quan",
+  "Yuzheng Zhuang",
+  "Yingxue Zhang",
+  "Jianye Hao"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 2,
+ "latest_date": "2025-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advancements in Large Language Models (LLMs) have spurred numerous attempts to apply these technologies to embodied tasks, particularly focusing on high-level task planning and task decomposition. To further explore this area, we introduce a new embodied task planning benchmark, ET-Plan-Bench, which specifically targets embodied task planning using LLMs. It features a controllable and diverse set of embodied tasks varying in different levels of difficulties and complexities, and is designed to evaluate two critical dimensions of LLMs' application in embodied task understanding: spatial (relation constraint, occlusion for target objects) and temporal & causal understanding of the sequence of actions in the environment. By using multi-source simulators as the backend simulator, it can provide immediate environment feedback to LLMs, which enables LLMs to interact dynamically with the environment and re-plan as necessary. We evaluated the state-of-the-art open source and closed source foundation models, including GPT-4, LLAMA and Mistral on our proposed benchmark. While they perform adequately well on simple navigation tasks, their performance can significantly deteriorate when faced with tasks that require a deeper understanding of spatial, temporal, and causal relationships. Thus, our benchmark distinguishes itself as a large-scale, quantifiable, highly automated, and fine-grained diagnostic framework that presents a significant challenge to the latest foundation models. We hope it can spark and drive further research in embodied task planning using foundation models.",
+ "primary": "cs.RO"
+}

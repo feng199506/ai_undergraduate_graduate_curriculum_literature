@@ -1,0 +1,17 @@
+{
+ "id": "2506.19417",
+ "title": "Focusing Influence Mechanism for Multi-Agent Reinforcement Learning",
+ "authors": [
+  "Yisak Park",
+  "Sunwoo Lee",
+  "Seungyul Han"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 2,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 technical page followed by references and appendix",
+ "abstract": "Cooperative multi-agent reinforcement learning (MARL) under sparse rewards remains fundamentally challenging because agents often fail to concentrate their influence, leading to insufficiently coordinated exploration. To address this, we propose the Focusing Influence Mechanism (FIM), a framework that encourages agents to focus their influence on under-explored parts of the state space through an entropy-based criterion, while leveraging eligibility traces to enable multiple agents to consistently align and sustain their influence on the same parts of the state space when beneficial, thereby promoting coordinated and persistent joint behavior. By emphasizing under-explored regions of the state space, FIM facilitates more efficient and structured exploration even under extremely sparse rewards. Across diverse MARL benchmarks, FIM consistently improves cooperative performance over strong baselines.",
+ "primary": "cs.LG"
+}

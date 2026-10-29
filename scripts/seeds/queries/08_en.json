@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:\"graphical models\" OR ti:\"probabilistic graphical\" OR ti:\"factor graph\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "概率图模型"},
+ {"q": "abs:\"probabilistic graphical models\" AND (abs:\"deep learning\" OR abs:\"neural\") AND cat:stat.ML", "subtopic": "概率图模型"},
+ {"q": "(ti:\"variational inference\" OR ti:\"variational Bayes\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer)", "subtopic": "变分推断"},
+ {"q": "(ti:\"variational inference\") AND cat:stat.ML", "subtopic": "变分推断"},
+ {"q": "(ti:MCMC OR ti:\"Markov chain Monte Carlo\" OR ti:\"Hamiltonian Monte Carlo\" OR ti:Langevin) AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "MCMC 采样"},
+ {"q": "(ti:\"sequential Monte Carlo\" OR ti:\"particle filter\" OR ti:\"particle filtering\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "SMC 与粒子方法"},
+ {"q": "(ti:\"probabilistic programming\") ", "subtopic": "概率编程"},
+ {"q": "(ti:\"Gaussian process\" OR ti:\"Gaussian processes\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer)", "subtopic": "高斯过程"},
+ {"q": "(ti:\"Gaussian process\" OR ti:\"Gaussian processes\") AND (abs:scalable OR abs:sparse OR abs:kernel) AND cat:stat.ML", "subtopic": "高斯过程"},
+ {"q": "(ti:\"Bayesian deep learning\" OR ti:\"Bayesian neural network\" OR ti:\"Bayesian neural networks\") AND (ti:survey OR ti:review OR ti:position OR ti:tutorial OR ti:primer)", "subtopic": "贝叶斯深度学习"},
+ {"q": "(abs:\"Laplace approximation\" OR abs:\"deep ensembles\" OR abs:\"posterior predictive\") AND abs:\"Bayesian\" AND cat:stat.ML", "subtopic": "贝叶斯深度学习"},
+ {"q": "(ti:\"belief propagation\" OR ti:\"message passing\" OR ti:\"expectation propagation\") AND (abs:inference) AND cat:stat.ML", "subtopic": "近似推断"},
+ {"q": "(ti:\"amortized inference\" OR ti:\"simulation-based inference\" OR ti:\"normalizing flows\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:primer OR ti:benchmark)", "subtopic": "近似推断"},
+ {"q": "(ti:\"hidden Markov\" OR ti:\"state space models\" OR ti:\"latent variable models\" OR ti:\"mixture models\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND cat:stat.ML", "subtopic": "潜变量模型"},
+ {"q": "(ti:\"Bayesian nonparametric\" OR ti:\"Dirichlet process\" OR ti:\"topic models\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "潜变量模型"},
+ {"q": "(ti:\"probabilistic machine learning\" OR ti:\"Bayesian workflow\" OR ti:\"Bayesian inference\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer) AND cat:stat.ML", "subtopic": "概率机器学习"},
+ {"q": "(ti:\"energy-based\" OR ti:\"score-based\" OR ti:\"diffusion\") AND (abs:sampling) AND (abs:\"unnormalized\" OR abs:\"Boltzmann\") AND cat:stat.ML", "subtopic": "MCMC 采样"},
+ {"q": "(ti:\"stochastic gradient MCMC\" OR ti:\"Stein variational\" OR ti:\"Bayesian optimization\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:benchmark)", "subtopic": "概率机器学习"}
+]

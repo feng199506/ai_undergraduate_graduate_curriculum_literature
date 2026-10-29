@@ -1,0 +1,16 @@
+{
+ "id": "2605.19096",
+ "title": "Sharp analysis of sketched least squares and randomized low-rank approximation",
+ "authors": [
+  "Ethan N. Epperly",
+  "Robert J. Webber"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 2,
+ "latest_date": "2026-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 2 figures. v2: Minor edits and typo fixes",
+ "abstract": "Two widely used randomized algorithms are the sketch-and-solve method for least-squares regression and the randomized SVD for low-rank approximation. These algorithms apply a random embedding to compress a target matrix, and they perform computations on the compressed matrix to save computational cost. This paper asks, what is the optimal random embedding in these algorithms? Also, what is the sharpest possible error bound for the optimal embedding? The paper proves that a random orthonormal matrix is minimax optimal for the sketch-and-solve algorithm while any rotation-invariant embedding is minimax optimal for the randomized SVD. Following these results, the paper obtains the best possible error bounds for sketched least-squares and the randomized SVD. Last, empirical experiments provide evidence of universality phenomena, in which several random embeddings lead to similar accuracy to the optimal embeddings in practice.",
+ "primary": "math.NA"
+}

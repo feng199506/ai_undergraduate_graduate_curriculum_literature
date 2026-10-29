@@ -1,0 +1,17 @@
+{
+ "id": "2511.11787",
+ "title": "Towards Mitigating Systematics in Large-Scale Surveys via Few-Shot Optimal Transport-Based Feature Alignment",
+ "authors": [
+  "Sultan Hassan",
+  "Sambatra Andrianomena",
+  "Benjamin D. Wandelt"
+ ],
+ "v1_date": "2025-11-14",
+ "latest_version": 1,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, 3 figures, accepted to NeurIPS Workshop on Unifying Representations in Neural Models (UniReps 2025)",
+ "abstract": "Systematics contaminate observables, leading to distribution shifts relative to theoretically simulated signals-posing a major challenge for using pre-trained models to label such observables. Since systematics are often poorly understood and difficult to model, removing them directly and entirely may not be feasible. To address this challenge, we propose a novel method that aligns learned features between in-distribution (ID) and out-of-distribution (OOD) samples by optimizing a feature-alignment loss on the representations extracted from a pre-trained ID model. We first experimentally validate the method on the MNIST dataset using possible alignment losses, including mean squared error and optimal transport, and subsequently apply it to large-scale maps of neutral hydrogen. Our results show that optimal transport is particularly effective at aligning OOD features when parity between ID and OOD samples is unknown, even with limited data-mimicking real-world conditions in extracting information from large-scale surveys. Our code is available at https://github.com/sultan-hassan/feature-alignment-for-OOD-generalization.",
+ "primary": "astro-ph.IM"
+}

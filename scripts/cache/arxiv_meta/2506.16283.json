@@ -1,0 +1,16 @@
+{
+ "id": "2506.16283",
+ "title": "Random feature approximation for general spectral methods",
+ "authors": [
+  "Mike Nguyen",
+  "Nicole Mücke"
+ ],
+ "v1_date": "2025-06-19",
+ "latest_version": 1,
+ "latest_date": "2025-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2308.15434, arXiv:2412.17518",
+ "abstract": "Random feature approximation is arguably one of the most widely used techniques for kernel methods in large-scale learning algorithms. In this work, we analyze the generalization properties of random feature methods, extending previous results for Tikhonov regularization to a broad class of spectral regularization techniques. This includes not only explicit methods but also implicit schemes such as gradient descent and accelerated algorithms like the Heavy-Ball and Nesterov method. Through this framework, we enable a theoretical analysis of neural networks and neural operators through the lens of the Neural Tangent Kernel (NTK) approach trained via gradient descent. For our estimators we obtain optimal learning rates over regularity classes (even for classes that are not included in the reproducing kernel Hilbert space), which are defined through appropriate source conditions. This improves or completes previous results obtained in related settings for specific kernel algorithms.",
+ "primary": "stat.ML"
+}

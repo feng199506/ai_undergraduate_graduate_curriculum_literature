@@ -1,0 +1,16 @@
+{
+ "id": "2409.12135",
+ "title": "Almost Sure Convergence of Linear Temporal Difference Learning with Arbitrary Features",
+ "authors": [
+  "Jiuqi Wang",
+  "Shangtong Zhang"
+ ],
+ "v1_date": "2024-09-18",
+ "latest_version": 3,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 0 figures",
+ "abstract": "Temporal difference (TD) learning with linear function approximation (linear TD) is a classic and powerful prediction algorithm in reinforcement learning. While it is well-understood that linear TD converges almost surely to a unique point, this convergence traditionally requires the assumption that the features used by the approximator are linearly independent. However, this linear independence assumption does not hold in many practical scenarios. This work is the first to establish the almost sure convergence of linear TD without requiring linearly independent features. We prove that the weight iterates of linear TD converge to a bounded set, and that the value estimates derived from the weights in that set are the same almost everywhere. We also establish a notion of local stability of the weight iterates. Importantly, we do not impose assumptions tailored to feature dependence and do not modify the linear TD algorithm. Key to our analysis is a novel characterization of bounded invariant sets of the mean ODE of linear TD.",
+ "primary": "cs.LG"
+}

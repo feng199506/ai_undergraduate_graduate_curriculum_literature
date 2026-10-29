@@ -1,0 +1,16 @@
+{
+ "id": "2610.27789",
+ "title": "Foundations of the Scaling Law",
+ "authors": [
+  "Tianyu Zhao",
+  "Zhixiang Ren"
+ ],
+ "v1_date": "2026-10-20",
+ "latest_version": 2,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 11 figures, 2 tables. Technical note",
+ "abstract": "Empirical scaling laws relate loss to parameters $N$, training tokens $D$ and compute $C$. This technical note explains three mechanisms behind their exponents. Local approximation bounds function error at rate $N_e^{-γs/d}$, with effective parameters $N_e$, smoothness $s$, reuse exponent $γ$ and dimension $d$; the loss function determines the risk bound. Independent feature coverage gives $α_D=(β-1)/ζ$ from predictive-weight decay $β$ and occurrence rarity $ζ$. Separable-loss optimization determines training allocations and deployment crossovers. Nonlinear scoring can produce apparent emergent abilities, while grokking concerns delayed generalization and verification constrains test-time scaling. For regular molecular configurations, the $\\mathrm{SE}(3)$ quotient gives $d_{\\mathrm{int}}=d-6$ and relative approximation-exponent gain $6/d_{\\mathrm{int}}$. Optimized dense-to-equivariant excess-loss ratios scale as $C^{p_{\\mathrm{eq}}-p_{\\mathrm{dense}}}$, where $p_j$ are compute-loss exponents and the prefactor depends on loss amplitudes and FLOP costs. Domain examples also cover visual resolution, conformational coverage and correlated-sample precision.",
+ "primary": "cs.LG"
+}

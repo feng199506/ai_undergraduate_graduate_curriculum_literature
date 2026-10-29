@@ -1,0 +1,16 @@
+{
+ "id": "2605.05562",
+ "title": "Socio-Conformal Calibration in Complex Survey Data: Marginal Validity Is Not Enough for Subgroup Reliability",
+ "authors": [
+  "Amir Rafe",
+  "Subasish Das"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine-learning systems used in survey-based social measurement require uncertainty estimates that are reliable across population subgroups, not merely valid in aggregate. We study ordinal conformal prediction for five-level AI-attitude forecasting on the Pew American Trends Panel (Wave 152; n=4,591; 12 race x education subgroups), comparing standard split conformal, Mondrian (group-specific) conformal, and a regularized Mondrian comparator across 100 respondent-disjoint splits with survey-weighted evaluation. Standard conformal achieves nominal marginal coverage for all four base predictors but leaves weighted subgroup gaps of ~13 percentage points. For the strongest predictor (XGBoost), Mondrian worsens the fairness-efficiency trade-off: weighted set size rises by +0.036 (dz =1.66) while the weighted subgroup gap grows by +0.013 (dz =0.30). A regularized comparator that shrinks group thresholds toward the global quantile mitigates this instability (Delta gap = -0.001, Delta size = +0.012) but does not yield a decisive fairness gain. Failure analysis traces the mechanism to calibration-cell fragmentation interacting with group-specific confidence mismatch. The negative result persists across alternate outcome codings and subgroup granularities, demonstrating that nominal marginal validity is insufficient for subgroup reliability and that naive group-specific calibration is not a dependable fairness remedy in complex survey settings.",
+ "primary": "stat.ME"
+}

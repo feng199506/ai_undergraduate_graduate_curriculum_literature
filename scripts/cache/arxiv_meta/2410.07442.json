@@ -1,0 +1,18 @@
+{
+ "id": "2410.07442",
+ "title": "Self-Supervised Learning for Real-World Object Detection: a Survey",
+ "authors": [
+  "Alina Ciocarlan",
+  "Sidonie Lefebvre",
+  "Sylvie Le Hégarat-Mascle",
+  "Arnaud Woiselle"
+ ],
+ "v1_date": "2024-10-09",
+ "latest_version": 2,
+ "latest_date": "2024-10-11",
+ "journal_ref": "",
+ "doi": "10.1016/j.cviu.2026.104783",
+ "comment": "",
+ "abstract": "Self-Supervised Learning (SSL) has emerged as a promising approach in computer vision, enabling networks to learn meaningful representations from large unlabeled datasets. SSL methods fall into two main categories: instance discrimination and Masked Image Modeling (MIM). While instance discrimination is fundamental to SSL, it was originally designed for classification and may be less effective for object detection, particularly for small objects. In this survey, we focus on SSL methods specifically tailored for real-world object detection, with an emphasis on detecting small objects in complex environments. Unlike previous surveys, we offer a detailed comparison of SSL strategies, including object-level instance discrimination and MIM methods, and assess their effectiveness for small object detection using both CNN and ViT-based architectures. Specifically, our benchmark is performed on the widely-used COCO dataset, as well as on a specialized real-world dataset focused on vehicle detection in infrared remote sensing imagery. We also assess the impact of pre-training on custom domain-specific datasets, highlighting how certain SSL strategies are better suited for handling uncurated data. Our findings highlight that instance discrimination methods perform well with CNN-based encoders, while MIM methods are better suited for ViT-based architectures and custom dataset pre-training. This survey provides a practical guide for selecting optimal SSL strategies, taking into account factors such as backbone architecture, object size, and custom pre-training requirements. Ultimately, we show that choosing an appropriate SSL pre-training strategy, along with a suitable encoder, significantly enhances performance in real-world object detection, particularly for small object detection in frugal settings.",
+ "primary": "cs.CV"
+}

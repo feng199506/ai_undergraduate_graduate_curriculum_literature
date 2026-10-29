@@ -1,0 +1,18 @@
+{
+ "id": "2408.06212",
+ "title": "Computability of Classification and Deep Learning: From Theoretical Limits to Practical Feasibility through Quantization",
+ "authors": [
+  "Holger Boche",
+  "Vit Fojtik",
+  "Adalbert Fono",
+  "Gitta Kutyniok"
+ ],
+ "v1_date": "2024-08-12",
+ "latest_version": 1,
+ "latest_date": "2024-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The unwavering success of deep learning in the past decade led to the increasing prevalence of deep learning methods in various application fields. However, the downsides of deep learning, most prominently its lack of trustworthiness, may not be compatible with safety-critical or high-responsibility applications requiring stricter performance guarantees. Recently, several instances of deep learning applications have been shown to be subject to theoretical limitations of computability, undermining the feasibility of performance guarantees when employed on real-world computers. We extend the findings by studying computability in the deep learning framework from two perspectives: From an application viewpoint in the context of classification problems and a general limitation viewpoint in the context of training neural networks. In particular, we show restrictions on the algorithmic solvability of classification problems that also render the algorithmic detection of failure in computations in a general setting infeasible. Subsequently, we prove algorithmic limitations in training deep neural networks even in cases where the underlying problem is well-behaved. Finally, we end with a positive observation, showing that in quantized versions of classification and deep network training, computability restrictions do not arise or can be overcome to a certain degree.",
+ "primary": "cs.LG"
+}

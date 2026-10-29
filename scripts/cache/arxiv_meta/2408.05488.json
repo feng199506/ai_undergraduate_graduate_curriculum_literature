@@ -1,0 +1,16 @@
+{
+ "id": "2408.05488",
+ "title": "Structure and Reduction of MCTS for Explainable-AI",
+ "authors": [
+  "Ronit Bustin",
+  "Claudia V. Goldman"
+ ],
+ "v1_date": "2024-08-10",
+ "latest_version": 1,
+ "latest_date": "2024-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ECAI 2024",
+ "abstract": "Complex sequential decision-making planning problems, covering infinite states' space have been shown to be solvable by AlphaZero type of algorithms. Such an approach that trains a neural model while simulating projection of futures with a Monte Carlo Tree Search algorithm were shown to be applicable to real life planning problems. As such, engineers and users interacting with the resulting policy of behavior might benefit from obtaining automated explanations about these planners' decisions offline or online. This paper focuses on the information within the Monte Carlo Tree Search data structure. Given its construction, this information contains much of the reasoning of the sequential decision-making algorithm and is essential for its explainability. We show novel methods using information theoretic tools for the simplification and reduction of the Monte Carlo Tree Search and the extraction of information. Such information can be directly used for the construction of human understandable explanations. We show that basic explainability quantities can be calculated with limited additional computational cost, as an integrated part of the Monte Carlo Tree Search construction process. We focus on the theoretical and algorithmic aspects and provide examples of how the methods presented here can be used in the construction of human understandable explanations.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2609.37525",
+ "title": "Physical Muon: Orthogonalization as an Equilibrium Computation",
+ "authors": [
+  "Yuren Hao"
+ ],
+ "v1_date": "2026-09-29",
+ "latest_version": 1,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at 18th annual workshop on Optimization for Machine Learning",
+ "abstract": "Physical neural networks and analog in-memory computing could reduce the energy cost of neural network training. Realizing this potential, however, requires optimizers that combine effective learning with physical implementability. SGD fits local analog updates but struggles on transformers, while Adam family is unstable against analog bias. Muon offers strong training performance, but its Newton--Schulz orthogonalization relies on dense matrix-matrix products. To address this obstacle, we introduce Physical Muon, which computes the orthogonalization as the equilibrium of a continuous-time flow. Random probes approximate the flow using matrix-vector products, reciprocal reads, and local rank-1 writes. To test whether this replacement preserves training performance, we evaluate it on a 10.95M-parameter transformer. The dense flow's mean validation cross-entropy is 0.0085 above Newton--Schulz across nine seeds per method; the probe implementation is 0.0188 above the control across two seeds. Circuit simulations further reproduce the flow dynamics and yield comparable training behavior.",
+ "primary": "cs.LG"
+}

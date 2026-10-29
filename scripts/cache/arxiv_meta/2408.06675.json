@@ -1,0 +1,17 @@
+{
+ "id": "2408.06675",
+ "title": "Latin Treebanks in Review: An Evaluation of Morphological Tagging Across Time",
+ "authors": [
+  "Marisa Hudspeth",
+  "Brendan O'Connor",
+  "Laure Thompson"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 1,
+ "latest_date": "2024-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Existing Latin treebanks draw from Latin's long written tradition, spanning 17 centuries and a variety of cultures. Recent efforts have begun to harmonize these treebanks' annotations to better train and evaluate morphological taggers. However, the heterogeneity of these treebanks must be carefully considered to build effective and reliable data. In this work, we review existing Latin treebanks to identify the texts they draw from, identify their overlap, and document their coverage across time and genre. We additionally design automated conversions of their morphological feature annotations into the conventions of standard Latin grammar. From this, we build new time-period data splits that draw from the existing treebanks which we use to perform a broad cross-time analysis for POS and morphological feature tagging. We find that BERT-based taggers outperform existing taggers while also being more robust to cross-domain shifts.",
+ "primary": "cs.CL"
+}

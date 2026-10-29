@@ -1,0 +1,16 @@
+{
+ "id": "2401.11954",
+ "title": "RUMBoost: Gradient Boosted Random Utility Models",
+ "authors": [
+  "Nicolas Salvadé",
+  "Tim Hillel"
+ ],
+ "v1_date": "2024-01-22",
+ "latest_version": 1,
+ "latest_date": "2024-01-22",
+ "journal_ref": "",
+ "doi": "10.1016/j.trc.2024.104897",
+ "comment": "",
+ "abstract": "This paper introduces the RUMBoost model, a novel discrete choice modelling approach that combines the interpretability and behavioural robustness of Random Utility Models (RUMs) with the generalisation and predictive ability of deep learning methods. We obtain the full functional form of non-linear utility specifications by replacing each linear parameter in the utility functions of a RUM with an ensemble of gradient boosted regression trees. This enables piece-wise constant utility values to be imputed for all alternatives directly from the data for any possible combination of input variables. We introduce additional constraints on the ensembles to ensure three crucial features of the utility specifications: (i) dependency of the utilities of each alternative on only the attributes of that alternative, (ii) monotonicity of marginal utilities, and (iii) an intrinsically interpretable functional form, where the exact response of the model is known throughout the entire input space. Furthermore, we introduce an optimisation-based smoothing technique that replaces the piece-wise constant utility values of alternative attributes with monotonic piece-wise cubic splines to identify non-linear parameters with defined gradient. We demonstrate the potential of the RUMBoost model compared to various ML and Random Utility benchmark models for revealed preference mode choice data from London. The results highlight the great predictive performance and the direct interpretability of our proposed approach. Furthermore, the smoothed attribute utility functions allow for the calculation of various behavioural indicators and marginal utilities. Finally, we demonstrate the flexibility of our methodology by showing how the RUMBoost model can be extended to complex model specifications, including attribute interactions, correlation within alternative error terms and heterogeneity within the population.",
+ "primary": "cs.LG"
+}

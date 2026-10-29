@@ -1,0 +1,16 @@
+{
+ "id": "2406.07440",
+ "title": "Textual Similarity as a Key Metric in Machine Translation Quality Estimation",
+ "authors": [
+  "Kun Sun",
+  "Rong Wang"
+ ],
+ "v1_date": "2024-06-11",
+ "latest_version": 2,
+ "latest_date": "2024-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine Translation (MT) Quality Estimation (QE) assesses translation reliability without reference texts. This study introduces \"textual similarity\" as a new metric for QE, using sentence transformers and cosine similarity to measure semantic closeness. Analyzing data from the MLQE-PE dataset, we found that textual similarity exhibits stronger correlations with human scores than traditional metrics (hter, model evaluation, sentence probability etc.). Employing GAMMs as a statistical tool, we demonstrated that textual similarity consistently outperforms other metrics across multiple language pairs in predicting human scores. We also found that \"hter\" actually failed to predict human scores in QE. Our findings highlight the effectiveness of textual similarity as a robust QE metric, recommending its integration with other metrics into QE frameworks and MT system training for improved accuracy and usability.",
+ "primary": "cs.CL"
+}

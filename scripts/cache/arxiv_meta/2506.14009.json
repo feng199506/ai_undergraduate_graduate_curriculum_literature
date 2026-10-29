@@ -1,0 +1,21 @@
+{
+ "id": "2506.14009",
+ "title": "GRaD-Nav++: Vision-Language Model Enabled Visual Drone Navigation with Gaussian Radiance Fields and Differentiable Dynamics",
+ "authors": [
+  "Qianzhong Chen",
+  "Naixiang Gao",
+  "Suning Huang",
+  "JunEn Low",
+  "Timothy Chen",
+  "Jiankai Sun",
+  "Mac Schwager"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 2,
+ "latest_date": "2026-05-15",
+ "journal_ref": "Chen, Qianzhong, et al. \"Grad-nav++: Vision-language model enabled visual drone navigation with gaussian radiance fields and differentiable dynamics.\" IEEE Robotics and Automation Letters 11.2 (2025): 1418-1425",
+ "doi": "10.1109/lra.2025.3643290",
+ "comment": "Published in: IEEE Robotics and Automation Letters ( Volume: 11, Issue: 2, February 2026)",
+ "abstract": "Autonomous drones capable of interpreting and executing high-level language instructions in unstructured environments remain a long-standing goal. Yet existing approaches are constrained by their dependence on hand-crafted skills, extensive parameter tuning, or computationally intensive models unsuitable for onboard use. We introduce GRaD-Nav++, a lightweight Vision-Language-Action (VLA) framework that runs fully onboard and follows natural-language commands in real time. Our policy is trained in a photorealistic 3D Gaussian Splatting (3DGS) simulator via Differentiable Reinforcement Learning (DiffRL), enabling efficient learning of low-level control from visual and linguistic inputs. At its core is a Mixture-of-Experts (MoE) action head, which adaptively routes computation to improve generalization while mitigating forgetting. In multi-task generalization experiments, GRaD-Nav++ achieves a success rate of 83% on trained tasks and 75% on unseen tasks in simulation. When deployed on real hardware, it attains 67% success on trained tasks and 50% on unseen ones. In multi-environment adaptation experiments, GRaD-Nav++ achieves an average success rate of 81% across diverse simulated environments and 67% across varied real-world settings. These results establish a new benchmark for fully onboard Vision-Language-Action (VLA) flight and demonstrate that compact, efficient models can enable reliable, language-guided navigation without relying on external infrastructure.",
+ "primary": "cs.RO"
+}

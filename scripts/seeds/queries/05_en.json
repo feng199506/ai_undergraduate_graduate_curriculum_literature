@@ -1,0 +1,78 @@
+[
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:\"heuristic search\"",
+  "subtopic": "搜索算法"
+ },
+ {
+  "q": "abs:\"heuristic search\" AND (abs:\"large language model\" OR abs:\"learned heuristic\") AND cat:cs.AI",
+  "subtopic": "搜索算法"
+ },
+ {
+  "q": "abs:\"Monte Carlo tree search\" AND (ti:survey OR ti:review OR abs:planning) AND cat:cs.AI",
+  "subtopic": "搜索算法"
+ },
+ {
+  "q": "abs:\"constraint satisfaction\" AND (ti:survey OR ti:review OR abs:\"machine learning\" OR abs:\"language model\")",
+  "subtopic": "约束满足"
+ },
+ {
+  "q": "(abs:\"SAT solving\" OR abs:\"SAT solver\" OR abs:\"combinatorial optimization\") AND (ti:survey OR ti:review) AND abs:learning",
+  "subtopic": "约束满足"
+ },
+ {
+  "q": "abs:\"knowledge representation\" AND (ti:survey OR ti:review OR ti:position) AND (abs:\"language model\" OR abs:reasoning)",
+  "subtopic": "知识表示"
+ },
+ {
+  "q": "(ti:\"knowledge graph\" OR ti:ontology) AND (ti:survey OR ti:review) AND abs:reasoning",
+  "subtopic": "知识表示"
+ },
+ {
+  "q": "(ti:\"logical reasoning\" OR ti:\"deductive reasoning\") AND (ti:survey OR ti:benchmark OR ti:evaluating)",
+  "subtopic": "逻辑推理"
+ },
+ {
+  "q": "(abs:\"theorem proving\" OR abs:\"first-order logic\") AND (ti:survey OR abs:\"language model\") AND cat:cs.AI",
+  "subtopic": "逻辑推理"
+ },
+ {
+  "q": "(ti:neurosymbolic OR ti:\"neuro-symbolic\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:perspective)",
+  "subtopic": "神经符号"
+ },
+ {
+  "q": "(abs:\"probabilistic logic\" OR abs:\"probabilistic reasoning\" OR abs:\"reasoning under uncertainty\") AND cat:cs.AI AND (ti:survey OR abs:\"language model\")",
+  "subtopic": "不确定性推理"
+ },
+ {
+  "q": "abs:\"Bayesian network\" AND (abs:\"language model\" OR ti:survey) AND cat:cs.AI",
+  "subtopic": "不确定性推理"
+ },
+ {
+  "q": "(abs:PDDL OR abs:\"classical planning\" OR abs:\"automated planning\") AND abs:\"language model\"",
+  "subtopic": "LLM 与经典规划"
+ },
+ {
+  "q": "(ti:planning) AND (ti:survey OR ti:benchmark OR ti:\"can large language models\") AND abs:\"language model\"",
+  "subtopic": "LLM 与经典规划"
+ },
+ {
+  "q": "(abs:\"automated planning\" OR abs:\"generalized planning\" OR abs:\"learning for planning\") AND cat:cs.AI AND (ti:survey OR ti:review OR abs:\"graph neural\")",
+  "subtopic": "规划与决策"
+ },
+ {
+  "q": "(abs:\"decision making under uncertainty\" OR abs:POMDP OR abs:\"multi-agent systems\") AND (ti:survey OR ti:tutorial) AND cat:cs.AI",
+  "subtopic": "规划与决策"
+ },
+ {
+  "q": "(ti:\"answer set programming\" OR ti:\"logic programming\" OR ti:Prolog) AND cat:cs.AI",
+  "subtopic": "知识表示"
+ },
+ {
+  "q": "(ti:\"game theory\" OR ti:\"mechanism design\" OR ti:\"game playing\") AND (ti:survey OR ti:tutorial OR ti:introduction) AND cat:cs.AI",
+  "subtopic": "规划与决策"
+ },
+ {
+  "q": "(ti:SAT OR ti:satisfiability OR ti:\"constraint programming\" OR ti:MiniZinc) AND (abs:\"machine learning\" OR abs:\"language model\" OR abs:\"neural\") AND cat:cs.AI",
+  "subtopic": "约束满足"
+ }
+]

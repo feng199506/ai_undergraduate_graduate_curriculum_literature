@@ -1,0 +1,23 @@
+{
+ "id": "2404.10393",
+ "title": "Offline Trajectory Optimization for Offline Reinforcement Learning",
+ "authors": [
+  "Ziqi Zhao",
+  "Zhaochun Ren",
+  "Liu Yang",
+  "Yunsen Liang",
+  "Fajie Yuan",
+  "Pengjie Ren",
+  "Zhumin Chen",
+  "jun Ma",
+  "Xin Xin"
+ ],
+ "v1_date": "2024-04-16",
+ "latest_version": 2,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at SIGKDD 2025",
+ "abstract": "Offline reinforcement learning (RL) aims to learn policies without online explorations. To enlarge the training data, model-based offline RL learns a dynamics model which is utilized as a virtual environment to generate simulation data and enhance policy learning. However, existing data augmentation methods for offline RL suffer from (i) trivial improvement from short-horizon simulation; and (ii) the lack of evaluation and correction for generated data, leading to low-qualified augmentation. In this paper, we propose offline trajectory optimization for offline reinforcement learning (OTTO). The key motivation is to conduct long-horizon simulation and then utilize model uncertainty to evaluate and correct the augmented data. Specifically, we propose an ensemble of Transformers, a.k.a. World Transformers, to predict environment state dynamics and the reward function. Three strategies are proposed to use World Transformers to generate long-horizon trajectory simulation by perturbing the actions in the offline data. Then, an uncertainty-based World Evaluator is introduced to firstly evaluate the confidence of the generated trajectories and then perform the correction for low-confidence data. Finally, we jointly use the original data with the corrected augmentation data to train an offline RL algorithm. OTTO serves as a plug-in module and can be integrated with existing model-free offline RL methods. Experiments on various benchmarks show that OTTO can effectively improve the performance of representative offline RL algorithms, including in complex environments with sparse rewards like AntMaze. Codes are available at https://github.com/ZiqiZhao1/OTTO.",
+ "primary": "cs.LG"
+}

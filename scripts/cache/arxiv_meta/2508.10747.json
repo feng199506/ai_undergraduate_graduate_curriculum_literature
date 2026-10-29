@@ -1,0 +1,19 @@
+{
+ "id": "2508.10747",
+ "title": "Scaling Up without Fading Out: Goal-Aware Sparse GNN for RL-based Generalized Planning",
+ "authors": [
+  "Sangwoo Jeon",
+  "Juchul Shin",
+  "Gyeong-Tae Kim",
+  "YeonJe Cho",
+  "Seongwoo Kim"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 3,
+ "latest_date": "2025-11-09",
+ "journal_ref": "International Journal of Control, Automation, and Systems, 23, 2025",
+ "doi": "10.1007/s12555-025-0543-2",
+ "comment": "Accepted for publication in International Journal of Control, Automation, and Systems (IJCAS). The Version of Record is available via the publisher",
+ "abstract": "Generalized planning using deep reinforcement learning (RL) combined with graph neural networks (GNNs) has shown promising results in various symbolic planning domains described by PDDL. However, existing approaches typically represent planning states as fully connected graphs, leading to a combinatorial explosion in edge information and substantial sparsity as problem scales grow, especially evident in large grid-based environments. This dense representation results in diluted node-level information, exponentially increases memory requirements, and ultimately makes learning infeasible for larger-scale problems. To address these challenges, we propose a sparse, goal-aware GNN representation that selectively encodes relevant local relationships and explicitly integrates spatial features related to the goal. We validate our approach by designing novel drone mission scenarios based on PDDL within a grid world, effectively simulating realistic mission execution environments. Our experimental results demonstrate that our method scales effectively to larger grid sizes previously infeasible with dense graph representations and substantially improves policy generalization and success rates. Our findings provide a practical foundation for addressing realistic, large-scale generalized planning tasks.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2503.12141",
+ "title": "Enhanced Sentiment Analysis of Iranian Restaurant Reviews Utilizing Sentiment Intensity Analyzer & Fuzzy Logic",
+ "authors": [
+  "Shayan Rokhva",
+  "Babak Teimourpour",
+  "Romina Babaei"
+ ],
+ "v1_date": "2025-03-15",
+ "latest_version": 1,
+ "latest_date": "2025-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This research presents an advanced sentiment analysis framework studied on Iranian restaurant reviews, combining fuzzy logic with conventional sentiment analysis techniques to assess both sentiment polarity and intensity. A dataset of 1266 reviews, alongside corresponding star ratings, was compiled and preprocessed for analysis. Initial sentiment analysis was conducted using the Sentiment Intensity Analyzer (VADER), a rule-based tool that assigns sentiment scores across positive, negative, and neutral categories. However, a noticeable bias toward neutrality often led to an inaccurate representation of sentiment intensity. To mitigate this issue, based on a fuzzy perspective, two refinement techniques were introduced, applying square-root and fourth-root transformations to amplify positive and negative sentiment scores while maintaining neutrality. This led to three distinct methodologies: Approach 1, utilizing unaltered VADER scores; Approach 2, modifying sentiment values using the square root; and Approach 3, applying the fourth root for further refinement. A Fuzzy Inference System incorporating comprehensive fuzzy rules was then developed to process these refined scores and generate a single, continuous sentiment value for each review based on each approach. Comparative analysis, including human supervision and alignment with customer star ratings, revealed that the refined approaches significantly improved sentiment analysis by reducing neutrality bias and better capturing sentiment intensity. Despite these advancements, minor over-amplification and persistent neutrality in domain-specific cases were identified, leading us to propose several future studies to tackle these occasional barriers. The study's methodology and outcomes offer valuable insights for businesses seeking a more precise understanding of consumer sentiment, enhancing sentiment analysis across various industries.",
+ "primary": "cs.CL"
+}

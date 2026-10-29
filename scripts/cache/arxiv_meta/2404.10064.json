@@ -1,0 +1,19 @@
+{
+ "id": "2404.10064",
+ "title": "The Feasibility Theory of Constrained Reinforcement Learning: A Tutorial Study",
+ "authors": [
+  "Yujie Yang",
+  "Zhilong Zheng",
+  "Masayoshi Tomizuka",
+  "Changliu Liu",
+  "Shengbo Eben Li"
+ ],
+ "v1_date": "2024-04-15",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "Foundations and Trends in Systems and Control (2026) 13(1)",
+ "doi": "10.1108/ftsys-03-2026-001",
+ "comment": "",
+ "abstract": "Satisfying safety constraints is a priority concern when solving optimal control problems (OCPs). Due to the existence of infeasibility phenomenon, where a constraint-satisfying solution cannot be found, it is necessary to identify a feasible region before implementing a policy. Existing feasibility theories built for model predictive control (MPC) only consider the feasibility of optimal policy. However, reinforcement learning (RL), as another important control method, solves the optimal policy in an iterative manner, which comes with a series of non-optimal intermediate policies. Feasibility analysis of these non-optimal policies is also necessary for iteratively improving constraint satisfaction; but that is not available under existing MPC feasibility theories. This paper proposes a feasibility theory that applies to both MPC and RL by filling in the missing part of feasibility analysis for an arbitrary policy. The basis of our theory is to decouple policy solving and implementation into two temporal domains: virtual-time domain and real-time domain. This allows us to separately define initial and endless, state and policy feasibility, and their corresponding feasible regions. Based on these definitions, we analyze the containment relationships between different feasible regions, which enables us to describe the feasible region of an arbitrary policy. We further provide virtual-time constraint design rules along with a practical design tool called feasibility function that helps to achieve the maximum feasible region. We review most of existing constraint formulations and point out that they are essentially applications of feasibility functions in different forms. We demonstrate our feasibility theory by visualizing different feasible regions under both MPC and RL policies in an emergency braking control task.",
+ "primary": "eess.SY"
+}

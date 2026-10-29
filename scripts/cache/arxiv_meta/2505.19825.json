@@ -1,0 +1,16 @@
+{
+ "id": "2505.19825",
+ "title": "Position: Foundation Models for Tabular Data within Systemic Contexts Need Grounding",
+ "authors": [
+  "Tassilo Klein",
+  "Johannes Hoffart"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 2,
+ "latest_date": "2026-01-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This position paper argues that foundation models for tabular data face inherent limitations when isolated from operational context - the procedural logic, declarative rules, and domain knowledge that define how data is created and governed. Current approaches focus on single-table generalization or schema-level relationships, fundamentally missing the operational knowledge that gives data meaning. We introduce Semantically Linked Tables (SLT) and Foundation Models for SLT (FMSLT) as a new model class that grounds tabular data in its operational context. We propose dual-phase training: pre-training on open-source code-data pairs and synthetic systems to learn business logic mechanics, followed by zero-shot inference on proprietary data. We introduce the ``Operational Turing Test'' benchmark and argue that operational grounding is essential for autonomous agents in complex data environments.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2607.28349",
+ "title": "Multi-branch classification of diffuse cluster radio emission from the LOFAR two-metre sky survey",
+ "authors": [
+  "Markus Bredberg",
+  "Emma Tolley"
+ ],
+ "v1_date": "2026-07-30",
+ "latest_version": 2,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 12 figures, Accepted in A&A",
+ "abstract": "Context. Galaxy clusters sometimes host synchrotron radiation on scales of approximately 100 kpc to approximately 1 Mpc, with a surface brightness only a few times the image noise. This diffuse cluster radio emission is a sensitive probe of magnetic fields and intracluster medium dynamics, but disentangling the underlying physical processes requires statistically large samples spanning a wide range of cluster masses, dynamical states, and redshifts, together with a sufficient sensitivity to low-surface-brightness emission. Aims. We explore two techniques for improving the detection of diffuse emission in galaxy cluster images, relative to a baseline classifier: the scattering transform (ST) and squeeze-excitation (SE) attention. Methods. We integrated an ST encoder into a dual-branch classifier (DualSSN) and a scattering network (ScatterNet). We incorporated SE attention into the DualSSN and dual-branch convolutional neural network (DualCSN). These classifiers were then benchmarked against a simple convolutional neural network (CNN), across ten image pre-processing configurations and three cropping strategies. Performance was evaluated on small labelled datasets from the second data release of the LOFAR Two-metre Sky Survey overlapping with the Second Planck catalogue of Sunyaev-Zel'dovich sources (LoTSS-DR2/PSZ2). Results. Alongside the multi-branch approach with SE and ST, cropping the image to a fixed number of telescope beams and uv tapering (smoothing to a coarser angular resolution) improve classification performance, while tacking multiple pre-processed versions of an image does not. Conclusions. Scattering-transform-based multi-branch architectures with beam-normalised cropping are a promising direction for diffuse emission classification in the SKA era.",
+ "primary": "astro-ph.CO"
+}

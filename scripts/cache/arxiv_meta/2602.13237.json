@@ -1,0 +1,18 @@
+{
+ "id": "2602.13237",
+ "title": "NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models",
+ "authors": [
+  "Rizky Ramadhana Putra",
+  "Raihan Sultan Pasha Basuki",
+  "Yutong Cheng",
+  "Peng Gao"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 1,
+ "latest_date": "2026-01-29",
+ "journal_ref": "2026.findings-eacl.317",
+ "doi": "10.18653/v1/2026.findings-eacl.317",
+ "comment": "Accepted to Findings of EACL 2026. 17 pages, 6 figures",
+ "abstract": "Automated reasoning is critical in domains such as law and governance, where verifying claims against facts in documents requires both accuracy and interpretability. Recent work adopts structured reasoning pipelines that translate natural language into first-order logic and delegate inference to automated solvers. With the rise of large language models, approaches such as GCD and CODE4LOGIC leverage their reasoning and code generation capabilities to improve logic parsing. However, these methods suffer from fragile syntax control due to weak enforcement of global grammar constraints and low semantic faithfulness caused by insufficient clause-level semantic understanding. We propose NL2LOGIC, a first-order logic translation framework that introduces an abstract syntax tree as an intermediate representation. NL2LOGIC combines a recursive large language model based semantic parser with an abstract syntax tree guided generator that deterministically produces solver-ready logic code. Experiments on the FOLIO, LogicNLI, and ProofWriter benchmarks show that NL2LOGIC achieves 99 percent syntactic accuracy and improves semantic correctness by up to 30 percent over state-of-the-art baselines. Furthermore, integrating NL2LOGIC into Logic-LM yields near-perfect executability and improves downstream reasoning accuracy by 31 percent compared to Logic-LM's original few-shot unconstrained translation module.",
+ "primary": "cs.AI"
+}

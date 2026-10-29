@@ -1,0 +1,22 @@
+{
+ "id": "2607.15606",
+ "title": "Seq2Synth: Benchmarking Temporal Fidelity in Synthetic Sequential Tabular Data",
+ "authors": [
+  "Kiwan Kwon",
+  "Kangmin Kim",
+  "Hojin Lee",
+  "Yeseong Jung",
+  "Hyeongwoo Kong",
+  "Vamsi K. Potluru",
+  "Saerom Park",
+  "Yongjae Lee"
+ ],
+ "v1_date": "2026-07-17",
+ "latest_version": 3,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "10.1145/3799682.3841108",
+ "comment": "26 pages, 10 figures, 25 tables. Extended version of the paper accepted at CIKM 2026. The conference proceedings version contains Appendix A only",
+ "abstract": "Synthetic sequential tabular data are increasingly used for privacy-preserving data sharing and research, yet conventional tabular metrics often overlook temporal structure. Existing single-table and relational evaluation protocols largely collapse records into static distributions, leaving key temporal properties insufficiently evaluated. We introduce Seq2Synth, a unified benchmark for assessing these properties. Its taxonomy characterizes temporal and schema properties to determine applicable evaluations, covering timestamp, cross-sectional, longitudinal, and structural fidelity, alongside trajectory-aware utility and privacy. Across seven core datasets from a 13-dataset benchmark and eight generators, models with near-perfect static fidelity still violate basic temporal constraints, producing duplicate timestamps, irregular intervals, and incomplete observation grids. Moreover, static and temporal-aware rankings diverge substantially, showing that temporal fidelity must be evaluated directly rather than inferred from static or relational scores. Project page and online appendices are available at: https://seq2synth.github.io/.",
+ "primary": "cs.LG"
+}

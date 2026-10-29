@@ -1,0 +1,16 @@
+{
+ "id": "2412.17855",
+ "title": "Foxtsage vs. Adam: Revolution or Evolution in Optimization?",
+ "authors": [
+  "Sirwan A. Aula",
+  "Tarik A. Rashid"
+ ],
+ "v1_date": "2024-12-20",
+ "latest_version": 1,
+ "latest_date": "2024-12-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41",
+ "abstract": "Optimization techniques are pivotal in neural network training, shaping both predictive performance and convergence efficiency. This study introduces Foxtsage, a novel hybrid optimisation approach that integrates the Hybrid FOX-TSA with Stochastic Gradient Descent for training Multi-Layer Perceptron models. The proposed Foxtsage method is benchmarked against the widely adopted Adam optimizer across multiple standard datasets, focusing on key performance metrics such as training loss, accuracy, precision, recall, F1-score, and computational time. Experimental results demonstrate that Foxtsage achieves a 42.03% reduction in loss mean (Foxtsage: 9.508, Adam: 16.402) and a 42.19% improvement in loss standard deviation (Foxtsage: 20.86, Adam: 36.085), reflecting enhanced consistency and robustness. Modest improvements in accuracy mean (0.78%), precision mean (0.91%), recall mean (1.02%), and F1-score mean (0.89%) further underscore its predictive performance. However, these gains are accompanied by an increased computational cost, with a 330.87% rise in time mean (Foxtsage: 39.541 seconds, Adam: 9.177 seconds). By effectively combining the global search capabilities of FOX-TSA with the stability and adaptability of SGD, Foxtsage presents itself as a robust and viable alternative for neural network optimization tasks.",
+ "primary": "cs.NE"
+}

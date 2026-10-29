@@ -1,0 +1,17 @@
+{
+ "id": "2610.05681",
+ "title": "Automatic Speech Recognition for Low-Resource Sinhala: A Critical Review of Methods, Challenges, and Future Directions",
+ "authors": [
+  "Chanuka Dinuwan",
+  "Sanath Jayasena",
+  "Buddhika Karunarathne"
+ ],
+ "v1_date": "2026-10-05",
+ "latest_version": 1,
+ "latest_date": "2026-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 1 table. Submitted to Computer Speech & Language",
+ "abstract": "Automatic speech recognition (ASR) for low-resource languages remains a major challenge. Sinhala, the primary language of Sri Lanka with about 16 million speakers, illustrates the difficulty: agglutinative morphology, a 54-phoneme inventory, subject-object-verb (SOV) syntax and scarce annotated speech data limit both conventional and modern ASR systems. This paper presents the first critical review of Sinhala ASR research, tracing its development from Hidden Markov Models (HMMs) through deep neural networks to self-supervised pre-trained models such as wav2vec 2.0, XLS-R, Whisper and Massively Multilingual Speech (MMS). We compare existing Sinhala systems with related low-resource ASR work on Tamil, Malayalam and Hindi in terms of architecture, training data, word error rate (WER) and robustness to real-world acoustic conditions, and we assess self-supervised and transfer learning as responses to scarce labeled data. We show that most reported WERs are not directly comparable because they differ in corpus, data split and scoring, and that the only controlled comparison in the literature attributes an 18.1% relative WER reduction to corpus correction alone. We also discuss context-aware ASR that draws on phonological, syntactic and semantic knowledge. We identify six research gaps: (1) the lack of large annotated corpora covering multiple dialects and acoustic conditions; (2) weak contextual modeling of Sinhala morphosyntax; (3) high WER in real-world conditions; (4) the absence of standardized benchmarks; (5) the lack of parameter-efficient fine-tuning studies; and (6) the absence of annotated code-switched Sinhala-English speech resources. We outline a research agenda to address these gaps, intended as a roadmap for researchers working on Sinhala and other morphologically rich languages.",
+ "primary": "cs.CL"
+}

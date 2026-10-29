@@ -1,0 +1,18 @@
+{
+ "id": "2312.12169",
+ "title": "Kilonova-Targeting Lightcurve Classification for Wide Field Survey Telescope",
+ "authors": [
+  "Runduo Liang",
+  "Zhengyan Liu",
+  "Lei Lei",
+  "Wen Zhao"
+ ],
+ "v1_date": "2023-12-19",
+ "latest_version": 1,
+ "latest_date": "2023-12-19",
+ "journal_ref": "Universe 2024, 10(1), 10",
+ "doi": "10.3390/universe10010010",
+ "comment": "19 pages, 9 figures, 2 tables. Accepted for publication in Universe",
+ "abstract": "With the enhancement of sensitivity of Gravitational Wave (GW) detectors and capabilities of large survey facilities, such as Vera Rubin Observatory Legacy Survey of Space and Time (LSST) and 2.5-m Wide Field Survey Telescope (WFST), we now have the potential to detect an increasing number of distant kilonova (KN). However, distinguishing KN from the plethora of detected transients in ongoing and future follow-up surveys presents a significant challenge. In this study, our objective is to establish an efficient classification mechanism tailored for the follow-up survey conducted by WFST, with a specific focus on identifying KN associated with GW. We employ a novel temporal convolutional neural network architecture, trained using simulated multi-band photometry lasting for 3 days by WFST, accompanied by contextual information, i.e. luminosity distance information by GW. By comparison of the choices of contextual information, we can reach 95\\% precision, and 94\\% recall for our best model. It also performs good validation on photometry data on AT2017gfo and AT2019npv. Furthermore, we investigate the ability of the model to distinguish KN in a GW follow-up survey. We conclude that there is over 80\\% probability that we can capture true KN in selected 20 candidates among $\\sim 250$ detected astrophysical transients that have passed real-bogus filter and cross-matching.",
+ "primary": "astro-ph.IM"
+}

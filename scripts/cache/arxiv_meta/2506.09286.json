@@ -1,0 +1,19 @@
+{
+ "id": "2506.09286",
+ "title": "Causal Graph Recovery in Neuroimaging through Answer Set Programming",
+ "authors": [
+  "Mohammadsajad Abavisani",
+  "Kseniya Solovyeva",
+  "David Danks",
+  "Vince Calhoun",
+  "Sergey Plis"
+ ],
+ "v1_date": "2025-06-10",
+ "latest_version": 1,
+ "latest_date": "2025-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning graphical causal structures from time series data presents significant challenges, especially when the measurement frequency does not match the causal timescale of the system. This often leads to a set of equally possible underlying causal graphs due to information loss from sub-sampling (i.e., not observing all possible states of the system throughout time). Our research addresses this challenge by incorporating the effects of sub-sampling in the derivation of causal graphs, resulting in more accurate and intuitive outcomes. We use a constraint optimization approach, specifically answer set programming (ASP), to find the optimal set of answers. ASP not only identifies the most probable underlying graph, but also provides an equivalence class of possible graphs for expert selection. In addition, using ASP allows us to leverage graph theory to further prune the set of possible solutions, yielding a smaller, more accurate answer set significantly faster than traditional approaches. We validate our approach on both simulated data and empirical structural brain connectivity, and demonstrate its superiority over established methods in these experiments. We further show how our method can be used as a meta-approach on top of established methods to obtain, on average, 12% improvement in F1 score. In addition, we achieved state of the art results in terms of precision and recall of reconstructing causal graph from sub-sampled time series data. Finally, our method shows robustness to varying degrees of sub-sampling on realistic simulations, whereas other methods perform worse for higher rates of sub-sampling.",
+ "primary": "cs.LG"
+}

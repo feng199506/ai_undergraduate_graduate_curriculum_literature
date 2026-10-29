@@ -1,0 +1,20 @@
+{
+ "id": "2604.07119",
+ "title": "Are Non-English Papers Reviewed Fairly? Language-of-Study Bias in NLP Peer Reviews",
+ "authors": [
+  "Ehsan Barkhordar",
+  "Abdulfattah Safa",
+  "Verena Blaschke",
+  "Erika Lombart",
+  "Marie-Catherine de Marneffe",
+  "Gözde Gül Şahin"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 2,
+ "latest_date": "2026-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 10 figures, 9 tables. EMNLP 2026 camera-ready version",
+ "abstract": "Peer review plays a central role in the NLP publication process, but is susceptible to various biases. Here, we study language-of-study (LoS) bias: the tendency for reviewers to evaluate a paper differently based on the language(s) it studies, rather than its scientific merit. Despite being explicitly flagged in reviewing guidelines, such biases are poorly understood. Prior work treats such comments as part of broader categories of weak or unconstructive reviews without defining them as a distinct form of bias. We present the first systematic characterization of LoS bias, distinguishing negative and positive forms, and introduce the human-annotated dataset LOBSTER (Language-Of-study Bias in ScienTific pEer Review) and an LLM-based detection pipeline achieving 87.37 macro F1. We analyze 15,645 reviews to estimate how negative and positive biases differ with respect to the LoS, and find that non-English papers face substantially higher bias rates than English-only ones, with negative bias consistently outweighing positive bias. Finally, we identify four subcategories of negative bias, and find that demanding unjustified cross-lingual generalization is the most dominant form. We publicly release all resources to support work on fairer reviewing practices in NLP and beyond.",
+ "primary": "cs.CL"
+}

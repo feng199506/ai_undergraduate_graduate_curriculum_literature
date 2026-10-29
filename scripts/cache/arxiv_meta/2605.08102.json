@@ -1,0 +1,17 @@
+{
+ "id": "2605.08102",
+ "title": "Path-Based Gradient Boosting for Graph-Level Prediction",
+ "authors": [
+  "Claudio Meggio",
+  "Johan Pensar",
+  "Riccardo De Bin"
+ ],
+ "v1_date": "2026-04-26",
+ "latest_version": 1,
+ "latest_date": "2026-04-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 Pages, 1 figure",
+ "abstract": "We propose PathBoost, a gradient tree boosting method for graph-level classification and regression that learns discriminative path-based features directly from the input graph structure. Building on a previous work, which was tailored to a specific chemistry application, PathBoost introduces three key extensions: (i) adaptation to binary classification through gradient boosting with a logistic loss, (ii) incorporation of multiple node and edge attributes into the path feature space via a prefix-based decomposition, and (iii) automatic anchor node selection based on categorical attribute diversity, eliminating the need for the user to specify the starting point of the considered path features. We compared PathBoost to graph neural networks and graph kernel approaches on several benchmark datasets, obtaining better results in half of them, and comparable results in the rest. PathBoost shows better performances on graphs with larger average node counts. Overall, the results demonstrate that path-based boosting methods can be competitive with more complex black-box approaches.",
+ "primary": "cs.LG"
+}

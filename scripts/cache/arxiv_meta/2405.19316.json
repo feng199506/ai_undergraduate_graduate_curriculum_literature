@@ -1,0 +1,22 @@
+{
+ "id": "2405.19316",
+ "title": "Robust Preference Optimization through Reward Model Distillation",
+ "authors": [
+  "Adam Fisch",
+  "Jacob Eisenstein",
+  "Vicky Zayats",
+  "Alekh Agarwal",
+  "Ahmad Beirami",
+  "Chirag Nagpal",
+  "Pete Shaw",
+  "Jonathan Berant"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 2,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Language model (LM) post-training (or alignment) involves maximizing a reward function that is derived from preference annotations. Direct Preference Optimization (DPO) is a popular offline alignment method that trains a policy directly on preference data without the need to train a reward model or apply reinforcement learning. However, the empirical evidence suggests that DPO typically assigns implicit rewards that overfit, and trend towards infinite magnitude. This frequently leads to degenerate policies, sometimes causing even the probabilities of the preferred generations to go to zero. In this work, we analyze this phenomenon and use distillation to get a better proxy for the true preference distribution over generation pairs: we train the LM such that its induced implicit reward, i.e., the scaled log-likelihood ratio of the model to the reference model, matches an explicit reward model trained on the preference data. Moreover, to account for uncertainty in the reward model we are distilling from, we optimize against a family of reward models that, as a whole, is likely to include at least one reasonable proxy for the preference distribution. Our results show that distilling from such a family of reward models leads to improved robustness to distribution shift in preference annotations, while preserving the simple supervised nature of DPO.",
+ "primary": "cs.LG"
+}

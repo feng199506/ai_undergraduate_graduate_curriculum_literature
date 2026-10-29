@@ -1,0 +1,17 @@
+{
+ "id": "2503.23163",
+ "title": "The realization of tones in spontaneous spoken Taiwan Mandarin: a corpus-based survey and theory-driven computational modeling",
+ "authors": [
+  "Yuxin Lu",
+  "Yu-Ying Chuang",
+  "R. Harald Baayen"
+ ],
+ "v1_date": "2025-03-29",
+ "latest_version": 1,
+ "latest_date": "2025-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A growing body of literature has demonstrated that semantics can co-determine fine phonetic detail. However, the complex interplay between phonetic realization and semantics remains understudied, particularly in pitch realization. The current study investigates the tonal realization of Mandarin disyllabic words with all 20 possible combinations of two tones, as found in a corpus of Taiwan Mandarin spontaneous speech. We made use of Generalized Additive Mixed Models (GAMs) to model f0 contours as a function of a series of predictors, including gender, tonal context, tone pattern, speech rate, word position, bigram probability, speaker and word. In the GAM analysis, word and sense emerged as crucial predictors of f0 contours, with effect sizes that exceed those of tone pattern. For each word token in our dataset, we then obtained a contextualized embedding by applying the GPT-2 large language model to the context of that token in the corpus. We show that the pitch contours of word tokens can be predicted to a considerable extent from these contextualized embeddings, which approximate token-specific meanings in contexts of use. The results of our corpus study show that meaning in context and phonetic realization are far more entangled than standard linguistic theory predicts.",
+ "primary": "cs.CL"
+}

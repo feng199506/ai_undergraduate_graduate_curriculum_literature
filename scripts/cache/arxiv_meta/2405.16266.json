@@ -1,0 +1,17 @@
+{
+ "id": "2405.16266",
+ "title": "Deep Reinforcement Learning with Enhanced PPO for Safe Mobile Robot Navigation",
+ "authors": [
+  "Hamid Taheri",
+  "Seyed Rasoul Hosseini",
+  "Mohammad Ali Nekoui"
+ ],
+ "v1_date": "2024-05-25",
+ "latest_version": 2,
+ "latest_date": "2024-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper is under review by Int. J. of Intelligent Machines and Robotics",
+ "abstract": "Collision-free motion is essential for mobile robots. Most approaches to collision-free and efficient navigation with wheeled robots require parameter tuning by experts to obtain good navigation behavior. This study investigates the application of deep reinforcement learning to train a mobile robot for autonomous navigation in a complex environment. The robot utilizes LiDAR sensor data and a deep neural network to generate control signals guiding it toward a specified target while avoiding obstacles. We employ two reinforcement learning algorithms in the Gazebo simulation environment: Deep Deterministic Policy Gradient and proximal policy optimization. The study introduces an enhanced neural network structure in the Proximal Policy Optimization algorithm to boost performance, accompanied by a well-designed reward function to improve algorithm efficacy. Experimental results conducted in both obstacle and obstacle-free environments underscore the effectiveness of the proposed approach. This research significantly contributes to the advancement of autonomous robotics in complex environments through the application of deep reinforcement learning.",
+ "primary": "cs.RO"
+}

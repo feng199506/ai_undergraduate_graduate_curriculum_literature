@@ -1,0 +1,26 @@
+{
+ "id": "2509.24276",
+ "title": "G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge",
+ "authors": [
+  "Linhao Luo",
+  "Zicheng Zhao",
+  "Junnan Liu",
+  "Zhangchi Qiu",
+  "Junnan Dong",
+  "Serge Panev",
+  "Chen Gong",
+  "Thuy-Trang Vu",
+  "Gholamreza Haffari",
+  "Dinh Phung",
+  "Alan Wee-Chung Liew",
+  "Shirui Pan"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 4,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICLR 2026",
+ "abstract": "Large language models (LLMs) excel at complex reasoning but remain limited by static and incomplete parametric knowledge. Retrieval-augmented generation (RAG) mitigates this by incorporating external knowledge, yet existing RAGs struggle with knowledge-intensive tasks due to fragmented information and weak modeling of knowledge structure. Graphs offer a natural way to model relationships within knowledge, but LLMs are inherently unstructured and cannot effectively reason over graph-structured data. Recent graph-enhanced RAG (GraphRAG) attempts to bridge this gap by constructing tailored graphs and enabling LLMs to reason on them. However, these methods often depend on ad-hoc graph designs, heuristic search, or costly agent pipelines, which hinder scalability and generalization. To address these challenges, we present G-reasoner, a unified framework that integrates graph and language foundation models for scalable reasoning over diverse graph-structured knowledge. Central to our approach is QuadGraph, a standardized four-layer abstraction that unifies heterogeneous knowledge sources into a common graph representation. Building on this, we introduce a 34M-parameter graph foundation model (GFM) that jointly captures graph topology and textual semantics, and is integrated with LLMs to enhance reasoning in downstream applications. To ensure scalability and efficiency, mixed-precision training and distributed message-passing are implemented to scale GFM with more GPUs. Extensive experiments on six benchmarks show that G-reasoner consistently outperforms state-of-the-art baselines, significantly enhances LLM reasoning, and achieves strong efficiency and cross-graph generalization.",
+ "primary": "cs.AI"
+}
