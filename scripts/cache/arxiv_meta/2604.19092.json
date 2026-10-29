@@ -1,0 +1,25 @@
+{
+ "id": "2604.19092",
+ "title": "RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation",
+ "authors": [
+  "Feng Jiang",
+  "Yang Chen",
+  "Kyle Xu",
+  "Yuchen Liu",
+  "Haifeng Wang",
+  "Zhenhao Shen",
+  "Jasper Lu",
+  "Shengze Huang",
+  "Yuanfei Wang",
+  "Chen Xie",
+  "Ruihai Wu"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 2,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in large-scale video world models have enabled increasingly realistic future prediction, raising the prospect of using generated videos as scalable supervision for robot learning. However, for embodied manipulation, perceptual realism alone is not sufficient: generated interactions must also be physically consistent and executable by robotic agents. Existing benchmarks provide valuable assessments of visual quality and physical plausibility, but they do not systematically evaluate whether predicted behaviors can be translated into executable actions that complete manipulation tasks. We introduce RoboWM-Bench, a manipulation-centric benchmark for embodiment-grounded evaluation of video world models. RoboWM-Bench converts generated human-hand and robotic manipulation videos into embodied action sequences and validates them through execution in physically grounded simulation environments. Built on real-to-sim scene reconstruction and diverse manipulation tasks, RoboWM-Bench enables standardized, reproducible, and scalable evaluation of physical executability. Using RoboWM-Bench, we evaluate state-of-the-art video world models and observe that visual plausibility and embodied executability are not always aligned. Our analysis highlights several recurring factors that affect execution performance, including spatial reasoning, contact prediction, and non-physical geometric distortions, particularly in complex and long-horizon interactions. These findings provide a more fine-grained view of current model capabilities and underscore the value of embodiment-aware evaluation for guiding physically grounded world modeling in robotic manipulation.",
+ "primary": "cs.RO"
+}

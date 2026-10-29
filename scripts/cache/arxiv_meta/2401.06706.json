@@ -1,0 +1,18 @@
+{
+ "id": "2401.06706",
+ "title": "Multi-Candidate Speculative Decoding",
+ "authors": [
+  "Sen Yang",
+  "Shujian Huang",
+  "Xinyu Dai",
+  "Jiajun Chen"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 1,
+ "latest_date": "2024-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models have shown impressive capabilities across a variety of NLP tasks, yet their generating text autoregressively is time-consuming. One way to speed them up is speculative decoding, which generates candidate segments (a sequence of tokens) from a fast draft model that is then verified in parallel by the target model. However, the acceptance rate of candidate tokens receives limitations from several factors, such as the model, the dataset, and the decoding setup. This paper proposes sampling multiple candidates from a draft model and then organising them in batches for verification. We design algorithms for efficient multi-candidate verification while maintaining the distribution of the target model. Our approach shows significant improvements in acceptance rates on multiple datasets and models, consistently outperforming standard speculative decoding.",
+ "primary": "cs.CL"
+}

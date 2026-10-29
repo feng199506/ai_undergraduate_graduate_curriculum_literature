@@ -1,0 +1,19 @@
+{
+ "id": "2407.19231",
+ "title": "Alleviating Over-Smoothing via Aggregation over Compact Manifolds",
+ "authors": [
+  "Dongzhuoran Zhou",
+  "Hui Yang",
+  "Bo Xiong",
+  "Yue Ma",
+  "Evgeny Kharlamov"
+ ],
+ "v1_date": "2024-07-27",
+ "latest_version": 1,
+ "latest_date": "2024-07-27",
+ "journal_ref": "",
+ "doi": "10.1007/978-981-97-2253-2_31",
+ "comment": "This paper has been accepted by PAKDD 2024 as an oral presentation",
+ "abstract": "Graph neural networks (GNNs) have achieved significant success in various applications. Most GNNs learn the node features with information aggregation of its neighbors and feature transformation in each layer. However, the node features become indistinguishable after many layers, leading to performance deterioration: a significant limitation known as over-smoothing. Past work adopted various techniques for addressing this issue, such as normalization and skip-connection of layer-wise output. After the study, we found that the information aggregations in existing work are all contracted aggregations, with the intrinsic property that features will inevitably converge to the same single point after many layers. To this end, we propose the aggregation over compacted manifolds method (ACM) that replaces the existing information aggregation with aggregation over compact manifolds, a special type of manifold, which avoids contracted aggregations. In this work, we theoretically analyze contracted aggregation and its properties. We also provide an extensive empirical evaluation that shows ACM can effectively alleviate over-smoothing and outperforms the state-of-the-art. The code can be found in https://github.com/DongzhuoranZhou/ACM.git.",
+ "primary": "cs.LG"
+}

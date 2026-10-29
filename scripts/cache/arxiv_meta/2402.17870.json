@@ -1,0 +1,18 @@
+{
+ "id": "2402.17870",
+ "title": "Stochastic Approximation with Biased MCMC for Expectation Maximization",
+ "authors": [
+  "Samuel Gruffaz",
+  "Kyurae Kim",
+  "Alain Oliviero Durmus",
+  "Jacob R. Gardner"
+ ],
+ "v1_date": "2024-02-27",
+ "latest_version": 1,
+ "latest_date": "2024-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AISTATS'24",
+ "abstract": "The expectation maximization (EM) algorithm is a widespread method for empirical Bayesian inference, but its expectation step (E-step) is often intractable. Employing a stochastic approximation scheme with Markov chain Monte Carlo (MCMC) can circumvent this issue, resulting in an algorithm known as MCMC-SAEM. While theoretical guarantees for MCMC-SAEM have previously been established, these results are restricted to the case where asymptotically unbiased MCMC algorithms are used. In practice, MCMC-SAEM is often run with asymptotically biased MCMC, for which the consequences are theoretically less understood. In this work, we fill this gap by analyzing the asymptotics and non-asymptotics of SAEM with biased MCMC steps, particularly the effect of bias. We also provide numerical experiments comparing the Metropolis-adjusted Langevin algorithm (MALA), which is asymptotically unbiased, and the unadjusted Langevin algorithm (ULA), which is asymptotically biased, on synthetic and real datasets. Experimental results show that ULA is more stable with respect to the choice of Langevin stepsize and can sometimes result in faster convergence.",
+ "primary": "stat.CO"
+}

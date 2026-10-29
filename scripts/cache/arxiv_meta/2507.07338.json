@@ -1,0 +1,16 @@
+{
+ "id": "2507.07338",
+ "title": "Bayesian Double Descent",
+ "authors": [
+  "Nick Polson",
+  "Vadim Sokolov"
+ ],
+ "v1_date": "2025-07-09",
+ "latest_version": 3,
+ "latest_date": "2025-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Double descent is a phenomenon of over-parameterized statistical models such as deep neural networks which have a re-descending property in their risk function. As the complexity of the model increases, risk exhibits a U-shaped region due to the traditional bias-variance trade-off, then as the number of parameters equals the number of observations and the model becomes one of interpolation where the risk can be unbounded and finally, in the over-parameterized region, it re-descends -- the double descent effect. Our goal is to show that this has a natural Bayesian interpretation. We also show that this is not in conflict with the traditional Occam's razor -- simpler models are preferred to complex ones, all else being equal. Our theoretical foundations use Bayesian model selection, the Dickey-Savage density ratio, and connect generalized ridge regression and global-local shrinkage methods with double descent. We illustrate our approach for high dimensional neural networks and provide detailed treatments of infinite Gaussian means models and non-parametric regression. Finally, we conclude with directions for future research.",
+ "primary": "stat.ML"
+}

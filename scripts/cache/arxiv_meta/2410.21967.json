@@ -1,0 +1,21 @@
+{
+ "id": "2410.21967",
+ "title": "Dual Conditional Diffusion Models for Sequential Recommendation",
+ "authors": [
+  "Hongtao Huang",
+  "Chengkai Huang",
+  "Tong Yu",
+  "Xiaojun Chang",
+  "Wen Hu",
+  "Julian McAuley",
+  "Lina Yao"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 2,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advancements in diffusion models have shown promising results in sequential recommendation (SR). Existing approaches predominantly rely on implicit conditional diffusion models, which compress user behaviors into a single representation during the forward diffusion process. While effective to some extent, this oversimplification often leads to the loss of sequential and contextual information, which is critical for understanding user behavior. Moreover, explicit information, such as user-item interactions or sequential patterns, remains underutilized, despite its potential to directly guide the recommendation process and improve precision. However, combining implicit and explicit information is non-trivial, as it requires dynamically integrating these complementary signals while avoiding noise and irrelevant patterns within user behaviors. To address these challenges, we propose Dual Conditional Diffusion Models for Sequential Recommendation (DCRec), which effectively integrates implicit and explicit information by embedding dual conditions into both the forward and reverse diffusion processes. This allows the model to retain valuable sequential and contextual information while leveraging explicit user-item interactions to guide the recommendation process. Specifically, we introduce the Dual Conditional Diffusion Transformer (DCDT), which employs a cross-attention mechanism to dynamically integrate explicit signals throughout the diffusion stages, ensuring contextual understanding and minimizing the influence of irrelevant patterns. This design enables precise and contextually relevant recommendations. Extensive experiments on public benchmark datasets demonstrate that DCRec significantly outperforms state-of-the-art methods in both accuracy and computational efficiency.",
+ "primary": "cs.IR"
+}

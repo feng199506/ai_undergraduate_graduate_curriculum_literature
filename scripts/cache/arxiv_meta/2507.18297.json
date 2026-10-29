@@ -1,0 +1,19 @@
+{
+ "id": "2507.18297",
+ "title": "Self-Supervised Coarsening of Unstructured Grid with Automatic Differentiation",
+ "authors": [
+  "Sergei Shumilin",
+  "Alexander Ryabov",
+  "Nikolay Yavich",
+  "Evgeny Burnaev",
+  "Vladimir Vanovskiy"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 1,
+ "latest_date": "2025-07-24",
+ "journal_ref": "Proceedings of the 41st International Conference on Machine Learning, PMLR 235:45315-45328, 2024",
+ "doi": "",
+ "comment": "",
+ "abstract": "Due to the high computational load of modern numerical simulation, there is a demand for approaches that would reduce the size of discrete problems while keeping the accuracy reasonable. In this work, we present an original algorithm to coarsen an unstructured grid based on the concepts of differentiable physics. We achieve this by employing k-means clustering, autodifferentiation and stochastic minimization algorithms. We demonstrate performance of the designed algorithm on two PDEs: a linear parabolic equation which governs slightly compressible fluid flow in porous media and the wave equation. Our results show that in the considered scenarios, we reduced the number of grid points up to 10 times while preserving the modeled variable dynamics in the points of interest. The proposed approach can be applied to the simulation of an arbitrary system described by evolutionary partial differential equations.",
+ "primary": "cs.LG"
+}

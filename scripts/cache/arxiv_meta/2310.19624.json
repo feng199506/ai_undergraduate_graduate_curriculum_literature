@@ -1,0 +1,20 @@
+{
+ "id": "2310.19624",
+ "title": "Exploring Post-Training Quantization of Protein Language Models",
+ "authors": [
+  "Shuang Peng",
+  "Fei Yang",
+  "Ning Sun",
+  "Sheng Chen",
+  "Yanfeng Jiang",
+  "Aimin Pan"
+ ],
+ "v1_date": "2023-10-30",
+ "latest_version": 1,
+ "latest_date": "2023-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures",
+ "abstract": "Recent advancements in unsupervised protein language models (ProteinLMs), like ESM-1b and ESM-2, have shown promise in different protein prediction tasks. However, these models face challenges due to their high computational demands, significant memory needs, and latency, restricting their usage on devices with limited resources. To tackle this, we explore post-training quantization (PTQ) for ProteinLMs, focusing on ESMFold, a simplified version of AlphaFold based on ESM-2 ProteinLM. Our study is the first attempt to quantize all weights and activations of ProteinLMs. We observed that the typical uniform quantization method performs poorly on ESMFold, causing a significant drop in TM-Score when using 8-bit quantization. We conducted extensive quantization experiments, uncovering unique challenges associated with ESMFold, particularly highly asymmetric activation ranges before Layer Normalization, making representation difficult using low-bit fixed-point formats. To address these challenges, we propose a new PTQ method for ProteinLMs, utilizing piecewise linear quantization for asymmetric activation values to ensure accurate approximation. We demonstrated the effectiveness of our method in protein structure prediction tasks, demonstrating that ESMFold can be accurately quantized to low-bit widths without compromising accuracy. Additionally, we applied our method to the contact prediction task, showcasing its versatility. In summary, our study introduces an innovative PTQ method for ProteinLMs, addressing specific quantization challenges and potentially leading to the development of more efficient ProteinLMs with significant implications for various protein-related applications.",
+ "primary": "cs.LG"
+}

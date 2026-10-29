@@ -1,0 +1,16 @@
+{
+ "id": "2409.12301",
+ "title": "Amortized Variational Inference for Deep Gaussian Processes",
+ "authors": [
+  "Qiuxian Meng",
+  "Yongyou Zhang"
+ ],
+ "v1_date": "2024-09-18",
+ "latest_version": 1,
+ "latest_date": "2024-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian processes (GPs) are Bayesian nonparametric models for function approximation with principled predictive uncertainty estimates. Deep Gaussian processes (DGPs) are multilayer generalizations of GPs that can represent complex marginal densities as well as complex mappings. As exact inference is either computationally prohibitive or analytically intractable in GPs and extensions thereof, some existing methods resort to variational inference (VI) techniques for tractable approximations. However, the expressivity of conventional approximate GP models critically relies on independent inducing variables that might not be informative enough for some problems. In this work we introduce amortized variational inference for DGPs, which learns an inference function that maps each observation to variational parameters. The resulting method enjoys a more expressive prior conditioned on fewer input dependent inducing variables and a flexible amortized marginal posterior that is able to model more complicated functions. We show with theoretical reasoning and experimental results that our method performs similarly or better than previous approaches at less computational cost.",
+ "primary": "stat.ML"
+}

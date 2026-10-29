@@ -1,0 +1,17 @@
+{
+ "id": "2609.23535",
+ "title": "Decoupled Causal Discovery",
+ "authors": [
+  "Zhengkang Guan",
+  "Fei Wu",
+  "Kun Kuang"
+ ],
+ "v1_date": "2026-09-20",
+ "latest_version": 1,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages",
+ "abstract": "Causal discovery from observational data is a fundamental yet challenging task in scientific research. While existing approaches are primarily based on conditional independence tests, structure scores, or restrictive functional assumptions, we propose Decoupled Causal Discovery (DCD), a novel decoupling-based perspective that does not rely on these methodologies. DCD directly identifies the Markov boundary (MB) by decoupling non-target variables via weighting functions, such that only variables within the MB preserve dependence with the target under the decoupled distribution. Building on this, DCD iteratively constructs the Completed Partially Directed Acyclic Graph (CPDAG) by exploiting structural asymmetries within the MBs. We establish the theoretical identifiability, soundness, and completeness of DCD. Empirical evaluations demonstrate that DCD achieves strong performance, particularly excelling in challenging noise regimes.",
+ "primary": "cs.LG"
+}

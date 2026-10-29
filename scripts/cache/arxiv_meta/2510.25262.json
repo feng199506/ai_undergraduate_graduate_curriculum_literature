@@ -1,0 +1,18 @@
+{
+ "id": "2510.25262",
+ "title": "IBNorm: Information-Bottleneck Inspired Normalization for Representation Learning",
+ "authors": [
+  "Xiandong Zou",
+  "Jia Li",
+  "Xiaotong Yuan",
+  "Pan Zhou"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Normalization is fundamental to deep learning, but existing approaches such as BatchNorm, LayerNorm, and RMSNorm are variance-centric by enforcing zero mean and unit variance, stabilizing training without controlling how representations capture task-relevant information. We propose IB-Inspired Normalization (IBNorm), a simple yet powerful family of methods grounded in the Information Bottleneck principle. IBNorm introduces bounded compression operations that encourage embeddings to preserve predictive information while suppressing nuisance variability, yielding more informative representations while retaining the stability and compatibility of standard normalization. Theoretically, we prove that IBNorm achieves a higher IB value and tighter generalization bounds than variance-centric methods. Empirically, IBNorm consistently outperforms BatchNorm, LayerNorm, and RMSNorm across large-scale language models (LLaMA, GPT-2) and vision models (ResNet, ViT), with mutual information analysis confirming superior information bottleneck behavior. Code will be released publicly.",
+ "primary": "cs.LG"
+}

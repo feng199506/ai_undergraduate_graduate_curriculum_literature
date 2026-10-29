@@ -1,0 +1,20 @@
+{
+ "id": "2506.10426",
+ "title": "Towards Understanding Bugs in Distributed Training and Inference Frameworks for Large Language Models",
+ "authors": [
+  "Xiao Yu",
+  "Haoxuan Chen",
+  "Feifei Niu",
+  "Xing Hu",
+  "Jacky Wai Keung",
+  "Xin Xia"
+ ],
+ "v1_date": "2025-06-12",
+ "latest_version": 1,
+ "latest_date": "2025-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the rapid development of large language models (LLMs), distributed training and inference frameworks like DeepSpeed have become essential for scaling model training and inference across multiple GPUs or nodes. However, the increasing complexity of these frameworks brings non-trivial software bugs, which may degrade training performance, cause unexpected failures, and result in significant resource waste. Understanding framework bugs' characteristics is fundamental for quality assurance, allowing the design of more effective debugging and repair methods. Thus, our paper conducts the first large-scale empirical analysis of 308 fixed bugs across three popular distributed training/inference frameworks: DeepSpeed, Megatron-LM, and Colossal-AI. We examine bug symptoms, root causes, bug identification and fixing efforts, and common low-effort fixing strategies. Additionally, the distributed nature of these frameworks introduces unique bug root causes, such as allocation strategy error and distributed communication error. Diagnosing and fixing complex bugs remains challenging due to factors like the disconnect between symptoms and root causes, high bug reproduction costs, and low-level or cross-component interactions. Interestingly, we observe that 48% of bug fixes require minimal code changes (<=10 LOC) and follow simple strategies such as conditional logic optimization, parameter handling enhancement, or version compatibility handling, indicating potential for automation. Based on these insights, we offer several implications for improving the reliability of both distributed training and inference frameworks and their dependent LLM projects, while also identifying opportunities to leverage LLM-based tools for automated debugging and repair.",
+ "primary": "cs.SE"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2408.05682",
+ "title": "Decoupling Generation and Evaluation for Parallel Greedy Best-First Search(extended version)",
+ "authors": [
+  "Takumi Shimoda",
+  "Alex Fukunaga"
+ ],
+ "v1_date": "2024-08-11",
+ "latest_version": 2,
+ "latest_date": "2025-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "In Proceedings of SoCS 2025",
+ "abstract": "In order to understand and control the search behavior of parallel search, recent work has proposed a class of constrained parallel greedy best-first search algorithms which only expands states that satisfy some constraint.However, enforcing such constraints can be costly, as threads must be waiting idly until a state that satisfies the expansion constraint is available. We propose an improvement to constrained parallel search which decouples state generation and state evaluation and significantly improves state evaluation rate, resulting in better search performance.",
+ "primary": "cs.AI"
+}

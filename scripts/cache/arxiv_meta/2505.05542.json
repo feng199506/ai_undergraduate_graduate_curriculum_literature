@@ -1,0 +1,16 @@
+{
+ "id": "2505.05542",
+ "title": "A Common Interface for Automatic Differentiation",
+ "authors": [
+  "Guillaume Dalle",
+  "Adrian Hill"
+ ],
+ "v1_date": "2025-05-08",
+ "latest_version": 1,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 2 figures, 3 listings, 1 table",
+ "abstract": "For scientific machine learning tasks with a lot of custom code, picking the right Automatic Differentiation (AD) system matters. Our Julia package DifferentiationInterface$.$jl provides a common frontend to a dozen AD backends, unlocking easy comparison and modular development. In particular, its built-in preparation mechanism leverages the strengths of each backend by amortizing one-time computations. This is key to enabling sophisticated features like sparsity handling without putting additional burdens on the user.",
+ "primary": "cs.MS"
+}

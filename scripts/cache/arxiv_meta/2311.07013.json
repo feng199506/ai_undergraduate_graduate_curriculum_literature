@@ -1,0 +1,19 @@
+{
+ "id": "2311.07013",
+ "title": "A PAC-Bayesian Perspective on the Interpolating Information Criterion",
+ "authors": [
+  "Liam Hodgkinson",
+  "Chris van der Heide",
+  "Robert Salomone",
+  "Fred Roosta",
+  "Michael W. Mahoney"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 1,
+ "latest_date": "2023-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages",
+ "abstract": "Deep learning is renowned for its theory-practice gap, whereby principled theory typically fails to provide much beneficial guidance for implementation in practice. This has been highlighted recently by the benign overfitting phenomenon: when neural networks become sufficiently large to interpolate the dataset perfectly, model performance appears to improve with increasing model size, in apparent contradiction with the well-known bias-variance tradeoff. While such phenomena have proven challenging to theoretically study for general models, the recently proposed Interpolating Information Criterion (IIC) provides a valuable theoretical framework to examine performance for overparameterized models. Using the IIC, a PAC-Bayes bound is obtained for a general class of models, characterizing factors which influence generalization performance in the interpolating regime. From the provided bound, we quantify how the test error for overparameterized models achieving effectively zero training error depends on the quality of the implicit regularization imposed by e.g. the combination of model, optimizer, and parameter-initialization scheme; the spectrum of the empirical neural tangent kernel; curvature of the loss landscape; and noise present in the data.",
+ "primary": "stat.ML"
+}

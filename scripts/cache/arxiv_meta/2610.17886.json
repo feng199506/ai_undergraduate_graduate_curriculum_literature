@@ -1,0 +1,17 @@
+{
+ "id": "2610.17886",
+ "title": "Compositional Information Geometry of Probabilistic Programs",
+ "authors": [
+  "Jacek Karwowski",
+  "Frank Nielsen",
+  "Sam Staton"
+ ],
+ "v1_date": "2026-10-13",
+ "latest_version": 1,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the compositional, intensional information geometry of probabilistic programs. For a first-order probabilistic programming language with finite random variables, we construct a contravariant lax monoidal functor that, for a program of type $X \\to Y$, pulls back a (degenerate) Riemannian metric on $Y$ to $X$. It specialises to the Fisher metric in the case of standard statistical models and to ordinary pullback in the case of deterministic programs. We further justify this construction in two ways. First, we show that this functor arises as a pullback of geometry from a universal space of programs over a type $Y$ with a fixed trace space. Second, we show that it is a special case of a more general pullback construction over weighted measures. Our compositional geometry depends on the presentation of the program, and we study how it relates to the (non-compositional) geometry of the realised measures by establishing a three-level inequality relating our score-velocity metric for the program, the program's corresponding output-conditioned metric, and the standard Wasserstein-Fisher-Rao metric of the realised family. Finally, we show how the theory can be extended to accommodate continuous random variables using diffeological quasi-Borel spaces. We also discuss several concrete directions for future work.",
+ "primary": "cs.PL"
+}

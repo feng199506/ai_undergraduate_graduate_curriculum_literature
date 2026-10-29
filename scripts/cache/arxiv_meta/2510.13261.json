@@ -1,0 +1,17 @@
+{
+ "id": "2510.13261",
+ "title": "A Ratio-Based Shapley Value for Collaborative Machine Learning - Extended Version",
+ "authors": [
+  "Björn Filter",
+  "Ralf Möller",
+  "Özgür Lütfü Özçep"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 1,
+ "latest_date": "2025-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended version of a paper accepted at the 26th International Conference on Principles and Practice of Multi-Agent Systems (PRIMA 2025)",
+ "abstract": "Collaborative machine learning enables multiple data owners to jointly train models for improved predictive performance. However, ensuring incentive compatibility and fair contribution-based rewards remains a critical challenge. Prior work by Sim and colleagues (Rachel Hwee Ling Sim et al: Collaborative machine learning with incentive-aware model rewards. In: International conference on machine learning. PMLR. 2020, pp. 8927-8963) addressed this by allocating model rewards, which are non-monetary and freely replicable, based on the Shapley value of each party's data contribution, measured via information gain. In this paper, we introduce a ratio-based Shapley value that replaces the standard additive formulation with a relative contribution measure. While our overall reward framework, including the incentive definitions and model-reward setting, remains aligned with that of Sim and colleagues, the underlying value function is fundamentally different. Our alternative valuation induces a different distribution of model rewards and offers a new lens through which to analyze incentive properties. We formally define the ratio-based value and prove that it satisfies the same set of incentive conditions as the additive formulation, including adapted versions of fairness, individual rationality, and stability. Like the original approach, our method faces the same fundamental trade-offs between these incentives. Our contribution is a mathematically grounded alternative to the additive Shapley framework, potentially better suited to contexts where proportionality among contributors is more meaningful than additive differences.",
+ "primary": "cs.GT"
+}

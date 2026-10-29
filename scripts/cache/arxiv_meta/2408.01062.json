@@ -1,0 +1,17 @@
+{
+ "id": "2408.01062",
+ "title": "Universality of Kernel Random Matrices and Kernel Regression in the Quadratic Regime",
+ "authors": [
+  "Parthe Pandit",
+  "Zhichao Wang",
+  "Yizhe Zhu"
+ ],
+ "v1_date": "2024-08-02",
+ "latest_version": 2,
+ "latest_date": "2025-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "73 pages, 7 figures",
+ "abstract": "Kernel ridge regression (KRR) is a popular class of machine learning models that has become an important tool for understanding deep learning. Much of the focus thus far has been on studying the proportional asymptotic regime, $n \\asymp d$, where $n$ is the number of training samples and $d$ is the dimension of the dataset. In the proportional regime, under certain conditions on the data distribution, the kernel random matrix involved in KRR exhibits behavior akin to that of a linear kernel. In this work, we extend the study of kernel regression to the quadratic asymptotic regime, where $n \\asymp d^2$. In this regime, we demonstrate that a broad class of inner-product kernels exhibits behavior similar to a quadratic kernel. Specifically, we establish an operator norm approximation bound for the difference between the original kernel random matrix and a quadratic kernel random matrix with additional correction terms compared to the Taylor expansion of the kernel functions. The approximation works for general data distributions under a Gaussian-moment-matching assumption with a covariance structure. This new approximation is utilized to obtain a limiting spectral distribution of the original kernel matrix and characterize the precise asymptotic training and test errors for KRR in the quadratic regime when $n/d^2$ converges to a non-zero constant. The generalization errors are obtained for (i) a random teacher model, (ii) a deterministic teacher model where the weights are perfectly aligned with the covariance of the data. Under the random teacher model setting, we also verify that the generalized cross-validation (GCV) estimator can consistently estimate the generalization error in the quadratic regime for anisotropic data. Our proof techniques combine moment methods, Wick's formula, orthogonal polynomials, and resolvent analysis of random matrices with correlated entries.",
+ "primary": "stat.ML"
+}

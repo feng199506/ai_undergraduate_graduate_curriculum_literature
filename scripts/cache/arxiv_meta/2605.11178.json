@@ -1,0 +1,18 @@
+{
+ "id": "2605.11178",
+ "title": "Oversmoothing as Representation Degeneracy in Neural Sheaf Diffusion",
+ "authors": [
+  "Arif Dönmez",
+  "Axel Mosig",
+  "Ellen Fritsche",
+  "Katharina Koch"
+ ],
+ "v1_date": "2026-05-11",
+ "latest_version": 1,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, Comments welcome",
+ "abstract": "Neural Sheaf Diffusion (NSD) generalizes diffusion-based Graph Neural Networks by replacing scalar graph Laplacians with sheaf Laplacians whose learned restriction maps define a task-adapted geometry. While the diffusion limit of NSD is known to be the space of global sections, the representation-theoretic structure of this harmonic space remains largely implicit. We develop a quiver-theoretic interpretation of NSD by identifying cellular sheaves on graphs with representations of the associated incidence quiver. Under this correspondence, learned sheaf geometries become points in a finite-dimensional representation space. We show that direct-sum decompositions of the underlying incidence-quiver representation induce decompositions of the harmonic space reached in the diffusion limit. This gives an algebraic interpretation of oversmoothing as representation degeneration: learned sheaves may collapse toward low-complexity summands whose global sections fail to preserve discriminative information. Building on this viewpoint, we connect sheaf diffusion to stability and moment-map principles from Geometric Invariant Theory. We introduce moment-map-inspired regularizers that bias restriction maps toward balanced representation geometries, and identify a structural obstruction in equal-stalk architectures: when $d_v = d_e$, admissibility for learnable stability parameters forces the trivial all-object summand onto a stability wall. Non-uniform stalk dimensions remove this obstruction, making adaptive stability meaningful. Experiments on heterophilic benchmarks are consistent with this mechanism: breaking stalk symmetry can reduce variance or improve validation behavior, and adaptive stability becomes more effective in selected rectangular settings. Overall, our framework reframes oversmoothing as a degeneration phenomenon in the representation geometry underlying learned sheaf diffusion.",
+ "primary": "cs.LG"
+}

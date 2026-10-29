@@ -1,0 +1,17 @@
+{
+ "id": "2502.07579",
+ "title": "Single-Step Consistent Diffusion Samplers",
+ "authors": [
+  "Pascal Jutras-Dubé",
+  "Patrick Pynadath",
+  "Ruqi Zhang"
+ ],
+ "v1_date": "2025-02-11",
+ "latest_version": 1,
+ "latest_date": "2025-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sampling from unnormalized target distributions is a fundamental yet challenging task in machine learning and statistics. Existing sampling algorithms typically require many iterative steps to produce high-quality samples, leading to high computational costs that limit their practicality in time-sensitive or resource-constrained settings. In this work, we introduce consistent diffusion samplers, a new class of samplers designed to generate high-fidelity samples in a single step. We first develop a distillation algorithm to train a consistent diffusion sampler from a pretrained diffusion model without pre-collecting large datasets of samples. Our algorithm leverages incomplete sampling trajectories and noisy intermediate states directly from the diffusion process. We further propose a method to train a consistent diffusion sampler from scratch, fully amortizing exploration by training a single model that both performs diffusion sampling and skips intermediate steps using a self-consistency loss. Through extensive experiments on a variety of unnormalized distributions, we show that our approach yields high-fidelity samples using less than 1% of the network evaluations required by traditional diffusion samplers.",
+ "primary": "cs.LG"
+}

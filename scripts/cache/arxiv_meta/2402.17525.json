@@ -1,0 +1,24 @@
+{
+ "id": "2402.17525",
+ "title": "Diffusion Model-Based Image Editing: A Survey",
+ "authors": [
+  "Yi Huang",
+  "Jiancheng Huang",
+  "Yifan Liu",
+  "Mingfu Yan",
+  "Jiaxi Lv",
+  "Jianzhuang Liu",
+  "Wei Xiong",
+  "He Zhang",
+  "Liangliang Cao",
+  "Shifeng Chen"
+ ],
+ "v1_date": "2024-02-27",
+ "latest_version": 4,
+ "latest_date": "2025-03-11",
+ "journal_ref": "",
+ "doi": "10.1109/tpami.2025.3541625",
+ "comment": "Accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2025)",
+ "abstract": "Denoising diffusion models have emerged as a powerful tool for various image generation and editing tasks, facilitating the synthesis of visual content in an unconditional or input-conditional manner. The core idea behind them is learning to reverse the process of gradually adding noise to images, allowing them to generate high-quality samples from a complex distribution. In this survey, we provide an exhaustive overview of existing methods using diffusion models for image editing, covering both theoretical and practical aspects in the field. We delve into a thorough analysis and categorization of these works from multiple perspectives, including learning strategies, user-input conditions, and the array of specific editing tasks that can be accomplished. In addition, we pay special attention to image inpainting and outpainting, and explore both earlier traditional context-driven and current multimodal conditional methods, offering a comprehensive analysis of their methodologies. To further evaluate the performance of text-guided image editing algorithms, we propose a systematic benchmark, EditEval, featuring an innovative metric, LMM Score. Finally, we address current limitations and envision some potential directions for future research. The accompanying repository is released at https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods.",
+ "primary": "cs.CV"
+}

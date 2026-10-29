@@ -1,0 +1,18 @@
+{
+ "id": "2607.02671",
+ "title": "Benign Overfitting Does Not Occur in Diffusion Models",
+ "authors": [
+  "Tyler Farghly",
+  "Benjamin Dupuis",
+  "Alain Durmus",
+  "Umut Simsekli"
+ ],
+ "v1_date": "2026-07-02",
+ "latest_version": 1,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Benign overfitting and double descent have come to shape our understanding of generalization in deep learning, establishing that overfitting is not only compatible with good generalization but can actively benefit it. Diffusion models share much of the machinery of standard deep learning, so it is natural to assume that they also exhibit these properties. In this work, we show that this assumption is largely incorrect. We first establish fundamental impossibility results showing that, unless the sample size grows exponentially with the data dimension, overfitting and good generalization cannot occur simultaneously. Consequently, the population loss follows a classical U-shaped curve in model complexity rather than exhibiting double descent. Analyzing a simplified setting, we identify a key difference between regression and score matching: regression benefits from an alignment between the target and the empirical covariance; score matching admits no such alignment, leaving overfitting irreparably harmful. We further identify implicit regularization stemming from time-smoothness of the score and early stopping during training as mechanisms that prevent such overfitting and verify our findings with high-dimensional image generation experiments. Our results reveal that generalization in diffusion models is governed by mechanisms distinct from those of traditional regression, motivating the development of new theory.",
+ "primary": "stat.ML"
+}

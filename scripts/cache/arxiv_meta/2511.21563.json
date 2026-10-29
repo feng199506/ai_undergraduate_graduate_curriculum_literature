@@ -1,0 +1,16 @@
+{
+ "id": "2511.21563",
+ "title": "Some aspects of robustness in modern Markov Chain Monte Carlo",
+ "authors": [
+  "Sam Power",
+  "Giorgos Vasdekis"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 1,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 29 Figures, Review article",
+ "abstract": "Markov Chain Monte Carlo (MCMC) is a flexible approach to approximate sampling from intractable probability distributions, with a rich theoretical foundation and comprising a wealth of exemplar algorithms. While the qualitative correctness of MCMC algorithms is often easy to ensure, their practical efficiency is contingent on the `target' distribution being reasonably well-behaved. In this work, we concern ourself with the scenario in which this good behaviour is called into question, reviewing an emerging line of work on `robust' MCMC algorithms which can perform acceptably even in the face of certain pathologies. We focus on two particular pathologies which, while simple, can already have dramatic effects on standard `local' algorithms. The first is roughness, whereby the target distribution varies so rapidly that the numerical stability of the algorithm is tenuous. The second is flatness, whereby the landscape of the target distribution is instead so barren and uninformative that one becomes lost in uninteresting parts of the state space. In each case, we formulate the pathology in concrete terms, review a range of proposed algorithmic remedies to the pathology, and outline promising directions for future research.",
+ "primary": "stat.CO"
+}

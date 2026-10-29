@@ -1,0 +1,16 @@
+{
+ "id": "2403.19500",
+ "title": "Tensor Network-Constrained Kernel Machines as Gaussian Processes",
+ "authors": [
+  "Frederiek Wesel",
+  "Kim Batselier"
+ ],
+ "v1_date": "2024-03-28",
+ "latest_version": 1,
+ "latest_date": "2024-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tensor Networks (TNs) have recently been used to speed up kernel machines by constraining the model weights, yielding exponential computational and storage savings. In this paper we prove that the outputs of Canonical Polyadic Decomposition (CPD) and Tensor Train (TT)-constrained kernel machines recover a Gaussian Process (GP), which we fully characterize, when placing i.i.d. priors over their parameters. We analyze the convergence of both CPD and TT-constrained models, and show how TT yields models exhibiting more GP behavior compared to CPD, for the same number of model parameters. We empirically observe this behavior in two numerical experiments where we respectively analyze the convergence to the GP and the performance at prediction. We thereby establish a connection between TN-constrained kernel machines and GPs.",
+ "primary": "cs.LG"
+}

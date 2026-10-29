@@ -1,0 +1,17 @@
+{
+ "id": "2412.08310",
+ "title": "Edge-Splitting MLP: Node Classification on Homophilic and Heterophilic Graphs without Message Passing",
+ "authors": [
+  "Matthias Kohn",
+  "Marcel Hoffmann",
+  "Ansgar Scherp"
+ ],
+ "v1_date": "2024-12-11",
+ "latest_version": 1,
+ "latest_date": "2024-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at Learning on Graphs, 2024",
+ "abstract": "Message Passing Neural Networks (MPNNs) have demonstrated remarkable success in node classification on homophilic graphs. It has been shown that they do not solely rely on homophily but on neighborhood distributions of nodes, i.e., consistency of the neighborhood label distribution within the same class. MLP-based models do not use message passing, \\eg Graph-MLP incorporates the neighborhood in a separate loss function. These models are faster and more robust to edge noise. Graph-MLP maps adjacent nodes closer in the embedding space but is unaware of the neighborhood pattern of the labels, i.e., relies solely on homophily. Edge Splitting GNN (ES-GNN) is a model specialized for heterophilic graphs and splits the edges into task-relevant and task-irrelevant, respectively. To mitigate the limitations of Graph-MLP on heterophilic graphs, we propose ES-MLP that combines Graph-MLP with an edge-splitting mechanism from ES-GNN. It incorporates the edge splitting into the loss of Graph-MLP to learn two separate adjacency matrices based on relevant and irrelevant feature pairs. Our experiments on seven datasets with six baselines show that ES-MLP is on par with homophilic and heterophilic models on all datasets without using edges during inference. We show that ES-MLP is robust to multiple types of edge noise during inference and that its inference time is two to five times faster than that of commonly used MPNNs. The source code is available at https://github.com/MatthiasKohn/ES-MLP.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2510.06961",
+ "title": "Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation",
+ "authors": [
+  "Vaibhav Srivastav",
+  "Steven Zheng",
+  "Eric Bezzam",
+  "Eustache Le Bihan",
+  "Nithin Rao Koluguri",
+  "Piotr Żelasko",
+  "Somshubra Majumdar",
+  "Adel Moumen",
+  "Sanchit Gandhi"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 4,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Leaderboard: https://huggingface.co/spaces/hf-audio/open_asr_leaderboard ; Code: https://github.com/huggingface/open_asr_leaderboard",
+ "abstract": "We present the Open ASR Leaderboard, a reproducible benchmarking platform with community contributions from academia and industry. It compares 86 open-source and proprietary systems across 12 datasets, with English short- and long-form and multilingual short-form tracks. We standardize word error rate (WER) and inverse real-time factor (RTFx) evaluation for consistent accuracy-efficiency comparisons across model architectures and toolkits (e.g., ESPNet, NeMo, SpeechBrain, Transformers). We observe that Conformer-based encoders paired with transformer-based decoders achieve the best average WER, while connectionist temporal classification (CTC) and token-and-duration transducer (TDT) decoders offer superior RTFx, making them better suited for long-form and batched processing. All code and dataset loaders are open-sourced to support transparent, extensible evaluation. We present our evaluation methodology to facilitate community-driven benchmarking in ASR and other tasks.",
+ "primary": "cs.CL"
+}

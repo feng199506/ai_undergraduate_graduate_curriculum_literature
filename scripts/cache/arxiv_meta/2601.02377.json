@@ -1,0 +1,22 @@
+{
+ "id": "2601.02377",
+ "title": "Trust in LLM-controlled Robotics: a Survey of Security Threats, Defenses and Challenges",
+ "authors": [
+  "Xinyu Huang",
+  "Shyam Karthick V B",
+  "Taozhao Chen",
+  "Mitch Bryson",
+  "Thomas Chaffey",
+  "Huaming Chen",
+  "Kim-Kwang Raymond Choo",
+  "Ian R. Manchester"
+ ],
+ "v1_date": "2025-12-17",
+ "latest_version": 1,
+ "latest_date": "2025-12-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The integration of Large Language Models (LLMs) into robotics has revolutionized their ability to interpret complex human commands and execute sophisticated tasks. However, such paradigm shift introduces critical security vulnerabilities stemming from the ''embodiment gap'', a discord between the LLM's abstract reasoning and the physical, context-dependent nature of robotics. While security for text-based LLMs is an active area of research, existing solutions are often insufficient to address the unique threats for the embodied robotic agents, where malicious outputs manifest not merely as harmful text but as dangerous physical actions. In this work, we present a systematic survey, summarizing the emerging threat landscape and corresponding defense strategies for LLM-controlled robotics. Specifically, we discuss a comprehensive taxonomy of attack vectors, covering topics such as jailbreaking, backdoor attacks, and multi-modal prompt injection. In response, we analyze and categorize a range of defense mechanisms, from formal safety specifications and runtime enforcement to multi-LLM oversight and prompt hardening. Furthermore, we review key datasets and benchmarks used to evaluate the robustness of these embodied systems. By synthesizing current research, this work highlights the urgent need for context-aware security solutions and provides a foundational roadmap for the development of safe, secure, and reliable LLM-controlled robotics.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.02362",
+ "title": "The Impact of LLM-Generated Reviews on Recommender Systems: Textual Shifts, Performance Effects, and Strategic Platform Control",
+ "authors": [
+  "Itzhak Ziv",
+  "Moshe Unger",
+  "Hilah Geva"
+ ],
+ "v1_date": "2025-11-02",
+ "latest_version": 1,
+ "latest_date": "2025-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rise of generative AI technologies is reshaping content-based recommender systems (RSes), which increasingly encounter AI-generated content alongside human-authored content. This study examines how the introduction of AI-generated reviews influences RS performance and business outcomes. We analyze two distinct pathways through which AI content can enter RSes: user-centric, in which individuals use AI tools to refine their reviews, and platform-centric, in which platforms generate synthetic reviews directly from structured metadata. Using a large-scale dataset of hotel reviews from TripAdvisor, we generate synthetic reviews using LLMs and evaluate their impact across the training and deployment phases of RSes. We find that AI-generated reviews differ systematically from human-authored reviews across multiple textual dimensions. Although both user- and platform-centric AI reviews enhance RS performance relative to models without textual data, models trained on human reviews consistently achieve superior performance, underscoring the quality of authentic human data. Human-trained models generalize robustly to AI content, whereas AI-trained models underperform on both content types. Furthermore, tone-based framing strategies (encouraging, constructive, or critical) substantially enhance platform-generated review effectiveness. Our findings highlight the strategic importance of platform control in governing the generation and integration of AI-generated reviews, ensuring that synthetic content complements recommendation robustness and sustainable business value.",
+ "primary": "cs.IR"
+}

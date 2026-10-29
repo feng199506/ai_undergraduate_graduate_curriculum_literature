@@ -1,0 +1,26 @@
+{
+ "id": "2602.07526",
+ "title": "MSN: A Memory-based Sparse Activation Scaling Framework for Large-scale Industrial Recommendation",
+ "authors": [
+  "Shikang Wu",
+  "Hui Lu",
+  "Jinqiu Jin",
+  "Zheng Chai",
+  "Shiyong Hong",
+  "Junjie Zhang",
+  "Shanlei Mu",
+  "Kaiyuan Ma",
+  "Tianyi Liu",
+  "Yuchao Zheng",
+  "Zhe Wang",
+  "Jingjian Lin"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 1,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scaling deep learning recommendation models is an effective way to improve model expressiveness. Existing approaches often incur substantial computational overhead, making them difficult to deploy in large-scale industrial systems under strict latency constraints. Recent sparse activation scaling methods, such as Sparse Mixture-of-Experts, reduce computation by activating only a subset of parameters, but still suffer from high memory access costs and limited personalization capacity due to the large size and small number of experts. To address these challenges, we propose MSN, a memory-based sparse activation scaling framework for recommendation models. MSN dynamically retrieves personalized representations from a large parameterized memory and integrates them into downstream feature interaction modules via a memory gating mechanism, enabling fine-grained personalization with low computational overhead. To enable further expansion of the memory capacity while keeping both computational and memory access costs under control, MSN adopts a Product-Key Memory (PKM) mechanism, which factorizes the memory retrieval complexity from linear time to sub-linear complexity. In addition, normalization and over-parameterization techniques are introduced to maintain balanced memory utilization and prevent memory retrieval collapse. We further design customized Sparse-Gather operator and adopt the AirTopK operator to improve training and inference efficiency in industrial settings. Extensive experiments demonstrate that MSN consistently improves recommendation performance while maintaining high efficiency. Moreover, MSN has been successfully deployed in the Douyin Search Ranking System, achieving significant gains over deployed state-of-the-art models in both offline evaluation metrics and large-scale online A/B test.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2604.09553",
+ "title": "SRBench: A Comprehensive Benchmark for Sequential Recommendation with Large Language Models",
+ "authors": [
+  "Jianhong Li",
+  "Zeheng Qian",
+  "Wangze Ni",
+  "Haoyang Li",
+  "Hongwei Yao",
+  "Yang Bai",
+  "Kui Ren"
+ ],
+ "v1_date": "2026-01-31",
+ "latest_version": 1,
+ "latest_date": "2026-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "LLM development has aroused great interest in Sequential Recommendation (SR) applications. However, comprehensive evaluation of SR models remains lacking due to the limitations of the existing benchmarks: 1) an overemphasis on accuracy, ignoring other real-world demands (e.g., fairness); 2) existing datasets fail to unleash LLMs' potential, leading to unfair comparison between Neural-Network-based SR (NN-SR) models and LLM-based SR (LLM-SR) models; and 3) no reliable mechanism for extracting task-specific answers from unstructured LLM outputs. To address these limitations, we propose SRBench, a comprehensive SR benchmark with three core designs: 1) a multi-dimensional framework covering accuracy, fairness, stability and efficiency, aligned with practical demands; 2) a unified input paradigm via prompt engineering to boost LLM-SR performance and enable fair comparisons between models; 3) a novel prompt-extractor-coupled extraction mechanism, which captures answers from LLM outputs through prompt-enforced output formatting and a numeric-oriented extractor. We have used SRBench to evaluate 13 mainstream models and discovered some meaningful insights (e.g., LLM-SR models overfocus on item popularity but lack deep understanding of item quality). Concisely, SRBench enables fair and comprehensive assessments for SR models, underpinning future research and practical application.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2610.16309",
+ "title": "ReAP: From Visual Failure Recognition to Action-Conditioned Risk Prediction for Runtime Failure Monitoring",
+ "authors": [
+  "Jingyuan Liu",
+  "Yunpeng Qing",
+  "Changxu Wei",
+  "Zhi Hou"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Despite rapid progress, generalist robot policies remain brittle during execution. Reliable deployment therefore requires runtime monitoring that provides timely warnings of failure. Existing monitors commonly estimate risk from current observations or policy signals without explicitly predicting the future consequences of proposed actions. To anticipate such risks before action execution, we introduce ReAP, a future-aware runtime monitoring framework that combines visual failure recognition with action-conditioned failure prediction. Specifically, ReAP first trains a visual detector on successful and failed rollouts to learn a failure-relevant representation space and estimate current risk. An action-conditioned predictor then forecasts the resulting future representation in this space to estimate future failure risk. At runtime, the detector and predictor provide complementary signals for current-state failure recognition and future-aware risk assessment. Experiments across diverse robot policies in simulation and the real world demonstrate that ReAP effectively balances failure-detection accuracy and warning timeliness.",
+ "primary": "cs.RO"
+}

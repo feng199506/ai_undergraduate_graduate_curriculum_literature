@@ -1,0 +1,20 @@
+{
+ "id": "2403.13111",
+ "title": "Deep learning with noisy labels in medical prediction problems: a scoping review",
+ "authors": [
+  "Yishu Wei",
+  "Yu Deng",
+  "Cong Sun",
+  "Mingquan Lin",
+  "Hongmei Jiang",
+  "Yifan Peng"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 1,
+ "latest_date": "2024-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Objectives: Medical research faces substantial challenges from noisy labels attributed to factors like inter-expert variability and machine-extracted labels. Despite this, the adoption of label noise management remains limited, and label noise is largely ignored. To this end, there is a critical need to conduct a scoping review focusing on the problem space. This scoping review aims to comprehensively review label noise management in deep learning-based medical prediction problems, which includes label noise detection, label noise handling, and evaluation. Research involving label uncertainty is also included. Methods: Our scoping review follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. We searched 4 databases, including PubMed, IEEE Xplore, Google Scholar, and Semantic Scholar. Our search terms include \"noisy label AND medical / healthcare / clinical\", \"un-certainty AND medical / healthcare / clinical\", and \"noise AND medical / healthcare / clinical\". Results: A total of 60 papers met inclusion criteria between 2016 and 2023. A series of practical questions in medical research are investigated. These include the sources of label noise, the impact of label noise, the detection of label noise, label noise handling techniques, and their evaluation. Categorization of both label noise detection methods and handling techniques are provided. Discussion: From a methodological perspective, we observe that the medical community has been up to date with the broader deep-learning community, given that most techniques have been evaluated on medical data. We recommend considering label noise as a standard element in medical research, even if it is not dedicated to handling noisy labels. Initial experiments can start with easy-to-implement methods, such as noise-robust loss functions, weighting, and curriculum learning.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2510.16675",
+ "title": "Infinite Neural Operators: Gaussian processes on functions",
+ "authors": [
+  "Daniel Augusto de Souza",
+  "Yuchen Zhu",
+  "Harry Jake Cunningham",
+  "Yuri Saporito",
+  "Diego Mesquita",
+  "Marc Peter Deisenroth"
+ ],
+ "v1_date": "2025-10-19",
+ "latest_version": 1,
+ "latest_date": "2025-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the Conference on Neural Information Processing Systems (NeurIPS) 2025",
+ "abstract": "A variety of infinitely wide neural architectures (e.g., dense NNs, CNNs, and transformers) induce Gaussian process (GP) priors over their outputs. These relationships provide both an accurate characterization of the prior predictive distribution and enable the use of GP machinery to improve the uncertainty quantification of deep neural networks. In this work, we extend this connection to neural operators (NOs), a class of models designed to learn mappings between function spaces. Specifically, we show conditions for when arbitrary-depth NOs with Gaussian-distributed convolution kernels converge to function-valued GPs. Based on this result, we show how to compute the covariance functions of these NO-GPs for two NO parametrizations, including the popular Fourier neural operator (FNO). With this, we compute the posteriors of these GPs in regression scenarios, including PDE solution operators. This work is an important step towards uncovering the inductive biases of current FNO architectures and opens a path to incorporate novel inductive biases for use in kernel-based operator learning methods.",
+ "primary": "stat.ML"
+}

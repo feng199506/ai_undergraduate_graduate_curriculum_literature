@@ -1,0 +1,20 @@
+{
+ "id": "2502.13187",
+ "title": "A Survey of Sim-to-Real Methods in RL: Progress, Prospects and Challenges with Foundation Models",
+ "authors": [
+  "Longchao Da",
+  "Justin Turnau",
+  "Thirulogasankar Pranav Kutralingam",
+  "Alvaro Velasquez",
+  "Paulo Shakarian",
+  "Hua Wei"
+ ],
+ "v1_date": "2025-02-18",
+ "latest_version": 3,
+ "latest_date": "2025-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 6 figures, 5 tables",
+ "abstract": "Deep Reinforcement Learning (RL) has been explored and verified to be effective in solving decision-making tasks in various domains, such as robotics, transportation, recommender systems, etc. It learns from the interaction with environments and updates the policy using the collected experience. However, due to the limited real-world data and unbearable consequences of taking detrimental actions, the learning of RL policy is mainly restricted within the simulators. This practice guarantees safety in learning but introduces an inevitable sim-to-real gap in terms of deployment, thus causing degraded performance and risks in execution. There are attempts to solve the sim-to-real problems from different domains with various techniques, especially in the era with emerging techniques such as large foundations or language models that have cast light on the sim-to-real. This survey paper, to the best of our knowledge, is the first taxonomy that formally frames the sim-to-real techniques from key elements of the Markov Decision Process (State, Action, Transition, and Reward). Based on the framework, we cover comprehensive literature from the classic to the most advanced methods including the sim-to-real techniques empowered by foundation models, and we also discuss the specialties that are worth attention in different domains of sim-to-real problems. Then we summarize the formal evaluation process of sim-to-real performance with accessible code or benchmarks. The challenges and opportunities are also presented to encourage future exploration of this direction. We are actively maintaining a repository to include the most up-to-date sim-to-real research work to help domain researchers.",
+ "primary": "cs.LG"
+}

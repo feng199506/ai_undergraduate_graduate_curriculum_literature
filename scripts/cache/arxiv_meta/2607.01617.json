@@ -1,0 +1,17 @@
+{
+ "id": "2607.01617",
+ "title": "3DLS: A 3D Logic-Stacked Architecture for Disaggregated LLM Serving",
+ "authors": [
+  "Jaehun Lee",
+  "In-Jun Jung",
+  "Joo-Young Kim"
+ ],
+ "v1_date": "2026-07-02",
+ "latest_version": 1,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "10.1109/lca.2026.3709108",
+ "comment": "Accepted to IEEE Computer Architecture Letters (CAL), 2026",
+ "abstract": "Large language model (LLM) serving increasingly combines prefill-decode (PD) disaggregation with tensor parallelism (TP) to support large models and long contexts. In conventional 2D/2.5D chiplet architectures, layer-wise prefill-to-decode KV-cache transfer decode-side TP collectives share the same lateral die-to-die (D2D) interconnect, creating mixed-traffic contention on the decode critical path. This contention increases communication latency, prolongs token generation intervals, and degrades end-to-end serving performance. We propose 3DLS, a logic-on-logic 3D-stacked chiplet architecture that separates traffic classes by routing KV-cache transfers through vertical interconnects while preserving decode-side TP collectives on the lateral D2D fabric. 3DLS achieves up to 1.49$\\times$ throughput and 60.2\\% lower end-to-end (E2E) latency over the shared-fabric planar baseline, and still achieves up to 1.17$\\times$ throughput and 31.4\\% lower E2E latency over a workload-aware priority-managed planar baseline. These results highlight that physical isolation is an important design principle for future chiplet-based PD-disaggregated LLM serving systems.",
+ "primary": "cs.AR"
+}

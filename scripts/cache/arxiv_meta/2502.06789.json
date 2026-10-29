@@ -1,0 +1,15 @@
+{
+ "id": "2502.06789",
+ "title": "Information-theoretic Bayesian Optimization: Survey and Tutorial",
+ "authors": [
+  "Eduardo C. Garrido-Merchán"
+ ],
+ "v1_date": "2025-01-22",
+ "latest_version": 1,
+ "latest_date": "2025-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "None",
+ "abstract": "Several scenarios require the optimization of non-convex black-box functions, that are noisy expensive to evaluate functions with unknown analytical expression, whose gradients are hence not accessible. For example, the hyper-parameter tuning problem of machine learning models. Bayesian optimization is a class of methods with state-of-the-art performance delivering a solution to this problem in real scenarios. It uses an iterative process that employs a probabilistic surrogate model, typically a Gaussian process, of the objective function to be optimized computing a posterior predictive distribution of the black-box function. Based on the information given by this posterior predictive distribution, Bayesian optimization includes the computation of an acquisition function that represents, for every input space point, the utility of evaluating that point in the next iteraiton if the objective of the process is to retrieve a global extremum. This paper is a survey of the information theoretical acquisition functions, whose performance typically outperforms the rest of acquisition functions. The main concepts of the field of information theory are also described in detail to make the reader aware of why information theory acquisition functions deliver great results in Bayesian optimization and how can we approximate them when they are intractable. We also cover how information theory acquisition functions can be adapted to complex optimization scenarios such as the multi-objective, constrained, non-myopic, multi-fidelity, parallel and asynchronous settings and provide further lines of research.",
+ "primary": "cs.LG"
+}

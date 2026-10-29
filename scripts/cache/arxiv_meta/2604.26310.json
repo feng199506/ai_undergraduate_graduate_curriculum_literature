@@ -1,0 +1,20 @@
+{
+ "id": "2604.26310",
+ "title": "Benchmarking PyCaret AutoML Against BiLSTM for Fine-Grained Emotion Classification: A Comparative Study on 20-Class Emotion Detection",
+ "authors": [
+  "Arya Muda Siregar",
+  "Arielva Simon Siahaan",
+  "Haikal Fransisko Simbolon",
+  "Luluk Muthoharoh",
+  "Ardika Satria",
+  "Martin C. T. Manullang"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 1,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 2 figures, 3 tables. This paper compares machine learning and deep learning methods for 20-class emotion classification on an English text dataset of 79,595 samples",
+ "abstract": "Fine-grained emotion classification, which identifies specific emotional states such as happiness, anger, sadness, and fear, remains a challenging task in natural language processing. This study benchmarks classical machine learning and deep learning approaches for 20-class emotion classification using the 20-Emotion Text Classification Dataset containing 79,595 English sentences. On the machine learning side, Logistic Regression, Multinomial Naive Bayes, and Support Vector Machine are evaluated using TF-IDF features. On the deep learning side, Bidirectional Long Short-Term Memory, Gated Recurrent Unit, and a lightweight Transformer implemented in PyTorch are compared. The results show that BiLSTM achieves the best overall performance with 89% accuracy and a weighted F1-score of 0.89, slightly outperforming the best machine learning model, SVM, which reaches 88.11% accuracy. The findings indicate that while traditional machine learning models remain competitive and computationally efficient, sequence-based deep learning models better capture contextual emotional cues in text.",
+ "primary": "cs.CL"
+}

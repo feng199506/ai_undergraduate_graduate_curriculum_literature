@@ -1,0 +1,19 @@
+{
+ "id": "2406.10030",
+ "title": "Off-Policy Evaluation from Logged Human Feedback",
+ "authors": [
+  "Aniruddha Bhargava",
+  "Lalit Jain",
+  "Branislav Kveton",
+  "Ge Liu",
+  "Subhojyoti Mukherjee"
+ ],
+ "v1_date": "2024-06-14",
+ "latest_version": 1,
+ "latest_date": "2024-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning from human feedback has been central to recent advances in artificial intelligence and machine learning. Since the collection of human feedback is costly, a natural question to ask is if the new feedback always needs to collected. Or could we evaluate a new model with the human feedback on responses of another model? This motivates us to study off-policy evaluation from logged human feedback. We formalize the problem, propose both model-based and model-free estimators for policy values, and show how to optimize them. We analyze unbiasedness of our estimators and evaluate them empirically. Our estimators can predict the absolute values of evaluated policies, rank them, and be optimized.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2403.12188",
+ "title": "PETScML: Second-order solvers for training regression problems in Scientific Machine Learning",
+ "authors": [
+  "Stefano Zampini",
+  "Umberto Zerbinati",
+  "George Turkiyyah",
+  "David Keyes"
+ ],
+ "v1_date": "2024-03-18",
+ "latest_version": 1,
+ "latest_date": "2024-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, we have witnessed the emergence of scientific machine learning as a data-driven tool for the analysis, by means of deep-learning techniques, of data produced by computational science and engineering applications. At the core of these methods is the supervised training algorithm to learn the neural network realization, a highly non-convex optimization problem that is usually solved using stochastic gradient methods. However, distinct from deep-learning practice, scientific machine-learning training problems feature a much larger volume of smooth data and better characterizations of the empirical risk functions, which make them suited for conventional solvers for unconstrained optimization. We introduce a lightweight software framework built on top of the Portable and Extensible Toolkit for Scientific computation to bridge the gap between deep-learning software and conventional solvers for unconstrained minimization. We empirically demonstrate the superior efficacy of a trust region method based on the Gauss-Newton approximation of the Hessian in improving the generalization errors arising from regression tasks when learning surrogate models for a wide range of scientific machine-learning techniques and test cases. All the conventional second-order solvers tested, including L-BFGS and inexact Newton with line-search, compare favorably, either in terms of cost or accuracy, with the adaptive first-order methods used to validate the surrogate models.",
+ "primary": "cs.LG"
+}

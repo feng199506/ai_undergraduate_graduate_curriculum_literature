@@ -1,0 +1,19 @@
+{
+ "id": "2501.18577",
+ "title": "Prediction-Powered Inference with Imputed Covariates and Nonuniform Sampling",
+ "authors": [
+  "Dan M. Kluger",
+  "Kerri Lu",
+  "Tijana Zrnic",
+  "Sherrie Wang",
+  "Stephen Bates"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 3,
+ "latest_date": "2025-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v3 fixes some typos from v2",
+ "abstract": "Machine learning models are increasingly used to produce predictions that serve as input data in subsequent statistical analyses. For example, computer vision predictions of economic and environmental indicators based on satellite imagery are used in downstream regressions; similarly, language models are widely used to approximate human ratings and opinions in social science research. However, failure to properly account for errors in the machine learning predictions renders standard statistical procedures invalid. Prior work uses what we call the Predict-Then-Debias estimator to give valid confidence intervals when machine learning algorithms impute missing variables, assuming a small complete sample from the population of interest. We expand the scope by introducing bootstrap confidence intervals that apply when the complete data is a nonuniform (i.e., weighted, stratified, or clustered) sample and to settings where an arbitrary subset of features is imputed. Importantly, the method can be applied to many settings without requiring additional calculations. We prove that these confidence intervals are valid under no assumptions on the quality of the machine learning model and are no wider than the intervals obtained by methods that do not use machine learning predictions.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2604.20024",
+ "title": "Replicable Bandits with UCB based Exploration",
+ "authors": [
+  "Rohan Deb",
+  "Udaya Ghai",
+  "Karan Singh",
+  "Arindam Banerjee"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 2,
+ "latest_date": "2026-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study replicable algorithms for stochastic multi-armed bandits (MAB) and linear bandits with UCB (Upper Confidence Bound) based exploration. A bandit algorithm is $ρ$-replicable if two executions using shared internal randomness but independent reward realizations produce the same action sequence with probability at least $1-ρ$. Prior approaches to this problem are elimination-based and, in linear bandits with infinitely many actions, rely on discretization, leading to suboptimal dependence on the dimension $d$ and $ρ$. We develop optimistic alternatives for both settings. For stochastic multi-armed bandits, we propose RepUCB, a replicable batched UCB algorithm and show that it attains a regret $O\\!\\left(\\frac{K^2\\log^2 T}{ρ^2}\\sum_{a:Δ_a>0}\\left(Δ_a+\\frac{\\log(KT\\log T)}{Δ_a}\\right)\\right)$. For stochastic linear bandits, we first introduce RepRidge, a replicable ridge regression estimator that satisfies both a confidence guarantee and a $ρ$-replicability guarantee. Beyond its role in our bandit algorithm, this may also be of independent interest in other statistical estimation settings. We then use RepRidge to design RepLinUCB, a replicable optimistic algorithm for stochastic linear bandits, and show that its regret is bounded by $\\widetilde{O}\\!\\big(\\big(d+\\frac{d^3}ρ\\big)\\sqrt{T}\\big)$. This improves the best prior regret guarantee by a factor of $O(d/ρ)$, showing that our optimistic algorithm can substantially reduce the price of replicability. This is the first linear-bandit algorithm with an optimal dependence on $ρ$ for large number of arms. Finally, we extend our framework to stochastic generalized linear bandits by developing RepGLM, a replicable penalized GLM estimator, and RepGLMUCB, a replicable optimistic algorithm for this setting.",
+ "primary": "cs.LG"
+}

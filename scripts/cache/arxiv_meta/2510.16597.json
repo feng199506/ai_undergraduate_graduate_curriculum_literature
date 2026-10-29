@@ -1,0 +1,20 @@
+{
+ "id": "2510.16597",
+ "title": "FRONTIER-RevRec: A Large-scale Dataset for Reviewer Recommendation",
+ "authors": [
+  "Qiyao Peng",
+  "Chen Wang",
+  "Yinghui Wang",
+  "Hongtao Liu",
+  "Xuan Guo",
+  "Wenjun Wang"
+ ],
+ "v1_date": "2025-10-18",
+ "latest_version": 1,
+ "latest_date": "2025-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reviewer recommendation is a critical task for enhancing the efficiency of academic publishing workflows. However, research in this area has been persistently hindered by the lack of high-quality benchmark datasets, which are often limited in scale, disciplinary scope, and comparative analyses of different methodologies. To address this gap, we introduce FRONTIER-RevRec, a large-scale dataset constructed from authentic peer review records (2007-2025) from the Frontiers open-access publishing platform https://www.frontiersin.org/. The dataset contains 177941 distinct reviewers and 478379 papers across 209 journals spanning multiple disciplines including clinical medicine, biology, psychology, engineering, and social sciences. Our comprehensive evaluation on this dataset reveals that content-based methods significantly outperform collaborative filtering. This finding is explained by our structural analysis, which uncovers fundamental differences between academic recommendation and commercial domains. Notably, approaches leveraging language models are particularly effective at capturing the semantic alignment between a paper's content and a reviewer's expertise. Furthermore, our experiments identify optimal aggregation strategies to enhance the recommendation pipeline. FRONTIER-RevRec is intended to serve as a comprehensive benchmark to advance research in reviewer recommendation and facilitate the development of more effective academic peer review systems. The FRONTIER-RevRec dataset is available at: https://anonymous.4open.science/r/FRONTIER-RevRec-5D05.",
+ "primary": "cs.IR"
+}

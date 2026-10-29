@@ -1,0 +1,16 @@
+{
+ "id": "2501.18164",
+ "title": "Faster Convergence of Riemannian Stochastic Gradient Descent with Increasing Batch Size",
+ "authors": [
+  "Kanata Oowada",
+  "Hideaki Iiduka"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 6,
+ "latest_date": "2025-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ACML2025",
+ "abstract": "We theoretically analyzed the convergence behavior of Riemannian stochastic gradient descent (RSGD) and found that using an increasing batch size leads to faster convergence than using a constant batch size, not only with a constant learning rate but also with a decaying learning rate, such as cosine annealing decay and polynomial decay. The convergence rate improves from $O(T^{-1}+C)$ with a constant batch size to $O(T^{-1})$ with an increasing batch size, where $T$ denotes the total number of iterations and $C$ is a constant. Using principal component analysis and low-rank matrix completion, we investigated, both theoretically and numerically, how an increasing batch size affects computational time as quantified by stochastic first-order oracle (SFO) complexity. An increasing batch size was found to reduce the SFO complexity of RSGD. Furthermore, an increasing batch size was found to offer the advantages of both small and large constant batch sizes.",
+ "primary": "cs.LG"
+}

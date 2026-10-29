@@ -1,0 +1,15 @@
+{
+ "id": "2403.14685",
+ "title": "Cyclical Log Annealing as a Learning Rate Scheduler",
+ "authors": [
+  "Philip Naveen"
+ ],
+ "v1_date": "2024-03-13",
+ "latest_version": 1,
+ "latest_date": "2024-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A learning rate scheduler is a predefined set of instructions for varying search stepsizes during model training processes. This paper introduces a new logarithmic method using harsh restarting of step sizes through stochastic gradient descent. Cyclical log annealing implements the restart pattern more aggressively to maybe allow the usage of more greedy algorithms on the online convex optimization framework. The algorithm was tested on the CIFAR-10 image datasets, and seemed to perform analogously with cosine annealing on large transformer-enhanced residual neural networks. Future experiments would involve testing the scheduler in generative adversarial networks and finding the best parameters for the scheduler with more experiments.",
+ "primary": "cs.LG"
+}

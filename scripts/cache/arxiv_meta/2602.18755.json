@@ -1,0 +1,18 @@
+{
+ "id": "2602.18755",
+ "title": "DualScale: Energy-Efficient Disaggregated LLM Serving via Phase-Aware Placement and DVFS",
+ "authors": [
+  "Omar Basit",
+  "Yunzhao Liu",
+  "Z. Jonny Kong",
+  "Y. Charlie Hu"
+ ],
+ "v1_date": "2026-02-21",
+ "latest_version": 3,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prefill/decode disaggregation is increasingly adopted in LLM serving to improve the latency-throughput tradeoff and meet strict TTFT and TPOT SLOs. However, LLM inference remains energy-hungry: autoscaling alone is too coarse-grained to track fast workload fluctuations, and applying fine-grained DVFS under disaggregation is complicated by phase-asymmetric dynamics and coupling between provisioning and frequency control. We present DualScale, a two-tier energy optimization framework for disaggregated LLM serving. DualScale jointly optimizes placement and DVFS across prefill and decode using predictive latency and power models. At coarse timescales, DualScale computes phase-aware placement and baseline frequencies that minimize energy while satisfying SLO constraints. At fine timescales, DualScale dynamically adapts GPU frequency per iteration using stage-specific control: model predictive control (MPC) for prefill to account for queue evolution and future TTFT impact, and lightweight slack-aware adaptation for decode to exploit its smoother, memory-bound dynamics. This hierarchical design enables coordinated control across timescales while preserving strict serving SLOs. Evaluation on a 16x H100 cluster serving Llama 3.3 70B with production-style traces shows that DualScale meets TTFT/TPOT SLOs while reducing energy by up to 39% in prefill and 48% in decode relative to DistServe.",
+ "primary": "cs.DC"
+}

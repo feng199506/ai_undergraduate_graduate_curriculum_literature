@@ -1,0 +1,21 @@
+{
+ "id": "2407.08838",
+ "title": "Deep Learning for Network Anomaly Detection under Data Contamination: Evaluating Robustness and Mitigating Performance Degradation",
+ "authors": [
+  "D'Jeff K. Nkashama",
+  "Jordan Masakuna Félicien",
+  "Arian Soltani",
+  "Jean-Charles Verdier",
+  "Pierre-Martin Tardif",
+  "Marc Frappier",
+  "Froduald Kabanza"
+ ],
+ "v1_date": "2024-07-11",
+ "latest_version": 2,
+ "latest_date": "2024-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2207.03576",
+ "abstract": "Deep learning (DL) has emerged as a crucial tool in network anomaly detection (NAD) for cybersecurity. While DL models for anomaly detection excel at extracting features and learning patterns from data, they are vulnerable to data contamination -- the inadvertent inclusion of attack-related data in training sets presumed benign. This study evaluates the robustness of six unsupervised DL algorithms against data contamination using our proposed evaluation protocol. Results demonstrate significant performance degradation in state-of-the-art anomaly detection algorithms when exposed to contaminated data, highlighting the critical need for self-protection mechanisms in DL-based NAD models. To mitigate this vulnerability, we propose an enhanced auto-encoder with a constrained latent representation, allowing normal data to cluster more densely around a learnable center in the latent space. Our evaluation reveals that this approach exhibits improved resistance to data contamination compared to existing methods, offering a promising direction for more robust NAD systems.",
+ "primary": "cs.LG"
+}

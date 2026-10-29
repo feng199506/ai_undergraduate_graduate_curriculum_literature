@@ -1,0 +1,16 @@
+{
+ "id": "2508.12688",
+ "title": "Bayesian Double Machine Learning for Causal Inference",
+ "authors": [
+  "Francis J. DiTraglia",
+  "Laura Liu"
+ ],
+ "v1_date": "2025-08-18",
+ "latest_version": 1,
+ "latest_date": "2025-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a simple, novel, and fully-Bayesian approach for causal inference in partially linear models with high-dimensional control variables. Off-the-shelf machine learning methods can introduce biases in the causal parameter known as regularization-induced confounding. To address this, we propose a Bayesian Double Machine Learning (BDML) method, which modifies a standard Bayesian multivariate regression model and recovers the causal effect of interest from the reduced-form covariance matrix. Our BDML is related to the burgeoning frequentist literature on DML while addressing its limitations in finite-sample inference. Moreover, the BDML is based on a fully generative probability model in the DML context, adhering to the likelihood principle. We show that in high dimensional setups the naive estimator implicitly assumes no selection on observables--unlike our BDML. The BDML exhibits lower asymptotic bias and achieves asymptotic normality and semiparametric efficiency as established by a Bernstein-von Mises theorem, thereby ensuring robustness to misspecification. In simulations, our BDML achieves lower RMSE, better frequentist coverage, and shorter confidence interval width than alternatives from the literature, both Bayesian and frequentist.",
+ "primary": "econ.EM"
+}

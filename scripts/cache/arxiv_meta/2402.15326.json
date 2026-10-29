@@ -1,0 +1,20 @@
+{
+ "id": "2402.15326",
+ "title": "Understanding Oversmoothing in Diffusion-Based GNNs From the Perspective of Operator Semigroup Theory",
+ "authors": [
+  "Weichen Zhao",
+  "Chenguang Wang",
+  "Xinyan Wang",
+  "Congying Han",
+  "Tiande Guo",
+  "Tianshu Yu"
+ ],
+ "v1_date": "2024-02-23",
+ "latest_version": 2,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by KDD 2025",
+ "abstract": "This paper presents an analytical study of the oversmoothing issue in diffusion-based Graph Neural Networks (GNNs). Generalizing beyond extant approaches grounded in random walk analysis or particle systems, we approach this problem through operator semigroup theory. This theoretical framework allows us to rigorously prove that oversmoothing is intrinsically linked to the ergodicity of the diffusion operator. Relying on semigroup method, we can quantitatively analyze the dynamic of graph diffusion and give a specific mathematical form of the smoothing feature by ergodicity and invariant measure of operator, which improves previous works only show existence of oversmoothing. This finding further poses a general and mild ergodicity-breaking condition, encompassing the various specific solutions previously offered, thereby presenting a more universal and theoretically grounded approach to relieve oversmoothing in diffusion-based GNNs. Additionally, we offer a probabilistic interpretation of our theory, forging a link with prior works and broadening the theoretical horizon. Our experimental results reveal that this ergodicity-breaking term effectively mitigates oversmoothing measured by Dirichlet energy, and simultaneously enhances performance in node classification tasks.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2510.00207",
+ "title": "FlowMoE: A Scalable Pipeline Scheduling Framework for Distributed Mixture-of-Experts Training",
+ "authors": [
+  "Yunqi Gao",
+  "Bing Hu",
+  "Mahdi Boloursaz Mashhadi",
+  "A-Long Jin",
+  "Yanfeng Zhang",
+  "Pei Xiao",
+  "Rahim Tafazolli",
+  "Merouane Debbah"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 2,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NeurIPS 2025",
+ "abstract": "The parameter size of modern large language models (LLMs) can be scaled up via the sparsely-activated Mixture-of-Experts (MoE) technique to avoid excessive increase of the computational costs. To further improve training efficiency, pipelining computation and communication has become a promising solution for distributed MoE training. However, existing work primarily focuses on scheduling tasks within the MoE layer, such as expert computing and all-to-all (A2A) communication, while neglecting other key operations including multi-head attention (MHA) computing, gating, and all-reduce communication. In this paper, we propose FlowMoE, a scalable framework for scheduling multi-type task pipelines. First, FlowMoE constructs a unified pipeline to consistently scheduling MHA computing, gating, expert computing, and A2A communication. Second, FlowMoE introduces a tensor chunk-based priority scheduling mechanism to overlap the all-reduce communication with all computing tasks. We implement FlowMoE as an adaptive and generic framework atop PyTorch. Extensive experiments with 675 typical MoE layers and four real-world MoE models across two GPU clusters demonstrate that our proposed FlowMoE framework outperforms state-of-the-art MoE training frameworks, reducing training time by 13%-57%, energy consumption by 10%-39%, and memory usage by 7%-32%.",
+ "primary": "cs.DC"
+}

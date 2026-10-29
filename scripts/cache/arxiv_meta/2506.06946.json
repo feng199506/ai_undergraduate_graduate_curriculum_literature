@@ -1,0 +1,20 @@
+{
+ "id": "2506.06946",
+ "title": "Making a Pipeline Production-Ready: Challenges and Lessons Learned in the Healthcare Domain",
+ "authors": [
+  "Daniel Angelo Esteves Lawand",
+  "Lucas Quaresma Medina Lam",
+  "Roberto Oliveira Bolgheroni",
+  "Renato Cordeiro Ferreira",
+  "Alfredo Goldman",
+  "Marcelo Finger"
+ ],
+ "v1_date": "2025-06-07",
+ "latest_version": 3,
+ "latest_date": "2025-07-06",
+ "journal_ref": "Software Architecture. ECSA 2025 Tracks and Workshops. ECSA 2025. Lecture Notes in Computer Science, vol 15982",
+ "doi": "10.1007/978-3-032-04403-7_30",
+ "comment": "8 pages, 3 figures (2 diagrams, 2 code listings), accepted to the workshop SADIS 2025",
+ "abstract": "Deploying a Machine Learning (ML) training pipeline into production requires good software engineering practices. Unfortunately, the typical data science workflow often leads to code that lacks critical software quality attributes. This experience report investigates this problem in SPIRA, a project whose goal is to create an ML-Enabled System (MLES) to pre-diagnose insufficiency respiratory via speech analysis. This paper presents an overview of the architecture of the MLES, then compares three versions of its Continuous Training subsystem: from a proof of concept Big Ball of Mud (v1), to a design pattern-based Modular Monolith (v2), to a test-driven set of Microservices (v3) Each version improved its overall extensibility, maintainability, robustness, and resiliency. The paper shares challenges and lessons learned in this process, offering insights for researchers and practitioners seeking to productionize their pipelines.",
+ "primary": "cs.SE"
+}

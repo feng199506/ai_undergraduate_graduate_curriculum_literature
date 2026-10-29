@@ -1,0 +1,25 @@
+{
+ "id": "2405.15805",
+ "title": "DSAM: A Deep Learning Framework for Analyzing Temporal and Spatial Dynamics in Brain Networks",
+ "authors": [
+  "Bishal Thapaliya",
+  "Robyn Miller",
+  "Jiayu Chen",
+  "Yu-Ping Wang",
+  "Esra Akbas",
+  "Ram Sapkota",
+  "Bhaskar Ray",
+  "Pranav Suresh",
+  "Santosh Ghimire",
+  "Vince Calhoun",
+  "Jingyu Liu"
+ ],
+ "v1_date": "2024-05-19",
+ "latest_version": 1,
+ "latest_date": "2024-05-19",
+ "journal_ref": "Medical Image Analysis, Volume 91, 2025, Article 102124",
+ "doi": "10.1016/j.media.2025.103462",
+ "comment": "18 Pages, 4 figures",
+ "abstract": "Resting-state functional magnetic resonance imaging (rs-fMRI) is a noninvasive technique pivotal for understanding human neural mechanisms of intricate cognitive processes. Most rs-fMRI studies compute a single static functional connectivity matrix across brain regions of interest, or dynamic functional connectivity matrices with a sliding window approach. These approaches are at risk of oversimplifying brain dynamics and lack proper consideration of the goal at hand. While deep learning has gained substantial popularity for modeling complex relational data, its application to uncovering the spatiotemporal dynamics of the brain is still limited. We propose a novel interpretable deep learning framework that learns goal-specific functional connectivity matrix directly from time series and employs a specialized graph neural network for the final classification. Our model, DSAM, leverages temporal causal convolutional networks to capture the temporal dynamics in both low- and high-level feature representations, a temporal attention unit to identify important time points, a self-attention unit to construct the goal-specific connectivity matrix, and a novel variant of graph neural network to capture the spatial dynamics for downstream classification. To validate our approach, we conducted experiments on the Human Connectome Project dataset with 1075 samples to build and interpret the model for the classification of sex group, and the Adolescent Brain Cognitive Development Dataset with 8520 samples for independent testing. Compared our proposed framework with other state-of-art models, results suggested this novel approach goes beyond the assumption of a fixed connectivity matrix and provides evidence of goal-specific brain connectivity patterns, which opens up the potential to gain deeper insights into how the human brain adapts its functional connectivity specific to the task at hand.",
+ "primary": "q-bio.NC"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2604.10423",
+ "title": "Replicable Composition",
+ "authors": [
+  "Kiarash Banihashem",
+  "MohammadHossein Bateni",
+  "Hossein Esfandiari",
+  "Samira Goudarzi",
+  "MohammadTaghi Hajiaghayi"
+ ],
+ "v1_date": "2026-04-12",
+ "latest_version": 1,
+ "latest_date": "2026-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Abstract shortened due to Arxiv requirements",
+ "abstract": "Replicability requires that algorithmic conclusions remain consistent when rerun on independently drawn data. A central structural question is composition: given $k$ problems each admitting a $ρ$-replicable algorithm with sample complexity $n$, how many samples are needed to solve all jointly while preserving replicability? The naive analysis yields $\\widetilde{O}(nk^2)$ samples, and Bun et al. (STOC'23) observed that reductions through differential privacy give an alternative $\\widetilde{O}(n^2k)$ bound, leaving open whether the optimal $\\widetilde{O}(nk)$ scaling is achievable. We resolve this open problem and, more generally, show that problems with sample complexities $n_1,\\ldots,n_k$ can be jointly solved with $\\widetilde{O}(\\sum_i n_i)$ samples while preserving constant replicability. Our approach converts each replicable algorithm into a perfectly generalizing one, composes them via a privacy-style analysis, and maps back via correlated sampling. This yields the first advanced composition theorem for replicability. En route, we obtain new bounds for the composition of perfectly generalizing algorithms with heterogeneous parameters. As part of our results, we provide a boosting theorem for the success probability of replicable algorithms. For a broad class of problems, the failure probability appears as a separate additive term independent of $ρ$, immediately yielding improved sample complexity bounds for several problems. Finally, we prove an $Ω(nk^2)$ lower bound for adaptive composition, establishing a quadratic separation from the non-adaptive setting. The key technique, which we call the phantom run, yields structural results of independent interest.",
+ "primary": "cs.LG"
+}

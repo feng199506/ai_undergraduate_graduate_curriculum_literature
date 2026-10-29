@@ -1,0 +1,17 @@
+{
+ "id": "2411.09017",
+ "title": "Debiased machine learning for counterfactual survival functionals based on left-truncated right-censored data",
+ "authors": [
+  "Eric R. Morenz",
+  "Charles J. Wolock",
+  "Marco Carone"
+ ],
+ "v1_date": "2024-11-13",
+ "latest_version": 1,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The first two authors contributed equally to this work. 61 pages (36 main text, 25 supplement). 6 figures (6 main text, 0 supplement)",
+ "abstract": "Learning causal effects of a binary exposure on time-to-event endpoints can be challenging because survival times may be partially observed due to censoring and systematically biased due to truncation. In this work, we present debiased machine learning-based nonparametric estimators of the joint distribution of a counterfactual survival time and baseline covariates for use when the observed data are subject to covariate-dependent left truncation and right censoring and when baseline covariates suffice to deconfound the relationship between exposure and survival time. Our inferential procedures explicitly allow the integration of flexible machine learning tools for nuisance estimation, and enjoy certain robustness properties. The approach we propose can be directly used to make pointwise or uniform inference on smooth summaries of the joint counterfactual survival time and covariate distribution, and can be valuable even in the absence of interventions, when summaries of a marginal survival distribution are of interest. We showcase how our procedures can be used to learn a variety of inferential targets and illustrate their performance in simulation studies.",
+ "primary": "stat.ME"
+}

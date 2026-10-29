@@ -1,0 +1,18 @@
+{
+ "id": "2509.02197",
+ "title": "DaCe AD: Unifying High-Performance Automatic Differentiation for Machine Learning and Scientific Computing",
+ "authors": [
+  "Afif Boudaoud",
+  "Alexandru Calotoiu",
+  "Marcin Copik",
+  "Torsten Hoefler"
+ ],
+ "v1_date": "2025-09-02",
+ "latest_version": 1,
+ "latest_date": "2025-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automatic differentiation (AD) is a set of techniques that systematically applies the chain rule to compute the gradients of functions without requiring human intervention. Although the fundamentals of this technology were established decades ago, it is experiencing a renaissance as it plays a key role in efficiently computing gradients for backpropagation in machine learning algorithms. AD is also crucial for many applications in scientific computing domains, particularly emerging techniques that integrate machine learning models within scientific simulations and schemes. Existing AD frameworks have four main limitations: limited support of programming languages, requiring code modifications for AD compatibility, limited performance on scientific computing codes, and a naive store-all solution for forward-pass data required for gradient calculations. These limitations force domain scientists to manually compute the gradients for large problems. This work presents DaCe AD, a general, efficient automatic differentiation engine that requires no code modifications. DaCe AD uses a novel ILP-based algorithm to optimize the trade-off between storing and recomputing to achieve maximum performance within a given memory constraint. We showcase the generality of our method by applying it to NPBench, a suite of HPC benchmarks with diverse scientific computing patterns, where we outperform JAX, a Python framework with state-of-the-art general AD capabilities, by more than 92 times on average without requiring any code changes.",
+ "primary": "cs.LG"
+}

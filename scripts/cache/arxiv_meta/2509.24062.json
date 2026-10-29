@@ -1,0 +1,21 @@
+{
+ "id": "2509.24062",
+ "title": "Identifying Dust-lane Spheroidal Galaxies in DESI Legacy Imaging Surveys Using Semi-Supervised Methods",
+ "authors": [
+  "Zhijian Luo",
+  "Jianzhen Chen",
+  "Wenxiang Pei",
+  "Hubing Xiao",
+  "Shaohua Zhang",
+  "Qifan Cui",
+  "Chenggang Shu"
+ ],
+ "v1_date": "2025-09-28",
+ "latest_version": 1,
+ "latest_date": "2025-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dust-lane spheroidal galaxies (DLSGs) are unique astrophysical systems that exhibit the morphology of early-type galaxies (ETGs) but are distinguished by prominent dust lanes. Recent studies propose that they form through minor mergers between ETGs and gas-rich dwarf galaxies, offering a window into the interstellar medium (ISM) of ETGs and star formation triggered by small-scale interactions. However, their rarity poses a challenge for assembling large, statistically robust samples via manual selection. To overcome this limitation, we employ GC-SWGAN, a semi-supervised learning method developed by \\citet{2025ApJS..279...17L}, to systematically identify DLSGs within the DESI Legacy Imaging Surveys (DESI-LS). The methodology involves training a generative adversarial network (GAN) on unlabeled galaxy images to extract morphological features, followed by fine-tuning the model using a small dataset of labeled DLSGs. In our experiments, despite DLSGs constituting only $\\sim$ 3.7\\% of the test set, GC-SWGAN achieves remarkable performance, with an 87\\% recall rate, 84\\% accuracy, and an F1 score of 86\\%, underscoring its efficacy for DLSG detection. Applying this model to $\\sim$ 310,000 DESI-LS galaxies that meet the criteria $m_r < 17.0$ and $0.01 < z < 0.07$ we compile the largest catalog of DLSG candidates to date, identifying 9,482 dust-lane ETGs. A preliminary analysis reveals that these DLSGs exhibit significantly redder $g-r$ colors and higher specific star formation rates compared to non-DLSGs. This catalog enables future studies of ISM properties in ETGs and the role of minor mergers in driving star formation in the nearby universe.",
+ "primary": "astro-ph.GA"
+}

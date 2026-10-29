@@ -1,0 +1,24 @@
+{
+ "id": "2510.17546",
+ "title": "Discrete Differential Geometry for Simulating Nonlinear Behaviors of Flexible Systems: A Survey",
+ "authors": [
+  "Dezhong Tong",
+  "Andrew Choi",
+  "Jiaqi Wang",
+  "Weicheng Huang",
+  "Zexiong Chen",
+  "Jiahao Li",
+  "Xiaonan Huang",
+  "Mingchao Liu",
+  "Huajian Gao",
+  "K. Jimmy Hsia"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 1,
+ "latest_date": "2025-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 8 figures",
+ "abstract": "Flexible slender structures such as rods, ribbons, plates, and shells exhibit extreme nonlinear responses bending, twisting, buckling, wrinkling, and self contact, that defy conventional simulation frameworks. Discrete Differential Geometry (DDG) has emerged as a geometry first, structure preserving paradigm for modeling such behaviors. Unlike finite element or mass spring methods, DDG discretizes geometry rather than governing equations, allowing curvature, twist, and strain to be defined directly on meshes. This approach yields robust large deformation dynamics, accurate handling of contact, and differentiability essential for inverse design and learning based control. This review consolidates the rapidly expanding landscape of DDG models across 1D and 2D systems, including discrete elastic rods, ribbons, plates, and shells, as well as multiphysics extensions to contact, magnetic actuation, and fluid structure interaction. We synthesize applications spanning mechanics of nonlinear instabilities, biological morphogenesis, functional structures and devices, and robotics from manipulation to soft machines. Compared with established approaches, DDG offers a unique balance of geometric fidelity, computational efficiency, and algorithmic differentiability, bridging continuum rigor with real time, contact rich performance. We conclude by outlining opportunities for multiphysics coupling, hybrid physics data pipelines, and scalable GPU accelerated solvers, and by emphasizing DDG role in enabling digital twins, sim to real transfer, and intelligent design of next generation flexible systems.",
+ "primary": "cond-mat.soft"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2601.21623",
+ "title": "LAMP: Look-Ahead Mixed-Precision Inference of Large Language Models",
+ "authors": [
+  "Stanislav Budzinskiy",
+  "Marian Gloser",
+  "Tolunay Yilmaz",
+  "Ying Hong Tham",
+  "Yuanyi Lin",
+  "Wenyi Fang",
+  "Fan Wu",
+  "Philipp Petersen"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 2,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Major revision",
+ "abstract": "Mixed-precision computations are a hallmark of the current stage of AI, driving the progress in large language models towards efficient, locally deployable solutions. This article addresses the floating-point computation of compositionally-rich functions, concentrating on transformer inference. Based on the rounding error analysis of a composition $f(g(\\mathrm{x}))$, we provide an adaptive strategy that selects a small subset of components of $g(\\mathrm{x})$ to be computed more accurately while all other computations can be carried out with lower accuracy. We then explain how this strategy can be applied to different compositions within a transformer and illustrate its overall effect on transformer inference. We study the effectiveness of this algorithm numerically on GPT-2 models and demonstrate that already very low recomputation rates allow for improvements of up to two orders of magnitude in accuracy.",
+ "primary": "cs.LG"
+}

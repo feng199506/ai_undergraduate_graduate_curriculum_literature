@@ -1,0 +1,17 @@
+{
+ "id": "2410.03492",
+ "title": "Towards Reproducible LLM Evaluation: Quantifying Uncertainty in LLM Benchmark Scores",
+ "authors": [
+  "Robert E. Blackwell",
+  "Jon Barry",
+  "Anthony G. Cohn"
+ ],
+ "v1_date": "2024-10-04",
+ "latest_version": 2,
+ "latest_date": "2025-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4 pages, 1 figure",
+ "abstract": "Large language models (LLMs) are stochastic, and not all models give deterministic answers, even when setting temperature to zero with a fixed random seed. However, few benchmark studies attempt to quantify uncertainty, partly due to the time and cost of repeated experiments. We use benchmarks designed for testing LLMs' capacity to reason about cardinal directions to explore the impact of experimental repeats on mean score and prediction interval. We suggest a simple method for cost-effectively quantifying the uncertainty of a benchmark score and make recommendations concerning reproducible LLM evaluation.",
+ "primary": "cs.CL"
+}

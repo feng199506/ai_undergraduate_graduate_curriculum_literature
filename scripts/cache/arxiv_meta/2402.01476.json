@@ -1,0 +1,18 @@
+{
+ "id": "2402.01476",
+ "title": "Self-Attention through Kernel-Eigen Pair Sparse Variational Gaussian Processes",
+ "authors": [
+  "Yingyi Chen",
+  "Qinghua Tao",
+  "Francesco Tonin",
+  "Johan A. K. Suykens"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 2,
+ "latest_date": "2024-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "We propose Kernel-Eigen Pair Sparse Variational Gaussian Processes (KEP-SVGP) for building uncertainty-aware self-attention where the asymmetry of attention kernel is tackled by KSVD and a reduced time complexity is acquired",
+ "abstract": "While the great capability of Transformers significantly boosts prediction accuracy, it could also yield overconfident predictions and require calibrated uncertainty estimation, which can be commonly tackled by Gaussian processes (GPs). Existing works apply GPs with symmetric kernels under variational inference to the attention kernel; however, omitting the fact that attention kernels are in essence asymmetric. Moreover, the complexity of deriving the GP posteriors remains high for large-scale data. In this work, we propose Kernel-Eigen Pair Sparse Variational Gaussian Processes (KEP-SVGP) for building uncertainty-aware self-attention where the asymmetry of attention kernels is tackled by Kernel SVD (KSVD) and a reduced complexity is acquired. Through KEP-SVGP, i) the SVGP pair induced by the two sets of singular vectors from KSVD w.r.t. the attention kernel fully characterizes the asymmetry; ii) using only a small set of adjoint eigenfunctions from KSVD, the derivation of SVGP posteriors can be based on the inversion of a diagonal matrix containing singular values, contributing to a reduction in time complexity; iii) an evidence lower bound is derived so that variational parameters and network weights can be optimized with it. Experiments verify our excellent performances and efficiency on in-distribution, distribution-shift and out-of-distribution benchmarks.",
+ "primary": "cs.LG"
+}

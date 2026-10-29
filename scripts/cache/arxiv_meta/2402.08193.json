@@ -1,0 +1,18 @@
+{
+ "id": "2402.08193",
+ "title": "Gaussian Ensemble Belief Propagation for Efficient Inference in High-Dimensional Systems",
+ "authors": [
+  "Dan MacKinlay",
+  "Russell Tsuchida",
+  "Dan Pagendam",
+  "Petra Kuhnert"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 7,
+ "latest_date": "2025-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under conference submission",
+ "abstract": "Efficient inference in high-dimensional models is a central challenge in machine learning. We introduce the Gaussian Ensemble Belief Propagation (GEnBP) algorithm, which combines the strengths of the Ensemble Kalman Filter (EnKF) and Gaussian Belief Propagation (GaBP) to address this challenge. GEnBP updates ensembles of prior samples into posterior samples by passing low-rank local messages over the edges of a graphical model, enabling efficient handling of high-dimensional states, parameters, and complex, noisy, black-box generation processes. By utilizing local message passing within a graphical model structure, GEnBP effectively manages complex dependency structures and remains computationally efficient even when the ensemble size is much smaller than the inference dimension -- a common scenario in spatiotemporal modeling, image processing, and physical model inversion. We demonstrate that GEnBP can be applied to various problem structures, including data assimilation, system identification, and hierarchical models, and show through experiments that it outperforms existing belief propagation methods in terms of accuracy and computational efficiency. Supporting code is available at https://github.com/danmackinlay/GEnBP",
+ "primary": "cs.LG"
+}

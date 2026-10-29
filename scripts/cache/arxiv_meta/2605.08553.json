@@ -1,0 +1,22 @@
+{
+ "id": "2605.08553",
+ "title": "VeriContest: A Competitive-Programming Benchmark for Verifiable Code Generation",
+ "authors": [
+  "Zichen Xie",
+  "Mrigank Pawagi",
+  "Yuxin Liu",
+  "Aaditi Rai",
+  "Lize Shao",
+  "John Berberian",
+  "Sicong Che",
+  "Wenxi Wang"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models can generate useful code from natural language, but their outputs come without correctness guarantees. Verifiable code generation offers a path beyond testing by requiring models to produce not only executable code, but also formal specifications and machine-checkable proofs. Progress in this direction, however, is difficult to measure: existing benchmarks are often small, focus on only one part of the pipeline, lack ground-truth proofs or rigorous specification validation, or target verification settings far from mainstream software development. We present VeriContest, a benchmark of 946 competitive-programming problems from LeetCode and Codeforces for verifiable code generation in Rust with Verus. Each problem pairs a natural language description with expert-validated formal specifications, judge-accepted Rust code, Verus-checked proofs, and positive and negative test suites. VeriContest is constructed through a three-phase pipeline that scales from manually verified seed problems to semi-automated expansion with human-in-the-loop review. To further strengthen benchmark quality, we use testing as an additional quality-assurance layer for validating postcondition completeness. VeriContest supports isolated and compositional evaluation of specification generation, code generation, proof generation, and end-to-end verified program synthesis. Evaluating ten state-of-the-art models reveals a sharp gap between coding ability and verifiable code generation: the strongest model reaches 92.18% on natural-language-to-code generation, but only 48.31% on specification generation, 13.95% on proof generation, and 5.29% end-to-end. These results identify proof and specification generation as the central bottlenecks for models and establish VeriContest as a rigorous platform for measuring and training future systems that generate code with machine-checkable correctness.",
+ "primary": "cs.SE"
+}

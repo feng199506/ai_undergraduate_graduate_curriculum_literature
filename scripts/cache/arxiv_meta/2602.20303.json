@@ -1,0 +1,15 @@
+{
+ "id": "2602.20303",
+ "title": "Multilevel Determinants of Overweight and Obesity Among U.S. Children Aged 10-17: Comparative Evaluation of Statistical and Machine Learning Approaches Using the 2021 National Survey of Children's Health",
+ "authors": [
+  "Joyanta Jyoti Mondal"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Background: Childhood and adolescent overweight and obesity remain major public health concerns in the United States and are shaped by behavioral, household, and community factors. Their joint predictive structure at the population level remains incompletely characterized. Objectives: The study aims to identify multilevel predictors of overweight and obesity among U.S. adolescents and compare the predictive performance, calibration, and subgroup equity of statistical, machine-learning, and deep-learning models. Data and Methods: We analyze 18,792 children aged 10-17 years from the 2021 National Survey of Children's Health. Overweight/obesity is defined using BMI categories. Predictors included diet, physical activity, sleep, parental stress, socioeconomic conditions, adverse experiences, and neighborhood characteristics. Models include logistic regression, random forest, gradient boosting, XGBoost, LightGBM, multilayer perceptron, and TabNet. Performance is evaluated using AUC, accuracy, precision, recall, F1 score, and Brier score. Results: Discrimination range from 0.66 to 0.79. Logistic regression, gradient boosting, and MLP showed the most stable balance of discrimination and calibration. Boosting and deep learning modestly improve recall and F1 score. No model was uniformly superior. Performance disparities across race and poverty groups persist across algorithms. Conclusion: Increased model complexity yields limited gains over logistic regression. Predictors consistently span behavioral, household, and neighborhood domains. Persistent subgroup disparities indicate the need for improved data quality and equity-focused surveillance rather than greater algorithmic complexity.",
+ "primary": "cs.AI"
+}

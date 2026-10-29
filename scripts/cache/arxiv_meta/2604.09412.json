@@ -1,0 +1,17 @@
+{
+ "id": "2604.09412",
+ "title": "Sharp description of local minima in the loss landscape of high-dimensional two-layer ReLU neural networks",
+ "authors": [
+  "Jie Huang",
+  "Bruno Loureiro",
+  "Stefano Sarao Mannelli"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 2,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 18 figures. Accepted as a conference paper at ICML 2026",
+ "abstract": "We study the population loss landscape of two-layer ReLU networks of the form $\\sum_{k=1}^K \\mathrm{ReLU}(w_k^\\top x)$ in a realisable teacher-student setting with Gaussian covariates. We show that local minima admit an exact low-dimensional representation in terms of summary statistics, yielding a sharp and interpretable characterisation of the landscape. We further establish a direct link with one-pass SGD: local minima correspond to attractive fixed points of the dynamics in summary statistics space. This perspective reveals a hierarchical organisation of minima into discrete families and shows how overparameterisation changes their stability and reachability under gradient-based dynamics. In this overparameterised regime, global minima become increasingly accessible, attracting the dynamics and reducing convergence to spurious solutions. Overall, our results reveal intrinsic limitations of common simplifying assumptions, which may miss essential features of the loss landscape even in minimal neural network models.",
+ "primary": "stat.ML"
+}

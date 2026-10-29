@@ -1,0 +1,18 @@
+{
+ "id": "2302.04181",
+ "title": "Attending to Graph Transformers",
+ "authors": [
+  "Luis Müller",
+  "Mikhail Galkin",
+  "Christopher Morris",
+  "Ladislav Rampášek"
+ ],
+ "v1_date": "2023-02-08",
+ "latest_version": 3,
+ "latest_date": "2024-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recently, transformer architectures for graphs emerged as an alternative to established techniques for machine learning with graphs, such as (message-passing) graph neural networks. So far, they have shown promising empirical results, e.g., on molecular prediction datasets, often attributed to their ability to circumvent graph neural networks' shortcomings, such as over-smoothing and over-squashing. Here, we derive a taxonomy of graph transformer architectures, bringing some order to this emerging field. We overview their theoretical properties, survey structural and positional encodings, and discuss extensions for important graph classes, e.g., 3D molecular graphs. Empirically, we probe how well graph transformers can recover various graph properties, how well they can deal with heterophilic graphs, and to what extent they prevent over-squashing. Further, we outline open challenges and research direction to stimulate future work. Our code is available at https://github.com/luis-mueller/probing-graph-transformers.",
+ "primary": "cs.LG"
+}

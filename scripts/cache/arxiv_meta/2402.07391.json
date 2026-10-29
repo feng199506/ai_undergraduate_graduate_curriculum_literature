@@ -1,0 +1,18 @@
+{
+ "id": "2402.07391",
+ "title": "Replicability is Asymptotically Free in Multi-armed Bandits",
+ "authors": [
+  "Junpei Komiyama",
+  "Shinji Ito",
+  "Yuichi Yoshida",
+  "Souta Koshino"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 3,
+ "latest_date": "2026-07-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Updated based on the TMLR camera-ready version. https://openreview.net/forum?id=E8rmbq8BYP",
+ "abstract": "We consider a replicable stochastic multi-armed bandit algorithm that ensures, with high probability, that the algorithm's sequence of actions is not affected by the randomness inherent in the dataset. Replicability allows third parties to reproduce published findings and assists the original researcher in applying standard statistical tests. We observe that existing algorithms require $O(K^2/ρ^2)$ times more regret than nonreplicable algorithms, where $K$ is the number of arms and $ρ$ is the level of nonreplication. However, we demonstrate that this additional cost is unnecessary when the time horizon $T$ is sufficiently large for a given $K, ρ$, provided that the magnitude of the confidence bounds is chosen carefully. Therefore, for a large $T$, our algorithm only requires $K^2/ρ^2$ times smaller amount of exploration than existing algorithms. To ensure the replicability of the proposed algorithms, we incorporate randomness into their decision-making processes. We propose a principled approach to limiting the probability of nonreplication. This approach elucidates the steps that existing research has implicitly followed. Furthermore, we derive the first lower bound for the two-armed replicable bandit problem, which implies the optimality of the proposed algorithms up to a $\\log\\log T$ factor for the two-armed case.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2505.16204",
+ "title": "Directional Convergence, Benign Overfitting of Gradient Descent in leaky ReLU two-layer Neural Networks",
+ "authors": [
+  "Ichiro Hashimoto"
+ ],
+ "v1_date": "2025-05-22",
+ "latest_version": 3,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, Accepted at International Conference on Learning Representations 2026 (ICLR 2026)",
+ "abstract": "In this paper, we provide sufficient conditions of benign overfitting of fixed width leaky ReLU two-layer neural network classifiers trained on mixture data via gradient descent. Our results are derived by establishing directional convergence of the network parameters and classification error bound of the convergent direction. Our classification error bound also lead to the discovery of a newly identified phase transition. Previously, directional convergence in (leaky) ReLU neural networks was established only for gradient flow. Due to the lack of directional convergence, previous results on benign overfitting were limited to those trained on nearly orthogonal data. All of our results hold on mixture data, which is a broader data setting than the nearly orthogonal data setting in prior work. We demonstrate our findings by showing that benign overfitting occurs with high probability in a much wider range of scenarios than previously known. Our results also allow us to characterize cases when benign overfitting provably fails even if directional convergence occurs. Our work thus provides a more complete picture of benign overfitting in leaky ReLU two-layer neural networks.",
+ "primary": "cs.LG"
+}

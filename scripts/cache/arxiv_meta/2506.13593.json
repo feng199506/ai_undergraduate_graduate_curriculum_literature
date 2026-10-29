@@ -1,0 +1,18 @@
+{
+ "id": "2506.13593",
+ "title": "Calibrated Predictive Lower Bounds on Time-to-Unsafe-Sampling in LLMs",
+ "authors": [
+  "Hen Davidov",
+  "Shai Feldman",
+  "Gilad Freidkin",
+  "Yaniv Romano"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 5,
+ "latest_date": "2026-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce time-to-unsafe-sampling, a novel safety measure for generative models, defined as the number of generations required by a large language model (LLM) to trigger an unsafe (e.g., toxic) response. While providing a new dimension for prompt-adaptive safety evaluation, quantifying time-to-unsafe-sampling is challenging: unsafe outputs are often rare in well-aligned models and thus may not be observed under any feasible sampling budget. To address this challenge, we frame this estimation problem as one of survival analysis. We build on recent developments in conformal prediction and propose a novel calibration technique to construct a lower predictive bound (LPB) on the time-to-unsafe-sampling of a given prompt with rigorous coverage guarantees. Our key technical innovation is an optimized sampling-budget allocation scheme that improves sample efficiency while maintaining distribution-free guarantees. Experiments on both synthetic and real data support our theoretical results and demonstrate the practical utility of our method for safety risk assessment in generative AI models.",
+ "primary": "cs.LG"
+}

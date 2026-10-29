@@ -1,0 +1,21 @@
+{
+ "id": "2501.09367",
+ "title": "PICE: A Semantic-Driven Progressive Inference System for LLM Serving in Cloud-Edge Networks",
+ "authors": [
+  "Huiyou Zhan",
+  "Xuan Zhang",
+  "Haisheng Tan",
+  "Han Tian",
+  "Dongping Yong",
+  "Junyang Zhang",
+  "Xiang-Yang Li"
+ ],
+ "v1_date": "2025-01-16",
+ "latest_version": 1,
+ "latest_date": "2025-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs), while driving a new wave of interactive AI applications across numerous domains, suffer from high inference costs and heavy cloud dependency. Motivated by the redundancy phenomenon in linguistics, we propose a progressive inference paradigm over cloud and edge, i.e., firstly generating the sketch of the answer by LLMs at cloud, and then conducting parallel extension to fill in details by small models (SLMs) at edge. Progressive inference offers potential benefits to improve throughput and reduce inference latency while facing key implementation challenges, including decreased response quality from SLMs, a tradeoff between the brevity and comprehensiveness of sketches, as well as increased latency caused by network transmission and edge inference. In this work, we propose and implement PICE, an LLM serving system with semantic-level cloud-edge collaboration, enhancing inference throughput and quality through dynamic inference task scheduling, ensemble learning, and parallel edge inference. Extensive testbed experiments illustrate that our approach achieves $1.5-2\\times$ throughput enhancement and up to 43% latency reduction, while also potentially enhancing the quality compared to SOTA systems.",
+ "primary": "cs.DC"
+}

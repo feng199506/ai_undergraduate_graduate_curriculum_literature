@@ -1,0 +1,15 @@
+{
+ "id": "2401.00945",
+ "title": "A review of Monte Carlo-based versions of the EM algorithm",
+ "authors": [
+  "William Ruth"
+ ],
+ "v1_date": "2024-01-01",
+ "latest_version": 1,
+ "latest_date": "2024-01-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The EM algorithm is a powerful tool for maximum likelihood estimation with missing data. In practice, the calculations required for the EM algorithm are often intractable. We review numerous methods to circumvent this intractability, all of which are based on Monte Carlo simulation. We focus our attention on the Monte Carlo EM (MCEM) algorithm and its various implementations. We also discuss some related methods like stochastic approximation and Monte Carlo maximum likelihood. Generating the Monte Carlo samples necessary for these methods is, in general, a hard problem. As such, we review several simulation strategies which can be used to address this challenge. Given the wide range of methods available for approximating the EM, it can be challenging to select which one to use. We review numerous comparisons between these methods from a wide range of sources, and offer guidance on synthesizing the findings. Finally, we give some directions for future research to fill important gaps in the existing literature on the MCEM algorithm and related methods.",
+ "primary": "stat.CO"
+}

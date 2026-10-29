@@ -1,0 +1,19 @@
+{
+ "id": "2402.09122",
+ "title": "Weighted-Sum of Gaussian Process Latent Variable Models",
+ "authors": [
+  "James Odgers",
+  "Ruby Sedgwick",
+  "Chrysoula Kappatou",
+  "Ruth Misener",
+  "Sarah Filippi"
+ ],
+ "v1_date": "2024-02-14",
+ "latest_version": 4,
+ "latest_date": "2025-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work develops a Bayesian non-parametric approach to signal separation where the signals may vary according to latent variables. Our key contribution is to augment Gaussian Process Latent Variable Models (GPLVMs) for the case where each data point comprises the weighted sum of a known number of pure component signals, observed across several input locations. Our framework allows arbitrary non-linear variations in the signals while being able to incorporate useful priors for the linear weights, such as summing-to-one. Our contributions are particularly relevant to spectroscopy, where changing conditions may cause the underlying pure component signals to vary from sample to sample. To demonstrate the applicability to both spectroscopy and other domains, we consider several applications: a near-infrared spectroscopy dataset with varying temperatures, a simulated dataset for identifying flow configuration through a pipe, and a dataset for determining the type of rock from its reflectance.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2610.13003",
+ "title": "SlackSwap: Bandwidth-Aware Activation Swapping and Recomputation for Memory-Efficient DNN Training",
+ "authors": [
+  "Hui Feng",
+  "Xun Zhou",
+  "Yuxin Wang"
+ ],
+ "v1_date": "2026-10-09",
+ "latest_version": 1,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Swapping saved activations to host memory once enabled GPUs to train models that exceeded their device-memory capacity when compute throughput and host-link bandwidth were roughly balanced. For example, on a 2015 Titan X, PCIe bandwidth was sufficient to offload all VGG-16 activations during the forward pass. This balance no longer holds. From the Titan X to the H100, peak training throughput increased by 141x, whereas host-link bandwidth improved by only 3.9x. On an A100, the host link can hide transfers for only 11-38% of the activations in the transformer models we study. Existing swapping approaches, such as vDNN, SuperNeurons, and SwapAdvisor, offload tensors according to memory requirements without explicitly respecting the available link-time budget, resulting in transfer-induced stalls; block checkpointing, in contrast, leaves the host link underutilized. We present SlackSwap, which treats host-link time as an explicit resource budget. Using a single profiled iteration, SlackSwap allocates the forward-pass link budget to tensors that are most expensive to recompute, resolves the remaining memory deficit by recomputing the least expensive tensors, and schedules FIFO offloads and earliest-deadline-first prefetches without per-layer synchronization barriers. In trace-driven simulations of BERT-Large, GPT-2 XL, and a Llama-7B-style model on an A100, SlackSwap retains 96-100% of unlimited-memory GPU throughput while using half the activation memory, achieving 1.10-1.11x the throughput of the best baseline. Its plans are within 0.5% of a genetic search over 6,600-14,000 candidate plans, while requiring less than 0.4 seconds to generate.",
+ "primary": "cs.DC"
+}

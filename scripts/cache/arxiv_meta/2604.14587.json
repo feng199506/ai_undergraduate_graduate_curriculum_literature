@@ -1,0 +1,17 @@
+{
+ "id": "2604.14587",
+ "title": "CLion: Efficient Cautious Lion Optimizer with Enhanced Generalization",
+ "authors": [
+  "Feihu Huang",
+  "Guanyi Zhang",
+  "Songcan Chen"
+ ],
+ "v1_date": "2026-04-16",
+ "latest_version": 1,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages",
+ "abstract": "Lion optimizer is a popular learning-based optimization algorithm in machine learning, which shows impressive performance in training many deep learning models. Although convergence property of the Lion optimizer has been studied, its generalization analysis is still missing. To fill this gap, we study generalization property of the Lion via algorithmic stability based on the mathematical induction. Specifically, we prove that the Lion has a generalization error of $O(\\frac{1}{Nτ^T})$, where $N$ is training sample size, and $τ>0$ denotes the smallest absolute value of non-zero element in gradient estimator, and $T$ is the total iteration number. In addition, we obtain an interesting byproduct that the SignSGD algorithm has the same generalization error as the Lion. To enhance generalization of the Lion, we design a novel efficient Cautious Lion (i.e., CLion) optimizer by cautiously using sign function. Moreover, we prove that our CLion has a lower generalization error of $O(\\frac{1}{N})$ than $O(\\frac{1}{Nτ^T})$ of the Lion, since the parameter $τ$ generally is very small. Meanwhile, we study convergence property of our CLion optimizer, and prove that our CLion has a fast convergence rate of $O(\\frac{\\sqrt{d}}{T^{1/4}})$ under $\\ell_1$-norm of gradient for nonconvex stochastic optimization, where $d$ denotes the model dimension. Extensive numerical experiments demonstrate effectiveness of our CLion optimizer.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2610.15506",
+ "title": "Pathwise Alignment for Collaborative Filtering: Bilateral Conditional Flow Regularization",
+ "authors": [
+  "Zhiwei Li",
+  "Guodong Long",
+  "Chengqi Zhang",
+  "Jing Jiang"
+ ],
+ "v1_date": "2026-10-11",
+ "latest_version": 1,
+ "latest_date": "2026-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 13 figures. Includes appendices",
+ "abstract": "Collaborative filtering predicts user-item interactions from implicit feedback. We focus on matrix factorization (MF) trained with the Bayesian Personalized Ranking loss. This loss updates each user embedding only through that user's observed items and sampled negatives, so sparse feedback gives MF few constraints. To constrain each user through other users, we propose Pathwise Alignment for Collaborative Filtering (PACF), which trains MF with one network shared by all training pairs. At points between user and item embeddings, a flow matching term trains the network to predict the user-to-item step, reversed and scaled for sampled negatives. A trajectory consistency term pulls each user's predicted path to end at the observed item. Both terms update the embeddings, so the network is discarded after training, thereby maintaining the efficiency of MF at inference. We prove that a network with bounded sensitivity to its input point accurately fits users who share an item only if their embeddings are close, so these users constrain one another. Against eleven discriminative and generative baselines, PACF achieves the highest performance on all seven datasets. Its relative gains over MF are largest where feedback is sparsest. The shared network thus supplies the missing constraints through other users.",
+ "primary": "cs.IR"
+}

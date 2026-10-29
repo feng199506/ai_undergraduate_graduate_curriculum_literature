@@ -1,0 +1,21 @@
+{
+ "id": "2512.24503",
+ "title": "Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice",
+ "authors": [
+  "Jiachen T. Wang",
+  "Tong Wu",
+  "Kaifeng Lyu",
+  "James Zou",
+  "Dawn Song",
+  "Ruoxi Jia",
+  "Prateek Mittal"
+ ],
+ "v1_date": "2025-12-30",
+ "latest_version": 2,
+ "latest_date": "2026-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICLR 2026",
+ "abstract": "Data teams at frontier AI companies routinely train small proxy models to make critical decisions about pretraining data recipes for full-scale training runs. However, the community has a limited understanding of whether and when conclusions drawn from small-scale experiments reliably transfer to full-scale model training. In this work, we uncover a subtle yet critical issue in the standard experimental protocol for data recipe assessment: the use of identical small-scale model training configurations across all data recipes in the name of \"fair\" comparison. We show that the experiment conclusions about data quality can flip with even minor adjustments to training hyperparameters, as the optimal training configuration is inherently data-dependent. Moreover, this fixed-configuration protocol diverges from full-scale model development pipelines, where hyperparameter optimization is a standard step. Consequently, we posit that the objective of data recipe assessment should be to identify the recipe that yields the best performance under data-specific tuning. To mitigate the high cost of hyperparameter tuning, we introduce a simple patch to the evaluation protocol: using reduced learning rates for proxy model training. We show that this approach yields relative performance that strongly correlates with that of fully tuned large-scale LLM pretraining runs. Theoretically, we prove that for random-feature models, this approach preserves the ordering of datasets according to their optimal achievable loss. Empirically, we validate this approach across 23 data recipes covering four critical dimensions of data curation, demonstrating dramatic improvements in the reliability of small-scale experiments.",
+ "primary": "cs.LG"
+}

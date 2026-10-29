@@ -1,0 +1,16 @@
+{
+ "id": "2508.20597",
+ "title": "Local Virtual Nodes for Alleviating Over-Squashing in Graph Neural Networks",
+ "authors": [
+  "Tuğrul Hasan Karabulut",
+  "İnci M. Baytaş"
+ ],
+ "v1_date": "2025-08-28",
+ "latest_version": 1,
+ "latest_date": "2025-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Over-squashing is a challenge in training graph neural networks for tasks involving long-range dependencies. In such tasks, a GNN's receptive field should be large enough to enable communication between distant nodes. However, gathering information from a wide range of neighborhoods and squashing its content into fixed-size node representations makes message-passing vulnerable to bottlenecks. Graph rewiring and adding virtual nodes are commonly studied remedies that create additional pathways around bottlenecks to mitigate over-squashing. However, these techniques alter the input graph's global topology and disrupt the domain knowledge encoded in the original graph structure, both of which could be essential to specific tasks and domains. This study presents Local Virtual Nodes (LVN) with trainable embeddings to alleviate the effects of over-squashing without significantly corrupting the global structure of the input graph. The position of the LVNs is determined by the node centrality, which indicates the existence of potential bottlenecks. Thus, the proposed approach aims to improve the connectivity in the regions with likely bottlenecks. Furthermore, trainable LVN embeddings shared across selected central regions facilitate communication between distant nodes without adding more layers. Extensive experiments on benchmark datasets demonstrate that LVNs can enhance structural connectivity and significantly improve performance on graph and node classification tasks. The code can be found at https://github.com/ALLab-Boun/LVN/}{https://github.com/ALLab-Boun/LVN/.",
+ "primary": "cs.LG"
+}

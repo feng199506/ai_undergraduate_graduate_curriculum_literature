@@ -1,0 +1,16 @@
+{
+ "id": "2508.09265",
+ "title": "Over-Squashing in GNNs and Causal Inference of Rewiring Strategies",
+ "authors": [
+  "Danial Saber",
+  "Amirali Salehi-Abari"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 1,
+ "latest_date": "2025-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 2 figures",
+ "abstract": "Graph neural networks (GNNs) have exhibited state-of-the-art performance across wide-range of domains such as recommender systems, material design, and drug repurposing. Yet message-passing GNNs suffer from over-squashing -- exponential compression of long-range information from distant nodes -- which limits expressivity. Rewiring techniques can ease this bottleneck; but their practical impacts are unclear due to the lack of a direct empirical over-squashing metric. We propose a rigorous, topology-focused method for assessing over-squashing between node pairs using the decay rate of their mutual sensitivity. We then extend these pairwise assessments to four graph-level statistics (prevalence, intensity, variability, extremity). Coupling these metrics with a within-graph causal design, we quantify how rewiring strategies affect over-squashing on diverse graph- and node-classification benchmarks. Our extensive empirical analyses show that most graph classification datasets suffer from over-squashing (but to various extents), and rewiring effectively mitigates it -- though the degree of mitigation, and its translation into performance gains, varies by dataset and method. We also found that over-squashing is less notable in node classification datasets, where rewiring often increases over-squashing, and performance variations are uncorrelated with over-squashing changes. These findings suggest that rewiring is most beneficial when over-squashing is both substantial and corrected with restraint -- while overly aggressive rewiring, or rewiring applied to minimally over-squashed graphs, is unlikely to help and may even harm performance. Our plug-and-play diagnostic tool lets practitioners decide -- before any training -- whether rewiring is likely to pay off.",
+ "primary": "cs.LG"
+}

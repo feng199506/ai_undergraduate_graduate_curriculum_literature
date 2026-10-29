@@ -1,0 +1,19 @@
+{
+ "id": "2603.02858",
+ "title": "LLM-based Argument Mining meets Argumentation and Description Logics: a Unified Framework for Reasoning about Debates",
+ "authors": [
+  "Gianvincenzo Alfano",
+  "Sergio Greco",
+  "Lucio La Cava",
+  "Stefano Francesco Monea",
+  "Irina Trubitsyna"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 1,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) achieve strong performance in analyzing and generating text, yet they struggle with explicit, transparent, and verifiable reasoning over complex texts such as those containing debates. In particular, they lack structured representations that capture how arguments support or attack each other and how their relative strengths determine overall acceptability. We encompass these limitations by proposing a framework that integrates learning-based argument mining with quantitative reasoning and ontology-based querying. Starting from a raw debate text, the framework extracts a fuzzy argumentative knowledge base, where arguments are explicitly represented as entities, linked by attack and support relations, and annotated with initial fuzzy strengths reflecting plausibility w.r.t. the debate's context. Quantitative argumentation semantics are then applied to compute final argument strengths by propagating the effects of supports and attacks. These results are then embedded into a fuzzy description logic setting, enabling expressive query answering through efficient rewriting techniques. The proposed approach provides a transparent, explainable, and formally grounded method for analyzing debates, overcoming purely statistical LLM-based analyses.",
+ "primary": "cs.AI"
+}

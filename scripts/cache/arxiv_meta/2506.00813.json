@@ -1,0 +1,17 @@
+{
+ "id": "2506.00813",
+ "title": "TIME: TabPFN-Integrated Multimodal Engine for Robust Tabular-Image Learning",
+ "authors": [
+  "Jiaqi Luo",
+  "Yuan Yuan",
+  "Shixin Xu"
+ ],
+ "v1_date": "2025-06-01",
+ "latest_version": 1,
+ "latest_date": "2025-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tabular-image multimodal learning, which integrates structured tabular data with imaging data, holds great promise for a variety of tasks, especially in medical applications. Yet, two key challenges remain: (1) the lack of a standardized, pretrained representation for tabular data, as is commonly available in vision and language domains; and (2) the difficulty of handling missing values in the tabular modality, which are common in real-world medical datasets. To address these issues, we propose the TabPFN-Integrated Multimodal Engine (TIME), a novel multimodal framework that builds on the recently introduced tabular foundation model, TabPFN. TIME leverages TabPFN as a frozen tabular encoder to generate robust, strong embeddings that are naturally resilient to missing data, and combines them with image features from pretrained vision backbones. We explore a range of fusion strategies and tabular encoders, and evaluate our approach on both natural and medical datasets. Extensive experiments demonstrate that TIME consistently outperforms competitive baselines across both complete and incomplete tabular inputs, underscoring its practical value in real-world multimodal learning scenarios.",
+ "primary": "cs.CV"
+}

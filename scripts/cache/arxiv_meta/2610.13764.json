@@ -1,0 +1,19 @@
+{
+ "id": "2610.13764",
+ "title": "How Well Do Prior-Data Fitted Networks Amortize Bayesian Inference?",
+ "authors": [
+  "Manuel Hülskamp",
+  "Julius Kobialka",
+  "Emanuel Sommer",
+  "Thomas Nagler",
+  "David Rügamer"
+ ],
+ "v1_date": "2026-10-09",
+ "latest_version": 2,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prior-data fitted networks (PFNs) are trained to approximate the Bayesian posterior predictive distribution (PPD) of a synthetic prior, yet results about the approximation quality are surprisingly thin. Taking an empirical risk minimization perspective, we decompose the deployment error of PFNs into prior, context, and amortization error, and measure the latter against a reference PPD under a realistic prior. Results show that PFNs generally recover the targeted PPD very well. Nevertheless, we find that parts of the residual amortization error persist, especially in \\textit{rare} settings under the prior pretraining distribution, even when scaling the model size, which manifests in disagreement between independently pretrained PFNs and leaves uncertainty about the predictor at inference time. As a remedy, we study multiple types of Bayesian model averages and find that these can consistently reduce this uncertainty and improve predictions up to full-size TabICLv2 models.",
+ "primary": "stat.ML"
+}

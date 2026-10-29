@@ -1,0 +1,16 @@
+{
+ "id": "2609.06549",
+ "title": "Generating radio continuum survey maps of arbitrary size with latent diffusion models",
+ "authors": [
+  "Tobias Vičánek Martínez",
+  "Marcus Brüggen"
+ ],
+ "v1_date": "2026-09-06",
+ "latest_version": 1,
+ "latest_date": "2026-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Radio surveys provide exponentially increasing amounts of observational data, which requires the development of novel data reduction and analysis methods. To this end, realistic simulations of observational data provide controlled environments for testing and developing new methods. Diffusion models excel at synthesizing realistic image data, but are limited by size constraints and high computational demands. We implemented a latent diffusion model (LDM) to synthesize realistic radio survey map cutouts. Further, we developed a technique for sampling radio survey maps of arbitrary size with the LDM. This is done by sampling in multiple sequential steps, whereby consistency is provided through context vectors and image inpainting. We trained our model on observations from the LOFAR telescope obtained from the third data release of the LOFAR Two-Metre Sky Survey. We implemented a LDM composed of a vector-quantized variational autoencoder and a diffusion model operating on the resulting latent representations. We added information on source locations, brightness and sizes by extracting parameters from the public source catalog and encoding them into a vector format passed as context to the LDM. We trained the model for image inpainting to facilitate continuous sequential sampling. We were able to generate realistic cutouts of 512 pixel side length, corresponding to ~5.7 arcmin, with precise control over source locations and brightness. Control over source extension was achieved at lower precision. Sampling of arbitrary-sized maps was made possible, showing realistic results with seamless combination of individual samples and limited only by occasional sampling artifacts.",
+ "primary": "astro-ph.IM"
+}

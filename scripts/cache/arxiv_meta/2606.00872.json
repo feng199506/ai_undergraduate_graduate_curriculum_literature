@@ -1,0 +1,17 @@
+{
+ "id": "2606.00872",
+ "title": "Images as Tables: In-Context Learning with TabPFN for Low-Data Detection of AI-Generated Images",
+ "authors": [
+  "Jan Philip Walter",
+  "Shashank Agnihotri",
+  "Margret Keuper"
+ ],
+ "v1_date": "2026-05-30",
+ "latest_version": 1,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted as a Spotlight Oral at the ICML 2026 Workshop Foundation Models for Structured Data. *Equal Contribution",
+ "abstract": "AI-generated image detection is a moving-target problem: detectors trained on one generator often fail when a new generator appears, and only a few labeled examples are available. We study a simple image-to-table formulation for this regime, where each image is encoded by a frozen DINOv3 backbone, its CLS feature is reduced to a 500-dimensional structured row with PCA, and TabPFN performs real/fake classification by in-context tabular inference rather than task-specific classifier training. This turns fake-image detection into low-data structured prediction over learned visual features, making detector adaptation depend on the labeled context set instead of gradient-based fine-tuning. On GenImage, LATTE, a recent state-of-the-art detector, remains stronger when many labeled samples from all generators are available, by 7.4% in the largest pooled setting, but DINOv3-PCA-TabPFN is stronger in the practically important low-data regime, outperforming LATTE by up to 8.2%, and in transfer settings where the detector must generalize from one generator to another. These results position tabular foundation models as a strong complementary adaptation mechanism for image forensics, shifting adaptation from detector retraining to lightweight in-context updates with a small labeled set of examples. Code URL: https://github.com/jpwalter30/Towards-Generalizable-Detection-of-AI-Generated-Images",
+ "primary": "cs.CV"
+}

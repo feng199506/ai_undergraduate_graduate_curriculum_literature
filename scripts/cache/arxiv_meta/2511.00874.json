@@ -1,0 +1,18 @@
+{
+ "id": "2511.00874",
+ "title": "Training with Fewer Bits: Unlocking Edge LLMs Training with Stochastic Rounding",
+ "authors": [
+  "Taowen Liu",
+  "Marta Andronic",
+  "Deniz Gündüz",
+  "George A. Constantinides"
+ ],
+ "v1_date": "2025-11-02",
+ "latest_version": 1,
+ "latest_date": "2025-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "LLM training is resource-intensive. Quantized training improves computational and memory efficiency but introduces quantization noise, which can hinder convergence and degrade model accuracy. Stochastic Rounding (SR) has emerged as a theoretically attractive alternative to deterministic rounding, offering unbiased gradient estimates. However, its interaction with other training factors -- especially batch size -- remains under explored. In this paper, we present a theoretical and empirical study of mini-batch stochastic gradient descent (SGD) with SR, showing that increased batch sizes can compensate for reduced precision during back-propagation. Furthermore, we show that quantizing weights and activations impacts gradient variance in distinct ways. Our experiments validate these theoretical insights.",
+ "primary": "cs.LG"
+}

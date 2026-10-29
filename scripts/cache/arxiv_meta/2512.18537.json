@@ -1,0 +1,15 @@
+{
+ "id": "2512.18537",
+ "title": "Systematic Benchmarking of SUMO Against Data-Driven Traffic Simulators",
+ "authors": [
+  "Erdao Liang"
+ ],
+ "v1_date": "2025-12-20",
+ "latest_version": 1,
+ "latest_date": "2025-12-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Source code is available at https://github.com/LuminousLamp/SUMO-Benchmark",
+ "abstract": "This paper presents a systematic benchmarking of the model-based microscopic traffic simulator SUMO against state-of-the-art data-driven traffic simulators using large-scale real-world datasets. Using the Waymo Open Motion Dataset (WOMD) and the Waymo Open Sim Agents Challenge (WOSAC), we evaluate SUMO under both short-horizon (8s) and long-horizon (60s) closed-loop simulation settings. To enable scalable evaluation, we develop Waymo2SUMO, an automated pipeline that converts WOMD scenarios into SUMO simulations. On the WOSAC benchmark, SUMO achieves a realism meta metric of 0.653 while requiring fewer than 100 tunable parameters. Extended rollouts show that SUMO maintains low collision and offroad rates and exhibits stronger long-horizon stability than representative data-driven simulators. These results highlight complementary strengths of model-based and data-driven approaches for autonomous driving simulation and benchmarking.",
+ "primary": "cs.RO"
+}

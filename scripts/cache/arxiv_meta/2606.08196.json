@@ -1,0 +1,17 @@
+{
+ "id": "2606.08196",
+ "title": "Beyond Additivity: Causal Discovery in Location-Scale Noise Models with Hidden Variables",
+ "authors": [
+  "Mariyam Khan",
+  "Shohei Shimizu",
+  "Thong Pham"
+ ],
+ "v1_date": "2026-06-06",
+ "latest_version": 1,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 4 figures",
+ "abstract": "We study causal discovery from observational data when some variables are hidden and the data-generating process follows a location-scale noise model (LSNM). Existing methods that handle hidden confounders typically assume additive noise, but in practice, causes often modulate not just the mean but also the variance of their effects. We prove that acyclic directed mixed graphs (ADMGs) satisfying a bow-free condition are identifiable under LSNM with hidden variables, establishing the first identifiability result for causally insufficient models beyond noise additivity. We further provide sufficient conditions for identifying causal direction even when the bow-free assumption is violated. Our two-stage algorithm, LSNM-UV, is sound and complete, and experiments demonstrate improved performance over additive baselines on heteroscedastic data.",
+ "primary": "stat.ML"
+}

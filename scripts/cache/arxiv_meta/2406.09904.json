@@ -1,0 +1,24 @@
+{
+ "id": "2406.09904",
+ "title": "QQQ: Quality Quattuor-Bit Quantization for Large Language Models",
+ "authors": [
+  "Ying Zhang",
+  "Peng Zhang",
+  "Mincong Huang",
+  "Jingyang Xiang",
+  "Yujie Wang",
+  "Chao Wang",
+  "Yineng Zhang",
+  "Lei Yu",
+  "Chuan Liu",
+  "Wei Lin"
+ ],
+ "v1_date": "2024-06-14",
+ "latest_version": 3,
+ "latest_date": "2024-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantization is a proven effective method for compressing large language models. Although popular techniques like W8A8 and W4A16 effectively maintain model performance, they often fail to concurrently speed up the prefill and decoding stages of inference. W4A8 is a promising strategy to accelerate both of them while usually leads to a significant performance degradation. To address these issues, we present QQQ, a Quality Quattuor-bit Quantization method with 4-bit weights and 8-bit activations. QQQ employs adaptive smoothing and Hessian-based compensation, significantly enhancing the performance of quantized models without extensive training. Furthermore, we meticulously engineer W4A8 GEMM kernels to increase inference speed. Our specialized per-channel W4A8 GEMM and per-group W4A8 GEMM achieve impressive speed increases of 3.67$\\times$ and 3.29 $\\times$ over FP16 GEMM. Our extensive experiments show that QQQ achieves performance on par with existing state-of-the-art LLM quantization methods while significantly accelerating inference, achieving speed boosts up to 2.24 $\\times$, 2.10$\\times$, and 1.25$\\times$ compared to FP16, W8A8, and W4A16, respectively.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2408.09817",
+ "title": "Contextual Dual Learning Algorithm with Listwise Distillation for Unbiased Learning to Rank",
+ "authors": [
+  "Lulu Yu",
+  "Keping Bi",
+  "Shiyu Ni",
+  "Jiafeng Guo"
+ ],
+ "v1_date": "2024-08-19",
+ "latest_version": 1,
+ "latest_date": "2024-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 2 figures",
+ "abstract": "Unbiased Learning to Rank (ULTR) aims to leverage biased implicit user feedback (e.g., click) to optimize an unbiased ranking model. The effectiveness of the existing ULTR methods has primarily been validated on synthetic datasets. However, their performance on real-world click data remains unclear. Recently, Baidu released a large publicly available dataset of their web search logs. Subsequently, the NTCIR-17 ULTRE-2 task released a subset dataset extracted from it. We conduct experiments on commonly used or effective ULTR methods on this subset to determine whether they maintain their effectiveness. In this paper, we propose a Contextual Dual Learning Algorithm with Listwise Distillation (CDLA-LD) to simultaneously address both position bias and contextual bias. We utilize a listwise-input ranking model to obtain reconstructed feature vectors incorporating local contextual information and employ the Dual Learning Algorithm (DLA) method to jointly train this ranking model and a propensity model to address position bias. As this ranking model learns the interaction information within the documents list of the training set, to enhance the ranking model's generalization ability, we additionally train a pointwise-input ranking model to learn the listwise-input ranking model's capability for relevance judgment in a listwise manner. Extensive experiments and analysis confirm the effectiveness of our approach.",
+ "primary": "cs.IR"
+}

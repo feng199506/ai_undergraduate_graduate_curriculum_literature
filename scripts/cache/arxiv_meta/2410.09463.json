@@ -1,0 +1,17 @@
+{
+ "id": "2410.09463",
+ "title": "From Theory to Practice: Implementing and Evaluating e-Fold Cross-Validation",
+ "authors": [
+  "Christopher Mahlich",
+  "Tobias Vente",
+  "Joeran Beel"
+ ],
+ "v1_date": "2024-10-12",
+ "latest_version": 2,
+ "latest_date": "2024-10-26",
+ "journal_ref": "International Conference on Artificial Intelligence and Machine Learning Research (CAIMLR). 2024",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces e-fold cross-validation, an energy-efficient alternative to k-fold cross-validation. It dynamically adjusts the number of folds based on a stopping criterion. The criterion checks after each fold whether the standard deviation of the evaluated folds has consistently decreased or remained stable. Once met, the process stops early. We tested e-fold cross-validation on 15 datasets and 10 machine-learning algorithms. On average, it required 4 fewer folds than 10-fold cross-validation, reducing evaluation time, computational resources, and energy use by about 40%. Performance differences between e-fold and 10-fold cross-validation were less than 2% for larger datasets. More complex models showed even smaller discrepancies. In 96% of iterations, the results were within the confidence interval, confirming statistical significance. E-fold cross-validation offers a reliable and efficient alternative to k-fold, reducing computational costs while maintaining comparable accuracy.",
+ "primary": "cs.LG"
+}

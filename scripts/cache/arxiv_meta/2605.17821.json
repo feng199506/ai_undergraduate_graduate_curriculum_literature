@@ -1,0 +1,22 @@
+{
+ "id": "2605.17821",
+ "title": "TierCheck: Tiered Checkpointing for Fault Tolerance in Large Language Model Training",
+ "authors": [
+  "Shujie Han",
+  "Feng Jiang",
+  "Patrick P. C. Lee",
+  "Xiao Zhang",
+  "Zhijie Huang",
+  "Nannan Zhao",
+  "Xiaonan Zhao",
+  "Lichen Pan"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 1,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Model (LLM) training is frequently interrupted by a heterogeneous spectrum of failures, from common GPU crashes to catastrophic cluster-wide outages. Existing checkpointing systems rely on monolithic, single-tier storage backend, forcing a trade-off between state-saving overhead and recovery speed. We propose TierCheck, a cluster-aware tiered checkpointing system that aligns storage placement with failure heterogeneity. TierCheck adopts a three-tier design that maintains lightweight differential checkpoints in local and peer memory for fast localized recovery, while asynchronously migrating heavyweight base checkpoints to remote persistent storage. It also ensures strict global consistency across tiers without stalling training, and achieves fast cluster-aware checkpoint restoration during recovery. Evaluations on models up to 40 billion parameters show that TierCheck achieves low training overhead, reduces end-to-end checkpointing time to under 10s, and supports high-frequency checkpointing, ultimately striking an optimal balance between low-overhead persistence and fast recovery.",
+ "primary": "cs.DC"
+}

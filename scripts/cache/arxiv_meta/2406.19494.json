@@ -1,0 +1,20 @@
+{
+ "id": "2406.19494",
+ "title": "JAX-based differentiable fluid dynamics on GPU and end-to-end optimization",
+ "authors": [
+  "Wenkang Wang",
+  "Xuanwei Zhang",
+  "Deniz Bezgin",
+  "Aaron Buhendwa",
+  "Xu Chu",
+  "Bernhard Weigand"
+ ],
+ "v1_date": "2024-06-27",
+ "latest_version": 1,
+ "latest_date": "2024-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This project aims to advance differentiable fluid dynamics for hypersonic coupled flow over porous media, demonstrating the potential of automatic differentiation (AD)-based optimization for end-to-end solutions. Leveraging AD efficiently handles high-dimensional optimization problems, offering a flexible alternative to traditional methods. We utilized JAX-Fluids, a newly developed solver based on the JAX framework, which combines autograd and TensorFlow's XLA. Compiled on a HAWK-AI node with NVIDIA A100 GPU, JAX-Fluids showed computational performance comparable to other high-order codes like FLEXI. Validation with a compressible turbulent channel flow DNS case showed excellent agreement, and a new boundary condition for modeling porous media was successfully tested on a laminar boundary layer case. Future steps in our research are anticipated.",
+ "primary": "physics.flu-dyn"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.16077",
+ "title": "Ensembling Sparse Autoencoders",
+ "authors": [
+  "Soham Gadgil",
+  "Chris Lin",
+  "Su-In Lee"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 2,
+ "latest_date": "2026-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ICML 2026",
+ "abstract": "Sparse autoencoders (SAEs) are used to decompose neural network activations into human-interpretable features. Typically, features learned by a single SAE are used for downstream applications. However, it has recently been shown that a single SAE captures only a limited subset of features that can be extracted from the activation space. Motivated by this limitation, we introduce and formalize SAE ensembles. Furthermore, we propose to ensemble multiple SAEs through naive bagging and boosting. In naive bagging, SAEs trained with different weight initializations are ensembled, whereas in boosting SAEs sequentially trained to minimize the residual error are ensembled. Theoretically, naive bagging and boosting are justified as approaches to reduce reconstruction error. Empirically, we evaluate our ensemble approaches with three settings of language models and SAE architectures. Our empirical results demonstrate that, compared to an expanded SAE that matches the number of features in the ensemble, ensembling SAEs improves the reconstruction of language model activations along with SAE stability. Additionally, on downstream tasks such as concept detection and spurious correlation removal, SAE ensembles achieve better performance, showing improved practical utility.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2507.05141",
+ "title": "Hardware-efficient tractable probabilistic inference for TinyML Neurosymbolic AI applications",
+ "authors": [
+  "Jelin Leslin",
+  "Martin Trapp",
+  "Martin Andraud"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 1,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neurosymbolic AI (NSAI) has recently emerged to mitigate limitations associated with deep learning (DL) models, e.g. quantifying their uncertainty or reason with explicit rules. Hence, TinyML hardware will need to support these symbolic models to bring NSAI to embedded scenarios. Yet, although symbolic models are typically compact, their sparsity and computation resolution contrasts with low-resolution and dense neuro models, which is a challenge on resource-constrained TinyML hardware severely limiting the size of symbolic models that can be computed. In this work, we remove this bottleneck leveraging a tight hardware/software integration to present a complete framework to compute NSAI with TinyML hardware. We focus on symbolic models realized with tractable probabilistic circuits (PCs), a popular subclass of probabilistic models for hardware integration. This framework: (1) trains a specific class of hardware-efficient \\emph{deterministic} PCs, chosen for the symbolic task; (2) \\emph{compresses} this PC until it can be computed on TinyML hardware with minimal accuracy degradation, using our $n^{th}$-root compression technique, and (3) \\emph{deploys} the complete NSAI model on TinyML hardware. Compared to a 64b precision baseline necessary for the PC without compression, our workflow leads to significant hardware reduction on FPGA (up to 82.3\\% in FF, 52.6\\% in LUTs, and 18.0\\% in Flash usage) and an average inference speedup of 4.67x on ESP32 microcontroller.",
+ "primary": "cs.LG"
+}

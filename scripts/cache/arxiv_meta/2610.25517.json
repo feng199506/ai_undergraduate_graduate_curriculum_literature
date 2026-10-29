@@ -1,0 +1,17 @@
+{
+ "id": "2610.25517",
+ "title": "ReDT: Resolution-Decoupled Visual Geometry Transformer",
+ "authors": [
+  "Abteen Arab",
+  "Guile Wu",
+  "Dongfeng Bai"
+ ],
+ "v1_date": "2026-10-18",
+ "latest_version": 1,
+ "latest_date": "2026-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Technical report",
+ "abstract": "We introduce ReDT, a feed-forward visual geometry transformer designed to scale multi-view reconstruction to high-definition (HD) inputs. Existing visual geometry transformers are typically trained at fixed, standard definition (SD) resolutions and exhibit degraded reconstruction quality and poor computational scaling to high input resolutions. While recent efficient architectures reduce the complexity of inter-frame attention, expensive intra-frame and encoder attention remain largely unaddressed, making HD reconstruction impractical with existing architectures. ReDT addresses both limitations with a resolution-aware architecture designed to scale to high-resolution inputs. The key idea of ReDT is to first map each view to a fixed-size set of basis tokens, compute correspondences in this compact constant-size basis space, and then project the outputs back to the original resolution for dense prediction. By decoupling the internal representation from input resolution during attention, ReDT substantially reduces the computational cost of high-resolution 3D reconstruction and improves model performance at all resolutions. Extensive experiments on multiple datasets spanning SD to FHD (2K) show that ReDT outperforms state-of-the-art visual geometry transformers in both reconstruction quality and computational efficiency. For instance, on the ETH3D (2K) dataset, ReDT achieves a $16\\times$ speedup, a $34\\%$ reduction in peak GPU memory usage, and a $33\\%$ reduction in chamfer distance over VGGT-$Ω$. \\href{https://redt.github.io}{Project Website.}",
+ "primary": "cs.CV"
+}

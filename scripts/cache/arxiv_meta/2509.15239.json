@@ -1,0 +1,18 @@
+{
+ "id": "2509.15239",
+ "title": "KNARsack: Teaching Neural Algorithmic Reasoners to Solve Pseudo-Polynomial Problems",
+ "authors": [
+  "Stjepan Požgaj",
+  "Dobrik Georgiev",
+  "Marin Šilić",
+  "Petar Veličković"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 2,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 10 figures, 5 tables, 3 listings",
+ "abstract": "Neural algorithmic reasoning (NAR) is a growing field that aims to embed algorithmic logic into neural networks by imitating classical algorithms. In this extended abstract, we detail our attempt to build a neural algorithmic reasoner that can solve Knapsack, a pseudo-polynomial problem bridging classical algorithms and combinatorial optimisation, but omitted in standard NAR benchmarks. Our neural algorithmic reasoner is designed to closely follow the two-phase pipeline for the Knapsack problem, which involves first constructing the dynamic programming table and then reconstructing the solution from it. The approach, which models intermediate states through dynamic programming supervision, achieves better generalization to larger problem instances than a direct-prediction baseline that attempts to select the optimal subset only from the problem inputs.",
+ "primary": "cs.AI"
+}

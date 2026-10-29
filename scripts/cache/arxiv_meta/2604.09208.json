@@ -1,0 +1,15 @@
+{
+ "id": "2604.09208",
+ "title": "A Predictive View on Streaming Hidden Markov Models",
+ "authors": [
+  "Gerardo Duran-Martin"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a predictive-first optimisation framework for streaming hidden Markov models. Unlike classical approaches that prioritise full posterior recovery under a fully specified generative model, we assume access to regime-specific predictive models whose parameters are learned online while maintaining a fixed transition prior over regimes. Our objective is to sequentially identify latent regimes while maintaining accurate step-ahead predictive distributions. Because the number of possible regime paths grows exponentially, exact filtering is infeasible. We therefore formulate streaming inference as a constrained projection problem in predictive-distribution space: under a fixed hypothesis budget, we approximate the full posterior predictive by the forward-KL optimal mixture supported on $S$ paths. The solution is the renormalised top-$S$ posterior-weighted mixture, providing a principled derivation of beam search for HMMs. The resulting algorithm is fully recursive and deterministic, performing beam-style truncation with closed-form predictive updates and requiring neither EM nor sampling. Empirical comparisons against Online EM and Sequential Monte Carlo under matched computational budgets demonstrate competitive prequential performance.",
+ "primary": "stat.ML"
+}

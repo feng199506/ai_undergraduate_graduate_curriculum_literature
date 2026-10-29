@@ -1,0 +1,16 @@
+{
+ "id": "2507.15862",
+ "title": "Quantifying Holistic Review: A Multi-Modal Approach to College Admissions Prediction",
+ "authors": [
+  "Jun-Wei Zeng",
+  "Jerry Shen"
+ ],
+ "v1_date": "2025-07-12",
+ "latest_version": 2,
+ "latest_date": "2025-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces the Comprehensive Applicant Profile Score (CAPS), a novel multi-modal framework designed to quantitatively model and interpret holistic college admissions evaluations. CAPS decomposes applicant profiles into three interpretable components: academic performance (Standardized Academic Score, SAS), essay quality (Essay Quality Index, EQI), and extracurricular engagement (Extracurricular Impact Score, EIS). Leveraging transformer-based semantic embeddings, LLM scoring, and XGBoost regression, CAPS provides transparent and explainable evaluations aligned with human judgment. Experiments on a synthetic but realistic dataset demonstrate strong performance, achieving an EQI prediction R^2 of 0.80, classification accuracy over 75%, a macro F1 score of 0.69, and a weighted F1 score of 0.74. CAPS addresses key limitations in traditional holistic review -- particularly the opacity, inconsistency, and anxiety faced by applicants -- thus paving the way for more equitable and data-informed admissions practices.",
+ "primary": "cs.LG"
+}

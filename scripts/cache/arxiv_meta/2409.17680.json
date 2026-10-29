@@ -1,0 +1,16 @@
+{
+ "id": "2409.17680",
+ "title": "Event-based Stereo Depth Estimation: A Survey",
+ "authors": [
+  "Suman Ghosh",
+  "Guillermo Gallego"
+ ],
+ "v1_date": "2024-09-26",
+ "latest_version": 3,
+ "latest_date": "2025-07-07",
+ "journal_ref": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025",
+ "doi": "10.1109/tpami.2025.3586559",
+ "comment": "28 pages, 24 figures, 7 tables. Project page: https://github.com/tub-rip/EventStereoSurvey",
+ "abstract": "Stereopsis has widespread appeal in robotics as it is the predominant way by which living beings perceive depth to navigate our 3D world. Event cameras are novel bio-inspired sensors that detect per-pixel brightness changes asynchronously, with very high temporal resolution and high dynamic range, enabling machine perception in high-speed motion and broad illumination conditions. The high temporal precision also benefits stereo matching, making disparity (depth) estimation a popular research area for event cameras ever since its inception. Over the last 30 years, the field has evolved rapidly, from low-latency, low-power circuit design to current deep learning (DL) approaches driven by the computer vision community. The bibliography is vast and difficult to navigate for non-experts due its highly interdisciplinary nature. Past surveys have addressed distinct aspects of this topic, in the context of applications, or focusing only on a specific class of techniques, but have overlooked stereo datasets. This survey provides a comprehensive overview, covering both instantaneous stereo and long-term methods suitable for simultaneous localization and mapping (SLAM), along with theoretical and empirical comparisons. It is the first to extensively review DL methods as well as stereo datasets, even providing practical suggestions for creating new benchmarks to advance the field. The main advantages and challenges faced by event-based stereo depth estimation are also discussed. Despite significant progress, challenges remain in achieving optimal performance in not only accuracy but also efficiency, a cornerstone of event-based computing. We identify several gaps and propose future research directions. We hope this survey inspires future research in this area, by serving as an accessible entry point for newcomers, as well as a practical guide for seasoned researchers in the community.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2603.13306",
+ "title": "Benchmarking Compact VLMs for Clip-Level Surveillance Anomaly Detection Under Weak Supervision",
+ "authors": [
+  "Kirill Borodin",
+  "Kirill Kondrashov",
+  "Nikita Vasiliev",
+  "Ksenia Gladkova",
+  "Inna Larina",
+  "Mikhail Gorodnichev",
+  "Grach Mkrtchian"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 1,
+ "latest_date": "2026-03-03",
+ "journal_ref": "Journal of Imaging. 2025; 11(11):400",
+ "doi": "",
+ "comment": "Published ad MDPI Journal of Imaging (see at https://www.mdpi.com/2313-433X/11/11/400)",
+ "abstract": "CCTV safety monitoring demands anomaly detectors combine reliable clip-level accuracy with predictable per-clip latency despite weak supervision. This work investigates compact vision-language models (VLMs) as practical detectors for this regime. A unified evaluation protocol standardizes preprocessing, prompting, dataset splits, metrics, and runtime settings to compare parameter-efficiently adapted compact VLMs against training-free VLM pipelines and weakly supervised baselines. Evaluation spans accuracy, precision, recall, F1, ROC-AUC, and average per-clip latency to jointly quantify detection quality and efficiency. With parameter-efficient adaptation, compact VLMs achieve performance on par with, and in several cases exceeding, established approaches while retaining competitive per-clip latency. Adaptation further reduces prompt sensitivity, producing more consistent behavior across prompt regimes under the shared protocol. These results show that parameter-efficient fine-tuning enables compact VLMs to serve as dependable clip-level anomaly detectors, yielding a favorable accuracy-efficiency trade-off within a transparent and consistent experimental setup.",
+ "primary": "cs.CV"
+}

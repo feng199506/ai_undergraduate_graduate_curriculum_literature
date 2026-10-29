@@ -1,0 +1,16 @@
+{
+ "id": "2511.05040",
+ "title": "UA-Code-Bench: A Competitive Programming Benchmark for Evaluating LLM Code Generation in Ukrainian",
+ "authors": [
+  "Mykyta Syromiatnikov",
+  "Victoria Ruvinskaya"
+ ],
+ "v1_date": "2025-11-07",
+ "latest_version": 1,
+ "latest_date": "2025-11-07",
+ "journal_ref": "XI International conference \"Informatics. Culture. Technique.\" (2025) 308-314",
+ "doi": "10.15276/ict.02.2025.47",
+ "comment": "8 pages, 5 figures. XI International conference \"Informatics. Culture. Technique.\" (2025)",
+ "abstract": "Evaluating the real capabilities of large language models in low-resource languages still represents a challenge, as many existing benchmarks focus on widespread tasks translated from English or evaluate only simple language understanding. This paper introduces UA-Code-Bench, a new open-source benchmark established for a thorough evaluation of language models' code generation and competitive programming problem-solving abilities in Ukrainian. The benchmark comprises 500 problems from the Eolymp platform, evenly distributed across five complexity levels from very easy to very hard. A diverse set of 13 leading proprietary and open-source models, generating Python solutions based on a one-shot prompt, was evaluated via the dedicated Eolymp environment against hidden tests, ensuring code correctness. The obtained results reveal that even top-performing models, such as OpenAI o3 and GPT-5, solve only half of the problems, highlighting the challenge of code generation in low-resource natural language. Furthermore, this research presents a comprehensive analysis of performance across various difficulty levels, as well as an assessment of solution uniqueness and computational efficiency, measured by both elapsed time and memory consumption of the generated solutions. In conclusion, this work demonstrates the value of competitive programming benchmarks in evaluating large language models, especially in underrepresented languages. It also paves the way for future research on multilingual code generation and reasoning-enhanced models. The benchmark, data parsing, preparation, code generation, and evaluation scripts are available at https://huggingface.co/datasets/NLPForUA/ua-code-bench.",
+ "primary": "cs.CL"
+}

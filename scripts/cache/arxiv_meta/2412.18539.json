@@ -1,0 +1,16 @@
+{
+ "id": "2412.18539",
+ "title": "Convergence of Statistical Estimators via Mutual Information Bounds",
+ "authors": [
+  "El Mahdi Khribch",
+  "Pierre Alquier"
+ ],
+ "v1_date": "2024-12-24",
+ "latest_version": 3,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in statistical learning theory have revealed profound connections between mutual information (MI) bounds, PAC-Bayesian theory, and Bayesian nonparametrics. This work introduces a mutual information bound for statistical models, and derives from it convergence rates for fractional posteriors, for their variational approximations, and for the maximum likelihood estimator. The observations are assumed independent but not identically distributed, and the model is not assumed well-specified, so that the bounds are oracle inequalities and cover regression with a fixed or a conditioned design; the independent and identically distributed, well-specified case is recovered by dropping an index. We illustrate the method on two applications. In the Gaussian sequence model the rate is minimax in both the radius of the Sobolev ball and the sample size, which only appears through its product with the temperature. In logistic regression, where the model is not conjugate and the variational approximation is computed by a stochastic gradient method, the bound applies to the output of the algorithm rather than to an idealized minimizer, and attains the parametric order in the Renyi risk with no logarithmic factor, the statistical and the optimization error being separated.",
+ "primary": "stat.ML"
+}

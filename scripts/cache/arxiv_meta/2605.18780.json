@@ -1,0 +1,17 @@
+{
+ "id": "2605.18780",
+ "title": "A Reproducibility Analysis of PO4ISR: Diagnosing and Mitigating Semantic Drift in LLM-Based Session Recommendation",
+ "authors": [
+  "Aditya Tiwari",
+  "Konduri Naga Lakshmi Rekha",
+  "Rajesh Kumar Mundotiya"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 1,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reasoning-based Large Language Models (LLMs) like PO4ISR have set new benchmarks in session-based recommendation. However, the reproducibility of their reasoning capabilities across diverse semantic domains remains unexplored. In this work, we conduct a rigorous reproducibility study of PO4ISR to assess its generalization limits. Our analysis reveals a critical failure mode: standard reasoning prompts suffer from severe contextual drift in long sessions, leading to performance degradation on semantically complex datasets like Games and Bundle. To quantify and resolve this stability gap, we introduce PO4ISR++, a robustness-enhanced implementation that integrates reflexive prompting and consistent rank detection. Unlike the original static prompting strategy, our approach dynamically adapts to cross-domain cues. We benchmark both the original implementation and our robust variant on ML-1M, Games, and Bundle. Our results confirm that while the original model struggles in new domains, our reproducible extension restores performance, yielding a stabilized gain of up to 54% on Games and 96% on Bundle. We release open-source artifacts, including the reproduced baseline and our enhanced framework, to facilitate reliable future research in LLM-based recommendation.",
+ "primary": "cs.IR"
+}

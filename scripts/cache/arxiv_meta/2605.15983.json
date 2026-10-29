@@ -1,0 +1,17 @@
+{
+ "id": "2605.15983",
+ "title": "Petri Net Induced Heuristic Search for Resource Constrained Scheduling",
+ "authors": [
+  "Ido Lublin",
+  "Dor Atzmon",
+  "Izack Cohen"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the International Symposium on Combinatorial Search (SoCS 2026)",
+ "abstract": "We formulate the Resource-Constrained Project Scheduling Problem (RCPSP) as optimal search over the reachability graph of a Timed Transition Petri Net with Resources, using relative-delay tokens so that scheduling decisions correspond to transition firings in the induced state space. We solve the resulting problem with $A^*$ guided by a heuristic that combines Critical Path and resource-based lower bounds, and prove that it is consistent under our token-based time semantics. Experiments on the PSPLIB benchmarks show that the approach outperforms strong exact Mixed-Integer Linear Programming (MIP) baselines (SCIP, CBC) in both success rate and solve time. Per-instance analysis shows that heuristic search and MIP degrade along independent axes, resource tightness for $A^*$ and formulation size for MIP, with resource strength mediating which solver benefits from scale.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2407.00436",
+ "title": "A Recipe of Parallel Corpora Exploitation for Multilingual Large Language Models",
+ "authors": [
+  "Peiqin Lin",
+  "André F. T. Martins",
+  "Hinrich Schütze"
+ ],
+ "v1_date": "2024-06-29",
+ "latest_version": 2,
+ "latest_date": "2025-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NAACL 2025 Findings",
+ "abstract": "Recent studies have highlighted the potential of exploiting parallel corpora to enhance multilingual large language models, improving performance in both bilingual tasks, e.g., machine translation, and general-purpose tasks, e.g., text classification. Building upon these findings, our comprehensive study aims to identify the most effective strategies for leveraging parallel corpora. We investigate the impact of parallel corpora quality and quantity, training objectives, and model size on the performance of multilingual large language models enhanced with parallel corpora across diverse languages and tasks. Our analysis reveals several key insights: (i) filtering noisy translations is essential for effectively exploiting parallel corpora, while language identification and short sentence filtering have little effect; (ii) even a corpus with just 10K parallel sentences can yield results comparable to those obtained from much larger datasets; (iii) employing only the machine translation objective yields the best results among various training objectives and their combinations; (iv) larger multilingual language models benefit more from parallel corpora than smaller models. Our study offers valuable insights into the optimal utilization of parallel corpora to enhance multilingual large language models, extending the generalizability of previous findings from limited languages and tasks to a broader range of scenarios.",
+ "primary": "cs.CL"
+}

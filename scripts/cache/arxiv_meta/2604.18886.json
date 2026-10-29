@@ -1,0 +1,17 @@
+{
+ "id": "2604.18886",
+ "title": "Matrix-Free Multigrid with Algebraically Consistent Coarsening on Adaptive Octrees",
+ "authors": [
+  "Mengdi Wang",
+  "Yuchen Sun",
+  "Bo Zhu"
+ ],
+ "v1_date": "2026-04-20",
+ "latest_version": 1,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Journal of Computational Physics in Apr 20, 2026",
+ "abstract": "We present a matrix-free GPU multigrid preconditioner with algebraically consistent coarsening for solving Poisson equations on adaptive octree grids with irregular domains. Within uniform-resolution regions, the coarsening satisfies the Galerkin principle. At T-junctions between refinement levels, we propose a flux-consistent coarse-grid correction that restores cross-level consistency while preserving the compact matrix-free representation. The coarse operators are stored in a compact matrix-free form suitable for parallel execution on GPUs. Numerical experiments demonstrate second-order accuracy, grid-independent convergence when used with PCG, and robust performance on cut-cell problems arising in fluid simulation. On a single NVIDIA RTX 4090 GPU, the solver achieves full-solve throughputs above 200 million cells per second on analytical Poisson tests and above 70 million cells per second on pressure projection problems in fluid simulation.",
+ "primary": "math.NA"
+}

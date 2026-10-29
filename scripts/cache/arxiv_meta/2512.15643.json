@@ -1,0 +1,15 @@
+{
+ "id": "2512.15643",
+ "title": "Fully Bayesian Spectral Clustering and Benchmarking with Uncertainty Quantification for Small Area Estimation",
+ "authors": [
+  "Jairo Fúquene-Patiño"
+ ],
+ "v1_date": "2025-12-17",
+ "latest_version": 2,
+ "latest_date": "2026-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, inspired by machine learning techniques, we propose a new Bayesian model for Small Area Estimation (SAE), the Fay-Herriot model with Spectral Clustering (FH-SC). Unlike traditional approaches, clustering in FH-SC is based on spectral clustering algorithms that utilize external covariates, rather than geographical or administrative criteria. A major advantage of the FH-SC model is its flexibility in integrating existing SAE approaches, with or without clustering random effects. To enable benchmarking, we leverage the theoretical framework of posterior projections for constrained Bayesian inference and derive closed form expressions for the new Rao-Blackwell (RB) estimators of the posterior mean under the FH-SC model. Additionally, we introduce a novel measure of uncertainty for the benchmarked estimator, the Conditional Posterior Mean Square Error (CPMSE), which is generalizable to other Bayesian SAE estimators. We conduct model-based and data-based simulation studies to evaluate the frequentist properties of the CPMSE. The proposed methodology is motivated by a real case study involving the estimation of the proportion of households with internet access in the municipalities of Colombia. Finally, we also illustrate the advantages of FH-SC over existing Bayesian and frequentist approaches through our case study.",
+ "primary": "stat.ME"
+}

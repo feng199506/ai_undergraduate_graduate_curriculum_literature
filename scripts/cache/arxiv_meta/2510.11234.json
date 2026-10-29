@@ -1,0 +1,20 @@
+{
+ "id": "2510.11234",
+ "title": "Neural Weight Compression for Language Models",
+ "authors": [
+  "Jegwang Ryu",
+  "Minkyu Kim",
+  "Seungjun Shin",
+  "Hee Min Choi",
+  "Dokwan Oh",
+  "Jaeho Lee"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 3,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Efficient compression of language model weights is increasingly critical as model scale and deployment grow. Yet, most existing methods rely on handcrafted transforms and heuristics, reflecting the limited understanding of weights as a data modality. To move beyond this paradigm, we formulate weight compression as neural codec learning and propose Neural Weight Compression (NWC), a framework for training neural codecs on pretrained weight datasets. NWC addresses challenges intrinsic to weight compression, including tensor heterogeneity and the mismatch between reconstruction losses and downstream performance. Experiments show that NWC achieves highly competitive accuracy-compression tradeoffs, with particularly strong results in the 4-6 bit regime, without relying on rigid handcrafted components such as the Hadamard transform. These gains extend to across diverse architectures, e.g., vision encoders. Our analysis highlights the roles of entropy-constrained quantization and learned transforms in adapting compression to weight data and downstream tasks.",
+ "primary": "cs.LG"
+}

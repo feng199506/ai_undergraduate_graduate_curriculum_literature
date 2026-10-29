@@ -1,0 +1,21 @@
+{
+ "id": "2606.09080",
+ "title": "Beyond FLOPs: Benchmarking Real Inference Acceleration of LLM Pruning under a GEMM-Centric Taxonomy",
+ "authors": [
+  "Haozhe Hu",
+  "Hao Wu",
+  "Anhao Zhao",
+  "Longwei Ding",
+  "Peiran Yin",
+  "Yunpu Ma",
+  "Xiaoyu Shen"
+ ],
+ "v1_date": "2026-06-08",
+ "latest_version": 2,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 21 figures, accepted by EMNLP2026 main",
+ "abstract": "Pruning has emerged as a dominant paradigm for accelerating large language model (LLM) inference, spanning a broad spectrum of methods that remove computation across tokens, layers, heads, dimensions, and attention patterns. Despite sharing the same objective, these pruning approaches induce fundamentally different execution behaviors, causing realized speedups to depend heavily on hardware and kernel implementations. Consequently, the practical acceleration benefits of different pruning families remain poorly understood. In this work, we introduce a GEMM-centric taxonomy that reorganizes existing pruning methods according to the logical \\textbf{M}, \\textbf{N}, and \\textbf{K} dimensions of general matrix multiplication (GEMM). Leveraging this abstraction, we build a unified benchmarking framework that enables implementation-consistent comparison across the pruning design space and systematically characterizes the acceleration--quality Pareto frontier. Our results on Llama3.1-8B show that static depth pruning remains the strongest Pareto-optimal baseline and stays closest to its theoretical acceleration upper bound in memory-bounded scenarios. During prefill, the frontier transitions from static depth at low quality loss (0\\%--4\\%), to dynamic depth at moderate loss (5\\%--16\\%), and finally to static width pruning at higher loss levels (17\\%--26\\%). These findings establish the first unified view of the practical limits of pruning-based LLM acceleration and provide guidance for future pruning research. Code is available at https://github.com/EIT-NLP/LLM-Pruning/tree/main/PruningInferSim",
+ "primary": "cs.LG"
+}

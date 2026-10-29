@@ -1,0 +1,22 @@
+{
+ "id": "2504.10612",
+ "title": "Energy Matching: Unifying Flow Matching and Energy-Based Models for Generative Modeling",
+ "authors": [
+  "Michal Balcerak",
+  "Tamaz Amiranashvili",
+  "Antonio Terpin",
+  "Suprosanna Shit",
+  "Lea Bogensperger",
+  "Sebastian Kaltenbach",
+  "Petros Koumoutsakos",
+  "Bjoern Menze"
+ ],
+ "v1_date": "2025-04-14",
+ "latest_version": 5,
+ "latest_date": "2025-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2025",
+ "abstract": "Current state-of-the-art generative models map noise to data distributions by matching flows or scores. A key limitation of these models is their inability to readily integrate available partial observations and additional priors. In contrast, energy-based models (EBMs) address this by incorporating corresponding scalar energy terms. Here, we propose Energy Matching, a framework that endows flow-based approaches with the flexibility of EBMs. Far from the data manifold, samples move from noise to data along irrotational, optimal transport paths. As they approach the data manifold, an entropic energy term guides the system into a Boltzmann equilibrium distribution, explicitly capturing the underlying likelihood structure of the data. We parameterize these dynamics with a single time-independent scalar field, which serves as both a powerful generator and a flexible prior for effective regularization of inverse problems. The present method substantially outperforms existing EBMs on CIFAR-10 and ImageNet generation in terms of fidelity, while retaining simulation-free training of transport-based approaches away from the data manifold. Furthermore, we leverage the flexibility of the method to introduce an interaction energy that supports the exploration of diverse modes, which we demonstrate in a controlled protein generation setting. This approach learns a scalar potential energy, without time conditioning, auxiliary generators, or additional networks, marking a significant departure from recent EBM methods. We believe this simplified yet rigorous formulation significantly advances EBMs capabilities and paves the way for their wider adoption in generative modeling in diverse domains.",
+ "primary": "cs.LG"
+}

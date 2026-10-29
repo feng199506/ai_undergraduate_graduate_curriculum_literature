@@ -1,0 +1,17 @@
+{
+ "id": "2508.18338",
+ "title": "Linear cost mutual information estimation and independence test of similar performance as HSIC",
+ "authors": [
+  "Jarek Duda",
+  "Jagoda Bracha",
+  "Adrian Przybysz"
+ ],
+ "v1_date": "2025-08-25",
+ "latest_version": 2,
+ "latest_date": "2025-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 6 figures",
+ "abstract": "Evaluation of statistical dependencies between two data samples is a basic problem of data science/machine learning, and HSIC (Hilbert-Schmidt Information Criterion)~\\cite{HSIC} is considered the state-of-art method. However, for size $n$ data sample it requires multiplication of $n\\times n$ matrices, what currently needs $\\sim O(n^{2.37})$ computational complexity~\\cite{mult}, making it impractical for large data samples. We discuss HCR (Hierarchical Correlation Reconstruction) as its linear cost practical alternative, in tests of even higher sensitivity to dependencies, and additionally providing actual joint distribution model for chosen significance level, by description of dependencies through features being mixed moments, starting with correlation and homoscedasticity. Also allowing to approximate mutual information as just sum of squares of such nontrivial mixed moments between two data samples. Such single dependence describing feature is calculated in $O(n)$ linear time. Their number to test varies with dimension $d$ - requiring $O(d^2)$ for pairwise dependencies, $O(d^3)$ if wanting to also consider more subtle triplewise, and so on.",
+ "primary": "cs.LG"
+}

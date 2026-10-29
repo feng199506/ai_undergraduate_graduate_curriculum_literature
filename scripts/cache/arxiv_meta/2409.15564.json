@@ -1,0 +1,22 @@
+{
+ "id": "2409.15564",
+ "title": "CauSkelNet: Causal Representation Learning for Human Behaviour Analysis",
+ "authors": [
+  "Xingrui Gu",
+  "Chuyi Jiang",
+  "Erte Wang",
+  "Qiang Cui",
+  "Leimin Tian",
+  "Lianlong Wu",
+  "Siyang Song",
+  "Chuang Yu"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 4,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional machine learning methods for movement recognition often struggle with limited model interpretability and a lack of insight into human movement dynamics. This study introduces a novel representation learning framework based on causal inference to address these challenges. Our two-stage approach combines the Peter-Clark (PC) algorithm and Kullback-Leibler (KL) divergence to identify and quantify causal relationships between human joints. By capturing joint interactions, the proposed causal Graph Convolutional Network (GCN) produces interpretable and robust representations. Experimental results on the EmoPain dataset demonstrate that the causal GCN outperforms traditional GCNs in accuracy, F1 score, and recall, particularly in detecting protective behaviors. This work contributes to advancing human motion analysis and lays a foundation for adaptive and intelligent healthcare solutions.",
+ "primary": "cs.LG"
+}

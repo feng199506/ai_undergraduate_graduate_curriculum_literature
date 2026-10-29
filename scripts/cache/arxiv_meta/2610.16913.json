@@ -1,0 +1,16 @@
+{
+ "id": "2610.16913",
+ "title": "Simultaneous Matrix-Free HSS Compression and Factorization with Adaptive Ranks",
+ "authors": [
+  "Elly Do",
+  "Chao Chen"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many dense matrices in scientific computing have hierarchically low-rank off-diagonal structure but are accessible only through routines that apply the matrix and, in general, its transpose or adjoint to vectors, that is, through matrix--vector products (matvecs). We present a fully matrix-free algorithm that compresses such a matrix into Hierarchically Semi-Separable (HSS) form and factorizes it simultaneously with the off-diagonal ranks chosen adaptively from a prescribed tolerance. The method uses $\\mathcal{O}(k)$ matvecs with each operator, where $k$ is the largest off-diagonal rank found. Building on fixed-rank block nullification, it samples the matrix in small random batches and enlarges each local basis until a randomized error estimate falls below the tolerance. Unitary nullspace updates give $\\mathcal{O}(k^3)$ local dense work, the same asymptotic cost as when the ranks are known in advance. Because compression and elimination proceed together, no separate factorization step is required. Excluding the matvecs, the factorization uses $\\mathcal{O}(N)$ arithmetic and storage when the off-diagonal ranks are bounded, and its inverse is applied in $\\mathcal{O}(N)$ time. Experiments on Poisson and Helmholtz Schur complements, Matérn covariance matrices, and a complex Lippmann--Schwinger equation demonstrate the factorization as both a direct solver and a preconditioner on problems with up to millions of unknowns.",
+ "primary": "math.NA"
+}

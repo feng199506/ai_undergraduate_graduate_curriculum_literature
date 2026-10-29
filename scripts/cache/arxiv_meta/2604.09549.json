@@ -1,0 +1,18 @@
+{
+ "id": "2604.09549",
+ "title": "Beyond Offline A/B Testing: Context-Aware Agent Simulation for Recommender System Evaluation",
+ "authors": [
+  "Nicolas Bougie",
+  "Gian Maria Marconi",
+  "Xiaotong Ye",
+  "Narimasa Watanabe"
+ ],
+ "v1_date": "2026-01-26",
+ "latest_version": 2,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recommender systems are central to online services, enabling users to navigate through massive amounts of content across various domains. However, their evaluation remains challenging due to the disconnect between offline metrics and online performance. The emergence of Large Language Model-powered agents offers a promising solution, yet existing studies model users in isolation, neglecting the contextual factors such as time, location, and needs, which fundamentally shape human decision-making. In this paper, we introduce ContextSim, an LLM agent framework that simulates believable user proxies by anchoring interactions in daily life activities. Namely, a life simulation module generates scenarios specifying when, where, and why users engage with recommendations. To align preferences with genuine humans, we model agents' internal thoughts and enforce consistency at both the action and trajectory levels. Experiments across domains show our method generates interactions more closely aligned with human behavior than prior work. We further validate our approach through offline A/B testing correlation and show that RS parameters optimized using ContextSim yield improved real-world engagement.",
+ "primary": "cs.IR"
+}

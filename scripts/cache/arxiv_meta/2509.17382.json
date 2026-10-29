@@ -1,0 +1,20 @@
+{
+ "id": "2509.17382",
+ "title": "Optimal Bias-variance Tradeoff in Matrix and Tensor Estimation",
+ "authors": [
+  "Shivam Kumar",
+  "Xiaokai Luo",
+  "Haotian Xu",
+  "Carlos Misael Madrid Padilla",
+  "Oscar Hernan Madrid Padilla",
+  "Daren Wang"
+ ],
+ "v1_date": "2025-09-22",
+ "latest_version": 3,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study matrix and tensor denoising when the underlying signal is \\textbf{not} necessarily low-rank. In the tensor setting, we observe \\[ Y = X^\\ast + Z \\in \\mathbb{R}^{p_1 \\times p_2 \\times p_3}, \\] where $X^\\ast$ is an unknown signal tensor and $Z$ is a noise tensor. We propose a one-step variant of the higher-order SVD (HOSVD) estimator, denoted $\\widetilde X$, and show that, uniformly over any user-specified Tucker ranks $(r_1,r_2,r_3)$, with high probability, \\[ \\|\\widetilde X - X^\\ast\\|_{\\mathrm F}^2 = O\\Big( κ^2\\Big\\{r_1r_2r_3 + \\sum_{k=1}^3 p_k r_k\\Big\\} + ξ_{(r_1,r_2,r_3)}^2 \\Big). \\] Here, $ξ_{(r_1,r_2,r_3)}$ is the best achievable Tucker rank-$(r_1,r_2,r_3)$ approximation error of $X^\\ast$ (bias), $κ^2$ quantifies the noise level, and $κ^2\\{r_1r_2r_3+\\sum_{k=1}^3 p_k r_k\\}$ is the variance term scaling with the effective degrees of freedom of $\\widetilde X$. This yields a rank-adaptive bias-variance tradeoff: increasing $(r_1,r_2,r_3)$ decreases the bias $ξ_{(r_1,r_2,r_3)}$ while increasing variance. In the matrix setting, we show that truncated SVD achieves an analogous bias-variance tradeoff for arbitrary signal matrices. Notably, our matrix result requires \\textbf{no} assumptions on the signal matrix, such as finite rank or spectral gaps. Finally, we complement our upper bounds with matching information-theoretic lower bounds, showing that the resulting bias-variance tradeoff is minimax optimal up to universal constants in both the matrix and tensor settings.",
+ "primary": "stat.ML"
+}

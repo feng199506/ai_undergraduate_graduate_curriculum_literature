@@ -1,0 +1,18 @@
+{
+ "id": "2412.13737",
+ "title": "On the Compression of Language Models for Code: An Empirical Study on CodeBERT",
+ "authors": [
+  "Giordano d'Aloisio",
+  "Luca Traini",
+  "Federica Sarro",
+  "Antinisca Di Marco"
+ ],
+ "v1_date": "2024-12-18",
+ "latest_version": 1,
+ "latest_date": "2024-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Language models have proven successful across a wide range of software engineering tasks, but their significant computational costs often hinder their practical adoption. To address this challenge, researchers have begun applying various compression strategies to improve the efficiency of language models for code. These strategies aim to optimize inference latency and memory usage, though often at the cost of reduced model effectiveness. However, there is still a significant gap in understanding how these strategies influence the efficiency and effectiveness of language models for code. Here, we empirically investigate the impact of three well-known compression strategies -- knowledge distillation, quantization, and pruning -- across three different classes of software engineering tasks: vulnerability detection, code summarization, and code search. Our findings reveal that the impact of these strategies varies greatly depending on the task and the specific compression method employed. Practitioners and researchers can use these insights to make informed decisions when selecting the most appropriate compression strategy, balancing both efficiency and effectiveness based on their specific needs.",
+ "primary": "cs.SE"
+}

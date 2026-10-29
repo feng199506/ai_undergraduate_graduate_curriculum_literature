@@ -1,0 +1,16 @@
+{
+ "id": "2601.17057",
+ "title": "Frequency-aware Adaptive Contrastive Learning for Sequential Recommendation",
+ "authors": [
+  "Zhikai Wang",
+  "Weihua Zhang"
+ ],
+ "v1_date": "2026-01-22",
+ "latest_version": 1,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 6 figures",
+ "abstract": "In this paper, we revisited the role of data augmentation in contrastive learning for sequential recommendation, revealing its inherent bias against low-frequency items and sparse user behaviors. To address this limitation, we proposed FACL, a frequency-aware adaptive contrastive learning framework that introduces micro-level adaptive perturbation to protect the integrity of rare items, as well as macro-level reweighting to amplify the influence of sparse and rare-interaction sequences during training. Comprehensive experiments on five public benchmark datasets demonstrated that FACL consistently outperforms state-of-the-art data augmentation and model augmentation-based methods, achieving up to 3.8% improvement in recommendation accuracy. Moreover, fine-grained analyses confirm that FACL significantly alleviates the performance drop on low-frequency items and users, highlighting its robust intent-preserving ability and its superior applicability to real-world, long-tail recommendation scenarios.",
+ "primary": "cs.IR"
+}

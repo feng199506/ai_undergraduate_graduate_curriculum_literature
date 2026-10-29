@@ -1,0 +1,21 @@
+{
+ "id": "2501.13394",
+ "title": "Concurrent Learning with Aggregated States via Randomized Least Squares Value Iteration",
+ "authors": [
+  "Yan Chen",
+  "Qinxun Bai",
+  "Yiteng Zhang",
+  "Shi Dong",
+  "Maria Dimakopoulou",
+  "Qi Sun",
+  "Zhengyuan Zhou"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 3,
+ "latest_date": "2025-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Designing learning agents that explore efficiently in a complex environment has been widely recognized as a fundamental challenge in reinforcement learning. While a number of works have demonstrated the effectiveness of techniques based on randomized value functions on a single agent, it remains unclear, from a theoretical point of view, whether injecting randomization can help a society of agents {\\it concurently} explore an environment. The theoretical results %that we established in this work tender an affirmative answer to this question. We adapt the concurrent learning framework to \\textit{randomized least-squares value iteration} (RLSVI) with \\textit{aggregated state representation}. We demonstrate polynomial worst-case regret bounds in both finite- and infinite-horizon environments. In both setups the per-agent regret decreases at an optimal rate of $Θ\\left(\\frac{1}{\\sqrt{N}}\\right)$, highlighting the advantage of concurent learning. Our algorithm exhibits significantly lower space complexity compared to \\cite{russo2019worst} and \\cite{agrawal2021improved}. We reduce the space complexity by a factor of $K$ while incurring only a $\\sqrt{K}$ increase in the worst-case regret bound, compared to \\citep{agrawal2021improved,russo2019worst}. Additionally, we conduct numerical experiments to demonstrate our theoretical findings.",
+ "primary": "cs.LG"
+}

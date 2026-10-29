@@ -1,0 +1,19 @@
+{
+ "id": "2502.02922",
+ "title": "Elucidating the Preconditioning in Consistency Distillation",
+ "authors": [
+  "Kaiwen Zheng",
+  "Guande He",
+  "Jianfei Chen",
+  "Fan Bao",
+  "Jun Zhu"
+ ],
+ "v1_date": "2025-02-05",
+ "latest_version": 3,
+ "latest_date": "2025-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICLR 2025",
+ "abstract": "Consistency distillation is a prevalent way for accelerating diffusion models adopted in consistency (trajectory) models, in which a student model is trained to traverse backward on the probability flow (PF) ordinary differential equation (ODE) trajectory determined by the teacher model. Preconditioning is a vital technique for stabilizing consistency distillation, by linear combining the input data and the network output with pre-defined coefficients as the consistency function. It imposes the boundary condition of consistency functions without restricting the form and expressiveness of the neural network. However, previous preconditionings are hand-crafted and may be suboptimal choices. In this work, we offer the first theoretical insights into the preconditioning in consistency distillation, by elucidating its design criteria and the connection to the teacher ODE trajectory. Based on these analyses, we further propose a principled way dubbed \\textit{Analytic-Precond} to analytically optimize the preconditioning according to the consistency gap (defined as the gap between the teacher denoiser and the optimal student denoiser) on a generalized teacher ODE. We demonstrate that Analytic-Precond can facilitate the learning of trajectory jumpers, enhance the alignment of the student trajectory with the teacher's, and achieve $2\\times$ to $3\\times$ training acceleration of consistency trajectory models in multi-step generation across various datasets.",
+ "primary": "cs.LG"
+}

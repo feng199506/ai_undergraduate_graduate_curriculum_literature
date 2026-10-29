@@ -1,0 +1,19 @@
+{
+ "id": "2410.24206",
+ "title": "Understanding Optimization in Deep Learning with Central Flows",
+ "authors": [
+  "Jeremy M. Cohen",
+  "Alex Damian",
+  "Ameet Talwalkar",
+  "J. Zico Kolter",
+  "Jason D. Lee"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 2,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "First two authors contributed equally; author order determined by coin flip. This is the full version of a paper published at ICLR 2025. We encourage readers to explore the blog version of this paper, with animated optimization trajectories, at https://centralflows.github.io. Our code can be found at https://github.com/centralflows/centralflows",
+ "abstract": "Traditional theories of optimization cannot describe the dynamics of optimization in deep learning, even in the simple setting of deterministic training. The challenge is that optimizers typically operate in a complex, oscillatory regime called the \"edge of stability.\" In this paper, we develop theory that can describe the dynamics of optimization in this regime. Our key insight is that while the *exact* trajectory of an oscillatory optimizer may be challenging to analyze, the *time-averaged* (i.e. smoothed) trajectory is often much more tractable. To analyze an optimizer, we derive a differential equation called a \"central flow\" that characterizes this time-averaged trajectory. We empirically show that these central flows can predict long-term optimization trajectories for generic neural networks with a high degree of numerical accuracy. By interpreting these central flows, we are able to understand how gradient descent makes progress even as the loss sometimes goes up; how adaptive optimizers \"adapt\" to the local loss landscape; and how adaptive optimizers implicitly navigate towards regions where they can take larger steps. Our results suggest that central flows can be a valuable theoretical tool for reasoning about optimization in deep learning.",
+ "primary": "cs.LG"
+}

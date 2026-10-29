@@ -1,0 +1,18 @@
+{
+ "id": "2501.11673",
+ "title": "Randomized Kaczmarz Methods with Beyond-Krylov Convergence",
+ "authors": [
+  "Michał Dereziński",
+  "Deanna Needell",
+  "Elizaveta Rebrova",
+  "Jiaming Yang"
+ ],
+ "v1_date": "2025-01-20",
+ "latest_version": 2,
+ "latest_date": "2025-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "SIMAX",
+ "abstract": "Randomized Kaczmarz methods form a family of linear system solvers which converge by repeatedly projecting their iterates onto randomly sampled equations. While effective in some contexts, such as highly over-determined least squares, Kaczmarz methods are traditionally deemed secondary to Krylov subspace methods, since this latter family of solvers can exploit outliers in the input's singular value distribution to attain fast convergence on ill-conditioned systems. In this paper, we introduce Kaczmarz++, an accelerated randomized block Kaczmarz algorithm that exploits outlying singular values in the input to attain a fast Krylov-style convergence. Moreover, we show that Kaczmarz++ captures large outlying singular values provably faster than popular Krylov methods, for both over- and under-determined systems. We also develop an optimized variant for positive semidefinite systems, called CD++, demonstrating empirically that it is competitive in arithmetic operations with both CG and GMRES on a collection of benchmark problems. To attain these results, we introduce several novel algorithmic improvements to the Kaczmarz framework, including adaptive momentum acceleration, Tikhonov-regularized projections, and a memoization scheme for reusing information from previously sampled equation blocks.",
+ "primary": "math.NA"
+}

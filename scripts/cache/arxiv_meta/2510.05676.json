@@ -1,0 +1,18 @@
+{
+ "id": "2510.05676",
+ "title": "Inductive inference of gradient-boosted decision trees on graphs for insurance fraud detection",
+ "authors": [
+  "Félix Vandervorst",
+  "Bruno Deprez",
+  "Wouter Verbeke",
+  "Tim Verdonck"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 2,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "10.1007/s10618-026-01249-0",
+ "comment": "",
+ "abstract": "Graph-based methods are becoming increasingly popular in machine learning due to their ability to model complex data and relations. Insurance fraud is a prime use case, since fraudulent claims are often the result of organised criminals that stage accidents or the same persons filing erroneous claims on multiple policies. One challenge is that graph-based approaches struggle to find meaningful representations of the data because of the high class imbalance present in fraud data. In addition, insurance graphs are heterogeneous and dynamic, given the changing relations among people, companies and policies. As a result, gradient-boosted tree approaches on tabular data still dominate the field. Therefore, we present a novel inductive graph gradient boosting machine (G-GBM) for supervised learning on heterogeneous and dynamic graphs. G-GBM combines the class-imbalance robustness of gradient boosting with heterogeneous graph information encoded through interpretable path-level feature concatenations, while preserving access to the original tabular feature space. In addition, the explicit representation of neighbourhood information enables transparent SHAP-based explanations at the metapath and feature level. We demonstrate G-GBM for insurance fraud detection on an open-source and a real-world, proprietary dataset, and find that G-GBM performs on par or better than the state-of-the-art. The associated insurance fraud dataset is publicly released to facilitate reproducibility.",
+ "primary": "cs.LG"
+}

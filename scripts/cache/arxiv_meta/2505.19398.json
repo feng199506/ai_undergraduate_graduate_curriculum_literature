@@ -1,0 +1,17 @@
+{
+ "id": "2505.19398",
+ "title": "Erasing Concepts, Steering Generations: A Comprehensive Survey of Concept Suppression",
+ "authors": [
+  "Yiwei Xie",
+  "Ping Liu",
+  "Zheng Zhang"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 2,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Text-to-Image (T2I) models have demonstrated impressive capabilities in generating high-quality and diverse visual content from natural language prompts. However, uncontrolled reproduction of sensitive, copyrighted, or harmful imagery poses serious ethical, legal, and safety challenges. To address these concerns, the concept erasure paradigm has emerged as a promising direction, enabling the selective removal of specific semantic concepts from generative models while preserving their overall utility. This survey provides a comprehensive overview and in-depth synthesis of concept erasure techniques in T2I diffusion models. We systematically categorize existing approaches along three key dimensions: intervention level, which identifies specific model components targeted for concept removal; optimization structure, referring to the algorithmic strategies employed to achieve suppression; and semantic scope, concerning the complexity and nature of the concepts addressed. This multi-dimensional taxonomy enables clear, structured comparisons across diverse methodologies, highlighting fundamental trade-offs between erasure specificity, generalization, and computational complexity. We further discuss current evaluation benchmarks, standardized metrics, and practical datasets, emphasizing gaps that limit comprehensive assessment, particularly regarding robustness and practical effectiveness. Finally, we outline major challenges and promising future directions, including disentanglement of concept representations, adaptive and incremental erasure strategies, adversarial robustness, and new generative architectures. This survey aims to guide researchers toward safer, more ethically aligned generative models, providing foundational knowledge and actionable recommendations to advance responsible development in generative AI.",
+ "primary": "cs.CV"
+}

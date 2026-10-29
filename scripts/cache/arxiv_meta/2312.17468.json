@@ -1,0 +1,20 @@
+{
+ "id": "2312.17468",
+ "title": "Towards Mitigating Dimensional Collapse of Representations in Collaborative Filtering",
+ "authors": [
+  "Huiyuan Chen",
+  "Vivian Lai",
+  "Hongye Jin",
+  "Zhimeng Jiang",
+  "Mahashweta Das",
+  "Xia Hu"
+ ],
+ "v1_date": "2023-12-29",
+ "latest_version": 1,
+ "latest_date": "2023-12-29",
+ "journal_ref": "",
+ "doi": "10.1145/3616855.3635832",
+ "comment": "",
+ "abstract": "Contrastive Learning (CL) has shown promising performance in collaborative filtering. The key idea is to generate augmentation-invariant embeddings by maximizing the Mutual Information between different augmented views of the same instance. However, we empirically observe that existing CL models suffer from the \\textsl{dimensional collapse} issue, where user/item embeddings only span a low-dimension subspace of the entire feature space. This suppresses other dimensional information and weakens the distinguishability of embeddings. Here we propose a non-contrastive learning objective, named nCL, which explicitly mitigates dimensional collapse of representations in collaborative filtering. Our nCL aims to achieve geometric properties of \\textsl{Alignment} and \\textsl{Compactness} on the embedding space. In particular, the alignment tries to push together representations of positive-related user-item pairs, while compactness tends to find the optimal coding length of user/item embeddings, subject to a given distortion. More importantly, our nCL does not require data augmentation nor negative sampling during training, making it scalable to large datasets. Experimental results demonstrate the superiority of our nCL.",
+ "primary": "cs.IR"
+}

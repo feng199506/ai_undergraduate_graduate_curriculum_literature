@@ -1,0 +1,19 @@
+{
+ "id": "2509.20293",
+ "title": "When Judgment Becomes Noise: How Design Failures in LLM Judge Benchmarks Silently Undermine Validity",
+ "authors": [
+  "Benjamin Feuer",
+  "Chiung-Yi Tseng",
+  "Astitwa Sarthak Lathe",
+  "Oussama Elachqar",
+  "John P Dickerson"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 3,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "LLM-judged benchmarks are increasingly used to evaluate complex model behaviors, yet their design introduces failure modes absent in conventional ground-truth based benchmarks. We argue that without tight objectives and verifiable constructions, benchmark rankings can produce high-confidence rankings that are in fact largely noise. We introduce two mechanisms to diagnose these issues. Schematic adherence quantifies how much of a judge's overall verdict is explained by the explicit evaluation schema, revealing unexplained variance when judges deviate from their own rubric. Psychometric validity aggregates internal consistency and discriminant validity signals to quantify irreducible uncertainty in any benchmarking run. Applying these tools to Arena-Hard Auto, we find severe schema incoherence and factor collapse across popular judges: for example, unexplained variance exceeding 90 percent for DeepSeek-R1-32B and factor correlations above 0.93 for most criteria. We also show that the ELO-style aggregation used by Arena-Hard Auto collapses and masks genuine ranking uncertainty. Our results highlight design failures that undermine validity and offer actionable principles for building better-scoped, reliability-aware LLM-judged benchmarks. We released our code and dataset at https://github.com/penfever/judgment-to-noise",
+ "primary": "cs.LG"
+}

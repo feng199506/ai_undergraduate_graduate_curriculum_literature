@@ -1,0 +1,25 @@
+{
+ "id": "2508.21706",
+ "title": "Accelerating Mixture-of-Experts Inference by Hiding Offloading Latency with Speculative Decoding",
+ "authors": [
+  "Zhibin Wang",
+  "Zhonghui Zhang",
+  "Yuhang Zhou",
+  "Zibo Wang",
+  "Mo Zhou",
+  "Peng Jiang",
+  "Weilin Cai",
+  "Chengying Huan",
+  "Rong Gu",
+  "Sheng Zhong",
+  "Chen Tian"
+ ],
+ "v1_date": "2025-08-29",
+ "latest_version": 2,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advancements in Mixture of Experts (MoE) models have significantly increased their parameter scale as well as model performance. Extensive offloading techniques have been proposed to address the GPU memory limitations of MoE inference. However, due to the I/O bottleneck and sparse computation of MoE models, existing offloading techniques still suffer from low hardware utilization. To fully utilize the hardware resources, we propose SpecMoEOff, which employs the speculative decoding technique to enlarge the workload of each expert. SpecMoEOff orchestrates the GPU and CPU by both theoretical and empirical roofline analysis. In addition, we develop a dedicated CPU chunked attention verification kernel to fit the speculative decoding in offloading scenarios as well as minimizing the additional overhead led by draft models. SpecMoEOff further integrates an optimizer to automatically tune the hyperparameters of speculative decoding under given hardware and workload. Experimental results show that SpecMoEOff achieves up to 2.5x decode throughput improvement over the state-of-the-art MoE offloading techniques.",
+ "primary": "cs.DC"
+}

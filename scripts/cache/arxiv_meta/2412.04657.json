@@ -1,0 +1,18 @@
+{
+ "id": "2412.04657",
+ "title": "An Efficient Model Maintenance Approach for MLOps",
+ "authors": [
+  "Forough Majidi",
+  "Foutse Khomh",
+  "Heng Li",
+  "Amin Nikanjam"
+ ],
+ "v1_date": "2024-12-05",
+ "latest_version": 2,
+ "latest_date": "2025-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 Pages, 10 Figures, 15 Tables, 1 Algorithm, Submitted to a journal",
+ "abstract": "In recent years, many industries have utilized machine learning (ML) models in their systems. Ideally, ML models should be trained on and applied to data from the same distributions. However, the data evolves over time in many application areas, leading to concept drift, which in turn causes the performance of the ML models to degrade over time. Therefore, maintaining up-to-date ML models plays a critical role in the MLOps pipeline. Existing ML model maintenance approaches are often computationally resource-intensive, costly, time-consuming, and model-dependent. Thus, we propose an improved MLOps pipeline, a new model maintenance approach and a Similarity-Based Model Reuse (SimReuse) tool to address the challenges of ML model maintenance. We identify seasonal and recurrent data distribution patterns in time series datasets throughout a preliminary study. Recurrent data distribution patterns enable us to reuse previously trained models for similar distributions in the future, thus avoiding frequent unnecessary retrainings. Then, we integrated the model reuse approach into the MLOps pipeline and proposed our improved MLOps pipeline. Furthermore, we develop SimReuse, a tool to implement the new components of our MLOps pipeline to store models and reuse them for inference of data segments with similar data distributions in the future. Our evaluation results on five time series datasets demonstrate that our model reuse approach can maintain the models' performance while significantly reducing maintenance time, costs, and the number of retrainings. Our model reuse approach achieves ML model performance comparable to the best baselines, while reducing the computation time and costs to 1/8th. Therefore, industries and practitioners can benefit from our approach and use our tool to maintain their ML models' performance in the deployment phase to reduce their maintenance time and costs.",
+ "primary": "cs.SE"
+}

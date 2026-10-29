@@ -1,0 +1,16 @@
+{
+ "id": "2507.00651",
+ "title": "Bridging GANs and Bayesian Neural Networks via Partial Stochasticity",
+ "authors": [
+  "Maurizio Filippone",
+  "Marius P. Linhard"
+ ],
+ "v1_date": "2025-07-01",
+ "latest_version": 2,
+ "latest_date": "2026-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative Adversarial Networks (GANs) are popular and successful generative models. Despite their success, optimization is notoriously challenging. In this work, we explain the success and limitations of GANs by casting them as Bayesian neural networks with partial stochasticity. This interpretation allows us to establish conditions of universal approximation and to rewrite the adversarial-style optimization of several variants of GANs as the optimization of a proxy for the likelihood obtained by marginalizing out the stochastic variables. Following this interpretation, the need for regularization becomes apparent, and we propose to adopt strategies to smooth the loss landscape and methods to search for solutions with minimum description length, which are associated with flat minima and good generalization. Results obtained on a wide range of experiments indicate that these strategies lead to performance improvements and pave the way to a deeper understanding of GANs.",
+ "primary": "cs.LG"
+}

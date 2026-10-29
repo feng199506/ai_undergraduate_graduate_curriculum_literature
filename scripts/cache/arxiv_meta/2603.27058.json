@@ -1,0 +1,15 @@
+{
+ "id": "2603.27058",
+ "title": "Liquid Networks with Mixture Density Heads for Efficient Imitation Learning",
+ "authors": [
+  "Nikolaus Correll"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 1,
+ "latest_date": "2026-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We compare liquid neural networks with mixture density heads against diffusion policies on Push-T, RoboMimic Can, and PointMaze under a shared-backbone comparison protocol that isolates policy-head effects under matched inputs, training budgets, and evaluation settings. Across tasks, liquid policies use roughly half the parameters (4.3M vs. 8.6M), achieve 2.4x lower offline prediction error, and run 1.8 faster at inference. In sample-efficiency experiments spanning 1% to 46.42% of training data, liquid models remain consistently more robust, with especially large gains in low-data and medium-data regimes. Closed-loop results on Push-T and PointMaze are directionally consistent with offline rankings but noisier, indicating that strong offline density modeling helps deployment while not fully determining closed-loop success. Overall, liquid recurrent multimodal policies provide a compact and practical alternative to iterative denoising for imitation learning.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2411.05935",
+ "title": "Sequential Monte Carlo with active subspaces",
+ "authors": [
+  "Leonardo Ripoli",
+  "Richard G. Everitt"
+ ],
+ "v1_date": "2024-11-08",
+ "latest_version": 1,
+ "latest_date": "2024-11-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Monte Carlo methods, such as Markov chain Monte Carlo (MCMC), remain the most regularly-used approach for implementing Bayesian inference. However, the computational cost of these approaches usually scales worse than linearly with the dimension of the parameter space, limiting their use for models with a large number of parameters. However, it is not uncommon for models to have identifiability problems. In this case, the likelihood is not informative about some subspaces of the parameter space, and hence the model effectively has a dimension that is lower than the number of parameters. Constantine et al. (2016) and Schuster et al. (2017) introduced the concept of directly using a Metropolis-Hastings (MH) MCMC on the subspaces of the parameter space that are informed by the likelihood as a means to reduce the dimension of the parameter space that needs to be explored. The same paper introduces an approach for identifying such a subspace in the case where it is a linear transformation of the parameter space: this subspace is known as the active subspace. This paper introduces sequential Monte Carlo (SMC) methods that make use of an active subspace. As well as an SMC counterpart to MH approach of Schuster et al. (2017), we introduce an approach to learn the active subspace adaptively, and an SMC$^{2}$ approach that is more robust to the linearity assumptions made when using active subspaces.",
+ "primary": "stat.CO"
+}

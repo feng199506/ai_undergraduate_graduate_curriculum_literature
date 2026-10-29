@@ -1,0 +1,18 @@
+{
+ "id": "2410.13816",
+ "title": "Steering Your Generalists: Improving Robotic Foundation Models via Value Guidance",
+ "authors": [
+  "Mitsuhiko Nakamoto",
+  "Oier Mees",
+  "Aviral Kumar",
+  "Sergey Levine"
+ ],
+ "v1_date": "2024-10-17",
+ "latest_version": 2,
+ "latest_date": "2025-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Conference on Robot Learning (CoRL) 2024. Project Page: https://nakamotoo.github.io/V-GPS",
+ "abstract": "Large, general-purpose robotic policies trained on diverse demonstration datasets have been shown to be remarkably effective both for controlling a variety of robots in a range of different scenes, and for acquiring broad repertoires of manipulation skills. However, the data that such policies are trained on is generally of mixed quality -- not only are human-collected demonstrations unlikely to perform the task perfectly, but the larger the dataset is, the harder it is to curate only the highest quality examples. It also remains unclear how optimal data from one embodiment is for training on another embodiment. In this paper, we present a general and broadly applicable approach that enhances the performance of such generalist robot policies at deployment time by re-ranking their actions according to a value function learned via offline RL. This approach, which we call Value-Guided Policy Steering (V-GPS), is compatible with a wide range of different generalist policies, without needing to fine-tune or even access the weights of the policy. We show that the same value function can improve the performance of five different state-of-the-art policies with different architectures, even though they were trained on distinct datasets, attaining consistent performance improvement on multiple robotic platforms across a total of 12 tasks. Code and videos can be found at: https://nakamotoo.github.io/V-GPS",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2508.10478",
+ "title": "Semantic IDs for Joint Generative Search and Recommendation",
+ "authors": [
+  "Gustavo Penha",
+  "Edoardo D'Amico",
+  "Marco De Nadai",
+  "Enrico Palumbo",
+  "Alexandre Tamborrino",
+  "Ali Vardasbi",
+  "Max Lefarov",
+  "Shawn Lin",
+  "Timothy Heath",
+  "Francesco Fabbri",
+  "Hugues Bouchard"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 1,
+ "latest_date": "2025-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication in the 19th ACM Conference on Recommender Systems (RecSys 2025), Late-Breaking Results track",
+ "abstract": "Generative models powered by Large Language Models (LLMs) are emerging as a unified solution for powering both recommendation and search tasks. A key design choice in these models is how to represent items, traditionally through unique identifiers (IDs) and more recently with Semantic IDs composed of discrete codes, obtained from embeddings. While task-specific embedding models can improve performance for individual tasks, they may not generalize well in a joint setting. In this paper, we explore how to construct Semantic IDs that perform well both in search and recommendation when using a unified model. We compare a range of strategies to construct Semantic IDs, looking into task-specific and cross-tasks approaches, and also whether each task should have its own semantic ID tokens in a joint search and recommendation generative model. Our results show that using a bi-encoder model fine-tuned on both search and recommendation tasks to obtain item embeddings, followed by the construction of a unified Semantic ID space provides an effective trade-off, enabling strong performance in both tasks. We hope these findings spark follow-up work on generalisable, semantically grounded ID schemes and inform the next wave of unified generative recommender architectures.",
+ "primary": "cs.IR"
+}

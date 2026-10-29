@@ -1,0 +1,19 @@
+{
+ "id": "2608.10891",
+ "title": "Benchmarking Time Series Generation Methods for Privacy-Preserving Forecasting",
+ "authors": [
+  "Luis Amorim",
+  "Vitor Cerqueira",
+  "Moises Santos",
+  "Paulo J. Azevedo",
+  "Carlos Soares"
+ ],
+ "v1_date": "2026-08-11",
+ "latest_version": 1,
+ "latest_date": "2026-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time series forecasting in privacy-sensitive domains often requires training models on released data rather than original observations. Synthetic time series generation has been developed primarily for data augmentation, where generated series supplement the original training set. How well these methods perform when fully replacing the original data - and how much privacy risk the released series carry - remains underexplored. We address this gap through a benchmark evaluating synthetic generation methods and noise-based anonymization baselines under a Train on Synthetic, Test on Real (TSTR) protocol. We jointly assess forecasting performance and distance-based empirical privacy risk across seven datasets, characterizing the trade-off between these objectives. We also introduce Grasynda-P, a privacy-motivated extension of the graph-based generator Grasynda, incorporating matrix ensembling and kernel density estimation. Our results show that: (1) no generation method fully substitutes for original training data; (2) noise-based anonymization yields the strongest privacy but the worst forecasting performance; (3) simple transformation-based generators outperform deep generative models for forecasting in this setting; and (4) Grasynda-P lies on the Pareto frontier, achieving competitive forecasting with stronger privacy separation than other generators. This benchmark establishes a reference point for evaluating and developing new privacy-aware synthetic time series generation methods.",
+ "primary": "cs.LG"
+}

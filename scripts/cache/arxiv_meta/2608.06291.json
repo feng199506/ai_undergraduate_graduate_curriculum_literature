@@ -1,0 +1,16 @@
+{
+ "id": "2608.06291",
+ "title": "FastKron: Efficient Quantization with Kronecker-Factored Hessians",
+ "authors": [
+  "Johann Birnick",
+  "Rayan Saab"
+ ],
+ "v1_date": "2026-08-06",
+ "latest_version": 2,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We accelerate a family of algorithms for neural network quantization which utilize a two-sided version of the GPTQ/LDLQ algorithm. Standard GPTQ-style adaptive rounding uses one-sided correlation information derived from input activations. A natural two-sided extension can additionally capture correlations across output channels. It utilizes a general Kronecker-factored approximation of the weight matrix curvature. This approach has been used in BoA and YAQA. But making a concrete algorithmic implementation of this two-sided GPTQ variant is nontrivial. BoA uses a large number of sequential steps, while YAQA improves over the sequential depth but still has quartic total cost. We introduce FastKron, an efficient algorithmic implementation that combines anti-diagonal parallelism with a recursive divide-and-conquer construction. For an $m\\times n$ weight matrix, FastKron uses $O(m+n)$ sequential steps while reducing the total work from $O(m^2n^2)$ to $O(mn(m+n))$. Thus, it matches the cubic scaling of GPTQ while exploiting richer curvature information. Moreover, FastKron is modular with respect to both the base quantizer and the Hessian estimator. We also provide practical benchmarks, consider a range of Hessian approximations that FastKron can be used with, and provide an efficient technique to compute these Hessians.",
+ "primary": "cs.LG"
+}

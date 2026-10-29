@@ -1,0 +1,17 @@
+{
+ "id": "2402.00176",
+ "title": "Adversarial Quantum Machine Learning: An Information-Theoretic Generalization Analysis",
+ "authors": [
+  "Petros Georgiou",
+  "Sharu Theresa Jose",
+  "Osvaldo Simeone"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 2,
+ "latest_date": "2024-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 2 figures. Fixed a typo (wrong inequality sign) in lemma 2 and extended to cover the whole range of values of p. Added reference on inequalities in trace norms",
+ "abstract": "In a manner analogous to their classical counterparts, quantum classifiers are vulnerable to adversarial attacks that perturb their inputs. A promising countermeasure is to train the quantum classifier by adopting an attack-aware, or adversarial, loss function. This paper studies the generalization properties of quantum classifiers that are adversarially trained against bounded-norm white-box attacks. Specifically, a quantum adversary maximizes the classifier's loss by transforming an input state $ρ(x)$ into a state $λ$ that is $ε$-close to the original state $ρ(x)$ in $p$-Schatten distance. Under suitable assumptions on the quantum embedding $ρ(x)$, we derive novel information-theoretic upper bounds on the generalization error of adversarially trained quantum classifiers for $p = 1$ and $p = \\infty$. The derived upper bounds consist of two terms: the first is an exponential function of the 2-Rényi mutual information between classical data and quantum embedding, while the second term scales linearly with the adversarial perturbation size $ε$. Both terms are shown to decrease as $1/\\sqrt{T}$ over the training set size $T$ . An extension is also considered in which the adversary assumed during training has different parameters $p$ and $ε$ as compared to the adversary affecting the test inputs. Finally, we validate our theoretical findings with numerical experiments for a synthetic setting.",
+ "primary": "quant-ph"
+}

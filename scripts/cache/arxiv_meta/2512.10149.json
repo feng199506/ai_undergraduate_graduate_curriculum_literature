@@ -1,0 +1,17 @@
+{
+ "id": "2512.10149",
+ "title": "STARS: Semantic Tokens with Augmented Representations for Recommendation at Scale",
+ "authors": [
+  "Han Chen",
+  "Steven Zhu",
+  "Yingrui Li"
+ ],
+ "v1_date": "2025-12-10",
+ "latest_version": 2,
+ "latest_date": "2025-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Identified an issue with AB testing results, Withdrew temporarily",
+ "abstract": "Real-world ecommerce recommender systems must deliver relevant items under strict tens-of-milliseconds latency constraints despite challenges such as cold-start products, rapidly shifting user intent, and dynamic context including seasonality, holidays, and promotions. We introduce STARS, a transformer-based sequential recommendation framework built for large-scale, low-latency ecommerce settings. STARS combines several innovations: dual-memory user embeddings that separate long-term preferences from short-term session intent; semantic item tokens that fuse pretrained text embeddings, learnable deltas, and LLM-derived attribute tags, strengthening content-based matching, long-tail coverage, and cold-start performance; context-aware scoring with learned calendar and event offsets; and a latency-conscious two-stage retrieval pipeline that performs offline embedding generation and online maximum inner-product search with filtering, enabling tens-of-milliseconds response times. In offline evaluations on production-scale data, STARS improves Hit@5 by more than 75 percent relative to our existing LambdaMART system. A large-scale A/B test on 6 million visits shows statistically significant lifts, including Total Orders +0.8%, Add-to-Cart on Home +2.0%, and Visits per User +0.5%. These results demonstrate that combining semantic enrichment, multi-intent modeling, and deployment-oriented design can yield state-of-the-art recommendation quality in real-world environments without sacrificing serving efficiency.",
+ "primary": "cs.IR"
+}

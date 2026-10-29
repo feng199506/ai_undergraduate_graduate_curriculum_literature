@@ -1,0 +1,18 @@
+{
+ "id": "2510.07175",
+ "title": "Quantifying Data Contamination in Psychometric Evaluations of LLMs",
+ "authors": [
+  "Jongwook Han",
+  "Woojung Song",
+  "Jonggeun Lee",
+  "Yohan Jo"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 2,
+ "latest_date": "2026-01-30",
+ "journal_ref": "Findings of the Association for Computational Linguistics: EACL 2026, pages 6070-6088, Rabat, Morocco. Association for Computational Linguistics, 2026",
+ "doi": "10.18653/v1/2026.findings-eacl.319",
+ "comment": "EACL 2026 Findings",
+ "abstract": "Recent studies apply psychometric questionnaires to Large Language Models (LLMs) to assess high-level psychological constructs such as values, personality, moral foundations, and dark traits. Although prior work has raised concerns about possible data contamination from psychometric inventories, which may threaten the reliability of such evaluations, there has been no systematic attempt to quantify the extent of this contamination. To address this gap, we propose a framework to systematically measure data contamination in psychometric evaluations of LLMs, evaluating three aspects: (1) item memorization, (2) evaluation memorization, and (3) target score matching. Applying this framework to 21 models from major families and four widely used psychometric inventories, we provide evidence that popular inventories such as the Big Five Inventory (BFI-44) and Portrait Values Questionnaire (PVQ-40) exhibit strong contamination, where models not only memorize items but can also adjust their responses to achieve specific target scores.",
+ "primary": "cs.CL"
+}

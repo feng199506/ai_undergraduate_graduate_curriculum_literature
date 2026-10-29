@@ -1,0 +1,19 @@
+{
+ "id": "2507.17294",
+ "title": "VLA-Touch: Enhancing Vision-Language-Action Models with Dual-Level Tactile Feedback",
+ "authors": [
+  "Jianxin Bi",
+  "Kevin Yuchen Ma",
+  "Ce Hao",
+  "Mike Zheng Shou",
+  "Harold Soh"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 2,
+ "latest_date": "2025-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 5 figures",
+ "abstract": "Tactile feedback is generally recognized to be crucial for effective interaction with the physical world. However, state-of-the-art Vision-Language-Action (VLA) models lack the ability to interpret and use tactile signals, limiting their effectiveness in contact-rich tasks. Incorporating tactile feedback into these systems is challenging due to the absence of large multi-modal datasets. We present VLA-Touch, an approach that enhances generalist robot policies with tactile sensing \\emph{without fine-tuning} the base VLA. Our method introduces two key innovations: (1) a pipeline that leverages a pretrained tactile-language model that provides semantic tactile feedback for high-level task planning, and (2) a diffusion-based controller that refines VLA-generated actions with tactile signals for contact-rich manipulation. Through real-world experiments, we demonstrate that our dual-level integration of tactile feedback improves task planning efficiency while enhancing execution precision. Code is open-sourced at \\href{https://github.com/jxbi1010/VLA-Touch}{this URL}.",
+ "primary": "cs.RO"
+}

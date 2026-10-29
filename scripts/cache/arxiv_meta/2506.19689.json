@@ -1,0 +1,16 @@
+{
+ "id": "2506.19689",
+ "title": "When Can We Reuse a Calibration Set for Multiple Conformal Predictions?",
+ "authors": [
+  "A. A. Balinsky",
+  "A. D. Balinsky"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 1,
+ "latest_date": "2025-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable uncertainty quantification is crucial for the trustworthiness of machine learning applications. Inductive Conformal Prediction (ICP) offers a distribution-free framework for generating prediction sets or intervals with user-specified confidence. However, standard ICP guarantees are marginal and typically require a fresh calibration set for each new prediction to maintain their validity. This paper addresses this practical limitation by demonstrating how e-conformal prediction, in conjunction with Hoeffding's inequality, can enable the repeated use of a single calibration set with a high probability of preserving the desired coverage. Through a case study on the CIFAR-10 dataset, we train a deep neural network and utilise a calibration set to estimate a Hoeffding correction. This correction allows us to apply a modified Markov's inequality, leading to the construction of prediction sets with quantifiable confidence. Our results illustrate the feasibility of maintaining provable performance in conformal prediction while enhancing its practicality by reducing the need for repeated calibration. The code for this work is publicly available.",
+ "primary": "cs.LG"
+}

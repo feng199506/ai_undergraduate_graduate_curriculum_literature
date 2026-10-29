@@ -1,0 +1,22 @@
+{
+ "id": "2508.07295",
+ "title": "CCFQA: A Benchmark for Cross-Lingual and Cross-Modal Speech and Text Factuality Evaluation",
+ "authors": [
+  "Yexing Du",
+  "Kaiyuan Liu",
+  "Youcheng Pan",
+  "Zheng Chu",
+  "Bo Yang",
+  "Xiaocheng Feng",
+  "Ming Liu",
+  "Yang Xiang"
+ ],
+ "v1_date": "2025-08-10",
+ "latest_version": 3,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in AAAI 2026",
+ "abstract": "As Large Language Models (LLMs) are increasingly popularized in the multilingual world, ensuring hallucination-free factuality becomes markedly crucial. However, existing benchmarks for evaluating the reliability of Multimodal Large Language Models (MLLMs) predominantly focus on textual or visual modalities with a primary emphasis on English, which creates a gap in evaluation when processing multilingual input, especially in speech. To bridge this gap, we propose a novel Cross-lingual and Cross-modal Factuality benchmark (CCFQA). Specifically, the CCFQA benchmark contains parallel speech-text factual questions across 8 languages, designed to systematically evaluate MLLMs' cross-lingual and cross-modal factuality capabilities. Our experimental results demonstrate that current MLLMs still face substantial challenges on the CCFQA benchmark. Furthermore, we propose a few-shot transfer learning strategy that effectively transfers the Question Answering (QA) capabilities of LLMs in English to multilingual Spoken Question Answering (SQA) tasks, achieving competitive performance with GPT-4o-mini-Audio using just 5-shot training. We release CCFQA as a foundational research resource to promote the development of MLLMs with more robust and reliable speech understanding capabilities. Our code and dataset are available at https://github.com/yxduir/ccfqa.",
+ "primary": "cs.CL"
+}

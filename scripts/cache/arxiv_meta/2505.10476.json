@@ -1,0 +1,18 @@
+{
+ "id": "2505.10476",
+ "title": "Causal discovery on vector-valued variables and consistency-guided aggregation",
+ "authors": [
+  "Urmi Ninad",
+  "Jonas Wahl",
+  "Andreas Gerhardus",
+  "Jakob Runge"
+ ],
+ "v1_date": "2025-05-15",
+ "latest_version": 1,
+ "latest_date": "2025-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal discovery (CD) aims to discover the causal graph underlying the data generation mechanism of observed variables. In many real-world applications, the observed variables are vector-valued, such as in climate science where variables are defined over a spatial grid and the task is called spatio-temporal causal discovery. We motivate CD in vector-valued variable setting while considering different possibilities for the underlying model, and highlight the pitfalls of commonly-used approaches when compared to a fully vectorized approach. Furthermore, often the vector-valued variables are high-dimensional, and aggregations of the variables, such as averages, are considered in interest of efficiency and robustness. In the absence of interventional data, testing for the soundness of aggregate variables as consistent abstractions that map a low-level to a high-level structural causal model (SCM) is hard, and recent works have illustrated the stringency of conditions required for testing consistency. In this work, we take a careful look at the task of vector-valued CD via constraint-based methods, focusing on the problem of consistency of aggregation for this task. We derive three aggregation consistency scores, based on compatibility of independence models and (partial) aggregation, that quantify different aspects of the soundness of an aggregation map for the CD problem. We present the argument that the consistency of causal abstractions must be separated from the task-dependent consistency of aggregation maps. As an actionable conclusion of our findings, we propose a wrapper Adag to optimize a chosen aggregation consistency score for aggregate-CD, to make the output of CD over aggregate variables more reliable. We supplement all our findings with experimental evaluations on synthetic non-time series and spatio-temporal data.",
+ "primary": "stat.ME"
+}

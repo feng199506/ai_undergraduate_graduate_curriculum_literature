@@ -1,0 +1,17 @@
+{
+ "id": "2601.05542",
+ "title": "Understanding LLM-Driven Test Oracle Generation",
+ "authors": [
+  "Adam Bodicoat",
+  "Gunel Jahangirova",
+  "Valerio Terragni"
+ ],
+ "v1_date": "2026-01-09",
+ "latest_version": 1,
+ "latest_date": "2026-01-09",
+ "journal_ref": "Proc. 2nd ACM/IEEE International Conference on AI-powered Software (AIware 2025), 2025",
+ "doi": "",
+ "comment": "Accepted for presentation at the 2nd ACM/IEEE International Conference on AI-powered Software (AIware 2025)",
+ "abstract": "Automated unit test generation aims to improve software quality while reducing the time and effort required for creating tests manually. However, existing techniques primarily generate regression oracles that predicate on the implemented behavior of the class under test. They do not address the oracle problem: the challenge of distinguishing correct from incorrect program behavior. With the rise of Foundation Models (FMs), particularly Large Language Models (LLMs), there is a new opportunity to generate test oracles that reflect intended behavior. This positions LLMs as enablers of Promptware, where software creation and testing are driven by natural-language prompts. This paper presents an empirical study on the effectiveness of LLMs in generating test oracles that expose software failures. We investigate how different prompting strategies and levels of contextual input impact the quality of LLM-generated oracles. Our findings offer insights into the strengths and limitations of LLM-based oracle generation in the FM era, improving our understanding of their capabilities and fostering future research in this area.",
+ "primary": "cs.SE"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2501.05313",
+ "title": "Optimizing Distributed Deployment of Mixture-of-Experts Model Inference in Serverless Computing",
+ "authors": [
+  "Mengfan Liu",
+  "Wei Wang",
+  "Chuan Wu"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 1,
+ "latest_date": "2025-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the advancement of serverless computing, running machine learning (ML) inference services over a serverless platform has been advocated, given its labor-free scalability and cost effectiveness. Mixture-of-Experts (MoE) models have been a dominant type of model architectures to enable large models nowadays, with parallel expert networks. Serving large MoE models on serverless computing is potentially beneficial, but has been underexplored due to substantial challenges in handling the skewed expert popularity and scatter-gather communication bottleneck in MoE model execution, for cost-efficient serverless MoE deployment and performance guarantee. We study optimized MoE model deployment and distributed inference serving on a serverless platform, that effectively predict expert selection, pipeline communication with model execution, and minimize the overall billed cost of serving MoE models. Especially, we propose a Bayesian optimization framework with multi-dimensional epsilon-greedy search to learn expert selections and optimal MoE deployment achieving optimal billed cost, including: 1) a Bayesian decision-making method for predicting expert popularity; 2) flexibly pipelined scatter-gather communication; and 3) an optimal model deployment algorithm for distributed MoE serving. Extensive experiments on AWS Lambda show that our designs reduce the billed cost of all MoE layers by at least 75.67% compared to CPU clusters while maintaining satisfactory inference throughput. As compared to LambdaML in serverless computing, our designs achieves 43.41% lower cost with a throughput decrease of at most 18.76%.",
+ "primary": "cs.DC"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2409.02332",
+ "title": "Double Machine Learning at Scale to Predict Causal Impact of Customer Actions",
+ "authors": [
+  "Sushant More",
+  "Priya Kotwal",
+  "Sujith Chappidi",
+  "Dinesh Mandalapu",
+  "Chris Khawand"
+ ],
+ "v1_date": "2024-09-03",
+ "latest_version": 1,
+ "latest_date": "2024-09-03",
+ "journal_ref": "Lecture Notes in Computer Science, vol 14174. (2023) Springer, Cham",
+ "doi": "10.1007/978-3-031-43427-3_31",
+ "comment": "16 pages, 11 figures. Accepted at the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD) 2023, Turin, Italy",
+ "abstract": "Causal Impact (CI) of customer actions are broadly used across the industry to inform both short- and long-term investment decisions of various types. In this paper, we apply the double machine learning (DML) methodology to estimate the CI values across 100s of customer actions of business interest and 100s of millions of customers. We operationalize DML through a causal ML library based on Spark with a flexible, JSON-driven model configuration approach to estimate CI at scale (i.e., across hundred of actions and millions of customers). We outline the DML methodology and implementation, and associated benefits over the traditional potential outcomes based CI model. We show population-level as well as customer-level CI values along with confidence intervals. The validation metrics show a 2.2% gain over the baseline methods and a 2.5X gain in the computational time. Our contribution is to advance the scalable application of CI, while also providing an interface that allows faster experimentation, cross-platform support, ability to onboard new use cases, and improves accessibility of underlying code for partner teams.",
+ "primary": "cs.LG"
+}

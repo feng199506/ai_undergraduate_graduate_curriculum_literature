@@ -1,0 +1,20 @@
+{
+ "id": "2605.14933",
+ "title": "Nyström Approximation on Manifolds",
+ "authors": [
+  "Hantao Nie",
+  "Bin Gao",
+  "Andi Han",
+  "Pratik Jawanpuria",
+  "Bamdev Mishra",
+  "Zaiwen Wen"
+ ],
+ "v1_date": "2026-05-14",
+ "latest_version": 1,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Computations on a manifold often involve constructing an operator on the tangent space and computing its inverse, which can be time-consuming in many applications. In order to reduce the computational costs and preserve the benign properties of tangent operators, we develop the Riemannian Nyström approximation on manifolds, a low-rank approximation of tangent operators through subspace projections onto the tangent space. The developed approximation is intrinsically constructed and inherits desirable properties from the classical Nyström approximation, e.g., positive semidefiniteness and approximation errors. Instead of the Gaussian sketching, we introduce the Haar--Grassmann sketching condition with a coordinate-free representation, which remains compatible under isometric vector transport across tangent spaces. Moreover, we propose a randomized Newton-type method for optimization on manifolds in which the linear system is constructed via the Riemannian Nyström approximation. Numerical experiments on the SPD and Grassmann manifolds, together with principal geodesic analysis on real data, illustrate that the proposed approximation reduces the computational cost of operators while maintaining comparable accuracy.",
+ "primary": "math.NA"
+}

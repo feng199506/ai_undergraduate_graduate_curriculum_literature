@@ -1,0 +1,15 @@
+{
+ "id": "2603.26140",
+ "title": "On the Complexity of Optimal Graph Rewiring for Oversmoothing and Oversquashing in Graph Neural Networks",
+ "authors": [
+  "Mostafa Haghir Chehreghani"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph Neural Networks (GNNs) face two fundamental challenges when scaled to deep architectures: oversmoothing, where node representations converge to indistinguishable vectors, and oversquashing, where information from distant nodes fails to propagate through bottlenecks. Both phenomena are intimately tied to the underlying graph structure, raising a natural question: can we optimize the graph topology to mitigate these issues? This paper provides a theoretical investigation of the computational complexity of such graph structure optimization. We formulate oversmoothing and oversquashing mitigation as graph optimization problems based on spectral gap and conductance, respectively. We prove that exact optimization for either problem is NP-hard through reductions from Minimum Bisection, establishing NP-completeness of the decision versions. Our results provide theoretical foundations for understanding the fundamental limits of graph rewiring for GNN optimization and justify the use of approximation algorithms and heuristic methods in practice.",
+ "primary": "cs.LG"
+}

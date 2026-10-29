@@ -1,0 +1,18 @@
+{
+ "id": "2404.07911",
+ "title": "High-performance matrix-free unfitted finite element operator evaluation",
+ "authors": [
+  "Maximilian Bergbauer",
+  "Peter Munch",
+  "Wolfgang A. Wall",
+  "Martin Kronbichler"
+ ],
+ "v1_date": "2024-04-11",
+ "latest_version": 2,
+ "latest_date": "2024-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Unfitted finite element methods, like CutFEM, have traditionally been implemented in a matrix-based fashion, where a sparse matrix is assembled and later applied to vectors while solving the resulting linear system. With the goal of increasing performance and enabling algorithms with polynomial spaces of higher degrees, this contribution chooses a more abstract approach by matrix-free evaluation of the operator action on vectors instead. The proposed method loops over cells and locally evaluates the cell, face, and interface integrals, including the contributions from cut cells and the different means of stabilization. The main challenge is the efficient numerical evaluation of terms in the weak form with unstructured quadrature points arising from the unfitted discretization in cells cut by the interface. We present design choices and performance optimizations for tensor-product elements and demonstrate the performance by means of benchmarks and application examples. We demonstrate a speedup of more than one order of magnitude for the operator evaluation of a discontinuous Galerkin discretization with polynomial degree three compared to a sparse matrix-vector product and develop performance models to quantify the performance properties over a wide range of polynomial degrees.",
+ "primary": "math.NA"
+}

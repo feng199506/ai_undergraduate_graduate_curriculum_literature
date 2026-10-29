@@ -1,0 +1,25 @@
+{
+ "id": "2609.23111",
+ "title": "Inherit4Rec: Parameter Inheritance for Efficient Scaling of Recommendation Models",
+ "authors": [
+  "Ruihao Zhang",
+  "Bo Chen",
+  "Xiao Wang",
+  "Jinlong Jiao",
+  "Tijian Hu",
+  "Qinglin Jia",
+  "Xiuqiang He",
+  "Xiangyu Zhao",
+  "Chaoyi Ma",
+  "Ruiming Tang",
+  "Wenwu Ou"
+ ],
+ "v1_date": "2026-09-19",
+ "latest_version": 2,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scaling model capacity has emerged as an effective approach to overcoming performance bottlenecks in industrial recommender systems. However, repeatedly training new models from scratch requires large amounts of data and substantial training resources. Parameter inheritance provides a promising route for both dense model growth and sparse conversion, yet existing methods for LLMs are primarily designed for static corpora and can suffer sharp performance drops under dynamically evolving recommendation data. To address these challenges, we propose Inherit4Rec, a parameter-inheritance framework that supports both Dense-to-Dense (D2D) growth and Dense-to-Sparse (D2S) conversion. Inherit4Rec-D2D combines hybrid growth with asymmetric training to preserve the forward function at expansion and maintain update continuity. Inherit4Rec-D2S constructs SMoE networks through co-activation-aware partitioning with a load-balancing loss, preserving dense-model capabilities while promoting balanced expert activation. Experiments on KuaiRand-1K and an industrial short-video recommendation dataset show that both transformations consistently outperform the SOTA inheritance baselines across all prediction objectives. These results demonstrate the effectiveness of Inherit4Rec for continual capacity expansion and computation-efficient sparse conversion in industrial recommender systems.",
+ "primary": "cs.IR"
+}

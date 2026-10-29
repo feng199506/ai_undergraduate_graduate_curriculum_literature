@@ -1,0 +1,18 @@
+{
+ "id": "2605.01560",
+ "title": "FlowBook: Enforcing Reproducibility in Computational Notebooks",
+ "authors": [
+  "Stephen N. Freund",
+  "Emery D. Berger",
+  "Cormac Flanagan",
+  "Eunice Jun"
+ ],
+ "v1_date": "2026-05-02",
+ "latest_version": 2,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Computational notebooks interleave code cells with their outputs and let users edit and execute cells in arbitrary order. This flexibility supports interactive exploration, but it also allows outputs to become inconsistent with the notebook's current code and data. Such inconsistencies can lead users to draw invalid scientific conclusions. We argue that notebooks should always be output consistent: every output should match what a top-to-bottom execution of the current code would produce. Forcing a top-to-bottom execution after each edit would guarantee this, but at prohibitive cost: such an execution can take minutes to hours. We present FlowBook, a dynamic analysis for Python notebooks that enforces output consistency without giving up out-of-order execution. FlowBook does this by enforcing a stronger property, rerun consistency: no location read by a cell may be written by any cell below it. Rerun consistency guarantees that rerunning a cell later, in any order, reproduces its current output. FlowBook tracks each cell's read and write sets at cell boundaries, blocks updates that would violate rerun consistency, and marks as stale any cell whose inputs may have changed. We prove that a notebook with no stale cells is both rerun and output consistent. Users remain free to execute cells in arbitrary order; the only restriction is that recorded outputs may not silently depend on the order in which cells were executed. Across 61 real-world notebooks, FlowBook flagged 203 rerun-inconsistent cells. Rerunning 62% led to output inconsistencies. A further 21% change notebook state with no visible output, which can affect the results of later edits and reruns; only 5% are false positives of FlowBook's conservative analysis. FlowBook's AI repair agent repaired all 203 cells with local edits and no human intervention. FlowBook's median overhead is only 26 ms per cell execution.",
+ "primary": "cs.PL"
+}

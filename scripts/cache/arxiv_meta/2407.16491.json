@@ -1,0 +1,19 @@
+{
+ "id": "2407.16491",
+ "title": "Canadian Traveller Problems in Temporal Graphs",
+ "authors": [
+  "Thomas Bellitto",
+  "Johanne Cohen",
+  "Bruno Escoffier",
+  "Minh-Hang Nguyen",
+  "Mikael Rabie"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 1,
+ "latest_date": "2024-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper formalises the Canadian Traveller problem as a positional two-player game on graphs. We consider two variants depending on whether an edge is blocked. In the locally-informed variant, the traveller learns if an edge is blocked upon reaching one of its endpoints, while in the uninformed variant, they discover this only when the edge is supposed to appear. We provide a polynomial algorithm for each shortest path variant in the uninformed case. This algorithm also solves the case of directed acyclic non-temporal graphs. In the locally-informed case, we prove that finding a winning strategy is PSPACE-complete. Moreover, we establish that the problem is polynomial-time solvable when $k=1$ but NP-hard for $k\\geq 2$. Additionally, we show that the standard (non-temporal) Canadian Traveller Problem is NP-hard when there are $k\\geq 4$ blocked edges, which is, to the best of our knowledge, the first hardness result for CTP for a constant number of blocked edges.",
+ "primary": "cs.DS"
+}

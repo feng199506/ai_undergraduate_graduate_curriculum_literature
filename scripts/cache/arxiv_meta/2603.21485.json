@@ -1,0 +1,23 @@
+{
+ "id": "2603.21485",
+ "title": "Off-Policy Evaluation for Ranking Policies under Deterministic Logging Policies",
+ "authors": [
+  "Koichi Tanaka",
+  "Kazuki Kawamura",
+  "Takanori Muroi",
+  "Yusuke Narita",
+  "Yuki Sasamoto",
+  "Kei Tateno",
+  "Takuma Udagawa",
+  "Wei-Wei Du",
+  "Yuta Saito"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 1,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published as a conference paper at ICLR 2026",
+ "abstract": "Off-Policy Evaluation (OPE) is an important practical problem in algorithmic ranking systems, where the goal is to estimate the expected performance of a new ranking policy using only offline logged data collected under a different, logging policy. Existing estimators, such as the ranking-wise and position-wise inverse propensity score (IPS) estimators, require the data collection policy to be sufficiently stochastic and suffer from severe bias when the logging policy is fully deterministic. In this paper, we propose novel estimators, Click-based Inverse Propensity Score (CIPS), exploiting the intrinsic stochasticity of user click behavior to address this challenge. Unlike existing methods that rely on the stochasticity of the logging policy, our approach uses click probability as a new form of importance weighting, enabling low-bias OPE even under deterministic logging policies where existing methods incur substantial bias. We provide theoretical analyses of the bias and variance properties of the proposed estimators and show, through synthetic and real-world experiments, that our estimators achieve significantly lower bias compared to strong baselines, for a range of experimental settings with completely deterministic logging policies.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2610.22272",
+ "title": "The Information Bottleneck is NP-hard",
+ "authors": [
+  "Roberto Bruno",
+  "Ugo Vaccaro"
+ ],
+ "v1_date": "2026-10-15",
+ "latest_version": 1,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preliminary version",
+ "abstract": "Given a joint distribution $P_{XY}$ on a finite alphabet, the information bottleneck method seeks a representation $T$ of $X$ that is as informative as possible about $Y$ while compressing $X$, where $T$ and $Y$ are conditionally independent given $X$. We show that computing the optimal value $\\mathrm{IB}(P_{XY},R) = \\sup_T \\{ I(Y;T) : I(X;T) \\le R \\}$ of the information bottleneck problem, as well as its Lagrangian relaxation $L_β(P_{XY}) = \\sup_T \\big[I(Y;T) - βI(X;T)\\big]$, is NP-hard. Moreover, unless $\\mathrm{P} = \\mathrm{NP}$, neither $\\mathrm{IB}(P_{XY},R)$ nor $L_β(P_{XY})$ can be approximated in polynomial time within an additive error of order $|\\mathcal{X}|^{-3/2}$.",
+ "primary": "cs.IT"
+}

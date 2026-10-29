@@ -1,0 +1,19 @@
+{
+ "id": "2407.11928",
+ "title": "Tackling Oversmoothing in GNN via Graph Sparsification: A Truss-based Approach",
+ "authors": [
+  "Tanvir Hossain",
+  "Khaled Mohammed Saifuddin",
+  "Muhammad Ifte Khairul Islam",
+  "Farhan Tanvir",
+  "Esra Akbas"
+ ],
+ "v1_date": "2024-07-16",
+ "latest_version": 1,
+ "latest_date": "2024-07-16",
+ "journal_ref": "ECML PKDD 2024, LNCS 14948, Springer, Cham",
+ "doi": "10.1007/978-3-031-70371-3_10",
+ "comment": "",
+ "abstract": "Graph Neural Network (GNN) achieves great success for node-level and graph-level tasks via encoding meaningful topological structures of networks in various domains, ranging from social to biological networks. However, repeated aggregation operations lead to excessive mixing of node representations, particularly in dense regions with multiple GNN layers, resulting in nearly indistinguishable embeddings. This phenomenon leads to the oversmoothing problem that hampers downstream graph analytics tasks. To overcome this issue, we propose a novel and flexible truss-based graph sparsification model that prunes edges from dense regions of the graph. Pruning redundant edges in dense regions helps to prevent the aggregation of excessive neighborhood information during hierarchical message passing and pooling in GNN models. We then utilize our sparsification model in the state-of-the-art baseline GNNs and pooling models, such as GIN, SAGPool, GMT, DiffPool, MinCutPool, HGP-SL, DMonPool, and AdamGNN. Extensive experiments on different real-world datasets show that our model significantly improves the performance of the baseline GNN models in the graph classification task.",
+ "primary": "cs.LG"
+}

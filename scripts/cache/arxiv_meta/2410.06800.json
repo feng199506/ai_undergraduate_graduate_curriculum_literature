@@ -1,0 +1,19 @@
+{
+ "id": "2410.06800",
+ "title": "Low-Rank Filtering and Smoothing for Sequential Deep Learning",
+ "authors": [
+  "Joanna Sliwa",
+  "Frank Schneider",
+  "Nathanael Bosch",
+  "Agustinus Kristiadi",
+  "Philipp Hennig"
+ ],
+ "v1_date": "2024-10-09",
+ "latest_version": 2,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revised version: improved presentation and added experiments",
+ "abstract": "Learning multiple tasks sequentially requires neural networks to balance retaining knowledge, yet being flexible enough to adapt to new tasks. Regularizing network parameters is a common approach, but it rarely incorporates prior knowledge about task relationships, and limits information flow to future tasks only. We propose a Bayesian framework that treats the network's parameters as the state space of a nonlinear Gaussian model, unlocking two key capabilities: (1) A principled way to encode domain knowledge about task relationships, allowing, e.g., control over which layers should adapt between tasks. (2) A novel application of Bayesian smoothing, allowing task-specific models to also incorporate knowledge from models learned later. This does not require direct access to their data, which is crucial, e.g., for privacy-critical applications. These capabilities rely on efficient filtering and smoothing operations, for which we propose diagonal plus low-rank approximations of the precision matrix in the Laplace approximation (LR-LGF). Empirical results demonstrate the efficiency of LR-LGF and the benefits of the unlocked capabilities.",
+ "primary": "cs.LG"
+}

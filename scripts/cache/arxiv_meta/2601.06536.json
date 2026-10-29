@@ -1,0 +1,18 @@
+{
+ "id": "2601.06536",
+ "title": "Exposía: Teaching and Assessment of Academic Writing Skills for Research Project Proposals and Peer Feedback",
+ "authors": [
+  "Dennis Zyska",
+  "Alla Rozovskaya",
+  "Ilia Kuznetsov",
+  "Iryna Gurevych"
+ ],
+ "v1_date": "2026-01-10",
+ "latest_version": 3,
+ "latest_date": "2026-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present Exposía, the first public dataset that connects writing and feedback in higher education, enabling research on educationally grounded computational approaches to teaching and evaluating academic writing. Exposía includes student research project proposals and peer and instructor feedback consisting of comments and free-text reviews. The dataset was collected in the \"Introduction to Scientific Work\" course of the Computer Science. Exposía reflects the multi-stage nature of the academic writing process that includes drafting, receiving feedback, and revising the writing based on the feedback received. Both the project proposals and peer feedback are accompanied by human assessment scores based on a fine-grained, pedagogically-grounded schema for writing and feedback assessment that we develop. We use Exposía to benchmark state-of-the-art large language models (LLMs) on two tasks: automated scoring of (1) the proposals and (2) the student reviews. We find that the two tasks are best served by different LLMs. Furthermore, closed-source models consistently outperform open-weight models, motivating further research on improving the performance of open-weight models preferred in classroom settings. Finally, we establish that a prompting strategy that scores multiple aspects of the writing together is the most effective, paving the way for more effective classroom deployment of modern LLMs.",
+ "primary": "cs.CL"
+}

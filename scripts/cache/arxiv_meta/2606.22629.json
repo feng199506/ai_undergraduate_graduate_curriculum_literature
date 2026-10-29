@@ -1,0 +1,20 @@
+{
+ "id": "2606.22629",
+ "title": "Counting Triangles of Graphs via Randomized Trace Estimation with Incomplete Matrix-Vector Products",
+ "authors": [
+  "Soumyadip Ghosh",
+  "Lior Horesh",
+  "Vasileios Kalantzis",
+  "Yingdong Lu",
+  "Tomasz Nowicki",
+  "Shashanka Ubaru"
+ ],
+ "v1_date": "2026-06-21",
+ "latest_version": 1,
+ "latest_date": "2026-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Counting triangles in graphs is a fundamental operation in network analysis, underpinning metrics such as clustering coefficients and serving as a signal for community detection, link prediction, and anomaly detection. The standard approach computes the trace of the cube of the adjacency matrix, but explicitly forming $\\mathbf{A}^3$ is infeasible for large graphs. Hutchinson randomized trace estimator offers an efficient alternative by approximating the trace through stochastic averaging of quadratic forms, requiring only matrix vector products with $\\mathbf{A}$. However, in distributed and heterogeneous computing environments, observing all entries of these products can be costly due to communication overhead and straggler effects. To address this, we propose a new variant of Hutchinson estimator that operates under partial observation constraints, where both the number and identities of observed entries are random. We provide theoretical guarantees on unbiasedness, variance bounds, and sample complexity, and demonstrate through experiments on synthetic and real world graphs that our method achieves accurate triangle count estimates while reducing synchronization costs. This work highlights the adaptability of randomized algorithms to modern computational architectures and opens avenues for efficient motif counting in large scale network analytics.",
+ "primary": "math.NA"
+}

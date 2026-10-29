@@ -1,0 +1,22 @@
+{
+ "id": "2509.12047",
+ "title": "A Computer Vision Pipeline for Individual-Level Behavior Analysis: Benchmarking on the Edinburgh Pig Dataset",
+ "authors": [
+  "Haiyu Yang",
+  "Enhong Liu",
+  "Jennifer Sun",
+  "Sumit Sharma",
+  "Meike van Leerdam",
+  "Sebastien Franceschini",
+  "Puchun Niu",
+  "Miel Hostens"
+ ],
+ "v1_date": "2025-09-15",
+ "latest_version": 2,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "10.1038/s41598-026-67803-4",
+ "comment": "9 figures",
+ "abstract": "Animal behavior analysis plays a crucial role in understanding animal welfare, health status, and productivity in agricultural settings. However, traditional manual observation methods are time-consuming, subjective, and limited in scalability. We present a modular pipeline that leverages open-sourced state-of-the-art computer vision techniques to automate animal behavior analysis in a group housing environment. Our approach combines state-of-the-art models for zero-shot object detection, motion-aware segmentation and tracking, and advanced feature extraction using vision transformers for robust behavior recognition. The pipeline addresses challenges including animal occlusions and group housing scenarios, as demonstrated in indoor pig monitoring. We validated our system on the Edinburgh Pig Behavior Video Dataset for multiple behavioral tasks. Our temporal model achieved 94.2% overall accuracy, representing a 21.2 percentage point improvement over existing methods. The pipeline demonstrated robust tracking capabilities with a 93.3% identity preservation (IDF1) score and an 89.3% average precision (AP) for object detection. The modular design suggests potential for adaptation to other contexts, though further validation across species would be required. The open-source implementation provides a scalable solution for behavior monitoring, contributing to precision pig farming and welfare assessment through automated, objective, and continuous analysis.",
+ "primary": "cs.CV"
+}

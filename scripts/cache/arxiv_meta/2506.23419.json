@@ -1,0 +1,15 @@
+{
+ "id": "2506.23419",
+ "title": "BenchMake: Turn any scientific data set into a reproducible benchmark",
+ "authors": [
+  "Amanda S Barnard"
+ ],
+ "v1_date": "2025-06-29",
+ "latest_version": 1,
+ "latest_date": "2025-06-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 15 pages in Appendix, 15 figures, 5 tables, 57 references",
+ "abstract": "Benchmark data sets are a cornerstone of machine learning development and applications, ensuring new methods are robust, reliable and competitive. The relative rarity of benchmark sets in computational science, due to the uniqueness of the problems and the pace of change in the associated domains, makes evaluating new innovations difficult for computational scientists. In this paper a new tool is developed and tested to potentially turn any of the increasing numbers of scientific data sets made openly available into a benchmark accessible to the community. BenchMake uses non-negative matrix factorisation to deterministically identify and isolate challenging edge cases on the convex hull (the smallest convex set that contains all existing data instances) and partitions a required fraction of matched data instances into a testing set that maximises divergence and statistical significance, across tabular, graph, image, signal and textual modalities. BenchMake splits are compared to establish splits and random splits using ten publicly available benchmark sets from different areas of science, with different sizes, shapes, distributions.",
+ "primary": "cs.LG"
+}

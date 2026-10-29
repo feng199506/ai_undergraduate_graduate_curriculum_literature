@@ -1,0 +1,16 @@
+{
+ "id": "2401.12236",
+ "title": "The Surprising Harmfulness of Benign Overfitting for Adversarial Robustness",
+ "authors": [
+  "Yifan Hao",
+  "Tong Zhang"
+ ],
+ "v1_date": "2024-01-19",
+ "latest_version": 2,
+ "latest_date": "2024-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent empirical and theoretical studies have established the generalization capabilities of large machine learning models that are trained to (approximately or exactly) fit noisy data. In this work, we prove a surprising result that even if the ground truth itself is robust to adversarial examples, and the benignly overfitted model is benign in terms of the ``standard'' out-of-sample risk objective, this benign overfitting process can be harmful when out-of-sample data are subject to adversarial manipulation. More specifically, our main results contain two parts: (i) the min-norm estimator in overparameterized linear model always leads to adversarial vulnerability in the ``benign overfitting'' setting; (ii) we verify an asymptotic trade-off result between the standard risk and the ``adversarial'' risk of every ridge regression estimator, implying that under suitable conditions these two items cannot both be small at the same time by any single choice of the ridge regularization parameter. Furthermore, under the lazy training regime, we demonstrate parallel results on two-layer neural tangent kernel (NTK) model, which align with empirical observations in deep neural networks. Our finding provides theoretical insights into the puzzling phenomenon observed in practice, where the true target function (e.g., human) is robust against adverasrial attack, while beginly overfitted neural networks lead to models that are not robust.",
+ "primary": "cs.LG"
+}

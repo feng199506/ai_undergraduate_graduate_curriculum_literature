@@ -1,0 +1,16 @@
+{
+ "id": "2405.15415",
+ "title": "Semi-Supervised Learning via Cross-Prediction-Powered Inference for Wireless Systems",
+ "authors": [
+  "Houssem Sifaou",
+  "Osvaldo Simeone"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 2,
+ "latest_date": "2024-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many wireless application scenarios, acquiring labeled data can be prohibitively costly, requiring complex optimization processes or measurement campaigns. Semi-supervised learning leverages unlabeled samples to augment the available dataset by assigning synthetic labels obtained via machine learning (ML)-based predictions. However, treating the synthetic labels as true labels may yield worse-performing models as compared to models trained using only labeled data. Inspired by the recently developed prediction-powered inference (PPI) framework, this work investigates how to leverage the synthetic labels produced by an ML model, while accounting for the inherent bias concerning true labels. To this end, we first review PPI and its recent extensions, namely tuned PPI and cross-prediction-powered inference (CPPI). Then, we introduce two novel variants of PPI. The first, referred to as tuned CPPI, provides CPPI with an additional degree of freedom in adapting to the quality of the ML-based labels. The second, meta-CPPI (MCPPI), extends tuned CPPI via the joint optimization of the ML labeling models and of the parameters of interest. Finally, we showcase two applications of PPI-based techniques in wireless systems, namely beam alignment based on channel knowledge maps in millimeter-wave systems and received signal strength information-based indoor localization. Simulation results show the advantages of PPI-based techniques over conventional approaches that rely solely on labeled data or that apply standard pseudo-labeling strategies from semi-supervised learning. Furthermore, the proposed tuned CPPI method is observed to guarantee the best performance among all benchmark schemes, especially in the regime of limited labeled data.",
+ "primary": "cs.IT"
+}

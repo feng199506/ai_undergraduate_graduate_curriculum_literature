@@ -1,0 +1,18 @@
+{
+ "id": "2503.06606",
+ "title": "Interpretable Model Drift Detection",
+ "authors": [
+  "Pranoy Panda",
+  "Kancheti Sai Srinivas",
+  "Vineeth N Balasubramanian",
+  "Gaurav Sinha"
+ ],
+ "v1_date": "2025-03-09",
+ "latest_version": 1,
+ "latest_date": "2025-03-09",
+ "journal_ref": "",
+ "doi": "10.1145/3632410.3632434",
+ "comment": "Accepted at CODS-COMAD 2024",
+ "abstract": "Data in the real world often has an evolving distribution. Thus, machine learning models trained on such data get outdated over time. This phenomenon is called model drift. Knowledge of this drift serves two purposes: (i) Retain an accurate model and (ii) Discovery of knowledge or insights about change in the relationship between input features and output variable w.r.t. the model. Most existing works focus only on detecting model drift but offer no interpretability. In this work, we take a principled approach to study the problem of interpretable model drift detection from a risk perspective using a feature-interaction aware hypothesis testing framework, which enjoys guarantees on test power. The proposed framework is generic, i.e., it can be adapted to both classification and regression tasks. Experiments on several standard drift detection datasets show that our method is superior to existing interpretable methods (especially on real-world datasets) and on par with state-of-the-art black-box drift detection methods. We also quantitatively and qualitatively study the interpretability aspect including a case study on USENET2 dataset. We find our method focuses on model and drift sensitive features compared to baseline interpretable drift detectors.",
+ "primary": "cs.LG"
+}

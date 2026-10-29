@@ -1,0 +1,22 @@
+{
+ "id": "2606.15177",
+ "title": "Coordinated Scheduling for MoE LLM Serving",
+ "authors": [
+  "Yifan Sun",
+  "Zhexiang Zhang",
+  "Jiantong Jiang",
+  "Gholamreza Haffari",
+  "Minxian Xu",
+  "Feng Liu",
+  "Rajkumar Buyya",
+  "Adel N. Toosi"
+ ],
+ "v1_date": "2026-06-13",
+ "latest_version": 1,
+ "latest_date": "2026-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Serving Mixture-of-Experts (MoE) large language models (LLMs) is challenging because dynamic request workloads interact with sparse expert routing, creating both data-parallel (DP) engine imbalance and expert-level hotspots. Existing LLM serving systems typically make these decisions in isolation: frontend schedulers route requests using coarse request counters, while backend expert balancers rely mainly on aggregate expert activation counts. This separation prevents the serving system from reacting to fine-grained engine pressure, backend MoE pressure, and source-dependent expert traffic. To address this gap, we propose Gimbal, a coordinated cross-level scheduling system for efficient MoE-based LLM serving. First, Gimbal presents a fine-grained DP-engine scheduler that uses online backend pressure signals, including key-value (KV) cache usage, remaining prefill work, queue pressure, and MoE expert pressure, to dispatch requests away from overloaded engines. Inside each engine, Gimbal further applies a lightweight prefill-aware queue ordering policy with aging to reduce head-of-line blocking without output-length prediction. Second, Gimbal extends expert load balancing with online source-DP-to-expert routing statistics and uses a heuristic guided by a mixed-integer nonlinear program (MINLP) to place experts while jointly considering expert load, source-aware communication, and migration stability. Our evaluation shows that Gimbal reduces average Time To First Token (TTFT) by 42.9% and average Time Per Output Token (TPOT) by 33.3% compared with the state-of-the-art serving system vLLM, while improving high-load request throughput by 3.0%.",
+ "primary": "cs.DC"
+}

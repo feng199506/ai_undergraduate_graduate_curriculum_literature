@@ -1,0 +1,20 @@
+{
+ "id": "2602.01090",
+ "title": "Hard Constraints Meet Soft Generation: Guaranteed Feasibility for LLM-based Combinatorial Optimization",
+ "authors": [
+  "Yang Liu",
+  "Chuan Zhou",
+  "Yancheng Chen",
+  "Shuai Zhang",
+  "Xixun Lin",
+  "Xiaoqing Wang"
+ ],
+ "v1_date": "2026-02-01",
+ "latest_version": 1,
+ "latest_date": "2026-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 2 figures",
+ "abstract": "Large language models (LLMs) have emerged as promising general-purpose solvers for combinatorial optimization (CO), yet they fundamentally lack mechanisms to guarantee solution feasibility which is critical for real-world deployment. In this work, we introduce FALCON, a framework that ensures 100\\% feasibility through three key innovations: (i) \\emph{grammar-constrained decoding} enforces syntactic validity, (ii) a \\emph{feasibility repair layer} corrects semantic constraint violations, and (iii) \\emph{adaptive Best-of-$N$ sampling} allocates inference compute efficiently. To train the underlying LLM, we introduce the Best-anchored Objective-guided Preference Optimization (BOPO) in LLM training, which weights preference pairs by their objective gap, providing dense supervision without human labels. Theoretically, we prove convergence for BOPO and provide bounds on repair-induced quality loss. Empirically, across seven NP-hard CO problems, FALCON achieves perfect feasibility while matching or exceeding the solution quality of state-of-the-art neural and LLM-based solvers.",
+ "primary": "cs.AI"
+}

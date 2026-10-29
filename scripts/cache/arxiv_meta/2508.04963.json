@@ -1,0 +1,23 @@
+{
+ "id": "2508.04963",
+ "title": "A Metric for MLLM Alignment in Large-scale Recommendation",
+ "authors": [
+  "Yubin Zhang",
+  "Yanhua Huang",
+  "Haiming Xu",
+  "Mingliang Qi",
+  "Chang Wang",
+  "Jiarui Jin",
+  "Xiangyuan Ren",
+  "Xiaodan Wang",
+  "Ruiwen Xu"
+ ],
+ "v1_date": "2025-08-07",
+ "latest_version": 1,
+ "latest_date": "2025-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Pre-print.Under Review",
+ "abstract": "Multimodal recommendation has emerged as a critical technique in modern recommender systems, leveraging content representations from advanced multimodal large language models (MLLMs). To ensure these representations are well-adapted, alignment with the recommender system is essential. However, evaluating the alignment of MLLMs for recommendation presents significant challenges due to three key issues: (1) static benchmarks are inaccurate because of the dynamism in real-world applications, (2) evaluations with online system, while accurate, are prohibitively expensive at scale, and (3) conventional metrics fail to provide actionable insights when learned representations underperform. To address these challenges, we propose the Leakage Impact Score (LIS), a novel metric for multimodal recommendation. Rather than directly assessing MLLMs, LIS efficiently measures the upper bound of preference data. We also share practical insights on deploying MLLMs with LIS in real-world scenarios. Online A/B tests on both Content Feed and Display Ads of Xiaohongshu's Explore Feed production demonstrate the effectiveness of our proposed method, showing significant improvements in user spent time and advertiser value.",
+ "primary": "cs.IR"
+}

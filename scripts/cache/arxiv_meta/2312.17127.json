@@ -1,0 +1,22 @@
+{
+ "id": "2312.17127",
+ "title": "Probabilistic programming interfaces for random graphs: Markov categories, graphons, and nominal sets",
+ "authors": [
+  "Nathanael L. Ackerman",
+  "Cameron E. Freer",
+  "Younesse Kaddar",
+  "Jacek Karwowski",
+  "Sean K. Moss",
+  "Daniel M. Roy",
+  "Sam Staton",
+  "Hongseok Yang"
+ ],
+ "v1_date": "2023-12-28",
+ "latest_version": 1,
+ "latest_date": "2023-12-28",
+ "journal_ref": "Proc. ACM Program. Lang. 8, POPL, Article 61 (2024), pp 1819-1849",
+ "doi": "10.1145/3632903",
+ "comment": "Accepted for POPL 2024",
+ "abstract": "We study semantic models of probabilistic programming languages over graphs, and establish a connection to graphons from graph theory and combinatorics. We show that every well-behaved equational theory for our graph probabilistic programming language corresponds to a graphon, and conversely, every graphon arises in this way. We provide three constructions for showing that every graphon arises from an equational theory. The first is an abstract construction, using Markov categories and monoidal indeterminates. The second and third are more concrete. The second is in terms of traditional measure theoretic probability, which covers 'black-and-white' graphons. The third is in terms of probability monads on the nominal sets of Gabbay and Pitts. Specifically, we use a variation of nominal sets induced by the theory of graphs, which covers Erdős-Rényi graphons. In this way, we build new models of graph probabilistic programming from graphons.",
+ "primary": "cs.PL"
+}

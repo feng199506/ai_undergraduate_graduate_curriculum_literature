@@ -1,0 +1,15 @@
+{
+ "id": "2408.01617",
+ "title": "Review and Demonstration of a Mixture Representation for Simulation from Densities Involving Sums of Powers",
+ "authors": [
+  "Maryclare Griffin"
+ ],
+ "v1_date": "2024-08-03",
+ "latest_version": 1,
+ "latest_date": "2024-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Penalized and robust regression, especially when approached from a Bayesian perspective, can involve the problem of simulating a random variable $\\boldsymbol z$ from a posterior distribution that includes a term proportional to a sum of powers, $\\|\\boldsymbol z \\|^q_q$, on the log scale. However, many popular gradient-based methods for Markov Chain Monte Carlo simulation from such posterior distributions use Hamiltonian Monte Carlo and accordingly require conditions on the differentiability of the unnormalized posterior distribution that do not hold when $q \\leq 1$ (Plummer, 2023). This is limiting; the setting where $q \\leq 1$ includes widely used sparsity inducing penalized regression models and heavy tailed robust regression models. In the special case where $q = 1$, a latent variable representation that facilitates simulation from such a posterior distribution is well known. However, the setting where $q < 1$ has not been treated as thoroughly. In this note, we review the availability of a latent variable representation described in Devroye (2009), show how it can be used to simulate from such posterior distributions when $0 < q < 2$, and demonstrate its utility in the context of estimating the parameters of a Bayesian penalized regression model.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2408.12208",
+ "title": "Fair Augmentation for Graph Collaborative Filtering",
+ "authors": [
+  "Ludovico Boratto",
+  "Francesco Fabbri",
+  "Gianni Fenu",
+  "Mirko Marras",
+  "Giacomo Medda"
+ ],
+ "v1_date": "2024-08-22",
+ "latest_version": 1,
+ "latest_date": "2024-08-22",
+ "journal_ref": "",
+ "doi": "10.1145/3640457.3688064",
+ "comment": "",
+ "abstract": "Recent developments in recommendation have harnessed the collaborative power of graph neural networks (GNNs) in learning users' preferences from user-item networks. Despite emerging regulations addressing fairness of automated systems, unfairness issues in graph collaborative filtering remain underexplored, especially from the consumer's perspective. Despite numerous contributions on consumer unfairness, only a few of these works have delved into GNNs. A notable gap exists in the formalization of the latest mitigation algorithms, as well as in their effectiveness and reliability on cutting-edge models. This paper serves as a solid response to recent research highlighting unfairness issues in graph collaborative filtering by reproducing one of the latest mitigation methods. The reproduced technique adjusts the system fairness level by learning a fair graph augmentation. Under an experimental setup based on 11 GNNs, 5 non-GNN models, and 5 real-world networks across diverse domains, our investigation reveals that fair graph augmentation is consistently effective on high-utility models and large datasets. Experiments on the transferability of the fair augmented graph open new issues for future recommendation studies. Source code: https://github.com/jackmedda/FA4GCF.",
+ "primary": "cs.IR"
+}

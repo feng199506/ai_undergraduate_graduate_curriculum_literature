@@ -1,0 +1,15 @@
+{
+ "id": "2601.04361",
+ "title": "Causally-Aware Information Bottleneck for Domain Adaptation",
+ "authors": [
+  "Mohammad Ali Javidian"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 1,
+ "latest_date": "2026-01-07",
+ "journal_ref": "Transactions on Machine Learning Research (2026)",
+ "doi": "",
+ "comment": "An extended abstract version of this work was accepted for the Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)",
+ "abstract": "We tackle a common domain adaptation setting in causal systems. In this setting, the target variable is observed in the source domain but is entirely missing in the target domain. We aim to impute the target variable in the target domain from the remaining observed variables under various shifts. We frame this as learning a compact, mechanism-stable representation. This representation preserves information relevant for predicting the target while discarding spurious variation. For linear Gaussian causal models, we derive a closed-form Gaussian Information Bottleneck (GIB) solution. This solution reduces to a canonical correlation analysis (CCA)-style projection and offers Directed Acyclic Graph (DAG)-aware options when desired. For nonlinear or non-Gaussian data, we introduce a Variational Information Bottleneck (VIB) encoder-predictor. This approach scales to high dimensions and can be trained on source data and deployed zero-shot to the target domain. Across synthetic and real datasets, our approach consistently attains accurate imputations, supporting practical use in high-dimensional causal models and furnishing a unified, lightweight toolkit for causal domain adaptation.",
+ "primary": "cs.LG"
+}

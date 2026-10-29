@@ -1,0 +1,16 @@
+{
+ "id": "2402.03985",
+ "title": "A Bias-Variance Decomposition for Ensembles over Multiple Synthetic Datasets",
+ "authors": [
+  "Ossi Räisä",
+  "Antti Honkela"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 3,
+ "latest_date": "2025-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "AISTATS 2025",
+ "abstract": "Recent studies have highlighted the benefits of generating multiple synthetic datasets for supervised learning, from increased accuracy to more effective model selection and uncertainty estimation. These benefits have clear empirical support, but the theoretical understanding of them is currently very light. We seek to increase the theoretical understanding by deriving bias-variance decompositions for several settings of using multiple synthetic datasets, including differentially private synthetic data. Our theory yields a simple rule of thumb to select the appropriate number of synthetic datasets in the case of mean-squared error and Brier score. We investigate how our theory works in practice with several real datasets, downstream predictors and error metrics. As our theory predicts, multiple synthetic datasets often improve accuracy, while a single large synthetic dataset gives at best minimal improvement, showing that our insights are practically relevant.",
+ "primary": "cs.LG"
+}

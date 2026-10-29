@@ -1,0 +1,17 @@
+{
+ "id": "2606.26728",
+ "title": "Scientific discovery as meta-optimization: a combinatorial optimization case study",
+ "authors": [
+  "Yuan-Hang Zhang",
+  "Chesson Sipling",
+  "Massimiliano Di Ventra"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 2,
+ "latest_date": "2026-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 4 figures",
+ "abstract": "Scientific discovery is fundamentally an optimization problem, defined by a vast ``state space'' of theories and experiments, and an evaluation criterion based on quality, novelty, and validity. Large language models (LLMs) have enabled automated exploration of this state space, but we argue that simultaneous modification of the evaluation criteria is equally important. Here, we propose formalizing research as meta-optimization, where the optimization objective itself is also being optimized. Our key contribution is ``consensus objective aggregation,'' where a portfolio of LLM-generated objective functions is combined via correlation-weighted voting, allowing the evaluation criterion to evolve alongside the solutions. We apply this framework to algorithm discovery for planted 3-SAT problems based on digital memcomputing machines. The leading solver from the consensus search reduces median integration steps by more than $38\\times$ relative to a tuned baseline at 2,560 variables. Objective ablations show that a well-chosen fixed expert objective can also discover strong solvers, while consensus supplies a stable ranking that mitigates reward hacking behaviors. By bringing objective engineering into the discovery loop, this framework offers a practical route toward more adaptable automated research.",
+ "primary": "cs.AI"
+}

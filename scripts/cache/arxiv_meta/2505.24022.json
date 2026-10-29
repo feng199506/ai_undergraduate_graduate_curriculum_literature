@@ -1,0 +1,18 @@
+{
+ "id": "2505.24022",
+ "title": "The Rich and the Simple: On the Implicit Bias of Adam and SGD",
+ "authors": [
+  "Bhavya Vasudeva",
+  "Jung Whan Lee",
+  "Vatsal Sharan",
+  "Mahdi Soltanolkotabi"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 2,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NeurIPS 2025; 30 pages, 12 figures, 17 tables",
+ "abstract": "Adam is the de facto optimization algorithm for several deep learning applications, but an understanding of its implicit bias and how it differs from other algorithms, particularly standard first-order methods such as (stochastic) gradient descent (GD), remains limited. In practice, neural networks (NNs) trained with SGD are known to exhibit simplicity bias -- a tendency to find simple solutions. In contrast, we show that Adam is more resistant to such simplicity bias. First, we investigate the differences in the implicit biases of Adam and GD when training two-layer ReLU NNs on a binary classification task with Gaussian data. We find that GD exhibits a simplicity bias, resulting in a linear decision boundary with a suboptimal margin, whereas Adam leads to much richer and more diverse features, producing a nonlinear boundary that is closer to the Bayes' optimal predictor. This richer decision boundary also allows Adam to achieve higher test accuracy both in-distribution and under certain distribution shifts. We theoretically prove these results by analyzing the population gradients. Next, to corroborate our theoretical findings, we present extensive empirical results showing that this property of Adam leads to superior generalization across various datasets with spurious correlations where NNs trained with SGD are known to show simplicity bias and do not generalize well under certain distributional shifts.",
+ "primary": "cs.LG"
+}

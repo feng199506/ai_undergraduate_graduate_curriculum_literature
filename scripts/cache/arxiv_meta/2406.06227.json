@@ -1,0 +1,16 @@
+{
+ "id": "2406.06227",
+ "title": "PAC-Bayes Analysis for Recalibration in Classification",
+ "authors": [
+  "Masahiro Fujisawa",
+  "Futoshi Futami"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 2,
+ "latest_date": "2025-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by the 42nd International Conference on Machine Learning (ICML2025), 38 pages, 8 figures",
+ "abstract": "Nonparametric estimation using uniform-width binning is a standard approach for evaluating the calibration performance of machine learning models. However, existing theoretical analyses of the bias induced by binning are limited to binary classification, creating a significant gap with practical applications such as multiclass classification. Additionally, many parametric recalibration algorithms lack theoretical guarantees for their generalization performance. To address these issues, we conduct a generalization analysis of calibration error using the probably approximately correct Bayes framework. This approach enables us to derive the first optimizable upper bound for generalization error in the calibration context. On the basis of our theory, we propose a generalization-aware recalibration algorithm. Numerical experiments show that our algorithm enhances the performance of Gaussian process-based recalibration across various benchmark datasets and models.",
+ "primary": "cs.LG"
+}

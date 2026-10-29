@@ -1,0 +1,19 @@
+{
+ "id": "2510.20460",
+ "title": "Systematic Evaluation of Uncertainty Estimation Methods in Large Language Models",
+ "authors": [
+  "Christian Hobelsberger",
+  "Theresa Winner",
+  "Andreas Nawroth",
+  "Oliver Mitevski",
+  "Anna-Carolina Haensch"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 1,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) produce outputs with varying levels of uncertainty, and, just as often, varying levels of correctness; making their practical reliability far from guaranteed. To quantify this uncertainty, we systematically evaluate four approaches for confidence estimation in LLM outputs: VCE, MSP, Sample Consistency, and CoCoA (Vashurin et al., 2025). For the evaluation of the approaches, we conduct experiments on four question-answering tasks using a state-of-the-art open-source LLM. Our results show that each uncertainty metric captures a different facet of model confidence and that the hybrid CoCoA approach yields the best reliability overall, improving both calibration and discrimination of correct answers. We discuss the trade-offs of each method and provide recommendations for selecting uncertainty measures in LLM applications.",
+ "primary": "cs.CL"
+}

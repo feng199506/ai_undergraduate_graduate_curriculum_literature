@@ -1,0 +1,18 @@
+{
+ "id": "2503.13970",
+ "title": "CoreDPPL: Towards a Sound Composition of Differentiation, ODE Solving, and Probabilistic Programming",
+ "authors": [
+  "Oscar Eriksson",
+  "Anders Ågren Thuné",
+  "Johannes Borgström",
+  "David Broman"
+ ],
+ "v1_date": "2025-03-18",
+ "latest_version": 1,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, there has been extensive research on how to extend general-purpose programming language semantics with domain-specific modeling constructs. Two areas of particular interest are (i) universal probabilistic programming where Bayesian probabilistic models are encoded as programs, and (ii) differentiable programming where differentiation operators are first class or differential equations are part of the language semantics. These kinds of languages and their language constructs are usually studied separately or composed in restrictive ways. In this paper, we study and formalize the combination of probabilistic programming constructs, first-class differentiation, and ordinary differential equations in a higher-order setting. We propose formal semantics for a core of such differentiable probabilistic programming language (DPPL), where the type system tracks random computations and rejects unsafe compositions during type checking. The semantics and its type system are formalized, mechanized, and proven sound in Agda with respect to abstract language constructs.",
+ "primary": "cs.PL"
+}

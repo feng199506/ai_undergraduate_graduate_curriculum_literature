@@ -1,0 +1,24 @@
+{
+ "id": "2507.20198",
+ "title": "A Survey of Token Compression for Efficient Multimodal Large Language Models",
+ "authors": [
+  "Kele Shao",
+  "Keda Tao",
+  "Kejia Zhang",
+  "Sicheng Feng",
+  "Mu Cai",
+  "Yuzhang Shang",
+  "Haoxuan You",
+  "Can Qin",
+  "Yang Sui",
+  "Huan Wang"
+ ],
+ "v1_date": "2025-07-27",
+ "latest_version": 5,
+ "latest_date": "2026-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "For ongoing updates and to track the latest advances in this promising area, we maintain a public repository: https://github.com/cokeshao/Awesome-Multimodal-Token-Compression",
+ "abstract": "Multimodal large language models (MLLMs) have made remarkable strides, largely driven by their ability to process increasingly long and complex contexts, such as high-resolution images, extended video sequences, and lengthy audio input. While this ability significantly enhances MLLM capabilities, it introduces substantial computational challenges, primarily due to the quadratic complexity of self-attention mechanisms with numerous input tokens. To mitigate these bottlenecks, token compression has emerged as an auspicious and critical approach, efficiently reducing the number of tokens during both training and inference. In this paper, we present the first systematic survey and synthesis of the burgeoning field of multimodal long context token compression. Recognizing that effective compression strategies are deeply tied to the unique characteristics and redundancies of each modality, we categorize existing approaches by their primary data focus, enabling researchers to quickly access and learn methods tailored to their specific area of interest: (1) image-centric compression, which addresses spatial redundancy in visual data; (2) video-centric compression, which tackles spatio-temporal redundancy in dynamic sequences; and (3) audio-centric compression, which handles temporal and spectral redundancy in acoustic signals. Beyond this modality-driven categorization, we further dissect methods based on their underlying mechanisms, including transformation-based, similarity-based, attention-based, and query-based approaches. By providing a comprehensive and structured overview, this survey aims to consolidate current progress, identify key challenges, and inspire future research directions in this rapidly evolving domain.",
+ "primary": "cs.CV"
+}

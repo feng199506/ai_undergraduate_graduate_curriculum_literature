@@ -1,0 +1,20 @@
+{
+ "id": "2507.14352",
+ "title": "A Reproducibility Study of Product-side Fairness in Bundle Recommendation",
+ "authors": [
+  "Huy-Son Nguyen",
+  "Yuanna Liu",
+  "Masoud Mansoury",
+  "Mohammad Alian Nejadi",
+  "Alan Hanjalic",
+  "Maarten de Rijke"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 1,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "10.1145/3705328.3748169",
+ "comment": "",
+ "abstract": "Recommender systems are known to exhibit fairness issues, particularly on the product side, where products and their associated suppliers receive unequal exposure in recommended results. While this problem has been widely studied in traditional recommendation settings, its implications for bundle recommendation (BR) remain largely unexplored. This emerging task introduces additional complexity: recommendations are generated at the bundle level, yet user satisfaction and product (or supplier) exposure depend on both the bundle and the individual items it contains. Existing fairness frameworks and metrics designed for traditional recommender systems may not directly translate to this multi-layered setting. In this paper, we conduct a comprehensive reproducibility study of product-side fairness in BR across three real-world datasets using four state-of-the-art BR methods. We analyze exposure disparities at both the bundle and item levels using multiple fairness metrics, uncovering important patterns. Our results show that exposure patterns differ notably between bundles and items, revealing the need for fairness interventions that go beyond bundle-level assumptions. We also find that fairness assessments vary considerably depending on the metric used, reinforcing the need for multi-faceted evaluation. Furthermore, user behavior plays a critical role: when users interact more frequently with bundles than with individual items, BR systems tend to yield fairer exposure distributions across both levels. Overall, our findings offer actionable insights for building fairer bundle recommender systems and establish a vital foundation for future research in this emerging domain.",
+ "primary": "cs.IR"
+}

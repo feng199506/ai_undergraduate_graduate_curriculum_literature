@@ -1,0 +1,17 @@
+{
+ "id": "2510.21182",
+ "title": "KBE-DME: Dynamic Multimodal Evaluation via Knowledge Enhanced Benchmark Evolution",
+ "authors": [
+  "Junzhe Zhang",
+  "Huixuan Zhang",
+  "Xiaojun Wan"
+ ],
+ "v1_date": "2025-10-24",
+ "latest_version": 2,
+ "latest_date": "2026-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid progress of multimodal large language models (MLLMs) calls for more reliable evaluation protocols. Existing static benchmarks suffer from the potential risk of data contamination and saturation, leading to inflated or misleading performance evaluations. To address these issues, we first apply Graph formulation to represent a static or dynamic VQA sample. With the formulation, we propose Knowledge-enhanced Benchmark Evolution(KBE), a dynamic multimodal evaluation framework. KBE first analyzes the original static benchmark, then expands it by integrating multimodal knowledge, transforming the static benchmark into a controllable, dynamic evolving version. Crucially, KBE can both reconstruct questions by Re-selecting visual information in the original image and expand existing questions with external textual knowledge. It enables difficulty-controllable evaluation by adjusting the degree of question exploration. Extensive experiments demonstrate that KBE alleviates the risk of data contamination, data saturation, and provides a more comprehensive assessment of MLLM capabilities.",
+ "primary": "cs.CV"
+}

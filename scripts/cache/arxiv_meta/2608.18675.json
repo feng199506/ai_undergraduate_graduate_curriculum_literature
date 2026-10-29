@@ -1,0 +1,18 @@
+{
+ "id": "2608.18675",
+ "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+ "authors": [
+  "Behnaz Kavoosighafi",
+  "Maria Eidenskog",
+  "Wiktoria Glad",
+  "Katerina Vrotsou"
+ ],
+ "v1_date": "2026-08-19",
+ "latest_version": 1,
+ "latest_date": "2026-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate forecasting of energy consumption is important for the efficient operation of power systems, with direct implications for operational costs, energy management, and system maintenance. Due to the availability of extensive high-resolution consumption data from smart meters, data-driven methods have been used for short-term and long-term forecasting. However, their comparative performance on real-world smart meter data is still not well studied. In this paper, we present an empirical benchmark of nine modern deep learning models for time-series forecasting, including linear, MLP-based, convolutional, and Transformer architectures. We evaluate these models on two publicly available smart meter datasets. Our analysis focuses on three factors that strongly affect forecasting performance: the length of historical input, the prediction horizon, and the choice of model architecture. We show that extending the historical context improves accuracy, but only up to a saturation point, after which additional input provides limited benefit. In contrast, accuracy decreases as the prediction horizon increases. We also investigate the trade-off between prediction accuracy and computational complexity, and assess the statistical significance and practical magnitude of performance differences across models. Our results show that deep learning models consistently outperform classical baselines, while lightweight architectures achieve relatively similar performance at significantly lower computational cost. Additionally, architectural differences only become meaningful at longer forecasting horizons and on more heterogeneous datasets. Finally, a subgroup analysis across geodemographic and household categories shows that model choice has limited impact for most population segments.",
+ "primary": "cs.LG"
+}

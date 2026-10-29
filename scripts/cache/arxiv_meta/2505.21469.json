@@ -1,0 +1,24 @@
+{
+ "id": "2505.21469",
+ "title": "PropMolFlow: Property-Guided Molecule Generation with Geometry-Complete Flow Matching",
+ "authors": [
+  "Cheng Zeng",
+  "Jirui Jin",
+  "Connor Ambrose",
+  "George Karypis",
+  "Mark Transtrum",
+  "Ellad B. Tadmor",
+  "Richard G. Hennig",
+  "Adrian Roitberg",
+  "Stefano Martiniani",
+  "Mingjie Liu"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 4,
+ "latest_date": "2025-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "code: https://github.com/Liu-Group-UF/PropMolFlow",
+ "abstract": "Molecule generation is advancing rapidly in chemical discovery and drug design. Flow matching methods have recently set the state of the art (SOTA) in unconditional molecule generation, surpassing score-based diffusion models. However, diffusion models still lead in property-guided generation. In this work, we introduce PropMolFlow, an approach for property-guided molecule generation based on geometry-complete SE(3)-equivariant flow matching. Integrating five different property embedding methods with a Gaussian expansion of scalar properties, PropMolFlow achieves competitive performance against previous SOTA diffusion models in conditional molecule generation while maintaining high structural stability and validity. Additionally, it enables faster sampling speed with fewer time steps compared to baseline models. We highlight the importance of validating the properties of generated molecules through DFT calculations. Furthermore, we introduce a task to assess the model's ability to propose molecules with underrepresented property values, assessing its capacity for out-of-distribution generalization.",
+ "primary": "physics.chem-ph"
+}

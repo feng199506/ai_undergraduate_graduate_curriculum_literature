@@ -1,0 +1,20 @@
+{
+ "id": "2503.07276",
+ "title": "A Systematic Review of ECG Arrhythmia Classification: Adherence to Standards, Fair Evaluation, and Embedded Feasibility",
+ "authors": [
+  "Guilherme Silva",
+  "Pedro Silva",
+  "Gladston Moreira",
+  "Vander Freitas",
+  "Jadson Gertrudes",
+  "Eduardo Luz"
+ ],
+ "v1_date": "2025-03-10",
+ "latest_version": 1,
+ "latest_date": "2025-03-10",
+ "journal_ref": "",
+ "doi": "10.1007/s42600-026-00485-z",
+ "comment": "",
+ "abstract": "The classification of electrocardiogram (ECG) signals is crucial for early detection of arrhythmias and other cardiac conditions. However, despite advances in machine learning, many studies fail to follow standardization protocols, leading to inconsistencies in performance evaluation and real-world applicability. Additionally, hardware constraints essential for practical deployment, such as in pacemakers, Holter monitors, and wearable ECG patches, are often overlooked. Since real-world impact depends on feasibility in resource-constrained devices, ensuring efficient deployment is critical for continuous monitoring. This review systematically analyzes ECG classification studies published between 2017 and 2024, focusing on those adhering to the E3C (Embedded, Clinical, and Comparative Criteria), which include inter-patient paradigm implementation, compliance with Association for the Advancement of Medical Instrumentation (AAMI) recommendations, and model feasibility for embedded systems. While many studies report high accuracy, few properly consider patient-independent partitioning and hardware limitations. We identify state-of-the-art methods meeting E3C criteria and conduct a comparative analysis of accuracy, inference time, energy consumption, and memory usage. Finally, we propose standardized reporting practices to ensure fair comparisons and practical applicability of ECG classification models. By addressing these gaps, this study aims to guide future research toward more robust and clinically viable ECG classification systems.",
+ "primary": "cs.CV"
+}

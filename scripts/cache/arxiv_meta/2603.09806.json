@@ -1,0 +1,18 @@
+{
+ "id": "2603.09806",
+ "title": "Expressive Power of Property Graph Constraint Languages",
+ "authors": [
+  "Stefania Dumbrava",
+  "Nadime Francis",
+  "Victor Marsault",
+  "Steven Sailly"
+ ],
+ "v1_date": "2026-03-10",
+ "latest_version": 2,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present the first principled and systematic study of the expressive power of property graph constraint languages, focused on the recent PG-Keys language, set to inform the upcoming revision of the GQL standard. To this end, we position PG-Keys within the broader landscape of existing formalisms. In particular, we compare PG-Keys with two core property graph constraint languages: Graph Functional Dependencies (GFD) and Graph Generating Dependencies (GGD). One hurdle is that these formalisms allow different kinds of graph pattern languages and data predicates. To make a fair comparison, based on their structural differences only, we first present a unifying framework. Within this framework, we consider conjunctive regular path queries (CRPQ) as graph patterns with equality and inequality predicates. We then identify well-behaved fragments, establish expressiveness inclusion, and prove separation results, yielding a complete and strict hierarchy of expressive power. The results identify precisely when PG-Keys provide strictly greater expressive power, clarifying their place among state-of-the-art property graph constraint formalisms.",
+ "primary": "cs.DB"
+}

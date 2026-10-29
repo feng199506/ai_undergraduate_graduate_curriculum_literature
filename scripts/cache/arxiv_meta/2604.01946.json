@@ -1,0 +1,16 @@
+{
+ "id": "2604.01946",
+ "title": "PAC-Bayesian Reward-Certified Outcome Weighted Learning",
+ "authors": [
+  "Yuya Ishikawa",
+  "Shu Tamano"
+ ],
+ "v1_date": "2026-04-02",
+ "latest_version": 1,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating optimal individualized treatment rules (ITRs) via outcome weighted learning (OWL) often relies on observed rewards that are noisy or optimistic proxies for the true latent utility. Ignoring this reward uncertainty leads to the selection of policies with inflated apparent performance, yet existing OWL frameworks lack the finite-sample guarantees required to systematically embed such uncertainty into the learning objective. To address this issue, we propose PAC-Bayesian Reward-Certified Outcome Weighted Learning (PROWL). Given a one-sided uncertainty certificate, PROWL constructs a conservative reward and a strictly policy-dependent lower bound on the true expected value. Theoretically, we prove an exact certified reduction that transforms robust policy learning into a unified, split-free cost-sensitive classification task. This formulation enables the derivation of a nonasymptotic PAC-Bayes lower bound for randomized ITRs, where we establish that the optimal posterior maximizing this bound is exactly characterized by a general Bayes update. To overcome the learning-rate selection problem inherent in generalized Bayesian inference, we introduce a fully automated, bounds-based calibration procedure, coupled with a Fisher-consistent certified hinge surrogate for efficient optimization. Our experiments demonstrate that PROWL achieves improvements in estimating robust, high-value treatment regimes under severe reward uncertainty compared to standard methods for ITR estimation.",
+ "primary": "cs.LG"
+}

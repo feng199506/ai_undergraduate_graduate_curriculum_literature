@@ -1,20 +1,146 @@
 [
- {"q": "(ti:tutorial OR ti:introduction OR ti:\"lecture notes\" OR ti:primer OR ti:course) AND (abs:\"convex optimization\")", "subtopic": "凸优化"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"first-order methods\" OR abs:\"gradient methods\") AND cat:math.OC", "subtopic": "一阶方法与数值优化"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND abs:\"stochastic gradient\" AND (cat:math.OC OR cat:cs.LG OR cat:stat.ML)", "subtopic": "随机优化"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"optimization for deep learning\" OR abs:\"optimizers\" OR abs:\"Adam\") AND cat:cs.LG", "subtopic": "深度学习优化方法"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"nonconvex optimization\" OR abs:\"non-convex optimization\")", "subtopic": "非凸优化"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND (abs:\"zeroth-order optimization\" OR abs:\"derivative-free optimization\")", "subtopic": "零阶与无导数优化"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"bilevel optimization\" OR abs:\"minimax optimization\")", "subtopic": "双层与极小极大优化"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND (abs:\"distributed optimization\" OR abs:\"decentralized optimization\" OR abs:\"federated optimization\")", "subtopic": "分布式优化"},
- {"q": "(ti:survey OR ti:tutorial OR ti:review) AND (abs:\"second-order\" OR abs:\"quasi-Newton\" OR abs:\"preconditioned\") AND (abs:\"deep learning\" OR abs:\"machine learning\")", "subtopic": "二阶与预条件方法"},
- {"q": "(ti:\"learning to optimize\" OR ti:\"machine learning for combinatorial optimization\" OR ti:\"optimization modeling\") AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "学习优化与 ML 求解优化"},
- {"q": "(ti:\"information theory\" OR ti:\"information-theoretic\") AND (ti:introduction OR ti:tutorial OR ti:survey OR ti:review OR ti:\"lecture notes\") AND (abs:\"machine learning\" OR abs:\"deep learning\" OR abs:\"generalization\")", "subtopic": "信息论与学习"},
- {"q": "(ti:\"mutual information\" OR ti:\"information bottleneck\" OR ti:entropy OR ti:divergence) AND (ti:survey OR ti:review OR ti:tutorial)", "subtopic": "互信息与信息瓶颈"},
- {"q": "(ti:compression OR ti:\"minimum description length\") AND (ti:\"language modeling\" OR ti:\"intelligence\" OR ti:\"learning\") AND (abs:\"information theory\" OR abs:\"compression\")", "subtopic": "压缩与学习"},
- {"q": "(ti:\"information-theoretic generalization\" OR ti:\"PAC-Bayes\" OR ti:\"PAC-Bayesian\") AND (ti:survey OR ti:introduction OR ti:tutorial OR ti:primer OR abs:monograph)", "subtopic": "信息论泛化界"},
- {"q": "(ti:\"rate-distortion\" OR ti:\"neural compression\" OR ti:\"learned compression\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "率失真与神经压缩"},
- {"q": "(ti:\"mirror descent\" OR ti:\"proximal\" OR ti:\"operator splitting\" OR ti:\"primal-dual\") AND (ti:tutorial OR ti:survey OR ti:introduction OR ti:review)", "subtopic": "近端与算子分裂方法"},
- {"q": "(ti:\"online convex optimization\" OR ti:\"online learning\") AND (ti:introduction OR ti:tutorial OR ti:\"lecture notes\" OR ti:survey)", "subtopic": "在线优化"},
- {"q": "(ti:\"learning rate\" OR ti:\"scaling laws\" OR ti:\"hyperparameter\") AND (ti:\"schedule\" OR ti:\"optimizer\") AND (abs:\"large language model\" OR abs:\"deep learning\") AND (ti:benchmark OR ti:benchmarking OR ti:survey)", "subtopic": "深度学习优化方法"}
+ {
+  "q": "(ti:tutorial OR ti:introduction OR ti:\"lecture notes\" OR ti:primer OR ti:course) AND (abs:\"convex optimization\")",
+  "subtopic": "凸优化"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"first-order methods\" OR abs:\"gradient methods\") AND cat:math.OC",
+  "subtopic": "一阶方法与数值优化"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND abs:\"stochastic gradient\" AND (cat:math.OC OR cat:cs.LG OR cat:stat.ML)",
+  "subtopic": "随机优化"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"optimization for deep learning\" OR abs:\"optimizers\" OR abs:\"Adam\") AND cat:cs.LG",
+  "subtopic": "深度学习优化方法"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"nonconvex optimization\" OR abs:\"non-convex optimization\")",
+  "subtopic": "非凸优化"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND (abs:\"zeroth-order optimization\" OR abs:\"derivative-free optimization\")",
+  "subtopic": "零阶与无导数优化"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"bilevel optimization\" OR abs:\"minimax optimization\")",
+  "subtopic": "双层与极小极大优化"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND (abs:\"distributed optimization\" OR abs:\"decentralized optimization\" OR abs:\"federated optimization\")",
+  "subtopic": "分布式优化"
+ },
+ {
+  "q": "(ti:survey OR ti:tutorial OR ti:review) AND (abs:\"second-order\" OR abs:\"quasi-Newton\" OR abs:\"preconditioned\") AND (abs:\"deep learning\" OR abs:\"machine learning\")",
+  "subtopic": "二阶与预条件方法"
+ },
+ {
+  "q": "(ti:\"learning to optimize\" OR ti:\"machine learning for combinatorial optimization\" OR ti:\"optimization modeling\") AND (ti:survey OR ti:review OR ti:tutorial)",
+  "subtopic": "学习优化与 ML 求解优化"
+ },
+ {
+  "q": "(ti:\"information theory\" OR ti:\"information-theoretic\") AND (ti:introduction OR ti:tutorial OR ti:survey OR ti:review OR ti:\"lecture notes\") AND (abs:\"machine learning\" OR abs:\"deep learning\" OR abs:\"generalization\")",
+  "subtopic": "信息论与学习"
+ },
+ {
+  "q": "(ti:\"mutual information\" OR ti:\"information bottleneck\" OR ti:entropy OR ti:divergence) AND (ti:survey OR ti:review OR ti:tutorial)",
+  "subtopic": "互信息与信息瓶颈"
+ },
+ {
+  "q": "(ti:compression OR ti:\"minimum description length\") AND (ti:\"language modeling\" OR ti:\"intelligence\" OR ti:\"learning\") AND (abs:\"information theory\" OR abs:\"compression\")",
+  "subtopic": "压缩与学习"
+ },
+ {
+  "q": "(ti:\"information-theoretic generalization\" OR ti:\"PAC-Bayes\" OR ti:\"PAC-Bayesian\") AND (ti:survey OR ti:introduction OR ti:tutorial OR ti:primer OR abs:monograph)",
+  "subtopic": "信息论泛化界"
+ },
+ {
+  "q": "(ti:\"rate-distortion\" OR ti:\"neural compression\" OR ti:\"learned compression\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)",
+  "subtopic": "率失真与神经压缩"
+ },
+ {
+  "q": "(ti:\"mirror descent\" OR ti:\"proximal\" OR ti:\"operator splitting\" OR ti:\"primal-dual\") AND (ti:tutorial OR ti:survey OR ti:introduction OR ti:review)",
+  "subtopic": "近端与算子分裂方法"
+ },
+ {
+  "q": "(ti:\"online convex optimization\" OR ti:\"online learning\") AND (ti:introduction OR ti:tutorial OR ti:\"lecture notes\" OR ti:survey)",
+  "subtopic": "在线优化"
+ },
+ {
+  "q": "(ti:\"learning rate\" OR ti:\"scaling laws\" OR ti:\"hyperparameter\") AND (ti:\"schedule\" OR ti:\"optimizer\") AND (abs:\"large language model\" OR abs:\"deep learning\") AND (ti:benchmark OR ti:benchmarking OR ti:survey)",
+  "subtopic": "深度学习优化方法"
+ },
+ {
+  "q": "ti:optimization AND (ti:\"lecture notes\" OR ti:introduction OR ti:tutorial OR ti:primer OR ti:course OR ti:textbook) AND (cat:math.OC OR cat:cs.LG OR cat:stat.ML)",
+  "subtopic": "凸优化"
+ },
+ {
+  "q": "(ti:Adam OR ti:AdamW OR ti:Shampoo OR ti:Muon OR ti:SOAP OR ti:Lion OR ti:optimizer OR ti:optimizers) AND (abs:\"language model\" OR abs:\"deep learning\" OR abs:\"neural network\") AND cat:cs.LG",
+  "subtopic": "深度学习优化方法"
+ },
+ {
+  "q": "(ti:\"learning rate\" OR ti:warmup OR ti:\"schedule-free\" OR ti:\"learning-rate schedules\" OR ti:\"weight decay\") AND cat:cs.LG",
+  "subtopic": "深度学习优化方法"
+ },
+ {
+  "q": "(ti:\"stochastic gradient descent\" OR ti:SGD OR ti:\"stochastic gradient methods\") AND (ti:convergence OR ti:theory OR ti:guide OR ti:unified OR ti:introduction OR ti:analysis) AND (cat:math.OC OR cat:stat.ML)",
+  "subtopic": "随机优化"
+ },
+ {
+  "q": "(ti:\"edge of stability\" OR ti:\"loss landscape\" OR ti:\"implicit bias\" OR ti:sharpness OR ti:\"central flows\") AND cat:cs.LG",
+  "subtopic": "非凸优化"
+ },
+ {
+  "q": "(ti:\"information theory\" OR ti:\"information-theoretic\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"language models\" OR ti:generalization OR ti:learning OR ti:foundations)",
+  "subtopic": "信息论与学习"
+ },
+ {
+  "q": "(ti:\"PAC-Bayes\" OR ti:\"PAC-Bayesian\" OR ti:\"information-theoretic generalization\" OR ti:\"generalization bounds\") AND (ti:introduction OR ti:tutorial OR ti:survey OR ti:primer OR ti:perspectives OR ti:review OR ti:\"lecture notes\")",
+  "subtopic": "信息论泛化界"
+ },
+ {
+  "q": "ti:\"mutual information\" AND (ti:estimation OR ti:estimator OR ti:estimators OR ti:neural OR ti:benchmark) AND (cat:cs.LG OR cat:stat.ML OR cat:cs.IT)",
+  "subtopic": "互信息与信息瓶颈"
+ },
+ {
+  "q": "ti:\"information bottleneck\" AND (cat:cs.LG OR cat:stat.ML OR cat:cs.IT)",
+  "subtopic": "互信息与信息瓶颈"
+ },
+ {
+  "q": "(ti:\"neural compression\" OR ti:\"learned compression\" OR ti:\"lossless compression\" OR ti:\"entropy coding\" OR ti:\"rate-distortion\") AND (ti:survey OR ti:review OR ti:introduction OR ti:tutorial OR ti:theory OR ti:\"language models\")",
+  "subtopic": "率失真与神经压缩"
+ },
+ {
+  "q": "(ti:\"first-order methods\" OR ti:\"gradient methods\" OR ti:accelerated OR ti:\"convex optimization\" OR ti:\"Frank-Wolfe\" OR ti:\"conditional gradient\") AND (ti:\"lecture notes\" OR ti:survey OR ti:review OR ti:tutorial OR ti:unified OR ti:introduction) AND cat:math.OC",
+  "subtopic": "一阶方法与数值优化"
+ },
+ {
+  "q": "(ti:\"zeroth-order\" OR ti:\"derivative-free\" OR ti:\"gradient-free\") AND (abs:\"language models\" OR abs:\"fine-tuning\" OR ti:survey OR ti:benchmark OR ti:review OR ti:tutorial)",
+  "subtopic": "零阶与无导数优化"
+ },
+ {
+  "q": "(ti:minimax OR ti:\"min-max\" OR ti:\"saddle point\" OR ti:\"variational inequalities\" OR ti:\"bilevel\") AND (ti:survey OR ti:tutorial OR ti:introduction OR ti:review OR ti:\"lecture notes\" OR ti:primer)",
+  "subtopic": "双层与极小极大优化"
+ },
+ {
+  "q": "ti:\"Bayesian optimization\" AND (ti:tutorial OR ti:introduction OR ti:survey OR ti:review OR ti:primer OR ti:benchmark)",
+  "subtopic": "零阶与无导数优化"
+ },
+ {
+  "q": "(ti:entropy OR ti:\"KL divergence\" OR ti:\"f-divergence\" OR ti:\"f-divergences\" OR ti:\"Renyi\" OR ti:\"Rényi\") AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey) AND (cat:cs.IT OR cat:stat.ML OR cat:cs.LG OR cat:math.ST)",
+  "subtopic": "互信息与信息瓶颈"
+ },
+ {
+  "q": "(ti:distributed OR ti:\"communication-efficient\" OR ti:\"local SGD\" OR ti:federated OR ti:decentralized) AND ti:optimization AND (ti:survey OR ti:tutorial OR ti:review OR ti:introduction) AND (cat:cs.LG OR cat:math.OC)",
+  "subtopic": "分布式优化"
+ },
+ {
+  "q": "(ti:\"second-order\" OR ti:\"natural gradient\" OR ti:\"Gauss-Newton\" OR ti:\"quasi-Newton\" OR ti:\"Kronecker-factored\" OR ti:preconditioning OR ti:preconditioned) AND (abs:\"deep learning\" OR abs:\"neural network\" OR abs:\"language model\") AND cat:cs.LG",
+  "subtopic": "二阶与预条件方法"
+ },
+ {
+  "q": "(ti:\"online learning\" OR ti:\"online convex optimization\" OR ti:\"mirror descent\" OR ti:\"regret\") AND (ti:introduction OR ti:tutorial OR ti:\"lecture notes\" OR ti:survey OR ti:primer OR ti:modern)",
+  "subtopic": "在线优化"
+ }
 ]

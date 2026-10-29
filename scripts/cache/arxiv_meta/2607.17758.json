@@ -1,0 +1,18 @@
+{
+ "id": "2607.17758",
+ "title": "Towards Reliable Zero-Shot Crowd Forecasting: Evaluating Time Series Foundation Models for Special Event Pedestrian Forecasting",
+ "authors": [
+  "Ziteng Li",
+  "Yanan Xin",
+  "Tina Comes",
+  "Serge Hoogendoorn"
+ ],
+ "v1_date": "2026-07-20",
+ "latest_version": 1,
+ "latest_date": "2026-07-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 7 figures, 5 tables. Accepted for presentation at IEEE ITSC 2026",
+ "abstract": "Managing massive crowds during infrequent special events requires reliable real-time pedestrian-flow forecasting to ensure public safety and operational efficiency. However, supervised forecasting methods face limitations in these contexts due to scarce historical data, heterogeneous data distributions, and short in-event observation windows. To effectively support operational decision-making, forecasts should provide not only accurate point estimates but also informative predictive uncertainty. Probabilistic uncertainty quantification plays a critical role in this aspect, particularly capturing sudden volatility and tail risks. This paper investigates pretrained time series foundation models as a lightweight approach for zero-shot probabilistic forecasting without extensive local retraining. Using decision-oriented metrics tailored to short events, we conduct a comprehensive assessment of two time series foundation models on crowd forecasting, with the SAIL2025 event as a use case. We then distill practical insights for crowd managers, specifying when zero-shot forecasts remain operationally reliable.",
+ "primary": "cs.LG"
+}

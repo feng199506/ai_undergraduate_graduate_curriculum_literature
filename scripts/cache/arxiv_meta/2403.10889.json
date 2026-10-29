@@ -1,0 +1,17 @@
+{
+ "id": "2403.10889",
+ "title": "List Sample Compression and Uniform Convergence",
+ "authors": [
+  "Steve Hanneke",
+  "Shay Moran",
+  "Tom Waknine"
+ ],
+ "v1_date": "2024-03-16",
+ "latest_version": 3,
+ "latest_date": "2026-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "List learning is a variant of supervised classification where the learner outputs multiple plausible labels for each instance rather than just one. We investigate classical principles related to generalization within the context of list learning. Our primary goal is to determine whether classical principles in the PAC setting retain their applicability in the domain of list PAC learning. We focus on uniform convergence (which is the basis of Empirical Risk Minimization) and on sample compression (which is a powerful manifestation of Occam's Razor). In classical PAC learning, both uniform convergence and sample compression satisfy a form of `completeness': whenever a class is learnable, it can also be learned by a learning rule that adheres to these principles. We ask whether the same completeness holds true in the list learning setting. We show that uniform convergence remains equivalent to learnability in the list PAC learning setting. In contrast, our findings reveal surprising results regarding sample compression: we prove that when the label space is $Y=\\{0,1,2\\}$, then there are 2-list-learnable classes that cannot be compressed. This refutes the list version of the sample compression conjecture by Littlestone and Warmuth (1986). We prove an even stronger impossibility result, showing that there are $2$-list-learnable classes that cannot be compressed even when the reconstructed function can work with lists of arbitrarily large size. We prove a similar result for (1-list) PAC learnable classes when the label space is unbounded. This generalizes a recent result by arXiv:2308.06424.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2407.19258",
+ "title": "Comprehensive Survey of Complex-Valued Neural Networks: Insights into Backpropagation and Activation Functions",
+ "authors": [
+  "M. M. Hammad"
+ ],
+ "v1_date": "2024-07-27",
+ "latest_version": 1,
+ "latest_date": "2024-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "73 pages, 68 figures",
+ "abstract": "Artificial neural networks (ANNs), particularly those employing deep learning models, have found widespread application in fields such as computer vision, signal processing, and wireless communications, where complex numbers are crucial. Despite the prevailing use of real-number implementations in current ANN frameworks, there is a growing interest in developing ANNs that utilize complex numbers. This paper presents a comprehensive survey of recent advancements in complex-valued neural networks (CVNNs), focusing on their activation functions (AFs) and learning algorithms. We delve into the extension of the backpropagation algorithm to the complex domain, which enables the training of neural networks with complex-valued inputs, weights, AFs, and outputs. This survey considers three complex backpropagation algorithms: the complex derivative approach, the partial derivatives approach, and algorithms incorporating the Cauchy-Riemann equations. A significant challenge in CVNN design is the identification of suitable nonlinear Complex Valued Activation Functions (CVAFs), due to the conflict between boundedness and differentiability over the entire complex plane as stated by Liouville theorem. We examine both fully complex AFs, which strive for boundedness and differentiability, and split AFs, which offer a practical compromise despite not preserving analyticity. This review provides an in-depth analysis of various CVAFs essential for constructing effective CVNNs. Moreover, this survey not only offers a comprehensive overview of the current state of CVNNs but also contributes to ongoing research and development by introducing a new set of CVAFs (fully complex, split and complex amplitude-phase AFs).",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2506.12538",
+ "title": "RealFactBench: A Benchmark for Evaluating Large Language Models in Real-World Fact-Checking",
+ "authors": [
+  "Shuo Yang",
+  "Yuqin Dai",
+  "Guoqing Wang",
+  "Xinran Zheng",
+  "Jinfeng Xu",
+  "Jinze Li",
+  "Zhenzhe Ying",
+  "Weiqiang Wang",
+  "Edith C. H. Ngai"
+ ],
+ "v1_date": "2025-06-14",
+ "latest_version": 1,
+ "latest_date": "2025-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) hold significant potential for advancing fact-checking by leveraging their capabilities in reasoning, evidence retrieval, and explanation generation. However, existing benchmarks fail to comprehensively evaluate LLMs and Multimodal Large Language Models (MLLMs) in realistic misinformation scenarios. To bridge this gap, we introduce RealFactBench, a comprehensive benchmark designed to assess the fact-checking capabilities of LLMs and MLLMs across diverse real-world tasks, including Knowledge Validation, Rumor Detection, and Event Verification. RealFactBench consists of 6K high-quality claims drawn from authoritative sources, encompassing multimodal content and diverse domains. Our evaluation framework further introduces the Unknown Rate (UnR) metric, enabling a more nuanced assessment of models' ability to handle uncertainty and balance between over-conservatism and over-confidence. Extensive experiments on 7 representative LLMs and 4 MLLMs reveal their limitations in real-world fact-checking and offer valuable insights for further research. RealFactBench is publicly available at https://github.com/kalendsyang/RealFactBench.git.",
+ "primary": "cs.CL"
+}

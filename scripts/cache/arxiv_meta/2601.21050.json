@@ -1,0 +1,15 @@
+{
+ "id": "2601.21050",
+ "title": "SMKC: Sketch Based Kernel Correlation Images for Variable Cardinality Time Series Anomaly Detection",
+ "authors": [
+  "Haokun Zhou"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 1,
+ "latest_date": "2026-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conventional anomaly detection in multivariate time series relies on the assumption that the set of observed variables remains static. In operational environments, however, monitoring systems frequently experience sensor churn. Signals may appear, disappear, or be renamed, creating data windows where the cardinality varies and may include values unseen during training. To address this challenge, we propose SMKC, a framework that decouples the dynamic input structure from the anomaly detector. We first employ permutation-invariant feature hashing to sketch raw inputs into a fixed size state sequence. We then construct a hybrid kernel image to capture global temporal structure through pairwise comparisons of the sequence and its derivatives. The model learns normal patterns using masked reconstruction and a teacher-student prediction objective. Our evaluation reveals that robust log-distance channels provide the primary discriminative signal, whereas cosine representations often fail to capture sufficient contrast. Notably, we find that a detector using random projections and nearest neighbors on the SMKC representation performs competitively with fully trained baselines without requiring gradient updates. This highlights the effectiveness of the representation itself and offers a practical cold-start solution for resource-constrained deployments.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2504.10496",
+ "title": "ArXivBench: When You Should Avoid Using ChatGPT for Academic Writing",
+ "authors": [
+  "Ning Li",
+  "Jingran Zhang",
+  "Justin Cui"
+ ],
+ "v1_date": "2025-04-06",
+ "latest_version": 2,
+ "latest_date": "2025-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) demonstrate strong capabilities in reasoning and question answering, yet their tendency to generate factually incorrect content remains a critical challenge. This study evaluates proprietary and open-source LLMs on generating relevant research papers with accurate arXiv links. Our evaluation reveals critical academic risks: LLMs frequently generate incorrect arXiv links or references to non-existent papers, fundamentally undermining their ability to properly attribute research contributions to the actual authors. We introduce arXivBench, a benchmark specifically designed to assess LLM performance across eight major subject categories on arXiv and five subfields within computer science, one of the most popular categories among them. Our findings show concerning accuracy variations across subjects, with Claude-3.5-Sonnet exhibiting a substantial advantage in generating both relevant and accurate responses. Notably, most LLMs perform significantly better in Artificial Intelligence than other subfields. This benchmark provides a standardized tool for evaluating LLM reliability in scientific contexts, promoting more dependable academic use in research environments. Our code and dataset are available at https://github.com/liningresearch/arXivBench and https://huggingface.co/datasets/arXivBenchLLM/arXivBench.",
+ "primary": "cs.IR"
+}

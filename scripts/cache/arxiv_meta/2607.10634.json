@@ -1,0 +1,16 @@
+{
+ "id": "2607.10634",
+ "title": "When Does Survey-Aware Cross-Validation Matter? The ICC, Not the Design Effect",
+ "authors": [
+  "M. Ehsan Karim",
+  "Md Belal Hossain"
+ ],
+ "v1_date": "2026-07-12",
+ "latest_version": 1,
+ "latest_date": "2026-07-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 2 figures, 1 table. Supporting Information (Web Appendices A-D) is provided as an ancillary file",
+ "abstract": "K-fold cross-validation assumes exchangeable observations, violated by the stratification, clustering, and unequal weights of complex sample surveys. Design-respecting \"survey CV\" exists, but the question of when the extra care changes any conclusion has remained open. We answer it before validating any model, with two inexpensive diagnostics: the within-cluster intraclass correlation (ICC) of the outcome and of a preliminary linear predictor. A simulated positive control demonstrates their sensitivity, with naive cross-validation growing optimistic about new-cluster performance as the ICC rises while cluster-level folds stay honest. We then evaluate paired naive-versus-design-respecting cross-validation in three national health surveys (chronic-pain, diabetes, and adolescent-suicidality prediction; penalized and random-forest learners, plus an unpenalized comparator) - one reanalysis, one prospective application, and one prespecified screen. In all three the diagnostics correctly anticipated the outcome: no scheme difference of practical size, and the only interval excluding zero showed pessimism, not the optimism that cluster leakage produces - even where the design effect was large (which, unlike the ICC, is not the right trigger). We also show the stratified recipe is often infeasible in public-use designs and give a fallback hierarchy, and we document weight-handling errors whose order-of-magnitude artifacts dwarfed any fold-scheme effect. Reproducible code accompanies the paper.",
+ "primary": "stat.ME"
+}

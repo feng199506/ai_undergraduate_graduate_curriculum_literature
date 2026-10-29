@@ -1,0 +1,19 @@
+{
+ "id": "2401.15838",
+ "title": "Distributed Markov Chain Monte Carlo Sampling based on the Alternating Direction Method of Multipliers",
+ "authors": [
+  "Alexandros E. Tzikas",
+  "Licio Romao",
+  "Mert Pilanci",
+  "Alessandro Abate",
+  "Mykel J. Kochenderfer"
+ ],
+ "v1_date": "2024-01-29",
+ "latest_version": 1,
+ "latest_date": "2024-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many machine learning applications require operating on a spatially distributed dataset. Despite technological advances, privacy considerations and communication constraints may prevent gathering the entire dataset in a central unit. In this paper, we propose a distributed sampling scheme based on the alternating direction method of multipliers, which is commonly used in the optimization literature due to its fast convergence. In contrast to distributed optimization, distributed sampling allows for uncertainty quantification in Bayesian inference tasks. We provide both theoretical guarantees of our algorithm's convergence and experimental evidence of its superiority to the state-of-the-art. For our theoretical results, we use convex optimization tools to establish a fundamental inequality on the generated local sample iterates. This inequality enables us to show convergence of the distribution associated with these iterates to the underlying target distribution in Wasserstein distance. In simulation, we deploy our algorithm on linear and logistic regression tasks and illustrate its fast convergence compared to existing gradient-based methods.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.04484",
+ "title": "A Tutorial on Discriminative Clustering and Mutual Information",
+ "authors": [
+  "Louis Ohl",
+  "Pierre-Alexandre Mattei",
+  "Frédéric Precioso"
+ ],
+ "v1_date": "2025-05-07",
+ "latest_version": 1,
+ "latest_date": "2025-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To cluster data is to separate samples into distinctive groups that should ideally have some cohesive properties. Today, numerous clustering algorithms exist, and their differences lie essentially in what can be perceived as ``cohesive properties''. Therefore, hypotheses on the nature of clusters must be set: they can be either generative or discriminative. As the last decade witnessed the impressive growth of deep clustering methods that involve neural networks to handle high-dimensional data often in a discriminative manner; we concentrate mainly on the discriminative hypotheses. In this paper, our aim is to provide an accessible historical perspective on the evolution of discriminative clustering methods and notably how the nature of assumptions of the discriminative models changed over time: from decision boundaries to invariance critics. We notably highlight how mutual information has been a historical cornerstone of the progress of (deep) discriminative clustering methods. We also show some known limitations of mutual information and how discriminative clustering methods tried to circumvent those. We then discuss the challenges that discriminative clustering faces with respect to the selection of the number of clusters. Finally, we showcase these techniques using the dedicated Python package, GemClus, that we have developed for discriminative clustering.",
+ "primary": "stat.ML"
+}

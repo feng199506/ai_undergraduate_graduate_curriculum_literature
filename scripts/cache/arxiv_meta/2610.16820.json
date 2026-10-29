@@ -1,0 +1,17 @@
+{
+ "id": "2610.16820",
+ "title": "Sample-Size Extrapolation in Simulation-Based Inference via Statistical Scaling",
+ "authors": [
+  "Shiyi Sun",
+  "Lei Fang",
+  "Geoff K Nicholls"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In simulation-based inference (SBI), neural posterior estimators trained on a bounded range of sample sizes can become inaccurate on larger datasets because their parameterizations do not specify how posterior location, uncertainty and shape must change as observations accumulate. We propose center-estimated NPE (CE-NPE), which combines a statistical center with an explicit contraction rate and learns a local center correction and residual densities in posterior-scale coordinates. The center is a statistical estimate, such as a closed-form statistic or a simulator-based moment match, which does not require an evaluable likelihood. Our analysis explains how contraction amplifies center error and decomposes Gaussian posterior error into shape, mean and covariance contributions. On six regular benchmarks, CE-NPE gives the best reference-posterior agreement of all tested amortized estimators at every out-of-range size, up to five times the largest training size, without retraining; it also fits better within the training range on most of them. Matched controls and nonregular examples characterize the scope of these gains and identify the conditions on which they depend: an appropriate contraction rate, an accurate center, and a stable residual representation.",
+ "primary": "stat.ML"
+}

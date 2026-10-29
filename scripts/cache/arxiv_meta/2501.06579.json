@@ -1,0 +1,18 @@
+{
+ "id": "2501.06579",
+ "title": "Refuting Equivalence in Probabilistic Programs with Conditioning",
+ "authors": [
+  "Krishnendu Chatterjee",
+  "Ehsan Kafshdar Goharshady",
+  "Petr Novotný",
+  "Đorđe Žikelić"
+ ],
+ "v1_date": "2025-01-11",
+ "latest_version": 1,
+ "latest_date": "2025-01-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at TACAS 2025",
+ "abstract": "We consider the problem of refuting equivalence of probabilistic programs, i.e., the problem of proving that two probabilistic programs induce different output distributions. We study this problem in the context of programs with conditioning (i.e., with observe and score statements), where the output distribution is conditioned by the event that all the observe statements along a run evaluate to true, and where the probability densities of different runs may be updated via the score statements. Building on a recent work on programs without conditioning, we present a new equivalence refutation method for programs with conditioning. Our method is based on weighted restarting, a novel transformation of probabilistic programs with conditioning to the output equivalent probabilistic programs without conditioning that we introduce in this work. Our method is the first to be both a) fully automated, and b) providing provably correct answers. We demonstrate the applicability of our method on a set of programs from the probabilistic inference literature.",
+ "primary": "cs.PL"
+}

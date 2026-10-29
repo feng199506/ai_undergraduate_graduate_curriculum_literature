@@ -1,0 +1,17 @@
+{
+ "id": "2508.10496",
+ "title": "Efficient Patent Searching Using Graph Transformers",
+ "authors": [
+  "Krzysztof Daniell",
+  "Igor Buzhinsky",
+  "Sebastian Björkqvist"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 1,
+ "latest_date": "2025-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication at the PatentSemTech 2025 workshop, held in conjunction with SIGIR 2025",
+ "abstract": "Finding relevant prior art is crucial when deciding whether to file a new patent application or invalidate an existing patent. However, searching for prior art is challenging due to the large number of patent documents and the need for nuanced comparisons to determine novelty. An accurate search engine is therefore invaluable for speeding up the process. We present a Graph Transformer-based dense retrieval method for patent searching where each invention is represented by a graph describing its features and their relationships. Our model processes these invention graphs and is trained using prior art citations from patent office examiners as relevance signals. Using graphs as input significantly improves the computational efficiency of processing long documents, while leveraging examiner citations allows the model to learn domain-specific similarities beyond simple text-based matching. The result is a search engine that emulates how professional patent examiners identify relevant documents. We compare our approach against publicly available text embedding models and show substantial improvements in both prior art retrieval quality and computational efficiency.",
+ "primary": "cs.IR"
+}

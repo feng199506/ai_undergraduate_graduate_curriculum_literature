@@ -1,0 +1,20 @@
+{
+ "id": "2406.11793",
+ "title": "FetchBench: A Simulation Benchmark for Robot Fetching",
+ "authors": [
+  "Beining Han",
+  "Meenal Parakh",
+  "Derek Geng",
+  "Jack A Defay",
+  "Gan Luyang",
+  "Jia Deng"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 2,
+ "latest_date": "2024-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fetching, which includes approaching, grasping, and retrieving, is a critical challenge for robot manipulation tasks. Existing methods primarily focus on table-top scenarios, which do not adequately capture the complexities of environments where both grasping and planning are essential. To address this gap, we propose a new benchmark FetchBench, featuring diverse procedural scenes that integrate both grasping and motion planning challenges. Additionally, FetchBench includes a data generation pipeline that collects successful fetch trajectories for use in imitation learning methods. We implement multiple baselines from the traditional sense-plan-act pipeline to end-to-end behavior models. Our empirical analysis reveals that these methods achieve a maximum success rate of only 20%, indicating substantial room for improvement. Additionally, we identify key bottlenecks within the sense-plan-act pipeline and make recommendations based on the systematic analysis.",
+ "primary": "cs.RO"
+}

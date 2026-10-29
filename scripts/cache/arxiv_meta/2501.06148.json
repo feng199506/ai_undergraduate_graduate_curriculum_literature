@@ -1,0 +1,19 @@
+{
+ "id": "2501.06148",
+ "title": "From discrete-time policies to continuous-time diffusion samplers: Asymptotic equivalences and faster training",
+ "authors": [
+  "Julius Berner",
+  "Lorenz Richter",
+  "Marcin Sendera",
+  "Jarrid Rector-Brooks",
+  "Nikolay Malkin"
+ ],
+ "v1_date": "2025-01-10",
+ "latest_version": 3,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "TMLR final version; code: https://github.com/GFNOrg/gfn-diffusion/tree/stagger",
+ "abstract": "We study the problem of training neural stochastic differential equations, or diffusion models, to sample from a Boltzmann distribution without access to target samples. Existing methods for training such models enforce time-reversal of the generative and noising processes, using either differentiable simulation or off-policy reinforcement learning (RL). We prove equivalences between families of objectives in the limit of infinitesimal discretization steps, linking entropic RL methods (GFlowNets) with continuous-time objects (partial differential equations and path space measures). We further show that an appropriate choice of coarse time discretization during training allows greatly improved sample efficiency and the use of time-local objectives, achieving competitive performance on standard sampling benchmarks with reduced computational cost.",
+ "primary": "cs.LG"
+}

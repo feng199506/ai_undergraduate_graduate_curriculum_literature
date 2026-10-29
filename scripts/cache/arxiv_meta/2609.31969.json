@@ -1,0 +1,15 @@
+{
+ "id": "2609.31969",
+ "title": "Comment on Vogels et al.'s (2024) \"Bayesian Structure Learning in Undirected Gaussian Graphical Models: Literature Review with Empirical Comparison\": An updated performance check using BGGM",
+ "authors": [
+  "Joris Mulder"
+ ],
+ "v1_date": "2026-09-25",
+ "latest_version": 1,
+ "latest_date": "2026-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "comment on arXiv:2307.02603v3; 10 pages, 3 tables",
+ "abstract": "Vogels et al. (2024) presented an empirical comparison of Bayesian methods for structure learning in undirected Gaussian graphical models. The method implemented in the R package BGGM was run with equal prior probabilities for a null, negative, and positive partial correlation, implying a prior inclusion probability (equivalent to a prior graph density) of 2/3. The other Bayesian methods in the comparison used a prior graph density of 0.2 however. The data-generating densities ranged from 0.01 to 0.1. This resulted in a substantial overestimation of the inclusion probabilities of absent edges by BGGM. For a fair comparison of the performance of the different methods, I repeated the simulation using a prior inclusion probability of 0.2 using BGGM. In this case, the performance of BGGM is comparable with the other Bayesian methods.",
+ "primary": "stat.ME"
+}

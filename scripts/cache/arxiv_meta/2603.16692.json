@@ -1,0 +1,18 @@
+{
+ "id": "2603.16692",
+ "title": "Dataflow-Oriented Classification and Performance Analysis of GPU-Accelerated Homomorphic Encryption",
+ "authors": [
+  "Ai Nozaki",
+  "Takuya Kojima",
+  "Hideki Takase",
+  "Hiroshi Nakamura"
+ ],
+ "v1_date": "2026-03-17",
+ "latest_version": 1,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This work has been submitted to the IEEE for possible publication",
+ "abstract": "Fully Homomorphic Encryption (FHE) enables secure computation over encrypted data, but its computational cost remains a major obstacle to practical deployment. To mitigate this overhead, many studies have explored GPU acceleration for the CKKS scheme, which is widely used for approximate arithmetic. In CKKS, CKKS parameters are configured for each workload by balancing multiplicative depth, security requirements, and performance. These parameters significantly affect ciphertext size, thereby determining how the memory footprint fits within the GPU memory hierarchy. Nevertheless, prior studies typically apply their proposed optimization methods uniformly, without considering differences in CKKS parameter configurations. In this work, we demonstrate that the optimal GPU optimization strategy for CKKS depends on the CKKS parameter configuration. We first classify prior optimizations by two aspects of dataflows which affect memory footprint and then conduct both qualitative and quantitative performance analyses. Our analysis shows that even on the same GPU architecture, the optimal strategy varies with CKKS parameters with performance differences of up to 1.98 $\\times$ between strategies, and that the criteria for selecting an appropriate strategy differ across GPU architectures.",
+ "primary": "cs.DC"
+}

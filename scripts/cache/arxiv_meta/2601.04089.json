@@ -1,0 +1,17 @@
+{
+ "id": "2601.04089",
+ "title": "Tutorial on Flow-Based Network Traffic Classification Using Machine Learning",
+ "authors": [
+  "Adrian Pekar",
+  "Richard Plny",
+  "Karel Hynek"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 1,
+ "latest_date": "2026-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "under review",
+ "abstract": "Modern networks carry increasingly diverse and encrypted traffic types that demand classification techniques beyond traditional port-based and payload-based methods. This tutorial provides a practical, end-to-end guide to building machine-learning-based network traffic flow classification systems. We cover the workflow from flow metering and dataset creation, through ground-truth labeling and feature engineering, to leakage-resistant experimental design, model training and evaluation, explainability, and deployment considerations. The tutorial focuses on supervised flow-based classification that remains effective under encryption and provides actionable guidance on algorithm selection, performance metrics, and realistic partitioning strategies, with emphasis on common real-world measurement artifacts and methodological pitfalls. A companion set of five Jupyter notebooks on GitHub implements the data-to-model workflow on real traffic captures, enabling readers to reproduce key steps. The intended audience includes researchers and practitioners with foundational networking knowledge who aim to design and deploy robust traffic classification systems in operational environments.",
+ "primary": "cs.NI"
+}

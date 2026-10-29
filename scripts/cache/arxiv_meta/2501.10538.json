@@ -1,0 +1,17 @@
+{
+ "id": "2501.10538",
+ "title": "Universality of Benign Overfitting in Binary Linear Classification",
+ "authors": [
+  "Ichiro Hashimoto",
+  "Stanislav Volgushev",
+  "Piotr Zwiernik"
+ ],
+ "v1_date": "2025-01-17",
+ "latest_version": 3,
+ "latest_date": "2026-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "84 pages, 10 figures; To appear in Bernoulli",
+ "abstract": "The practical success of deep learning has led to the discovery of several surprising phenomena. One of these phenomena, that has spurred intense theoretical research, is ``benign overfitting'': deep neural networks seem to generalize well in the over-parametrized regime even though the networks show a perfect fit to noisy training data. It is now known that benign overfitting also occurs in various classical statistical models. For linear maximum margin classifiers, benign overfitting has been established theoretically in a class of mixture models with very strong assumptions on the covariate distribution. However, even in this simple setting, many questions remain open. For instance, most of the existing literature focuses on the noiseless case where all true class labels are observed without errors, whereas the more interesting noisy case remains poorly understood. We provide a comprehensive study of benign overfitting for linear maximum margin classifiers. We discover a phase transition in test error bounds for the noisy model which was previously unknown and provide some geometric intuition behind it. We further considerably relax the required covariate assumptions in both the noisy and noiseless cases. Our results demonstrate that benign overfitting of maximum margin classifiers holds in a much wider range of scenarios than was previously known and provide new insights into the underlying mechanisms.",
+ "primary": "cs.LG"
+}

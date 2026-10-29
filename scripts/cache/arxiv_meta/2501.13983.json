@@ -1,0 +1,15 @@
+{
+ "id": "2501.13983",
+ "title": "AdEval: Alignment-based Dynamic Evaluation to Mitigate Data Contamination in Large Language Models",
+ "authors": [
+  "Yang Fan"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 5,
+ "latest_date": "2025-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "There are serious academic problems in this paper, such as data falsification and plagiarism in the method of the paper",
+ "abstract": "As Large Language Models (LLMs) are pre-trained on ultra-large-scale corpora, the problem of data contamination is becoming increasingly serious, and there is a risk that static evaluation benchmarks overestimate the performance of LLMs. To address this, this paper proposes a dynamic data evaluation method called AdEval (Alignment-based Dynamic Evaluation). AdEval first extracts knowledge points and main ideas from static datasets to achieve dynamic alignment with the core content of static benchmarks, and by avoiding direct reliance on static datasets, it inherently reduces the risk of data contamination from the source. It then obtains background information through online searches to generate detailed descriptions of the knowledge points. Finally, it designs questions based on Bloom's cognitive hierarchy across six dimensions-remembering, understanding, applying, analyzing, evaluating, and creating to enable multi-level cognitive assessment. Additionally, AdEval controls the complexity of dynamically generated datasets through iterative question reconstruction. Experimental results on multiple datasets show that AdEval effectively alleviates the impact of data contamination on evaluation results, solves the problems of insufficient complexity control and single-dimensional evaluation, and improves the fairness, reliability and diversity of LLMs evaluation.",
+ "primary": "cs.CL"
+}

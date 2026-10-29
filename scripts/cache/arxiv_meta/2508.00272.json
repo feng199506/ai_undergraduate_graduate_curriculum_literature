@@ -1,0 +1,15 @@
+{
+ "id": "2508.00272",
+ "title": "Towards Robust Semantic Correspondence: A Benchmark and Insights",
+ "authors": [
+  "Wenyue Chong"
+ ],
+ "v1_date": "2025-08-01",
+ "latest_version": 1,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semantic correspondence aims to identify semantically meaningful relationships between different images and is a fundamental challenge in computer vision. It forms the foundation for numerous tasks such as 3D reconstruction, object tracking, and image editing. With the progress of large-scale vision models, semantic correspondence has achieved remarkable performance in controlled and high-quality conditions. However, the robustness of semantic correspondence in challenging scenarios is much less investigated. In this work, we establish a novel benchmark for evaluating semantic correspondence in adverse conditions. The benchmark dataset comprises 14 distinct challenging scenarios that reflect commonly encountered imaging issues, including geometric distortion, image blurring, digital artifacts, and environmental occlusion. Through extensive evaluations, we provide several key insights into the robustness of semantic correspondence approaches: (1) All existing methods suffer from noticeable performance drops under adverse conditions; (2) Using large-scale vision models can enhance overall robustness, but fine-tuning on these models leads to a decline in relative robustness; (3) The DINO model outperforms the Stable Diffusion in relative robustness, and their fusion achieves better absolute robustness; Moreover, We evaluate common robustness enhancement strategies for semantic correspondence and find that general data augmentations are ineffective, highlighting the need for task-specific designs. These results are consistent across both our dataset and real-world benchmarks.",
+ "primary": "cs.CV"
+}

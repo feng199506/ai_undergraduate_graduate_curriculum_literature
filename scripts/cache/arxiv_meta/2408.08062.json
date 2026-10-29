@@ -1,0 +1,16 @@
+{
+ "id": "2408.08062",
+ "title": "BINDy -- Bayesian identification of nonlinear dynamics with reversible-jump Markov-chain Monte-Carlo",
+ "authors": [
+  "Max D. Champneys",
+  "Timothy J. Rogers"
+ ],
+ "v1_date": "2024-08-15",
+ "latest_version": 3,
+ "latest_date": "2025-06-25",
+ "journal_ref": "",
+ "doi": "10.1098/rspa.2024.0620",
+ "comment": "",
+ "abstract": "Model parsimony is an important \\emph{cognitive bias} in data-driven modelling that aids interpretability and helps to prevent over-fitting. Sparse identification of nonlinear dynamics (SINDy) methods are able to learn sparse representations of complex dynamics directly from data, given a basis of library functions. In this work, a novel Bayesian treatment of dictionary learning system identification, as an alternative to SINDy, is envisaged. The proposed method -- Bayesian identification of nonlinear dynamics (BINDy) -- is distinct from previous approaches in that it targets the full joint posterior distribution over both the terms in the library and their parameterisation in the model. This formulation confers the advantage that an arbitrary prior may be placed over the model structure to produce models that are sparse in the model space rather than in parameter space. Because this posterior is defined over parameter vectors that can change in dimension, the inference cannot be performed by standard techniques. Instead, a Gibbs sampler based on reversible-jump Markov-chain Monte-Carlo is proposed. BINDy is shown to compare favourably to ensemble SINDy in three benchmark case-studies. In particular, it is seen that the proposed method is better able to assign high probability to correct model terms.",
+ "primary": "stat.ML"
+}

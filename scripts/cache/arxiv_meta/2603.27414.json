@@ -1,0 +1,21 @@
+{
+ "id": "2603.27414",
+ "title": "Multiple-Prediction-Powered Inference",
+ "authors": [
+  "Charlie Cowen-Breen",
+  "Alekh Agarwal",
+  "Stephen Bates",
+  "William W. Cohen",
+  "Jacob Eisenstein",
+  "Amir Globerson",
+  "Adam Fisch"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 1,
+ "latest_date": "2026-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICLR 2026, 45 pages, 17 figures",
+ "abstract": "Statistical estimation often involves tradeoffs between expensive, high-quality measurements and a variety of lower-quality proxies. We introduce Multiple-Prediction-Powered Inference (MultiPPI): a general framework for constructing statistically efficient estimates by optimally allocating resources across these diverse data sources. This work provides theoretical guarantees about the minimax optimality, finite-sample performance, and asymptotic normality of the MultiPPI estimator. Through experiments across three diverse large language model (LLM) evaluation scenarios, we show that MultiPPI consistently achieves lower estimation error than existing baselines. This advantage stems from its budget-adaptive allocation strategy, which strategically combines subsets of models by learning their complex cost and correlation structures.",
+ "primary": "math.ST"
+}

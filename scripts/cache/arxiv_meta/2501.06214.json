@@ -1,0 +1,16 @@
+{
+ "id": "2501.06214",
+ "title": "Path Space Partitioning and Guided Image Sampling for MCMC",
+ "authors": [
+  "Thomas Bashford-Rogers",
+  "Luis Paulo Santos"
+ ],
+ "v1_date": "2025-01-04",
+ "latest_version": 1,
+ "latest_date": "2025-01-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rendering algorithms typically integrate light paths over path space. However, integrating over this one unified space is not necessarily the most efficient approach, and we show that partitioning path space and integrating each of these partitioned spaces with a separate estimator can have advantages. We propose an approach for partitioning path space based on analyzing paths from a standard Monte Carlo estimator and integrating these partitioned path spaces using a Markov Chain Monte Carlo (MCMC) estimator. This also means that integration happens within a sparser subset of path space, so we propose the use of guided proposal distributions in image space to improve efficiency. We show that our method improves image quality over other MCMC integration approaches at the same number of samples.",
+ "primary": "cs.CV"
+}

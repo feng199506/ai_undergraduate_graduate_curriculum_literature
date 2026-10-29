@@ -1,0 +1,16 @@
+{
+ "id": "2409.07154",
+ "title": "Recurrent Aggregators in Neural Algorithmic Reasoning",
+ "authors": [
+  "Kaijia Xu",
+  "Petar Veličković"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 2,
+ "latest_date": "2024-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Presented at the Third Learning on Graphs Conference (LoG 2024). 10 pages, 1 figure",
+ "abstract": "Neural algorithmic reasoning (NAR) is an emerging field that seeks to design neural networks that mimic classical algorithmic computations. Today, graph neural networks (GNNs) are widely used in neural algorithmic reasoners due to their message passing framework and permutation equivariance. In this extended abstract, we challenge this design choice, and replace the equivariant aggregation function with a recurrent neural network. While seemingly counter-intuitive, this approach has appropriate grounding when nodes have a natural ordering -- and this is the case frequently in established reasoning benchmarks like CLRS-30. Indeed, our recurrent NAR (RNAR) model performs very strongly on such tasks, while handling many others gracefully. A notable achievement of RNAR is its decisive state-of-the-art result on the Heapsort and Quickselect tasks, both deemed as a significant challenge for contemporary neural algorithmic reasoners -- especially the latter, where RNAR achieves a mean micro-F1 score of 87%.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2602.07184",
+ "title": "Modeling Batch Crystallization under Uncertainty Using Physics-informed Machine Learning",
+ "authors": [
+  "Dingqi Nai",
+  "Huayu Li",
+  "Martha Grover",
+  "Andrew Medford"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The development of robust and reliable modeling approaches for crystallization processes is often challenging because of non-idealities in real data arising from various sources of uncertainty. This study investigated the effectiveness of physics-informed recurrent neural networks (PIRNNs) that integrate the mechanistic population balance model with recurrent neural networks under the presence of systematic and model uncertainties. Such uncertainties are represented by using synthetic data containing controlled noise, solubility shift, and limited sampling. The research demonstrates that PIRNNs achieve strong generalization and physical consistency, maintain stable learning behavior, and accurately recover kinetic parameters despite significant stochastic variations in the training data. In the case of systematic errors in the solubility model, the inclusion of physics regularization improved the test performance by more than an order of magnitude compared to purely data-driven models, whereas excessive weighting of physics increased error arising due to the model mismatch. The results also show that PIRNNs are able to recover model parameters and replicate crystallization dynamics even in the limit of very low sampling resolution. These findings validate the robustness of physics-informed machine learning in handling data imperfections and incomplete domain knowledge, providing a potential pathway toward reliable and practical hybrid modeling of crystallization dynamics and industrial process monitoring and control.",
+ "primary": "cs.CE"
+}

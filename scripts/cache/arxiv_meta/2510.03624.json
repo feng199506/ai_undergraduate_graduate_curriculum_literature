@@ -1,0 +1,18 @@
+{
+ "id": "2510.03624",
+ "title": "Transformed $\\ell_1$ Regularizations for Robust Principal Component Analysis: Toward a Fine-Grained Understanding",
+ "authors": [
+  "Kun Zhao",
+  "Haoke Zhang",
+  "Jiayi Wang",
+  "Yifei Lou"
+ ],
+ "v1_date": "2025-10-04",
+ "latest_version": 1,
+ "latest_date": "2025-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Journal of Machine Learning",
+ "abstract": "Robust Principal Component Analysis (RPCA) aims to recover a low-rank structure from noisy, partially observed data that is also corrupted by sparse, potentially large-magnitude outliers. Traditional RPCA models rely on convex relaxations, such as nuclear norm and $\\ell_1$ norm, to approximate the rank of a matrix and the $\\ell_0$ functional (the number of non-zero elements) of another. In this work, we advocate a nonconvex regularization method, referred to as transformed $\\ell_1$ (TL1), to improve both approximations. The rationale is that by varying the internal parameter of TL1, its behavior asymptotically approaches either $\\ell_0$ or $\\ell_1$. Since the rank is equal to the number of non-zero singular values and the nuclear norm is defined as their sum, applying TL1 to the singular values can approximate either the rank or the nuclear norm, depending on its internal parameter. We conduct a fine-grained theoretical analysis of statistical convergence rates, measured in the Frobenius norm, for both the low-rank and sparse components under general sampling schemes. These rates are comparable to those of the classical RPCA model based on the nuclear norm and $\\ell_1$ norm. Moreover, we establish constant-order upper bounds on the estimated rank of the low-rank component and the cardinality of the sparse component in the regime where TL1 behaves like $\\ell_0$, assuming that the respective matrices are exactly low-rank and exactly sparse. Extensive numerical experiments on synthetic data and real-world applications demonstrate that the proposed approach achieves higher accuracy than the classic convex model, especially under non-uniform sampling schemes.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2408.06816",
+ "title": "MAQA: Evaluating Uncertainty Quantification in LLMs Regarding Data Uncertainty",
+ "authors": [
+  "Yongjin Yang",
+  "Haneul Yoo",
+  "Hwaran Lee"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 2,
+ "latest_date": "2025-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Findings of NAACL 2025",
+ "abstract": "Despite the massive advancements in large language models (LLMs), they still suffer from producing plausible but incorrect responses. To improve the reliability of LLMs, recent research has focused on uncertainty quantification to predict whether a response is correct or not. However, most uncertainty quantification methods have been evaluated on single-labeled questions, which removes data uncertainty: the irreducible randomness often present in user queries, which can arise from factors like multiple possible answers. This limitation may cause uncertainty quantification results to be unreliable in practical settings. In this paper, we investigate previous uncertainty quantification methods under the presence of data uncertainty. Our contributions are two-fold: 1) proposing a new Multi-Answer Question Answering dataset, MAQA, consisting of world knowledge, mathematical reasoning, and commonsense reasoning tasks to evaluate uncertainty quantification regarding data uncertainty, and 2) assessing 5 uncertainty quantification methods of diverse white- and black-box LLMs. Our findings show that previous methods relatively struggle compared to single-answer settings, though this varies depending on the task. Moreover, we observe that entropy- and consistency-based methods effectively estimate model uncertainty, even in the presence of data uncertainty. We believe these observations will guide future work on uncertainty quantification in more realistic settings.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2502.02672",
+ "title": "Transformers Boost the Performance of Decision Trees on Tabular Data across Sample Sizes",
+ "authors": [
+  "Mayuka Jayawardhana",
+  " Renbo",
+  "Samuel Dooley",
+  "Valeriia Cherepanova",
+  "Andrew Gordon Wilson",
+  "Frank Hutter",
+  "Colin White",
+  "Tom Goldstein",
+  "Micah Goldblum"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 2,
+ "latest_date": "2025-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 6 figures",
+ "abstract": "Large language models (LLMs) perform remarkably well on tabular datasets in zero- and few-shot settings, since they can extract meaning from natural language column headers that describe features and labels. Similarly, TabPFN, a recent non-LLM transformer pretrained on numerous tables for in-context learning, has demonstrated excellent performance for dataset sizes up to a thousand samples. In contrast, gradient-boosted decision trees (GBDTs) are typically trained from scratch on each dataset without benefiting from pretraining data and must learn the relationships between columns from their entries alone since they lack natural language understanding. LLMs and TabPFN excel on small tabular datasets where a strong prior is essential, yet they are not competitive with GBDTs on medium or large datasets, since their context lengths are limited. In this paper, we propose a simple and lightweight approach for fusing large language models and TabPFN with gradient-boosted decision trees, which allows scalable GBDTs to benefit from the natural language capabilities and pretraining of transformers. We name our fusion methods LLM-Boost and PFN-Boost, respectively. While matching or surpassing the performance of the transformer at sufficiently small dataset sizes and GBDTs at sufficiently large sizes, LLM-Boost and PFN-Boost outperform both standalone components on a wide range of dataset sizes in between. We demonstrate state-of-the-art performance against numerous baselines and ensembling algorithms. We find that PFN-Boost achieves the best average performance among all methods we test for all but very small dataset sizes. We release our code at http://github.com/MayukaJ/LLM-Boost .",
+ "primary": "cs.CL"
+}

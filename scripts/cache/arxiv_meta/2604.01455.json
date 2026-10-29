@@ -1,0 +1,20 @@
+{
+ "id": "2604.01455",
+ "title": "Infeasibility Aware Large Language Models for Combinatorial Optimization",
+ "authors": [
+  "Yakun Wang",
+  "Min Chen",
+  "Zeguan Wu",
+  "Junyu Liu",
+  "Sitao Zhang",
+  "Zhenwen Shao"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) are increasingly explored for NP-hard combinatorial optimization problems, but most existing methods emphasize feasible-instance solution generation and do not explicitly address infeasibility detection. We propose an infeasibility-aware framework that combines certifiable dataset construction, supervised fine-tuning, and LLM-assisted downstream search. For the minor-embedding problem, we introduce a new mathematical programming formulation together with provable zero-phase infeasibility screening, which enables scalable construction of training instances labeled either as feasible with structured certificates or as certifiably infeasible. Using training data generated through this exact optimization pipeline, we show that an 8B-parameter LLM can be fine-tuned to jointly perform solution generation and infeasibility detection. We further utilize LLM outputs as warm starts for downstream local search, providing a practical way to accelerate optimization even when the LLM outputs are imperfect. Experiments show that our fine-tuned model improves overall accuracy by up to 30\\% over GPT-5.2; meanwhile LLM-guided warm starts provide up to $2\\times$ speedup compared with starting from scratch in downstream local search.",
+ "primary": "cs.AI"
+}

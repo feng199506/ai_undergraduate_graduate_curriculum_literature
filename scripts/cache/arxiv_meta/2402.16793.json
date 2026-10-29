@@ -1,0 +1,17 @@
+{
+ "id": "2402.16793",
+ "title": "Failures and Successes of Cross-Validation for Early-Stopped Gradient Descent",
+ "authors": [
+  "Pratik Patil",
+  "Yuchen Wu",
+  "Ryan J. Tibshirani"
+ ],
+ "v1_date": "2024-02-26",
+ "latest_version": 1,
+ "latest_date": "2024-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "76 pages, 27 figures",
+ "abstract": "We analyze the statistical properties of generalized cross-validation (GCV) and leave-one-out cross-validation (LOOCV) applied to early-stopped gradient descent (GD) in high-dimensional least squares regression. We prove that GCV is generically inconsistent as an estimator of the prediction risk of early-stopped GD, even for a well-specified linear model with isotropic features. In contrast, we show that LOOCV converges uniformly along the GD trajectory to the prediction risk. Our theory requires only mild assumptions on the data distribution and does not require the underlying regression function to be linear. Furthermore, by leveraging the individual LOOCV errors, we construct consistent estimators for the entire prediction error distribution along the GD trajectory and consistent estimators for a wide class of error functionals. This in particular enables the construction of pathwise prediction intervals based on GD iterates that have asymptotically correct nominal coverage conditional on the training data.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2412.07441",
+ "title": "Reconstructing Deep Neural Networks: Unleashing the Optimization Potential of Natural Gradient Descent",
+ "authors": [
+  "Weihua Liu",
+  "Said Boumaraf",
+  "Jianwu Li",
+  "Chaochao Lin",
+  "Xiabi Liu",
+  "Lijuan Niu",
+  "Naoufel Werghi"
+ ],
+ "v1_date": "2024-12-10",
+ "latest_version": 1,
+ "latest_date": "2024-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Natural gradient descent (NGD) is a powerful optimization technique for machine learning, but the computational complexity of the inverse Fisher information matrix limits its application in training deep neural networks. To overcome this challenge, we propose a novel optimization method for training deep neural networks called structured natural gradient descent (SNGD). Theoretically, we demonstrate that optimizing the original network using NGD is equivalent to using fast gradient descent (GD) to optimize the reconstructed network with a structural transformation of the parameter matrix. Thereby, we decompose the calculation of the global Fisher information matrix into the efficient computation of local Fisher matrices via constructing local Fisher layers in the reconstructed network to speed up the training. Experimental results on various deep networks and datasets demonstrate that SNGD achieves faster convergence speed than NGD while retaining comparable solutions. Furthermore, our method outperforms traditional GDs in terms of efficiency and effectiveness. Thus, our proposed method has the potential to significantly improve the scalability and efficiency of NGD in deep learning applications. Our source code is available at https://github.com/Chaochao-Lin/SNGD.",
+ "primary": "cs.LG"
+}

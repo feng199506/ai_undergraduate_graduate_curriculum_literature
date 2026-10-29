@@ -1,0 +1,26 @@
+{
+ "id": "2607.24255",
+ "title": "OxygenREC-v2: Internalizing Discrimination into Generative Recommendation",
+ "authors": [
+  "Guo Tang",
+  "Hanye Wu",
+  "Changjiang Han",
+  "Qingyang Li",
+  "Ming Zhang",
+  "Xiangyu Qian",
+  "Yanchen Qiao",
+  "Huanjie Wang",
+  "Zhi Ma",
+  "Zhen Li",
+  "Yaqiang Zang",
+  "Pinghua Gong"
+ ],
+ "v1_date": "2026-07-27",
+ "latest_version": 1,
+ "latest_date": "2026-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 8 figures",
+ "abstract": "Generative recommendation unifies retrieval and ranking within a single model by autoregressively decoding semantic identifier (SID) sequences. Yet reliably incorporating behavior signals from clicks, cart additions, and orders remains challenging. Existing approaches either jointly optimize generative and discriminative objectives, requiring delicate trade-offs, or use a separate ranker as a post-hoc reinforcement-learning reward, risking out-of-distribution scoring and reward misalignment. We propose OxygenREC-v2, a generative recommender that Internalizes Discrimination into Generative Recommendation (IDGR). Rather than adding a separate discriminative objective, OxygenREC-v2 uses logged behavior to condition generation and supervise training. During pre-training, a behavior instruction conditions generation on the target behavior. During post-training, future interaction behaviors are exploited as privileged knowledge in our entropy-aware trajectory optimization self-distillation framework, enabling reward-model-free policy optimization. Throughout both training stages, OxygenREC-v2 maintains a single unified backbone. We implement OxygenREC-v2 as a 3B-parameter, 1B-activated MoE and deploy it on JD.com's large-scale e-commerce platform. Across multiple online A/B tests, OxygenREC-v2 improves user click-through conversion rate (UCTCVR) by 1.6--4.4% and GMV by 2.8--6.8% over OxygenREC-v1.",
+ "primary": "cs.IR"
+}

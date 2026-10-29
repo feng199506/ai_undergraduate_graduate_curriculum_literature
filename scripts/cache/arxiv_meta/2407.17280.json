@@ -1,0 +1,16 @@
+{
+ "id": "2407.17280",
+ "title": "Enhanced Feature Learning via Regularisation: Integrating Neural Networks and Kernel Methods",
+ "authors": [
+  "Bertille Follain",
+  "Francis Bach"
+ ],
+ "v1_date": "2024-07-24",
+ "latest_version": 2,
+ "latest_date": "2025-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a new method for feature learning and function estimation in supervised learning via regularised empirical risk minimisation. Our approach considers functions as expectations of Sobolev functions over all possible one-dimensional projections of the data. This framework is similar to kernel ridge regression, where the kernel is $\\mathbb{E}_w ( k^{(B)}(w^\\top x,w^\\top x^\\prime))$, with $k^{(B)}(a,b) := \\min(|a|, |b|)\\mathds{1}_{ab>0}$ the Brownian kernel, and the distribution of the projections $w$ is learnt. This can also be viewed as an infinite-width one-hidden layer neural network, optimising the first layer's weights through gradient descent and explicitly adjusting the non-linearity and weights of the second layer. We introduce a gradient-based computational method for the estimator, called Brownian Kernel Neural Network (BKerNN), using particles to approximate the expectation, where the positive homogeneity of the Brownian kernel \\red{leads to improved robustness to local minima}. Using Rademacher complexity, we show that BKerNN's expected risk converges to the minimal risk with explicit high-probability rates of $O( \\min((d/n)^{1/2}, n^{-1/6}))$ (up to logarithmic factors). Numerical experiments confirm our optimisation intuitions, and BKerNN outperforms kernel ridge regression, and favourably compares to a one-hidden layer neural network with ReLU activations in various settings and real data sets.",
+ "primary": "stat.ML"
+}

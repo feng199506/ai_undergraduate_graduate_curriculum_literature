@@ -1,0 +1,15 @@
+{
+ "id": "2510.18473",
+ "title": "Benchmarking Fairness-aware Graph Neural Networks in Knowledge Graphs",
+ "authors": [
+  "Yuya Sasaki"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 1,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph neural networks (GNNs) are powerful tools for learning from graph-structured data but often produce biased predictions with respect to sensitive attributes. Fairness-aware GNNs have been actively studied for mitigating biased predictions. However, no prior studies have evaluated fairness-aware GNNs on knowledge graphs, which are one of the most important graphs in many applications, such as recommender systems. Therefore, we introduce a benchmarking study on knowledge graphs. We generate new graphs from three knowledge graphs, YAGO, DBpedia, and Wikidata, that are significantly larger than the existing graph datasets used in fairness studies. We benchmark inprocessing and preprocessing methods in different GNN backbones and early stopping conditions. We find several key insights: (i) knowledge graphs show different trends from existing datasets; clearer trade-offs between prediction accuracy and fairness metrics than other graphs in fairness-aware GNNs, (ii) the performance is largely affected by not only fairness-aware GNN methods but also GNN backbones and early stopping conditions, and (iii) preprocessing methods often improve fairness metrics, while inprocessing methods improve prediction accuracy.",
+ "primary": "cs.LG"
+}

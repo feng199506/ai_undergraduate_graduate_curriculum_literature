@@ -1,0 +1,20 @@
+{
+ "id": "2512.20345",
+ "title": "A Comprehensive Study of Bugs in Modern Distributed Deep Learning Systems",
+ "authors": [
+  "Xiaoxue Ma",
+  "Wanwei Zhan",
+  "Jiale Chen",
+  "Yishu Li",
+  "Jacky Keung",
+  "Federica Sarro"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 1,
+ "latest_date": "2025-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In today's data-driven era, deep learning is vital for processing massive datasets, yet single-device training is constrained by computational and memory limits. Distributed deep learning overcomes these challenges by leveraging multiple GPUs or machines in parallel. While general-purpose frameworks (e.g., TensorFlow and PyTorch) provide distributed capabilities, these are often add-on features that demand significant manual effort for advanced parallelism, underscoring the need for specialized frameworks. This study conducts the first large-scale empirical analysis of practitioner challenges in dedicated distributed frameworks. We examine 849 real-world issues from DeepSpeed, Megatron-LM, and Colossal-AI and construct a taxonomy of 34 bug symptoms, 28 root causes, and 6 fix patterns. Crucially, we establish explicit mappings between symptoms, causes, and fixes across distributed training stages, enabling a systematic understanding of how issues emerge and are resolved. Our results show that 45.1\\% of bug symptoms are unique to distributed frameworks, with setup failures, memory issues, and performance anomalies being the most prevalent. Moreover, 95\\% of issues in the communication setup stage occur exclusively in distributed contexts. We also find over 60\\% of cases can be resolved through version and dependency management, and distributed feature, API, and communication tuning. Based on these findings, we provide actionable implications.",
+ "primary": "cs.SE"
+}

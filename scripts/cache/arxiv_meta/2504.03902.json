@@ -1,0 +1,17 @@
+{
+ "id": "2504.03902",
+ "title": "Stochastic Variational Inference with Tuneable Stochastic Annealing",
+ "authors": [
+  "John Paisley",
+  "Ghazal Fazelnia",
+  "Brian Barr"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 2,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We exploit the observation that stochastic variational inference (SVI) is a form of annealing and present a modified SVI approach -- applicable to both large and small datasets -- that allows the amount of annealing done by SVI to be tuned. We are motivated by the fact that, in SVI, the larger the batch size the more approximately Gaussian is the noise of the gradient, but the smaller its variance, which reduces the amount of annealing done to escape bad local optimal solutions. We propose a simple method for achieving both goals of having larger variance noise to escape bad local optimal solutions and more data information to obtain more accurate gradient directions. The idea is to set an actual batch size, which may be the size of the data set, and an effective batch size that matches the increased variance of a smaller batch size. The result is an approximation to the maximum entropy stochastic gradient at a desired variance level. We theoretically motivate our ``SVI+'' approach for conjugate exponential family model framework and illustrate its empirical performance for learning the probabilistic matrix factorization collaborative filter (PMF), the Latent Dirichlet Allocation topic model (LDA), and the Gaussian mixture model (GMM).",
+ "primary": "cs.LG"
+}

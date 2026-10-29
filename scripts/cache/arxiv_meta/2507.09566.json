@@ -1,0 +1,16 @@
+{
+ "id": "2507.09566",
+ "title": "Identifying Offline Metrics that Predict Online Impact: A Pragmatic Strategy for Real-World Recommender Systems",
+ "authors": [
+  "Timo Wilm",
+  "Philipp Normann"
+ ],
+ "v1_date": "2025-07-13",
+ "latest_version": 1,
+ "latest_date": "2025-07-13",
+ "journal_ref": "",
+ "doi": "10.1145/3705328.3748111",
+ "comment": "This work was accepted for publication in the 19th ACM Conference on Recommender Systems (RecSys 2025). The final published version will be available at the ACM Digital Library",
+ "abstract": "A critical challenge in recommender systems is to establish reliable relationships between offline and online metrics that predict real-world performance. Motivated by recent advances in Pareto front approximation, we introduce a pragmatic strategy for identifying offline metrics that align with online impact. A key advantage of this approach is its ability to simultaneously serve multiple test groups, each with distinct offline performance metrics, in an online experiment controlled by a single model. The method is model-agnostic for systems with a neural network backbone, enabling broad applicability across architectures and domains. We validate the strategy through a large-scale online experiment in the field of session-based recommender systems on the OTTO e-commerce platform. The online experiment identifies significant alignments between offline metrics and real-word click-through rate, post-click conversion rate and units sold. Our strategy provides industry practitioners with a valuable tool for understanding offline-to-online metric relationships and making informed, data-driven decisions.",
+ "primary": "cs.IR"
+}

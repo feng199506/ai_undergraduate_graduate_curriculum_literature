@@ -1,0 +1,24 @@
+{
+ "id": "2506.09368",
+ "title": "Anomaly Detection and Generation with Diffusion Models: A Survey",
+ "authors": [
+  "Yang Liu",
+  "Jing Liu",
+  "Chengfang Li",
+  "Rui Xi",
+  "Wenchao Li",
+  "Liang Cao",
+  "Jin Wang",
+  "Laurence T. Yang",
+  "Junsong Yuan",
+  "Wei Zhou"
+ ],
+ "v1_date": "2025-06-11",
+ "latest_version": 2,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "10.1109/tpami.2026.3739960",
+ "comment": "20 pages, 11 figures, 13 tables",
+ "abstract": "Anomaly detection (AD) plays a pivotal role across diverse domains, including cybersecurity, finance, healthcare, and industrial manufacturing, by identifying unexpected patterns that deviate from established norms in real-world data. Recent advancements in deep learning, specifically diffusion models (DMs), have sparked significant interest due to their ability to learn complex data distributions and generate high-fidelity samples, offering a robust framework for unsupervised AD. In this survey, we comprehensively review anomaly detection and generation with diffusion models (ADGDM), presenting a tutorial-style analysis of the theoretical foundations and practical implementations and spanning images, videos, time series, tabular, and multimodal data. Crucially, unlike existing surveys that often treat anomaly detection and generation as separate problems, we highlight their inherent synergistic relationship. We reveal how DMs enable a reinforcing cycle where generation techniques directly address the fundamental challenge of anomaly data scarcity, while detection methods provide critical feedback to improve generation fidelity and relevance, advancing both capabilities beyond their individual potential. A detailed taxonomy categorizes ADGDM methods based on anomaly scoring mechanisms, conditioning strategies, and architectural designs, analyzing their strengths and limitations. We final discuss key challenges including scalability and computational efficiency, and outline promising future directions such as efficient architectures, conditioning strategies, and integration with foundation models (e.g., visual-language models and large language models). By synthesizing recent advances and outlining open research questions, this survey aims to guide researchers and practitioners in leveraging DMs for innovative AD solutions across diverse applications.",
+ "primary": "cs.LG"
+}

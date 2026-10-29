@@ -1,0 +1,21 @@
+{
+ "id": "2312.07151",
+ "title": "The Gaussian-Linear Hidden Markov model: a Python package",
+ "authors": [
+  "Diego Vidaurre",
+  "Laura Masaracchia",
+  "Nick Y. Larsen",
+  "Lenno R. P. T Ruijters",
+  "Sonsoles Alonso",
+  "Christine Ahrends",
+  "Mark W. Woolrich"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 2,
+ "latest_date": "2024-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 8 figures, 1 table",
+ "abstract": "We propose the Gaussian-Linear Hidden Markov model (GLHMM), a generalisation of different types of HMMs commonly used in neuroscience. In short, the GLHMM is a general framework where linear regression is used to flexibly parameterise the Gaussian state distribution, thereby accommodating a wide range of uses -- including unsupervised, encoding and decoding models. GLHMM is implemented as a Python toolbox with an emphasis on statistical testing and out-of-sample prediction -- i.e. aimed at finding and characterising brain-behaviour associations. The toolbox uses a stochastic variational inference approach, enabling it to handle large data sets at reasonable computational time. The approach can be applied to several data modalities, including animal recordings or non-brain data, and applied over a broad range of experimental paradigms. For demonstration, we show examples with fMRI, electrocorticography, magnetoencephalography and pupillometry.",
+ "primary": "q-bio.NC"
+}

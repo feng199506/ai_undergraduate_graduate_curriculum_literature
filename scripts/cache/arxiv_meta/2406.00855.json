@@ -1,0 +1,18 @@
+{
+ "id": "2406.00855",
+ "title": "LinkLogic: A New Method and Benchmark for Explainable Knowledge Graph Predictions",
+ "authors": [
+  "Niraj Kumar-Singh",
+  "Gustavo Polleti",
+  "Saee Paliwal",
+  "Rachel Hodos-Nkhereanye"
+ ],
+ "v1_date": "2024-06-02",
+ "latest_version": 1,
+ "latest_date": "2024-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 4 figures in main text. For code and data, see https://github.com/niraj17singh/LinkLogic",
+ "abstract": "While there are a plethora of methods for link prediction in knowledge graphs, state-of-the-art approaches are often black box, obfuscating model reasoning and thereby limiting the ability of users to make informed decisions about model predictions. Recently, methods have emerged to generate prediction explanations for Knowledge Graph Embedding models, a widely-used class of methods for link prediction. The question then becomes, how well do these explanation systems work? To date this has generally been addressed anecdotally, or through time-consuming user research. In this work, we present an in-depth exploration of a simple link prediction explanation method we call LinkLogic, that surfaces and ranks explanatory information used for the prediction. Importantly, we construct the first-ever link prediction explanation benchmark, based on family structures present in the FB13 dataset. We demonstrate the use of this benchmark as a rich evaluation sandbox, probing LinkLogic quantitatively and qualitatively to assess the fidelity, selectivity and relevance of the generated explanations. We hope our work paves the way for more holistic and empirical assessment of knowledge graph prediction explanation methods in the future.",
+ "primary": "cs.LG"
+}

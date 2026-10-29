@@ -1,0 +1,18 @@
+{
+ "id": "2609.36970",
+ "title": "Equally Good, Yet Different: Benchmarking Rashomon sets in AutoML packages",
+ "authors": [
+  "Katarzyna Woźnica",
+  "Katarzyna Rogalska",
+  "Zuzanna Sieńko",
+  "Mustafa Cavus"
+ ],
+ "v1_date": "2026-09-29",
+ "latest_version": 1,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the International Conference on Automated Machine Learning 2026, ABCD Track",
+ "abstract": "The Rashomon effect describes the existence of multiple near-optimal models that achieve comparable performance while offering fundamentally different explanations. This creates a critical vulnerability in AutoML: x-hacking, the selective post-hoc choice of a model based on its explanation rather than predictive merit. No existing AutoML framework exposes this risk. We introduce ARSA ML, an open-source Python framework that quantifies Rashomon set structure and predictive multiplicity within AutoML pipelines. Using ARSA ML, we benchmark AutoGluon and H2O across 28 binary classification datasets, and conduct a post-hoc x-hacking analysis revealing a consistent structural asymmetry: AutoGluon produces larger, diverse sets with stable explanations, while H2O generates compact sets with markedly higher prediction divergence and explanation instability -- making H2O users considerably more exposed to x-hacking. This gap persists across all evaluated metrics and epsilon thresholds, pointing to a fundamental difference in each framework's model-building strategy. ARSA ML is available at https://pypi.org/project/arsa-ml/ .",
+ "primary": "cs.LG"
+}

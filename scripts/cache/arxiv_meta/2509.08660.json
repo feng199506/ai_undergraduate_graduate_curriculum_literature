@@ -1,0 +1,20 @@
+{
+ "id": "2509.08660",
+ "title": "Replicable Reinforcement Learning with Linear Function Approximation",
+ "authors": [
+  "Eric Eaton",
+  "Marcel Hussing",
+  "Michael Kearns",
+  "Aaron Roth",
+  "Sikata Bela Sengupta",
+  "Jessica Sorrell"
+ ],
+ "v1_date": "2025-09-10",
+ "latest_version": 3,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICLR 2026",
+ "abstract": "Replication of experimental results has been a challenge faced by many scientific disciplines, including the field of machine learning. Recent work on the theory of machine learning has formalized replicability as the demand that an algorithm produce identical outcomes when executed twice on different samples from the same distribution. Provably replicable algorithms are especially interesting for reinforcement learning (RL), where algorithms are known to be unstable in practice. While replicable algorithms exist for tabular RL settings, extending these guarantees to more practical function approximation settings has remained an open problem. In this work, we make progress by developing replicable methods for linear function approximation in RL. We first introduce two efficient algorithms for replicable random design regression and uncentered covariance estimation, each of independent interest. We then leverage these tools to provide the first provably efficient replicable RL algorithms for linear Markov decision processes in both the generative model and episodic settings. Finally, we evaluate our algorithms experimentally and show how they can inspire more consistent neural policies.",
+ "primary": "cs.LG"
+}

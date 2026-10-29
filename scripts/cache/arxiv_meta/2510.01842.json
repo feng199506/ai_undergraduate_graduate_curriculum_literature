@@ -1,0 +1,19 @@
+{
+ "id": "2510.01842",
+ "title": "Pre-Hoc Predictions in AutoML: Leveraging LLMs to Enhance Model Selection and Benchmarking for Tabular datasets",
+ "authors": [
+  "Yannis Belkhiter",
+  "Seshu Tirupathi",
+  "Giulio Zizzo",
+  "Sachin Sharma",
+  "John D. Kelleher"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 1,
+ "latest_date": "2025-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Oral Presentations ADAPT Annual Scientific Conference 2025",
+ "abstract": "The field of AutoML has made remarkable progress in post-hoc model selection, with libraries capable of automatically identifying the most performing models for a given dataset. Nevertheless, these methods often rely on exhaustive hyperparameter searches, where methods automatically train and test different types of models on the target dataset. Contrastingly, pre-hoc prediction emerges as a promising alternative, capable of bypassing exhaustive search through intelligent pre-selection of models. Despite its potential, pre-hoc prediction remains under-explored in the literature. This paper explores the intersection of AutoML and pre-hoc model selection by leveraging traditional models and Large Language Model (LLM) agents to reduce the search space of AutoML libraries. By relying on dataset descriptions and statistical information, we reduce the AutoML search space. Our methodology is applied to the AWS AutoGluon portfolio dataset, a state-of-the-art AutoML benchmark containing 175 tabular classification datasets available on OpenML. The proposed approach offers a shift in AutoML workflows, significantly reducing computational overhead, while still selecting the best model for the given dataset.",
+ "primary": "cs.LG"
+}

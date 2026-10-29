@@ -1,0 +1,18 @@
+{
+ "id": "2601.22003",
+ "title": "Efficient Stochastic Optimisation via Sequential Monte Carlo",
+ "authors": [
+  "James Cuin",
+  "Davide Carbone",
+  "Yanbo Tang",
+  "O. Deniz Akyildiz"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 2,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ICML 2026",
+ "abstract": "The problem of optimising functions with intractable gradients frequently arises in machine learning and statistics, ranging from maximum marginal likelihood estimation procedures to fine-tuning of generative models. Stochastic approximation methods for this class of problems typically require inner sampling loops to obtain (biased) stochastic gradient estimates, which rapidly becomes computationally expensive. In this work, we develop sequential Monte Carlo (SMC) samplers for optimisation of functions with intractable gradients. Our approach replaces expensive inner sampling methods with efficient SMC approximations, which can result in significant computational gains. We establish convergence results for the basic recursions defined by our methodology which SMC samplers approximate. We demonstrate the effectiveness of our approach on the reward-tuning of energy-based models within various settings.",
+ "primary": "stat.ML"
+}

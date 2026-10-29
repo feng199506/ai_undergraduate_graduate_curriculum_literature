@@ -1,0 +1,15 @@
+{
+ "id": "2604.08620",
+ "title": "StructRL: Recovering Dynamic Programming Structure from Learning Dynamics in Distributional Reinforcement Learning",
+ "authors": [
+  "Ivo Nowak"
+ ],
+ "v1_date": "2026-04-09",
+ "latest_version": 2,
+ "latest_date": "2026-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reinforcement learning is typically treated as a uniform, data-driven optimization process, where updates are guided by rewards and temporal-difference errors without explicitly exploiting global structure. In contrast, dynamic programming methods rely on structured information propagation, enabling efficient and stable learning. In this paper, we provide evidence that such structure can be recovered from the learning dynamics of distributional reinforcement learning. By analyzing the temporal evolution of return distributions, we identify signals that capture when and where learning occurs in the state space. In particular, we introduce a temporal learning indicator t*(s) that reflects when a state undergoes its strongest learning update during training. Empirically, this signal induces an ordering over states that is consistent with a dynamic programming-style propagation of information. Building on this observation, we propose StructRL, a framework that exploits these signals to guide sampling in alignment with the emerging propagation structure. Our preliminary results suggest that distributional learning dynamics provide a mechanism to recover and exploit dynamic programming-like structure without requiring an explicit model. This offers a new perspective on reinforcement learning, where learning can be interpreted as a structured propagation process rather than a purely uniform optimization procedure.",
+ "primary": "cs.LG"
+}

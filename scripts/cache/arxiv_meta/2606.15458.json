@@ -1,0 +1,17 @@
+{
+ "id": "2606.15458",
+ "title": "Structured Nonparametric Variational Inference for Dependent Latent Modeling",
+ "authors": [
+  "Yuda Shao",
+  "Zhiling Gu",
+  "Shan Yu"
+ ],
+ "v1_date": "2026-06-13",
+ "latest_version": 1,
+ "latest_date": "2026-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variational inference (VI) is a core engine of modern AI, enabling scalable approximate Bayesian learning and uncertainty-aware training of large probabilistic and generative models. In this paper, we propose Structured Nonparametric Variational Inference (SN-VI), a novel framework for modeling complex dependencies among latent variables in posterior approximation, leveraging multivariate spline techniques. Unlike traditional methods that rely on the mean-field assumption, SN-VI preserves intricate latent variable dependencies, providing a flexible and accurate approximation of posteriors with arbitrary shapes. We establish rigorous theoretical guarantees, including the derivation of the lower bound for the variational objective and proof of asymptotic consistency in posterior estimation. To facilitate practical implementation, we develop an algorithm that automatically identifies dependent latent variables and their underlying dependence structure, without requiring manual specification. Simulation studies validate the effectiveness of SN-VI in approximating posterior distributions with bounded support and complex dependencies. The proposed method has been successfully applied to high-dimensional structured data, including computer vision datasets and spatial transcriptomics. In these applications, SN-VI demonstrates improved generative model performance and effectively uncovers coupled biological signals through the learned dependency structure.",
+ "primary": "stat.ML"
+}

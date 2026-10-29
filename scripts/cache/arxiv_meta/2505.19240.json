@@ -1,0 +1,20 @@
+{
+ "id": "2505.19240",
+ "title": "LLLMs: A Data-Driven Survey of Evolving Research on Limitations of Large Language Models",
+ "authors": [
+  "Aida Kostikova",
+  "Zhipin Wang",
+  "Deidamea Bajri",
+  "Ole Pütz",
+  "Benjamin Paaßen",
+  "Steffen Eger"
+ ],
+ "v1_date": "2025-05-25",
+ "latest_version": 4,
+ "latest_date": "2026-03-12",
+ "journal_ref": "",
+ "doi": "10.1145/3801096",
+ "comment": "ACM Computing Surveys (CSUR); 56 pages",
+ "abstract": "Large language model (LLM) research has grown rapidly, along with increasing concern about their limitations. In this survey, we conduct a data-driven, semi-automated review of research on limitations of LLMs (LLLMs) from 2022 to early 2025 using a bottom-up approach. From a corpus of 250,000 ACL and arXiv papers, we identify 14,648 relevant papers using keyword filtering, LLM-based classification, validated against expert labels, and topic clustering (via two approaches, HDBSCAN+BERTopic and LlooM). We find that the share of LLM-related papers increases over fivefold in ACL and nearly eightfold in arXiv between 2022 and 2025. Since 2022, LLLMs research grows even faster, reaching over 30% of LLM papers by 2025. Reasoning remains the most studied limitation, followed by generalization, hallucination, bias, and security. The distribution of topics in the ACL dataset stays relatively stable over time, while arXiv shifts toward security risks, alignment, hallucinations, knowledge editing, and multimodality. We offer a quantitative view of trends in LLLMs research and release a dataset of annotated abstracts and a validated methodology, available at: https://github.com/a-kostikova/LLLMs-Survey.",
+ "primary": "cs.CL"
+}

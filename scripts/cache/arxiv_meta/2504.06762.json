@@ -1,0 +1,19 @@
+{
+ "id": "2504.06762",
+ "title": "Matching and Edge Cover in Temporal Graphs",
+ "authors": [
+  "Lapo Cioni",
+  "Riccardo Dondi",
+  "Andrea Marino",
+  "Jason Schoeters",
+  "Ana Silva"
+ ],
+ "v1_date": "2025-04-09",
+ "latest_version": 1,
+ "latest_date": "2025-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal graphs are a special class of graphs for which a temporal component is added to edges, that is, each edge possesses a set of times at which it is available and can be traversed. Many classical problems on graphs can be translated to temporal graphs, and the results may differ. In this paper, we define the Temporal Edge Cover and Temporal Matching problems and show that they are NP-complete even when fixing the lifetime or when the underlying graph is a tree. We then describe two FPT algorithms, with parameters lifetime and treewidth, that solve the two problems. We also find lower bounds for the approximation of the two problems and give two approximation algorithms which match these bounds. Finally, we discuss the differences between the problems in the temporal and the static framework.",
+ "primary": "cs.DS"
+}

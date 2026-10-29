@@ -1,0 +1,17 @@
+{
+ "id": "2409.19812",
+ "title": "Asymptotic and compound e-values: multiple testing and empirical Bayes",
+ "authors": [
+  "Nikolaos Ignatiadis",
+  "Ruodu Wang",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2024-09-29",
+ "latest_version": 4,
+ "latest_date": "2025-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We explicitly define the notions of (bona fide, approximate or asymptotic) compound p-values and e-values, which have been implicitly presented and used in the recent multiple testing literature. While it is known that the e-BH procedure with compound e-values controls the FDR, we show the converse: every FDR controlling procedure can be recovered by instantiating the e-BH procedure with certain compound e-values. Since compound e-values are closed under averaging, this allows for combination and derandomization of arbitrary FDR procedures. We then connect compound e-values to empirical Bayes. In particular, we use the fundamental theorem of compound decision theory to derive the log-optimal simple separable compound e-value for testing a set of point nulls against point alternatives: it is a ratio of mixture likelihoods. As one example, we construct asymptotic compound e-values for multiple t-tests, where the (nuisance) variances may be different across hypotheses. Our construction may be interpreted as a data-driven instantiation of the optimal discovery procedure, and our results provide the first type-I error guarantees for the same, along with significant power gains.",
+ "primary": "stat.ME"
+}

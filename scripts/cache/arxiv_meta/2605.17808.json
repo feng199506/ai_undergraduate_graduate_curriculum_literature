@@ -1,0 +1,16 @@
+{
+ "id": "2605.17808",
+ "title": "A Unified Framework for Data-Free One-Step Sampling via Wasserstein Gradient Flows",
+ "authors": [
+  "Chenguang Wang",
+  "Tianshu Yu"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 1,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a unified theoretical framework for data-free one-step sampling from unnormalized target distributions based on Wasserstein gradient flows. For a broad class of standard f-divergence objectives, we show that the induced velocity field admits the universal form $\\mathbf{V}(x)=w(r(x))\\,β(x)$, where $β(x)=\\nabla \\log (p(x)/q(x))$ is shared across objectives and $w$ is determined solely by the choice of divergence. This decomposition shows that standard f-divergence drifts share the same asymptotic target distribution $p$ and differ primarily in how they redistribute transient repair effort across under-covered regions. To formalize this distinction, we derive a one-step regional-response theory for a soft under-coverage functional and obtain a compression--elasticity identity that links divergence choice to the geometry of mass transport into under-covered regions. We further extend the framework beyond the f-divergence family to the Log-Variance (LV) divergence, analyze how the reference distribution alters the resulting drift structure, and motivate a practical LV-inspired surrogate for data-free training. Based on this theory, we instantiate the framework with a KDE-based implementation and describe a complementary normalizing-flow route, enabling one-step inference after training. Experiments on multimodal Gaussian-mixture benchmarks are consistent with the theoretical predictions and demonstrate effective one-step sampling on these targets.",
+ "primary": "cs.LG"
+}

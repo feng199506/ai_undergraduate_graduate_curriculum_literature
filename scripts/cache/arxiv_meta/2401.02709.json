@@ -1,0 +1,17 @@
+{
+ "id": "2401.02709",
+ "title": "German Text Embedding Clustering Benchmark",
+ "authors": [
+  "Silvan Wehrli",
+  "Bert Arnrich",
+  "Christopher Irrgang"
+ ],
+ "v1_date": "2024-01-05",
+ "latest_version": 1,
+ "latest_date": "2024-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 4 figures",
+ "abstract": "This work introduces a benchmark assessing the performance of clustering German text embeddings in different domains. This benchmark is driven by the increasing use of clustering neural text embeddings in tasks that require the grouping of texts (such as topic modeling) and the need for German resources in existing benchmarks. We provide an initial analysis for a range of pre-trained mono- and multilingual models evaluated on the outcome of different clustering algorithms. Results include strong performing mono- and multilingual models. Reducing the dimensions of embeddings can further improve clustering. Additionally, we conduct experiments with continued pre-training for German BERT models to estimate the benefits of this additional training. Our experiments suggest that significant performance improvements are possible for short text. All code and datasets are publicly available.",
+ "primary": "cs.CL"
+}

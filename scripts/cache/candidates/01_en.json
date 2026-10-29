@@ -86,6 +86,11 @@
     "subtopic": "矩阵微积分",
     "q": "abs:\"matrix calculus\" OR ti:\"matrix calculus\"",
     "rank": 5
+   },
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 10
    }
   ]
  },
@@ -149,6 +154,11 @@
     "subtopic": "随机数值线性代数",
     "q": "ti:\"randomized\" AND (ti:\"low-rank\" OR ti:SVD OR ti:sketching OR ti:\"matrix approximation\") AND cat:math.NA",
     "rank": 1
+   },
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 4
    }
   ]
  },
@@ -347,6 +357,11 @@
     "subtopic": "随机数值线性代数",
     "q": "ti:\"randomized\" AND (ti:\"low-rank\" OR ti:SVD OR ti:sketching OR ti:\"matrix approximation\") AND cat:math.NA",
     "rank": 23
+   },
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 1
    }
   ]
  },
@@ -419,6 +434,11 @@
     "subtopic": "随机数值线性代数",
     "q": "ti:\"randomized\" AND (ti:\"low-rank\" OR ti:SVD OR ti:sketching OR ti:\"matrix approximation\") AND cat:math.NA",
     "rank": 31
+   },
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 10
    }
   ]
  },
@@ -455,6 +475,11 @@
     "subtopic": "随机数值线性代数",
     "q": "ti:\"randomized\" AND (ti:\"low-rank\" OR ti:SVD OR ti:sketching OR ti:\"matrix approximation\") AND cat:math.NA",
     "rank": 35
+   },
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 3
    }
   ]
  },
@@ -464,6 +489,11 @@
     "subtopic": "随机数值线性代数",
     "q": "ti:\"randomized\" AND (ti:\"low-rank\" OR ti:SVD OR ti:sketching OR ti:\"matrix approximation\") AND cat:math.NA",
     "rank": 36
+   },
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 2
    }
   ]
  },
@@ -536,6 +566,11 @@
     "subtopic": "随机数值线性代数",
     "q": "ti:\"randomized\" AND (ti:\"low-rank\" OR ti:SVD OR ti:sketching OR ti:\"matrix approximation\") AND cat:math.NA",
     "rank": 44
+   },
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 14
    }
   ]
  },
@@ -590,6 +625,11 @@
     "subtopic": "自动微分的数学",
     "q": "(ti:survey OR ti:tutorial OR ti:introduction OR ti:review) AND abs:\"automatic differentiation\"",
     "rank": 0
+   },
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 4
    }
   ]
  },
@@ -599,6 +639,11 @@
     "subtopic": "自动微分的数学",
     "q": "(ti:survey OR ti:tutorial OR ti:introduction OR ti:review) AND abs:\"automatic differentiation\"",
     "rank": 1
+   },
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 0
    }
   ]
  },
@@ -617,6 +662,11 @@
     "subtopic": "自动微分的数学",
     "q": "(ti:survey OR ti:tutorial OR ti:introduction OR ti:review) AND abs:\"automatic differentiation\"",
     "rank": 3
+   },
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 5
    }
   ]
  },
@@ -653,6 +703,11 @@
     "subtopic": "ML 所需数学的教学型综述",
     "q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)",
     "rank": 0
+   },
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 1
    }
   ]
  },
@@ -662,6 +717,11 @@
     "subtopic": "ML 所需数学的教学型综述",
     "q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)",
     "rank": 1
+   },
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 7
    }
   ]
  },
@@ -671,6 +731,11 @@
     "subtopic": "ML 所需数学的教学型综述",
     "q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)",
     "rank": 2
+   },
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 3
    }
   ]
  },
@@ -680,6 +745,11 @@
     "subtopic": "ML 所需数学的教学型综述",
     "q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)",
     "rank": 3
+   },
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 16
    }
   ]
  },
@@ -688,6 +758,11 @@
    {
     "subtopic": "ML 所需数学的教学型综述",
     "q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)",
+    "rank": 4
+   },
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
     "rank": 4
    }
   ]
@@ -698,6 +773,11 @@
     "subtopic": "ML 所需数学的教学型综述",
     "q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)",
     "rank": 5
+   },
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 11
    }
   ]
  },
@@ -716,6 +796,11 @@
     "subtopic": "ML 所需数学的教学型综述",
     "q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)",
     "rank": 7
+   },
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 31
    }
   ]
  },
@@ -734,6 +819,11 @@
     "subtopic": "ML 所需数学的教学型综述",
     "q": "(ti:\"mathematics\" OR ti:\"mathematical\") AND (ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"neural networks\") AND (ti:introduction OR ti:principles OR ti:theory OR ti:foundations)",
     "rank": 9
+   },
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 39
    }
   ]
  },
@@ -1139,6 +1229,2203 @@
     "subtopic": "AI 与数学（教学参考）",
     "q": "(ti:\"large language models\" OR abs:\"large language models\") AND (ti:mathematics OR ti:\"theorem proving\") AND (ti:survey OR ti:review)",
     "rank": 7
+   }
+  ]
+ },
+ "2605.15144": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:sketching OR ti:\"randomized numerical linear algebra\" OR ti:\"randomized linear algebra\" OR ti:RandNLA) AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview OR ti:perspective OR ti:\"lecture notes\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2603.03287": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:sketching OR ti:\"randomized numerical linear algebra\" OR ti:\"randomized linear algebra\" OR ti:RandNLA) AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview OR ti:perspective OR ti:\"lecture notes\")",
+    "rank": 1
+   }
+  ]
+ },
+ "2505.12071": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:sketching OR ti:\"randomized numerical linear algebra\" OR ti:\"randomized linear algebra\" OR ti:RandNLA) AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview OR ti:perspective OR ti:\"lecture notes\")",
+    "rank": 2
+   }
+  ]
+ },
+ "2604.06922": {
+  "hits": [
+   {
+    "subtopic": "张量分解与张量计算",
+    "q": "(ti:\"tensor network\" OR ti:\"tensor networks\" OR ti:\"tensor methods\" OR ti:\"tensor decompositions\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer)",
+    "rank": 0
+   }
+  ]
+ },
+ "2606.24803": {
+  "hits": [
+   {
+    "subtopic": "张量分解与张量计算",
+    "q": "(ti:\"tensor network\" OR ti:\"tensor networks\" OR ti:\"tensor methods\" OR ti:\"tensor decompositions\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer)",
+    "rank": 1
+   }
+  ]
+ },
+ "2408.05011": {
+  "hits": [
+   {
+    "subtopic": "张量分解与张量计算",
+    "q": "(ti:\"tensor network\" OR ti:\"tensor networks\" OR ti:\"tensor methods\" OR ti:\"tensor decompositions\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer)",
+    "rank": 2
+   }
+  ]
+ },
+ "2509.22104": {
+  "hits": [
+   {
+    "subtopic": "张量分解与张量计算",
+    "q": "(ti:\"tensor network\" OR ti:\"tensor networks\" OR ti:\"tensor methods\" OR ti:\"tensor decompositions\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer)",
+    "rank": 3
+   }
+  ]
+ },
+ "2403.14606": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 1
+   }
+  ]
+ },
+ "2608.09442": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 2
+   }
+  ]
+ },
+ "2406.09699": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 3
+   }
+  ]
+ },
+ "2412.02309": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 6
+   }
+  ]
+ },
+ "2505.12646": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 7
+   }
+  ]
+ },
+ "2609.15084": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 8
+   }
+  ]
+ },
+ "2606.05199": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 9
+   }
+  ]
+ },
+ "2407.19258": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"differentiable programming\" OR ti:\"automatic differentiation\" OR ti:backpropagation OR ti:\"implicit differentiation\") AND (ti:elements OR ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 10
+   }
+  ]
+ },
+ "2508.19557": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2406.11151": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 1
+   }
+  ]
+ },
+ "2608.21234": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 2
+   }
+  ]
+ },
+ "2507.22544": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 3
+   }
+  ]
+ },
+ "2402.18940": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 4
+   }
+  ]
+ },
+ "2402.16714": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 5
+   }
+  ]
+ },
+ "2512.05342": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 6
+   }
+  ]
+ },
+ "2405.15557": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 7
+   }
+  ]
+ },
+ "2607.26139": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 8
+   }
+  ]
+ },
+ "2512.11135": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 9
+   }
+  ]
+ },
+ "2410.17770": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 10
+   }
+  ]
+ },
+ "2402.16513": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 11
+   }
+  ]
+ },
+ "2602.14262": {
+  "hits": [
+   {
+    "subtopic": "线性代数与 ML 数学基础",
+    "q": "(ti:\"linear algebra\" OR ti:\"matrix computations\" OR ti:\"matrix analysis\" OR ti:\"numerical linear algebra\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"data science\" OR ti:\"neural networks\" OR ti:\"transformers\")",
+    "rank": 12
+   }
+  ]
+ },
+ "2511.11746": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2607.01693": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 2
+   }
+  ]
+ },
+ "2312.10794": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 5
+   }
+  ]
+ },
+ "2609.16710": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 6
+   }
+  ]
+ },
+ "2402.03485": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 8
+   }
+  ]
+ },
+ "2610.11972": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 9
+   }
+  ]
+ },
+ "2507.16871": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 10
+   }
+  ]
+ },
+ "2503.16258": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 12
+   }
+  ]
+ },
+ "2609.22367": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 13
+   }
+  ]
+ },
+ "2605.30700": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 14
+   }
+  ]
+ },
+ "2510.02049": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 15
+   }
+  ]
+ },
+ "2403.04807": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 17
+   }
+  ]
+ },
+ "2512.06563": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 18
+   }
+  ]
+ },
+ "2501.15646": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 19
+   }
+  ]
+ },
+ "2405.01233": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 20
+   }
+  ]
+ },
+ "2606.07713": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 21
+   }
+  ]
+ },
+ "2401.05368": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 22
+   }
+  ]
+ },
+ "2412.00464": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 23
+   }
+  ]
+ },
+ "2608.09707": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 24
+   }
+  ]
+ },
+ "2402.07802": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 25
+   }
+  ]
+ },
+ "2502.17513": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 26
+   }
+  ]
+ },
+ "2510.03989": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 27
+   }
+  ]
+ },
+ "2401.08225": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 28
+   }
+  ]
+ },
+ "2511.04667": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 29
+   }
+  ]
+ },
+ "2608.13572": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 30
+   }
+  ]
+ },
+ "2504.14356": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 32
+   }
+  ]
+ },
+ "2603.20726": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 33
+   }
+  ]
+ },
+ "2408.15507": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 34
+   }
+  ]
+ },
+ "2603.15914": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 35
+   }
+  ]
+ },
+ "2412.15184": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 36
+   }
+  ]
+ },
+ "2511.01364": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 37
+   }
+  ]
+ },
+ "2409.17021": {
+  "hits": [
+   {
+    "subtopic": "ML 所需数学的教学型综述",
+    "q": "(ti:\"mathematical perspective\" OR ti:\"mathematical introduction\" OR ti:\"mathematics of\" OR ti:\"mathematical foundations\") AND (ti:transformers OR ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"machine learning\" OR ti:\"diffusion models\" OR ti:\"attention\")",
+    "rank": 38
+   }
+  ]
+ },
+ "2606.01821": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 0
+   }
+  ]
+ },
+ "2601.11493": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 1
+   }
+  ]
+ },
+ "2605.14933": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 2
+   }
+  ]
+ },
+ "2404.00960": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 3
+   }
+  ]
+ },
+ "2607.27427": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 4
+   }
+  ]
+ },
+ "2608.20531": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 5
+   }
+  ]
+ },
+ "2403.02811": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 6
+   }
+  ]
+ },
+ "2411.08178": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 7
+   }
+  ]
+ },
+ "2407.03849": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 8
+   }
+  ]
+ },
+ "2407.01698": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 9
+   }
+  ]
+ },
+ "2608.06860": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"Nystrom\" OR ti:\"Nyström\" OR ti:\"pivoted Cholesky\" OR ti:\"kernel matrix\") AND (abs:randomized) AND (cat:math.NA OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 10
+   }
+  ]
+ },
+ "2312.14499": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 0
+   }
+  ]
+ },
+ "2609.10080": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 1
+   }
+  ]
+ },
+ "2606.15679": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 2
+   }
+  ]
+ },
+ "2502.18808": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 3
+   }
+  ]
+ },
+ "2411.15454": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 4
+   }
+  ]
+ },
+ "2405.01098": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 5
+   }
+  ]
+ },
+ "2511.10796": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 6
+   }
+  ]
+ },
+ "2606.07004": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 7
+   }
+  ]
+ },
+ "2311.07035": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 8
+   }
+  ]
+ },
+ "2505.12289": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 9
+   }
+  ]
+ },
+ "2504.18913": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 10
+   }
+  ]
+ },
+ "2603.05721": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 11
+   }
+  ]
+ },
+ "2406.11862": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 12
+   }
+  ]
+ },
+ "2608.28135": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 13
+   }
+  ]
+ },
+ "2506.22701": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 14
+   }
+  ]
+ },
+ "2609.18577": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 15
+   }
+  ]
+ },
+ "2508.04444": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 16
+   }
+  ]
+ },
+ "2607.06758": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 17
+   }
+  ]
+ },
+ "2502.18626": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 18
+   }
+  ]
+ },
+ "2606.22629": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 19
+   }
+  ]
+ },
+ "2606.08883": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 20
+   }
+  ]
+ },
+ "2404.07911": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 21
+   }
+  ]
+ },
+ "2412.10910": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 22
+   }
+  ]
+ },
+ "2607.02335": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 23
+   }
+  ]
+ },
+ "2408.12479": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 24
+   }
+  ]
+ },
+ "2503.00246": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 25
+   }
+  ]
+ },
+ "2510.19634": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 26
+   }
+  ]
+ },
+ "2610.16101": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 27
+   }
+  ]
+ },
+ "2410.08297": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 28
+   }
+  ]
+ },
+ "2604.18886": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 29
+   }
+  ]
+ },
+ "2607.03413": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 30
+   }
+  ]
+ },
+ "2610.16913": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 31
+   }
+  ]
+ },
+ "2610.31496": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 32
+   }
+  ]
+ },
+ "2507.17053": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 33
+   }
+  ]
+ },
+ "2610.30308": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 34
+   }
+  ]
+ },
+ "2609.33630": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 35
+   }
+  ]
+ },
+ "2509.10378": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 36
+   }
+  ]
+ },
+ "2609.14982": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 37
+   }
+  ]
+ },
+ "2412.04980": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 38
+   }
+  ]
+ },
+ "2607.15290": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:\"trace estimation\" OR ti:\"Hutchinson\" OR ti:\"stochastic Lanczos\" OR ti:\"matrix-free\") AND (cat:math.NA OR cat:cs.LG OR cat:stat.ML)",
+    "rank": 39
+   }
+  ]
+ },
+ "2501.00365": {
+  "hits": [
+   {
+    "subtopic": "矩阵分解与低秩",
+    "q": "(ti:\"low-rank\" OR ti:\"matrix factorization\" OR ti:\"singular value decomposition\") AND (ti:survey OR ti:review OR ti:tutorial) AND (abs:\"machine learning\" OR abs:\"deep learning\" OR abs:\"neural network\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2510.17546": {
+  "hits": [
+   {
+    "subtopic": "多元分析与几何",
+    "q": "(ti:\"manifold optimization\" OR ti:\"Riemannian\" OR ti:\"differential geometry\" OR ti:\"information geometry\") AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:survey OR ti:\"lecture notes\") AND (abs:\"machine learning\" OR abs:\"deep learning\" OR abs:\"data\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2610.07220": {
+  "hits": [
+   {
+    "subtopic": "数值计算与 ML",
+    "q": "(ti:\"numerical methods\" OR ti:\"numerical analysis\" OR ti:\"scientific computing\") AND (ti:\"machine learning\" OR ti:\"deep learning\" OR ti:\"neural networks\") AND (ti:survey OR ti:review OR ti:introduction OR ti:tutorial OR ti:perspective)",
+    "rank": 0
+   }
+  ]
+ },
+ "2407.12895": {
+  "hits": [
+   {
+    "subtopic": "函数逼近与分析基础",
+    "q": "(ti:\"approximation theory\" OR ti:\"universal approximation\" OR ti:\"expressivity\") AND (ti:survey OR ti:review OR ti:introduction OR ti:tutorial OR ti:\"lecture notes\") AND abs:\"neural networks\"",
+    "rank": 0
+   }
+  ]
+ },
+ "2412.03783": {
+  "hits": [
+   {
+    "subtopic": "函数逼近与分析基础",
+    "q": "(ti:\"approximation theory\" OR ti:\"universal approximation\" OR ti:\"expressivity\") AND (ti:survey OR ti:review OR ti:introduction OR ti:tutorial OR ti:\"lecture notes\") AND abs:\"neural networks\"",
+    "rank": 1
+   }
+  ]
+ },
+ "2502.02618": {
+  "hits": [
+   {
+    "subtopic": "函数逼近与分析基础",
+    "q": "(ti:\"approximation theory\" OR ti:\"universal approximation\" OR ti:\"expressivity\") AND (ti:survey OR ti:review OR ti:introduction OR ti:tutorial OR ti:\"lecture notes\") AND abs:\"neural networks\"",
+    "rank": 2
+   }
+  ]
+ },
+ "2401.17957": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 0
+   }
+  ]
+ },
+ "2601.20782": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 1
+   }
+  ]
+ },
+ "2311.11172": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 2
+   },
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 10
+   }
+  ]
+ },
+ "2511.04566": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 3
+   }
+  ]
+ },
+ "2601.21623": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 4
+   }
+  ]
+ },
+ "2510.02126": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 5
+   }
+  ]
+ },
+ "2312.12679": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 6
+   }
+  ]
+ },
+ "2602.04348": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 7
+   }
+  ]
+ },
+ "2407.12208": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 8
+   }
+  ]
+ },
+ "2605.06152": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 9
+   }
+  ]
+ },
+ "2501.03742": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 10
+   }
+  ]
+ },
+ "2410.12614": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 11
+   }
+  ]
+ },
+ "2412.08059": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 12
+   }
+  ]
+ },
+ "2312.17396": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 13
+   }
+  ]
+ },
+ "2606.18463": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 14
+   }
+  ]
+ },
+ "2604.09147": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 15
+   }
+  ]
+ },
+ "2510.04212": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 16
+   }
+  ]
+ },
+ "2503.03456": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 17
+   }
+  ]
+ },
+ "2401.03755": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 18
+   }
+  ]
+ },
+ "2606.16709": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 19
+   }
+  ]
+ },
+ "2604.25306": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 20
+   }
+  ]
+ },
+ "2504.14498": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 21
+   }
+  ]
+ },
+ "2607.14742": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 22
+   }
+  ]
+ },
+ "2505.14638": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 23
+   }
+  ]
+ },
+ "2403.07339": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 24
+   }
+  ]
+ },
+ "2512.21164": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 25
+   }
+  ]
+ },
+ "2610.15709": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 26
+   }
+  ]
+ },
+ "2503.05924": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 27
+   }
+  ]
+ },
+ "2502.12913": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 28
+   }
+  ]
+ },
+ "2504.07580": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 29
+   }
+  ]
+ },
+ "2609.39185": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 30
+   }
+  ]
+ },
+ "2602.08043": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 31
+   }
+  ]
+ },
+ "2610.36587": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 32
+   },
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 29
+   }
+  ]
+ },
+ "2610.16020": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 33
+   }
+  ]
+ },
+ "2609.24322": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 34
+   }
+  ]
+ },
+ "2609.25014": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 35
+   }
+  ]
+ },
+ "2601.11663": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 36
+   }
+  ]
+ },
+ "2607.03860": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 37
+   }
+  ]
+ },
+ "2609.05641": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 38
+   }
+  ]
+ },
+ "2606.10890": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"mixed precision\" OR ti:\"low-precision\" OR ti:quantization OR ti:\"number formats\") AND (abs:\"numerical linear algebra\" OR abs:\"rounding error\" OR abs:\"floating-point arithmetic\") AND (cat:math.NA OR cat:cs.MS OR cat:cs.LG)",
+    "rank": 39
+   }
+  ]
+ },
+ "2501.13597": {
+  "hits": [
+   {
+    "subtopic": "离散数学与谱图论",
+    "q": "(ti:\"spectral clustering\" OR ti:\"graph signal processing\" OR ti:\"spectral methods\" OR ti:\"graph Laplacians\") AND (ti:tutorial OR ti:survey OR ti:introduction OR ti:review)",
+    "rank": 0
+   }
+  ]
+ },
+ "2610.13382": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 0
+   }
+  ]
+ },
+ "2407.00746": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 5
+   }
+  ]
+ },
+ "2405.05343": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 6
+   }
+  ]
+ },
+ "2311.01806": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 7
+   }
+  ]
+ },
+ "2605.25809": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 8
+   }
+  ]
+ },
+ "2405.05865": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 9
+   }
+  ]
+ },
+ "2608.26552": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 11
+   }
+  ]
+ },
+ "2606.11255": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 12
+   }
+  ]
+ },
+ "2604.05065": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 13
+   }
+  ]
+ },
+ "2406.09253": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 15
+   }
+  ]
+ },
+ "2505.08146": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 16
+   }
+  ]
+ },
+ "2403.07929": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 17
+   }
+  ]
+ },
+ "2510.23039": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 18
+   }
+  ]
+ },
+ "2410.06319": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 19
+   }
+  ]
+ },
+ "2507.08444": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 20
+   }
+  ]
+ },
+ "2502.07993": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 21
+   }
+  ]
+ },
+ "2507.18466": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 22
+   }
+  ]
+ },
+ "2410.11188": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 23
+   }
+  ]
+ },
+ "2511.15530": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 24
+   }
+  ]
+ },
+ "2601.21050": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 25
+   }
+  ]
+ },
+ "2503.18190": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 26
+   }
+  ]
+ },
+ "2511.09872": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 27
+   }
+  ]
+ },
+ "2605.25034": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 28
+   }
+  ]
+ },
+ "2608.27968": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 29
+   }
+  ]
+ },
+ "2412.10583": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 30
+   }
+  ]
+ },
+ "2403.19874": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 31
+   }
+  ]
+ },
+ "2506.20940": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 32
+   }
+  ]
+ },
+ "2407.10221": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 33
+   }
+  ]
+ },
+ "2603.29372": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 34
+   }
+  ]
+ },
+ "2608.22259": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 35
+   }
+  ]
+ },
+ "2501.11673": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 36
+   }
+  ]
+ },
+ "2606.01952": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 37
+   }
+  ]
+ },
+ "2311.04362": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 38
+   }
+  ]
+ },
+ "2401.09415": {
+  "hits": [
+   {
+    "subtopic": "随机数值线性代数",
+    "q": "(ti:randomized OR ti:sketch OR ti:sketched OR ti:sketching) AND (ti:\"least squares\" OR ti:Kaczmarz OR ti:preconditioning OR ti:\"kernel\" OR ti:\"linear systems\") AND (cat:math.NA OR cat:cs.DS OR cat:stat.ML OR cat:cs.LG)",
+    "rank": 39
+   }
+  ]
+ },
+ "2607.07845": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2504.17618": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 1
+   }
+  ]
+ },
+ "2311.00452": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 2
+   }
+  ]
+ },
+ "2510.17486": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 3
+   }
+  ]
+ },
+ "2606.28662": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 4
+   }
+  ]
+ },
+ "2605.08171": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 5
+   }
+  ]
+ },
+ "2607.13631": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 6
+   }
+  ]
+ },
+ "2610.09919": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 7
+   }
+  ]
+ },
+ "2604.10202": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 8
+   }
+  ]
+ },
+ "2402.16788": {
+  "hits": [
+   {
+    "subtopic": "矩阵分析在深度学习中的应用",
+    "q": "ti:Hessian AND (ti:\"deep learning\" OR ti:\"neural network\" OR ti:\"neural networks\" OR ti:\"transformers\") AND (abs:eigenvalue OR abs:spectrum OR abs:\"spectral\")",
+    "rank": 9
+   }
+  ]
+ },
+ "2404.14010": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2601.23185": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 1
+   }
+  ]
+ },
+ "2506.16065": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 2
+   }
+  ]
+ },
+ "2601.16450": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 3
+   }
+  ]
+ },
+ "2510.23389": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 4
+   }
+  ]
+ },
+ "2510.16028": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 5
+   }
+  ]
+ },
+ "2501.02423": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 6
+   }
+  ]
+ },
+ "2503.15465": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 7
+   }
+  ]
+ },
+ "2506.18062": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 8
+   }
+  ]
+ },
+ "2607.25494": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 9
+   }
+  ]
+ },
+ "2512.00059": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 11
+   }
+  ]
+ },
+ "2408.05148": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 12
+   }
+  ]
+ },
+ "2610.04436": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 13
+   }
+  ]
+ },
+ "2605.28704": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 14
+   }
+  ]
+ },
+ "2510.09647": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 15
+   }
+  ]
+ },
+ "2409.00495": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 16
+   }
+  ]
+ },
+ "2408.08449": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 17
+   }
+  ]
+ },
+ "2601.09555": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 18
+   }
+  ]
+ },
+ "2502.07212": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 19
+   }
+  ]
+ },
+ "2407.02610": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 20
+   }
+  ]
+ },
+ "2606.15682": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 21
+   }
+  ]
+ },
+ "2602.12480": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 22
+   }
+  ]
+ },
+ "2511.00874": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 23
+   }
+  ]
+ },
+ "2502.20566": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 24
+   }
+  ]
+ },
+ "2412.04787": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 25
+   }
+  ]
+ },
+ "2606.13935": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 26
+   }
+  ]
+ },
+ "2410.00169": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 27
+   }
+  ]
+ },
+ "2410.16827": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 28
+   }
+  ]
+ },
+ "2511.03598": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 30
+   }
+  ]
+ },
+ "2606.24188": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 31
+   }
+  ]
+ },
+ "2404.12759": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 32
+   }
+  ]
+ },
+ "2511.19705": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 33
+   }
+  ]
+ },
+ "2411.10385": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 34
+   }
+  ]
+ },
+ "2403.16860": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 35
+   }
+  ]
+ },
+ "2510.01527": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 36
+   }
+  ]
+ },
+ "2610.10411": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 37
+   }
+  ]
+ },
+ "2504.18204": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 38
+   }
+  ]
+ },
+ "2405.16240": {
+  "hits": [
+   {
+    "subtopic": "浮点与混合精度数值计算",
+    "q": "(ti:\"numerical stability\" OR ti:\"floating-point\" OR ti:\"numerical errors\" OR ti:\"numerical precision\" OR ti:\"rounding\") AND (ti:\"deep learning\" OR ti:\"neural networks\" OR ti:\"transformers\" OR ti:\"training\" OR ti:\"machine learning\")",
+    "rank": 39
+   }
+  ]
+ },
+ "2312.12030": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"implicit differentiation\" OR ti:\"implicit layers\" OR ti:\"adjoint method\" OR ti:\"adjoint methods\" OR ti:\"differentiating through\") AND (ti:tutorial OR ti:introduction OR ti:review OR ti:primer OR ti:survey OR ti:guide)",
+    "rank": 0
+   }
+  ]
+ },
+ "2601.08594": {
+  "hits": [
+   {
+    "subtopic": "自动微分的数学",
+    "q": "(ti:\"implicit differentiation\" OR ti:\"implicit layers\" OR ti:\"adjoint method\" OR ti:\"adjoint methods\" OR ti:\"differentiating through\") AND (ti:tutorial OR ti:introduction OR ti:review OR ti:primer OR ti:survey OR ti:guide)",
+    "rank": 1
+   }
+  ]
+ },
+ "2410.00645": {
+  "hits": [
+   {
+    "subtopic": "矩阵分解与低秩",
+    "q": "(ti:\"low-rank\" OR ti:\"low rank\") AND (ti:\"neural networks\" OR ti:\"deep learning\" OR ti:\"training\") AND (abs:\"singular value\" OR abs:\"matrix\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:perspective OR ti:theory)",
+    "rank": 0
    }
   ]
  }

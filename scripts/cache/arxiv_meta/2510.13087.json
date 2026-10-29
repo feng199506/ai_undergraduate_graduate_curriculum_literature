@@ -1,0 +1,15 @@
+{
+ "id": "2510.13087",
+ "title": "DeepCausalMMM: A Deep Learning Framework for Marketing Mix Modeling with Causal Structure Learning",
+ "authors": [
+  "Aditya Puttaparthi Tirumala"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 3,
+ "latest_date": "2026-04-26",
+ "journal_ref": "Journal of Open Source Software, 11(120), 9914 (2026)",
+ "doi": "10.21105/joss.09914",
+ "comment": "Published in the Journal of Open Source Software. Please cite the JOSS version - doi:10.21105/joss.09914. Please note that Author has no middle name. Last name is 'Puttaparthi Tirumala' (it's a two-part surname)",
+ "abstract": "Marketing Mix Modeling (MMM) estimates the impact of marketing activities on business outcomes such as sales or revenue. Traditional MMM approaches rely on linear regression or Bayesian hierarchical models that assume channel independence and struggle to capture temporal dynamics and non-linear saturation. DeepCausalMMM addresses these limitations by combining deep learning, causal inference, and marketing science. It uses Gated Recurrent Units (GRUs) to learn temporal patterns (adstock, lag) while learning statistical dependencies between channels through Directed Acyclic Graph (DAG) structure with upper triangular constraints. It implements Hill equation saturation curves for diminishing returns and budget optimization. Key features: (1) data-driven hyperparameters learned from data with defaults, (2) linear mean scaling of the dependent variable, (3) configurable attribution priors with dynamic loss scaling, (4) multi-region modeling with shared and region-specific parameters, (5) robust methods including Huber loss, (6) response curve analysis.",
+ "primary": "cs.LG"
+}

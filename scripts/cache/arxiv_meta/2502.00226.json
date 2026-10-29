@@ -1,0 +1,19 @@
+{
+ "id": "2502.00226",
+ "title": "HackerRank-ASTRA: Evaluating Correctness & Consistency of Large Language Models on cross-domain multi-file project problems",
+ "authors": [
+  "Jun Xing",
+  "Mayur Bhatia",
+  "Sahil Phulwani",
+  "Darshan Suresh",
+  "Rafik Matta"
+ ],
+ "v1_date": "2025-01-31",
+ "latest_version": 1,
+ "latest_date": "2025-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 25 figures",
+ "abstract": "Evaluating the real-world applicability of large language models (LLMs) provides valuable insights for their development and use in software development tasks. Existing benchmarks often focus on standalone coding problems or specific libraries, overlooking multi-file, project-based scenarios and lacking a rigorous evaluation of consistency. The HackerRank-ASTRA Benchmark introduces project-based coding problems that mirror real-world scenarios. It evaluates model consistency through 32 runs (k = 32) and median standard deviation while incorporating taxonomy-level analysis to assess sub-skill capabilities. Initial evaluations on 65 problems show that the top three models -- o1, o1-preview, and Claude-3.5-Sonnet-1022 -- achieved comparable average scores of 75%, with no statistically significant differences in performance. Notably, Claude-3.5-Sonnet-1022 demonstrated the highest consistency across problems, with low variability (SD = 0.0497), which was statistically significant compared to other models, highlighting its reliability for real-world software development tasks.",
+ "primary": "cs.LG"
+}

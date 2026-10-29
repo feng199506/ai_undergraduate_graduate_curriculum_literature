@@ -1,0 +1,20 @@
+{
+ "id": "2505.07100",
+ "title": "Navigating the Rashomon Effect: How Personalization Can Help Adjust Interpretable Machine Learning Models to Individual Users",
+ "authors": [
+  "Julian Rosenberger",
+  "Philipp Schröppel",
+  "Sven Kruschel",
+  "Mathias Kraus",
+  "Patrick Zschech",
+  "Maximilian Förster"
+ ],
+ "v1_date": "2025-05-11",
+ "latest_version": 1,
+ "latest_date": "2025-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted as a Completed Research Paper at the Thirty-Third European Conference on Information Systems (ECIS 2025), Amman, Jordan",
+ "abstract": "The Rashomon effect describes the observation that in machine learning (ML) multiple models often achieve similar predictive performance while explaining the underlying relationships in different ways. This observation holds even for intrinsically interpretable models, such as Generalized Additive Models (GAMs), which offer users valuable insights into the model's behavior. Given the existence of multiple GAM configurations with similar predictive performance, a natural question is whether we can personalize these configurations based on users' needs for interpretability. In our study, we developed an approach to personalize models based on contextual bandits. In an online experiment with 108 users in a personalized treatment and a non-personalized control group, we found that personalization led to individualized rather than one-size-fits-all configurations. Despite these individual adjustments, the interpretability remained high across both groups, with users reporting a strong understanding of the models. Our research offers initial insights into the potential for personalizing interpretable ML.",
+ "primary": "cs.LG"
+}

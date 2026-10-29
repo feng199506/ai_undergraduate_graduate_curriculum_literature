@@ -1,0 +1,19 @@
+{
+ "id": "2610.33600",
+ "title": "From Average Effects to Proportions Benefiting: A Tutorial on ETZ-Powered Counterfactual Individual Benefit Analysis",
+ "authors": [
+  "Xingya Wang",
+  "Yang Han",
+  "Yushi Liu",
+  "Szu-Yu Tang",
+  "Jason C. Hsu"
+ ],
+ "v1_date": "2026-10-24",
+ "latest_version": 1,
+ "latest_date": "2026-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Consider the question: \"Is it true that at least 80% of patients would benefit more from receiving a new treatment, $Rx$, than from receiving a standard treatment, $C$?\" Conventional treatment efficacy analyses based on average treatment effects cannot directly answer this question. Yet, even if the true mean treatment effects were known exactly, the answer to this question could still be either \"yes\" or \"no\", depending on the variability in patients' treatment responses and the dependence between their potential outcomes. This tutorial introduces a proportion-based perspective on individualized treatment benefit through the ETZ-powered Counterfactual Individual Benefit Analysis framework. We present two metrics, the individual benefit probability and the individual benefit lower bound, which enable confidence-based assessments of whether a prespecified proportion of patients achieves a clinically meaningful treatment benefit. We develop these metrics in both the factual random-pair and counterfactual same-patient settings. In particular, the ETZ decomposition provides a transparent characterization of different sources of outcome variability and enables more precise uncertainty quantification for counterfactual treatment comparisons. We illustrate the framework and its practical implementation using patient-level data from a Phase II randomized clinical trial. By shifting the focus from average treatment effects to population proportions of individual benefit, this tutorial provides a complementary perspective for evaluating treatment efficacy and informing individualized treatment decisions while controlling the type I error rate at a prespecified level.",
+ "primary": "stat.ME"
+}

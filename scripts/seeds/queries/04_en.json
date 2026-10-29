@@ -1,20 +1,134 @@
 [
- {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"software engineering for machine learning\" OR abs:\"machine learning systems\" OR abs:\"SE4ML\")", "subtopic": "ML 软件工程"},
- {"q": "(ti:\"technical debt\" OR ti:\"code smells\" OR ti:\"bugs\") AND (abs:\"machine learning\" OR abs:\"deep learning\") AND (ti:survey OR ti:review OR ti:study OR ti:empirical)", "subtopic": "ML 软件质量与缺陷"},
- {"q": "(ti:\"learned index\" OR ti:\"learned indexes\" OR ti:\"learned database\" OR ti:\"machine learning for databases\" OR ti:\"AI4DB\") AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)", "subtopic": "学习型索引与数据库 ML"},
- {"q": "(ti:\"large language models\" OR ti:LLM) AND (ti:database OR ti:\"data management\" OR ti:\"text-to-SQL\") AND (ti:survey OR ti:review)", "subtopic": "数据库与大模型"},
- {"q": "(ti:GPU OR ti:CUDA OR ti:\"parallel programming\") AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:survey OR ti:review)", "subtopic": "GPU 与并行编程"},
- {"q": "(ti:\"kernel\" OR ti:\"Triton\" OR ti:\"CUDA\") AND (ti:benchmark OR ti:survey) AND abs:\"GPU kernels\"", "subtopic": "GPU 与并行编程"},
- {"q": "(ti:\"algorithms with predictions\" OR ti:\"learning-augmented algorithms\" OR ti:\"learned algorithms\") AND (ti:survey OR ti:introduction OR ti:tutorial OR abs:survey)", "subtopic": "算法与 ML"},
- {"q": "(ti:\"neural algorithmic reasoning\" OR ti:\"algorithmic reasoning\" OR ti:\"CLRS\") ", "subtopic": "算法与 ML"},
- {"q": "(ti:\"machine learning for compilers\" OR ti:\"ML compilers\" OR ti:\"deep learning compilers\" OR ti:\"machine learning in compilers\") AND (ti:survey OR ti:review)", "subtopic": "编译与系统中的 ML"},
- {"q": "(ti:\"machine learning for systems\" OR ti:\"ML for systems\" OR ti:\"learned systems\" OR ti:\"operating systems\") AND (ti:survey OR ti:review) AND abs:\"machine learning\"", "subtopic": "计算机系统与 ML"},
- {"q": "(ti:\"code generation\" OR ti:\"programming education\" OR ti:\"computing education\" OR ti:\"introductory programming\") AND (ti:survey OR ti:review OR ti:\"systematic literature review\") AND abs:\"large language models\"", "subtopic": "编程教学与代码大模型"},
- {"q": "(ti:\"software testing\" OR ti:\"testing machine learning\" OR ti:\"testing deep learning\") AND (ti:survey OR ti:review)", "subtopic": "软件测试"},
- {"q": "(ti:\"large language models for software engineering\" OR ti:\"LLM-based\" OR ti:\"large language models\") AND ti:\"software engineering\" AND (ti:survey OR ti:review OR ti:\"literature review\")", "subtopic": "软件工程与大模型"},
- {"q": "(ti:\"data structures\" OR ti:\"sorting\" OR ti:\"hashing\" OR ti:\"graph algorithms\") AND (abs:\"machine learning\" OR abs:\"learned\") AND (ti:survey OR ti:review OR ti:benchmark)", "subtopic": "数据结构与算法"},
- {"q": "(ti:\"Python\" OR ti:\"Jupyter\" OR ti:\"notebooks\") AND (abs:\"machine learning\" OR abs:\"data science\") AND (ti:survey OR ti:study OR ti:empirical OR ti:analysis)", "subtopic": "Python 与数据科学编程"},
- {"q": "(ti:\"dataframe\" OR ti:\"data systems\" OR ti:\"data processing\") AND (abs:\"machine learning\") AND (ti:survey OR ti:review OR ti:benchmark)", "subtopic": "数据处理与数据系统"},
- {"q": "(ti:\"computer architecture\" OR ti:\"hardware\" OR ti:\"accelerators\") AND (ti:survey OR ti:tutorial OR ti:introduction) AND abs:\"deep learning\" AND cat:cs.AR", "subtopic": "计算机体系结构与 ML"},
- {"q": "(ti:\"reproducibility\" OR ti:\"dependency\" OR ti:\"MLOps\") AND (ti:survey OR ti:review OR ti:\"systematic\") AND abs:\"software\" AND abs:\"machine learning\"", "subtopic": "ML 软件工程"}
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"software engineering for machine learning\" OR abs:\"machine learning systems\" OR abs:\"SE4ML\")",
+  "subtopic": "ML 软件工程"
+ },
+ {
+  "q": "(ti:\"technical debt\" OR ti:\"code smells\" OR ti:\"bugs\") AND (abs:\"machine learning\" OR abs:\"deep learning\") AND (ti:survey OR ti:review OR ti:study OR ti:empirical)",
+  "subtopic": "ML 软件质量与缺陷"
+ },
+ {
+  "q": "(ti:\"learned index\" OR ti:\"learned indexes\" OR ti:\"learned database\" OR ti:\"machine learning for databases\" OR ti:\"AI4DB\") AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+  "subtopic": "学习型索引与数据库 ML"
+ },
+ {
+  "q": "(ti:\"large language models\" OR ti:LLM) AND (ti:database OR ti:\"data management\" OR ti:\"text-to-SQL\") AND (ti:survey OR ti:review)",
+  "subtopic": "数据库与大模型"
+ },
+ {
+  "q": "(ti:GPU OR ti:CUDA OR ti:\"parallel programming\") AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:survey OR ti:review)",
+  "subtopic": "GPU 与并行编程"
+ },
+ {
+  "q": "(ti:\"kernel\" OR ti:\"Triton\" OR ti:\"CUDA\") AND (ti:benchmark OR ti:survey) AND abs:\"GPU kernels\"",
+  "subtopic": "GPU 与并行编程"
+ },
+ {
+  "q": "(ti:\"algorithms with predictions\" OR ti:\"learning-augmented algorithms\" OR ti:\"learned algorithms\") AND (ti:survey OR ti:introduction OR ti:tutorial OR abs:survey)",
+  "subtopic": "算法与 ML"
+ },
+ {
+  "q": "(ti:\"neural algorithmic reasoning\" OR ti:\"algorithmic reasoning\" OR ti:\"CLRS\") ",
+  "subtopic": "算法与 ML"
+ },
+ {
+  "q": "(ti:\"machine learning for compilers\" OR ti:\"ML compilers\" OR ti:\"deep learning compilers\" OR ti:\"machine learning in compilers\") AND (ti:survey OR ti:review)",
+  "subtopic": "编译与系统中的 ML"
+ },
+ {
+  "q": "(ti:\"machine learning for systems\" OR ti:\"ML for systems\" OR ti:\"learned systems\" OR ti:\"operating systems\") AND (ti:survey OR ti:review) AND abs:\"machine learning\"",
+  "subtopic": "计算机系统与 ML"
+ },
+ {
+  "q": "(ti:\"code generation\" OR ti:\"programming education\" OR ti:\"computing education\" OR ti:\"introductory programming\") AND (ti:survey OR ti:review OR ti:\"systematic literature review\") AND abs:\"large language models\"",
+  "subtopic": "编程教学与代码大模型"
+ },
+ {
+  "q": "(ti:\"software testing\" OR ti:\"testing machine learning\" OR ti:\"testing deep learning\") AND (ti:survey OR ti:review)",
+  "subtopic": "软件测试"
+ },
+ {
+  "q": "(ti:\"large language models for software engineering\" OR ti:\"LLM-based\" OR ti:\"large language models\") AND ti:\"software engineering\" AND (ti:survey OR ti:review OR ti:\"literature review\")",
+  "subtopic": "软件工程与大模型"
+ },
+ {
+  "q": "(ti:\"data structures\" OR ti:\"sorting\" OR ti:\"hashing\" OR ti:\"graph algorithms\") AND (abs:\"machine learning\" OR abs:\"learned\") AND (ti:survey OR ti:review OR ti:benchmark)",
+  "subtopic": "数据结构与算法"
+ },
+ {
+  "q": "(ti:\"Python\" OR ti:\"Jupyter\" OR ti:\"notebooks\") AND (abs:\"machine learning\" OR abs:\"data science\") AND (ti:survey OR ti:study OR ti:empirical OR ti:analysis)",
+  "subtopic": "Python 与数据科学编程"
+ },
+ {
+  "q": "(ti:\"dataframe\" OR ti:\"data systems\" OR ti:\"data processing\") AND (abs:\"machine learning\") AND (ti:survey OR ti:review OR ti:benchmark)",
+  "subtopic": "数据处理与数据系统"
+ },
+ {
+  "q": "(ti:\"computer architecture\" OR ti:\"hardware\" OR ti:\"accelerators\") AND (ti:survey OR ti:tutorial OR ti:introduction) AND abs:\"deep learning\" AND cat:cs.AR",
+  "subtopic": "计算机体系结构与 ML"
+ },
+ {
+  "q": "(ti:\"reproducibility\" OR ti:\"dependency\" OR ti:\"MLOps\") AND (ti:survey OR ti:review OR ti:\"systematic\") AND abs:\"software\" AND abs:\"machine learning\"",
+  "subtopic": "ML 软件工程"
+ },
+ {
+  "q": "(ti:GPU OR ti:CUDA OR ti:GPUs OR ti:\"tensor cores\") AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:\"programming model\" OR ti:\"programming models\" OR ti:survey OR ti:review OR ti:\"lecture notes\") AND (cat:cs.DC OR cat:cs.PF OR cat:cs.MS OR cat:cs.LG OR cat:cs.PL)",
+  "subtopic": "GPU 与并行编程"
+ },
+ {
+  "q": "(ti:\"GPU kernels\" OR ti:\"GPU kernel\" OR ti:CUDA OR ti:Triton) AND (ti:benchmark OR ti:benchmarking OR ti:\"large language models\" OR ti:LLMs) AND cat:cs.LG",
+  "subtopic": "GPU 与并行编程"
+ },
+ {
+  "q": "(ti:\"computing education\" OR ti:\"programming education\" OR ti:\"introductory programming\" OR ti:CS1 OR ti:\"computer science education\" OR ti:\"programming courses\") AND (abs:\"large language models\" OR abs:\"generative AI\" OR abs:ChatGPT)",
+  "subtopic": "编程教学与代码大模型"
+ },
+ {
+  "q": "(ti:\"deep learning compilers\" OR ti:\"tensor compilers\" OR ti:\"ML compilers\" OR ti:\"machine learning compilers\" OR ti:MLIR OR ti:\"compiler optimization\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR abs:\"machine learning\")",
+  "subtopic": "编译与系统中的 ML"
+ },
+ {
+  "q": "(ti:PyTorch OR ti:JAX OR ti:TensorFlow OR ti:NumPy OR ti:\"deep learning frameworks\") AND (ti:survey OR ti:study OR ti:empirical OR ti:design OR ti:compiler OR ti:\"dynamic\")",
+  "subtopic": "Python 与数据科学编程"
+ },
+ {
+  "q": "(ti:\"machine learning\" OR ti:\"AI-based systems\" OR ti:\"ML-enabled systems\" OR ti:\"AI engineering\" OR ti:MLOps OR ti:\"ML systems\") AND (ti:\"software engineering\" OR ti:architecture OR ti:practices OR ti:challenges) AND (ti:survey OR ti:review OR ti:\"mapping study\" OR ti:\"literature review\")",
+  "subtopic": "ML 软件工程"
+ },
+ {
+  "q": "(ti:\"learned Bloom filter\" OR ti:\"learned data structures\" OR ti:\"learned sorting\" OR ti:\"learned hash\" OR ti:\"learned query optimization\" OR ti:\"learned cardinality\" OR ti:\"learned query optimizer\")",
+  "subtopic": "学习型索引与数据库 ML"
+ },
+ {
+  "q": "(ti:\"machine learning for databases\" OR ti:\"AI for databases\" OR ti:\"database systems\" OR ti:\"query optimization\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:benchmark) AND (abs:\"machine learning\" OR abs:\"learned\" OR abs:\"large language models\")",
+  "subtopic": "学习型索引与数据库 ML"
+ },
+ {
+  "q": "(ti:\"learning-augmented\" OR ti:\"algorithms with predictions\" OR ti:\"learned advice\" OR ti:\"predictions\") AND (ti:algorithms OR ti:algorithm OR ti:\"data structures\" OR ti:scheduling OR ti:caching) AND cat:cs.DS",
+  "subtopic": "算法与 ML"
+ },
+ {
+  "q": "(ti:\"neural algorithmic reasoning\" OR ti:\"algorithmic reasoning\") AND (ti:survey OR ti:review OR ti:benchmark OR ti:perspective OR ti:position)",
+  "subtopic": "算法与 ML"
+ },
+ {
+  "q": "(ti:\"parallel programming\" OR ti:\"parallel computing\" OR ti:\"high-performance computing\" OR ti:HPC OR ti:OpenMP OR ti:MPI) AND (abs:\"large language models\" OR abs:\"machine learning\" OR abs:\"deep learning\") AND (ti:survey OR ti:review OR ti:benchmark OR ti:introduction OR ti:tutorial)",
+  "subtopic": "GPU 与并行编程"
+ },
+ {
+  "q": "(ti:\"Jupyter notebooks\" OR ti:\"computational notebooks\" OR ti:\"data science code\" OR ti:\"ML code\" OR ti:\"machine learning code\") AND (ti:quality OR ti:reproducibility OR ti:smells OR ti:empirical OR ti:study OR ti:bugs)",
+  "subtopic": "Python 与数据科学编程"
+ },
+ {
+  "q": "(ti:\"code generation\" OR ti:\"program synthesis\" OR ti:\"code LLMs\") AND (ti:\"data structures\" OR ti:algorithms OR ti:\"competitive programming\" OR ti:efficiency OR ti:\"efficient code\") AND (ti:benchmark OR ti:benchmarking OR ti:evaluating)",
+  "subtopic": "数据结构与算法"
+ },
+ {
+  "q": "(ti:\"operating systems\" OR ti:\"computer systems\" OR ti:\"systems research\" OR ti:\"storage systems\" OR ti:\"distributed systems\") AND (abs:\"machine learning\" OR abs:\"large language models\") AND (ti:survey OR ti:review OR ti:vision OR ti:perspective)",
+  "subtopic": "计算机系统与 ML"
+ },
+ {
+  "q": "(ti:\"software engineering\" OR ti:\"software development\") AND (ti:\"deep learning\" OR ti:\"machine learning\") AND (ti:\"systematic literature review\" OR ti:survey OR ti:roadmap OR ti:\"state of the art\")",
+  "subtopic": "ML 软件工程"
+ }
 ]

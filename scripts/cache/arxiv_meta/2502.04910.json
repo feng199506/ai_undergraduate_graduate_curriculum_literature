@@ -1,0 +1,18 @@
+{
+ "id": "2502.04910",
+ "title": "On the Power of Heuristics in Temporal Graphs",
+ "authors": [
+  "Filip Cornell",
+  "Oleg Smirnov",
+  "Gabriela Zarzar Gandler",
+  "Lele Cao"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 1,
+ "latest_date": "2025-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dynamic graph datasets often exhibit strong temporal patterns, such as recency, which prioritizes recent interactions, and popularity, which favors frequently occurring nodes. We demonstrate that simple heuristics leveraging only these patterns can perform on par or outperform state-of-the-art neural network models under standard evaluation protocols. To further explore these dynamics, we introduce metrics that quantify the impact of recency and popularity across datasets. Our experiments on BenchTemp and the Temporal Graph Benchmark show that our approaches achieve state-of-the-art performance across all datasets in the latter and secure top ranks on multiple datasets in the former. These results emphasize the importance of refined evaluation schemes to enable fair comparisons and promote the development of more robust temporal graph models. Additionally, they reveal that current deep learning methods often struggle to capture the key patterns underlying predictions in real-world temporal graphs. For reproducibility, we have made our code publicly available.",
+ "primary": "cs.LG"
+}

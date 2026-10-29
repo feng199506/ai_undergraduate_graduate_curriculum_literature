@@ -1,0 +1,19 @@
+{
+ "id": "2506.04282",
+ "title": "DrSR: LLM based Scientific Equation Discovery with Dual Reasoning from Data and Experience",
+ "authors": [
+  "Runxiang Wang",
+  "Boxiao Wang",
+  "Kai Li",
+  "Yifan Zhang",
+  "Jian Cheng"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 1,
+ "latest_date": "2025-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Symbolic regression is a fundamental tool for discovering interpretable mathematical expressions from data, with broad applications across scientific and engineering domains. Recently, large language models (LLMs) have demonstrated strong performance in this task, leveraging embedded scientific priors and reasoning capabilities to surpass traditional methods. However, existing LLM-based approaches, such as LLM-SR, often over-rely on internal priors, lacking explicit data understanding and systematic reflection during equation generation. To address these limitations, we propose DrSR (Dual Reasoning Symbolic Regression), a framework that combines data-driven insight with reflective learning to enhance both robustness and discovery capability. Specifically, DrSR guides LLMs to analyze structural relationships (e.g., monotonicity, nonlinearity, and correlation) within the data to generate structured descriptions. Simultaneously, it monitors equation performance and establishes a feedback loop to refine subsequent generations. By integrating data understanding and generation reflection in a closed loop, DrSR enables more efficient exploration of the symbolic expression space. Experiments across interdisciplinary datasets in physics, chemistry, biology, and materials science demonstrate that DrSR substantially improves the valid equation rate and consistently outperforms both classical and recent LLM-based methods in terms of accuracy, generalization, and search efficiency. These results underscore its potential for scientific equation discovery.",
+ "primary": "cs.LG"
+}

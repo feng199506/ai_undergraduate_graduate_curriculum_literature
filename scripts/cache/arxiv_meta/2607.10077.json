@@ -1,0 +1,16 @@
+{
+ "id": "2607.10077",
+ "title": "TabLoRA: Parameter-Efficient Low-Rank Ensemble Learning for Large-Scale Tabular Data",
+ "authors": [
+  "Jiaqi Luo",
+  "Shixin Xu"
+ ],
+ "v1_date": "2026-07-11",
+ "latest_version": 1,
+ "latest_date": "2026-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tabular learning is still dominated by gradient-boosted decision trees (GBDTs), while recent deep learning approaches have become increasingly competitive. However, applying deep tabular models to large-scale datasets remains challenging, as large sample sizes, high feature dimensionality, or many target classes can introduce substantial computational cost. We propose TabLoRA, a parameter-efficient trainable neural ensemble for large-scale tabular learning. Instead of using fully independent ensemble backbones, TabLoRA shares a common backbone across predictors and introduces predictor-specific low-rank adaptations, enabling ensemble-style prediction without full parameter duplication. Across benchmarks, TabLoRA achieves a favorable balance between predictive performance and practical efficiency compared with GBDT methods and recent deep learning baselines under the same resource constraints. Memory analysis and ablation studies further show that the proposed design improves the feasibility of neural ensemble learning while preserving much of the benefit of full ensembles.",
+ "primary": "cs.LG"
+}

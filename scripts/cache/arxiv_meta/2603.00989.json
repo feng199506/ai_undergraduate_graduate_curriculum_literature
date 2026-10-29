@@ -1,0 +1,19 @@
+{
+ "id": "2603.00989",
+ "title": "Energy-Efficient Code Generation Using Large Language Models: A Systematic Literature Review",
+ "authors": [
+  "Sabiya Banu Masthan Ali",
+  "Syed Muhammad Danish",
+  "Aroosa Hameed",
+  "Oussema Kirmani",
+  "Gautam Srivastava"
+ ],
+ "v1_date": "2026-03-01",
+ "latest_version": 4,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) are increasingly used in software engineering for code generation, completion, translation, and repair. While substantial research has examined the energy consumption and environmental impact of LLM training and inference, considerably less attention has been given to the energy efficiency of the code produced by these models. Existing studies are fragmented across different models, programming tasks, benchmarks, hardware platforms, and measurement methods, making it difficult to draw consistent conclusions about the energy efficiency of LLM-generated code. No systematic synthesis currently consolidates these findings or identifies common trends, gaps, and methodological inconsistencies. To address this gap, we conduct a systematic literature review of existing empirical studies on the energy efficiency of LLM-generated code. We examine the extent to which LLMs generate energy-efficient code, the metrics used for evaluation, the benchmarks, datasets, and measurement tools employed, and the influence of prompting and fine-tuning strategies. Our findings show that the current evidence remains limited and highly heterogeneous. Most studies rely on conventional software-efficiency metrics and existing programming or code-generation benchmarks rather than evaluation methods specifically designed for LLM-generated code. The reported energy-efficiency outcomes are strongly dependent on the evaluated model, task, benchmark, and experimental configuration, and no single prompting strategy consistently improves energy efficiency across settings. We further find limited investigation of small language models, energy-aware fine-tuning, diverse programming languages, real-world software domains, and direct hardware-based energy measurement. Overall, the review highlights the lack of standardized evaluation practices and dedicated energy-efficiency benchmarks.",
+ "primary": "cs.SE"
+}

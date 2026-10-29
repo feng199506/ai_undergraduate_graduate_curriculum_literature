@@ -1,0 +1,18 @@
+{
+ "id": "2402.11124",
+ "title": "Implicit Causal Representation Learning via Switchable Mechanisms",
+ "authors": [
+  "Shayan Shirahmad Gale Bagi",
+  "Zahra Gharaee",
+  "Oliver Schulte",
+  "Mark Crowley"
+ ],
+ "v1_date": "2024-02-16",
+ "latest_version": 4,
+ "latest_date": "2024-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning causal representations from observational and interventional data in the absence of known ground-truth graph structures necessitates implicit latent causal representation learning. Implicit learning of causal mechanisms typically involves two categories of interventional data: hard and soft interventions. In real-world scenarios, soft interventions are often more realistic than hard interventions, as the latter require fully controlled environments. Unlike hard interventions, which directly force changes in a causal variable, soft interventions exert influence indirectly by affecting the causal mechanism. However, the subtlety of soft interventions impose several challenges for learning causal models. One challenge is that soft intervention's effects are ambiguous, since parental relations remain intact. In this paper, we tackle the challenges of learning causal models using soft interventions while retaining implicit modelling. We propose ICLR-SM, which models the effects of soft interventions by employing a causal mechanism switch variable designed to toggle between different causal mechanisms. In our experiments, we consistently observe improved learning of identifiable, causal representations, compared to baseline approaches.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2605.06152",
+ "title": "Grokking or Glitching? How Low-Precision Drives Slingshot Loss Spikes",
+ "authors": [
+  "Hanqing Liu",
+  "Jianjun Cao",
+  "Yuanze Li",
+  "Zijian Zhou"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 4,
+ "latest_date": "2026-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 13 figures; accepted to NeurIPS 2026",
+ "abstract": "Deep neural networks exhibit periodic loss spikes during unregularized long-term training, a phenomenon known as the \"Slingshot Mechanism.\" Existing work usually attributes this to intrinsic optimization dynamics, but its triggering mechanism remains unclear. This paper proves that this phenomenon is a result of floating-point arithmetic precision limits. As training enters a high-confidence stage, the difference between the correct-class logit and the other logits may exceed the absorption-error threshold. Then during backpropagation, the gradient of the correct class is rounded exactly to zero, while the gradients of the incorrect classes remain nonzero. This breaks the zero-sum constraint of gradients across classes and introduces a systematic drift in the parameter update of the classifier layer. We prove that this drift forms a positive feedback loop with the feature, causing the global classifier mean and the global feature mean to grow exponentially. We call this mechanism Numerical Feature Inflation (NFI). This mechanism explains the rapid norm growth before a Slingshot spike, the subsequent reappearance of gradients, and the resulting loss spike. We further show that NFI is not equivalent to an observed loss spike: in more practical tasks, partial absorption may not produce visible spikes, but it can still break the zero-sum constraint and drive rapid growth of parameter norms. Our results reinterpret Slingshot as a numerical dynamic of finite-precision training, and provide a testable explanation for abnormal parameter growth and logit divergence in late-stage training.",
+ "primary": "cs.LG"
+}

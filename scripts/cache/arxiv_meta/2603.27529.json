@@ -1,0 +1,19 @@
+{
+ "id": "2603.27529",
+ "title": "Cross-attentive Cohesive Subgraph Embedding to Mitigate Oversquashing in GNNs",
+ "authors": [
+  "Tanvir Hossain",
+  "Muhammad Ifte Khairul Islam",
+  "Lilia Chebbah",
+  "Charles Fanning",
+  "Esra Akbas"
+ ],
+ "v1_date": "2026-03-29",
+ "latest_version": 3,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph neural networks (GNNs) have achieved strong performance across various real-world domains. Nevertheless, they suffer from oversquashing, where long-range information is distorted as it is compressed through limited message-passing pathways. This bottleneck limits their ability to capture essential global context and decreases their performance, particularly in dense and heterophilic regions of graphs. To address this issue, we propose a novel graph learning framework that enriches node embeddings via cross-attentive cohesive subgraph representations to mitigate the impact of excessive long-range dependencies. This framework enhances the node representation by emphasizing cohesive structure in long-range information but removing noisy or irrelevant connections. It preserves essential global context without overloading the narrow bottlenecked channels, which further mitigates oversquashing. Extensive experiments on multiple benchmark datasets demonstrate that our model achieves consistent improvements in classification accuracy over standard baseline methods.",
+ "primary": "cs.LG"
+}

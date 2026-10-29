@@ -1,0 +1,20 @@
+{
+ "id": "2506.06482",
+ "title": "TimeRecipe: A Time-Series Forecasting Recipe via Benchmarking Module Level Effectiveness",
+ "authors": [
+  "Zhiyuan Zhao",
+  "Juntong Ni",
+  "Shangqing Xu",
+  "Haoxin Liu",
+  "Wei Jin",
+  "B. Aditya Prakash"
+ ],
+ "v1_date": "2025-06-06",
+ "latest_version": 3,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages, 1 figure, 30 tables",
+ "abstract": "Time-series forecasting is an essential task with wide real-world applications across domains. While recent advances in deep learning have enabled time-series forecasting models with accurate predictions, there remains considerable debate over which architectures and design components, such as series decomposition or normalization, are most effective under varying conditions. Existing benchmarks primarily evaluate models at a high level, offering limited insight into why certain designs work better. To mitigate this gap, we propose TimeRecipe, a unified benchmarking framework that systematically evaluates time-series forecasting methods at the module level. TimeRecipe conducts over 10,000 experiments to assess the effectiveness of individual components across a diverse range of datasets, forecasting horizons, and task settings. Our results reveal that exhaustive exploration of the design space can yield models that outperform existing state-of-the-art methods and uncover meaningful intuitions linking specific design choices to forecasting scenarios. Furthermore, we release a practical toolkit within TimeRecipe that recommends suitable model architectures based on these empirical insights. The benchmark is available at: https://github.com/AdityaLab/TimeRecipe.",
+ "primary": "cs.LG"
+}

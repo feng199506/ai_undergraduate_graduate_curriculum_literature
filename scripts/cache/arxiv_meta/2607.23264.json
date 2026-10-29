@@ -1,0 +1,26 @@
+{
+ "id": "2607.23264",
+ "title": "X-Stage: Modeling Post-Issue Backpressure in GPU Communication--Computation Fusion",
+ "authors": [
+  "Jianwen Xian",
+  "Zhiyuan Xu",
+  "Yuchen Li",
+  "Ziliang Lai",
+  "Kang He",
+  "Zhen Huang",
+  "Aichen Feng",
+  "Jinyan Chen",
+  "Yilin Zhang",
+  "Qinqin Chen",
+  "Julien Lai",
+  "Chengru Song"
+ ],
+ "v1_date": "2026-07-25",
+ "latest_version": 2,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fine-grained, device-initiated communication allows fused GPU kernels to issue remote stores directly from their compute pipelines, a pattern increasingly used in expert parallelism (EP), tensor parallelism (TP), and Ulysses-style sequence parallelism (UP). Existing designs reason about where communication is issued and when remote data becomes ready, but lack a quantitative model of the sender-side interval after a remote store is accepted and before it becomes visible at the destination. This interval determines whether communication remains decoupled from computation or backpressures it. We identify X-Stage, a software-visible post-issue stage with finite decoupling. Downstream pressure can dissipate while the issuer resumes useful work, whereas sustained injection consumes X-Stage headroom and eventually stalls the compute pipeline. We characterize this behavior and build a calibrated model that predicts whether remote-store arrivals accumulate backpressure or recover during intervening computation. Guided by the model, we reshape bursty arrivals when they would exhaust X-Stage headroom and exploit natural compute windows when headroom can recover concurrently. Evaluation across representative EP, TP, and UP workloads shows up to 1.62x fused-kernel, 1.75x end-to-end, and 1.43x sender-visible speedup, respectively. Microbenchmarks further validate the model's predictions of backlog accumulation, recovery, and sender-side backpressure.",
+ "primary": "cs.DC"
+}

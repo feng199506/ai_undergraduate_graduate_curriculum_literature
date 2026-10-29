@@ -1,0 +1,15 @@
+{
+ "id": "2508.13525",
+ "title": "Saudi-Dialect-ALLaM: LoRA Fine-Tuning for Dialectal Arabic Generation",
+ "authors": [
+  "Hassan Barmandah"
+ ],
+ "v1_date": "2025-08-19",
+ "latest_version": 1,
+ "latest_date": "2025-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 6 figures, 2 tables. Code: https://github.com/HasanBGIt/Saudi-Dialect-ALLaM . Dataset and trained weights/adapters are not released. Primary category: cs.CL",
+ "abstract": "Large language models (LLMs) for Arabic are still dominated by Modern Standard Arabic (MSA), with limited support for Saudi dialects such as Najdi and Hijazi. This underrepresentation hinders their ability to capture authentic dialectal variation. Using a privately curated Saudi Dialect Instruction dataset (Hijazi and Najdi; 5,466 synthetic instruction-response pairs; 50/50 split), we LoRA-tune ALLaM-7B-Instruct-preview, the first foundation model developed in Saudi Arabia, for Saudi dialect generation. We investigate two variants: (i) Dialect-Token training, which prepends an explicit dialect tag to the instruction, and (ii) No-Token training, which omits the tag at formatting time. Evaluation on a held-out test set combines an external dialect classifier with text fidelity metrics (chrF++ and BERTScore) and diversity measures. The Dialect-Token model achieves the best control, raising the Saudi rate from 47.97% to 84.21% and reducing MSA leakage from 32.63% to 6.21%; fidelity also improves (chrF++ +3.53, BERTScore +0.059). Both LoRA variants outperform strong generic instruction models (Falcon-7B-Instruct, Llama-3.1-8B-Instruct, Qwen-2.5-7B-Instruct, AceGPT-v2-8B-Chat, JAIS-13B-Chat) in dialect control and fidelity, while avoiding metadata-tag echoing that these baselines frequently exhibit. We do not release the dataset or any model weights/adapters; instead, we release training/evaluation/inference code and a detailed datasheet (schema and aggregate statistics) to support independent verification.",
+ "primary": "cs.CL"
+}

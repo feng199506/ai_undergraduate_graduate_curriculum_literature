@@ -1,0 +1,17 @@
+{
+ "id": "2602.04718",
+ "title": "Superposition Without Interference? Towards Isolated Interventions via Almost Orthogonal Features in Language Models",
+ "authors": [
+  "Moritz Miller",
+  "Florent Draye",
+  "Bernhard Schölkopf"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 5,
+ "latest_date": "2026-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published as a conference paper at the Conference on Language Modeling (COLM) 2026",
+ "abstract": "A central premise in mechanistic interpretability is that meaningful concepts in language models are represented by linear features in activation space. For such features to support reliable interventions, manipulating one feature should not substantially alter the effects of others. In practice, however, feature entanglement leads to interference such that localized interventions can have unintended downstream effects. Motivated by the _Independent Causal Mechanisms_ principle, we propose to constrain internal features to be almost orthogonal. We argue that this promotes modular representations amenable to causal intervention. We formalize this problem by characterizing the gap between an idealized isolated intervention and its realized effect on model outputs in terms of feature interference. We upper-bound the propagation of feature interference in terms of the self-coherence of the feature dictionary, and relate this discrepancy to an explicit orthogonality regularization on the dictionary itself. Empirically, we show that this regularization enables more isolated interventions on mathematical reasoning concepts while preserving model performance. Our code is available under https://github.com/mrtzmllr/sae-icm.",
+ "primary": "cs.LG"
+}

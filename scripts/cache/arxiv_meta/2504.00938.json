@@ -1,0 +1,18 @@
+{
+ "id": "2504.00938",
+ "title": "AI Judges in Design: Statistical Perspectives on Achieving Human Expert Equivalence With Vision-Language Models",
+ "authors": [
+  "Kristen M. Edwards",
+  "Farnaz Tehranchi",
+  "Scarlett R. Miller",
+  "Faez Ahmed"
+ ],
+ "v1_date": "2025-04-01",
+ "latest_version": 1,
+ "latest_date": "2025-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 8 tables, 6 figures, 8 tables in the appendix",
+ "abstract": "The subjective evaluation of early stage engineering designs, such as conceptual sketches, traditionally relies on human experts. However, expert evaluations are time-consuming, expensive, and sometimes inconsistent. Recent advances in vision-language models (VLMs) offer the potential to automate design assessments, but it is crucial to ensure that these AI ``judges'' perform on par with human experts. However, no existing framework assesses expert equivalence. This paper introduces a rigorous statistical framework to determine whether an AI judge's ratings match those of human experts. We apply this framework in a case study evaluating four VLM-based judges on key design metrics (uniqueness, creativity, usefulness, and drawing quality). These AI judges employ various in-context learning (ICL) techniques, including uni- vs. multimodal prompts and inference-time reasoning. The same statistical framework is used to assess three trained novices for expert-equivalence. Results show that the top-performing AI judge, using text- and image-based ICL with reasoning, achieves expert-level agreement for uniqueness and drawing quality and outperforms or matches trained novices across all metrics. In 6/6 runs for both uniqueness and creativity, and 5/6 runs for both drawing quality and usefulness, its agreement with experts meets or exceeds that of the majority of trained novices. These findings suggest that reasoning-supported VLM models can achieve human-expert equivalence in design evaluation. This has implications for scaling design evaluation in education and practice, and provides a general statistical framework for validating AI judges in other domains requiring subjective content evaluation.",
+ "primary": "cs.AI"
+}

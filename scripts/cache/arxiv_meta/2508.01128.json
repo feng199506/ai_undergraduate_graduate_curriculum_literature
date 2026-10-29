@@ -1,0 +1,22 @@
+{
+ "id": "2508.01128",
+ "title": "Towards Bridging Review Sparsity in Recommendation with Textual Edge Graph Representation",
+ "authors": [
+  "Leyao Wang",
+  "Xutao Mao",
+  "Xuhui Zhan",
+  "Yuying Zhao",
+  "Bo Ni",
+  "Ryan A. Rossi",
+  "Nesreen K. Ahmed",
+  "Tyler Derr"
+ ],
+ "v1_date": "2025-08-02",
+ "latest_version": 1,
+ "latest_date": "2025-08-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages",
+ "abstract": "Textual reviews enrich recommender systems with fine-grained preference signals and enhanced explainability. However, in real-world scenarios, users rarely leave reviews, resulting in severe sparsity that undermines the effectiveness of existing models. A natural solution is to impute or generate missing reviews to enrich the data. However, conventional imputation techniques -- such as matrix completion and LLM-based augmentation -- either lose contextualized semantics by embedding texts into vectors, or overlook structural dependencies among user-item interactions. To address these shortcomings, we propose TWISTER (ToWards Imputation on Sparsity with Textual Edge Graph Representation), a unified framework that imputes missing reviews by jointly modeling semantic and structural signals. Specifically, we represent user-item interactions as a Textual-Edge Graph (TEG), treating reviews as edge attributes. To capture relational context, we construct line-graph views and employ a large language model as a graph-aware aggregator. For each interaction lacking a textual review, our model aggregates the neighborhood's natural-language representations to generate a coherent and personalized review. Experiments on the Amazon and Goodreads datasets show that TWISTER consistently outperforms traditional numeric, graph-based, and LLM baselines, delivering higher-quality imputed reviews and, more importantly, enhanced recommendation performance. In summary, TWISTER generates reviews that are more helpful, authentic, and specific, while smoothing structural signals for improved recommendations.",
+ "primary": "cs.IR"
+}

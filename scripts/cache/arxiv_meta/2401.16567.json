@@ -1,0 +1,17 @@
+{
+ "id": "2401.16567",
+ "title": "Parallel Affine Transformation Tuning of Markov Chain Monte Carlo",
+ "authors": [
+  "Philip Schär",
+  "Michael Habeck",
+  "Daniel Rudolf"
+ ],
+ "v1_date": "2024-01-29",
+ "latest_version": 2,
+ "latest_date": "2024-05-29",
+ "journal_ref": "Proceedings of the 41st International Conference on Machine Learning, PMLR 235:43571-43607, 2024",
+ "doi": "",
+ "comment": "37 pages, 9 figures, 10 tables",
+ "abstract": "The performance of Markov chain Monte Carlo samplers strongly depends on the properties of the target distribution such as its covariance structure, the location of its probability mass and its tail behavior. We explore the use of bijective affine transformations of the sample space to improve the properties of the target distribution and thereby the performance of samplers running in the transformed space. In particular, we propose a flexible and user-friendly scheme for adaptively learning the affine transformation during sampling. Moreover, the combination of our scheme with Gibbsian polar slice sampling is shown to produce samples of high quality at comparatively low computational cost in several settings based on real-world data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2602.14161",
+ "title": "When Benchmarks Lie: Evaluating Malicious Prompt Classifiers Under True Distribution Shift",
+ "authors": [
+  "Max Fomin"
+ ],
+ "v1_date": "2026-02-15",
+ "latest_version": 2,
+ "latest_date": "2026-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v2: extended version of the AIWILD @ ICLR 2026 workshop paper; adds multi-model replication and additional analyses",
+ "abstract": "Detecting prompt injection, jailbreak attacks, and harmful requests is critical for deploying LLM-based agents safely, yet current evaluation practices in this literature overestimate generalization. We train activation-based classifiers (linear probes on LLM hidden states) on a benchmark of 18 datasets (prompt attacks plus benign sources) and propose Leave-One-Dataset-Out (LODO) evaluation, where the held-out dataset is never seen during training. Across four LLMs from three families (Llama-3.1-8B, Gemma-3-27B, Qwen-3.5-2B/4B), standard cross-validation reports a pooled AUC 8.0-16.5 points higher than LODO; per-dataset held-out-test-vs-LODO accuracy gaps span 1-25 points. To understand the gap, we analyze the LODO stability of a linear probe's per-feature classifier coefficients, defining a retention metric for sparse-autoencoder (SAE) features that flags dataset-dependent shortcuts. 28-44% of top SAE features are shortcuts across models, a dataset-identity classifier reaches 96.6%, and the dataset-identifying and safety-relevant subspaces partially overlap. Standard domain-generalization fixes such as adversarial training, subspace projection, sample reweighting, and class balancing do not close the gap. Finally, we show LODO-weighted SAE attributions filter dataset artifacts for more reliable per-prompt explanations. We release our framework at https://github.com/maxf-zn/prompt-mining so future prompt-attack classifiers can be evaluated under LODO alongside CV.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2512.01675",
+ "title": "GRASP: Guided Residual Adapters with Sample-wise Partitioning",
+ "authors": [
+  "Felix Nützel",
+  "Mischa Dombrowski",
+  "Bernhard Kainz"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 3,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 6 figures, 9 tables",
+ "abstract": "Text-to-image flow matching transformers degrade sharply in long-tail settings: tail-class outputs collapse in fidelity and diversity, limiting their value as synthetic augmentation for rare conditions. We trace this to low head-versus-tail gradient alignment during fine-tuning, an optimization-level pathology that conditioning- and sampling-side interventions do not address. We propose GRASP (Guided Residual Adapters with Sample-wise Partitioning): a deterministic partition of the conditioning space, paired with group-specific residual adapters in the transformer feedforward layers, that leaves the flow-matching objective and the sampler untouched. In conditional flow matching, condition values index distinct sets of probability paths, which makes the conditioning a structurally natural axis along which to factorize residual updates. Because the partition is static, every tail sample is guaranteed to update its assigned expert, which bypasses extreme long-tail failure modes. GRASP is non-invasive and composable: on MIMIC-CXR-LT, combining GRASP with self-guided minority sampling at inference outperforms its learned counterpart on 10 of 12 metrics. Performance is stable across random reassignments of labels to experts and across expert counts, as long as no expert is starved of samples. Used as training data for a downstream DenseNet classifier on NIH-CXR-LT, GRASP synthetics significantly outperform every non-GRASP alternative on macro F1 and yield nonzero F1 on 9 of 13 classes versus 3 of 13 from real data, while maintaining comparable macro F1. Results on ImageNet-LT confirm the mechanism is not tied to medical inductive bias. Code is available at https://github.com/Felix-012/GRASP-LT",
+ "primary": "cs.CV"
+}

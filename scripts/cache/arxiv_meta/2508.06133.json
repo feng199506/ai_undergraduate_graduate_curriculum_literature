@@ -1,0 +1,17 @@
+{
+ "id": "2508.06133",
+ "title": "LLM Serving Optimization with Variable Prefill and Decode Lengths",
+ "authors": [
+  "Meixuan Wang",
+  "Yinyu Ye",
+  "Zijie Zhou"
+ ],
+ "v1_date": "2025-08-08",
+ "latest_version": 5,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study offline scheduling for large language model (LLM) serving under a fixed KV-cache memory budget, where requests have heterogeneous prompt (prefill) and response (decode) lengths. Given a backlog of requests available at time zero, the scheduler forms mixed prefill/decode batches over time to minimize total end-to-end latency. We show that heterogeneity in prompt lengths fundamentally changes the problem: minimizing total latency is NP-hard, and standard policies that prioritize short outputs or small total sequence sizes can have unbounded approximation ratios. We propose Sorted-F, which repeatedly selects feasible batches using an F-metric that balances batch cardinality against downstream decode cost. With exact batch selection, Sorted-F achieves a constant-factor approximation guarantee in the unit-time, uninterrupted-decoding model with known output lengths; the guarantee also holds under a static peak-memory batch constraint. We develop an exact pseudopolynomial dynamic program for this static subproblem, scalable local-search and greedy heuristics, LP-guided variants, and a receding-horizon online extension. Experiments on public conversational and long-document summarization workloads show that F-metric-based scheduling substantially reduces latency relative to standard baselines and remains close to the LP relaxation lower bound on tractable instances.",
+ "primary": "math.OC"
+}

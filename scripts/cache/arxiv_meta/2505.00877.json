@@ -1,0 +1,17 @@
+{
+ "id": "2505.00877",
+ "title": "Particle Filter for Bayesian Inference on Privatized Data",
+ "authors": [
+  "Yu-Wei Chen",
+  "Pranav Sanghi",
+  "Jordan Awan"
+ ],
+ "v1_date": "2025-05-01",
+ "latest_version": 3,
+ "latest_date": "2026-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Differential Privacy (DP) is a probabilistic framework that protects privacy while preserving data utility. To protect the privacy of the individuals in the dataset, DP requires adding a precise amount of noise to a statistic of interest; however, this noise addition alters the resulting sampling distribution, making statistical inference challenging. One of the main DP goals in Bayesian analysis is to make statistical inference based on the private posterior distribution. While existing methods have strengths in specific conditions, they can be limited by poor mixing, strict assumptions, or low acceptance rates. We propose a novel particle filtering algorithm, which features (i) consistent estimates, (ii) Monte Carlo error estimates and asymptotic confidence intervals, (iii) computational efficiency, and (iv) accommodation to a wide variety of priors, models, and privacy mechanisms with minimal assumptions. We empirically evaluate our algorithm through a variety of simulation settings as well as an application to a 2021 Canadian census dataset, demonstrating the efficacy and adaptability of the proposed sampler.",
+ "primary": "stat.CO"
+}

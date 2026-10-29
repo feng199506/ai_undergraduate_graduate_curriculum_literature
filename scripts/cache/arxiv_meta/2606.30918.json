@@ -1,0 +1,15 @@
+{
+ "id": "2606.30918",
+ "title": "Cross-Fitted Survey-Weighted TMLE with Design-Based Variance for Causal Machine Learning",
+ "authors": [
+  "M. Ehsan Karim"
+ ],
+ "v1_date": "2026-06-29",
+ "latest_version": 2,
+ "latest_date": "2026-07-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v2: 20 pages, 2 figures, 2 tables; 133-page supplementary appendix included as an ancillary file; expanded design-based-variance theory, corrected single-fit simulation arms, three added robustness studies, NHANES re-analysis",
+ "abstract": "Cross-fitting is not a refinement of survey-weighted causal machine learning but, once the nuisances are flexible, what restores valid inference. We study the population average treatment effect under a stratified multistage design, estimated by a survey-aware targeted maximum likelihood estimator (TMLE) whose variance is obtained by Taylor-series linearization of the influence function, treating the primary sampling unit as the replication unit. Our central result is that this validity turns on cross-fitting at the cluster level: sufficiency is established in theory, and the failure without it is shown in simulation. Once flexible learners cross a complexity (Donsker) boundary, single-fit survey TMLE can severely under-cover, and internal cluster-aware cross-validation does not substitute for cross-fitting; among the estimators we evaluate, only out-of-fold fitting at the cluster level restores valid coverage. In simulations spanning a many-PSU and an NHANES-like design, on a diverse ensemble the single-fit and internal cross-validation estimators cover at about 0.89-0.91 and 0.85-0.88 while the cross-fitted estimator holds at 0.93-0.95, and an aggressively grown learner drives single-fit coverage to 0.18-0.22. Two scope choices are deliberate: survey-weighted point estimation is prior work, and the nuisance product-rate condition is assumed and probed empirically. Within these conditions we prove asymptotic normality and design-consistency of the linearization variance. Four NHANES analyses and open-source software illustrate the method.",
+ "primary": "stat.ME"
+}

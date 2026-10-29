@@ -1,0 +1,16 @@
+{
+ "id": "2601.05355",
+ "title": "An AI-powered Bayesian Generative Modeling Approach for Arbitrary Conditional Inference",
+ "authors": [
+  "Qiao Liu",
+  "Wing Hung Wong"
+ ],
+ "v1_date": "2026-01-08",
+ "latest_version": 2,
+ "latest_date": "2026-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern data analysis increasingly requires flexible conditional inference P(X_B | X_A) where (X_A, X_B) is an arbitrary partition of observed variable X. Existing approaches are either restricted to a fixed conditioning structure or depend strongly on the distribution of conditioning masks during training. To address these limitations, we introduce Bayesian generative modeling (BGM), a unified framework for arbitrary conditional inference. BGM learns a generative model of X via a stochastic iterative Bayesian updating algorithm in which model parameters and latent variables are updated until convergence. Once trained, any conditional distribution can be obtained without retraining. Empirically, BGM achieves superior predictive performance with posterior predictive intervals, demonstrating that a single learned model can serve as a universal engine for conditional prediction with principled uncertainty quantification. We provide theoretical guarantees for convergence of the stochastic iterative algorithm, statistical consistency, and conditional risk bounds. The proposed BGM framework leverages modern AI to capture complex relationships among variables while adhering to Bayesian principles, offering a promising approach for a wide range of applications in modern data science. Code for BGM is available at https://github.com/liuq-lab/bayesgm. Document of BGM is available at https://bayesgm.readthedocs.io.",
+ "primary": "stat.ML"
+}

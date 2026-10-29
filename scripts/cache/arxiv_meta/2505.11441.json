@@ -1,0 +1,23 @@
+{
+ "id": "2505.11441",
+ "title": "Is Compression Really Linear with Code Intelligence?",
+ "authors": [
+  "Shijie Xuyang",
+  "Xianzhen Luo",
+  "Zheng Chu",
+  "Houyi Li",
+  "Siming Huang",
+  "Qiufeng Wang",
+  "Wanxiang Che",
+  "Qingfu Zhu",
+  "Shuigeng Zhou"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 5,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "work in progress",
+ "abstract": "Understanding the relationship between data compression and the capabilities of Large Language Models (LLMs) is crucial, especially in specialized domains like code intelligence. Prior work posited a linear relationship between compression and general intelligence. However, it overlooked the multifaceted nature of code that encompasses diverse programming languages and tasks, and struggled with fair evaluation of modern Code LLMs. We address this by evaluating a diverse array of open-source Code LLMs on comprehensive multi-language, multi-task code benchmarks. To address the challenge of efficient and fair evaluation of pre-trained LLMs' code intelligence, we introduce \\textit{Format Annealing}, a lightweight, transparent training methodology designed to assess the intrinsic capabilities of these pre-trained models equitably. Compression efficacy, measured as bits-per-character (BPC), is determined using a novel, large-scale, and previously unseen code validation set derived from GitHub. Our empirical results reveal a fundamental logarithmic relationship between measured code intelligence and BPC. This finding refines prior hypotheses of linearity, which we suggest are likely observations of the logarithmic curve's tail under specific, limited conditions. Our work provides a more nuanced understanding of compression's role in developing code intelligence and contributes a robust evaluation framework in the code domain.",
+ "primary": "cs.CL"
+}

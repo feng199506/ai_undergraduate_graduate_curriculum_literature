@@ -1,0 +1,23 @@
+{
+ "id": "2608.15665",
+ "title": "SubZero+: Memory-Efficient Adaptive Zeroth-Order LLM Fine-Tuning in Random Subspaces",
+ "authors": [
+  "Ziming Yu",
+  "Shuyao Xiao",
+  "Xingyu Zhao",
+  "Sike Wang",
+  "Pan Zhou",
+  "Peiyu Zang",
+  "Xiangda Yan",
+  "Yongjie Yang",
+  "Jia Li"
+ ],
+ "v1_date": "2026-08-16",
+ "latest_version": 2,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Zeroth-order (ZO) optimization with SGD in random subspaces enables memory-efficient fine-tuning of large language models without backpropagation. However, high gradient estimation noise fundamentally undermines adaptive optimizers like Adam. We propose SubZero+, which achieves practical adaptive ZO optimization through a carefully designed dual low-dimensionality strategy: (i) multi-query forward-difference gradient estimation in periodically refreshed random subspaces to mitigate noise amplification in moment buffers, and (ii) Adam updates with periodic restarts performed directly in low-dimensional space rather than full-parameter space. In experiments, this dual design retains memory overhead comparable to momentum-free ZO methods while achieving stronger optimization performance than the evaluated ZO baselines. Theoretically, in the exact-directional limit, $K$-query averaging preserves conditional unbiasedness, while the coefficient estimator's covariance and mean-squared error, as well as query-induced second-moment inflation, scale exactly as $1/K$. Extensive experiments across SuperGLUE with models from 1.3B to 32B parameters under both full fine-tuning and LoRA schemes demonstrate consistent improvements over competing ZO methods. SubZero+ significantly narrows the performance gap with first-order optimization while preserving ZO's inference-time memory efficiency.",
+ "primary": "cs.LG"
+}

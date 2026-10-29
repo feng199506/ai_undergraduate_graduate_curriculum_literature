@@ -1,0 +1,20 @@
+{
+ "id": "2511.04566",
+ "title": "Mixed precision multigrid with smoothing based on incomplete Cholesky factorization",
+ "authors": [
+  "Petr Vacek",
+  "Hartwig Anzt",
+  "Erin Carson",
+  "Nils Kohl",
+  "Ulrich Rüde",
+  "Yu-Hsiang Tsai"
+ ],
+ "v1_date": "2025-11-06",
+ "latest_version": 2,
+ "latest_date": "2026-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multigrid methods are popular iterative methods for solving large-scale sparse systems of linear equations. We present a mixed precision formulation of the multigrid V-cycle method with general assumptions on the finite precision errors coming from the application of coarsest-level solver and smoothing. Inspired by existing analysis, we derive a bound on the relative finite precision error of the V-cycle which gives insight into how the finite precision errors from the individual components of the method may affect the overall finite precision error. We use the result to study V-cycle methods with smoothing based on incomplete Cholesky factorization. The results imply that in certain settings, the precisions used for applying the incomplete Cholesky smoothing can be significantly lower than the precision used for computing the residual, restriction, prolongation, and correction on a given level. We perform numerical experiments using simulated floating point arithmetic with the MATLAB Advanpix toolbox as well as experiments on GPUs using the Ginkgo library. The experiments illustrate the theoretical findings and show that in the considered settings, the incomplete Cholesky smoothing can be applied in relatively low precisions, resulting in significant improvements in the execution time (up to 28% less), energy savings (up to 26% less) and required memory (up to 16% less) in comparison with the uniform double precision variant.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2608.09442",
+ "title": "Automatic differentiation in finite element stress updating",
+ "authors": [
+  "Mao Ouyang",
+  "Alexandros Petalas",
+  "William M. Coombs",
+  "Charles E. Augarde"
+ ],
+ "v1_date": "2026-08-10",
+ "latest_version": 1,
+ "latest_date": "2026-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 5 figures",
+ "abstract": "Computational solid mechanics relies on the discretisation of differential equations, requiring numerical differentiation and integration, often via quadrature. Recently, automatic differentiation (AD) has attracted interest as a tool to support these operations. This paper introduces the use of AD in nonlinear finite element analysis, focusing on stress updating, a key and repeatedly executed step in which stresses are computed from strain increments. Both implicit and explicit schemes require derivatives of constitutive models, which can be complex, error prone, and time consuming to derive analytically. We compare traditional analytical differentiation with automatic differentiation for implementing a hyperplastic Critical State model widely used in geotechnical engineering. Drained triaxial compression tests with varying overconsolidation ratios are simulated using both approaches. The results show that AD significantly simplifies the implementation of backward Euler stress integration by removing the need for manual derivation of derivatives. Despite this simplification, AD maintains high accuracy and robustness comparable to analytical approaches. The findings demonstrate that automatic differentiation can streamline the development of nonlinear material models, enabling efficient and reliable implementation of constitutive laws of arbitrary complexity. This opens the way for more flexible and maintainable computational mechanics codes.",
+ "primary": "math.NA"
+}

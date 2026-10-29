@@ -1,0 +1,19 @@
+{
+ "id": "2312.11135",
+ "title": "Linear Attention via Orthogonal Memory",
+ "authors": [
+  "Jun Zhang",
+  "Shuyang Jiang",
+  "Jiangtao Feng",
+  "Lin Zheng",
+  "Lingpeng Kong"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 1,
+ "latest_date": "2023-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "Efficient attentions have greatly improved the computational efficiency of Transformers. However, most existing linear attention mechanisms suffer from an \\emph{efficiency degradation} problem, leading to inefficiencies in causal language modeling and hindering their application in long-range language models. This problem is more pronounced under language modeling with unbounded contexts. In this paper, we propose \\textbf{L}inear \\textbf{A}ttention \\textbf{V}ia \\textbf{O}rthogonal memory~(\\shortname) to address these limitations, achieving strong performance while maintaining linear complexity. \\shortname employs orthogonal decomposition to compress a context into a fixed-size orthogonal memory while effectively minimizing redundancy within the context. Given that orthogonal memory compresses global information, we further dissect the context to amplify fine-grained local information. Additionally, we embed the relative position encoding into \\shortname to improve the extrapolation ability. Experimental results show that \\shortname greatly improves the efficiency of the causal language model with the best extrapolation performance and outperforms other efficient baselines. Further, we endeavor to employ \\shortname for unbounded language modeling and successfully scale the context length to 128K.",
+ "primary": "cs.CL"
+}

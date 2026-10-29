@@ -1,0 +1,16 @@
+{
+ "id": "2311.13609",
+ "title": "An Analysis on the Effects of Evolving the Monte Carlo Tree Search Upper Confidence for Trees Selection Policy on Unimodal, Multimodal and Deceptive Landscapes",
+ "authors": [
+  "Edgar Galvan",
+  "Fred Valdez Ameneyro"
+ ],
+ "v1_date": "2023-11-21",
+ "latest_version": 1,
+ "latest_date": "2023-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 7 figures, 6 tables",
+ "abstract": "Monte Carlo Tree Search (MCTS) is a best-first sampling method employed in the search for optimal decisions. The effectiveness of MCTS relies on the construction of its statistical tree, with the selection policy playing a crucial role. A selection policy that works particularly well in MCTS is the Upper Confidence Bounds for Trees, referred to as UCT. The research community has also put forth more sophisticated bounds aimed at enhancing MCTS performance on specific problem domains. Thus, while MCTS UCT generally performs well, there may be variants that outperform it. This has led to various efforts to evolve selection policies for use in MCTS. While all of these previous works are inspiring, none have undertaken an in-depth analysis to shed light on the circumstances in which an evolved alternative to MCTS UCT might prove advantageous. Most of these studies have focused on a single type of problem. In sharp contrast, this work explores the use of five functions of different natures, ranging from unimodal to multimodal and deceptive functions. We illustrate how the evolution of MCTS UCT can yield benefits in multimodal and deceptive scenarios, whereas MCTS UCT is robust in all of the functions used in this work.",
+ "primary": "cs.NE"
+}

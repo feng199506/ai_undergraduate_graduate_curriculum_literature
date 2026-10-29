@@ -1,0 +1,16 @@
+{
+ "id": "2505.08146",
+ "title": "Tensor Sketch: Fast and Scalable Polynomial Kernel Approximation",
+ "authors": [
+  "Ninh Pham",
+  "Rasmus Pagh"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 2,
+ "latest_date": "2025-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extension of KDD 2013 and correcting the variance bound",
+ "abstract": "Approximation of non-linear kernels using random feature maps has become a powerful technique for scaling kernel methods to large datasets. We propose $\\textit{Tensor Sketch}$, an efficient random feature map for approximating polynomial kernels. Given $n$ training samples in $\\mathbb{R}^d$ Tensor Sketch computes low-dimensional embeddings in $\\mathbb{R}^D$ in time $\\mathcal{O}\\left( n(d+D \\log{D}) \\right)$ making it well-suited for high-dimensional and large-scale settings. We provide theoretical guarantees on the approximation error, ensuring the fidelity of the resulting kernel function estimates. We also discuss extensions and highlight applications where Tensor Sketch serves as a central computational tool.",
+ "primary": "cs.DS"
+}

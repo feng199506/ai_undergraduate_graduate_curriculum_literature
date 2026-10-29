@@ -1,0 +1,22 @@
+{
+ "id": "2601.09978",
+ "title": "Federated Unlearning in Edge Networks: A Survey of Fundamentals, Challenges, Practical Applications and Future Directions",
+ "authors": [
+  "Jer Shyuan Ng",
+  "Wathsara Daluwatta",
+  "Shehan Edirimannage",
+  "Charitha Elvitigala",
+  "Asitha Kottahachchi Kankanamge Don",
+  "Ibrahim Khalil",
+  "Heng Zhang",
+  "Dusit Niyato"
+ ],
+ "v1_date": "2026-01-15",
+ "latest_version": 1,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The proliferation of connected devices and privacy-sensitive applications has accelerated the adoption of Federated Learning (FL), a decentralized paradigm that enables collaborative model training without sharing raw data. While FL addresses data locality and privacy concerns, it does not inherently support data deletion requests that are increasingly mandated by regulations such as the Right to be Forgotten (RTBF). In centralized learning, this challenge has been studied under the concept of Machine Unlearning (MU), that focuses on efficiently removing the influence of specific data samples or clients from trained models. Extending this notion to federated settings has given rise to Federated Unlearning (FUL), a new research area concerned with eliminating the contributions of individual clients or data subsets from the global FL model in a distributed and heterogeneous environment. In this survey, we first introduce the fundamentals of FUL. Then, we review the FUL frameworks that are proposed to address the three main implementation challenges, i.e., communication cost, resource allocation as well as security and privacy. Furthermore, we discuss applications of FUL in the modern distributed computer networks. We also highlight the open challenges and future research opportunities. By consolidating existing knowledge and mapping open problems, this survey aims to serve as a foundational reference for researchers and practitioners seeking to advance FL to build trustworthy, regulation-compliant and user-centric federated systems.",
+ "primary": "cs.DC"
+}

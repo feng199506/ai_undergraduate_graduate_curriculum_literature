@@ -1,0 +1,20 @@
+{
+ "id": "2610.28642",
+ "title": "Controllable Generative Recommendation via Guided Token Refinement",
+ "authors": [
+  "Haichao Zhang",
+  "Zhixuan Liang",
+  "Chong Zhang",
+  "Zixi Chen",
+  "Wen Wang",
+  "Jia Wang"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 1,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 4 figures. Accepted ICDM 2026 (IEEE International Conference on Data Mining)",
+ "abstract": "Generative recommendation over discrete Semantic IDs has become a powerful paradigm for item retrieval. Real-world systems, however, frequently require real-time controllability to balance accuracy against objectives such as diversity. Existing autoregressive methods generate tokens strictly from left to right. This fixed direction locks in early decisions, preventing holistic planning and making control difficult. Consequently, direct interventions often break the semantic structure, producing non-existent items. To address this, we propose ReGen, a framework that shifts from sequential decoding to parallel iterative refinement. ReGen reformulates generation as a mask-filling task, predicting all tokens simultaneously rather than one by one. This global view allows us to apply control signals directly to tokens with high-level semantics without retraining the model. To ensure that decoded candidates map to real items, we introduce a topology-constrained tree that iteratively corrects low-confidence predictions while strictly enforcing valid codebook paths during beam-based inference. Experiments show that ReGen provides a favorable accuracy-diversity trade-off under moderate guidance while maintaining high validity of generated Semantic IDs. The source code is available at: https://github.com/zhang-haichao/ReGen.",
+ "primary": "cs.IR"
+}

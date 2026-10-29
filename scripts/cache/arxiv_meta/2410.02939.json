@@ -1,0 +1,18 @@
+{
+ "id": "2410.02939",
+ "title": "Inductive Generative Recommendation via Retrieval-based Speculation",
+ "authors": [
+  "Yijie Ding",
+  "Jiacheng Li",
+  "Julian McAuley",
+  "Yupeng Hou"
+ ],
+ "v1_date": "2024-10-03",
+ "latest_version": 2,
+ "latest_date": "2025-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AAAI 2026 (oral)",
+ "abstract": "Generative recommendation (GR) is an emerging paradigm that tokenizes items into discrete tokens and learns to autoregressively generate the next tokens as predictions. While this token-generation paradigm is expected to surpass traditional transductive methods, potentially generating new items directly based on semantics, we empirically show that GR models predominantly generate items seen during training and struggle to recommend unseen items. In this paper, we propose SpecGR, a plug-and-play framework that enables GR models to recommend new items in an inductive setting. SpecGR uses a drafter model with inductive capability to propose candidate items, which may include both existing items and new items. The GR model then acts as a verifier, accepting or rejecting candidates while retaining its strong ranking capabilities. We further introduce the guided re-drafting technique to make the proposed candidates more aligned with the outputs of generative recommendation models, improving the verification efficiency. We consider two variants for drafting: (1) using an auxiliary drafter model for better flexibility, or (2) leveraging the GR model's own encoder for parameter-efficient self-drafting. Extensive experiments on three real-world datasets demonstrate that SpecGR exhibits both strong inductive recommendation ability and the best overall performance among the compared methods. Our code is available at: https://github.com/Jamesding000/SpecGR.",
+ "primary": "cs.IR"
+}

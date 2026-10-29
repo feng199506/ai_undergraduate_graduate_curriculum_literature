@@ -1,0 +1,18 @@
+{
+ "id": "2603.20464",
+ "title": "Double Machine Learning for Static Panel Data with Instrumental Variables: New Method and Applications",
+ "authors": [
+  "Anna Baiardi",
+  "Paul S. Clarke",
+  "Andrea A. Naghi",
+  "Annalivia Polselli"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Panel data methods are widely used in empirical analysis to address unobserved heterogeneity, but causal inference remains challenging when treatments are endogenous and confounding variables high-dimensional and potentially nonlinear. Standard instrumental variables (IV) estimators, such as two-stage least squares (2SLS), become unreliable when instrument validity requires flexibly conditioning on many covariates with potentially non-linear effects. This paper develops a Double Machine Learning estimator for static panel models with endogenous treatments (panel IV DML), and introduces weak-identification diagnostics for it. We revisit three influential migration studies that use shift-share instruments. In these settings, instrument validity depends on a rich covariate adjustment. In one application, panel IV DML strengthens the predictive power of the instrument and broadly confirms 2SLS results. In the other cases, flexible adjustment makes the instruments weak, leading to substantially more cautious causal inference than conventional 2SLS. Monte Carlo evidence supports these findings, showing that panel IV DML improves estimation accuracy under strong instruments and delivers more reliable inference under weak identification.",
+ "primary": "econ.EM"
+}

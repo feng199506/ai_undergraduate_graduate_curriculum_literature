@@ -1,0 +1,27 @@
+{
+ "id": "2403.10748",
+ "title": "A Comprehensive Review of Latent Space Dynamics Identification Algorithms for Intrusive and Non-Intrusive Reduced-Order-Modeling",
+ "authors": [
+  "Christophe Bonneville",
+  "Xiaolong He",
+  "April Tran",
+  "Jun Sur Park",
+  "William Fries",
+  "Daniel A. Messenger",
+  "Siu Wun Cheung",
+  "Yeonjong Shin",
+  "David M. Bortz",
+  "Debojyoti Ghosh",
+  "Jiun-Shyan Chen",
+  "Jonathan Belof",
+  "Youngsoo Choi"
+ ],
+ "v1_date": "2024-03-16",
+ "latest_version": 1,
+ "latest_date": "2024-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Numerical solvers of partial differential equations (PDEs) have been widely employed for simulating physical systems. However, the computational cost remains a major bottleneck in various scientific and engineering applications, which has motivated the development of reduced-order models (ROMs). Recently, machine-learning-based ROMs have gained significant popularity and are promising for addressing some limitations of traditional ROM methods, especially for advection dominated systems. In this chapter, we focus on a particular framework known as Latent Space Dynamics Identification (LaSDI), which transforms the high-fidelity data, governed by a PDE, to simpler and low-dimensional latent-space data, governed by ordinary differential equations (ODEs). These ODEs can be learned and subsequently interpolated to make ROM predictions. Each building block of LaSDI can be easily modulated depending on the application, which makes the LaSDI framework highly flexible. In particular, we present strategies to enforce the laws of thermodynamics into LaSDI models (tLaSDI), enhance robustness in the presence of noise through the weak form (WLaSDI), select high-fidelity training data efficiently through active learning (gLaSDI, GPLaSDI), and quantify the ROM prediction uncertainty through Gaussian processes (GPLaSDI). We demonstrate the performance of different LaSDI approaches on Burgers equation, a non-linear heat conduction problem, and a plasma physics problem, showing that LaSDI algorithms can achieve relative errors of less than a few percent and up to thousands of times speed-ups.",
+ "primary": "cs.CE"
+}

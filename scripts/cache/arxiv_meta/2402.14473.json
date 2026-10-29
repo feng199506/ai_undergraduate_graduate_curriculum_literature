@@ -1,0 +1,20 @@
+{
+ "id": "2402.14473",
+ "title": "Personalized Behavior-Aware Transformer for Multi-Behavior Sequential Recommendation",
+ "authors": [
+  "Jiajie Su",
+  "Chaochao Chen",
+  "Zibin Lin",
+  "Xi Li",
+  "Weiming Liu",
+  "Xiaolin Zheng"
+ ],
+ "v1_date": "2024-02-22",
+ "latest_version": 1,
+ "latest_date": "2024-02-22",
+ "journal_ref": "Proceedings of the 31st ACM International Conference on Multimedia. 2023: 6321-6331",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential Recommendation (SR) captures users' dynamic preferences by modeling how users transit among items. However, SR models that utilize only single type of behavior interaction data encounter performance degradation when the sequences are short. To tackle this problem, we focus on Multi-Behavior Sequential Recommendation (MBSR) in this paper, which aims to leverage time-evolving heterogeneous behavioral dependencies for better exploring users' potential intents on the target behavior. Solving MBSR is challenging. On the one hand, users exhibit diverse multi-behavior patterns due to personal characteristics. On the other hand, there exists comprehensive co-influence between behavior correlations and item collaborations, the intensity of which is deeply affected by temporal factors. To tackle these challenges, we propose a Personalized Behavior-Aware Transformer framework (PBAT) for MBSR problem, which models personalized patterns and multifaceted sequential collaborations in a novel way to boost recommendation performance. First, PBAT develops a personalized behavior pattern generator in the representation layer, which extracts dynamic and discriminative behavior patterns for sequential learning. Second, PBAT reforms the self-attention layer with a behavior-aware collaboration extractor, which introduces a fused behavior-aware attention mechanism for incorporating both behavioral and temporal impacts into collaborative transitions. We conduct experiments on three benchmark datasets and the results demonstrate the effectiveness and interpretability of our framework. Our implementation code is released at https://github.com/TiliaceaeSU/PBAT.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2409.07842",
+ "title": "Markovian Foundations for Quasi-Stochastic Approximation in Two Timescales: Extended Version",
+ "authors": [
+  "Caio Kalil Lauand",
+  "Sean Meyn"
+ ],
+ "v1_date": "2024-09-12",
+ "latest_version": 1,
+ "latest_date": "2024-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages",
+ "abstract": "Many machine learning and optimization algorithms can be cast as instances of stochastic approximation (SA). The convergence rate of these algorithms is known to be slow, with the optimal mean squared error (MSE) of order $O(n^{-1})$. In prior work it was shown that MSE bounds approaching $O(n^{-4})$ can be achieved through the framework of quasi-stochastic approximation (QSA); essentially SA with careful choice of deterministic exploration. These results are extended to two time-scale algorithms, as found in policy gradient methods of reinforcement learning and extremum seeking control. The extensions are made possible in part by a new approach to analysis, allowing for the interpretation of two timescale algorithms as instances of single timescale QSA, made possible by the theory of negative Lyapunov exponents for QSA. The general theory is illustrated with applications to extremum seeking control (ESC).",
+ "primary": "math.OC"
+}

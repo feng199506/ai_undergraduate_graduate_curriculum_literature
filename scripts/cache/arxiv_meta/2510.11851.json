@@ -1,0 +1,25 @@
+{
+ "id": "2510.11851",
+ "title": "Deep Research Agents Brings Deeper Harm",
+ "authors": [
+  "Shuo Chen",
+  "Zonggen Li",
+  "Xingyu Jin",
+  "Zhen Han",
+  "Bailan He",
+  "Tong Liu",
+  "Haokun Chen",
+  "Georg Groh",
+  "Philip Torr",
+  "Volker Tresp",
+  "Jindong Gu"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 3,
+ "latest_date": "2026-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "COLM 2026",
+ "abstract": "We reveal that Deep Research (DR) agents systematically expose safety risks: simply submitting harmful queries that a standalone LLM would reject outright can elicit detailed and dangerous reports from DR agents. Empirical analysis reveals that the advantages that make DR agents powerful unintentionally make them vulnerable: both the research role assignment (e.g., Planner) and the multi-step execution mechanism weaken alignment of the base LLM, leading to severe safety breaches. Through linear probe analysis of internal hidden states, we demonstrate that role assignment suppresses refusal awareness by shifting representations away from safety boundaries. Besides, multi-step execution distributes harmfulness across individual steps, preventing alignment mechanisms from being activated throughout the research process. Exploiting these vulnerabilities, we design Intent Hijack (i.e., rephrasing harmful queries as academic research) and Plan Injection (i.e., manipulating execution plans) to further examine the safety risks of DR agents. Extensive experiments show that our methods achieve near-perfect compliance and elicit detailed, actionable reports that significantly exceed standalone LLM outputs in technical depth and applicability. These results demonstrate alarming misalignment in DR agents and underscore the urgent need for tailored alignment techniques. Our code is available in https://schen.app/deeper-harm.",
+ "primary": "cs.CR"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2601.01910",
+ "title": "MMP-A*: Multimodal Perception Enhanced Incremental Heuristic Search on Path Planning",
+ "authors": [
+  "Minh Hieu Ha",
+  "Khanh Ly Ta",
+  "Hung Phan",
+  "Tung Doan",
+  "Tung Dao",
+  "Dao Tran",
+  "Huynh Thi Thanh Binh"
+ ],
+ "v1_date": "2026-01-05",
+ "latest_version": 2,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Autonomous path planning requires a synergy between global reasoning and geometric precision, especially in complex or cluttered environments. While classical A* is valued for its optimality, it incurs prohibitive computational and memory costs in large-scale scenarios. Recent attempts to mitigate these limitations by using Large Language Models for waypoint guidance remain insufficient, as they rely only on text-based reasoning without spatial grounding. As a result, such models often produce incorrect waypoints in topologically complex environments with dead ends, and lack the perceptual capacity to interpret ambiguous physical boundaries. These inconsistencies lead to costly corrective expansions and undermine the intended computational efficiency. We introduce MMP-A*, a multimodal framework that integrates the spatial grounding capabilities of vision-language models with a novel adaptive decay mechanism. By anchoring high-level reasoning in physical geometry, the framework produces coherent waypoint guidance that addresses the limitations of text-only planners. The adaptive decay mechanism dynamically regulates the influence of uncertain waypoints within the heuristic, ensuring geometric validity while substantially reducing memory overhead. To evaluate robustness, we test the framework in challenging environments characterized by severe clutter and topological complexity. Experimental results show that MMP-A* achieves near-optimal trajectories with significantly reduced operational costs, demonstrating its potential as a perception-grounded and computationally efficient paradigm for autonomous navigation.",
+ "primary": "cs.AI"
+}

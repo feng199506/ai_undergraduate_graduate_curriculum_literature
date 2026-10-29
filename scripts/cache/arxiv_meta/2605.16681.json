@@ -1,0 +1,21 @@
+{
+ "id": "2605.16681",
+ "title": "A Survey of Advancing Audio Super-Resolution and Bandwidth Extension from Discriminative to Generative Models",
+ "authors": [
+  "Ningyuan Yang",
+  "Yize Li",
+  "Diego A. Cuji",
+  "Ryan M. Corey",
+  "Pu Zhao",
+  "Xue Lin",
+  "Andrew C. Singer"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 2,
+ "latest_date": "2026-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under review",
+ "abstract": "Audio super-resolution (SR), also referred to as bandwidth extension (BWE), aims to reconstruct high-fidelity signals from low-resolution (LR) or band-limited (BL) observations, an inherently ill-posed task due to the ambiguity of missing high-frequency (HF) content. This survey provides a comprehensive overview of the field, with a particular focus on the paradigm shift from discriminative mapping to modern generative modeling. We first review early discriminative deep neural network (DNN) models, which formulate BWE/SR as a deterministic mapping problem and are prone to regression-to-the-mean effects and spectral over-smoothing. We then systematically review generative approaches, including autoregressive (AR) models, variational autoencoders (VAEs), generative adversarial networks (GANs), diffusion and score-based models, flow-based methods, and Schrödinger bridges. Across these approaches, we examine key design aspects, including representation domain, architecture, conditioning mechanisms, and trade-offs among reconstruction fidelity, perceptual quality, robustness, and computational efficiency. We further conduct unified experiments on representative discriminative and generative methods to provide controlled empirical evidence for these trade-offs. Furthermore, we discuss emerging directions involving large language models (LLMs) and multimodal foundation models, and highlight open challenges in perceptual evaluation, practical deployment, and real-world generalization. By providing a structured taxonomy and unified perspective, this survey establishes a comprehensive foundation and offers a practical roadmap for advancing BWE/SR from deterministic point estimation toward distribution-aware generative modeling.",
+ "primary": "eess.AS"
+}

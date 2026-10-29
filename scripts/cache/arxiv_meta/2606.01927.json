@@ -1,0 +1,17 @@
+{
+ "id": "2606.01927",
+ "title": "Scaling LLM Inference Beyond Amdahl`s Limits via Eliminating Non-Scalable Overheads",
+ "authors": [
+  "Alan Zhao",
+  "Cyril Y. He",
+  "Wei Xu"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deployers of online LLM services usually seek to maximize cluster-wide performance given a fixed number of GPUs. Tensor parallelism (TP) is necessary to fit modern models but scales sub-linearly as the TP degree t grows, due to cross-GPU communication and non-scalable runtime work, as predicted by Amdahl's Law. Conversely, increasing t improves memory efficiency and alleviates KV-cache contention and swapping. We identify and validate an empirical optimal TP degree t_e that balances these effects. We present Albireo, a parallel inference system that raises the attainable t_e by shrinking the non-scalable portion via overlap of scheduling and I/O with compute and sequence-parallel sampling, without changing model architectures. Across models and benchmarks, Albireo achieves up to 1.9x higher throughput, 48% lower latency, 28% higher GPU utilization, and 54% lower energy than vLLM; in production it yields up to 2x higher throughput.",
+ "primary": "cs.DC"
+}

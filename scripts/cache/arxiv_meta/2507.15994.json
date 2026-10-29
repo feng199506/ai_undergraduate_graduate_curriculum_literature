@@ -1,0 +1,18 @@
+{
+ "id": "2507.15994",
+ "title": "Scaling Recommender Transformers to One Billion Parameters",
+ "authors": [
+  "Kirill Khrylchenko",
+  "Artem Matveev",
+  "Sergei Makeev",
+  "Vladimir Baikalov"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 2,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "10.1145/3770854.3783916",
+ "comment": "KDD'2026",
+ "abstract": "While large transformer models have been successfully used in many real-world applications such as natural language processing, computer vision, and speech processing, scaling transformers for recommender systems remains a challenging problem. Recently, Generative Recommenders framework was proposed to scale beyond typical Deep Learning Recommendation Models (DLRMs). Reformulation of recommendation as sequential transduction task led to improvement of scaling properties in terms of compute. Nevertheless, the largest encoder configuration reported by the HSTU authors amounts only to ~176 million parameters, which is considerably smaller than the hundreds of billions or even trillions of parameters common in modern language models. In this work, we present a recipe for training large transformer recommenders with up to a billion parameters. We show that autoregressive learning on user histories naturally decomposes into two subtasks, feedback prediction and next-item prediction, and demonstrate that such a decomposition scales effectively across a wide range of transformer sizes. Furthermore, we report a successful deployment of our proposed architecture on a large-scale music platform serving millions of users. According to our online A/B tests, this new model increases total listening time by +2.26% and raises the likelihood of user likes by +6.37%, constituting (to our knowledge) the largest improvement in recommendation quality reported for any deep learning-based system in the platform's history.",
+ "primary": "cs.IR"
+}

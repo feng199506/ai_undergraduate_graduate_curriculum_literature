@@ -1,0 +1,25 @@
+{
+ "id": "2512.04415",
+ "title": "RoboBPP: Benchmarking Robotic Online Bin Packing with Physics-based Simulation",
+ "authors": [
+  "Zhoufeng Wang",
+  "Hang Zhao",
+  "Juzhan Xu",
+  "Shishun Zhang",
+  "Ruizhen Hu",
+  "Chenyang Zhu",
+  "Zecui Zeng",
+  "Weiyan Zhu",
+  "Zeyu Xiong",
+  "Haibin Yu",
+  "Kai Xu"
+ ],
+ "v1_date": "2025-12-04",
+ "latest_version": 4,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under review at the International Journal of Robotics Research (IJRR)",
+ "abstract": "Physical feasibility in 3D bin packing is a key requirement in modern industrial logistics and robotic automation. With the growing adoption of industrial automation, online bin packing has gained increasing attention. However, inconsistencies in problem settings, test datasets, and evaluation metrics have hindered progress in the field, and there is a lack of a comprehensive benchmarking system. Direct testing on real hardware is costly, and building a realistic simulation environment is also challenging. To address these limitations, we introduce RoboBPP, a benchmarking system designed for robotic online bin packing. RoboBPP integrates a physics-based simulator to assess physical feasibility. In our simulation environment, we introduce a robotic arm and boxes at real-world scales to replicate real industrial packing workflows. By simulating conditions that arise in real industrial applications, we ensure that evaluated algorithms are practically deployable. In addition, prior studies often rely on synthetic datasets whose distributions differ from real-world industrial data. To address this issue, we collect three datasets from real industrial workflows, including assembly-line production, logistics packing, and furniture manufacturing. The benchmark comprises three carefully designed test settings and extends existing evaluation metrics with new metrics for structural stability and operational safety. We design a scoring system and derive a range of insights from the evaluation results. RoboBPP is fully open-source and is equipped with visualization tools and an online leaderboard, providing a reproducible and extensible foundation for future research and industrial applications (https://robot-bin-packing-benchmark.github.io).",
+ "primary": "cs.RO"
+}

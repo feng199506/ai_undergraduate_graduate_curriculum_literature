@@ -1,0 +1,15 @@
+{
+ "id": "2507.07281",
+ "title": "Convergence Rate for the Last Iterate of Stochastic Gradient Descent Schemes",
+ "authors": [
+  "Marcel Hudiani"
+ ],
+ "v1_date": "2025-07-09",
+ "latest_version": 4,
+ "latest_date": "2026-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the convergence rate for the last iterate of stochastic gradient descent (SGD) and stochastic heavy ball (SHB) in the parametric setting when the objective function $F$ is globally convex or non-convex whose gradient is $γ$-Hölder. Using only discrete Gronwall's inequality without Robbins-Siegmund theorem, we recover results for both SGD and SHB: $\\min_{s\\leq t} \\|\\nabla F(w_s)\\|^2 = o(t^{p-1})$ for non-convex objectives and $F(w_{τ\\wedge t}) - F_* = o(t^{2γ/(1+γ) \\cdot \\max(p-1,-2p+1)-ε})$ for $β\\in (0, 1)$, $τ:= \\inf \\{ t > 0 : F(w_t) = F_*\\}$, and $\\min_{s \\leq t} F(w_s) - F_* = o(t^{p-1})$ for convex objectives $F$ whose minimum is $F_*$. In addition, we proved that SHB with constant momentum parameter $β\\in (0, 1)$ attains a convergence rate of $F(w_t) - F_* = O(t^{\\max(p-1,-2p+1)} \\log^2 \\frac{t}δ)$ with probability at least $1-δ$ when $F$ is convex and $γ= 1$ and step size $α_t = Θ(t^{-p})$ with $p \\in (\\frac{1}{2}, 1)$.",
+ "primary": "math.OC"
+}

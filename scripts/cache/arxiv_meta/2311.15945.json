@@ -1,0 +1,15 @@
+{
+ "id": "2311.15945",
+ "title": "Over-Squashing in Riemannian Graph Neural Networks",
+ "authors": [
+  "Julia Balla"
+ ],
+ "v1_date": "2023-11-27",
+ "latest_version": 1,
+ "latest_date": "2023-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Most graph neural networks (GNNs) are prone to the phenomenon of over-squashing in which node features become insensitive to information from distant nodes in the graph. Recent works have shown that the topology of the graph has the greatest impact on over-squashing, suggesting graph rewiring approaches as a suitable solution. In this work, we explore whether over-squashing can be mitigated through the embedding space of the GNN. In particular, we consider the generalization of Hyperbolic GNNs (HGNNs) to Riemannian manifolds of variable curvature in which the geometry of the embedding space is faithful to the graph's topology. We derive bounds on the sensitivity of the node features in these Riemannian GNNs as the number of layers increases, which yield promising theoretical and empirical results for alleviating over-squashing in graphs with negative curvature.",
+ "primary": "cs.LG"
+}

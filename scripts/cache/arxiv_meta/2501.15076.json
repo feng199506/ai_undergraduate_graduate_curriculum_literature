@@ -1,0 +1,20 @@
+{
+ "id": "2501.15076",
+ "title": "Cryptanalysis via Machine Learning Based Information Theoretic Metrics",
+ "authors": [
+  "Benjamin D. Kim",
+  "Vipindev Adat Vasudevan",
+  "Rafael G. L. D'Oliveira",
+  "Alejandro Cohen",
+  "Thomas Stahlbuhk",
+  "Muriel Médard"
+ ],
+ "v1_date": "2025-01-25",
+ "latest_version": 1,
+ "latest_date": "2025-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The fields of machine learning (ML) and cryptanalysis share an interestingly common objective of creating a function, based on a given set of inputs and outputs. However, the approaches and methods in doing so vary vastly between the two fields. In this paper, we explore integrating the knowledge from the ML domain to provide empirical evaluations of cryptosystems. Particularly, we utilize information theoretic metrics to perform ML-based distribution estimation. We propose two novel applications of ML algorithms that can be applied in a known plaintext setting to perform cryptanalysis on any cryptosystem. We use mutual information neural estimation to calculate a cryptosystem's mutual information leakage, and a binary cross entropy classification to model an indistinguishability under chosen plaintext attack (CPA). These algorithms can be readily applied in an audit setting to evaluate the robustness of a cryptosystem and the results can provide a useful empirical bound. We evaluate the efficacy of our methodologies by empirically analyzing several encryption schemes. Furthermore, we extend the analysis to novel network coding-based cryptosystems and provide other use cases for our algorithms. We show that our classification model correctly identifies the encryption schemes that are not IND-CPA secure, such as DES, RSA, and AES ECB, with high accuracy. It also identifies the faults in CPA-secure cryptosystems with faulty parameters, such a reduced counter version of AES-CTR. We also conclude that with our algorithms, in most cases a smaller-sized neural network using less computing power can identify vulnerabilities in cryptosystems, providing a quick check of the sanity of the cryptosystem and help to decide whether to spend more resources to deploy larger networks that are able to break the cryptosystem.",
+ "primary": "cs.CR"
+}

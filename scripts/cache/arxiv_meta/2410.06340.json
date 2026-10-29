@@ -1,0 +1,24 @@
+{
+ "id": "2410.06340",
+ "title": "FedGraph: A Research Library and Benchmark for Federated Graph Learning",
+ "authors": [
+  "Yuhang Yao",
+  "Yuan Li",
+  "Xinyi Fan",
+  "Junhao Li",
+  "Kay Liu",
+  "Weizhao Jin",
+  "Yu Yang",
+  "Srivatsan Ravi",
+  "Philip S. Yu",
+  "Carlee Joe-Wong"
+ ],
+ "v1_date": "2024-10-08",
+ "latest_version": 4,
+ "latest_date": "2025-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "https://github.com/FedGraph/fedgraph",
+ "abstract": "Federated graph learning is an emerging field with significant practical challenges. While algorithms have been proposed to improve the accuracy of training graph neural networks, such as node classification on federated graphs, the system performance is often overlooked, despite it is crucial for real-world deployment. To bridge this gap, we introduce FedGraph, a research library designed for practical distributed training and comprehensive benchmarking of FGL algorithms. FedGraph supports a range of state-of-the-art graph learning methods and includes a monitoring class that evaluates system performance, with a particular focus on communication and computation costs during training. Unlike existing federated learning platforms, FedGraph natively integrates homomorphic encryption to enhance privacy preservation and supports scalable deployment across multiple physical machines with system-level performance evaluation to guide the system design of future algorithms. To enhance efficiency and privacy, we propose a low-rank communication scheme for algorithms like FedGCN that require pre-training communication, accelerating both the pre-training and training phases. Extensive experiments benchmark FGL algorithms on three major graph learning tasks and demonstrate FedGraph as the first efficient FGL framework to support encrypted low-rank communication and scale to graphs with 100 million nodes.",
+ "primary": "cs.LG"
+}

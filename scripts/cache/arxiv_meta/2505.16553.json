@@ -1,0 +1,16 @@
+{
+ "id": "2505.16553",
+ "title": "Denoising Milky Way stellar survey data with normalizing flow models",
+ "authors": [
+  "Ziyang Yan",
+  "Jason L. Sanders"
+ ],
+ "v1_date": "2025-05-22",
+ "latest_version": 1,
+ "latest_date": "2025-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by MNRAS, 16 pages, 16 figures, 3 tables",
+ "abstract": "The Gaia dataset has revealed many intricate Milky Way substructures in exquisite detail, including moving groups and the phase spiral. Precise characterisation of these features and detailed comparisons to theoretical models require engaging with Gaia's heteroscedastic noise model, particularly in more distant parts of the Galactic disc and halo. We propose a general, novel machine-learning approach using normalizing flows for denoising density estimation, with particular focus on density estimation from stellar survey data such as that from Gaia. Normalizing flows transform a simple base distribution into a complex target distribution through bijective transformations resulting in a highly expressive and flexible model. The denoising is performed using importance sampling. We demonstrate that this general procedure works excellently on Gaia data by reconstructing detailed local velocity distributions artificially corrupted with noise. For example, we show the multiple branches of the Hercules stream and the phase-space spiral can both be well captured by our model. We discuss hyperparameter choice to optimally recover substructure and compare our approach to extreme deconvolution. The model therefore promises to be a robust tool for studying the Milky Way's kinematics in Galactic locations where the noise from Gaia is significant.",
+ "primary": "astro-ph.GA"
+}

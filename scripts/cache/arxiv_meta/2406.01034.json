@@ -1,0 +1,21 @@
+{
+ "id": "2406.01034",
+ "title": "Enhancing Graph Collaborative Filtering with FourierKAN Feature Transformation",
+ "authors": [
+  "Jinfeng Xu",
+  "Zheyu Chen",
+  "Jinze Li",
+  "Shuo Yang",
+  "Wei Wang",
+  "Xiping Hu",
+  "Edith Ngai"
+ ],
+ "v1_date": "2024-06-03",
+ "latest_version": 3,
+ "latest_date": "2025-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by CIKM 2025 Short",
+ "abstract": "Graph Collaborative Filtering (GCF) has emerged as a dominant paradigm in modern recommendation systems, excelling at modeling complex user-item interactions and capturing high-order collaborative signals through graph-structured learning. Most existing GCF models predominantly rely on simplified graph architectures like LightGCN, which strategically remove feature transformation and activation functions from vanilla graph convolution networks. Through systematic analysis, we reveal that feature transformation in message propagation can enhance model representation, though at the cost of increased training difficulty. To this end, we propose FourierKAN-GCF, a novel GCN framework that adopts Fourier Kolmogorov-Arnold Networks as efficient transformation modules within graph propagation layers. This design enhances model representation while decreasing training difficulty. Our FourierKAN-GCF can achieve higher recommendation performance than most widely used GCF backbone models. In addition, it can be integrated into existing advanced self-supervised models as a backbone, replacing their original backbone to achieve enhanced performance. Extensive experiments on three public datasets demonstrate the superiority of FourierKAN-GCF.",
+ "primary": "cs.IR"
+}

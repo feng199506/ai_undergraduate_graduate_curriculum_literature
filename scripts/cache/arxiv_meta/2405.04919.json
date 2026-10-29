@@ -1,0 +1,15 @@
+{
+ "id": "2405.04919",
+ "title": "Fast Computation of Leave-One-Out Cross-Validation for $k$-NN Regression",
+ "authors": [
+  "Motonobu Kanagawa"
+ ],
+ "v1_date": "2024-05-08",
+ "latest_version": 2,
+ "latest_date": "2024-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in Transactions of Machine Learning Research (TMLR)",
+ "abstract": "We describe a fast computation method for leave-one-out cross-validation (LOOCV) for $k$-nearest neighbours ($k$-NN) regression. We show that, under a tie-breaking condition for nearest neighbours, the LOOCV estimate of the mean square error for $k$-NN regression is identical to the mean square error of $(k+1)$-NN regression evaluated on the training data, multiplied by the scaling factor $(k+1)^2/k^2$. Therefore, to compute the LOOCV score, one only needs to fit $(k+1)$-NN regression only once, and does not need to repeat training-validation of $k$-NN regression for the number of training data. Numerical experiments confirm the validity of the fast computation method.",
+ "primary": "stat.ML"
+}

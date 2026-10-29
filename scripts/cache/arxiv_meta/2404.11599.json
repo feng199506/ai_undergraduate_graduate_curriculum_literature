@@ -1,0 +1,17 @@
+{
+ "id": "2404.11599",
+ "title": "Variational Bayesian Last Layers",
+ "authors": [
+  "James Harrison",
+  "John Willes",
+  "Jasper Snoek"
+ ],
+ "v1_date": "2024-04-17",
+ "latest_version": 1,
+ "latest_date": "2024-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "International Conference on Learning Representations (ICLR) 2024",
+ "abstract": "We introduce a deterministic variational formulation for training Bayesian last layer neural networks. This yields a sampling-free, single-pass model and loss that effectively improves uncertainty estimation. Our variational Bayesian last layer (VBLL) can be trained and evaluated with only quadratic complexity in last layer width, and is thus (nearly) computationally free to add to standard architectures. We experimentally investigate VBLLs, and show that they improve predictive accuracy, calibration, and out of distribution detection over baselines across both regression and classification. Finally, we investigate combining VBLL layers with variational Bayesian feature learning, yielding a lower variance collapsed variational inference method for Bayesian neural networks.",
+ "primary": "cs.LG"
+}

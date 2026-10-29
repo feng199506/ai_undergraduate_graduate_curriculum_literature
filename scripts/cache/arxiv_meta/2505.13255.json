@@ -1,0 +1,21 @@
+{
+ "id": "2505.13255",
+ "title": "Policy Contrastive Decoding for Robotic Foundation Models",
+ "authors": [
+  "Shihan Wu",
+  "Xu Luo",
+  "Ji Zhang",
+  "Junlin Xie",
+  "Jingkuan Song",
+  "Heng Tao Shen",
+  "Lianli Gao"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 6,
+ "latest_date": "2026-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICLR 2026. Project website: https://koorye.github.io/PCD/",
+ "abstract": "Robotic foundation models, or generalist robot policies, hold immense potential to enable flexible, general-purpose and dexterous robotic systems. Despite their advancements, our empirical experiments reveal that existing robot policies are prone to learning spurious correlations from pre-training trajectories, adversely affecting their generalization capabilities beyond the training data. To tackle this, we propose a novel Policy Contrastive Decoding (PCD) approach, which redirects the robot policy's focus toward object-relevant visual clues by contrasting action probability distributions derived from original and object-masked visual inputs. As a training-free method, our PCD can be used as a plugin to improve different types of robot policies without needing to finetune or access model weights. We conduct extensive experiments on top of three open-source robot policies, including the autoregressive policy OpenVLA and the diffusion-based policies Octo and $π_0$. The obtained results in both simulation and real-world environments prove PCD's flexibility and effectiveness, e.g., PCD enhances the state-of-the-art policy $π_0$ by 8.9% in the simulation environment and by 108% in the real-world environment. Code and demos are publicly available at: https://koorye.github.io/PCD.",
+ "primary": "cs.RO"
+}

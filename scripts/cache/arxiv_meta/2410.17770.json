@@ -1,0 +1,17 @@
+{
+ "id": "2410.17770",
+ "title": "Small Singular Values Matter: A Random Matrix Analysis of Transformer Models",
+ "authors": [
+  "Max Staats",
+  "Matthias Thamm",
+  "Bernd Rosenow"
+ ],
+ "v1_date": "2024-10-23",
+ "latest_version": 3,
+ "latest_date": "2025-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 7 figures",
+ "abstract": "This work analyzes singular-value spectra of weight matrices in pretrained transformer models to understand how information is stored at both ends of the spectrum. Using Random Matrix Theory (RMT) as a zero information hypothesis, we associate agreement with RMT as evidence of randomness and deviations as evidence for learning. Surprisingly, we observe pronounced departures from RMT not only among the largest singular values -- the usual outliers -- but also among the smallest ones. A comparison of the associated singular vectors with the eigenvectors of the activation covariance matrices shows that there is considerable overlap wherever RMT is violated. Thus, significant directions in the data are captured by small singular values and their vectors as well as by the large ones. We confirm this empirically: zeroing out the singular values that deviate from RMT raises language-model perplexity far more than removing values from the bulk, and after fine-tuning the smallest decile can be the third most influential part of the spectrum. To explain how vectors linked to small singular values can carry more information than those linked to larger values, we propose a linear random-matrix model. Our findings highlight the overlooked importance of the low end of the spectrum and provide theoretical and practical guidance for SVD-based pruning and compression of large language models.",
+ "primary": "cs.LG"
+}

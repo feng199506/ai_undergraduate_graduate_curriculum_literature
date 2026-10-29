@@ -1,0 +1,19 @@
+{
+ "id": "2606.01839",
+ "title": "Observation, Not Prediction: Conversation-Level Disaggregated Scheduling for Agentic Serving",
+ "authors": [
+  "Jianru Ding",
+  "Ryien Hosseini",
+  "Pouya Mahdi Gholami",
+  "Mingyuan Xiang",
+  "Henry Hoffmann"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "LLM-based agents resolve a user task through many turns of dependent inference and tool calls, producing a workload whose total cost is unknown when the task arrives. Existing multi-turn systems keep the turn as the scheduling unit and decide, turn by turn, whether to disaggregate prefill from decode. That decision rests on the turn's decode length, tool behavior, and KV growth, quantities that are not observable when the scheduler must act, forcing the system to predict them. We show this dependence on prediction is imposed by the scheduling unit, not the workload. Raising the scheduling unit from the turn to the conversation converts turn-level irregularity into a stable, two-phase structure: 1) a compute-bound turn-1 prefill followed by 2) a long, memory-bound tail. Thus, with the conversation as the scheduling unit, placement reduces to reading the first-turn input length and per-decoder KV occupancy, both directly observable. We instantiate this principle in ConServe, which routes the first-turn prefill to a high-throughput prefiller, transfers the KV cache exactly once, and pins the conversation to a single decoder for its entire tail, with no learned model of decode-side cost. Against a per-turn prediction baseline, ConServe reduces p95 time-to-first-effective-token (the latency of a conversation's first user-visible output) by 51.08% and improves energy efficiency by 7.51% while preserving last-turn TBT and SLOs; mapping the two phases onto heterogeneous GPU tiers adds a further 22.75% in energy efficiency.",
+ "primary": "cs.DC"
+}

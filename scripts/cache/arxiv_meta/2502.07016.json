@@ -1,0 +1,16 @@
+{
+ "id": "2502.07016",
+ "title": "Confidence Intervals for Evaluation of Data Mining",
+ "authors": [
+  "Zheng Yuan",
+  "Wenxin Jiang"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 2,
+ "latest_date": "2025-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In data mining, when binary prediction rules are used to predict a binary outcome, many performance measures are used in a vast array of literature for the purposes of evaluation and comparison. Some examples include classification accuracy, precision, recall, F measures, and Jaccard index. Typically, these performance measures are only approximately estimated from a finite dataset, which may lead to findings that are not statistically significant. In order to properly quantify such statistical uncertainty, it is important to provide confidence intervals associated with these estimated performance measures. We consider statistical inference about general performance measures used in data mining, with both individual and joint confidence intervals. These confidence intervals are based on asymptotic normal approximations and can be computed fast, without needs to do bootstrap resampling. We study the finite sample coverage probabilities for these confidence intervals and also propose a `blurring correction' on the variance to improve the finite sample performance. This 'blurring correction' generalizes the plus-four method from binomial proportion to general performance measures used in data mining. Our framework allows multiple performance measures of multiple classification rules to be inferred simultaneously for comparisons.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2507.11941",
+ "title": "BlockBPE: Parallel BPE Tokenization",
+ "authors": [
+  "Amos You"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 1,
+ "latest_date": "2025-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models (ICML 2025)",
+ "abstract": "Tokenization is a critical preprocessing step in large language model pipelines, yet widely-used implementations remain CPU-bound and suboptimal for batch inference workflows on GPU. We present BlockBPE, a parallel GPU implementation of byte-pair encoding (BPE) that achieves near linear-time complexity under realistic assumptions and is optimized for high-throughput, batch inference. Unlike existing Rust-based tokenizers such as HuggingFace Tokenizers or OpenAI's tiktoken-whose runtimes are dominated by Regex pre-tokenization and exhibit $O(n \\log n)$ runtime-BlockBPE eliminates the Regex pre-tokenization which leads to small loss in generation quality, but enables highly parallelized token merges within thread blocks, reducing overall complexity to $O(nd)$ where $d \\ll n$. On high-batch inference workloads, BlockBPE achieves up to 2x higher throughput than tiktoken and 2.5x over HuggingFace Tokenizers.",
+ "primary": "cs.CL"
+}

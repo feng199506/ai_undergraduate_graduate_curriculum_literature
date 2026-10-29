@@ -1,0 +1,19 @@
+{
+ "id": "2406.01933",
+ "title": "Orthogonal Causal Calibration",
+ "authors": [
+  "Justin Whitehouse",
+  "Christopher Jung",
+  "Vasilis Syrgkanis",
+  "Bryan Wilder",
+  "Zhiwei Steven Wu"
+ ],
+ "v1_date": "2024-06-04",
+ "latest_version": 2,
+ "latest_date": "2025-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 2 figures",
+ "abstract": "Estimates of heterogeneous treatment effects such as conditional average treatment effects (CATEs) and conditional quantile treatment effects (CQTEs) play an important role in real-world decision making. Given this importance, one should ensure these estimates are calibrated. While there is a rich literature on calibrating estimators of non-causal parameters, very few methods have been derived for calibrating estimators of causal parameters, or more generally estimators of quantities involving nuisance parameters. In this work, we develop general algorithms for reducing the task of causal calibration to that of calibrating a standard (non-causal) predictive model. Throughout, we study a notion of calibration defined with respect to an arbitrary, nuisance-dependent loss $\\ell$, under which we say an estimator $θ$ is calibrated if its predictions cannot be changed on any level set to decrease loss. For losses $\\ell$ satisfying a condition called universal orthogonality, we present a simple algorithm that transforms partially-observed data into generalized pseudo-outcomes and applies any off-the-shelf calibration procedure. For losses $\\ell$ satisfying a weaker assumption called conditional orthogonality, we provide a similar sample splitting algorithm the performs empirical risk minimization over an appropriately defined class of functions. Convergence of both algorithms follows from a generic, two term upper bound of the calibration error of any model. We demonstrate the practical applicability of our results in experiments on both observational and synthetic data. Our results are exceedingly general, showing that essentially any existing calibration algorithm can be used in causal settings, with additional loss only arising from errors in nuisance estimation.",
+ "primary": "stat.ML"
+}

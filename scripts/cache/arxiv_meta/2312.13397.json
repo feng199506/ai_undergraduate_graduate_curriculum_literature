@@ -1,0 +1,21 @@
+{
+ "id": "2312.13397",
+ "title": "Review and experimental benchmarking of machine learning algorithms for efficient optimization of cold atom experiments",
+ "authors": [
+  "Oliver Anton",
+  "Victoria A. Henderson",
+  "Elisa Da Ros",
+  "Ivan Sekulic",
+  "Sven Burger",
+  "Philipp-Immanuel Schneider",
+  "Markus Krutzik"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 1,
+ "latest_date": "2023-12-20",
+ "journal_ref": "Mach. Learn. Sci. Technol. 5, 025022 (2024)",
+ "doi": "10.1088/2632-2153/ad3cb6",
+ "comment": "",
+ "abstract": "The generation of cold atom clouds is a complex process which involves the optimization of noisy data in high dimensional parameter spaces. Optimization can be challenging both in and especially outside of the lab due to lack of time, expertise, or access for lengthy manual optimization. In recent years, it was demonstrated that machine learning offers a solution since it can optimize high dimensional problems quickly, without knowledge of the experiment itself. In this paper we present results showing the benchmarking of nine different optimization techniques and implementations, alongside their ability to optimize a Rubidium (Rb) cold atom experiment. The investigations are performed on a 3D $^{87}$Rb molasses with 10 and 18 adjustable parameters, respectively, where the atom number obtained by absorption imaging was chosen as the test problem. We further compare the best performing optimizers under different effective noise conditions by reducing the Signal-to-Noise ratio of the images via adapting the atomic vapor pressure in the 2D+ MOT and the detection laser frequency stability.",
+ "primary": "physics.atom-ph"
+}

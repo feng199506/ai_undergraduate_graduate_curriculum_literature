@@ -1,0 +1,18 @@
+{
+ "id": "2609.38122",
+ "title": "Fast and Flow-rious: Gravitational Wave Background Bayesian Model Comparison using Normalizing Flows and Nested Sampling",
+ "authors": [
+  "David C. Wright",
+  "Aaron D. Johnson",
+  "Jeffrey S. Hazboun",
+  "William G. Lamb"
+ ],
+ "v1_date": "2026-09-29",
+ "latest_version": 1,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 11 figures",
+ "abstract": "In 2023, pulsar timing array (PTA) collaborations around the world announced evidence for a nanohertz gravitational-wave background (GWB). Beyond increasing the detection significance, the next major goal is to characterize the GWB and identify its source(s). The typical model-comparison metric used in PTA analyses is the Bayes factor (BF). However, BF computation methods used in the PTA literature, such as product-space sampling and thermodynamic integration, are computationally expensive or inefficient if the models compared are dissimilar or non-nested. In this work, we introduce a PTA model-comparison method using a combination of normalizing flows, nested sampling, and a PTA likelihood that is marginalized over all non-GWB parameters. The flows are trained using a newly-developed Python package coppuccino, which learns the data's copula: the dependence structure after transforming to uniform marginals. We validate the method on both analytic targets and simulated PTA data, recovering the analytic evidence within error bars and achieving an area-under-the-curve (AUC) score of 0.996 when treating the BFs as binary classifiers of the injected models. The result is a method to perform Bayesian model comparison of arbitrary GWB spectral models in minutes on consumer hardware.",
+ "primary": "gr-qc"
+}

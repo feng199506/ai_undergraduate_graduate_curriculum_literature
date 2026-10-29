@@ -1,0 +1,17 @@
+{
+ "id": "2412.04980",
+ "title": "Matrix-Free Parallel Scalable Multilevel Deflation Preconditioning for Heterogeneous Time-Harmonic Wave Problems",
+ "authors": [
+  "Jinqiang Chen",
+  "Vandana Dwarka",
+  "Cornelis Vuik"
+ ],
+ "v1_date": "2024-12-06",
+ "latest_version": 1,
+ "latest_date": "2024-12-06",
+ "journal_ref": "",
+ "doi": "10.1007/s10915-024-02786-w",
+ "comment": "34 pages, 9 figures",
+ "abstract": "We present a matrix-free parallel scalable multilevel deflation preconditioned method for heterogeneous time-harmonic wave problems. Building on the higher-order deflation preconditioning proposed by Dwarka and Vuik (SIAM J. Sci. Comput. 42(2):A901-A928, 2020; J. Comput. Phys. 469:111327, 2022) for highly indefinite time-harmonic waves, we adapt these techniques for parallel implementation in the context of solving large-scale heterogeneous problems with minimal pollution error. Our proposed method integrates the Complex Shifted Laplacian preconditioner with deflation approaches. We employ higher-order deflation vectors and re-discretization schemes derived from the Galerkin coarsening approach for a matrix-free parallel implementation. We suggest a robust and efficient configuration of the matrix-free multilevel deflation method, which yields a close to wavenumber-independent convergence and good time efficiency. Numerical experiments demonstrate the effectiveness of our approach for increasingly complex model problems. The matrix-free implementation of the preconditioned Krylov subspace methods reduces memory consumption, and the parallel framework exhibits satisfactory parallel performance and weak parallel scalability. This work represents a significant step towards developing efficient, scalable, and parallel multilevel deflation preconditioning methods for large-scale real-world applications in wave propagation.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2602.11966",
+ "title": "MING: An Automated CNN-to-Edge MLIR HLS framework",
+ "authors": [
+  "Jiahong Bi",
+  "Lars Schütze",
+  "Jeronimo Castrillon"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 1,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Driven by the increasing demand for low-latency and real-time processing, machine learning applications are steadily migrating toward edge computing platforms, where Field-Programmable Gate Arrays (FPGAs) are widely adopted for their energy efficiency compared to CPUs and GPUs. To generate high-performance and low-power FPGA designs, several frameworks built upon High Level Synthesis (HLS) vendor tools have been proposed, among which MLIR-based frameworks are gaining significant traction due to their extensibility and ease of use. However, existing state-of-the-art frameworks often overlook the stringent resource constraints of edge devices. To address this limitation, we propose MING, an Multi-Level Intermediate Representation (MLIR)-based framework that abstracts and automates the HLS design process. Within this framework, we adopt a streaming architecture with carefully managed buffers, specifically designed to handle resource constraints while ensuring low-latency. In comparison with recent frameworks, our approach achieves on average 15x speedup for standard Convolutional Neural Network (CNN) kernels with up to four layers, and up to 200x for single-layer kernels. For kernels with larger input sizes, MING is capable of generating efficient designs that respect hardware resource constraints, whereas state-of-the-art frameworks struggle to meet.",
+ "primary": "cs.AR"
+}

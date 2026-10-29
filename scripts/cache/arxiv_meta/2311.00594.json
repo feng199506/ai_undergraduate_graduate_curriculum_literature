@@ -1,0 +1,17 @@
+{
+ "id": "2311.00594",
+ "title": "Rethinking Variational Inference for Probabilistic Programs with Stochastic Support",
+ "authors": [
+  "Tim Reichelt",
+  "Luke Ong",
+  "Tom Rainforth"
+ ],
+ "v1_date": "2023-11-01",
+ "latest_version": 1,
+ "latest_date": "2023-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2022",
+ "abstract": "We introduce Support Decomposition Variational Inference (SDVI), a new variational inference (VI) approach for probabilistic programs with stochastic support. Existing approaches to this problem rely on designing a single global variational guide on a variable-by-variable basis, while maintaining the stochastic control flow of the original program. SDVI instead breaks the program down into sub-programs with static support, before automatically building separate sub-guides for each. This decomposition significantly aids in the construction of suitable variational families, enabling, in turn, substantial improvements in inference performance.",
+ "primary": "cs.LG"
+}

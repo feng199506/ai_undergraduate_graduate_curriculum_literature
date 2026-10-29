@@ -1,0 +1,19 @@
+{
+ "id": "2603.22959",
+ "title": "Stepwise Variational Inference with Vine Copulas",
+ "authors": [
+  "Elisabeth Griesbauer",
+  "Leiv Rønneberg",
+  "Arnoldo Frigessi",
+  "Claudia Czado",
+  "Ingrid Hobæk Haff"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose stepwise variational inference (VI) with vine copulas: a universal VI procedure that combines vine copulas with a novel stepwise estimation procedure of the variational parameters. Vine copulas consist of a nested sequence of trees built from copulas, where more complex latent dependence can be modeled with increasing number of trees. We propose to estimate the vine copula approximate posterior in a stepwise fashion, tree by tree along the vine structure. Further, we show that the usual backward Kullback-Leibler divergence cannot recover the correct parameters in the vine copula model, thus the evidence lower bound is defined based on the Rényi divergence. Finally, an intuitive stopping criterion for adding further trees to the vine eliminates the need to pre-define a complexity parameter of the variational distribution, as required for most other approaches. Thus, our method interpolates between mean-field VI (MFVI) and full latent dependence. In many applications, in particular sparse Gaussian processes, our method is parsimonious with parameters, while outperforming MFVI.",
+ "primary": "stat.ML"
+}

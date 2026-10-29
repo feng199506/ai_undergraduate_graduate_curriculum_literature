@@ -1,0 +1,29 @@
+{
+ "id": "2408.06653",
+ "title": "Hierarchical Structured Neural Network: Efficient Retrieval Scaling for Large Scale Recommendation",
+ "authors": [
+  "Kaushik Rangadurai",
+  "Siyang Yuan",
+  "Minhui Huang",
+  "Yiqun Liu",
+  "Golnaz Ghasemiesfeh",
+  "Yunchen Pu",
+  "Haiyu Lu",
+  "Xingfeng He",
+  "Fangzhou Xu",
+  "Andrew Cui",
+  "Vidhoon Viswanathan",
+  "Lin Yang",
+  "Liang Wang",
+  "Jiyan Yang",
+  "Chonglin Sun"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 3,
+ "latest_date": "2025-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Resubmit",
+ "abstract": "Retrieval, the initial stage of a recommendation system, is tasked with down-selecting items from a pool of tens of millions of candidates to a few thousands. Embedding Based Retrieval (EBR) has been a typical choice for this problem, addressing the computational demands of deep neural networks across vast item corpora. EBR utilizes Two Tower or Siamese Networks to learn representations for users and items, and employ Approximate Nearest Neighbor (ANN) search to efficiently retrieve relevant items. Despite its popularity in industry, EBR faces limitations. The Two Tower architecture, relying on a single dot product interaction, struggles to capture complex data distributions due to limited capability in learning expressive interactions between users and items. Additionally, ANN index building and representation learning for user and item are often separate, leading to inconsistencies exacerbated by representation (e.g. continuous online training) and item drift (e.g. items expired and new items added). In this paper, we introduce the Hierarchical Structured Neural Network (HSNN), an efficient deep neural network model to learn intricate user and item interactions beyond the commonly used dot product in retrieval tasks, achieving sublinear computational costs relative to corpus size. A Modular Neural Network (MoNN) is designed to maintain high expressiveness for interaction learning while ensuring efficiency. A mixture of MoNNs operate on a hierarchical item index to achieve extensive computation sharing, enabling it to scale up to large corpus size. MoNN and the hierarchical index are jointly learnt to continuously adapt to distribution shifts in both user interests and item distributions. HSNN achieves substantial improvement in offline evaluation compared to prevailing methods.",
+ "primary": "cs.IR"
+}

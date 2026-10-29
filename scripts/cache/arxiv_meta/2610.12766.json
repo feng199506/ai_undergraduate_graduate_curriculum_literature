@@ -1,0 +1,16 @@
+{
+ "id": "2610.12766",
+ "title": "Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics",
+ "authors": [
+  "Qiwei Han",
+  "Chi Zhou"
+ ],
+ "v1_date": "2026-10-08",
+ "latest_version": 1,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "perovskite solar cells, provenance-grouped protocol, state of art, benchmark",
+ "abstract": "Machine-learning models for perovskite solar cells are typically evaluated using random data splits, which we show systematically leak information through massive internal duplication. Because nearly two-thirds of curated devices share their exact recipe with another, random splits primarily reward the mere recall of historical data rather than testing true physical generalisation. To solve this, we mapped the institutional provenance of the Perovskite Database and established a rigorous hierarchy of grouped splits that progressively isolate duplicate devices, publications, and institutions. Benchmarking thirteen models establishes new state-of-the-art performance across all splits and reveals a critical regime shift: while tree ensembles dominate random splits by recognising familiar recipes, their ranking collapses on genuinely unseen institutions and future discoveries, where composition-aware neural architectures excel. Furthermore, feature importance demonstrates that the device architecture and fabrication methodology dictate final efficiency just as strongly as the absorber chemistry. This standardised protocol empowers the community to separate memorisation from true physical discovery.",
+ "primary": "cs.LG"
+}

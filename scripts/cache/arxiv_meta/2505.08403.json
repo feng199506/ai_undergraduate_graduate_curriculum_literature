@@ -1,0 +1,17 @@
+{
+ "id": "2505.08403",
+ "title": "ConDiSim: Conditional Diffusion Models for Simulation Based Inference",
+ "authors": [
+  "Mayank Nautiyal",
+  "Andreas Hellander",
+  "Prashant Singh"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 2,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a conditional diffusion model - ConDiSim, for simulation-based inference of complex systems with intractable likelihoods. ConDiSim leverages denoising diffusion probabilistic models to approximate posterior distributions, consisting of a forward process that adds Gaussian noise to parameters, and a reverse process learning to denoise, conditioned on observed data. This approach effectively captures complex dependencies and multi-modalities within posteriors. ConDiSim is evaluated across ten benchmark problems and two real-world test problems, where it demonstrates effective posterior approximation accuracy while maintaining computational efficiency and stability in model training. ConDiSim offers a robust and extensible framework for simulation-based inference, particularly suitable for parameter inference workflows requiring fast inference methods.",
+ "primary": "cs.LG"
+}

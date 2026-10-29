@@ -1,0 +1,17 @@
+{
+ "id": "2410.01971",
+ "title": "Run-time Observation Interventions Make Vision-Language-Action Models More Visually Robust",
+ "authors": [
+  "Asher J. Hancock",
+  "Allen Z. Ren",
+  "Anirudha Majumdar"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 1,
+ "latest_date": "2024-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Website: https://aasherh.github.io/byovla/",
+ "abstract": "Vision-language-action (VLA) models trained on large-scale internet data and robot demonstrations have the potential to serve as generalist robot policies. However, despite their large-scale training, VLAs are often brittle to task-irrelevant visual details such as distractor objects or background colors. We introduce Bring Your Own VLA (BYOVLA): a run-time intervention scheme that (1) dynamically identifies regions of the input image that the model is sensitive to, and (2) minimally alters task-irrelevant regions to reduce the model's sensitivity using automated image editing tools. Our approach is compatible with any off the shelf VLA without model fine-tuning or access to the model's weights. Hardware experiments on language-instructed manipulation tasks demonstrate that BYOVLA enables state-of-the-art VLA models to nearly retain their nominal performance in the presence of distractor objects and backgrounds, which otherwise degrade task success rates by up to 40%. Website with additional information, videos, and code: https://aasherh.github.io/byovla/ .",
+ "primary": "cs.RO"
+}

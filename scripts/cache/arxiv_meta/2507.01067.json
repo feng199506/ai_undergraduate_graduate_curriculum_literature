@@ -1,0 +1,15 @@
+{
+ "id": "2507.01067",
+ "title": "Evaluation of a Foundational Model and Stochastic Models for Forecasting Sporadic or Spiky Production Outages of High-Performance Machine Learning Services",
+ "authors": [
+  "Keun Soo Yim"
+ ],
+ "v1_date": "2025-06-30",
+ "latest_version": 1,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time series forecasting models have diverse real world applications (e.g., from electricity metrics to software workload). Latest foundational models trained for time series forecasting show strengths (e.g., for long sequences and in zero-shot settings). However, foundational model was not yet used for forecasting rare, spiky events, i.e., a challenging target because those are a corner case of extreme events. In this paper, we optimize a state-of-the-art foundational model to forecast sporadic or spiky production outages of high-performance machine learning services powering billions of client devices. We evaluate the forecasting errors of the foundational model compared with classical stochastic forecasting models (e.g., moving average and autoregressive). The analysis helps us understand how each of the evaluated models performs for the sporadic or spiky events. For example, it identifies the key patterns in the target data that are well tracked by the foundational model vs. each of the stochastic models. We use the models with optimal parameters to estimate a year-long outage statistics of a particular root cause with less than 6% value errors.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2504.00170",
+ "title": "Backdoor Detection through Replicated Execution of Outsourced Training",
+ "authors": [
+  "Hengrui Jia",
+  "Sierra Wyllie",
+  "Akram Bin Sediq",
+  "Ahmed Ibrahim",
+  "Nicolas Papernot"
+ ],
+ "v1_date": "2025-03-31",
+ "latest_version": 1,
+ "latest_date": "2025-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in the 3rd IEEE Conference on Secure and Trustworthy Machine Learning (IEEE SaTML 2025)",
+ "abstract": "It is common practice to outsource the training of machine learning models to cloud providers. Clients who do so gain from the cloud's economies of scale, but implicitly assume trust: the server should not deviate from the client's training procedure. A malicious server may, for instance, seek to insert backdoors in the model. Detecting a backdoored model without prior knowledge of both the backdoor attack and its accompanying trigger remains a challenging problem. In this paper, we show that a client with access to multiple cloud providers can replicate a subset of training steps across multiple servers to detect deviation from the training procedure in a similar manner to differential testing. Assuming some cloud-provided servers are benign, we identify malicious servers by the substantial difference between model updates required for backdooring and those resulting from clean training. Perhaps the strongest advantage of our approach is its suitability to clients that have limited-to-no local compute capability to perform training; we leverage the existence of multiple cloud providers to identify malicious updates without expensive human labeling or heavy computation. We demonstrate the capabilities of our approach on an outsourced supervised learning task where $50\\%$ of the cloud providers insert their own backdoor; our approach is able to correctly identify $99.6\\%$ of them. In essence, our approach is successful because it replaces the signature-based paradigm taken by existing approaches with an anomaly-based detection paradigm. Furthermore, our approach is robust to several attacks from adaptive adversaries utilizing knowledge of our detection scheme.",
+ "primary": "cs.CR"
+}

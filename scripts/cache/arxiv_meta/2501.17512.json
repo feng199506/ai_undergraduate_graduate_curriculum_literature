@@ -1,0 +1,19 @@
+{
+ "id": "2501.17512",
+ "title": "A survey on Clustered Federated Learning: Taxonomy, Analysis and Applications",
+ "authors": [
+  "Michael Ben Ali",
+  "Omar El-Rifai",
+  "Imen Megdiche",
+  "André Peninou",
+  "Olivier Teste"
+ ],
+ "v1_date": "2025-01-29",
+ "latest_version": 3,
+ "latest_date": "2026-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As Federated Learning (FL) expands, the challenge of non-independent and identically distributed (non-IID) data becomes critical. Clustered Federated Learning (CFL) addresses this by training multiple specialized models, each representing a group of clients with similar data distributions. However, the term ''CFL'' has increasingly been applied to operational strategies unrelated to data heterogeneity, creating significant ambiguity. This survey provides a systematic review of the CFL literature and introduces a principled taxonomy that classifies algorithms into Server-side, Client-side, and Metadata-based approaches. Our analysis reveals a distinct dichotomy: while theoretical research prioritizes privacy-preserving Server/Client-side methods, real-world applications in IoT, Mobility, and Energy overwhelmingly favor Metadata-based efficiency. Furthermore, we explicitly distinguish ''Core CFL'' (grouping clients for non-IID data) from ''Clustered X FL'' (operational variants for system heterogeneity). Finally, we outline lessons learned and future directions to bridge the gap between theoretical privacy and practical efficiency.",
+ "primary": "stat.ML"
+}

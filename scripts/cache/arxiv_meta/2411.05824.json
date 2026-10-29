@@ -1,0 +1,21 @@
+{
+ "id": "2411.05824",
+ "title": "Navigating Distribution Shifts in Medical Image Analysis: A Survey",
+ "authors": [
+  "Zixian Su",
+  "Jingwei Guo",
+  "Xi Yang",
+  "Qiufeng Wang",
+  "Frans Coenen",
+  "Amir Hussain",
+  "Kaizhu Huang"
+ ],
+ "v1_date": "2024-11-05",
+ "latest_version": 4,
+ "latest_date": "2026-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Medical Image Analysis (MedIA) has become indispensable in modern healthcare, enhancing clinical diagnostics and personalized treatment. Despite the remarkable advancements supported by deep learning (DL) technologies, their practical deployment faces challenges posed by distribution shifts, where models trained on specific datasets underperform on others from varying hospitals, or patient populations. To address this issue, researchers have been actively developing strategies to increase the adaptability of DL models, enabling their effective use in unfamiliar environments. This paper systematically reviews approaches that apply DL techniques to MedIA systems affected by distribution shifts. Rather than organizing existing methods by technical characteristics, we explicitly bridge real-world clinical constraints -- such as limited data accessibility, strict privacy requirements, and heterogeneous collaboration protocols -- with the technical paradigms able to address them. By establishing this connection between operational constraints and methodological evolution, we categorize existing works into Joint Training, Federated Learning, Fine-tuning, and Domain Generalization, each aligned with specific healthcare scenarios. Beyond this taxonomy, our empirical analysis suggests that, as domain information becomes progressively less accessible across these paradigms, performance improvements become increasingly constrained, and further uncovers a gradual shift in methodological focus from explicit distribution alignment toward uncertainty-aware modeling, ultimately pointing to the need for more deployability-aware design in real-world MedIA.",
+ "primary": "eess.IV"
+}

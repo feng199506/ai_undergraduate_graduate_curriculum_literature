@@ -1,0 +1,17 @@
+{
+ "id": "2604.04264",
+ "title": "Avoiding Non-Integrable Beliefs in Expectation Propagation",
+ "authors": [
+  "Zilu Zhao",
+  "Jichao Chen",
+  "Dirk Slock"
+ ],
+ "v1_date": "2026-04-05",
+ "latest_version": 1,
+ "latest_date": "2026-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Expectation Propagation (EP) is a widely used iterative message-passing algorithm that decomposes a global inference problem into multiple local ones. It approximates marginal distributions as ``beliefs'' using intermediate functions called ``messages''. It has been shown that the stationary points of EP are the same as corresponding constrained Bethe Free Energy (BFE) optimization problem. Therefore, EP is an iterative method of optimizing the constrained BFE. However, the iterative method may fall out of the feasible set of the BFE optimization problem, i.e., the beliefs are not integrable. In most literature, the authors use various methods to keep all the messages integrable. In most Bayesian estimation problems, limiting the messages to be integrable shrinks the actual feasible set. Furthermore, in extreme cases where the factors are not integrable, making the message itself integrable is not enough to have integrable beliefs. In this paper, two EP frameworks are proposed to ensure that EP has integrable beliefs. Both of the methods allows non-integrable messages. We then investigate the signal recovery problem in Generalized Linear Model (GLM) using our proposed methods.",
+ "primary": "stat.ML"
+}

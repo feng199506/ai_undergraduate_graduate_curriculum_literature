@@ -1,0 +1,30 @@
+{
+ "id": "2508.02929",
+ "title": "Realizing Scaling Laws in Recommender Systems: A Foundation-Expert Paradigm for Hyperscale Model Deployment",
+ "authors": [
+  "Dai Li",
+  "Kevin Course",
+  "Wei Li",
+  "Hongwei Li",
+  "Jie Hua",
+  "Yiqi Chen",
+  "Zhao Zhu",
+  "Rui Jian",
+  "Xuan Cao",
+  "Bi Xue",
+  "Yu Shi",
+  "Jing Qian",
+  "Kai Ren",
+  "Matt Ma",
+  "Qunshu Zhang",
+  "Rui Li"
+ ],
+ "v1_date": "2025-08-04",
+ "latest_version": 3,
+ "latest_date": "2026-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scaling laws have been established for recommender systems, yet efficiently deploying foundation model (FM) across multiple recommendation surfaces remains a major unsolved challenge. Existing methods for transfer learning face fundamental limitations in this setting: knowledge distillation suffers from transfer fidelity degradation in the large-data regime, and static user or item embeddings lack the expressiveness to capture contextualized user-item interactions. We propose the Foundation-Expert paradigm, where a central FM generates target-aware embeddings which are ingested by lightweight surface-specific expert models. Target-aware embeddings are representations that dynamically capture a user's interest in a specific item conditioned on their full interaction history. Unlike knowledge distillation, which transfers FM knowledge as soft labels, our approach provides these embeddings as input features to each expert model, enabling direct interaction with surface-specific representations. This paradigm achieves transfer ratios of 0.64--1.0 from FM to experts, substantially exceeding existing methods. Fully deployed at Meta serving tens of billions of daily requests since 2025, it delivers 0.050% statistically significant online topline metric improvement and 0.359% cumulative gains across multiple surfaces.",
+ "primary": "cs.IR"
+}

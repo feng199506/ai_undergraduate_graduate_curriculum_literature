@@ -1,0 +1,23 @@
+{
+ "id": "2401.17736",
+ "title": "Leveraging Human-Machine Interactions for Computer Vision Dataset Quality Enhancement",
+ "authors": [
+  "Esla Timothy Anzaku",
+  "Hyesoo Hong",
+  "Jin-Woo Park",
+  "Wonjun Yang",
+  "Kangmin Kim",
+  "JongBum Won",
+  "Deshika Vinoshani Kumari Herath",
+  "Arnout Van Messem",
+  "Wesley De Neve"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 1,
+ "latest_date": "2024-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large-scale datasets for single-label multi-class classification, such as \\emph{ImageNet-1k}, have been instrumental in advancing deep learning and computer vision. However, a critical and often understudied aspect is the comprehensive quality assessment of these datasets, especially regarding potential multi-label annotation errors. In this paper, we introduce a lightweight, user-friendly, and scalable framework that synergizes human and machine intelligence for efficient dataset validation and quality enhancement. We term this novel framework \\emph{Multilabelfy}. Central to Multilabelfy is an adaptable web-based platform that systematically guides annotators through the re-evaluation process, effectively leveraging human-machine interactions to enhance dataset quality. By using Multilabelfy on the ImageNetV2 dataset, we found that approximately $47.88\\%$ of the images contained at least two labels, underscoring the need for more rigorous assessments of such influential datasets. Furthermore, our analysis showed a negative correlation between the number of potential labels per image and model top-1 accuracy, illuminating a crucial factor in model evaluation and selection. Our open-source framework, Multilabelfy, offers a convenient, lightweight solution for dataset enhancement, emphasizing multi-label proportions. This study tackles major challenges in dataset integrity and provides key insights into model performance evaluation. Moreover, it underscores the advantages of integrating human expertise with machine capabilities to produce more robust models and trustworthy data development. The source code for Multilabelfy will be available at https://github.com/esla/Multilabelfy. \\keywords{Computer Vision \\and Dataset Quality Enhancement \\and Dataset Validation \\and Human-Computer Interaction \\and Multi-label Annotation.}",
+ "primary": "cs.CV"
+}

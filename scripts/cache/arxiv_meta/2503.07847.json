@@ -1,0 +1,17 @@
+{
+ "id": "2503.07847",
+ "title": "Python-JAX-based Fast Stokesian Dynamics",
+ "authors": [
+  "Kim William Torre",
+  "Raoul D. Schram",
+  "Joost de Graaf"
+ ],
+ "v1_date": "2025-03-10",
+ "latest_version": 1,
+ "latest_date": "2025-03-10",
+ "journal_ref": "SciPost Phys. Codebases 56 (2025)",
+ "doi": "10.21468/scipostphyscodeb.56",
+ "comment": "",
+ "abstract": "Stokesian Dynamics (SD) is a powerful computational framework for simulating the motion of particles in a viscous Newtonian fluid under Stokes-flow conditions. Traditional SD implementations can be computationally expensive as they rely on the inversion of large mobility matrices to determine hydrodynamic interactions. Recently, however, the simulation of thermalized systems with large numbers of particles has become feasible [Fiore and Swan, J. Fluid. Mech. $\\textbf{878}$, 544 (2019)]. Their ``fast Stokesian dynamics'' (FSD) method leverages a saddle-point formulation to ensure overall scaling of the algorithm that is linear in the number of particles $\\mathcal{O}(N)$; performance relies on dedicated graphics-processing-unit computing. Here, we present a different route toward implementing FSD, which instead leverages the Just-in-Time (JIT) compilation capabilities of Google JAX. We refer to this implementation as JFSD and perform benchmarks on it to verify that it has the right scaling and is sufficiently fast by the standards of modern computational physics. In addition, we provide a series of physical test cases that help ensure accuracy and robustness, as the code undergoes further development. Thus, JFSD is ready to facilitate the study of hydrodynamic effects in particle suspensions across the domains of soft, active, and granular matter.",
+ "primary": "physics.flu-dyn"
+}

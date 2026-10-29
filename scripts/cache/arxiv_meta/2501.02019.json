@@ -1,0 +1,16 @@
+{
+ "id": "2501.02019",
+ "title": "Benchmarking Constraint-Based Bayesian Structure Learning Algorithms: Role of Network Topology",
+ "authors": [
+  "Radha Nagarajan",
+  "Marco Scutari"
+ ],
+ "v1_date": "2025-01-02",
+ "latest_version": 1,
+ "latest_date": "2025-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 Pages, 4 Figures",
+ "abstract": "Modeling the associations between real world entities from their multivariate cross-sectional profiles can provide cues into the concerted working of these entities as a system. Several techniques have been proposed for deciphering these associations including constraint-based Bayesian structure learning (BSL) algorithms that model them as directed acyclic graphs. Benchmarking these algorithms have typically focused on assessing the variation in performance measures such as sensitivity as a function of the dimensionality represented by the number of nodes in the DAG, and sample size. The present study elucidates the importance of network topology in benchmarking exercises. More specifically, it investigates variations in sensitivity across distinct network topologies while constraining the nodes, edges, and sample-size to be identical, eliminating these as potential confounders. Sensitivity of three popular constraint-based BSL algorithms (Peter-Clarke, Grow-Shrink, Incremental Association Markov Blanket) in learning the network structure from multivariate cross-sectional profiles sampled from network models with sub-linear, linear, and super-linear DAG topologies generated using preferential attachment is investigated. Results across linear and nonlinear models revealed statistically significant $(α=0.05)$ decrease in sensitivity estimates from sub-linear to super-linear topology constitutively across the three algorithms. These results are demonstrated on networks with nodes $(N_{nods}=48,64)$, noise strengths $(σ=3,6)$ and sample size $(N = 2^{10})$. The findings elucidate the importance of accommodating the network topology in constraint-based BSL benchmarking exercises.",
+ "primary": "cs.LG"
+}

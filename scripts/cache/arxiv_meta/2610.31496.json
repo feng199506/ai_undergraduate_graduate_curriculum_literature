@@ -1,0 +1,15 @@
+{
+ "id": "2610.31496",
+ "title": "Mixed-Precision Coalesced Matrix-Free Multigrid with Vertex-Patch Smoothing",
+ "authors": [
+  "Michał Wichrowski"
+ ],
+ "v1_date": "2026-10-22",
+ "latest_version": 1,
+ "latest_date": "2026-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "I present a geometric multigrid solver for the Poisson equation with continuous cubic elements in three dimensions, smoothed by a multiplicative vertex-patch Schwarz method with exact local solves. All fields are kept in persistent cell-wise storage, where every cell holds its own copy of each shared degree of freedom. The patch smoother yields a continuous solution without any exchange between cells. On the GPU, the patch update is computed in registers, one cell per thread, and the cells of a patch exchange data by warp shuffles, so shared memory is avoided almost entirely. Despite the low occupancy that this design implies, the arithmetic of the patch update runs close to the FP32 peak. Fast diagonalization, merged transforms, and a reflection symmetry of the patch then reduce the arithmetic until a sweep moves its data at $87\\%$ of the bandwidth of a plain device copy. The hierarchy therefore runs in single precision inside a double-precision outer iteration. Rounding the unassembled residual destroys the cancellation between opposite-sign copies of shared degrees of freedom; exchanging the copies between cells in double precision performs this cancellation before rounding, without changing the dual vector they represent. With this \\emph{rebalancing}, the cycle converges as in double precision and independently of the mesh size, the error converges at the optimal rate down to the precision of the solve, and the solver reaches over $400$ million degrees of freedom per second on a single NVIDIA A100 GPU.",
+ "primary": "math.NA"
+}

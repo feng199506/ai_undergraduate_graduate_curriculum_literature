@@ -1,0 +1,21 @@
+{
+ "id": "2607.18600",
+ "title": "Topology-Aware Tokenization for Generative Recommendation",
+ "authors": [
+  "Yaokun Liu",
+  "Yifan Liu",
+  "Zhenrui Yue",
+  "Gyuseok Lee",
+  "Zelin Li",
+  "Ruichen Yao",
+  "Dong Wang"
+ ],
+ "v1_date": "2026-07-21",
+ "latest_version": 1,
+ "latest_date": "2026-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to RecSys 2026. 10 pages",
+ "abstract": "Generative recommendation reformulates sequential recommendation as an autoregressive generation task, yet a critical issue in this paradigm remains overlooked: topology distortion in item tokenization. In particular, we observe that the intrinsic adjacency relationships of items in the pretrained semantic embedding space are significantly disrupted after quantization. This topology distortion misleads the model's perception of item similarity, ultimately bottlenecking the accuracy of generative recommendations. To address this issue, we propose Topology-Aware Tokenization (TopoTok), an item tokenization framework that preserves item relational structure throughout the quantization hierarchy. Different from the prior monolithic supervision in tokenization, TopoTok introduces a multi-level distillation scheme to progressively recover the topology from coarse to fine granularity: 1) Inter-Group Distillation to capture global cluster-wise relations; 2) Intra-Group Distillation to refine local structures within semantic clusters; and 3) Inter-Item Distillation to enforce fine-grained alignment at the individual item level. Extensive experiments on three benchmark datasets demonstrate that TopoTok effectively alleviates topology distortion and consistently outperforms state-of-the-art tokenizers, achieving significant performance gains of up to 9.42% in Recall@5.",
+ "primary": "cs.IR"
+}

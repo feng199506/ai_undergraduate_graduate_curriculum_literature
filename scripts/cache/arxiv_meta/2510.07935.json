@@ -1,0 +1,17 @@
+{
+ "id": "2510.07935",
+ "title": "Some theoretical improvements on the tightness of PAC-Bayes risk certificates for neural networks",
+ "authors": [
+  "Diego García-Pérez",
+  "Emilio Parrado-Hernández",
+  "John Shawe-Taylor"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 2,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Typo fix on Equations 8, 9 and 11. Added mention to the associated github repository: github.com/Diegogpcm/pacbayesgradients",
+ "abstract": "This paper presents four theoretical contributions that improve the usability of risk certificates for neural networks based on PAC-Bayes bounds. First, two bounds on the KL divergence between Bernoulli distributions enable the derivation of the tightest explicit bounds on the true risk of classifiers across different ranges of empirical risk. The paper next focuses on the formalization of an efficient methodology based on implicit differentiation that enables the introduction of the optimization of PAC-Bayesian risk certificates inside the loss/objective function used to fit the network/model. The last contribution is a method to optimize bounds on non-differentiable objectives such as the 0-1 loss. These theoretical contributions are complemented with an empirical evaluation on the MNIST and CIFAR-10 datasets. In fact, this paper presents the first non-vacuous generalization bounds on CIFAR-10 for neural networks. Code to reproduce all experiments is available at github.com/Diegogpcm/pacbayesgradients.",
+ "primary": "cs.LG"
+}

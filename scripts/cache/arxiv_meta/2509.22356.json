@@ -1,0 +1,21 @@
+{
+ "id": "2509.22356",
+ "title": "RoboView-Bias: Benchmarking Visual Bias in Embodied Agents for Robotic Manipulation",
+ "authors": [
+  "Enguang Liu",
+  "Siyuan Liang",
+  "Liming Lu",
+  "Xiyu Zeng",
+  "Xiaochun Cao",
+  "Aishan Liu",
+  "Shuchao Pang"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 1,
+ "latest_date": "2025-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The safety and reliability of embodied agents rely on accurate and unbiased visual perception. However, existing benchmarks mainly emphasize generalization and robustness under perturbations, while systematic quantification of visual bias remains scarce. This gap limits a deeper understanding of how perception influences decision-making stability. To address this issue, we propose RoboView-Bias, the first benchmark specifically designed to systematically quantify visual bias in robotic manipulation, following a principle of factor isolation. Leveraging a structured variant-generation framework and a perceptual-fairness validation protocol, we create 2,127 task instances that enable robust measurement of biases induced by individual visual factors and their interactions. Using this benchmark, we systematically evaluate three representative embodied agents across two prevailing paradigms and report three key findings: (i) all agents exhibit significant visual biases, with camera viewpoint being the most critical factor; (ii) agents achieve their highest success rates on highly saturated colors, indicating inherited visual preferences from underlying VLMs; and (iii) visual biases show strong, asymmetric coupling, with viewpoint strongly amplifying color-related bias. Finally, we demonstrate that a mitigation strategy based on a semantic grounding layer substantially reduces visual bias by approximately 54.5\\% on MOKA. Our results highlight that systematic analysis of visual bias is a prerequisite for developing safe and reliable general-purpose embodied agents.",
+ "primary": "cs.RO"
+}

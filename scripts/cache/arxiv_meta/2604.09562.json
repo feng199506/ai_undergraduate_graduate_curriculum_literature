@@ -1,0 +1,18 @@
+{
+ "id": "2604.09562",
+ "title": "StreamServe: Adaptive Speculative Flows for Low-Latency Disaggregated LLM Serving",
+ "authors": [
+  "Satyam Kumar",
+  "Arpit Singh Gautam",
+  "Kailash Talreja",
+  "Saurabh Jha"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 1,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Efficient LLM serving must balance throughput and latency across diverse, bursty workloads. We introduce StreamServe, a disaggregated prefill decode serving architecture that combines metric aware routing across compute lanes with adaptive speculative decoding that tunes speculation depth online from runtime signals. StreamServe comprises four components: StreamScheduler for request orchestration, FlowGuard for multi signal routing, PipeServe Engine for disaggregated prefill decode execution on multi GPU, and SpecuStream for runtime adaptive speculation. We evaluate StreamServe on four benchmarks ALPACA, GSM8K, HUMANEVAL, and SUM with 80 queries each and 320 total using 4 A800 40GB GPUs configured as two stream pairs. Across these workloads, StreamServe reduces latency by 11 to 18 times relative to tensor parallel vLLM baselines and reaches throughput up to 2235 tokens per second on summarization tasks. Time per output token remains stable across configurations, indicating that the gains arise from architectural efficiency rather than token quality degradation. Although evaluated on a single node 4 GPU setup, these results suggest that jointly adapting routing and speculation within a disaggregated framework creates a distinct operating regime for LLM inference.",
+ "primary": "cs.DC"
+}

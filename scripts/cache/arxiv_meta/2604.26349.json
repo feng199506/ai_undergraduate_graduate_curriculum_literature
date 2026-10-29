@@ -1,0 +1,16 @@
+{
+ "id": "2604.26349",
+ "title": "Asymptotically Robust Learning-Augmented Algorithms for Preemptive FIFO Buffer Management",
+ "authors": [
+  "Wen-Han Hsieh",
+  "Ya-Chun Liang"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 1,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a learning-augmented online algorithm for the preemptive FIFO buffer management problem, where packets arrive online to a finite-capacity buffer, must be transmitted in FIFO order, and the algorithm may preemptively discard buffered packets to accommodate future arrivals. Our algorithm simultaneously achieves 1-consistency, η-smoothness, and asymptotic \\sqrt{3}-robustness, where ηdenotes the prediction error. Specifically, it attains an optimal competitive ratio of 1 under perfect predictions, degrades smoothly as the prediction error increases, and maintains an asymptotic competitive ratio of \\sqrt{3} under arbitrarily inaccurate predictions, matching the best-known worst-case guarantee for the classical online problem, established by Englert and Westermann in 2009 [Algorithmica 53(4): 523-548]. A key technical contribution of our work is the introduction of an \\emph{output-based prediction error metric}. Because capacity constraints dictate that only a strictly bounded subset of arriving packets is ultimately transmitted, our metric assesses prediction quality over the resulting optimal schedules rather than the raw input sequences, avoiding artificial error penalties. To guarantee robustness, our algorithm dynamically monitors predictions and executes a \\emph{buffer-clearing strategy} upon transitioning to a worst-case fallback mechanism. We prove that the competitive loss incurred by this clearing operation is bounded by an additive capacity constant that vanishes asymptotically. Finally, we show that our algorithm provides a generalized framework for learning-augmented buffer management: substituting the fallback module with any β-competitive online algorithm immediately yields asymptotic β-robustness.",
+ "primary": "cs.DS"
+}

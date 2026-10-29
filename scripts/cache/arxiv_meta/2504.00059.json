@@ -1,0 +1,17 @@
+{
+ "id": "2504.00059",
+ "title": "ModelRadar: Aspect-based Forecast Evaluation",
+ "authors": [
+  "Vitor Cerqueira",
+  "Luis Roque",
+  "Carlos Soares"
+ ],
+ "v1_date": "2025-03-31",
+ "latest_version": 1,
+ "latest_date": "2025-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate evaluation of forecasting models is essential for ensuring reliable predictions. Current practices for evaluating and comparing forecasting models focus on summarising performance into a single score, using metrics such as SMAPE. While convenient, averaging performance over all samples dilutes relevant information about model behavior under varying conditions. This limitation is especially problematic for time series forecasting, where multiple layers of averaging--across time steps, horizons, and multiple time series in a dataset--can mask relevant performance variations. We address this limitation by proposing ModelRadar, a framework for evaluating univariate time series forecasting models across multiple aspects, such as stationarity, presence of anomalies, or forecasting horizons. We demonstrate the advantages of this framework by comparing 24 forecasting methods, including classical approaches and different machine learning algorithms. NHITS, a state-of-the-art neural network architecture, performs best overall but its superiority varies with forecasting conditions. For instance, concerning the forecasting horizon, we found that NHITS (and also other neural networks) only outperforms classical approaches for multi-step ahead forecasting. Another relevant insight is that classical approaches such as ETS or Theta are notably more robust in the presence of anomalies. These and other findings highlight the importance of aspect-based model evaluation for both practitioners and researchers. ModelRadar is available as a Python package.",
+ "primary": "cs.LG"
+}

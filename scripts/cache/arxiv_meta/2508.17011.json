@@ -1,0 +1,20 @@
+{
+ "id": "2508.17011",
+ "title": "A Survey of Deep Learning-based Point Cloud Denoising",
+ "authors": [
+  "Jinxi Wang",
+  "Ben Fei",
+  "Dasith de Silva Edirimuni",
+  "Zheng Liu",
+  "Ying He",
+  "Xuequan Lu"
+ ],
+ "v1_date": "2025-08-23",
+ "latest_version": 1,
+ "latest_date": "2025-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate 3D geometry acquisition is essential for a wide range of applications, such as computer graphics, autonomous driving, robotics, and augmented reality. However, raw point clouds acquired in real-world environments are often corrupted with noise due to various factors such as sensor, lighting, material, environment etc, which reduces geometric fidelity and degrades downstream performance. Point cloud denoising is a fundamental problem, aiming to recover clean point sets while preserving underlying structures. Classical optimization-based methods, guided by hand-crafted filters or geometric priors, have been extensively studied but struggle to handle diverse and complex noise patterns. Recent deep learning approaches leverage neural network architectures to learn distinctive representations and demonstrate strong outcomes, particularly on complex and large-scale point clouds. Provided these significant advances, this survey provides a comprehensive and up-to-date review of deep learning-based point cloud denoising methods up to August 2025. We organize the literature from two perspectives: (1) supervision level (supervised vs. unsupervised), and (2) modeling perspective, proposing a functional taxonomy that unifies diverse approaches by their denoising principles. We further analyze architectural trends both structurally and chronologically, establish a unified benchmark with consistent training settings, and evaluate methods in terms of denoising quality, surface fidelity, point distribution, and computational efficiency. Finally, we discuss open challenges and outline directions for future research in this rapidly evolving field.",
+ "primary": "cs.GR"
+}

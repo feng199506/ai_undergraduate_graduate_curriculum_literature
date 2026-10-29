@@ -1,0 +1,17 @@
+{
+ "id": "2503.05924",
+ "title": "Satire: Computing Rigorous Bounds for Floating-Point Rounding Error in Mixed-Precision Loop-Free Programs",
+ "authors": [
+  "Tanmay Tirpankar",
+  "Arnab Das",
+  "Ganesh Gopalakrishnan"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 1,
+ "latest_date": "2025-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pgs, 8 figures, 4 tables",
+ "abstract": "Techniques that rigorously bound the overall rounding error exhibited by a numerical program are of significant interest for communities developing numerical software. However, there are few available tools today that can be used to rigorously bound errors in programs that employ conditional statements (a basic need) as well as mixed-precision arithmetic (a direction of significant future interest) employing global optimization in error analysis. In this paper, we present a new tool that fills this void while also employing an abstraction-guided optimization approach to allow designers to trade error-bound tightness for gains in analysis time -- useful when searching for design alternatives. We first present the basic rigorous analysis framework of Satire and then show how to extend it to incorporate abstractions, conditionals, and mixed-precision arithmetic. We begin by describing Satire's design and its performance on a collection of benchmark examples. We then describe these aspects of Satire: (1) how the error-bound and tool execution time vary with the abstraction level; (2) the additional machinery to handle conditional expression branches, including defining the concepts of instability jumps and instability window widths and measuring these quantities; and (3) how the error changes when a mix of precision values are used. To showcase how \\satire can add value during design, we start with a Conjugate Gradient solver and demonstrate how its step size and search direction are affected by different precision settings. Satire is freely available for evaluation, and can be used during the design of numerical routines to effect design tradeoffs guided by rigorous empirical error guarantees.",
+ "primary": "cs.PL"
+}

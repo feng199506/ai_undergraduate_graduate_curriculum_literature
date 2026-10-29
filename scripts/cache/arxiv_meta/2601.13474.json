@@ -1,0 +1,18 @@
+{
+ "id": "2601.13474",
+ "title": "Preconditioning Benefits of Spectral Orthogonalization in Muon",
+ "authors": [
+  "Jianhao Ma",
+  "Yu Huang",
+  "Yuejie Chi",
+  "Yuxin Chen"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 1,
+ "latest_date": "2026-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Muon optimizer, a matrix-structured algorithm that leverages spectral orthogonalization of gradients, is a milestone in the pretraining of large language models. However, the underlying mechanisms of Muon -- particularly the role of gradient orthogonalization -- remain poorly understood, with very few works providing end-to-end analyses that rigorously explain its advantages in concrete applications. We take a step by studying the effectiveness of a simplified variant of Muon through two case studies: matrix factorization, and in-context learning of linear transformers. For both problems, we prove that simplified Muon converges linearly with iteration complexities independent of the relevant condition number, provably outperforming gradient descent and Adam. Our analysis reveals that the Muon dynamics decouple into a collection of independent scalar sequences in the spectral domain, each exhibiting similar convergence behavior. Our theory formalizes the preconditioning effect induced by spectral orthogonalization, offering insight into Muon's effectiveness in these matrix optimization problems and potentially beyond.",
+ "primary": "cs.LG"
+}

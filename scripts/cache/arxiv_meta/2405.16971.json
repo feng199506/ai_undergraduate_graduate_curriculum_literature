@@ -1,0 +1,20 @@
+{
+ "id": "2405.16971",
+ "title": "A Unified Framework for Tabular Generative Modeling: Loss Functions, Benchmarks, and Improved Multi-objective Bayesian Optimization Approaches",
+ "authors": [
+  "Minh H. Vu",
+  "Daniel Edler",
+  "Carl Wibom",
+  "Tommy Löfstedt",
+  "Beatrice Melin",
+  "Martin Rosvall"
+ ],
+ "v1_date": "2024-05-27",
+ "latest_version": 2,
+ "latest_date": "2026-05-04",
+ "journal_ref": "Transactions on Machine Learning Research (TMLR), 2026. https://openreview.net/forum?id=RPZ0EW0lz0",
+ "doi": "",
+ "comment": "Published in Transactions on Machine Learning Research (TMLR), 2026. Code available at https://github.com/vuhoangminh/TabGen-Framework",
+ "abstract": "Deep learning (DL) models require extensive data to achieve strong performance and generalization. Deep generative models (DGMs) offer a solution by synthesizing data. Yet current approaches for tabular data often fail to preserve feature correlations and distributions during training, struggle with multi-metric hyperparameter selection, and lack comprehensive evaluation protocols. We address this gap with a unified framework that integrates training, hyperparameter tuning, and evaluation. First, we introduce a novel correlation- and distribution-aware loss function that regularizes DGMs, enhancing their ability to generate synthetic tabular data that faithfully represents the underlying data distributions. Theoretical analysis establishes stability and consistency guarantees. To enable principled hyperparameter search via Bayesian optimization (BO), we also propose a new multi-objective aggregation strategy based on iterative objective refinement Bayesian optimization (IORBO), along with a comprehensive statistical testing framework. We validate the proposed approach using a benchmarking framework with twenty real-world datasets and ten established tabular DGM baselines. The correlation-aware loss function significantly improves synthetic data fidelity and downstream machine learning (ML) performance, while IORBO consistently outperforms standard Bayesian optimization (SBO) in hyperparameter selection. The unified framework advances tabular generative modeling beyond isolated method improvements. Code is available at: https://github.com/vuhoangminh/TabGen-Framework",
+ "primary": "cs.LG"
+}

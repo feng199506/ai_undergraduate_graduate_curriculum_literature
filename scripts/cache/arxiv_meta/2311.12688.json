@@ -1,0 +1,16 @@
+{
+ "id": "2311.12688",
+ "title": "On the Out-of-Distribution Coverage of Combining Split Conformal Prediction and Bayesian Deep Learning",
+ "authors": [
+  "Paul Scemama",
+  "Ariel Kapusta"
+ ],
+ "v1_date": "2023-11-21",
+ "latest_version": 2,
+ "latest_date": "2024-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 18 figures",
+ "abstract": "Bayesian deep learning and conformal prediction are two methods that have been used to convey uncertainty and increase safety in machine learning systems. We focus on combining Bayesian deep learning with split conformal prediction and how this combination effects out-of-distribution coverage; particularly in the case of multiclass image classification. We suggest that if the model is generally underconfident on the calibration set, then the resultant conformal sets may exhibit worse out-of-distribution coverage compared to simple predictive credible sets. Conversely, if the model is overconfident on the calibration set, the use of conformal prediction may improve out-of-distribution coverage. We evaluate prediction sets as a result of combining split conformal methods and neural networks trained with (i) stochastic gradient descent, (ii) deep ensembles, and (iii) mean-field variational inference. Our results suggest that combining Bayesian deep learning models with split conformal prediction can, in some cases, cause unintended consequences such as reducing out-of-distribution coverage.",
+ "primary": "cs.LG"
+}

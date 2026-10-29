@@ -1,0 +1,17 @@
+{
+ "id": "2601.16510",
+ "title": "Learning to Optimize by Differentiable Programming",
+ "authors": [
+  "Liping Tao",
+  "Xindi Tong",
+  "Chee Wei Tan"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 5,
+ "latest_date": "2026-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Solving massive-scale optimization problems requires scalable first-order methods with low per-iteration cost. This tutorial highlights a shift in optimization: using differentiable programming not only to execute algorithms but to learn how to design them. Modern frameworks such as PyTorch, TensorFlow, and JAX enable this paradigm through efficient automatic differentiation. Embedding first-order methods within these systems allows end-to-end training that improves convergence and solution quality. Guided by Fenchel-Rockafellar duality, the tutorial demonstrates how duality-informed iterative schemes such as the alternating direction method of multipliers, and the primal-dual hybrid gradient can be learned and adapted through representative case studies.",
+ "primary": "cs.MS"
+}

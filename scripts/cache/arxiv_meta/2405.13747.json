@@ -1,0 +1,17 @@
+{
+ "id": "2405.13747",
+ "title": "Reducing Mid-Circuit Measurements via Probabilistic Circuits",
+ "authors": [
+  "Yanbin Chen",
+  "Innocenzo Fulginiti",
+  "Christian B. Mendl"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 1,
+ "latest_date": "2024-05-22",
+ "journal_ref": "",
+ "doi": "10.1109/qce60285.2024.00114",
+ "comment": "",
+ "abstract": "Mid-circuit measurements and measurement-controlled gates are supported by an increasing number of quantum hardware platforms and will become more relevant as an essential building block for quantum error correction. However, mid-circuit measurements impose significant demands on the quantum hardware due to the required signal analysis and classical feedback loop. This work presents a static circuit optimization algorithm that can substitute some of these measurements with an equivalent circuit with randomized gate applications. Our method uses ideas from constant propagation to classically precompute measurement outcome probabilities. Our proposed optimization is efficient, as its runtime scales polynomially on the number of qubits and gates of the circuit.",
+ "primary": "quant-ph"
+}

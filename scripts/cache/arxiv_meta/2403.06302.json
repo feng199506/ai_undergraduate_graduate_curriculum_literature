@@ -1,0 +1,17 @@
+{
+ "id": "2403.06302",
+ "title": "Nonparametric Automatic Differentiation Variational Inference with Spline Approximation",
+ "authors": [
+  "Yuda Shao",
+  "Shan Yu",
+  "Tianshu Feng"
+ ],
+ "v1_date": "2024-03-10",
+ "latest_version": 1,
+ "latest_date": "2024-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automatic Differentiation Variational Inference (ADVI) is efficient in learning probabilistic models. Classic ADVI relies on the parametric approach to approximate the posterior. In this paper, we develop a spline-based nonparametric approximation approach that enables flexible posterior approximation for distributions with complicated structures, such as skewness, multimodality, and bounded support. Compared with widely-used nonparametric variational inference methods, the proposed method is easy to implement and adaptive to various data structures. By adopting the spline approximation, we derive a lower bound of the importance weighted autoencoder and establish the asymptotic consistency. Experiments demonstrate the efficiency of the proposed method in approximating complex posterior distributions and improving the performance of generative models with incomplete data.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2312.11862",
+ "title": "Topo-MLP : A Simplicial Network Without Message Passing",
+ "authors": [
+  "Karthikeyan Natesan Ramamurthy",
+  "Aldo Guzmán-Sáenz",
+  "Mustafa Hajij"
+ ],
+ "v1_date": "2023-12-19",
+ "latest_version": 1,
+ "latest_date": "2023-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Due to their ability to model meaningful higher order relations among a set of entities, higher order network models have emerged recently as a powerful alternative for graph-based network models which are only capable of modeling binary relationships. Message passing paradigm is still dominantly used to learn representations even for higher order network models. While powerful, message passing can have disadvantages during inference, particularly when the higher order connectivity information is missing or corrupted. To overcome such limitations, we propose Topo-MLP, a purely MLP-based simplicial neural network algorithm to learn the representation of elements in a simplicial complex without explicitly relying on message passing. Our framework utilizes a novel Higher Order Neighborhood Contrastive (HONC) loss which implicitly incorporates the simplicial structure into representation learning. Our proposed model's simplicity makes it faster during inference. Moreover, we show that our model is robust when faced with missing or corrupted connectivity structure.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.07580",
+ "title": "A computational study of low precision incomplete Cholesky factorization preconditioners for sparse linear least-squares problems",
+ "authors": [
+  "Jennifer Scott",
+  "Miroslav Tůma"
+ ],
+ "v1_date": "2025-04-10",
+ "latest_version": 2,
+ "latest_date": "2026-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 5 figures, 11 tables",
+ "abstract": "Our interest lies in the robust and efficient solution of large sparse linear least-squares problems. In recent years, hardware developments have led to a surge in interest in exploiting mixed precision arithmetic within numerical linear algebra algorithms to take advantage of potential savings in memory requirements, runtime and energy use, whilst still achieving the requested accuracy. We explore employing mixed precision when solving least-squares problems, focusing on the practicalities of developing robust approaches using low precision incomplete Cholesky factorization preconditioners. Key penalties associated with lower precision include a loss of reliability and less accuracy in the computed solution. Through experiments involving problems from practical applications, we study computing incomplete Cholesky factorizations of the normal matrix using low precision and using the factors to precondition LSQR using mixed precision. We investigate level-based and memory-limited incomplete factorization preconditioners. We find that the former are not effective for least-squares problems while the latter can provide high-quality preconditioners. In particular, half precision arithmetic can be considered if high accuracy is not required in the solution or the memory for the incomplete factors is very restricted; otherwise, single precision can be used, and double precision accuracy recovered while reducing memory consumption, even for ill-conditioned problems.",
+ "primary": "math.NA"
+}

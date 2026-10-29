@@ -1,0 +1,16 @@
+{
+ "id": "2606.01238",
+ "title": "Training-Free Imitation Learning with Closed-Form Diffusion Policies",
+ "authors": [
+  "Raghav Mishra",
+  "Ian R. Manchester"
+ ],
+ "v1_date": "2026-05-31",
+ "latest_version": 1,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While diffusion-based policies have impressive performance and expressivity, their long offline training slows down the data collection and policy deployment loop. We introduce Closed-Form Diffusion Policies, a class of training-free diffusion-based policies for imitation learning using the closed-form score derived from the demonstration dataset. We deploy CFDP with real-time inference with a mobile CPU in hardware experiments, showing it can successfully perform imitation directly from the dataset in milliseconds and with faster inference than neural diffusion policies. In experiments on imitation learning benchmarks, we show that CFDP is competitive against neural baselines that require hours of training, providing a favorable tradeoff between training time and performance. Finally, we show how closed-form diffusion policies act as a composable primitive that enables data-driven inference-time editing of pre-trained neural diffusion policies, including policy guidance and novel demonstration augmentation.",
+ "primary": "cs.RO"
+}

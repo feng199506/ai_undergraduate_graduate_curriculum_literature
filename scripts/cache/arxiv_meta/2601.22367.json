@@ -1,0 +1,17 @@
+{
+ "id": "2601.22367",
+ "title": "Amortized Simulation-Based Inference in Generalized Bayes via Neural Posterior Estimation",
+ "authors": [
+  "Shiyi Sun",
+  "Geoff K. Nicholls",
+  "Jeong Eun Lee"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 2,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML 2026",
+ "abstract": "Generalized Bayesian Inference (GBI) tempers a loss with a temperature $β> 0$ to mitigate overconfidence and improve robustness under model misspecification, but existing GBI methods typically rely on costly MCMC or SDE-based samplers and must be re-run for each new dataset and each $β$ value. We give the first fully amortized variational approximation for the tempered posterior family by training a single data- and $β$-conditioned neural posterior estimator that enables sampling in a single forward pass, without simulator calls or inference-time MCMC. We introduce two complementary training routes: one synthesizes off-manifold samples from the tempered joint distribution, and the other reweights a fixed base dataset using self-normalized importance sampling (SNIS). We show that the SNIS-weighted objective provides a consistent forward-KL fit to the tempered posterior with finite weight variance. Across four standard simulation-based inference benchmarks, including the chaotic Lorenz-96 system, our $β$-amortized estimator achieves competitive posterior approximations, in standard two-sample metrics, matching non-amortized MCMC-based power-posterior samplers over a wide range of temperatures.",
+ "primary": "stat.ML"
+}

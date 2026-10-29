@@ -1,0 +1,18 @@
+{
+ "id": "2507.08858",
+ "title": "Foundation models for time series forecasting: Application in conformal prediction",
+ "authors": [
+  "Sami Achour",
+  "Yassine Bouher",
+  "Duong Nguyen",
+  "Nicolas Chesneau"
+ ],
+ "v1_date": "2025-07-09",
+ "latest_version": 1,
+ "latest_date": "2025-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The zero-shot capabilities of foundation models (FMs) for time series forecasting offer promising potentials in conformal prediction, as most of the available data can be allocated to calibration. This study compares the performance of Time Series Foundation Models (TSFMs) with traditional methods, including statistical models and gradient boosting, within a conformal prediction setting. Our findings highlight two key advantages of TSFMs. First, when the volume of data is limited, TSFMs provide more reliable conformalized prediction intervals than classic models, thanks to their superior predictive accuracy. Second, the calibration process is more stable because more data are used for calibration. Morever, the fewer data available, the more pronounced these benefits become, as classic models require a substantial amount of data for effective training. These results underscore the potential of foundation models in improving conformal prediction reliability in time series applications, particularly in data-constrained cases. All the code to reproduce the experiments is available.",
+ "primary": "cs.LG"
+}

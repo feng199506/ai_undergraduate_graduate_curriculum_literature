@@ -1,0 +1,22 @@
+{
+ "id": "2603.22726",
+ "title": "A Study of Scientific Computational Notebook Quality",
+ "authors": [
+  "Shun Kashiwa",
+  "Ayla Kurdak",
+  "Savitha Ravi",
+  "Ridhi Srikanth",
+  "Angel Thakur",
+  "Sonia Chandra",
+  "Jonathan Truong",
+  "Michael Coblenz"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The quality of scientific code is a critical concern for the research community. Poorly written code can result in irreproducible results, incorrect findings, and slower scientific progress. In this study, we evaluate scientific code quality across three dimensions: reproducibility, readability, and reusability. We curated a corpus of 518 code repositories by analyzing Code Availability statements from all 1239 Nature publications in 2024. To assess code quality, we employed multiple methods, including manual attempts to reproduce Jupyter notebooks, documentation reviews, and analyses of code clones and mutation patterns. Our results reveal major challenges in scientific code quality. Of the 19 notebooks we attempted to execute, only two were reproducible, primarily due to missing data files and dependency issues. Code duplication was also common, with 326 clone classes of at least 10 lines and three instances found among 637 of the 1510 notebooks in our corpus. These duplications frequently involved tasks such as visualization, data processing, and statistical analysis. Moreover, our mutation analysis showed that scientific notebooks often exhibit tangled state changes, complicating comprehension and reasoning. The prevalence of these issues -- unreproducible code, widespread duplication, and tangled state management -- underscores the need for improved tools and abstractions to help science build reproducible, readable and reusable software.",
+ "primary": "cs.SE"
+}

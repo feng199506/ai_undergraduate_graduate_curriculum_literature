@@ -1,0 +1,17 @@
+{
+ "id": "2404.17046",
+ "title": "Unraveling Code Clone Dynamics in Deep Learning Frameworks",
+ "authors": [
+  "Maram Assi",
+  "Safwat Hassan",
+  "Ying Zou"
+ ],
+ "v1_date": "2024-04-25",
+ "latest_version": 1,
+ "latest_date": "2024-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages",
+ "abstract": "Deep Learning (DL) frameworks play a critical role in advancing artificial intelligence, and their rapid growth underscores the need for a comprehensive understanding of software quality and maintainability. DL frameworks, like other systems, are prone to code clones. Code clones refer to identical or highly similar source code fragments within the same project or even across different projects. Code cloning can have positive and negative implications for software development, influencing maintenance, readability, and bug propagation. In this paper, we aim to address the knowledge gap concerning the evolutionary dimension of code clones in DL frameworks and the extent of code reuse across these frameworks. We empirically analyze code clones in nine popular DL frameworks, i.e., TensorFlow, Paddle, PyTorch, Aesara, Ray, MXNet, Keras, Jax and BentoML, to investigate (1) the characteristics of the long-term code cloning evolution over releases in each framework, (2) the short-term, i.e., within-release, code cloning patterns and their influence on the long-term trends, and (3) the file-level code clones within the DL frameworks. Our findings reveal that DL frameworks adopt four distinct cloning trends and that these trends present some common and distinct characteristics. For instance, bug-fixing activities persistently happen in clones irrespective of the clone evolutionary trend but occur more in the \"Serpentine\" trend. Moreover, the within release level investigation demonstrates that short-term code cloning practices impact long-term cloning trends. The cross-framework code clone investigation reveals the presence of functional and architectural adaptation file-level cross-framework code clones across the nine studied frameworks. We provide insights that foster robust clone practices and collaborative maintenance in the development of DL frameworks.",
+ "primary": "cs.SE"
+}

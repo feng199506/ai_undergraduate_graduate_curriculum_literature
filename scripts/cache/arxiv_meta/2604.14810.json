@@ -1,0 +1,20 @@
+{
+ "id": "2604.14810",
+ "title": "Scalable Model-Based Clustering with Sequential Monte Carlo",
+ "authors": [
+  "Connie Trojan",
+  "Pavel Myshkov",
+  "Paul Fearnhead",
+  "James Hensman",
+  "Tom Minka",
+  "Christopher Nemeth"
+ ],
+ "v1_date": "2026-04-16",
+ "latest_version": 1,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at AISTATS 2026. 31 pages, 20 figures",
+ "abstract": "In online clustering problems, there is often a large amount of uncertainty over possible cluster assignments that cannot be resolved until more data are observed. This difficulty is compounded when clusters follow complex distributions, as is the case with text data. Sequential Monte Carlo (SMC) methods give a natural way of representing and updating this uncertainty over time, but have prohibitive memory requirements for large-scale problems. We propose a novel SMC algorithm that decomposes clustering problems into approximately independent subproblems, allowing a more compact representation of the algorithm state. Our approach is motivated by the knowledge base construction problem, and we show that our method is able to accurately and efficiently solve clustering problems in this setting and others where traditional SMC struggles.",
+ "primary": "stat.ML"
+}

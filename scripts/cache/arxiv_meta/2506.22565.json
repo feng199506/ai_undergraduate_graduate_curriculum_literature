@@ -1,0 +1,19 @@
+{
+ "id": "2506.22565",
+ "title": "Adjoint Schrödinger Bridge Sampler",
+ "authors": [
+  "Guan-Horng Liu",
+  "Jaemoo Choi",
+  "Yongxin Chen",
+  "Benjamin Kurt Miller",
+  "Ricky T. Q. Chen"
+ ],
+ "v1_date": "2025-06-27",
+ "latest_version": 2,
+ "latest_date": "2025-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025 (Oral presentation)",
+ "abstract": "Computational methods for learning to sample from the Boltzmann distribution -- where the target distribution is known only up to an unnormalized energy function -- have advanced significantly recently. Due to the lack of explicit target samples, however, prior diffusion-based methods, known as diffusion samplers, often require importance-weighted estimation or complicated learning processes. Both trade off scalability with extensive evaluations of the energy and model, thereby limiting their practical usage. In this work, we propose Adjoint Schrödinger Bridge Sampler (ASBS), a new diffusion sampler that employs simple and scalable matching-based objectives yet without the need to estimate target samples during training. ASBS is grounded on a mathematical model -- the Schrödinger Bridge -- which enhances sampling efficiency via kinetic-optimal transportation. Through a new lens of stochastic optimal control theory, we demonstrate how SB-based diffusion samplers can be learned at scale via Adjoint Matching and prove convergence to the global solution. Notably, ASBS generalizes the recent Adjoint Sampling (Havens et al., 2025) to arbitrary source distributions by relaxing the so-called memoryless condition that largely restricts the design space. Through extensive experiments, we demonstrate the effectiveness of ASBS on sampling from classical energy functions, amortized conformer generation, and molecular Boltzmann distributions. Code available at https://github.com/facebookresearch/adjoint_samplers",
+ "primary": "stat.ML"
+}

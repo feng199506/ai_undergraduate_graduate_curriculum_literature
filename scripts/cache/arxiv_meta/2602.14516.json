@@ -1,0 +1,21 @@
+{
+ "id": "2602.14516",
+ "title": "Efficient Multi-round LLM Inference over Disaggregated Serving",
+ "authors": [
+  "Wenhao He",
+  "Youhe Jiang",
+  "Penghao Zhao",
+  "Quanqing Xu",
+  "Eiko Yoneki",
+  "Bin Cui",
+  "Fangcheng Fu"
+ ],
+ "v1_date": "2026-02-16",
+ "latest_version": 2,
+ "latest_date": "2026-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026",
+ "abstract": "With the rapid evolution of Large Language Models (LLMs), multi-round workflows, such as autonomous agents and iterative retrieval, have become increasingly prevalent. However, this raises hurdles for serving LLMs under prefill-decode (PD) disaggregation, a widely adopted paradigm that separates the compute-bound prefill phase and memory-bound decode phase onto individual resources. Specifically, existing systems overlook the interleaved prefill-decode workload pattern in multi-round inference, leading to sub-optimal handling of the incremental prefill workloads and model deployment for the two phases. In this work, we present AMPD, a brand new disaggregated serving framework for multi-round LLM inference. The core of AMPD is to coordinate the prefill workloads based on real-time workloads by adaptively determining where to carry out these workloads and how they are scheduled, in order to maximize service level objective (SLO) attainment. In addition, we tailor a planning algorithm for our scenario, facilitating the deduction of optimal resource allocation and parallel strategies for the two phases. Empirical results demonstrate that AMPD substantially improves SLO attainment compared to state-of-the-art baselines.",
+ "primary": "cs.DC"
+}

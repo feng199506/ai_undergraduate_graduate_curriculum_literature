@@ -1,0 +1,18 @@
+{
+ "id": "2509.25230",
+ "title": "Energy Guided Geometric Flow Matching",
+ "authors": [
+  "Aaron Zweig",
+  "Mingxuan Zhang",
+  "Elham Azizi",
+  "David Knowles"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 2,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A useful inductive bias for temporal data is that trajectories should stay close to the data manifold. Traditional flow matching relies on straight conditional paths, and flow matching methods which learn geodesics rely on RBF kernels or nearest neighbor graphs that suffer from the curse of dimensionality. We propose to use score matching and annealed energy distillation to learn a metric tensor that faithfully captures the underlying data geometry and informs more accurate flows. We demonstrate the efficacy of this strategy on synthetic manifolds with analytic geodesics, and interpolation of cell",
+ "primary": "cs.LG"
+}

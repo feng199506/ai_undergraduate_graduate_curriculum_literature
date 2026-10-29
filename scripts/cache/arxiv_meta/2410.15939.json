@@ -1,0 +1,17 @@
+{
+ "id": "2410.15939",
+ "title": "CausalGraph2LLM: Evaluating LLMs for Causal Queries",
+ "authors": [
+  "Ivaxi Sheth",
+  "Bahare Fatemi",
+  "Mario Fritz"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 2,
+ "latest_date": "2025-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NAACL'25 Findings, Code - https://github.com/ivaxi0s/CausalGraph2LLM",
+ "abstract": "Causality is essential in scientific research, enabling researchers to interpret true relationships between variables. These causal relationships are often represented by causal graphs, which are directed acyclic graphs. With the recent advancements in Large Language Models (LLMs), there is an increasing interest in exploring their capabilities in causal reasoning and their potential use to hypothesize causal graphs. These tasks necessitate the LLMs to encode the causal graph effectively for subsequent downstream tasks. In this paper, we introduce CausalGraph2LLM, a comprehensive benchmark comprising over 700k queries across diverse causal graph settings to evaluate the causal reasoning capabilities of LLMs. We categorize the causal queries into two types: graph-level and node-level queries. We benchmark both open-sourced and propriety models for our study. Our findings reveal that while LLMs show promise in this domain, they are highly sensitive to the encoding used. Even capable models like GPT-4 and Gemini-1.5 exhibit sensitivity to encoding, with deviations of about $60\\%$. We further demonstrate this sensitivity for downstream causal intervention tasks. Moreover, we observe that LLMs can often display biases when presented with contextual information about a causal graph, potentially stemming from their parametric memory.",
+ "primary": "cs.CL"
+}

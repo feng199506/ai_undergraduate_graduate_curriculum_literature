@@ -1,0 +1,19 @@
+{
+ "id": "2606.01844",
+ "title": "Decoupled Residual Quantization for Robust Semantic IDs in Recommendation",
+ "authors": [
+  "Xuesi Wang",
+  "Junjie Wang",
+  "Ziliang Wang",
+  "Weijie Bian",
+  "Guanxing Zhang"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semantic IDs represent items as shared discrete token sequences and have become a practical tool for recommendation and retrieval. Yet it remains difficult to tell why a tokenizer fails: poor quality may come from codebook underutilization, unstable decision boundaries, or geometric distortion of the embedding space. This paper develops a quantitative framework for diagnosing these failures through expected codeword overlap and effective codebook capacity. The former measures expected codeword confusion under retrieval-time perturbation, while the latter converts that confusion into an effective number of usable, well-separated codes. The framework links semantic boundary confusion to both code usage imbalance and Euclidean geometric constraints. As a proof of concept, we present Decoupled Residual Quantization (DRQ), which separates continuous geometry reconstruction from discrete distribution matching. Experiments on a large-scale industrial dataset show that Semantic ID quality is multi-objective: symbolic robustness, reconstruction fidelity, and behavior-aware soft matching each stress different aspects of a tokenizer. These downstream observations are based on one proprietary industrial dataset, so they should be read as a case study rather than a universal benchmark claim.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2503.06156",
+ "title": "Double Debiased Machine Learning for Mediation Analysis with Continuous Treatments",
+ "authors": [
+  "Houssam Zenati",
+  "Judith Abécassis",
+  "Julie Josse",
+  "Bertrand Thirion"
+ ],
+ "v1_date": "2025-03-08",
+ "latest_version": 1,
+ "latest_date": "2025-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in AISTATS 2025",
+ "abstract": "Uncovering causal mediation effects is of significant value to practitioners seeking to isolate the direct treatment effect from the potential mediated effect. We propose a double machine learning (DML) algorithm for mediation analysis that supports continuous treatments. To estimate the target mediated response curve, our method uses a kernel-based doubly robust moment function for which we prove asymptotic Neyman orthogonality. This allows us to obtain asymptotic normality with nonparametric convergence rate while allowing for nonparametric or parametric estimation of the nuisance parameters. We then derive an optimal bandwidth strategy along with a procedure for estimating asymptotic confidence intervals. Finally, to illustrate the benefits of our method, we provide a numerical evaluation of our approach on a simulation along with an application to real-world medical data to analyze the effect of glycemic control on cognitive functions.",
+ "primary": "stat.ML"
+}

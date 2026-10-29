@@ -1,0 +1,17 @@
+{
+ "id": "2605.23093",
+ "title": "A Comparative Evaluation of Structural Topic Models and BERTopic for Short, Open-Ended Survey Responses",
+ "authors": [
+  "Yan Jiang",
+  "Sihong Liu",
+  "Philip A. Fisher"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Topic modeling in applied psychology increasingly spans two methodological traditions: probabilistic bag-of-words models and newer embedding-based approaches. Yet many evaluations of these methods rely on longer and cleaner benchmark corpora, leaving less guidance for short, open-ended survey responses. This paper compares Structural Topic Models (STM), a probabilistic topic model, and BERTopic, an embedding-based model, for analyzing open-ended survey responses. We evaluated three STM conditions and five BERTopic conditions, varying typographical correction, stemming, embedding choice, and contextual augmentation, a strategy we introduced to provide additional semantic context for very short responses. Results indicate that BERTopic consistently produced higher topic coherence than STM, with contextual augmentation yielding the strongest performance gains. In contrast, higher-dimensional embeddings alone did not improve coherence and were associated with greater data loss. Qualitative evaluation showed that BERTopic generated more interpretable and stable topics, while STM topics were often broader and more mixed. However, STM provides stronger support for inferential covariate analysis, whereas BERTopic covariate comparisons are primarily descriptive. These findings suggest that STM and BERTopic offer complementary strengths. We conclude with practical guidance for selecting and combining topic modeling approaches in applied social science research.",
+ "primary": "cs.CL"
+}

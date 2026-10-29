@@ -1,0 +1,19 @@
+{
+ "id": "2505.22255",
+ "title": "Kronecker Factorization Improves Efficiency and Interpretability of Sparse Autoencoders",
+ "authors": [
+  "Vadim Kurochkin",
+  "Yaroslav Aksenov",
+  "Daniil Laptev",
+  "Daniil Gavrilov",
+  "Nikita Balagansky"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 5,
+ "latest_date": "2026-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to EMNLP 2026 (Main Conference)",
+ "abstract": "Sparse Autoencoders (SAEs) decompose language-model activations into sparse, interpretable features, but standard encoders usually treat the latent dictionary as a flat set of independent coordinates, leaving hierarchy and feature interactions to emerge only implicitly. We propose KronSAE, a design that factorizes the latent space into heads and forms post-latent features as pairwise compositions of lower-dimensional pre-latents using mAND, a differentiable AND-like interaction. This imposes a compositional co-activation prior while remaining compatible with standard SAE objectives and variants such as TopK, Matryoshka, and Switch SAEs. KronSAE matches strong baselines on the EV-FLOPs frontier, improves interpretability of the latents, better captures the underlying correlated feature structure, and reduces encoder computational cost as an additional benefit. Code is available at https://github.com/corl-team/kronsae.",
+ "primary": "cs.LG"
+}

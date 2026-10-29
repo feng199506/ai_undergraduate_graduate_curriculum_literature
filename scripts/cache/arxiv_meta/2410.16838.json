@@ -1,0 +1,18 @@
+{
+ "id": "2410.16838",
+ "title": "Neural Collaborative Filtering Classification Model to Obtain Prediction Reliabilities",
+ "authors": [
+  "Jesús Bobadilla",
+  "Abraham Gutiérrez",
+  "Santiago Alonso",
+  "Ángel González-Prieto"
+ ],
+ "v1_date": "2024-10-22",
+ "latest_version": 2,
+ "latest_date": "2024-10-24",
+ "journal_ref": "International Journal of Interactive Multimedia and Artificial Intelligence, Volume 7, number 4, Pages 18-26, 2022",
+ "doi": "10.9781/ijimai.2021.08.010",
+ "comment": "9 pages, 7 figures",
+ "abstract": "Neural collaborative filtering is the state of art field in the recommender systems area; it provides some models that obtain accurate predictions and recommendations. These models are regression-based, and they just return rating predictions. This paper proposes the use of a classification-based approach, returning both rating predictions and their reliabilities. The extra information (prediction reliabilities) can be used in a variety of relevant collaborative filtering areas such as detection of shilling attacks, recommendations explanation or navigational tools to show users and items dependences. Additionally, recommendation reliabilities can be gracefully provided to users: \"probably you will like this film\", \"almost certainly you will like this song\", etc. This paper provides the proposed neural architecture; it also tests that the quality of its recommendation results is as good as the state of art baselines. Remarkably, individual rating predictions are improved by using the proposed architecture compared to baselines. Experiments have been performed making use of four popular public datasets, showing generalizable quality results. Overall, the proposed architecture improves individual rating predictions quality, maintains recommendation results and opens the doors to a set of relevant collaborative filtering fields.",
+ "primary": "cs.IR"
+}

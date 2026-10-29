@@ -1,0 +1,18 @@
+{
+ "id": "2603.13998",
+ "title": "A Systematic Evaluation Protocol of Graph-Derived Signals for Tabular Machine Learning",
+ "authors": [
+  "Mario Heidrich",
+  "Jeffrey Heidemann",
+  "Rüdiger Buchkremer",
+  "Gonzalo Wandosell Fernández de Bobadilla"
+ ],
+ "v1_date": "2026-03-14",
+ "latest_version": 1,
+ "latest_date": "2026-03-14",
+ "journal_ref": "",
+ "doi": "10.3390/app16052624",
+ "comment": "",
+ "abstract": "While graph-derived signals are widely used in tabular learning, existing studies typically rely on limited experimental setups and average performance comparisons, leaving the statistical reliability and robustness of observed gains largely unexplored. Consequently, it remains unclear which signals provide consistent and robust improvements. This paper presents a taxonomy-driven empirical analysis of graph-derived signals for tabular machine learning. We propose a unified and reproducible evaluation protocol to systematically assess which categories of graph-derived signals yield statistically significant and robust performance improvements. The protocol provides an extensible setup for the controlled integration of diverse graph-derived signals into tabular learning pipelines. To ensure a fair and rigorous comparison, it incorporates automated hyperparameter optimization, multi-seed statistical evaluation, formal significance testing, and robustness analysis under graph perturbations. We demonstrate the protocol through an extensive case study on a large-scale, imbalanced cryptocurrency fraud detection dataset. The analysis identifies signal categories providing consistently reliable performance gains and offers interpretable insights into which graph-derived signals indicate fraud-discriminative structural patterns. Furthermore, robustness analyses reveal pronounced differences in how various signals handle missing or corrupted relational data. These findings demonstrate practical utility for fraud detection and illustrate how the proposed taxonomy-driven evaluation protocol can be applied in other application domains.",
+ "primary": "cs.AI"
+}

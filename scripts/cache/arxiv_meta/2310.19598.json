@@ -1,0 +1,18 @@
+{
+ "id": "2310.19598",
+ "title": "The Anytime Convergence of Stochastic Gradient Descent with Momentum: From a Continuous-Time Perspective",
+ "authors": [
+  "Yasong Feng",
+  "Yifan Jiang",
+  "Tianyu Wang",
+  "Zhiliang Ying"
+ ],
+ "v1_date": "2023-10-30",
+ "latest_version": 7,
+ "latest_date": "2025-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is a technical report version retained for archival purposes. It will not be maintained or updated further, and is kept here for historical reference",
+ "abstract": "We study the stochastic optimization problem from a continuous-time perspective, with a focus on the Stochastic Gradient Descent with Momentum (SGDM) method. We show that the trajectory of SGDM, despite its \\emph{stochastic} nature, converges in $L_2$-norm to a \\emph{deterministic} second-order Ordinary Differential Equation (ODE) as the stepsize goes to zero. The connection between the ODE and the algorithm results in a useful development for the discrete-time convergence analysis. More specifically, we develop, through the construction of a suitable Lyapunov function, convergence results for the ODE, which are then translated to the corresponding convergence results for the discrete-time case. This approach yields a novel \\emph{anytime} convergence guarantee for stochastic gradient methods. In particular, we prove that the sequence $\\{ x_k \\}$, governed by running SGDM on a smooth convex function $f$, satisfies \\begin{align*} \\mathbb{P}\\left(f (x_k) - f^* \\le C\\left(1+\\log\\frac{1}β\\right)\\frac{\\log k}{\\sqrt{k}},\\;\\text{for all $k$}\\right)\\ge 1-β\\quad\\text{ for any $β>0$,} \\end{align*} where $f^*=\\min_{x\\in\\mathbb{R}^n} f(x)$, and $C$ is a constant. Rather than at a single step, this result captures the convergence behavior across the entire trajectory of the algorithm.",
+ "primary": "math.OC"
+}

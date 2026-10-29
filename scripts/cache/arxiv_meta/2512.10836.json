@@ -1,0 +1,17 @@
+{
+ "id": "2512.10836",
+ "title": "dtreg: Describing Data Analysis in Machine-Readable Format in Python and R",
+ "authors": [
+  "Olga Lezhnina",
+  "Manuel Prinz",
+  "Markus Stocker"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 1,
+ "latest_date": "2025-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For scientific knowledge to be findable, accessible, interoperable, and reusable, it needs to be machine-readable. Moving forward from post-publication extraction of knowledge, we adopted a pre-publication approach to write research findings in a machine-readable format at early stages of data analysis. For this purpose, we developed the package dtreg in Python and R. Registered and persistently identified data types, aka schemata, which dtreg applies to describe data analysis in a machine-readable format, cover the most widely used statistical tests and machine learning methods. The package supports (i) downloading a relevant schema as a mutable instance of a Python or R class, (ii) populating the instance object with metadata about data analysis, and (iii) converting the object into a lightweight Linked Data format. This paper outlines the background of our approach, explains the code architecture, and illustrates the functionality of dtreg with a machine-readable description of a t-test on Iris Data. We suggest that the dtreg package can enhance the methodological repertoire of researchers aiming to adhere to the FAIR principles.",
+ "primary": "cs.DL"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2508.15822",
+ "title": "An Auditable Pipeline for Fuzzy Full-Text Screening in Systematic Reviews: Integrating Contrastive Semantic Highlighting and LLM Judgment",
+ "authors": [
+  "Pouria Mortezaagha",
+  "Arya Rahgozar"
+ ],
+ "v1_date": "2025-08-17",
+ "latest_version": 1,
+ "latest_date": "2025-08-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Full-text screening is the major bottleneck of systematic reviews (SRs), as decisive evidence is dispersed across long, heterogeneous documents and rarely admits static, binary rules. We present a scalable, auditable pipeline that reframes inclusion/exclusion as a fuzzy decision problem and benchmark it against statistical and crisp baselines in the context of the Population Health Modelling Consensus Reporting Network for noncommunicable diseases (POPCORN). Articles are parsed into overlapping chunks and embedded with a domain-adapted model; for each criterion (Population, Intervention, Outcome, Study Approach), we compute contrastive similarity (inclusion-exclusion cosine) and a vagueness margin, which a Mamdani fuzzy controller maps into graded inclusion degrees with dynamic thresholds in a multi-label setting. A large language model (LLM) judge adjudicates highlighted spans with tertiary labels, confidence scores, and criterion-referenced rationales; when evidence is insufficient, fuzzy membership is attenuated rather than excluded. In a pilot on an all-positive gold set (16 full texts; 3,208 chunks), the fuzzy system achieved recall of 81.3% (Population), 87.5% (Intervention), 87.5% (Outcome), and 75.0% (Study Approach), surpassing statistical (56.3-75.0%) and crisp baselines (43.8-81.3%). Strict \"all-criteria\" inclusion was reached for 50.0% of articles, compared to 25.0% and 12.5% under the baselines. Cross-model agreement on justifications was 98.3%, human-machine agreement 96.1%, and a pilot review showed 91% inter-rater agreement (kappa = 0.82), with screening time reduced from about 20 minutes to under 1 minute per article at significantly lower cost. These results show that fuzzy logic with contrastive highlighting and LLM adjudication yields high recall, stable rationale, and end-to-end traceability.",
+ "primary": "cs.CL"
+}

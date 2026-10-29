@@ -1,0 +1,18 @@
+{
+ "id": "2411.08178",
+ "title": "Using Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction",
+ "authors": [
+  "Tao Hong",
+  "Zhaoyi Xu",
+  "Jason Hu",
+  "Jeffrey A. Fessler"
+ ],
+ "v1_date": "2024-11-12",
+ "latest_version": 2,
+ "latest_date": "2025-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 16 figures, 4 tables",
+ "abstract": "Model-based iterative reconstruction plays a key role in solving inverse problems. However, the associated minimization problems are generally large-scale, nonsmooth, and sometimes even nonconvex, which present challenges in designing efficient iterative solvers. Preconditioning methods can significantly accelerate the convergence of iterative methods. In some applications, computing preconditioners on-the-fly is beneficial. Moreover, forward models in image reconstruction are typically represented as operators, and the corresponding explicit matrices are often unavailable, which brings additional challenges in designing preconditioners. Therefore, for practical use, computing and applying preconditioners should be computationally inexpensive. This paper adapts the randomized Nyström approximation to compute effective preconditioners that accelerate image reconstruction without requiring an explicit matrix for the forward model. We leverage modern GPU computational platforms to compute the preconditioner on-the-fly. Moreover, we propose efficient approaches for applying the preconditioners to problems with classical nonsmooth regularizers, i.e., wavelet, total variation, and Hessian Schatten-norm. Our numerical results on image deblurring, super-resolution with impulsive noise, and 2D computed tomography reconstruction illustrate the efficiency and effectiveness of the proposed preconditioner.",
+ "primary": "eess.IV"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2507.17417",
+ "title": "A Comprehensive Evaluation on Quantization Techniques for Large Language Models",
+ "authors": [
+  "Yutong Liu",
+  "Cairong Zhao",
+  "Guosheng Hu"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 4,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Pattern Recognition",
+ "abstract": "For large language models (LLMs), post-training quantization (PTQ) significantly reduces memory and computational overhead. Despite rapid advancements, existing papers often lack experiments on the same ground. In addition, since quantization solutions typically contain multiple components, it is important to analyze the connections among numerous existing methods to gain an in-depth understanding of this field. To bridge these gaps, we conduct an up-to-date and extensive review of the state-of-the-art methods and perform comprehensive evaluations of low-bit quantization on representative text-only LLMs on the same ground to ensure fair comparisons. To our knowledge, this fair and extensive investigation remains critically important yet significantly underexplored in the research community. To better understand the connections, we first decouple published quantization into two steps: pre-quantization transformation to reduce outliers, and quantization error mitigation to offset performance loss. Second, we extensively evaluate the impact of quantization settings, including granularity and symmetry. Third, we analyze the performance of the latest MXFP4 and NVFP4 data formats. Our experimental results first demonstrate that optimizing rotation and scaling yields the best pre-quantization transformation, while combining low-rank compensation with GPTQ occasionally outperforms using GPTQ alone. Second, we verify that finer granularity improves performance at the cost of storage and asymmetric quantization benefits activations significantly more than weights. Third, we find that the format and precision of scaling factors have a significant impact on performance; notably, rotation-based transformation is effective for INT4 but demonstrates little improvement for MXFP4 and NVFP4, inspiring further investigation in this field.",
+ "primary": "cs.LG"
+}

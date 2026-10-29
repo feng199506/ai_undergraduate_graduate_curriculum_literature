@@ -1,0 +1,27 @@
+{
+ "id": "2602.07298",
+ "title": "Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation",
+ "authors": [
+  "Benyu Zhang",
+  "Qiang Zhang",
+  "Jianpeng Cheng",
+  "Hong-You Chen",
+  "Qifei Wang",
+  "Wei Sun",
+  "Shen Li",
+  "Jia Li",
+  "Jiahao Wu",
+  "Qunshu Zhang",
+  "Neeraj Bhatia",
+  "Xiangjun Fan",
+  "Hong Yan"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 3,
+ "latest_date": "2026-06-01",
+ "journal_ref": "ICML 2026",
+ "doi": "",
+ "comment": "update according to icml reviewers feedback",
+ "abstract": "Large Language Models (LLMs) represent a promising frontier for recommender systems, yet their development has been impeded by the absence of predictable scaling laws, which are crucial for guiding research and optimizing resource allocation. We hypothesize that this may be attributed to the inherent noise, bias, and incompleteness of raw user interaction data in prior continual pre-training (CPT) efforts. This paper introduces a novel, layered framework for generating high-quality synthetic data that circumvents such issues by creating a curated, pedagogical curriculum for the LLM. We provide powerful, direct evidence for the utility of our curriculum by showing that standard sequential models trained on our principled synthetic data significantly outperform ($+130\\%$ on recall@100 for SasRec) models trained on real data in downstream ranking tasks, demonstrating its superiority for learning generalizable user preference patterns. Building on this, we empirically demonstrate, for the first time, robust power-law scaling for an LLM that is continually pre-trained on our high-quality, recommendation-specific data. Our experiments reveal consistent and predictable perplexity reduction across multiple synthetic data modalities. These findings establish a foundational methodology for reliable scaling LLM capabilities in the recommendation domain, thereby shifting the research focus from mitigating data deficiencies to leveraging high-quality, structured information.",
+ "primary": "cs.IR"
+}

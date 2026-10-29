@@ -1,0 +1,17 @@
+{
+ "id": "2508.01864",
+ "title": "Fast Gaussian process inference by exact Matérn kernel decomposition",
+ "authors": [
+  "Nicolas Langrené",
+  "Xavier Warin",
+  "Pierre Gruet"
+ ],
+ "v1_date": "2025-08-03",
+ "latest_version": 1,
+ "latest_date": "2025-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 1 figure",
+ "abstract": "To speed up Gaussian process inference, a number of fast kernel matrix-vector multiplication (MVM) approximation algorithms have been proposed over the years. In this paper, we establish an exact fast kernel MVM algorithm based on exact kernel decomposition into weighted empirical cumulative distribution functions, compatible with a class of kernels which includes multivariate Matérn kernels with half-integer smoothness parameter. This algorithm uses a divide-and-conquer approach, during which sorting outputs are stored in a data structure. We also propose a new algorithm to take into account some linear fixed effects predictor function. Our numerical experiments confirm that our algorithm is very effective for low-dimensional Gaussian process inference problems with hundreds of thousands of data points. An implementation of our algorithm is available at https://gitlab.com/warin/fastgaussiankernelregression.git.",
+ "primary": "stat.ML"
+}

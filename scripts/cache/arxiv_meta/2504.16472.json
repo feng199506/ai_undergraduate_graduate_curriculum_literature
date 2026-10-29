@@ -1,0 +1,17 @@
+{
+ "id": "2504.16472",
+ "title": "Harden and Catch for Just-in-Time Assured LLM-Based Software Testing: Open Research Challenges",
+ "authors": [
+  "Mark Harman",
+  "Peter O'Hearn",
+  "Shubho Sengupta"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 2,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To Appear as keynote paper at FSE 2025",
+ "abstract": "Despite decades of research and practice in automated software testing, several fundamental concepts remain ill-defined and under-explored, yet offer enormous potential real-world impact. We show that these concepts raise exciting new challenges in the context of Large Language Models for software test generation. More specifically, we formally define and investigate the properties of hardening and catching tests. A hardening test is one that seeks to protect against future regressions, while a catching test is one that catches such a regression or a fault in new functionality introduced by a code change. Hardening tests can be generated at any time and may become catching tests when a future regression is caught. We also define and motivate the Catching 'Just-in-Time' (JiTTest) Challenge, in which tests are generated 'just-in-time' to catch new faults before they land into production. We show that any solution to Catching JiTTest generation can also be repurposed to catch latent faults in legacy code. We enumerate possible outcomes for hardening and catching tests and JiTTests, and discuss open research problems, deployment options, and initial results from our work on automated LLM-based hardening at Meta. This paper was written to accompany the keynote by the authors at the ACM International Conference on the Foundations of Software Engineering (FSE) 2025. Author order is alphabetical. The corresponding author is Mark Harman.",
+ "primary": "cs.SE"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2501.02214",
+ "title": "Efficient estimation of average treatment effects with unmeasured confounding and proxies",
+ "authors": [
+  "Chunrong Ai",
+  "Jiawei Shan"
+ ],
+ "v1_date": "2025-01-04",
+ "latest_version": 2,
+ "latest_date": "2025-12-26",
+ "journal_ref": "Statistica Sinica (2025)",
+ "doi": "10.5705/ss.202025.0104",
+ "comment": "",
+ "abstract": "Proximal causal inference provides a framework for estimating the average treatment effect (ATE) in the presence of unmeasured confounding by leveraging outcome and treatment proxies. Identification in this framework relies on the existence of a so-called bridge function. Standard approaches typically postulate a parametric specification for the bridge function, which is estimated in a first step and then plugged into an ATE estimator. However, this sequential procedure suffers from two potential sources of efficiency loss: (i) the difficulty of efficiently estimating a bridge function defined by an integral equation, and (ii) the failure to account for the correlation between the estimation steps. To overcome these limitations, we propose a novel approach that approximates the integral equation with increasing moment restrictions and jointly estimates the bridge function and the ATE. We show that, under suitable conditions, our estimator is efficient. Additionally, we provide a data-driven procedure for selecting the tuning parameter (i.e., the number of moment restrictions). Simulation studies reveal that the proposed method performs well in finite samples, and an application to the right heart catheterization dataset from the SUPPORT study demonstrates its practical value.",
+ "primary": "stat.ME"
+}

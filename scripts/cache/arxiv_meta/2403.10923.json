@@ -1,0 +1,20 @@
+{
+ "id": "2403.10923",
+ "title": "Interpretable Machine Learning for TabPFN",
+ "authors": [
+  "David Rundel",
+  "Julius Kobialka",
+  "Constantin von Crailsheim",
+  "Matthias Feurer",
+  "Thomas Nagler",
+  "David Rügamer"
+ ],
+ "v1_date": "2024-03-16",
+ "latest_version": 2,
+ "latest_date": "2024-07-23",
+ "journal_ref": "",
+ "doi": "10.1007/978-3-031-63797-1_23",
+ "comment": "This preprint has not undergone peer review or any post-submission improvements or corrections. The Version of Record of this contribution is published in Explainable Artificial Intelligence, and is available online at https://doi.org/10.1007/978-3-031-63797-1_23",
+ "abstract": "The recently developed Prior-Data Fitted Networks (PFNs) have shown very promising results for applications in low-data regimes. The TabPFN model, a special case of PFNs for tabular data, is able to achieve state-of-the-art performance on a variety of classification tasks while producing posterior predictive distributions in mere seconds by in-context learning without the need for learning parameters or hyperparameter tuning. This makes TabPFN a very attractive option for a wide range of domain applications. However, a major drawback of the method is its lack of interpretability. Therefore, we propose several adaptations of popular interpretability methods that we specifically design for TabPFN. By taking advantage of the unique properties of the model, our adaptations allow for more efficient computations than existing implementations. In particular, we show how in-context learning facilitates the estimation of Shapley values by avoiding approximate retraining and enables the use of Leave-One-Covariate-Out (LOCO) even when working with large-scale Transformers. In addition, we demonstrate how data valuation methods can be used to address scalability challenges of TabPFN. Our proposed methods are implemented in a package tabpfn_iml and made available at https://github.com/david-rundel/tabpfn_iml.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2603.13358",
+ "title": "Not All Prefills Are Equal: PPD Disaggregation for Multi-turn LLM Serving",
+ "authors": [
+  "Zongze Li",
+  "Jingyu Liu",
+  "Zhen Xu",
+  "Yineng Zhang",
+  "Tahseen Rabbani",
+  "Ce Zhang"
+ ],
+ "v1_date": "2026-03-09",
+ "latest_version": 2,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 11 figures. Accepted at ICML 2026",
+ "abstract": "Prefill-Decode (PD) disaggregation has become the standard architecture for modern LLM inference engines, which alleviates the interference of two distinctive workloads. With the growing demand for multi-turn interactions in chatbots and agentic systems, we re-examined PD in this case and found two fundamental inefficiencies: (1) every turn requires prefilling the new prompt and response from the last turn, and (2) repeated KV transfers between prefill and decode nodes saturate the bandwidth, leading to high latency and even service degradation. Our key insight is that not all prefill operations are equally disruptive: append-prefill, which processes only the new input tokens while reusing cached KV states, incurs an order-of-magnitude smaller decoding slowdown than full prefill. This motivates routing append-prefill to decode nodes locally. However, through comprehensive analysis, we show that no single fixed routing strategy satisfies all Service Level Objectives (SLOs) simultaneously. Based on this insight, we propose Prefill Prefill-capable Decode (PPD) disaggregation, a dynamic routing system that decides when to process Turn 2+ requests locally on decode nodes using cached KV states. PPD adapts to varying SLOs via configurable weights and seamlessly integrates with traditional PD deployments. With extensive evaluations, we show that PPD reduces Turn 2+ time-to-first-token (TTFT) by $\\sim$68\\% while maintaining competitive time-per-output-token (TPOT), effectively alleviating KV transfer congestion under high load. PPD provides a flexible and efficient paradigm for multi-turn LLM serving.",
+ "primary": "cs.NI"
+}

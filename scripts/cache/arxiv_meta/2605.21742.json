@@ -1,0 +1,17 @@
+{
+ "id": "2605.21742",
+ "title": "Correcting Class Imbalance in Prior-Data Fitted Networks for Tabular Classification",
+ "authors": [
+  "Samuel McDowell",
+  "Nathan Stromberg",
+  "Lalitha Sankar"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 1,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, 6 figures, Information Theory Workshop (ITW)",
+ "abstract": "Prior-data fitted networks (PFNs) have achieved exceptional performance on tabular classification tasks. However, like other classifiers, their performance can suffer under the effect of class imbalance, resulting in poor performance for rare classes. Several techniques exist which attempt to mitigate the deleterious effect of class imbalance on classification performance, but the in-context learning (ICL) dynamic of PFNs means that loss-based strategies are impossible, and other techniques are unproven. We have adapted several classical techniques addressing class imbalance and analyzed their performance on PFN classification. We observe that thresholding performs exceptionally well because of the calibration characteristics of PFNs, and downsampling performs comparably because of PFNs exceptional limited-data performance, with the additional benefit of reduced computation cost for inference.",
+ "primary": "cs.LG"
+}

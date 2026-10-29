@@ -1,0 +1,17 @@
+{
+ "id": "2411.00147",
+ "title": "Mutual Information Preserving Neural Network Pruning",
+ "authors": [
+  "Charles Westphal",
+  "Stephen Hailes",
+  "Mirco Musolesi"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 2,
+ "latest_date": "2025-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Pruning has emerged as the primary approach used to limit the resource requirements of large neural networks (NNs). Since the proposal of the lottery ticket hypothesis, researchers have focused either on pruning at initialization or after training. However, recent theoretical findings have shown that the sample efficiency of robust pruned models is proportional to the mutual information (MI) between the pruning masks and the model's training datasets, \\textit{whether at initialization or after training}. In this paper, starting from these results, we introduce Mutual Information Preserving Pruning (MIPP), a structured activation-based pruning technique applicable before or after training. The core principle of MIPP is to select nodes in a way that conserves MI shared between the activations of adjacent layers, and consequently between the data and masks. Approaching the pruning problem in this manner means we can prove that there exists a function that can map the pruned upstream layer's activations to the downstream layer's, implying re-trainability. We demonstrate that MIPP consistently outperforms state-of-the-art methods, regardless of whether pruning is performed before or after training.",
+ "primary": "cs.LG"
+}

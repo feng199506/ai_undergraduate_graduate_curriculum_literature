@@ -1,0 +1,18 @@
+{
+ "id": "2407.13245",
+ "title": "First-order Methods for Unconstrained Vector Optimization Problems: A Unified Majorization-Minimization Perspective",
+ "authors": [
+  "Jian Chen",
+  "Jingjie Liu",
+  "Liping Tang",
+  "Xinmin Yang"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 3,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we develop a unified majorization-minimization scheme and convergence analysis with first-order surrogate functions for unconstrained vector optimization problems (VOPs). By selecting different surrogate functions, the unified method can be reduced to various existing first-order methods. The unified convergence analysis reveals that the slow convergence of the steepest descent method is primarily attributed to the significant gap between the surrogate and objective functions. Consequently, narrowing this surrogate gap can enhance the performance of first-order methods for VOPs. To strike a better trade-off in terms of surrogate gap and per-iteration cost, we reformulate the direction-finding subproblem and elucidate that selecting a tighter surrogate function is equivalent to using an appropriate base of the dual cone in the direction-finding subproblem. Building on this insight, we employ the Barzilai-Borwein method to narrow the surrogate gap and propose a Barzilai-Borwein descent method for VOPs (BBDVO) with polyhedral cones. By reformulating the corresponding subproblem, we provide a novel perspective on the Barzilai-Borwein descent method, bridging the gap between this method and the steepest descent method. Finally, several numerical experiments are presented to validate the efficiency of the BBDVO.",
+ "primary": "math.OC"
+}

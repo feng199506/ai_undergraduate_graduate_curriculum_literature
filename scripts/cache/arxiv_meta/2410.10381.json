@@ -1,0 +1,19 @@
+{
+ "id": "2410.10381",
+ "title": "Collaborative filtering based on nonnegative/binary matrix factorization",
+ "authors": [
+  "Yukino Terui",
+  "Yuka Inoue",
+  "Yohei Hamakawa",
+  "Kosuke Tatsumura",
+  "Kazue Kudo"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 4,
+ "latest_date": "2025-07-29",
+ "journal_ref": "Front. Big Data 8, 1599704 (2025)",
+ "doi": "10.3389/fdata.2025.1599704",
+ "comment": "12 pages, 8 figures",
+ "abstract": "Collaborative filtering generates recommendations by exploiting user-item similarities based on rating data, which often contains numerous unrated items. To predict scores for unrated items, matrix factorization techniques such as nonnegative matrix factorization (NMF) are often employed. Nonnegative/binary matrix factorization (NBMF), which is an extension of NMF, approximates a nonnegative matrix as the product of nonnegative and binary matrices. While previous studies have applied NBMF primarily to dense data such as images, this paper proposes a modified NBMF algorithm tailored for collaborative filtering with sparse data. In the modified method, unrated entries in the rating matrix are masked, enhancing prediction accuracy. Furthermore, utilizing a low-latency Ising machine in NBMF is advantageous in terms of the computation time, making the proposed method beneficial.",
+ "primary": "cond-mat.stat-mech"
+}

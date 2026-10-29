@@ -1,0 +1,20 @@
+{
+ "id": "2604.20122",
+ "title": "Adaptive Conformal Anomaly Detection with Time Series Foundation Models for Signal Monitoring",
+ "authors": [
+  "Natalia Martinez Gil",
+  "Fearghal O'Donncha",
+  "Wesley M. Gifford",
+  "Nianjun Zhou",
+  "Dhaval C. Patel",
+  "Roman Vaculin"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code in : https://github.com/ibm-granite/granite-tsfm/tree/main/notebooks/hfdemo/adaptive_conformal_tsad",
+ "abstract": "We propose a post-hoc adaptive conformal anomaly detection method for monitoring time series that leverages predictions from pre-trained foundation models without requiring additional fine-tuning. Our method yields an interpretable anomaly score directly interpretable as a false alarm rate (p-value), facilitating transparent and actionable decision-making. It employs weighted quantile conformal prediction bounds and adaptively learns optimal weighting parameters from past predictions, enabling calibration under distribution shifts and stable false alarm control, while preserving out-of-sample guarantees. As a model-agnostic solution, it integrates seamlessly with foundation models and supports rapid deployment in resource-constrained environments. This approach addresses key industrial challenges such as limited data availability, lack of training expertise, and the need for immediate inference, while taking advantage of the growing accessibility of time series foundation models. Experiments on both synthetic and real-world datasets show that the proposed approach delivers strong performance, combining simplicity, interpretability, robustness, and adaptivity.",
+ "primary": "cs.LG"
+}

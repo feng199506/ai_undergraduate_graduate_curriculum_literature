@@ -1,0 +1,19 @@
+{
+ "id": "2506.04653",
+ "title": "The Oversmoothing Fallacy: A Misguided Narrative in GNN Research",
+ "authors": [
+  "MoonJeong Park",
+  "Sunghyun Choi",
+  "Jaeseung Heo",
+  "Eunhyeok Park",
+  "Dongwoo Kim"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 1,
+ "latest_date": "2025-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Oversmoothing has been recognized as a main obstacle to building deep Graph Neural Networks (GNNs), limiting the performance. This position paper argues that the influence of oversmoothing has been overstated and advocates for a further exploration of deep GNN architectures. Given the three core operations of GNNs, aggregation, linear transformation, and non-linear activation, we show that prior studies have mistakenly confused oversmoothing with the vanishing gradient, caused by transformation and activation rather than aggregation. Our finding challenges prior beliefs about oversmoothing being unique to GNNs. Furthermore, we demonstrate that classical solutions such as skip connections and normalization enable the successful stacking of deep GNN layers without performance degradation. Our results clarify misconceptions about oversmoothing and shed new light on the potential of deep GNNs.",
+ "primary": "cs.LG"
+}

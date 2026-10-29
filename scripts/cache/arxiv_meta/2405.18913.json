@@ -1,0 +1,17 @@
+{
+ "id": "2405.18913",
+ "title": "Time-Series Foundation Models for Forecasting Soil Moisture Levels in Smart Agriculture",
+ "authors": [
+  "Boje Deforce",
+  "Bart Baesens",
+  "Estefanía Serral Asensio"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 3,
+ "latest_date": "2024-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, accepted at KDD '24 - Fragile Earth Workshop https://openreview.net/forum?id=GZBGhi4JfE",
+ "abstract": "The recent surge in foundation models for natural language processing and computer vision has fueled innovation across various domains. Inspired by this progress, we explore the potential of foundation models for time-series forecasting in smart agriculture, a field often plagued by limited data availability. Specifically, this work presents a novel application of $\\texttt{TimeGPT}$, a state-of-the-art (SOTA) time-series foundation model, to predict soil water potential ($ψ_\\mathrm{soil}$), a key indicator of field water status that is typically used for irrigation advice. Traditionally, this task relies on a wide array of input variables. We explore $ψ_\\mathrm{soil}$'s ability to forecast $ψ_\\mathrm{soil}$ in: ($i$) a zero-shot setting, ($ii$) a fine-tuned setting relying solely on historic $ψ_\\mathrm{soil}$ measurements, and ($iii$) a fine-tuned setting where we also add exogenous variables to the model. We compare $\\texttt{TimeGPT}$'s performance to established SOTA baseline models for forecasting $ψ_\\mathrm{soil}$. Our results demonstrate that $\\texttt{TimeGPT}$ achieves competitive forecasting accuracy using only historical $ψ_\\mathrm{soil}$ data, highlighting its remarkable potential for agricultural applications. This research paves the way for foundation time-series models for sustainable development in agriculture by enabling forecasting tasks that were traditionally reliant on extensive data collection and domain expertise.",
+ "primary": "cs.LG"
+}

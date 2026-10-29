@@ -1,0 +1,17 @@
+{
+ "id": "2603.28295",
+ "title": "Evaluating LLMs for Answering Student Questions in Introductory Programming Courses",
+ "authors": [
+  "Thomas Van Mullem",
+  "Bart Mesuere",
+  "Peter Dawyndt"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 1,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid emergence of Large Language Models (LLMs) presents both opportunities and challenges for programming education. While students increasingly use generative AI tools, direct access often hinders the learning process by providing complete solutions rather than pedagogical hints. Concurrently, educators face significant workload and scalability challenges when providing timely, personalized feedback. This study investigates the capabilities of LLMs to safely and effectively assist educators in answering student questions within a CS1 programming course. To achieve this, we established a rigorous, reproducible evaluation process by curating a benchmark dataset of 170 authentic student questions from a learning management system, paired with ground-truth responses authored by subject matter experts. Because traditional text-matching metrics are insufficient for evaluating open-ended educational responses, we developed and validated a custom LLM-as-a-Judge metric optimized for assessing pedagogical accuracy. Our findings demonstrate that models, such as Gemini 3 flash, can surpass the quality baseline of typical educator responses, achieving high alignment with expert pedagogical standards. To mitigate persistent risks like hallucination and ensure alignment with course-specific context, we advocate for a \"teacher-in-the-loop\" implementation. Finally, we abstract our methodology into a task-agnostic evaluation framework, advocating for a shift in the development of educational LLM tools from ad-hoc, post-deployment testing to a quantifiable, pre-deployment validation process.",
+ "primary": "cs.AI"
+}

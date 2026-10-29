@@ -1,0 +1,18 @@
+{
+ "id": "2610.04291",
+ "title": "Local Fisher Information Enables Sparse Causal Discovery",
+ "authors": [
+  "Byeongguk Kang",
+  "Donghyeon Lee",
+  "Euijong Song",
+  "Gunwoong Park"
+ ],
+ "v1_date": "2026-10-03",
+ "latest_version": 1,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse causal discovery calls for methods that exploit graph structure without estimating high-dimensional densities. We introduce Fisher Information Completion Search (FiCS), a source-first algorithm for additive noise models that uses one local Fisher score for both ordering and parent selection. Under regularity and nonconstant-parent conditions, we prove that a node's local Fisher information equals the noise Fisher information exactly when the conditioning set contains all parents, provided that it contains no descendants. This Fisher parent completion identifies the parent set as the unique minimal Fisher completion. With a maximum conditioning set size $q$ at least the maximum indegree $d$, population FiCS queries marginals of at most $q+1$ variables and recovers the true directed acyclic graph under a positive ordering margin. Bounded conditioning also has a population advantage: reducing $q$ toward $d$ cannot decrease, and can strictly increase, the ordering margin. A growing non-Gaussian family separates local Fisher selection from conditional-variance and leaf-first Fisher ordering. For the regularized kernel Stein estimator, we establish high-dimensional DAG consistency under $q\\{1+\\log(p/q)\\}+\\log p=o(n)$, uniform Fisher separation, local approximation, and compatible ridge and parent penalty parameters. Experiments show the strongest gains when $n$ is small relative to $p$, quantify the effect of the conditioning size, and demonstrate competitive reference-graph recovery on three real-data benchmarks.",
+ "primary": "stat.ML"
+}

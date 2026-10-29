@@ -1,0 +1,18 @@
+{
+ "id": "2312.02355",
+ "title": "When is Offline Policy Selection Sample Efficient for Reinforcement Learning?",
+ "authors": [
+  "Vincent Liu",
+  "Prabhat Nagarajan",
+  "Andrew Patterson",
+  "Martha White"
+ ],
+ "v1_date": "2023-12-04",
+ "latest_version": 2,
+ "latest_date": "2026-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "AAMAS 2026",
+ "abstract": "Offline reinforcement learning algorithms often require careful hyperparameter tuning. Before deployment, we need to select amongst a set of candidate policies. However, there is limited understanding about the fundamental limits of this offline policy selection (OPS) problem. In this work we provide clarity on when sample efficient OPS is possible, primarily by connecting OPS to off-policy policy evaluation (OPE) and Bellman error (BE) estimation. We first show a hardness result, that in the worst case, OPS is just as hard as OPE, by proving a reduction of OPE to OPS. As a result, no OPS method can be more sample efficient than OPE in the worst case. We then connect BE estimation to the OPS problem, showing how BE can be used as a tool for OPS. While BE-based methods generally require stronger requirements than OPE, when those conditions are met they can be more sample efficient. Building on this insight, we propose a BE method for OPS, called Identifiable BE Selection (IBES), that has a straightforward method for selecting its own hyperparameters. We conclude with an empirical study comparing OPE and IBES, and by showing the difficulty of OPS on an offline Atari benchmark dataset.",
+ "primary": "cs.LG"
+}

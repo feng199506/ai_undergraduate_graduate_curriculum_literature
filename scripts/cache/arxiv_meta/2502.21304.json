@@ -1,0 +1,18 @@
+{
+ "id": "2502.21304",
+ "title": "Clustering Context in Off-Policy Evaluation",
+ "authors": [
+  "Daniel Guzman-Olivares",
+  "Philipp Schmidt",
+  "Jacek Golebiowski",
+  "Artur Bekasov"
+ ],
+ "v1_date": "2025-02-28",
+ "latest_version": 1,
+ "latest_date": "2025-02-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 25 figures, 2 tables. AISTATS 2025",
+ "abstract": "Off-policy evaluation can leverage logged data to estimate the effectiveness of new policies in e-commerce, search engines, media streaming services, or automatic diagnostic tools in healthcare. However, the performance of baseline off-policy estimators like IPS deteriorates when the logging policy significantly differs from the evaluation policy. Recent work proposes sharing information across similar actions to mitigate this problem. In this work, we propose an alternative estimator that shares information across similar contexts using clustering. We study the theoretical properties of the proposed estimator, characterizing its bias and variance under different conditions. We also compare the performance of the proposed estimator and existing approaches in various synthetic problems, as well as a real-world recommendation dataset. Our experimental results confirm that clustering contexts improves estimation accuracy, especially in deficient information settings.",
+ "primary": "cs.LG"
+}

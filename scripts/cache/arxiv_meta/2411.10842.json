@@ -1,0 +1,19 @@
+{
+ "id": "2411.10842",
+ "title": "CODECLEANER: Elevating Standards with A Robust Data Contamination Mitigation Toolkit",
+ "authors": [
+  "Jialun Cao",
+  "Songqiang Chen",
+  "Wuqi Zhang",
+  "Hau Ching Lo",
+  "Shing-Chi Cheung"
+ ],
+ "v1_date": "2024-11-16",
+ "latest_version": 1,
+ "latest_date": "2024-11-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data contamination presents a critical barrier preventing widespread industrial adoption of advanced software engineering techniques that leverage code language models (CLMs). This phenomenon occurs when evaluation data inadvertently overlaps with the public code repositories used to train CLMs, severely undermining the credibility of performance evaluations. For software companies considering the integration of CLM-based techniques into their development pipeline, this uncertainty about true performance metrics poses an unacceptable business risk. Code refactoring, which comprises code restructuring and variable renaming, has emerged as a promising measure to mitigate data contamination. It provides a practical alternative to the resource-intensive process of building contamination-free evaluation datasets, which would require companies to collect, clean, and label code created after the CLMs' training cutoff dates. However, the lack of automated code refactoring tools and scientifically validated refactoring techniques has hampered widespread industrial implementation. To bridge the gap, this paper presents the first systematic study to examine the efficacy of code refactoring operators at multiple scales (method-level, class-level, and cross-class level) and in different programming languages. In particular, we develop an open-sourced toolkit, CODECLEANER, which includes 11 operators for Python, with nine method-level, one class-level, and one cross-class-level operator. A drop of 65% overlap ratio is found when applying all operators in CODECLEANER, demonstrating their effectiveness in addressing data contamination. Additionally, we migrate four operators to Java, showing their generalizability to another language. We make CODECLEANER online available to facilitate further studies on mitigating CLM data contamination.",
+ "primary": "cs.SE"
+}

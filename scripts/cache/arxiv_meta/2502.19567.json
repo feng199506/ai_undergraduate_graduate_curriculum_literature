@@ -1,0 +1,17 @@
+{
+ "id": "2502.19567",
+ "title": "Atlas: A Framework for ML Lifecycle Provenance & Transparency",
+ "authors": [
+  "Marcin Spoczynski",
+  "Marcela S. Melara",
+  "Sebastian Szyller"
+ ],
+ "v1_date": "2025-02-26",
+ "latest_version": 2,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid adoption of open source machine learning (ML) datasets and models exposes today's AI applications to critical risks like data poisoning and supply chain attacks across the ML lifecycle. With growing regulatory pressure to address these issues through greater transparency, ML model vendors face challenges balancing these requirements against confidentiality for data and intellectual property needs. We propose Atlas, a framework that enables fully attestable ML pipelines. Atlas leverages open specifications for data and software supply chain provenance to collect verifiable records of model artifact authenticity and end-to-end lineage metadata. Atlas combines trusted hardware and transparency logs to enhance metadata integrity, preserve data confidentiality, and limit unauthorized access during ML pipeline operations, from training through deployment. Our prototype implementation of Atlas integrates several open-source tools to build an ML lifecycle transparency system, and assess the practicality of Atlas through two case study ML pipelines.",
+ "primary": "cs.CR"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2603.06904",
+ "title": "XGenBoost: Synthesizing Small and Large Tabular Datasets with XGBoost",
+ "authors": [
+  "Jim Achterberg",
+  "Marcel Haas",
+  "Bram van Dijk",
+  "Marco Spruit"
+ ],
+ "v1_date": "2026-03-06",
+ "latest_version": 1,
+ "latest_date": "2026-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tree ensembles such as XGBoost are often preferred for discriminative tasks in mixed-type tabular data, due to their inductive biases, minimal hyperparameter tuning, and training efficiency. We argue that these qualities, when leveraged correctly, can make for better generative models as well. As such, we present XGenBoost, a pair of generative models based on XGBoost: i) a Denoising Diffusion Implicit Model (DDIM) with XGBoost as score-estimator suited for smaller datasets, and ii) a hierarchical autoregressive model whose conditionals are learned via XGBoost classifiers, suited for large-scale tabular synthesis. The architectures follow from the natural constraints imposed by tree-based learners, e.g., in the diffusion model, combining Gaussian and multinomial diffusion to leverage native categorical splits and avoid one-hot encoding while accurately modelling mixed data types. In the autoregressive model, we use a fixed-order factorization, a hierarchical classifier to impose ordinal inductive biases when modelling numerical features, and de-quantization based on empirical quantile functions to model the non-continuous nature of most real-world tabular datasets. Through two benchmarks, one containing smaller and the other larger datasets, we show that our proposed architectures outperform previous neural- and tree-based generative models for mixed-type tabular synthesis at lower training cost.",
+ "primary": "cs.LG"
+}

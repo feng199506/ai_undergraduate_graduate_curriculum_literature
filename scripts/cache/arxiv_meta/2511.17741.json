@@ -1,0 +1,16 @@
+{
+ "id": "2511.17741",
+ "title": "Diffusion Models are Molecular Dynamics Simulators",
+ "authors": [
+  "Justin Diamond",
+  "Markus Lill"
+ ],
+ "v1_date": "2025-11-21",
+ "latest_version": 2,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We prove that a denoising diffusion sampler equipped with a sequential bias across the batch dimension is exactly an Euler-Maruyama integrator for overdamped Langevin dynamics. Each reverse denoising step, with its associated spring stiffness, can be interpreted as one step of a stochastic differential equation with an effective time step set jointly by the noise schedule and that stiffness. The learned score then plays the role of the drift, equivalently the gradient of a learned energy, yielding a precise correspondence between diffusion sampling and Langevin time evolution. This equivalence recasts molecular dynamics (MD) in terms of diffusion models. Accuracy is no longer tied to a fixed, extremely small MD time step; instead, it is controlled by two scalable knobs: model capacity, which governs how well the drift is approximated, and the number of denoising steps, which sets the integrator resolution. In practice, this leads to a fully data-driven MD framework that learns forces from uncorrelated equilibrium snapshots, requires no hand-engineered force fields, uses no trajectory data for training, and still preserves the Boltzmann distribution associated with the learned energy. We derive trajectory-level, information-theoretic error bounds that cleanly separate discretization error from score-model error, clarify how temperature enters through the effective spring, and show that the resulting sampler generates molecular trajectories with MD-like temporal correlations, even though the model is trained only on static configurations.",
+ "primary": "cs.LG"
+}

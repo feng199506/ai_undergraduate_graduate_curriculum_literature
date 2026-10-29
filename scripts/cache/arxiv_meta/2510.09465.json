@@ -1,0 +1,17 @@
+{
+ "id": "2510.09465",
+ "title": "Interpretable Machine Learning for Predicting Startup Funding, Patenting, and Exits",
+ "authors": [
+  "Saeid Mashhadi",
+  "Amirhossein Saghezchi",
+  "Vesal Ghassemzadeh Kashani"
+ ],
+ "v1_date": "2025-10-10",
+ "latest_version": 2,
+ "latest_date": "2026-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study develops an interpretable machine learning framework to forecast startup outcomes, including funding, patenting, and exit. A firm-quarter panel for 2010-2023 is constructed from Crunchbase and matched to U.S. Patent and Trademark Office (USPTO) data. Three horizons are evaluated: next funding within 12 months, patent-stock growth within 24 months, and exit through an initial public offering (IPO) or acquisition within 36 months. Preprocessing is fit on a development window (2010-2019) and applied without change to later cohorts to avoid leakage. Class imbalance is addressed using inverse-prevalence weights and the Synthetic Minority Oversampling Technique for Nominal and Continuous features (SMOTE-NC). Logistic regression and tree ensembles, including Random Forest, XGBoost, LightGBM, and CatBoost, are compared using the area under the precision-recall curve (PR-AUC) and the area under the receiver operating characteristic curve (AUROC). Patent, funding, and exit predictions achieve AUROC values of 0.921, 0.817, and 0.872, providing transparent and reproducible rankings for innovation finance.",
+ "primary": "cs.LG"
+}

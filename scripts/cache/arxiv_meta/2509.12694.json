@@ -1,0 +1,19 @@
+{
+ "id": "2509.12694",
+ "title": "Soft Graph Transformer for MIMO Detection",
+ "authors": [
+  "Jiadong Hong",
+  "Lei Liu",
+  "Xinyu Bian",
+  "Wenjie Wang",
+  "Zhaoyang Zhang"
+ ],
+ "v1_date": "2025-09-16",
+ "latest_version": 5,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages with 3 figures and 2 tables, Accepted by IEEE ICASSP 2026",
+ "abstract": "We propose the Soft Graph Transformer (SGT), a soft-input-soft-output neural architecture designed for MIMO detection. While Maximum Likelihood (ML) detection achieves optimal accuracy, its exponential complexity makes it infeasible in large systems, and conventional message-passing algorithms rely on asymptotic assumptions that often fail in finite dimensions. Recent Transformer-based detectors show strong performance but typically overlook the MIMO factor graph structure and cannot exploit prior soft information. SGT addresses these limitations by combining self-attention, which encodes contextual dependencies within symbol and constraint subgraphs, with graph-aware cross-attention, which performs structured message passing across subgraphs. Its soft-input interface allows the integration of auxiliary priors, producing effective soft outputs while maintaining computational efficiency. Experiments demonstrate that SGT achieves near-ML performance and offers a flexible and interpretable framework for receiver systems that leverage soft priors.",
+ "primary": "cs.LG"
+}

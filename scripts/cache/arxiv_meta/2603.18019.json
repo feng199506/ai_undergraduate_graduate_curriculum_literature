@@ -1,0 +1,18 @@
+{
+ "id": "2603.18019",
+ "title": "BenchBrowser: Retrieving Evidence for Evaluating Benchmark Validity",
+ "authors": [
+  "Harshita Diddee",
+  "Gregory Yauney",
+  "Swabha Swayamdipta",
+  "Daphne Ippolito"
+ ],
+ "v1_date": "2026-02-25",
+ "latest_version": 2,
+ "latest_date": "2026-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Do language model benchmarks actually measure what practitioners intend them to ? High-level metadata is too coarse to convey the granular reality of benchmarks: a \"poetry\" benchmark may never test for haikus, while \"instruction-following\" benchmarks will often test for an arbitrary mix of skills. This opacity makes verifying alignment with practitioner goals a laborious process, risking an illusion of competence even when models fail on untested facets of user interests. We introduce BenchBrowser, a retriever that surfaces evaluation items relevant to natural language use cases over 20 benchmark suites. Validated by a human study confirming high retrieval precision, BenchBrowser generates evidence to help practitioners diagnose low content validity (narrow coverage of a capability's facets) and low convergent validity (lack of stable rankings when measuring the same capability). BenchBrowser, thus, helps quantify a critical gap between practitioner intent and what benchmarks actually test.",
+ "primary": "cs.CL"
+}

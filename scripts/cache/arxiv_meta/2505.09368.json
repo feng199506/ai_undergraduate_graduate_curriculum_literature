@@ -1,0 +1,22 @@
+{
+ "id": "2505.09368",
+ "title": "RobustSpring: Benchmarking Robustness to Image Corruptions for Optical Flow, Scene Flow and Stereo",
+ "authors": [
+  "Victor Oei",
+  "Jenny Schmalfuss",
+  "Lukas Mehl",
+  "Madlen Bartsch",
+  "Shashank Agnihotri",
+  "Margret Keuper",
+  "Andreas Bulling",
+  "Andrés Bruhn"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 2,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard benchmarks for optical flow, scene flow, and stereo vision algorithms generally focus on model accuracy rather than robustness to image corruptions like noise or rain. Hence, the resilience of models to such real-world perturbations is largely unquantified. To address this, we present RobustSpring, a comprehensive dataset and benchmark for evaluating robustness to image corruptions for optical flow, scene flow, and stereo models. RobustSpring applies 20 different image corruptions, including noise, blur, color changes, quality degradations, and weather distortions, in a time-, stereo-, and depth-consistent manner to the high-resolution Spring dataset, creating a suite of 20,000 corrupted images that reflect challenging conditions. RobustSpring enables comparisons of model robustness via a new corruption robustness metric. Integration with the Spring benchmark enables two-axis evaluations of both accuracy and robustness. We benchmark a curated selection of initial models, observing that robustness varies widely by corruption type, and experimentally show that evaluations on RobustSpring indicate real-world robustness. RobustSpring is a new computer vision benchmark to treat robustness as a first-class citizen, fostering models that are accurate and resilient. It is available at https://spring-benchmark.org.",
+ "primary": "cs.CV"
+}

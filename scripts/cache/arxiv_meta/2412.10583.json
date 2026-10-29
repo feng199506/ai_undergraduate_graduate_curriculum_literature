@@ -1,0 +1,24 @@
+{
+ "id": "2412.10583",
+ "title": "Randomized Kaczmarz methods for t-product tensor linear systems with factorized operators",
+ "authors": [
+  "Alejandra Castillo",
+  "Jamie Haddock",
+  "Iryna Hartsock",
+  "Paulina Hoyos",
+  "Lara Kassab",
+  "Alona Kryshchenko",
+  "Kamila Larripa",
+  "Deanna Needell",
+  "Shambhavi Suryanarayanan",
+  "Karamatou Yacoubou-Djima"
+ ],
+ "v1_date": "2024-12-13",
+ "latest_version": 1,
+ "latest_date": "2024-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized iterative algorithms, such as the randomized Kaczmarz method, have gained considerable popularity due to their efficacy in solving matrix-vector and matrix-matrix regression problems. Our present work leverages the insights gained from studying such algorithms to develop regression methods for tensors, which are the natural setting for many application problems, e.g., image deblurring. In particular, we extend the randomized Kaczmarz method to solve a tensor system of the form $\\mathbf{\\mathcal{A}}\\mathcal{X} = \\mathcal{B}$, where $\\mathcal{X}$ can be factorized as $\\mathcal{X} = \\mathcal{U}\\mathcal{V}$, and all products are calculated using the t-product. We develop variants of the randomized factorized Kaczmarz method for matrices that approximately solve tensor systems in both the consistent and inconsistent regimes. We provide theoretical guarantees of the exponential convergence rate of our algorithms, accompanied by illustrative numerical simulations. Furthermore, we situate our method within a broader context by linking our novel approaches to earlier randomized Kaczmarz methods.",
+ "primary": "math.NA"
+}

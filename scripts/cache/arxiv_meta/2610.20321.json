@@ -1,0 +1,15 @@
+{
+ "id": "2610.20321",
+ "title": "Hierarchical Gaussian Processes for Survey Weighting: Local Equivalent Weights in Structured Populations",
+ "authors": [
+  "Seonghun Lee"
+ ],
+ "v1_date": "2026-10-14",
+ "latest_version": 3,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages",
+ "abstract": "Regression-based survey weighting connects model-based population estimation with design-based inference through equivalent weights. For nonlinear models, equivalent weights can be defined locally through the sensitivity of a poststratified population estimator. However, conventional regression models may inadequately capture nonlinear relationships and complex interactions across sparse poststratification cells. We develop a survey-weighting framework based on hierarchical Gaussian process (HGP) regression, combining structured group-level effects with kernel-based smoothing to share information across related cells. We derive Gaussian posterior prediction formulas that exploit the structured covariance representation to reduce computational costs. We also establish a uniform convergence result for the posterior predictive mean under stated regularity conditions and construct local equivalent weights by matching the first-order sensitivity of a plug-in poststratified estimand to that of a weighted average of fitted response means, with both derivatives taken with respect to the latent mean-scale vector. Simulations show that HGP achieves lower population-weighted prediction error under nonparametric structure, whereas logistic regression performs well under correct parametric specification. Additional analyses examine sample size, frame coverage, subgroup prediction, and population-mean agreement. An application to the Future of Families and Child Wellbeing Study illustrates the method. Overall, this work extends local equivalent-weight construction to nonparametric modeling and provides a computational framework and conditional theoretical results for survey weighting in structured, sparse populations.",
+ "primary": "stat.ME"
+}

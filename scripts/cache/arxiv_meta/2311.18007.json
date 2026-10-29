@@ -1,0 +1,18 @@
+{
+ "id": "2311.18007",
+ "title": "Towards out-of-distribution generalization in large-scale astronomical surveys: robust networks learn similar representations",
+ "authors": [
+  "Yash Gondhalekar",
+  "Sultan Hassan",
+  "Naomi Saphra",
+  "Sambatra Andrianomena"
+ ],
+ "v1_date": "2023-11-29",
+ "latest_version": 1,
+ "latest_date": "2023-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Machine Learning and the Physical Sciences Workshop, NeurIPS 2023",
+ "abstract": "The generalization of machine learning (ML) models to out-of-distribution (OOD) examples remains a key challenge in extracting information from upcoming astronomical surveys. Interpretability approaches are a natural way to gain insights into the OOD generalization problem. We use Centered Kernel Alignment (CKA), a similarity measure metric of neural network representations, to examine the relationship between representation similarity and performance of pre-trained Convolutional Neural Networks (CNNs) on the CAMELS Multifield Dataset. We find that when models are robust to a distribution shift, they produce substantially different representations across their layers on OOD data. However, when they fail to generalize, these representations change less from layer to layer on OOD data. We discuss the potential application of similarity representation in guiding model design, training strategy, and mitigating the OOD problem by incorporating CKA as an inductive bias during training.",
+ "primary": "astro-ph.IM"
+}

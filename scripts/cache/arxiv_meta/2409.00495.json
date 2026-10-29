@@ -1,0 +1,19 @@
+{
+ "id": "2409.00495",
+ "title": "TimeFloats: Train-in-Memory with Time-Domain Floating-Point Scalar Products",
+ "authors": [
+  "Maeesha Binte Hashem",
+  "Benjamin Parpillon",
+  "Divake Kumar",
+  "Dinithi Jayasuria",
+  "Amit Ranjan Trivedi"
+ ],
+ "v1_date": "2024-08-31",
+ "latest_version": 2,
+ "latest_date": "2024-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we propose \"TimeFloats,\" an efficient train-in-memory architecture that performs 8-bit floating-point scalar product operations in the time domain. While building on the compute-in-memory paradigm's integrated storage and inferential computations, TimeFloats additionally enables floating-point computations, thus facilitating DNN training within the same memory structures. Traditional compute-in-memory approaches with conventional ADCs and DACs face challenges such as higher power consumption and increased design complexity, especially at advanced CMOS nodes. In contrast, TimeFloats leverages time-domain signal processing to avoid conventional domain converters. It operates predominantly with digital building blocks, reducing power consumption and noise sensitivity while enabling high-resolution computations and easier integration with conventional digital circuits. Our simulation results demonstrate an energy efficiency of 22.1 TOPS/W while evaluating the design on 15 nm CMOS technology.",
+ "primary": "cs.AR"
+}

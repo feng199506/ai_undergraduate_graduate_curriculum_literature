@@ -1,0 +1,17 @@
+{
+ "id": "2607.09431",
+ "title": "comprisk: A scikit-learn-compatible Python toolkit for competing-risks survival analysis",
+ "authors": [
+  "Sunny Yang",
+  "Weiyan Zhao",
+  "Wanqi Zhao"
+ ],
+ "v1_date": "2026-07-10",
+ "latest_version": 2,
+ "latest_date": "2026-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages. Software paper; package available on PyPI (pip install comprisk). Code archived on Zenodo: 10.5281/zenodo.19876282",
+ "abstract": "Medical time-to-event data are frequently subject to competing risks, where the occurrence of one terminal event precludes the others and standard survival methods that treat competing events as censoring yield biased absolute-risk estimates. Valid analysis instead targets the cause-specific cumulative incidence function (CIF). This methodology has been available to applied researchers almost exclusively through R packages, forcing Python-based machine-learning workflows into a Python-to-R round trip. We present comprisk, a scikit-learn-compatible Python toolkit that puts the canonical competing-risks methods behind one API: a scalable competing-risks random survival forest, Fine-Gray subdistribution-hazard regression and a penalized variant, cause-specific Cox regression, the Aalen-Johansen CIF estimator, and Gray's K-sample test, together with competing-risks-aware model evaluation. Every estimator is validated numerically against its R reference implementation. The forest uses a histogram-based, numba-compiled split kernel that fits 10-22x faster than randomForestSRC at comparable discrimination on real clinical cohorts and scales to n = 10^6 on a consumer CPU. comprisk is distributed on PyPI and lets applied researchers run correct, scalable competing-risks analysis without leaving the Python scientific stack.",
+ "primary": "stat.CO"
+}

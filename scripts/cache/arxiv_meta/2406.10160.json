@@ -1,0 +1,24 @@
+{
+ "id": "2406.10160",
+ "title": "One-pass Multiple Conformer and Foundation Speech Systems Compression and Quantization Using An All-in-one Neural Model",
+ "authors": [
+  "Zhaoqing Li",
+  "Haoning Xu",
+  "Tianzi Wang",
+  "Shoukang Hu",
+  "Zengrui Jin",
+  "Shujie Hu",
+  "Jiajun Deng",
+  "Mingyu Cui",
+  "Mengzhe Geng",
+  "Xunying Liu"
+ ],
+ "v1_date": "2024-06-14",
+ "latest_version": 1,
+ "latest_date": "2024-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by Interspeech 2024",
+ "abstract": "We propose a novel one-pass multiple ASR systems joint compression and quantization approach using an all-in-one neural model. A single compression cycle allows multiple nested systems with varying Encoder depths, widths, and quantization precision settings to be simultaneously constructed without the need to train and store individual target systems separately. Experiments consistently demonstrate the multiple ASR systems compressed in a single all-in-one model produced a word error rate (WER) comparable to, or lower by up to 1.01\\% absolute (6.98\\% relative) than individually trained systems of equal complexity. A 3.4x overall system compression and training time speed-up was achieved. Maximum model size compression ratios of 12.8x and 3.93x were obtained over the baseline Switchboard-300hr Conformer and LibriSpeech-100hr fine-tuned wav2vec2.0 models, respectively, incurring no statistically significant WER increase.",
+ "primary": "cs.SD"
+}

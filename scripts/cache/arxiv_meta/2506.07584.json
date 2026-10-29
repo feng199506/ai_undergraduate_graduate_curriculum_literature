@@ -1,0 +1,25 @@
+{
+ "id": "2506.07584",
+ "title": "MIRA: Medical Time Series Foundation Model for Real-World Health Data",
+ "authors": [
+  "Hao Li",
+  "Bowen Deng",
+  "Chang Xu",
+  "Zhiyuan Feng",
+  "Viktor Schlegel",
+  "Yu-Hao Huang",
+  "Yizheng Sun",
+  "Jingyuan Sun",
+  "Kailai Yang",
+  "Yiyao Yu",
+  "Jiang Bian"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 7,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025 Main Conference",
+ "abstract": "A unified foundation model for medical time series -- pretrained on open access and ethics board-approved medical corpora -- offers the potential to reduce annotation burdens, minimize model customization, and enable robust transfer across clinical institutions, modalities, and tasks, particularly in data-scarce or privacy-constrained environments. However, existing generalist time series foundation models struggle to handle medical time series data due to their inherent challenges, including irregular intervals, heterogeneous sampling rates, and frequent missing values. To address these challenges, we introduce MIRA, a unified foundation model specifically designed for medical time series forecasting. MIRA incorporates a Continuous-Time Rotary Positional Encoding that enables fine-grained modeling of variable time intervals, a frequency-specific mixture-of-experts layer that routes computation across latent frequency regimes to further promote temporal specialization, and a Continuous Dynamics Extrapolation Block based on Neural ODE that models the continuous trajectory of latent states, enabling accurate forecasting at arbitrary target timestamps. Pretrained on a large-scale and diverse medical corpus comprising over 454 billion time points collect from publicly available datasets, MIRA achieves reductions in forecasting errors by an average of 10% and 7% in out-of-distribution and in-distribution scenarios, respectively, when compared to other zero-shot and fine-tuned baselines. We also introduce a comprehensive benchmark spanning multiple downstream clinical tasks, establishing a foundation for future research in medical time series modeling.",
+ "primary": "cs.LG"
+}

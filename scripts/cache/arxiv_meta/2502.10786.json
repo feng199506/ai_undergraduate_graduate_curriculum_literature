@@ -1,0 +1,18 @@
+{
+ "id": "2502.10786",
+ "title": "Epidemic-guided deep learning for spatiotemporal forecasting of Tuberculosis outbreak",
+ "authors": [
+  "Madhab Barman",
+  "Madhurima Panja",
+  "Nachiketa Mishra",
+  "Tanujit Chakraborty"
+ ],
+ "v1_date": "2025-02-15",
+ "latest_version": 2,
+ "latest_date": "2025-06-08",
+ "journal_ref": "Machine Learning, 2025, Volume: 114",
+ "doi": "10.1007/s10994-025-06848-4",
+ "comment": "",
+ "abstract": "Tuberculosis (TB) remains a formidable global health challenge, driven by complex spatiotemporal transmission dynamics and influenced by factors such as population mobility and behavioral changes. We propose an Epidemic-Guided Deep Learning (EGDL) approach that fuses mechanistic epidemiological principles with advanced deep learning techniques to enhance early warning systems and intervention strategies for TB outbreaks. Our framework is built upon a modified networked Susceptible-Infectious-Recovered (MN-SIR) model augmented with a saturated incidence rate and graph Laplacian diffusion, capturing both long-term transmission dynamics and region-specific population mobility patterns. Compartmental model parameters are rigorously estimated using Bayesian inference via the Markov Chain Monte Carlo approach. Theoretical analysis leveraging the comparison principle and Green's formula establishes global stability properties of the disease-free and endemic equilibria. Building on these epidemiological insights, we design two forecasting architectures, EGDL-Parallel and EGDL-Series, that integrate the mechanistic outputs of the MN-SIR model within deep neural networks. This integration mitigates the overfitting risks commonly encountered in data-driven methods and filters out noise inherent in surveillance data, resulting in reliable forecasts of real-world epidemic trends. Experiments conducted on TB incidence data from 47 prefectures in Japan and 31 provinces in mainland China demonstrate that our approach delivers robust and accurate predictions across multiple time horizons (short to medium-term forecasts), supporting its generalizability across regions with different population dynamics.",
+ "primary": "cs.LG"
+}

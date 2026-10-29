@@ -1,0 +1,23 @@
+{
+ "id": "2510.11923",
+ "title": "Enhancing Diffusion-Based Sampling with Molecular Collective Variables",
+ "authors": [
+  "Juno Nam",
+  "Bálint Máté",
+  "Artur P. Toshev",
+  "Manasa Kaniselvan",
+  "Rafael Gómez-Bombarelli",
+  "Ricky T. Q. Chen",
+  "Brandon Wood",
+  "Guan-Horng Liu",
+  "Benjamin Kurt Miller"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 2,
+ "latest_date": "2025-12-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion-based samplers learn to sample complex, high-dimensional distributions using energies or log densities alone, without training data. Yet, they remain impractical for molecular sampling because they are often slower than molecular dynamics and miss thermodynamically relevant modes. Inspired by enhanced sampling, we encourage exploration by introducing a sequential bias along bespoke, information-rich, low-dimensional projections of atomic coordinates known as collective variables (CVs). We introduce a repulsive potential centered on the CVs from recent samples, which pushes future samples towards novel CV regions and effectively increases the temperature in the projected space. Our resulting method improves efficiency, mode discovery, enables the estimation of free energy differences, and retains independent sampling from the approximate Boltzmann distribution via reweighting by the bias. On standard peptide conformational sampling benchmarks, the method recovers diverse conformational states and accurate free energy profiles. We are the first to demonstrate reactive sampling using a diffusion-based sampler, capturing bond breaking and formation with universal interatomic potentials at near-first-principles accuracy. The approach resolves reactive energy landscapes at a fraction of the wall-clock time of standard sampling methods, advancing diffusion-based sampling towards practical use in molecular sciences.",
+ "primary": "physics.chem-ph"
+}

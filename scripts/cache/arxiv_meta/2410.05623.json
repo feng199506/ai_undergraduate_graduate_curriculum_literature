@@ -1,0 +1,15 @@
+{
+ "id": "2410.05623",
+ "title": "Understanding Gradient Boosting Classifier: Training, Prediction, and the Role of $γ_j$",
+ "authors": [
+  "Hung-Hsuan Chen"
+ ],
+ "v1_date": "2024-10-08",
+ "latest_version": 2,
+ "latest_date": "2024-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Gradient Boosting Classifier (GBC) is a widely used machine learning algorithm for binary classification, which builds decision trees iteratively to minimize prediction errors. This document explains the GBC's training and prediction processes, focusing on the computation of terminal node values $γ_j$, which are crucial to optimizing the logistic loss function. We derive $γ_j$ through a Taylor series approximation and provide a step-by-step pseudocode for the algorithm's implementation. The guide explains the theory of GBC and its practical application, demonstrating its effectiveness in binary classification tasks. We provide a step-by-step example in the appendix to help readers understand.",
+ "primary": "cs.LG"
+}

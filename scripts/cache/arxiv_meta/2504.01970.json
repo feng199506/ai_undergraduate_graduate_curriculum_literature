@@ -1,0 +1,17 @@
+{
+ "id": "2504.01970",
+ "title": "Differentiable Optimization for Deep Learning-Enhanced DC Approximation of AC Optimal Power Flow",
+ "authors": [
+  "Andrew Rosemberg",
+  "Michael Klamkin",
+  "Pascal Van Hentenryck"
+ ],
+ "v1_date": "2025-03-22",
+ "latest_version": 2,
+ "latest_date": "2025-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The growing scale of power systems and the increasing uncertainty introduced by renewable energy sources necessitates novel optimization techniques that are significantly faster and more accurate than existing methods. The AC Optimal Power Flow (AC-OPF) problem, a core component of power grid optimization, is often approximated using linearized DC Optimal Power Flow (DC-OPF) models for computational tractability, albeit at the cost of suboptimal and inefficient decisions. To address these limitations, we propose a novel deep learning-based framework for network equivalency that enhances DC-OPF to more closely mimic the behavior of AC-OPF. The approach utilizes recent advances in differentiable optimization, incorporating a neural network trained to predict adjusted nodal shunt conductances and branch susceptances in order to account for nonlinear power flow behavior. The model can be trained end-to-end using modern deep learning frameworks by leveraging the implicit function theorem. Results demonstrate the framework's ability to significantly improve prediction accuracy.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2409.07323",
+ "title": "Efficient and Unbiased Sampling of Boltzmann Distributions via Consistency Models",
+ "authors": [
+  "Fengzhe Zhang",
+  "Jiajun He",
+  "Laurence I. Midgley",
+  "Javier Antorán",
+  "José Miguel Hernández-Lobato"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 1,
+ "latest_date": "2024-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 4 figures",
+ "abstract": "Diffusion models have shown promising potential for advancing Boltzmann Generators. However, two critical challenges persist: (1) inherent errors in samples due to model imperfections, and (2) the requirement of hundreds of functional evaluations (NFEs) to achieve high-quality samples. While existing solutions like importance sampling and distillation address these issues separately, they are often incompatible, as most distillation models lack the necessary density information for importance sampling. This paper introduces a novel sampling method that effectively combines Consistency Models (CMs) with importance sampling. We evaluate our approach on both synthetic energy functions and equivariant n-body particle systems. Our method produces unbiased samples using only 6-25 NFEs while achieving a comparable Effective Sample Size (ESS) to Denoising Diffusion Probabilistic Models (DDPMs) that require approximately 100 NFEs.",
+ "primary": "cs.LG"
+}

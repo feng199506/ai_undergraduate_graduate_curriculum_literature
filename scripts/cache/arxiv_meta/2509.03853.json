@@ -1,0 +1,17 @@
+{
+ "id": "2509.03853",
+ "title": "Simulation-based Inference via Langevin Dynamics with Score Matching",
+ "authors": [
+  "Haoyu Jiang",
+  "Yuexi Wang",
+  "Yun Yang"
+ ],
+ "v1_date": "2025-09-04",
+ "latest_version": 3,
+ "latest_date": "2026-06-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simulation-based inference (SBI) enables Bayesian analysis when the likelihood is intractable but model simulations are available. Recent advances in statistics and machine learning, including Approximate Bayesian Computation and deep generative models, have expanded the applicability of SBI, yet these methods often face substantial computational challenges as the sample size and parameter dimension increase. In this paper, we propose a novel scalable SBI method that integrates score matching with Langevin dynamics, while explicitly exploiting the statistical structure of log-likelihood functions. Our approach combines (i) a localization scheme that concentrates computation in regions of high posterior mass and (ii) a structured score network that embeds key properties of likelihood scores, including additivity across observations and Fisher information identities. We provide theoretical and empirical evidence demonstrating that the proposed structured score-matching approach improves statistical efficiency and computational scalability, achieving competitive or superior performance compared to existing SBI methods on both benchmark and challenging problems with large sample sizes and moderate-dimensional parameter spaces.",
+ "primary": "stat.ME"
+}

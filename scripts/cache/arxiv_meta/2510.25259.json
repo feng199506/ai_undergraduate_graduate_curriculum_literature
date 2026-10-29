@@ -1,0 +1,18 @@
+{
+ "id": "2510.25259",
+ "title": "TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation",
+ "authors": [
+  "Yehjin Shin",
+  "Jeongwhan Choi",
+  "Seojin Kim",
+  "Noseong Park"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 1,
+ "latest_date": "2025-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The 39th Conference on Neural Information Processing Systems (NeurIPS 2025)",
+ "abstract": "Recently, convolutional filters have been increasingly adopted in sequential recommendation for their ability to capture local sequential patterns. However, most of these models complement convolutional filters with self-attention. This is because convolutional filters alone, generally fixed filters, struggle to capture global interactions necessary for accurate recommendation. We propose Time-Variant Convolutional Filters for Sequential Recommendation (TV-Rec), a model inspired by graph signal processing, where time-variant graph filters capture position-dependent temporal variations in user sequences. By replacing both fixed kernels and self-attention with time-variant filters, TV-Rec achieves higher expressive power and better captures complex interaction patterns in user behavior. This design not only eliminates the need for self-attention but also reduces computation while accelerating inference. Extensive experiments on six public benchmarks show that TV-Rec outperforms state-of-the-art baselines by an average of 7.49%.",
+ "primary": "cs.IR"
+}

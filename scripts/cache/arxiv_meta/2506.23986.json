@@ -1,0 +1,19 @@
+{
+ "id": "2506.23986",
+ "title": "StreamFlow: Streaming Flow Matching with Block-wise Guided Attention Mask for Speech Token Decoding",
+ "authors": [
+  "Dake Guo",
+  "Jixun Yao",
+  "Linhan Ma",
+  "He Wang",
+  "Lei Xie"
+ ],
+ "v1_date": "2025-06-30",
+ "latest_version": 2,
+ "latest_date": "2025-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advancements in discrete token-based speech generation have highlighted the importance of token-to-waveform generation for audio quality, particularly in real-time interactions. Traditional frameworks integrating semantic tokens with flow matching (FM) struggle with streaming capabilities due to their reliance on a global receptive field. Additionally, directly implementing token-by-token streaming speech generation often results in degraded audio quality. To address these challenges, we propose StreamFlow, a novel neural architecture that facilitates streaming flow matching with diffusion transformers (DiT). To mitigate the long-sequence extrapolation issues arising from lengthy historical dependencies, we design a local block-wise receptive field strategy. Specifically, the sequence is first segmented into blocks, and we introduce block-wise attention masks that enable the current block to receive information from the previous or subsequent block. These attention masks are combined hierarchically across different DiT-blocks to regulate the receptive field of DiTs. Both subjective and objective experimental results demonstrate that our approach achieves performance comparable to non-streaming methods while surpassing other streaming methods in terms of speech quality, all the while effectively managing inference time during long-sequence generation. Furthermore, our method achieves a notable first-packet latency of only 180 ms.\\footnote{Speech samples: https://dukguo.github.io/StreamFlow/}",
+ "primary": "cs.SD"
+}

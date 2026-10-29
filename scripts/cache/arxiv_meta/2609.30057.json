@@ -1,0 +1,25 @@
+{
+ "id": "2609.30057",
+ "title": "KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity",
+ "authors": [
+  "Tianyu Feng",
+  "Haoxuan Yu",
+  "Tianyuan Wu",
+  "Lingyun Yang",
+  "Daocheng Ying",
+  "Yuxiao Wang",
+  "Ruibo Fan",
+  "Yinghao Yu",
+  "Guodong Yang",
+  "Liping Zhang",
+  "Wei Wang"
+ ],
+ "v1_date": "2026-09-24",
+ "latest_version": 1,
+ "latest_date": "2026-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 12 figures",
+ "abstract": "LLM agents automate GPU kernel optimization by repeatedly composing candidates and measuring their duration on real GPUs. Existing systems preserve measurement fidelity by reserving a GPU for an entire agent session or benchmarking command. However, this results in poor utilization because only a small fraction of command execution requires exclusive GPU access. Sharing GPUs could recover this idle capacity, but introduces contention that compromises measurement fidelity and misdirects the agent's search. We present KREX, a runtime for concurrent kernel agent benchmarking with region-granular exclusivity. KREX lets agents mark critical regions involving timing-sensitive operations within a benchmarking command. The runtime then enforces exclusivity within marked regions and allows concurrent execution outside them, achieving high throughput while preserving measurement fidelity. To enforce in-region exclusivity, KREX blocks new competing GPU submissions and drains outstanding work before freezing sibling processes and isolating CPU cores, protecting both GPU execution and the host threads that drive measurements. To maximize off-region concurrency, KREX reuses GPU contexts in persistent context processes to avoid repeated, node-wide serialized context creation. We evaluate KREX on NVIDIA and AMD GPUs. Compared with command-granular exclusivity baselines, KREX delivers up to $3.4\\times$ the benchmarking throughput with a negligible p95 timing inflation of $0.30\\%$, $1.58\\%$, and $3.90\\%$ for kernels longer than 10 ms, 1 ms, and 0.1 ms, respectively.",
+ "primary": "cs.DC"
+}

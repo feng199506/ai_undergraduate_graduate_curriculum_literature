@@ -1,0 +1,19 @@
+{
+ "id": "2602.00835",
+ "title": "Score-based Metropolis-Hastings for Fractional Langevin Algorithms",
+ "authors": [
+  "Ahmed Aloui",
+  "Junyi Liao",
+  "Ali Hasan",
+  "Jose Blanchet",
+  "Vahid Tarokh"
+ ],
+ "v1_date": "2026-01-31",
+ "latest_version": 1,
+ "latest_date": "2026-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sampling from heavy-tailed and multimodal distributions is challenging when neither the target density nor the proposal density can be evaluated, as in $α$-stable Lévy-driven fractional Langevin algorithms. While the target distribution can be estimated from data via score-based or energy-based models, the $α$-stable proposal density and its score are generally unavailable, rendering classical density-based Metropolis--Hastings (MH) corrections impractical. Consequently, existing fractional Langevin methods operate in an unadjusted regime and can exhibit substantial finite-time errors and poor empirical control of tail behavior. We introduce the Metropolis-Adjusted Fractional Langevin Algorithm (MAFLA), an MH-inspired, fully score-based correction mechanism. MAFLA employs designed proxies for fractional proposal score gradients under isotropic symmetric $α$-stable noise and learns an acceptance function via Score Balance Matching. We empirically illustrate the strong performance of MAFLA on a series of tasks including combinatorial optimization problems where the method significantly improves finite time sampling accuracy over unadjusted fractional Langevin dynamics.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2311.08863",
+ "title": "Toulouse Hyperspectral Data Set: a benchmark data set to assess semi-supervised spectral representation learning and pixel-wise classification techniques",
+ "authors": [
+  "Romain Thoreau",
+  "Laurent Risser",
+  "Véronique Achard",
+  "Béatrice Berthelot",
+  "Xavier Briottet"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 3,
+ "latest_date": "2024-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 13 figures",
+ "abstract": "Airborne hyperspectral images can be used to map the land cover in large urban areas, thanks to their very high spatial and spectral resolutions on a wide spectral domain. While the spectral dimension of hyperspectral images is highly informative of the chemical composition of the land surface, the use of state-of-the-art machine learning algorithms to map the land cover has been dramatically limited by the availability of training data. To cope with the scarcity of annotations, semi-supervised and self-supervised techniques have lately raised a lot of interest in the community. Yet, the publicly available hyperspectral data sets commonly used to benchmark machine learning models are not totally suited to evaluate their generalization performances due to one or several of the following properties: a limited geographical coverage (which does not reflect the spectral diversity in metropolitan areas), a small number of land cover classes and a lack of appropriate standard train / test splits for semi-supervised and self-supervised learning. Therefore, we release in this paper the Toulouse Hyperspectral Data Set that stands out from other data sets in the above-mentioned respects in order to meet key issues in spectral representation learning and classification over large-scale hyperspectral images with very few labeled pixels. Besides, we discuss and experiment self-supervised techniques for spectral representation learning, including the Masked Autoencoder, and establish a baseline for pixel-wise classification achieving 85% overall accuracy and 77% F1 score. The Toulouse Hyperspectral Data Set and our code are publicly available at https://www.toulouse-hyperspectral-data-set.com and https://www.github.com/Romain3Ch216/tlse-experiments, respectively.",
+ "primary": "cs.CV"
+}

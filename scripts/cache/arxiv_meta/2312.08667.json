@@ -1,0 +1,20 @@
+{
+ "id": "2312.08667",
+ "title": "Data and Model Poisoning Backdoor Attacks on Wireless Federated Learning, and the Defense Mechanisms: A Comprehensive Survey",
+ "authors": [
+  "Yichen Wan",
+  "Youyang Qu",
+  "Wei Ni",
+  "Yong Xiang",
+  "Longxiang Gao",
+  "Ekram Hossain"
+ ],
+ "v1_date": "2023-12-14",
+ "latest_version": 1,
+ "latest_date": "2023-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Due to the greatly improved capabilities of devices, massive data, and increasing concern about data privacy, Federated Learning (FL) has been increasingly considered for applications to wireless communication networks (WCNs). Wireless FL (WFL) is a distributed method of training a global deep learning model in which a large number of participants each train a local model on their training datasets and then upload the local model updates to a central server. However, in general, non-independent and identically distributed (non-IID) data of WCNs raises concerns about robustness, as a malicious participant could potentially inject a \"backdoor\" into the global model by uploading poisoned data or models over WCN. This could cause the model to misclassify malicious inputs as a specific target class while behaving normally with benign inputs. This survey provides a comprehensive review of the latest backdoor attacks and defense mechanisms. It classifies them according to their targets (data poisoning or model poisoning), the attack phase (local data collection, training, or aggregation), and defense stage (local training, before aggregation, during aggregation, or after aggregation). The strengths and limitations of existing attack strategies and defense mechanisms are analyzed in detail. Comparisons of existing attack methods and defense designs are carried out, pointing to noteworthy findings, open challenges, and potential future research directions related to security and privacy of WFL.",
+ "primary": "cs.CR"
+}

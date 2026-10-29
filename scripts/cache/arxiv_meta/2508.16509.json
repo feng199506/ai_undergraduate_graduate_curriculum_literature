@@ -1,0 +1,17 @@
+{
+ "id": "2508.16509",
+ "title": "ML-PWS: Estimating the Mutual Information Between Experimental Time Series Using Neural Networks",
+ "authors": [
+  "Manuel Reinhardt",
+  "Gašper Tkačik",
+  "Pieter Rein ten Wolde"
+ ],
+ "v1_date": "2025-08-22",
+ "latest_version": 3,
+ "latest_date": "2026-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 10 figures, 4 tables, includes Supplemental Material; submitted to Phys. Rev. Lett",
+ "abstract": "The ability to quantify information transmission is crucial for the analysis and design of both natural and engineered systems. For systems driven by time-varying signals, the fundamental measure is the information transmission rate. However, due to the high dimensionality of signal trajectory space, this rate cannot be obtained directly from time-series data without approximations. Path Weight Sampling (PWS) is a computational technique that enables the exact calculation of the information rate for any stochastic model, raising the question of how this rate can be determined from time-series data in the absence of a prior model. Here, we present a method that combines machine learning (ML) with PWS: a generative model is learned from time-series data, to which PWS is applied to yield a rigorous lower bound on the information rate. We demonstrate the accuracy of this technique, called ML-PWS, by comparing its results on synthetic time-series data generated from several non-linear models against ground-truth results obtained by applying PWS directly to the same models. We illustrate the utility of ML-PWS by applying it to neuronal time-series data.",
+ "primary": "physics.bio-ph"
+}

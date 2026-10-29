@@ -1,0 +1,21 @@
+{
+ "id": "2509.09199",
+ "title": "CCF: A Context Compression Framework for Efficient Long-Sequence Language Modeling",
+ "authors": [
+  "Wenhao Li",
+  "Bangcheng Sun",
+  "Weihao Ye",
+  "Tianyi Zhang",
+  "Daohai Yu",
+  "Fei Chao",
+  "Rongrong Ji"
+ ],
+ "v1_date": "2025-09-11",
+ "latest_version": 2,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The quality of this paper is low",
+ "abstract": "Scaling language models to longer contexts is essential for capturing rich dependencies across extended discourse. However, naïve context extension imposes significant computational and memory burdens, often resulting in inefficiencies during both training and inference. In this work, we propose CCF, a novel context compression framework designed to enable efficient long-context modeling by learning hierarchical latent representations that preserve global semantics while aggressively reducing input redundancy. CCF integrates segment-wise semantic aggregation with key-value memory encoding, forming compact representations that support accurate reconstruction and long-range understanding. To further enhance scalability, we introduce a training-efficient optimization strategy that couples incremental segment decoding with sparse reservoir sampling, substantially reducing memory overhead without degrading performance. Empirical results on multiple long-context language modeling benchmarks demonstrate that CCF achieves competitive perplexity under high compression ratios, and significantly improves throughput and memory efficiency compared to existing approaches. These findings highlight the potential of structured compression for scalable and effective long-context language modeling.",
+ "primary": "cs.CL"
+}

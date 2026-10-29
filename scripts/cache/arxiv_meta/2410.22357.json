@@ -1,0 +1,18 @@
+{
+ "id": "2410.22357",
+ "title": "Zeroth-order Stochastic Cubic Newton Method Revisited",
+ "authors": [
+  "Yu Liu",
+  "Weibin Peng",
+  "Tianyu Wang",
+  "Jiajia Yu"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 6,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies stochastic minimization of a finite-sum loss $ F (\\mathbf{x}) = \\frac{1}{N} \\sum_{ξ=1}^N f(\\mathbf{x};ξ) $. In many real-world scenarios, the Hessian matrix of such objectives exhibits a low-rank structure on a batch of data. At the same time, zeroth-order optimization has gained prominence in important applications such as fine-tuning large language models. Drawing on these observations, we propose a novel stochastic zeroth-order cubic Newton method that leverages the low-rank Hessian structure via a matrix recovery-based estimation technique. Our method circumvents restrictive incoherence assumptions, enabling accurate Hessian approximation through finite-difference queries. Theoretically, we establish that for most real-world problems in $\\mathbb{R}^n$, $\\mathcal{O}\\left(\\frac{n}{η^{\\frac{7}{2}}}\\right)+\\widetilde{\\mathcal{O}}\\left(\\frac{n^2 }{η^{\\frac{5}{2}}}\\right)$ function evaluations suffice to attain a second-order $η$-stationary point with high probability. This represents a significant improvement in dimensional dependence over existing methods. This improvement is mostly due to a new Hessian estimator that achieves superior sample complexity; This new Hessian estimation method might be of separate interest. Numerical experiments on matrix recovery and machine learning tasks validate the efficacy and scalability of our approach.",
+ "primary": "math.OC"
+}

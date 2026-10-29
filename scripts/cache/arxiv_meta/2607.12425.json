@@ -1,0 +1,18 @@
+{
+ "id": "2607.12425",
+ "title": "Where Reasoning Matters: Rethinking Latent Reasoning in Semantic ID-based Generative Recommendation",
+ "authors": [
+  "Shangxin Yang",
+  "Min Gao",
+  "Zongwei Wang",
+  "Junliang Yu"
+ ],
+ "v1_date": "2026-07-14",
+ "latest_version": 1,
+ "latest_date": "2026-07-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 7 figures, 5 tables",
+ "abstract": "Semantic ID-based generative recommendation predicts an item by generating a short sequence of semantic ID tokens, where each token is produced autoregressively. Latent reasoning has recently been introduced to improve this process through additional hidden-state computation before each token decision. This raises a practical question: when one item is represented by a sequence of semantic ID tokens, should each token receive the same fixed number of latent refinement steps, or should these steps be allocated more effectively across positions? We study this question through position-wise information-gain (IG), which measures how much each semantic ID position reduces the uncertainty of the target item. We observe that earlier semantic ID positions usually provide higher information-gain, while later positions contribute less additional information. We further analyze that applying more refinement to high-IG positions tends to bring larger expected benefits. Based on this observation, we propose IBA, an Information-Gain Budget Allocation framework for semantic ID-based generative recommendation. IBA treats latent refinement steps as a limited computational resource and learns how to allocate them across semantic ID positions, assigning more refinement to informative positions and less to positions with smaller contribution. Experiments on multiple public datasets show that IBA consistently improves strong generative recommendation baselines and achieves a better accuracy--computation trade-off than fixed or poorly matched step allocations.",
+ "primary": "cs.IR"
+}

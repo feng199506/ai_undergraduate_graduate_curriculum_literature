@@ -1,0 +1,20 @@
+{
+ "id": "2607.00466",
+ "title": "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving",
+ "authors": [
+  "Sangjin Choi",
+  "Sukmin Cho",
+  "Yifan Xiong",
+  "Ziyue Yang",
+  "Youngjin Kwon",
+  "Peng Cheng"
+ ],
+ "v1_date": "2026-07-01",
+ "latest_version": 2,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 18 figures",
+ "abstract": "In prefill-decode (PD) disaggregated LLM serving, each request is assigned to a decode worker after prefill. Existing decode routers balance only load; for mixture-of-experts (MoE) models this is incomplete: equally loaded workers can differ in latency, since each decode step loads the weights of every distinct expert its batch activates. We present ELDR, an expert-locality-aware decode router for PD-disaggregated MoE serving. From a request's prefill expert activations, ELDR builds an expert signature predicting the experts it will activate during generation. Offline, balanced K-means partitions signature space across decode workers; online, locality-band routing sends each request to the least-loaded worker among those best matching its signature. A signature cache, co-indexed with the KV cache at KV-block granularity, keeps signatures exact under prefix caching. Implemented in vLLM and evaluated on deployments of up to 40 GPUs, ELDR reduces median TPOT by 5.9-13.9% over the strongest of four load-balancing baselines across three MoE models and two workloads, with model outputs unchanged.",
+ "primary": "cs.DC"
+}

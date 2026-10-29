@@ -1,0 +1,21 @@
+{
+ "id": "2506.03919",
+ "title": "Weisfeiler and Leman Go Gambling: Why Expressive Lottery Tickets Win",
+ "authors": [
+  "Lorenz Kummer",
+  "Samir Moustafa",
+  "Anatol Ehrlich",
+  "Franka Bause",
+  "Nikolaus Suess",
+  "Wilfried N. Gansterer",
+  "Nils M. Kriege"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 1,
+ "latest_date": "2025-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML 2025",
+ "abstract": "The lottery ticket hypothesis (LTH) is well-studied for convolutional neural networks but has been validated only empirically for graph neural networks (GNNs), for which theoretical findings are largely lacking. In this paper, we identify the expressivity of sparse subnetworks, i.e. their ability to distinguish non-isomorphic graphs, as crucial for finding winning tickets that preserve the predictive performance. We establish conditions under which the expressivity of a sparsely initialized GNN matches that of the full network, particularly when compared to the Weisfeiler-Leman test, and in that context put forward and prove a Strong Expressive Lottery Ticket Hypothesis. We subsequently show that an increased expressivity in the initialization potentially accelerates model convergence and improves generalization. Our findings establish novel theoretical foundations for both LTH and GNN research, highlighting the importance of maintaining expressivity in sparsely initialized GNNs. We illustrate our results using examples from drug discovery.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2607.25097",
+ "title": "On the Convergent Validity of Offline Evaluation Designs for Recommender Systems",
+ "authors": [
+  "Sushobhan Parajuli",
+  "Samira Vaez Barenji",
+  "Michael D. Ekstrand"
+ ],
+ "v1_date": "2026-07-27",
+ "latest_version": 1,
+ "latest_date": "2026-07-27",
+ "journal_ref": "",
+ "doi": "10.1145/3773078.3831818",
+ "comment": "9 pages, Accepted at ACM RecSys 2026 Main Track",
+ "abstract": "Offline evaluation on historical interaction logs is the most common evaluation methodology for recommender systems. However, such evaluations depend on sparse, incomplete, or biased data, which raises concerns about whether commonly used evaluation setups reliably reflect true user preferences. In this work, we study how offline evaluation design choices affect the validity of recommender system comparisons. We evaluate a set of recommendation models across several evaluation setups that vary key factors such as data filtering thresholds and candidate set construction. To assess the validity of these configurations, we measure the correlation between model rankings obtained from conventional train-test splits on sparse interaction data and rankings from evaluations based on dense ground-truth user feedback. We use this agreement as an indication of their validity with respect to true user preferences. Our results show that the validity of sparse evaluation depends on the dataset and the specific dense evaluation targets, and that there is no uniformly best offline evaluation design.",
+ "primary": "cs.IR"
+}

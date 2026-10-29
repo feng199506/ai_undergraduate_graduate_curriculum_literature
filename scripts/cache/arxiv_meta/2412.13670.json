@@ -1,0 +1,24 @@
+{
+ "id": "2412.13670",
+ "title": "AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge",
+ "authors": [
+  "Xiaobao Wu",
+  "Liangming Pan",
+  "Yuxi Xie",
+  "Ruiwen Zhou",
+  "Shuai Zhao",
+  "Yubo Ma",
+  "Mingzhe Du",
+  "Rui Mao",
+  "Anh Tuan Luu",
+  "William Yang Wang"
+ ],
+ "v1_date": "2024-12-18",
+ "latest_version": 2,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ACL 2025 main conference. Code and data are at https://github.com/bobxwu/AntiLeakBench",
+ "abstract": "Data contamination hinders fair LLM evaluation by introducing test data into newer models' training sets. Existing studies solve this challenge by updating benchmarks with newly collected data. However, they fail to guarantee contamination-free evaluation as the newly collected data may contain pre-existing knowledge, and their benchmark updates rely on intensive human labor. To address these issues, we in this paper propose AntiLeak-Bench, an automated anti-leakage benchmarking framework. Instead of simply using newly collected data, we construct samples with explicitly new knowledge absent from LLMs' training sets, which thus ensures strictly contamination-free evaluation. We further design a fully automated workflow to build and update our benchmark without human labor. This significantly reduces the cost of benchmark maintenance to accommodate emerging LLMs. Through extensive experiments, we highlight that data contamination likely exists before LLMs' cutoff time and demonstrate AntiLeak-Bench effectively overcomes this challenge.",
+ "primary": "cs.CL"
+}

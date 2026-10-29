@@ -1,0 +1,18 @@
+{
+ "id": "2404.19479",
+ "title": "Reachability in temporal graphs under perturbation",
+ "authors": [
+  "Jessica Enright",
+  "Laura Larios-Jones",
+  "Kitty Meeks",
+  "William Pettersson"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 3,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 3 figures. Short version published in proceedings of SOFSEM 2025. Accepted for publication at TCS",
+ "abstract": "Reachability and other path-based measures on temporal graphs can be used to understand spread of infection, information, and people in modelled systems. Due to delays and errors in reporting, temporal graphs derived from data are unlikely to perfectly reflect reality, especially with respect to the precise times at which edges appear. To reflect this uncertainty, we consider a model in which some number $ζ$ of edge appearances may have their timestamps perturbed by $\\pmδ$ for some $δ$. Within this model, we investigate temporal reachability and consider the problem of determining the maximum number of vertices any vertex can reach under these perturbations. We show that this problem is intractable in general but is efficiently solvable when $ζ$ is sufficiently large. We also give algorithms which solve this problem in several restricted settings. We complement this with some contrasting results concerning the complexity of related temporal eccentricity problems under perturbation.",
+ "primary": "cs.DM"
+}

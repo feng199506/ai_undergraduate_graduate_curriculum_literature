@@ -1,0 +1,18 @@
+{
+ "id": "2411.13951",
+ "title": "PATH: A Discrete-sequence Dataset for Evaluating Online Unsupervised Anomaly Detection Approaches for Multivariate Time Series",
+ "authors": [
+  "Lucas Correia",
+  "Jan-Christoph Goos",
+  "Thomas Bäck",
+  "Anna V. Kononova"
+ ],
+ "v1_date": "2024-11-21",
+ "latest_version": 6,
+ "latest_date": "2025-11-12",
+ "journal_ref": "",
+ "doi": "10.1016/j.bdr.2025.100573",
+ "comment": "",
+ "abstract": "Benchmarking anomaly detection approaches for multivariate time series is a challenging task due to a lack of high-quality datasets. Current publicly available datasets are too small, not diverse and feature trivial anomalies, which hinders measurable progress in this research area. We propose a solution: a diverse, extensive, and non-trivial dataset generated via state-of-the-art simulation tools that reflects realistic behaviour of an automotive powertrain, including its multivariate, dynamic and variable-state properties. Additionally, our dataset represents a discrete-sequence problem, which remains unaddressed by previously-proposed solutions in literature. To cater for both unsupervised and semi-supervised anomaly detection settings, as well as time series generation and forecasting, we make different versions of the dataset available, where training and test subsets are offered in contaminated and clean versions, depending on the task. We also provide baseline results from a selection of approaches based on deterministic and variational autoencoders, as well as a non-parametric approach. As expected, the baseline experimentation shows that the approaches trained on the semi-supervised version of the dataset outperform their unsupervised counterparts, highlighting a need for approaches more robust to contaminated training data. Furthermore, results show that the threshold used can have a large influence on detection performance, hence more work needs to be invested in methods to find a suitable threshold without the need for labelled data.",
+ "primary": "cs.LG"
+}

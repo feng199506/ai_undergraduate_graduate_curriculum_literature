@@ -1,0 +1,17 @@
+{
+ "id": "2402.01515",
+ "title": "Enhancing Stochastic Gradient Descent: A Unified Framework and Novel Acceleration Methods for Faster Convergence",
+ "authors": [
+  "Yichuan Deng",
+  "Zhao Song",
+  "Chiwun Yang"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 1,
+ "latest_date": "2024-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Based on SGD, previous works have proposed many algorithms that have improved convergence speed and generalization in stochastic optimization, such as SGDm, AdaGrad, Adam, etc. However, their convergence analysis under non-convex conditions is challenging. In this work, we propose a unified framework to address this issue. For any first-order methods, we interpret the updated direction $g_t$ as the sum of the stochastic subgradient $\\nabla f_t(x_t)$ and an additional acceleration term $\\frac{2|\\langle v_t, \\nabla f_t(x_t) \\rangle|}{\\|v_t\\|_2^2} v_t$, thus we can discuss the convergence by analyzing $\\langle v_t, \\nabla f_t(x_t) \\rangle$. Through our framework, we have discovered two plug-and-play acceleration methods: \\textbf{Reject Accelerating} and \\textbf{Random Vector Accelerating}, we theoretically demonstrate that these two methods can directly lead to an improvement in convergence rate.",
+ "primary": "cs.LG"
+}

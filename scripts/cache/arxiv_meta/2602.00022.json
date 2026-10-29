@@ -1,0 +1,15 @@
+{
+ "id": "2602.00022",
+ "title": "Measurement for Opaque Systems: Multi-source Triangulation with Interpretable Machine Learning",
+ "authors": [
+  "Margaret Foster"
+ ],
+ "v1_date": "2026-01-16",
+ "latest_version": 1,
+ "latest_date": "2026-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 6 figures, 3 tables, 9-page appendix",
+ "abstract": "We propose a measurement framework for difficult-to-access contexts that uses indirect data traces, interpretable machine-learning models, and theory-guided triangulation to fill inaccessible measurement spaces. Many high-stakes systems of scientific and policy interest are difficult, if not impossible, to reach directly: dynamics of interest are unobservable, data are indirect and fragmented across sources, and ground truth is absent or concealed. In these settings, available data often do not support conventional strategies for analysis, such as statistical inference on a single authoritative data stream or model validation against labeled outcomes. To address this problem, we introduce a general framework for measurement in data regimes characterized by structurally missing or adversarial data. We propose combining multi-source triangulation with interpretable machine learning models. Rather than relying on accuracy against unobservable, unattainable ideal data, our framework seeks consistency across separate, partially informative models. This allows users to draw defensible conclusions about the state of the world based on cross-signal consistency or divergence from an expected state. Our framework provides an analytical workflow tailored to quantitative characterization in the absence of data sufficient for conventional statistical or causal inference. We demonstrate our approach and explicitly surface inferential limits through an empirical analysis of organizational growth and internal pressure dynamics in a clandestine militant organization, drawing on multiple observational signals that individually provide incomplete and biased views of the underlying process. The results show how triangulated, interpretable ML can recover substantively meaningful variation.",
+ "primary": "cs.LG"
+}

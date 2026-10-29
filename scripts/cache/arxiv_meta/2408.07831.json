@@ -1,0 +1,21 @@
+{
+ "id": "2408.07831",
+ "title": "Learning-Augmented Competitive Algorithms for Spatiotemporal Online Allocation with Deadline Constraints",
+ "authors": [
+  "Adam Lechowicz",
+  "Nicolas Christianson",
+  "Bo Sun",
+  "Noman Bashir",
+  "Mohammad Hajiesmaili",
+  "Adam Wierman",
+  "Prashant Shenoy"
+ ],
+ "v1_date": "2024-08-14",
+ "latest_version": 2,
+ "latest_date": "2025-03-12",
+ "journal_ref": "Proc. ACM Meas. Anal. Comput. Syst. Volume 9, Issue 1, Article 8 (March 2025), 49 pages",
+ "doi": "10.1145/3711701",
+ "comment": "Accepted to SIGMETRICS 2025. 49 pages, 21 figures",
+ "abstract": "We introduce and study spatiotemporal online allocation with deadline constraints ($\\mathsf{SOAD}$), a new online problem motivated by emerging challenges in sustainability and energy. In $\\mathsf{SOAD}$, an online player completes a workload by allocating and scheduling it on the points of a metric space $(X, d)$ while subject to a deadline $T$. At each time step, a service cost function is revealed that represents the cost of servicing the workload at each point, and the player must irrevocably decide the current allocation of work to points. Whenever the player moves this allocation, they incur a movement cost defined by the distance metric $d(\\cdot, \\ \\cdot)$ that captures, e.g., an overhead cost. $\\mathsf{SOAD}$ formalizes the open problem of combining general metrics and deadline constraints in the online algorithms literature, unifying problems such as metrical task systems and online search. We propose a competitive algorithm for $\\mathsf{SOAD}$ along with a matching lower bound establishing its optimality. Our main algorithm, \\textsc{ST-CLIP}, is a learning-augmented algorithm that takes advantage of predictions (e.g., forecasts of relevant costs) and achieves an optimal consistency-robustness trade-off. We evaluate our proposed algorithms in a simulated case study of carbon-aware spatiotemporal workload management, an application in sustainable computing that schedules a delay-tolerant batch compute job on a distributed network of data centers. In these experiments, we show that \\textsc{ST-CLIP} substantially improves on heuristic baseline methods.",
+ "primary": "cs.DS"
+}

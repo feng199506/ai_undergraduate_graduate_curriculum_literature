@@ -1,0 +1,17 @@
+{
+ "id": "2609.18577",
+ "title": "Accurate Trace Estimation with Fewer Random Bits via Recursive TensorSketch",
+ "authors": [
+  "Mohammad Azhar Khan",
+  "Rameshwar Pratap",
+  "Amit Sharma"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 1,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of estimating the trace of an implicit matrix $\\mathbf{A} \\in \\mathbb{R}^{d^p\\times d^p}$ that can only be accessed through matrix-vector products queries. The \\textit{Hutchinson trace estimator}% ~\\cite{Girard1987algorithme, article-hutchinson} is a classical sketching method for this problem. Their estimator, $H_{m}(\\mathbf{A}) = \\frac{1}{m} \\sum_{i=1}^{m} {\\mathbf{z}^{(i)}}^T \\mathbf{A} \\mathbf{z}^{(i)}, \\quad \\text{where } \\ {\\mathbf{z}^{(i)}}\\in \\mathbb{R}^{d^p}$, and $z^{(i)}_j \\in {N}(0, 1), j\\in [d^p]$, satisfies the following guarantees: (i) $\\mathbb{E}[H_{m}(\\mathbf{A})]=\\operatorname{tr}(\\mathbf{A})$, and (ii) $\\mathrm{Var}[H_{m}(\\mathbf{A})]=\\frac{2}{m}||\\mathbf{A}||_F^2$. Generating one query vector $\\mathbf{z}^{(i)}$ requires $O(d^p)$ random bits; thus, $m$ queries require $O(md^p)$ random bits, which can be prohibitive in large-scale applications. Recent work by Meyer et al.~\\cite{meyer2025hutchinsonsestimatorbadkroneckertraceestimation} proposes a variant of the Hutchinson trace estimator in which each query vector in $\\mathbb{R}^{d^p}$ is constructed as the Kronecker product of $p$ random vectors in $\\mathbb{R}^d$, requiring $O(mpd)$ random bits for $m$ query vectors. The estimator of~\\cite{meyer2025hutchinsonsestimatorbadkroneckertraceestimation} is unbiased; however, its variance grows exponentially with $p$. In this work, we address this limitation by proposing a sketching-based estimator that requires $O\\!\\big(p (d + m)\\log m\\big)$ random bits, yields an unbiased estimate of the trace, and simultaneously achieves a variance bound that grows polynomially with $p$.",
+ "primary": "cs.LG"
+}

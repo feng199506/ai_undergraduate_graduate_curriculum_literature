@@ -1,0 +1,17 @@
+{
+ "id": "2509.06045",
+ "title": "Treatment effect extrapolation in the presence of unmeasured confounding",
+ "authors": [
+  "Stephanie Riley",
+  "Ricardo Silva",
+  "Matthew Sperrin"
+ ],
+ "v1_date": "2025-09-07",
+ "latest_version": 1,
+ "latest_date": "2025-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 pages, 1 figure, to be presented at the UK AI Research Symposium (UKAIRS) 2025",
+ "abstract": "While randomised controlled trials (RCTs) are the gold standard for estimating causal treatment effects, their limited sample sizes and restrictive criteria make it difficult to extrapolate to a broader population. Observational data, while larger, suffer from unmeasured confounding. Therefore, we can combine the strengths of both data sources for more accurate results. This work extends existing methods that use RCTs to debias conditional average treatment effects (CATEs) estimated in observational data by defining a deconfounding function. Our proposed approach borrows information from RCTs of multiple related treatments to improve the extrapolation of CATEs. Simulation results showed that, for non-linear deconfounding functions, using only one RCT poorly estimates the CATE outside of the support of that RCT. This is emphasised for smaller RCTs. Borrowing information from a second RCT provided more accurate estimates of the CATE outside of the support of both RCTs.",
+ "primary": "stat.ME"
+}

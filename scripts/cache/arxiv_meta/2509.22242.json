@@ -1,0 +1,21 @@
+{
+ "id": "2509.22242",
+ "title": "Clinical Uncertainty Impacts Machine Learning Evaluations",
+ "authors": [
+  "Simone Lionetti",
+  "Fabian Gröger",
+  "Philippe Gottfrois",
+  "Alvaro Gonzalez-Jimenez",
+  "Ludovic Amruthalingam",
+  "Alexander A. Navarini",
+  "Marc Pouly"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ML4H 2025 findings camera-ready",
+ "abstract": "Clinical dataset labels are rarely certain as annotators disagree and confidence is not uniform across cases. Typical aggregation procedures, such as majority voting, obscure this variability. In simple experiments on medical imaging benchmarks, accounting for the confidence in binary labels significantly impacts model rankings. We therefore argue that machine-learning evaluations should explicitly account for annotation uncertainty using probabilistic metrics that directly operate on distributions. These metrics can be applied independently of the annotations' generating process, whether modeled by simple counting, subjective confidence ratings, or probabilistic response models. They are also computationally lightweight, as closed-form expressions have linear-time implementations once examples are sorted by model score. We thus urge the community to release raw annotations for datasets and to adopt uncertainty-aware evaluation so that performance estimates may better reflect clinical data.",
+ "primary": "cs.AI"
+}

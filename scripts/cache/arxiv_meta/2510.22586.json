@@ -1,0 +1,19 @@
+{
+ "id": "2510.22586",
+ "title": "Prediction-Powered Semi-Supervised Learning with Online Power Tuning",
+ "authors": [
+  "Noa Shoham",
+  "Ron Dorfman",
+  "Shalev Shaer",
+  "Kfir Y. Levy",
+  "Yaniv Romano"
+ ],
+ "v1_date": "2025-10-26",
+ "latest_version": 1,
+ "latest_date": "2025-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025",
+ "abstract": "Prediction-Powered Inference (PPI) is a recently proposed statistical inference technique for parameter estimation that leverages pseudo-labels on both labeled and unlabeled data to construct an unbiased, low-variance estimator. In this work, we extend its core idea to semi-supervised learning (SSL) for model training, introducing a novel unbiased gradient estimator. This extension addresses a key challenge in SSL: while unlabeled data can improve model performance, its benefit heavily depends on the quality of pseudo-labels. Inaccurate pseudo-labels can introduce bias, leading to suboptimal models.To balance the contributions of labeled and pseudo-labeled data, we utilize an interpolation parameter and tune it on the fly, alongside the model parameters, using a one-dimensional online learning algorithm. We verify the practical advantage of our approach through experiments on both synthetic and real datasets, demonstrating improved performance over classic SSL baselines and PPI methods that tune the interpolation parameter offline.",
+ "primary": "cs.LG"
+}

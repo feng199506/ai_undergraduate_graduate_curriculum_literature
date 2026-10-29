@@ -1,0 +1,20 @@
+{
+ "id": "2605.24808",
+ "title": "Disentangled Double Machine Learning for Accurate Causal Effect Estimation",
+ "authors": [
+  "Guodu Xiang",
+  "Kui Yu",
+  "Yujie Wang",
+  "Richang Hong",
+  "Fuyuan Cao",
+  "Jiye Liang"
+ ],
+ "v1_date": "2026-05-24",
+ "latest_version": 1,
+ "latest_date": "2026-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 9 figures",
+ "abstract": "Confounding bias is a key challenge in causal effect estimation from observational data. Double Machine Learning (DML) addresses this issue by estimating treatment and outcome nuisance functions, constructing treatment and outcome residuals, and estimating causal effects from the residuals. However, DML often produces biased and unstable estimates in highdimensional or finite-sample scenarios. One reason is that DML estimates nuisance functions using all covariates without disentangling distinct latent factors, resulting in unreliable nuisance function estimation. Another is that imprecise nuisance estimation further introduces residual dependence between the treatment residual and the remaining outcome error, undermining the accuracy of causal effect estimates. To address these issues, in this paper, we propose Disentangled Double Machine Learning (DDML), a novel algorithm that integrates two key strategies. First, a causal role disentanglement strategy decomposes covariates into confounders, treatment-specific factors, and outcomespecific factors for enabling reliable nuisance function estimation. And second, a residual dependence orthogonalization strategy mitigates residual dependence caused by nuisance estimation errors for enhancing the precision of causal effect estimates. Experimental results on synthetic, semi-synthetic, and real-world datasets demonstrate that DDML significantly outperforms 13 state-of-the-art baseline algorithms in both MAE and RMSE.",
+ "primary": "cs.LG"
+}

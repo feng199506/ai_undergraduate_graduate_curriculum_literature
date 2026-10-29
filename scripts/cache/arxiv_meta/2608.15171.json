@@ -1,0 +1,15 @@
+{
+ "id": "2608.15171",
+ "title": "P-PAS: Prefill-Pressure Adaptive Scheduling for Long-Context LLM Serving",
+ "authors": [
+  "Timo Sämann"
+ ],
+ "v1_date": "2026-08-15",
+ "latest_version": 2,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Long-context LLM applications such as retrieval-augmented generation (RAG) and agentic systems often process tens of thousands of input tokens to produce short outputs, making end-to-end request latency an important serving objective. We show that the maximum number of batched tokens (MBT), which controls the token scheduling budget in vLLM, has a scheduling-pressure-dependent effect on latency. Larger token budgets can reduce latency under low scheduling pressure, while smaller budgets become preferable under higher pressure. Consequently, no single static MBT performs best across load regimes. We introduce Prefill-Pressure Adaptive Scheduling (P-PAS), a lightweight policy that dynamically adapts the global scheduling budget using concurrent prefill and decode state. P-PAS retains a large token budget under low pressure and switches to a smaller budget when multiple prefills compete with active decoding. Across models, workload configurations, and GPUs, P-PAS maintains low end-to-end latency across changing load regimes. Kernel-level profiling shows that the crossover arises from a trade-off between large-chunk prefill efficiency and prefill--decode interference. We further extend the pressure signal to heterogeneous request shapes with P-PAS+. On mixed-shape workloads using Qwen3.8-27B and Nemotron-3.5-Lightning-30B-A3B, P-PAS+ reduces mean end-to-end latency by 3.0--3.1% relative to the best tested static token budget. Across exactly matched logical requests, 91.2% of Qwen requests and 88.5% of Nemotron requests complete faster with P-PAS+. Code and artifacts are available at https://github.com/TimoSaemann/ppas-vllm .",
+ "primary": "cs.DC"
+}

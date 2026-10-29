@@ -1,0 +1,15 @@
+{
+ "id": "2603.02622",
+ "title": "Implicit Bias in Deep Linear Discriminant Analysis",
+ "authors": [
+  "Jiawen Li"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 2,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While the Implicit Bias(or Implicit Regularization) of standard loss functions has been studied, the optimization geometry induced by discriminative metric-learning objectives remains largely unexplored.To the best of our knowledge, this paper presents an initial theoretical analysis of the implicit regularization induced by the Deep LDA,a scale invariant objective designed to minimize intraclass variance and maximize interclass distance. By analyzing the gradient flow of the loss on a L-layer diagonal linear network, we prove that under balanced initialization, the network architecture transforms standard additive gradient updates into multiplicative weight updates, which demonstrates an automatic conservation of the (2/L) quasi-norm.",
+ "primary": "cs.LG"
+}

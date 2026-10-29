@@ -1,0 +1,18 @@
+{
+ "id": "2610.35098",
+ "title": "Interpreting LLM Scores in Peer Review: Alignment and Divergence Across Prompts, Domains, and Manuscript Features",
+ "authors": [
+  "Wenqiang Qin",
+  "Renlong Jie",
+  "Yanjun Qian",
+  "Salma Srifi"
+ ],
+ "v1_date": "2026-10-26",
+ "latest_version": 1,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language model (LLM) scores are being studied as information for scholarly evaluation. Interpreting these scores requires evidence about agreement with human judgments and its variation across evaluation conditions. Guided by an argument-based approach to validation, we compare four LLMs on 7,083 public ICLR 2024 submissions under a standard review condition and examine ten prompt conditions using DeepSeek-V3.2. We distinguish average score divergence, paper-level absolute error, and rank correlation, then examine domain differences and adjusted manuscript-feature associations. For DeepSeek-V3.2, Area Chair guidance reduces mean rating divergence from 1.460 to 0.199 points and mean absolute error from 1.577 to 0.942, while rank correlation changes from 0.377 to 0.387. Historical references combined with downward scoring instructions yield mean divergence of 0.052 and rank correlation of 0.321. Domain differences remain after global calibration. Longer titles have positive adjusted associations with rating divergence, and formula density has negative associations across all four configurations. These findings connect score interpretation to the scoring procedure, evaluation context, and manuscript information represented in the comparison. They show why aggregate alignment, manuscript ordering, and correspondence within manuscript groups require distinct evidence when evaluating LLM-generated scholarly assessment information.",
+ "primary": "cs.DL"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2510.18310",
+ "title": "Towards Identifiability of Hierarchical Temporal Causal Representation Learning",
+ "authors": [
+  "Zijian Li",
+  "Minghao Fu",
+  "Junxian Huang",
+  "Yifan Shen",
+  "Ruichu Cai",
+  "Yuewen Sun",
+  "Guangyi Chen",
+  "Kun Zhang"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 1,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modeling hierarchical latent dynamics behind time series data is critical for capturing temporal dependencies across multiple levels of abstraction in real-world tasks. However, existing temporal causal representation learning methods fail to capture such dynamics, as they fail to recover the joint distribution of hierarchical latent variables from \\textit{single-timestep observed variables}. Interestingly, we find that the joint distribution of hierarchical latent variables can be uniquely determined using three conditionally independent observations. Building on this insight, we propose a Causally Hierarchical Latent Dynamic (CHiLD) identification framework. Our approach first employs temporal contextual observed variables to identify the joint distribution of multi-layer latent variables. Sequentially, we exploit the natural sparsity of the hierarchical structure among latent variables to identify latent variables within each layer. Guided by the theoretical results, we develop a time series generative model grounded in variational inference. This model incorporates a contextual encoder to reconstruct multi-layer latent variables and normalize flow-based hierarchical prior networks to impose the independent noise condition of hierarchical latent dynamics. Empirical evaluations on both synthetic and real-world datasets validate our theoretical claims and demonstrate the effectiveness of CHiLD in modeling hierarchical latent dynamics.",
+ "primary": "cs.LG"
+}

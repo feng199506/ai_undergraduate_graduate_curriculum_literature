@@ -1,0 +1,18 @@
+{
+ "id": "2601.12845",
+ "title": "Automatic Generation of Formal Specification and Verification Annotations Using LLMs and Test Oracles",
+ "authors": [
+  "João Pascoal Faria",
+  "Emanuel Trigo",
+  "Vinicius Honorato",
+  "Rui Abreu"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 1,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent verification tools aim to make formal verification more accessible to software engineers by automating most of the verification process. However, annotating conventional programs with the formal specification and verification constructs (preconditions, postconditions, loop invariants, auxiliary predicates and functions and proof helpers) required to prove their correctness still demands significant manual effort and expertise. This paper investigates how LLMs can automatically generate such annotations for programs written in Dafny, a verification-aware programming language, starting from conventional code accompanied by natural language specifications (in comments) and test code. In experiments on 110 Dafny programs, a multimodel approach combining Claude Opus 4.5 and GPT-5.2 generated correct annotations for 98.2% of the programs within at most 8 repair iterations, using verifier feedback. A logistic regression analysis shows that proof-helper annotations contribute disproportionately to problem difficulty for current LLMs. Assertions in the test cases served as static oracles to automatically validate the generated pre/postconditions. We also compare generated and manual solutions and present an extension for Visual Studio Code to incorporate automatic generation into the IDE, with encouraging usability feedback.",
+ "primary": "cs.SE"
+}

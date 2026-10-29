@@ -1,0 +1,22 @@
+{
+ "id": "2602.04439",
+ "title": "TrajVG: 3D Trajectory-Coupled Visual Geometry Learning",
+ "authors": [
+  "Xingyu Miao",
+  "Weiguang Zhao",
+  "Tao Lu",
+  "Linning Xu",
+  "Mulin Yu",
+  "Yang Long",
+  "Jiangmiao Pang",
+  "Junting Dong"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 2,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Feed-forward multi-frame 3D reconstruction models often degrade on videos with object motion. Global-reference becomes ambiguous under multiple motions, while the local pointmap relies heavily on estimated relative poses and can drift, causing cross-frame misalignment and duplicated structures. We propose TrajVG, a reconstruction framework that makes cross-frame 3D correspondence an explicit prediction by estimating camera-coordinate 3D trajectories. We couple sparse trajectories, per-frame local point maps, and relative camera poses with geometric consistency objectives: (i) bidirectional trajectory-pointmap consistency with controlled gradient flow, and (ii) a pose consistency objective driven by static track anchors that suppresses gradients from dynamic regions. To scale training to in-the-wild videos where 3D trajectory labels are scarce, we reformulate the same coupling constraints into self-supervised objectives using only pseudo 2D tracks, enabling unified training with mixed supervision. Extensive experiments across 3D tracking, pose estimation, pointmap reconstruction, and video depth show that TrajVG surpasses the current feedforward performance baseline.",
+ "primary": "cs.CV"
+}

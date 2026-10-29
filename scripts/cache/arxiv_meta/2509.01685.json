@@ -1,0 +1,17 @@
+{
+ "id": "2509.01685",
+ "title": "Preconditioned Regularized Wasserstein Proximal Sampling",
+ "authors": [
+  "Hong Ye Tan",
+  "Stanley Osher",
+  "Wuchen Li"
+ ],
+ "v1_date": "2025-09-01",
+ "latest_version": 2,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider sampling from a Gibbs distribution by evolving finitely many particles. We propose a preconditioned version of a recently proposed noise-free sampling method, governed by approximating the score function with the numerically tractable score of a regularized Wasserstein proximal operator. This is derived by a Cole--Hopf transformation on coupled anisotropic heat equations, yielding a kernel formulation for the preconditioned regularized Wasserstein proximal. The diffusion component of the proposed method is also interpreted as a modified self-attention block, as in transformer architectures. For quadratic potentials, we provide a discrete-time non-asymptotic convergence analysis and explicitly characterize the bias, which is dependent on regularization and independent of step-size. Experiments demonstrate acceleration and particle-level stability on various log-concave and non-log-concave toy examples to Bayesian total-variation regularized image deconvolution, and competitive/better performance on non-convex Bayesian neural network training when utilizing variable preconditioning matrices.",
+ "primary": "stat.ML"
+}

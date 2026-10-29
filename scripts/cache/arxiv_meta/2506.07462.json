@@ -1,0 +1,16 @@
+{
+ "id": "2506.07462",
+ "title": "Estimating Representative Causal Effects with Double Machine Learning",
+ "authors": [
+  "Apoorva Lal",
+  "Winston Chou"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 4,
+ "latest_date": "2026-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in Proceedings of European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD '26). Formerly circulated under the title \"Does Residuals-on-Residuals Regression Produce Representative Estimates of Causal Effects?\"",
+ "abstract": "Double Machine Learning is widely used to estimate treatment effects from non-experimental data. The \"residuals-on-residuals\" regression (RORR) is especially popular for its simplicity and computational tractability. However, with heterogeneous treatment effects, the proper interpretation of RORR may not be well understood. We show that, for non-binary treatments with continuous dose-response functions, RORR estimates a conditional variance-weighted average of derivatives evaluated at treatment values not in the observed dataset. This estimand does not equal the Average Causal Derivative (ACD) in general. Hence, even if all units share the same dose-response function, RORR does not estimate an average treatment effect in the population represented by the sample. We propose an alternative estimator for the ACD that is well suited to the large datasets found in applied data science settings. We demonstrate the pitfalls of RORR and the favorable properties of the proposed estimator through an illustrative numerical example and with real-world data from Netflix. Our methodology is used by default in Netflix's observational causal inference platform, where it regularly powers causal research and decision-making at scale.",
+ "primary": "econ.EM"
+}

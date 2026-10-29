@@ -1,0 +1,18 @@
+{
+ "id": "2310.19608",
+ "title": "On Feynman--Kac training of partial Bayesian neural networks",
+ "authors": [
+  "Zheng Zhao",
+  "Sebastian Mair",
+  "Thomas B. Schön",
+  "Jens Sjölund"
+ ],
+ "v1_date": "2023-10-30",
+ "latest_version": 3,
+ "latest_date": "2024-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "In AISTATS 2024",
+ "abstract": "Recently, partial Bayesian neural networks (pBNNs), which only consider a subset of the parameters to be stochastic, were shown to perform competitively with full Bayesian neural networks. However, pBNNs are often multi-modal in the latent variable space and thus challenging to approximate with parametric models. To address this problem, we propose an efficient sampling-based training strategy, wherein the training of a pBNN is formulated as simulating a Feynman--Kac model. We then describe variations of sequential Monte Carlo samplers that allow us to simultaneously estimate the parameters and the latent posterior distribution of this model at a tractable computational cost. Using various synthetic and real-world datasets we show that our proposed training scheme outperforms the state of the art in terms of predictive performance.",
+ "primary": "cs.LG"
+}

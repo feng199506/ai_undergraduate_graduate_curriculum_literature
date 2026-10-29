@@ -1,0 +1,18 @@
+{
+ "id": "2505.18591",
+ "title": "Bayesian Meta-Reinforcement Learning with Laplace Variational Recurrent Networks",
+ "authors": [
+  "Joery A. de Vries",
+  "Jinke He",
+  "Mathijs M. de Weerdt",
+  "Matthijs T. J. Spaan"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 1,
+ "latest_date": "2025-05-24",
+ "journal_ref": "https://rlj.cs.umass.edu/2025/papers/Paper23.html",
+ "doi": "",
+ "comment": "",
+ "abstract": "Meta-reinforcement learning trains a single reinforcement learning agent on a distribution of tasks to quickly generalize to new tasks outside of the training set at test time. From a Bayesian perspective, one can interpret this as performing amortized variational inference on the posterior distribution over training tasks. Among the various meta-reinforcement learning approaches, a common method is to represent this distribution with a point-estimate using a recurrent neural network. We show how one can augment this point estimate to give full distributions through the Laplace approximation, either at the start of, during, or after learning, without modifying the base model architecture. With our approximation, we are able to estimate distribution statistics (e.g., the entropy) of non-Bayesian agents and observe that point-estimate based methods produce overconfident estimators while not satisfying consistency. Furthermore, when comparing our approach to full-distribution based learning of the task posterior, our method performs on par with variational baselines while having much fewer parameters.",
+ "primary": "cs.LG"
+}

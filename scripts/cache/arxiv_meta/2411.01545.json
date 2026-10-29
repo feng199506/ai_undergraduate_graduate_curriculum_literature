@@ -1,0 +1,22 @@
+{
+ "id": "2411.01545",
+ "title": "Towards Small Object Editing: A Benchmark Dataset and A Training-Free Approach",
+ "authors": [
+  "Qihe Pan",
+  "Zhen Zhao",
+  "Zicheng Wang",
+  "Sifan Long",
+  "Yiming Wu",
+  "Wei Ji",
+  "Haoran Liang",
+  "Ronghua Liang"
+ ],
+ "v1_date": "2024-11-03",
+ "latest_version": 1,
+ "latest_date": "2024-11-03",
+ "journal_ref": "",
+ "doi": "10.1145/3664647",
+ "comment": "9 pages, 8 figures, Accepted by ACMMM 2024",
+ "abstract": "A plethora of text-guided image editing methods has recently been developed by leveraging the impressive capabilities of large-scale diffusion-based generative models especially Stable Diffusion. Despite the success of diffusion models in producing high-quality images, their application to small object generation has been limited due to difficulties in aligning cross-modal attention maps between text and these objects. Our approach offers a training-free method that significantly mitigates this alignment issue with local and global attention guidance , enhancing the model's ability to accurately render small objects in accordance with textual descriptions. We detail the methodology in our approach, emphasizing its divergence from traditional generation techniques and highlighting its advantages. What's more important is that we also provide~\\textit{SOEBench} (Small Object Editing), a standardized benchmark for quantitatively evaluating text-based small object generation collected from \\textit{MSCOCO} and \\textit{OpenImage}. Preliminary results demonstrate the effectiveness of our method, showing marked improvements in the fidelity and accuracy of small object generation compared to existing models. This advancement not only contributes to the field of AI and computer vision but also opens up new possibilities for applications in various industries where precise image generation is critical. We will release our dataset on our project page: \\href{https://soebench.github.io/}{https://soebench.github.io/}.",
+ "primary": "cs.CV"
+}

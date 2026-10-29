@@ -1,0 +1,23 @@
+{
+ "id": "2411.09259",
+ "title": "Jailbreak Attacks and Defenses against Multimodal Generative Models: A Survey",
+ "authors": [
+  "Xuannan Liu",
+  "Xing Cui",
+  "Peipei Li",
+  "Zekun Li",
+  "Huaibo Huang",
+  "Shuhan Xia",
+  "Miaoxuan Zhang",
+  "Yueying Zou",
+  "Ran He"
+ ],
+ "v1_date": "2024-11-14",
+ "latest_version": 2,
+ "latest_date": "2024-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ongoing work",
+ "abstract": "The rapid evolution of multimodal foundation models has led to significant advancements in cross-modal understanding and generation across diverse modalities, including text, images, audio, and video. However, these models remain susceptible to jailbreak attacks, which can bypass built-in safety mechanisms and induce the production of potentially harmful content. Consequently, understanding the methods of jailbreak attacks and existing defense mechanisms is essential to ensure the safe deployment of multimodal generative models in real-world scenarios, particularly in security-sensitive applications. To provide comprehensive insight into this topic, this survey reviews jailbreak and defense in multimodal generative models. First, given the generalized lifecycle of multimodal jailbreak, we systematically explore attacks and corresponding defense strategies across four levels: input, encoder, generator, and output. Based on this analysis, we present a detailed taxonomy of attack methods, defense mechanisms, and evaluation frameworks specific to multimodal generative models. Additionally, we cover a wide range of input-output configurations, including modalities such as Any-to-Text, Any-to-Vision, and Any-to-Any within generative systems. Finally, we highlight current research challenges and propose potential directions for future research. The open-source repository corresponding to this work can be found at https://github.com/liuxuannan/Awesome-Multimodal-Jailbreak.",
+ "primary": "cs.CV"
+}

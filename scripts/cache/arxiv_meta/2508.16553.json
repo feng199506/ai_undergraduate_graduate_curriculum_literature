@@ -1,0 +1,17 @@
+{
+ "id": "2508.16553",
+ "title": "TinyML Towards Industry 4.0: Resource-Efficient Process Monitoring of a Milling Machine",
+ "authors": [
+  "Tim Langer",
+  "Matthias Widra",
+  "Volkhard Beyer"
+ ],
+ "v1_date": "2025-08-22",
+ "latest_version": 1,
+ "latest_date": "2025-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 5 figures, 1 table",
+ "abstract": "In the context of industry 4.0, long-serving industrial machines can be retrofitted with process monitoring capabilities for future use in a smart factory. One possible approach is the deployment of wireless monitoring systems, which can benefit substantially from the TinyML paradigm. This work presents a complete TinyML flow from dataset generation, to machine learning model development, up to implementation and evaluation of a full preprocessing and classification pipeline on a microcontroller. After a short review on TinyML in industrial process monitoring, the creation of the novel MillingVibes dataset is described. The feasibility of a TinyML system for structure-integrated process quality monitoring could be shown by the development of an 8-bit-quantized convolutional neural network (CNN) model with 12.59kiB parameter storage. A test accuracy of 100.0% could be reached at 15.4ms inference time and 1.462mJ per quantized CNN inference on an ARM Cortex M4F microcontroller, serving as a reference for future TinyML process monitoring solutions.",
+ "primary": "cs.LG"
+}

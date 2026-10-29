@@ -1,0 +1,18 @@
+{
+ "id": "2505.13644",
+ "title": "Collapsing Taylor Mode Automatic Differentiation",
+ "authors": [
+  "Felix Dangel",
+  "Tim Siebert",
+  "Marius Zeinhofer",
+  "Andrea Walther"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 2,
+ "latest_date": "2025-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages + appendix; camera-ready version (NeurIPS 2025)",
+ "abstract": "Computing partial differential equation (PDE) operators via nested backpropagation is expensive, yet popular, and severely restricts their utility for scientific machine learning. Recent advances, like the forward Laplacian and randomizing Taylor mode automatic differentiation (AD), propose forward schemes to address this. We introduce an optimization technique for Taylor mode that 'collapses' derivatives by rewriting the computational graph, and demonstrate how to apply it to general linear PDE operators, and randomized Taylor mode. The modifications simply require propagating a sum up the computational graph, which could -- or should -- be done by a machine learning compiler, without exposing complexity to users. We implement our collapsing procedure and evaluate it on popular PDE operators, confirming it accelerates Taylor mode and outperforms nested backpropagation.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2404.10386",
+ "title": "I/O in Machine Learning Applications on HPC Systems: A 360-degree Survey",
+ "authors": [
+  "Noah Lewis",
+  "Jean Luca Bez",
+  "Surendra Byna"
+ ],
+ "v1_date": "2024-04-16",
+ "latest_version": 3,
+ "latest_date": "2025-08-22",
+ "journal_ref": "ACM Computing Surveys (CSUR), Vol. 1, No. 1, Article 1, January 2025",
+ "doi": "10.1145/3722215",
+ "comment": "",
+ "abstract": "Growing interest in Artificial Intelligence (AI) has resulted in a surge in demand for faster methods of Machine Learning (ML) model training and inference. This demand for speed has prompted the use of high performance computing (HPC) systems that excel in managing distributed workloads. Because data is the main fuel for AI applications, the performance of the storage and I/O subsystem of HPC systems is critical. In the past, HPC applications accessed large portions of data written by simulations or experiments or ingested data for visualizations or analysis tasks. ML workloads perform small reads spread across a large number of random files. This shift of I/O access patterns poses several challenges to modern parallel storage systems. In this paper, we survey I/O in ML applications on HPC systems, and target literature within a 6-year time window from 2019 to 2024. We define the scope of the survey, provide an overview of the common phases of ML, review available profilers and benchmarks, examine the I/O patterns encountered during offline data preparation, training, and inference, and explore I/O optimizations utilized in modern ML frameworks and proposed in recent literature. Lastly, we seek to expose research gaps that could spawn further R&D",
+ "primary": "cs.DC"
+}

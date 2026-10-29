@@ -1,0 +1,19 @@
+{
+ "id": "2412.11589",
+ "title": "Future Sight and Tough Fights: Revolutionizing Sequential Recommendation with FENRec",
+ "authors": [
+  "Yu-Hsuan Huang",
+  "Ling Lo",
+  "Hongxia Xie",
+  "Hong-Han Shuai",
+  "Wen-Huang Cheng"
+ ],
+ "v1_date": "2024-12-16",
+ "latest_version": 4,
+ "latest_date": "2025-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Our code is available at https://github.com/uikdwnd/FENRec",
+ "abstract": "Sequential recommendation (SR) systems predict user preferences by analyzing time-ordered interaction sequences. A common challenge for SR is data sparsity, as users typically interact with only a limited number of items. While contrastive learning has been employed in previous approaches to address the challenges, these methods often adopt binary labels, missing finer patterns and overlooking detailed information in subsequent behaviors of users. Additionally, they rely on random sampling to select negatives in contrastive learning, which may not yield sufficiently hard negatives during later training stages. In this paper, we propose Future data utilization with Enduring Negatives for contrastive learning in sequential Recommendation (FENRec). Our approach aims to leverage future data with time-dependent soft labels and generate enduring hard negatives from existing data, thereby enhancing the effectiveness in tackling data sparsity. Experiment results demonstrate our state-of-the-art performance across four benchmark datasets, with an average improvement of 6.16\\% across all metrics.",
+ "primary": "cs.IR"
+}

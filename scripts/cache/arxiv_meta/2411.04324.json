@@ -1,0 +1,15 @@
+{
+ "id": "2411.04324",
+ "title": "Gradient Boosting Trees and Large Language Models for Tabular Data Few-Shot Learning",
+ "authors": [
+  "Carlos Huertas"
+ ],
+ "v1_date": "2024-11-06",
+ "latest_version": 1,
+ "latest_date": "2024-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "FedCSIS 2024 - Data Mining Competition - 1st Place Winner",
+ "abstract": "Large Language Models (LLM) have brought numerous of new applications to Machine Learning (ML). In the context of tabular data (TD), recent studies show that TabLLM is a very powerful mechanism for few-shot-learning (FSL) applications, even if gradient boosting decisions trees (GBDT) have historically dominated the TD field. In this work we demonstrate that although LLMs are a viable alternative, the evidence suggests that baselines used to gauge performance can be improved. We replicated public benchmarks and our methodology improves LightGBM by 290%, this is mainly driven by forcing node splitting with few samples, a critical step in FSL with GBDT. Our results show an advantage to TabLLM for 8 or fewer shots, but as the number of samples increases GBDT provides competitive performance at a fraction of runtime. For other real-life applications with vast number of samples, we found FSL still useful to improve model diversity, and when combined with ExtraTrees it provides strong resilience to overfitting, our proposal was validated in a ML competition setting ranking first place.",
+ "primary": "cs.LG"
+}

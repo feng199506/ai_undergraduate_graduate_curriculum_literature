@@ -1,0 +1,18 @@
+{
+ "id": "2405.18335",
+ "title": "Interpretable classification of wiki-review streams",
+ "authors": [
+  "Silvia García Méndez",
+  "Fátima Leal",
+  "Benedita Malheiro",
+  "Juan Carlos Burguillo Rial"
+ ],
+ "v1_date": "2024-05-28",
+ "latest_version": 1,
+ "latest_date": "2024-05-28",
+ "journal_ref": "(2023) IEEE Access",
+ "doi": "10.1109/access.2023.3342472",
+ "comment": "",
+ "abstract": "Wiki articles are created and maintained by a crowd of editors, producing a continuous stream of reviews. Reviews can take the form of additions, reverts, or both. This crowdsourcing model is exposed to manipulation since neither reviews nor editors are automatically screened and purged. To protect articles against vandalism or damage, the stream of reviews can be mined to classify reviews and profile editors in real-time. The goal of this work is to anticipate and explain which reviews to revert. This way, editors are informed why their edits will be reverted. The proposed method employs stream-based processing, updating the profiling and classification models on each incoming event. The profiling uses side and content-based features employing Natural Language Processing, and editor profiles are incrementally updated based on their reviews. Since the proposed method relies on self-explainable classification algorithms, it is possible to understand why a review has been classified as a revert or a non-revert. In addition, this work contributes an algorithm for generating synthetic data for class balancing, making the final classification fairer. The proposed online method was tested with a real data set from Wikivoyage, which was balanced through the aforementioned synthetic data generation. The results attained near-90 % values for all evaluation metrics (accuracy, precision, recall, and F-measure).",
+ "primary": "cs.CL"
+}

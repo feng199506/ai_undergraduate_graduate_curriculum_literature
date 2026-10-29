@@ -1,0 +1,20 @@
+{
+ "id": "2412.10674",
+ "title": "USM: Unbiased Survey Modeling for Limiting Negative User Experiences in Recommendation Systems",
+ "authors": [
+  "Chenghui Yu",
+  "Peiyi Li",
+  "Haoze Wu",
+  "Yiri Wen",
+  "Bingfeng Deng",
+  "Hongyu Xiong"
+ ],
+ "v1_date": "2024-12-14",
+ "latest_version": 3,
+ "latest_date": "2025-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 5 figures",
+ "abstract": "Reducing negative user experiences is essential for the success of recommendation platforms. Exposing users to inappropriate content could not only adversely affect users' psychological well-beings, but also potentially drive users away from the platform, sabotaging the platform's long-term success. However, recommendation algorithms tend to weigh more heavily on positive feedback signals due to the scarcity of negative ones, which may result in the neglect of valuable negative user feedback. In this paper, we propose an approach aimed at limiting negative user experiences. Our method primarily relies on distributing in-feed surveys to the users, modeling the users' feedback collected from the survey, and integrating the model predictions into the recommendation system. We further enhance the baseline survey model by integrating the Learning Hidden Unit Contributions module and the Squeeze-and-Excitation module. In addition, we strive to resolve the problem of response Bias by applying a survey-submit model; The A/B testing results indicate a reduction in survey sexual rate and survey inappropriate rate, ranging from -1.44\\% to -3.9\\%. Additionally, we compared our methods against an online baseline that does not incorporate our approach. The results indicate that our approach significantly reduces the report rate and dislike rate by 1\\% to 2.27\\% compared to the baseline, confirming the effectiveness of our methods in enhancing user experience. After we launched the survey model based our approach on our platform, the model is able to bring reductions of 1.75\\%, 2.57\\%, 2.06\\% on reports, dislikes, survey inappropriate rate, respectively.",
+ "primary": "cs.IR"
+}

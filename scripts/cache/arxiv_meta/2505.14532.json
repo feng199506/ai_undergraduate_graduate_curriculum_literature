@@ -1,0 +1,16 @@
+{
+ "id": "2505.14532",
+ "title": "Bayesian Credible Sets for Phylogenetic Tree Topologies with Applications to Coverage Analysis and Cross-Model Comparison",
+ "authors": [
+  "Jonathan Klawitter",
+  "Alexei J. Drummond"
+ ],
+ "v1_date": "2025-05-20",
+ "latest_version": 2,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Credible intervals and credible sets, such as highest posterior density (HPD) intervals, form an integral statistical tool in Bayesian phylogenetics, both for phylogenetic analyses and for development. Readily available for continuous parameters such as base frequencies and clock rates, the vast and complex space of tree topologies poses significant challenges for defining analogous credible sets. Traditional frequency-based approaches are inadequate for diffuse posteriors where sampled trees are often unique. To address this, we introduce novel and efficient methods for estimating the credible level of individual tree topologies using tractable tree distributions, specifically Conditional Clade Distribution (CCD). Furthermore, we propose a new concept called $α$ credible CCD, which encapsulates a CCD whose trees collectively make up $α$ probability. We present algorithms to compute these credible CCDs efficiently and to determine credible levels of tree topologies as well as of subtrees. We evaluate the accuracy of these credible set methods leveraging simulated and real datasets. Furthermore, to demonstrate the utility of our methods, we use well-calibrated simulation studies to evaluate the performance of different CCD models. In particular, we show how the credible set methods can be used to conduct rank-uniformity validation and produce Empirical Cumulative Distribution Function (ECDF) plots, supplementing standard coverage analyses for continuous parameters.",
+ "primary": "cs.DS"
+}

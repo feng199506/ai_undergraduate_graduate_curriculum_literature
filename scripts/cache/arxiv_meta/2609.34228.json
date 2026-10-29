@@ -1,0 +1,20 @@
+{
+ "id": "2609.34228",
+ "title": "SleuthBench: Benchmarking Statistical LLM Evaluation Using Tabular Hidden Signals",
+ "authors": [
+  "Jingyun Jia",
+  "Antoine Remond-Tiedrez",
+  "Aaron Alvarez",
+  "Joshua Shunk",
+  "Rich Caruana",
+  "Ben Lengerich"
+ ],
+ "v1_date": "2026-09-28",
+ "latest_version": 1,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Evaluating statistical discovery by large language model (LLM) agents requires verifiable analytical ground truth. Establishing such ground truth for real-world datasets is costly, and prior knowledge of public datasets can influence agent responses. We introduce SLEUTHBENCH, a benchmark that addresses both problems by injecting controlled data-quality problems and feature effects into public tabular datasets: the injected pattern determines the answer, so reference answers are computed automatically and memorized knowledge of the original table is insufficient, while the table keeps its background structure. The injected patterns are modeled on phenomena reported in real data analyses. The benchmark defines 17 question templates in two families: data-quality questions and feature-contribution questions. We evaluate six state-of-the-art LLMs that analyze the data using a Python coding tool, on data-science and business phrasings of 70 validated dataset-template combinations, yielding 1680 graded responses in total. The models detect data-quality problems reliably (83.8% accuracy) but recover feature contributions poorly (41.9%). Finding how features shape the target requires searching over both candidate variables and analytical procedures. To address this issue, we propose the Empirical Layer, a set of precomputed statistical artifacts comprising summaries, fitted feature and interaction effects, and dataset descriptions, which exposes candidate patterns for direct inspection. Access to these artifacts raises feature-contribution accuracy from 41.9% to 68.0%.",
+ "primary": "cs.LG"
+}

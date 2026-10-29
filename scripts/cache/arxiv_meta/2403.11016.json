@@ -1,0 +1,16 @@
+{
+ "id": "2403.11016",
+ "title": "Comprehensive OOS Evaluation of Predictive Algorithms with Statistical Decision Theory",
+ "authors": [
+  "Jeff Dominitz",
+  "Charles F. Manski"
+ ],
+ "v1_date": "2024-03-16",
+ "latest_version": 3,
+ "latest_date": "2025-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2110.00864",
+ "abstract": "We argue that comprehensive out-of-sample (OOS) evaluation using statistical decision theory (SDT) should replace the current practice of K-fold and Common Task Framework validation in machine learning (ML) research on prediction. SDT provides a formal frequentist framework for performing comprehensive OOS evaluation across all possible (1) training samples, (2) populations that may generate training data, and (3) populations of prediction interest. Regarding feature (3), we emphasize that SDT requires the practitioner to directly confront the possibility that the future may not look like the past and to account for a possible need to extrapolate from one population to another when building a predictive algorithm. For specificity, we consider treatment choice using conditional predictions with alternative restrictions on the state space of possible populations that may generate training data. We discuss application of SDT to the problem of predicting patient illness to inform clinical decision making. SDT is simple in abstraction, but it is often computationally demanding to implement. We call on ML researchers, econometricians, and statisticians to expand the domain within which implementation of SDT is tractable.",
+ "primary": "econ.EM"
+}

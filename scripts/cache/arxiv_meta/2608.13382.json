@@ -1,0 +1,19 @@
+{
+ "id": "2608.13382",
+ "title": "A Dense Weisfeiler-Leman Algorithm for Deciding Bounded-Cliquewidth Homomorphism Indistinguishability",
+ "authors": [
+  "Radu Curticapean",
+  "Daniel Neuen",
+  "Amir Nikabadi",
+  "Tim Seppelt",
+  "Ben Young"
+ ],
+ "v1_date": "2026-08-13",
+ "latest_version": 1,
+ "latest_date": "2026-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Two graphs $G$ and $H$ are homomorphism indistinguishable over a graph class $\\mathcal{F}$ if they admit the same number of homomorphisms from every graph in $\\mathcal{F}$. A wide range of relaxations of graph isomorphism arise this way: isomorphism itself over the class of all graphs [Lovász, Acta Math. Hung. 1967], equivalence under the $k$-dimensional Weisfeiler-Leman algorithm over the graphs of treewidth $\\leq k$ [Dvořák, J. Graph Theory 2010], and quantum isomorphism over planar graphs [Mančinska-Roberson, FOCS 2020]. Since the class $\\mathcal{F}$ is typically infinite, it is not clear a priori whether homomorphism indistinguishability over $\\mathcal{F}$ is decidable; for planar graphs it is undecidable. Every class for which decidability was previously known is sparse. We give the first decidability results for dense graph classes: We introduce the dense Weisfeiler-Leman algorithm that decides homomorphism indistinguishability over the class of graphs of cliquewidth $\\leq k$, the dense counterpart of treewidth. This relation was not previously known to be decidable. The algorithm colors $k$-tuples of vertex subsets rather than $k$-tuples of vertices. Beyond the class of all graphs of cliquewidth $\\leq k$, we prove a general meta-theorem: homomorphism indistinguishability over every $\\mathsf{CMSO}_1$-definable graph class of bounded cliquewidth is decidable, in randomized exponential time. For classes of bounded linear cliquewidth the bound improves to $\\mathsf{PSPACE}$, and we show this is tight by exhibiting such a class for which the problem is $\\mathsf{PSPACE}$-complete. These are the first general algorithms for homomorphism indistinguishability over dense graph classes.",
+ "primary": "cs.LO"
+}

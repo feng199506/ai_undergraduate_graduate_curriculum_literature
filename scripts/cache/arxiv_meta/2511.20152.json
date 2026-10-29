@@ -1,0 +1,19 @@
+{
+ "id": "2511.20152",
+ "title": "Restora-Flow: Mask-Guided Image Restoration with Flow Matching",
+ "authors": [
+  "Arnela Hadzic",
+  "Franz Thaler",
+  "Lea Bogensperger",
+  "Simon Johannes Joham",
+  "Martin Urschler"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 2,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for WACV 2026",
+ "abstract": "Flow matching has emerged as a promising generative approach that addresses the lengthy sampling times associated with state-of-the-art diffusion models and enables a more flexible trajectory design, while maintaining high-quality image generation. This capability makes it suitable as a generative prior for image restoration tasks. Although current methods leveraging flow models have shown promising results in restoration, some still suffer from long processing times or produce over-smoothed results. To address these challenges, we introduce Restora-Flow, a training-free method that guides flow matching sampling by a degradation mask and incorporates a trajectory correction mechanism to enforce consistency with degraded inputs. We evaluate our approach on both natural and medical datasets across several image restoration tasks involving a mask-based degradation, i.e., inpainting, super-resolution and denoising. We show superior perceptual quality and processing time compared to diffusion and flow matching-based reference methods.",
+ "primary": "cs.CV"
+}

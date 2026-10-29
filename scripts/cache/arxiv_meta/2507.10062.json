@@ -1,0 +1,18 @@
+{
+ "id": "2507.10062",
+ "title": "LLMShot: Reducing snapshot testing maintenance via LLMs",
+ "authors": [
+  "Ergün Batuhan Kaynak",
+  "Mayasah Lami",
+  "Sahand Moslemi",
+  "Anil Koyuncu"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 2,
+ "latest_date": "2025-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ICSME 2025",
+ "abstract": "Snapshot testing has emerged as a critical technique for UI validation in modern software development, yet it suffers from substantial maintenance overhead due to frequent UI changes causing test failures that require manual inspection to distinguish between genuine regressions and intentional design changes. This manual triage process becomes increasingly burdensome as applications evolve, creating a need for automated analysis solutions. This paper introduces LLMShot, a novel framework that leverages Vision-Language Models (VLMs) to automatically analyze snapshot test failures through semantic classification of UI changes. To evaluate LLMShot's effectiveness, we developed a comprehensive dataset using a feature-rich iOS application with configurable feature flags, creating realistic scenarios that produce authentic snapshot differences representative of real development workflows. Our evaluation using Gemma3 models demonstrates strong classification performance, with the 12B variant achieving over 84% recall in identifying failure root causes while the 4B model offers practical deployment advantages with acceptable performance for continuous integration environments. However, our exploration of selective ignore mechanisms revealed significant limitations in current prompting-based approaches for controllable visual reasoning. LLMShot represents the first automated approach to semantic snapshot test analysis, offering developers structured insights that can substantially reduce manual triage effort and advance toward more intelligent UI testing paradigms.",
+ "primary": "cs.SE"
+}

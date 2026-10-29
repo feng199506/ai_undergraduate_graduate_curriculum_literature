@@ -1,0 +1,17 @@
+{
+ "id": "2412.06173",
+ "title": "Revisiting the Necessity of Graph Learning and Common Graph Benchmarks",
+ "authors": [
+  "Isay Katsman",
+  "Ethan Lou",
+  "Anna Gilbert"
+ ],
+ "v1_date": "2024-12-09",
+ "latest_version": 1,
+ "latest_date": "2024-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint",
+ "abstract": "Graph machine learning has enjoyed a meteoric rise in popularity since the introduction of deep learning in graph contexts. This is no surprise due to the ubiquity of graph data in large scale industrial settings. Tacitly assumed in all graph learning tasks is the separation of the graph structure and node features: node features strictly encode individual data while the graph structure consists only of pairwise interactions. The driving belief is that node features are (by themselves) insufficient for these tasks, so benchmark performance accurately reflects improvements in graph learning. In our paper, we challenge this orthodoxy by showing that, surprisingly, node features are oftentimes more-than-sufficient for many common graph benchmarks, breaking this critical assumption. When comparing against a well-tuned feature-only MLP baseline on seven of the most commonly used graph learning datasets, one gains little benefit from using graph structure on five datasets. We posit that these datasets do not benefit considerably from graph learning because the features themselves already contain enough graph information to obviate or substantially reduce the need for the graph. To illustrate this point, we perform a feature study on these datasets and show how the features are responsible for closing the gap between MLP and graph-method performance. Further, in service of introducing better empirical measures of progress for graph neural networks, we present a challenging parametric family of principled synthetic datasets that necessitate graph information for nontrivial performance. Lastly, we section out a subset of real-world datasets that are not trivially solved by an MLP and hence serve as reasonable benchmarks for graph neural networks.",
+ "primary": "cs.LG"
+}

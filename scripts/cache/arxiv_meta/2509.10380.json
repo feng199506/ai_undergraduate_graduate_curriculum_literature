@@ -1,0 +1,23 @@
+{
+ "id": "2509.10380",
+ "title": "Merging Physics-Based Synthetic Data and Machine Learning for Thermal Monitoring of Lithium-ion Batteries: The Role of Data Fidelity",
+ "authors": [
+  "Yusheng Zheng",
+  "Wenxue Liu",
+  "Yunhong Che",
+  "Ferdinand Grimm",
+  "Jingyuan Zhao",
+  "Xiaosong Hu",
+  "Simona Onori",
+  "Remus Teodorescu",
+  "Gregory J. Offer"
+ ],
+ "v1_date": "2025-09-12",
+ "latest_version": 1,
+ "latest_date": "2025-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Since the internal temperature is less accessible than surface temperature, there is an urgent need to develop accurate and real-time estimation algorithms for better thermal management and safety. This work presents a novel framework for resource-efficient and scalable development of accurate, robust, and adaptive internal temperature estimation algorithms by blending physics-based modeling with machine learning, in order to address the key challenges in data collection, model parameterization, and estimator design that traditionally hinder both approaches. In this framework, a physics-based model is leveraged to generate simulation data that includes different operating scenarios by sweeping the model parameters and input profiles. Such a cheap simulation dataset can be used to pre-train the machine learning algorithm to capture the underlying mapping relationship. To bridge the simulation-to-reality gap resulting from imperfect modeling, transfer learning with unsupervised domain adaptation is applied to fine-tune the pre-trained machine learning model, by using limited operational data (without internal temperature values) from target batteries. The proposed framework is validated under different operating conditions and across multiple cylindrical batteries with convective air cooling, achieving a root mean square error of 0.5 °C when relying solely on prior knowledge of battery thermal properties, and less than 0.1 °C when using thermal parameters close to the ground truth. Furthermore, the role of the simulation data quality in the proposed framework has been comprehensively investigated to identify promising ways of synthetic data generation to guarantee the performance of the machine learning model.",
+ "primary": "eess.SY"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2405.00751",
+ "title": "F$^3$low: Frame-to-Frame Coarse-grained Molecular Dynamics with SE(3) Guided Flow Matching",
+ "authors": [
+  "Shaoning Li",
+  "Yusong Wang",
+  "Mingyu Li",
+  "Jian Zhang",
+  "Bin Shao",
+  "Nanning Zheng",
+  "Jian Tang"
+ ],
+ "v1_date": "2024-05-01",
+ "latest_version": 1,
+ "latest_date": "2024-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICLR 2024 GEM workshop",
+ "abstract": "Molecular dynamics (MD) is a crucial technique for simulating biological systems, enabling the exploration of their dynamic nature and fostering an understanding of their functions and properties. To address exploration inefficiency, emerging enhanced sampling approaches like coarse-graining (CG) and generative models have been employed. In this work, we propose a \\underline{Frame-to-Frame} generative model with guided \\underline{Flow}-matching (F$3$low) for enhanced sampling, which (a) extends the domain of CG modeling to the SE(3) Riemannian manifold; (b) retreating CGMD simulations as autoregressively sampling guided by the former frame via flow-matching models; (c) targets the protein backbone, offering improved insights into secondary structure formation and intricate folding pathways. Compared to previous methods, F$3$low allows for broader exploration of conformational space. The ability to rapidly generate diverse conformations via force-free generative paradigm on SE(3) paves the way toward efficient enhanced sampling methods.",
+ "primary": "q-bio.QM"
+}

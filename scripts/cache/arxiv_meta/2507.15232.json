@@ -1,0 +1,16 @@
+{
+ "id": "2507.15232",
+ "title": "Robust and Differentially Private Principal Component Analysis",
+ "authors": [
+  "Minwoo Kim",
+  "Sungkyu Jung"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 2,
+ "latest_date": "2026-06-19",
+ "journal_ref": "Statistical Analysis and Data Mining, 18(6), e70053 (2025)",
+ "doi": "10.1002/sam.70053",
+ "comment": "30 pages, 6 figures before Appendix. Now published at Statistical Analysis and Data Mining",
+ "abstract": "Recent advances have sparked significant interest in the development of privacy-preserving Principal Component Analysis (PCA). However, many existing approaches rely on restrictive assumptions, such as assuming sub-Gaussian data or being vulnerable to data contamination. Additionally, some methods are computationally expensive or depend on unknown model parameters that must be estimated, limiting their accessibility for data analysts seeking privacy-preserving PCA. In this paper, we propose a differentially private PCA method applicable to heavy-tailed and potentially contaminated data. Our approach leverages the property that the covariance matrix of properly rescaled data preserves eigenvectors and their order under elliptical distributions, which include Gaussian and heavy-tailed distributions. By applying a bounded transformation, we enable straightforward computation of principal components in a differentially private manner. Additionally, boundedness guarantees robustness against data contamination. We conduct both theoretical analysis and empirical evaluations of the proposed method, focusing on its ability to recover the subspace spanned by the leading principal components. Extensive numerical experiments demonstrate that our method consistently outperforms existing approaches in terms of statistical utility, particularly in non-Gaussian or contaminated data settings.",
+ "primary": "stat.ME"
+}

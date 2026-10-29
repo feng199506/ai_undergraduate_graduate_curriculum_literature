@@ -1,0 +1,20 @@
+{
+ "id": "2505.18881",
+ "title": "SD-OVON: A Semantics-aware Dataset and Benchmark Generation Pipeline for Open-Vocabulary Object Navigation in Dynamic Scenes",
+ "authors": [
+  "Dicong Qiu",
+  "Jiadi You",
+  "Zeying Gong",
+  "Ronghe Qiu",
+  "Hui Xiong",
+  "Junwei Liang"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 1,
+ "latest_date": "2025-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint. 21 pages",
+ "abstract": "We present the Semantics-aware Dataset and Benchmark Generation Pipeline for Open-vocabulary Object Navigation in Dynamic Scenes (SD-OVON). It utilizes pretraining multimodal foundation models to generate infinite unique photo-realistic scene variants that adhere to real-world semantics and daily commonsense for the training and the evaluation of navigation agents, accompanied with a plugin for generating object navigation task episodes compatible to the Habitat simulator. In addition, we offer two pre-generated object navigation task datasets, SD-OVON-3k and SD-OVON-10k, comprising respectively about 3k and 10k episodes of the open-vocabulary object navigation task, derived from the SD-OVON-Scenes dataset with 2.5k photo-realistic scans of real-world environments and the SD-OVON-Objects dataset with 0.9k manually inspected scanned and artist-created manipulatable object models. Unlike prior datasets limited to static environments, SD-OVON covers dynamic scenes and manipulatable objects, facilitating both real-to-sim and sim-to-real robotic applications. This approach enhances the realism of navigation tasks, the training and the evaluation of open-vocabulary object navigation agents in complex settings. To demonstrate the effectiveness of our pipeline and datasets, we propose two baselines and evaluate them along with state-of-the-art baselines on SD-OVON-3k. The datasets, benchmark and source code are publicly available.",
+ "primary": "cs.CV"
+}

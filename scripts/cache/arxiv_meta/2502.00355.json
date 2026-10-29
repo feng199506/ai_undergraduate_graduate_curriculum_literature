@@ -1,0 +1,16 @@
+{
+ "id": "2502.00355",
+ "title": "Sampling in High-Dimensions using Stochastic Interpolants and Forward-Backward Stochastic Differential Equations",
+ "authors": [
+  "Anand Jerry George",
+  "Nicolas Macris"
+ ],
+ "v1_date": "2025-02-01",
+ "latest_version": 1,
+ "latest_date": "2025-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages",
+ "abstract": "We present a class of diffusion-based algorithms to draw samples from high-dimensional probability distributions given their unnormalized densities. Ideally, our methods can transport samples from a Gaussian distribution to a specified target distribution in finite time. Our approach relies on the stochastic interpolants framework to define a time-indexed collection of probability densities that bridge a Gaussian distribution to the target distribution. Subsequently, we derive a diffusion process that obeys the aforementioned probability density at each time instant. Obtaining such a diffusion process involves solving certain Hamilton-Jacobi-Bellman PDEs. We solve these PDEs using the theory of forward-backward stochastic differential equations (FBSDE) together with machine learning-based methods. Through numerical experiments, we demonstrate that our algorithm can effectively draw samples from distributions that conventional methods struggle to handle.",
+ "primary": "cs.LG"
+}

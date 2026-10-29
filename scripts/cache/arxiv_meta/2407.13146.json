@@ -1,0 +1,17 @@
+{
+ "id": "2407.13146",
+ "title": "PG-Rainbow: Using Distributional Reinforcement Learning in Policy Gradient Methods",
+ "authors": [
+  "WooJae Jeon",
+  "KangJun Lee",
+  "Jeewoo Lee"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 2,
+ "latest_date": "2024-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces PG-Rainbow, a novel algorithm that incorporates a distributional reinforcement learning framework with a policy gradient algorithm. Existing policy gradient methods are sample inefficient and rely on the mean of returns when calculating the state-action value function, neglecting the distributional nature of returns in reinforcement learning tasks. To address this issue, we use an Implicit Quantile Network that provides the quantile information of the distribution of rewards to the critic network of the Proximal Policy Optimization algorithm. We show empirical results that through the integration of reward distribution information into the policy network, the policy agent acquires enhanced capabilities to comprehensively evaluate the consequences of potential actions in a given state, facilitating more sophisticated and informed decision-making processes. We evaluate the performance of the proposed algorithm in the Atari-2600 game suite, simulated via the Arcade Learning Environment (ALE).",
+ "primary": "cs.LG"
+}

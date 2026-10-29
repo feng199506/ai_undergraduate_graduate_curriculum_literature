@@ -1,0 +1,15 @@
+{
+ "id": "2507.20048",
+ "title": "Irredundant $k$-Fold Cross-Validation",
+ "authors": [
+  "Jesus S. Aguilar-Ruiz"
+ ],
+ "v1_date": "2025-07-26",
+ "latest_version": 2,
+ "latest_date": "2025-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In traditional k-fold cross-validation, each instance is used ($k-1$) times for training and once for testing, leading to redundancy that lets many instances disproportionately influence the learning phase. We introduce Irredundant $k$-fold cross-validation, a novel method that guarantees each instance is used exactly once for training and once for testing across the entire validation procedure. This approach ensures a more balanced utilization of the dataset, mitigates overfitting due to instance repetition, and enables sharper distinctions in comparative model analysis. The method preserves stratification and remains model-agnostic, i.e., compatible with any classifier. Experimental results demonstrate that it delivers consistent performance estimates across diverse datasets -- comparable to $k$-fold cross-validation -- while providing less optimistic variance estimates because training partitions are non-overlapping, and significantly reducing the overall computational cost.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2506.20031",
+ "title": "Automated Generation of Diverse Courses of Actions for Multi-Agent Operations using Binary Optimization and Graph Learning",
+ "authors": [
+  "Prithvi Poddar",
+  "Ehsan Tarkesh Esfahani",
+  "Karthik Dantu",
+  "Souma Chowdhury"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 2,
+ "latest_date": "2025-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for presentation in proceedings of IEEE CASE 2025",
+ "abstract": "Operations in disaster response, search \\& rescue, and military missions that involve multiple agents demand automated processes to support the planning of the courses of action (COA). Moreover, traverse-affecting changes in the environment (rain, snow, blockades, etc.) may impact the expected performance of a COA, making it desirable to have a pool of COAs that are diverse in task distributions across agents. Further, variations in agent capabilities, which could be human crews and/or autonomous systems, present practical opportunities and computational challenges to the planning process. This paper presents a new theoretical formulation and computational framework to generate such diverse pools of COAs for operations with soft variations in agent-task compatibility. Key to the problem formulation is a graph abstraction of the task space and the pool of COAs itself to quantify its diversity. Formulating the COAs as a centralized multi-robot task allocation problem, a genetic algorithm is used for (order-ignoring) allocations of tasks to each agent that jointly maximize diversity within the COA pool and overall compatibility of the agent-task mappings. A graph neural network is trained using a policy gradient approach to then perform single agent task sequencing in each COA, which maximizes completion rates adaptive to task features. Our tests of the COA generation process in a simulated environment demonstrate significant performance gain over a random walk baseline, small optimality gap in task sequencing, and execution time of about 50 minutes to plan up to 20 COAs for 5 agent/100 task operations.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2509.15709",
+ "title": "Understanding Embedding Scaling in Collaborative Filtering",
+ "authors": [
+  "Yicheng He",
+  "Zhou Kaiyu",
+  "Haoyue Bai",
+  "Fengbin Zhu",
+  "Yonghui Yang"
+ ],
+ "v1_date": "2025-09-19",
+ "latest_version": 2,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scaling recommendation models into large recommendation models has become one of the most widely discussed topics. Recent efforts focus on components beyond the scaling embedding dimension, as it is believed that scaling embedding may lead to performance degradation. Although there have been some initial observations on embedding, the root cause of their non-scalability remains unclear. Moreover, whether performance degradation occurs across different types of models and datasets is still an unexplored area. Regarding the effect of embedding dimensions on performance, we conduct large-scale experiments across 10 datasets with varying sparsity levels and scales, using 4 representative classical architectures. We surprisingly observe two novel phenomena: double-peak and logarithmic. For the former, as the embedding dimension increases, performance first improves, then declines, rises again, and eventually drops. For the latter, it exhibits a perfect logarithmic curve. Our contributions are threefold. First, we discover two novel phenomena when scaling collaborative filtering models. Second, we gain an understanding of the underlying causes of the double-peak phenomenon. Lastly, we theoretically analyze the noise robustness of collaborative filtering models, with results matching empirical observations.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "2510.13626",
+ "title": "LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action Models",
+ "authors": [
+  "Senyu Fei",
+  "Siyin Wang",
+  "Junhao Shi",
+  "Zihao Dai",
+  "Jikun Cai",
+  "Pengfang Qian",
+  "Li Ji",
+  "Xinzhe He",
+  "Shiduo Zhang",
+  "Zhaoye Fei",
+  "Jinlan Fu",
+  "Jingjing Gong",
+  "Xipeng Qiu"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 3,
+ "latest_date": "2025-12-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Visual-Language-Action (VLA) models report impressive success rates on robotic manipulation benchmarks, yet these results may mask fundamental weaknesses in robustness. We perform a systematic vulnerability analysis by introducing controlled perturbations across seven dimensions: objects layout, camera viewpoints, robot initial states, language instructions, light conditions, background textures and sensor noise. We comprehensively analyzed multiple state-of-the-art models and revealed consistent brittleness beneath apparent competence. Our analysis exposes critical weaknesses: models exhibit extreme sensitivity to perturbation factors, including camera viewpoints and robot initial states, with performance dropping from 95% to below 30% under modest perturbations. Surprisingly, models are largely insensitive to language variations, with further experiments revealing that models tend to ignore language instructions completely. Our findings challenge the assumption that high benchmark scores equate to true competency and highlight the need for evaluation practices that assess reliability under realistic variation.",
+ "primary": "cs.RO"
+}

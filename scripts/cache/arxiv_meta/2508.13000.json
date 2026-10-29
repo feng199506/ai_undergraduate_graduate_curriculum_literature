@@ -1,0 +1,23 @@
+{
+ "id": "2508.13000",
+ "title": "Omni Survey for Multimodality Analysis in Visual Object Tracking",
+ "authors": [
+  "Zhangyong Tang",
+  "Tianyang Xu",
+  "Xuefeng Zhu",
+  "Hui Li",
+  "Shaochuan Zhao",
+  "Tao Zhou",
+  "Chunyang Cheng",
+  "Xiaojun Wu",
+  "Josef Kittler"
+ ],
+ "v1_date": "2025-08-18",
+ "latest_version": 2,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The first comprehensive survey for multi-modal visual object tracking; 6 multi-modal tasks; 338 references",
+ "abstract": "The development of smart cities has led to the generation of massive amounts of multi-modal data in the context of a range of tasks that enable a comprehensive monitoring of the smart city infrastructure and services. This paper surveys one of the most critical tasks, multi-modal visual object tracking (MMVOT), from the perspective of multimodality analysis. Generally, MMVOT differs from single-modal tracking in four key aspects, data collection, modality alignment and annotation, model designing, and evaluation. Accordingly, we begin with an introduction to the relevant data modalities, laying the groundwork for their integration. This naturally leads to a discussion of challenges of multi-modal data collection, alignment, and annotation. Subsequently, existing MMVOT methods are categorised, based on different ways to deal with visible (RGB) and X modalities: programming the auxiliary X branch with replicated or non-replicated experimental configurations from the RGB branch. Here X can be thermal infrared (T), depth (D), event (E), near infrared (NIR), language (L), or sonar (S). The final part of the paper addresses evaluation and benchmarking. In summary, we undertake an omni survey of all aspects of multi-modal visual object tracking (VOT), covering six MMVOT tasks and featuring 338 references in total. In addition, we discuss the fundamental rhetorical question: Is multi-modal tracking always guaranteed to provide a superior solution to unimodal tracking with the help of information fusion, and if not, in what circumstances its application is beneficial. Furthermore, for the first time in this field, we analyse the distributions of the object categories in the existing MMVOT datasets, revealing their pronounced long-tail nature and a noticeable lack of animal categories when compared with RGB datasets.",
+ "primary": "cs.CV"
+}

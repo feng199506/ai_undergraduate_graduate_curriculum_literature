@@ -1,0 +1,16 @@
+{
+ "id": "2604.17219",
+ "title": "PAC-Bayes Bounds for Gibbs Posteriors via Singular Learning Theory",
+ "authors": [
+  "Chenyang Wang",
+  "Yun Yang"
+ ],
+ "v1_date": "2026-04-19",
+ "latest_version": 1,
+ "latest_date": "2026-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We derive explicit non-asymptotic PAC-Bayes generalization bounds for Gibbs posteriors, that is, data-dependent distributions over model parameters obtained by exponentially tilting a prior with the empirical risk. Unlike classical worst-case complexity bounds based on uniform laws of large numbers, which require explicit control of the model space in terms of metric entropy (integrals), our analysis yields posterior-averaged risk bounds that can be applied to overparameterized models and adapt to the data structure and the intrinsic model complexity. The bound involves a marginal-type integral over the parameter space, which we analyze using tools from singular learning theory to obtain explicit and practically meaningful characterizations of the posterior risk. Applications to low-rank matrix completion and ReLU neural network regression and classification show that the resulting bounds are analytically tractable and substantially tighter than classical complexity-based bounds. Our results highlight the potential of PAC-Bayes analysis for precise finite-sample generalization guarantees in modern overparameterized and singular models.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2605.26577",
+ "title": "Bridging Control with Neural Network Verifier alpha-beta-CROWN: A Tutorial",
+ "authors": [
+  "Haoyu Li",
+  "Xiangru Zhong",
+  "Hao Cheng",
+  "Bin Hu",
+  "Huan Zhang"
+ ],
+ "v1_date": "2026-05-26",
+ "latest_version": 1,
+ "latest_date": "2026-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ACC 2026 Tutorial",
+ "abstract": "Learning-based methods for synthesizing controllers have gained popularity due to their high expressiveness and strong empirical performance. However, in safety-critical scenarios such as autonomous driving, robotics, and power systems, empirical performance alone is insufficient, and formal verification of controller properties such as stability and safety is highly desirable. Unfortunately, many prior verification approaches are either tied to specific structural assumptions on the system or the certificate, making them difficult to transfer across settings, or suffer from poor scalability on higher-dimensional neural network systems. In this tutorial, we present a unified framework that aims to mitigate this gap via bridging control with the state-of-the-art neural network verifier $α,\\!β$-CROWN (alpha-beta-CROWN). At its core, $α,\\!β$-CROWN is a general-purpose bounding engine for nonlinear functions represented as computation graphs: given an input domain, it can produce certified bounds and explicit linear relaxation of the nonlinear function. These certified bounds are useful on their own for tasks such as reachability analysis, and they also provide the foundation for more complex routines that perform satisfiability checking and optimization. More specifically, many control problems reduce to verifying real-valued inequalities over a state domain (e.g., Lyapunov theory). Consequently, $α,\\!β$-CROWN enables scalable verification of such conditions by computing tight bounds and recursively partitioning and pruning subdomains based on the bounds. Thanks to GPU parallelization, this pipeline demonstrates superior scalability on verification and optimization problems that are challenging for traditional approaches. In this tutorial, we discuss the basics of $α,\\!β$-CROWN and introduce its application to various control-related tasks.",
+ "primary": "eess.SY"
+}

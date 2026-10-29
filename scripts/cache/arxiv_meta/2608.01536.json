@@ -1,0 +1,16 @@
+{
+ "id": "2608.01536",
+ "title": "Celty: SpMSpV GPU Kernel and SIMT Co-Design for Efficient Dual-Sparse LLM Inference",
+ "authors": [
+  "Ruokai Yin",
+  "Priyadarshini Panda"
+ ],
+ "v1_date": "2026-08-02",
+ "latest_version": 2,
+ "latest_date": "2026-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICCAD 2026. The code is available on Github at https://github.com/RuokaiYin/Celty",
+ "abstract": "Large Language Models (LLMs) increasingly rely on sparsity to cut inference cost, but most prior work exploits a single sparsity source and targets batched multi-user inference. Dual-sparsity, which pairs unstructured weight pruning with runtime activation sparsity, offers a compelling size-accuracy-latency tradeoff for single-user decoding, but forms a Sparse Matrix-Sparse Vector (SpMSpV) workload that existing GPU kernels handle poorly. We propose Celty, a co-designed sparse format, GPU kernel, and SIMT microarchitecture for SpMSpV in LLM inference. Celty's Run-Length Compressed CSC (RLC-CSC) format enables vectorized loading of compressed weight columns and exploits both sparsity sources to skip memory accesses, accumulating partial products in shared memory. The Celty Sparse SIMT Core then adds a pipelined RLC decoder that removes software index reconstruction and repurposes local register files for conflict-free accumulation, operating on the same compressed representation. The kernel alone achieves up to 2.8x over cuBLAS; with the Sparse SIMT Core, speedup reaches 5.3x over cuBLAS at 70% dual-sparsity.",
+ "primary": "cs.AR"
+}

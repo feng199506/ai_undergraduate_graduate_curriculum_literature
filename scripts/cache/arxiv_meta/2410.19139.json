@@ -1,0 +1,18 @@
+{
+ "id": "2410.19139",
+ "title": "Initialization Matters: On the Benign Overfitting of Two-Layer ReLU CNN with Fully Trainable Layers",
+ "authors": [
+  "Shuning Shang",
+  "Xuran Meng",
+  "Yuan Cao",
+  "Difan Zou"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 1,
+ "latest_date": "2024-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "80 pages, 3 figures, 1 table",
+ "abstract": "Benign overfitting refers to how over-parameterized neural networks can fit training data perfectly and generalize well to unseen data. While this has been widely investigated theoretically, existing works are limited to two-layer networks with fixed output layers, where only the hidden weights are trained. We extend the analysis to two-layer ReLU convolutional neural networks (CNNs) with fully trainable layers, which is closer to the practice. Our results show that the initialization scaling of the output layer is crucial to the training dynamics: large scales make the model training behave similarly to that with the fixed output, the hidden layer grows rapidly while the output layer remains largely unchanged; in contrast, small scales result in more complex layer interactions, the hidden layer initially grows to a specific ratio relative to the output layer, after which both layers jointly grow and maintain that ratio throughout training. Furthermore, in both settings, we provide nearly matching upper and lower bounds on the test errors, identifying the sharp conditions on the initialization scaling and signal-to-noise ratio (SNR) in which the benign overfitting can be achieved or not. Numerical experiments back up the theoretical results.",
+ "primary": "cs.LG"
+}

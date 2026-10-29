@@ -1,0 +1,19 @@
+{
+ "id": "2408.10529",
+ "title": "Automated Detection of Algorithm Debt in Deep Learning Frameworks: An Empirical Study",
+ "authors": [
+  "Emmanuel Iko-Ojo Simon",
+  "Chirath Hettiarachchi",
+  "Alex Potanin",
+  "Hanna Suominen",
+  "Fatemeh Fard"
+ ],
+ "v1_date": "2024-08-20",
+ "latest_version": 3,
+ "latest_date": "2024-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted as Continuity Acceptance (CA) for a Stage 1 registration of the Registered Report Track at 40th IEEE International Conference on Software Maintenance and Evolution (ICSME 2024), Flagstaff, USA, October 6-11, 2024",
+ "abstract": "Context: Previous studies demonstrate that Machine or Deep Learning (ML/DL) models can detect Technical Debt from source code comments called Self-Admitted Technical Debt (SATD). Despite the importance of ML/DL in software development, limited studies focus on automated detection for new SATD types: Algorithm Debt (AD). AD detection is important because it helps to identify TD early, facilitating research, learning, and preventing the accumulation of issues related to model degradation and lack of scalability. Aim: Our goal is to improve AD detection performance of various ML/DL models. Method: We will perform empirical studies using approaches: TF-IDF, Count Vectorizer, Hash Vectorizer, and TD-indicative words to identify features that improve AD detection, using ML/DL classifiers with different data featurisations. We will use an existing dataset curated from seven DL frameworks where comments were manually classified as AD, Compatibility, Defect, Design, Documentation, Requirement, and Test Debt. We will explore various word embedding methods to further enrich features for ML models. These embeddings will be from models founded in DL such as ROBERTA, ALBERTv2, and large language models (LLMs): INSTRUCTOR and VOYAGE AI. We will enrich the dataset by incorporating AD-related terms, then train various ML/DL classifiers, Support Vector Machine, Logistic Regression, Random Forest, ROBERTA, and ALBERTv2.",
+ "primary": "cs.SE"
+}

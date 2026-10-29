@@ -1,0 +1,17 @@
+{
+ "id": "2410.00169",
+ "title": "(Almost) Smooth Sailing: Towards Numerical Stability of Neural Networks Through Differentiable Regularization of the Condition Number",
+ "authors": [
+  "Rossen Nenov",
+  "Daniel Haider",
+  "Peter Balazs"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 1,
+ "latest_date": "2024-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML24 Workshop: Differentiable Almost Everything: Differentiable Relaxations, Algorithms, Operators, and Simulators",
+ "abstract": "Maintaining numerical stability in machine learning models is crucial for their reliability and performance. One approach to maintain stability of a network layer is to integrate the condition number of the weight matrix as a regularizing term into the optimization algorithm. However, due to its discontinuous nature and lack of differentiability the condition number is not suitable for a gradient descent approach. This paper introduces a novel regularizer that is provably differentiable almost everywhere and promotes matrices with low condition numbers. In particular, we derive a formula for the gradient of this regularizer which can be easily implemented and integrated into existing optimization algorithms. We show the advantages of this approach for noisy classification and denoising of MNIST images.",
+ "primary": "cs.LG"
+}

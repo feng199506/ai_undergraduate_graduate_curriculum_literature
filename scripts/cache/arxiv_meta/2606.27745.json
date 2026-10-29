@@ -1,0 +1,16 @@
+{
+ "id": "2606.27745",
+ "title": "Panoramic Scene Understanding: A Survey from Distortion-Aware Engineering to Sphere-Native Modeling",
+ "authors": [
+  "Qinfeng Zhu",
+  "Lei Fan"
+ ],
+ "v1_date": "2026-06-26",
+ "latest_version": 2,
+ "latest_date": "2026-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Panoramic images capture the full visual sphere in a frame, offering context unavailable to conventional cameras. Yet this completeness has an unavoidable geometric cost: the 2-sphere cannot be faithfully mapped to the plane, and every projection introduces distortions that challenge standard vision architectures. This survey traces panoramic scene understanding from projection-based adaptation and distortion-aware engineering to sphere-native modeling, reflecting increasing commitment to spherical geometry. Foundation models form a fourth family, geometry-aware tokenization, which adapts the input interface while reusing perspective-pretrained weights. We review these approaches across five task families: dense prediction, unified multi-task understanding, open-world perception, vision-language reasoning, and dynamic video analysis. Across tasks, the same shift toward spherical geometry recurs. In practice, however, the field has converged not on the strongest sphere-native operators, which are exactly rotation-equivariant but cannot reuse perspective-pretrained backbones and thus have not scaled, but on a compatibility-preserving middle ground combining moderate geometric awareness with large pretrained models. This commitment is uneven: deepest in dense prediction and shallowest in dynamic perception, where methods are spatially sphere-aware yet temporally planar. Foundation-model adaptation has advanced panoramic depth fastest, while layout, surface-normal, and video-level understanding remain largely unexplored. No panoramic foundation model has yet been pretrained on spherical data. We identify five evaluation gaps: spherical-area-weighted metrics, seam-consistency tests, polar-robustness stratification, cross-projection generalization, and standardized open-world protocols. We conclude with a six-point roadmap toward general-purpose panoramic intelligence.",
+ "primary": "cs.CV"
+}

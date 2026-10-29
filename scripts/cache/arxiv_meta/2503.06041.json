@@ -1,0 +1,16 @@
+{
+ "id": "2503.06041",
+ "title": "Randomized Quasi-Monte Carlo Features for Kernel Approximation",
+ "authors": [
+  "Yian Huang",
+  "Zhen Huang"
+ ],
+ "v1_date": "2025-03-08",
+ "latest_version": 2,
+ "latest_date": "2025-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the application of randomized quasi-Monte Carlo (RQMC) methods in random feature approximations for kernel-based learning. Compared to the classical Monte Carlo (MC) approach \\citep{rahimi2007random}, RQMC improves the deterministic approximation error bound from $O_P(1/\\sqrt{M})$ to $O(1/M)$ (up to logarithmic factors), matching the rate achieved by quasi-Monte Carlo (QMC) methods \\citep{huangquasi}. Beyond the deterministic error bound guarantee, we further establish additional average error bounds for RQMC features: some requiring weaker assumptions and others significantly reducing the exponent of the logarithmic factor. In the context of kernel ridge regression, we show that RQMC features offer computational advantages over MC features while preserving the same statistical error rate. Empirical results further show that RQMC methods maintain stable performance in both low and moderately high-dimensional settings, unlike QMC methods, which suffer from significant performance degradation as dimension increases.",
+ "primary": "stat.ME"
+}

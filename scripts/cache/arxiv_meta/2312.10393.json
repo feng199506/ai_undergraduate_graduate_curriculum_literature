@@ -1,0 +1,16 @@
+{
+ "id": "2312.10393",
+ "title": "Lecture Notes in Probabilistic Diffusion Models",
+ "authors": [
+  "Inga Strümke",
+  "Helge Langseth"
+ ],
+ "v1_date": "2023-12-16",
+ "latest_version": 1,
+ "latest_date": "2023-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion models are loosely modelled based on non-equilibrium thermodynamics, where \\textit{diffusion} refers to particles flowing from high-concentration regions towards low-concentration regions. In statistics, the meaning is quite similar, namely the process of transforming a complex distribution $p_{\\text{complex}}$ on $\\mathbb{R}^d$ to a simple distribution $p_{\\text{prior}}$ on the same domain. This constitutes a Markov chain of diffusion steps of slowly adding random noise to data, followed by a reverse diffusion process in which the data is reconstructed from the noise. The diffusion model learns the data manifold to which the original and thus the reconstructed data samples belong, by training on a large number of data points. While the diffusion process pushes a data sample off the data manifold, the reverse process finds a trajectory back to the data manifold. Diffusion models have -- unlike variational autoencoder and flow models -- latent variables with the same dimensionality as the original data, and they are currently\\footnote{At the time of writing, 2023.} outperforming other approaches -- including Generative Adversarial Networks (GANs) -- to modelling the distribution of, e.g., natural images.",
+ "primary": "cs.LG"
+}

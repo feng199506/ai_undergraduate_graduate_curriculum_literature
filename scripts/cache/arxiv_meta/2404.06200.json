@@ -1,0 +1,17 @@
+{
+ "id": "2404.06200",
+ "title": "Further Understanding of a Local Gaussian Process Approximation: Characterising Convergence in the Finite Regime",
+ "authors": [
+  "Anthony Stephenson",
+  "Robert Allison",
+  "Edward Pyzer-Knapp"
+ ],
+ "v1_date": "2024-04-09",
+ "latest_version": 1,
+ "latest_date": "2024-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages (10 main text), 8 figures",
+ "abstract": "We show that common choices of kernel functions for a highly accurate and massively scalable nearest-neighbour based GP regression model (GPnn: \\cite{GPnn}) exhibit gradual convergence to asymptotic behaviour as dataset-size $n$ increases. For isotropic kernels such as Matérn and squared-exponential, an upper bound on the predictive MSE can be obtained as $O(n^{-\\frac{p}{d}})$ for input dimension $d$, $p$ dictated by the kernel (and $d>p$) and fixed number of nearest-neighbours $m$ with minimal assumptions on the input distribution. Similar bounds can be found under model misspecification and combined to give overall rates of convergence of both MSE and an important calibration metric. We show that lower bounds on $n$ can be given in terms of $m$, $l$, $p$, $d$, a tolerance $\\varepsilon$ and a probability $δ$. When $m$ is chosen to be $O(n^{\\frac{p}{p+d}})$ minimax optimal rates of convergence are attained. Finally, we demonstrate empirical performance and show that in many cases convergence occurs faster than the upper bounds given here.",
+ "primary": "math.ST"
+}

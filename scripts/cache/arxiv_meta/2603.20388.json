@@ -1,0 +1,17 @@
+{
+ "id": "2603.20388",
+ "title": "From Cross-Validation to SURE: Asymptotic Risk of Tuned Regularized Estimators",
+ "authors": [
+  "Karun Adusumilli",
+  "Maximilian Kasy",
+  "Ashia Wilson"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 2,
+ "latest_date": "2026-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We derive the asymptotic risk function of regularized empirical risk minimization (ERM) estimators tuned by $n$-fold cross-validation (CV). The out-of-sample prediction loss of such estimators converges in distribution to the squared-error loss (risk function) of shrinkage estimators in the normal means model, tuned by Stein's unbiased risk estimate (SURE). This risk function provides a more fine-grained picture of predictive performance than uniform bounds on worst-case regret, which are common in learning theory: it quantifies how risk varies with the true parameter. As key intermediate steps, we show that (i) $n$-fold CV converges uniformly to SURE, and (ii) while SURE typically has multiple local minima, its global minimum is generically well separated. Well-separation ensures that uniform convergence of CV to SURE translates into convergence of the tuning parameter chosen by CV to that chosen by SURE.",
+ "primary": "math.ST"
+}

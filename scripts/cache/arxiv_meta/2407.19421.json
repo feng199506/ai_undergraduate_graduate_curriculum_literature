@@ -1,0 +1,20 @@
+{
+ "id": "2407.19421",
+ "title": "Improved physics-informed neural network in mitigating gradient related failures",
+ "authors": [
+  "Pancheng Niu",
+  "Yongming Chen",
+  "Jun Guo",
+  "Yuqian Zhou",
+  "Minfu Feng",
+  "Yanchao Shi"
+ ],
+ "v1_date": "2024-07-28",
+ "latest_version": 1,
+ "latest_date": "2024-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Elsevier-LaTeX v1.2, 26 pages with 12 figures",
+ "abstract": "Physics-informed neural networks (PINNs) integrate fundamental physical principles with advanced data-driven techniques, driving significant advancements in scientific computing. However, PINNs face persistent challenges with stiffness in gradient flow, which limits their predictive capabilities. This paper presents an improved PINN (I-PINN) to mitigate gradient-related failures. The core of I-PINN is to combine the respective strengths of neural networks with an improved architecture and adaptive weights containingupper bounds. The capability to enhance accuracy by at least one order of magnitude and accelerate convergence, without introducing extra computational complexity relative to the baseline model, is achieved by I-PINN. Numerical experiments with a variety of benchmarks illustrate the improved accuracy and generalization of I-PINN. The supporting data and code are accessible at https://github.com/PanChengN/I-PINN.git, enabling broader research engagement.",
+ "primary": "cs.LG"
+}

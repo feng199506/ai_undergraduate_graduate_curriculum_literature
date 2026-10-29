@@ -1,0 +1,21 @@
+{
+ "id": "2603.20527",
+ "title": "RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization",
+ "authors": [
+  "Shenyang Deng",
+  "Zhuoli Ouyang",
+  "Tianyu Pang",
+  "Zihang Liu",
+  "Ruochen Jin",
+  "Shuhua Yu",
+  "Yaoqing Yang"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 3,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The 43rd International Conference on Machine Learning (ICML 2026)",
+ "abstract": "Preconditioned adaptive methods have gained significant attention for training deep neural networks, as they capture rich curvature information of the loss landscape. The central challenge in this field lies in balancing preconditioning effectiveness with computational efficiency of implementing the preconditioner. Among recent advances, Muon stands out by using Newton-Schulz iteration to obtain preconditioned updates without explicitly constructing the preconditioning matrix. Despite its advantages, the efficiency of Muon still leaves room for further improvement. In this paper, we introduce RMNP (Row Momentum Normalized Preconditioning), an optimizer that replaces Newton-Schulz iteration with a simple row-wise ($d_{\\text{in}}$) $\\ell_2$ normalization operation, motivated by the empirically observed diagonal block structure of the Transformer layerwise Hessian. We empirically verified that orthogonalization and row-wise (on input dim) $\\ell_2$ normalization are asymptotically equivalent in the case of the transformer. This substitution reduces the per-iteration computational complexity from ${O}(mn\\cdot\\min(m,n))$ to ${O}(mn)$ for an $m\\times n$ weight matrix while maintaining comparable optimization performance. Theoretically, we establish convergence guarantees for RMNP in the non-convex setting that match recent results for Muon optimizers, achieving the minimax optimal complexity. Extensive experiments on large language model pretraining show that RMNP delivers competitive optimization performance compared with Muon while substantially reducing preconditioning wall-clock time. Our code is available at https://github.com/Dominator-Index/RMNP.",
+ "primary": "cs.LG"
+}

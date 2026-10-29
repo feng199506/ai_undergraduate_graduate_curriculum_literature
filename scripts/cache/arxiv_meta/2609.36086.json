@@ -1,0 +1,17 @@
+{
+ "id": "2609.36086",
+ "title": "PADMÉ: Preference Alignment Data Synthesis for Meta-Evaluation of LM Agent Evaluators",
+ "authors": [
+  "Cheng Chang",
+  "Yining Mao",
+  "Peng Qi"
+ ],
+ "v1_date": "2026-09-28",
+ "latest_version": 1,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the NeurIPS 2026 Workshop TAE (Trust-AI-Eval): Can We Trust AI Evaluation? 27 pages, 3 figures. Code and data at https://github.com/chc012/padme",
+ "abstract": "Language models are frequently employed to evaluate other language models. An LM evaluator scoring agentic behaviors across multiple criteria is valuable, provided that its decisions align with human judgment. We call the problem of evaluating this alignment Meta-Evaluation. Tackling it directly is difficult: collecting human data is expensive, absolute scoring is hard to align, and using an LM meta-evaluator recurses the question of trustworthiness. We adopt a reformulation of meta-evaluation as a preference judgment problem: rather than comparing human and LM evaluator scores of a trajectory, we ask whether their implied preferences align. Building on this, we introduce PADMÉ, a data synthesis method that generates reliable criterion-based meta-evaluation data for agentic settings. PADMÉ uses only small language models, requires no human involvement during evaluations, and operates under a low computational budget. We build a prototype of PADMÉ and synthesize a dataset of 1,000 samples across four agentic domains and three evaluation criteria. Human validation on a 150-sample subset demonstrates that PADMÉ improves agreement with human judgment from 73% to 85% over a naive baseline. Meta-evaluating 25 common models with our dataset demonstrates the correlations between evaluation performance and scoring granularity, leniency, and model size, among other factors.",
+ "primary": "cs.CL"
+}

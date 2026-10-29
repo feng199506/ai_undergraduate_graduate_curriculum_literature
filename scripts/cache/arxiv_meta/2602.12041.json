@@ -1,0 +1,21 @@
+{
+ "id": "2602.12041",
+ "title": "Compress, Cross and Scale: Multi-Level Compression Cross Networks for Efficient Scaling in Recommender Systems",
+ "authors": [
+  "Heng Yu",
+  "Xiangjun Zhou",
+  "Jie Xia",
+  "Heng Zhao",
+  "Anxin Wu",
+  "Yu Zhao",
+  "Dongying Kong"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 1,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 3 figures",
+ "abstract": "Modeling high-order feature interactions efficiently is a central challenge in click-through rate and conversion rate prediction. Modern industrial recommender systems are predominantly built upon deep learning recommendation models, where the interaction backbone plays a critical role in determining both predictive performance and system efficiency. However, existing interaction modules often struggle to simultaneously achieve strong interaction capacity, high computational efficiency, and good scalability, resulting in limited ROI when models are scaled under strict production constraints. In this work, we propose MLCC, a structured feature interaction architecture that organizes feature crosses through hierarchical compression and dynamic composition, which can efficiently capture high-order feature dependencies while maintaining favorable computational complexity. We further introduce MC-MLCC, a Multi-Channel extension that decomposes feature interactions into parallel subspaces, enabling efficient horizontal scaling with improved representation capacity and significantly reduced parameter growth. Extensive experiments on three public benchmarks and a large-scale industrial dataset show that our proposed models consistently outperform strong DLRM-style baselines by up to 0.52 AUC, while reducing model parameters and FLOPs by up to 26$\\times$ under comparable performance. Comprehensive scaling analyses demonstrate stable and predictable scaling behavior across embedding dimension, head number, and channel count, with channel-based scaling achieving substantially better efficiency than conventional embedding inflation. Finally, online A/B testing on a real-world advertising platform validates the practical effectiveness of our approach, which has been widely adopted in Bilibili advertising system under strict latency and resource constraints.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2505.13738",
+ "title": "Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training",
+ "authors": [
+  "Shane Bergsma",
+  "Nolan Dey",
+  "Gurpreet Gosal",
+  "Gavia Gray",
+  "Daria Soboleva",
+  "Joel Hestness"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 2,
+ "latest_date": "2025-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025",
+ "abstract": "Efficient LLM pre-training requires well-tuned hyperparameters (HPs), including learning rate $η$ and weight decay $λ$. We study scaling laws for HPs: formulas for how to scale HPs as we scale model size N, dataset size D, and batch size B. Recent work suggests the AdamW timescale, $τ= B/(ηλD)$, should remain constant across training settings, and we verify the implication that optimal $λ$ scales linearly with B, for a fixed N and D. However, as N and D scale, we show optimal $τ$ obeys a precise power law in the tokens-per-parameter ratio, D/N. This law thus provides a method to accurately predict $λ$opt in advance of large-scale training. We also study scaling laws for optimal batch size Bopt (the B enabling lowest loss at a given N,D) and critical batch size Bcrit (the B beyond which further data parallelism becomes ineffective). In contrast to prior work, we find both Bopt and Bcrit scale as power laws in D, independent of model size, N. Finally, we analyze how these findings inform the real-world selection of Pareto-optimal N and D under dual training time and compute objectives. All experiments were run on Cerebras CS-3 systems.",
+ "primary": "cs.LG"
+}

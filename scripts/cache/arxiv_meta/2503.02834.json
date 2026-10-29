@@ -1,0 +1,19 @@
+{
+ "id": "2503.02834",
+ "title": "MuBlE: MuJoCo and Blender simulation Environment and Benchmark for Task Planning in Robot Manipulation",
+ "authors": [
+  "Michal Nazarczuk",
+  "Karla Stepanova",
+  "Jan Kristof Behrens",
+  "Matej Hoffmann",
+  "Krystian Mikolajczyk"
+ ],
+ "v1_date": "2025-03-04",
+ "latest_version": 1,
+ "latest_date": "2025-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "https://github.com/michaal94/MuBlE. arXiv admin note: substantial text overlap with arXiv:2404.15194",
+ "abstract": "Current embodied reasoning agents struggle to plan for long-horizon tasks that require to physically interact with the world to obtain the necessary information (e.g. 'sort the objects from lightest to heaviest'). The improvement of the capabilities of such an agent is highly dependent on the availability of relevant training environments. In order to facilitate the development of such systems, we introduce a novel simulation environment (built on top of robosuite) that makes use of the MuJoCo physics engine and high-quality renderer Blender to provide realistic visual observations that are also accurate to the physical state of the scene. It is the first simulator focusing on long-horizon robot manipulation tasks preserving accurate physics modeling. MuBlE can generate mutlimodal data for training and enable design of closed-loop methods through environment interaction on two levels: visual - action loop, and control - physics loop. Together with the simulator, we propose SHOP-VRB2, a new benchmark composed of 10 classes of multi-step reasoning scenarios that require simultaneous visual and physical measurements.",
+ "primary": "cs.RO"
+}

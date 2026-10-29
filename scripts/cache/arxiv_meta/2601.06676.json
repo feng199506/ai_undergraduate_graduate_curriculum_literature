@@ -1,0 +1,21 @@
+{
+ "id": "2601.06676",
+ "title": "IDRBench: Benchmarking the Interactive Capabilities of Deep Research Agents",
+ "authors": [
+  "Yingchaojie Feng",
+  "Qiang Huang",
+  "Xiaoya Xie",
+  "Zhaorui Yang",
+  "Jun Yu",
+  "Wei Chen",
+  "Anthony K. H. Tung"
+ ],
+ "v1_date": "2026-01-10",
+ "latest_version": 3,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 9 figures, 10 tables",
+ "abstract": "Large Language Model (LLM)-based deep research agents perform multi-step reasoning, web exploration, and long-form report generation. In these long-horizon workflows, early deviations from user intent can misdirect research and propagate through planning, search, and synthesis, making timely interaction essential. However, existing benchmarks primarily treat deep research as a static input-output task, overlooking agents' ability to elicit and use user feedback. We introduce IDRBench, a benchmark for evaluating interactive deep research with controlled opportunities for clarification. Within a common workflow and stage-wise interaction budget, IDRBench compares autonomous and interactive trajectories, measuring interaction benefit through changes in task-specific report alignment and interaction cost through turns and tokens. Comprehensive experiments on 100 tasks with seven proprietary and open-weight LLMs show that interaction improves all five alignment measures for every model, yielding an average gain of 6.39 points, while revealing distinct trade-offs among autonomous performance, alignment gain, and communication cost. At the task level, interaction improves performance in 74.4% of cases but degrades it in 19.9%, demonstrating that access to clarification alone does not guarantee better outcomes: success depends on what agents ask and how effectively they incorporate the resulting feedback.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2506.12183",
+ "title": "Temporal cross-validation impacts multivariate time series subsequence anomaly detection evaluation",
+ "authors": [
+  "Steven C. Hespeler",
+  "Pablo Moriano",
+  "Mingyan Li",
+  "Samuel C. Hollifield"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 1,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 6 figures, 5 tables",
+ "abstract": "Evaluating anomaly detection in multivariate time series (MTS) requires careful consideration of temporal dependencies, particularly when detecting subsequence anomalies common in fault detection scenarios. While time series cross-validation (TSCV) techniques aim to preserve temporal ordering during model evaluation, their impact on classifier performance remains underexplored. This study systematically investigates the effect of TSCV strategy on the precision-recall characteristics of classifiers trained to detect fault-like anomalies in MTS datasets. We compare walk-forward (WF) and sliding window (SW) methods across a range of validation partition configurations and classifier types, including shallow learners and deep learning (DL) classifiers. Results show that SW consistently yields higher median AUC-PR scores and reduced fold-to-fold performance variance, particularly for deep architectures sensitive to localized temporal continuity. Furthermore, we find that classifier generalization is sensitive to the number and structure of temporal partitions, with overlapping windows preserving fault signatures more effectively at lower fold counts. A classifier-level stratified analysis reveals that certain algorithms, such as random forests (RF), maintain stable performance across validation schemes, whereas others exhibit marked sensitivity. This study demonstrates that TSCV design in benchmarking anomaly detection models on streaming time series and provide guidance for selecting evaluation strategies in temporally structured learning environments.",
+ "primary": "stat.ML"
+}

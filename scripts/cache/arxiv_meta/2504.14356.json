@@ -1,0 +1,18 @@
+{
+ "id": "2504.14356",
+ "title": "Mathematical Programming Models for Exact and Interpretable Formulation of Neural Networks",
+ "authors": [
+  "Masoud Ataei",
+  "Edrin Hasaj",
+  "Jacob Gipp",
+  "Sepideh Forouzi"
+ ],
+ "v1_date": "2025-04-19",
+ "latest_version": 1,
+ "latest_date": "2025-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a unified mixed-integer programming framework for training sparse and interpretable neural networks. We develop exact formulations for both fully connected and convolutional architectures by modeling nonlinearities such as ReLU activations through binary variables and encoding structural sparsity via filter- and layer-level pruning constraints. The resulting models integrate parameter learning, architecture selection, and structural regularization within a single optimization problem, yielding globally optimal solutions with respect to a composite objective that balances prediction accuracy, weight sparsity, and architectural compactness. The mixed-integer programming formulation accommodates piecewise-linear operations, including max pooling and activation gating, and permits precise enforcement of logic-based or domain-specific constraints. By incorporating considerations of interpretability, sparsity, and verifiability directly into the training process, the proposed framework bridges a range of research areas including explainable artificial intelligence, symbolic reasoning, and formal verification.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2405.20973",
+ "title": "LCQ: Low-Rank Codebook based Quantization for Large Language Models",
+ "authors": [
+  "Wen-Pu Cai",
+  "Ming-Yang Li",
+  "Wu-Jun Li"
+ ],
+ "v1_date": "2024-05-31",
+ "latest_version": 2,
+ "latest_date": "2025-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 4 figures",
+ "abstract": "Large language models~(LLMs) have recently demonstrated promising performance in many tasks. However, the high storage and computational cost of LLMs has become a challenge for deploying LLMs. Weight quantization has been widely used for model compression, which can reduce both storage and computational cost. Most existing weight quantization methods for LLMs use a rank-one codebook for quantization, which results in substantial accuracy loss when the compression ratio is high. In this paper, we propose a novel weight quantization method, called low-rank codebook based quantization~(LCQ), for LLMs. LCQ adopts a low-rank codebook, the rank of which can be larger than one, for quantization. Experiments show that LCQ can achieve better accuracy than existing methods with a negligibly extra storage cost.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2602.03394",
+ "title": "Improving the Linearized Laplace Approximation via Quadratic Approximations",
+ "authors": [
+  "Pedro Jiménez",
+  "Luis A. Ortega",
+  "Pablo Morales-Álvarez",
+  "Daniel Hernández-Lobato"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 1 table. Accepted at European Symposium on Artificial Neural Networks (ESANN 2026) as poster presentation",
+ "abstract": "Deep neural networks (DNNs) often produce overconfident out-of-distribution predictions, motivating Bayesian uncertainty quantification. The Linearized Laplace Approximation (LLA) achieves this by linearizing the DNN and applying Laplace inference to the resulting model. Importantly, the linear model is also used for prediction. We argue this linearization in the posterior may degrade fidelity to the true Laplace approximation. To alleviate this problem, without increasing significantly the computational cost, we propose the Quadratic Laplace Approximation (QLA). QLA approximates each second order factor in the approximate Laplace log-posterior using a rank-one factor obtained via efficient power iterations. QLA is expected to yield a posterior precision closer to that of the full Laplace without forming the full Hessian, which is typically intractable. For prediction, QLA also uses the linearized model. Empirically, QLA yields modest yet consistent uncertainty estimation improvements over LLA on five regression datasets.",
+ "primary": "stat.ML"
+}

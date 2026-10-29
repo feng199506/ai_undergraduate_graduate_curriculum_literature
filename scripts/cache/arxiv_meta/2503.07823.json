@@ -1,0 +1,17 @@
+{
+ "id": "2503.07823",
+ "title": "Reproducibility and Artifact Consistency of the SIGIR 2022 Recommender Systems Papers Based on Message Passing",
+ "authors": [
+  "Maurizio Ferrari Dacrema",
+  "Michael Benigni",
+  "Nicola Ferro"
+ ],
+ "v1_date": "2025-03-10",
+ "latest_version": 2,
+ "latest_date": "2026-03-27",
+ "journal_ref": "ACM Transactions on Information Systems (2025)",
+ "doi": "10.1145/3772275",
+ "comment": "",
+ "abstract": "Graph-based techniques relying on neural networks and embeddings have gained attention as a way to develop Recommender Systems (RS) with several papers on the topic presented at SIGIR 2022 and 2023. Given the importance of ensuring that published research is methodologically sound and reproducible, in this paper we analyze 10 graph-based RS papers, most of which were published at SIGIR 2022, and assess their impact on subsequent work published in SIGIR 2023. Our analysis reveals several critical points that require attention: (i) the prevalence of bad practices, such as erroneous data splits or information leakage between training and testing data, which call into question the validity of the results; (ii) frequent inconsistencies between the provided artifacts (source code and data) and their descriptions in the paper, causing uncertainty about what is actually being evaluated; and (iii) the preference for new or complex baselines that are weaker compared to simpler ones, creating the impression of continuous improvement even when, particularly for the Amazon-Book dataset, the state-of-the-art has significantly worsened. Due to these issues, we are unable to confirm the claims made in most of the papers that we examined and attempted to reproduce.",
+ "primary": "cs.IR"
+}

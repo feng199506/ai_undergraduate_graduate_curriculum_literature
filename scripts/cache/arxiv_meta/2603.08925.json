@@ -1,0 +1,15 @@
+{
+ "id": "2603.08925",
+ "title": "Functional Bias and Tangent-Space Geometry in Variational Inference",
+ "authors": [
+  "Sean Plummer"
+ ],
+ "v1_date": "2026-03-09",
+ "latest_version": 1,
+ "latest_date": "2026-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variational inference approximates Bayesian posterior distributions by projecting onto a tractable family of distributions. While most theoretical analyses evaluate the quality of this approximation using global divergence measures, many applications rely on specific posterior summaries such as expectations, variances, or tail probabilities. We develop a geometric framework for analyzing the bias of posterior functionals under variational approximations. We show that the leading-order bias of a posterior functional is determined by its component orthogonal to the variational tangent space induced by the variational family. Functionals aligned with this space incur only second-order bias. For structured mean-field variational families we characterize the tangent space explicitly and show that it consists of block-additive functions of the parameter blocks, while interaction components determine the leading-order bias. Under standard local asymptotic normality conditions we further derive explicit asymptotic expansions for the bias of posterior functionals and show that omitted interaction directions produce first-order distortion of cross-block dependence measures. These results provide a geometric explanation for several well-known properties of mean-field variational inference, including the systematic distortion of cross-block dependencies.",
+ "primary": "math.ST"
+}

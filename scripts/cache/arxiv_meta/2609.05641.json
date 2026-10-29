@@ -1,0 +1,19 @@
+{
+ "id": "2609.05641",
+ "title": "A Nuclear-Norm Lower Bound for Dithered Scalar Quantization of Matrix Products",
+ "authors": [
+  "Piyush Sao",
+  "Narasinga Miniskar",
+  "Pedro Valero-Lara",
+  "Keita Teranishi",
+  "Sudip Seal"
+ ],
+ "v1_date": "2026-09-04",
+ "latest_version": 1,
+ "latest_date": "2026-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 2 figures. Code: https://github.com/piyush314/gauge-floors",
+ "abstract": "We consider the problem of minimizing error in quantized matrix multiplication $C=AB$. Scalar quantization of the factors introduces rounding errors whose scale depends on the maximum absolute entries -- the ranges -- of their rows and columns. These ranges determine the quantization grid steps. To reduce the error, we optimize over product-preserving transformations that alter the factor ranges and grid steps without changing $C$. Specifically, we seek the smallest leading expected squared error over invertible inner changes of basis and orthogonal outer rotations. Under independent, zero-mean subtractive dither noise on an unbounded lattice, we prove the output-only bound $E_{\\rm lead} \\ge (c_A+c_B)/K \\Vert AB\\Vert_*^2$, where $K$ is the inner dimension, $c_A$ and $c_B$ are normalized noise variances, and $\\Vert AB\\Vert_*$ is the nuclear norm. The bound is tight: an SVD-aligned Hadamard construction attains the infimum whenever a Hadamard matrix of order $K$ exists, including every power of two, while an SVD-aligned DCT construction is within a factor of two for every $K$. Without outer rotations, Gram-matrix balancing minimizes factorization energy, and finite-set flattening achieves the bound within $C\\log(K(m+n))$. For power-of-two $K$, conditional expectations deterministically select the Hadamard signs in $O((m+n)K^2)$ exact-real operations. Synthetic experiments verify both constructions and illustrate the tradeoff between regularization and conditioning. These results characterize the full-gauge optimum and quantify the cost of preserving row and column indices.",
+ "primary": "cs.IT"
+}

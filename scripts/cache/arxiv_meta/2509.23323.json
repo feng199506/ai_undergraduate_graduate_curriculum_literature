@@ -1,0 +1,19 @@
+{
+ "id": "2509.23323",
+ "title": "LLM Interpretability with Identifiable Temporal-Instantaneous Representation",
+ "authors": [
+  "Xiangchen Song",
+  "Jiaqi Sun",
+  "Zijian Li",
+  "Yujia Zheng",
+  "Kun Zhang"
+ ],
+ "v1_date": "2025-09-27",
+ "latest_version": 2,
+ "latest_date": "2026-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025",
+ "abstract": "Despite Large Language Models' remarkable capabilities, understanding their internal representations remains challenging. Mechanistic interpretability tools such as sparse autoencoders (SAEs) were developed to extract interpretable features from LLMs but lack temporal dependency modeling, instantaneous relation representation, and more importantly theoretical guarantees, undermining both the theoretical foundations and the practical confidence necessary for subsequent analyses. While causal representation learning (CRL) offers theoretically grounded approaches for uncovering latent concepts, existing methods cannot scale to LLMs' rich conceptual space due to inefficient computation. To bridge the gap, we introduce an identifiable temporal causal representation learning framework specifically designed for LLMs' high-dimensional concept space, capturing both time-delayed and instantaneous causal relations. Our approach provides theoretical guarantees and demonstrates efficacy on synthetic datasets scaled to match real-world complexity. By extending SAE techniques with our temporal causal framework, we successfully discover meaningful concept relationships in LLM activations. Our findings show that modeling both temporal and instantaneous conceptual relationships advances the interpretability of LLMs.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2410.06615",
+ "title": "QA-Calibration of Language Model Confidence Scores",
+ "authors": [
+  "Putra Manggala",
+  "Atalanti Mastakouri",
+  "Elke Kirschbaum",
+  "Shiva Prasad Kasiviswanathan",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2024-10-09",
+ "latest_version": 2,
+ "latest_date": "2025-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To use generative question-and-answering (QA) systems for decision-making and in any critical application, these systems need to provide well-calibrated confidence scores that reflect the correctness of their answers. Existing calibration methods aim to ensure that the confidence score is, *on average*, indicative of the likelihood that the answer is correct. We argue, however, that this standard (average-case) notion of calibration is difficult to interpret for decision-making in generative QA. To address this, we generalize the standard notion of average calibration and introduce QA-calibration, which ensures calibration holds across different question-and-answer groups. We then propose discretized posthoc calibration schemes for achieving QA-calibration. We establish distribution-free guarantees on the performance of this method and validate our method on confidence scores returned by elicitation prompts across multiple QA benchmarks and large language models (LLMs).",
+ "primary": "cs.CL"
+}

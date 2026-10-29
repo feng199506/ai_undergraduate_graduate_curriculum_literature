@@ -1,0 +1,17 @@
+{
+ "id": "2610.25710",
+ "title": "Evidence Sufficiency and Model Comparisons in MexRegQA: An Item-Level Audit of Mexican-Spanish Regulatory QA",
+ "authors": [
+  "Fred Hu",
+  "Yeqi Wang",
+  "Xing Zhou"
+ ],
+ "v1_date": "2026-10-19",
+ "latest_version": 1,
+ "latest_date": "2026-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages. Companion artifacts are prepared but not yet publicly available",
+ "abstract": "Similarity-gated coverage does not establish that retrieved evidence contains the facts needed to answer a question. We audit Mexican-Spanish financial-regulatory QA and find that 35 of 135 covered items lack some or all load-bearing facts. On the post-hoc full-evidence slice (n=98), eleven prompt-matched models score 95-98/98 and none differs significantly from the anchor; this does not establish equivalence. Removing evidence-defective items changes the nominal significance status of 14 of 55 pairwise comparisons. On 56 zero-evidence items, accuracy spans 33.9%-89.3%. Removing evidence from the audited items under an abstention-permitting prompt reduces accuracy by 63-81 percentage points in all ten tested legs, with no recovered items. Building on sufficient-context research, we contribute MexRegQA v1.0: 192 items with provenance and evidence-status labels, frozen retrieval evidence for 191 evaluated items, predictions, judge outputs and offline checks. The audit was outcome-aware, the later model/panel sweep reused the same questions, and all reported scores and labels rely on machine evaluation without independent human validation. We propose releasing evidence-status labels alongside grounded QA benchmarks so that model comparisons can be examined separately from evidence availability.",
+ "primary": "cs.LG"
+}

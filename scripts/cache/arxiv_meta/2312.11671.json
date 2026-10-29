@@ -1,0 +1,27 @@
+{
+ "id": "2312.11671",
+ "title": "Evaluating Language-Model Agents on Realistic Autonomous Tasks",
+ "authors": [
+  "Megan Kinniment",
+  "Lucas Jun Koba Sato",
+  "Haoxing Du",
+  "Brian Goodrich",
+  "Max Hasin",
+  "Lawrence Chan",
+  "Luke Harold Miles",
+  "Tao R. Lin",
+  "Hjalmar Wijk",
+  "Joel Burget",
+  "Aaron Ho",
+  "Elizabeth Barnes",
+  "Paul Christiano"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 2,
+ "latest_date": "2024-01-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages",
+ "abstract": "In this report, we explore the ability of language model agents to acquire resources, create copies of themselves, and adapt to novel challenges they encounter in the wild. We refer to this cluster of capabilities as \"autonomous replication and adaptation\" or ARA. We believe that systems capable of ARA could have wide-reaching and hard-to-anticipate consequences, and that measuring and forecasting ARA may be useful for informing measures around security, monitoring, and alignment. Additionally, once a system is capable of ARA, placing bounds on a system's capabilities may become significantly more difficult. We construct four simple example agents that combine language models with tools that allow them to take actions in the world. We then evaluate these agents on 12 tasks relevant to ARA. We find that these language model agents can only complete the easiest tasks from this list, although they make some progress on the more challenging tasks. Unfortunately, these evaluations are not adequate to rule out the possibility that near-future agents will be capable of ARA. In particular, we do not think that these evaluations provide good assurance that the ``next generation'' of language models (e.g. 100x effective compute scaleup on existing models) will not yield agents capable of ARA, unless intermediate evaluations are performed during pretraining. Relatedly, we expect that fine-tuning of the existing models could produce substantially more competent agents, even if the fine-tuning is not directly targeted at ARA.",
+ "primary": "cs.CL"
+}

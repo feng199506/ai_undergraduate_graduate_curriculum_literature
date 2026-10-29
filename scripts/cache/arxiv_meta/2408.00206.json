@@ -1,0 +1,16 @@
+{
+ "id": "2408.00206",
+ "title": "Gaussian Processes Sampling with Sparse Grids under Additive Schwarz Preconditioner",
+ "authors": [
+  "Haoyuan Chen",
+  "Rui Tuo"
+ ],
+ "v1_date": "2024-08-01",
+ "latest_version": 1,
+ "latest_date": "2024-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 12 figures",
+ "abstract": "Gaussian processes (GPs) are widely used in non-parametric Bayesian modeling, and play an important role in various statistical and machine learning applications. In a variety tasks of uncertainty quantification, generating random sample paths of GPs is of interest. As GP sampling requires generating high-dimensional Gaussian random vectors, it is computationally challenging if a direct method, such as the Cholesky decomposition, is used. In this paper, we propose a scalable algorithm for sampling random realizations of the prior and posterior of GP models. The proposed algorithm leverages inducing points approximation with sparse grids, as well as additive Schwarz preconditioners, which reduce computational complexity, and ensure fast convergence. We demonstrate the efficacy and accuracy of the proposed method through a series of experiments and comparisons with other recent works.",
+ "primary": "stat.CO"
+}

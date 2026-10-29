@@ -1,0 +1,22 @@
+{
+ "id": "2607.22715",
+ "title": "Child-Oriented AIGC Video Risk Reviewing: A Benchmark and Knowledge-Supported Iterative Reasoning Framework",
+ "authors": [
+  "Lewen Mi",
+  "Manyi Li",
+  "Yuling Sun",
+  "Yufan Zhang",
+  "Yuxin Shi",
+  "Yulong Bian",
+  "Xiangxian Li",
+  "Juan Liu"
+ ],
+ "v1_date": "2026-07-21",
+ "latest_version": 1,
+ "latest_date": "2026-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid growth of Artificial Intelligence-generated content (AIGC) is reshaping video production and circulation, exposing children to an increasing volume of AIGC videos. Unlike traditionally produced videos, AIGC videos often exhibit greater uncertainty in visual details, narrative coherence, and content expression, which may introduce developmentally inappropriate risks for children. However, existing video safety research is largely designed for general violation detection from an adult perspective and remains insufficient for identifying the fine-grained, implicit, and context-dependent risks that children may encounter when viewing AIGC videos. To address this gap, we study child-oriented AIGC video reviewing, making three contributions. First, we construct CAVSR, a benchmark of 605 real-world videos collected from multiple platforms, and develop a hierarchical risk taxonomy comprising 6 top-level categories and 26 fine-grained labels to support systematic evaluation of children's viewing risks. Second, we propose QVRS-E, a knowledge- and experience-augmented video reviewing framework that combines multi-agent collaboration with expert and experiential knowledge to support targeted evidence acquisition and fact-grounded reviewing decisions. Third, extensive experiments demonstrate that our method significantly enhances the reviewing of child-related risks integrated with vision-language models, and yields more robust review reports.",
+ "primary": "cs.CV"
+}

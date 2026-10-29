@@ -1,0 +1,19 @@
+{
+ "id": "2512.18434",
+ "title": "Efficient Optimization of Hierarchical Identifiers for Generative Recommendation",
+ "authors": [
+  "Federica Valeau",
+  "Odysseas Boufalis",
+  "Polytimi Gkotsi",
+  "Joshua Rosenthal",
+  "David Vos"
+ ],
+ "v1_date": "2025-12-20",
+ "latest_version": 2,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ECIR 2026 Reproducibility Track",
+ "abstract": "SEATER is a generative retrieval model that improves recommendation inference efficiency and retrieval quality by utilizing balanced tree-structured item identifiers and contrastive training objectives. We reproduce and validate SEATER's reported improvements in retrieval quality over strong baselines across all datasets from the original work, and extend the evaluation to Yambda, a large-scale music recommendation dataset. Our experiments verify SEATER's strong performance, but show that its tree construction step during training becomes a major bottleneck as the number of items grows. To address this, we implement and evaluate two alternative construction algorithms: a greedy method optimized for minimal build time, and a hybrid method that combines greedy clustering at high levels with more precise grouping at lower levels. The greedy method reduces tree construction time to less than 2% of the original with only a minor drop in quality on the dataset with the largest item collection. The hybrid method achieves retrieval quality on par with the original, and even improves on the largest dataset, while cutting construction time to just 5-8%. All data and code are publicly available for full reproducibility at https://github.com/joshrosie/re-seater.",
+ "primary": "cs.IR"
+}

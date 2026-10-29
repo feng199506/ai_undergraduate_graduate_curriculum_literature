@@ -1,0 +1,18 @@
+{
+ "id": "2408.10419",
+ "title": "Second-Order Forward-Mode Automatic Differentiation for Optimization",
+ "authors": [
+  "Adam D. Cobb",
+  "Atılım Güneş Baydin",
+  "Barak A. Pearlmutter",
+  "Susmit Jha"
+ ],
+ "v1_date": "2024-08-19",
+ "latest_version": 1,
+ "latest_date": "2024-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 8 figures",
+ "abstract": "This paper introduces a second-order hyperplane search, a novel optimization step that generalizes a second-order line search from a line to a $k$-dimensional hyperplane. This, combined with the forward-mode stochastic gradient method, yields a second-order optimization algorithm that consists of forward passes only, completely avoiding the storage overhead of backpropagation. Unlike recent work that relies on directional derivatives (or Jacobian--Vector Products, JVPs), we use hyper-dual numbers to jointly evaluate both directional derivatives and their second-order quadratic terms. As a result, we introduce forward-mode weight perturbation with Hessian information (FoMoH). We then use FoMoH to develop a novel generalization of line search by extending it to a hyperplane search. We illustrate the utility of this extension and how it might be used to overcome some of the recent challenges of optimizing machine learning models without backpropagation. Our code is open-sourced at https://github.com/SRI-CSL/fomoh.",
+ "primary": "cs.LG"
+}

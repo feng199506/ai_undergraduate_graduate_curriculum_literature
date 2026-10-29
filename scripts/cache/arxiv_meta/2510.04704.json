@@ -1,0 +1,24 @@
+{
+ "id": "2510.04704",
+ "title": "AtomWorld: A Benchmark for Evaluating Spatial Reasoning in Large Language Models on Crystalline Materials",
+ "authors": [
+  "Taoyuze Lv",
+  "Alexander Chen",
+  "Fengyu Xie",
+  "Chu Wu",
+  "Jeffrey Meng",
+  "Dongzhan Zhou",
+  "Yingheng Wang",
+  "Bram Hoex",
+  "Zhicheng Zhong",
+  "Tong Xie"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 4,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have shown promising potential in scientific research, enabling tasks ranging from knowledge retrieval to property prediction. Existing science benchmarks mainly focus on perceptual or knowledge-based tasks, largely ignoring the modelling tasks, a fundamental starting point for any real scientific research. For materials science, constructing and manipulating atomic structures is one of the most creative and least automated steps. In this work, we introduce AtomWorld, a benchmark designed to evaluate the abilities of LLMs on structure modifications. The benchmark includes ten fundamental actions under four widely used modelling categories, enabling verifiable evaluation metrics. We find that Claude Opus 4.6 generally performs the best. While the success rate decreases markedly with increasing modelling complexity, with particularly low success rates (below 12\\% for rotation) for operations involving complex spatial relations. Our results suggest that contemporary LLMs are better suited as copilots for materials structure modelling rather than fully unsupervised autonomous scientific agents. Beyond evaluation, AtomWorld also serves as a testbed and playground for developing future structure-aware models, including reinforcement learning and agentic approaches.",
+ "primary": "cond-mat.mtrl-sci"
+}

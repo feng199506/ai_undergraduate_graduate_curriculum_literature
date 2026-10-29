@@ -1,0 +1,16 @@
+{
+ "id": "2610.04559",
+ "title": "Coupling Noisy Pairwise Knowledge to the DAG Posterior for Causal Discovery",
+ "authors": [
+  "Guoliang Xu",
+  "James E Corter"
+ ],
+ "v1_date": "2026-10-03",
+ "latest_version": 1,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 9 figures, including appendices",
+ "abstract": "External causal reports can improve structure learning from limited observations, but their reliability varies across sources and variable pairs. We introduce HB-NoisyKG, a Bayesian framework that combines observational data with repeated causal reports from sources such as large language models. Each report is a noisy observation of a direct pair state implied by one DAG. A feature-conditioned Beta prior pools information about pair reliability, and a shared error matrix captures systematic mistakes. Alternating inference uses the graph posterior to refine reliability estimates, which determine how reports influence subsequent graph updates. The report likelihood uses only graph pair-state marginals, so the same observation layer supports discrete and continuous likelihoods in graph-only and joint inference. Against an 80-restart no-KG baseline, HB uses at most 80 total restarts and lowers mean SHD from 22.39 to 16.06 on five discrete benchmarks. On a physical light tunnel with random variable IDs and retained descriptions, HB lowers SHD from 39.00 for no-KG to 27.30. On continuous Sachs, graph-only BGe raises AUROC by 0.121 over no-KG Top-K. In a controlled synthetic study, continued updating also reduces mean reliability estimation error and held-out report log loss compared with one-time estimation.",
+ "primary": "cs.LG"
+}

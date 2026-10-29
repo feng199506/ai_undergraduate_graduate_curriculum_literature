@@ -1,0 +1,17 @@
+{
+ "id": "2406.10650",
+ "title": "The Implicit Bias of Adam on Separable Data",
+ "authors": [
+  "Chenyang Zhang",
+  "Difan Zou",
+  "Yuan Cao"
+ ],
+ "v1_date": "2024-06-15",
+ "latest_version": 1,
+ "latest_date": "2024-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 2 figures",
+ "abstract": "Adam has become one of the most favored optimizers in deep learning problems. Despite its success in practice, numerous mysteries persist regarding its theoretical understanding. In this paper, we study the implicit bias of Adam in linear logistic regression. Specifically, we show that when the training data are linearly separable, Adam converges towards a linear classifier that achieves the maximum $\\ell_\\infty$-margin. Notably, for a general class of diminishing learning rates, this convergence occurs within polynomial time. Our result shed light on the difference between Adam and (stochastic) gradient descent from a theoretical perspective.",
+ "primary": "stat.ML"
+}

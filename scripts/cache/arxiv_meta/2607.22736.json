@@ -1,0 +1,16 @@
+{
+ "id": "2607.22736",
+ "title": "Benchmarking the Domain Gap: Model Selection Instability Under Domain Shift in Video Capsule Endoscopy",
+ "authors": [
+  "Dan Hanson",
+  "Debesh Jha"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 1,
+ "latest_date": "2026-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages",
+ "abstract": "Video capsule endoscopy (VCE) classification is typically evaluated within a single dataset, yet clinical deployment demands robustness across acquisition sources, labeling policies, and patient populations. We examine this gap using Kvasir-Capsule, Capsule Vision 2024 (CV2024), and a shared-label subset of Galar. We fine-tune a suite of general-domain pretrained backbones on the official Kvasir-Capsule folds under a standardized protocol and evaluate the same checkpoints on two non-source targets within a documented shared-label decision space. We find that the predictive value of in-domain ranking is target-dependent: Kvasir-Capsule ranking aligns more closely with Galar than with CV2024, while the two non-source targets agree only weakly. Consequently, the strongest in-domain backbone leads on one target yet falls to mid-pack on the other, and no single evaluation target reliably predicts the others. A second CV2024-trained configuration set reproduces this target-dependent instability. We conclude that capsule endoscopy model selection should report cross-target ranking stability rather than peak single-dataset performance.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2409.05755",
+ "title": "Revealing the Pitfalls and Re-Evaluating the Advancement of Heterophilic Graph Learning",
+ "authors": [
+  "Sitao Luan",
+  "Qincheng Lu",
+  "Chenqing Hua",
+  "Xinyu Wang",
+  "Jiaqi Zhu",
+  "Xiao-Wen Chang"
+ ],
+ "v1_date": "2024-09-09",
+ "latest_version": 3,
+ "latest_date": "2026-06-21",
+ "journal_ref": "35th International Conference on Artificial Neural Networks, 2026",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2407.09618",
+ "abstract": "Over the past decade, Graph Neural Networks (GNNs) have achieved great success on machine learning tasks with relational data. However, recent studies have found that heterophily can cause significant performance degradation of GNNs, especially on node-level tasks. Numerous heterophilic benchmark datasets have been put forward to validate the efficacy of heterophily-specific GNNs, and various homophily metrics have been designed to help recognize these challenging datasets. Nevertheless, there still exist multiple pitfalls that severely hinder the proper evaluation of new models and metrics: 1) lack of hyperparameter tuning; 2) insufficient evaluation on the truly challenging heterophilic datasets; 3) missing quantitative evaluation for homophily metrics on synthetic graphs. To overcome these challenges, we first train and fine-tune baseline models on $27$ most widely used benchmark datasets, and categorize them into three distinct groups: malignant, benign and ambiguous heterophilic datasets. We identify malignant and ambiguous heterophily as the truly challenging subsets of tasks, and to our best knowledge, we are the first to propose such taxonomy. Then, we re-evaluate $11$ state-of-the-arts (SOTA) GNNs, covering six popular methods, with fine-tuned hyperparameters on different groups of heterophilic datasets. Based on the model performance, we comprehensively reassess the effectiveness of different methods on heterophily. At last, we evaluate $11$ popular homophily metrics on synthetic graphs with three different graph generation approaches. To overcome the unreliability of observation-based comparison and evaluation, we conduct the first quantitative evaluation and provide detailed analysis.",
+ "primary": "cs.LG"
+}

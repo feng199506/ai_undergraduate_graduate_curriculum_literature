@@ -1,0 +1,17 @@
+{
+ "id": "2507.13608",
+ "title": "Off-Policy Evaluation and Learning for Matching Markets",
+ "authors": [
+  "Yudai Hayashi",
+  "Shuhei Goda",
+  "Yuta Saito"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 1,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "RecSys'25",
+ "abstract": "Matching users based on mutual preferences is a fundamental aspect of services driven by reciprocal recommendations, such as job search and dating applications. Although A/B tests remain the gold standard for evaluating new policies in recommender systems for matching markets, it is costly and impractical for frequent policy updates. Off-Policy Evaluation (OPE) thus plays a crucial role by enabling the evaluation of recommendation policies using only offline logged data naturally collected on the platform. However, unlike conventional recommendation settings, the large scale and bidirectional nature of user interactions in matching platforms introduce variance issues and exacerbate reward sparsity, making standard OPE methods unreliable. To address these challenges and facilitate effective offline evaluation, we propose novel OPE estimators, \\textit{DiPS} and \\textit{DPR}, specifically designed for matching markets. Our methods combine elements of the Direct Method (DM), Inverse Propensity Score (IPS), and Doubly Robust (DR) estimators while incorporating intermediate labels, such as initial engagement signals, to achieve better bias-variance control in matching markets. Theoretically, we derive the bias and variance of the proposed estimators and demonstrate their advantages over conventional methods. Furthermore, we show that these estimators can be seamlessly extended to offline policy learning methods for improving recommendation policies for making more matches. We empirically evaluate our methods through experiments on both synthetic data and A/B testing logs from a real job-matching platform. The empirical results highlight the superiority of our approach over existing methods in off-policy evaluation and learning tasks for a variety of configurations.",
+ "primary": "cs.LG"
+}

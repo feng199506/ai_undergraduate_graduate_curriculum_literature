@@ -1,0 +1,19 @@
+{
+ "id": "2408.13484",
+ "title": "IntOPE: Off-Policy Evaluation in the Presence of Interference",
+ "authors": [
+  "Yuqi Bai",
+  "Ziyu Zhao",
+  "Chenxin Lyu",
+  "Minqin Zhu",
+  "Kun Kuang"
+ ],
+ "v1_date": "2024-08-24",
+ "latest_version": 2,
+ "latest_date": "2025-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Off-Policy Evaluation (OPE) is employed to assess the potential impact of a hypothetical policy using logged contextual bandit feedback, which is crucial in areas such as personalized medicine and recommender systems, where online interactions are associated with significant risks and costs. Traditionally, OPE methods rely on the Stable Unit Treatment Value Assumption (SUTVA), which assumes that the reward for any given individual is unaffected by the actions of others. However, this assumption often fails in real-world scenarios due to the presence of interference, where an individual's reward is affected not just by their own actions but also by the actions of their peers. This realization reveals significant limitations of existing OPE methods in real-world applications. To address this limitation, we propose IntIPW, an IPW-style estimator that extends the Inverse Probability Weighting (IPW) framework by integrating marginalized importance weights to account for both individual actions and the influence of adjacent entities. Extensive experiments are conducted on both synthetic and real-world data to demonstrate the effectiveness of the proposed IntIPW method.",
+ "primary": "cs.LG"
+}

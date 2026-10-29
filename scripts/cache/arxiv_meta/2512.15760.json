@@ -1,0 +1,16 @@
+{
+ "id": "2512.15760",
+ "title": "A Tutorial on Dimensionless Learning: Geometric Interpretation and the Effect of Noise",
+ "authors": [
+  "Zhengtao Jake Gan",
+  "Xiaoyu Xie"
+ ],
+ "v1_date": "2025-12-12",
+ "latest_version": 1,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 14 figures, a tutorial with a github link and a website link for GUI",
+ "abstract": "Dimensionless learning is a data-driven framework for discovering dimensionless numbers and scaling laws from experimental measurements. This tutorial introduces the method, explaining how it transforms experimental data into compact physical laws that reveal compact dimensional invariance between variables. The approach combines classical dimensional analysis with modern machine learning techniques. Starting from measurements of physical quantities, the method identifies the fundamental ways to combine variables into dimensionless groups, then uses neural networks to discover which combinations best predict the experimental output. A key innovation is a regularization technique that encourages the learned coefficients to take simple, interpretable values like integers or half-integers, making the discovered laws both accurate and physically meaningful. We systematically investigate how measurement noise and discrete sampling affect the discovery process, demonstrating that the regularization approach provides robustness to experimental uncertainties. The method successfully handles cases with single or multiple dimensionless numbers, revealing how different but equivalent representations can capture the same underlying physics. Despite recent progress, key challenges remain, including managing the computational cost of identifying multiple dimensionless groups, understanding the influence of data characteristics, automating the selection of relevant input variables, and developing user-friendly tools for experimentalists. This tutorial serves as both an educational resource and a practical guide for researchers seeking to apply dimensionless learning to their experimental data.",
+ "primary": "cs.LG"
+}

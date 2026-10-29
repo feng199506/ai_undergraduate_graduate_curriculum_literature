@@ -1,0 +1,15 @@
+{
+ "id": "2603.07143",
+ "title": "Tutorial on Aided Inertial Navigation Systems: A Modern Treatment Using Lie-Group Theoretical Methods",
+ "authors": [
+  "Soulaimane Berkane"
+ ],
+ "v1_date": "2026-03-07",
+ "latest_version": 3,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in IEEE Control Systems Magazine",
+ "abstract": "Robots and autonomous vehicles rely on accurate estimates of their position, velocity, and orientation. Inertial sensors measure motion at high rates, but errors accumulate as these measurements are integrated. Satellite navigation, cameras, and other sensors help limit this drift. Combining these sources effectively requires estimation methods that account for the geometry of the navigation state. This tutorial presents a unified introduction to aided inertial navigation from a Lie-group perspective. It connects motion prediction, uncertainty propagation, and measurement updates within a common geometric framework. Particular attention is given to invariant filtering, which uses system symmetries to simplify the description and evolution of estimation errors. The tutorial explains how choices of state and error representations shape the filter equations. It connects theoretical principles with formulas suitable for implementation and discusses recent extensions addressing convergence and sensor biases. By organizing established and emerging methods around their shared geometric foundations, the presentation provides students, researchers, and engineers with a basis for understanding, implementing, and extending navigation algorithms.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2409.14803",
+ "title": "Benchmarking Edge AI Platforms for High-Performance ML Inference",
+ "authors": [
+  "Rakshith Jayanth",
+  "Neelesh Gupta",
+  "Viktor Prasanna"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 1,
+ "latest_date": "2024-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Edge computing's growing prominence, due to its ability to reduce communication latency and enable real-time processing, is promoting the rise of high-performance, heterogeneous System-on-Chip solutions. While current approaches often involve scaling down modern hardware, the performance characteristics of neural network workloads on these platforms can vary significantly, especially when it comes to parallel processing, which is a critical consideration for edge deployments. To address this, we conduct a comprehensive study comparing the latency and throughput of various linear algebra and neural network inference tasks across CPU-only, CPU/GPU, and CPU/NPU integrated solutions. {We find that the Neural Processing Unit (NPU) excels in matrix-vector multiplication (58.6% faster) and some neural network tasks (3.2$\\times$ faster for video classification and large language models). GPU outperforms in matrix multiplication (22.6% faster) and LSTM networks (2.7$\\times$ faster) while CPU excels at less parallel operations like dot product. NPU-based inference offers a balance of latency and throughput at lower power consumption. GPU-based inference, though more energy-intensive, performs best with large dimensions and batch sizes. We highlight the potential of heterogeneous computing solutions for edge AI, where diverse compute units can be strategically leveraged to boost accurate and real-time inference.",
+ "primary": "cs.AI"
+}

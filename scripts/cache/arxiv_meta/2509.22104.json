@@ -1,0 +1,18 @@
+{
+ "id": "2509.22104",
+ "title": "Introduction to modelling radical pair quantum spin dynamics with tensor networks",
+ "authors": [
+  "Kentaro Hino",
+  "Damyan S. Frantzov",
+  "Yuki Kurashige",
+  "Lewis M. Antill"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 10 figures",
+ "abstract": "Radical pairs (also known as spin qubit pairs, electron-hole pairs) are transient reaction intermediates that are found and utilised in all areas of science. Radical pair spin dynamics simulations including all nuclear spins have been a computational barrier due to exponential scaling memory requirements. We address this issue with a tensor network method for accurately simulating the full open quantum dynamics of radical pair systems, explicitly accounting for hyperfine interactions with up to 30 nuclear spins with additional benchmarking including 60 nuclei. By employing the matrix product state (MPS) and matrix product density operator (MPDO) representations, we mitigate the exponential scaling of Hilbert and Liouville spaces typically encountered in full quantum non-Markovian treatments. We demonstrate the power of these methods with biologically relevant flavin-tryptophan radical pair systems, where we investigate electron hopping processes between multiple radical pairs using Lindblad jump operators. These simulations precisely capture anisotropic spin dynamics, clearly identifying orientational dependence of the magnetic field, which enhances or diminishes the spin-selective product yield. These directional sensitivities highlight the critical dependence of the nuclear environment and underscore the necessity of fully quantum treatments in spin biophysics, offering critical insights into avian magnetoreception mechanisms. This work provides a robust computational framework applicable to a broad range of scientific realms, which include spin chemistry, quantum biology, and spintronics.",
+ "primary": "quant-ph"
+}

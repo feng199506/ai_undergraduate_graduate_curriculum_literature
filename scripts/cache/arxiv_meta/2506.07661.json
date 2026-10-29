@@ -1,0 +1,17 @@
+{
+ "id": "2506.07661",
+ "title": "Information-Theoretic Framework for Understanding Modern Machine-Learning",
+ "authors": [
+  "Meir Feder",
+  "Ruediger Urbanke",
+  "Yaniv Fogel"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 2,
+ "latest_date": "2025-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce an information-theoretic framework that views learning as universal prediction under log loss, characterized through regret bounds. Central to the framework is an effective notion of architecture-based model complexity, defined by the probability mass or volume of models in the vicinity of the data-generating process, or its projection on the model class. This volume is related to spectral properties of the expected Hessian or the Fisher Information Matrix, leading to tractable approximations. We argue that successful architectures possess a broad complexity range, enabling learning in highly over-parameterized model classes. The framework sheds light on the role of inductive biases, the effectiveness of stochastic gradient descent, and phenomena such as flat minima. It unifies online, batch, supervised, and generative settings, and applies across the stochastic-realizable and agnostic regimes. Moreover, it provides insights into the success of modern machine-learning architectures, such as deep neural networks and transformers, suggesting that their broad complexity range naturally arises from their layered structure. These insights open the door to the design of alternative architectures with potentially comparable or even superior performance.",
+ "primary": "cs.LG"
+}

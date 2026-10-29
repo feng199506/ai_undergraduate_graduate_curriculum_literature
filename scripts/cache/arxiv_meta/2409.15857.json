@@ -1,0 +1,20 @@
+{
+ "id": "2409.15857",
+ "title": "Large-scale Benchmarks for Multimodal Recommendation with Ducho",
+ "authors": [
+  "Matteo Attimonelli",
+  "Danilo Danese",
+  "Angela Di Fazio",
+  "Daniele Malitesta",
+  "Claudio Pomo",
+  "Tommaso Di Noia"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 2,
+ "latest_date": "2026-02-22",
+ "journal_ref": "",
+ "doi": "10.1016/j.eswa.2025.130813",
+ "comment": "Accepted in Expert Systems with Applications",
+ "abstract": "The common multimodal recommendation pipeline involves (i) extracting multimodal features, (ii) refining their high-level representations to suit the recommendation task, (iii) optionally fusing all multimodal features, and (iv) predicting the user-item score. Although great effort has been put into designing optimal solutions for (ii-iv), to the best of our knowledge, very little attention has been devoted to exploring procedures for (i) in a rigorous way. In this respect, the existing literature outlines the large availability of multimodal datasets and the ever-growing number of large models accounting for multimodal-aware tasks, but (at the same time) an unjustified adoption of limited standardized solutions. As very recent works from the literature have begun to conduct empirical studies to assess the contribution of multimodality in recommendation, we decide to follow and complement this same research direction. To this end, this paper settles as the first attempt to offer a large-scale benchmarking for multimodal recommender systems, with a specific focus on multimodal extractors. Specifically, we take advantage of three popular and recent frameworks for multimodal feature extraction and reproducibility in recommendation, Ducho, and MMRec/Elliot, respectively, to offer a unified and ready-to-use experimental environment able to run extensive benchmarking analyses leveraging novel multimodal feature extractors. Results, largely validated under different extractors, hyper-parameters of the extractors, domains, and modalities, provide important insights on how to train and tune the next generation of multimodal recommendation algorithms.",
+ "primary": "cs.IR"
+}

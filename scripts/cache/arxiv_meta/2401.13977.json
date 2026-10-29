@@ -1,0 +1,16 @@
+{
+ "id": "2401.13977",
+ "title": "Evaluating the Determinants of Mode Choice Using Statistical and Machine Learning Techniques in the Indian Megacity of Bengaluru",
+ "authors": [
+  "Tanmay Ghosh",
+  "Nithin Nagaraj"
+ ],
+ "v1_date": "2024-01-25",
+ "latest_version": 1,
+ "latest_date": "2024-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "65 pages, 26 figures",
+ "abstract": "The decision making involved behind the mode choice is critical for transportation planning. While statistical learning techniques like discrete choice models have been used traditionally, machine learning (ML) models have gained traction recently among the transportation planners due to their higher predictive performance. However, the black box nature of ML models pose significant interpretability challenges, limiting their practical application in decision and policy making. This study utilised a dataset of $1350$ households belonging to low and low-middle income bracket in the city of Bengaluru to investigate mode choice decision making behaviour using Multinomial logit model and ML classifiers like decision trees, random forests, extreme gradient boosting and support vector machines. In terms of accuracy, random forest model performed the best ($0.788$ on training data and $0.605$ on testing data) compared to all the other models. This research has adopted modern interpretability techniques like feature importance and individual conditional expectation plots to explain the decision making behaviour using ML models. A higher travel costs significantly reduce the predicted probability of bus usage compared to other modes (a $0.66\\%$ and $0.34\\%$ reduction using Random Forests and XGBoost model for $10\\%$ increase in travel cost). However, reducing travel time by $10\\%$ increases the preference for the metro ($0.16\\%$ in Random Forests and 0.42% in XGBoost). This research augments the ongoing research on mode choice analysis using machine learning techniques, which would help in improving the understanding of the performance of these models with real-world data in terms of both accuracy and interpretability.",
+ "primary": "cs.LG"
+}

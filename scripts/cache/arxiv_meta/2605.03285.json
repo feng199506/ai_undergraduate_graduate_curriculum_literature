@@ -1,0 +1,16 @@
+{
+ "id": "2605.03285",
+ "title": "Causal Small Area Estimation with Survey-only Covariates",
+ "authors": [
+  "Tsubasa Ito",
+  "Shonosuke Sugasawa"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Area-specific causal inference is important in many policy and survey applications, where the goal is to evaluate treatment effects for small geographic or demographic domains. Existing causal small area estimation methods, however, typically rely on a strong data requirement that treatment status is observed for all units in the population. This assumption is often unrealistic in practical survey settings, where both treatment and outcome variables are observed only for sampled units, while auxiliary covariates are available for the full population. To address this limitation, we develop a new identification strategy for area-specific treatment effects under this more realistic data structure by combining survey-only covariates with population-level auxiliary information. Based on this result, we propose a doubly robust estimator that remains consistent when either the outcome regression model or the treatment and area assignment models are correctly specified. We further derive the semiparametric efficiency bound for the target parameter and show that the proposed estimator attains this bound under regularity conditions. Simulation studies demonstrate favorable finite-sample performance, particularly in settings with small sample sizes within areas, and an empirical application illustrates the practical relevance of the proposed framework.",
+ "primary": "math.ST"
+}

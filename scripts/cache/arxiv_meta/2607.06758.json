@@ -1,0 +1,17 @@
+{
+ "id": "2607.06758",
+ "title": "Adaptive, Matrix-Free Low-Rank Approximation",
+ "authors": [
+  "Arnel I. Smith",
+  "Elly Do",
+  "Chao Chen"
+ ],
+ "v1_date": "2026-07-07",
+ "latest_version": 1,
+ "latest_date": "2026-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study fixed-tolerance low-rank approximation in the matrix-free setting, where a matrix or linear operator $\\mathbf{A}$ is accessible only through matrix-vector products and its rank must be determined adaptively to meet a prescribed error tolerance. We introduce a family of adaptive, matrix-free randomized QB algorithms. A randomized error indicator estimates the residual norm -- in either the Frobenius or the spectral norm -- directly from a random sketch, remaining accurate down to machine precision. A matrix-free rank-pruning step decouples the computational block size from the final rank, so that large, BLAS-3-friendly blocks can be used without over-estimating the rank, and an adjoint-free variant returns the orthonormal basis using only the forward operator. Across test matrices with diverse singular-value decays, the proposed methods attain ranks close to the truncated-SVD optimum while meeting the prescribed tolerance with high probability.",
+ "primary": "math.NA"
+}

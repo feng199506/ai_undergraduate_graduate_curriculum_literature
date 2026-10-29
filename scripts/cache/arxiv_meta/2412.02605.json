@@ -1,0 +1,21 @@
+{
+ "id": "2412.02605",
+ "title": "Interpretable Company Similarity with Sparse Autoencoders",
+ "authors": [
+  "Marco Molinari",
+  "Victor Shao",
+  "Luca Imeneo",
+  "Mateusz Mikolajczak",
+  "Vladimir Tregubiak",
+  "Abhimanyu Pandey",
+  "Sebastian Kuznetsov Ryder Torres Pereira"
+ ],
+ "v1_date": "2024-12-03",
+ "latest_version": 3,
+ "latest_date": "2025-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Determining company similarity is a vital task in finance, underpinning risk management, hedging, and portfolio diversification. Practitioners often rely on sector and industry classifications such as SIC and GICS codes to gauge similarity, the former being used by the U.S. Securities and Exchange Commission (SEC), and the latter widely used by the investment community. Since these classifications lack granularity and need regular updating, using clusters of embeddings of company descriptions has been proposed as a potential alternative, but the lack of interpretability in token embeddings poses a significant barrier to adoption in high-stakes contexts. Sparse Autoencoders (SAEs) have shown promise in enhancing the interpretability of Large Language Models (LLMs) by decomposing Large Language Model (LLM) activations into interpretable features. Moreover, SAEs capture an LLM's internal representation of a company description, as opposed to semantic similarity alone, as is the case with embeddings. We apply SAEs to company descriptions, and obtain meaningful clusters of equities. We benchmark SAE features against SIC-codes, Industry codes, and Embeddings. Our results demonstrate that SAE features surpass sector classifications and embeddings in capturing fundamental company characteristics. This is evidenced by their superior performance in correlating logged monthly returns - a proxy for similarity - and generating higher Sharpe ratios in co-integration trading strategies, which underscores deeper fundamental similarities among companies. Finally, we verify the interpretability of our clusters, and demonstrate that sparse features form simple and interpretable explanations for our clusters.",
+ "primary": "cs.CL"
+}

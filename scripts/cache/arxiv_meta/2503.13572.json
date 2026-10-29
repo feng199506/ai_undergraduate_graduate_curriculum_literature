@@ -1,0 +1,22 @@
+{
+ "id": "2503.13572",
+ "title": "VeriContaminated: Assessing LLM-Driven Verilog Coding for Data Contamination",
+ "authors": [
+  "Zeng Wang",
+  "Minghao Shao",
+  "Jitendra Bhandari",
+  "Likhitha Mankali",
+  "Ramesh Karri",
+  "Ozgur Sinanoglu",
+  "Muhammad Shafique",
+  "Johann Knechtel"
+ ],
+ "v1_date": "2025-03-17",
+ "latest_version": 3,
+ "latest_date": "2025-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) have revolutionized code generation, achieving exceptional results on various established benchmarking frameworks. However, concerns about data contamination - where benchmark data inadvertently leaks into pre-training or fine-tuning datasets - raise questions about the validity of these evaluations. While this issue is known, limiting the industrial adoption of LLM-driven software engineering, hardware coding has received little to no attention regarding these risks. For the first time, we analyze state-of-the-art (SOTA) evaluation frameworks for Verilog code generation (VerilogEval and RTLLM), using established methods for contamination detection (CCD and Min-K% Prob). We cover SOTA commercial and open-source LLMs (CodeGen2.5, Minitron 4b, Mistral 7b, phi-4 mini, LLaMA-{1,2,3.1}, GPT-{2,3.5,4o}, Deepseek-Coder, and CodeQwen 1.5), in baseline and fine-tuned models (RTLCoder and Verigen). Our study confirms that data contamination is a critical concern. We explore mitigations and the resulting trade-offs for code quality vs fairness (i.e., reducing contamination toward unbiased benchmarking).",
+ "primary": "cs.AR"
+}

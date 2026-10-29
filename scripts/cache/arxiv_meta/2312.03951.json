@@ -1,0 +1,16 @@
+{
+ "id": "2312.03951",
+ "title": "Understanding the Role of Optimization in Double Descent",
+ "authors": [
+  "Chris Yuhao Liu",
+  "Jeffrey Flanigan"
+ ],
+ "v1_date": "2023-12-06",
+ "latest_version": 1,
+ "latest_date": "2023-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS Workshop 2023 Optimization for Machine Learning",
+ "abstract": "The phenomenon of model-wise double descent, where the test error peaks and then reduces as the model size increases, is an interesting topic that has attracted the attention of researchers due to the striking observed gap between theory and practice \\citep{Belkin2018ReconcilingMM}. Additionally, while double descent has been observed in various tasks and architectures, the peak of double descent can sometimes be noticeably absent or diminished, even without explicit regularization, such as weight decay and early stopping. In this paper, we investigate this intriguing phenomenon from the optimization perspective and propose a simple optimization-based explanation for why double descent sometimes occurs weakly or not at all. To the best of our knowledge, we are the first to demonstrate that many disparate factors contributing to model-wise double descent (initialization, normalization, batch size, learning rate, optimization algorithm) are unified from the viewpoint of optimization: model-wise double descent is observed if and only if the optimizer can find a sufficiently low-loss minimum. These factors directly affect the condition number of the optimization problem or the optimizer and thus affect the final minimum found by the optimizer, reducing or increasing the height of the double descent peak. We conduct a series of controlled experiments on random feature models and two-layer neural networks under various optimization settings, demonstrating this optimization-based unified view. Our results suggest the following implication: Double descent is unlikely to be a problem for real-world machine learning setups. Additionally, our results help explain the gap between weak double descent peaks in practice and strong peaks observable in carefully designed setups.",
+ "primary": "cs.LG"
+}

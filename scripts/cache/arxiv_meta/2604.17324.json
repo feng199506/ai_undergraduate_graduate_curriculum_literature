@@ -1,0 +1,20 @@
+{
+ "id": "2604.17324",
+ "title": "Capacity-Controlled Global Attention for Graph Transformers",
+ "authors": [
+  "Yang Liu",
+  "Dongxin Guo",
+  "Tom Zheng",
+  "Siu Ming Yiu",
+  "Liam Ning",
+  "Jikun Wu"
+ ],
+ "v1_date": "2026-04-19",
+ "latest_version": 2,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 2 figures, 15 tables",
+ "abstract": "Global self-attention drives modern graph transformers, yet the softmax at its core imposes a structural constraint rarely examined directly: every attention row is non-negative and sums to one, so each per-head output is a mass-conserving convex combination of value vectors. A node can never \"attend to nothing.\" We argue this conservation constraint is a single root cause behind three pathologies usually studied in isolation: the collapse of node representations with depth (over-smoothing), a low-rank bottleneck on per-head outputs, and brittle optimization in deep stacks. Drawing on how sigmoid gating removes analogous attention sinks in language models, we introduce SigGate-GT, a graph transformer that applies a learned, per-head, input-conditioned sigmoid gate to the attention output inside the GraphGPS framework. The gate is a smooth, per-dimension \"volume control\" that can drive head outputs toward zero, relaxing the constraint without abandoning attention's probabilistic interpretation. Analytically and through synthetic experiments, we show the gate strictly increases the stable rank of per-head outputs, and connect this rank gain to all three manifestations. On five molecular and long-range benchmarks, SigGate-GT matches the prior best on ZINC (0.059 MAE), records the strongest result among the graph-transformer baselines we evaluate on ogbg-molhiv (82.47% ROC-AUC), and is competitive on ogbg-molpcba and the Long-Range Graph Benchmark, with statistically significant gains over GraphGPS on all five datasets (p < 0.05). Mechanism analyses confirm the diagnosis: gating slows over-smoothing (a 30% mean relative gain in representation diversity across 4-16 layers), keeps attention entropy from collapsing, and stabilizes training across a 10x learning-rate range, at about 1% parameter overhead on OGB and under 3% wall-clock cost.",
+ "primary": "cs.LG"
+}

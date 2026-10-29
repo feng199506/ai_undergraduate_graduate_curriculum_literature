@@ -1,0 +1,20 @@
+{
+ "id": "2508.15986",
+ "title": "Automated Multi-label Classification of Eleven Retinal Diseases: A Benchmark of Modern Architectures and a Meta-Ensemble on a Large Synthetic Dataset",
+ "authors": [
+  "Jerry Cao-Xue",
+  "Tien Comlekoglu",
+  "Keyi Xue",
+  "Guanliang Wang",
+  "Jiang Li",
+  "Gordon Laurie"
+ ],
+ "v1_date": "2025-08-21",
+ "latest_version": 1,
+ "latest_date": "2025-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 6 figures, 8 tables",
+ "abstract": "The development of multi-label deep learning models for retinal disease classification is often hindered by the scarcity of large, expertly annotated clinical datasets due to patient privacy concerns and high costs. The recent release of SynFundus-1M, a high-fidelity synthetic dataset with over one million fundus images, presents a novel opportunity to overcome these barriers. To establish a foundational performance benchmark for this new resource, we developed an end-to-end deep learning pipeline, training six modern architectures (ConvNeXtV2, SwinV2, ViT, ResNet, EfficientNetV2, and the RETFound foundation model) to classify eleven retinal diseases using a 5-fold multi-label stratified cross-validation strategy. We further developed a meta-ensemble model by stacking the out-of-fold predictions with an XGBoost classifier. Our final ensemble model achieved the highest performance on the internal validation set, with a macro-average Area Under the Receiver Operating Characteristic Curve (AUC) of 0.9973. Critically, the models demonstrated strong generalization to three diverse, real-world clinical datasets, achieving an AUC of 0.7972 on a combined DR dataset, an AUC of 0.9126 on the AIROGS glaucoma dataset and a macro-AUC of 0.8800 on the multi-label RFMiD dataset. This work provides a robust baseline for future research on large-scale synthetic datasets and establishes that models trained exclusively on synthetic data can accurately classify multiple pathologies and generalize effectively to real clinical images, offering a viable pathway to accelerate the development of comprehensive AI systems in ophthalmology.",
+ "primary": "cs.CV"
+}

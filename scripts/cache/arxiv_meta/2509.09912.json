@@ -1,0 +1,20 @@
+{
+ "id": "2509.09912",
+ "title": "When Your Reviewer is an LLM: Biases, Divergence, and Prompt Injection Risks in Peer Review",
+ "authors": [
+  "Changjia Zhu",
+  "Junjie Xiong",
+  "Renkai Ma",
+  "Zhicong Lu",
+  "Yao Liu",
+  "Lingyao Li"
+ ],
+ "v1_date": "2025-09-12",
+ "latest_version": 1,
+ "latest_date": "2025-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Peer review is the cornerstone of academic publishing, yet the process is increasingly strained by rising submission volumes, reviewer overload, and expertise mismatches. Large language models (LLMs) are now being used as \"reviewer aids,\" raising concerns about their fairness, consistency, and robustness against indirect prompt injection attacks. This paper presents a systematic evaluation of LLMs as academic reviewers. Using a curated dataset of 1,441 papers from ICLR 2023 and NeurIPS 2022, we evaluate GPT-5-mini against human reviewers across ratings, strengths, and weaknesses. The evaluation employs structured prompting with reference paper calibration, topic modeling, and similarity analysis to compare review content. We further embed covert instructions into PDF submissions to assess LLMs' susceptibility to prompt injection. Our findings show that LLMs consistently inflate ratings for weaker papers while aligning more closely with human judgments on stronger contributions. Moreover, while overarching malicious prompts induce only minor shifts in topical focus, explicitly field-specific instructions successfully manipulate specific aspects of LLM-generated reviews. This study underscores both the promises and perils of integrating LLMs into peer review and points to the importance of designing safeguards that ensure integrity and trust in future review processes.",
+ "primary": "cs.CY"
+}

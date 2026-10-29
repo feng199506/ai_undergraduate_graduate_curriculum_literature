@@ -1,0 +1,23 @@
+{
+ "id": "2509.10506",
+ "title": "AttnBoost: Retail Supply Chain Sales Insights via Gradient Boosting Perspective",
+ "authors": [
+  "Yadi Liu",
+  "Xiaoli Ma",
+  "Muxin Ge",
+  "Zeyu Han",
+  "Jingxi Qiu",
+  "Ye Aung Moe",
+  "Yilan Shen",
+  "Wenbin Wei",
+  "Cheng Huang"
+ ],
+ "v1_date": "2025-09-01",
+ "latest_version": 2,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Forecasting product demand in retail supply chains presents a complex challenge due to noisy, heterogeneous features and rapidly shifting consumer behavior. While traditional gradient boosting decision trees (GBDT) offer strong predictive performance on structured data, they often lack adaptive mechanisms to identify and emphasize the most relevant features under changing conditions. In this work, we propose AttnBoost, an interpretable learning framework that integrates feature-level attention into the boosting process to enhance both predictive accuracy and explainability. Specifically, the model dynamically adjusts feature importance during each boosting round via a lightweight attention mechanism, allowing it to focus on high-impact variables such as promotions, pricing, and seasonal trends. We evaluate AttnBoost on a large-scale retail sales dataset and demonstrate that it outperforms standard machine learning and deep tabular models, while also providing actionable insights for supply chain managers. An ablation study confirms the utility of the attention module in mitigating overfitting and improving interpretability. Our results suggest that attention-guided boosting represents a promising direction for interpretable and scalable AI in real-world forecasting applications.",
+ "primary": "cs.LG"
+}

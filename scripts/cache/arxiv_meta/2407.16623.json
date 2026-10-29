@@ -1,0 +1,17 @@
+{
+ "id": "2407.16623",
+ "title": "Inverse Particle Filter",
+ "authors": [
+  "Himali Singh",
+  "Arpan Chattopadhyay",
+  "Kumar Vijay Mishra"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 3,
+ "latest_date": "2025-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 5 figures, 4 tables",
+ "abstract": "In cognitive systems, recent emphasis has been placed on studying the cognitive processes of the subject whose behavior was the primary focus of the system's cognitive response. This approach, known as inverse cognition, arises in counter-adversarial applications and has motivated the development of inverse Bayesian filters. In this context, a cognitive adversary, such as a radar, uses a forward Bayesian filter to track its target of interest. An inverse filter is then employed to infer the adversary's estimate of the target's or defender's state. Previous studies have addressed this inverse filtering problem by introducing methods like the inverse Kalman filter (KF), inverse extended KF, and inverse unscented KF. However, these filters typically assume additive Gaussian noise models and/or rely on local approximations of non-linear dynamics at the state estimates, limiting their practical application. In contrast, this paper adopts a global filtering approach and presents the development of an inverse particle filter (I-PF). The particle filter framework employs Monte Carlo (MC) methods to approximate arbitrary posterior distributions. Moreover, under mild system-level conditions, the proposed I-PF demonstrates convergence to the optimal inverse filter. Additionally, we propose the differentiable I-PF to address scenarios where system information is unknown to the defender. Using the recursive Cramer-Rao lower bound and non-credibility index (NCI), our numerical experiments for different systems demonstrate the estimation performance and time complexity of the proposed filter.",
+ "primary": "math.OC"
+}

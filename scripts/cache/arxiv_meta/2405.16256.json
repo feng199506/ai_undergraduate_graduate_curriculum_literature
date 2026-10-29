@@ -1,0 +1,28 @@
+{
+ "id": "2405.16256",
+ "title": "HETHUB: A Distributed Training System with Heterogeneous Cluster for Large-Scale Models",
+ "authors": [
+  "Si Xu",
+  "Zixiao Huang",
+  "Yan Zeng",
+  "Shengen Yan",
+  "Xuefei Ning",
+  "Quanlu Zhang",
+  "Haolin Ye",
+  "Sipei Gu",
+  "Chunsheng Shui",
+  "Zhezheng Lin",
+  "Hao Zhang",
+  "Sheng Wang",
+  "Guohao Dai",
+  "Yu Wang"
+ ],
+ "v1_date": "2024-05-25",
+ "latest_version": 2,
+ "latest_date": "2024-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Training large-scale models relies on a vast number of computing resources. For example, training the GPT-4 model (1.8 trillion parameters) requires 25000 A100 GPUs . It is a challenge to build a large-scale cluster with one type of GPU-accelerator. Using multiple types of GPU-accelerators to construct a large-scale cluster is an effective way to solve the problem of insufficient homogeneous GPU-accelerators. However, the existing distributed training systems for large-scale models only support homogeneous GPU-accelerators, not support heterogeneous GPU-accelerators. To address the problem, this paper proposes a distributed training system with hybrid parallelism, HETHUB, for large-scale models, which supports heterogeneous cluster, including AMD, Nvidia GPU and other types of GPU-accelerators . It introduces a distributed unified communicator to realize the communication between heterogeneous GPU-accelerators, a distributed performance predictor, and an automatic parallel planner to develop and train models efficiently with heterogeneous GPU-accelerators. Compared to the distributed training system with homogeneous GPU-accelerators, our system can support six combinations of heterogeneous GPU-accelerators. We train the Llama-140B model on a heterogeneous cluster with 768 GPU-accelerators(128 AMD and 640 GPU-accelerator A). The experiment results show that the optimal performance of our system in the heterogeneous cluster has achieved up to 97.49% of the theoretical upper bound performance.",
+ "primary": "cs.DC"
+}

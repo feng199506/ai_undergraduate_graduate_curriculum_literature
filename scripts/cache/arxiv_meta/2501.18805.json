@@ -1,0 +1,18 @@
+{
+ "id": "2501.18805",
+ "title": "Are Representation Disentanglement and Interpretability Linked in Recommendation Models? A Critical Review and Reproducibility Study",
+ "authors": [
+  "Ervin Dervishaj",
+  "Tuukka Ruotsalo",
+  "Maria Maistro",
+  "Christina Lioma"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 1,
+ "latest_date": "2025-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the 47th European Conference on Information Retrieval (ECIR 2025)",
+ "abstract": "Unsupervised learning of disentangled representations has been closely tied to enhancing the representation intepretability of Recommender Systems (RSs). This has been achieved by making the representation of individual features more distinctly separated, so that it is easier to attribute the contribution of features to the model's predictions. However, such advantages in interpretability and feature attribution have mainly been explored qualitatively. Moreover, the effect of disentanglement on the model's recommendation performance has been largely overlooked. In this work, we reproduce the recommendation performance, representation disentanglement and representation interpretability of five well-known recommendation models on four RS datasets. We quantify disentanglement and investigate the link of disentanglement with recommendation effectiveness and representation interpretability. While several existing work in RSs have proposed disentangled representations as a gateway to improved effectiveness and interpretability, our findings show that disentanglement is not necessarily related to effectiveness but is closely related to representation interpretability. Our code and results are publicly available at https://github.com/edervishaj/disentanglement-interpretability-recsys.",
+ "primary": "cs.IR"
+}

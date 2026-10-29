@@ -1,0 +1,19 @@
+{
+ "id": "2501.10688",
+ "title": "Neural Algorithmic Reasoning for Hypergraphs with Looped Transformers",
+ "authors": [
+  "Zekai Huang",
+  "Yingyu Liang",
+  "Zhenmei Shi",
+  "Zhao Song",
+  "Zhen Zhuang"
+ ],
+ "v1_date": "2025-01-18",
+ "latest_version": 3,
+ "latest_date": "2026-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Looped Transformers have shown exceptional neural algorithmic reasoning capability in simulating traditional graph algorithms, but their application to more complex structures like hypergraphs remains underexplored. Hypergraphs generalize graphs by modeling higher-order relationships among multiple entities, enabling richer representations but introducing significant computational challenges. In this work, we extend the Loop Transformer architecture's neural algorithmic reasoning capability to simulate hypergraph algorithms, addressing the gap between neural networks and combinatorial optimization over hypergraphs. Specifically, we propose a novel degradation mechanism for reducing hypergraphs to graph representations, enabling the simulation of graph-based algorithms, such as Dijkstra's shortest path. Furthermore, we introduce a hyperedge-aware encoding scheme to simulate hypergraph-specific algorithms, exemplified by Helly's algorithm. We establish theoretical guarantees for these simulations, demonstrating the feasibility of processing high-dimensional and combinatorial data using Loop Transformers. This work highlights the potential of Transformers as general-purpose algorithmic solvers for structured data.",
+ "primary": "cs.LG"
+}

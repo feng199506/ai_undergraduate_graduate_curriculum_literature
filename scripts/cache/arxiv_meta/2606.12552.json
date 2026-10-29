@@ -1,0 +1,17 @@
+{
+ "id": "2606.12552",
+ "title": "Crossing the Validation Crisis: Cross-Validation Reduces Benchmarking Variance Surprisingly Well",
+ "authors": [
+  "Célestin Eve",
+  "Gaël Varoquaux",
+  "Thomas Moreau"
+ ],
+ "v1_date": "2026-06-10",
+ "latest_version": 1,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 11 figures",
+ "abstract": "Modern machine learning progresses through empirical work, benchmarking new methods to evaluate relative performance. However, the statistical variability inherent to evaluation - exacerbated by the stochastic nature of many algorithms - often makes performance estimation unreliable due to the limited test samples available, leading to a validation crisis in which genuine advances are difficult to discern. In this work, we show that cross-validation improves markedly confidence when evaluating and comparing learning algorithm performances. We introduce the concept of sample gain, which quantifies the virtual data augmentation achieved by using multiple cross-validation splits to reduce benchmarking variance. Experiments on both synthetic and real-world datasets (histopathologic scans and NLP fine-tuning) demonstrate that multiple splits can substantially improve the reliability and stability of performance estimates, with diminishing returns often setting in later than expected. We also introduce a procedure to dynamically early-stop cross-validation by estimating from the first few folds if subsequent folds will bring large sample gains. Our findings highlight the value of pushing cross-validation on available samples to achieve robust and reliable benchmarking.",
+ "primary": "cs.LG"
+}

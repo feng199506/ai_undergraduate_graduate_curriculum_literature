@@ -1,0 +1,15 @@
+{
+ "id": "2602.18958",
+ "title": "Optimal and Structure-Adaptive CATE Estimation with Kernel Ridge Regression",
+ "authors": [
+  "Seok-Jin Kim"
+ ],
+ "v1_date": "2026-02-21",
+ "latest_version": 2,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose an optimal algorithm for estimating conditional average treatment effects (CATEs) when response functions lie in a reproducing kernel Hilbert space (RKHS). We study settings in which the contrast function is structurally simpler than the nuisance functions: (i) it lies in a lower-complexity RKHS with faster eigenvalue decay, (ii) it satisfies a source condition relative to the nuisance kernel, or (iii) it depends on a known low-dimensional covariate representation. We develop a unified two-stage kernel ridge regression (KRR) method that attains minimax rates governed by the complexity of the contrast function rather than the nuisance class, in terms of both sample size and overlap. We also show that a simple model-selection step over candidate contrast spaces and regularization levels yields an oracle inequality, enabling adaptation to unknown CATE regularity.",
+ "primary": "stat.ME"
+}

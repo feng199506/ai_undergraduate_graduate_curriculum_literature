@@ -1,0 +1,16 @@
+{
+ "id": "2601.09001",
+ "title": "Entropy Sentinel: Probing Entropy Traces for LLM Monitoring",
+ "authors": [
+  "Pedro Memoli Buffa",
+  "Luciano Del Corro"
+ ],
+ "v1_date": "2026-01-13",
+ "latest_version": 6,
+ "latest_date": "2026-08-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deploying LLMs raises two coupled challenges: (1) monitoring---estimating where a model underperforms as traffic drifts---and (2) prioritization---deciding where to intervene to close the largest performance gaps. We explore whether top-$k$ logprobs---cheap, consumer-accessible signals from standard inference---can serve as reliable proxies for domain-level quality of both verifiable and subjective tasks. We summarize each response's output-entropy profile into a compact vector, predict instance quality with a lightweight classifier, and then average predictions to yield a domain-level estimate. On verifiable tasks (ten STEM benchmarks, nine LLMs, exhaustive train/test compositions), estimates often track held-out accuracy, with several models showing near monotonic calibration. On subjective tasks, trained on LLM-judge scores over categorized real user conversations, several models track the judge's slice scores remarkably closely ($r$ up to $0.91$) and detect the worst-performing categories near-perfectly, though this is not the case for all LLMs. Where coupling holds, results suggest that entropy signals can support monitoring at a fraction of the cost of judge-based evaluation.",
+ "primary": "cs.CL"
+}

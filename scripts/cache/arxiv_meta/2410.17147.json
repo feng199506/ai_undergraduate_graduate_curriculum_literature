@@ -1,0 +1,16 @@
+{
+ "id": "2410.17147",
+ "title": "Covariance estimation using Markov chain Monte Carlo",
+ "authors": [
+  "Yunbum Kook",
+  "Matthew S. Zhang"
+ ],
+ "v1_date": "2024-10-22",
+ "latest_version": 1,
+ "latest_date": "2024-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages",
+ "abstract": "We investigate the complexity of covariance matrix estimation for Gibbs distributions based on dependent samples from a Markov chain. We show that when $π$ satisfies a Poincaré inequality and the chain possesses a spectral gap, we can achieve similar sample complexity using MCMC as compared to an estimator constructed using i.i.d. samples, with potentially much better query complexity. As an application of our methods, we show improvements for the query complexity in both constrained and unconstrained settings for concrete instances of MCMC. In particular, we provide guarantees regarding isotropic rounding procedures for sampling uniformly on convex bodies.",
+ "primary": "math.ST"
+}

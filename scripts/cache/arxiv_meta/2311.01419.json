@@ -1,0 +1,17 @@
+{
+ "id": "2311.01419",
+ "title": "C3DM: Constrained-Context Conditional Diffusion Models for Imitation Learning",
+ "authors": [
+  "Vaibhav Saxena",
+  "Yotto Koga",
+  "Danfei Xu"
+ ],
+ "v1_date": "2023-11-02",
+ "latest_version": 2,
+ "latest_date": "2024-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Behavior Cloning (BC) methods are effective at learning complex manipulation tasks. However, they are prone to spurious correlation - expressive models may focus on distractors that are irrelevant to action prediction - and are thus fragile in real-world deployment. Prior methods have addressed this challenge by exploring different model architectures and action representations. However, none were able to balance between sample efficiency and robustness against distractors for solving manipulation tasks with a complex action space. We present \\textbf{C}onstrained-\\textbf{C}ontext \\textbf{C}onditional \\textbf{D}iffusion \\textbf{M}odel (C3DM), a diffusion model policy for solving 6-DoF robotic manipulation tasks with robustness to distractions that can learn deployable robot policies from as little as five demonstrations. A key component of C3DM is a fixation step that helps the action denoiser to focus on task-relevant regions around a predicted fixation point while ignoring distractors in the context. We empirically show that C3DM is robust to out-of-distribution distractors, and consistently achieves high success rates on a wide array of tasks, ranging from table-top manipulation to industrial kitting that require varying levels of precision and robustness to distractors.",
+ "primary": "cs.RO"
+}

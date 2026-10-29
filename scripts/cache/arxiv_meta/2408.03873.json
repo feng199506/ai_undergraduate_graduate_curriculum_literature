@@ -1,0 +1,21 @@
+{
+ "id": "2408.03873",
+ "title": "A Reproducible Analysis of Sequential Recommender Systems",
+ "authors": [
+  "Filippo Betello",
+  "Antonio Purificato",
+  "Federico Siciliano",
+  "Giovanni Trappolini",
+  "Andrea Bacciu",
+  "Nicola Tonellotto",
+  "Fabrizio Silvestri"
+ ],
+ "v1_date": "2024-08-07",
+ "latest_version": 1,
+ "latest_date": "2024-08-07",
+ "journal_ref": "",
+ "doi": "10.1109/access.2024.3522049",
+ "comment": "8 pages, 5 figures",
+ "abstract": "Sequential Recommender Systems (SRSs) have emerged as a highly efficient approach to recommendation systems. By leveraging sequential data, SRSs can identify temporal patterns in user behaviour, significantly improving recommendation accuracy and relevance.Ensuring the reproducibility of these models is paramount for advancing research and facilitating comparisons between them. Existing works exhibit shortcomings in reproducibility and replicability of results, leading to inconsistent statements across papers. Our work fills these gaps by standardising data pre-processing and model implementations, providing a comprehensive code resource, including a framework for developing SRSs and establishing a foundation for consistent and reproducible experimentation. We conduct extensive experiments on several benchmark datasets, comparing various SRSs implemented in our resource. We challenge prevailing performance benchmarks, offering new insights into the SR domain. For instance, SASRec does not consistently outperform GRU4Rec. On the contrary, when the number of model parameters becomes substantial, SASRec starts to clearly dominate all the other SRSs. This discrepancy underscores the significant impact that experimental configuration has on the outcomes and the importance of setting it up to ensure precise and comprehensive results. Failure to do so can lead to significantly flawed conclusions, highlighting the need for rigorous experimental design and analysis in SRS research. Our code is available at https://github.com/antoniopurificato/recsys_repro_conf.",
+ "primary": "cs.IR"
+}

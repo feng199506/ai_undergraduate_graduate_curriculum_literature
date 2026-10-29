@@ -1,0 +1,19 @@
+{
+ "id": "2503.17379",
+ "title": "Challenges and Advancements in Modeling Shock Fronts with Physics-Informed Neural Networks: A Review and Benchmarking Study",
+ "authors": [
+  "Jassem Abbasi",
+  "Ameya D. Jagtap",
+  "Ben Moseley",
+  "Aksel Hiorth",
+  "Pål Østebø Andersen"
+ ],
+ "v1_date": "2025-03-14",
+ "latest_version": 1,
+ "latest_date": "2025-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 figures, 5 tables, and 37 pages",
+ "abstract": "Solving partial differential equations (PDEs) with discontinuous solutions , such as shock waves in multiphase viscous flow in porous media , is critical for a wide range of scientific and engineering applications, as they represent sudden changes in physical quantities. Physics-Informed Neural Networks (PINNs), an approach proposed for solving PDEs, encounter significant challenges when applied to such systems. Accurately solving PDEs with discontinuities using PINNs requires specialized techniques to ensure effective solution accuracy and numerical stability. A benchmarking study was conducted on two multiphase flow problems in porous media: the classic Buckley-Leverett (BL) problem and a fully coupled system of equations involving shock waves but with varying levels of solution complexity. The findings show that PM and LM approaches can provide accurate solutions for the BL problem by effectively addressing the infinite gradients associated with shock occurrences. In contrast, AM methods failed to effectively resolve the shock waves. When applied to fully coupled PDEs (with more complex loss landscape), the generalization error in the solutions quickly increased, highlighting the need for ongoing innovation. This study provides a comprehensive review of existing techniques for managing PDE discontinuities using PINNs, offering information on their strengths and limitations. The results underscore the necessity for further research to improve PINNs ability to handle complex discontinuities, particularly in more challenging problems with complex loss landscapes. This includes problems involving higher dimensions or multiphysics systems, where current methods often struggle to maintain accuracy and efficiency.",
+ "primary": "physics.flu-dyn"
+}

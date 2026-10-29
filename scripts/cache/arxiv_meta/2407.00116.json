@@ -1,0 +1,23 @@
+{
+ "id": "2407.00116",
+ "title": "Generative AI for Synthetic Data Across Multiple Medical Modalities: A Systematic Review of Recent Developments and Challenges",
+ "authors": [
+  "Mahmoud Ibrahim",
+  "Yasmina Al Khalil",
+  "Sina Amirrajab",
+  "Chang Sun",
+  "Marcel Breeuwer",
+  "Josien Pluim",
+  "Bart Elen",
+  "Gokhan Ertaylan",
+  "Michel Dumontier"
+ ],
+ "v1_date": "2024-06-27",
+ "latest_version": 2,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "10.1016/j.compbiomed.2025.109834",
+ "comment": "",
+ "abstract": "This paper presents a comprehensive systematic review of generative models (GANs, VAEs, DMs, and LLMs) used to synthesize various medical data types, including imaging (dermoscopic, mammographic, ultrasound, CT, MRI, and X-ray), text, time-series, and tabular data (EHR). Unlike previous narrowly focused reviews, our study encompasses a broad array of medical data modalities and explores various generative models. Our search strategy queries databases such as Scopus, PubMed, and ArXiv, focusing on recent works from January 2021 to November 2023, excluding reviews and perspectives. This period emphasizes recent advancements beyond GANs, which have been extensively covered previously. The survey reveals insights from three key aspects: (1) Synthesis applications and purpose of synthesis, (2) generation techniques, and (3) evaluation methods. It highlights clinically valid synthesis applications, demonstrating the potential of synthetic data to tackle diverse clinical requirements. While conditional models incorporating class labels, segmentation masks and image translations are prevalent, there is a gap in utilizing prior clinical knowledge and patient-specific context, suggesting a need for more personalized synthesis approaches and emphasizing the importance of tailoring generative approaches to the unique characteristics of medical data. Additionally, there is a significant gap in using synthetic data beyond augmentation, such as for validation and evaluation of downstream medical AI models. The survey uncovers that the lack of standardized evaluation methodologies tailored to medical images is a barrier to clinical application, underscoring the need for in-depth evaluation approaches, benchmarking, and comparative studies to promote openness and collaboration.",
+ "primary": "cs.LG"
+}

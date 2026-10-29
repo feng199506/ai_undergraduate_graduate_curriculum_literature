@@ -1,0 +1,17 @@
+{
+ "id": "2606.11402",
+ "title": "GraphGP: Scalable Gaussian Processes with Vecchia's Approximation",
+ "authors": [
+  "Benjamin Dodge",
+  "Philipp Frank",
+  "Susan E. Clark"
+ ],
+ "v1_date": "2026-06-09",
+ "latest_version": 1,
+ "latest_date": "2026-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Conference on Physics and AI at Stanford University (PAI 2026)",
+ "abstract": "Gaussian processes are a powerful tool for modeling continuous fields, but their naive $\\mathcal{O}(N^3)$ computational cost and $\\mathcal{O}(N^2)$ memory requirement often limit their practical use. Vecchia's approximation is a sparse precision matrix approximation for stationary, decaying kernels that conditions each point only on its $k$ nearest neighbors. We present GraphGP, a GPU algorithm for Vecchia's approximation that scales to nearly a billion parameters with linear time and memory requirements, handling arbitrary point distributions over a large dynamic range. Our key contributions are (1) a bit-reversed k-d tree ordering that allows efficient neighbor searches while also maximizing batch parallelism, and (2) a differentiable CUDA implementation, which is substantially faster and more memory efficient than our pure JAX baseline. GraphGP provides the building blocks for inference, including forward generation, inverse application, log-determinant, and kernel parameter derivatives.",
+ "primary": "stat.CO"
+}

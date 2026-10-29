@@ -1,0 +1,21 @@
+{
+ "id": "2601.19501",
+ "title": "Masked Diffusion Generative Recommendation",
+ "authors": [
+  "Lingyu Mu",
+  "Hao Deng",
+  "Haibo Xing",
+  "Jinxin Hu",
+  "Yu Zhang",
+  "Xiaoyi Zeng",
+  "Jing Zhang"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative recommendation (GR) typically first quantizes continuous item embeddings into multi-level semantic IDs (SIDs), and then generates the next item via autoregressive decoding. Although existing methods are already competitive in terms of recommendation performance, directly inheriting the autoregressive decoding paradigm from language models still suffers from three key limitations: (1) autoregressive decoding struggles to jointly capture global dependencies among the multi-dimensional features associated with different positions of SID; (2) using a unified, fixed decoding path for the same item implicitly assumes that all users attend to item attributes in the same order; (3) autoregressive decoding is inefficient at inference time and struggles to meet real-time requirements. To tackle these challenges, we propose MDGR, a Masked Diffusion Generative Recommendation framework that reshapes the GR pipeline from three perspectives: codebook, training, and inference. (1) We adopt a parallel codebook to provide a structural foundation for diffusion-based GR. (2) During training, we adaptively construct masking supervision signals along both the temporal and sample dimensions. (3) During inference, we develop a warm-up-based two-stage parallel decoding strategy for efficient generation of SIDs. Extensive experiments on multiple public and industrial-scale datasets show that MDGR outperforms ten state-of-the-art baselines by up to 10.78%. Furthermore, by deploying MDGR on a large-scale online advertising platform, we achieve a 1.20% increase in revenue, demonstrating its practical value.",
+ "primary": "cs.IR"
+}

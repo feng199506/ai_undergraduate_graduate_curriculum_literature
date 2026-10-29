@@ -1,0 +1,17 @@
+{
+ "id": "2508.10251",
+ "title": "Meta-Metrics and Best Practices for System-Level Inference Performance Benchmarking",
+ "authors": [
+  "Shweta Salaria",
+  "Zhuoran Liu",
+  "Nelson Mimura Gonzalez"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 1,
+ "latest_date": "2025-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Benchmarking inference performance (speed) of Foundation Models such as Large Language Models (LLM) involves navigating a vast experimental landscape to understand the complex interactions between hardware and software components. However, evaluating every possible test configuration is impractical, unfeasible and unnecessary. To address this challenge, we introduce FMwork, a comprehensive and methodical approach to creating a controlled testing environment that accurately reflects and characterizes performance. FMwork comprises a set of benchmkaring best practices with three key components: 1) meta-metrics, 2) parameter selection, and 3) strategic cost-performance evaluation. Meta-metrics account for time and resources spent on benchmarking and the relative accuracy of the results compared to a larger body of measurements, representing the complete experimental space. FMwork operationalizes the meta-metrics and provides efficient strategies for parameter selection and cost-performance analysis. Using the framework, we show up to 24x improvement (speedup and/or resource savings) running sweeps of experiments compared to the ground truth. Even already considering a subset of experiments as reference point (using the power of two for batch sizes), reducing experimental output size from 1024 to 128 tokens yields another 2.7x gain while keeping 96.6% accuracy for an evaluation using Llama 3.1 8B model.",
+ "primary": "cs.PF"
+}

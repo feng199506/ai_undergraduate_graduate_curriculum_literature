@@ -1,0 +1,21 @@
+{
+ "id": "2510.06646",
+ "title": "The False Promise of Zero-Shot Super-Resolution in Machine-Learned Operators",
+ "authors": [
+  "Mansi Sakarvadia",
+  "Kareem Hegazy",
+  "Amin Totounferoush",
+  "Kyle Chard",
+  "Yaoqing Yang",
+  "Ian Foster",
+  "Michael W. Mahoney"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 2,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in the Proceedings of the International Conference on Learning Representations (ICLR), 2026",
+ "abstract": "A core challenge in scientific machine learning, and scientific computing more generally, is modeling continuous phenomena which (in practice) are represented discretely. Machine-learned operators (MLOs) have been introduced as a means to achieve this modeling goal, as this class of architecture can perform inference at arbitrary resolution. In this work, we evaluate whether this architectural innovation is sufficient to perform \"zero-shot super-resolution,\" namely to enable a model to serve inference on higher-resolution data than that on which it was originally trained. We comprehensively evaluate both zero-shot sub-resolution and super-resolution (i.e., multi-resolution) inference in MLOs. We decouple multi-resolution inference into two key behaviors: 1) extrapolation to varying frequency information; and 2) interpolating across varying resolutions. We empirically demonstrate that MLOs fail to do both of these tasks in a zero-shot manner. Consequently, we find MLOs are not able to perform accurate inference at resolutions different from those on which they were trained, and instead they are brittle and susceptible to aliasing. To address these failure modes, we propose a simple, computationally-efficient, and data-driven multi-resolution training protocol that overcomes aliasing and that provides robust multi-resolution generalization.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2506.13552",
+ "title": "A Comprehensive Survey on Video Scene Parsing:Advances, Challenges, and Prospects",
+ "authors": [
+  "Guohuan Xie",
+  "Syed Ariff Syed Hesham",
+  "Wenya Guo",
+  "Bing Li",
+  "Ming-Ming Cheng",
+  "Guolei Sun",
+  "Yun Liu"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 2,
+ "latest_date": "2026-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Video Scene Parsing (VSP) studies dense video understanding, where every pixel in each frame must be segmented, each region must be named, and each object identity must remain coherent over time. This survey reviews recent progress in VSP across five tasks, spanning Video Semantic Segmentation (VSS), Video Instance Segmentation (VIS), Video Panoptic Segmentation (VPS), Video Tracking \\& Segmentation (VTS), and Open-Vocabulary Video Segmentation (OVVS). We organize the literature as one architectural arc, running from hand-crafted motion and appearance cues through fully convolutional, attention-based and query-based designs to recent foundation-model approaches, and we trace how each family models temporal context, preserves identity, and balances accuracy against efficiency. We then compare the datasets, metrics and benchmark trends that shape current evaluation. Beyond cataloguing methods, we foreground the design trade-offs and recurring failure modes that cut across the field, namely temporal flicker, occlusion-induced identity switches, long-tail categories, and the annotation--capacity--latency tension. We close with open directions towards robust, efficient and open-world VSP systems.",
+ "primary": "cs.CV"
+}

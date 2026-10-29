@@ -1,0 +1,15 @@
+{
+ "id": "2510.04302",
+ "title": "When Guessing is Rewarded: Rethinking Language Model Evaluation with Distributional Uncertainty Scoring",
+ "authors": [
+  "Thomas F Burns"
+ ],
+ "v1_date": "2025-10-05",
+ "latest_version": 2,
+ "latest_date": "2026-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 2 figures; accepted to NeurIPS 2026 (Evaluations and Datasets track)",
+ "abstract": "Standard language model evaluation assigns scores to single predicted answers, rewarding high-confidence responses regardless of how residual probability mass is distributed over alternative options. This creates a systematic pressure toward overconfident guessing: under accuracy-based schemes, a model maximises its expected score by always committing to an answer rather than abstaining, even when its uncertainty is high. While penalty-based approaches partially address this by raising the confidence threshold for strategic guessing, they still treat all sub-threshold responses identically, ignoring a fundamental distinction in how models can express uncertainty - for example between hedging toward incorrect answers versus hedging toward \"I don't know\" responses. This paper introduces a novel evaluation metric to solve this problem of not considering a model's entire probability distribution over answer choices. The metric naturally distinguishes between harmful overconfidence in wrong answers and uncertainty expressed through abstention, providing scores in an interpretable default range. Through theoretical analysis and illustrative examples, the metric is shown to offer a more nuanced and aligned evaluation paradigm that incentivises models to express genuine uncertainty rather than guessing. Adapting 12 existing evaluation benchmarks to the metric's variants and measuring performance on six language models shows that for half of the tested benchmarks scores are negative across all tested models, indicating significant tendencies towards hallucination.",
+ "primary": "cs.CL"
+}

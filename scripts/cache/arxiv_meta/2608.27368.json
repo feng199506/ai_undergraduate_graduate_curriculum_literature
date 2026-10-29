@@ -1,0 +1,17 @@
+{
+ "id": "2608.27368",
+ "title": "UGM: A Unified Framework and New Perspectives for Accelerated Gradient Methods in Smooth and Strongly Convex Optimization",
+ "authors": [
+  "Danqing Zhou",
+  "Shiqian Ma",
+  "Junfeng Yang"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 1,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose a unified framework for accelerated gradient methods, dubbed UGM, which subsumes a wide range of accelerated and conventional gradient-type methods designed for minimizing $L$-smooth and $μ$-strongly convex functions. We demonstrate that the iteration update of the proposed framework can be intrinsically interpreted as a hybrid combination of the heavy-ball method and vanilla gradient descent. This interpretation reveals that classical accelerated gradient methods essentially integrate a conservative gradient descent step into the fast yet unstable heavy-ball dynamics, which achieves a favorable trade-off between acceleration and stability. We further establish a unified convergence analysis using Lyapunov functions. Guided by our analysis, we develop a family of enhanced accelerated gradient algorithms that leverage the inner product relationship between gradient information and iterative variables to optimize iterative updates. Extensive numerical experiments on unconstrained quadratic optimization and logistic regression validate that the proposed algorithms achieve superior performance compared with existing baseline methods under typical structural conditions.",
+ "primary": "math.OC"
+}

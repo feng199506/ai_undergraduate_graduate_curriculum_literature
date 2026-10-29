@@ -1,0 +1,15 @@
+{
+ "id": "2603.18328",
+ "title": "A Family of Adaptive Activation Functions for Mitigating Failure Modes in Physics-Informed Neural Networks",
+ "authors": [
+  "Krishna Murari"
+ ],
+ "v1_date": "2026-03-18",
+ "latest_version": 1,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Physics-Informed Neural Networks(PINNs) are a powerful and flexible learning framework that has gained significant attention in recent years. It has demonstrated strong performance across a wide range of scientific and engineering problems. In parallel, wavelets have been extensively used as efficient computational tools due to their strong approximation capabilities. Motivated by the common failure modes observed in standard PINNs, this work introduces a novel family of adaptive wavelet-based activation functions. The proposed activation functions significantly improve training stability and expressive power by combining trainable wavelet functions with either trainable or fixed hyperbolic tangent and softplus functions. Five distinct activation functions are developed within the PINN framework and systematically evaluated across four representative classes of partial differential equations (PDEs). Comprehensive comparisons using bar plots demonstrate improved robustness and accuracy compared to traditional activation functions. Furthermore, the proposed approach is validated through direct comparisons with baseline PINNs, transformer-based architectures such as PINNsFormer, and other deep learning models, highlighting its effectiveness and generality.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2609.35216",
+ "title": "Adaptive Resource Allocation for Effective and Efficient LLM Social Survey Simulation",
+ "authors": [
+  "Yuanzi Li",
+  "Xueyang Feng",
+  "Junhao Wang",
+  "Lei Wang",
+  "Xu Chen"
+ ],
+ "v1_date": "2026-09-28",
+ "latest_version": 1,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) enable scalable social survey simulation, yet existing pipelines typically use the same strong general-purpose model and a fixed, often large, respondent history for every respondent-question request. This uniform approach overlooks three factors. First, stronger models may rely on their own knowledge rather than respondent-specific evidence while costing more. Second, additional history can help when evidence is limited, but irrelevant responses may add noise and increase input length. Third, the preferred model and history budget can depend on each other. We propose E2Sim, an adaptive resource allocation framework that jointly selects a model and history budget for each request. Given a respondent persona, ranked response history, and target question, a lightweight policy predicts the accuracy and cost of each configuration and selects the most suitable one. We use respondent-history drop-and-swap augmentation to improve robustness to incomplete or variable histories, and a margin-based curriculum that progresses from easier allocation decisions to harder ones. Experiments on four real-world social survey datasets, multiple model pools, and different history-budget spaces show improvements over the oracle best-fixed configurations, with accuracy gains of up to 6.3 percentage points and cost reductions of up to 55.3 percent. Code is available at https://anonymous.4open.science/r/E2Sim-DE66.",
+ "primary": "cs.CY"
+}

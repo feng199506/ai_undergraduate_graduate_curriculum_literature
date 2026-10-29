@@ -1,0 +1,19 @@
+{
+ "id": "2404.06466",
+ "title": "Hyperparameter Selection in Continual Learning",
+ "authors": [
+  "Thomas L. Lee",
+  "Sigrid Passano Hellan",
+  "Linus Ericsson",
+  "Elliot J. Crowley",
+  "Amos Storkey"
+ ],
+ "v1_date": "2024-04-09",
+ "latest_version": 2,
+ "latest_date": "2025-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint, 16 pages",
+ "abstract": "In continual learning (CL) -- where a learner trains on a stream of data -- standard hyperparameter optimisation (HPO) cannot be applied, as a learner does not have access to all of the data at the same time. This has prompted the development of CL-specific HPO frameworks. The most popular way to tune hyperparameters in CL is to repeatedly train over the whole data stream with different hyperparameter settings. However, this end-of-training HPO is unusable in practice since a learner can only see the stream once. Hence, there is an open question: what HPO framework should a practitioner use for a CL problem in reality? This paper looks at this question by comparing several realistic HPO frameworks. We find that none of the HPO frameworks considered, including end-of-training HPO, perform consistently better than the rest on popular CL benchmarks. We therefore arrive at a twofold conclusion: a) to be able to discriminate between HPO frameworks there is a need to move beyond the current most commonly used CL benchmarks, and b) on the popular CL benchmarks examined, a CL practitioner should use a realistic HPO framework and can select it based on factors separate from performance, for example compute efficiency.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "2601.19191",
+ "title": "Transparency-First Medical Language Models: Datasheets, Model Cards, and End-to-End Data Provenance for Clinical NLP",
+ "authors": [
+  "Olaf Yunus Laitinen Imanov",
+  "Taner Yilmaz",
+  "Ayse Tuba Tugrul",
+  "Melike Nesrin Zaman",
+  "Ozkan Gunalp",
+  "Duygu Erisken",
+  "Sila Burde Dulger",
+  "Rana Irem Turhan",
+  "Izzet Ozdemir",
+  "Derya Umut Kulali",
+  "Ozan Akbulut",
+  "Harun Demircioglu",
+  "Hasan Basri Kara",
+  "Berfin Tavan"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 1,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 9 figures, 15 tables. Technetium-I case study and ProtactiniumBERT-100M reference benchmarks",
+ "abstract": "We introduce TeMLM, a set of transparency-first release artifacts for clinical language models. TeMLM unifies provenance, data transparency, modeling transparency, and governance into a single, machine-checkable release bundle. We define an artifact suite (TeMLM-Card, TeMLM-Datasheet, TeMLM-Provenance) and a lightweight conformance checklist for repeatable auditing. We instantiate the artifacts on Technetium-I, a large-scale synthetic clinical NLP dataset with 498,000 notes, 7.74M PHI entity annotations across 10 types, and ICD-9-CM diagnosis labels, and report reference results for ProtactiniumBERT (about 100 million parameters) on PHI de-identification (token classification) and top-50 ICD-9 code extraction (multi-label classification). We emphasize that synthetic benchmarks are valuable for tooling and process validation, but models should be validated on real clinical data prior to deployment.",
+ "primary": "cs.CL"
+}

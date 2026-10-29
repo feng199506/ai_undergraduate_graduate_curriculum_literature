@@ -1,0 +1,18 @@
+{
+ "id": "2408.12479",
+ "title": "Matrix-Free Higher-Order Finite Element Methods for Hyperelasticity",
+ "authors": [
+  "Richard Schussnig",
+  "Niklas Fehn",
+  "Peter Munch",
+  "Martin Kronbichler"
+ ],
+ "v1_date": "2024-08-22",
+ "latest_version": 2,
+ "latest_date": "2024-12-04",
+ "journal_ref": "",
+ "doi": "10.1016/j.cma.2024.117600",
+ "comment": "",
+ "abstract": "This work presents a matrix-free finite element solver for finite-strain elasticity adopting an $hp$-multigrid preconditioner. Compared to classical algorithms relying on a global sparse matrix, matrix-free solution strategies significantly reduce memory traffic by repeated evaluation of the finite element integrals. Following this approach in the context of finite-strain elasticity, the precise statement of the final weak form is crucial for performance, and it is not clear a priori whether to choose problem formulations in the material or spatial domain. With a focus on hyperelastic solids in biomechanics, the arithmetic costs to evaluate the material law at each quadrature point might favor an evaluation strategy where some quantities are precomputed in each Newton iteration and reused in the Krylov solver for the linearized problem. Hence, we discuss storage strategies to balance the compute load against memory access in compressible and incompressible neo-Hookean models and an anisotropic tissue model. Additionally, numerical stability becomes increasingly important using lower/mixed-precision ingredients and approximate preconditioners to better utilize modern hardware architectures. Application of the presented method to a patient-specific geometry of an iliac bifurcation shows significant speed-ups, especially for higher polynomial degrees, when compared to alternative approaches with matrix-based geometric or black-box algebraic multigrid preconditioners.",
+ "primary": "cs.CE"
+}

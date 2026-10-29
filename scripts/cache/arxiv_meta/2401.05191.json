@@ -1,0 +1,19 @@
+{
+ "id": "2401.05191",
+ "title": "Adaptive Hardness Negative Sampling for Collaborative Filtering",
+ "authors": [
+  "Riwei Lai",
+  "Rui Chen",
+  "Qilong Han",
+  "Chi Zhang",
+  "Li Chen"
+ ],
+ "v1_date": "2024-01-10",
+ "latest_version": 1,
+ "latest_date": "2024-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by AAAI2024",
+ "abstract": "Negative sampling is essential for implicit collaborative filtering to provide proper negative training signals so as to achieve desirable performance. We experimentally unveil a common limitation of all existing negative sampling methods that they can only select negative samples of a fixed hardness level, leading to the false positive problem (FPP) and false negative problem (FNP). We then propose a new paradigm called adaptive hardness negative sampling (AHNS) and discuss its three key criteria. By adaptively selecting negative samples with appropriate hardnesses during the training process, AHNS can well mitigate the impacts of FPP and FNP. Next, we present a concrete instantiation of AHNS called AHNS_{p<0}, and theoretically demonstrate that AHNS_{p<0} can fit the three criteria of AHNS well and achieve a larger lower bound of normalized discounted cumulative gain. Besides, we note that existing negative sampling methods can be regarded as more relaxed cases of AHNS. Finally, we conduct comprehensive experiments, and the results show that AHNS_{p<0} can consistently and substantially outperform several state-of-the-art competitors on multiple datasets.",
+ "primary": "cs.IR"
+}

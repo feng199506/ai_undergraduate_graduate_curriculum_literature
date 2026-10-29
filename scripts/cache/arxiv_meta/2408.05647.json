@@ -1,0 +1,17 @@
+{
+ "id": "2408.05647",
+ "title": "Controlling for discrete unmeasured confounding in nonlinear causal models",
+ "authors": [
+  "Patrick Burauel",
+  "Frederick Eberhardt",
+  "Michel Besserve"
+ ],
+ "v1_date": "2024-08-10",
+ "latest_version": 1,
+ "latest_date": "2024-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Unmeasured confounding is a major challenge for identifying causal relationships from non-experimental data. Here, we propose a method that can accommodate unmeasured discrete confounding. Extending recent identifiability results in deep latent variable models, we show theoretically that confounding can be detected and corrected under the assumption that the observed data is a piecewise affine transformation of a latent Gaussian mixture model and that the identity of the mixture components is confounded. We provide a flow-based algorithm to estimate this model and perform deconfounding. Experimental results on synthetic and real-world data provide support for the effectiveness of our approach.",
+ "primary": "cs.LG"
+}

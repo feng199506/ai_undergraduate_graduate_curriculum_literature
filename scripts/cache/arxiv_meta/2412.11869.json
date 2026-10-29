@@ -1,0 +1,21 @@
+{
+ "id": "2412.11869",
+ "title": "Automated Detection of Inter-Language Design Smells in Multi-Language Deep Learning Frameworks",
+ "authors": [
+  "Zengyang Li",
+  "Xiaoyong Zhang",
+  "Wenshuo Wang",
+  "Peng Liang",
+  "Ran Mo",
+  "Jie Tan",
+  "Hui Liu"
+ ],
+ "v1_date": "2024-12-16",
+ "latest_version": 1,
+ "latest_date": "2024-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint accepted for publication in Information and Software Technology, 2024",
+ "abstract": "Nowadays, most DL frameworks (DLFs) use multilingual programming of Python and C/C++, facilitating the flexibility and performance of the DLF. However, inappropriate interlanguage interaction may introduce design smells involving multiple programming languages (PLs), i.e., Inter-Language Design Smells (ILDS). Despite the negative impact of ILDS on multi-language DLFs, there is a lack of an automated approach for detecting ILDS in multi-language DLFs and a comprehensive understanding on ILDS in such DLFs. This work automatically detects ILDS in multi-language DLFs written in the combination of Python and C/C++, and to obtain a understanding on such ILDS in DLFs. We first developed an approach to automatically detecting ILDS in the multi-language DLFs written in the combination of Python and C/C++, including a number of ILDS and their detection rules defined based on inter-language communication mechanisms and code analysis. We then developed the CPSMELL tool that implements detection rules for automatically detecting such ILDS, and manually validated the accuracy of the tool. Finally, we performed a study to evaluate the ILDS in multi-language DLFs. We proposed seven ILDS and achieved an accuracy of 98.17% in the manual validation of CPSMELL in 5 popular multi-language DLFs. The study results revealed that among the 5 DLFs, TensorFlow, PyTorch, and PaddlePaddle exhibit relatively high prevalence of ILDS; each smelly file contains around 5 ILDS instances on average, with ILDS Long Lambda Function For Inter-language Binding and Unused Native Entity being relatively prominent; throughout the evolution process of the 5 DLFs, some ILDS were resolved to a certain extent, but the overall count of ILDS instances shows an upward trend. The automated detection of the proposed ILDS achieved a high accuracy, and the study provides a comprehensive understanding on ILDS in the multi-language DLFs.",
+ "primary": "cs.SE"
+}

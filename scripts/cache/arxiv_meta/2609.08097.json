@@ -1,0 +1,18 @@
+{
+ "id": "2609.08097",
+ "title": "Nonparametric heterogeneous causal mediation with orthogonal machine learning",
+ "authors": [
+  "Jiaqi Tong",
+  "Yi Zhao",
+  "Bhramar Mukherjee",
+  "Fan Li"
+ ],
+ "v1_date": "2026-09-08",
+ "latest_version": 2,
+ "latest_date": "2026-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal mediation analysis decomposes the total effect of an intervention on an outcome into a direct pathway and an indirect pathway transmitted through a mediator, but standard methods typically summarize these pathways using population average effects. In many applications, however, the indirect effect may vary substantially across individual profiles. We propose an orthogonal statistical learning framework for estimating heterogeneous causal mediation effects conditional on individual characteristics. The method constructs a class of weighted Neyman orthogonal losses motivated by influence function representations of weighted population average effects. These losses directly target conditional mediation estimands whose minimizers are locally insensitive to nuisance estimation errors. We implement the resulting learners under a two-stage meta-learning framework with regularized linear sieves as second-stage smoothers, and introduce a combination of targeted learning and orthogonal learning designed to improve stability when mediator density ratios are unstable. We establish $L^2$ and uniform limit theory and develop pointwise and uniform confidence bands. Simulation studies show that the proposed orthogonal learners reduce the mean integrated squared error by more than $50\\%$ compared with existing model-based methods and provide computationally efficient inference in nonlinear settings. The CARDIA, PSACR, and STAR analyses reveal heterogeneous mediated effects across cardiometabolic, psychological, and educational settings.",
+ "primary": "stat.ME"
+}

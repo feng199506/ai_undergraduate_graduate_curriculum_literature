@@ -1,0 +1,17 @@
+{
+ "id": "2410.23830",
+ "title": "Reducing Oversmoothing through Informed Weight Initialization in Graph Neural Networks",
+ "authors": [
+  "Dimitrios Kelesis",
+  "Dimitris Fotakis",
+  "Georgios Paliouras"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 1,
+ "latest_date": "2024-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we generalize the ideas of Kaiming initialization to Graph Neural Networks (GNNs) and propose a new scheme (G-Init) that reduces oversmoothing, leading to very good results in node and graph classification tasks. GNNs are commonly initialized using methods designed for other types of Neural Networks, overlooking the underlying graph topology. We analyze theoretically the variance of signals flowing forward and gradients flowing backward in the class of convolutional GNNs. We then simplify our analysis to the case of the GCN and propose a new initialization method. Our results indicate that the new method (G-Init) reduces oversmoothing in deep GNNs, facilitating their effective use. Experimental validation supports our theoretical findings, demonstrating the advantages of deep networks in scenarios with no feature information for unlabeled nodes (i.e., ``cold start'' scenario).",
+ "primary": "cs.LG"
+}

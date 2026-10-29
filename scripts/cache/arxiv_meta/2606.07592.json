@@ -1,0 +1,15 @@
+{
+ "id": "2606.07592",
+ "title": "UNIQ: Conformal Calibration for Adaptive Conservatism in Offline Reinforcement Learning",
+ "authors": [
+  "Aditya Upadhyay"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 2 figures, ICML 2026 Workshop on Decision-Making from Offline Datasets to Online Adaptation: Black-Box Optimization to Reinforcement Learning",
+ "abstract": "Offline reinforcement learning requires careful conservatism to mitigate distribution shift, yet most existing methods apply a fixed penalty uniformly across all states regardless of local data coverage. We present UNIQ (Uncertainty-Informed Quantile), an offline RL method that introduces state-adaptive conservatism through conformally calibrated uncertainty estimation. Built on the Implicit Q-Learning (IQL) backbone, UNIQ trains a multi-expectile value ensemble, computes distribution-free uncertainty estimates using split conformal prediction, and maps the resulting signal to a state-dependent expectile that relaxes conservatism in well-covered regions while strengthening it in uncertain regions near the data frontier. On D4RL MuJoCo benchmarks, UNIQ consistently improves over IQL, with the largest gains observed on Walker2d and replay-heavy tasks. At the same time, UNIQ operates at near-IQL memory cost (approximately 250 MB peak VRAM), providing roughly a 10x reduction compared to EDAC. Rather than pursuing overall state-of-the-art performance, we position UNIQ as a practical mechanism contribution that improves the performance-efficiency trade-off in offline reinforcement learning.",
+ "primary": "cs.LG"
+}

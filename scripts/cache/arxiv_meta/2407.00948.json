@@ -1,0 +1,17 @@
+{
+ "id": "2407.00948",
+ "title": "View From Above: A Framework for Evaluating Distribution Shifts in Model Behavior",
+ "authors": [
+  "Tanush Chopra",
+  "Michael Li",
+  "Jacob Haimes"
+ ],
+ "v1_date": "2024-07-01",
+ "latest_version": 3,
+ "latest_date": "2024-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When large language models (LLMs) are asked to perform certain tasks, how can we be sure that their learned representations align with reality? We propose a domain-agnostic framework for systematically evaluating distribution shifts in LLMs decision-making processes, where they are given control of mechanisms governed by pre-defined rules. While individual LLM actions may appear consistent with expected behavior, across a large number of trials, statistically significant distribution shifts can emerge. To test this, we construct a well-defined environment with known outcome logic: blackjack. In more than 1,000 trials, we uncover statistically significant evidence suggesting behavioral misalignment in the learned representations of LLM.",
+ "primary": "cs.CL"
+}

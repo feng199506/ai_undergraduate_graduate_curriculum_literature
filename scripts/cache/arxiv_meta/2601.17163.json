@@ -1,0 +1,15 @@
+{
+ "id": "2601.17163",
+ "title": "Degenerate coupled-cluster theory",
+ "authors": [
+  "So Hirata"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 5,
+ "latest_date": "2026-07-07",
+ "journal_ref": "J. Chem. Phys. 165, 064113 (2026)",
+ "doi": "10.1063/5.0332494",
+ "comment": "",
+ "abstract": "A size-extensive, converging, black-box, ab initio coupled-cluster ($Δ$CC) ansatz is introduced that computes the energies and wave functions of states from any degenerate or nondegenerate Slater-determinant references with any numbers of $α$- and $β$-spin electrons, any patterns of orbital occupancy, any spin multiplicities, and any spatial symmetries. For a nondegenerate reference, it reduces to the single-reference coupled-cluster ansatz. For a degenerate multireference, it is a natural coupled-cluster extension of degenerate Moeller-Plesset perturbation ($Δ$MP) theory. For ionized and electron-attached references, it is a coupled-cluster Green's function, although the present theory is convergent toward the full-configuration-interaction (FCI) limits, while Feynman-Dyson many-body Green's function (MBGF) theory generally is not. Its single-excitation instance is a projection Hartree-Fock theory as per the Thouless theorem, which may be useful for core ionizations, high-spin states, and possibly electron affinities. A new multireference coupled-cluster theory for a general model space is also developed. This quasidegenerate coupled-cluster (QCC) theory is exactly converging, but not black-box, and intended for strong correlation. Determinant-based, general-order algorithms of $Δ$CC and QCC theories are implemented and compared with configuration-interaction (CI) and equation-of-motion coupled-cluster (EOM-CC) theories through octuple excitations and with $Δ$MP and MBGF theories up to the nineteenth order. An algebraic, optimal-scaling algorithm of $Δ$CC theory is computer-synthesized at the levels of single excitations ($Δ$CCS) and of single and double excitations ($Δ$CCSD). The order of performance is: QCC $\\approx$ $Δ$CC > EOM-CC > CI at the same order or QCC $\\approx$ $Δ$CC > $Δ$MP > MBGF at the same cost scaling.",
+ "primary": "physics.chem-ph"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.09858",
+ "title": "OUTLINEFORGE: Hierarchical Reinforcement Learning with Explicit States for Scientific Writing",
+ "authors": [
+  "Yilin Bao",
+  "Ziyao He",
+  "Zayden Yang"
+ ],
+ "v1_date": "2026-01-14",
+ "latest_version": 1,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scientific paper generation requires document-level planning and factual grounding, but current large language models, despite their strong local fluency, often fail in global structure, input coverage, and citation consistency. We present a reinforcement learning framework that casts scientific outline construction as a long-horizon planning problem over hierarchical document structures. Our approach models edit evolving outlines through structured actions, enabling the system to incrementally build a complete scientific manuscript. To support effective and stabilize learning,we introduce a two-stage optimization procedure consisting of (i) backward outline reconstruction from partial plans to enforce global structural consistency, and (ii) forward value-guided reinforcement learning with rewards explicitly modeling scientific correctness, discourse coherence, and citation fidelity. In addition, We further introduce a benchmark for scientific paper generation that evaluates document planning, input utilization, reference faithfulness, outline organization, and content-level factual accuracy. Our results show consistent improvements over strong neural and LLM baselines, particularly in long-range structural coherence and citation reliability.",
+ "primary": "cs.CL"
+}

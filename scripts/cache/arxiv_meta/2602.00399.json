@@ -1,0 +1,15 @@
+{
+ "id": "2602.00399",
+ "title": "Reinforcement Learning for Control Systems with Time Delays: A Comprehensive Survey",
+ "authors": [
+  "Armando Alves Neto"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 1,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages",
+ "abstract": "In the last decade, Reinforcement Learning (RL) has achieved remarkable success in the control and decision-making of complex dynamical systems. However, most RL algorithms rely on the Markov Decision Process assumption, which is violated in practical cyber-physical systems affected by sensing delays, actuation latencies, and communication constraints. Such time delays introduce memory effects that can significantly degrade performance and compromise stability, particularly in networked and multi-agent environments. This paper presents a comprehensive survey of RL methods designed to address time delays in control systems. We first formalize the main classes of delays and analyze their impact on the Markov property. We then systematically categorize existing approaches into five major families: state augmentation and history-based representations, recurrent policies with learned memory, predictor-based and model-aware methods, robust and domain-randomized training strategies, and safe RL frameworks with explicit constraint handling. For each family, we discuss underlying principles, practical advantages, and inherent limitations. A comparative analysis highlights key trade-offs among these approaches and provides practical guidelines for selecting suitable methods under different delay characteristics and safety requirements. Finally, we identify open challenges and promising research directions, including stability certification, large-delay learning, multi-agent communication co-design, and standardized benchmarking. This survey aims to serve as a unified reference for researchers and practitioners developing reliable RL-based controllers in delay-affected cyber-physical systems.",
+ "primary": "stat.ML"
+}

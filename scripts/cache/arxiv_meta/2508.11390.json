@@ -1,0 +1,18 @@
+{
+ "id": "2508.11390",
+ "title": "A Remedy for Over-Squashing in Graph Learning via Forman-Ricci Curvature based Graph-to-Hypergraph Structural Lifting",
+ "authors": [
+  "Michael Banf",
+  "Dominik Filipiak",
+  "Max Schattauer",
+  "Liliya Imasheva"
+ ],
+ "v1_date": "2025-08-15",
+ "latest_version": 1,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph Neural Networks are highly effective at learning from relational data, leveraging node and edge features while maintaining the symmetries inherent to graph structures. However, many real-world systems, such as social or biological networks, exhibit complex interactions that are more naturally represented by higher-order topological domains. The emerging field of Geometric and Topological Deep Learning addresses this challenge by introducing methods that utilize and benefit from higher-order structures. Central to TDL is the concept of lifting, which transforms data representations from basic graph forms to more expressive topologies before the application of GNN models for learning. In this work, we propose a structural lifting strategy using Forman-Ricci curvature, which defines an edge-based network characteristic based on Riemannian geometry. Curvature reveals local and global properties of a graph, such as a network's backbones, i.e. coarse, structure-preserving graph geometries that form connections between major communities - most suitably represented as hyperedges to model information flows between clusters across large distances in the network. To this end, our approach provides a remedy to the problem of information distortion in message passing across long distances and graph bottlenecks - a phenomenon known in graph learning as over-squashing.",
+ "primary": "cs.LG"
+}

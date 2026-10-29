@@ -1,0 +1,22 @@
+{
+ "id": "2605.25415",
+ "title": "LLM-as-a-Reviewer: Benchmarking Their Ability, Divergence, and Prompt Injection Resistance as Paper Reviewers",
+ "authors": [
+  "Lingyao Li",
+  "Junjie Xiong",
+  "Changjia Zhu",
+  "Runlong Yu",
+  "Chen Chen",
+  "Junyu Wang",
+  "Renkai Ma",
+  "Zhicong Lu"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 1,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) are increasingly used in academic peer review, yet their reliability, alignment with human judgment, and robustness to adversarial attacks remain poorly understood. We present a systematic benchmark of LLM-as-a-Reviewer on 898 papers stratified from NeurIPS and ICLR, evaluating 12 LLMs along three axes: rating calibration, divergence from human reviewers, and resistance to prompt injection embedded via an invisible font-mapping attack. We find that LLMs systematically overrate weaker submissions and diverge from humans in topical emphasis, under-flagging Clarity and over-flagging Reproducibility, while producing reviews two to three times longer with lower lexical diversity and a more standardized vocabulary. Prompt injection remains highly effective. Simple hidden instructions can promote low-scoring papers to acceptance-level ratings in a substantial fraction of cases, with effectiveness varying sharply across model families. While LLMs offer utility in structuring evaluations, their integration into peer review requires safeguards against both intrinsic biases and adversarial risks.",
+ "primary": "cs.CL"
+}

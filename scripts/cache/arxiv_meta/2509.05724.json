@@ -1,0 +1,17 @@
+{
+ "id": "2509.05724",
+ "title": "Misspecification-robust amortised simulation-based inference using variational methods",
+ "authors": [
+  "Matthew O'Callaghan",
+  "Kaisey S. Mandel",
+  "Gerry Gilmore"
+ ],
+ "v1_date": "2025-09-06",
+ "latest_version": 3,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Latex edits, fixed typos",
+ "abstract": "Recent advances in neural density estimation have enabled powerful simulation-based inference (SBI) methods that can flexibly approximate Bayesian inference for intractable stochastic models. Although these methods have demonstrated reliable posterior estimation when the simulator accurately represents the underlying data generative process (DGP), recent work has shown that they perform poorly in the presence of model misspecification. This poses a significant issue for their use in real-world problems, due to simulators always misrepresenting the true DGP to a certain degree. In this paper, we introduce robust variational neural posterior estimation (RVNP), a method which addresses the problem of misspecification in amortised SBI by bridging the simulation-to-reality gap using variational inference and error modelling. We test RVNP on multiple benchmark tasks, including using real data from astronomy, and show that it can recover robust posterior inference in a data-driven manner without adopting hyperparameters or priors governing the misspecification influence.",
+ "primary": "stat.ML"
+}

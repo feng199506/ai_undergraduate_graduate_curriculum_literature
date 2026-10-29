@@ -1,0 +1,18 @@
+{
+ "id": "2401.02080",
+ "title": "Energy based diffusion generator for efficient sampling of Boltzmann distributions",
+ "authors": [
+  "Yan Wang",
+  "Ling Guo",
+  "Hao Wu",
+  "Tao Zhou"
+ ],
+ "v1_date": "2024-01-04",
+ "latest_version": 3,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "10.1016/j.neunet.2025.108126",
+ "comment": "",
+ "abstract": "Sampling from Boltzmann distributions, particularly those tied to high dimensional and complex energy functions, poses a significant challenge in many fields. In this work, we present the Energy-Based Diffusion Generator (EDG), a novel approach that integrates ideas from variational autoencoders and diffusion models. EDG uses a decoder to generate Boltzmann-distributed samples from simple latent variables, and a diffusion-based encoder to estimate the Kullback-Leibler divergence to the target distribution. Notably, EDG is simulation-free, eliminating the need to solve ordinary or stochastic differential equations during training. Furthermore, by removing constraints such as bijectivity in the decoder, EDG allows for flexible network design. Through empirical evaluation, we demonstrate the superior performance of EDG across a variety of sampling tasks with complex target distributions, outperforming existing methods.",
+ "primary": "cs.LG"
+}

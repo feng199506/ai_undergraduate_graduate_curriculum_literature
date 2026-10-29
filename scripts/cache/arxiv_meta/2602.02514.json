@@ -1,0 +1,23 @@
+{
+ "id": "2602.02514",
+ "title": "Design and Evaluation of Whole-Page Experience Optimization for E-commerce Search",
+ "authors": [
+  "Pratik Lahiri",
+  "Bingqing Ge",
+  "Zhou Qin",
+  "Aditya Jumde",
+  "Shuning Huo",
+  "Lucas Scottini",
+  "Yi Liu",
+  "Mahmoud Mamlouk",
+  "Wenyang Liu"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 1,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "10.1145/3773966.3779374",
+ "comment": "",
+ "abstract": "E-commerce Search Results Pages (SRPs) are evolving from linear lists to complex, non-linear layouts, rendering traditional position-biased ranking models insufficient. Moreover, existing optimization frameworks typically maximize short-term signals (e.g., clicks, same-day revenue) because long-term satisfaction metrics (e.g., expected two-week revenue) involve delayed feedback and challenging long-horizon credit attribution. To bridge these gaps, we propose a novel Whole-Page Experience Optimization Framework. Unlike traditional list-wise rankers, our approach explicitly models the interplay between item relevance, 2D positional layout, and visual elements. We use a causal framework to develop metrics for measuring long-term user satisfaction based on quasi-experimental data. We validate our approach through industry-scale A/B testing, where the model demonstrated a 1.86% improvement in brand relevance (our primary customer experience metric) while simultaneously achieving a statistically significant revenue uplift of +0.05%",
+ "primary": "cs.IR"
+}

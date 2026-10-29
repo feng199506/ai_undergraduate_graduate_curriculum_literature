@@ -1,0 +1,18 @@
+{
+ "id": "2606.23944",
+ "title": "Stochastic Expectation Maximization for Robust State-Space Radio Interferometric Imaging",
+ "authors": [
+  "Nawel Arab",
+  "Mohammed Nabil El Korso",
+  "Isabelle Vin",
+  "Pascal Larzabal"
+ ],
+ "v1_date": "2026-06-22",
+ "latest_version": 1,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "State--space models provide a flexible framework for analyzing dynamical systems, yet they often rely on Gaussian assumptions that fail to capture heavy-tailed or outlier-prone measurement noise. We propose a robust estimation scheme for linear state--space models subject to compound-Gaussian noise, as encountered for instance in radio interferometry affected by radio-frequency interference (RFI). The method relies on a Stochastic Approximation Expectation--Maximization (SAEM) algorithm in which the standard E-step is replaced by Monte Carlo sampling of the latent states and noise texture through closed-form Gibbs updates, enabling tractable inference despite the heavy-tailed likelihood. Numerical experiments show that the proposed method significantly improves reconstruction fidelity and robustness to RFI, outperforming a Gaussian EM algorithm and even an oracle RTS smoother. These results highlight the benefits of heavy-tailed state--space modeling and SAEM-based inference in interference-dominated imaging scenarios.",
+ "primary": "astro-ph.IM"
+}

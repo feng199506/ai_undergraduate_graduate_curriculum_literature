@@ -1,0 +1,15 @@
+{
+ "id": "2501.10470",
+ "title": "Off-policy Evaluation for Payments at Adyen",
+ "authors": [
+  "Alex Egg"
+ ],
+ "v1_date": "2025-01-15",
+ "latest_version": 1,
+ "latest_date": "2025-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 5 figures, submitted to RecSys '25",
+ "abstract": "This paper demonstrates the successful application of Off-Policy Evaluation (OPE) to accelerate recommender system development and optimization at Adyen, a global leader in financial payment processing. Facing the limitations of traditional A/B testing, which proved slow, costly, and often inconclusive, we integrated OPE to enable rapid evaluation of new recommender system variants using historical data. Our analysis, conducted on a billion-scale dataset of transactions, reveals a strong correlation between OPE estimates and online A/B test results, projecting an incremental 9--54 million transactions over a six-month period. We explore the practical challenges and trade-offs associated with deploying OPE in a high-volume production environment, including leveraging exploration traffic for data collection, mitigating variance in importance sampling, and ensuring scalability through the use of Apache Spark. By benchmarking various OPE estimators, we provide guidance on their effectiveness and integration into the decision-making systems for large-scale industrial payment systems.",
+ "primary": "cs.LG"
+}

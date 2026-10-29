@@ -1,0 +1,18 @@
+{
+ "id": "2604.14457",
+ "title": "NeuroTrace: Inference Provenance-Based Detection of Adversarial Examples",
+ "authors": [
+  "Firas Ben Hmida",
+  "Philemon Hailemariam",
+  "Kashif Ali Khan",
+  "Birhanu Eshete"
+ ],
+ "v1_date": "2026-04-15",
+ "latest_version": 1,
+ "latest_date": "2026-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 5 figures, 5 tables",
+ "abstract": "Deep neural networks (DNNs) remain largely opaque at inference time, limiting our ability to detect and diagnose malicious input manipulations such as adversarial examples. Existing detection methods predominantly rely on layer-local signals (e.g., activations or attribution scores), leaving cross-layer information flow and execution structure under-explored. We introduce NeuroTrace, a framework and open dataset for analyzing inference provenance through Inference Provenance Graphs (IPGs). IPGs are heterogeneous graphs that capture both activation behavior and parameter-induced dataflow during a model's forward pass, providing a structured representation of how information propagates through the network. NeuroTrace includes (i) a reproducible extraction engine that instruments model execution, (ii) a standardized graph representation compatible with heterogeneous GNNs, and (iii) a benchmark suite spanning multiple adversarial attack families across vision and malware domains. Using this framework, we evaluate IPG-based detectors for adversarial example detection under intra-attack, multi-attack, and cross-threat transfer settings. Our results show that inference provenance provides a strong and transferable signal for distinguishing adversarial and benign inputs, achieving consistently high detection performance and improving over prior graph-based baselines. We further analyze the conditions under which provenance-based detection generalizes across attack types, as well as the associated runtime and storage trade-offs. By releasing the dataset, extraction pipeline, and evaluation protocol, NeuroTrace enables systematic study of inference-time behavior and establishes inference provenance as a practical foundation for building more transparent and auditable machine learning systems.",
+ "primary": "cs.CR"
+}

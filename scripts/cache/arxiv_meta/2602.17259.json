@@ -1,0 +1,22 @@
+{
+ "id": "2602.17259",
+ "title": "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment",
+ "authors": [
+  "Han Zhao",
+  "Jingbo Wang",
+  "Wenxuan Song",
+  "Shuai Chen",
+  "Yang Liu",
+  "Yan Wang",
+  "Haoang Li",
+  "Donglin Wang"
+ ],
+ "v1_date": "2026-02-19",
+ "latest_version": 1,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Project Website: https://h-zhao1997.github.io/frappe",
+ "abstract": "Enabling VLA models to predict environmental dynamics, known as world modeling, has been recognized as essential for improving robotic reasoning and generalization. However, current approaches face two main issues: 1. The training objective forces models to over-emphasize pixel-level reconstruction, which constrains semantic learning and generalization 2. Reliance on predicted future observations during inference often leads to error accumulation. To address these challenges, we introduce Future Representation Alignment via Parallel Progressive Expansion (FRAPPE). Our method adopts a two-stage fine-tuning strategy: In the mid-training phase, the model learns to predict the latent representations of future observations; In the post-training phase, we expand the computational workload in parallel and align the representation simultaneously with multiple different visual foundation models. By significantly improving fine-tuning efficiency and reducing dependence on action-annotated data, FRAPPE provides a scalable and data-efficient pathway to enhance world-awareness in generalist robotic policies. Experiments on the RoboTwin benchmark and real-world tasks demonstrate that FRAPPE outperforms state-of-the-art approaches and shows strong generalization in long-horizon and unseen scenarios.",
+ "primary": "cs.RO"
+}

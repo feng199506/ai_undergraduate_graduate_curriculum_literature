@@ -1,0 +1,17 @@
+{
+ "id": "2605.26341",
+ "title": "A PAC-Bayesian View of Generalisation for Physics-Informed Machine Learning",
+ "authors": [
+  "Thien V. Nguyen",
+  "Amaury Habrard",
+  "Benjamin Guedj"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 2,
+ "latest_date": "2026-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Physics-informed machine learning (PIML) integrates mechanistic knowledge, typically through partial differential equations (PDEs), into data-driven models. Despite strong empirical performance, its statistical generalisation properties remain poorly understood, especially for regression with unbounded losses. We develop a PAC-Bayesian framework for PIML that provides high-probability generalisation guarantees under potentially unbounded losses. Exploiting the structure of physics-informed objectives, we derive component-wise bounds whose complexity scales with the input-gradient energy of each loss, establishing a direct link between physical regularity and generalisation. We further introduce a PAC-Bayesian calibration procedure that yields computable gradient-based complexities while controlling rare large-gradient events through a residual-tail correction. Adopting a multi-task view of data fidelity, PDE residuals, initial conditions, and boundary conditions, we obtain a refined certificate with a single PAC-Bayesian complexity penalty, avoiding the looseness of independently bounding each component. Building on this certificate, we propose a bound-aware learning procedure that promotes empirical accuracy, proximity to a physics-informed prior, and low input-gradient complexity. Experiments on six PDE benchmarks yield substantially tighter certificates than bounded-loss and sub-Gaussian alternatives, while ablations quantify the effects of posterior-training data, calibration data, gradient envelopes, and hypothesis localisation.",
+ "primary": "cs.LG"
+}

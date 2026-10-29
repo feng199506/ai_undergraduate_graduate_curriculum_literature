@@ -1,0 +1,17 @@
+{
+ "id": "2608.06915",
+ "title": "Stochastic Gradient Descent with Momentum: Analysis and Synthesis via Integral Quadratic Constraints",
+ "authors": [
+  "Dennis Gramlich",
+  "Carsten W. Scherer",
+  "Christian Ebenbauer"
+ ],
+ "v1_date": "2026-08-07",
+ "latest_version": 1,
+ "latest_date": "2026-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article applies dynamic integral quadratic constraints (IQCs) to the analysis and synthesis of accelerated stochastic gradient algorithms. We consider composite objective functions whose gradient can be approximated via mini-batch sampling and we model the resulting stochastic gradient oracle as a feedback nonlinearity in the spirit of Lur'e systems from robust control. Our first main contribution is a family of IQCs that characterize the second-order statistics of mini-batch gradients, extending the classical Zames--Falb multipliers. Our second contribution is a semidefinite-program for certifying exponential convergence rates of stochastic gradient algorithms, and a complementary condition for bounding the asymptotic variance caused by non-vanishing gradient noise. Our third contribution is a convex synthesis procedure that identifies mini-batch gradient algorithms with the smallest certifiable convergence rate.",
+ "primary": "math.OC"
+}

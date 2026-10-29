@@ -1,0 +1,17 @@
+{
+ "id": "2606.22890",
+ "title": "PHOEBI: An Open-World Benchmark for Multi-Label Bacterial Identification in Phase-Contrast Microscopy",
+ "authors": [
+  "Aaditya Baranwal",
+  "Md Jahid Hasan",
+  "Shruti Vyas"
+ ],
+ "v1_date": "2026-06-22",
+ "latest_version": 4,
+ "latest_date": "2026-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NeurIPS ED Track, 2026",
+ "abstract": "Optical microscopy lets us watch living bacteria in real time without stains or labels, and it remains the standard instrument for identifying species across clinical, environmental and industrial microbiology. Yet real samples rarely hold a single species. They arrive as mixtures and sometimes carry an organism no model has ever seen. What happens when a model trained on familiar mixtures meets one it has never encountered? No benchmark has asked this of phase-contrast images, so we built one. \\textbf{PHOEBI} brings together 120,000 phase-contrast images of 40 mixtures of six bacterial species that we cultured and imaged ourselves, and it holds whole mixtures out of training so that every test is a combination the model has never seen. The answer is sobering. Classifiers that are nearly perfect on the mixtures they know collapse on new ones, and no choice of backbone or pretraining rescues them. The features turn out to be sound and the failure lies in how the evidence within each image is pooled. A culture looks the same everywhere, and decoders built on this simple fact hold steady where large networks fail even though one of them is never trained by gradient descent. The same features go further still. They notice when a species outside the catalogue appears, and the simplest way of giving it a class of its own proves the most effective while leaving the known species almost untouched. PHOEBI turns the mixed culture, the everyday case at the bench, into a measurable target for open-world recognition.",
+ "primary": "cs.CV"
+}

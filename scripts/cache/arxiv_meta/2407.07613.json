@@ -1,0 +1,18 @@
+{
+ "id": "2407.07613",
+ "title": "Randomness Helps Rigor: A Probabilistic Learning Rate Scheduler Bridging Theory and Deep Learning Practice",
+ "authors": [
+  "Dahlia Devapriya",
+  "Thulasi Tholeti",
+  "Janani Suresh",
+  "Sheetal Kalyani"
+ ],
+ "v1_date": "2024-07-10",
+ "latest_version": 2,
+ "latest_date": "2025-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "We have changed the title to better reflect our work and some parts of our manuscript for better readability",
+ "abstract": "Learning rate schedulers have shown great success in speeding up the convergence of learning algorithms in practice. However, their convergence to a minimum has not been proven theoretically. This difficulty mainly arises from the fact that, while traditional convergence analysis prescribes to monotonically decreasing (or constant) learning rates, schedulers opt for rates that often increase and decrease through the training epochs. In this work, we aim to bridge the gap by proposing a probabilistic learning rate scheduler (PLRS) that does not conform to the monotonically decreasing condition, with provable convergence guarantees. To cement the relevance and utility of our work in modern day applications, we show experimental results on deep neural network architectures such as ResNet, WRN, VGG, and DenseNet on CIFAR-10, CIFAR-100, and Tiny ImageNet datasets. We show that PLRS performs as well as or better than existing state-of-the-art learning rate schedulers in terms of convergence as well as accuracy. For example, while training ResNet-110 on the CIFAR-100 dataset, we outperform the state-of-the-art knee scheduler by $1.56\\%$ in terms of classification accuracy. Furthermore, on the Tiny ImageNet dataset using ResNet-50 architecture, we show a significantly more stable convergence than the cosine scheduler and a better classification accuracy than the existing schedulers.",
+ "primary": "cs.LG"
+}

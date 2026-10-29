@@ -1,0 +1,17 @@
+{
+ "id": "2503.00844",
+ "title": "Impact of Surrogate Model Accuracy on Performance and Model Management Strategy in Surrogate-Assisted Evolutionary Algorithms",
+ "authors": [
+  "Yuki Hanawa",
+  "Tomohiro Harada",
+  "Yukiya Miura"
+ ],
+ "v1_date": "2025-03-02",
+ "latest_version": 1,
+ "latest_date": "2025-03-02",
+ "journal_ref": "",
+ "doi": "10.1016/j.array.2025.100461",
+ "comment": "",
+ "abstract": "Surrogate-assisted evolutionary algorithms (SAEAs) have been proposed to solve expensive optimization problems. Although SAEAs use surrogate models that approximate the evaluations of solutions using machine learning techniques, prior research has not adequately investigated the impact of surrogate model accuracy on search performance and model management strategy in SAEAs. This study analyzes how surrogate model accuracy affects search performance and model management strategies. For this purpose, we construct a pseudo-surrogate model with adjustable prediction accuracy to ensure fair comparisons across different model management strategies. We compared three model management strategies: (1) pre-selection (PS), (2) individual-based (IB), and (3) generation-based (GB) on standard benchmark problems with a baseline model that does not use surrogates. The experimental results reveal that a higher surrogate model accuracy improves the search performance. However, the impact varies according to the strategy used. Specifically, PS demonstrates a clear trend of improved performance as the estimation accuracy increases, whereas IB and GB exhibit robust performance when the accuracy surpasses a certain threshold. In model strategy comparisons, GB exhibits superior performance across a broad range of prediction accuracies, IB outperforms it at lower accuracies, and PS outperforms it at higher accuracies. The findings of this study clarify guidelines for selecting appropriate model management strategies based on the surrogate model accuracy.",
+ "primary": "cs.NE"
+}

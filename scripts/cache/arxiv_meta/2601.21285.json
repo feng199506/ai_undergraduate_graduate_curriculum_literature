@@ -1,0 +1,28 @@
+{
+ "id": "2601.21285",
+ "title": "Zenith: Scaling up Ranking Models for Billion-scale Livestreaming Recommendation",
+ "authors": [
+  "Ruifeng Zhang",
+  "Zexi Huang",
+  "Zikai Wang",
+  "Ke Sun",
+  "Bohang Zheng",
+  "Yuchen Jiang",
+  "Zhe Chen",
+  "Zhen Ouyang",
+  "Huimin Xie",
+  "Phil Shen",
+  "Junlin Zhang",
+  "Yuchao Zheng",
+  "Wentao Guo",
+  "Qinglei Wang"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 3,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages",
+ "abstract": "Accurately capturing feature interactions is essential in recommender systems, and recent trends show that scaling up model capacity could be a key driver for next-level predictive performance. While prior work has explored various model architectures to capture multi-granularity feature interactions, relatively little attention has been paid to efficient feature handling and scaling model capacity without incurring excessive inference latency. In this paper, we address this by presenting Zenith, a scalable and efficient ranking architecture that learns complex feature interactions with minimal runtime overhead. Zenith is designed to handle a few high-dimensional Prime Tokens with Token Fusion and Token Boost modules, which exhibits superior scaling laws compared to other state-of-the-art ranking methods, thanks to its improved token heterogeneity. Its real-world effectiveness is demonstrated by deploying the architecture to TikTok Live, a leading online livestreaming platform that attracts billions of users globally. Our A/B test shows that Zenith achieves +1.05%/-1.10% in online CTR AUC and Logloss, and realizes +9.93% gains in Quality Watch Session / User and +8.11% in Quality Watch Duration / User.",
+ "primary": "cs.LG"
+}

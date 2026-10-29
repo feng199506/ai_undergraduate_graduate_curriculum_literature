@@ -1,0 +1,19 @@
+{
+ "id": "2607.03918",
+ "title": "Beyond Item Order: Temporal Gap Tokenization for Generative Recommendation with Semantic IDs",
+ "authors": [
+  "Chengkai Huang",
+  "Tianqi Gao",
+  "Hongtao Huang",
+  "Quan Z. Sheng",
+  "Lina Yao"
+ ],
+ "v1_date": "2026-07-04",
+ "latest_version": 1,
+ "latest_date": "2026-07-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semantic-ID-based generative recommendation has recently emerged as a scalable paradigm for sequential recommendation, where each item is represented by a compact sequence of discrete codes and next-item prediction is formulated as code generation. Existing methods, however, typically construct user histories as sequences of static item identifiers, leaving the elapsed time between consecutive interactions outside the generative input. This temporal blindness is problematic because inter-interaction gaps provide useful cues about interest continuity and preference drift. In this paper, we propose ChronoSID, a lightweight temporal augmentation framework for semantic-ID-based generative recommendation. ChronoSID injects temporal signals into the standard three-stage semantic-ID pipeline from two complementary perspectives. First, we introduce Time-Aware Field-Aware Masked Auto-Encoding (TA-FAMAE), which regularizes item representation learning with an auxiliary time-gap prediction objective. Second, we discretize historical interaction intervals into fixed log-scale gap tokens and interleave them with semantic ID tuples as the encoder input of the sequence-to sequence generator. This design preserves the compact SID generation paradigm while enabling the model to capture time-aware transition patterns. Experiments on Amazon review benchmarks show that ChronoSID consistently improves over ReSID and other competitive generative recommendation baselines. Ablation studies further verify the contribution of both temporal components, and diagnostic analyses show clearer gains under long-gap scenarios where user interests are more likely to drift.",
+ "primary": "cs.IR"
+}

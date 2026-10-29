@@ -1,0 +1,18 @@
+{
+ "id": "2505.17190",
+ "title": "Tropical Attention: Neural Algorithmic Reasoning for Combinatorial Algorithms",
+ "authors": [
+  "Baran Hashemi",
+  "Kurt Pasque",
+  "Chris Teska",
+  "Ruriko Yoshida"
+ ],
+ "v1_date": "2025-05-22",
+ "latest_version": 2,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at NeurIPS 2025",
+ "abstract": "Can algebraic geometry enhance the sharpness, robustness, and interpretability of modern neural reasoning models by equipping them with a mathematically grounded inductive bias? To answer this, we introduce Tropical Attention, an attention mechanism grounded in tropical geometry that lifts the attention kernel into tropical projective space, where reasoning is piecewise-linear and 1-Lipschitz, thus preserving the polyhedral decision structure inherent to combinatorial reasoning. We prove that Multi-Head Tropical Attention (MHTA) stacks universally approximate tropical circuits and realize tropical transitive closure through composition, achieving polynomial resource bounds without invoking recurrent mechanisms. These guarantees explain why the induced polyhedral decision boundaries remain sharp and scale-invariant, rather than smoothed by Softmax. Empirically, we show that Tropical Attention delivers stronger out-of-distribution generalization in both length and value, with high robustness against perturbative noise, and substantially faster inference with fewer parameters compared to Softmax-based and recurrent attention baselines. For the first time, we extend neural algorithmic reasoning beyond PTIME problems to NP-hard and NP-complete problems, paving the way toward sharper and more expressive Large Reasoning Models (LRMs) capable of tackling complex combinatorial challenges in phylogenetics, cryptography, particle physics, and mathematical discovery.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2609.24778",
+ "title": "H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer",
+ "authors": [
+  "Chuyang Xiao",
+  "Haotian Zhan",
+  "Sriram Krishna",
+  "Peilin Meng",
+  "Muhammad Zubair Irshad",
+  "Sergey Zakharov",
+  "David Held"
+ ],
+ "v1_date": "2026-09-21",
+ "latest_version": 3,
+ "latest_date": "2026-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10th Conference on Robot Learning (CoRL 2026), Austin, TX, USA",
+ "abstract": "Learning robot manipulation policies from human video demonstrations constitutes a promising avenue for scalable robot learning. However, comparing different human-to-robot (H2R) transfer methods remains challenging, as existing approaches are evaluated under different settings, including differing task suites, scene layouts, object instances, and amounts of robot supervision. To address this challenge, we present H2RBench, a Real2Sim benchmark for evaluating H2R transfer methods. H2RBench provides a standardized protocol built on real human video demonstrations and simulated robot demonstrations, and includes four manipulation tasks spanning diverse interaction requirements. We evaluate multiple representative H2R transfer methods, each adopting a different strategy for bridging the embodiment gap. Using H2RBench, we systematically characterize how each method scales with the amount of human demonstrations, revealing that methods differ substantially in their ability to leverage additional human data. We further show that simulation performance is broadly predictive of real-world robot performance, with an overall Pearson correlation of r = 0.89, Spearman correlation of \\r{ho} = 0.85 and Mean Maximum Rank Violation (MMRV) of 0.06 across method-task configurations. These results establish H2RBench as a practical and scalable benchmark for comparative H2R evaluation prior to real-world deployment.",
+ "primary": "cs.RO"
+}

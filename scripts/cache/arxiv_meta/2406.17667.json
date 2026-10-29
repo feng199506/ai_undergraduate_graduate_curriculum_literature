@@ -1,0 +1,22 @@
+{
+ "id": "2406.17667",
+ "title": "This Paper Had the Smartest Reviewers -- Flattery Detection Utilising an Audio-Textual Transformer-Based Approach",
+ "authors": [
+  "Lukas Christ",
+  "Shahin Amiriparian",
+  "Friederike Hawighorst",
+  "Ann-Kathrin Schill",
+  "Angelo Boutalikakis",
+  "Lorenz Graf-Vlachy",
+  "Andreas König",
+  "Björn W. Schuller"
+ ],
+ "v1_date": "2024-06-25",
+ "latest_version": 1,
+ "latest_date": "2024-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Interspeech 2024",
+ "abstract": "Flattery is an important aspect of human communication that facilitates social bonding, shapes perceptions, and influences behavior through strategic compliments and praise, leveraging the power of speech to build rapport effectively. Its automatic detection can thus enhance the naturalness of human-AI interactions. To meet this need, we present a novel audio textual dataset comprising 20 hours of speech and train machine learning models for automatic flattery detection. In particular, we employ pretrained AST, Wav2Vec2, and Whisper models for the speech modality, and Whisper TTS models combined with a RoBERTa text classifier for the textual modality. Subsequently, we build a multimodal classifier by combining text and audio representations. Evaluation on unseen test data demonstrates promising results, with Unweighted Average Recall scores reaching 82.46% in audio-only experiments, 85.97% in text-only experiments, and 87.16% using a multimodal approach.",
+ "primary": "cs.SD"
+}

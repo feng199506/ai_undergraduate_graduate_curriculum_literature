@@ -1,0 +1,20 @@
+{
+ "id": "2508.03148",
+ "title": "Frontier: Simulating the Next Generation of LLM Inference Systems",
+ "authors": [
+  "Yicheng Feng",
+  "Xin Tan",
+  "Kin Hang Sew",
+  "Yimin Jiang",
+  "Yibo Zhu",
+  "Hong Xu"
+ ],
+ "v1_date": "2025-08-05",
+ "latest_version": 1,
+ "latest_date": "2025-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Model (LLM) inference is growing increasingly complex with the rise of Mixture-of-Experts (MoE) models and disaggregated architectures that decouple components like prefill/decode (PD) or attention/FFN (AF) for heterogeneous scaling. Existing simulators, architected for co-located, dense models, are unable to capture the intricate system dynamics of these emerging paradigms. We present Frontier, a high-fidelity simulator designed from the ground up for this new landscape. Frontier introduces a unified framework to model both co-located and disaggregated systems, providing native support for MoE inference with expert parallelism (EP). It enables the simulation of complex workflows like cross-cluster expert routing and advanced pipelining strategies for latency hiding. To ensure fidelity and usability, Frontier incorporates refined operator models for improved accuracy. Frontier empowers the community to design and optimize the future of LLM inference at scale.",
+ "primary": "cs.LG"
+}

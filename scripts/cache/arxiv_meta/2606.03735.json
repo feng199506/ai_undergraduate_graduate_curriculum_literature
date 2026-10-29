@@ -1,0 +1,17 @@
+{
+ "id": "2606.03735",
+ "title": "On dynamic multi-agent pathfinding methods: review, simulations and modifications",
+ "authors": [
+  "Gabriel Fejziaj",
+  "Salama Hassona",
+  "Wieslaw Marszalek"
+ ],
+ "v1_date": "2026-06-02",
+ "latest_version": 2,
+ "latest_date": "2026-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a systematic study of pathfinding algorithms in the context of Dynamic Multi-Agent Pathfinding (D-MAPF), a setting that combines dynamic obstacles, partial observability, and inter-agent conflicts. We evaluate six representative algorithms: Dijkstra, D* Lite, Space-Time A*, WHCA*, M*, and a novel method denoted as A** within a unified simulation framework. The proposed A** algorithm introduces a template-based approach that decouples offline geometric path generation from online temporal adaptation. By precomputing multiple diverse candidate paths and dynamically reconnecting to them using space-time planning, A** improves solution quality in environments with frequent changes and limited sensing",
+ "primary": "nlin.CD"
+}

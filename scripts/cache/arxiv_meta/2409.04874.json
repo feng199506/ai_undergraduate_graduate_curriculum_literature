@@ -1,0 +1,16 @@
+{
+ "id": "2409.04874",
+ "title": "Improving the Finite Sample Estimation of Average Treatment Effects using Double/Debiased Machine Learning with Propensity Score Calibration",
+ "authors": [
+  "Daniele Ballinari",
+  "Nora Bearth"
+ ],
+ "v1_date": "2024-09-07",
+ "latest_version": 2,
+ "latest_date": "2025-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the last decade, machine learning techniques have gained popularity for estimating causal effects. One machine learning approach that can be used for estimating an average treatment effect is Double/debiased machine learning (DML) (Chernozhukov et al., 2018). This approach uses a double-robust score function that relies on the prediction of nuisance functions, such as the propensity score, which is the probability of treatment assignment conditional on covariates. Estimators relying on double-robust score functions are highly sensitive to errors in propensity score predictions. Machine learners increase the severity of this problem as they tend to over- or underestimate these probabilities. Several calibration approaches have been proposed to improve probabilistic forecasts of machine learners. This paper investigates the use of probability calibration approaches within the DML framework. Simulation results demonstrate that calibrating propensity scores may significantly reduces the root mean squared error of DML estimates of the average treatment effect in finite samples. We showcase it in an empirical example and provide conditions under which calibration does not alter the asymptotic properties of the DML estimator.",
+ "primary": "econ.EM"
+}

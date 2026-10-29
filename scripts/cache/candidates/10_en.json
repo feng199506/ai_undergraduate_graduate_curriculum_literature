@@ -14,6 +14,11 @@
     "subtopic": "预训练与大模型概述",
     "q": "ti:survey AND abs:\"large language models\" AND abs:pretraining AND cat:cs.CL",
     "rank": 1
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 2
    }
   ]
  },
@@ -23,6 +28,11 @@
     "subtopic": "预训练与大模型概述",
     "q": "ti:survey AND abs:\"large language models\" AND abs:pretraining AND cat:cs.CL",
     "rank": 2
+   },
+   {
+    "subtopic": "预训练数据",
+    "q": "(ti:survey OR ti:review) AND abs:\"pretraining data\" AND abs:\"language model\"",
+    "rank": 0
    }
   ]
  },
@@ -51,6 +61,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 14
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 23
    }
   ]
  },
@@ -70,6 +85,11 @@
     "subtopic": "检索增强生成（RAG）",
     "q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"",
     "rank": 5
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 39
    }
   ]
  },
@@ -94,6 +114,11 @@
     "subtopic": "推理与测试时计算",
     "q": "(ti:survey OR ti:review) AND (abs:\"test-time compute\" OR abs:\"test-time scaling\" OR abs:\"long chain-of-thought\")",
     "rank": 13
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 7
    }
   ]
  },
@@ -186,6 +211,11 @@
     "subtopic": "预训练与大模型概述",
     "q": "ti:survey AND abs:\"large language models\" AND abs:pretraining AND cat:cs.CL",
     "rank": 14
+   },
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 14
    }
   ]
  },
@@ -213,6 +243,11 @@
     "subtopic": "预训练与大模型概述",
     "q": "ti:survey AND abs:\"large language models\" AND abs:pretraining AND cat:cs.CL",
     "rank": 17
+   },
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 8
    }
   ]
  },
@@ -240,6 +275,11 @@
     "subtopic": "预训练与大模型概述",
     "q": "ti:survey AND abs:\"large language models\" AND abs:pretraining AND cat:cs.CL",
     "rank": 20
+   },
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 9
    }
   ]
  },
@@ -319,6 +359,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 14
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 29
    }
   ]
  },
@@ -337,6 +382,11 @@
     "subtopic": "指令微调",
     "q": "(ti:survey OR ti:review) AND (abs:\"instruction tuning\" OR abs:\"supervised fine-tuning\") AND cat:cs.CL",
     "rank": 2
+   },
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 24
    }
   ]
  },
@@ -419,6 +469,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 24
+   },
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 5
    }
   ]
  },
@@ -442,6 +497,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 35
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 11
    }
   ]
  },
@@ -456,6 +516,11 @@
     "subtopic": "检索增强生成（RAG）",
     "q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"",
     "rank": 44
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 32
    }
   ]
  },
@@ -575,6 +640,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 46
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 18
    }
   ]
  },
@@ -593,6 +663,11 @@
     "subtopic": "指令微调",
     "q": "(ti:survey OR ti:review) AND (abs:\"instruction tuning\" OR abs:\"supervised fine-tuning\") AND cat:cs.CL",
     "rank": 30
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 25
    }
   ]
  },
@@ -611,6 +686,11 @@
     "subtopic": "指令微调",
     "q": "(ti:survey OR ti:review) AND (abs:\"instruction tuning\" OR abs:\"supervised fine-tuning\") AND cat:cs.CL",
     "rank": 32
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 22
    }
   ]
  },
@@ -625,6 +705,11 @@
     "subtopic": "检索增强生成（RAG）",
     "q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"",
     "rank": 32
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 46
    }
   ]
  },
@@ -639,6 +724,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 18
+   },
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 28
    }
   ]
  },
@@ -653,6 +743,16 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 32
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 58
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 20
    }
   ]
  },
@@ -662,6 +762,11 @@
     "subtopic": "指令微调",
     "q": "(ti:survey OR ti:review) AND (abs:\"instruction tuning\" OR abs:\"supervised fine-tuning\") AND cat:cs.CL",
     "rank": 36
+   },
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 23
    }
   ]
  },
@@ -671,6 +776,11 @@
     "subtopic": "指令微调",
     "q": "(ti:survey OR ti:review) AND (abs:\"instruction tuning\" OR abs:\"supervised fine-tuning\") AND cat:cs.CL",
     "rank": 37
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 40
    }
   ]
  },
@@ -694,6 +804,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 11
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 25
    }
   ]
  },
@@ -902,6 +1017,11 @@
     "subtopic": "参数高效微调",
     "q": "(ti:survey OR ti:review) AND abs:\"parameter-efficient fine-tuning\"",
     "rank": 14
+   },
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 30
    }
   ]
  },
@@ -1042,6 +1162,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 7
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 58
    }
   ]
  },
@@ -1069,6 +1194,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 10
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 44
    }
   ]
  },
@@ -1096,6 +1226,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 13
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 47
    }
   ]
  },
@@ -1105,6 +1240,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 14
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 16
    }
   ]
  },
@@ -1119,6 +1259,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 3
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 26
    }
   ]
  },
@@ -1160,6 +1305,11 @@
     "subtopic": "推理与测试时计算",
     "q": "(ti:survey OR ti:review) AND (abs:\"test-time compute\" OR abs:\"test-time scaling\" OR abs:\"long chain-of-thought\")",
     "rank": 15
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 27
    }
   ]
  },
@@ -1178,6 +1328,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 22
+   },
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 17
    }
   ]
  },
@@ -1187,6 +1342,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 23
+   },
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 8
    }
   ]
  },
@@ -1196,6 +1356,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 25
+   },
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 18
    }
   ]
  },
@@ -1250,6 +1415,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 33
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 26
    }
   ]
  },
@@ -1286,6 +1456,16 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 37
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 16
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 33
    }
   ]
  },
@@ -1331,6 +1511,11 @@
     "subtopic": "对齐（RLHF/DPO）",
     "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:RLHF OR abs:\"preference optimization\" OR abs:alignment) AND abs:\"language model\"",
     "rank": 42
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 38
    }
   ]
  },
@@ -2015,6 +2200,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 0
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 0
    }
   ]
  },
@@ -2024,6 +2214,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 1
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 18
    }
   ]
  },
@@ -2069,6 +2264,16 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 6
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 43
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 0
    }
   ]
  },
@@ -2096,6 +2301,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 9
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 21
    }
   ]
  },
@@ -2105,6 +2315,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 10
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 2
    }
   ]
  },
@@ -2155,6 +2370,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 16
+   },
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 28
    }
   ]
  },
@@ -2196,6 +2416,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 21
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 12
    }
   ]
  },
@@ -2205,6 +2430,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 22
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 12
    }
   ]
  },
@@ -2232,6 +2462,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 25
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 7
    }
   ]
  },
@@ -2304,6 +2539,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 33
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 3
    }
   ]
  },
@@ -2341,6 +2581,11 @@
     "subtopic": "推理与测试时计算",
     "q": "(ti:survey OR ti:review) AND (abs:\"test-time compute\" OR abs:\"test-time scaling\" OR abs:\"long chain-of-thought\")",
     "rank": 12
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 6
    }
   ]
  },
@@ -2373,6 +2618,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 41
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 3
    }
   ]
  },
@@ -2400,6 +2650,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 44
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 13
    }
   ]
  },
@@ -2436,6 +2691,11 @@
     "subtopic": "推理",
     "q": "(ti:survey OR ti:review) AND abs:reasoning AND abs:\"large language models\" AND cat:cs.CL",
     "rank": 49
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 48
    }
   ]
  },
@@ -2567,6 +2827,11 @@
     "subtopic": "推理与测试时计算",
     "q": "(ti:survey OR ti:review) AND (abs:\"test-time compute\" OR abs:\"test-time scaling\" OR abs:\"long chain-of-thought\")",
     "rank": 6
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 14
    }
   ]
  },
@@ -2576,6 +2841,11 @@
     "subtopic": "推理与测试时计算",
     "q": "(ti:survey OR ti:review) AND (abs:\"test-time compute\" OR abs:\"test-time scaling\" OR abs:\"long chain-of-thought\")",
     "rank": 8
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 21
    }
   ]
  },
@@ -2626,6 +2896,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 12
+   },
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 32
    }
   ]
  },
@@ -2644,6 +2919,11 @@
     "subtopic": "推理与测试时计算",
     "q": "(ti:survey OR ti:review) AND (abs:\"test-time compute\" OR abs:\"test-time scaling\" OR abs:\"long chain-of-thought\")",
     "rank": 20
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 19
    }
   ]
  },
@@ -2671,6 +2951,11 @@
     "subtopic": "检索增强生成（RAG）",
     "q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"",
     "rank": 0
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 51
    }
   ]
  },
@@ -2775,6 +3060,11 @@
     "subtopic": "检索增强生成（RAG）",
     "q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"",
     "rank": 12
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 33
    }
   ]
  },
@@ -2820,6 +3110,11 @@
     "subtopic": "检索增强生成（RAG）",
     "q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"",
     "rank": 18
+   },
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 28
    }
   ]
  },
@@ -2874,6 +3169,11 @@
     "subtopic": "检索增强生成（RAG）",
     "q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"",
     "rank": 24
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 32
    }
   ]
  },
@@ -3063,6 +3363,11 @@
     "subtopic": "检索增强生成（RAG）",
     "q": "(ti:survey OR ti:review) AND abs:\"retrieval-augmented generation\"",
     "rank": 48
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 53
    }
   ]
  },
@@ -3207,6 +3512,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 5
+   },
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 35
    }
   ]
  },
@@ -3216,6 +3526,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 6
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 44
    }
   ]
  },
@@ -3234,6 +3549,16 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 8
+   },
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 56
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 52
    }
   ]
  },
@@ -3243,6 +3568,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 9
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 12
    }
   ]
  },
@@ -3261,6 +3591,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 13
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 24
    }
   ]
  },
@@ -3270,6 +3605,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 15
+   },
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 13
    }
   ]
  },
@@ -3315,6 +3655,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 21
+   },
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 9
    }
   ]
  },
@@ -3324,6 +3669,16 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 23
+   },
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 59
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 39
    }
   ]
  },
@@ -3432,6 +3787,11 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 36
+   },
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 54
    }
   ]
  },
@@ -3441,6 +3801,2821 @@
     "subtopic": "工具调用",
     "q": "(ti:survey OR ti:review) AND (abs:\"tool learning\" OR abs:\"tool use\" OR abs:\"function calling\") AND abs:\"language model\"",
     "rank": 37
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 36
+   }
+  ]
+ },
+ "2408.16498": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 0
+   }
+  ]
+ },
+ "2406.00515": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 1
+   }
+  ]
+ },
+ "2508.00083": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 2
+   },
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 32
+   }
+  ]
+ },
+ "2503.01245": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 3
+   }
+  ]
+ },
+ "2412.20367": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 4
+   }
+  ]
+ },
+ "2604.16321": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 5
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 7
+   }
+  ]
+ },
+ "2603.23448": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 6
+   }
+  ]
+ },
+ "2312.10101": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 7
+   }
+  ]
+ },
+ "2410.03981": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 8
+   }
+  ]
+ },
+ "2510.00328": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 9
+   }
+  ]
+ },
+ "2510.04905": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 10
+   },
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 30
+   }
+  ]
+ },
+ "2502.15770": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 11
+   }
+  ]
+ },
+ "2512.19644": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 12
+   }
+  ]
+ },
+ "2604.25960": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 14
+   }
+  ]
+ },
+ "2603.24359": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 15
+   }
+  ]
+ },
+ "2508.11126": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 16
+   }
+  ]
+ },
+ "2605.17548": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 17
+   }
+  ]
+ },
+ "2606.23690": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 18
+   }
+  ]
+ },
+ "2506.00296": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 19
+   }
+  ]
+ },
+ "2601.21276": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 20
+   }
+  ]
+ },
+ "2603.00989": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 21
+   }
+  ]
+ },
+ "2408.02479": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 22
+   },
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 2
+   }
+  ]
+ },
+ "2605.05267": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 23
+   }
+  ]
+ },
+ "2512.05239": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 24
+   }
+  ]
+ },
+ "2510.24367": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 25
+   }
+  ]
+ },
+ "2601.19100": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 26
+   }
+  ]
+ },
+ "2501.01277": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 27
+   }
+  ]
+ },
+ "2609.15877": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 29
+   }
+  ]
+ },
+ "2603.00539": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 31
+   }
+  ]
+ },
+ "2410.01026": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 33
+   }
+  ]
+ },
+ "2608.20446": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 34
+   }
+  ]
+ },
+ "2404.00227": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 35
+   }
+  ]
+ },
+ "2603.26130": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 36
+   }
+  ]
+ },
+ "2605.13898": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 37
+   }
+  ]
+ },
+ "2605.01392": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 38
+   }
+  ]
+ },
+ "2610.13668": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 39
+   }
+  ]
+ },
+ "2503.05860": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 40
+   }
+  ]
+ },
+ "2510.09721": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 41
+   }
+  ]
+ },
+ "2311.10372": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 42
+   }
+  ]
+ },
+ "2601.20879": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 43
+   }
+  ]
+ },
+ "2609.12012": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 44
+   }
+  ]
+ },
+ "2605.25536": {
+  "hits": [
+   {
+    "subtopic": "代码模型",
+    "q": "(ti:survey OR ti:review) AND (abs:\"code generation\" OR abs:\"code language model\") AND cat:cs.SE",
+    "rank": 45
+   }
+  ]
+ },
+ "2409.02977": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 0
+   }
+  ]
+ },
+ "2508.02744": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 1
+   }
+  ]
+ },
+ "2404.13501": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 3
+   }
+  ]
+ },
+ "2509.18970": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 4
+   }
+  ]
+ },
+ "2505.12786": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 5
+   }
+  ]
+ },
+ "2409.09030": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 6
+   }
+  ]
+ },
+ "2608.26226": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 7
+   }
+  ]
+ },
+ "2502.11211": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 8
+   }
+  ]
+ },
+ "2503.19213": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 10
+   }
+  ]
+ },
+ "2505.12567": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 11
+   }
+  ]
+ },
+ "2503.12434": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 12
+   }
+  ]
+ },
+ "2506.05364": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 13
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 1
+   }
+  ]
+ },
+ "2402.00262": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 14
+   }
+  ]
+ },
+ "2402.02716": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 15
+   }
+  ]
+ },
+ "2505.00753": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 16
+   }
+  ]
+ },
+ "2508.17281": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 17
+   }
+  ]
+ },
+ "2503.22458": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 18
+   }
+  ]
+ },
+ "2508.17692": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 19
+   }
+  ]
+ },
+ "2610.15390": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 20
+   }
+  ]
+ },
+ "2606.20683": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 21
+   }
+  ]
+ },
+ "2503.16416": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 22
+   }
+  ]
+ },
+ "2607.21608": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 23
+   }
+  ]
+ },
+ "2507.21504": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 24
+   }
+  ]
+ },
+ "2404.00629": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 25
+   }
+  ]
+ },
+ "2312.17601": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 26
+   }
+  ]
+ },
+ "2512.22256": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 27
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 30
+   }
+  ]
+ },
+ "2604.12253": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 29
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 36
+   }
+  ]
+ },
+ "2511.09586": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 30
+   }
+  ]
+ },
+ "2501.06322": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 31
+   }
+  ]
+ },
+ "2503.09648": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 33
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 57
+   }
+  ]
+ },
+ "2406.07973": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 34
+   }
+  ]
+ },
+ "2502.16804": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 36
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 15
+   }
+  ]
+ },
+ "2404.14387": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 37
+   }
+  ]
+ },
+ "2605.06716": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 38
+   }
+  ]
+ },
+ "2411.09523": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 39
+   }
+  ]
+ },
+ "2508.02121": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 40
+   }
+  ]
+ },
+ "2606.01969": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 41
+   }
+  ]
+ },
+ "2509.09193": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 42
+   }
+  ]
+ },
+ "2511.06078": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 43
+   }
+  ]
+ },
+ "2509.00987": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 44
+   },
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 13
+   }
+  ]
+ },
+ "2605.07358": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 45
+   }
+  ]
+ },
+ "2605.23955": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 46
+   }
+  ]
+ },
+ "2510.06445": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 47
+   }
+  ]
+ },
+ "2510.08081": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 48
+   }
+  ]
+ },
+ "2604.22861": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 49
+   }
+  ]
+ },
+ "2608.20379": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 50
+   }
+  ]
+ },
+ "2606.12191": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 51
+   }
+  ]
+ },
+ "2607.26212": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 52
+   }
+  ]
+ },
+ "2508.04482": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 53
+   }
+  ]
+ },
+ "2608.18104": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 55
+   }
+  ]
+ },
+ "2405.10255": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 57
+   }
+  ]
+ },
+ "2602.06052": {
+  "hits": [
+   {
+    "subtopic": "智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"LLM-based agents\"",
+    "rank": 58
+   }
+  ]
+ },
+ "2506.00066": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 0
+   }
+  ]
+ },
+ "2606.06025": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 3
+   }
+  ]
+ },
+ "2402.01968": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 4
+   }
+  ]
+ },
+ "2508.07880": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 5
+   }
+  ]
+ },
+ "2503.13415": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 6
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 45
+   }
+  ]
+ },
+ "2504.01963": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 8
+   }
+  ]
+ },
+ "2402.01680": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 9
+   }
+  ]
+ },
+ "2502.14321": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 10
+   }
+  ]
+ },
+ "2507.23694": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 11
+   }
+  ]
+ },
+ "2402.02172": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 14
+   }
+  ]
+ },
+ "2502.14743": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 17
+   }
+  ]
+ },
+ "2404.04834": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 19
+   }
+  ]
+ },
+ "2512.02589": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 20
+   }
+  ]
+ },
+ "2501.18794": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 21
+   }
+  ]
+ },
+ "2508.11957": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 22
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 5
+   }
+  ]
+ },
+ "2607.09403": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 23
+   }
+  ]
+ },
+ "2508.07560": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 25
+   }
+  ]
+ },
+ "2506.09656": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 27
+   }
+  ]
+ },
+ "2505.21116": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 28
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 55
+   }
+  ]
+ },
+ "2605.05211": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 29
+   }
+  ]
+ },
+ "2602.11583": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 30
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 49
+   }
+  ]
+ },
+ "2412.17481": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 31
+   }
+  ]
+ },
+ "2508.01186": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 34
+   }
+  ]
+ },
+ "2610.21042": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 35
+   }
+  ]
+ },
+ "2504.12696": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 37
+   }
+  ]
+ },
+ "2607.01243": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 38
+   }
+  ]
+ },
+ "2506.12689": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 40
+   }
+  ]
+ },
+ "2504.19678": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 41
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 10
+   }
+  ]
+ },
+ "2606.28362": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 42
+   }
+  ]
+ },
+ "2406.00252": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 43
+   }
+  ]
+ },
+ "2609.22248": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 44
+   }
+  ]
+ },
+ "2606.15419": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 45
+   }
+  ]
+ },
+ "2402.17270": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 47
+   }
+  ]
+ },
+ "2604.14261": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 49
+   }
+  ]
+ },
+ "2601.19138": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 50
+   }
+  ]
+ },
+ "2412.14222": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 51
+   }
+  ]
+ },
+ "2502.10050": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 54
+   }
+  ]
+ },
+ "2312.05019": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 55
+   }
+  ]
+ },
+ "2504.14822": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 56
+   }
+  ]
+ },
+ "2508.19097": {
+  "hits": [
+   {
+    "subtopic": "多智能体",
+    "q": "(ti:survey OR ti:review) AND abs:\"multi-agent\" AND abs:\"large language model\"",
+    "rank": 59
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 17
+   }
+  ]
+ },
+ "2408.15971": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 0
+   }
+  ]
+ },
+ "2602.23729": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 1
+   }
+  ]
+ },
+ "2506.09902": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 2
+   }
+  ]
+ },
+ "2509.10769": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 3
+   }
+  ]
+ },
+ "2601.07606": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 4
+   }
+  ]
+ },
+ "2407.00993": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 5
+   }
+  ]
+ },
+ "2505.15372": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 6
+   }
+  ]
+ },
+ "2511.15958": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 7
+   }
+  ]
+ },
+ "2605.10912": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 8
+   }
+  ]
+ },
+ "2610.12975": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 9
+   }
+  ]
+ },
+ "2512.00417": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 10
+   }
+  ]
+ },
+ "2502.20073": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 11
+   }
+  ]
+ },
+ "2407.01892": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 12
+   }
+  ]
+ },
+ "2605.24703": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 13
+   }
+  ]
+ },
+ "2504.18373": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 14
+   }
+  ]
+ },
+ "2511.08866": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 15
+   }
+  ]
+ },
+ "2606.01498": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 16
+   }
+  ]
+ },
+ "2602.10620": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 17
+   }
+  ]
+ },
+ "2601.07338": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 18
+   }
+  ]
+ },
+ "2402.18667": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 19
+   }
+  ]
+ },
+ "2508.15940": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 20
+   }
+  ]
+ },
+ "2405.07960": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 21
+   }
+  ]
+ },
+ "2406.01364": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 22
+   }
+  ]
+ },
+ "2401.01275": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 23
+   }
+  ]
+ },
+ "2511.07685": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 24
+   }
+  ]
+ },
+ "2503.06047": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 25
+   }
+  ]
+ },
+ "2601.08235": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 26
+   }
+  ]
+ },
+ "2505.17654": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 27
+   }
+  ]
+ },
+ "2510.24358": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 28
+   }
+  ]
+ },
+ "2610.22511": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 29
+   }
+  ]
+ },
+ "2508.11944": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 30
+   }
+  ]
+ },
+ "2508.02013": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 31
+   }
+  ]
+ },
+ "2510.04704": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 32
+   }
+  ]
+ },
+ "2608.08392": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 33
+   }
+  ]
+ },
+ "2603.03915": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 34
+   }
+  ]
+ },
+ "2508.07179": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 35
+   }
+  ]
+ },
+ "2409.03797": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 36
+   }
+  ]
+ },
+ "2508.15658": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 37
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 48
+   }
+  ]
+ },
+ "2312.11671": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 38
+   }
+  ]
+ },
+ "2601.19935": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 39
+   }
+  ]
+ },
+ "2607.21799": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 40
+   }
+  ]
+ },
+ "2404.04237": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 41
+   }
+  ]
+ },
+ "2502.05227": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 42
+   }
+  ]
+ },
+ "2510.17764": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 43
+   },
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 37
+   }
+  ]
+ },
+ "2602.11224": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 44
+   }
+  ]
+ },
+ "2504.10167": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 45
+   }
+  ]
+ },
+ "2509.16610": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 46
+   }
+  ]
+ },
+ "2605.27984": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 47
+   }
+  ]
+ },
+ "2502.18308": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 48
+   }
+  ]
+ },
+ "2508.06600": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 49
+   }
+  ]
+ },
+ "2406.02106": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 50
+   }
+  ]
+ },
+ "2609.36086": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 51
+   }
+  ]
+ },
+ "2602.21143": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 52
+   }
+  ]
+ },
+ "2404.05337": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 53
+   }
+  ]
+ },
+ "2509.02097": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 54
+   }
+  ]
+ },
+ "2510.15558": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 55
+   }
+  ]
+ },
+ "2603.16011": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 56
+   }
+  ]
+ },
+ "2607.08768": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 57
+   }
+  ]
+ },
+ "2610.05387": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 58
+   }
+  ]
+ },
+ "2511.14439": {
+  "hits": [
+   {
+    "subtopic": "智能体评测",
+    "q": "(ti:benchmark OR ti:evaluation) AND abs:agents AND abs:\"language model\" AND cat:cs.CL",
+    "rank": 59
+   }
+  ]
+ },
+ "2412.02142": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 1
+   }
+  ]
+ },
+ "2502.06470": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 4
+   }
+  ]
+ },
+ "2411.15296": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 5
+   }
+  ]
+ },
+ "2405.07468": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 6
+   }
+  ]
+ },
+ "2407.15186": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 8
+   }
+  ]
+ },
+ "2405.10630": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 9
+   }
+  ]
+ },
+ "2508.15361": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 10
+   }
+  ]
+ },
+ "2504.00125": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 11
+   }
+  ]
+ },
+ "2409.18538": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 13
+   }
+  ]
+ },
+ "2508.10955": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 14
+   }
+  ]
+ },
+ "2312.11970": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 15
+   }
+  ]
+ },
+ "2411.15594": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 16
+   }
+  ]
+ },
+ "2409.18991": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 17
+   }
+  ]
+ },
+ "2404.12041": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 18
+   }
+  ]
+ },
+ "2406.04244": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 19
+   }
+  ]
+ },
+ "2406.10252": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 20
+   }
+  ]
+ },
+ "2407.04069": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 22
+   }
+  ]
+ },
+ "2506.23411": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 24
+   }
+  ]
+ },
+ "2510.01283": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 27
+   }
+  ]
+ },
+ "2402.06196": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 28
+   },
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 10
+   }
+  ]
+ },
+ "2502.08660": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 29
+   }
+  ]
+ },
+ "2509.25539": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 30
+   }
+  ]
+ },
+ "2507.11936": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 31
+   }
+  ]
+ },
+ "2502.14425": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 32
+   }
+  ]
+ },
+ "2409.09822": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 33
+   }
+  ]
+ },
+ "2503.00172": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 34
+   }
+  ]
+ },
+ "2504.18838": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 35
+   }
+  ]
+ },
+ "2506.11094": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 36
+   }
+  ]
+ },
+ "2310.19736": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 38
+   }
+  ]
+ },
+ "2510.07706": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 40
+   }
+  ]
+ },
+ "2409.18786": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 41
+   }
+  ]
+ },
+ "2606.25380": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 42
+   }
+  ]
+ },
+ "2502.14776": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 45
+   }
+  ]
+ },
+ "2402.15116": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 46
+   }
+  ]
+ },
+ "2402.09283": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 49
+   }
+  ]
+ },
+ "2503.21460": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 50
+   }
+  ]
+ },
+ "2506.11102": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 52
+   }
+  ]
+ },
+ "2504.14891": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 53
+   }
+  ]
+ },
+ "2404.01349": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 54
+   }
+  ]
+ },
+ "2411.14491": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 56
+   }
+  ]
+ },
+ "2405.08603": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 57
+   }
+  ]
+ },
+ "2502.12378": {
+  "hits": [
+   {
+    "subtopic": "大模型评测",
+    "q": "ti:survey AND abs:evaluation AND abs:\"large language models\" AND cat:cs.CL",
+    "rank": 59
+   }
+  ]
+ },
+ "2507.06085": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 0
+   }
+  ]
+ },
+ "2407.06204": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 1
+   }
+  ]
+ },
+ "2503.11486": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 2
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 4
+   }
+  ]
+ },
+ "2505.02309": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 3
+   }
+  ]
+ },
+ "2404.18311": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 4
+   }
+  ]
+ },
+ "2502.06881": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 5
+   }
+  ]
+ },
+ "2508.09834": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 6
+   }
+  ]
+ },
+ "2508.03194": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 7
+   }
+  ]
+ },
+ "2502.11453": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 9
+   }
+  ]
+ },
+ "2602.08896": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 11
+   }
+  ]
+ },
+ "2506.01257": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 12
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 34
+   }
+  ]
+ },
+ "2312.00678": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 13
+   }
+  ]
+ },
+ "2402.16363": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 14
+   }
+  ]
+ },
+ "2504.19660": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 15
+   }
+  ]
+ },
+ "2609.38111": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 16
+   }
+  ]
+ },
+ "2510.27157": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 19
+   }
+  ]
+ },
+ "2503.05788": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 20
+   },
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 28
+   }
+  ]
+ },
+ "2602.08019": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 21
+   }
+  ]
+ },
+ "2606.10706": {
+  "hits": [
+   {
+    "subtopic": "预训练与大模型概述",
+    "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"scaling laws\") AND abs:\"language model\"",
+    "rank": 22
+   }
+  ]
+ },
+ "2510.06826": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 0
+   }
+  ]
+ },
+ "2503.17407": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 1
+   }
+  ]
+ },
+ "2503.13299": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 2
+   }
+  ]
+ },
+ "2401.07872": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 3
+   }
+  ]
+ },
+ "2311.13657": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 4
+   }
+  ]
+ },
+ "2508.06297": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 6
+   }
+  ]
+ },
+ "2409.15790": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 7
+   }
+  ]
+ },
+ "2405.11299": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 10
+   }
+  ]
+ },
+ "2507.19595": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 11
+   }
+  ]
+ },
+ "2510.23081": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 12
+   }
+  ]
+ },
+ "2606.12716": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 13
+   }
+  ]
+ },
+ "2407.07321": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 15
+   }
+  ]
+ },
+ "2610.21165": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 16
+   }
+  ]
+ },
+ "2608.26145": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 17
+   }
+  ]
+ },
+ "2406.05688": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 18
+   }
+  ]
+ },
+ "2506.16383": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 19
+   }
+  ]
+ },
+ "2402.02244": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 20
+   }
+  ]
+ },
+ "2403.14469": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 21
+   }
+  ]
+ },
+ "2502.09101": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 22
+   }
+  ]
+ },
+ "2601.19916": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 23
+   }
+  ]
+ },
+ "2407.14567": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 24
+   }
+  ]
+ },
+ "2507.20198": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 25
+   }
+  ]
+ },
+ "2609.29370": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 26
+   }
+  ]
+ },
+ "2412.19442": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 27
+   }
+  ]
+ },
+ "2506.11111": {
+  "hits": [
+   {
+    "subtopic": "长上下文",
+    "q": "(ti:survey OR ti:review) AND (abs:\"long context\" OR abs:\"context length\") AND abs:\"language model\"",
+    "rank": 29
+   }
+  ]
+ },
+ "2504.21277": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 1
+   }
+  ]
+ },
+ "2401.02349": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 2
+   }
+  ]
+ },
+ "2605.21008": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 8
+   }
+  ]
+ },
+ "2604.17312": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 9
+   }
+  ]
+ },
+ "2509.16679": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 15
+   }
+  ]
+ },
+ "2405.10825": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 23
+   }
+  ]
+ },
+ "2607.05541": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 24
+   }
+  ]
+ },
+ "2504.20464": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 26
+   }
+  ]
+ },
+ "2412.16543": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 31
+   }
+  ]
+ },
+ "2610.01936": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 35
+   }
+  ]
+ },
+ "2509.05946": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 37
+   }
+  ]
+ },
+ "2510.16724": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 39
+   }
+  ]
+ },
+ "2602.10138": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 41
+   }
+  ]
+ },
+ "2602.00005": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 42
+   }
+  ]
+ },
+ "2508.03734": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 43
+   }
+  ]
+ },
+ "2402.01874": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 46
+   }
+  ]
+ },
+ "2503.09956": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 47
+   }
+  ]
+ },
+ "2511.06036": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 48
+   }
+  ]
+ },
+ "2502.00409": {
+  "hits": [
+   {
+    "subtopic": "推理与测试时计算",
+    "q": "(ti:survey OR ti:review) AND abs:\"reinforcement learning\" AND abs:\"reasoning\" AND abs:\"large language models\"",
+    "rank": 50
+   }
+  ]
+ },
+ "2506.18504": {
+  "hits": [
+   {
+    "subtopic": "预训练数据",
+    "q": "(ti:survey OR ti:review) AND abs:\"pretraining data\" AND abs:\"language model\"",
+    "rank": 1
    }
   ]
  }

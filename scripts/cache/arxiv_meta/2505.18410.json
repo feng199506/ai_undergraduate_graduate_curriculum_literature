@@ -1,0 +1,16 @@
+{
+ "id": "2505.18410",
+ "title": "On Theoretical Identifiability of Discrete Latent Causal Graphical Models",
+ "authors": [
+  "Seunghyun Lee",
+  "Yuqi Gu"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 2,
+ "latest_date": "2026-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper considers a challenging problem of identifying a causal graphical model under the presence of latent variables. While various identifiability conditions have been proposed in the literature, they often require multiple pure children per latent variable or restrictions on the latent causal graph. Furthermore, it is common for all observed variables to exhibit the same modality. Consequently, the existing identifiability conditions are often too stringent for complex real-world data. We consider a general nonparametric measurement model with arbitrary observed variable types and binary latent variables, and propose a double triangular graphical condition that guarantees identifiability of the entire causal graphical model. The proposed condition significantly relaxes the popular pure children condition. We also establish necessary conditions for identifiability and provide valuable insights into fundamental limits of identifiability. Simulation studies verify that latent structures satisfying our conditions can be accurately estimated from data.",
+ "primary": "stat.ML"
+}

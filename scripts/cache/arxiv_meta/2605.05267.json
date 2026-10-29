@@ -1,0 +1,24 @@
+{
+ "id": "2605.05267",
+ "title": "Bridging Generation and Training: A Systematic Review of Quality Issues in LLMs for Code",
+ "authors": [
+  "Kaifeng He",
+  "Xiaojun Zhang",
+  "Peiliang Cai",
+  "Mingwei Liu",
+  "Yanlin Wang",
+  "Chong Wang",
+  "Kaifeng Huang",
+  "Bihuan Chen",
+  "Xin Peng",
+  "Zibin Zheng"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 2,
+ "latest_date": "2026-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 16 figures, 5 tables",
+ "abstract": "Large language models (LLMs) frequently generate defective code, ranging from logical bugs to security vulnerabilities. Training-data quality is one contributor to these outcomes alongside model architecture, optimization and alignment, prompting and inference context, and decoding. However, the literature connecting specific training data quality issues to observable generated code quality issues has not been synthesized systematically. We review 114 included papers and establish taxonomies of eight generated-code quality dimensions and two broad groups of training-data issues. We then synthesize 12 recurring relationship families between training-data issues and generated-code outcomes, tracing each to its supporting papers, evidence basis, and limitations. We also synthesize detection and mitigation techniques across the data, model, and generation lifecycle. The findings position data curation as one layer of code-generation quality assurance coordinated with model- and inference-level controls, and identify provenance and controlled attribution as open research needs. Our repository is available at https://github.com/SYSUSELab/From-Data-to-Code.",
+ "primary": "cs.SE"
+}

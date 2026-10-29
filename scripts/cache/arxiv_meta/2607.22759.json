@@ -1,0 +1,18 @@
+{
+ "id": "2607.22759",
+ "title": "Benchmarking LLMs for Verilog Design Flows",
+ "authors": [
+  "Angshuman Chakravertty",
+  "Rahul Koshti",
+  "Buddhi Prakash Sharma",
+  "Vinay Chamola"
+ ],
+ "v1_date": "2026-07-23",
+ "latest_version": 1,
+ "latest_date": "2026-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 3 figures, 3 tables. Manuscript prepared for submission to IEEE Design & Test",
+ "abstract": "Large language models (LLMs) show promise in code generation, but their capabilities to produce correct, synthesizable hardware description language (HDL) code still remain to be properly benchmarked. Existing evaluations are primarily relying on pass@k metrics and lack proper end-to-end toolchain validation. This paper presents a reproducible benchmarking platform that evaluates open-source LLMs on Verilog RTL generation across 50 curated tasks consisting of combinational, sequential, finite state machine (FSM), and mixed designs. The pipeline consisting of constrained prompting, post-processing, and semantic-aware iterative refinement with waveform analysis, formal equivalence verification, and Abstract Syntax Tree (AST)-based repair validates the generated code via Verilator compilation and Icarus Verilog simulation. Across the 12 benchmarks and the 1,610 total runs evaluating three models of different sizes (Llama-3-8B, StarCoder2-7B, and TinyLlama-1.1B), the pipeline improved syntax validity from 0% to a 70.43% average and simulation pass rate to 51.8% across three open-source models. Most notably TinyLlama (1.1B parameters) achieved the highest individual syntax validity at 80.0%, with functional correctness comparable to the 8B model. The platform and dataset are open-source, enabling reproducible evaluation of generative AI for hardware design workflows.",
+ "primary": "cs.AR"
+}

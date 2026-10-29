@@ -1,0 +1,18 @@
+{
+ "id": "2505.00350",
+ "title": "Optimizing Deep Neural Networks using Safety-Guided Self Compression",
+ "authors": [
+  "Mohammad Zbeeb",
+  "Mariam Salman",
+  "Mohammad Bazzi",
+  "Ammar Mohanna"
+ ],
+ "v1_date": "2025-05-01",
+ "latest_version": 1,
+ "latest_date": "2025-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "A Preprint",
+ "abstract": "The deployment of deep neural networks on resource-constrained devices necessitates effective model com- pression strategies that judiciously balance the reduction of model size with the preservation of performance. This study introduces a novel safety-driven quantization framework that leverages preservation sets to systematically prune and quantize neural network weights, thereby optimizing model complexity without compromising accuracy. The proposed methodology is rigorously evaluated on both a convolutional neural network (CNN) and an attention-based language model, demonstrating its applicability across diverse architectural paradigms. Experimental results reveal that our framework achieves up to a 2.5% enhancement in test accuracy relative to the original unquantized models while maintaining 60% of the initial model size. In comparison to conventional quantization techniques, our approach not only augments generalization by eliminating parameter noise and retaining essential weights but also reduces variance, thereby ensuring the retention of critical model features. These findings underscore the efficacy of safety-driven quantization as a robust and reliable strategy for the efficient optimization of deep learn- ing models. The implementation and comprehensive experimental evaluations of our framework are publicly accessible at GitHub.",
+ "primary": "cs.LG"
+}

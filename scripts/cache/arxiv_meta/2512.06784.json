@@ -1,0 +1,20 @@
+{
+ "id": "2512.06784",
+ "title": "Stable-MoE: Lyapunov-based Token Routing for Distributed Mixture-of-Experts Training over Edge Networks",
+ "authors": [
+  "Long Shi",
+  "Bingyan Ou",
+  "Kang Wei",
+  "Weihao Zhu",
+  "Zhe Wang",
+  "Zhiyong Chen"
+ ],
+ "v1_date": "2025-12-07",
+ "latest_version": 3,
+ "latest_date": "2026-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The sparse activation mechanism of mixture of experts (MoE) model empowers edge intelligence with enhanced training efficiency and reduced computational resource consumption. However, traditional token routing in distributed MoE training faces significant challenges in resource-constrained edge networks characterized by heterogeneous computing capabilities and stochastic token arrivals, which inevitably suffer from workload backlog, resource inefficiency, and performance degradation. To address this issue, we propose a novel Lyapunov-based token routing framework for distributed MoE training over resource-heterogeneous edge networks, termed Stable-MoE. Specifically, we formulate a stochastic optimization problem to maximize both system throughput and gating consistency via optimizing the token routing strategy and computational resource allocation, while ensuring long-term stability of both token and energy queues at the edge devices. Using the Lyapunov optimization, we transform the intractable long-term optimization problem into tractable per-slot subproblems by enabling online decision-making of token routing and computation frequency utilization without the knowledge of future system states. Experimental results on the SVHN and CIFAR-100 datasets demonstrate that Stable-MoE outperforms the baselines with at least 40% and 5% gains in system throughput and test accuracy, respectively.",
+ "primary": "cs.DC"
+}

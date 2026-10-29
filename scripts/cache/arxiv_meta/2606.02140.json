@@ -1,0 +1,22 @@
+{
+ "id": "2606.02140",
+ "title": "AstroSkyFlow: an astronomical sky image flow simulator for time domain survey validation and machine learning",
+ "authors": [
+  "Kexin Li",
+  "Yicheng Rui",
+  "Fabo Feng",
+  "Shuyue Zheng",
+  "Anton Pomazan",
+  "Yiyang Guo",
+  "Jie Zheng",
+  "Lin-Qiao Jiang"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern time-domain optical surveys produce massive data volumes that require robust, high-fidelity simulated datasets for developing and validating automated pipelines and machine-learning models. We present AstroSkyFlow, a modular sky-image simulator that generates on-demand, time-dependent flux variations and models the full observing stack, from celestial sources and atmospheric effects to sensor response. Given a simulated observing schedule, AstroSkyFlow produces multi-epoch, time-series images with realistic noise and variability. Compared to real observational data, AstroSkyFlow reproduces noise characteristics and point spread function properties more accurately than the widely used SkyMaker simulator. In addition, AstroSkyFlow successfully recovers injected photometric and motion signals, such as exoplanet transits and asteroid trails. AstroSkyFlow enables the generation of labeled, high-fidelity datasets essential for training machine-learning pipelines and conducting rigorous injection-recovery tests for analysis pipelines for next-generation time-domain surveys.",
+ "primary": "astro-ph.IM"
+}

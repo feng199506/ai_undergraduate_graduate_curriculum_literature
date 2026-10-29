@@ -1,0 +1,18 @@
+{
+ "id": "2603.26400",
+ "title": "SHANDS: A Multi-View Dataset and Benchmark for Surgical Hand-Gesture and Error Recognition Toward Medical Training",
+ "authors": [
+  "Le Ma",
+  "Thiago Freitas dos Santos",
+  "Nadia Magnenat-Thalmann",
+  "Katarzyna Wac"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In surgical training for medical students, proficiency development relies on expert-led skill assessment, which is costly, time-limited, difficult to scale, and its expertise remains confined to institutions with available specialists. Automated AI-based assessment offers a viable alternative, but progress is constrained by the lack of datasets containing realistic trainee errors and the multi-view variability needed to train robust computer vision approaches. To address this gap, we present Surgical-Hands (SHands), a large-scale multi-view video dataset for surgical hand-gesture and error recognition for medical training. \\textsc{SHands} captures linear incision and suturing using five RGB cameras from complementary viewpoints, performed by 52 participants (20 experts and 32 trainees), each completing three standardized trials per procedure. The videos are annotated at the frame level with 15 gesture primitives and include a validated taxonomy of 8 trainee error types, enabling both gesture recognition and error detection. We further define standardized evaluation protocols for single-view, multi-view, and cross-view generalization, and benchmark state-of-the-art deep learning models on the dataset. SHands is publicly released to support the development of robust and scalable AI systems for surgical training grounded in clinically curated domain knowledge.",
+ "primary": "cs.CV"
+}

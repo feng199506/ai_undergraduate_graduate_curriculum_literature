@@ -1,0 +1,21 @@
+{
+ "id": "2412.02309",
+ "title": "An enhanced single Gaussian point continuum finite element formulation using automatic differentiation",
+ "authors": [
+  "Njomza Pacolli",
+  "Ahmad Awad",
+  "Jannick Kehls",
+  "Bjorn Sauren",
+  "Sven Klinkel",
+  "Stefanie Reese",
+  "Hagen Holthusen"
+ ],
+ "v1_date": "2024-12-03",
+ "latest_version": 2,
+ "latest_date": "2025-02-20",
+ "journal_ref": "",
+ "doi": "10.1016/j.finel.2025.104329",
+ "comment": "41 pages, 12 figures, 4 tables",
+ "abstract": "This contribution presents an improved low-order 3D finite element formulation with hourglass stabilization using automatic differentiation (AD). Here, the former Q1STc formulation is enhanced by an approximation-free computation of the inverse Jacobian. To this end, AD tools automate the computation and allow a direct evaluation of the inverse Jacobian, bypassing the need for a Taylor series expansion. Thus, the enhanced version, Q1STc+, is introduced. Numerical examples are conducted to compare the performance of both element formulations for finite strain applications, with particular focus on distorted meshes. Moreover, the performance of the new element formulation for an elasto-plastic material is investigated. To validate the obtained results, a volumetric locking-free element based on scaled boundary parametrization is used. Both the implementation of the element routine Q1STc+ and the corresponding material subroutine are made accessible to the public at https://doi.org/10.5281/zenodo.14259791",
+ "primary": "cs.CE"
+}

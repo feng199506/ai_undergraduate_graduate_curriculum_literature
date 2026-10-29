@@ -1,0 +1,21 @@
+{
+ "id": "2404.09737",
+ "title": "Quantization of Large Language Models with an Overdetermined Basis",
+ "authors": [
+  "Daniil Merkulov",
+  "Daria Cherniuk",
+  "Alexander Rudikov",
+  "Ivan Oseledets",
+  "Ekaterina Muravleva",
+  "Aleksandr Mikhalev",
+  "Boris Kashin"
+ ],
+ "v1_date": "2024-04-15",
+ "latest_version": 1,
+ "latest_date": "2024-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we introduce an algorithm for data quantization based on the principles of Kashin representation. This approach hinges on decomposing any given vector, matrix, or tensor into two factors. The first factor maintains a small infinity norm, while the second exhibits a similarly constrained norm when multiplied by an orthogonal matrix. Surprisingly, the entries of factors after decomposition are well-concentrated around several peaks, which allows us to efficiently replace them with corresponding centroids for quantization purposes. We study the theoretical properties of the proposed approach and rigorously evaluate our compression algorithm in the context of next-word prediction tasks and on a set of downstream tasks for text classification. Our findings demonstrate that Kashin Quantization achieves competitive or superior quality in model performance while ensuring data compression, marking a significant advancement in the field of data quantization.",
+ "primary": "cs.LG"
+}

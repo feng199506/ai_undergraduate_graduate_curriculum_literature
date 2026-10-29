@@ -1,0 +1,18 @@
+{
+ "id": "2502.19964",
+ "title": "Do Sparse Autoencoders Generalize? A Case Study of Answerability",
+ "authors": [
+  "Lovis Heindrich",
+  "Philip Torr",
+  "Fazl Barez",
+  "Veronika Thost"
+ ],
+ "v1_date": "2025-02-27",
+ "latest_version": 2,
+ "latest_date": "2025-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted workshop paper at the ICML 2025 Workshop on Reliable and Responsible Foundation Models",
+ "abstract": "Sparse autoencoders (SAEs) have emerged as a promising approach in language model interpretability, offering unsupervised extraction of sparse features. For interpretability methods to succeed, they must identify abstract features across domains, and these features can often manifest differently in each context. We examine this through \"answerability\" - a model's ability to recognize answerable questions. We extensively evaluate SAE feature generalization across diverse, partly self-constructed answerability datasets for Gemma 2 SAEs. Our analysis reveals that residual stream probes outperform SAE features within domains, but generalization performance differs sharply. SAE features show inconsistent out-of-domain transfer, with performance varying from almost random to outperforming residual stream probes. Overall, this demonstrates the need for robust evaluation methods and quantitative approaches to predict feature generalization in SAE-based interpretability.",
+ "primary": "cs.LG"
+}

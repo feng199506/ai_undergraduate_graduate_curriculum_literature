@@ -1,0 +1,18 @@
+{
+ "id": "2609.21413",
+ "title": "Synthetic Human Mobility Data Generation: A Structured Review of Representations, Methods, and Practical Capabilities",
+ "authors": [
+  "Yanbo Pang",
+  "Chen Zhong",
+  "Song Gao",
+  "Yoshihide Sekimoto"
+ ],
+ "v1_date": "2026-09-18",
+ "latest_version": 1,
+ "latest_date": "2026-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 4 figures, 3 tables",
+ "abstract": "Human mobility data has become an increasingly important component of urban analytics. Although the range of available mobility data sources has expanded substantially, access remains highly constrained by commercial restrictions, privacy concerns, and institutional barriers. Data protection procedures also often reduce the analytical value of released datasets. Synthetic mobility data has emerged as a promising solution, but existing methods differ substantially in their underlying mechanisms, the information they preserve, the outputs they generate, and the analytical questions they can support. Their comparative strengths and trade-offs remain insufficiently understood for urban analytics. This paper presents a structured review of synthetic human mobility data generation from an urban analytics perspective. We review the literature by methodological family and index it by the mobility outputs each family generates natively and the analytical capabilities those outputs enable. We first provide a taxonomy of synthetic data products, including population and persona representations, activity schedules, trip and tour records, trajectories, and aggregate mobility patterns. We then review the major methodological families, spanning mechanistic models, survey-driven population synthesis, activity- and agent-based simulation, deep generative models, transformer-based mobility language models, and LLM-agentic systems. Building on this synthesis, we introduce a Meaning-Population-Autonomy framework that characterises these methods along three dimensions: behavioural meaning, population grounding and scale, and generation autonomy. We consider these dimensions the principal requirements for downstream urban analytics. Few methods deliver behavioural meaning, population grounding and autonomous generation at once, and fewer still with generation constrained to feasible trajectories.",
+ "primary": "cs.CE"
+}

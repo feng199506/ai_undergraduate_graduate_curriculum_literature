@@ -1,0 +1,31 @@
+{
+ "id": "2606.12198",
+ "title": "LLM-Based User Personas for Recommendations at Scale",
+ "authors": [
+  "Haoting Wang",
+  "Haokai Lu",
+  "Zheyun Feng",
+  "Jenny Huang",
+  "Yifat Amir",
+  "Gregory Hinkson",
+  "Ben Most",
+  "Zelong Zhao",
+  "Yixin Kelly Cui",
+  "Rein Zhang",
+  "Fabio Soldo",
+  "Yu Xia",
+  "Nihar Bhupalam",
+  "Minmin Chen",
+  "Konstantina Christakopoulou",
+  "Lichan Hong",
+  "Ed H. Chi"
+ ],
+ "v1_date": "2026-06-10",
+ "latest_version": 2,
+ "latest_date": "2026-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by 2026 RecSys Industry Track",
+ "abstract": "Large Language Models (LLMs) offer unprecedented potential for enhancing recommendation systems through their world knowledge and reasoning capabilities. However, existing approaches often rely on structured IDs or offline processing, limiting semantic richness, real-time adaptability, and user-facing interpretability. In this paper, we introduce a novel framework that enables real-time generation of LLM-based user interest personas for a large-scale commercial video recommendation platform. Our method generates natural-language user interest personas that address the exploitation-exploration trade-off by combining the summarization of existing interests with novel topics, directly during serving. To overcome the computational challenges of online LLM inference at a billion-user scale, we design a cost-efficient architecture leveraging knowledge distillation, asynchronous inference, and input optimization via semantically clustered video representations. Extensive offline evaluations, user studies, and live A/B tests demonstrate significant improvements in viewer value. This work bridges the gap between high-level semantic understanding and industrial-scale recommendation, paving the way for more dynamic, explainable, and satisfying personalized experiences.",
+ "primary": "cs.IR"
+}

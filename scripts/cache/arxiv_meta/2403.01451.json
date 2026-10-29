@@ -1,0 +1,17 @@
+{
+ "id": "2403.01451",
+ "title": "Enhancing Data Provenance and Model Transparency in Federated Learning Systems -- A Database Approach",
+ "authors": [
+  "Michael Gu",
+  "Ramasoumya Naraparaju",
+  "Dongfang Zhao"
+ ],
+ "v1_date": "2024-03-03",
+ "latest_version": 1,
+ "latest_date": "2024-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 16 figures",
+ "abstract": "Federated Learning (FL) presents a promising paradigm for training machine learning models across decentralized edge devices while preserving data privacy. Ensuring the integrity and traceability of data across these distributed environments, however, remains a critical challenge. The ability to create transparent artificial intelligence, such as detailing the training process of a machine learning model, has become an increasingly prominent concern due to the large number of sensitive (hyper)parameters it utilizes; thus, it is imperative to strike a reasonable balance between openness and the need to protect sensitive information. In this paper, we propose one of the first approaches to enhance data provenance and model transparency in federated learning systems. Our methodology leverages a combination of cryptographic techniques and efficient model management to track the transformation of data throughout the FL process, and seeks to increase the reproducibility and trustworthiness of a trained FL model. We demonstrate the effectiveness of our approach through experimental evaluations on diverse FL scenarios, showcasing its ability to tackle accountability and explainability across the board. Our findings show that our system can greatly enhance data transparency in various FL environments by storing chained cryptographic hashes and client model snapshots in our proposed design for data decoupled FL. This is made possible by also employing multiple optimization techniques which enables comprehensive data provenance without imposing substantial computational loads. Extensive experimental results suggest that integrating a database subsystem into federated learning systems can improve data provenance in an efficient manner, encouraging secure FL adoption in privacy-sensitive applications and paving the way for future advancements in FL transparency and security features.",
+ "primary": "cs.CR"
+}

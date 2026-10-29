@@ -1,0 +1,18 @@
+{
+ "id": "2503.19779",
+ "title": "PyGraph: Robust Compiler Support for CUDA Graphs in PyTorch",
+ "authors": [
+  "Abhishek Ghosh",
+  "Ajay Nayak",
+  "Ashish Panwar",
+  "Arkaprava Basu"
+ ],
+ "v1_date": "2025-03-25",
+ "latest_version": 3,
+ "latest_date": "2025-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning (ML) workloads launch hundreds to thousands of short-running GPU kernels per iteration. With GPU compute throughput growing rapidly, CPU-side launch latency of kernels is emerging as a bottleneck. CUDA Graphs promise to address this by replaying a set of kernels with a single dispatch of the graph, removing per-kernel launch costs. However, CUDA Graphs remain surprisingly difficult to deploy correctly and efficiently. We present PyGraph - a compiler framework to maximize the coverage and benefits of CUDA Graphs for ML workloads. It introduces three novel optimizations: it applies automatic code transformations to make ML applications amenable to CUDA Graphs; it eliminates the parameter copy overheads for kernels executing in CUDA Graphs, and it selectively deploys CUDA Graphs guided by a cost-benefit analysis. For 25 ML workloads from TorchBench, HuggingFace, and TIMM, PyGraph more than doubles the benefit from deploying CUDA Graph compared to the most popular and widely used ML compiler, PyTorch2. PyGraph is built atop PyTorch2's compilation framework and requires no programmer intervention.",
+ "primary": "cs.LG"
+}

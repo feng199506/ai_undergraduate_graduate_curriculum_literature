@@ -1,0 +1,18 @@
+{
+ "id": "2605.14275",
+ "title": "Double/debiased machine learning of quantile treatment effects on long-term outcomes in clinical trials",
+ "authors": [
+  "Ziyang Liu",
+  "Niwen Zhou",
+  "Peng Wu",
+  "Xu Guo"
+ ],
+ "v1_date": "2026-05-14",
+ "latest_version": 1,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Long-term outcomes are often unavailable in randomized clinical trials, although short-term surrogate outcomes are commonly observed. External observational data may contain the long-term outcome, but causal comparisons based on such data alone are vulnerable to confounding. Existing surrogate-based data integration methods for long-term outcomes have focused primarily on average treatment effects. We study estimation of quantile treatment effects for long-term outcomes in the trial population by combining randomized trial data with external observational data. Under treatment randomization, positivity, and a surrogate-based transportability assumption, we establish identification and develop a doubly robust estimator for inference. The estimator accommodates flexible machine learning methods for nuisance estimation, remains consistent if either the score-related or outcome regression-related nuisance functions are consistently estimated, and is asymptotically normal under regularity conditions. Simulation and real-data results demonstrate that the proposed method performs well in finite samples and can reveal heterogeneous long-term treatment effects across quantiles.",
+ "primary": "math.ST"
+}

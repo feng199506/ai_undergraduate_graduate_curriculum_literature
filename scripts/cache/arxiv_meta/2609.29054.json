@@ -1,0 +1,19 @@
+{
+ "id": "2609.29054",
+ "title": "Zero Forcing Sets in Temporal Graphs",
+ "authors": [
+  "Julien Baste",
+  "Simon Dreyer",
+  "Clara Marcille",
+  "Mikaël Rabie",
+  "Ronan Toullec-Streicher"
+ ],
+ "v1_date": "2026-09-24",
+ "latest_version": 1,
+ "latest_date": "2026-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Zero Forcing (or corruption) of a graph is the problem of finding a minimum-size ``corrupting'' set. It corresponds to a subset of its vertices that can corrupt the whole graph by iterating the following rule: if a corrupted vertex has exactly one neighbor that is not yet corrupted, the neighbor gets corrupted. The iteration of this process comes from the fact that the corruption of a vertex might enable new corruptions (from itself or some of its neighbors). For this reason, one can consider a step of corruption, where all the possible instances of the corruption rule are applied at once. This paper investigates Zero Forcing on temporal graphs, where the topology of the graph evolves throughout the experiment. At each time step (or snapshot) of the graph, a step of corruption is resolved wherever possible. We study the problem of finding a minimum-size corrupting set such that the whole (temporal) graph is corrupted at the end of the experiment. We present a panorama of results, including NP-hardness in some not-so-restrictive scenarios, polynomial algorithms, and a solution to an open question when the whole graph must be corrupted in a single step.",
+ "primary": "cs.DM"
+}

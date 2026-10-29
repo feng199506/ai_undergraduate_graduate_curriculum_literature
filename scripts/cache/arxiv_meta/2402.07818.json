@@ -1,0 +1,21 @@
+{
+ "id": "2402.07818",
+ "title": "Differentially Private Zeroth-Order Methods for Scalable Large Language Model Finetuning",
+ "authors": [
+  "Z Liu",
+  "J Lou",
+  "W Bao",
+  "Y Hu",
+  "B Li",
+  "Z Qin",
+  "K Ren"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 6,
+ "latest_date": "2025-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fine-tuning on task-specific datasets is a widely-embraced paradigm of harnessing the powerful capability of pretrained LLMs for various downstream tasks. Due to the popularity of LLMs fine-tuning and its accompanying privacy concerns, differentially private (DP) fine-tuning of pretrained LLMs has been widely used to safeguarding the privacy of task-specific datasets. Lying at the design core of DP LLM fine-tuning methods is the satisfactory tradeoff among privacy, utility, and scalability. Most existing methods build upon the seminal work of DP-SGD. Despite pushing the scalability of DP-SGD to its limit, DP-SGD-based fine-tuning methods are unfortunately limited by the inherent inefficiency of SGD. In this paper, we investigate the potential of DP zeroth-order methods for LLM pretraining, which avoids the scalability bottleneck of SGD by approximating the gradient with the more efficient zeroth-order gradient. Rather than treating the zeroth-order method as a drop-in replacement for SGD, this paper presents a comprehensive study both theoretically and empirically. First, we propose the stagewise DP zeroth-order method (DP-ZOSO) that dynamically schedules key hyperparameters. This design is grounded on the synergy between DP random perturbation and the gradient approximation error of the zeroth-order method, and its effect on fine-tuning trajectory. We provide theoretical analysis for both proposed methods. We conduct extensive empirical analysis on both encoder-only masked language model and decoder-only autoregressive language model, achieving impressive results in terms of scalability and utility regardless of the class of tasks (compared with DPZero, DP-ZOPO improves $4.5\\%$ on SST-5, $5.5\\%$ on MNLI with RoBERTa-Large and 9.2\\% on CB, 3.9\\% on BoolQ with OPT-2.7b when $ε=4$, demonstrates more significant enhancement in performance on more complicated tasks).",
+ "primary": "cs.LG"
+}

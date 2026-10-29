@@ -1,0 +1,25 @@
+{
+ "id": "2504.17577",
+ "title": "TileLang: A Composable Tiled Programming Model for AI Systems",
+ "authors": [
+  "Lei Wang",
+  "Yu Cheng",
+  "Yining Shi",
+  "Zhengju Tang",
+  "Zhiwen Mo",
+  "Wenhao Xie",
+  "Lingxiao Ma",
+  "Yuqing Xia",
+  "Jilong Xue",
+  "Fan Yang",
+  "Zhi Yang"
+ ],
+ "v1_date": "2025-04-24",
+ "latest_version": 2,
+ "latest_date": "2025-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern AI workloads rely heavily on optimized computing kernels for both training and inference. These AI kernels follow well-defined data-flow patterns, such as moving tiles between DRAM and SRAM and performing a sequence of computations on those tiles. However, writing high-performance kernels remains complex despite the clarity of these patterns. Achieving peak performance requires careful, hardware-centric optimizations to fully leverage modern accelerators. While domain-specific compilers attempt to reduce the burden of writing high-performance kernels, they often struggle with usability and expressiveness gaps. In this paper, we present TileLang, a generalized tiled programming model for more efficient AI Kernel programming. TileLang decouples scheduling space (thread binding, layout, tensorize and pipeline) from dataflow, and encapsulated them as a set of customization annotations and primitives. This approach allows users to focus on the kernel's data-flow itself, while leaving most other optimizations to compilers. We conduct comprehensive experiments on commonly-used devices, across numerous experiments, our evaluation shows that TileLang can achieve state-of-the-art performance in key kernels, demonstrating that its unified block-and-thread paradigm and transparent scheduling capabilities deliver both the power and flexibility demanded by modern AI system development.",
+ "primary": "cs.LG"
+}

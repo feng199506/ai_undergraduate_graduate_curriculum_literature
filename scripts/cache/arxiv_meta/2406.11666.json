@@ -1,0 +1,17 @@
+{
+ "id": "2406.11666",
+ "title": "ROTI-GCV: Generalized Cross-Validation for right-ROTationally Invariant Data",
+ "authors": [
+  "Kevin Luo",
+  "Yufan Li",
+  "Pragya Sur"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 3,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 3 figures",
+ "abstract": "Two key tasks in high-dimensional regularized regression are tuning the regularization strength for accurate predictions and estimating the out-of-sample risk. It is known that the standard approach -- $k$-fold cross-validation -- is inconsistent in modern high-dimensional settings. While leave-one-out and generalized cross-validation remain consistent in some high-dimensional cases, they become inconsistent when samples are dependent or contain heavy-tailed covariates. As a first step towards modeling structured sample dependence and heavy tails, we use right-rotationally invariant covariate distributions -- a crucial concept from compressed sensing. In the proportional asymptotics regime where the number of features and samples grow comparably, which is known to better reflect the empirical behavior in moderately sized datasets, we introduce a new framework, ROTI-GCV, for reliably performing cross-validation under these challenging conditions. Along the way, we propose new estimators for the signal-to-noise ratio and noise variance. We conduct experiments that demonstrate the accuracy of our approach in a variety of synthetic and semi-synthetic settings.",
+ "primary": "math.ST"
+}

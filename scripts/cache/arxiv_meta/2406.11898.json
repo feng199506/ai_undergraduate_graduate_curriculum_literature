@@ -1,0 +1,17 @@
+{
+ "id": "2406.11898",
+ "title": "Towards Better Benchmark Datasets for Inductive Knowledge Graph Completion",
+ "authors": [
+  "Harry Shomer",
+  "Jay Revolinsky",
+  "Jiliang Tang"
+ ],
+ "v1_date": "2024-06-14",
+ "latest_version": 3,
+ "latest_date": "2025-06-24",
+ "journal_ref": "",
+ "doi": "10.1145/3711896.3737438",
+ "comment": "KDD'25 Datasets & Benchmark Track",
+ "abstract": "Knowledge Graph Completion (KGC) attempts to predict missing facts in a Knowledge Graph (KG). Recently, there's been an increased focus on designing KGC methods that can excel in the inductive setting, where a portion or all of the entities and relations seen in inference are unobserved during training. Numerous benchmark datasets have been proposed for inductive KGC, all of which are subsets of existing KGs used for transductive KGC. However, we find that the current procedure for constructing inductive KGC datasets inadvertently creates a shortcut that can be exploited even while disregarding the relational information. Specifically, we observe that the Personalized PageRank (PPR) score can achieve strong or near SOTA performance on most datasets. In this paper, we study the root cause of this problem. Using these insights, we propose an alternative strategy for constructing inductive KGC datasets that helps mitigate the PPR shortcut. We then benchmark multiple popular methods using the newly constructed datasets and analyze their performance. The new benchmark datasets help promote a better understanding of the capabilities and challenges of inductive KGC by removing any shortcuts that obfuscate performance. The code and dataset and can be found at https://github.com/HarryShomer/Better-Inductive-KGC.",
+ "primary": "cs.AI"
+}

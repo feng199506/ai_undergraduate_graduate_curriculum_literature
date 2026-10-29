@@ -1,0 +1,20 @@
+{
+ "id": "2502.20966",
+ "title": "Post-Hoc Uncertainty Quantification in Pre-Trained Neural Networks via Activation-Level Gaussian Processes",
+ "authors": [
+  "Richard Bergna",
+  "Stefan Depeweg",
+  "Sergio Calvo Ordonez",
+  "Jonathan Plenk",
+  "Alvaro Cartea",
+  "Jose Miguel Hernandez-Lobato"
+ ],
+ "v1_date": "2025-02-28",
+ "latest_version": 1,
+ "latest_date": "2025-02-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 8 figures, 7th Symposium on Advances in Approximate Bayesian Inference",
+ "abstract": "Uncertainty quantification in neural networks through methods such as Dropout, Bayesian neural networks and Laplace approximations is either prone to underfitting or computationally demanding, rendering these approaches impractical for large-scale datasets. In this work, we address these shortcomings by shifting the focus from uncertainty in the weight space to uncertainty at the activation level, via Gaussian processes. More specifically, we introduce the Gaussian Process Activation function (GAPA) to capture neuron-level uncertainties. Our approach operates in a post-hoc manner, preserving the original mean predictions of the pre-trained neural network and thereby avoiding the underfitting issues commonly encountered in previous methods. We propose two methods. The first, GAPA-Free, employs empirical kernel learning from the training data for the hyperparameters and is highly efficient during training. The second, GAPA-Variational, learns the hyperparameters via gradient descent on the kernels, thus affording greater flexibility. Empirical results demonstrate that GAPA-Variational outperforms the Laplace approximation on most datasets in at least one of the uncertainty quantification metrics.",
+ "primary": "stat.ML"
+}

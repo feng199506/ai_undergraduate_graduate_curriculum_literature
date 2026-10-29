@@ -1,0 +1,16 @@
+{
+ "id": "2406.01663",
+ "title": "An efficient solution to Hidden Markov Models on trees with coupled branches",
+ "authors": [
+  "Farzan Vafa",
+  "Sahand Hormoz"
+ ],
+ "v1_date": "2024-06-03",
+ "latest_version": 1,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 + 6 pages, 5 figures",
+ "abstract": "Hidden Markov Models (HMMs) are powerful tools for modeling sequential data, where the underlying states evolve in a stochastic manner and are only indirectly observable. Traditional HMM approaches are well-established for linear sequences, and have been extended to other structures such as trees. In this paper, we extend the framework of HMMs on trees to address scenarios where the tree-like structure of the data includes coupled branches -- a common feature in biological systems where entities within the same lineage exhibit dependent characteristics. We develop a dynamic programming algorithm that efficiently solves the likelihood, decoding, and parameter learning problems for tree-based HMMs with coupled branches. Our approach scales polynomially with the number of states and nodes, making it computationally feasible for a wide range of applications and does not suffer from the underflow problem. We demonstrate our algorithm by applying it to simulated data and propose self-consistency checks for validating the assumptions of the model used for inference. This work not only advances the theoretical understanding of HMMs on trees but also provides a practical tool for analyzing complex biological data where dependencies between branches cannot be ignored.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.08993",
+ "title": "Off-Policy Evaluation for Recommendations with Missing-Not-At-Random Rewards",
+ "authors": [
+  "Tatsuki Takahashi",
+  "Chihiro Maru",
+  "Hiroko Shoji"
+ ],
+ "v1_date": "2025-02-13",
+ "latest_version": 1,
+ "latest_date": "2025-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4pages",
+ "abstract": "Unbiased recommender learning (URL) and off-policy evaluation/learning (OPE/L) techniques are effective in addressing the data bias caused by display position and logging policies, thereby consistently improving the performance of recommendations. However, when both bias exits in the logged data, these estimators may suffer from significant bias. In this study, we first analyze the position bias of the OPE estimator when rewards are missing not at random. To mitigate both biases, we propose a novel estimator that leverages two probabilities of logging policies and reward observations as propensity scores. Our experiments demonstrate that the proposed estimator achieves superior performance compared to other estimators, even as the levels of bias in reward observations increases.",
+ "primary": "stat.ML"
+}

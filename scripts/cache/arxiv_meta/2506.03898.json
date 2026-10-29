@@ -1,0 +1,19 @@
+{
+ "id": "2506.03898",
+ "title": "Kernel conditional tests from learning-theoretic bounds",
+ "authors": [
+  "Pierre-François Massiani",
+  "Christian Fiedler",
+  "Lukas Haverbeck",
+  "Friedrich Solowjow",
+  "Sebastian Trimpe"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 2,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 8 figures, 9 tables. Accepted at NeurIPS 2025; to appear in the proceedings of the Thirty-ninth Annual Conference on Neural Information Processing Systems. Reviews and discussion: https://openreview.net/forum?id=hJKDwf32Xu",
+ "abstract": "We propose a framework for hypothesis testing on conditional probability distributions, which we then use to construct statistical tests of functionals of conditional distributions. These tests identify the inputs where the functionals differ with high probability, and include tests of conditional moments or two-sample tests. Our key idea is to transform confidence bounds of a learning method into a test of conditional expectations. We instantiate this principle for kernel ridge regression (KRR) with subgaussian noise. An intermediate data embedding then enables more general tests -- including conditional two-sample tests -- via kernel mean embeddings of distributions. To have guarantees in this setting, we generalize existing pointwise-in-time or time-uniform confidence bounds for KRR to previously-inaccessible yet essential cases such as infinite-dimensional outputs with non-trace-class kernels. These bounds also circumvent the need for independent data, allowing for instance online sampling. To make our tests readily applicable in practice, we introduce bootstrapping schemes leveraging the parametric form of testing thresholds identified in theory to avoid tuning inaccessible parameters. We illustrate the tests on examples, including one in process monitoring and comparison of dynamical systems. Overall, our results establish a comprehensive foundation for conditional testing on functionals, from theoretical guarantees to an algorithmic implementation, and advance the state of the art on confidence bounds for vector-valued least squares estimation.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2609.17238",
+ "title": "Covariate Selection for Doubly Robust Double/debiased Machine Learning Estimators for Causal Inference",
+ "authors": [
+  "Muwon Kwon",
+  "Peter M. Steiner"
+ ],
+ "v1_date": "2026-09-15",
+ "latest_version": 1,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 4 figures",
+ "abstract": "High-dimensional data create challenges for causal effect estimation because identifying the covariates needed for correct model specification becomes increasingly difficult. Double/debiased machine learning (DML) facilitates the use of machine learning (ML) for causal inference by mitigating regularization and overfitting bias, but comparatively less attention has been given to covariate selection in relation to the double robustness (DR) property possessed by some DML estimators. In particular, ML-based covariate selection may result in differential covariate selection or in misspecification of both models, thereby limiting the practical utility of the DR property. To address these issues, we propose using the union of the covariates selected by the propensity score (PS) and outcome ML models to re-estimate both models. Simulation results show that using the union consistently reduces more confounding bias than using separate selected covariate sets. The results also show that ML-based estimation does not uniformly outperform conventional DR estimation, even under conditions favorable to the Lasso, and that post-Lasso reduces more confounding bias than standard Lasso. These findings demonstrate that successful use of ML for causal inference depends not only on the ML algorithm but also on how the information obtained through covariate selection is incorporated into causal effect estimation.",
+ "primary": "stat.ME"
+}

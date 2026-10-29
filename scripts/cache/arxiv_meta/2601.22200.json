@@ -1,0 +1,16 @@
+{
+ "id": "2601.22200",
+ "title": "Adaptive Benign Overfitting (ABO): Overparameterized RLS for Online Learning in Non-stationary Time-series",
+ "authors": [
+  "Luis Ontaneda Mijares",
+  "Nick Firoozye"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 1,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 3 figures, 10 tables",
+ "abstract": "Overparameterized models have recently challenged conventional learning theory by exhibiting improved generalization beyond the interpolation limit, a phenomenon known as benign overfitting. This work introduces Adaptive Benign Overfitting (ABO), extending the recursive least-squares (RLS) framework to this regime through a numerically stable formulation based on orthogonal-triangular updates. A QR-based exponentially weighted RLS (QR-EWRLS) algorithm is introduced, combining random Fourier feature mappings with forgetting-factor regularization to enable online adaptation under non-stationary conditions. The orthogonal decomposition prevents the numerical divergence associated with covariance-form RLS while retaining adaptability to evolving data distributions. Experiments on nonlinear synthetic time series confirm that the proposed approach maintains bounded residuals and stable condition numbers while reproducing the double-descent behavior characteristic of overparameterized models. Applications to forecasting foreign exchange and electricity demand show that ABO is highly accurate (comparable to baseline kernel methods) while achieving speed improvements of between 20 and 40 percent. The results provide a unified view linking adaptive filtering, kernel approximation, and benign overfitting within a stable online learning framework.",
+ "primary": "q-fin.ST"
+}

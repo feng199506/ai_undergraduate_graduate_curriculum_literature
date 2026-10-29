@@ -1,0 +1,18 @@
+{
+ "id": "2503.15772",
+ "title": "Detecting LLM-Generated Peer Reviews",
+ "authors": [
+  "Vishisht Rao",
+  "Aounon Kumar",
+  "Himabindu Lakkaraju",
+  "Nihar B. Shah"
+ ],
+ "v1_date": "2025-03-20",
+ "latest_version": 2,
+ "latest_date": "2025-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 2 figures",
+ "abstract": "The integrity of peer review is fundamental to scientific progress, but the rise of large language models (LLMs) has introduced concerns that some reviewers may rely on these tools to generate reviews rather than writing them independently. Although some venues have banned LLM-assisted reviewing, enforcement remains difficult as existing detection tools cannot reliably distinguish between fully generated reviews and those merely polished with AI assistance. In this work, we address the challenge of detecting LLM-generated reviews. We consider the approach of performing indirect prompt injection via the paper's PDF, prompting the LLM to embed a covert watermark in the generated review, and subsequently testing for presence of the watermark in the review. We identify and address several pitfalls in naïve implementations of this approach. Our primary contribution is a rigorous watermarking and detection framework that offers strong statistical guarantees. Specifically, we introduce watermarking schemes and hypothesis tests that control the family-wise error rate across multiple reviews, achieving higher statistical power than standard corrections such as Bonferroni, while making no assumptions about the nature of human-written reviews. We explore multiple indirect prompt injection strategies -- including font-based embedding and obfuscated prompts -- and evaluate their effectiveness under various reviewer defense scenarios. Our experiments find high success rates in watermark embedding across various LLMs. We also empirically find that our approach is resilient to common reviewer defenses, and that the bounds on error rates in our statistical tests hold in practice. In contrast, we find that Bonferroni-style corrections are too conservative to be useful in this setting.",
+ "primary": "cs.DL"
+}

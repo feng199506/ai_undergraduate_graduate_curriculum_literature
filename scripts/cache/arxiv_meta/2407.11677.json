@@ -1,0 +1,22 @@
+{
+ "id": "2407.11677",
+ "title": "Video-Language Alignment via Spatio-Temporal Graph Transformer",
+ "authors": [
+  "Shi-Xue Zhang",
+  "Hongfa Wang",
+  "Xiaobin Zhu",
+  "Weibo Gu",
+  "Tianjin Zhang",
+  "Chun Yang",
+  "Wei Liu",
+  "Xu-Cheng Yin"
+ ],
+ "v1_date": "2024-07-16",
+ "latest_version": 2,
+ "latest_date": "2024-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "under review",
+ "abstract": "Video-language alignment is a crucial multi-modal task that benefits various downstream applications, e.g., video-text retrieval and video question answering. Existing methods either utilize multi-modal information in video-text pairs or apply global and local alignment techniques to promote alignment precision. However, these methods often fail to fully explore the spatio-temporal relationships among vision tokens within video and across different video-text pairs. In this paper, we propose a novel Spatio-Temporal Graph Transformer module to uniformly learn spatial and temporal contexts for video-language alignment pre-training (dubbed STGT). Specifically, our STGT combines spatio-temporal graph structure information with attention in transformer block, effectively utilizing the spatio-temporal contexts. In this way, we can model the relationships between vision tokens, promoting video-text alignment precision for benefiting downstream tasks. In addition, we propose a self-similarity alignment loss to explore the inherent self-similarity in the video and text. With the initial optimization achieved by contrastive learning, it can further promote the alignment accuracy between video and text. Experimental results on challenging downstream tasks, including video-text retrieval and video question answering, verify the superior performance of our method.",
+ "primary": "cs.CV"
+}

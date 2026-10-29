@@ -1,0 +1,21 @@
+{
+ "id": "2503.02844",
+ "title": "Beyond Cosine Decay: On the effectiveness of Infinite Learning Rate Schedule for Continual Pre-training",
+ "authors": [
+  "Vaibhav Singh",
+  "Paul Janson",
+  "Paria Mehrbod",
+  "Adam Ibrahim",
+  "Irina Rish",
+  "Eugene Belilovsky",
+  "Benjamin Thérien"
+ ],
+ "v1_date": "2025-03-04",
+ "latest_version": 3,
+ "latest_date": "2025-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted (oral) at Fourth Conference on Lifelong Learning Agents - CoLLAs 2025",
+ "abstract": "The ever-growing availability of unlabeled data presents both opportunities and challenges for training artificial intelligence systems. While self-supervised learning (SSL) has emerged as a powerful paradigm for extracting meaningful representations from vast amounts of unlabeled data, existing methods still struggle to adapt to the non-stationary, non-IID nature of real-world data streams without forgetting previously learned knowledge. Recent works have adopted a repeated cosine annealing schedule for large-scale continual pre-training; however, these schedules (1) inherently cause forgetting during the re-warming phase and (2) have not been systematically compared to existing continual SSL methods. In this work, we systematically compare the widely used cosine schedule with the recently proposed infinite learning rate schedule and empirically find the latter to be a more effective alternative. Our extensive empirical evaluation across diverse image and language datasets demonstrates that the infinite learning rate schedule consistently enhances continual pre-training performance compared to a repeated cosine decay without being restricted to a fixed iteration budget. For instance, in a small-scale MAE pre-training setup, it outperforms several strong baselines from the literature. We then scale up our experiments to larger MAE pre-training and autoregressive language model pre-training. Our results show that the infinite learning rate schedule remains effective at scale, surpassing repeated cosine decay for both MAE pre-training and zero-shot LM benchmarks.",
+ "primary": "cs.LG"
+}

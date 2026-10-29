@@ -1,0 +1,19 @@
+{
+ "id": "2601.15552",
+ "title": "BanditLP: Large-Scale Stochastic Optimization for Personalized Recommendations",
+ "authors": [
+  "Phuc Nguyen",
+  "Benjamin Zelditch",
+  "Joyce Chen",
+  "Rohit Patra",
+  "Changshuai Wei"
+ ],
+ "v1_date": "2026-01-22",
+ "latest_version": 1,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present BanditLP, a scalable multi-stakeholder contextual bandit framework that unifies neural Thompson Sampling for learning objective-specific outcomes with a large-scale linear program for constrained action selection at serving time. The methodology is application-agnostic, compatible with arbitrary neural architectures, and deployable at web scale, with an LP solver capable of handling billions of variables. Experiments on public benchmarks and synthetic data show consistent gains over strong baselines. We apply this approach in LinkedIn's email marketing system and demonstrate business win, illustrating the value of integrated exploration and constrained optimization in production.",
+ "primary": "cs.LG"
+}

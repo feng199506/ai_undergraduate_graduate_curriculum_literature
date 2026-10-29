@@ -1,0 +1,17 @@
+{
+ "id": "2410.12300",
+ "title": "Sparse Causal Effect Estimation using Two-Sample Summary Statistics in the Presence of Unmeasured Confounding",
+ "authors": [
+  "Shimeng Huang",
+  "Niklas Pfister",
+  "Jack Bowden"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 4,
+ "latest_date": "2024-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Observational genome-wide association studies are now widely used for causal inference in genetic epidemiology. To maintain privacy, such data is often only publicly available as summary statistics, and often studies for the endogenous covariates and the outcome are available separately. This has necessitated methods tailored to two-sample summary statistics. Current state-of-the-art methods modify linear instrumental variable (IV) regression -- with genetic variants as instruments -- to account for unmeasured confounding. However, since the endogenous covariates can be high dimensional, standard IV assumptions are generally insufficient to identify all causal effects simultaneously. We ensure identifiability by assuming the causal effects are sparse and propose a sparse causal effect two-sample IV estimator, spaceTSIV, adapting the spaceIV estimator by Pfister and Peters (2022) for two-sample summary statistics. We provide two methods, based on L0- and L1-penalization, respectively. We prove identifiability of the sparse causal effects in the two-sample setting and consistency of spaceTSIV. The performance of spaceTSIV is compared with existing two-sample IV methods in simulations. Finally, we showcase our methods using real proteomic and gene-expression data for drug-target discovery.",
+ "primary": "stat.ME"
+}

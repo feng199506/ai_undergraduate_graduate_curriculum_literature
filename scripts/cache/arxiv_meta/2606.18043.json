@@ -1,0 +1,22 @@
+{
+ "id": "2606.18043",
+ "title": "Uncertainty Quantification for Flow-Based Generalist Robot Policies",
+ "authors": [
+  "Ralf Römer",
+  "Maximilian Seeliger",
+  "Saida Liu",
+  "Ben Sturgis",
+  "Marco Bagatella",
+  "Daniel Marta",
+  "Andreas Krause",
+  "Angela P. Schoellig"
+ ],
+ "v1_date": "2026-06-16",
+ "latest_version": 2,
+ "latest_date": "2026-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Project page: tum-lsy.github.io/uq_generalist_policies/. 41 pages, 18 figures",
+ "abstract": "Generalist robot policies, such as vision-language-action models (VLAs) and world-action models (WAMs), combine powerful pretrained backbones with expressive generative action heads trained via flow matching on large-scale robotic datasets. Despite their strong empirical performance in robotic manipulation, these policies lack mechanisms to quantify confidence in their predictions and to detect when their actions may be unreliable. This presents a critical limitation for real-world deployment in non-stationary environments, where models inevitably encounter scenarios outside their pretraining distribution and may fail without warning. To address this, we derive an efficient method to quantify epistemic uncertainty in flow-matching models by leveraging velocity-field disagreement (VFD) across a small ensemble. We successfully use this uncertainty estimate for detecting failures during deployment and active fine-tuning of flow-based generalist policies. For the latter, we propose SAVE, a simple yet effective method for uncertainty-guided active multitask fine-tuning that reduces the number of costly expert demonstrations required to adapt generalist policies to new tasks. We conduct experiments in simulation and the real world, across VLAs and a WAM. VFD yields better-calibrated uncertainty estimates predictive of downstream performance and detects failures with 8 pp higher overall accuracy than existing methods. Across three real-world tasks, SAVE improves final average success from 39 % to 47 % with a fixed demonstration budget. Our results show that measuring epistemic uncertainty with VFD enhances both failure awareness and adaptation of generalist robot policies. Project website: tum-lsy.github.io/uq_generalist_policies.",
+ "primary": "cs.RO"
+}

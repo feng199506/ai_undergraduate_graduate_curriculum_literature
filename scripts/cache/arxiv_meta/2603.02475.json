@@ -1,0 +1,18 @@
+{
+ "id": "2603.02475",
+ "title": "Skin Tone in the Wild: A Dataset and Benchmark for 10-tone MST Classification",
+ "authors": [
+  "Vitor Matias",
+  "Márcus Vinícius Lobo Costa",
+  "Tiago Novello",
+  "João Batista Neto"
+ ],
+ "v1_date": "2026-03-02",
+ "latest_version": 2,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 10 figures",
+ "abstract": "Skin tone classification is a fundamental task in computer vision, with applications in quantifying medical features, assessing demographic representativeness, and mitigating algorithmic bias. However, existing datasets either rely on a restrictive 6-tone Fitzpatrick scale, prohibit training through restrictive licenses, or lack representation of extreme skin tones, while current methods often fail to disentangle true skin tone from in-the-wild imaging conditions, degrading to random-classifier performance. We introduce skin tone in the wild (STW), the first open-access dataset annotated with the 10-tone Monk Skin Tone (MST) scale, containing over 42K images and specifically curated to include underrepresented tones. Alongside a rigorous evaluation protocol, we propose SkinToneNet, a ViT-based model that leverages global image context for robust in-the-wild generalization. Experiments show that SkinToneNet achieves 90% weighted off-by-one accuracy, substantially outperforming prior baselines. We further use SkinToneNet to audit widely used face datasets, including CelebA and VGGFace2, revealing substantial representation imbalances across MST tones.",
+ "primary": "cs.CV"
+}

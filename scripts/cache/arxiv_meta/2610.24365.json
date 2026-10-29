@@ -1,0 +1,19 @@
+{
+ "id": "2610.24365",
+ "title": "FlashMap: Flow Map Speculative Decoding",
+ "authors": [
+  "Jeff Shen",
+  "Zhejian Zhou",
+  "Ryan Lee",
+  "Jonathan May",
+  "Shirley Ho"
+ ],
+ "v1_date": "2026-10-17",
+ "latest_version": 1,
+ "latest_date": "2026-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code: https://github.com/al-jshen/flashmap",
+ "abstract": "Speculative decoding accelerates large language model (LLM) inference by using a lightweight drafter to propose a block of tokens that the target model verifies in one parallel pass. Autoregressive drafters generate this block one token at a time, whereas block diffusion drafters such as DFlash generate it in one pass, making drafting faster. However, these diffusion drafters predict each token independently, ignoring dependencies between tokens in the block. We introduce FlashMap, a continuous flow drafter that conditions a flow map language model on the target model's hidden states and generates the whole block in one forward pass while capturing inter-token dependencies. On Qwen3-8B, FlashMap is faster than a matched DFlash baseline on every benchmark, with 7% higher average speedup and up to 6.1x lossless acceleration.",
+ "primary": "cs.CL"
+}

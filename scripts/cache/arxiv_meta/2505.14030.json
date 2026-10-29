@@ -1,0 +1,29 @@
+{
+ "id": "2505.14030",
+ "title": "AutoBio: A Simulation and Benchmark for Robotic Automation in Digital Biology Laboratory",
+ "authors": [
+  "Zhiqian Lan",
+  "Yuxuan Jiang",
+  "Ruiqi Wang",
+  "Xuanbing Xie",
+  "Rongkui Zhang",
+  "Yicheng Zhu",
+  "Peihang Li",
+  "Tianshuo Yang",
+  "Tianxing Chen",
+  "Haoyu Gao",
+  "Xiaokang Yang",
+  "Xuelong Li",
+  "Hongyuan Zhang",
+  "Yao Mu",
+  "Ping Luo"
+ ],
+ "v1_date": "2025-05-20",
+ "latest_version": 3,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Vision-language-action (VLA) models have shown promise as generalist robotic policies by jointly leveraging visual, linguistic, and proprioceptive modalities to generate action trajectories. While recent benchmarks have advanced VLA research in domestic tasks, professional science-oriented domains remain underexplored. We introduce AutoBio, a simulation framework and benchmark designed to evaluate robotic automation in biology laboratory environments--an application domain that combines structured protocols with demanding precision and multimodal interaction. AutoBio extends existing simulation capabilities through a pipeline for digitizing real-world laboratory instruments, specialized physics plugins for mechanisms ubiquitous in laboratory workflows, and a rendering stack that support dynamic instrument interfaces and transparent materials through physically based rendering. Our benchmark comprises biologically grounded tasks spanning three difficulty levels, enabling standardized evaluation of language-guided robotic manipulation in experimental protocols. We provide infrastructure for demonstration generation and seamless integration with VLA models. Baseline evaluations with two SOTA VLA models reveal significant gaps in precision manipulation, visual reasoning, and instruction following in scientific workflows. By releasing AutoBio, we aim to catalyze research on generalist robotic systems for complex, high-precision, and multimodal professional environments. The simulator and benchmark are publicly available to facilitate reproducible research.",
+ "primary": "cs.RO"
+}

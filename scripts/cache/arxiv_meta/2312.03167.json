@@ -1,0 +1,16 @@
+{
+ "id": "2312.03167",
+ "title": "Adaptive spectral graph wavelets for collaborative filtering",
+ "authors": [
+  "Osama Alshareet",
+  "A. Ben Hamza"
+ ],
+ "v1_date": "2023-12-05",
+ "latest_version": 1,
+ "latest_date": "2023-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Collaborative filtering is a popular approach in recommender systems, whose objective is to provide personalized item suggestions to potential users based on their purchase or browsing history. However, personalized recommendations require considerable amount of behavioral data on users, which is usually unavailable for new users, giving rise to the cold-start problem. To help alleviate this challenging problem, we introduce a spectral graph wavelet collaborative filtering framework for implicit feedback data, where users, items and their interactions are represented as a bipartite graph. Specifically, we first propose an adaptive transfer function by leveraging a power transform with the goal of stabilizing the variance of graph frequencies in the spectral domain. Then, we design a deep recommendation model for efficient learning of low-dimensional embeddings of users and items using spectral graph wavelets in an end-to-end fashion. In addition to capturing the graph's local and global structures, our approach yields localization of graph signals in both spatial and spectral domains, and hence not only learns discriminative representations of users and items, but also promotes the recommendation quality. The effectiveness of our proposed model is demonstrated through extensive experiments on real-world benchmark datasets, achieving better recommendation performance compared with strong baseline methods.",
+ "primary": "cs.IR"
+}

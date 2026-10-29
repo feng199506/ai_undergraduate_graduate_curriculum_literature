@@ -1,0 +1,21 @@
+{
+ "id": "2510.08800",
+ "title": "Benchmarking Chinese Commonsense Reasoning with a Multi-hop Reasoning Perspective",
+ "authors": [
+  "Wangjie You",
+  "Xusheng Wang",
+  "Xing Wang",
+  "Wenxiang Jiao",
+  "Chao Feng",
+  "Juntao Li",
+  "Min Zhang"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 1,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While Large Language Models (LLMs) have demonstrated advanced reasoning capabilities, their comprehensive evaluation in general Chinese-language contexts remains understudied. To bridge this gap, we propose Chinese Commonsense Multi-hop Reasoning (CCMOR), a novel benchmark designed to evaluate LLMs' ability to integrate Chinese-specific factual knowledge with multi-step logical reasoning. Specifically, we first construct a domain-balanced seed set from existing QA datasets, then develop an LLM-powered pipeline to generate multi-hop questions anchored on factual unit chains. To ensure the quality of resulting dataset, we implement a human-in-the-loop verification system, where domain experts systematically validate and refine the generated questions. Using CCMOR, we evaluate state-of-the-art LLMs, demonstrating persistent limitations in LLMs' ability to process long-tail knowledge and execute knowledge-intensive reasoning. Notably, retrieval-augmented generation substantially mitigates these knowledge gaps, yielding significant performance gains.",
+ "primary": "cs.CL"
+}

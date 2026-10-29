@@ -1,0 +1,15 @@
+{
+ "id": "2510.05496",
+ "title": "Mutual Information Estimation via Score-to-Fisher Bridge for Nonlinear Gaussian Noise Channels",
+ "authors": [
+  "Tadashi Wadayama"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 3,
+ "latest_date": "2026-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a numerical method to evaluate mutual information (MI) in nonlinear Gaussian noise channels by using denoising score matching (DSM) learning for estimating the score function of channel output. Via de Bruijn's identity, Fisher information estimated from the learned score function yields accurate estimates of MI through a Fisher integral representation for a variety of priors and channel nonlinearities. In this work, we propose a comprehensive theoretical foundation for the Score-to-Fisher bridge methodology, along with practical guidelines for its implementation. We also conduct extensive validation experiments, comparing our approach with closed-form solutions and a kernel density estimation baseline. The results of our numerical experiments demonstrate that the proposed method is both practical and efficient for MI estimation in nonlinear Gaussian noise channels. Additionally, we discuss the theoretical connections between our score-based framework and thermodynamic concepts, such as partition function estimation and optimal transport.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2506.17139",
+ "title": "Consistent Sampling and Simulation: Molecular Dynamics with Energy-Based Diffusion Models",
+ "authors": [
+  "Michael Plainer",
+  "Hao Wu",
+  "Leon Klein",
+  "Stephan Günnemann",
+  "Frank Noé"
+ ],
+ "v1_date": "2025-06-20",
+ "latest_version": 3,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at Conference on Neural Information Processing Systems (NeurIPS 2025)",
+ "abstract": "In recent years, diffusion models trained on equilibrium molecular distributions have proven effective for sampling biomolecules. Beyond direct sampling, the score of such a model can also be used to derive the forces that act on molecular systems. However, while classical diffusion sampling usually recovers the training distribution, the corresponding energy-based interpretation of the learned score is often inconsistent with this distribution, even for low-dimensional toy systems. We trace this inconsistency to inaccuracies of the learned score at very small diffusion timesteps, where the model must capture the correct evolution of the data distribution. In this regime, diffusion models fail to satisfy the Fokker-Planck equation, which governs the evolution of the score. We interpret this deviation as one source of the observed inconsistencies and propose an energy-based diffusion model with a Fokker-Planck-derived regularization term to enforce consistency. We demonstrate our approach by sampling and simulating multiple biomolecular systems, including fast-folding proteins, and by introducing a state-of-the-art transferable Boltzmann emulator for dipeptides that supports simulation and achieves improved consistency and efficient sampling. Our code, model weights, and self-contained JAX and PyTorch notebooks are available at https://github.com/noegroup/ScoreMD.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2511.17698",
+ "title": "Quantum Fourier Transform Based Kernel for Solar Irrandiance Forecasting",
+ "authors": [
+  "Nawfel Mechiche-Alami",
+  "Eduardo Rodriguez",
+  "Jose M. Cardemil",
+  "Enrique Lopez Droguett"
+ ],
+ "v1_date": "2025-11-21",
+ "latest_version": 1,
+ "latest_date": "2025-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 13 figures",
+ "abstract": "This study proposes a Quantum Fourier Transform (QFT)-enhanced quantum kernel for short-term time-series forecasting. Each signal is windowed, amplitude-encoded, transformed by a QFT, then passed through a protective rotation layer to avoid the QFT/QFT adjoint cancellation; the resulting kernel is used in kernel ridge regression (KRR). Exogenous predictors are incorporated by convexly fusing feature-specific kernels. On multi-station solar irradiance data across Koppen climate classes, the proposed kernel consistently improves median R2 and nRMSE over reference classical RBF and polynomials kernels, while also reducing bias (nMBE); complementary MAE/ERMAX analyses indicate tighter average errors with remaining headroom under sharp transients. For both quantum and classical models, the only tuned quantities are the feature-mixing weights and the KRR ridge alpha; classical hyperparameters (gamma, r, d) are fixed, with the same validation set size for all models. Experiments are conducted on a noiseless simulator (5 qubits; window length L=32). Limitations and ablations are discussed, and paths toward NISQ execution are outlined.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2607.02335",
+ "title": "Coalesced Matrix-Free Finite Elements in Cell-Wise Storage",
+ "authors": [
+  "Michał Wichrowski"
+ ],
+ "v1_date": "2026-07-02",
+ "latest_version": 1,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a GPU-oriented formulation of continuous high-order finite elements in which the redundant, cell-wise (element-local) vector is the persistent primary representation of all field data, rather than a transient stage of matrix-free operator evaluation. We prove that, given a preconditioner whose image is continuous, the entire flexible conjugate gradient iteration can be carried out exactly on this unassembled representation: a simple primal-dual pairing identity shows that all Krylov scalars computed from local data coincide with those of the assembled solve, so inter-element communication is confined entirely to the preconditioner. The required direct stiffness summation (DSS) is then realized without indirect gather-scatter, atomics, or coloring, by a dimensionally-split cascade of one-to-one face exchanges that provably accumulates edge and vertex contributions as a byproduct of sequential axis passes; unstructured macro-block interfaces and $h$-adaptive hanging nodes are handled by disjoint topological kernels and a shadow-cell wrapper that leaves the high-throughput sweeps untouched. The cell-wise storage decouples the memory layout from the mesh topology, and we exploit this freedom to benchmark blocked layouts that trade memory coalescing against element contiguity. Numerical experiments on modern GPUs demonstrate that the resulting operator evaluation and solver outperform state-of-the-art matrix-free implementations, signifficantly exceeding throughput of existing implementations.",
+ "primary": "math.NA"
+}

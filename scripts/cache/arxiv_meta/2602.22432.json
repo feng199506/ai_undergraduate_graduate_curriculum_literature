@@ -1,0 +1,19 @@
+{
+ "id": "2602.22432",
+ "title": "LoBoost: Fast Model-Native Local Conformal Prediction for Gradient-Boosted Trees",
+ "authors": [
+  "Vagner Santos",
+  "Victor Coscrato",
+  "Luben Cabezas",
+  "Rafael Izbicki",
+  "Thiago Ramos"
+ ],
+ "v1_date": "2026-02-25",
+ "latest_version": 2,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Substantially revised manuscript with new theoretical results, expanded experiments and sensitivity analyses, and revised discussion",
+ "abstract": "Gradient-boosted decision trees are among the strongest off-the-shelf predictors for tabular regression, but point predictions alone do not quantify uncertainty. Conformal prediction provides distribution-free marginal coverage, yet standard split conformal uses a single global residual quantile and can adapt poorly to heteroscedasticity. We propose LoBoost, a model-native local conformal method that reuses the fitted ensemble's leaf structure to define a multiscale partition of the feature space. Each input is represented by the sequence of leaves it visits along the boosting path, and matching leaf prefixes define nested groups in which residual quantiles are estimated locally. By reusing the predictive structure already learned by the model, LoBoost requires no auxiliary partition or nuisance model, no retraining, and no additional data split beyond standard conformal calibration. Our theory connects the stability of the fitted ensemble and the geometry of its induced cells to local residual-score homogeneity, providing finite-sample coverage-error control and asymptotic pointwise validity as the local calibration size grows and the cells become sufficiently homogeneous. Experiments show competitive interval quality, low post-hoc calibration costs, and stable behavior across local calibration-size settings.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2606.29450",
+ "title": "VeRe-Flow: Guiding Flow Matching toward Clean Speech via Velocity Contrastive Regularization and Representation Alignment for Noise-Robust Bandwidth Expansion",
+ "authors": [
+  "Sujin Koo",
+  "Sangyoon Kim",
+  "Ji Sub Um",
+  "Hoirin Kim"
+ ],
+ "v1_date": "2026-06-28",
+ "latest_version": 1,
+ "latest_date": "2026-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Interspeech 2026",
+ "abstract": "Noise-robust bandwidth expansion aims to reconstruct high-fidelity wideband speech from noisy low-resolution inputs. While flow matching has shown strong performance in speech generation, accurately recovering clean speech from noisy inputs remains challenging due to the ambiguity of velocity estimation under noise. In this work, we propose VeRe-Flow, a clean-guided flow matching framework that introduces multi-level clean supervision to guide the generative process toward clean speech. At the velocity level, we introduce velocity contrastive regularization, which attracts the predicted velocity toward the clean trajectory while repelling it from noisy trajectories. At the representation level, we incorporate representation alignment that aligns intermediate features with clean self-supervised learning representations. The results demonstrate that the proposed method achieves the lowest LSD and highest DNSMOS OVRL among all baselines, and the highest MOS among generative baselines.",
+ "primary": "eess.AS"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2610.21837",
+ "title": "Covariance-Calibrated Prediction-Powered Inference",
+ "authors": [
+  "Siyuan Chen",
+  "Yang Bai",
+  "Huichen Zhu"
+ ],
+ "v1_date": "2026-10-15",
+ "latest_version": 1,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Covariance-calibrated prediction-powered inference (CC-PPI) uses unlabeled prediction scores to calibrate the covariance weight in a GMM estimator. The raw target preserves the prediction-corrected channel and replaces the labeled prediction-covariance contribution in the auxiliary residual metric with its unlabeled counterpart. Spectral protection ensures positive definiteness, and the estimator uses an equal blend of the original covariance and the protected target. We establish first-order efficiency and derive exact finite-sample risk identities for linear regression, including a design-based improvement theorem with tolerance to prediction error. A quadratic decision model gives a midpoint minimax-regret interpretation of the half-strength default. Exact strength-path formulas and convergent risk approximations bound its distance from the best fixed strength on that path. Simulations and four real-data studies show substantial reductions in parameter MSE. Independent fixed-strength references yield only small further gains on the calibration paths studied.",
+ "primary": "stat.ME"
+}

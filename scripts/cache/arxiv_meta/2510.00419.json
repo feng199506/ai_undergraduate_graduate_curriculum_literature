@@ -1,0 +1,19 @@
+{
+ "id": "2510.00419",
+ "title": "Learning a Zeroth-Order Optimizer for Fine-Tuning LLMs",
+ "authors": [
+  "Kairun Zhang",
+  "Haoyu Li",
+  "Yanjun Zhao",
+  "Yifan Sun",
+  "Huan Zhang"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 2,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026",
+ "abstract": "Zeroth-order optimizers have recently emerged as an attractive approach for fine-tuning large language models (LLMs), as they avoid backpropagation and can substantially reduce memory overhead relative to standard first-order training. However, existing zeroth-order methods rely on hand-crafted, static sampling strategies that are not adaptable to model-specific structures. To address this, we propose ZO-Finetuner, a learning-based zeroth-order optimizer for LLMs that automatically learns efficient perturbation strategies through a compact and memory-efficient design. Motivated by the fact that a small set of base LLMs is repeatedly fine-tuned across tasks, ZO-Finetuner supports one-time per-model training and reuse across downstream tasks with minimal overhead. Therefore, learning the optimizer once for a given LLM and reusing it across diverse downstream tasks is both feasible and highly desirable. Accordingly, ZO-Finetuner is designed to scale learning to learn (L2L) to the foundation-model era by supporting one-time per-model training with minimal overhead. Experiments on 4 LLMs and 7 datasets show that ZO-Finetuner outperforms prior zeroth-order baselines in 82.1\\% of task-model combinations, thereby demonstrating strong performance and scalability for efficient LLM fine-tuning. The code can be found in https://github.com/ASTRAL-Group/ZO_Fine_tuner.",
+ "primary": "cs.LG"
+}

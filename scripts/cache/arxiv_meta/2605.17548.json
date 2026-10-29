@@ -1,0 +1,18 @@
+{
+ "id": "2605.17548",
+ "title": "Rethinking Code Review in the Age of AI: A Vision for Agentic Code Review",
+ "authors": [
+  "Hüseyin Özgür Kamalı",
+  "Erdem Tuna",
+  "Vahid Haratian",
+  "Eray Tüzün"
+ ],
+ "v1_date": "2026-05-17",
+ "latest_version": 2,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to ACM Transactions on Software Engineering Methodology (TOSEM). A shorter version of this work has been presented at ICSE-JAWs 2026, Rio de Janeiro, Brazil",
+ "abstract": "Code review has evolved for decades, from informal peer checking to today's pull request (PR) workflows, yet it remains a largely manual and cognitively demanding process. The rise of Artificial Intelligence (AI) coding assistants has intensified this challenge: while these tools increase code production velocity, they also expand the volume of code requiring review, turning code review into a growing bottleneck. Current AI support in code review remains fragmented, with tools focusing on isolated tasks such as reviewer recommendation, PR description generation, or comment suggestion rather than the end-to-end PR review workflow. We address this gap by treating review effectiveness as an outcome of the full code review lifecycle rather than a single stage, proposing a framework that carries context across stage boundaries. We propose a future vision for code review in which reviewers transition from manual inspectors into supervisory operators of agents. In this vision, staged, AI-powered workflows aim to align the pace of code generation with shared understanding and accountable engineering. In this paper, we review the historical evolution of code review practices, identify challenges in traditional code review systems, and examine the shift driven by large language models (LLMs) and agentic AI systems. We then present a vision for an AI-powered code review workflow combining specialized agents with human-controlled quality gates. Our framework spans five stages: PR Creation, PR Augmentation, Reviewer Selection, AI-Assisted Code Review, and PR Retrospective, with humans retained at key decision points to preserve judgment, accountability, and team-level understanding. Finally, we identify key adoption challenges and outline research directions for evaluation, governance, and responsible human-AI collaboration.",
+ "primary": "cs.SE"
+}

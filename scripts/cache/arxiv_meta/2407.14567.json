@@ -1,0 +1,21 @@
+{
+ "id": "2407.14567",
+ "title": "Integrating Artificial Intelligence into Operating Systems: A Survey on Techniques, Applications, and Future Directions",
+ "authors": [
+  "Yifan Zhang",
+  "Xinkui Zhao",
+  "Ziying Li",
+  "Guanjie Cheng",
+  "Jianwei Yin",
+  "Lufei Zhang",
+  "Zuoning Chen"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 3,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "68 pages,9 figures",
+ "abstract": "Heterogeneous hardware and dynamic workloads worsen long-standing OS bottlenecks in scalability, adaptability, and manageability. At the same time, advances in machine learning (ML), large language models (LLMs), and agent-based methods enable automation and self-optimization, but current efforts lack a unifying view. This survey reviews techniques, architectures, applications, challenges, and future directions at the AI-OS intersection. We chart the shift from heuristic- and rule-based designs to AI-enhanced systems, outlining the strengths of ML, LLMs, and agents across the OS stack. We summarize progress in AI for OS (core components and the wider ecosystem) and in OS for AI (component- and architecture-level support for short- and long-context inference, distributed training, and edge inference). For practice, we consolidate evaluation dimensions, methodological pipelines, and patterns that balance real-time constraints with predictive accuracy. We identify key challenges, such as complexity, overhead, model drift, limited explainability, and privacy and safety risks, and recommend modular, AI-ready kernel interfaces; unified toolchains and benchmarks; hybrid rules-plus-AI decisions with guardrails; and verifiable in-kernel inference. Finally, we propose a three-stage roadmap including AI-powered, AI-refactored, and AI-driven OSs, to bridge prototypes and production and to enable scalable, reliable AI deployment.",
+ "primary": "cs.OS"
+}

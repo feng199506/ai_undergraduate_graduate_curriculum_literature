@@ -1,0 +1,20 @@
+{
+ "id": "2503.14000",
+ "title": "Type-aware LLM-based Regression Test Generation for Python Programs",
+ "authors": [
+  "Runlin Liu",
+  "Zhe Zhang",
+  "Yunge Hu",
+  "Yuhang Lin",
+  "Xiang Gao",
+  "Hailong Sun"
+ ],
+ "v1_date": "2025-03-18",
+ "latest_version": 2,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automated regression test generation has been extensively explored, yet generating high-quality tests for Python programs remains particularly challenging. Because of the Python's dynamic typing features, existing approaches, ranging from search-based software testing (SBST) to recent LLM-driven techniques, are often prone to type errors. Hence, existing methods often generate invalid inputs and semantically inconsistent test cases, which ultimately undermine their practical effectiveness. To address these limitations, we present Test4Py, a novel framework that enhances type correctness in automated test generation for Python. Test4Py leverages the program's call graph to capture richer contextual information about parameters, and introduces a behavior-based type inference mechanism that accurately infers parameter types and construct valid test inputs. Beyond input construction, Test4Py integrates an iterative repair procedure that progressively refines generated test cases to improve coverage. In an evaluation on 183 real-world Python modules, Test4Py achieved an average statement coverage of 83.0% and branch coverage of 70.8%, outperforming state-of-the-art tools by 7.2% and 8.4%, respectively.",
+ "primary": "cs.SE"
+}

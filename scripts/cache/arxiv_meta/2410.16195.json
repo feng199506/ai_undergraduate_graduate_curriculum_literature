@@ -1,0 +1,16 @@
+{
+ "id": "2410.16195",
+ "title": "A Trust-Region Method for Graphical Stein Variational Inference",
+ "authors": [
+  "Liam Pavlovic",
+  "David M. Rosen"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 1,
+ "latest_date": "2024-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stein variational inference (SVI) is a sample-based approximate Bayesian inference technique that generates a sample set by jointly optimizing the samples' locations to minimize an information-theoretic measure of discrepancy with the target probability distribution. SVI thus provides a fast and significantly more sample-efficient approach to Bayesian inference than traditional (random-sampling-based) alternatives. However, the optimization techniques employed in existing SVI methods struggle to address problems in which the target distribution is high-dimensional, poorly-conditioned, or non-convex, which severely limits the range of their practical applicability. In this paper, we propose a novel trust-region optimization approach for SVI that successfully addresses each of these challenges. Our method builds upon prior work in SVI by leveraging conditional independences in the target distribution (to achieve high-dimensional scaling) and second-order information (to address poor conditioning), while additionally providing an effective adaptive step control procedure, which is essential for ensuring convergence on challenging non-convex optimization problems. Experimental results show our method achieves superior numerical performance, both in convergence rate and sample accuracy, and scales better in high-dimensional distributions, than previous SVI techniques.",
+ "primary": "cs.LG"
+}

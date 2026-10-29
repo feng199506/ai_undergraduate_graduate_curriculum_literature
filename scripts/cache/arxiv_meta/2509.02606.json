@@ -1,0 +1,19 @@
+{
+ "id": "2509.02606",
+ "title": "Lessons Learned from Deploying Adaptive Machine Learning Agents with Limited Data for Real-time Cell Culture Process Monitoring",
+ "authors": [
+  "Thanh Tung Khuat",
+  "Johnny Peng",
+  "Robert Bassett",
+  "Ellen Otte",
+  "Bogdan Gabrys"
+ ],
+ "v1_date": "2025-08-29",
+ "latest_version": 1,
+ "latest_date": "2025-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study explores the deployment of three machine learning (ML) approaches for real-time prediction of glucose, lactate, and ammonium concentrations in cell culture processes, using Raman spectroscopy as input features. The research addresses challenges associated with limited data availability and process variability, providing a comparative analysis of pretrained models, just-in-time learning (JITL), and online learning algorithms. Two industrial case studies are presented to evaluate the impact of varying bioprocess conditions on model performance. The findings highlight the specific conditions under which pretrained models demonstrate superior predictive accuracy and identify scenarios where JITL or online learning approaches are more effective for adaptive process monitoring. This study also highlights the critical importance of updating the deployed models/agents with the latest offline analytical measurements during bioreactor operations to maintain the model performance against the changes in cell growth behaviours and operating conditions throughout the bioreactor run. Additionally, the study confirms the usefulness of a simple mixture-of-experts framework in achieving enhanced accuracy and robustness for real-time predictions of metabolite concentrations based on Raman spectral data. These insights contribute to the development of robust strategies for the efficient deployment of ML models in dynamic and changing biomanufacturing environments.",
+ "primary": "q-bio.QM"
+}

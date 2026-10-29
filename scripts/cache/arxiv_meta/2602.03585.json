@@ -1,0 +1,17 @@
+{
+ "id": "2602.03585",
+ "title": "Causal Inference for the Effect of Code Coverage on Bug Introduction",
+ "authors": [
+  "Lukas Schulte",
+  "Gordon Fraser",
+  "Steffen Herbold"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Registered Report with Continuity Acceptance (CA) for submission to Empirical Software Engineering granted by RR-Committee of the MSR'26",
+ "abstract": "Context: Code coverage is widely used as a software quality assurance measure. However, its effect, and specifically the advisable dose, are disputed in both the research and engineering communities. Prior work reports only correlational associations, leaving results vulnerable to confounding factors. Objective: We aim to quantify the causal effect of code coverage (exposure) on bug introduction (outcome) in the context of mature JavaScript and TypeScript open source projects, addressing both the overall effect and its variance across coverage levels. Method: We construct a causal directed acyclic graph to identify confounders within the software engineering process, modeling key variables from the source code, issue- and review systems, and continuous integration. Using generalized propensity score adjustment, we will apply doubly robust regression-based causal inference for continuous exposure to a novel dataset of bug-introducing and non-bug-introducing changes. We estimate the average treatment effect and dose-response relationship to examine potential non-linear patterns (e.g., thresholds or diminishing returns) within the projects of our dataset.",
+ "primary": "cs.SE"
+}

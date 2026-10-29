@@ -1,0 +1,21 @@
+{
+ "id": "2405.20915",
+ "title": "Fast yet Safe: Early-Exiting with Risk Control",
+ "authors": [
+  "Metod Jazbec",
+  "Alexander Timans",
+  "Tin Hadži Veljković",
+  "Kaspar Sakmann",
+  "Dan Zhang",
+  "Christian A. Naesseth",
+  "Eric Nalisnick"
+ ],
+ "v1_date": "2024-05-31",
+ "latest_version": 2,
+ "latest_date": "2024-11-04",
+ "journal_ref": "Advances in Neural Information Processing Systems (NeurIPS) 2024",
+ "doi": "",
+ "comment": "27 pages, 13 figures, 4 tables (incl. appendix)",
+ "abstract": "Scaling machine learning models significantly improves their performance. However, such gains come at the cost of inference being slow and resource-intensive. Early-exit neural networks (EENNs) offer a promising solution: they accelerate inference by allowing intermediate layers to exit and produce a prediction early. Yet a fundamental issue with EENNs is how to determine when to exit without severely degrading performance. In other words, when is it 'safe' for an EENN to go 'fast'? To address this issue, we investigate how to adapt frameworks of risk control to EENNs. Risk control offers a distribution-free, post-hoc solution that tunes the EENN's exiting mechanism so that exits only occur when the output is of sufficient quality. We empirically validate our insights on a range of vision and language tasks, demonstrating that risk control can produce substantial computational savings, all the while preserving user-specified performance goals.",
+ "primary": "cs.LG"
+}

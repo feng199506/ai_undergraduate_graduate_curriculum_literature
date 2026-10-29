@@ -1,0 +1,18 @@
+{
+ "id": "2602.09065",
+ "title": "Enhanced Graph Transformer with Serialized Graph Tokens",
+ "authors": [
+  "Ruixiang Wang",
+  "Yuyang Hong",
+  "Shiming Xiang",
+  "Chunhong Pan"
+ ],
+ "v1_date": "2026-02-09",
+ "latest_version": 1,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICASSP 2026",
+ "abstract": "Transformers have demonstrated success in graph learning, particularly for node-level tasks. However, existing methods encounter an information bottleneck when generating graph-level representations. The prevalent single token paradigm fails to fully leverage the inherent strength of self-attention in encoding token sequences, and degenerates into a weighted sum of node signals. To address this issue, we design a novel serialized token paradigm to encapsulate global signals more effectively. Specifically, a graph serialization method is proposed to aggregate node signals into serialized graph tokens, with positional encoding being automatically involved. Then, stacked self-attention layers are applied to encode this token sequence and capture its internal dependencies. Our method can yield more expressive graph representations by modeling complex interactions among multiple graph tokens. Experimental results show that our method achieves state-of-the-art results on several graph-level benchmarks. Ablation studies verify the effectiveness of the proposed modules.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2410.11720",
+ "title": "ATTNChecker: Highly-Optimized Fault Tolerant Attention for Large Language Model Training",
+ "authors": [
+  "Yuhang Liang",
+  "Xinyi Li",
+  "Jie Ren",
+  "Ang Li",
+  "Bo Fang",
+  "Jieyang Chen"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 3,
+ "latest_date": "2025-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) have demonstrated remarkable performance in various natural language processing tasks. However, the training of these models is computationally intensive and susceptible to faults, particularly in the attention mechanism, which is a critical component of transformer-based LLMs. In this paper, we investigate the impact of faults on LLM training, focusing on INF, NaN, and near-INF values in the computation results with systematic fault injection experiments. We observe the propagation patterns of these errors, which can trigger non-trainable states in the model and disrupt training, forcing the procedure to load from checkpoints. To mitigate the impact of these faults, we propose ATTNChecker, the first Algorithm-Based Fault Tolerance (ABFT) technique tailored for the attention mechanism in LLMs. ATTNChecker is designed based on fault propagation patterns of LLM and incorporates performance optimization to adapt to both system reliability and model vulnerability while providing lightweight protection for fast LLM training. Evaluations on four LLMs show that ATTNChecker incurs on average 7% overhead on training while detecting and correcting all extreme errors. Compared with the state-of-the-art checkpoint/restore approach, ATTNChecker reduces recovery overhead by up to 49x.",
+ "primary": "cs.DC"
+}

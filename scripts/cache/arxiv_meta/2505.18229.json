@@ -1,0 +1,20 @@
+{
+ "id": "2505.18229",
+ "title": "BEDI: A Comprehensive Benchmark for Evaluating Embodied Agents on UAVs",
+ "authors": [
+  "Mingning Guo",
+  "Mengwei Wu",
+  "Jiarun He",
+  "Shaoxian Li",
+  "Haifeng Li",
+  "Chao Tao"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 2,
+ "latest_date": "2025-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the rapid advancement of low-altitude remote sensing and Vision-Language Models (VLMs), Embodied Agents based on Unmanned Aerial Vehicles (UAVs) have shown significant potential in autonomous tasks. However, current evaluation methods for UAV-Embodied Agents (UAV-EAs) remain constrained by the lack of standardized benchmarks, diverse testing scenarios and open system interfaces. To address these challenges, we propose BEDI (Benchmark for Embodied Drone Intelligence), a systematic and standardized benchmark designed for evaluating UAV-EAs. Specifically, we introduce a novel Dynamic Chain-of-Embodied-Task paradigm based on the perception-decision-action loop, which decomposes complex UAV tasks into standardized, measurable subtasks. Building on this paradigm, we design a unified evaluation framework encompassing six core sub-skills: semantic perception, spatial perception, motion control, tool utilization, task planning and action generation. Furthermore, we develop a hybrid testing platform that incorporates a wide range of both virtual and real-world scenarios, enabling a comprehensive evaluation of UAV-EAs across diverse contexts. The platform also offers open and standardized interfaces, allowing researchers to customize tasks and extend scenarios, thereby enhancing flexibility and scalability in the evaluation process. Finally, through empirical evaluations of several state-of-the-art (SOTA) VLMs, we reveal their limitations in embodied UAV tasks, underscoring the critical role of the BEDI benchmark in advancing embodied intelligence research and model optimization. By filling the gap in systematic and standardized evaluation within this field, BEDI facilitates objective model comparison and lays a robust foundation for future development in this field. Our benchmark is now publicly available at https://github.com/lostwolves/BEDI.",
+ "primary": "cs.RO"
+}

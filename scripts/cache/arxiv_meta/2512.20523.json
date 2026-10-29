@@ -1,0 +1,15 @@
+{
+ "id": "2512.20523",
+ "title": "ScoreMatchingRiesz: Score Matching for Debiased Machine Learning and Policy Path Estimation",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose ScoreMatchingRiesz, a family of Riesz representer estimators based on score matching. The Riesz representer is a key nuisance component in debiased machine learning, enabling $\\sqrt{n}$-consistent and asymptotically efficient estimation of causal and structural targets via Neyman-orthogonal scores. We formulate Riesz representer estimation as a score estimation problem. This perspective stabilizes representer estimation by allowing us to leverage denoising score matching and telescoping density ratio estimation. We also introduce the policy path, a parameter that captures how policy effects evolve under continuous treatments. We show that the policy path can be estimated via score matching by smoothly connecting average marginal effect (AME) and average policy effect (APE) estimation, which improves the interpretability of policy effects.",
+ "primary": "econ.EM"
+}

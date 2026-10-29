@@ -1,0 +1,16 @@
+{
+ "id": "2410.21702",
+ "title": "Minimax optimality of deep neural networks on dependent data via PAC-Bayes bounds",
+ "authors": [
+  "Pierre Alquier",
+  "William Kengne"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 2,
+ "latest_date": "2025-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In a groundbreaking work, Schmidt-Hieber (2020) proved the minimax optimality of deep neural networks with ReLu activation for least-square regression estimation over a large class of functions defined by composition. In this paper, we extend these results in many directions. First, we remove the i.i.d. assumption on the observations, to allow some time dependence. The observations are assumed to be a Markov chain with a non-null pseudo-spectral gap. Then, we study a more general class of machine learning problems, which includes least-square and logistic regression as special cases. Leveraging on PAC-Bayes oracle inequalities and a version of Bernstein inequality due to Paulin (2015), we derive upper bounds on the estimation risk for a generalized Bayesian estimator. In the case of least-square regression, this bound matches (up to a logarithmic factor) the lower bound of Schmidt-Hieber (2020). We establish a similar lower bound for classification with the logistic loss, and prove that the proposed DNN estimator is optimal in the minimax sense.",
+ "primary": "stat.ML"
+}

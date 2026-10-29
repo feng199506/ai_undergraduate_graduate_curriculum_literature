@@ -1,0 +1,18 @@
+{
+ "id": "2403.18072",
+ "title": "Goal-Oriented Bayesian Optimal Experimental Design for Nonlinear Models using Markov Chain Monte Carlo",
+ "authors": [
+  "Shijie Zhong",
+  "Wanggang Shen",
+  "Tommie Catanach",
+  "Xun Huan"
+ ],
+ "v1_date": "2024-03-26",
+ "latest_version": 2,
+ "latest_date": "2025-02-02",
+ "journal_ref": "SIAM/ASA Journal on Uncertainty Quantification 14 (2026) 19-47",
+ "doi": "10.1137/24m1649344",
+ "comment": "28 pages, 19 figures",
+ "abstract": "Optimal experimental design (OED) provides a systematic approach to quantify and maximize the value of experimental data. Under a Bayesian approach, conventional OED maximizes the expected information gain (EIG) on model parameters. However, we are often interested in not the parameters themselves, but predictive quantities of interest (QoIs) that depend on the parameters in a nonlinear manner. We present a computational framework of predictive goal-oriented OED (GO-OED) suitable for nonlinear observation and prediction models, which seeks the experimental design providing the greatest EIG on the QoIs. In particular, we propose a nested Monte Carlo estimator for the QoI EIG, featuring Markov chain Monte Carlo for posterior sampling and kernel density estimation for evaluating the posterior-predictive density and its Kullback-Leibler divergence from the prior-predictive. The GO-OED design is then found by maximizing the EIG over the design space using Bayesian optimization. We demonstrate the effectiveness of the overall nonlinear GO-OED method, and illustrate its differences versus conventional non-GO-OED, through various test problems and an application of sensor placement for source inversion in a convection-diffusion field.",
+ "primary": "stat.CO"
+}

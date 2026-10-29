@@ -1,0 +1,22 @@
+{
+ "id": "2606.26794",
+ "title": "ReasonCLIP-58M: Visually Grounded Commonsense Reasoning Supervision for CLIP",
+ "authors": [
+  "Sicheng Zhang",
+  "Muzammal Naseer",
+  "Binzhu Xie",
+  "Naufal Suryanto",
+  "Shi Qiu",
+  "Jamal Bentahar",
+  "Naveed Akhtar",
+  "Mubarak Shah"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 1,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ECCV2026",
+ "abstract": "CLIP and its variants are widely adopted visual backbones in multimodal systems, but their pretraining remains dominated by descriptive image-text alignment. As downstream applications increasingly demand visually grounded commonsense inference and compositional reasoning, it remains unclear whether CLIP-style encoders can support such reasoning without architectural changes. To address this, we present ReasonCLIP-58M, a continual pretraining framework that integrates large-scale reasoning supervision into CLIP-style models through our two-stage strategy, which progressively integrates reasoning signals while preserving descriptive alignment, followed by category-structured reasoning supervision. To support this framework, we construct two complementary datasets and a benchmark: ReasonLite-42M, with open-form, visually verifiable reasoning captions; ReasonPro-16M, with category-specific reasoning supervision; and RCLIP-Bench for diagnostic evaluation of visually grounded reasoning. We train a family of ReasonCLIP that improves visually grounded commonsense and compositional reasoning while also enhancing zero-shot retrieval performance. As a drop-in visual encoder for multimodal large language models such as LLaVA-NeXT, ReasonCLIP delivers consistent gains without additional inference cost, demonstrating that structured reasoning supervision enhances the expressive capacity of CLIP-style visual representations. All datasets, models, and training code are available at https://github.com/RISys-Lab/ReasonCLIP.",
+ "primary": "cs.CV"
+}

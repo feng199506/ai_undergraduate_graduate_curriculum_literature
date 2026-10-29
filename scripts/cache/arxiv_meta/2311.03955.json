@@ -1,0 +1,18 @@
+{
+ "id": "2311.03955",
+ "title": "Elastic Information Bottleneck",
+ "authors": [
+  "Yuyan Ni",
+  "Yanyan Lan",
+  "Ao Liu",
+  "Zhiming Ma"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 1,
+ "latest_date": "2023-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Information bottleneck is an information-theoretic principle of representation learning that aims to learn a maximally compressed representation that preserves as much information about labels as possible. Under this principle, two different methods have been proposed, i.e., information bottleneck (IB) and deterministic information bottleneck (DIB), and have gained significant progress in explaining the representation mechanisms of deep learning algorithms. However, these theoretical and empirical successes are only valid with the assumption that training and test data are drawn from the same distribution, which is clearly not satisfied in many real-world applications. In this paper, we study their generalization abilities within a transfer learning scenario, where the target error could be decomposed into three components, i.e., source empirical error, source generalization gap (SG), and representation discrepancy (RD). Comparing IB and DIB on these terms, we prove that DIB's SG bound is tighter than IB's while DIB's RD is larger than IB's. Therefore, it is difficult to tell which one is better. To balance the trade-off between SG and the RD, we propose an elastic information bottleneck (EIB) to interpolate between the IB and DIB regularizers, which guarantees a Pareto frontier within the IB framework. Additionally, simulations and real data experiments show that EIB has the ability to achieve better domain adaptation results than IB and DIB, which validates the correctness of our theories.",
+ "primary": "cs.IT"
+}

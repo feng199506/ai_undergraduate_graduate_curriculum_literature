@@ -1,0 +1,17 @@
+{
+ "id": "2605.25809",
+ "title": "A multilevel sketch-and-solve method for overdetermined least squares problems",
+ "authors": [
+  "Irina-Beatrice Haas",
+  "Michael B. Giles",
+  "Yuji Nakatsukasa"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 1,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 3 figures",
+ "abstract": "Sketch-and-solve (SAS) is a very successful method to efficiently estimate the solution of heavily overdetermined large linear least squares problems. It uses random sketching to reduce the size of the problem, hence reducing the computational cost. Several authors have shown that averaging several solutions from SAS further improves the accuracy, which is measured by the residual associated to the approximate solution. Going further, we combine solutions from sketch-and-solve in a multilevel manner, such that the approximate solution is a combination of SAS samples obtained from small sketches and more accurate correction terms obtained from larger sketches. We first consider the variance of the estimator, which depends on the variance of the coarse samples and the correction terms. We show that the variance of the correction terms on each level follows a trend and decreases faster than the variance of the simple SAS estimator. However, we then show that the overall computational cost of our multilevel framework is slightly higher than that of the simple average estimator, so a naive application of multilevel methods appears unattractive for least squares problems.",
+ "primary": "math.NA"
+}

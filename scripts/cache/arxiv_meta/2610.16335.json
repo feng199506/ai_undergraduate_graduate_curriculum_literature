@@ -1,0 +1,16 @@
+{
+ "id": "2610.16335",
+ "title": "Multiplicative Gradient Method for Log-Homogeneous Optimization: A Unified Mirror-Descent Framework",
+ "authors": [
+  "Chun-Neng Chu",
+  "Yen-Huan Li"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Consider the problems of computing $\\ell_p$-Lewis weights, Kelly portfolios, D-optimal designs, general equilibria in Fisher markets, and optimal error exponents for channel coding in information theory. All of them can be formulated as optimization problems over the probability simplex, but except for the last one, the associated objective functions are neither Lipschitz continuous nor smooth, rendering existing first-order optimization algorithms and their guarantees not directly applicable. Nevertheless, first-order algorithms for solving these problems do exist in the literature and, perhaps surprisingly, look very similar, even though their interpretations, derivations, and analyses mostly appear unrelated. In this paper, we develop a framework unifying these results that captures their common problem structure through log-homogeneity and a novel second-order condition on the objective function, and identifies their common algorithmic pattern as multiplicative gradient methods. The framework recovers known algorithms and their optimization error guarantees for computing Kelly portfolios, D-optimal designs, optimal error exponents for channel coding in classical communication, $\\ell_p$-Lewis weights with $p < 2$, and general equilibria in Fisher markets. To illustrate the insights provided by the framework, we further show that multiplicative gradient methods yield state-of-the-art performance guarantees for computing $\\ell_p$-Lewis weights with $p > 2$ and optimal error exponents in classical-quantum communication. Both results are novel to the best of our knowledge.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2512.20354",
+ "title": "A Tutorial to Multirate Extended Kalman Filter Design for Monitoring of Agricultural Anaerobic Digestion Plants",
+ "authors": [
+  "Simon Hellmann",
+  "Terrance Wilms",
+  "Stefan Streif",
+  "Soeren Weinrich"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 2,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "10.1016/j.jprocont.2026.103703",
+ "comment": "incorporated final review comments, version as published",
+ "abstract": "In many applications of biotechnology, measurements are available at different sampling rates, e.g., due to online sensors and offline lab analysis. Offline measurements typically involve time delays that may be unknown a priori due to the underlying laboratory procedures. This multirate (MR) setting poses a challenge to Kalman filtering, where conventionally measurement data is assumed to be available on an equidistant time grid and without delays. This tutorial paper derives the MR version of an extended Kalman filter (EKF) based on sample state augmentation, and applies it to the anaerobic digestion (AD) process in a simulative agricultural setting. The performance of the MR-EKF is investigated for various scenarios including varying delay lengths, measurement noise levels, plant-model mismatch (PMM), and initial state error. Provided with an adequate tuning, the MR-EKF can reliably estimate the process state and, thus, appropriately fuse the delayed offline measurements and smooth the noisy online measurements. Because of the sample state augmentation approach, the delay length of offline measurements does not critically effect the performance of the state estimation, provided that observability is not lost during the delays. Poor state initialization and PMM affect convergence more than measurement noise levels. Furthermore, selecting an appropriate tuning was found to be critically important for successful application of the MR-EKF for which a systematic approach is presented. This tutorial provides implementation guidance for practitioners seeking to successfully apply state estimation for multirate systems. Thus, it contributes to the development of demand-driven operation of biogas plants, which may aid in stabilizing a renewable electricity grid.",
+ "primary": "eess.SP"
+}

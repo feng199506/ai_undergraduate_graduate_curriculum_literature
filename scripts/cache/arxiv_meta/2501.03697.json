@@ -1,0 +1,17 @@
+{
+ "id": "2501.03697",
+ "title": "Deep Networks are Reproducing Kernel Chains",
+ "authors": [
+  "Tjeerd Jan Heeringa",
+  "Len Spek",
+  "Christoph Brune"
+ ],
+ "v1_date": "2025-01-07",
+ "latest_version": 1,
+ "latest_date": "2025-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 3 figures",
+ "abstract": "Identifying an appropriate function space for deep neural networks remains a key open question. While shallow neural networks are naturally associated with Reproducing Kernel Banach Spaces (RKBS), deep networks present unique challenges. In this work, we extend RKBS to chain RKBS (cRKBS), a new framework that composes kernels rather than functions, preserving the desirable properties of RKBS. We prove that any deep neural network function is a neural cRKBS function, and conversely, any neural cRKBS function defined on a finite dataset corresponds to a deep neural network. This approach provides a sparse solution to the empirical risk minimization problem, requiring no more than $N$ neurons per layer, where $N$ is the number of data points.",
+ "primary": "cs.LG"
+}

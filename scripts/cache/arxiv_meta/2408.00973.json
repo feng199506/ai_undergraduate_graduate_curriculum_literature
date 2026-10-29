@@ -1,0 +1,19 @@
+{
+ "id": "2408.00973",
+ "title": "META-ANOVA: Screening interactions for interpretable machine learning",
+ "authors": [
+  "Yongchan Choi",
+  "Seokhun Park",
+  "Chanmoo Park",
+  "Dongha Kim",
+  "Yongdai Kim"
+ ],
+ "v1_date": "2024-08-02",
+ "latest_version": 1,
+ "latest_date": "2024-08-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages",
+ "abstract": "There are two things to be considered when we evaluate predictive models. One is prediction accuracy,and the other is interpretability. Over the recent decades, many prediction models of high performance, such as ensemble-based models and deep neural networks, have been developed. However, these models are often too complex, making it difficult to intuitively interpret their predictions. This complexity in interpretation limits their use in many real-world fields that require accountability, such as medicine, finance, and college admissions. In this study, we develop a novel method called Meta-ANOVA to provide an interpretable model for any given prediction model. The basic idea of Meta-ANOVA is to transform a given black-box prediction model to the functional ANOVA model. A novel technical contribution of Meta-ANOVA is a procedure of screening out unnecessary interaction before transforming a given black-box model to the functional ANOVA model. This screening procedure allows the inclusion of higher order interactions in the transformed functional ANOVA model without computational difficulties. We prove that the screening procedure is asymptotically consistent. Through various experiments with synthetic and real-world datasets, we empirically demonstrate the superiority of Meta-ANOVA",
+ "primary": "stat.ML"
+}

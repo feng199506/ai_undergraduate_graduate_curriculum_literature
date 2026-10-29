@@ -1,0 +1,16 @@
+{
+ "id": "2406.10920",
+ "title": "Hamilton-Jacobi Based Policy-Iteration via Deep Operator Learning",
+ "authors": [
+  "Jae Yong Lee",
+  "Yeoneung Kim"
+ ],
+ "v1_date": "2024-06-16",
+ "latest_version": 1,
+ "latest_date": "2024-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 5 figures",
+ "abstract": "The framework of deep operator network (DeepONet) has been widely exploited thanks to its capability of solving high dimensional partial differential equations. In this paper, we incorporate DeepONet with a recently developed policy iteration scheme to numerically solve optimal control problems and the corresponding Hamilton--Jacobi--Bellman (HJB) equations. A notable feature of our approach is that once the neural network is trained, the solution to the optimal control problem and HJB equations with different terminal functions can be inferred quickly thanks to the unique feature of operator learning. Furthermore, a quantitative analysis of the accuracy of the algorithm is carried out via comparison principles of viscosity solutions. The effectiveness of the method is verified with various examples, including 10-dimensional linear quadratic regulator problems (LQRs).",
+ "primary": "math.OC"
+}

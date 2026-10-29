@@ -1,0 +1,18 @@
+{
+ "id": "2605.19775",
+ "title": "Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles",
+ "authors": [
+  "Moiz Arif",
+  "Avinash Maurya",
+  "Sudharshan Vazhkudai",
+  "Bogdan Nicolae"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 1,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "10.1109/isca66397.2026.00084",
+ "comment": "ISCA'26: The 53rd International Symposium on Computer Architecture, Industry Track",
+ "abstract": "The transition from standard generative AI to \\emph{reasoning-centric architectures}, exemplified by models capable of extensive Chain-of-Thought~(CoT) processing, marks a fundamental paradigm shift in system requirements. Unlike traditional workloads dominated by compute-bound prefill, reasoning workloads generate long chains of reasoning tokens that shift inference into a \\emph{Capacity-Bound regime}. This paper presents a comprehensive system characterization, evaluating models ranging from 8B to 671B parameters on GPUs clusters. By systematically exploring the interplay between Data, Tensor, and Pipeline parallelism, we identify critical bottlenecks that defy standard scaling heuristics. Our analysis reveals that data parallelism is throughput efficient for small models but hits a capacity trap on reasoning workloads as KV-cache fragmentation forces early throttling resulting in sub-optimal compute utilization. Tensor parallelism unlocks stranded memory and delivers sublinear gains near the 32B crossover. At frontier scale, dense models (e.g., Llama-405B) are interconnect and memory-bandwidth bound and favor high-degree TP, while sparse Mixture-of-Experts (MoE) models (e.g., DeepSeek-R1) are limited by routing and synchronization latency and benefit from hybrid strategies. These insights provide a rigorous decision framework for navigating the reasoning cliff, establishing new architectural imperatives for the next generation of inference infrastructure.",
+ "primary": "cs.DC"
+}

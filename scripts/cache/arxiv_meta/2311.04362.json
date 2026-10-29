@@ -1,0 +1,15 @@
+{
+ "id": "2311.04362",
+ "title": "Fast and forward stable randomized algorithms for linear least-squares problems",
+ "authors": [
+  "Ethan N. Epperly"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 2,
+ "latest_date": "2024-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 8 figures. v2: Added example of iterative sketching for sparse least-squares problems",
+ "abstract": "Iterative sketching and sketch-and-precondition are randomized algorithms used for solving overdetermined linear least-squares problems. When implemented in exact arithmetic, these algorithms produce high-accuracy solutions to least-squares problems faster than standard direct methods based on QR factorization. Recently, Meier, Nakatsukasa, Townsend, and Webb demonstrated numerical instabilities in a version of sketch-and-precondition in floating point arithmetic (arXiv:2302.07202). The work of Meier et al. raises the question: Is there a randomized least-squares solver that is both fast and stable? This paper resolves this question in the affirmative by proving that iterative sketching, appropriately implemented, is forward stable. Numerical experiments confirm the theoretical findings, demonstrating that iterative sketching is stable and faster than QR-based solvers for large problem instances.",
+ "primary": "math.NA"
+}

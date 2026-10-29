@@ -1,0 +1,17 @@
+{
+ "id": "2402.07762",
+ "title": "Scalable Structure Learning for Sparse Context-Specific Systems",
+ "authors": [
+  "Felix Leopoldo Rios",
+  "Alex Markham",
+  "Liam Solus"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 2,
+ "latest_date": "2024-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 6 figures; for associated code, see https://cstrees.readthedocs.io",
+ "abstract": "Several approaches to graphically representing context-specific relations among jointly distributed categorical variables have been proposed, along with structure learning algorithms. While existing optimization-based methods have limited scalability due to the large number of context-specific models, the constraint-based methods are more prone to error than even constraint-based directed acyclic graph learning algorithms since more relations must be tested. We present an algorithm for learning context-specific models that scales to hundreds of variables. Scalable learning is achieved through a combination of an order-based Markov chain Monte-Carlo search and a novel, context-specific sparsity assumption that is analogous to those typically invoked for directed acyclic graphical models. Unlike previous Markov chain Monte-Carlo search methods, our Markov chain is guaranteed to have the true posterior of the variable orderings as the stationary distribution. To implement the method, we solve a first case of an open problem recently posed by Alon and Balogh. Future work solving increasingly general instances of this problem would allow our methods to learn increasingly dense models. The method is shown to perform well on synthetic data and real world examples, in terms of both accuracy and scalability.",
+ "primary": "stat.ML"
+}

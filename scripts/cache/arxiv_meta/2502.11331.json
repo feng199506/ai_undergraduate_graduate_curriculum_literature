@@ -1,0 +1,18 @@
+{
+ "id": "2502.11331",
+ "title": "Transfer Learning of CATE with Kernel Ridge Regression",
+ "authors": [
+  "Seok-Jin Kim",
+  "Hongjie Liu",
+  "Molei Liu",
+  "Kaizheng Wang"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 4,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The proliferation of data has sparked significant interest in leveraging findings from one study to estimate treatment effects in a different target population without direct outcome observations. However, the transfer learning process is frequently hindered by substantial covariate shift and limited overlap between (i) the source and target populations, as well as (ii) the treatment and control groups within the source. We propose a novel method for overlap-adaptive transfer learning of conditional average treatment effect (CATE) using kernel ridge regression (KRR). Our approach involves partitioning the labeled source data into two subsets. The first one is used to train candidate CATE models based on regression adjustment and pseudo-outcomes. An optimal model is then selected using the second subset and unlabeled target data, employing another pseudo-outcome-based strategy. We provide a theoretical justification for our method through sharp non-asymptotic MSE bounds, highlighting its adaptivity to both weak overlaps and the complexity of the CATE function. Extensive numerical studies confirm that our method achieves superior finite-sample efficiency and adaptability. We conclude by demonstrating the effectiveness and superiority of our approach on two real-world datasets.",
+ "primary": "stat.ME"
+}

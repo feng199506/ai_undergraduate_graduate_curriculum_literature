@@ -1,0 +1,20 @@
+{
+ "id": "2602.11719",
+ "title": "Uncertainty-aware Generative Recommendation",
+ "authors": [
+  "Chenxiao Fan",
+  "Chongming Gao",
+  "Yaxin Gong",
+  "Haoyan Liu",
+  "Fuli Feng",
+  "Xiangnan He"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 2,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by KDD 2026",
+ "abstract": "Generative Recommendation has emerged as a transformative paradigm, reformulating recommendation as an end-to-end autoregressive sequence generation task. Despite its promise, existing preference optimization methods typically rely on binary outcome correctness, suffering from a systemic limitation we term uncertainty blindness. This issue manifests in the neglect of the model's intrinsic generation confidence, the variation in sample learning difficulty, and the lack of explicit confidence expression, directly leading to unstable training dynamics and unquantifiable decision risks. In this paper, we propose Uncertainty-aware Generative Recommendation (UGR), a unified framework that leverages uncertainty as a critical signal for adaptive optimization. UGR synergizes three mechanisms: (1) an uncertainty-weighted reward to penalize confident errors; (2) difficulty-aware optimization dynamics to prevent premature convergence; and (3) explicit confidence alignment to empower the model with confidence expression capabilities. Extensive experiments demonstrate that UGR not only yields superior recommendation performance but also fundamentally stabilizes training, preventing the performance degradation often observed in standard methods. Furthermore, the learned confidence enables reliable downstream risk-aware applications. Our project repository is available at: https://github.com/cxfann/UGR.",
+ "primary": "cs.IR"
+}

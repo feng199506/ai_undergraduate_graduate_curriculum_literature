@@ -1,0 +1,17 @@
+{
+ "id": "2408.14307",
+ "title": "LLM-3D Print: Large Language Models To Monitor and Control 3D Printing",
+ "authors": [
+  "Yayati Jadhav",
+  "Peter Pak",
+  "Amir Barati Farimani"
+ ],
+ "v1_date": "2024-08-26",
+ "latest_version": 3,
+ "latest_date": "2025-09-27",
+ "journal_ref": "Additive Manufacturing, Vol. 114, September 2025, Article 105027",
+ "doi": "10.1016/j.addma.2025.105027",
+ "comment": "",
+ "abstract": "Industry 4.0 has revolutionized manufacturing by driving digitalization and shifting the paradigm toward additive manufacturing (AM). Fused Deposition Modeling (FDM), a key AM technology, enables the creation of highly customized, cost-effective products with minimal material waste through layer-by-layer extrusion, posing a significant challenge to traditional subtractive methods. However, the susceptibility of material extrusion techniques to errors often requires expert intervention to detect and mitigate defects that can severely compromise product quality. While automated error detection and machine learning models exist, their generalizability across diverse 3D printer setups, firmware, and sensors is limited, and deep learning methods require extensive labeled datasets, hindering scalability and adaptability. To address these challenges, we present a process monitoring and control framework that leverages pre-trained Large Language Models (LLMs) alongside 3D printers to detect and address printing defects. The LLM evaluates print quality by analyzing images captured after each layer or print segment, identifying failure modes and querying the printer for relevant parameters. It then generates and executes a corrective action plan. We validated the effectiveness of the proposed framework in identifying defects by comparing it against a control group of engineers with diverse AM expertise. Our evaluation demonstrated that LLM-based agents not only accurately identify common 3D printing errors, such as inconsistent extrusion, stringing, warping, and layer adhesion, but also effectively determine the parameters causing these failures and autonomously correct them without any need for human intervention.",
+ "primary": "cs.CL"
+}

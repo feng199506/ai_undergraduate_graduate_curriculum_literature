@@ -1,0 +1,19 @@
+{
+ "id": "2409.17085",
+ "title": "Parameter-efficient Bayesian Neural Networks for Uncertainty-aware Depth Estimation",
+ "authors": [
+  "Richard D. Paul",
+  "Alessio Quercia",
+  "Vincent Fortuin",
+  "Katharina Nöh",
+  "Hanno Scharr"
+ ],
+ "v1_date": "2024-09-25",
+ "latest_version": 1,
+ "latest_date": "2024-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Presented at UnCV Workshop at ECCV'24",
+ "abstract": "State-of-the-art computer vision tasks, like monocular depth estimation (MDE), rely heavily on large, modern Transformer-based architectures. However, their application in safety-critical domains demands reliable predictive performance and uncertainty quantification. While Bayesian neural networks provide a conceptually simple approach to serve those requirements, they suffer from the high dimensionality of the parameter space. Parameter-efficient fine-tuning (PEFT) methods, in particular low-rank adaptations (LoRA), have emerged as a popular strategy for adapting large-scale models to down-stream tasks by performing parameter inference on lower-dimensional subspaces. In this work, we investigate the suitability of PEFT methods for subspace Bayesian inference in large-scale Transformer-based vision models. We show that, indeed, combining BitFit, DiffFit, LoRA, and CoLoRA, a novel LoRA-inspired PEFT method, with Bayesian inference enables more robust and reliable predictive performance in MDE.",
+ "primary": "cs.CV"
+}

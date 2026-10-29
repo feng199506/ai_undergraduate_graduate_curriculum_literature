@@ -1,0 +1,16 @@
+{
+ "id": "2607.03860",
+ "title": "A Unified Framework for Quantized and Continuous Strong Lottery Tickets",
+ "authors": [
+  "Aakash Kumar",
+  "Emanuele Natale"
+ ],
+ "v1_date": "2026-07-04",
+ "latest_version": 1,
+ "latest_date": "2026-07-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Strong Lottery Ticket Hypothesis (SLTH) asserts that sufficiently overparameterized, randomly initialized neural networks contain sparse subnetworks that, even without any training, can match the performance of a small trained network on a given dataset. A key mathematical tool in the theoretical study of SLTH has been the Random Subset Sum Problem (RSSP). The SLTH has recently been extended to the quantized setting, where the network weights are sampled from a discrete set rather than from a continuous interval. These new results are however far from those in arbitrary-precision setting in several ways. In this work, we provide an analysis of the RSSP in the discrete setting, and use it to derive tight SLTH guarantees in the quantized case. Our analysis obtain tight bounds on the failure probability of finding a strong lottery ticket in the quantized regime, providing an exponential improvement over previous results. Most importantly, it unifies the literature by showing that both approximate representations in the continuous setting and exact representations in quantized settings naturally emerge as limiting cases of our results. This perspective not only sharpens existing bounds but also provides a cohesive framework that simultaneously handles approximation and rounding errors.",
+ "primary": "cs.LG"
+}

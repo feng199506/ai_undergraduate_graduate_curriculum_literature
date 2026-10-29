@@ -1,0 +1,16 @@
+{
+ "id": "2509.25592",
+ "title": "Machine Learning Algorithms for Improving Black Box Optimization Solvers",
+ "authors": [
+  "Morteza Kimiaei",
+  "Vyacheslav Kungurtsev"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 1,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "74 pages",
+ "abstract": "Black-box optimization (BBO) addresses problems where objectives are accessible only through costly queries without gradients or explicit structure. Classical derivative-free methods -- line search, direct search, and model-based solvers such as Bayesian optimization -- form the backbone of BBO, yet often struggle in high-dimensional, noisy, or mixed-integer settings. Recent advances use machine learning (ML) and reinforcement learning (RL) to enhance BBO: ML provides expressive surrogates, adaptive updates, meta-learning portfolios, and generative models, while RL enables dynamic operator configuration, robustness, and meta-optimization across tasks. This paper surveys these developments, covering representative algorithms such as NNs with the modular model-based optimization framework (mlrMBO), zeroth-order adaptive momentum methods (ZO-AdaMM), automated BBO (ABBO), distributed block-wise optimization (DiBB), partition-based Bayesian optimization (SPBOpt), the transformer-based optimizer (B2Opt), diffusion-model-based BBO, surrogate-assisted RL for differential evolution (Surr-RLDE), robust BBO (RBO), coordinate-ascent model-based optimization with relative entropy (CAS-MORE), log-barrier stochastic gradient descent (LB-SGD), policy improvement with black-box (PIBB), and offline Q-learning with Mamba backbones (Q-Mamba). We also review benchmark efforts such as the NeurIPS 2020 BBO Challenge and the MetaBox framework. Overall, we highlight how ML and RL transform classical inexact solvers into more scalable, robust, and adaptive frameworks for real-world optimization.",
+ "primary": "cs.LG"
+}

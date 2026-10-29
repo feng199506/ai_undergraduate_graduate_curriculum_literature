@@ -1,0 +1,15 @@
+{
+ "id": "2406.13371",
+ "title": "Identifiable Causal Representation Learning: Unsupervised, Multi-View, and Multi-Environment",
+ "authors": [
+  "Julius von Kügelgen"
+ ],
+ "v1_date": "2024-06-19",
+ "latest_version": 1,
+ "latest_date": "2024-06-19",
+ "journal_ref": "University of Cambridge, 2024",
+ "doi": "10.17863/cam.106852",
+ "comment": "PhD Thesis; 190 pages, 33 figures, 6 tables",
+ "abstract": "Causal models provide rich descriptions of complex systems as sets of mechanisms by which each variable is influenced by its direct causes. They support reasoning about manipulating parts of the system and thus hold promise for addressing some of the open challenges of artificial intelligence (AI), such as planning, transferring knowledge in changing environments, or robustness to distribution shifts. However, a key obstacle to more widespread use of causal models in AI is the requirement that the relevant variables be specified a priori, which is typically not the case for the high-dimensional, unstructured data processed by modern AI systems. At the same time, machine learning (ML) has proven quite successful at automatically extracting useful and compact representations of such complex data. Causal representation learning (CRL) aims to combine the core strengths of ML and causality by learning representations in the form of latent variables endowed with causal model semantics. In this thesis, we study and present new results for different CRL settings. A central theme is the question of identifiability: Given infinite data, when are representations satisfying the same learning objective guaranteed to be equivalent? This is an important prerequisite for CRL, as it formally characterises if and when a learning task is, at least in principle, feasible. Since learning causal models, even without a representation learning component, is notoriously difficult, we require additional assumptions on the model class or rich data beyond the classical i.i.d. setting. By partially characterising identifiability for different settings, this thesis investigates what is possible for CRL without direct supervision, and thus contributes to its theoretical foundations. Ideally, the developed insights can help inform data collection practices or inspire the design of new practical estimation methods.",
+ "primary": "cs.LG"
+}

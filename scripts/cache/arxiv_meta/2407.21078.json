@@ -1,0 +1,16 @@
+{
+ "id": "2407.21078",
+ "title": "Convergence rates for the Adam optimizer",
+ "authors": [
+  "Steffen Dereich",
+  "Arnulf Jentzen"
+ ],
+ "v1_date": "2024-07-29",
+ "latest_version": 1,
+ "latest_date": "2024-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic gradient descent (SGD) optimization methods are nowadays the method of choice for the training of deep neural networks (DNNs) in artificial intelligence systems. In practically relevant training problems, usually not the plain vanilla standard SGD method is the employed optimization scheme but instead suitably accelerated and adaptive SGD optimization methods are applied. As of today, maybe the most popular variant of such accelerated and adaptive SGD optimization methods is the famous Adam optimizer proposed by Kingma & Ba in 2014. Despite the popularity of the Adam optimizer in implementations, it remained an open problem of research to provide a convergence analysis for the Adam optimizer even in the situation of simple quadratic stochastic optimization problems where the objective function (the function one intends to minimize) is strongly convex. In this work we solve this problem by establishing optimal convergence rates for the Adam optimizer for a large class of stochastic optimization problems, in particular, covering simple quadratic stochastic optimization problems. The key ingredient of our convergence analysis is a new vector field function which we propose to refer to as the Adam vector field. This Adam vector field accurately describes the macroscopic behaviour of the Adam optimization process but differs from the negative gradient of the objective function (the function we intend to minimize) of the considered stochastic optimization problem. In particular, our convergence analysis reveals that the Adam optimizer does typically not converge to critical points of the objective function (zeros of the gradient of the objective function) of the considered optimization problem but converges with rates to zeros of this Adam vector field.",
+ "primary": "math.OC"
+}

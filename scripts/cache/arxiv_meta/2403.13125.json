@@ -1,0 +1,17 @@
+{
+ "id": "2403.13125",
+ "title": "Probabilistic Circuits with Constraints via Convex Optimization",
+ "authors": [
+  "Soroush Ghandi",
+  "Benjamin Quost",
+  "Cassio de Campos"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 1,
+ "latest_date": "2024-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work addresses integrating probabilistic propositional logic constraints into the distribution encoded by a probabilistic circuit (PC). PCs are a class of tractable models that allow efficient computations (such as conditional and marginal probabilities) while achieving state-of-the-art performance in some domains. The proposed approach takes both a PC and constraints as inputs, and outputs a new PC that satisfies the constraints. This is done efficiently via convex optimization without the need to retrain the entire model. Empirical evaluations indicate that the combination of constraints and PCs can have multiple use cases, including the improvement of model performance under scarce or incomplete data, as well as the enforcement of machine learning fairness measures into the model without compromising model fitness. We believe that these ideas will open possibilities for multiple other applications involving the combination of logics and deep probabilistic models.",
+ "primary": "cs.LG"
+}

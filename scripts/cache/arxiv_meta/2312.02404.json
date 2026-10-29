@@ -1,0 +1,19 @@
+{
+ "id": "2312.02404",
+ "title": "Nonparametric Bayesian Adjustment of Unmeasured Confounders in Cox Proportional Hazards Models",
+ "authors": [
+  "Shunichiro Orihara",
+  "Shonosuke Sugasawa",
+  "Tomohiro Ohigashi",
+  "Tomoyuki Nakagawa",
+  "Masataka Taguri"
+ ],
+ "v1_date": "2023-12-05",
+ "latest_version": 4,
+ "latest_date": "2024-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "general Bayes, invalid instrumental variable, Mendelian randomization, UK Biobank, weak instrumental variable",
+ "abstract": "In observational studies, unmeasured confounders present a crucial challenge in accurately estimating desired causal effects. To calculate the hazard ratio (HR) in Cox proportional hazard models for time-to-event outcomes, two-stage residual inclusion and limited information maximum likelihood are typically employed. However, these methods are known to entail difficulty in terms of potential bias of HR estimates and parameter identification. This study introduces a novel nonparametric Bayesian method designed to estimate an unbiased HR, addressing concerns that previous research methods have had. Our proposed method consists of two phases: 1) detecting clusters based on the likelihood of the exposure and outcome variables, and 2) estimating the hazard ratio within each cluster. Although it is implicitly assumed that unmeasured confounders affect outcomes through cluster effects, our algorithm is well-suited for such data structures. The proposed Bayesian estimator has good performance compared with some competitors.",
+ "primary": "stat.ME"
+}

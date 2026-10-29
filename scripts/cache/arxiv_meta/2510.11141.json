@@ -1,0 +1,17 @@
+{
+ "id": "2510.11141",
+ "title": "A Comprehensive Forecasting-Based Framework for Time Series Anomaly Detection: Benchmarking on the Numenta Anomaly Benchmark (NAB)",
+ "authors": [
+  "Mohammad Karami",
+  "Mostafa Jalali",
+  "Fatemeh Ghassemi"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 1,
+ "latest_date": "2025-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time series anomaly detection is critical for modern digital infrastructures, yet existing methods lack systematic cross-domain evaluation. We present a comprehensive forecasting-based framework unifying classical methods (Holt-Winters, SARIMA) with deep learning architectures (LSTM, Informer) under a common residual-based detection interface. Our modular pipeline integrates preprocessing (normalization, STL decomposition), four forecasting models, four detection methods, and dual evaluation through forecasting metrics (MAE, RMSE, PCC) and detection metrics (Precision, Recall, F1, AUC). We conduct the first complete evaluation on the Numenta Anomaly Benchmark (58 datasets, 7 categories) with 232 model training runs and 464 detection evaluations achieving 100\\% success rate. LSTM achieves best performance (F1: 0.688, ranking first or second on 81\\% of datasets) with exceptional correlation on complex patterns (PCC: 0.999). Informer provides competitive accuracy (F1: 0.683) with 30\\% faster training. Classical methods achieve perfect predictions on simple synthetic data with 60 lower cost but show 2-3 worse F1-scores on real-world datasets. Forecasting quality dominates detection performance: differences between detection methods (F1: 0.621-0.688) are smaller than between forecasting models (F1: 0.344-0.688). Our findings provide evidence-based guidance: use LSTM for complex patterns, Informer for efficiency-critical deployments, and classical methods for simple periodic data with resource constraints. The complete implementation and results establish baselines for future forecasting-based anomaly detection research.",
+ "primary": "cs.LG"
+}

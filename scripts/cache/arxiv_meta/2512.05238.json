@@ -1,0 +1,18 @@
+{
+ "id": "2512.05238",
+ "title": "Edged Weisfeiler-Lehman Algorithm",
+ "authors": [
+  "Xiao Yue",
+  "Bo Liu",
+  "Feng Zhang",
+  "Guangzhi Qu"
+ ],
+ "v1_date": "2025-12-04",
+ "latest_version": 1,
+ "latest_date": "2025-12-04",
+ "journal_ref": "ICANN 2024, LNCS 15020, pp. 93-109, Springer, 2024",
+ "doi": "10.1007/978-3-031-72344-5_7",
+ "comment": "Author's Accepted Manuscript (AAM) of ICANN 2024 paper published in LNCS (Springer). Final version available at: https://link.springer.com/chapter/10.1007/978-3-031-72344-5_7",
+ "abstract": "As a classical approach on graph learning, the propagation-aggregation methodology is widely exploited by many of Graph Neural Networks (GNNs), wherein the representation of a node is updated by aggregating representations from itself and neighbor nodes recursively. Similar to the propagation-aggregation methodology, the Weisfeiler-Lehman (1-WL) algorithm tests isomorphism through color refinement according to color representations of a node and its neighbor nodes. However, 1-WL does not leverage any edge features (labels), presenting a potential improvement on exploiting edge features in some fields. To address this limitation, we proposed a novel Edged-WL algorithm (E-WL) which extends the original 1-WL algorithm to incorporate edge features. Building upon the E-WL algorithm, we also introduce an Edged Graph Isomorphism Network (EGIN) model for further exploiting edge features, which addresses one key drawback in many GNNs that do not utilize any edge features of graph data. We evaluated the performance of proposed models using 12 edge-featured benchmark graph datasets and compared them with some state-of-the-art baseline models. Experimental results indicate that our proposed EGIN models, in general, demonstrate superior performance in graph learning on graph classification tasks.",
+ "primary": "cs.LG"
+}

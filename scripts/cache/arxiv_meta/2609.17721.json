@@ -1,0 +1,21 @@
+{
+ "id": "2609.17721",
+ "title": "Decoding Extrahepatic Targeting of Lipid Nanoparticles with Interpretable Machine Learning",
+ "authors": [
+  "Asal Mehradfar",
+  "Mohammad Shahab Sepehri",
+  "Owen Antholine",
+  "Varun Shankar",
+  "Glen S. Kwon",
+  "Salman Avestimehr",
+  "Morteza Rasoulianboroujeni"
+ ],
+ "v1_date": "2026-09-15",
+ "latest_version": 1,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Lipid nanoparticles (LNPs) have transformed RNA medicine, yet their clinical utility remains constrained by predominant hepatic accumulation after systemic administration. Redirecting LNPs to extrahepatic tissues requires understanding of how lipid chemistry and formulation composition jointly govern in vivo biodistribution. Here, we develop an interpretable machine learning framework to predict hepatic versus extrahepatic LNP accumulation and identify molecular design rules for extrahepatic RNA delivery. A literature-derived dataset of 476 intravenous LNP formulations was curated from 81 studies, integrating formulation composition, lipid chemical structures, and IVIS-based biodistribution profiles. Standardized SMILES representations of ionizable lipids, helper lipids, sterols, PEGylated or polymer-conjugated lipids, additional lipids, and polymer repeat units were converted into RDKit Expert descriptors and combined with formulation-level variables to generate an 808-dimensional feature representation. Logistic regression, random forest, and XGBoost achieved ROC-AUC values of 0.839, 0.866, and 0.874, respectively. SHAP-based interpretation and consensus feature ranking revealed that ionizable-lipid descriptors dominate biodistribution prediction, while formulation composition, particularly ionizable lipid, sterol, and PEGylated/polymer-conjugated lipid fractions, contributes substantially. The top 20 consensus features retained nearly all predictive information in tree-based models. The most informative features implicated electrotopological surface properties, charge- and hydrophobicity-weighted surface areas, molecular topology, and amide/alkyl structural motifs as drivers of extrahepatic accumulation. This study establishes an interpretable, data-driven strategy for decoding LNP biodistribution and provides actionable design principles for engineering LNPs beyond the liver.",
+ "primary": "q-bio.QM"
+}

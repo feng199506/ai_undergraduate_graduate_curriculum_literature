@@ -1,0 +1,26 @@
+{
+ "id": "2502.17100",
+ "title": "Generative Models in Decision Making: A Survey",
+ "authors": [
+  "Xinyu Shao",
+  "Jianping Zhang",
+  "Haozhi Wang",
+  "Leo Maxime Brunswic",
+  "Kaiwen Zhou",
+  "Jiqian Dong",
+  "Kaiyang Guo",
+  "Zhitang Chen",
+  "Jun Wang",
+  "Jianye Hao",
+  "Xiu Li",
+  "Yinchuan Li"
+ ],
+ "v1_date": "2025-02-24",
+ "latest_version": 4,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Project page:https://github.com/xyshao23/Awesome-Generative-Models-for-Decision-Making-Taxonomy",
+ "abstract": "Generative models have fundamentally reshaped the landscape of decision-making, reframing the problem from pure scalar reward maximization to high-fidelity trajectory generation and distribution matching. This paradigm shift addresses intrinsic limitations in classical Reinforcement Learning (RL), particularly the limited expressivity of standard unimodal policy distributions in capturing complex, multi-modal behaviors embedded in diverse datasets. However, current literature often treats these models as isolated algorithmic improvements, rarely synthesizing them into a single comprehensive framework. This survey proposes a principled taxonomy grounding generative decision-making within the probabilistic framework of Control as Inference. By performing a variational factorization of the trajectory posterior, we conceptualize four distinct functional roles: Controllers for amortized policy inference, Modelers for dynamics priors, Optimizers for iterative trajectory refinement, and Evaluators for trajectory guidance and value assessment. Unlike existing architecture-centric reviews, this function-centric framework allows us to critically analyze representative generative families across distinct dimensions. Furthermore, we examine deployment in high-stakes domains, specifically Embodied AI, Autonomous Driving, and AI for Science, highlighting systemic risks such as dynamics hallucination in world models and proxy exploitation. Finally, we chart the path toward Generalist Physical Intelligence, identifying pivotal challenges in inference efficiency, trustworthiness, and the emergence of Physical Foundation Models.",
+ "primary": "cs.LG"
+}

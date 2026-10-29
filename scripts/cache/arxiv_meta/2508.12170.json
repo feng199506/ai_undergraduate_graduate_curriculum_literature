@@ -1,0 +1,15 @@
+{
+ "id": "2508.12170",
+ "title": "Energy Efficiency in Robotics Software: A Systematic Literature Review (2020-2024)",
+ "authors": [
+  "Aryan Gupta"
+ ],
+ "v1_date": "2025-08-16",
+ "latest_version": 1,
+ "latest_date": "2025-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study presents a systematic literature review of software-level approaches to energy efficiency in robotics published from 2020 through 2024, updating and extending pre-2020 evidence. An automated-but-audited pipeline combined Google Scholar seeding, backward/forward snowballing, and large-language-model (LLM) assistance for screening and data extraction, with ~10% human audits at each automated step and consensus-with-tie-breaks for full-text decisions. The final corpus comprises 79 peer-reviewed studies analyzed across application domain, metrics, evaluation type, energy models, major energy consumers, software technique families, and energy-quality trade-offs. Industrial settings dominate (31.6%) followed by exploration (25.3%). Motors/actuators are identified as the primary consumer in 68.4% of studies, with computing/controllers a distant second (13.9%). Simulation-only evaluations remain most common (51.9%), though hybrid evaluations are frequent (25.3%). Representational (physics-grounded) energy models predominate (87.3%). Motion and trajectory optimization is the leading technique family (69.6%), often paired with learning/prediction (40.5%) and computation allocation/scheduling (26.6%); power management/idle control (11.4%) and communication/data efficiency (3.8%) are comparatively underexplored. Reporting is heterogeneous: composite objectives that include energy are most common, while task-normalized and performance-per-energy metrics appear less often, limiting cross-paper comparability. The review offers a minimal reporting checklist (e.g., total energy and average power plus a task-normalized metric and clear baselines) and highlights opportunities in cross-layer designs and in quantifying non-performance trade-offs (accuracy, stability). A replication package with code, prompts, and frozen datasets accompanies the review.",
+ "primary": "cs.RO"
+}

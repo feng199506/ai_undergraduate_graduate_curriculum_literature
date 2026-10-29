@@ -1,0 +1,17 @@
+{
+ "id": "2609.06314",
+ "title": "A review of weakly enforced Dirichlet boundary conditions in computational flow analysis",
+ "authors": [
+  "Ming-Chen Hsu",
+  "Monu Jaiswal",
+  "Yuri Bazilevs"
+ ],
+ "v1_date": "2026-09-06",
+ "latest_version": 1,
+ "latest_date": "2026-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Strongly enforced Dirichlet boundary conditions require highly refined near-wall meshes to resolve steep velocity and thermal gradients. This introduces high computational costs, especially for practical flow simulations. Weakly enforced boundary conditions alleviate this burden by acting as a variationally consistent near-wall model. By allowing a controlled slip at the solid wall, weak enforcement recovers accurate flow quantities on coarse boundary-layer meshes across both incompressible and compressible regimes. Furthermore, weak boundary conditions serve as the fundamental enabling technology for immersogeometric analysis. Because the weak operator evaluates boundary integrals independently of the background mesh, high-fidelity flow analysis can be performed directly on complex geometries without fitting a mesh to the surface. This capability has facilitated direct geometry-to-analysis workflows for boundary-representation CAD models, raw point clouds, photogrammetric reconstructions, and segmented medical images. This review examines the unified mathematical development of the weak boundary condition framework from scalar advection-diffusion equations to the full Navier-Stokes equations, illustrating its versatility and robustness across incompressible and compressible flows, whether in traditional boundary-fitted, sliding-interface, or advanced immersogeometric applications.",
+ "primary": "math.NA"
+}

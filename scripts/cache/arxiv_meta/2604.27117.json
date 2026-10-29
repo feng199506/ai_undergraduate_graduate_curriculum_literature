@@ -1,0 +1,23 @@
+{
+ "id": "2604.27117",
+ "title": "A Gated Hybrid Contrastive Collaborative Filtering Recommendation",
+ "authors": [
+  "Eduardo Ferreira da Silva",
+  "Mayki dos Santos Oliveira",
+  "Joel Machado Pires",
+  "Denis Dantas Boaventura",
+  "Maycon Maciel Peixoto",
+  "Cassio Serafim Prazeres",
+  "Gustavo Bittencourt Figueiredo",
+  "Miriam Capretz",
+  "Frederico Araujo Durão"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 1,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recommender systems increasingly incorporate textual reviews to enrich user and item representations. However, most review-aware models remain optimized for rating prediction rather than ranking quality. This misalignment limits their effectiveness in top-N recommendation scenarios, where discriminative ranking is essential. To address this gap, we propose a Gated Hybrid Collaborative Filtering framework that integrates review-derived representations into an autoencoder-based collaborative model. The architecture injects semantic signals layer-wise through an adaptive gating mechanism that dynamically balances collaborative embeddings and topic-based features during encoding. To further refine the latent space, we introduce a contrastive learning module that aligns semantic and collaborative signals. We evaluate the framework across five distinct configurations: Pure collaborative; Topic and Gated; Text and Gated; and the addition of contrastive objectives (Contrastive and Topic, and Contrastive and Text). To explicitly optimize ranking behavior, the model is trained with a pairwise Bayesian personalized ranking objective, which promotes separation between relevant and non-relevant items in the latent space. Experiments on Amazon Movies & TV, IMDb, and Rotten Tomatoes demonstrate consistent improvements in hit rate @10 and normalized discounted cumulative gain @10 over state-of-the-art review-aware baselines. Results highlight the importance of controlled semantic fusion for ranking-driven recommendation.",
+ "primary": "cs.IR"
+}

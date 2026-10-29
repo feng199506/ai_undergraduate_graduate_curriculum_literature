@@ -1,0 +1,22 @@
+{
+ "id": "2605.02960",
+ "title": "ZeRO-Prefill: Zero Redundancy Overheads in MoE Prefill Serving",
+ "authors": [
+  "Zhaoyuan Su",
+  "Olatunji Ruwase",
+  "Karthik Ganesan",
+  "Aurick Qiao",
+  "Samyam Rajbhandari",
+  "Juncheng Yang",
+  "Yue Cheng",
+  "Yuxiong He"
+ ],
+ "v1_date": "2026-05-03",
+ "latest_version": 3,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 16 figures, 6 tables",
+ "abstract": "Production LLM workloads increasingly serve discriminative tasks, such as classification, recommendation, and verification, whose answers are read from the logits of a single prefill pass with no autoregressive decoding. Serving these prefill-only workloads on mixture-of-experts (MoE) models is bottlenecked not by compute but by the distributed execution required to fit the model: existing parallel strategies (tensor, expert, and pipeline parallelism) trade memory pressure for redundant computation, communication, and synchronization, severely degrading MoE prefill serving efficiency. We observe that these overheads stem from coupling expert placement with synchronous activation routing -- a design inherited from the decoding era. The long, compute-bound forward passes of large-batch prefill open a per-layer window wide enough to stream expert weights in the background, replacing per-layer activation AllToAll with asynchronous weight AllGather fully overlapped with computation. We propose ZeRO-Prefill, a prefill-only serving system built on this idea. Its backend, AsyncEP (Asynchronous Expert Parallelism), gathers experts by weight rather than by activation; its co-designed frontend enforces a physically derived saturation threshold through prefix-aware routing and true-FLOPs load tracking. On Qwen3-235B-A22B across four hardware/precision configurations, ZeRO-Prefill delivers 1.34-1.37x throughput over the strongest distributed baseline on real-world workloads and up to 1.59x on long-context synthetic workloads, sustaining 29.8-36.2% per-GPU model FLOPs utilization.",
+ "primary": "cs.LG"
+}

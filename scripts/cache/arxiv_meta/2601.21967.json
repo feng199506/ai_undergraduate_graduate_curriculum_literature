@@ -1,0 +1,17 @@
+{
+ "id": "2601.21967",
+ "title": "The Energy Impact of Domain Model Design in Classical Planning",
+ "authors": [
+  "Ilche Georgievski",
+  "Serhat Tekin",
+  "Marco Aiello"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 1,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "10.1145/3793653.3793791",
+ "comment": "2026 IEEE/ACM 5th International Conference on AI Engineering - Software Engineering for AI (CAIN '26)",
+ "abstract": "AI research has traditionally prioritised algorithmic performance, such as optimising accuracy in machine learning or runtime in automated planning. The emerging paradigm of Green AI challenges this by recognising energy consumption as a critical performance dimension. Despite the high computational demands of automated planning, its energy efficiency has received little attention. This gap is particularly salient given the modular planning structure, in which domain models are specified independently of algorithms. On the other hand, this separation also enables systematic analysis of energy usage through domain model design. We empirically investigate how domain model characteristics affect the energy consumption of classical planners. We introduce a domain model configuration framework that enables controlled variation of features, such as element ordering, action arity, and dead-end states. Using five benchmark domains and five state-of-the-art planners, we analyse energy and runtime impacts across 32 domain variants per benchmark. Results demonstrate that domain-level modifications produce measurable energy differences across planners, with energy consumption not always correlating with runtime.",
+ "primary": "cs.AI"
+}

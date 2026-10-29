@@ -1,0 +1,15 @@
+{
+ "id": "2412.06160",
+ "title": "Obstacle-aware Gaussian Process Regression",
+ "authors": [
+  "Gaurav Shrivastava"
+ ],
+ "v1_date": "2024-12-09",
+ "latest_version": 1,
+ "latest_date": "2024-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Obstacle-aware trajectory navigation is crucial for many systems. For example, in real-world navigation tasks, an agent must avoid obstacles, such as furniture in a room, while planning a trajectory. Gaussian Process (GP) regression, in its current form, fits a curve to a set of data pairs, with each pair consisting of an input point 'x' and its corresponding target regression value 'y(x)' (a positive data pair). However, to account for obstacles, we need to constrain the GP to avoid a target regression value 'y(x-)' for an input point 'x-' (a negative data pair). Our proposed approach, 'GP-ND' (Gaussian Process with Negative Datapairs), fits the model to the positive data pairs while avoiding the negative ones. Specifically, we model the negative data pairs using small blobs of Gaussian distribution and maximize their KL divergence from the GP. Our framework jointly optimizes for both positive and negative data pairs. Our experiments show that GP-ND outperforms traditional GP learning. Additionally, our framework does not affect the scalability of Gaussian Process regression and helps the model converge faster as the data size increases.",
+ "primary": "cs.LG"
+}

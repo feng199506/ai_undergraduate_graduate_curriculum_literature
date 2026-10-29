@@ -1,0 +1,21 @@
+{
+ "id": "2410.18001",
+ "title": "Benchmarking Foundation Models on Exceptional Cases: Dataset Creation and Validation",
+ "authors": [
+  "Suho Kang",
+  "Jungyang Park",
+  "Joonseo Ha",
+  "SoMin Kim",
+  "JinHyeong Kim",
+  "Subeen Park",
+  "Kyungwoo Song"
+ ],
+ "v1_date": "2024-10-23",
+ "latest_version": 2,
+ "latest_date": "2024-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EMNLP 2024 Workshop Genbench(https://genbench.org/workshop_programme/)",
+ "abstract": "Foundation models (FMs) have achieved significant success across various tasks, leading to research on benchmarks for reasoning abilities. However, there is a lack of studies on FMs performance in exceptional scenarios, which we define as out-of-distribution (OOD) reasoning tasks. This paper is the first to address these cases, developing a novel dataset for evaluation of FMs across multiple modalities, including graphic novels, calligraphy, news articles, and lyrics. It includes tasks for instance classification, character recognition, token prediction, and text generation. The paper also proposes prompt engineering techniques like Chain-of-Thought (CoT) and CoT+Few-Shot to enhance performance. Validation of FMs using various methods revealed improvements. The code repository is accessible at: https://github.com/MLAI-Yonsei/ExceptionalBenchmark",
+ "primary": "cs.AI"
+}

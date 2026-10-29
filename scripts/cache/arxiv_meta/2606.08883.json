@@ -1,0 +1,18 @@
+{
+ "id": "2606.08883",
+ "title": "Accelerating GMRES with Matrix-Free Multiscale Robin Preconditioners",
+ "authors": [
+  "Dilong Zhou",
+  "Rafael T. Guiraldello",
+  "Felipe Pereira",
+  "Fabrício S. Sousa"
+ ],
+ "v1_date": "2026-06-07",
+ "latest_version": 1,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 8 figures, 7 tables",
+ "abstract": "We propose a matrix-free right-preconditioning strategy for the Generalized Minimal Residual (GMRES) method based on the Multiscale Robin Coupled Method with oversampling (MRCM-OS) for the numerical solution of elliptic problems arising in subsurface flow. The resulting preconditioner is constructed through local subdomain solves with oversampling and smoothing, and can be applied without explicit assembly of the global operator. After a careful presentation of the new procedure, it is used in extensive numerical experiments. Our results demonstrate that the proposed approach substantially reduces iteration counts across a range of challenging, high-contrast subsurface flow problems. In many cases, convergence is obtained in one or two GMRES iterations when oversampling and smoothing are employed. The results indicate that combining GMRES with multiscale Robin-based operators is a promising direction for the construction of rapidly convergent preconditioning strategies.",
+ "primary": "math.NA"
+}

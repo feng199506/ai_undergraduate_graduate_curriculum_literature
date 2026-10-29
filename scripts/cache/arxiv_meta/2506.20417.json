@@ -1,0 +1,21 @@
+{
+ "id": "2506.20417",
+ "title": "Off-Policy Evaluation and Learning for the Future under Non-Stationarity",
+ "authors": [
+  "Tatsuhiro Shimizu",
+  "Kazuki Kawamura",
+  "Takanori Muroi",
+  "Yusuke Narita",
+  "Kei Tateno",
+  "Takuma Udagawa",
+  "Yuta Saito"
+ ],
+ "v1_date": "2025-06-25",
+ "latest_version": 1,
+ "latest_date": "2025-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the novel problem of future off-policy evaluation (F-OPE) and learning (F-OPL) for estimating and optimizing the future value of policies in non-stationary environments, where distributions vary over time. In e-commerce recommendations, for instance, our goal is often to estimate and optimize the policy value for the upcoming month using data collected by an old policy in the previous month. A critical challenge is that data related to the future environment is not observed in the historical data. Existing methods assume stationarity or depend on restrictive reward-modeling assumptions, leading to significant bias. To address these limitations, we propose a novel estimator named \\textit{\\textbf{O}ff-\\textbf{P}olicy Estimator for the \\textbf{F}uture \\textbf{V}alue (\\textbf{\\textit{OPFV}})}, designed for accurately estimating policy values at any future time point. The key feature of OPFV is its ability to leverage the useful structure within time-series data. While future data might not be present in the historical log, we can leverage, for example, seasonal, weekly, or holiday effects that are consistent in both the historical and future data. Our estimator is the first to exploit these time-related structures via a new type of importance weighting, enabling effective F-OPE. Theoretical analysis identifies the conditions under which OPFV becomes low-bias. In addition, we extend our estimator to develop a new policy-gradient method to proactively learn a good future policy using only historical data. Empirical results show that our methods substantially outperform existing methods in estimating and optimizing the future policy value under non-stationarity for various experimental setups.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2510.23534",
+ "title": "Direct Debiased Machine Learning via Bregman Divergence Minimization",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2025-10-27",
+ "latest_version": 2,
+ "latest_date": "2025-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a direct debiased machine learning framework comprising Neyman targeted estimation and generalized Riesz regression. Our framework unifies Riesz regression for automatic debiased machine learning, covariate balancing, targeted maximum likelihood estimation (TMLE), and density-ratio estimation. In many problems involving causal effects or structural models, the parameters of interest depend on regression functions. Plugging regression functions estimated by machine learning methods into the identifying equations can yield poor performance because of first-stage bias. To reduce such bias, debiased machine learning employs Neyman orthogonal estimating equations. Debiased machine learning typically requires estimation of the Riesz representer and the regression function. For this problem, we develop a direct debiased machine learning framework with an end-to-end algorithm. We formulate estimation of the nuisance parameters, the regression function and the Riesz representer, as minimizing the discrepancy between Neyman orthogonal scores computed with known and unknown nuisance parameters, which we refer to as Neyman targeted estimation. Neyman targeted estimation includes Riesz representer estimation, and we measure discrepancies using the Bregman divergence. The Bregman divergence encompasses various loss functions as special cases, where the squared loss yields Riesz regression and the Kullback-Leibler divergence yields entropy balancing. We refer to this Riesz representer estimation as generalized Riesz regression. Neyman targeted estimation also yields TMLE as a special case for regression function estimation. Furthermore, for specific pairs of models and Riesz representer estimation methods, we can automatically obtain the covariate balancing property without explicitly solving the covariate balancing objective.",
+ "primary": "econ.EM"
+}

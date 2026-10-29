@@ -1,0 +1,23 @@
+{
+ "id": "2509.25756",
+ "title": "SAC Flow: Sample-Efficient Reinforcement Learning of Flow-Based Policies via Velocity-Reparameterized Sequential Modeling",
+ "authors": [
+  "Yixian Zhang",
+  "Shu'ang Yu",
+  "Tonghe Zhang",
+  "Mo Guang",
+  "Haojia Hui",
+  "Kaiwen Long",
+  "Yu Wang",
+  "Chao Yu",
+  "Wenbo Ding"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 3,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Training expressive flow-based policies with off-policy reinforcement learning is notoriously unstable due to gradient pathologies in the multi-step action sampling process. We trace this instability to a fundamental connection: the flow rollout is algebraically equivalent to a residual recurrent computation, making it susceptible to the same vanishing and exploding gradients as RNNs. To address this, we reparameterize the velocity network using principles from modern sequential models, introducing two stable architectures: Flow-G, which incorporates a gated velocity, and Flow-T, which utilizes a decoded velocity. We then develop a practical SAC-based algorithm, enabled by a noise-augmented rollout, that facilitates direct end-to-end training of these policies. Our approach supports both from-scratch and offline-to-online learning and achieves state-of-the-art performance on continuous control and robotic manipulation benchmarks, eliminating the need for common workarounds like policy distillation or surrogate objectives.",
+ "primary": "cs.RO"
+}

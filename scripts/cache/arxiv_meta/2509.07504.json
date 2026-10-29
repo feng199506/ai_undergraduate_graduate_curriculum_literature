@@ -1,0 +1,18 @@
+{
+ "id": "2509.07504",
+ "title": "Backdoor Attacks and Defenses in Computer Vision Domain: A Survey",
+ "authors": [
+  "Bilal Hussain Abbasi",
+  "Yanjun Zhang",
+  "Leo Zhang",
+  "Shang Gao"
+ ],
+ "v1_date": "2025-09-09",
+ "latest_version": 1,
+ "latest_date": "2025-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Backdoor (trojan) attacks embed hidden, controllable behaviors into machine-learning models so that models behave normally on benign inputs but produce attacker-chosen outputs when a trigger is present. This survey reviews the rapidly growing literature on backdoor attacks and defenses in the computer-vision domain. We introduce a multi-dimensional taxonomy that organizes attacks and defenses by injection stage (dataset poisoning, model/parameter modification, inference-time injection), trigger type (patch, blended/frequency, semantic, transformation), labeling strategy (dirty-label vs. clean-label / feature-collision), representation stage (instance-specific, manifold/class-level, neuron/parameter hijacking, distributed encodings), and target task (classification, detection, segmentation, video, multimodal). For each axis we summarize representative methods, highlight evaluation practices, and discuss where defenses succeed or fail. For example, many classical sanitization and reverse-engineering tools are effective against reusable patch attacks but struggle with input-aware, sample-specific, or parameter-space backdoors and with transfer via compromised pre-trained encoders or hardware bit-flips. We synthesize trends, identify persistent gaps (supply-chain and hardware threats, certifiable defenses, cross-task benchmarks), and propose practical guidelines for threat-aware evaluation and layered defenses. This survey aims to orient researchers and practitioners to the current threat landscape and pressing research directions in secure computer vision.",
+ "primary": "cs.CR"
+}

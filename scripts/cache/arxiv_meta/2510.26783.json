@@ -1,0 +1,15 @@
+{
+ "id": "2510.26783",
+ "title": "A Unified Theory for Causal Inference: Direct Debiased Machine Learning via Bregman-Riesz Regression",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2025-10-30",
+ "latest_version": 1,
+ "latest_date": "2025-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This note introduces a unified theory for causal inference that integrates Riesz regression, covariate balancing, density-ratio estimation (DRE), targeted maximum likelihood estimation (TMLE), and the matching estimator in average treatment effect (ATE) estimation. In ATE estimation, the balancing weights and the regression functions of the outcome play important roles, where the balancing weights are referred to as the Riesz representer, bias-correction term, and clever covariates, depending on the context. Riesz regression, covariate balancing, DRE, and the matching estimator are methods for estimating the balancing weights, where Riesz regression is essentially equivalent to DRE in the ATE context, the matching estimator is a special case of DRE, and DRE is in a dual relationship with covariate balancing. TMLE is a method for constructing regression function estimators such that the leading bias term becomes zero. Nearest Neighbor Matching is equivalent to Least Squares Density Ratio Estimation and Riesz Regression.",
+ "primary": "stat.ML"
+}

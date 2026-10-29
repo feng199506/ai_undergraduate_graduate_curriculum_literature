@@ -1,0 +1,19 @@
+{
+ "id": "2602.05616",
+ "title": "Path-Guided Flow Matching for Dataset Distillation",
+ "authors": [
+  "Xuhui Li",
+  "Zhengquan Luo",
+  "Xiwei Liu",
+  "Yongqiang Yu",
+  "Zhiqiang Xu"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 1,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dataset distillation compresses large datasets into compact synthetic sets with comparable performance in training models. Despite recent progress on diffusion-based distillation, this type of method typically depends on heuristic guidance or prototype assignment, which comes with time-consuming sampling and trajectory instability and thus hurts downstream generalization especially under strong control or low IPC. We propose \\emph{Path-Guided Flow Matching (PGFM)}, the first flow matching-based framework for generative distillation, which enables fast deterministic synthesis by solving an ODE in a few steps. PGFM conducts flow matching in the latent space of a frozen VAE to learn class-conditional transport from Gaussian noise to data distribution. Particularly, we develop a continuous path-to-prototype guidance algorithm for ODE-consistent path control, which allows trajectories to reliably land on assigned prototypes while preserving diversity and efficiency. Extensive experiments across high-resolution benchmarks demonstrate that PGFM matches or surpasses prior diffusion-based distillation approaches with fewer steps of sampling while delivering competitive performance with remarkably improved efficiency, e.g., 7.6$\\times$ more efficient than the diffusion-based counterparts with 78\\% mode coverage.",
+ "primary": "cs.LG"
+}

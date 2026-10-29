@@ -1,0 +1,17 @@
+{
+ "id": "2410.18553",
+ "title": "Optimal Equivariant Architectures from the Symmetries of Matrix-Element Likelihoods",
+ "authors": [
+  "Daniel Maître",
+  "Vishal S. Ngairangbam",
+  "Michael Spannowsky"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 1,
+ "latest_date": "2024-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 6 figures, 3 tables",
+ "abstract": "The Matrix-Element Method (MEM) has long been a cornerstone of data analysis in high-energy physics. It leverages theoretical knowledge of parton-level processes and symmetries to evaluate the likelihood of observed events. In parallel, the advent of geometric deep learning has enabled neural network architectures that incorporate known symmetries directly into their design, leading to more efficient learning. This paper presents a novel approach that combines MEM-inspired symmetry considerations with equivariant neural network design for particle physics analysis. Even though Lorentz invariance and permutation invariance overall reconstructed objects are the largest and most natural symmetry in the input domain, we find that they are sub-optimal in most practical search scenarios. We propose a longitudinal boost-equivariant message-passing neural network architecture that preserves relevant discrete symmetries. We present numerical studies demonstrating MEM-inspired architectures achieve new state-of-the-art performance in distinguishing di-Higgs decays to four bottom quarks from the QCD background, with enhanced sample and parameter efficiencies. This synergy between MEM and equivariant deep learning opens new directions for physics-informed architecture design, promising more powerful tools for probing physics beyond the Standard Model.",
+ "primary": "hep-ph"
+}

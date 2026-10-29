@@ -1,0 +1,15 @@
+{
+ "id": "2605.29710",
+ "title": "PhAIL: A Real-Robot VLA Benchmark and Distributional Methodology",
+ "authors": [
+  "Sergey Arkhangelskiy"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 10 figures, 8 tables. Dataset, analysis pipeline, and paper source: https://phail.ai and https://github.com/Positronic-Robotics/phail-paper",
+ "abstract": "Real-world evaluation of vision-language-action (VLA) policies still rests on binary success rate at a fixed timeout with $N \\le 25$ rollouts per condition, almost always without confidence intervals or paired statistical comparison; these cohort sizes struggle to resolve close comparisons reliably. We introduce PhAIL (Physical AI Leaderboard, https://phail.ai), an open real-robot benchmark on a Franka FR3 (dataset, per-rollout artifacts, and end-to-end reference implementation) of a distributional evaluation methodology: the time-to-success cumulative distribution function (CDF) as the evaluation primitive, with two separated jobs. The first is scoring via Human-Relative Throughput (HRT), a dimensionless scalar with bootstrap confidence intervals, anchored to same-fixture human teleoperation. The second is a significance test (Kolmogorov-Smirnov, computed per-object and macro-averaged across objects). On four publicly-available VLAs, the macro-averaged KS test resolves two close comparisons (GR00T vs. ACT, OpenPI vs. ACT) at $N \\le 30$ rollouts per (model, object) cell where binary-threshold metrics do not; the closest pair (OpenPI vs. GR00T) remains unresolved within our budget. The best evaluated VLA is $\\sim 7\\times$ slower per operation (RMST ratio) than the human reference.",
+ "primary": "cs.RO"
+}

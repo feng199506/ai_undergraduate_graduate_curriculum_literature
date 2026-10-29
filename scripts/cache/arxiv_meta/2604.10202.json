@@ -1,0 +1,20 @@
+{
+ "id": "2604.10202",
+ "title": "Wolkowicz-Styan Upper Bound on the Hessian Eigenspectrum for Cross-Entropy Loss in Nonlinear Smooth Neural Networks",
+ "authors": [
+  "Yuto Omae",
+  "Kazuki Sakai",
+  "Yohei Kakimoto",
+  "Makoto Sasaki",
+  "Yusuke Sakai",
+  "Hirotaka Takahashi"
+ ],
+ "v1_date": "2026-04-11",
+ "latest_version": 2,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages",
+ "abstract": "Neural networks (NNs) are central to modern machine learning and achieve state-of-the-art results in many applications. However, the relationship between loss geometry and generalization is still not well understood. The local geometry of the loss function near a critical point is well-approximated by its quadratic form, obtained through a second-order Taylor expansion. The coefficients of the quadratic term correspond to the Hessian matrix, whose eigenspectrum allows us to evaluate the sharpness of the loss at the critical point. Extensive research suggests flat critical points generalize better, while sharp ones lead to higher generalization error. However, sharpness requires the Hessian eigenspectrum, but general matrix characteristic equations have no closed-form solution. Therefore, most existing studies on evaluating loss sharpness rely on numerical approximation methods. Existing closed-form analyses of the eigenspectrum are primarily limited to simplified architectures, such as linear or ReLU-activated networks; consequently, theoretical analysis of smooth nonlinear multilayer neural networks remains limited. Against this background, this study focuses on nonlinear, smooth multilayer neural networks and derives a closed-form upper bound for the maximum eigenvalue of the Hessian with respect to the cross-entropy loss by leveraging the Wolkowicz-Styan bound. Specifically, the derived upper bound is expressed as a function of the affine transformation parameters, hidden layer dimensions, and the degree of orthogonality among the training samples. The primary contribution of this paper is an analytical characterization of loss sharpness in smooth nonlinear multilayer neural networks via a closed-form expression, avoiding explicit numerical eigenspectrum computation. We hope that this work provides a small yet meaningful step toward unraveling the mysteries of deep learning.",
+ "primary": "cs.LG"
+}

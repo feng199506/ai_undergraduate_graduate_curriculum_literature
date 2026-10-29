@@ -1,0 +1,30 @@
+{
+ "id": "2601.23204",
+ "title": "TSAQA: Time Series Analysis Question And Answering Benchmark",
+ "authors": [
+  "Baoyu Jing",
+  "Sanhorn Chen",
+  "Lecheng Zheng",
+  "Boyu Liu",
+  "Zihao Li",
+  "Jiaru Zou",
+  "Tianxin Wei",
+  "Zhining Liu",
+  "Zhichen Zeng",
+  "Ruizhong Qiu",
+  "Xiao Lin",
+  "Yuchen Yan",
+  "Dongqi Fu",
+  "Jingchao Ni",
+  "Jingrui He",
+  "Hanghang Tong"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 2,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Comments: 35 pages, 7 figures. Accepted to the GEM Workshop at ACL 2026",
+ "abstract": "Time series data are integral to critical applications across domains such as finance, healthcare, transportation, and environmental science. While recent work has begun to explore multi-task time series question answering (QA), current benchmarks remain limited to forecasting and anomaly detection tasks. We introduce TSAQA, a novel unified benchmark designed to broaden task coverage and evaluate diverse temporal analysis capabilities. TSAQA integrates six diverse tasks under a single framework ranging from conventional analysis, including anomaly detection and classification, to advanced analysis, such as characterization, comparison, data transformation, and temporal relationship analysis. Spanning 210k samples across 13 domains, the dataset employs diverse formats, including true-or-false (TF), multiple-choice (MC), and a novel puzzling (PZ), to comprehensively assess time series analysis. Zero-shot evaluation demonstrates that these tasks are challenging for current Large Language Models (LLMs): the best-performing commercial LLM, Gemini-2.5-Flash, achieves an average score of only 65.08. Although instruction tuning boosts open-source performance: the best-performing open-source model, LLaMA-3.1-8B, shows significant room for improvement, highlighting the complexity of temporal analysis for LLMs.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2412.05506",
+ "title": "Confidence Diagram of Nonparametric Ranking for Uncertainty Assessment in Large Language Models Evaluation",
+ "authors": [
+  "Zebin Wang",
+  "Yi Han",
+  "Ethan X. Fang",
+  "Lan Wang",
+  "Junwei Lu"
+ ],
+ "v1_date": "2024-12-07",
+ "latest_version": 2,
+ "latest_date": "2025-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the inference for the ranking of large language models (LLMs). Alignment arises as a significant challenge to mitigate hallucinations in the use of LLMs. Ranking LLMs has proven to be an effective tool to improve alignment based on the best-of-$N$ policy. In this paper, we propose a new inferential framework for hypothesis testing among the ranking for language models. Our framework is based on a nonparametric contextual ranking framework designed to assess large language models' domain-specific expertise, leveraging nonparametric scoring methods to account for their sensitivity to the prompts. To characterize the combinatorial complexity of the ranking, we introduce a novel concept of confidence diagram, which leverages a Hasse diagram to represent the entire confidence set of rankings by a single directed graph. We show the validity of the proposed confidence diagram by advancing the Gaussian multiplier bootstrap theory to accommodate the supremum of independent empirical processes that are not necessarily identically distributed. Extensive numerical experiments conducted on both synthetic and real data demonstrate that our approach offers valuable insight into the evaluation for the performance of different LLMs across various medical domains.",
+ "primary": "stat.ML"
+}

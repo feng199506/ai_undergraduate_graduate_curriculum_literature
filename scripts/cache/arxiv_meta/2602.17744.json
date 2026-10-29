@@ -1,0 +1,16 @@
+{
+ "id": "2602.17744",
+ "title": "Bayesian Optimality of In-Context Learning with Selective State Spaces",
+ "authors": [
+  "Di Zhang",
+  "Jiaqi Xing"
+ ],
+ "v1_date": "2026-02-19",
+ "latest_version": 1,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages",
+ "abstract": "We propose Bayesian optimal sequential prediction as a new principle for understanding in-context learning (ICL). Unlike interpretations framing Transformers as performing implicit gradient descent, we formalize ICL as meta-learning over latent sequence tasks. For tasks governed by Linear Gaussian State Space Models (LG-SSMs), we prove a meta-trained selective SSM asymptotically implements the Bayes-optimal predictor, converging to the posterior predictive mean. We further establish a statistical separation from gradient descent, constructing tasks with temporally correlated noise where the optimal Bayesian predictor strictly outperforms any empirical risk minimization (ERM) estimator. Since Transformers can be seen as performing implicit ERM, this demonstrates selective SSMs achieve lower asymptotic risk due to superior statistical efficiency. Experiments on synthetic LG-SSM tasks and a character-level Markov benchmark confirm selective SSMs converge faster to Bayes-optimal risk, show superior sample efficiency with longer contexts in structured-noise settings, and track latent states more robustly than linear Transformers. This reframes ICL from \"implicit optimization\" to \"optimal inference,\" explaining the efficiency of selective SSMs and offering a principled basis for architecture design.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2609.09630",
+ "title": "JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction",
+ "authors": [
+  "Jie Xu",
+  "Kangjin Yu",
+  "Ziyi Jin",
+  "Junjie Gao",
+  "Liqing Chen",
+  "Yixian Li",
+  "Shuai Tian",
+  "Zhongpu Xia"
+ ],
+ "v1_date": "2026-09-09",
+ "latest_version": 1,
+ "latest_date": "2026-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages. Code: https://github.com/jiejie567/JEPA-Policy . Project page: https://jiejie567.github.io/JEPA-Policy/",
+ "abstract": "Standard behavior cloning supervises actions without explicitly constraining the future representation paired with each demonstrated action chunk. We introduce JEPA Policy, a diffusion-free framework that uses the action chunk and its observed future representation as paired training targets. Action and future-representation tokens interact in a shared Transformer and are refined through two forward passes. Future prediction can therefore shape the representation used to generate actions. Dual-branch and gradient-routing controls attribute the gain to this shared topology rather than to an auxiliary prediction head alone. Across nine simulated tasks, JEPA Policy improves mean success over the action-only MIP baseline and outperforms Diffusion Policy under the evaluated configurations, while adding 0.29 ms to MIP's model latency. A five-task, 630-episode physical-robot study produces the same pooled ranking. Further audits find no complete representation collapse under action supervision and identify a task-conditioned failure-ranking signal in future-prediction error. These results support paired future-representation supervision as a practical approach to low-latency visuomotor imitation without iterative generative sampling.",
+ "primary": "cs.RO"
+}

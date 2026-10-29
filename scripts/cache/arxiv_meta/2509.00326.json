@@ -1,0 +1,16 @@
+{
+ "id": "2509.00326",
+ "title": "Chunked TabPFN: Exact Training-Free In-Context Learning for Long-Context Tabular Data",
+ "authors": [
+  "Renat Sergazinov",
+  "Shao-An Yin"
+ ],
+ "v1_date": "2025-08-30",
+ "latest_version": 2,
+ "latest_date": "2025-09-16",
+ "journal_ref": "ICLR Blogposts 2026",
+ "doi": "",
+ "comment": "14 pages, 6 figures",
+ "abstract": "TabPFN v2 achieves better results than tree-based models on several tabular benchmarks, which is notable since tree-based models are usually the strongest choice for tabular data. However, it cannot handle more than 10K context tokens because transformers have quadratic computation and memory costs. Unlike existing approaches that rely on context compression, such as selecting representative samples via K-nearest neighbors (KNN), we introduce a tiled-block strategy to compute attention within the TabPFN framework. This design is compatible with standard GPU setups and, to the best of our knowledge, is the first to enable TabPFN to process long contexts without any pre-processing. We demonstrate the effectiveness of our approach on the standard TabArena benchmark, with code available at https://github.com/mrsergazinov/chunk_tabpfn.",
+ "primary": "cs.LG"
+}

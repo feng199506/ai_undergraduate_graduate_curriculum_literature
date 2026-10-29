@@ -1,0 +1,22 @@
+{
+ "id": "2607.03789",
+ "title": "G$^2$TAM: Geometry Grounded Track Anything Model",
+ "authors": [
+  "Chenming Zhu",
+  "Peizhou Cao",
+  "Jingli Lin",
+  "Wenbo Hu",
+  "Yunlong Ran",
+  "Jiangmiao Pang",
+  "Tai Wang",
+  "Xihui Liu"
+ ],
+ "v1_date": "2026-07-04",
+ "latest_version": 1,
+ "latest_date": "2026-07-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICML 2026. Project Page:https://zcmax.github.io/projects/G2TAM/",
+ "abstract": "Human spatial understanding arises from jointly perceiving geometry and semantics, enabling consistent object identification and localization across viewpoints and time. Current video segmentation models depend on explicit object appearance memory banks for instance tracking, yet they remain vulnerable to large viewpoint changes and long-term occlusions. Leveraging the spatial consistency afforded by modern feed-forward 3D reconstruction models, we propose the Geometry Grounded Tracking Anything Model (G$^2$TAM), a unified framework for promptable instance tracking in 3D using only unordered RGB images or videos. G$^2$TAM employs spatially aligned geometric representations as implicit memory, ensuring stable instance identity and localization across frames and views. At its core is a cross-modal spatial encoder that integrates visual and textual prompts into a shared geometric space, enabling end-to-end spatial reconstruction and instance-consistent mask prediction. To support training and evaluation, we construct InsTrack, a large-scale dataset with a dedicated validation split for benchmarking. Extensive experiments show that G$^2$TAM delivers strong cross-view consistency, promptable instance spatial tracking, video object segmentation and spatial reconstruction, establishing a foundation for interactive, geometry-grounded spatial reasoning.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2609.22730",
+ "title": "BEACON: Belief-Enabled Adaptive CONtrol for Imitation Learning under Uncertainty",
+ "authors": [
+  "Moonyoung Lee",
+  "Soumojit Bhattacharya",
+  "George Kantor",
+  "Oliver Kroemer"
+ ],
+ "v1_date": "2026-09-19",
+ "latest_version": 1,
+ "latest_date": "2026-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robot manipulation tasks often involve hidden state information that cannot be directly observed and must be inferred through sequential physical interactions. In such partially observable settings, conditioning an imitation learning policy directly on the recent raw observation history leads to poor performance. This is due to state aliasing, wherein identical observations may arise from different hidden states, and the policy receives conflicting action labels for the same input. To enable history-aware disambiguation capability, we propose conditioning a diffusion policy on a structured representation of the hidden states using Bayesian belief that exposes both the current most likely state estimate and the remaining uncertainty. This representation replaces raw history with a structured, compact input, enabling the policy to implicitly modulate between exploratory and exploitative behaviors based on belief uncertainty, without explicit mode switching or reward shaping. We evaluate across two domains with qualitatively different belief representations: a continuous belief for cornstalk gripper alignment via tactile sensing, and a discrete categorical distribution for latched door opening. In both domains, the belief-conditioned policy substantially outperforms the observation-only baseline and approaches privileged ground-truth performance, with ablations illustrating that the policy adapts its exploration behavior depending on the belief uncertainty at inference time.",
+ "primary": "cs.RO"
+}

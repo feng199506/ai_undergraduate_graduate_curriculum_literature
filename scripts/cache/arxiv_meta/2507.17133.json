@@ -1,0 +1,18 @@
+{
+ "id": "2507.17133",
+ "title": "BrownoutServe: SLO-Aware Inference Serving under Bursty Workloads for MoE-based LLMs",
+ "authors": [
+  "Jianmin Hu",
+  "Minxian Xu",
+  "Kejiang Ye",
+  "Chengzhong Xu"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 1,
+ "latest_date": "2025-07-23",
+ "journal_ref": "IEEE Transactions on Computers, 2026",
+ "doi": "10.1109/tc.2026.3655019",
+ "comment": "12 pages",
+ "abstract": "In recent years, the Mixture-of-Experts (MoE) architecture has been widely applied to large language models (LLMs), providing a promising solution that activates only a subset of the model's parameters during computation, thereby reducing overall memory requirements and allowing for faster inference compared to dense models. Despite these advantages, existing systems still face issues of low efficiency due to static model placement and lack of dynamic workloads adaptation. This leads to suboptimal resource utilization and increased latency, especially during bursty requests periods. To address these challenges, this paper introduces BrownoutServe, a novel serving framework designed to optimize inference efficiency and maintain service reliability for MoE-based LLMs under dynamic computational demands and traffic conditions. BrownoutServe introduces \"united experts\" that integrate knowledge from multiple experts, reducing the times of expert access and inference latency. Additionally, it proposes a dynamic brownout mechanism to adaptively adjust the processing of certain tokens, optimizing inference performance while guaranteeing service level objectives (SLOs) are met. Our evaluations show the effectiveness of BrownoutServe under various workloads: it achieves up to 2.07x throughput improvement compared to vLLM and reduces SLO violations by 90.28%, showcasing its robustness under bursty traffic while maintaining acceptable inference accuracy.",
+ "primary": "cs.DC"
+}

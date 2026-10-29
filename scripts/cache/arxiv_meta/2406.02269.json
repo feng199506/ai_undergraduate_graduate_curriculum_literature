@@ -1,0 +1,18 @@
+{
+ "id": "2406.02269",
+ "title": "Graph Neural Networks Do Not Always Oversmooth",
+ "authors": [
+  "Bastian Epping",
+  "Alexandre René",
+  "Moritz Helias",
+  "Michael T. Schaub"
+ ],
+ "v1_date": "2024-06-04",
+ "latest_version": 2,
+ "latest_date": "2024-11-15",
+ "journal_ref": "Advances in Neural Information Processing Systems 37 (NeurIPS 2024)",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, non-oversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.",
+ "primary": "stat.ML"
+}

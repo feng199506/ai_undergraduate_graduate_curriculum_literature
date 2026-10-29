@@ -1,0 +1,17 @@
+{
+ "id": "2406.05506",
+ "title": "Towards a Benchmark for Causal Business Process Reasoning with LLMs",
+ "authors": [
+  "Fabiana Fournier",
+  "Lior Limonad",
+  "Inna Skarbovsky"
+ ],
+ "v1_date": "2024-06-08",
+ "latest_version": 2,
+ "latest_date": "2024-07-16",
+ "journal_ref": "NLP4BPM workshop at BPM 2024",
+ "doi": "",
+ "comment": "12 pages, 1 figure",
+ "abstract": "Large Language Models (LLMs) are increasingly used for boosting organizational efficiency and automating tasks. While not originally designed for complex cognitive processes, recent efforts have further extended to employ LLMs in activities such as reasoning, planning, and decision-making. In business processes, such abilities could be invaluable for leveraging on the massive corpora LLMs have been trained on for gaining deep understanding of such processes. In this work, we plant the seeds for the development of a benchmark to assess the ability of LLMs to reason about causal and process perspectives of business operations. We refer to this view as Causally-augmented Business Processes (BP^C). The core of the benchmark comprises a set of BP^C related situations, a set of questions about these situations, and a set of deductive rules employed to systematically resolve the ground truth answers to these questions. Also with the power of LLMs, the seed is then instantiated into a larger-scale set of domain-specific situations and questions. Reasoning on BP^C is of crucial importance for process interventions and process improvement. Our benchmark, accessible at https://huggingface.co/datasets/ibm/BPC, can be used in one of two possible modalities: testing the performance of any target LLM and training an LLM to advance its capability to reason about BP^C.",
+ "primary": "cs.AI"
+}

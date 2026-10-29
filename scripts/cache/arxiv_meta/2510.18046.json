@@ -1,0 +1,18 @@
+{
+ "id": "2510.18046",
+ "title": "Language Models as Semantic Augmenters for Sequential Recommenders",
+ "authors": [
+  "Mahsa Valizadeh",
+  "Xiangjue Dong",
+  "Rui Tuo",
+  "James Caverlee"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 1,
+ "latest_date": "2025-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) excel at capturing latent semantics and contextual relationships across diverse modalities. However, in modeling user behavior from sequential interaction data, performance often suffers when such semantic context is limited or absent. We introduce LaMAR, a LLM-driven semantic enrichment framework designed to enrich such sequences automatically. LaMAR leverages LLMs in a few-shot setting to generate auxiliary contextual signals by inferring latent semantic aspects of a user's intent and item relationships from existing metadata. These generated signals, such as inferred usage scenarios, item intents, or thematic summaries, augment the original sequences with greater contextual depth. We demonstrate the utility of this generated resource by integrating it into benchmark sequential modeling tasks, where it consistently improves performance. Further analysis shows that LLM-generated signals exhibit high semantic novelty and diversity, enhancing the representational capacity of the downstream models. This work represents a new data-centric paradigm where LLMs serve as intelligent context generators, contributing a new method for the semi-automatic creation of training data and language resources.",
+ "primary": "cs.CL"
+}

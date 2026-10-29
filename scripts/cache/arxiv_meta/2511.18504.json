@@ -1,0 +1,18 @@
+{
+ "id": "2511.18504",
+ "title": "Extreme Model Compression for Edge Vision-Language Models: Sparse Temporal Token Fusion and Adaptive Neural Compression",
+ "authors": [
+  "Md Tasnin Tanvir",
+  "Soumitra Das",
+  "Sk Md Abidar Rahaman",
+  "Ali Shiri Sichani"
+ ],
+ "v1_date": "2025-11-23",
+ "latest_version": 1,
+ "latest_date": "2025-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 6 figures",
+ "abstract": "The demand for edge AI in vision-language tasks requires models that achieve real-time performance on resource-constrained devices with limited power and memory. This paper proposes two adaptive compression techniques -- Sparse Temporal Token Fusion (STTF) and Adaptive Neural Compression (ANC) -- that integrate algorithmic innovations with hardware-aware optimizations. Unlike previous approaches relying on static pruning or uniform scaling, STTF dynamically reuses visual tokens through event-driven change detection, while ANC conditionally activates encoder branches via a learned router, enabling fine-grained adaptation to scene complexity. Our 3B-parameter TinyGPT-STTF achieves CIDEr 131.2, BLEU-4 0.38, METEOR 0.31, and ROUGE-L 0.56 on the COCO 2017 test set, surpassing LLaVA-1.5 7B by 17.6 CIDEr points while using 2.3x fewer parameters and 62x fewer on-device FLOPs. TinyGPT-ANC reaches CIDEr 128.5. On event-based vision tasks, STTF reduces average token count by 84% (from 196 to 31 tokens) while preserving 95.6% accuracy on the DVS128 Gesture dataset, and ANC cuts FLOPs by up to 90% in low-motion scenes. Compared to strong baselines, our models improve accuracy by up to 4.4% and reduce latency by up to 13x. These results enable efficient deployment of capable vision-language models on real-world edge devices.",
+ "primary": "cs.CV"
+}

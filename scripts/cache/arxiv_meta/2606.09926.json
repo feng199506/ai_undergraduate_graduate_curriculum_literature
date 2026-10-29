@@ -1,0 +1,18 @@
+{
+ "id": "2606.09926",
+ "title": "Sample Where You Struggle: Sharpening Base Model Reasoning via Entropy-Guided Power Sampling",
+ "authors": [
+  "Hong Guo",
+  "Nianhui Guo",
+  "Christoph Meinel",
+  "Haojin Yang"
+ ],
+ "v1_date": "2026-06-07",
+ "latest_version": 1,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sampling from the sequence-level power distribution $p^α$ elicits RL-level reasoning from base language models without any parameter updates, but the standard Metropolis--Hastings (MH), a Markov Chain Monte Carlo (MCMC) sampler, is both expensive and slow-mixing. We trace both to a structural mismatch: $p^α$ mainly departs from $p$ at a sparse, spatially clustered set of high-entropy decision points, yet MH proposes resampling positions uniformly along the prefix -- wasting compute on near-degenerate conditionals while under-mixing precisely where modes diverge. We propose Entropy-Guided Power Sampling (EGPS), a training-free and verifier-free sampler that re-derives its proposal from token-level entropy already in the forward pass. EGPS skips deterministic blocks, localizes each MCMC move to a high-entropy neighborhood, and applies Multiple-Try Metropolis at decision points -- making sampling cost scale with \\emph{entropy mass rather than sequence length}. On Qwen2.5-Math-7B, EGPS reaches best or tied-best accuracy on all three benchmarks (MATH500 $75.8\\%$, HumanEval $62.2\\%$, GPQA $42.4\\%$) at up to a $12.6\\times$ wall-clock speedup over the MH baseline.",
+ "primary": "cs.LG"
+}

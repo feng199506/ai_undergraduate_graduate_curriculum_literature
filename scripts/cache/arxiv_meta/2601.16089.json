@@ -1,0 +1,18 @@
+{
+ "id": "2601.16089",
+ "title": "A forward-only scheme for online learning of proposal distributions in particle filters",
+ "authors": [
+  "Sylvain Procope-Mamert",
+  "Nicolas Chopin",
+  "Maud Delattre",
+  "Guillaume Kon Kam King"
+ ],
+ "v1_date": "2026-01-22",
+ "latest_version": 1,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a new online approach for constructing proposal distributions in particle filters using a forward scheme. Our method progressively incorporates future observations to refine proposals. This is in contrast to backward-scheme algorithms that require access to the entire dataset, such as the iterated auxiliary particle filters (Guarniero et al., 2017, arXiv:1511.06286) and controlled sequential Monte Carlo (Heng et al., 2020, arXiv:1708.08396) which leverage all future observations through backward recursion. In comparison, our forward scheme achieves a gradual improvement of proposals that converges toward the proposal targeted by these backward methods. We show that backward approaches can be numerically unstable even in simple settings. Our forward method, however, offers significantly greater robustness with only a minor trade-off in performance, measured by the variance of the marginal likelihood estimator. Numerical experiments on both simulated and real data illustrate the enhanced stability of our forward approach.",
+ "primary": "stat.CO"
+}

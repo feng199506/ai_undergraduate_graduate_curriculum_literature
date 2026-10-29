@@ -1,0 +1,17 @@
+{
+ "id": "2507.13965",
+ "title": "A regression-based approach for bidirectional proximal causal inference in the presence of unmeasured confounding",
+ "authors": [
+  "Jiaqi Min",
+  "Xueyue Zhang",
+  "Shanshan Luo"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 1,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Proxy variables are commonly used in causal inference when unmeasured confounding exists. While most existing proximal methods assume a unidirectional causal relationship between two primary variables, many social and biological systems exhibit complex feedback mechanisms that imply bidirectional causality. In this paper, using regression-based models, we extend the proximal framework to identify bidirectional causal effects in the presence of unmeasured confounding. We establish the identification of bidirectional causal effects and develop a sensitivity analysis method for violations of the proxy structural conditions. Building on this identification result, we derive bidirectional two-stage least squares estimators that are consistent and asymptotically normal under standard regularity conditions. Simulation studies demonstrate that our approach delivers unbiased causal effect estimates and outperforms some standard methods. The simulation results also confirm the reliability of the sensitivity analysis procedure. Applying our methodology to a state-level panel dataset from 1985 to 2014 in the United States, we examine the bidirectional causal effects between abortion rates and murder rates. The analysis reveals a consistent negative effect of abortion rates on murder rates, while also detecting a potential reciprocal effect from murder rates to abortion rates that conventional unidirectional analyses have not considered.",
+ "primary": "stat.ME"
+}

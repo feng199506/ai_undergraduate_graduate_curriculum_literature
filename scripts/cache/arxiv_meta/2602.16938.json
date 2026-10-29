@@ -1,0 +1,22 @@
+{
+ "id": "2602.16938",
+ "title": "ConvApparel: A Benchmark Dataset and Validation Framework for User Simulators in Conversational Recommenders",
+ "authors": [
+  "Ofer Meshi",
+  "Krisztian Balog",
+  "Sally Goldman",
+  "Avi Caciularu",
+  "Guy Tennenholtz",
+  "Jihwan Jeong",
+  "Amir Globerson",
+  "Craig Boutilier"
+ ],
+ "v1_date": "2026-02-18",
+ "latest_version": 1,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EACL 2026",
+ "abstract": "The promise of LLM-based user simulators to improve conversational AI is hindered by a critical \"realism gap,\" leading to systems that are optimized for simulated interactions, but may fail to perform well in the real world. We introduce ConvApparel, a new dataset of human-AI conversations designed to address this gap. Its unique dual-agent data collection protocol -- using both \"good\" and \"bad\" recommenders -- enables counterfactual validation by capturing a wide spectrum of user experiences, enriched with first-person annotations of user satisfaction. We propose a comprehensive validation framework that combines statistical alignment, a human-likeness score, and counterfactual validation to test for generalization. Our experiments reveal a significant realism gap across all simulators. However, the framework also shows that data-driven simulators outperform a prompted baseline, particularly in counterfactual validation where they adapt more realistically to unseen behaviors, suggesting they embody more robust, if imperfect, user models.",
+ "primary": "cs.CL"
+}

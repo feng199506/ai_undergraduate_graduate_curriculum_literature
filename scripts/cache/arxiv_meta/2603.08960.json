@@ -1,0 +1,16 @@
+{
+ "id": "2603.08960",
+ "title": "The $qs$ Inequality: Quantifying the Double Penalty of Mixture-of-Experts at Inference",
+ "authors": [
+  "Vignesh Adhinarayanan",
+  "Nuwan Jayasena"
+ ],
+ "v1_date": "2026-03-09",
+ "latest_version": 1,
+ "latest_date": "2026-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 6 tables",
+ "abstract": "Mixture-of-Experts (MoE) models deliver high quality at low training FLOPs, but this efficiency often vanishes at inference. We identify a double penalty that structurally disadvantages MoE architectures during decoding: first, expert routing fragments microbatches and reduces weight reuse; second, massive resident expert pools reduce high-bandwidth memory (HBM) headroom for the KV cache. This phenomenon, formalized as reuse fragmentation, pushes feed-forward networks (FFNs) into a bandwidth-bound regime, especially at long context lengths. We introduce the $qs$ inequality, a predictive criterion that identifies when MoE is structurally disadvantaged relative to a quality-matched dense model. This criterion unifies sparsity ($s$), the fraction of parameters activated per token, and the quality-equivalence factor ($q$), the size multiplier required for a dense model to match MoE performance. Our evaluation across frontier models including DeepSeek-V3, Qwen3-235B, Grok-1, and Switch-C demonstrates that this fragmentation is a general architectural phenomenon. For DeepSeek-V3 at 128k context, this results in a 4.5x throughput advantage for a quality-matched dense baseline. Crucially, massive architectures like Switch-C can become infeasible on cluster sizes where a quality-matched dense model remains viable. Our results suggest that training-time FLOP efficiency is an incomplete proxy for inference-time performance in long-context serving. They also indicate that MoE may be best viewed as a training-time optimization, with distillation into dense models as a possible path toward inference-efficient deployment.",
+ "primary": "cs.LG"
+}

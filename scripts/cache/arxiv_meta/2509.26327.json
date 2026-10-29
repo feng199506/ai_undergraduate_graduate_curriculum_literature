@@ -1,0 +1,17 @@
+{
+ "id": "2509.26327",
+ "title": "A Generalized Information Bottleneck Theory of Deep Learning",
+ "authors": [
+  "Charles Westphal",
+  "Stephen Hailes",
+  "Mirco Musolesi"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 3,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Information Bottleneck (IB) principle offers a compelling theoretical framework to understand how neural networks (NNs) learn. However, its practical utility has been constrained by unresolved theoretical ambiguities and significant challenges in accurate estimation. In this paper, we present a \\textit{Generalized Information Bottleneck (GIB)} framework that reformulates the original IB principle through the lens of synergy, i.e., the information obtainable only through joint processing of features. We provide theoretical and empirical evidence demonstrating that synergistic functions achieve superior generalization compared to their non-synergistic counterparts. Building on these foundations we re-formulate the IB using a computable definition of synergy based on the average interaction information (II) of each feature with those remaining. We demonstrate that the original IB objective is upper bounded by our GIB in the case of perfect estimation, ensuring compatibility with existing IB theory while addressing its limitations. Our experimental results demonstrate that GIB consistently exhibits compression phases across a wide range of architectures (including those with \\textit{ReLU} activations where the standard IB fails), while yielding interpretable dynamics in both CNNs and Transformers and aligning more closely with our understanding of adversarial robustness.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2605.07818",
+ "title": "Expectation-Maximization as a Spectrally Governed Relaxation Flow",
+ "authors": [
+  "Qiao Wang"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 2,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is an updated version in which the G-accelerator is enhanced by noval adaptive geometry method",
+ "abstract": "The expectation--maximization (EM) algorithm combines global monotonicity, local linear convergence, and strong practical robustness, but these features are usually analyzed separately. Global descent is nonlinear, whereas local convergence is governed by the spectrum of the linearized EM map. How these two levels fit into a single dynamical picture has remained less transparent. We make explicit the latent-variable operator that connects them. Along the EM trajectory, the likelihood increment admits a global energy decomposition in terms of posterior-relative entropy. Linearization at a nondegenerate maximizer $θ^\\ast$ reveals the local operator \\[ \\mathcal G_{θ^\\ast}=I-DT(θ^\\ast), \\] which coincides with both the missing-information ratio and the information-geometric Hessian of the observed likelihood. From this operator we derive two acceleration strategies. The \\textbf{G-Accelerator} uses the spectral gap to obtain an optimal Nesterov-type momentum $β^* = (1-\\sqrt{λ_*})/(1+\\sqrt{λ_*})$. The \\textbf{Geo-Adaptive} accelerator extends the geometric EM framework of Zhou, Alexander \\& Lange by replacing their fixed correction strength $γ=8$ with the adaptive rule $γ_k = 1/\\hatλ_k$, where $\\hatλ_k$ is estimated online from the parameter trajectory. Both methods are parameter-free; Geo-Adaptive achieves dramatic acceleration precisely when the spectral gap is smallest. Numerical experiments on Gaussian mixtures demonstrate that both accelerators consistently outperform standard EM and fixed-$γ$ DCC-EM, with Geo-Adaptive attaining speedups exceeding $8\\times$ in the most challenging regimes.",
+ "primary": "stat.ML"
+}

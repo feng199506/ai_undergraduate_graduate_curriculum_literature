@@ -1,0 +1,16 @@
+{
+ "id": "2511.09203",
+ "title": "Data Provenance as Automatic Differentiation",
+ "authors": [
+  "Robert Atkey",
+  "Roly Perera"
+ ],
+ "v1_date": "2025-11-12",
+ "latest_version": 2,
+ "latest_date": "2026-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automatic differentiation (AD) computes the derivative of a program alongside the program itself, as a linear map between tangent spaces, propagated forwards or backwards along an execution. We present a semantic framework that models data provenance via the same construction: taking scalars from a commutative semiring of dependency information rather than the real numbers, the derivative of a program becomes a linear map between spaces of approximations of its input and output. The choice of semiring determines the notion of provenance. Over the two-element Boolean algebra, the Jacobian of a program records which input positions each output position may depend on, and composing Jacobians forwards or backwards is dependency analysis in the manner of forward- and reverse-mode AD. More generally, over distributive lattices the Jacobian and its transpose propagate dependency information forwards and backwards as a conjugate pair of maps; when the lattice is a Boolean algebra, the two directions are moreover related by adjunction, recovering an approach called Galois slicing. We interpret a higher-order total functional language in this framework, prove that every program of first-order type denotes such a Jacobian, and instantiate the semiring to obtain dependency tracking (Booleans), automatic differentiation (reals), and quantitative interval provenance (the tropical semiring) as examples. All results are formalised in Agda.",
+ "primary": "cs.PL"
+}

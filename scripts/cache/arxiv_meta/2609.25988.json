@@ -1,0 +1,23 @@
+{
+ "id": "2609.25988",
+ "title": "Options for Compression of radio interferometry data: lossy compression of visibilities and lossless compression of uv-visibility grids for the MHONGOOSE survey",
+ "authors": [
+  "Richard Dodson",
+  "Jonghwan Rhee",
+  "W. J. G. de Blok",
+  "Martin Meyer",
+  "Alexander Williamson",
+  "Daniel Mitchell",
+  "Kristóf Rozgonyi",
+  "María J. Rioja",
+  "Pascal J. Elahi"
+ ],
+ "v1_date": "2026-09-22",
+ "latest_version": 1,
+ "latest_date": "2026-09-22",
+ "journal_ref": "Mon Not R Astron Soc (2026)",
+ "doi": "10.1093/mnras/stag1824",
+ "comment": "accepted in MNRAS",
+ "abstract": "Next generation radio astronomy telescopes are challenging existing data reduction paradigms. With ever more antennas, larger bandwidths, and sometimes multiple primary beams, they often generate more observed data products than can readily be stored long-term. Thus, data storage becomes a major cost driver and processing constraint. In this paper, we test two methods of addressing this problem: grid-stacking, a two-stage lossless compression solution; and the lossy compression of the raw visibilities before traditional processing. To demonstrate these solutions we utilised a deep imaging pipeline based on software for the ASKAP telescope, ASKAPSoft, but applied to a strong source (NGC1566) from the deep MeerKAT HI spectral line project, MHONGOOSE. The grid-stacking solution reproduces the spectrum from traditional processing to within better than 0.7%, and also allows for the reconstruction of other weighting scales without significant computing costs. In comparison, image-stacking also reproduces the spectrum from the traditional processing, to within better than 3% but with worse image residuals in the cube. The lossy compression, even at a near ten-fold reduction in file size, reproduces the spectra almost perfectly (to better than ~0.01% in all cases). Thus both compression methods are promising solutions, and we discuss considerations for their application.",
+ "primary": "astro-ph.IM"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2404.10321",
+ "title": "Cluster-based Graph Collaborative Filtering",
+ "authors": [
+  "Fan Liu",
+  "Shuai Zhao",
+  "Zhiyong Cheng",
+  "Liqiang Nie",
+  "Mohan Kankanhalli"
+ ],
+ "v1_date": "2024-04-16",
+ "latest_version": 2,
+ "latest_date": "2024-11-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ACM TOIS",
+ "abstract": "Graph Convolution Networks (GCNs) have significantly succeeded in learning user and item representations for recommendation systems. The core of their efficacy is the ability to explicitly exploit the collaborative signals from both the first- and high-order neighboring nodes. However, most existing GCN-based methods overlook the multiple interests of users while performing high-order graph convolution. Thus, the noisy information from unreliable neighbor nodes (e.g., users with dissimilar interests) negatively impacts the representation learning of the target node. Additionally, conducting graph convolution operations without differentiating high-order neighbors suffers the over-smoothing issue when stacking more layers, resulting in performance degradation. In this paper, we aim to capture more valuable information from high-order neighboring nodes while avoiding noise for better representation learning of the target node. To achieve this goal, we propose a novel GCN-based recommendation model, termed Cluster-based Graph Collaborative Filtering (ClusterGCF). This model performs high-order graph convolution on cluster-specific graphs, which are constructed by capturing the multiple interests of users and identifying the common interests among them. Specifically, we design an unsupervised and optimizable soft node clustering approach to classify user and item nodes into multiple clusters. Based on the soft node clustering results and the topology of the user-item interaction graph, we assign the nodes with probabilities for different clusters to construct the cluster-specific graphs. To evaluate the effectiveness of ClusterGCF, we conducted extensive experiments on four publicly available datasets. Experimental results demonstrate that our model can significantly improve recommendation performance.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2409.03876",
+ "title": "A tutorial on panel data analysis using partially observed Markov processes via the R package panelPomp",
+ "authors": [
+  "Carles Breto",
+  "Jesse Wheeler",
+  "Aaron A. King",
+  "Edward L. Ionides"
+ ],
+ "v1_date": "2024-09-05",
+ "latest_version": 1,
+ "latest_date": "2024-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The R package panelPomp supports analysis of panel data via a general class of partially observed Markov process models (PanelPOMP). This package tutorial describes how the mathematical concept of a PanelPOMP is represented in the software and demonstrates typical use-cases of panelPomp. Monte Carlo methods used for POMP models require adaptation for PanelPOMP models due to the higher dimensionality of panel data. The package takes advantage of recent advances for PanelPOMP, including an iterated filtering algorithm, Monte Carlo adjusted profile methodology and block optimization methodology to assist with the large parameter spaces that can arise with panel models. In addition, tools for manipulation of models and data are provided that take advantage of the panel structure.",
+ "primary": "stat.CO"
+}

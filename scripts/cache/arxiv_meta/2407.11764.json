@@ -1,0 +1,19 @@
+{
+ "id": "2407.11764",
+ "title": "Adversarial Robustness of Graph Transformers",
+ "authors": [
+  "Philipp Foth",
+  "Lukas Gosch",
+  "Simon Geisler",
+  "Leo Schwinn",
+  "Stephan Günnemann"
+ ],
+ "v1_date": "2024-07-16",
+ "latest_version": 2,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "TMLR 2025 (J2C-Certification: Presented @ ICLR 2026). A preliminary version appeared at the Differentiable Almost Everything Workshop at ICML 2024. Code available at https://github.com/isefos/gt_robustness",
+ "abstract": "Existing studies have shown that Message-Passing Graph Neural Networks (MPNNs) are highly susceptible to adversarial attacks. In contrast, despite the increasing importance of Graph Transformers (GTs), their robustness properties are unexplored. We close this gap and design the first adaptive attacks for GTs. In particular, we provide general design principles for strong gradient-based attacks on GTs w.r.t. structure perturbations and instantiate our attack framework for five representative and popular GT architectures. Specifically, we study GTs with specialized attention mechanisms and Positional Encodings (PEs) based on pairwise shortest paths, random walks, and the Laplacian spectrum. We evaluate our attacks on multiple tasks and perturbation models, including structure perturbations for node and graph classification, and node injection for graph classification. Our results reveal that GTs can be catastrophically fragile in many cases. Addressing this vulnerability, we show how our adaptive attacks can be effectively used for adversarial training, substantially improving robustness.",
+ "primary": "cs.LG"
+}

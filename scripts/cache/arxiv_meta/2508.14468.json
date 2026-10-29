@@ -1,0 +1,18 @@
+{
+ "id": "2508.14468",
+ "title": "Diversity-Augmented Negative Sampling for Implicit Collaborative Filtering",
+ "authors": [
+  "Yueqing Xuan",
+  "Kacper Sokol",
+  "Mark Sanderson",
+  "Jeffrey Chan"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 2,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "10.1145/3774904.3792346",
+ "comment": "Accepted to The Web Conference (WWW) 2026",
+ "abstract": "Recommenders built upon implicit collaborative filtering are typically trained to distinguish between users' positive and negative preferences. When direct observations of the latter are unavailable, negative training data are constructed with sampling techniques. But since items often exhibit clustering in the latent space, existing methods tend to oversample negatives from dense regions, resulting in homogeneous training data and limited model expressiveness. To address these shortcomings, we propose a novel negative sampler with diversity guarantees. To achieve them, our approach first pairs each positive item of a user with one that they have not yet interacted with; this instance, called hard negative, is chosen as the top-scoring item according to the model. Instead of discarding the remaining highly informative items, we store them in a user-specific cache. Next, our diversity-augmented sampler selects a representative subset of negatives from the cache, ensuring its dissimilarity from the corresponding user's hard negatives. Our generator then combines these items with the hard negatives, replacing them to produce more effective (synthetic) negative training data that are informative and diverse. Experiments show that our method consistently leads to superior recommendation quality without sacrificing computational efficiency.",
+ "primary": "cs.IR"
+}

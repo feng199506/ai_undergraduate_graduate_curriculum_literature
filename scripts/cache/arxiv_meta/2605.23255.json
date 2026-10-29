@@ -1,0 +1,17 @@
+{
+ "id": "2605.23255",
+ "title": "Learning-Augmented Online Scheduling with Parsimonious Preemption",
+ "authors": [
+  "Mugen Blue",
+  "Sungjin Im",
+  "Alexander Lindermayr"
+ ],
+ "v1_date": "2026-05-22",
+ "latest_version": 1,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning-augmented algorithms have emerged as a powerful paradigm to surpass traditional worst-case lower bounds by integrating potentially noisy predictions. While this framework has seen success in online scheduling, existing work primarily optimizes job latency while relying on frequent, ``blind'' preemptions. This ignores the fundamental trade-off between algorithmic performance and preemption complexity. We provide the first systematic study of learning-augmented scheduling that curbs preemption while optimizing latency. We establish that the gap between theoretical latency bounds and preemption overhead can be bridged with solid analytical foundations. Our results include $O(1)$-competitive algorithms for single and unrelated parallel machines with only $O(1)$ preemptions per job under accurate predictions, with overhead scaling logarithmically with the prediction error. By providing the first bounded-preemption guarantees for unrelated and malleable machines, we extend the theoretical reach of the learning-augmented framework to more constrained and realistic settings. Finally, our algorithms are validated through experiments.",
+ "primary": "cs.LG"
+}

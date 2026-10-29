@@ -1,0 +1,17 @@
+{
+ "id": "2402.09085",
+ "title": "Polynomial Semantics of Tractable Probabilistic Circuits",
+ "authors": [
+  "Oliver Broadrick",
+  "Honghua Zhang",
+  "Guy Van den Broeck"
+ ],
+ "v1_date": "2024-02-14",
+ "latest_version": 3,
+ "latest_date": "2024-08-08",
+ "journal_ref": "In Proceedings of the 40th Conference on Uncertainty in Artificial Intelligence (UAI), 2024",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic circuits compute multilinear polynomials that represent multivariate probability distributions. They are tractable models that support efficient marginal inference. However, various polynomial semantics have been considered in the literature (e.g., network polynomials, likelihood polynomials, generating functions, and Fourier transforms). The relationships between circuit representations of these polynomial encodings of distributions is largely unknown. In this paper, we prove that for distributions over binary variables, each of these probabilistic circuit models is equivalent in the sense that any circuit for one of them can be transformed into a circuit for any of the others with only a polynomial increase in size. They are therefore all tractable for marginal inference on the same class of distributions. Finally, we explore the natural extension of one such polynomial semantics, called probabilistic generating circuits, to categorical random variables, and establish that inference becomes #P-hard.",
+ "primary": "cs.AI"
+}

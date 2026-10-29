@@ -1,0 +1,16 @@
+{
+ "id": "2507.16069",
+ "title": "Interpreting CFD Surrogates through Sparse Autoencoders",
+ "authors": [
+  "Yeping Hu",
+  "Shusen Liu"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 1,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by IJCAI 2025 Workshop on Explainable Artificial Intelligence (XAI)",
+ "abstract": "Learning-based surrogate models have become a practical alternative to high-fidelity CFD solvers, but their latent representations remain opaque and hinder adoption in safety-critical or regulation-bound settings. This work introduces a posthoc interpretability framework for graph-based surrogate models used in computational fluid dynamics (CFD) by leveraging sparse autoencoders (SAEs). By obtaining an overcomplete basis in the node embedding space of a pretrained surrogate, the method extracts a dictionary of interpretable latent features. The approach enables the identification of monosemantic concepts aligned with physical phenomena such as vorticity or flow structures, offering a model-agnostic pathway to enhance explainability and trustworthiness in CFD applications.",
+ "primary": "cs.CE"
+}

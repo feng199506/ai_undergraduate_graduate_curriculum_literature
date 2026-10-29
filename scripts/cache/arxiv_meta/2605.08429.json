@@ -1,0 +1,21 @@
+{
+ "id": "2605.08429",
+ "title": "Active Multiple-Prediction-Powered Inference",
+ "authors": [
+  "Nicholas Brawand",
+  "Nima Leclerc",
+  "Anhthy Ngo",
+  "Matthew Peterson",
+  "Sriram Vishwanath",
+  "Laith Alhussein",
+  "Ben Wellner"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Post-deployment monitoring of healthcare AI requires statistically valid, label-efficient methods, but gold-standard labels from clinician chart review are expensive. Prediction-powered inference (PPI) and active statistical inference (ASI) reduce label cost by combining a small labeled sample with abundant model predictions, but both are restricted to a single predictor, a poor fit for modern clinical pipelines that have multiple predictors of differing cost and accuracy available at inference time. We propose Active Multiple-Prediction-Powered Inference (AM-PPI), which routes each instance to a cost-appropriate predictor subset, samples gold-standard labels in proportion to the chosen subset's residual uncertainty, and reweights predictions to minimize estimator variance, all under a single deployment-time budget. AM-PPI generalizes ASI to leverage multiple predictors and extends Multiple-PPI from global per-predictor allocation to per-instance adaptive routing. We derive closed-form Karush-Kuhn-Tucker (KKT) conditions for all three decisions and prove, via biconvexity and strong duality, that the resulting fixed point is a global optimum despite the joint problem being non-jointly-convex. We establish asymptotic normality with valid coverage, minimum-variance unbiasedness within the linear-prediction augmented inverse propensity weighted (AIPW) class, and a closed-form criterion identifying when multiple predictors help. On synthetic data and three healthcare monitoring tasks, AM-PPI produces 10 to 40 percent narrower confidence intervals (CIs) than single-predictor ASI in the budget regime where routing matters, and matches the better baseline elsewhere.",
+ "primary": "stat.ML"
+}

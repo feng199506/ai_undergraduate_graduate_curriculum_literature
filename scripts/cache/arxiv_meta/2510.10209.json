@@ -1,0 +1,17 @@
+{
+ "id": "2510.10209",
+ "title": "LOOPerSet: A Large-Scale Dataset for Data-Driven Polyhedral Compiler Optimization",
+ "authors": [
+  "Massinissa Merouani",
+  "Afif Boudaoud",
+  "Riyadh Baghdadi"
+ ],
+ "v1_date": "2025-10-11",
+ "latest_version": 2,
+ "latest_date": "2025-12-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The advancement of machine learning for compiler optimization, particularly within the polyhedral model, is constrained by the scarcity of large-scale, public performance datasets. This data bottleneck forces researchers to undertake costly data generation campaigns, slowing down innovation and hindering reproducible research learned code optimization. To address this gap, we introduce LOOPerSet, a new public dataset containing 28 million labeled data points derived from 220,000 unique, synthetically generated polyhedral programs. Each data point maps a program and a complex sequence of semantics-preserving transformations (such as fusion, skewing, tiling, and parallelism)to a ground truth performance measurement (execution time). The scale and diversity of LOOPerSet make it a valuable resource for training and evaluating learned cost models, benchmarking new model architectures, and exploring the frontiers of automated polyhedral scheduling. The dataset is released under a permissive license to foster reproducible research and lower the barrier to entry for data-driven compiler optimization.",
+ "primary": "cs.PL"
+}

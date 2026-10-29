@@ -1,0 +1,17 @@
+{
+ "id": "2603.06023",
+ "title": "Large deviation principles for convolutional Bayesian neural networks",
+ "authors": [
+  "Federico Bassetti",
+  "Vassili De Palma",
+  "Lucia Ladelli"
+ ],
+ "v1_date": "2026-03-06",
+ "latest_version": 2,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "updated version, simplified notation",
+ "abstract": "While suitably scaled CNNs with Gaussian initialization are known to converge to Gaussian processes as the number of channels diverges, little is known beyond this Gaussian limit. We establish a large deviation principle (LDP) for convolutional neural networks in the infinite-channel regime. We consider a broad class of multidimensional CNN architectures characterized by general receptive fields encoded through a patch-extractor function satisfying mild structural assumptions. Our main result establishes a large deviation principle (LDP) for the sequence of conditional covariance matrices under Gaussian prior distribution on the weights. We further derive an LDP for the posterior distribution obtained by conditioning on a finite number of observations. In addition, we provide a streamlined proof of the concentration of the conditional covariances and of the Gaussian equivalence of the network. To the best of our knowledge, this is the first large deviation principle established for convolutional neural networks.",
+ "primary": "math.PR"
+}

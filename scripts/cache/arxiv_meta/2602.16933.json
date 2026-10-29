@@ -1,0 +1,16 @@
+{
+ "id": "2602.16933",
+ "title": "M-estimation under Two-Phase Multiwave Sampling with Applications to Prediction-Powered Inference",
+ "authors": [
+  "Dan M. Kluger",
+  "Stephen Bates"
+ ],
+ "v1_date": "2026-02-18",
+ "latest_version": 2,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In two-phase multiwave sampling, inexpensive measurements are collected on a large sample and expensive, more informative measurements are adaptively obtained on subsets of units across multiple waves. Adaptively collecting the expensive measurements can increase efficiency but complicates statistical inference. We give valid estimators and confidence intervals for M-estimation under adaptive two-phase multiwave sampling. We focus on the case where proxies for the expensive variables -- such as predictions from pretrained machine learning models -- are available for all units and propose a Multiwave Predict-Then-Debias estimator that combines proxy information with the expensive, higher-quality measurements to improve efficiency while removing bias. We establish asymptotic linearity and normality and propose asymptotically valid confidence intervals. We also develop an approximately greedy sampling strategy that improves efficiency relative to uniform sampling. Data-based simulation studies support the theoretical results and demonstrate efficiency gains.",
+ "primary": "stat.ME"
+}

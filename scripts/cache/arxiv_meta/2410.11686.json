@@ -1,0 +1,18 @@
+{
+ "id": "2410.11686",
+ "title": "A Survey of Low-shot Vision-Language Model Adaptation via Representer Theorem",
+ "authors": [
+  "Kun Ding",
+  "Ying Wang",
+  "Gaofeng Meng",
+  "Shiming Xiang"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 1,
+ "latest_date": "2024-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The advent of pre-trained vision-language foundation models has revolutionized the field of zero/few-shot (i.e., low-shot) image recognition. The key challenge to address under the condition of limited training data is how to fine-tune pre-trained vision-language models in a parameter-efficient manner. Previously, numerous approaches tackling this challenge have been proposed. Meantime, a few survey papers are also published to summarize these works. However, there still lacks a unified computational framework to integrate existing methods together, identify their nature and support in-depth comparison. As such, this survey paper first proposes a unified computational framework from the perspective of Representer Theorem and then derives many of the existing methods by specializing this framework. Thereafter, a comparative analysis is conducted to uncover the differences and relationships between existing methods. Based on the analyses, some possible variants to improve the existing works are presented. As a demonstration, we extend existing methods by modeling inter-class correlation between representers in reproducing kernel Hilbert space (RKHS), which is implemented by exploiting the closed-form solution of kernel ridge regression. Extensive experiments on 11 datasets are conducted to validate the effectiveness of this method. Toward the end of this paper, we discuss the limitations and provide further research directions.",
+ "primary": "cs.CV"
+}

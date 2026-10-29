@@ -1,0 +1,17 @@
+{
+ "id": "2512.13920",
+ "title": "DAMA: A Unified Accelerated Approach for Decentralized Nonconvex Minimax Optimization-Part I: Algorithm Development and Results",
+ "authors": [
+  "Haoyuan Cai",
+  "Sulaiman A. Alghunaim",
+  "Ali H. Sayed"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 1,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work and its accompanying Part II [1], we develop an accelerated algorithmic framework, DAMA (Decentralized Accelerated Minimax Approach), for nonconvex Polyak-Lojasiewicz minimax optimization over decentralized multi-agent networks. Our approach integrates online and offline stochastic minimax algorithms with various decentralized learning strategies, yielding a versatile framework with broader flexibility than existing methods. Our unification is threefold: (i) we propose a unified decentralized learning strategy for minimax optimization that subsumes existing bias-correction techniques, such as gradient tracking, while introducing new variants that achieve tighter network-dependent bounds; (ii) we introduce a probabilistic gradient estimator, GRACE (Gradient Acceleration Estimator), which unifies momentum-based methods and loopless variance-reduction techniques for constructing accelerated gradients within DAMA, and is broadly applicable to general stochastic optimization problems; and (iii) we develop a unified analytical framework that establishes a general performance bound for DAMA, achieving state-of-the-art results with the best-known sample complexity. To the best of our knowledge, DAMA is the first framework to achieve a multi-level unification of decentralized learning strategies and accelerated gradient techniques. This work focuses on algorithm development and the main results, while Part II provides the theoretical analysis that substantiates these results and presents empirical validation across diverse network topologies using synthetic and real-world datasets.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2506.15174",
+ "title": "A Novel Compiler Transformation for Fast Sparse Matrix Multiplication in GPUs",
+ "authors": [
+  "Hossein Albakri",
+  "Kazem Cheshmi"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 1,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse data structures are commonly used in neural networks to reduce the memory footprint. These data structures are compact but cause irregularities such as random memory accesses, which prevent efficient use of the memory hierarchy. GPUs are a common platform for machine learning practitioners, but running compact data structures on these devices often leads to slow-downs due to inefficient use of computing and memory resources. This paper proposes a new compiler transformation, enumerate-and-sparse-coarsen, that accelerates sparse matrix-matrix multiplication (SPMM) on GPU devices. The transformation increases data reuse in registers and caches while creating more balanced workloads for GPU computing resources. The transformation is tested on sparse neural networks in convolutional and transformer models. On an A100 GPU and across a columns of matrix B (bCols) in $ A \\times B = C$ from range of 32 to 128, the transformation yields a geometric mean speedup of 1.84$\\times$ to 2.27$\\times$ compared to cuBLAS and cuSPARSE baselines, respectively.",
+ "primary": "cs.PL"
+}

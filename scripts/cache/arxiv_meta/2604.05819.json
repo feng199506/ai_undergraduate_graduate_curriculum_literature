@@ -1,0 +1,19 @@
+{
+ "id": "2604.05819",
+ "title": "Learn to Rank: Visual Attribution by Learning Importance Ranking",
+ "authors": [
+  "David Schinagl",
+  "Christian Fruhwirth-Reisinger",
+  "Alexander Prutsch",
+  "Samuel Schulter",
+  "Horst Possegger"
+ ],
+ "v1_date": "2026-04-07",
+ "latest_version": 2,
+ "latest_date": "2026-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ECCV 2026, code is available at https://github.com/dschinagl/AHA",
+ "abstract": "Interpreting the decisions of complex computer vision models is crucial to establish trust and accountability, especially in safety-critical domains. An established approach to interpretability is generating visual attribution maps that highlight regions of the input most relevant to the model's prediction. However, existing methods face a three-way trade-off. Propagation-based approaches are efficient, but they can be biased and architecture-specific. Meanwhile, perturbation-based methods are causally grounded, yet they are expensive and for vision transformers often yield coarse, patch-level explanations. Learning-based explainers are fast but usually optimize surrogate objectives or distill from heuristic teachers. We propose a learning scheme that instead optimizes deletion and insertion metrics directly. Since these metrics depend on non-differentiable sorting and ranking, we frame them as permutation learning and replace the hard sorting with a differentiable relaxation using Gumbel-Sinkhorn. This enables end-to-end training through attribution-guided perturbations of the target model. During inference, our method produces dense, pixel-level attributions in a single forward pass with optional, few-step gradient refinement. Our experiments demonstrate consistent quantitative improvements and sharper, boundary-aligned explanations, particularly for transformer-based vision models. Code and pretrained models are available at https://github.com/dschinagl/AHA.",
+ "primary": "cs.CV"
+}

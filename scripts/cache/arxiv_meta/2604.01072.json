@@ -1,0 +1,18 @@
+{
+ "id": "2604.01072",
+ "title": "Containing the Reproducibility Gap: Automated Repository-Level Containerization for Scholarly Jupyter Notebooks",
+ "authors": [
+  "Sheeba Samuel",
+  "Daniel Mietchen",
+  "Hemanta Lo",
+  "Martin Gaedke"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Computational reproducibility is fundamental to trustworthy science, yet remains difficult to achieve in practice across various research workflows, including Jupyter notebooks published alongside scholarly articles. Environment drift, undocumented dependencies and implicit execution assumptions frequently prevent independent re-execution of published research. Despite existing reproducibility guidelines, scalable and systematic infrastructure for automated assessment remains limited. We present an automated, web-oriented reproducibility engineering pipeline that reconstructs and evaluates repository-level execution environments for scholarly notebooks. The system performs dependency inference, automated container generation, and isolated execution to approximate the notebook's original computational context. We evaluate the approach on 443 notebooks from 116 GitHub repositories referenced by publications in PubMed Central. Execution outcomes are classified into four categories: resolved environment failures, persistent logic or data errors, reproducibility drift, and container-induced regressions. Our results show that containerization resolves 66.7% of prior dependency-related failures and substantially improves execution robustness. However, a significant reproducibility gap remains: 53.7% of notebooks exhibit low output fidelity, largely due to persistent runtime failures and stochastic non-determinism. These findings indicate that standardized containerization is essential for computational stability but insufficient for full bit-wise reproducibility. The framework offers a scalable solution for researchers, editors, and archivists seeking systematic, automated assessment of computational artifacts.",
+ "primary": "cs.SE"
+}

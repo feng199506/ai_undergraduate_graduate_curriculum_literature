@@ -1,0 +1,22 @@
+{
+ "id": "2510.22068",
+ "title": "Deep Gaussian Processes for Functional Maps",
+ "authors": [
+  "Matthew Lowery",
+  "Zhitong Xu",
+  "Da Long",
+  "Keyan Chen",
+  "Daniel S. Johnson",
+  "Yang Bai",
+  "Varun Shankar",
+  "Shandian Zhe"
+ ],
+ "v1_date": "2025-10-24",
+ "latest_version": 2,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages + 9 page appendix, 7 figures",
+ "abstract": "Learning mappings between functional spaces, also known as function-on-function regression, is a fundamental problem in functional data analysis with broad applications, including spatiotemporal forecasting, curve prediction, and climate modeling. Existing approaches often struggle to capture complex nonlinear relationships and/or provide reliable uncertainty quantification when data are noisy, sparse, or irregularly sampled. To address these challenges, we propose Deep Gaussian Processes for Functional Maps (DGPFM). Our method constructs a sequence of GP-based linear and nonlinear transformations directly in function space, leveraging kernel integral transforms, GP conditional means, and nonlinear activations sampled from Gaussian processes. A key insight enables a simplified and flexible implementation: under fixed evaluation locations, discrete approximations of kernel integral transforms reduce to direct functional integral transforms, allowing seamless integration of diverse transform designs. To support scalable probabilistic inference, we adopt inducing points and whitening transformations within a variational learning framework. Empirical results on both real-world and synthetic benchmark datasets demonstrate the advantages of DGPFM in terms of predictive accuracy and uncertainty calibration.",
+ "primary": "cs.LG"
+}

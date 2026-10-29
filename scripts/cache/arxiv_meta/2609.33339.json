@@ -1,0 +1,20 @@
+{
+ "id": "2609.33339",
+ "title": "Naturalness-guided Manifold Flow Matching for Sign Language Production",
+ "authors": [
+  "Jiayi He",
+  "Shengeng Tang",
+  "Sisi You",
+  "Yanbin Hao",
+  "Lechao Cheng",
+  "Richang Hong"
+ ],
+ "v1_date": "2026-09-27",
+ "latest_version": 1,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 4 figures",
+ "abstract": "Sign Language Production (SLP) aims to generate sign motions from text. Conditional Flow Matching methods have achieved strong performance in SLP by constructing conditional paths that transform a source distribution into a target distribution. However, existing methods construct these paths via linear interpolation, whereas the rotational geometry of human joints confines valid joint rotations to a manifold embedded in Euclidean space. Consequently, linear interpolation between two sign motions leaves this manifold and ignores the motion distribution on it. In this paper, we revisit SLP from the perspective of manifold transport and propose a Naturalness-guided Manifold Flow Matching framework, termed \\textbf{SignNMFlow}, which constructs conditional paths directly on the motion manifold by jointly considering geometric efficiency and the motion distribution. Specifically, we exploit the intrinsic geometry of the manifold and introduce a motion naturalness measure to characterize the motion distribution. By minimizing the kinetic energy under this measure, we learn a naturalness-guided interpolation that couples a closed-form geodesic, which provides geometrically efficient transport, with a learnable deviation that incorporates the motion distribution, thereby significantly improving the fidelity of generated sign motions. Extensive qualitative and quantitative evaluations demonstrate the effectiveness of this work.",
+ "primary": "cs.AI"
+}

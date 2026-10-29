@@ -1,0 +1,16 @@
+{
+ "id": "2311.00474",
+ "title": "Diffusion models for probabilistic programming",
+ "authors": [
+  "Simon Dirmeier",
+  "Fernando Perez-Cruz"
+ ],
+ "v1_date": "2023-11-01",
+ "latest_version": 2,
+ "latest_date": "2023-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "* Fix mathematical typos * Add conference info",
+ "abstract": "We propose Diffusion Model Variational Inference (DMVI), a novel method for automated approximate inference in probabilistic programming languages (PPLs). DMVI utilizes diffusion models as variational approximations to the true posterior distribution by deriving a novel bound to the marginal likelihood objective used in Bayesian modelling. DMVI is easy to implement, allows hassle-free inference in PPLs without the drawbacks of, e.g., variational inference using normalizing flows, and does not make any constraints on the underlying neural network model. We evaluate DMVI on a set of common Bayesian models and show that its posterior inferences are in general more accurate than those of contemporary methods used in PPLs while having a similar computational cost and requiring less manual tuning.",
+ "primary": "cs.LG"
+}

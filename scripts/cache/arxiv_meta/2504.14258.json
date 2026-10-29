@@ -1,0 +1,18 @@
+{
+ "id": "2504.14258",
+ "title": "Temporal Graph Realization With Bounded Stretch",
+ "authors": [
+  "George B. Mertzios",
+  "Hendrik Molter",
+  "Nils Morawietz",
+  "Paul G. Spirakis"
+ ],
+ "v1_date": "2025-04-19",
+ "latest_version": 1,
+ "latest_date": "2025-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A periodic temporal graph, in its simplest form, is a graph in which every edge appears exactly once in the first $Δ$ time steps, and then it reappears recurrently every $Δ$ time steps, where $Δ$ is a given period length. This model offers a natural abstraction of transportation networks where each transportation link connects two destinations periodically. From a network design perspective, a crucial task is to assign the time-labels on the edges in a way that optimizes some criterion. In this paper we introduce a very natural optimality criterion that captures how the temporal distances of all vertex pairs are `stretched', compared to their physical distances, i.e. their distances in the underlying static (non-temporal) graph. Given a static graph $G$, the task is to assign to each edge one time-label between 1 and $Δ$ such that, in the resulting periodic temporal graph with period~$Δ$, the duration of the fastest temporal path from any vertex $u$ to any other vertex $v$ is at most $α$ times the distance between $u$ and $v$ in $G$. Here, the value of $α$ measures how much the shortest paths are allowed to be \\emph{stretched} once we assign the periodic time-labels. Our results span three different directions: First, we provide a series of approximation and NP-hardness results. Second, we provide approximation and fixed-parameter algorithms. Among them, we provide a simple polynomial-time algorithm (the \\textit{radius-algorithm}) which always guarantees an approximation strictly smaller than $Δ$, and which also computes the optimum stretch in some cases. Third, we consider a parameterized local search extension of the problem where we are given the temporal labeling of the graph, but we are allowed to change the time-labels of at most $k$ edges; for this problem we prove that it is W[2]-hard but admits an XP algorithm with respect to $k$.",
+ "primary": "cs.DS"
+}

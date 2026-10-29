@@ -1,0 +1,17 @@
+{
+ "id": "2503.10834",
+ "title": "On the Identifiability of Causal Abstractions",
+ "authors": [
+  "Xiusi Li",
+  "Sékou-Oumar Kaba",
+  "Siamak Ravanbakhsh"
+ ],
+ "v1_date": "2025-03-13",
+ "latest_version": 1,
+ "latest_date": "2025-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 4 figures, published in AISTATS 2025",
+ "abstract": "Causal representation learning (CRL) enhances machine learning models' robustness and generalizability by learning structural causal models associated with data-generating processes. We focus on a family of CRL methods that uses contrastive data pairs in the observable space, generated before and after a random, unknown intervention, to identify the latent causal model. (Brehmer et al., 2022) showed that this is indeed possible, given that all latent variables can be intervened on individually. However, this is a highly restrictive assumption in many systems. In this work, we instead assume interventions on arbitrary subsets of latent variables, which is more realistic. We introduce a theoretical framework that calculates the degree to which we can identify a causal model, given a set of possible interventions, up to an abstraction that describes the system at a higher level of granularity.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2406.04655",
+ "title": "Bayesian Inference for Spatial-Temporal Non-Gaussian Data Using Predictive Stacking",
+ "authors": [
+  "Soumyakanti Pan",
+  "Lu Zhang",
+  "Jonathan R. Bradley",
+  "Sudipto Banerjee"
+ ],
+ "v1_date": "2024-06-07",
+ "latest_version": 4,
+ "latest_date": "2025-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 9 figures",
+ "abstract": "Analysing non-Gaussian spatial-temporal data requires introducing spatial as well as temporal dependence in generalised linear models through the link function of an exponential family distribution. Unlike in Gaussian likelihoods, inference is considerably encumbered by the inability to analytically integrate out the random effects and reduce the dimension of the parameter space. Iterative estimation algorithms struggle to converge due to the presence of weakly identified parameters. We devise Bayesian inference using predictive stacking that assimilates inference from analytically tractable conditional posterior distributions. We achieve this by expanding upon the Diaconis-Ylvisaker family of conjugate priors and exploiting generalised conjugate multivariate (GCM) distribution theory for exponential families, which enables exact sampling from analytically available posterior distributions conditional upon some process parameters. Subsequently, we assimilate inference over a range of values of these parameters using Bayesian predictive stacking. We evaluate inferential performance on simulated data, compare with full Bayesian inference using Markov chain Monte Carlo (MCMC) and apply our method to analyse spatially-temporally referenced avian count data from the North American Breeding Bird Survey database.",
+ "primary": "stat.ME"
+}

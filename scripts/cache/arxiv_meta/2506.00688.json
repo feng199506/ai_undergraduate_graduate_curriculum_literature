@@ -1,0 +1,22 @@
+{
+ "id": "2506.00688",
+ "title": "Existing Large Language Model Unlearning Evaluations Are Inconclusive",
+ "authors": [
+  "Zhili Feng",
+  "Yixuan Even Xu",
+  "Alexander Robey",
+  "Robert Kirk",
+  "Xander Davies",
+  "Yarin Gal",
+  "Avi Schwarzschild",
+  "J. Zico Kolter"
+ ],
+ "v1_date": "2025-05-31",
+ "latest_version": 1,
+ "latest_date": "2025-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine unlearning aims to remove sensitive or undesired data from large language models. However, recent studies suggest that unlearning is often shallow, claiming that removed knowledge can easily be recovered. In this work, we critically examine standard unlearning evaluation practices and uncover key limitations that shake our trust in those findings. First, we show that some evaluations introduce substantial new information into the model, potentially masking true unlearning performance by re-teaching the model during testing. Second, we demonstrate that evaluation outcomes vary significantly across tasks, undermining the generalizability of current evaluation routines. Finally, we find that many evaluations rely on spurious correlations, making their results difficult to trust and interpret. Taken together, these issues suggest that current evaluation protocols may both overstate and understate unlearning success. To address this, we propose two principles for future unlearning evaluations: minimal information injection and downstream task awareness. We validate these principles through a series of targeted experiments, showing how violations of each can lead to misleading conclusions.",
+ "primary": "cs.LG"
+}

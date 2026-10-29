@@ -1,0 +1,19 @@
+{
+ "id": "2609.30298",
+ "title": "A Benchmark Framework for Screening Automation in Systematic Reviews",
+ "authors": [
+  "Gauransh Kumar",
+  "Luciano Marchezan",
+  "Guillaume Genois",
+  "Kévin Delcourt",
+  "Eugene Syriani"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 2,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Systematic reviews (SR) are essential for evidence-based research, but their screening phase is highly time-consuming and labor-intensive. Large language models (LLMs) offer a promising opportunity to reduce this workload by assisting with article relevance classification. However, existing evaluation approaches often rely on traditional metrics that may be misleading for highly imbalanced SR screening datasets. This paper presents a benchmark dataset of $45\\,064$ labeled entries for evaluating LLM performance in SR screening across 32 curated secondary studies. It proposes an evaluation framework that accounts for class imbalance, i.e., the natural prevalence of excluded articles relative to included articles in SRs. It also introduces PromptSR, a tool designed to support prompt experimentation, experiment management, and result analysis for LLM-based screening. We also present a use case demonstrating the application of SRBench and PromptSR.",
+ "primary": "cs.CL"
+}

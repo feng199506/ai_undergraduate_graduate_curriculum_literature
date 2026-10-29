@@ -1,0 +1,15 @@
+{
+ "id": "2404.19157",
+ "title": "Scalable Bayesian Inference in the Era of Deep Learning: From Gaussian Processes to Deep Neural Networks",
+ "authors": [
+  "Javier Antoran"
+ ],
+ "v1_date": "2024-04-29",
+ "latest_version": 1,
+ "latest_date": "2024-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "PhD Thesis, University of Cambridge",
+ "abstract": "Large neural networks trained on large datasets have become the dominant paradigm in machine learning. These systems rely on maximum likelihood point estimates of their parameters, precluding them from expressing model uncertainty. This may result in overconfident predictions and it prevents the use of deep learning models for sequential decision making. This thesis develops scalable methods to equip neural networks with model uncertainty. In particular, we leverage the linearised Laplace approximation to equip pre-trained neural networks with the uncertainty estimates provided by their tangent linear models. This turns the problem of Bayesian inference in neural networks into one of Bayesian inference in conjugate Gaussian-linear models. Alas, the cost of this remains cubic in either the number of network parameters or in the number of observations times output dimensions. By assumption, neither are tractable. We address this intractability by using stochastic gradient descent (SGD) -- the workhorse algorithm of deep learning -- to perform posterior sampling in linear models and their convex duals: Gaussian processes. With this, we turn back to linearised neural networks, finding the linearised Laplace approximation to present a number of incompatibilities with modern deep learning practices -- namely, stochastic optimisation, early stopping and normalisation layers -- when used for hyperparameter learning. We resolve these and construct a sample-based EM algorithm for scalable hyperparameter learning with linearised neural networks. We apply the above methods to perform linearised neural network inference with ResNet-50 (25M parameters) trained on Imagenet (1.2M observations and 1000 output dimensions). Additionally, we apply our methods to estimate uncertainty for 3d tomographic reconstructions obtained with the deep image prior network.",
+ "primary": "stat.ML"
+}

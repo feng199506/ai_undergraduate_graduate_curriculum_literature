@@ -1,0 +1,19 @@
+{
+ "id": "2410.07584",
+ "title": "Imitation Learning with Limited Actions via Diffusion Planners and Deep Koopman Controllers",
+ "authors": [
+  "Jianxin Bi",
+  "Kelvin Lim",
+  "Kaiqi Chen",
+  "Yifei Huang",
+  "Harold Soh"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 2,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to IEEE International Conference on Robotics and Automation (ICRA) 2025",
+ "abstract": "Recent advances in diffusion-based robot policies have demonstrated significant potential in imitating multi-modal behaviors. However, these approaches typically require large quantities of demonstration data paired with corresponding robot action labels, creating a substantial data collection burden. In this work, we propose a plan-then-control framework aimed at improving the action-data efficiency of inverse dynamics controllers by leveraging observational demonstration data. Specifically, we adopt a Deep Koopman Operator framework to model the dynamical system and utilize observation-only trajectories to learn a latent action representation. This latent representation can then be effectively mapped to real high-dimensional continuous actions using a linear action decoder, requiring minimal action-labeled data. Through experiments on simulated robot manipulation tasks and a real robot experiment with multi-modal expert demonstrations, we demonstrate that our approach significantly enhances action-data efficiency and achieves high task success rates with limited action data.",
+ "primary": "cs.RO"
+}

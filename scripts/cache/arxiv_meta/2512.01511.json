@@ -1,0 +1,18 @@
+{
+ "id": "2512.01511",
+ "title": "Enhanced detection limits in the SHINE F150 survey through the Regime Switching Model. Optimizing thresholds and investigating environmental noise",
+ "authors": [
+  "Mariam Sabalbal",
+  "Olivier Absil",
+  "Carl-Henrik Dahlqvist",
+  "Philippe Delorme"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 2,
+ "latest_date": "2026-01-21",
+ "journal_ref": "A&A 706, A275 (2026)",
+ "doi": "10.1051/0004-6361/202555206",
+ "comment": "",
+ "abstract": "In high-contrast imaging, a novel detection algorithm for angular differential imaging (ADI) sequences has recently been introduced: the Regime Switching Model (RSM). In this study, we apply the RSM algorithm to analyze the F150 sample from the SHINE high-contrast imaging survey carried out with VLT/SPHERE, aiming to enhance detection limits and identify new exoplanet candidates. Additionally, we investigate how environmental conditions influence post-processed noise distributions and detection thresholds. We generate detection maps and contrast curves for 213 observations in the F150 SHINE sample using the RSM algorithm. A clustering approach based on environmental parameters is used to group observations with similar noise characteristics. We propose two methods for defining radial detection thresholds in the RSM maps: fitting a log-normal distribution to the post-processed noise and maximizing the F1 score. We also assess the performance of various combinations of post-processing techniques within the RSM framework to identify optimal configurations. This study demonstrates the utility of clustering based on observational parameters, effectively distinguishing features like wind-driven halos and low-wind effects. Detection thresholds vary significantly across clusters, differing by up to a factor of 10, highlighting the importance of considering observational environments. Log-normal thresholds provide conservative, noise-aware limits, while F1 score-based thresholds offer observation-specific results, both showing compatibility overall. RSM improves detection limits by an average factor of two at 1arcsec and five at inner working angles compared to standard PCA processing. This study reports more than 30 newly detected signals, including one promising candidate awaiting second-epoch confirmation.",
+ "primary": "astro-ph.IM"
+}

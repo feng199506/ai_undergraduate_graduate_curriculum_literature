@@ -1,0 +1,17 @@
+{
+ "id": "2610.16518",
+ "title": "Asymptotic Risk of Learning-Rate Schedules for Least-Squares Regression with Discretely Distributed Features",
+ "authors": [
+  "Noé Colomban",
+  "Francis Bach",
+  "Fabian Schaipp"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 9 figures",
+ "abstract": "We study the last iterate of stochastic gradient descent (SGD) on streaming least squares with discretely distributed features (Slock's model), which decouples the dynamics across eigendirections. Under power-law source and capacity conditions, we derive the exact finite-time risk and asymptotic equivalents of constant and Warmup-Stable-Decay (WSD) schedules. With a tuned base learning-rate, the resulting scaling law decays as $Θ(T^{-q})$, where $T$ is the horizon, and $q$ is independent of the cooldown length $c \\in (0,1]$ but is strictly smaller for the constant schedule: any cooldown of fixed relative length $c > 0$, however short, improves the risk by a polynomial factor, while its length only affects the constant, which is minimized by linear decay ($c = 1$). Finally, we show that the optimal risk depends on the batch size $b$ and horizon $T$ only through $bT$, up to a critical batch size.",
+ "primary": "cs.LG"
+}

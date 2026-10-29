@@ -1,0 +1,18 @@
+{
+ "id": "2501.11086",
+ "title": "Evaluating LLM-Based Regression Test Generation",
+ "authors": [
+  "Jing Liu",
+  "Seongmin Lee",
+  "Eleonora Losiouk",
+  "Marcel Böhme"
+ ],
+ "v1_date": "2025-01-19",
+ "latest_version": 2,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "10.1145/3808129",
+ "comment": "23 pages. Published in PACMSE Volume 3, Issue FSE. Artifact of Paper \"Evaluating LLM-based Regression Test Generation\": https://dl.acm.org/do/10.5281/zenodo.19616584",
+ "abstract": "Large Language Models (LLMs) have shown tremendous promise in automated software engineering. In this paper, we investigate LLMs for just-in-time regression test generation for programs, like parsers, interpreters, or compilers, that take highly structured, human-readable inputs. When a bug fix or code change is committed, the repository (as part of CI/CD) runs an LLM for a few minutes to generate regression tests that exercise the changed code and potentially trigger bugs. We frame LLM-based regression test generation as a machine translation task that takes the developer-provided commit message, the code change, and the input format name (e.g., XML), and produces regression tests for the described change in that format. Testing 72 commits to Mujs, Libxml2, Poppler, JerryScript, Z3, PHP, JQ, and MicroPython, our feedback-directed, zero-shot prototype Cleverest performed well, even without the code change. In under 2 minutes on average, Cleverest found as many bugs as the state-of-the-art directed greybox fuzzer WAFLGo did in 24 hours, even though WAFLGo started with a commit-reaching seed corpus in most cases. Using the Cleverest-generated tests as a seed corpus in coverage-guided greybox fuzzing doubles the number of bugs found; we call this integration ClevFuzz. We also find that some commit messages are more expressive than others, thus we ask how it impacts Cleverest's effectiveness. Cleverest picks up on the change intention: e.g., given a commit message that a patch changes how floating point variables are treated in the Mujs JavaScript interpreter, Cleverest generates JavaScript programs that contain floating point variables. Minimally changing commit messages to reduce or increase their information substantially impacts effectiveness: adding 17 words on average (max. 43) to make ineffective commit messages more expressive significantly increased the number of bugs found.",
+ "primary": "cs.SE"
+}

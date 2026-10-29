@@ -1,0 +1,19 @@
+{
+ "id": "2605.26327",
+ "title": "Reparametrizing Shampoo and SOAP for Subspace Basis Updates and BFloat16 Storage",
+ "authors": [
+  "Alan Milligan",
+  "Zikun Xu",
+  "Simon Lacoste-Julien",
+  "Felix Dangel",
+  "Wu Lin"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 1,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint, working in progress",
+ "abstract": "Shampoo-based methods, such as KL-Shampoo and SOAP, have demonstrated strong performance in training neural networks and rely on QR decomposition. Because existing QR implementations require single-precision (FP32) arithmetic and remain computationally expensive, these methods become time- and memory-intensive when their preconditioning matrices are large. Moreover, using BFloat16 (BFP16) storage to reduce memory usage can degrade the performance of Shampoo-based methods. We propose a reparametrization of the preconditioner that supports BFP16 storage and forms a complete basis by combining updated basis vectors with unchanged ones. By updating only part of the basis through QR decomposition in a subspace, our approach reduces computational overhead while mitigating the performance degradation caused by BFP16 storage. Our approach applies broadly to Shampoo-based methods that employ QR decomposition, including KL-Shampoo, SOAP, and KL-SOAP. In particular, it improves the performance of SOAP and KL-SOAP under BFP16 storage, enabling KL-SOAP to match or exceed KL-Shampoo. Overall, our approach makes Shampoo-based methods more memory- and time-efficient.",
+ "primary": "cs.LG"
+}

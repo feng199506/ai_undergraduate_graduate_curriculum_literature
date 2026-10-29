@@ -1,0 +1,18 @@
+{
+ "id": "2510.10625",
+ "title": "ImpMIA: Leveraging Implicit Bias for Membership Inference Attack",
+ "authors": [
+  "Yuval Golbari",
+  "Navve Wasserman",
+  "Gal Vardi",
+  "Michal Irani"
+ ],
+ "v1_date": "2025-10-12",
+ "latest_version": 3,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Determining which data samples were used to train a model, known as Membership Inference Attack (MIA), is a well-studied and important problem with implications on data privacy. SotA methods (which are black-box attacks) rely on training many auxiliary reference models to imitate the behavior of the attacked model. As such, they rely on assumptions which rarely hold in real-world settings: (i) the attacker knows the training hyperparameters; (ii) all available non-training samples come from the same distribution as the training data; and (iii) the fraction of training data in the evaluation set is known. We show that removing these assumptions significantly harms the performance of black-box attacks. We introduce ImpMIA, a Membership Inference Attack that exploits the Implicit Bias of neural networks. Building on the maximum-margin implicit bias theory, ImpMIA uses the Karush-Kuhn-Tucker (KKT) optimality conditions to identify training samples -- those whose gradients most strongly reconstruct the trained model's parameters. Our approach is optimization-based, and requires NO training of reference-models, thus removing the need for any knowledge/assumptions regarding the attacked model's training procedure. While ImpMIA is a white-box attack (a setting which assumes access to model weights), this is becoming increasingly realistic given that many models are publicly available (e.g., via Hugging Face). ImpMIA achieves SotA performance compared to both black and white box attacks in settings where only the model weights are known, and a superset of the training data is available.",
+ "primary": "cs.LG"
+}

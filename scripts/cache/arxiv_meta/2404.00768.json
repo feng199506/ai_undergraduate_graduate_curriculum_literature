@@ -1,0 +1,16 @@
+{
+ "id": "2404.00768",
+ "title": "Adversarially-Robust Inference on Trees via Belief Propagation",
+ "authors": [
+  "Samuel B. Hopkins",
+  "Anqi Li"
+ ],
+ "v1_date": "2024-03-31",
+ "latest_version": 1,
+ "latest_date": "2024-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce and study the problem of posterior inference on tree-structured graphical models in the presence of a malicious adversary who can corrupt some observed nodes. In the well-studied broadcasting on trees model, corresponding to the ferromagnetic Ising model on a $d$-regular tree with zero external field, when a natural signal-to-noise ratio exceeds one (the celebrated Kesten-Stigum threshold), the posterior distribution of the root given the leaves is bounded away from $\\mathrm{Ber}(1/2)$, and carries nontrivial information about the sign of the root. This posterior distribution can be computed exactly via dynamic programming, also known as belief propagation. We first confirm a folklore belief that a malicious adversary who can corrupt an inverse-polynomial fraction of the leaves of their choosing makes this inference impossible. Our main result is that accurate posterior inference about the root vertex given the leaves is possible when the adversary is constrained to make corruptions at a $ρ$-fraction of randomly-chosen leaf vertices, so long as the signal-to-noise ratio exceeds $O(\\log d)$ and $ρ\\leq c \\varepsilon$ for some universal $c > 0$. Since inference becomes information-theoretically impossible when $ρ\\gg \\varepsilon$, this amounts to an information-theoretically optimal fraction of corruptions, up to a constant multiplicative factor. Furthermore, we show that the canonical belief propagation algorithm performs this inference.",
+ "primary": "cs.DS"
+}

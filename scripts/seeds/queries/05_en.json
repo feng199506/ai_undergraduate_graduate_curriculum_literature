@@ -74,5 +74,33 @@
  {
   "q": "(ti:SAT OR ti:satisfiability OR ti:\"constraint programming\" OR ti:MiniZinc) AND (abs:\"machine learning\" OR abs:\"language model\" OR abs:\"neural\") AND cat:cs.AI",
   "subtopic": "约束满足"
+ },
+ {
+  "q": "(ti:\"constraint programming\" OR ti:\"constraint modelling\" OR ti:\"constraint modeling\" OR ti:\"combinatorial optimization\") AND abs:\"large language model\"",
+  "subtopic": "约束满足"
+ },
+ {
+  "q": "(ti:\"heuristic search\" OR ti:\"A*\" OR ti:\"best-first search\") AND cat:cs.AI",
+  "subtopic": "搜索算法"
+ },
+ {
+  "q": "(ti:\"Monte Carlo tree search\" OR ti:MCTS) AND (ti:survey OR ti:review OR ti:theory OR ti:analysis OR ti:convergence)",
+  "subtopic": "搜索算法"
+ },
+ {
+  "q": "(ti:\"probabilistic logic\" OR ti:\"probabilistic logic programming\" OR ti:\"weighted model counting\" OR ti:\"knowledge compilation\" OR ti:\"probabilistic circuits\") AND (ti:survey OR ti:tutorial OR ti:introduction OR abs:neurosymbolic)",
+  "subtopic": "不确定性推理"
+ },
+ {
+  "q": "(ti:POMDP OR ti:\"partially observable\" OR ti:\"decision-theoretic planning\") AND (ti:survey OR ti:tutorial OR ti:review OR ti:introduction)",
+  "subtopic": "规划与决策"
+ },
+ {
+  "q": "(ti:\"generalized planning\" OR ti:\"learning for planning\" OR ti:\"classical planning\") AND cat:cs.AI",
+  "subtopic": "规划与决策"
+ },
+ {
+  "q": "(ti:\"description logic\" OR ti:\"commonsense reasoning\" OR ti:\"non-monotonic\") AND (ti:survey OR ti:tutorial OR ti:review OR ti:benchmark OR abs:\"language model\") AND cat:cs.AI",
+  "subtopic": "知识表示"
  }
 ]

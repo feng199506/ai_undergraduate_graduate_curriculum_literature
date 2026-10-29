@@ -1,0 +1,20 @@
+{
+ "id": "2410.16673",
+ "title": "Efficient Antibody Structure Refinement Using Energy-Guided SE(3) Flow Matching",
+ "authors": [
+  "Jiying Zhang",
+  "Zijing Liu",
+  "Shengyuan Bai",
+  "He Cao",
+  "Yu Li",
+  "Lei Zhang"
+ ],
+ "v1_date": "2024-10-22",
+ "latest_version": 1,
+ "latest_date": "2024-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "BIBM 2024 regular paper",
+ "abstract": "Antibodies are proteins produced by the immune system that recognize and bind to specific antigens, and their 3D structures are crucial for understanding their binding mechanism and designing therapeutic interventions. The specificity of antibody-antigen binding predominantly depends on the complementarity-determining regions (CDR) within antibodies. Despite recent advancements in antibody structure prediction, the quality of predicted CDRs remains suboptimal. In this paper, we develop a novel antibody structure refinement method termed FlowAB based on energy-guided flow matching. FlowAB adopts the powerful deep generative method SE(3) flow matching and simultaneously incorporates important physical prior knowledge into the flow model to guide the generation process. The extensive experiments demonstrate that FlowAB can significantly improve the antibody CDR structures. It achieves new state-of-the-art performance on the antibody structure prediction task when used in conjunction with an appropriate prior model while incurring only marginal computational overhead. This advantage makes FlowAB a practical tool in antibody engineering.",
+ "primary": "cs.LG"
+}

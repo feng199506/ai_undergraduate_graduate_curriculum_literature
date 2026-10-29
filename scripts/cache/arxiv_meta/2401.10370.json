@@ -1,0 +1,21 @@
+{
+ "id": "2401.10370",
+ "title": "Deep Generative Modeling for Financial Time Series with Application in VaR: A Comparative Review",
+ "authors": [
+  "Lars Ericson",
+  "Xuejun Zhu",
+  "Xusi Han",
+  "Rao Fu",
+  "Shuang Li",
+  "Steve Guo",
+  "Ping Hu"
+ ],
+ "v1_date": "2024-01-18",
+ "latest_version": 1,
+ "latest_date": "2024-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the financial services industry, forecasting the risk factor distribution conditional on the history and the current market environment is the key to market risk modeling in general and value at risk (VaR) model in particular. As one of the most widely adopted VaR models in commercial banks, Historical simulation (HS) uses the empirical distribution of daily returns in a historical window as the forecast distribution of risk factor returns in the next day. The objectives for financial time series generation are to generate synthetic data paths with good variety, and similar distribution and dynamics to the original historical data. In this paper, we apply multiple existing deep generative methods (e.g., CGAN, CWGAN, Diffusion, and Signature WGAN) for conditional time series generation, and propose and test two new methods for conditional multi-step time series generation, namely Encoder-Decoder CGAN and Conditional TimeVAE. Furthermore, we introduce a comprehensive framework with a set of KPIs to measure the quality of the generated time series for financial modeling. The KPIs cover distribution distance, autocorrelation and backtesting. All models (HS, parametric and neural networks) are tested on both historical USD yield curve data and additional data simulated from GARCH and CIR processes. The study shows that top performing models are HS, GARCH and CWGAN models. Future research directions in this area are also discussed.",
+ "primary": "q-fin.CP"
+}

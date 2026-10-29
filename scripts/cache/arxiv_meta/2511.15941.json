@@ -1,0 +1,19 @@
+{
+ "id": "2511.15941",
+ "title": "iLTM: Integrated Large Tabular Model",
+ "authors": [
+  "David Bonet",
+  "Marçal Comajoan Cara",
+  "Alvaro Calafell",
+  "Daniel Mas Montserrat",
+  "Alexander G. Ioannidis"
+ ],
+ "v1_date": "2025-11-20",
+ "latest_version": 2,
+ "latest_date": "2026-08-09",
+ "journal_ref": "Proc. 32nd ACM SIGKDD Conf. on Knowledge Discovery and Data Mining, 2, 186-197 (2026)",
+ "doi": "10.1145/3770855.3817810",
+ "comment": "Extended version of a paper accepted at KDD '26",
+ "abstract": "Tabular data underpins decisions across science, industry, and public services. Despite rapid progress, advances in deep learning have not fully carried over to the tabular domain, where gradient-boosted decision trees (GBDTs) remain a default choice in practice. We present iLTM, an integrated Large Tabular Model that unifies tree-derived embeddings, dimensionality-agnostic representations, a meta-trained hypernetwork, multilayer perceptrons (MLPs), and retrieval within a single architecture. Pre-trained on more than 1,800 heterogeneous classification datasets, iLTM achieves consistently superior performance across tabular classification and regression tasks, from small datasets to large and high-dimensional tasks. After light fine-tuning, the meta-trained hypernetwork transfers to regression targets, matching or surpassing strong baselines. Extensive experiments show that iLTM outperforms well-tuned GBDTs and leading deep tabular models while requiring less task-specific tuning. By bridging the gap between tree-based and neural methods, iLTM offers a new framework for tabular foundation models for robust, adaptable, and scalable tabular learning.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2403.05092",
+ "title": "Model Comparison for Fast Domain Adaptation in Table Service Scenario",
+ "authors": [
+  "Woo-han Yun",
+  "Minsu Jang",
+  "Jaehong Kim"
+ ],
+ "v1_date": "2024-03-08",
+ "latest_version": 1,
+ "latest_date": "2024-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4 pages, 4 figures",
+ "abstract": "In restaurants, many aspects of customer service, such as greeting customers, taking orders, and processing payments, are automated. Due to the various cuisines, required services, and different standards of each restaurant, one challenging part of making the entire automated process is inspecting and providing appropriate services at the table during a meal. In this paper, we demonstrate an approach for automatically checking and providing services at the table. We initially construct a base model to recognize common information to comprehend the context of the table, such as object category, remaining food quantity, and meal progress status. After that, we add a service recognition classifier and retrain the model using a small amount of local restaurant data. We gathered data capturing the restaurant table during the meal in order to find a suitable service recognition classifier. With different inputs, combinations, time series, and data choices, we carried out a variety of tests. Through these tests, we discovered that the model with few significant data points and trainable parameters is more crucial in the case of sparse and redundant retraining data.",
+ "primary": "cs.RO"
+}

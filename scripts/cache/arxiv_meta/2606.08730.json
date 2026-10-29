@@ -1,0 +1,16 @@
+{
+ "id": "2606.08730",
+ "title": "Statistical Optimality of Prediction-Powered Inference",
+ "authors": [
+  "Se Yoon Lee",
+  "Jae Kwang Kim"
+ ],
+ "v1_date": "2026-06-07",
+ "latest_version": 1,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The prediction-powered inference (PPI) proposed by Angelopoulos et al. (2023) is a popular method that leverages a small number of labeled samples and machine learning predictions for semi-supervised inference. While several variants of PPI have appeared in the literature, its rigorous statistical theory has not been fully developed. In this paper, we study the statistical optimality of PPI. Our contributions span both foundational theory and new methodology. First, we frame PPI as an M-estimation problem, revealing a link between the bias-corrected PPI estimating equation and the ideal full-data estimating equation. This connection leads to the consistency and asymptotic normality of the PPI estimator under simple random sampling without replacement. Next, we identify the efficient influence function and prove that PPI can attain the semiparametric efficiency lower bound when the predictor is score-calibrated, that is, when the predictor's output aligns with the true conditional expectation of the estimating function. Finally, for learned prediction rules, we develop asymptotic theory for cross-fitting and for a single-fit variant with variance correction in the special case of semiparametric mean estimation. Simulation experiments and a real-data application support these findings.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2610.12967",
+ "title": "Spatial Prediction with Guided Diffusion",
+ "authors": [
+  "Andrew Zammit-Mangion",
+  "Lachlan Astfalck",
+  "Raphaël Huser",
+  "Christopher Nemeth",
+  "Henry B. Moss"
+ ],
+ "v1_date": "2026-10-09",
+ "latest_version": 1,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial prediction is a critically important task in data analyses that involve spatially or spatio-temporally-referenced data. It is commonly carried out using hierarchical models, which comprise a process model describing the latent process of interest, and a data model describing how the process is observed. The target quantity is the predictive distribution, which is the conditional distribution of the latent spatial process given the observed data. Unfortunately, the predictive distribution is rarely available in closed form and can be difficult to sample from. Here, we show how recent developments in guided diffusion modelling from machine learning can address a wide class of problems in spatial prediction when the likelihood function derived from the data model is known and differentiable, possibly after relaxation. To show the versatility of the approach, we apply it to both Gaussian and non-Gaussian process models and a variety of data models that describe direct partial observations, linear and areal aggregates, counts, right censoring, and area-exceedance functionals. Where possible, we validate the framework against exact and Markov-chain-Monte-Carlo (MCMC)-derived predictive distributions. We demonstrate our approach on several simulation studies and in a controlled experiment of methane-flux inversion over the UK and Ireland. We show that guided diffusion can sample from the correct predictive distribution in a variety of settings, that it can be applied to models where MCMC is intractable, and that it scales well with the dimensionality of the latent process.",
+ "primary": "stat.ME"
+}

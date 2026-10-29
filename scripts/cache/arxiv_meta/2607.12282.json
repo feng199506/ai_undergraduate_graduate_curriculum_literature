@@ -1,0 +1,16 @@
+{
+ "id": "2607.12282",
+ "title": "Verifying Probabilistic Programs in Rust",
+ "authors": [
+  "Alexander Y. Bai",
+  "Joseph Tassarotti"
+ ],
+ "v1_date": "2026-07-14",
+ "latest_version": 1,
+ "latest_date": "2026-07-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent work has developed many techniques for formally verifying probabilistic programs. However, existing verification frameworks for probabilistic programs are restricted to idealized languages designed for verification. As a result, they cannot be used to verify off-the-shelf probabilistic programs written in standard languages. In contrast, for non-probabilistic programs, a number of verification tools now support verifying realistic code written in widely used languages such as Go, C, and Rust. To verify probabilistic programs written in these languages, it would be useful to be able to reuse, as much as possible, the extensive development work that has gone into such tools. This paper presents Alerus, a framework for verifying probabilistic Rust programs. Alerus is based on Verus, a verification tool for Rust that supports SMT-based automation and separation-logic-inspired reasoning features. Alerus extends Verus with support for probabilistic reasoning while retaining these expressive features. To do so, Alerus uses a lightweight encoding of probabilistic error credits, a form of ghost state for randomized reasoning introduced in the Eris program logic. By deriving an appropriate specification using error credits, Alerus supports verifying the correctness of randomized sampling algorithms. We use this technique to verify several sampling routines for discrete distributions, including samplers for the discrete Gaussian distributions, the alias method, and the fast loaded dice roller. We establish the soundness of our error credit extension by adapting VerusBelt, a recently developed logical relations model of Verus that encodes its features in terms of the Iris separation logic. To do so, we replace the use of Iris's standard weakest precondition in this model with Eris's probabilistic weakest precondition instead. The resulting soundness proof is fully mechanized in Rocq.",
+ "primary": "cs.PL"
+}

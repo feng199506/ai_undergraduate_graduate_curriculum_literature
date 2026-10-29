@@ -1,0 +1,20 @@
+{
+ "id": "2411.09181",
+ "title": "DeBaTeR: Denoising Bipartite Temporal Graph for Recommendation",
+ "authors": [
+  "Xinyu He",
+  "Jose Sepulveda",
+  "Mostafa Rahmani",
+  "Alyssa Woo",
+  "Fei Wang",
+  "Hanghang Tong"
+ ],
+ "v1_date": "2024-11-14",
+ "latest_version": 1,
+ "latest_date": "2024-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Due to the difficulty of acquiring large-scale explicit user feedback, implicit feedback (e.g., clicks or other interactions) is widely applied as an alternative source of data, where user-item interactions can be modeled as a bipartite graph. Due to the noisy and biased nature of implicit real-world user-item interactions, identifying and rectifying noisy interactions are vital to enhance model performance and robustness. Previous works on purifying user-item interactions in collaborative filtering mainly focus on mining the correlation between user/item embeddings and noisy interactions, neglecting the benefit of temporal patterns in determining noisy interactions. Time information, while enhancing the model utility, also bears its natural advantage in helping to determine noisy edges, e.g., if someone usually watches horror movies at night and talk shows in the morning, a record of watching a horror movie in the morning is more likely to be noisy interaction. Armed with this observation, we introduce a simple yet effective mechanism for generating time-aware user/item embeddings and propose two strategies for denoising bipartite temporal graph in recommender systems (DeBaTeR): the first is through reweighting the adjacency matrix (DeBaTeR-A), where a reliability score is defined to reweight the edges through both soft assignment and hard assignment; the second is through reweighting the loss function (DeBaTeR-L), where weights are generated to reweight user-item samples in the losses. Extensive experiments have been conducted to demonstrate the efficacy of our methods and illustrate how time information indeed helps identifying noisy edges.",
+ "primary": "cs.IR"
+}

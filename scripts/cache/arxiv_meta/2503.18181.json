@@ -1,0 +1,17 @@
+{
+ "id": "2503.18181",
+ "title": "Adaptive Physics-informed Neural Networks: A Survey",
+ "authors": [
+  "Edgar Torres",
+  "Jonathan Schiefer",
+  "Mathias Niepert"
+ ],
+ "v1_date": "2025-03-23",
+ "latest_version": 1,
+ "latest_date": "2025-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "https://openreview.net/forum?id=vz5P1Kbt6t",
+ "abstract": "Physics-informed neural networks (PINNs) have emerged as a promising approach to solving partial differential equations (PDEs) using neural networks, particularly in data-scarce scenarios, due to their unsupervised training capability. However, limitations related to convergence and the need for re-optimization with each change in PDE parameters hinder their widespread adoption across scientific and engineering applications. This survey reviews existing research that addresses these limitations through transfer learning and meta-learning. The covered methods improve the training efficiency, allowing faster adaptation to new PDEs with fewer data and computational resources. While traditional numerical methods solve systems of differential equations directly, neural networks learn solutions implicitly by adjusting their parameters. One notable advantage of neural networks is their ability to abstract away from specific problem domains, allowing them to retain, discard, or adapt learned representations to efficiently address similar problems. By exploring the application of these techniques to PINNs, this survey identifies promising directions for future research to facilitate the broader adoption of PINNs in a wide range of scientific and engineering applications.",
+ "primary": "cs.LG"
+}

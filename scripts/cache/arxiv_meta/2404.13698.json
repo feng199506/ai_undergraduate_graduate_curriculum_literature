@@ -1,0 +1,20 @@
+{
+ "id": "2404.13698",
+ "title": "Resampling-free Particle Filters in High-dimensions",
+ "authors": [
+  "Akhilan Boopathy",
+  "Aneesh Muppidi",
+  "Peggy Yang",
+  "Abhiram Iyer",
+  "William Yue",
+  "Ila Fiete"
+ ],
+ "v1_date": "2024-04-21",
+ "latest_version": 1,
+ "latest_date": "2024-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at ICRA 2024, 7 pages, 5 figures",
+ "abstract": "State estimation is crucial for the performance and safety of numerous robotic applications. Among the suite of estimation techniques, particle filters have been identified as a powerful solution due to their non-parametric nature. Yet, in high-dimensional state spaces, these filters face challenges such as 'particle deprivation' which hinders accurate representation of the true posterior distribution. This paper introduces a novel resampling-free particle filter designed to mitigate particle deprivation by forgoing the traditional resampling step. This ensures a broader and more diverse particle set, especially vital in high-dimensional scenarios. Theoretically, our proposed filter is shown to offer a near-accurate representation of the desired posterior distribution in high-dimensional contexts. Empirically, the effectiveness of our approach is underscored through a high-dimensional synthetic state estimation task and a 6D pose estimation derived from videos. We posit that as robotic systems evolve with greater degrees of freedom, particle filters tailored for high-dimensional state spaces will be indispensable.",
+ "primary": "cs.RO"
+}

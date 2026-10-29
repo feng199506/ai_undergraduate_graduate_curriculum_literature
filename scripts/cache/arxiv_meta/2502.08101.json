@@ -1,0 +1,19 @@
+{
+ "id": "2502.08101",
+ "title": "Rethinking Tokenized Graph Transformers for Node Classification",
+ "authors": [
+  "Jinsong Chen",
+  "Chenyang Li",
+  "GaiChao Li",
+  "John E. Hopcroft",
+  "Kun He"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 1,
+ "latest_date": "2025-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint version",
+ "abstract": "Node tokenized graph Transformers (GTs) have shown promising performance in node classification. The generation of token sequences is the key module in existing tokenized GTs which transforms the input graph into token sequences, facilitating the node representation learning via Transformer. In this paper, we observe that the generations of token sequences in existing GTs only focus on the first-order neighbors on the constructed similarity graphs, which leads to the limited usage of nodes to generate diverse token sequences, further restricting the potential of tokenized GTs for node classification. To this end, we propose a new method termed SwapGT. SwapGT first introduces a novel token swapping operation based on the characteristics of token sequences that fully leverages the semantic relevance of nodes to generate more informative token sequences. Then, SwapGT leverages a Transformer-based backbone to learn node representations from the generated token sequences. Moreover, SwapGT develops a center alignment loss to constrain the representation learning from multiple token sequences, further enhancing the model performance. Extensive empirical results on various datasets showcase the superiority of SwapGT for node classification.",
+ "primary": "cs.LG"
+}

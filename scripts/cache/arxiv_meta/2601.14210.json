@@ -1,0 +1,19 @@
+{
+ "id": "2601.14210",
+ "title": "DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness",
+ "authors": [
+  "Rohan Bhatnagar",
+  "Youran Sun",
+  "Chi Andrew Zhang",
+  "Yixin Wen",
+  "Haizhao Yang"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "LLMs often produce fluent but incorrect answers, yet detecting such hallucinations typically requires multiple sampling passes or post-hoc verification, adding significant latency and cost. We hypothesize that intermediate layers encode confidence signals that are lost in the final output layer, and propose a lightweight probe to read these signals directly from hidden states. The probe adds less than 0.1\\% computational overhead and can run fully in parallel with generation, enabling hallucination detection before the answer is produced. Building on this, we develop an LLM router that answers confident queries immediately while delegating uncertain ones to stronger models. Despite its simplicity, our method achieves SOTA AUROC on 10 out of 12 settings across four QA benchmarks and three LLM families, with gains of up to 13 points over prior methods, and generalizes across dataset shifts without retraining.",
+ "primary": "cs.CL"
+}

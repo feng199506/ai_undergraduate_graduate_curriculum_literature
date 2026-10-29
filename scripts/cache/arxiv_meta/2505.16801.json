@@ -1,0 +1,19 @@
+{
+ "id": "2505.16801",
+ "title": "A modular framework for automated evaluation of procedural content generation in serious games with deep reinforcement learning agents",
+ "authors": [
+  "Eleftherios Kalafatis",
+  "Konstantinos Mitsis",
+  "Konstantia Zarkogianni",
+  "Maria Athanasiou",
+  "Konstantina Nikita"
+ ],
+ "v1_date": "2025-05-22",
+ "latest_version": 2,
+ "latest_date": "2025-07-13",
+ "journal_ref": "",
+ "doi": "10.1109/tg.2025.3589439",
+ "comment": "",
+ "abstract": "Serious Games (SGs) are nowadays shifting focus to include procedural content generation (PCG) in the development process as a means of offering personalized and enhanced player experience. However, the development of a framework to assess the impact of PCG techniques when integrated into SGs remains particularly challenging. This study proposes a methodology for automated evaluation of PCG integration in SGs, incorporating deep reinforcement learning (DRL) game testing agents. To validate the proposed framework, a previously introduced SG featuring card game mechanics and incorporating three different versions of PCG for nonplayer character (NPC) creation has been deployed. Version 1 features random NPC creation, while versions 2 and 3 utilize a genetic algorithm approach. These versions are used to test the impact of different dynamic SG environments on the proposed framework's agents. The obtained results highlight the superiority of the DRL game testing agents trained on Versions 2 and 3 over those trained on Version 1 in terms of win rate (i.e. number of wins per played games) and training time. More specifically, within the execution of a test emulating regular gameplay, both Versions 2 and 3 peaked at a 97% win rate and achieved statistically significant higher (p=0009) win rates compared to those achieved in Version 1 that peaked at 94%. Overall, results advocate towards the proposed framework's capability to produce meaningful data for the evaluation of procedurally generated content in SGs.",
+ "primary": "cs.LG"
+}

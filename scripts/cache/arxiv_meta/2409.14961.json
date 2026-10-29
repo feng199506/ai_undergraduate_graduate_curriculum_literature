@@ -1,0 +1,20 @@
+{
+ "id": "2409.14961",
+ "title": "UELLM: A Unified and Efficient Approach for LLM Inference Serving",
+ "authors": [
+  "Yiyuan He",
+  "Minxian Xu",
+  "Jingfeng Wu",
+  "Wanyi Zheng",
+  "Kejiang Ye",
+  "Chengzhong Xu"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 2,
+ "latest_date": "2024-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 5 figures, ICSOC 2024",
+ "abstract": "In the context of Machine Learning as a Service (MLaaS) clouds, the extensive use of Large Language Models (LLMs) often requires efficient management of significant query loads. When providing real-time inference services, several challenges arise. Firstly, increasing the number of GPUs may lead to a decrease in inference speed due to heightened communication overhead, while an inadequate number of GPUs can lead to out-of-memory errors. Secondly, different deployment strategies need to be evaluated to guarantee optimal utilization and minimal inference latency. Lastly, inefficient orchestration of inference queries can easily lead to significant Service Level Objective (SLO) violations. Lastly, inefficient orchestration of inference queries can easily lead to significant Service Level Objective (SLO) violations. To address these challenges, we propose a Unified and Efficient approach for Large Language Model inference serving (UELLM), which consists of three main components: 1) resource profiler, 2) batch scheduler, and 3) LLM deployer. UELLM minimizes resource overhead, reduces inference latency, and lowers SLO violation rates. Compared with state-of-the-art (SOTA) techniques, UELLM reduces the inference latency by 72.3% to 90.3%, enhances GPU utilization by 1.2X to 4.1X, and increases throughput by 1.92X to 4.98X, it can also serve without violating the inference latency SLO.",
+ "primary": "cs.DC"
+}

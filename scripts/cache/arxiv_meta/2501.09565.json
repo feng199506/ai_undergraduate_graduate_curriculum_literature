@@ -1,0 +1,18 @@
+{
+ "id": "2501.09565",
+ "title": "A New Teacher-Reviewer-Student Framework for Semi-supervised 2D Human Pose Estimation",
+ "authors": [
+  "Wulian Yun",
+  "Mengshi Qi",
+  "Fei Peng",
+  "Huadong Ma"
+ ],
+ "v1_date": "2025-01-16",
+ "latest_version": 1,
+ "latest_date": "2025-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conventional 2D human pose estimation methods typically require extensive labeled annotations, which are both labor-intensive and expensive. In contrast, semi-supervised 2D human pose estimation can alleviate the above problems by leveraging a large amount of unlabeled data along with a small portion of labeled data. Existing semi-supervised 2D human pose estimation methods update the network through backpropagation, ignoring crucial historical information from the previous training process. Therefore, we propose a novel semi-supervised 2D human pose estimation method by utilizing a newly designed Teacher-Reviewer-Student framework. Specifically, we first mimic the phenomenon that human beings constantly review previous knowledge for consolidation to design our framework, in which the teacher predicts results to guide the student's learning and the reviewer stores important historical parameters to provide additional supervision signals. Secondly, we introduce a Multi-level Feature Learning strategy, which utilizes the outputs from different stages of the backbone to estimate the heatmap to guide network training, enriching the supervisory information while effectively capturing keypoint relationships. Finally, we design a data augmentation strategy, i.e., Keypoint-Mix, to perturb pose information by mixing different keypoints, thus enhancing the network's ability to discern keypoints. Extensive experiments on publicly available datasets, demonstrate our method achieves significant improvements compared to the existing methods.",
+ "primary": "cs.CV"
+}

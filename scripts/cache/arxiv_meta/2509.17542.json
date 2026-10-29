@@ -1,0 +1,21 @@
+{
+ "id": "2509.17542",
+ "title": "Disaggregated Prefill and Decoding Inference System for Large Language Model Serving on Multi-Vendor GPUs",
+ "authors": [
+  "Xing Chen",
+  "Rong Shi",
+  "Lu Zhao",
+  "Lingbin Wang",
+  "Xiao Jin",
+  "Yueqiang Chen",
+  "Hongfeng Sun"
+ ],
+ "v1_date": "2025-09-22",
+ "latest_version": 2,
+ "latest_date": "2025-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "LLM-based applications have been widely used in various industries, but with the increasing of models size, an efficient large language model (LLM) inference system is an urgent problem to be solved for service providers. Since the inference system is divided into two stage with different characteristics: Prefill and Decode, the two stage will interfere with each other during the inference process. Toward this end, a P-D disaggregated inference framework is proposed by some researchers. Current research is done on homogeneous GPUs, and lacks deployment solutions based on business scenarios. Compared with homogeneous GPUs, using heterogeneous GPUs to construct inference systems can better improve resource utilization and reduce costs. Even if GPUs from different vendors are used to build inference systems, on the basis of reducing costs, the resource utilization rate can be improved and the dependence on a single vendor can be reduced. Therefore, a P-D disaggreagetd inference system based on heterogeneous GPUs is designed, and the heterogeneous compatible transmission module in the system is designed to address heterogeneous GPU data compatibility issues. Then, a joint optimization algorithm of parallel strategy and instance number allocation is proposed to obtain the deployment solutions. Finally, the experimental results show that the P-D disaggregated inference system can well solve the hybrid inference problem of heterogeneous GPUs from different vendors, and the joint optimization algorithm can obtain the optimal deployment solution.",
+ "primary": "cs.DC"
+}

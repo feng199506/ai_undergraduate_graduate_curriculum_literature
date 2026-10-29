@@ -1,0 +1,24 @@
+{
+ "id": "2510.27065",
+ "title": "MLPerf Automotive",
+ "authors": [
+  "Radoyeh Shojaei",
+  "Predrag Djurdjevic",
+  "Mostafa El-Khamy",
+  "James Goel",
+  "Kasper Mecklenburg",
+  "Pınar Muyan-Özçelik",
+  "John Owens",
+  "Tom St. John",
+  "Jinho Suh",
+  "Arjun Suresh"
+ ],
+ "v1_date": "2025-10-31",
+ "latest_version": 2,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 5 figures, 5 tables",
+ "abstract": "We present MLPerf Automotive, the first standardized public performance benchmark for evaluating Machine Learning systems that are deployed for AI acceleration in automotive systems. Developed through a collaborative partnership within MLCommons, this benchmark addresses the need for standardized performance evaluation methodologies in automotive machine learning systems. Existing benchmark suites cannot be utilized for these systems since automotive workloads have unique constraints including sensor suites, safety, and real-time processing that distinguish them from the domains that previously introduced benchmarks target. Our implemented and adopted MLPerf Automotive benchmark is a framework for evaluation and methodology for benchmarking automotive systems with reproducible performance metrics. The benchmark consists of automotive perception tasks in 2D object detection, 2D semantic segmentation, 3D object detection, end-to-end driving, and an infotainment system application. We carefully curated and customized models for automotive use cases. We describe the methodology behind the benchmark design including the task selection, reference models, and submission rules. We also discuss the challenges involved in acquiring the datasets and the engineering efforts to develop the reference implementations. Our benchmark code is available at https://github.com/mlcommons/mlperf_automotive.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2409.09674",
+ "title": "Model Selection Through Model Sorting",
+ "authors": [
+  "Mohammad Ali Hajiani",
+  "Babak Seyfe"
+ ],
+ "v1_date": "2024-09-15",
+ "latest_version": 1,
+ "latest_date": "2024-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages, 4 figures, submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence, October 26, 2023",
+ "abstract": "We propose a novel approach to select the best model of the data. Based on the exclusive properties of the nested models, we find the most parsimonious model containing the risk minimizer predictor. We prove the existence of probable approximately correct (PAC) bounds on the difference of the minimum empirical risk of two successive nested models, called successive empirical excess risk (SEER). Based on these bounds, we propose a model order selection method called nested empirical risk (NER). By the sorted NER (S-NER) method to sort the models intelligently, the minimum risk decreases. We construct a test that predicts whether expanding the model decreases the minimum risk or not. With a high probability, the NER and S-NER choose the true model order and the most parsimonious model containing the risk minimizer predictor, respectively. We use S-NER model selection in the linear regression and show that, the S-NER method without any prior information can outperform the accuracy of feature sorting algorithms like orthogonal matching pursuit (OMP) that aided with prior knowledge of the true model order. Also, in the UCR data set, the NER method reduces the complexity of the classification of UCR datasets dramatically, with a negligible loss of accuracy.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2606.10580",
+ "title": "Convergence of Monte Carlo Optimistic Policy Iteration: Beyond Uniform State-Action Updates",
+ "authors": [
+  "Octave Oliviers",
+  "Glenn Vinnicombe"
+ ],
+ "v1_date": "2026-06-09",
+ "latest_version": 1,
+ "latest_date": "2026-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The asymptotic behaviour of Monte Carlo optimistic policy iteration (MC-O-PI) is a long-standing open question. When the model of the environment is unknown, as is common in practice, the only known condition that guarantees convergence to optimality is impractical. In its canonical form, this condition requires that the episodes used for policy evaluation be initialised uniformly over the entire state-action space. This paper strictly relaxes that requirement. Specifically, we prove that initial-visit MC-O-PI converges to optimality even when updates are uniform only over the actions within each state. This allows episodes to start in different states at arbitrary frequencies; a realistic implementation when the state space is large or unknown but the action space in each state is manageable. The proof departs from the classical analysis of Tsitsiklis whose central commutativity argument no longer applies when states are updated at different frequencies. Instead, we first show that the mean-field dynamics of MC-O-PI generate monotonically improving policies when updates are uniform over the actions in each state, and then prove that noise cannot consistently prevent this improvement by extending the lock-in argument of the combined stability-ODE method. This approach suggests a new way to study optimistic policy-iteration algorithms in general.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2402.08025",
+ "title": "Beyond the Mud: Datasets and Benchmarks for Computer Vision in Off-Road Racing",
+ "authors": [
+  "Jacob Tyo",
+  "Motolani Olarinre",
+  "Youngseog Chung",
+  "Zachary C. Lipton"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 1,
+ "latest_date": "2024-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2311.09256",
+ "abstract": "Despite significant progress in optical character recognition (OCR) and computer vision systems, robustly recognizing text and identifying people in images taken in unconstrained \\emph{in-the-wild} environments remain an ongoing challenge. However, such obstacles must be overcome in practical applications of vision systems, such as identifying racers in photos taken during off-road racing events. To this end, we introduce two new challenging real-world datasets - the off-road motorcycle Racer Number Dataset (RND) and the Muddy Racer re-iDentification Dataset (MUDD) - to highlight the shortcomings of current methods and drive advances in OCR and person re-identification (ReID) under extreme conditions. These two datasets feature over 6,300 images taken during off-road competitions which exhibit a variety of factors that undermine even modern vision systems, namely mud, complex poses, and motion blur. We establish benchmark performance on both datasets using state-of-the-art models. Off-the-shelf models transfer poorly, reaching only 15% end-to-end (E2E) F1 score on text spotting, and 33% rank-1 accuracy on ReID. Fine-tuning yields major improvements, bringing model performance to 53% F1 score for E2E text spotting and 79% rank-1 accuracy on ReID, but still falls short of good performance. Our analysis exposes open problems in real-world OCR and ReID that necessitate domain-targeted techniques. With these datasets and analysis of model limitations, we aim to foster innovations in handling real-world conditions like mud and complex poses to drive progress in robust computer vision. All data was sourced from PerformancePhoto.co, a website used by professional motorsports photographers, racers, and fans. The top-performing text spotting and ReID models are deployed on this platform to power real-time race photo search.",
+ "primary": "cs.CV"
+}

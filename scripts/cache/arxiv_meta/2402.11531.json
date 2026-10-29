@@ -1,0 +1,17 @@
+{
+ "id": "2402.11531",
+ "title": "Computational complexity of the Weisfeiler-Leman dimension",
+ "authors": [
+  "Moritz Lichter",
+  "Simon Raßmann",
+  "Pascal Schweitzer"
+ ],
+ "v1_date": "2024-02-18",
+ "latest_version": 2,
+ "latest_date": "2024-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Weisfeiler-Leman dimension of a graph $G$ is the least number $k$ such that the $k$-dimensional Weisfeiler-Leman algorithm distinguishes $G$ from every other non-isomorphic graph. The dimension is a standard measure of the descriptive complexity of a graph and recently finds various applications in particular in the context of machine learning. In this paper, we study the computational complexity of computing the Weisfeiler-Leman dimension. We observe that in general the problem of deciding whether the Weisfeiler-Leman dimension of $G$ is at most $k$ is NP-hard. This is also true for the more restricted problem with graphs of color multiplicity at most 4. Therefore, we study parameterized versions of the problem. We give, for each fixed $k\\geq 2$, a polynomial-time algorithm that decides whether the Weisfeiler-Leman dimension of a given graph of color multiplicity at most $5$ is at most $k$. Moreover, we show that for these color multiplicities this is optimal in the sense that this problem is P-hard under logspace-uniform $\\text{AC}_0$-reductions. Furthermore, for each larger bound $c$ on the color classes and each fixed $k\\geq 2$, we provide a polynomial-time decision algorithm for the abelian case, that is, for structures of which each color class has an abelian automorphism group. While the graph classes we consider may seem quite restrictive, graphs with $4$-bounded abelian colors include CFI-graphs and multipedes, which form the basis of almost all known hard instances and lower bounds related to the Weisfeiler-Leman algorithm.",
+ "primary": "cs.CC"
+}

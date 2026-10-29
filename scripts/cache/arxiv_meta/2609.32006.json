@@ -1,0 +1,17 @@
+{
+ "id": "2609.32006",
+ "title": "Beyond Point Predictions: Distribution-Informed Prediction-Powered Inference",
+ "authors": [
+  "Maoyu Zhang",
+  "Jingfei Zhang",
+  "Xuming He"
+ ],
+ "v1_date": "2026-09-25",
+ "latest_version": 1,
+ "latest_date": "2026-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages",
+ "abstract": "Prediction-powered inference (PPI) typically relies on point predictions on unlabeled data. When predictive distributions are available as in a wide range of applications, including predictions from LLMs, we introduce distribution-informed prediction-powered inference (DiPPI), a general framework for further improving statistical efficiency by using predictive distributions as auxiliary information in the spirit of PPI. We characterize the optimal use of this information through score calibration, derive the oracle efficiency for a finite-dimensional representation of the predictive distribution, and provide theoretical guarantees for positive learning with the cross-fitted DiPPI estimator. Through simulations and three real-data applications, we show that DiPPI achieves better efficiency than PPI methods based on point predictions. These gains arise when the predictive distribution contains score-relevant information that is partially lost in point predictions.",
+ "primary": "stat.ME"
+}

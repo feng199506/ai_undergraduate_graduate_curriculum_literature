@@ -1,0 +1,18 @@
+{
+ "id": "2312.04150",
+ "title": "A simple sensitivity analysis method for unmeasured confounders via linear programming with estimating equation constraints",
+ "authors": [
+  "Chengyao Tang",
+  "Yi Zhou",
+  "Ao Huang",
+  "Satoshi Hattori"
+ ],
+ "v1_date": "2023-12-07",
+ "latest_version": 1,
+ "latest_date": "2023-12-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 5 tables, 2 figures",
+ "abstract": "In estimating the average treatment effect in observational studies, the influence of confounders should be appropriately addressed. To this end, the propensity score is widely used. If the propensity scores are known for all the subjects, bias due to confounders can be adjusted by using the inverse probability weighting (IPW) by the propensity score. Since the propensity score is unknown in general, it is usually estimated by the parametric logistic regression model with unknown parameters estimated by solving the score equation under the strongly ignorable treatment assignment (SITA) assumption. Violation of the SITA assumption and/or misspecification of the propensity score model can cause serious bias in estimating the average treatment effect. To relax the SITA assumption, the IPW estimator based on the outcome-dependent propensity score has been successfully introduced. However, it still depends on the correctly specified parametric model and its identification. In this paper, we propose a simple sensitivity analysis method for unmeasured confounders. In the standard practice, the estimating equation is used to estimate the unknown parameters in the parametric propensity score model. Our idea is to make inference on the average causal effect by removing restrictive parametric model assumptions while still utilizing the estimating equation. Using estimating equations as constraints, which the true propensity scores asymptotically satisfy, we construct the worst-case bounds for the average treatment effect with linear programming. Different from the existing sensitivity analysis methods, we construct the worst-case bounds with minimal assumptions. We illustrate our proposal by simulation studies and a real-world example.",
+ "primary": "stat.ME"
+}

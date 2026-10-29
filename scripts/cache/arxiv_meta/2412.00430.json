@@ -1,0 +1,24 @@
+{
+ "id": "2412.00430",
+ "title": "Optimizing Sequential Recommendation Models with Scaling Laws and Approximate Entropy",
+ "authors": [
+  "Tingjia Shen",
+  "Hao Wang",
+  "Chuhan Wu",
+  "Jin Yao Chin",
+  "Wei Guo",
+  "Yong Liu",
+  "Huifeng Guo",
+  "Defu Lian",
+  "Ruiming Tang",
+  "Enhong Chen"
+ ],
+ "v1_date": "2024-11-30",
+ "latest_version": 6,
+ "latest_date": "2025-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 5 figures",
+ "abstract": "Scaling Laws have emerged as a powerful framework for understanding how model performance evolves as they increase in size, providing valuable insights for optimizing computational resources. In the realm of Sequential Recommendation (SR), which is pivotal for predicting users' sequential preferences, these laws offer a lens through which to address the challenges posed by the scalability of SR models. However, the presence of structural and collaborative issues in recommender systems prevents the direct application of the Scaling Law (SL) in these systems. In response, we introduce the Performance Law for SR models, which aims to theoretically investigate and model the relationship between model performance and data quality. Specifically, we first fit the HR and NDCG metrics to transformer-based SR models. Subsequently, we propose Approximate Entropy (ApEn) to assess data quality, presenting a more nuanced approach compared to traditional data quantity metrics. Our method enables accurate predictions across various dataset scales and model sizes, demonstrating a strong correlation in large SR models and offering insights into achieving optimal performance for any given model configuration.",
+ "primary": "cs.AI"
+}

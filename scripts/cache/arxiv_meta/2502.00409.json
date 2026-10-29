@@ -1,0 +1,20 @@
+{
+ "id": "2502.00409",
+ "title": "Doing More with Less: A Survey on Routing Strategies for Resource Optimisation in Large Language Model-Based Systems",
+ "authors": [
+  "Clovis Varangot-Reille",
+  "Christophe Bouvard",
+  "Antoine Gourru",
+  "Mathieu Ciancone",
+  "Marion Schaeffer",
+  "François Jacquenet"
+ ],
+ "v1_date": "2025-02-01",
+ "latest_version": 3,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "10.1613/jair.1.19801",
+ "comment": "",
+ "abstract": "Large Language Model (LLM)-based systems, i.e. interconnected elements that include an LLM as a central component, such as conversational agents, are usually designed with monolithic, static architectures that rely on a single, general-purpose LLM to handle all user queries. However, these systems may be inefficient as different queries may require different levels of reasoning, domain knowledge or pre-processing. While generalist LLMs (e.g. GPT-4o, Claude-Sonnet) perform well across a wide range of tasks, they may incur significant financial, energy and computational costs. These costs may be disproportionate for simpler queries, resulting in unnecessary resource utilisation. A routing mechanism can therefore be employed to route queries to more appropriate components, such as smaller or specialised models, thereby improving efficiency and optimising resource consumption. This survey aims to provide a comprehensive overview of routing strategies in LLM-based systems. Specifically, it reviews when, why, and how routing should be integrated into LLM pipelines to improve efficiency, scalability, and performance. We define the objectives to optimise, such as cost minimisation and performance maximisation, and discuss the timing of routing within the LLM workflow, whether it occurs before or after generation. We also detail the various implementation strategies, including similarity-based, supervised, reinforcement learning-based, and generative methods. Practical considerations such as industrial applications and current limitations are also examined, like standardising routing experiments, accounting for non-financial costs, and designing adaptive strategies. By formalising routing as a performance-cost optimisation problem, this survey provides tools and directions to guide future research and development of adaptive low-cost LLM-based systems.",
+ "primary": "cs.AI"
+}

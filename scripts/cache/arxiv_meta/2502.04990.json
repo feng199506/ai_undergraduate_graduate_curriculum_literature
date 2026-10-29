@@ -1,0 +1,17 @@
+{
+ "id": "2502.04990",
+ "title": "Probabilistic Programming with Sufficient Statistics for faster Bayesian Computation",
+ "authors": [
+  "Clemens Pichler",
+  "Jack Jewson",
+  "Alejandra Avalos-Pacheco"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 1,
+ "latest_date": "2025-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic programming methods have revolutionised Bayesian inference, making it easier than ever for practitioners to perform Markov-chain-Monte-Carlo sampling from non-conjugate posterior distributions. Here we focus on Stan, arguably the most used probabilistic programming tool for Bayesian inference (Carpenter et al., 2017), and its interface with R via the brms (Burkner, 2017) and rstanarm (Goodrich et al., 2024) packages. Although easy to implement, these tools can become computationally prohibitive when applied to datasets with many observations or models with numerous parameters. While the use of sufficient statistics is well-established in theory, it has been surprisingly overlooked in state-of-the-art Stan software. We show that when the likelihood can be written in terms of sufficient statistics, considerable computational improvements can be made to current implementations. We demonstrate how this approach provides accurate inference at a fraction of the time than state-of-the-art implementations for Gaussian linear regression models with non-conjugate priors, hierarchical random effects models, and factor analysis models. Our results also show that moderate computational gains can be achieved even in models where the likelihood can only be partially written in terms of sufficient statistics.",
+ "primary": "stat.CO"
+}

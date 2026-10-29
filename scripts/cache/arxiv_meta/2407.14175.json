@@ -1,0 +1,17 @@
+{
+ "id": "2407.14175",
+ "title": "On Policy Evaluation Algorithms in Distributional Reinforcement Learning",
+ "authors": [
+  "Julian Gerstenberg",
+  "Ralph Neininger",
+  "Denis Spiegel"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 1,
+ "latest_date": "2024-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel class of algorithms to efficiently approximate the unknown return distributions in policy evaluation problems from distributional reinforcement learning (DRL). The proposed distributional dynamic programming algorithms are suitable for underlying Markov decision processes (MDPs) having an arbitrary probabilistic reward mechanism, including continuous reward distributions with unbounded support being potentially heavy-tailed. For a plain instance of our proposed class of algorithms we prove error bounds, both within Wasserstein and Kolmogorov--Smirnov distances. Furthermore, for return distributions having probability density functions the algorithms yield approximations for these densities; error bounds are given within supremum norm. We introduce the concept of quantile-spline discretizations to come up with algorithms showing promising results in simulation experiments. While the performance of our algorithms can rigorously be analysed they can be seen as universal black box algorithms applicable to a large class of MDPs. We also derive new properties of probability metrics commonly used in DRL on which our quantitative analysis is based.",
+ "primary": "stat.ML"
+}

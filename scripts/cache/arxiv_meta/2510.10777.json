@@ -1,0 +1,21 @@
+{
+ "id": "2510.10777",
+ "title": "Preconditioned Norms: A Unified Framework for Steepest Descent, Quasi-Newton and Adaptive Methods",
+ "authors": [
+  "Andrey Veprikov",
+  "Arman Bolatov",
+  "Aleksandr Bogdanov",
+  "Samuel Horváth",
+  "Aleksandr Beznosikov",
+  "Martin Takáč",
+  "Slavomir Hanzely"
+ ],
+ "v1_date": "2025-10-12",
+ "latest_version": 3,
+ "latest_date": "2026-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 2 figures, 8 tables",
+ "abstract": "Optimization lies at the core of modern deep learning, yet existing methods often face a fundamental trade-off between adapting to problem geometry and leveraging curvature utilization. Steepest descent algorithms adapt to different geometries through norm choices but remain strictly first-order, whereas quasi-Newton and adaptive optimizers incorporate curvature information but are restricted to Frobenius geometry, limiting their applicability across diverse architectures. In this work, we propose a unified framework generalizing steepest descent, quasi-Newton methods, and adaptive methods through the novel notion of preconditioned matrix norms. This abstraction reveals that widely used optimizers such as SGD and Adam, as well as more advanced approaches like Muon and KL-Shampoo, and recent hybrids including SOAP and SPlus, all emerge as special cases of the same principle. Within this framework, we provide the first systematic treatment of affine and scale invariance in the matrix-parameterized setting, establishing necessary and sufficient conditions under generalized norms. Building on this foundation, we introduce two new methods, $\\texttt{MuAdam}$ and $\\texttt{MuAdam-SANIA}$, which combine the spectral geometry of Muon with Adam-style preconditioning. Our experiments demonstrate that these optimizers are competitive with, and in some cases outperform, existing state-of-the-art methods. Our code is available at https://github.com/brain-lab-research/LIB/tree/quasi_descent",
+ "primary": "cs.LG"
+}

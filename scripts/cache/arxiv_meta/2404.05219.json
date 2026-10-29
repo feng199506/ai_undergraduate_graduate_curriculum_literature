@@ -1,0 +1,18 @@
+{
+ "id": "2404.05219",
+ "title": "Out-of-Distribution Data: An Acquaintance of Adversarial Examples -- A Survey",
+ "authors": [
+  "Naveen Karunanayake",
+  "Ravin Gunawardena",
+  "Suranga Seneviratne",
+  "Sanjay Chawla"
+ ],
+ "v1_date": "2024-04-08",
+ "latest_version": 1,
+ "latest_date": "2024-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep neural networks (DNNs) deployed in real-world applications can encounter out-of-distribution (OOD) data and adversarial examples. These represent distinct forms of distributional shifts that can significantly impact DNNs' reliability and robustness. Traditionally, research has addressed OOD detection and adversarial robustness as separate challenges. This survey focuses on the intersection of these two areas, examining how the research community has investigated them together. Consequently, we identify two key research directions: robust OOD detection and unified robustness. Robust OOD detection aims to differentiate between in-distribution (ID) data and OOD data, even when they are adversarially manipulated to deceive the OOD detector. Unified robustness seeks a single approach to make DNNs robust against both adversarial attacks and OOD inputs. Accordingly, first, we establish a taxonomy based on the concept of distributional shifts. This framework clarifies how robust OOD detection and unified robustness relate to other research areas addressing distributional shifts, such as OOD detection, open set recognition, and anomaly detection. Subsequently, we review existing work on robust OOD detection and unified robustness. Finally, we highlight the limitations of the existing work and propose promising research directions that explore adversarial and OOD inputs within a unified framework.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2609.30643",
+ "title": "MARCEDES: Score-based causal discovery under non-Gaussianity with continuous optimization",
+ "authors": [
+  "Anamitra Chaudhuri",
+  "Anirban Bhattacharya",
+  "Yang Ni"
+ ],
+ "v1_date": "2026-09-25",
+ "latest_version": 1,
+ "latest_date": "2026-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of learning the underlying causal directed acyclic graph (DAG) structure corresponding to a structural equation model (SEM) with non-Gaussian errors. Motivated by an intentionally misspecified non-Gaussian SEM with all Laplace errors, we first introduce the mean absolute residual risk, defined over the space of all real matrices, and show that, asymptotically, the risk of the true weighted causal DAG matrix is strictly smaller than that of any other matrix. Nevertheless, to enhance generality and account for high-dimensional and finite-sample settings, we further incorporate row-specific sparsity penalties along with a soft DAG constraint to derive a continuous score function over the space of real matrices. Accordingly, we propose a score-based DAG learning method, named MARCEDES, formulated as an unconstrained score minimization problem, which can be efficiently solved using gradient-based optimization techniques, thereby circumventing the challenges associated with constrained optimization. Furthermore, we develop a computational algorithm to handle the non-smoothness of the score objective and to enable optimal tuning of row-specific sparsity penalties under a generalized Bayes framework. Finally, we demonstrate the efficiency and improved performance of the proposed method over existing approaches through an extensive simulation study.",
+ "primary": "stat.ML"
+}

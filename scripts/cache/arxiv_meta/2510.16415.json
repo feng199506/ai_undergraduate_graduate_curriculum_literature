@@ -1,0 +1,20 @@
+{
+ "id": "2510.16415",
+ "title": "MeCeFO: Enhancing LLM Training Robustness via Fault-Tolerant Optimization",
+ "authors": [
+  "Rizhen Hu",
+  "Yutong He",
+  "Ran Yan",
+  "Mou Sun",
+  "Binghang Yuan",
+  "Kun Yuan"
+ ],
+ "v1_date": "2025-10-18",
+ "latest_version": 1,
+ "latest_date": "2025-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025 poster",
+ "abstract": "As distributed optimization scales to meet the demands of Large Language Model (LLM) training, hardware failures become increasingly non-negligible. Existing fault-tolerant training methods often introduce significant computational or memory overhead, demanding additional resources. To address this challenge, we propose Memory- and Computation-efficient Fault-tolerant Optimization (MeCeFO), a novel algorithm that ensures robust training with minimal overhead. When a computing node fails, MeCeFO seamlessly transfers its training task to a neighboring node while employing memory- and computation-efficient algorithmic optimizations to minimize the extra workload imposed on the neighboring node handling both tasks. MeCeFO leverages three key algorithmic designs: (i) Skip-connection, which drops the multi-head attention (MHA) module during backpropagation for memory- and computation-efficient approximation; (ii) Recomputation, which reduces activation memory in feedforward networks (FFNs); and (iii) Low-rank gradient approximation, enabling efficient estimation of FFN weight matrix gradients. Theoretically, MeCeFO matches the convergence rate of conventional distributed training, with a rate of $\\mathcal{O}(1/\\sqrt{nT})$, where n is the data parallelism size and T is the number of iterations. Empirically, MeCeFO maintains robust performance under high failure rates, incurring only a 4.18% drop in throughput, demonstrating 5.0$\\times$ to 6.7$\\times$ greater resilience than previous SOTA approaches. Codes are available at https://github.com/pkumelon/MeCeFO.",
+ "primary": "cs.DC"
+}

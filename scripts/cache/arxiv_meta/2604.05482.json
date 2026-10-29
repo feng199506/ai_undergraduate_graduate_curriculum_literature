@@ -1,0 +1,20 @@
+{
+ "id": "2604.05482",
+ "title": "Unifying VLM-Guided Flow Matching and Spectral Anomaly Detection for Interpretable Veterinary Diagnosis",
+ "authors": [
+  "Pu Wang",
+  "Zhixuan Mao",
+  "Jialu Li",
+  "Zhuoran Zheng",
+  "Dianjie Lu",
+  "Youshan Zhang"
+ ],
+ "v1_date": "2026-04-07",
+ "latest_version": 1,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automatic diagnosis of canine pneumothorax is challenged by data scarcity and the need for trustworthy models. To address this, we first introduce a public, pixel-level annotated dataset to facilitate research. We then propose a novel diagnostic paradigm that reframes the task as a synergistic process of signal localization and spectral detection. For localization, our method employs a Vision-Language Model (VLM) to guide an iterative Flow Matching process, which progressively refines segmentation masks to achieve superior boundary accuracy. For detection, the segmented mask is used to isolate features from the suspected lesion. We then apply Random Matrix Theory (RMT), a departure from traditional classifiers, to analyze these features. This approach models healthy tissue as predictable random noise and identifies pneumothorax by detecting statistically significant outlier eigenvalues that represent a non-random pathological signal. The high-fidelity localization from Flow Matching is crucial for purifying the signal, thus maximizing the sensitivity of our RMT detector. This synergy of generative segmentation and first-principles statistical analysis yields a highly accurate and interpretable diagnostic system (source code is available at: https://github.com/Pu-Wang-alt/Canine-pneumothorax).",
+ "primary": "cs.CV"
+}

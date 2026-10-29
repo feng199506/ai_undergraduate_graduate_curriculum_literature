@@ -1,0 +1,16 @@
+{
+ "id": "2501.11773",
+ "title": "Can Bayesian Neural Networks Make Confident Predictions?",
+ "authors": [
+  "Katharine Fisher",
+  "Youssef Marzouk"
+ ],
+ "v1_date": "2025-01-20",
+ "latest_version": 1,
+ "latest_date": "2025-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Mathematics of Modern Machine Learning Workshop at NeurIPS 2024",
+ "abstract": "Bayesian inference promises a framework for principled uncertainty quantification of neural network predictions. Barriers to adoption include the difficulty of fully characterizing posterior distributions on network parameters and the interpretability of posterior predictive distributions. We demonstrate that under a discretized prior for the inner layer weights, we can exactly characterize the posterior predictive distribution as a Gaussian mixture. This setting allows us to define equivalence classes of network parameter values which produce the same likelihood (training error) and to relate the elements of these classes to the network's scaling regime -- defined via ratios of the training sample size, the size of each layer, and the number of final layer parameters. Of particular interest are distinct parameter realizations that map to low training error and yet correspond to distinct modes in the posterior predictive distribution. We identify settings that exhibit such predictive multimodality, and thus provide insight into the accuracy of unimodal posterior approximations. We also characterize the capacity of a model to \"learn from data\" by evaluating contraction of the posterior predictive in different scaling regimes.",
+ "primary": "stat.ML"
+}

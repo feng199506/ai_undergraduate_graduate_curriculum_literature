@@ -1,0 +1,18 @@
+{
+ "id": "2409.15990",
+ "title": "PACE: Poisoning Attacks on Learned Cardinality Estimation",
+ "authors": [
+  "Jintao Zhang",
+  "Chao Zhang",
+  "Guoliang Li",
+  "Chengliang Chai"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 1,
+ "latest_date": "2024-09-24",
+ "journal_ref": "SIGMOD 2024",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cardinality estimation (CE) plays a crucial role in database optimizer. We have witnessed the emergence of numerous learned CE models recently which can outperform traditional methods such as histograms and samplings. However, learned models also bring many security risks. For example, a query-driven learned CE model learns a query-to-cardinality mapping based on the historical workload. Such a learned model could be attacked by poisoning queries, which are crafted by malicious attackers and woven into the historical workload, leading to performance degradation of CE. In this paper, we explore the potential security risks in learned CE and study a new problem of poisoning attacks on learned CE in a black-box setting. Experiments show that PACE reduces the accuracy of the learned CE models by 178 times, leading to a 10 times decrease in the end-to-end performance of the target database.",
+ "primary": "cs.DB"
+}

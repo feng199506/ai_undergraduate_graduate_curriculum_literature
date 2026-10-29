@@ -1,0 +1,19 @@
+{
+ "id": "2404.12294",
+ "title": "Bayesian evidence estimation from posterior samples with normalizing flows",
+ "authors": [
+  "Rahul Srinivasan",
+  "Marco Crisostomi",
+  "Roberto Trotta",
+  "Enrico Barausse",
+  "Matteo Breschi"
+ ],
+ "v1_date": "2024-04-18",
+ "latest_version": 3,
+ "latest_date": "2024-12-05",
+ "journal_ref": "PhysRevD.110.123007(2024)",
+ "doi": "10.1103/physrevd.110.123007",
+ "comment": "15 pages, 8 figures, 1 table",
+ "abstract": "We propose a novel method ($floZ$), based on normalizing flows, to estimate the Bayesian evidence (and its numerical uncertainty) from a pre-existing set of samples drawn from the unnormalized posterior distribution. We validate it on distributions whose evidence is known analytically, up to 15 parameter space dimensions, and compare with two state-of-the-art techniques for estimating the evidence: nested sampling (which computes the evidence as its main target) and a $k$-nearest-neighbors technique that produces evidence estimates from posterior samples. Provided representative samples from the target posterior are available, our method is more robust to posterior distributions with sharp features, especially in higher dimensions. For a simple multivariate Gaussian, we demonstrate its accuracy for up to 200 dimensions with $10^5$ posterior samples. $floZ$ has wide applicability, e.g., to estimate evidence from variational inference, Markov Chain Monte Carlo samples, or any other method that delivers samples and their likelihood from the unnormalized posterior density. As a physical application, we use $floZ$ to compute the Bayes factor for the presence of the first overtone in the ringdown signal of the gravitational wave data of GW150914, finding good agreement with nested sampling.",
+ "primary": "stat.ML"
+}

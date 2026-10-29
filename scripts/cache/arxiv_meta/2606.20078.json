@@ -1,0 +1,20 @@
+{
+ "id": "2606.20078",
+ "title": "A Law of Iterated Expectation Primer for Causal Inference",
+ "authors": [
+  "Ashley I. Naimi",
+  "Razieh Nabi",
+  "Lindsay J. Collin",
+  "Zhaohua Zeng",
+  "Paul N. Zivich",
+  "Stephen R. Cole"
+ ],
+ "v1_date": "2026-06-18",
+ "latest_version": 2,
+ "latest_date": "2026-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The g-formula is a foundational tool for identifying causal effects in observational data. This tool is based on the law of iterated expectation, a key mathematical identity in statistics. However, the notation with which the law of iterated expectation and the g-formula is expressed can be opaque to those with little background in statistics. We provide a primer introducing the law of iterated expectation, the integration notation used to express it, and its role for causal effect identification via the g-formula. Combined with the assumptions of causal consistency, positivity, and conditional exchangeability, the law of iterated expectation yields a causal standardization formula (the g-formula) in two nonparametrically equivalent forms: a non-iterative conditional expectation (NICE) form involving a single weighted average of conditional outcome means, and an iterative conditional expectation (ICE) form involving nested expectations. We illustrate both forms using three progressively complex numerical examples: a time-fixed example with a single binary confounder, a time-fixed example with discrete and continuous confounders, and a time-varying example with two timepoints. We provide clarity on what the law of iterated expectation is, how it is related to the g-formula, and how to gain intuition of its mathematical formulations in actual data examples that can be generalized to a range of settings.",
+ "primary": "stat.OT"
+}

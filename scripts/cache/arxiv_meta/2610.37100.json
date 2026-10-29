@@ -1,0 +1,17 @@
+{
+ "id": "2610.37100",
+ "title": "A Two-Stage Optimization Framework for Real-World Large-Scale University Course Timetabling Based on Orthogonalized Hierarchical Modeling and Conflict-Driven ALNS Repair",
+ "authors": [
+  "Han-Bin Liu",
+  "Huayi Wei",
+  "Yanlin Li"
+ ],
+ "v1_date": "2026-10-27",
+ "latest_version": 1,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "University course timetabling is a large-scale combinatorial optimization problem involving strongly coupled temporal and resource constraints. This paper proposes a two-stage optimization framework for real-world large-scale university course timetabling, integrating orthogonalized hierarchical modeling with conflict-driven adaptive large neighborhood search (ALNS) repair. The first stage performs global course-level optimization, while the second identifies residual conflicts through a conflict graph and localizes them into connected conflict regions. The Course--Occurrence--Session representation provides the structural basis for multi-granularity repair, which employs Cluster-, Course-, Occurrence-, and Session-level destroy operators within the ALNS framework, followed by fine-grained greedy repair. The framework is evaluated on a real-world university timetabling instance involving 3,073 course groups, 8,015 scheduling events, 998 student classes, and 1,511 instructors. Ablation experiments demonstrate the effectiveness of hierarchical repair granularity and adaptive operator selection. Across ten independent runs, the ALNS + Greedy framework achieves a mean residual conflict count of 18.50, compared with 172 for deterministic Greedy-only repair under the same initial scheduling conditions, representing an 89.24\\% reduction. These results support the effectiveness of the proposed conflict-driven hierarchical repair framework for large-scale university course timetabling.",
+ "primary": "math.OC"
+}

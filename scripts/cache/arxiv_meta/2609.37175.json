@@ -1,0 +1,20 @@
+{
+ "id": "2609.37175",
+ "title": "VLM Fine-Tuning for End-to-End Combinatorial Optimization",
+ "authors": [
+  "Qingsong Yan",
+  "Xia Jiang",
+  "Yaoxin Wu",
+  "Wen Song",
+  "Lu Zhang",
+  "Yingjie Zhou"
+ ],
+ "v1_date": "2026-09-29",
+ "latest_version": 1,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have provided a unified interface for end-to-end combinatorial optimization (CO), but textual serialization alone may obscure spatial and relational structures that are important for generating effective CO solutions. This paper presents a general-purpose vision-language solver that augments textual instance descriptions with input-derived visual representations. A single vision-language model (VLM) is applied across different CO tasks and trained using supervised fine-tuning followed by verifier-guided reinforcement learning. While the visual inputs contain no gold solutions or solution-derived information, our experiments show that the VLM generally improves solution quality over its text-only counterpart, with particularly clear gains on more complex CO problems such as CVRP and JSSP. The advantage of visual information is more pronounced at large problem scales.",
+ "primary": "cs.CL"
+}

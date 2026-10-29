@@ -1,0 +1,17 @@
+{
+ "id": "2604.27892",
+ "title": "Prediction-powered Inference by Mixture of Experts",
+ "authors": [
+  "Yanwu Gu",
+  "Linglong Kong",
+  "Dong Xia"
+ ],
+ "v1_date": "2026-04-30",
+ "latest_version": 1,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapidly expanding artificial intelligence (AI) industry has produced diverse yet powerful prediction tools, each with its own network architecture, training strategy, data-processing pipeline, and domain-specific strengths. These tools create new opportunities for semi-supervised inference, in which labeled data are limited and expensive to obtain, whereas unlabeled data are abundant and widely available. Given a collection of predictors, we treat them as a mixture of experts (MOE) and introduce an MOE-powered semi-supervised inference framework built upon prediction-powered inference (PPI). Motivated by the variance reduction principle underlying PPI, the proposed framework seeks the mixture of experts that achieves the smallest possible variance. Compared with standard PPI, the MOE-powered inference framework adapts to the unknown performance of individual predictors, benefits from their collective predictive power, and enjoys a best-expert guarantee. The framework is flexible and applies to mean estimation, linear regression, quantile estimation, and general M-estimation. We develop non-asymptotic theory for the MOE-powered inference framework and establish upper bounds on the coverage error of the resulting confidence intervals. Numerical experiments demonstrate the practical effectiveness of MOE-powered inference and corroborate our theoretical findings.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2412.13398",
+ "title": "Pattern Matching in AI Compilers and its Formalization (Extended Version)",
+ "authors": [
+  "Joseph W. Cutler",
+  "Alex Collins",
+  "Bin Fan",
+  "Mahesh Ravishankar",
+  "Vinod Grover"
+ ],
+ "v1_date": "2024-12-18",
+ "latest_version": 1,
+ "latest_date": "2024-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear at CGO'25",
+ "abstract": "PyPM is a Python-based domain specific language (DSL) for building rewrite-based optimization passes on machine learning computation graphs. Users define individual optimizations by writing (a) patterns that match subgraphs of a computation graph and (b) corresponding rules which replace a matched subgraph with an optimized kernel. PyPM is distinguished from the many other DSLs for defining rewriting passes by its complex and novel pattern language which borrows concepts from logic programming. PyPM patterns can be recursive, nondeterminstic, and can require checking domain-specific constraints such as the shapes of tensors. The PyPM implementation is thus similarly complicated, consisting of thousands of lines of C++ code. In this paper, we present our work on building PyPM, as well as formalizing and distilling and this complexity to an understandable mathematical core. We have developed a formal core calculus expressing the main operations of the PyPM pattern language. We define both a declarative semantics - describing which patterns match which terms - and an algorithmic semantics - an idealized version of the PyPM pattern interpreter - and prove their equivalence. The development is fully mechanized in the Coq proof assistant.",
+ "primary": "cs.PL"
+}

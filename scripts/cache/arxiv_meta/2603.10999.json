@@ -1,0 +1,17 @@
+{
+ "id": "2603.10999",
+ "title": "Double Machine Learning for Time Series",
+ "authors": [
+  "Milos Ciganovic",
+  "Federico D'Amario",
+  "Massimiliano Tancioni"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 2,
+ "latest_date": "2026-07-08",
+ "journal_ref": "The Econometrics Journal, utag019, 2026",
+ "doi": "10.1093/ectj/utag019",
+ "comment": "",
+ "abstract": "We modify the Double Machine Learning estimator to broaden its applicability to macroeconomic time-series settings. A deterministic cross-fitting step, termed Reverse Cross-Fitting, leverages the time-reversibility of stationary series to improve sample utilization and efficiency. We detail and prove the conditions under which the estimator is asymptotically valid. We then demonstrate, through simulations, that its performance remains valid in realistic finite samples and is robust to model misspecification and violations of assumptions, such as heteroskedasticity. In high dimensions, predictive metrics for tuning nuisance learners do not generally minimize bias in the causal score. We propose a calibration rule targeting a \"Goldilocks zone\", a region of tuning parameters that delivers stable, partialled-out signals and reduced small-sample bias. Finally, we apply our procedure to residualized Local Projections to estimate the dynamic effects of a rise in Tier 1 regulatory capital. The results underscore the usefulness of the methodology for inference in macroeconomic applications.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2605.12998",
+ "title": "DRIFT: A Benchmark for Task-Free Continual Graph Learning with Continuous Distribution Shifts",
+ "authors": [
+  "Guiquan Sun",
+  "Xikun Zhang",
+  "Jingchao Ni",
+  "Dongjin Song"
+ ],
+ "v1_date": "2026-05-13",
+ "latest_version": 3,
+ "latest_date": "2026-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 5 figures",
+ "abstract": "Continual graph learning (CGL) aims to learn from dynamically evolving graphs while mitigating catastrophic forgetting. Existing CGL approaches typically adopt a task-based formulation, where the data stream is partitioned into a sequence of discrete tasks with pre-defined boundaries. However, such assumptions rarely hold in real-world environments, where data distributions evolve continuously and task identity is often unavailable. To better reflect realistic non-stationary environments, we revisit continual graph learning from a task-free perspective. We propose a unified formulation that models the data stream as a time-varying mixture of latent task distributions, enabling continuous modeling of distribution drift. Based on this formulation, we construct \\emph{DRIFT}, a benchmark that spans a spectrum of transition dynamics ranging from hard task switches to smooth distributional drift through a Gaussian parameterization. We evaluate representative continual learning methods under this task-free setting and observe substantial performance degradation compared to traditional task-based protocols. Our findings indicate that many existing approaches implicitly rely on task boundary information and struggle under realistic task-free graph streams. This work highlights the importance of studying continual graph learning under realistic non-stationary conditions and provides a benchmark for future research in this direction. Our code is available at https://github.com/UConn-DSIS/DRIFT.",
+ "primary": "cs.LG"
+}

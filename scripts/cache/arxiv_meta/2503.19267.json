@@ -1,0 +1,20 @@
+{
+ "id": "2503.19267",
+ "title": "NeoRL-2: Near Real-World Benchmarks for Offline Reinforcement Learning with Extended Realistic Scenarios",
+ "authors": [
+  "Songyi Gao",
+  "Zuolin Tu",
+  "Rong-Jun Qin",
+  "Yi-Hao Sun",
+  "Xiong-Hui Chen",
+  "Yang Yu"
+ ],
+ "v1_date": "2025-03-25",
+ "latest_version": 1,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Offline reinforcement learning (RL) aims to learn from historical data without requiring (costly) access to the environment. To facilitate offline RL research, we previously introduced NeoRL, which highlighted that datasets from real-world tasks are often conservative and limited. With years of experience applying offline RL to various domains, we have identified additional real-world challenges. These include extremely conservative data distributions produced by deployed control systems, delayed action effects caused by high-latency transitions, external factors arising from the uncontrollable variance of transitions, and global safety constraints that are difficult to evaluate during the decision-making process. These challenges are underrepresented in previous benchmarks but frequently occur in real-world tasks. To address this, we constructed the extended Near Real-World Offline RL Benchmark (NeoRL-2), which consists of 7 datasets from 7 simulated tasks along with their corresponding evaluation simulators. Benchmarking results from state-of-the-art offline RL approaches demonstrate that current methods often struggle to outperform the data-collection behavior policy, highlighting the need for more effective methods. We hope NeoRL-2 will accelerate the development of reinforcement learning algorithms for real-world applications. The benchmark project page is available at https://github.com/polixir/NeoRL2.",
+ "primary": "cs.LG"
+}

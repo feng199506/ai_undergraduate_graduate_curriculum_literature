@@ -1,0 +1,16 @@
+{
+ "id": "2311.13277",
+ "title": "Hierarchical Matrix Factorization for Interpretable Collaborative Filtering",
+ "authors": [
+  "Kai Sugahara",
+  "Kazushi Okamoto"
+ ],
+ "v1_date": "2023-11-22",
+ "latest_version": 2,
+ "latest_date": "2024-02-21",
+ "journal_ref": "Pattern Recognition Letters, Elsevier, 2024",
+ "doi": "10.1016/j.patrec.2024.03.003",
+ "comment": "",
+ "abstract": "Matrix factorization (MF) is a simple collaborative filtering technique that achieves superior recommendation accuracy by decomposing the user-item interaction matrix into user and item latent matrices. Because the model typically learns each interaction independently, it may overlook the underlying shared dependencies between users and items, resulting in less stable and interpretable recommendations. Based on these insights, we propose \"Hierarchical Matrix Factorization\" (HMF), which incorporates clustering concepts to capture the hierarchy, where leaf nodes and other nodes correspond to users/items and clusters, respectively. Central to our approach, called hierarchical embeddings, is the additional decomposition of the latent matrices (embeddings) into probabilistic connection matrices, which link the hierarchy, and a root cluster latent matrix. The embeddings are differentiable, allowing simultaneous learning of interactions and clustering using a single gradient descent method. Furthermore, the obtained cluster-specific interactions naturally summarize user-item interactions and provide interpretability. Experimental results on ratings and ranking predictions show that HMF outperforms existing MF methods, in particular achieving a 1.37 point improvement in RMSE for sparse interactions. Additionally, it was confirmed that the clustering integration of HMF has the potential for faster learning convergence and mitigation of overfitting compared to MF, and also provides interpretability through a cluster-centered case study.",
+ "primary": "cs.IR"
+}

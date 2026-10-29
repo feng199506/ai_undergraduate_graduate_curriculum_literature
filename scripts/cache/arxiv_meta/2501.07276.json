@@ -1,0 +1,18 @@
+{
+ "id": "2501.07276",
+ "title": "Bridging Smart Meter Gaps: A Benchmark of Statistical, Machine Learning and Time Series Foundation Models for Data Imputation",
+ "authors": [
+  "Amir Sartipi",
+  "Joaquín Delgado Fernández",
+  "Sergio Potenciano Menci",
+  "Alessio Magitteri"
+ ],
+ "v1_date": "2025-01-13",
+ "latest_version": 2,
+ "latest_date": "2025-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The integrity of time series data in smart grids is often compromised by missing values due to sensor failures, transmission errors, or disruptions. Gaps in smart meter data can bias consumption analyses and hinder reliable predictions, causing technical and economic inefficiencies. As smart meter data grows in volume and complexity, conventional techniques struggle with its nonlinear and nonstationary patterns. In this context, Generative Artificial Intelligence offers promising solutions that may outperform traditional statistical methods. In this paper, we evaluate two general-purpose Large Language Models and five Time Series Foundation Models for smart meter data imputation, comparing them with conventional Machine Learning and statistical models. We introduce artificial gaps (30 minutes to one day) into an anonymized public dataset to test inference capabilities. Results show that Time Series Foundation Models, with their contextual understanding and pattern recognition, could significantly enhance imputation accuracy in certain cases. However, the trade-off between computational cost and performance gains remains a critical consideration.",
+ "primary": "cs.AI"
+}

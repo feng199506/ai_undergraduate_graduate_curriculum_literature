@@ -1,0 +1,19 @@
+{
+ "id": "2311.05421",
+ "title": "Diffusion Based Causal Representation Learning",
+ "authors": [
+  "Amir Mohammad Karimi Mamaghan",
+  "Andrea Dittadi",
+  "Stefan Bauer",
+  "Karl Henrik Johansson",
+  "Francesco Quinzan"
+ ],
+ "v1_date": "2023-11-09",
+ "latest_version": 1,
+ "latest_date": "2023-11-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal reasoning can be considered a cornerstone of intelligent systems. Having access to an underlying causal graph comes with the promise of cause-effect estimation and the identification of efficient and safe interventions. However, learning causal representations remains a major challenge, due to the complexity of many real-world systems. Previous works on causal representation learning have mostly focused on Variational Auto-Encoders (VAE). These methods only provide representations from a point estimate, and they are unsuitable to handle high dimensions. To overcome these problems, we proposed a new Diffusion-based Causal Representation Learning (DCRL) algorithm. This algorithm uses diffusion-based representations for causal discovery. DCRL offers access to infinite dimensional latent codes, which encode different levels of information in the latent code. In a first proof of principle, we investigate the use of DCRL for causal representation learning. We further demonstrate experimentally that this approach performs comparably well in identifying the causal structure and causal variables.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2604.16015",
+ "title": "Discovering quantum phenomena with Interpretable Machine Learning",
+ "authors": [
+  "Paulin de Schoulepnikoff",
+  "Hendrik Poulsen Nautrup",
+  "Hans J. Briegel",
+  "Gorka Muñoz-Gil"
+ ],
+ "v1_date": "2026-04-17",
+ "latest_version": 2,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Interpretable machine learning techniques are becoming essential tools for extracting physical insights from complex quantum data. We build on recent advances in variational autoencoders to demonstrate that such models can learn physically meaningful and interpretable representations from a broad class of unlabeled quantum datasets. From raw measurement data alone, the learned representation reveals rich information about the underlying structure of quantum phase diagrams. We further augment the learning pipeline with symbolic methods, enabling the discovery of compact analytical descriptors that serve as order parameters for the distinct regimes emerging in the learned representations. We demonstrate the framework on experimental Rydberg-atom snapshots, classical shadows of the cluster Ising model, and hybrid discrete-continuous fermionic data, revealing previously unreported phenomena such as a corner-ordering pattern in the Rydberg arrays. These results establish a general framework, which constitutes an important step toward the autonomous discovery of physical descriptors from diverse quantum datasets. All methods are available through qdisc, an open-source Python library designed to make these tools accessible to the broader community.",
+ "primary": "quant-ph"
+}

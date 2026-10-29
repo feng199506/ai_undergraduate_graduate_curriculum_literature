@@ -1,0 +1,16 @@
+{
+ "id": "2502.02363",
+ "title": "FAB-PPI: Frequentist, Assisted by Bayes, Prediction-Powered Inference",
+ "authors": [
+  "Stefano Cortinovis",
+  "François Caron"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 2,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 13 figures",
+ "abstract": "Prediction-powered inference (PPI) enables valid statistical inference by combining experimental data with machine learning predictions. When a sufficient number of high-quality predictions is available, PPI results in more accurate estimates and tighter confidence intervals than traditional methods. In this paper, we propose to inform the PPI framework with prior knowledge on the quality of the predictions. The resulting method, which we call frequentist, assisted by Bayes, PPI (FAB-PPI), improves over PPI when the observed prediction quality is likely under the prior, while maintaining its frequentist guarantees. Furthermore, when using heavy-tailed priors, FAB-PPI adaptively reverts to standard PPI in low prior probability regions. We demonstrate the benefits of FAB-PPI in real and synthetic examples.",
+ "primary": "stat.ML"
+}

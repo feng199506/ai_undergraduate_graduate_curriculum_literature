@@ -1,0 +1,15 @@
+{
+ "id": "2606.28621",
+ "title": "A bootstrap approach to prediction-powered inference",
+ "authors": [
+  "Bradley Efron"
+ ],
+ "v1_date": "2026-06-26",
+ "latest_version": 1,
+ "latest_date": "2026-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 13 figures",
+ "abstract": "Prediction-powered inference (PPI) refers to a two-level situation where the statistician observes a set of $(x,y)$ pairs and another set of $x$s with the responses $y$ missing. Also available is some independent background data from which a prediction rule $f(x)$ has been produced, perhaps by a machine learning algorithm; $f(x)$ approximates $E\\{y\\mid x\\}$ but there is no guarantee of its accuracy for the situation at hand. Angelopoulos et al. (2023a) developed an algorithm that makes use of all the data, including the unlabeled $x$s, for the estimation of a parameter of interest. A different algorithm is proposed here, using the bootstrap to avoid asymptotics, that is shown to have advantages of efficiency and generality. It is similar in spirit to the original PPI paper by Wang, McCormick and Leek (2020). Prediction-powered inference raises questions about the information available in unlabeled data, with some surprises here, particularly concerning the estimation of the expected value of $y$.",
+ "primary": "stat.ME"
+}

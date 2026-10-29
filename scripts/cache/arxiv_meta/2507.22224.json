@@ -1,0 +1,21 @@
+{
+ "id": "2507.22224",
+ "title": "Generative Recommendation with Semantic IDs: A Practitioner's Handbook",
+ "authors": [
+  "Clark Mingxuan Ju",
+  "Liam Collins",
+  "Leonardo Neves",
+  "Bhuvesh Kumar",
+  "Louis Yufeng Wang",
+  "Tong Zhao",
+  "Neil Shah"
+ ],
+ "v1_date": "2025-07-29",
+ "latest_version": 1,
+ "latest_date": "2025-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative recommendation (GR) has gained increasing attention for its promising performance compared to traditional models. A key factor contributing to the success of GR is the semantic ID (SID), which converts continuous semantic representations (e.g., from large language models) into discrete ID sequences. This enables GR models with SIDs to both incorporate semantic information and learn collaborative filtering signals, while retaining the benefits of discrete decoding. However, varied modeling techniques, hyper-parameters, and experimental setups in existing literature make direct comparisons between GR proposals challenging. Furthermore, the absence of an open-source, unified framework hinders systematic benchmarking and extension, slowing model iteration. To address this challenge, our work introduces and open-sources a framework for Generative Recommendation with semantic ID, namely GRID, specifically designed for modularity to facilitate easy component swapping and accelerate idea iteration. Using GRID, we systematically experiment with and ablate different components of GR models with SIDs on public benchmarks. Our comprehensive experiments with GRID reveal that many overlooked architectural components in GR models with SIDs substantially impact performance. This offers both novel insights and validates the utility of an open-source platform for robust benchmarking and GR research advancement. GRID is open-sourced at https://github.com/snap-research/GRID.",
+ "primary": "cs.IR"
+}

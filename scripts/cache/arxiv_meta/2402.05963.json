@@ -1,0 +1,16 @@
+{
+ "id": "2402.05963",
+ "title": "Frugal Actor-Critic: Sample Efficient Off-Policy Deep Reinforcement Learning Using Unique Experiences",
+ "authors": [
+  "Nikhil Kumar Singh",
+  "Indranil Saha"
+ ],
+ "v1_date": "2024-02-05",
+ "latest_version": 1,
+ "latest_date": "2024-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Efficient utilization of the replay buffer plays a significant role in the off-policy actor-critic reinforcement learning (RL) algorithms used for model-free control policy synthesis for complex dynamical systems. We propose a method for achieving sample efficiency, which focuses on selecting unique samples and adding them to the replay buffer during the exploration with the goal of reducing the buffer size and maintaining the independent and identically distributed (IID) nature of the samples. Our method is based on selecting an important subset of the set of state variables from the experiences encountered during the initial phase of random exploration, partitioning the state space into a set of abstract states based on the selected important state variables, and finally selecting the experiences with unique state-reward combination by using a kernel density estimator. We formally prove that the off-policy actor-critic algorithm incorporating the proposed method for unique experience accumulation converges faster than the vanilla off-policy actor-critic algorithm. Furthermore, we evaluate our method by comparing it with two state-of-the-art actor-critic RL algorithms on several continuous control benchmarks available in the Gym environment. Experimental results demonstrate that our method achieves a significant reduction in the size of the replay buffer for all the benchmarks while achieving either faster convergent or better reward accumulation compared to the baseline algorithms.",
+ "primary": "cs.LG"
+}

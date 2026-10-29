@@ -1,0 +1,17 @@
+{
+ "id": "2509.22482",
+ "title": "Bayesian Transfer Operators in Reproducing Kernel Hilbert Spaces",
+ "authors": [
+  "Septimus Boshoff",
+  "Sebastian Peitz",
+  "Stefan Klus"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Koopman operator, as a linear representation of a nonlinear dynamical system, has been attracting attention in many fields of science. Recently, Koopman operator theory has been combined with another concept that is popular in data science: reproducing kernel Hilbert spaces. We follow this thread into Gaussian process methods, and illustrate how these methods can alleviate two pervasive problems with kernel-based Koopman algorithms. The first being sparsity: most kernel methods do not scale well and require an approximation to become practical. We show that not only can the computational demands be reduced, but also demonstrate improved resilience against sensor noise. The second problem involves hyperparameter optimization and dictionary learning to adapt the model to the dynamical system. In summary, the main contribution of this work is the unification of Gaussian process regression and dynamic mode decomposition.",
+ "primary": "cs.LG"
+}

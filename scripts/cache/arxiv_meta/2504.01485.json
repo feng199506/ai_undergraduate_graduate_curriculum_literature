@@ -1,0 +1,15 @@
+{
+ "id": "2504.01485",
+ "title": "Diameter Shortcut Sets on Temporal Graphs",
+ "authors": [
+  "Gerome Quantmeyer"
+ ],
+ "v1_date": "2025-04-02",
+ "latest_version": 1,
+ "latest_date": "2025-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is my Bachelor's thesis submitted at the Digital Engineering Faculty of the University of Potsdam on March 7, 2025",
+ "abstract": "Shortcut sets are a vital instrument for reducing the diameter of a static graph and, consequently, its shortest path complexity, which is relevant in numerous subfields of graph theory. We explore the notion of shortcut sets in temporal graphs, which incorporate a discrete time model into the graph, rendering each edge accessible exclusively at specific points in time. This not only alters the underlying assumptions of regular graphs but also substantially increases the complexity of path problems and reachability. In turn, a temporal graph is often a much more realistic and accurate representation of a real-world network. In this thesis we provide a definition for a shortcut set in a temporal graph and explore differences to classic shortcut sets. Utilizing this definition, we show that temporal and regular shortcut sets yield the same results on temporal paths, enabling the application of existing construction algorithms for static shortcut sets on paths. The primary contribution of this thesis is a translation approach for general temporal graphs that utilizes the static expansion of a temporal graph, allowing the conversion of static shortcut sets into temporal shortcut sets, yielding similar results.",
+ "primary": "cs.DS"
+}

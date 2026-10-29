@@ -1,0 +1,16 @@
+{
+ "id": "2602.10464",
+ "title": "Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference",
+ "authors": [
+  "Shirong Xu",
+  "Will Wei Sun"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 1,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in artificial intelligence have enabled the generation of large-scale, low-cost predictions with increasingly high fidelity. As a result, the primary challenge in statistical inference has shifted from data scarcity to data reliability. Prediction-powered inference methods seek to exploit such predictions to improve efficiency when labeled data are limited. However, existing approaches implicitly adopt a use-all philosophy, under which incorporating more predictions is presumed to improve inference. When prediction quality is heterogeneous, this assumption can fail, and indiscriminate use of unlabeled data may dilute informative signals and degrade inferential accuracy. In this paper, we propose Filtered Prediction-Powered Inference (FPPI), a framework that selectively incorporates predictions by identifying a data-adaptive filtered region in which predictions are informative for inference. We show that this region can be consistently estimated under a margin condition, achieving fast rates of convergence. By restricting the prediction-powered correction to the estimated filtered region, FPPI adaptively mitigates the impact of biased or noisy predictions. We establish that FPPI attains strictly improved asymptotic efficiency compared with existing prediction-powered inference methods. Numerical studies and a real-data application to large language model evaluation demonstrate that FPPI substantially reduces reliance on expensive labels by selectively leveraging reliable predictions, yielding accurate inference even in the presence of heterogeneous prediction quality.",
+ "primary": "math.ST"
+}

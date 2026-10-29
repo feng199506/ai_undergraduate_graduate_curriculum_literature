@@ -1,0 +1,15 @@
+{
+ "id": "2509.11054",
+ "title": "Rate-Distortion Limits for Multimodal Retrieval: Theory, Optimal Codes, and Finite-Sample Guarantees",
+ "authors": [
+  "Thomas Y. Chen"
+ ],
+ "v1_date": "2025-09-14",
+ "latest_version": 1,
+ "latest_date": "2025-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICCV MRR 2025",
+ "abstract": "We establish the first information-theoretic limits for multimodal retrieval. Casting ranking as lossy source coding, we derive a single-letter rate-distortion function $R(D)$ for reciprocal-rank distortion and prove a converse bound that splits into a modality-balanced term plus a skew penalty $κ\\,ΔH$ capturing entropy imbalance and cross-modal redundancy. We then construct an explicit entropy-weighted stochastic quantizer with an adaptive, per-modality temperature decoder; a Blahut-Arimoto argument shows this scheme achieves distortion within $O(n^{-1})$ of $R(D)$ using $n$ training triples. A VC-type analysis yields the first finite-sample excess-risk bound whose complexity scales sub-linearly in both the number of modalities and the entropy gap. Experiments on controlled Gaussian mixtures and Flickr30k confirm that our adaptive codes sit within two percentage points of the theoretical frontier, while fixed-temperature and naive CLIP baselines lag significantly. Taken together, our results give a principled answer to \"how many bits per query are necessary\" for high-quality multimodal retrieval and provide design guidance for entropy-aware contrastive objectives, continual-learning retrievers, and retrieval-augmented generators.",
+ "primary": "cs.IT"
+}

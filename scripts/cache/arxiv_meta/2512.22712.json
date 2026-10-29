@@ -1,0 +1,21 @@
+{
+ "id": "2512.22712",
+ "title": "Beg to Differ: Understanding Reasoning-Answer Misalignment Across Languages",
+ "authors": [
+  "Anaelia Ovalle",
+  "Candace Ross",
+  "Sebastian Ruder",
+  "Adina Williams",
+  "Karen Ullrich",
+  "Mark Ibrahim",
+  "Levent Sagun"
+ ],
+ "v1_date": "2025-12-27",
+ "latest_version": 3,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to 2025 EMNLP Multilingual Representation Learning Workshop",
+ "abstract": "Large language models demonstrate strong reasoning capabilities through chain-of-thought prompting, but whether this reasoning quality transfers across languages remains underexplored. We introduce a human-validated framework to evaluate whether model-generated reasoning traces logically support their conclusions across languages. Analyzing 65k reasoning traces from GlobalMMLU questions across 6 languages and 6 frontier models, we uncover a critical blind spot: while models achieve high task accuracy, their reasoning can fail to support their conclusions. Reasoning traces in non-Latin scripts show at least twice as much misalignment between their reasoning and conclusions than those in Latin scripts. We develop an error taxonomy through human annotation to characterize these failures, finding they stem primarily from evidential errors (unsupported claims, ambiguous facts) followed by illogical reasoning steps. Our findings demonstrate that current multilingual evaluation practices provide an incomplete picture of model reasoning capabilities and highlight the need for reasoning-aware evaluation frameworks.",
+ "primary": "cs.CL"
+}

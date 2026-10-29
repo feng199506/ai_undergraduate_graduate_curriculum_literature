@@ -1,0 +1,19 @@
+{
+ "id": "2402.13332",
+ "title": "Causal hybrid modeling with double machine learning",
+ "authors": [
+  "Kai-Hendrik Cohrs",
+  "Gherardo Varando",
+  "Nuno Carvalhais",
+  "Markus Reichstein",
+  "Gustau Camps-Valls"
+ ],
+ "v1_date": "2024-02-20",
+ "latest_version": 2,
+ "latest_date": "2024-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hybrid modeling integrates machine learning with scientific knowledge to enhance interpretability, generalization, and adherence to natural laws. Nevertheless, equifinality and regularization biases pose challenges in hybrid modeling to achieve these purposes. This paper introduces a novel approach to estimating hybrid models via a causal inference framework, specifically employing Double Machine Learning (DML) to estimate causal effects. We showcase its use for the Earth sciences on two problems related to carbon dioxide fluxes. In the $Q_{10}$ model, we demonstrate that DML-based hybrid modeling is superior in estimating causal parameters over end-to-end deep neural network (DNN) approaches, proving efficiency, robustness to bias from regularization methods, and circumventing equifinality. Our approach, applied to carbon flux partitioning, exhibits flexibility in accommodating heterogeneous causal effects. The study emphasizes the necessity of explicitly defining causal graphs and relationships, advocating for this as a general best practice. We encourage the continued exploration of causality in hybrid models for more interpretable and trustworthy results in knowledge-guided machine learning.",
+ "primary": "cs.LG"
+}

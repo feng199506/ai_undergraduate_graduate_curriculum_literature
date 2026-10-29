@@ -1,0 +1,18 @@
+{
+ "id": "2503.01909",
+ "title": "Attend or Perish: Benchmarking Attention in Algorithmic Reasoning",
+ "authors": [
+  "Michal Spiegel",
+  "Michal Štefánik",
+  "Marek Kadlčík",
+  "Josef Kuchař"
+ ],
+ "v1_date": "2025-02-28",
+ "latest_version": 2,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Can transformers learn to perform algorithmic tasks reliably across previously unseen input/output domains? While pre-trained language models show solid accuracy on benchmarks incorporating algorithmic reasoning, assessing the reliability of these results necessitates an ability to distinguish genuine algorithmic understanding from memorization. In this paper, we propose AttentionSpan, an algorithmic benchmark comprising five tasks of infinite input domains where we can disentangle and trace the correct, robust algorithm necessary for the task. This allows us to assess (i) models' ability to extrapolate to unseen types of inputs, including new lengths, value ranges or input domains, but also (ii)to assess the robustness of their learned mechanisms. By analyzing attention maps and performing targeted interventions, we show that attention mechanism directly causes failures in extrapolation. We make the implementation of all our tasks and interpretability methods publicly available at https://github.com/michalspiegel/AttentionSpan .",
+ "primary": "cs.LG"
+}

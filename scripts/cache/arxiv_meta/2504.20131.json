@@ -1,0 +1,20 @@
+{
+ "id": "2504.20131",
+ "title": "LZ Penalty: An information-theoretic repetition penalty for autoregressive language models",
+ "authors": [
+  "Antonio A. Ginart",
+  "Naveen Kodali",
+  "Jason Lee",
+  "Caiming Xiong",
+  "Silvio Savarese",
+  "John R. Emmons"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 4,
+ "latest_date": "2026-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Post-publication corrections (minor calculation mistakes)",
+ "abstract": "We introduce the LZ penalty, a penalty specialized for reducing degenerate repetitions in autoregressive language models without loss of capability. The penalty is based on the codelengths in the LZ77 universal lossless compression algorithm. Through the lens of the prediction-compression duality, decoding the LZ penalty has the interpretation of sampling from the residual distribution after removing the information that is highly compressible. We demonstrate the LZ penalty enables state-of-the-art open-source reasoning models to operate with greedy (temperature zero) decoding without loss of capability and without instances of degenerate repetition. Both the industry-standard frequency penalty and repetition penalty are ineffective, incurring degenerate repetition rates of up to 4%.",
+ "primary": "cs.LG"
+}

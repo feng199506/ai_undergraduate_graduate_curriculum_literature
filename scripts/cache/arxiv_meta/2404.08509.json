@@ -1,0 +1,24 @@
+{
+ "id": "2404.08509",
+ "title": "Efficient Interactive LLM Serving with Proxy Model-based Sequence Length Prediction",
+ "authors": [
+  "Haoran Qiu",
+  "Weichao Mao",
+  "Archit Patke",
+  "Shengkun Cui",
+  "Saurabh Jha",
+  "Chen Wang",
+  "Hubertus Franke",
+  "Zbigniew T. Kalbarczyk",
+  "Tamer Başar",
+  "Ravishankar K. Iyer"
+ ],
+ "v1_date": "2024-04-12",
+ "latest_version": 2,
+ "latest_date": "2024-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at AIOps'24",
+ "abstract": "Large language models (LLMs) have been driving a new wave of interactive AI applications across numerous domains. However, efficiently serving LLM inference requests is challenging due to their unpredictable execution times originating from the autoregressive nature of generative models. Existing LLM serving systems exploit first-come-first-serve (FCFS) scheduling, suffering from head-of-line blocking issues. To address the non-deterministic nature of LLMs and enable efficient interactive LLM serving, we present a speculative shortest-job-first (SSJF) scheduler that uses a light proxy model to predict LLM output sequence lengths. Our open-source SSJF implementation does not require changes to memory management or batching strategies. Evaluations on real-world datasets and production workload traces show that SSJF reduces average job completion times by 30.5-39.6% and increases throughput by 2.2-3.6x compared to FCFS schedulers, across no batching, dynamic batching, and continuous batching settings.",
+ "primary": "cs.DC"
+}

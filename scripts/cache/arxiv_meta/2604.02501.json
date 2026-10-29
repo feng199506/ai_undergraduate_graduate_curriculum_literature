@@ -1,0 +1,20 @@
+{
+ "id": "2604.02501",
+ "title": "ECG Foundation Models and Medical LLMs for Agentic Cardiovascular Intelligence at the Edge: A Review and Outlook",
+ "authors": [
+  "Mudassir Hasan Khan",
+  "Ahmad Nayfeh",
+  "Mudassir Masood",
+  "Ali Ahmad Al-Shaikhi",
+  "Muhammad Mahboob Ur Rahman",
+  "Tareq Y. Al-Naffouri"
+ ],
+ "v1_date": "2026-04-02",
+ "latest_version": 1,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 4 figures, 4 tables, under review with a journal",
+ "abstract": "Electrocardiogram (ECG) foundation models represent a paradigm shift from task-specific pipelines to generalizable architectures pre-trained on large-scale unlabeled waveform data. This survey presents a unified and deployment-aware review of foundation models and medical large language models (LLMs) for ECG intelligence in cardiovascular disease (CVD) diagnosis, monitoring, and clinical decision support. The central thesis of this survey paper is that next-generation cardiovascular AI systems will be inherently agentic, requiring the synergistic integration of two complementary model classes: (i) ECG foundation models that act as signal-level interpreters, learning rich electrophysiological representations via self-supervised and multimodal pretraining, and (ii) medical LLMs, trained on biomedical text corpora, that function as knowledge-based reasoning backbones for contextual inference, guideline alignment, and clinical decision support. Thus, the survey systematically reviews existing pool of generalist medical LLMs, as well as ECG foundation models that utilize techniques such as self-supervised learning, multimodal ECG-language alignment, vision transformer architectures, and possess capabilities such as zero-shot classification, automated report generation, and longitudinal risk modeling. Recognizing the constraints of consumer-grade wearable edge devices, we further examine model optimization techniques such as quantization, pruning, knowledge distillation, as well as the role of small language models in enabling low-latency, energy-efficient, and privacy-preserving ECG intelligence on edge platforms such as smartwatches. Finally, we outline future directions in multimodal ECG foundation models, agent-driven monitoring, and explainable, secure edge intelligence, with particular emphasis on real-time, on-device cardiovascular analytics in consumer electronics ecosystems.",
+ "primary": "eess.SP"
+}

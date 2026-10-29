@@ -1,0 +1,17 @@
+{
+ "id": "2311.06788",
+ "title": "Real-Time Probabilistic Programming",
+ "authors": [
+  "Lars Hummelgren",
+  "Matthias Becker",
+  "David Broman"
+ ],
+ "v1_date": "2023-11-12",
+ "latest_version": 2,
+ "latest_date": "2024-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Complex cyber-physical systems interact in real-time and must consider both timing and uncertainty. Developing software for such systems is expensive and difficult, especially when modeling, inference, and real-time behavior must be developed from scratch. Recently, a new kind of language has emerged -- called probabilistic programming languages (PPLs) -- that simplify modeling and inference by separating the concerns between probabilistic modeling and inference algorithm implementation. However, these languages have primarily been designed for offline problems, not online real-time systems. In this paper, we combine PPLs and real-time programming primitives by introducing the concept of real-time probabilistic programming languages (RTPPL). We develop an RTPPL called ProbTime and demonstrate its usability on an automotive testbed performing indoor positioning and braking. Moreover, we study fundamental properties and design alternatives for runtime behavior, including a new fairness-guided approach that automatically optimizes the accuracy of a ProbTime system under schedulability constraints.",
+ "primary": "cs.PL"
+}

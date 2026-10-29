@@ -1,0 +1,16 @@
+{
+ "id": "2505.05759",
+ "title": "A review of advancements in low-light image enhancement using deep learning",
+ "authors": [
+  "Fangxue Liu",
+  "Lei Fan"
+ ],
+ "v1_date": "2025-05-09",
+ "latest_version": 2,
+ "latest_date": "2025-07-14",
+ "journal_ref": "Neurocomputing, Volume 652, 131052, 2025",
+ "doi": "10.1016/j.neucom.2025.131052",
+ "comment": "",
+ "abstract": "In low-light environments, the performance of computer vision algorithms often deteriorates significantly, adversely affecting key vision tasks such as segmentation, detection, and classification. With the rapid advancement of deep learning, its application to low-light image processing has attracted widespread attention and seen significant progress in recent years. However, there remains a lack of comprehensive surveys that systematically examine how recent deep-learning-based low-light image enhancement methods function and evaluate their effectiveness in enhancing downstream vision tasks. To address this gap, this review provides detailed elaboration on how various recent approaches (from 2020) operate and their enhancement mechanisms, supplemented with clear illustrations. It also investigates the impact of different enhancement techniques on subsequent vision tasks, critically analyzing their strengths and limitations. Our review found that image enhancement improved the performance of downstream vision tasks to varying degrees. Although supervised methods often produced images with high perceptual quality, they typically produced modest improvements in vision tasks. In contrast, zero-shot learning, despite achieving lower scores in image quality metrics, showed consistently boosted performance across various vision tasks. These suggest a disconnect between image quality metrics and those evaluating vision task performance. Additionally, unsupervised domain adaptation techniques demonstrated significant gains in segmentation tasks, highlighting their potential in practical low-light scenarios where labelled data is scarce. Observed limitations of existing studies are analyzed, and directions for future research are proposed. This review serves as a useful reference for determining low-light image enhancement techniques and optimizing vision task performance in low-light conditions.",
+ "primary": "cs.CV"
+}

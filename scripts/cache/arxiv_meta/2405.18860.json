@@ -1,0 +1,25 @@
+{
+ "id": "2405.18860",
+ "title": "Empowering Embodied Manipulation: A Bimanual-Mobile Robot Manipulation Dataset for Household Tasks",
+ "authors": [
+  "Tianle Zhang",
+  "Dongjiang Li",
+  "Yihang Li",
+  "Zecui Zeng",
+  "Lin Zhao",
+  "Lei Sun",
+  "Yue Chen",
+  "Xuelong Wei",
+  "Yibing Zhan",
+  "Lusong Li",
+  "Xiaodong He"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 2,
+ "latest_date": "2024-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The advancements in embodied AI are increasingly enabling robots to tackle complex real-world tasks, such as household manipulation. However, the deployment of robots in these environments remains constrained by the lack of comprehensive bimanual-mobile robot manipulation data that can be learned. Existing datasets predominantly focus on single-arm manipulation tasks, while the few dual-arm datasets available often lack mobility features, task diversity, comprehensive sensor data, and robust evaluation metrics; they fail to capture the intricate and dynamic nature of household manipulation tasks that bimanual-mobile robots are expected to perform. To overcome these limitations, we propose BRMData, a Bimanual-mobile Robot Manipulation Dataset specifically designed for household applications. BRMData encompasses 10 diverse household tasks, including single-arm and dual-arm tasks, as well as both tabletop and mobile manipulations, utilizing multi-view and depth-sensing data information. Moreover, BRMData features tasks of increasing difficulty, ranging from single-object to multi-object grasping, non-interactive to human-robot interactive scenarios, and rigid-object to flexible-object manipulation, closely simulating real-world household applications. Additionally, we introduce a novel Manipulation Efficiency Score (MES) metric to evaluate both the precision and efficiency of robot manipulation methods in household tasks. We thoroughly evaluate and analyze the performance of advanced robot manipulation learning methods using our BRMData, aiming to drive the development of bimanual-mobile robot manipulation technologies. The dataset is now open-sourced and available at https://embodiedrobot.github.io/.",
+ "primary": "cs.RO"
+}

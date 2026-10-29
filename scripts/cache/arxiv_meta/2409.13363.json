@@ -1,0 +1,18 @@
+{
+ "id": "2409.13363",
+ "title": "FPBoost: Fully Parametric Gradient Boosting for Survival Analysis",
+ "authors": [
+  "Alberto Archetti",
+  "Eugenio Lomurno",
+  "Diego Piccinotti",
+  "Matteo Matteucci"
+ ],
+ "v1_date": "2024-09-20",
+ "latest_version": 3,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "10.3233/faia251019",
+ "comment": "",
+ "abstract": "Survival analysis is a statistical framework for modeling time-to-event data. It plays a pivotal role in medicine, reliability engineering, and social science research, where understanding event dynamics even with few data samples is critical. Recent advancements in machine learning, particularly those employing neural networks and decision trees, have introduced sophisticated algorithms for survival modeling. However, many of these methods rely on restrictive assumptions about the underlying event-time distribution, such as proportional hazard, time discretization, or accelerated failure time. In this study, we propose FPBoost, a survival model that combines a weighted sum of fully parametric hazard functions with gradient boosting. Distribution parameters are estimated with decision trees trained by maximizing the full survival likelihood. We show how FPBoost is a universal approximator of hazard functions, offering full event-time modeling flexibility while maintaining interpretability through the use of well-established parametric distributions. We evaluate concordance and calibration of FPBoost across multiple benchmark datasets, showcasing its robustness and versatility as a new tool for survival estimation.",
+ "primary": "cs.LG"
+}

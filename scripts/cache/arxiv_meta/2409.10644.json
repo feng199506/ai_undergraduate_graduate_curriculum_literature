@@ -1,0 +1,19 @@
+{
+ "id": "2409.10644",
+ "title": "Improving Multi-candidate Speculative Decoding",
+ "authors": [
+  "Xiaofan Lu",
+  "Yixiao Zeng",
+  "Feiyang Ma",
+  "Zixu Yu",
+  "Marco Levorato"
+ ],
+ "v1_date": "2024-09-16",
+ "latest_version": 3,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by NeurIPS ENLSP 2024 Workshop",
+ "abstract": "Speculative Decoding (SD) is a technique to accelerate the inference of Large Language Models (LLMs) by using a lower complexity draft model to propose candidate tokens verified by a larger target model. To further improve efficiency, Multi-Candidate Speculative Decoding (MCSD) improves upon this by sampling multiple candidate tokens from the draft model at each step and verifying them in parallel, thus increasing the chances of accepting a token and reducing generation time. Existing MCSD methods rely on the draft model to initialize the multi-candidate sequences and use static length and tree attention structure for draft generation. However, such an approach suffers from the draft and target model's output distribution differences, especially in a dynamic generation context. In this work, we introduce a new version of MCSD that includes a target model initialized multi-candidate generation, a dynamic sliced topology-aware causal mask for dynamic length adjustment, and decision models to optimize early stopping. We experimented with our method on Llama 2-7B and its variants and observed a maximum 27.5% speedup compared to our MCSD baseline across three benchmarks with Llama 2-7B as the target model and JackFram 68M as the draft model. Additionally, we evaluate the effects of using the target model initialized multi-candidate process with different draft models on output quality.",
+ "primary": "cs.CL"
+}

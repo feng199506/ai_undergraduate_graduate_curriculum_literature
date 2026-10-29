@@ -1,0 +1,17 @@
+{
+ "id": "2409.15088",
+ "title": "AdapFair: Ensuring Adaptive Fairness for Machine Learning Operations",
+ "authors": [
+  "Yinghui Huang",
+  "Zihao Tang",
+  "Xiangyu Chang"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 2,
+ "latest_date": "2025-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages,15 figures",
+ "abstract": "The biases and discrimination of machine learning algorithms have attracted significant attention, leading to the development of various algorithms tailored to specific contexts. However, these solutions often fall short of addressing fairness issues inherent in machine learning operations. In this paper, we present an adaptive debiasing framework designed to find an optimal fair transformation of input data that maximally preserves data predictability under dynamic conditions. A distinctive feature of our approach is its flexibility and efficiency. It can be integrated with pretrained black-box classifiers, providing fairness guarantees with minimal retraining efforts, even in the face of frequent data drifts, evolving fairness requirements, and batches of similar tasks. To achieve this, we leverage the normalizing flows to enable efficient, information-preserving data transformation, ensuring that no critical information is lost during the debiasing process. Additionally, we incorporate the Wasserstein distance as the fairness measure to guide the optimization of data transformations. Finally, we introduce an efficient optimization algorithm with closed-formed gradient computations, making our framework scalable and suitable for dynamic, real-world environments.",
+ "primary": "cs.LG"
+}

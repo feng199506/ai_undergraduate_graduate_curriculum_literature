@@ -1,0 +1,18 @@
+{
+ "id": "2312.17572",
+ "title": "Mixing time of the conditional backward sampling particle filter",
+ "authors": [
+  "Joona Karjalainen",
+  "Anthony Lee",
+  "Sumeetpal S. Singh",
+  "Matti Vihola"
+ ],
+ "v1_date": "2023-12-29",
+ "latest_version": 4,
+ "latest_date": "2025-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The conditional backward sampling particle filter (CBPF) is a powerful Markov chain Monte Carlo sampler for general state space hidden Markov model (HMM) smoothing. It was proposed as an improvement over the conditional particle filter (CPF), which has an $O(T^2)$ complexity under a general `strong' mixing assumption, where $T$ is the time horizon. Empirical evidence of the superiority of the CBPF over the CPF has never been theoretically quantified. We show that the CBPF has $O(T \\log T)$ time complexity under strong mixing: its mixing time is upper bounded by $O(\\log T)$, for any sufficiently large number of particles $N$ independent of $T$. This $O(\\log T)$ mixing time is optimal. To prove our main result, we introduce a novel coupling of two CBPFs, which employs a maximal coupling of two particle systems at each time instant. The coupling is implementable and we use it to construct unbiased, finite variance, estimates of functionals which have arbitrary dependence on the latent state's path, with a total expected cost of $O(T \\log T)$. We use this to construct unbiased estimates of the HMM's score function, and also investigate other couplings which can exhibit improved behaviour. We demonstrate our methods on financial and calcium imaging applications.",
+ "primary": "stat.CO"
+}

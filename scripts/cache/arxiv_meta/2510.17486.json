@@ -1,0 +1,16 @@
+{
+ "id": "2510.17486",
+ "title": "Local properties of neural networks through the lens of layer-wise Hessians",
+ "authors": [
+  "Maxim Bolshim",
+  "Alexander Kugaevskikh"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 2,
+ "latest_date": "2025-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Comments: 22 pages, 8 figures. Submitted to arXiv:cs.LG",
+ "abstract": "We introduce a methodology for analyzing neural networks through the lens of layer-wise Hessian matrices. The local Hessian of each functional block (layer) is defined as the matrix of second derivatives of a scalar function with respect to the parameters of that layer. This concept provides a formal tool for characterizing the local geometry of the parameter space. We show that the spectral properties of local Hessians, such as the distribution of eigenvalues, reveal quantitative patterns associated with overfitting, underparameterization, and expressivity in neural network architectures. We conduct an extensive empirical study involving 111 experiments across 37 datasets. The results demonstrate consistent structural regularities in the evolution of local Hessians during training and highlight correlations between their spectra and generalization performance. These findings establish a foundation for using local geometric analysis to guide the diagnosis and design of deep neural networks. The proposed framework connects optimization geometry with functional behavior and offers practical insight for improving network architectures and training stability.",
+ "primary": "cs.LG"
+}

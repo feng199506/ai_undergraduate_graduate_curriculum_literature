@@ -1,0 +1,16 @@
+{
+ "id": "2603.03141",
+ "title": "Efficient Dynamic Algorithms to Predict Short Races",
+ "authors": [
+  "Minjian Zhang",
+  "Mahesh Viswanathan"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 1,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Manuscript under review",
+ "abstract": "We introduce and study the problem of detecting short races in an observed trace. Specifically, for a race type $R$, given a trace $σ$ and window size $w$, the task is to determine whether there exists an $R$-race $(e_1, e_2)$ in $σ$ such that the subtrace starting with $e_1$ and ending with $e_2$ contains at most $w$ events. We present a monitoring framework for short-race prediction and instantiate the framework for happens-before and sync-preserving races, yielding efficient detection algorithms. Our happens-before algorithm runs in the same time as FastTrack but uses space that scales with $\\log w$ as opposed to $\\log |σ|$. For sync-preserving races, our algorithm runs faster and consumes significantly less space than SyncP. Our experiments validate the effectiveness of these short-race detection algorithms: they run more efficiently, use less memory, and detect significantly more races under the same budget, offering a reasonable balance between resource usage and predictive power.",
+ "primary": "cs.PL"
+}

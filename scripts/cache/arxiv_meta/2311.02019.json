@@ -1,0 +1,16 @@
+{
+ "id": "2311.02019",
+ "title": "Reproducible Parameter Inference Using Bagged Posteriors",
+ "authors": [
+  "Jonathan H. Huggins",
+  "Jeffrey W. Miller"
+ ],
+ "v1_date": "2023-11-03",
+ "latest_version": 1,
+ "latest_date": "2023-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:1912.07104",
+ "abstract": "Under model misspecification, it is known that Bayesian posteriors often do not properly quantify uncertainty about true or pseudo-true parameters. Even more fundamentally, misspecification leads to a lack of reproducibility in the sense that the same model will yield contradictory posteriors on independent data sets from the true distribution. To define a criterion for reproducible uncertainty quantification under misspecification, we consider the probability that two confidence sets constructed from independent data sets have nonempty overlap, and we establish a lower bound on this overlap probability that holds for any valid confidence sets. We prove that credible sets from the standard posterior can strongly violate this bound, particularly in high-dimensional settings (i.e., with dimension increasing with sample size), indicating that it is not internally coherent under misspecification. To improve reproducibility in an easy-to-use and widely applicable way, we propose to apply bagging to the Bayesian posterior (\"BayesBag\"'); that is, to use the average of posterior distributions conditioned on bootstrapped datasets. We motivate BayesBag from first principles based on Jeffrey conditionalization and show that the bagged posterior typically satisfies the overlap lower bound. Further, we prove a Bernstein--Von Mises theorem for the bagged posterior, establishing its asymptotic normal distribution. We demonstrate the benefits of BayesBag via simulation experiments and an application to crime rate prediction.",
+ "primary": "stat.ME"
+}

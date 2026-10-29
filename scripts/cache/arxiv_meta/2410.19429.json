@@ -1,0 +1,17 @@
+{
+ "id": "2410.19429",
+ "title": "Generative Diffusion Models for Sequential Recommendations",
+ "authors": [
+  "Sharare Zolghadr",
+  "Ole Winther",
+  "Paul Jeha"
+ ],
+ "v1_date": "2024-10-25",
+ "latest_version": 1,
+ "latest_date": "2024-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ROEGEN@RecSys'24: The 1st Workshop on Risks, Opportunities, and Evaluation of Generative Models in Recommender Systems, Co-located with ACM RecSys in Bari, Italy, October 2024",
+ "abstract": "Generative models such as Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs) have shown promise in sequential recommendation tasks. However, they face challenges, including posterior collapse and limited representation capacity. The work by Li et al. (2023) introduces a novel approach that leverages diffusion models to address these challenges by representing item embeddings as distributions rather than fixed vectors. This approach allows for a more adaptive reflection of users' diverse interests and various item aspects. During the diffusion phase, the model converts the target item embedding into a Gaussian distribution by adding noise, facilitating the representation of sequential item distributions and the injection of uncertainty. An Approximator then processes this noisy item representation to reconstruct the target item. In the reverse phase, the model utilizes users' past interactions to reverse the noise and finalize the item prediction through a rounding operation. This research introduces enhancements to the DiffuRec architecture, particularly by adding offset noise in the diffusion process to improve robustness and incorporating a cross-attention mechanism in the Approximator to better capture relevant user-item interactions. These contributions led to the development of a new model, DiffuRecSys, which improves performance. Extensive experiments conducted on three public benchmark datasets demonstrate that these modifications enhance item representation, effectively capture diverse user preferences, and outperform existing baselines in sequential recommendation research.",
+ "primary": "cs.LG"
+}

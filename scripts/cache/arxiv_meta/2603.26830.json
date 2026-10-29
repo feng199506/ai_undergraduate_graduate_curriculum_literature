@@ -1,0 +1,17 @@
+{
+ "id": "2603.26830",
+ "title": "A Regression Framework for Understanding Prompt Component Impact on LLM Performance",
+ "authors": [
+  "Andrew Lauziere",
+  "Jonathan Daugherty",
+  "Taisa Kushner"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 4 figures, 1 table",
+ "abstract": "As large language models (LLMs) continue to improve and see further integration into software systems, so does the need to understand the conditions in which they will perform. We contribute a statistical framework for understanding the impact of specific prompt features on LLM performance. The approach extends previous explainable artificial intelligence (XAI) methods specifically to inspect LLMs by fitting regression models relating portions of the prompt to LLM evaluation. We apply our method to compare how two open-source models, Mistral-7B and GPT-OSS-20B, leverage the prompt to perform a simple arithmetic problem. Regression models of individual prompt portions explain 72% and 77% of variation in model performances, respectively. We find misinformation in the form of incorrect example query-answer pairs impedes both models from solving the arithmetic query, though positive examples do not find significant variability in the impact of positive and negative instructions - these prompts have contradictory effects on model performance. The framework serves as a tool for decision makers in critical scenarios to gain granular insight into how the prompt influences an LLM to solve a task.",
+ "primary": "cs.LG"
+}

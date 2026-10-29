@@ -1,0 +1,17 @@
+{
+ "id": "2404.15253",
+ "title": "GIST: Gibbs self-tuning for locally adaptive Hamiltonian Monte Carlo",
+ "authors": [
+  "Nawaf Bou-Rabee",
+  "Bob Carpenter",
+  "Milo Marsden"
+ ],
+ "v1_date": "2024-04-23",
+ "latest_version": 4,
+ "latest_date": "2025-06-24",
+ "journal_ref": "Statist. Surv. 20 135 - 179, 2026",
+ "doi": "10.1214/26-ss156",
+ "comment": "for companion code, see https://github.com/bob-carpenter/adaptive-hmc",
+ "abstract": "We introduce a novel and flexible framework for constructing locally adaptive Hamiltonian Monte Carlo (HMC) samplers by Gibbs sampling the algorithm's tuning parameters conditionally based on the position and momentum at each step. For adaptively sampling path lengths, our Gibbs self-tuning (GIST) approach encompasses randomized HMC, multinomial HMC, the No-U-Turn Sampler (NUTS), and the Apogee-to-Apogee Path Sampler as special cases. We exemplify the GIST framework with a novel alternative to NUTS for locally adapting path lengths, evaluated with an exact Hamiltonian for a high-dimensional, ill-conditioned Gaussian measure and with the leapfrog integrator for a suite of diverse models.",
+ "primary": "stat.CO"
+}

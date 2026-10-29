@@ -1,0 +1,20 @@
+{
+ "id": "2412.04787",
+ "title": "Direct Quantized Training of Language Models with Stochastic Rounding",
+ "authors": [
+  "Kaiyan Zhao",
+  "Tsuguchika Tabaru",
+  "Kenichi Kobayashi",
+  "Takumi Honda",
+  "Masafumi Yamazaki",
+  "Yoshimasa Tsuruoka"
+ ],
+ "v1_date": "2024-12-06",
+ "latest_version": 3,
+ "latest_date": "2025-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ACML 2025",
+ "abstract": "Although recent quantized Large Language Models (LLMs), such as BitNet, have paved the way for significant reduction in memory usage during deployment with binary or ternary weights, training these models still demands substantial memory footprints. This is partly because high-precision (i.e., unquantized) weights required for straight-through estimation must be maintained throughout the whole training process. To address this, we explore directly updating the quantized low-precision weights without relying on straight-through estimation during backpropagation, aiming to save memory usage during training. Specifically, we employ a stochastic rounding technique to minimize the information loss caused by the use of low-bit weights throughout training. Experimental results on our LLaMA-structured models of various sizes indicate that (1) training with only low-precision weights is feasible even when they are constrained to ternary values; (2) extending the bit width to 8 bits achieves performance on par with BitNet b1.58; (3) our models remain robust to precision scaling and memory reduction, showing minimal performance degradation when moving from FP32 to lower-memory environments (BF16/FP8); and (4) our models also support inference using ternary weights, showcasing their flexibility in deployment.",
+ "primary": "cs.LG"
+}

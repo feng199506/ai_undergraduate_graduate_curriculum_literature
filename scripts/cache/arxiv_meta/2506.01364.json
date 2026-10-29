@@ -1,0 +1,26 @@
+{
+ "id": "2506.01364",
+ "title": "Unraveling Spatio-Temporal Foundation Models via the Pipeline Lens: A Comprehensive Review",
+ "authors": [
+  "Yuchen Fang",
+  "Hao Miao",
+  "Yuxuan Liang",
+  "Liwei Deng",
+  "Yue Cui",
+  "Ximu Zeng",
+  "Yuyang Xia",
+  "Yan Zhao",
+  "Torben Bach Pedersen",
+  "Christian S. Jensen",
+  "Xiaofang Zhou",
+  "Kai Zheng"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 1,
+ "latest_date": "2025-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 10 figures",
+ "abstract": "Spatio-temporal deep learning models aims to utilize useful patterns in such data to support tasks like prediction. However, previous deep learning models designed for specific tasks typically require separate training for each use case, leading to increased computational and storage costs. To address this issue, spatio-temporal foundation models have emerged, offering a unified framework capable of solving multiple spatio-temporal tasks. These foundation models achieve remarkable success by learning general knowledge with spatio-temporal data or transferring the general capabilities of pre-trained language models. While previous surveys have explored spatio-temporal data and methodologies separately, they have ignored a comprehensive examination of how foundation models are designed, selected, pre-trained, and adapted. As a result, the overall pipeline for spatio-temporal foundation models remains unclear. To bridge this gap, we innovatively provide an up-to-date review of previous spatio-temporal foundation models from the pipeline perspective. The pipeline begins with an introduction to different types of spatio-temporal data, followed by details of data preprocessing and embedding techniques. The pipeline then presents a novel data property taxonomy to divide existing methods according to data sources and dependencies, providing efficient and effective model design and selection for researchers. On this basis, we further illustrate the training objectives of primitive models, as well as the adaptation techniques of transferred models. Overall, our survey provides a clear and structured pipeline to understand the connection between core elements of spatio-temporal foundation models while guiding researchers to get started quickly. Additionally, we introduce emerging opportunities such as multi-objective training in the field of spatio-temporal foundation models.",
+ "primary": "cs.LG"
+}

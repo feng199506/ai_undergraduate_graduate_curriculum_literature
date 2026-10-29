@@ -1,0 +1,26 @@
+{
+ "id": "2107.05847",
+ "title": "Hyperparameter Optimization: Foundations, Algorithms, Best Practices and Open Challenges",
+ "authors": [
+  "Bernd Bischl",
+  "Martin Binder",
+  "Michel Lang",
+  "Tobias Pielok",
+  "Jakob Richter",
+  "Stefan Coors",
+  "Janek Thomas",
+  "Theresa Ullmann",
+  "Marc Becker",
+  "Anne-Laure Boulesteix",
+  "Difan Deng",
+  "Marius Lindauer"
+ ],
+ "v1_date": "2021-07-13",
+ "latest_version": 3,
+ "latest_date": "2021-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Most machine learning algorithms are configured by one or several hyperparameters that must be carefully chosen and often considerably impact performance. To avoid a time consuming and unreproducible manual trial-and-error process to find well-performing hyperparameter configurations, various automatic hyperparameter optimization (HPO) methods, e.g., based on resampling error estimation for supervised machine learning, can be employed. After introducing HPO from a general perspective, this paper reviews important HPO methods such as grid or random search, evolutionary algorithms, Bayesian optimization, Hyperband and racing. It gives practical recommendations regarding important choices to be made when conducting HPO, including the HPO algorithms themselves, performance evaluation, how to combine HPO with ML pipelines, runtime improvements, and parallelization. This work is accompanied by an appendix that contains information on specific software packages in R and Python, as well as information and recommended hyperparameter search spaces for specific learning algorithms. We also provide notebooks that demonstrate concepts from this work as supplementary files.",
+ "primary": "stat.ML"
+}

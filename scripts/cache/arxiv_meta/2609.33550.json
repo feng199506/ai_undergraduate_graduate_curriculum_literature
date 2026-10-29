@@ -1,0 +1,15 @@
+{
+ "id": "2609.33550",
+ "title": "Sparsity by Default: The Theory and Practice of ARD in Gaussian Process Regression for Variable Selection",
+ "authors": [
+  "Jia Cai"
+ ],
+ "v1_date": "2026-09-27",
+ "latest_version": 1,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automatic relevance determination (ARD) is the standard device for input selection in Gaussian process (GP) regression. By giving the covariance kernel a separate lengthscale for every input and learning those lengthscales by maximizing the marginal likelihood, ARD lets the data decide which coordinates matter: irrelevant inputs receive very large lengthscales and are effectively switched off. We trace this mechanism to the Bayesian Occam's razor embodied in the marginal likelihood, derive the gradient through which it prunes inputs, and emphasize that ARD delivers effective rather than exact sparsity. We review the algorithms used in practice and the rules that turn lengthscales into selections, and we survey the asymptotic theory, distinguishing the fixed-domain identifiability obstruction on the lengthscales from the high-dimensional selection-consistency guarantees recently established for hierarchical GP priors, and noting what remains open for plain ARD. We compare ARD with spike-and-slab priors, sparse axis-aligned and global-local shrinkage priors including the Bayesian lasso and horseshoe, penalized likelihood kriging, sensitivity and projection criteria, and additive kernels. We argue that ARD endures because of its seamless integration with kernel learning, universal software support, and low cost, and we close with its limitations and remedies.",
+ "primary": "stat.ML"
+}

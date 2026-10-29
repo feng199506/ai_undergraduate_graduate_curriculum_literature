@@ -1,0 +1,18 @@
+{
+ "id": "2402.07639",
+ "title": "Tighter Bounds on the Information Bottleneck with Application to Deep Learning",
+ "authors": [
+  "Nir Weingarten",
+  "Zohar Yakhini",
+  "Moshe Butman",
+  "Ran Gilad-Bachrach"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 1,
+ "latest_date": "2024-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 5 figures, code included in github repo",
+ "abstract": "Deep Neural Nets (DNNs) learn latent representations induced by their downstream task, objective function, and other parameters. The quality of the learned representations impacts the DNN's generalization ability and the coherence of the emerging latent space. The Information Bottleneck (IB) provides a hypothetically optimal framework for data modeling, yet it is often intractable. Recent efforts combined DNNs with the IB by applying VAE-inspired variational methods to approximate bounds on mutual information, resulting in improved robustness to adversarial attacks. This work introduces a new and tighter variational bound for the IB, improving performance of previous IB-inspired DNNs. These advancements strengthen the case for the IB and its variational approximations as a data modeling framework, and provide a simple method to significantly enhance the adversarial robustness of classifier DNNs.",
+ "primary": "cs.LG"
+}

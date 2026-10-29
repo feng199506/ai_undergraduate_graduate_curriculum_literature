@@ -1,0 +1,18 @@
+{
+ "id": "2607.08057",
+ "title": "Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization",
+ "authors": [
+  "Jiantong Jiang",
+  "Peiyu Yang",
+  "Rui Zhang",
+  "Feng Liu"
+ ],
+ "v1_date": "2026-07-09",
+ "latest_version": 1,
+ "latest_date": "2026-07-09",
+ "journal_ref": "Findings of the Association for Computational Linguistics: ACL 2026 (pp. 38450-38476)",
+ "doi": "10.18653/v1/2026.findings-acl.1916",
+ "comment": "Accepted to ACL 2026 as a Findings paper",
+ "abstract": "Despite the rapid advancements of large language models (LLMs), LLM serving systems remain memory-intensive and costly. The key-value (KV) cache, which stores KV tensors during autoregressive decoding, is crucial for enabling low-latency, high-throughput LLM inference serving. In this survey, we focus on system-aware KV infrastructure for serving LLMs (abbreviated as sKis). We revisit recent work from a system behavior perspective, organizing existing efforts into three dimensions: execution and scheduling (temporal), placement and migration (spatial), and representation and retention (structural). Furthermore, we analyze cross-behavior co-design affinity and behavior-objective links, highlighting future opportunities. Our work systematizes a rapidly evolving area, providing a foundation for understanding and innovating KV cache designs in modern LLM serving infrastructure.",
+ "primary": "cs.LG"
+}

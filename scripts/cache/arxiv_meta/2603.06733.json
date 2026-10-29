@@ -1,0 +1,15 @@
+{
+ "id": "2603.06733",
+ "title": "Calibrated Credit Intelligence: Shift-Robust and Fair Risk Scoring with Bayesian Uncertainty and Gradient Boosting",
+ "authors": [
+  "Srikumar Nayak"
+ ],
+ "v1_date": "2026-03-06",
+ "latest_version": 1,
+ "latest_date": "2026-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, table 1, figure 5",
+ "abstract": "Credit risk scoring must support high-stakes lending decisions where data distributions change over time, probability estimates must be reliable, and group-level fairness is required. While modern machine learning models improve default prediction accuracy, they often produce poorly calibrated scores under distribution shift and may create unfair outcomes when trained without explicit constraints. This paper proposes Calibrated Credit Intelligence (CCI), a deployment-oriented framework that combines (i) a Bayesian neural risk scorer to capture epistemic uncertainty and reduce overconfident errors, (ii) a fairnessconstrained gradient boosting model to control group disparities while preserving strong tabular performance, and (iii) a shiftaware fusion strategy followed by post-hoc probability calibration to stabilize decision thresholds in later time periods. We evaluate CCI on the Home Credit Credit Risk Model Stability benchmark using a time-consistent split to reflect real-world drift. Compared with strong baselines (LightGBM, XGBoost, CatBoost, TabNet, and a standalone Bayesian neural model), CCI achieves the best overall trade-off between discrimination, calibration, stability, and fairness. In particular, CCI reaches an AUC-ROC of 0.912 and an AUC-PR of 0.438, improves operational performance with Recall@1%FPR = 0.509, and reduces calibration error (Brier score 0.087, ECE 0.015). Under temporal shift, CCI shows a smaller AUC-PR drop from early to late periods (0.017), and it lowers group disparities (demographic parity gap 0.046, equal opportunity gap 0.037) compared to unconstrained boosting. These results indicate that CCI produces risk scores that are accurate, reliable, and more equitable under realistic deployment conditions.",
+ "primary": "q-fin.RM"
+}

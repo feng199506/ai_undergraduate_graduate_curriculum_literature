@@ -1,0 +1,17 @@
+{
+ "id": "2401.03069",
+ "title": "Towards Enhancing the Reproducibility of Deep Learning Bugs: An Empirical Study",
+ "authors": [
+  "Mehil B. Shah",
+  "Mohammad Masudur Rahman",
+  "Foutse Khomh"
+ ],
+ "v1_date": "2024-01-05",
+ "latest_version": 4,
+ "latest_date": "2024-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the Journal of Empirical Software Engineering (EMSE)",
+ "abstract": "Context: Deep learning has achieved remarkable progress in various domains. However, like any software system, deep learning systems contain bugs, some of which can have severe impacts, as evidenced by crashes involving autonomous vehicles. Despite substantial advancements in deep learning techniques, little research has focused on reproducing deep learning bugs, which is an essential step for their resolution. Existing literature suggests that only 3% of deep learning bugs are reproducible, underscoring the need for further research. Objective: This paper examines the reproducibility of deep learning bugs. We identify edit actions and useful information that could improve the reproducibility of deep learning bugs. Method: First, we construct a dataset of 668 deep-learning bugs from Stack Overflow and GitHub across three frameworks and 22 architectures. Second, out of the 668 bugs, we select 165 bugs using stratified sampling and attempt to determine their reproducibility. While reproducing these bugs, we identify edit actions and useful information for their reproduction. Third, we used the Apriori algorithm to identify useful information and edit actions required to reproduce specific types of bugs. Finally, we conducted a user study involving 22 developers to assess the effectiveness of our findings in real-life settings. Results: We successfully reproduced 148 out of 165 bugs attempted. We identified ten edit actions and five useful types of component information that can help us reproduce the deep learning bugs. With the help of our findings, the developers were able to reproduce 22.92% more bugs and reduce their reproduction time by 24.35%. Conclusions: Our research addresses the critical issue of deep learning bug reproducibility. Practitioners and researchers can leverage our findings to improve deep learning bug reproducibility.",
+ "primary": "cs.SE"
+}

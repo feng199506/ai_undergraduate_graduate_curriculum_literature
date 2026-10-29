@@ -1,0 +1,16 @@
+{
+ "id": "2410.03064",
+ "title": "Geometric Collaborative Filtering with Convergence",
+ "authors": [
+  "Hisham Husain",
+  "Julien Monteil"
+ ],
+ "v1_date": "2024-10-04",
+ "latest_version": 2,
+ "latest_date": "2024-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 1 figure, 3 tables",
+ "abstract": "Latent variable collaborative filtering methods have been a standard approach to modelling user-click interactions due to their simplicity and effectiveness. However, there is limited work on analyzing the mathematical properties of these methods in particular on preventing the overfitting towards the identity, and such methods typically utilize loss functions that overlook the geometry between items. In this work, we introduce a notion of generalization gap in collaborative filtering and analyze this with respect to latent collaborative filtering models. We present a geometric upper bound that gives rise to loss functions, and a way to meaningfully utilize the geometry of item-metadata to improve recommendations. We show how these losses can be minimized and gives the recipe to a new latent collaborative filtering algorithm, which we refer to as GeoCF, due to the geometric nature of our results. We then show experimentally that our proposed GeoCF algorithm can outperform other all existing methods on the Movielens20M and Netflix datasets, as well as two large-scale internal datasets. In summary, our work proposes a theoretically sound method which paves a way to better understand generalization of collaborative filtering at large.",
+ "primary": "cs.IR"
+}

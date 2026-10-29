@@ -1,0 +1,16 @@
+{
+ "id": "2401.03755",
+ "title": "Mixed Precision FGMRES-Based Iterative Refinement for Weighted Least Squares",
+ "authors": [
+  "Erin Carson",
+  "Eda Oktay"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 2,
+ "latest_date": "2024-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages",
+ "abstract": "With the recent emergence of mixed precision hardware, there has been a renewed interest in its use for solving numerical linear algebra problems fast and accurately. The solution of least squares (LS) problems $\\min_x\\|b-Ax\\|_2$, where $A \\in \\mathbb{R}^{m\\times n}$, arise in numerous application areas. Overdetermined standard least squares problems can be solved by using mixed precision within the iterative refinement method of Björck, which transforms the least squares problem into an $(m+n)\\times(m+n)$ ''augmented'' system. It has recently been shown that mixed precision GMRES-based iterative refinement can also be used, in an approach termed GMRES-LSIR. In practice, we often encounter types of least squares problems beyond standard least squares, including weighted least squares (WLS), $\\min_x\\|D^{1/2}(b-Ax)\\|_2$, where $D^{1/2}$ is a diagonal matrix of weights. In this paper, we discuss a mixed precision FGMRES-WLSIR algorithm for solving WLS problems using two different preconditioners.",
+ "primary": "math.NA"
+}

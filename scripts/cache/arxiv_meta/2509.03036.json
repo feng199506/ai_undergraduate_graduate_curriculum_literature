@@ -1,0 +1,17 @@
+{
+ "id": "2509.03036",
+ "title": "Knowledge Integration for Physics-informed Symbolic Regression Using Pre-trained Large Language Models",
+ "authors": [
+  "Bilge Taskin",
+  "Wenxiong Xie",
+  "Teddy Lazebnik"
+ ],
+ "v1_date": "2025-09-03",
+ "latest_version": 1,
+ "latest_date": "2025-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Symbolic regression (SR) has emerged as a powerful tool for automated scientific discovery, enabling the derivation of governing equations from experimental data. A growing body of work illustrates the promise of integrating domain knowledge into the SR to improve the discovered equation's generality and usefulness. Physics-informed SR (PiSR) addresses this by incorporating domain knowledge, but current methods often require specialized formulations and manual feature engineering, limiting their adaptability only to domain experts. In this study, we leverage pre-trained Large Language Models (LLMs) to facilitate knowledge integration in PiSR. By harnessing the contextual understanding of LLMs trained on vast scientific literature, we aim to automate the incorporation of domain knowledge, reducing the need for manual intervention and making the process more accessible to a broader range of scientific problems. Namely, the LLM is integrated into the SR's loss function, adding a term of the LLM's evaluation of the SR's produced equation. We extensively evaluate our method using three SR algorithms (DEAP, gplearn, and PySR) and three pre-trained LLMs (Falcon, Mistral, and LLama 2) across three physical dynamics (dropping ball, simple harmonic motion, and electromagnetic wave). The results demonstrate that LLM integration consistently improves the reconstruction of physical dynamics from data, enhancing the robustness of SR models to noise and complexity. We further explore the impact of prompt engineering, finding that more informative prompts significantly improve performance.",
+ "primary": "cs.LG"
+}

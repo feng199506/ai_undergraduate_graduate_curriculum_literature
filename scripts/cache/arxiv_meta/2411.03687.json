@@ -1,0 +1,16 @@
+{
+ "id": "2411.03687",
+ "title": "Beyond Model Adaptation at Test Time: A Survey",
+ "authors": [
+  "Zehao Xiao",
+  "Cees G. M. Snoek"
+ ],
+ "v1_date": "2024-11-06",
+ "latest_version": 1,
+ "latest_date": "2024-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning algorithms have achieved remarkable success across various disciplines, use cases and applications, under the prevailing assumption that training and test samples are drawn from the same distribution. Consequently, these algorithms struggle and become brittle even when samples in the test distribution start to deviate from the ones observed during training. Domain adaptation and domain generalization have been studied extensively as approaches to address distribution shifts across test and train domains, but each has its limitations. Test-time adaptation, a recently emerging learning paradigm, combines the benefits of domain adaptation and domain generalization by training models only on source data and adapting them to target data during test-time inference. In this survey, we provide a comprehensive and systematic review on test-time adaptation, covering more than 400 recent papers. We structure our review by categorizing existing methods into five distinct categories based on what component of the method is adjusted for test-time adaptation: the model, the inference, the normalization, the sample, or the prompt, providing detailed analysis of each. We further discuss the various preparation and adaptation settings for methods within these categories, offering deeper insights into the effective deployment for the evaluation of distribution shifts and their real-world application in understanding images, video and 3D, as well as modalities beyond vision. We close the survey with an outlook on emerging research opportunities for test-time adaptation.",
+ "primary": "cs.LG"
+}

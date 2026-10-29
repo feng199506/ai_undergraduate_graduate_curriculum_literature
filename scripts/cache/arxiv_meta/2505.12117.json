@@ -1,0 +1,15 @@
+{
+ "id": "2505.12117",
+ "title": "T-Rex: Fitting a Robust Factor Model via Expectation-Maximization",
+ "authors": [
+  "Daniel Cederberg"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 1,
+ "latest_date": "2025-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Currently under review",
+ "abstract": "Over the past decades, there has been a surge of interest in studying low-dimensional structures within high-dimensional data. Statistical factor models $-$ i.e., low-rank plus diagonal covariance structures $-$ offer a powerful framework for modeling such structures. However, traditional methods for fitting statistical factor models, such as principal component analysis (PCA) or maximum likelihood estimation assuming the data is Gaussian, are highly sensitive to heavy tails and outliers in the observed data. In this paper, we propose a novel expectation-maximization (EM) algorithm for robustly fitting statistical factor models. Our approach is based on Tyler's M-estimator of the scatter matrix for an elliptical distribution, and consists of solving Tyler's maximum likelihood estimation problem while imposing a structural constraint that enforces the low-rank plus diagonal covariance structure. We present numerical experiments on both synthetic and real examples, demonstrating the robustness of our method for direction-of-arrival estimation in nonuniform noise and subspace recovery.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2511.20873",
+ "title": "Representation Integrity in Temporal Graph Learning Methods",
+ "authors": [
+  "Elahe Kooshafar"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 1,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "70 pages",
+ "abstract": "Real-world systems ranging from airline routes to cryptocurrency transfers are naturally modelled as dynamic graphs whose topology changes over time. Conventional benchmarks judge dynamic-graph learners by a handful of task-specific scores, yet seldom ask whether the embeddings themselves remain a truthful, interpretable reflection of the evolving network. We formalize this requirement as representation integrity and derive a family of indexes that measure how closely embedding changes follow graph changes. Three synthetic scenarios, Gradual Merge, Abrupt Move, and Periodic Re-wiring, are used to screen forty-two candidate indexes. Based on which we recommend one index that passes all of our theoretical and empirical tests. In particular, this validated metric consistently ranks the provably stable UASE and IPP models highest. We then use this index to do a comparative study on representation integrity of common dynamic graph learning models. This study exposes the scenario-specific strengths of neural methods, and shows a strong positive rank correlation with one-step link-prediction AUC. The proposed integrity framework, therefore, offers a task-agnostic and interpretable evaluation tool for dynamic-graph representation quality, providing more explicit guidance for model selection and future architecture design.",
+ "primary": "cs.LG"
+}

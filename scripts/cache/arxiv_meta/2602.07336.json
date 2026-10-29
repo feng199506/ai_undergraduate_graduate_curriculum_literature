@@ -1,0 +1,22 @@
+{
+ "id": "2602.07336",
+ "title": "Learned Query Optimizer in Alibaba MaxCompute: Challenges, Analysis, and Solutions",
+ "authors": [
+  "Lianggui Weng",
+  "Dandan Liu",
+  "Wenzhuang Zhu",
+  "Rong Zhu",
+  "Junzheng Zheng",
+  "Bolin Ding",
+  "Zhiguo Zhang",
+  "Jingren Zhou"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 1,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 16 figures",
+ "abstract": "Existing learned query optimizers remain ill-suited to modern distributed, multi-tenant data warehouses due to idealized modeling assumptions and design choices. Using Alibaba's MaxCompute as a representative, we surface four fundamental, system-agnostic challenges for any deployable learned query optimizer: 1) highly dynamic execution environments that induce large variance in plan costs; 2) potential absence of input statistics needed for cost estimation; 3) infeasibility of conventional model refinement; and 4) uncertain benefits across different workloads. These challenges expose a deep mismatch between theoretical advances and production realities and demand a principled, deployment-first redesign of learned optimizers. To bridge this gap, we present LOAM, a one-stop learned query optimization framework for MaxCompute. Its design principles and techniques generalize and are readily adaptable to similar systems. Architecturally, LOAM introduces a statistics-free plan encoding that leverages operator semantics and historical executions to infer details about data distributions and explicitly encodes the execution environments of training queries to learn their impacts on plan costs. For online queries with unknown environments at prediction time, LOAM provides a theoretical bound on the achievable performance and a practical strategy to smooth the environmental impacts on cost estimations. For system operating, LOAM integrates domain adaptation techniques into training to generalize effectively to online query plans without requiring conventional refinement. Additionally, LOAM includes a lightweight project selector to prioritize high-benefit deployment projects. LOAM has seen up to 30% CPU cost savings over MaxCompute's native query optimizer on production workloads, which could translate to substantial real-world resource savings.",
+ "primary": "cs.DB"
+}

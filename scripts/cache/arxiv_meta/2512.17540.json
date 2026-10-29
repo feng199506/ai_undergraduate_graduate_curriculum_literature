@@ -1,0 +1,21 @@
+{
+ "id": "2512.17540",
+ "title": "SGCR: A Specification-Grounded Framework for Trustworthy LLM Code Review",
+ "authors": [
+  "Kai Wang",
+  "Bingcheng Mao",
+  "Shuai Jia",
+  "Yujie Ding",
+  "Dongming Han",
+  "Tianyi Ma",
+  "Bin Cao"
+ ],
+ "v1_date": "2025-12-19",
+ "latest_version": 2,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ASE 2025",
+ "abstract": "Automating code review with Large Language Models (LLMs) shows immense promise, yet practical adoption is hampered by their lack of reliability, context-awareness, and control. To address this, we propose Specification-Grounded Code Review (SGCR), a framework that grounds LLMs in human-authored specifications to produce trustworthy and relevant feedback. SGCR features a novel dual-pathway architecture: an explicit path ensures deterministic compliance with predefined rules derived from these specifications, while an implicit path heuristically discovers and verifies issues beyond those rules. Deployed in a live industrial environment at HiThink Research, SGCR's suggestions achieved a 42% developer adoption rate-a 90.9% relative improvement over a baseline LLM (22%). Our work demonstrates that specification-grounding is a powerful paradigm for bridging the gap between the generative power of LLMs and the rigorous reliability demands of software engineering.",
+ "primary": "cs.SE"
+}

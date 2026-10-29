@@ -1,0 +1,19 @@
+{
+ "id": "2509.18930",
+ "title": "Tackling GNARLy Problems: Graph Neural Algorithmic Reasoning Reimagined through Reinforcement Learning",
+ "authors": [
+  "Alex Schutz",
+  "Victor-Alexandru Darvariu",
+  "Efimia Panagiotaki",
+  "Bruno Lacerda",
+  "Nick Hawes"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 4,
+ "latest_date": "2026-09-14",
+ "journal_ref": "Transactions on Machine Learning Research (2026)",
+ "doi": "",
+ "comment": "Published in TMLR https://openreview.net/forum?id=3aeMfeKlKh",
+ "abstract": "Neural algorithmic reasoning (NAR) is a paradigm that trains neural networks to execute classic algorithms by supervised learning. Despite its successes, important limitations remain: inability to construct valid solutions without post-processing and to reason about multiple correct ones, poor performance on combinatorial NP-hard problems, and inapplicability to problems for which strong algorithms are not yet known. To address these limitations, we reframe the problem of learning algorithm trajectories as a Markov decision process, which imposes structure on the solution construction procedure and unlocks the powerful tools of imitation and reinforcement learning (RL). We propose the GNARL framework, encompassing the methodology to translate problem formulations from NAR to RL and a learning architecture suitable for a wide range of graph-based problems. We achieve high rates of reaching correct states on several CLRS-30 problems and performance matching or exceeding much narrower NAR approaches for NP-hard problems. Remarkably, GNARL remains applicable when no expert algorithm is available, though reward-driven learning can exhibit greater variability than direct supervision.",
+ "primary": "cs.LG"
+}

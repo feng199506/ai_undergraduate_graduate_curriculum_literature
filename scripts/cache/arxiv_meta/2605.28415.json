@@ -1,0 +1,16 @@
+{
+ "id": "2605.28415",
+ "title": "Statistical comparison of reconstruction methods for the inverse boundary problem of the one-dimensional wave equation",
+ "authors": [
+  "Samuel Agenorwoth",
+  "Emilia Blåsten"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 3,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "10.1088/1361-6420/aeb156",
+ "comment": "29 pages, 13 figures",
+ "abstract": "Several numerical reconstruction algorithms for the inverse boundary value problem of the 1-dimensional wave equation exist. In this paper we revisit two of them, the Sondhi-Gopinath (SG) method from 1971 and the Korpela-Lassas-Oksanen (KLO) method from 2016. Our main contribution is a systematic and statistical comparison of the performance of these two well established methods. The stability of the SG algorithm, even in practical applications, is well known. KLO has a regularisation scheme with a theoretical proof, and is an evolution of the boundary control method. Both are based on the idea of constructing solutions that are characteristic functions of a set at a given time. This similarity has been pointed out before, but no systematic comparison has been published. We compare the performance of the two algorithms with noisy simulated data. The application in our mind is the reconstruction of the internal cross-sectional area of a pressurised fluid pipe. The area corresponds to the first order $\\partial_x$-term of the wave equation. Instead of just observing the performance on a few test cases, we generate $n=1000$ random area profiles of various smoothness levels and measurement noise up to $10\\%$ of the signal energy and perform statistical tests. SG and KLO have a difference of one time-derivative in their standard boundary data, which complicates the analysis. Our results show that SG performs better in the low noise regime, and KLO with high noise. SG is easier to implement and runs faster.",
+ "primary": "math.NA"
+}

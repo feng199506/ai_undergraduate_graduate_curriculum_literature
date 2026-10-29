@@ -1,0 +1,18 @@
+{
+ "id": "2508.14889",
+ "title": "MS-CLR: Multi-Skeleton Contrastive Learning for Human Action Recognition",
+ "authors": [
+  "Mert Kiray",
+  "Alvaro Ritter",
+  "Nassir Navab",
+  "Benjamin Busam"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 1,
+ "latest_date": "2025-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Contrastive learning has gained significant attention in skeleton-based action recognition for its ability to learn robust representations from unlabeled data. However, existing methods rely on a single skeleton convention, which limits their ability to generalize across datasets with diverse joint structures and anatomical coverage. We propose Multi-Skeleton Contrastive Learning (MS-CLR), a general self-supervised framework that aligns pose representations across multiple skeleton conventions extracted from the same sequence. This encourages the model to learn structural invariances and capture diverse anatomical cues, resulting in more expressive and generalizable features. To support this, we adapt the ST-GCN architecture to handle skeletons with varying joint layouts and scales through a unified representation scheme. Experiments on the NTU RGB+D 60 and 120 datasets demonstrate that MS-CLR consistently improves performance over strong single-skeleton contrastive learning baselines. A multi-skeleton ensemble further boosts performance, setting new state-of-the-art results on both datasets.",
+ "primary": "cs.CV"
+}

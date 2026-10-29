@@ -1,0 +1,16 @@
+{
+ "id": "2508.01228",
+ "title": "Inferring processes within dynamic forest models using hybrid modeling",
+ "authors": [
+  "Maximilian Pichler",
+  "Yannek Käber"
+ ],
+ "v1_date": "2025-08-02",
+ "latest_version": 2,
+ "latest_date": "2025-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 17 figures",
+ "abstract": "Modeling forest dynamics under novel climatic conditions requires a careful balance between process-based understanding and empirical flexibility. Dynamic Vegetation Models (DVM) represent ecological processes mechanistically, but their performance is prone to misspecified assumptions about functional forms. Inferring the structure of these processes and their functional forms correctly from data remains a major challenge because current approaches, such as plug-in estimators, have proven ineffective. We introduce Forest Informed Neural Networks (FINN), a hybrid modeling approach that combines a forest gap model with deep neural networks (DNN). FINN replaces processes with DNNs, which are then calibrated alongside the other mechanistic components in one unified step. In a case study on the Barro Colorado Island 50-ha plot we demonstrate that replacing the growth process with a DNN improves predictive performance and succession trajectories compared to a mechanistic version of FINN. Furthermore, we discovered that the DNN learned an ecologically plausible, improved functional form of the growth process, which we extracted from the DNN using explainable AI. In conclusion, our new hybrid modeling approach offers a versatile opportunity to infer forest dynamics from data and to improve forecasts of ecosystem trajectories under unprecedented environmental change.",
+ "primary": "q-bio.QM"
+}

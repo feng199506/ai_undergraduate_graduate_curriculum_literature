@@ -1,0 +1,17 @@
+{
+ "id": "2504.18911",
+ "title": "A Langevin sampling algorithm inspired by the Adam optimizer",
+ "authors": [
+  "Benedict Leimkuhler",
+  "René Lohmann",
+  "Peter Whalley"
+ ],
+ "v1_date": "2025-04-26",
+ "latest_version": 2,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a framework for adaptive-stepsize MCMC sampling based on time-rescaled Langevin dynamics, in which the stepsize variation is dynamically driven by an additional degree of freedom. Our approach augments the phase space by an additional variable which in turn defines a time reparameterization. The use of an auxiliary relaxation equation allows accumulation of a moving average of a local monitor function and provides for precise control of the timestep while circumventing the need to modify the drift term in the physical system. Our algorithm is straightforward to implement and can be readily combined with any off-the-peg fixed-stepsize Langevin integrator. As a particular example, we consider control of the stepsize by monitoring the norm of the log-posterior gradient, which takes inspiration from the Adam optimizer, the stepsize being automatically reduced in regions of steep change of the log posterior and increased on plateaus, improving numerical stability and convergence speed. As in Adam, the stepsize variation depends on the recent history of the gradient norm, which enhances stability and improves accuracy compared to more immediate control approaches. We demonstrate the potential benefit of this method--both in accuracy and in stability--in numerical experiments including Neal's funnel and a Bayesian neural network for classification of MNIST data.",
+ "primary": "stat.CO"
+}

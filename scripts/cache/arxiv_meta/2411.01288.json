@@ -1,0 +1,19 @@
+{
+ "id": "2411.01288",
+ "title": "Hexa-MoE: Efficient and Heterogeneous-aware Training for Mixture-of-Experts",
+ "authors": [
+  "Shuqing Luo",
+  "Jie Peng",
+  "Pingzhi Li",
+  "Hanrui Wang",
+  "Tianlong Chen"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 4,
+ "latest_date": "2025-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages",
+ "abstract": "Mixture-of-Experts (MoE) has emerged as a practical approach to scale up parameters for the Transformer model to achieve better generalization while maintaining a sub-linear increase in computation overhead. Current MoE models are mainly built with expert parallelism on distributed devices. However, it usually depends on homogeneous devices to deploy and suffers from heavy communication overhead and computation redundancy. In this paper, we explore developing a \\texttt{H}eterogeneous-aware \\texttt{EX}pert \\texttt{A}llocation framework, \\textbf{\\texttt{HEXA-MoE}}, with significantly enhanced computing efficiency. It contains two components: ($1$) \\textit{Expert-Specific Operators}. We replace the typical general matrix multiplication or grouped matrix multiplication interfaces with our operators, which allows the computing to be performed in an in-place manner with \\textbf{ZERO} redundancy. ($2$) \\textit{Adaptive Data- and Model-Centric Configurations} for different workload scales. Specifically, we introduce a pipeline-shared cache on each device to tackle the heavy memory consumption in the existing data-centric MoE library. Comprehensive experiments on the Swin-MoE benchmark consistently reveal the effectiveness of our \\texttt{HEXA-MoE} framework, i.e., reducing $10\\%\\sim48\\%$ memory consumption and achieving $0.5\\sim4.3\\times$ speed up compared to current state-of-the-art MoE libraries. Furthermore, we examine our \\texttt{HEXA-MoE} with heterogeneous devices for both data- and model-centric settings. Promising results show that employing optimal parallel configuration with \\texttt{HEXA-MoE} on heterogeneous devices can substantially minimize overall latency. Codes are available at https://github.com/UNITES-Lab/HEXA-MoE.",
+ "primary": "cs.DC"
+}

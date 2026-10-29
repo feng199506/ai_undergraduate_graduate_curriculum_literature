@@ -1,0 +1,16 @@
+{
+ "id": "2606.17232",
+ "title": "Semiparametric Mediation Analysis with Separately Observed Mediator and Outcome under Unmeasured Confounding",
+ "authors": [
+  "Sijia Li",
+  "Ruoyu Wang"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 1,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages; 2 figures",
+ "abstract": "Mediation analysis is widely used to disentangle causal pathways, yet in many real-world studies the mediator M and outcome Y are never jointly observed. This incompleteness breaks the standard identification strategy for natural direct and indirect effects. We introduce a novel data fusion framework that restores the identification by combining two incomplete data sources, one measuring $M$ and the other measuring Y. Our approach leverages shared instrumental variables (IVs) to circumvent the need to observe (M,Y) jointly, remains valid under unmeasured confounding via a no-interaction condition, and accommodates covariate and exposure shifts across data sources under a latent alignment condition. We establish two identification strategies, one for settings with a known set of valid IVs, and another for settings where valid IVs must be learned. We further develop semiparametric, influence-function-based estimators with multiple robustness properties, and propose an estimator that attains the semiparametric efficiency bound under appropriate conditions. We apply our framework to quantify the extent to which the effect of SNP rs610932 on dementia risk is mediated through immune-related gene-expression pathways.",
+ "primary": "stat.ME"
+}

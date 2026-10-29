@@ -1,0 +1,18 @@
+{
+ "id": "2503.17037",
+ "title": "Unitless Unrestricted Markov-Consistent SCM Generation: Better Benchmark Datasets for Causal Discovery",
+ "authors": [
+  "Rebecca J. Herman",
+  "Jonas Wahl",
+  "Urmi Ninad",
+  "Jakob Runge"
+ ],
+ "v1_date": "2025-03-21",
+ "latest_version": 3,
+ "latest_date": "2025-12-16",
+ "journal_ref": "Proceedings of Machine Learning Research, 2025",
+ "doi": "",
+ "comment": "4th Conference on Causal Learning and Reasoning. Code published in python package \"UUMCdata\" (https://pypi.org/project/UUMCdata/)",
+ "abstract": "Causal discovery aims to extract qualitative causal knowledge in the form of causal graphs from data. Because causal ground truth is rarely known in the real world, simulated data plays a vital role in evaluating the performance of the various causal discovery algorithms proposed in the literature. But recent work highlighted certain artifacts of commonly used data generation techniques for a standard class of structural causal models (SCM) that may be nonphysical, including var- and R2-sortability, where the variables' variance and coefficients of determination (R2) after regressing on all other variables, respectively, increase along the causal order. Some causal methods exploit such artifacts, leading to unrealistic expectations for their performance on real-world data. Some modifications have been proposed to remove these artifacts; notably, the internally-standardized structural causal model (iSCM) avoids varsortability and largely alleviates R2-sortability on sparse causal graphs, but exhibits a reversed R2-sortability pattern for denser graphs not featured in their work. We analyze which sortability patterns we expect to see in real data, and propose a method for drawing coefficients that we argue more effectively samples the space of SCMs. Finally, we propose a novel extension of our SCM generation method to the time series setting.",
+ "primary": "cs.LG"
+}

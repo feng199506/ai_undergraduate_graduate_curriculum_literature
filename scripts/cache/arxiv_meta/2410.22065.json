@@ -1,0 +1,17 @@
+{
+ "id": "2410.22065",
+ "title": "Hamiltonian Monte Carlo on ReLU Neural Networks is Inefficient",
+ "authors": [
+  "Vu C. Dinh",
+  "Lam Si Tung Ho",
+  "Cuong V. Nguyen"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 1,
+ "latest_date": "2024-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Paper published at NeurIPS 2024",
+ "abstract": "We analyze the error rates of the Hamiltonian Monte Carlo algorithm with leapfrog integrator for Bayesian neural network inference. We show that due to the non-differentiability of activation functions in the ReLU family, leapfrog HMC for networks with these activation functions has a large local error rate of $Ω(ε)$ rather than the classical error rate of $O(ε^3)$. This leads to a higher rejection rate of the proposals, making the method inefficient. We then verify our theoretical findings through empirical simulations as well as experiments on a real-world dataset that highlight the inefficiency of HMC inference on ReLU-based neural networks compared to analytical networks.",
+ "primary": "stat.ML"
+}

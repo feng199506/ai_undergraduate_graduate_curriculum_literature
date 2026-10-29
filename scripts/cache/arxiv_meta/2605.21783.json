@@ -1,0 +1,18 @@
+{
+ "id": "2605.21783",
+ "title": "Certifying Whether to Adapt: Baseline-Relative PAC-Bayes-MMD Guarantees for Test-Time Adaptation",
+ "authors": [
+  "Ahanaf Hasan Ariq",
+  "Hasaan Ahmad",
+  "Aayush Parekh",
+  "Abdul Monaf Chowdhury"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 2,
+ "latest_date": "2026-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 7 figures",
+ "abstract": "Test-time adaptation (TTA) needs a decision about an update, not only an absolute-risk estimate. We give PAC-Bayesian certificates for the target excess risk of a candidate relative to a pilot-fixed baseline. A radial certificate uses an MMD ambiguity radius; a direction-sensitive certificate retains the sign of the empirical RKHS shift and can therefore certify target improvement even when source risk increases. For finite binary state spaces we derive statewise marginal and signed conditional-shift refinements, with penalties localized to candidate--baseline disagreements. A source-worsening update with target excess risk $-0.576$ is accepted in all 1,000 repetitions by the directional certificate and never by the radial certificate; learned finite-state updates with excess risks $-0.800$ and $-0.401$ are likewise accepted in every repetition. On Covertype, the certificate safely rejects all updates and blocks geographic-shift adaptations whose unconditional deployment increases risk by up to $2.75$ percentage points in prespecified base libraries; an exploratory stress test reaches $5.66$ points. A feature-quantized CIFAR-10-C and ImageNet-C study is structurally vacuous and is reported only as a diagnostic limitation, not as a practical neural certificate.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2412.20189",
+ "title": "Accurate Coresets for Latent Variable Models and Regularized Regression",
+ "authors": [
+  "Sanskar Ranjan",
+  "Supratim Shit"
+ ],
+ "v1_date": "2024-12-28",
+ "latest_version": 1,
+ "latest_date": "2024-12-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate coresets are a weighted subset of the original dataset, ensuring a model trained on the accurate coreset maintains the same level of accuracy as a model trained on the full dataset. Primarily, these coresets have been studied for a limited range of machine learning models. In this paper, we introduce a unified framework for constructing accurate coresets. Using this framework, we present accurate coreset construction algorithms for general problems, including a wide range of latent variable model problems and $\\ell_p$-regularized $\\ell_p$-regression. For latent variable models, our coreset size is $O\\left(\\mathrm{poly}(k)\\right)$, where $k$ is the number of latent variables. For $\\ell_p$-regularized $\\ell_p$-regression, our algorithm captures the reduction of model complexity due to regularization, resulting in a coreset whose size is always smaller than $d^{p}$ for a regularization parameter $λ> 0$. Here, $d$ is the dimension of the input points. This inherently improves the size of the accurate coreset for ridge regression. We substantiate our theoretical findings with extensive experimental evaluations on real datasets.",
+ "primary": "cs.LG"
+}

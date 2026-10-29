@@ -1,0 +1,20 @@
+{
+ "id": "2409.06953",
+ "title": "Neural Algorithmic Reasoning with Multiple Correct Solutions",
+ "authors": [
+  "Zeno Kujawa",
+  "John Poole",
+  "Dobrik Georgiev",
+  "Danilo Numeroso",
+  "Henry Fleischmann",
+  "Pietro Liò"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 4,
+ "latest_date": "2025-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neural Algorithmic Reasoning (NAR) extends classical algorithms to higher dimensional data. However, canonical implementations of NAR train neural networks to return only a single solution, even when there are multiple correct solutions to a problem, such as single-source shortest paths. For some applications, it is desirable to recover more than one correct solution. To that end, we give the first method for NAR with multiple solutions. We demonstrate our method on two classical algorithms: Bellman-Ford (BF) and Depth-First Search (DFS), favouring deeper insight into two algorithms over a broader survey of algorithms. This method involves generating appropriate training data as well as sampling and validating solutions from model output. Each step of our method, which can serve as a framework for neural algorithmic reasoning beyond the tasks presented in this paper, might be of independent interest to the field and our results represent the first attempt at this task in the NAR literature.",
+ "primary": "cs.LG"
+}

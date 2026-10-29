@@ -1,0 +1,17 @@
+{
+ "id": "2507.17859",
+ "title": "FishDet-M: A Unified Large-Scale Benchmark for Robust Fish Detection and CLIP-Guided Model Selection in Diverse Aquatic Visual Domains",
+ "authors": [
+  "Muayad Abujabal",
+  "Lyes Saad Saoud",
+  "Irfan Hussain"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 1,
+ "latest_date": "2025-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate fish detection in underwater imagery is essential for ecological monitoring, aquaculture automation, and robotic perception. However, practical deployment remains limited by fragmented datasets, heterogeneous imaging conditions, and inconsistent evaluation protocols. To address these gaps, we present \\textit{FishDet-M}, the largest unified benchmark for fish detection, comprising 13 publicly available datasets spanning diverse aquatic environments including marine, brackish, occluded, and aquarium scenes. All data are harmonized using COCO-style annotations with both bounding boxes and segmentation masks, enabling consistent and scalable cross-domain evaluation. We systematically benchmark 28 contemporary object detection models, covering the YOLOv8 to YOLOv12 series, R-CNN based detectors, and DETR based models. Evaluations are conducted using standard metrics including mAP, mAP@50, and mAP@75, along with scale-specific analyses (AP$_S$, AP$_M$, AP$_L$) and inference profiling in terms of latency and parameter count. The results highlight the varying detection performance across models trained on FishDet-M, as well as the trade-off between accuracy and efficiency across models of different architectures. To support adaptive deployment, we introduce a CLIP-based model selection framework that leverages vision-language alignment to dynamically identify the most semantically appropriate detector for each input image. This zero-shot selection strategy achieves high performance without requiring ensemble computation, offering a scalable solution for real-time applications. FishDet-M establishes a standardized and reproducible platform for evaluating object detection in complex aquatic scenes. All datasets, pretrained models, and evaluation tools are publicly available to facilitate future research in underwater computer vision and intelligent marine systems.",
+ "primary": "cs.CV"
+}

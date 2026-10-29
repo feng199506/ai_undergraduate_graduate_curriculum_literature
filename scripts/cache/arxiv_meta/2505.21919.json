@@ -1,0 +1,19 @@
+{
+ "id": "2505.21919",
+ "title": "Towards Efficient Key-Value Cache Management for Prefix Prefilling in LLM Inference",
+ "authors": [
+  "Yue Zhu",
+  "Hao Yu",
+  "Chen Wang",
+  "Zhuoran Liu",
+  "Eun Kyung Lee"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 1,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper has been accepted at IEEE Cloud 2025 as WIP paper. The final version will appear in IEEE Xplore",
+ "abstract": "The increasing adoption of large language models (LLMs) with extended context windows necessitates efficient Key-Value Cache (KVC) management to optimize inference performance. Inference workloads like Retrieval-Augmented Generation (RAG) and agents exhibit high cache reusability, making efficient caching critical to reducing redundancy and improving speed. We analyze real-world KVC access patterns using publicly available traces and evaluate commercial key-value stores like Redis and state-of-the-art RDMA-based systems (CHIME [1] and Sherman [2]) for KVC metadata management. Our work demonstrates the lack of tailored storage solution for KVC prefilling, underscores the need for an efficient distributed caching system with optimized metadata management for LLM workloads, and provides insights into designing improved KVC management systems for scalable, low-latency inference.",
+ "primary": "cs.ET"
+}

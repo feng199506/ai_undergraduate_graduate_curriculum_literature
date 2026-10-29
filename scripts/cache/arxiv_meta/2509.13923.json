@@ -1,0 +1,17 @@
+{
+ "id": "2509.13923",
+ "title": "Holdout cross-validation for large non-Gaussian covariance matrix estimation using Weingarten calculus",
+ "authors": [
+  "Lamia Lamrani",
+  "Benoît Collins",
+  "Jean-Philippe Bouchaud"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 1,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cross-validation is one of the most widely used methods for model selection and evaluation; its efficiency for large covariance matrix estimation appears robust in practice, but little is known about the theoretical behavior of its error. In this paper, we derive the expected Frobenius error of the holdout method, a particular cross-validation procedure that involves a single train and test split, for a generic rotationally invariant multiplicative noise model, therefore extending previous results to non-Gaussian data distributions. Our approach involves using the Weingarten calculus and the Ledoit-Péché formula to derive the oracle eigenvalues in the high-dimensional limit. When the population covariance matrix follows an inverse Wishart distribution, we approximate the expected holdout error, first with a linear shrinkage, then with a quadratic shrinkage to approximate the oracle eigenvalues. Under the linear approximation, we find that the optimal train-test split ratio is proportional to the square root of the matrix dimension. Then we compute Monte Carlo simulations of the holdout error for different distributions of the norm of the noise, such as the Gaussian, Student, and Laplace distributions and observe that the quadratic approximation yields a substantial improvement, especially around the optimal train-test split ratio. We also observe that a higher fourth-order moment of the Euclidean norm of the noise vector sharpens the holdout error curve near the optimal split and lowers the ideal train-test ratio, making the choice of the train-test ratio more important when performing the holdout method.",
+ "primary": "q-fin.ST"
+}

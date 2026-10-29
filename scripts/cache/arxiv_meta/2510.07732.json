@@ -1,0 +1,16 @@
+{
+ "id": "2510.07732",
+ "title": "Rotated Mean-Field Variational Inference and Iterative Gaussianization",
+ "authors": [
+  "Yifan Chen",
+  "Sifan Liu"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 2,
+ "latest_date": "2026-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose an iterative Gaussianization method for sampling from unnormalized densities by repeatedly applying mean-field variational inference (MFVI) in rotated coordinate systems. At each iteration, the method selects a rotation, solves an MFVI subproblem in the rotated coordinates, and applies the inverse coordinatewise map to transform the current target closer to the standard Gaussian. The resulting algorithm provides a computationally efficient way to construct flow-like transport maps: it requires only MFVI subproblems, avoids large-scale optimization, and produces transformations that are easy to invert and evaluate. The effectiveness of the procedure depends on selecting informative rotations. We develop an efficient PCA-type method that chooses rotations from the leading eigenvectors of a cross-covariance matrix involving the target's score function. Experiments on Bayesian posterior sampling tasks show that performing MFVI in the proposed PCA-rotated coordinate systems substantially improves over standard MFVI, and that the resulting iterative Gaussianization procedure provides accurate flow-like approximations at lower computational cost than conventional normalizing-flow variational approximations.",
+ "primary": "stat.CO"
+}

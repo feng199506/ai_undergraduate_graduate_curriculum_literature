@@ -1,0 +1,18 @@
+{
+ "id": "2510.14573",
+ "title": "State-Space Models for Tabular Prior-Data Fitted Networks",
+ "authors": [
+  "Felix Koch",
+  "Marcel Wever",
+  "Fabian Raisch",
+  "Benjamin Tischler"
+ ],
+ "v1_date": "2025-10-16",
+ "latest_version": 2,
+ "latest_date": "2025-12-11",
+ "journal_ref": "International Conference on Machine Learning (ICML), 1st ICML Workshop on Foundation Models for Structured Data, 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advancements in foundation models for tabular data, such as TabPFN, demonstrated that pretrained Transformer architectures can approximate Bayesian inference with high predictive performance. However, Transformers suffer from quadratic complexity with respect to sequence length, motivating the exploration of more efficient sequence models. In this work, we investigate the potential of using Hydra, a bidirectional linear-time structured state space model (SSM), as an alternative to Transformers in TabPFN. A key challenge lies in SSM's inherent sensitivity to the order of input tokens - an undesirable property for tabular datasets where the row order is semantically meaningless. We investigate to what extent a bidirectional approach can preserve efficiency and enable symmetric context aggregation. Our experiments show that this approach reduces the order-dependence, achieving predictive performance competitive to the original TabPFN model.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.14312",
+ "title": "TiMePReSt: Time and Memory Efficient Pipeline Parallel DNN Training with Removed Staleness",
+ "authors": [
+  "Ankita Dutta",
+  "Nabendu Chaki",
+  "Rajat K. De"
+ ],
+ "v1_date": "2024-10-18",
+ "latest_version": 2,
+ "latest_date": "2024-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "DNN training is time-consuming and requires efficient multi-accelerator parallelization, where a single training iteration is split over available accelerators. Current approaches often parallelize training using intra-batch parallelization. Combining inter-batch and intra-batch pipeline parallelism is common to further improve training throughput. In this article, we develop a system, called TiMePReSt, that combines them in a novel way which helps to better overlap computation and communication, and limits the amount of communication. The traditional pipeline-parallel training of DNNs maintains similar working principle as sequential or conventional training of DNNs by maintaining consistent weight versions in forward and backward passes of a mini-batch. Thus, it suffers from high GPU memory footprint during training. In this paper, experimental study demonstrates that compromising weight consistency doesn't decrease prediction capability of a parallelly trained DNN. Moreover, TiMePReSt overcomes GPU memory overhead and achieves zero weight staleness. State-of-the-art techniques often become costly in terms of training time. In order to address this issue, TiMePReSt introduces a variant of intra-batch parallelism that parallelizes the forward pass of each mini-batch by decomposing it into smaller micro-batches. A novel synchronization method between forward and backward passes reduces training time in TiMePReSt. The occurrence of multiple sequence problem and its relation with version difference have been observed in TiMePReSt. This paper presents a mathematical relationship between the number of micro-batches and worker machines, highlighting the variation in version difference. A mathematical expression has been developed to calculate version differences for various combinations of these two without creating diagrams for all combinations.",
+ "primary": "cs.DC"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2405.13639",
+ "title": "On Hardware-efficient Inference in Probabilistic Circuits",
+ "authors": [
+  "Lingyun Yao",
+  "Martin Trapp",
+  "Jelin Leslin",
+  "Gaurav Singh",
+  "Peng Zhang",
+  "Karthekeyan Periasamy",
+  "Martin Andraud"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 1,
+ "latest_date": "2024-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic circuits (PCs) offer a promising avenue to perform embedded reasoning under uncertainty. They support efficient and exact computation of various probabilistic inference tasks by design. Hence, hardware-efficient computation of PCs is highly interesting for edge computing applications. As computations in PCs are based on arithmetic with probability values, they are typically performed in the log domain to avoid underflow. Unfortunately, performing the log operation on hardware is costly. Hence, prior work has focused on computations in the linear domain, resulting in high resolution and energy requirements. This work proposes the first dedicated approximate computing framework for PCs that allows for low-resolution logarithm computations. We leverage Addition As Int, resulting in linear PC computation with simple hardware elements. Further, we provide a theoretical approximation error analysis and present an error compensation mechanism. Empirically, our method obtains up to 357x and 649x energy reduction on custom hardware for evidence and MAP queries respectively with little or no computational error.",
+ "primary": "cs.LG"
+}

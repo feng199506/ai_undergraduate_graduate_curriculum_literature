@@ -1,0 +1,18 @@
+{
+ "id": "2604.06495",
+ "title": "Improving Robustness In Sparse Autoencoders via Masked Regularization",
+ "authors": [
+  "Vivek Narayanaswamy",
+  "Kowshik Thopalli",
+  "Bhavya Kailkhura",
+  "Wesam Sakla"
+ ],
+ "v1_date": "2026-04-07",
+ "latest_version": 1,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4 pages, 1 figure",
+ "abstract": "Sparse autoencoders (SAEs) are widely used in mechanistic interpretability to project LLM activations onto sparse latent spaces. However, sparsity alone is an imperfect proxy for interpretability, and current training objectives often result in brittle latent representations. SAEs are known to be prone to feature absorption, where general features are subsumed by more specific ones due to co-occurrence, degrading interpretability despite high reconstruction fidelity. Recent negative results on Out-of-Distribution (OOD) performance further underscore broader robustness related failures tied to under-specified training objectives. We address this by proposing a masking-based regularization that randomly replaces tokens during training to disrupt co-occurrence patterns. This improves robustness across SAE architectures and sparsity levels reducing absorption, enhancing probing performance, and narrowing the OOD gap. Our results point toward a practical path for more reliable interpretability tools.",
+ "primary": "cs.LG"
+}

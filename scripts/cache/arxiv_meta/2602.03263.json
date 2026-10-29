@@ -1,0 +1,19 @@
+{
+ "id": "2602.03263",
+ "title": "CSR-Bench: A Benchmark for Evaluating the Cross-modal Safety and Reliability of MLLMs",
+ "authors": [
+  "Yuxuan Liu",
+  "Yuntian Shi",
+  "Kun Wang",
+  "Haoting Shen",
+  "Kun Yang"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 1 figures",
+ "abstract": "Multimodal large language models (MLLMs) enable interaction over both text and images, but their safety behavior can be driven by unimodal shortcuts instead of true joint intent understanding. We introduce CSR-Bench, a benchmark for evaluating cross-modal reliability through four stress-testing interaction patterns spanning Safety, Over-rejection, Bias, and Hallucination, covering 61 fine-grained types. Each instance is constructed to require integrated image-text interpretation, and we additionally provide paired text-only controls to diagnose modality-induced behavior shifts. We evaluate 16 state-of-the-art MLLMs and observe systematic cross-modal alignment gaps. Models show weak safety awareness, strong language dominance under interference, and consistent performance degradation from text-only controls to multimodal inputs. We also observe a clear trade-off between reducing over-rejection and maintaining safe, non-discriminatory behavior, suggesting that some apparent safety gains may come from refusal-oriented heuristics rather than robust intent understanding. WARNING: This paper contains unsafe contents.",
+ "primary": "cs.AI"
+}

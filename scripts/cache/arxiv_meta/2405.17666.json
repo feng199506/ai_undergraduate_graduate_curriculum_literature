@@ -1,0 +1,15 @@
+{
+ "id": "2405.17666",
+ "title": "Structured Partial Stochasticity in Bayesian Neural Networks",
+ "authors": [
+  "Tommy Rochussen"
+ ],
+ "v1_date": "2024-05-27",
+ "latest_version": 2,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at 6th Symposium on Advances in Approximate Bayesian Inference (non-archival track)",
+ "abstract": "Bayesian neural network posterior distributions have a great number of modes that correspond to the same network function. The abundance of such modes can make it difficult for approximate inference methods to do their job. Recent work has demonstrated the benefits of partial stochasticity for approximate inference in Bayesian neural networks; inference can be less costly and performance can sometimes be improved. I propose a structured way to select the deterministic subset of weights that removes neuron permutation symmetries, and therefore the corresponding redundant posterior modes. With a drastically simplified posterior distribution, the performance of existing approximate inference schemes is found to be greatly improved.",
+ "primary": "stat.ML"
+}

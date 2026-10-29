@@ -1,0 +1,17 @@
+{
+ "id": "2610.16101",
+ "title": "Stable Matrix-Free Q-less QR via Preconditioning and Randomization",
+ "authors": [
+  "Oleg Balabanov",
+  "Maksim Melnichenko",
+  "Michael W. Mahoney"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article develops matrix-free Q-less QR algorithms for orthogonalizing tall linear operators. Our main algorithm, CQRRTO, uses randomized preconditioning to make a single Cholesky QR pass numerically safe for any numerically full-rank operator, overcoming the stability issues of Cholesky QR and related methods that operate on the Gram matrix. Compared with deterministic stabilized variants such as Q-less Cholesky QR2 (reorthogonalized Cholesky QR), it remains numerically stable under substantially weaker conditioning assumptions while requiring fewer operator applications. Matrix-free Q-less QR can be useful for improving the numerical robustness of least-squares solves via the normal equations, spectral approximations in a low-dimensional basis, and inversion of operators with low-rank updates via the Woodbury identity. We present a componentwise stability analysis of preconditioned Q-less Cholesky QR that applies to matrix-free operators and is modular with respect to the preconditioner, yielding guarantees for Q-less Cholesky QR, Cholesky QR2, shifted Cholesky QR3, and CQRRTO as special cases. All methods are implemented in the open-source RandLAPACK library.",
+ "primary": "math.NA"
+}

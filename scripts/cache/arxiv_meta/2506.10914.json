@@ -1,0 +1,18 @@
+{
+ "id": "2506.10914",
+ "title": "Foundation Models for Causal Inference via Prior-Data Fitted Networks",
+ "authors": [
+  "Yuchen Ma",
+  "Dennis Frauen",
+  "Emil Javurek",
+  "Stefan Feuerriegel"
+ ],
+ "v1_date": "2025-06-12",
+ "latest_version": 3,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prior-data fitted networks (PFNs) have recently been proposed as a promising way to train tabular foundation models. PFNs are transformers that are pre-trained on synthetic data generated from a prespecified prior distribution and that enable Bayesian inference through in-context learning. In this paper, we introduce CausalFM, a comprehensive framework for training PFN-based foundation models in various causal inference settings. First, we formalize the construction of Bayesian priors for causal inference based on structural causal models (SCMs) in a principled way and derive necessary criteria for the validity of such priors. Building on this, we propose a novel family of prior distributions using causality-inspired Bayesian neural networks that enable CausalFM to perform Bayesian causal inference in various settings, including for back-door, front-door, and instrumental variable adjustment. Finally, we instantiate CausalFM and explicitly train models to perform in-context learning in these settings. We show that CausalFM achieves competitive in-context learning performance even when compared to baselines that are specifically trained for the task at hand. In sum, our framework can be used as a general recipe to train foundation models for various causal inference settings. In contrast to the current state-of-the-art in causal inference, CausalFM offers a novel paradigm with the potential to fundamentally change how practitioners perform causal inference in medicine, economics, and other disciplines.",
+ "primary": "cs.LG"
+}

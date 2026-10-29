@@ -1,0 +1,16 @@
+{
+ "id": "2503.08393",
+ "title": "Weighted Tensor Decompositions for Context-aware Collaborative Filtering",
+ "authors": [
+  "Joey De Pauw",
+  "Bart Goethals"
+ ],
+ "v1_date": "2025-03-11",
+ "latest_version": 2,
+ "latest_date": "2025-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Workshop on Context-Aware Recommender Systems, September 18, 2023, Singapore",
+ "abstract": "Over recent years it has become well accepted that user interest is not static or immutable. There are a variety of contextual factors, such as time of day, the weather or the user's mood, that influence the current interests of the user. Modelling approaches need to take these factors into account if they want to succeed at finding the most relevant content to recommend given the situation. A popular method for context-aware recommendation is to encode context attributes as extra dimensions of the classic user-item interaction matrix, effectively turning it into a tensor, followed by applying the appropriate tensor decomposition methods to learn missing values. However, unlike with matrix factorization, where all decompositions are essentially a product of matrices, there exist many more options for decomposing tensors by combining vector, matrix and tensor products. We study the most successful decomposition methods that use weighted square loss and categorize them based on their tensor structure and regularization strategy. Additionally, we further extend the pool of methods by filling in the missing combinations. In this paper we provide an overview of the properties of the different decomposition methods, such as their complexity, scalability, and modelling capacity. These benefits are then contrasted with the performances achieved in offline experiments to gain more insight into which method to choose depending on a specific situation and constraints.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2511.21699",
+ "title": "Cacheback: Speculative Decoding With Nothing But Cache",
+ "authors": [
+  "Zhiyao Ma",
+  "In Gim",
+  "Lin Zhong"
+ ],
+ "v1_date": "2025-11-15",
+ "latest_version": 1,
+ "latest_date": "2025-11-15",
+ "journal_ref": "In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pp. 31067-31072. 2025",
+ "doi": "10.18653/v1/2025.emnlp-main.1581",
+ "comment": "",
+ "abstract": "We present Cacheback Decoding, a training-free and model-agnostic speculative decoding method that exploits the locality in language to accelerate Large Language Model (LLM) inference. Cacheback leverages only Least Recently Used (LRU) cache tables of token n-grams to generate draft sequences. Cacheback achieves state-of-the-art performance among comparable methods despite its minimalist design, and its simplicity allows easy integration into existing systems. Cacheback also shows potential for fast adaptation to new domains.",
+ "primary": "cs.CL"
+}

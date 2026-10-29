@@ -1,0 +1,17 @@
+{
+ "id": "2507.15977",
+ "title": "On the transferability of Sparse Autoencoders for interpreting compressed models",
+ "authors": [
+  "Suchit Gupte",
+  "Vishnu Kabir Chhabra",
+  "Mohammad Mahdi Khalili"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 1,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern LLMs face inference efficiency challenges due to their scale. To address this, many compression methods have been proposed, such as pruning and quantization. However, the effect of compression on a model's interpretability remains elusive. While several model interpretation approaches exist, such as circuit discovery, Sparse Autoencoders (SAEs) have proven particularly effective in decomposing a model's activation space into its feature basis. In this work, we explore the differences in SAEs for the original and compressed models. We find that SAEs trained on the original model can interpret the compressed model albeit with slight performance degradation compared to the trained SAE on the compressed model. Furthermore, simply pruning the original SAE itself achieves performance comparable to training a new SAE on the pruned model. This finding enables us to mitigate the extensive training costs of SAEs.",
+ "primary": "cs.LG"
+}

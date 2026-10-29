@@ -1,0 +1,24 @@
+{
+ "id": "2507.19894",
+ "title": "Generative Model Unlearning: A Survey through Target Events, Unlearning Operators, and Evaluation Protocols",
+ "authors": [
+  "Xiaohua Feng",
+  "Jiaming Zhang",
+  "Fengyuan Yu",
+  "Chengye Wang",
+  "Li Zhang",
+  "Kaixiang Li",
+  "Yuyuan Li",
+  "Lingjuan Lyu",
+  "Chaochao Chen",
+  "Jianwei Yin"
+ ],
+ "v1_date": "2025-07-26",
+ "latest_version": 2,
+ "latest_date": "2026-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the rapid advancement of generative models, privacy, copyright, safety, and reliability risks have attracted growing attention. To mitigate these risks, machine unlearning has been increasingly adapted from traditional classification models to generative settings. Despite notable progress, existing studies remain fragmented in their target definitions, unlearning mechanisms, and evaluation protocols, making objective comparison difficult across models, modalities, and applications. Moreover, modality-specific surveys often overlook the shared structure of Generative Model Unlearning (GenMU). To address this gap, we provide a comprehensive review of GenMU and formulate it as target-constrained distributional projection: given a target event, an unlearning operator transforms the generative distribution to suppress target-related outputs while preserving useful behavior and controlling operator cost. Under this framework, an unlearning request is specified by a target event, implemented through an unlearning operator, and assessed by empirical evidence over target suppression, distribution preservation, and operator cost. We further reorganize existing GenMU studies under this view. From this perspective, we provide the first explicit and unified account of how GenMU connects to mainstream applications, including privacy protection, copyright and style protection, safety alignment, hallucination mitigation, and deployment defense. Finally, we identify key open problems and future directions toward reliable, scalable, robust, and auditable GenMU. We consistently maintain the related open-source materials at https://github.com/caxLee/GenMU-Survey.",
+ "primary": "cs.LG"
+}

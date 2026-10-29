@@ -1,0 +1,17 @@
+{
+ "id": "2507.11411",
+ "title": "Robust-Multi-Task Gradient Boosting",
+ "authors": [
+  "Seyedsaman Emami",
+  "Gonzalo Martínez-Muñoz",
+  "Daniel Hernández-Lobato"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 3,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "10.1016/j.eswa.2025.130696",
+ "comment": "",
+ "abstract": "Multi-task learning (MTL) has shown effectiveness in exploiting shared information across tasks to improve generalization. MTL assumes tasks share similarities that can improve performance. In addition, boosting algorithms have demonstrated exceptional performance across diverse learning problems, primarily due to their ability to focus on hard-to-learn instances and iteratively reduce residual errors. This makes them a promising approach for learning multi-task problems. However, real-world MTL scenarios often involve tasks that are not well-aligned (known as outlier or adversarial tasks), which do not share beneficial similarities with others and can, in fact, deteriorate the performance of the overall model. To overcome this challenge, we propose Robust-Multi-Task Gradient Boosting (R-MTGB), a novel boosting framework that explicitly models and adapts to task heterogeneity during training. R-MTGB structures the learning process into three sequential blocks: (1) learning shared patterns, (2) partitioning tasks into outliers and non-outliers with regularized parameters, and (3) fine-tuning task-specific predictors. This architecture enables R-MTGB to automatically detect and penalize outlier tasks while promoting effective knowledge transfer among related tasks. Our method integrates these mechanisms seamlessly within gradient boosting, allowing robust handling of noisy or adversarial tasks without sacrificing accuracy. Extensive experiments on both synthetic benchmarks and real-world datasets demonstrate that our approach successfully isolates outliers, transfers knowledge, and consistently reduces prediction errors for each task individually, and achieves overall performance gains across all tasks. These results highlight robustness, adaptability, and reliable convergence of R-MTGB in challenging MTL environments.",
+ "primary": "cs.LG"
+}

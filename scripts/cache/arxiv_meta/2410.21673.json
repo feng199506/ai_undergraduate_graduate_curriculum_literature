@@ -1,0 +1,18 @@
+{
+ "id": "2410.21673",
+ "title": "Knowledge-Guided Prompt Learning for Request Quality Assurance in Public Code Review",
+ "authors": [
+  "Lin Li",
+  "Xinchun Yu",
+  "Xinyu Chen",
+  "Peng Liang"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 4,
+ "latest_date": "2025-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint accepted for publication in ACM Transactions on Software Engineering and Methodology (TOSEM), 2025",
+ "abstract": "Public Code Review (PCR) is developed in the Software Question Answering (SQA) community, assisting developers in exploring high-quality and efficient review services. Current methods on PCR mainly focus on the reviewer's perspective, including finding a capable reviewer, predicting comment quality, and recommending/generating review comments. However, it is not well studied that how to satisfy the review necessity requests posted by developers which can increase their visibility, which in turn acts as a prerequisite for better review responses. To this end, we propose K nowledge-guided P rompt learning for P ublic Code Review (KP-PCR) to achieve developer-based code review request quality assurance (i.e., predicting request necessity and recommending tags subtask). Specifically, we reformulate the two subtasks via 1) text prompt tuning which converts both of them into a Masked Language Model (MLM) by constructing prompt templates using hard prompt; and 2) knowledge and code prefix tuning which introduces knowledge guidance from fine-tuned large language models by soft prompt, and uses program dependence graph to characterize code snippets. Finally, both of the request necessity prediction and tag recommendation subtasks output predicted results through an answer engineering module. In addition, we further analysis the time complexity of our KP-PCR that has lightweight prefix based the operation of introducing knowledge guidance. Experimental results on the PCR dataset for the period 2011-2023 demonstrate that our KP-PCR outperforms baselines by 2.3%-8.4% in the request necessity prediction and by 1.4%-6.9% in the tag recommendation. The code implementation is released at https://github.com/WUT-IDEA/KP-PCR",
+ "primary": "cs.SE"
+}

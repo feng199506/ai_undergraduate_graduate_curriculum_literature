@@ -1,0 +1,17 @@
+{
+ "id": "2411.01078",
+ "title": "Effective ML Model Versioning in Edge Networks",
+ "authors": [
+  "Fin Gentzen",
+  "Mounir Bensalem",
+  "Admela Jukan"
+ ],
+ "v1_date": "2024-11-01",
+ "latest_version": 3,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper is uploaded here for research community, thus it is for non-commercial purposes",
+ "abstract": "Machine learning (ML) models, data and software need to be regularly updated whenever essential version updates are released and feasible for integration. This is a basic but most challenging requirement to satisfy in the edge, due to the various system constraints and the major impact that an update can have on robustness and stability. In this paper, we formulate for the first time the ML model versioning optimization problem, and propose effective solutions, including the update automation with reinforcement learning (RL) based algorithm. We study the edge network environment due to the known constraints in performance, response time, security, and reliability, which make updates especially challenging. The performance study shows that model version updates can be fully and effectively automated with reinforcement learning method. We show that for every range of server load values, the proper versioning can be found that improves security, reliability and/or ML model accuracy, while assuring a comparably lower response time.",
+ "primary": "cs.NI"
+}

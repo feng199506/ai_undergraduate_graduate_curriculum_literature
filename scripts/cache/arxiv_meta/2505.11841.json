@@ -1,0 +1,18 @@
+{
+ "id": "2505.11841",
+ "title": "Framing Causal Questions in Sports Analytics: A Tutorial on Estimand Choice Illustrated Through Crossing in Soccer",
+ "authors": [
+  "Shomoita Alam",
+  "Erica E. M. Moodie",
+  "Lucas Y. Wu",
+  "Tim B. Swartz"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 2,
+ "latest_date": "2026-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 6 figures",
+ "abstract": "Causal inference has become an accepted analytic framework in sports analytics, where experimentation is rarely feasible. A key consideration is the choice of estimand, specifically, whether to target the Average Treatment Effect (ATE), which reflects the effect of an action across the entire population, or the Average Treatment Effect on the Treated (ATT), which reflects the effect among those who actually took the action. Using data from nearly all 240 matches of the 2019 Chinese Super League season, we apply propensity score matching to estimate the causal effect of crossing on shot creation in soccer. The ATE and ATT are nearly identical (0.033 and 0.035 respectively), a result we attribute to substantial overlap in propensity score distributions between plays where a cross was and was not attempted. To illustrate when these estimands diverge, we construct two simulation scenarios with known ground truth: one reproducing the high-overlap structure of the real data, where ATE and ATT coincide, and one engineered to exhibit severe confounding and low overlap, where they diverge substantially. While empirical findings are specific to the 2019 Chinese Super League season, the case study and simulations provide a principled guide to estimand choice in causal analyses of sports data.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2609.32290",
+ "title": "A Journey to the Edge of Stability",
+ "authors": [
+  "Jaerin Lee",
+  "Kyoung Mu Lee"
+ ],
+ "v1_date": "2026-09-26",
+ "latest_version": 1,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 20 figures",
+ "abstract": "It has recently been found that deep learning often occurs at the \"edge of stability (EoS),\" where the maximum Hessian eigenvalue of the model is stabilized at a value reciprocal to the learning rate. However, what happens before we reach that regime? We fix a deep learning problem and vary first order optimization methods with dense learning rate sweeps. We then track the characterizing quantities of a learning trajectory: the loss, the sharpness, and the alignment between consecutive gradients. To our surprise, if we scale the learning rate by the dc gain of the optimizer, these traces from the sweeps from different optimizers almost perfectly overlap across a large range of learning rates. The dc-normalized optimizers have another role that only becomes apparent in high learning rates: they select when the sharpness value detaches from this universal curve and enters the edge of stability. Upon this discovery, we specify three distinct regimes with respect to the dc-adjusted learning rate: the low-LR regime where the trajectory is nearly insensitive to the optimizer, the high-LR regime, where the optimizer governs the sharpness according to the EoS reciprocal rule, and the in-between mid-LR regime where so-called progressive sharpening originates independently of the optimizer. This distinguishes the role of the optimizer, the learning rate, and the model in shaping the learning progress.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2405.06459",
+ "title": "Are EEG-to-Text Models Working?",
+ "authors": [
+  "Hyejeong Jo",
+  "Yiqian Yang",
+  "Juhyeok Han",
+  "Yiqun Duan",
+  "Hui Xiong",
+  "Won Hee Lee"
+ ],
+ "v1_date": "2024-05-10",
+ "latest_version": 4,
+ "latest_date": "2024-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work critically analyzes existing models for open-vocabulary EEG-to-Text translation. We identify a crucial limitation: previous studies often employed implicit teacher-forcing during evaluation, artificially inflating performance metrics. Additionally, they lacked a critical benchmark - comparing model performance on pure noise inputs. We propose a methodology to differentiate between models that truly learn from EEG signals and those that simply memorize training data. Our analysis reveals that model performance on noise data can be comparable to that on EEG data. These findings highlight the need for stricter evaluation practices in EEG-to-Text research, emphasizing transparent reporting and rigorous benchmarking with noise inputs. This approach will lead to more reliable assessments of model capabilities and pave the way for robust EEG-to-Text communication systems. Code is available at https://github.com/NeuSpeech/EEG-To-Text",
+ "primary": "cs.CL"
+}

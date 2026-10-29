@@ -1,0 +1,18 @@
+{
+ "id": "2505.10949",
+ "title": "FP64 is All You Need: Rethinking Failure Modes in Physics-Informed Neural Networks",
+ "authors": [
+  "Chenhui Xu",
+  "Dancheng Liu",
+  "Amir Nassereldine",
+  "Jinjun Xiong"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 2,
+ "latest_date": "2025-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Physics Informed Neural Networks (PINNs) often exhibit failure modes in which the PDE residual loss converges while the solution error stays large, a phenomenon traditionally blamed on local optima separated from the true solution by steep loss barriers. We challenge this understanding by demonstrate that the real culprit is insufficient arithmetic precision: with standard FP32, the LBFGS optimizer prematurely satisfies its convergence test, freezing the network in a spurious failure phase. Simply upgrading to FP64 rescues optimization, enabling vanilla PINNs to solve PDEs without any failure modes. These results reframe PINN failure modes as precision induced stalls rather than inescapable local minima and expose a three stage training dynamic unconverged, failure, success whose boundaries shift with numerical precision. Our findings emphasize that rigorous arithmetic precision is the key to dependable PDE solving with neural networks.",
+ "primary": "cs.LG"
+}

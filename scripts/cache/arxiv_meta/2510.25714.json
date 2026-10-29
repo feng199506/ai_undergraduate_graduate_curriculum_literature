@@ -1,0 +1,19 @@
+{
+ "id": "2510.25714",
+ "title": "Binaspect -- A Python Library for Binaural Audio Analysis, Visualization & Feature Generation",
+ "authors": [
+  "Dan Barry",
+  "Davoud Shariat Panah",
+  "Alessandro Ragano",
+  "Jan Skoglund",
+  "Andrew Hines"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 1,
+ "latest_date": "2025-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present Binaspect, an open-source Python library for binaural audio analysis, visualization, and feature generation. Binaspect generates interpretable \"azimuth maps\" by calculating modified interaural time and level difference spectrograms, and clustering those time-frequency (TF) bins into stable time-azimuth histogram representations. This allows multiple active sources to appear as distinct azimuthal clusters, while degradations manifest as broadened, diffused, or shifted distributions. Crucially, Binaspect operates blindly on audio, requiring no prior knowledge of head models. These visualizations enable researchers and engineers to observe how binaural cues are degraded by codec and renderer design choices, among other downstream processes. We demonstrate the tool on bitrate ladders, ambisonic rendering, and VBAP source positioning, where degradations are clearly revealed. In addition to their diagnostic value, the proposed representations can be exported as structured features suitable for training machine learning models in quality prediction, spatial audio classification, and other binaural tasks. Binaspect is released under an open-source license with full reproducibility scripts at https://github.com/QxLabIreland/Binaspect.",
+ "primary": "cs.SD"
+}

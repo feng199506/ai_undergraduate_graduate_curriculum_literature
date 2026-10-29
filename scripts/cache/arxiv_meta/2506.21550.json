@@ -1,0 +1,17 @@
+{
+ "id": "2506.21550",
+ "title": "mTSBench: Benchmarking Multivariate Time Series Anomaly Detection and Model Selection at Scale",
+ "authors": [
+  "Xiaona Zhou",
+  "Constantin Brif",
+  "Ismini Lourentzou"
+ ],
+ "v1_date": "2025-06-26",
+ "latest_version": 2,
+ "latest_date": "2026-02-07",
+ "journal_ref": "Transactions on Machine Learning Research, 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "Anomaly detection in multivariate time series is essential across domains such as healthcare, cybersecurity, and industrial monitoring, yet remains fundamentally challenging due to high-dimensional dependencies, the presence of cross-correlations between time-dependent variables, and the scarcity of labeled anomalies. We introduce mTSBench, the largest benchmark to date for multivariate time series anomaly detection and model selection, consisting of 344 labeled time series across 19 datasets from a wide range of application domains. We comprehensively evaluate 24 anomaly detectors, including the only two publicly available large language model-based methods for multivariate time series. Consistent with prior findings, we observe that no single detector dominates across datasets, motivating the need for effective model selection. We benchmark three recent model selection methods and find that even the strongest of them remain far from optimal. Our results highlight the outstanding need for robust, generalizable selection strategies. We open-source the benchmark at https://plan-lab.github.io/mtsbench to encourage future research.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2602.17206",
+ "title": "SoftDTW-CUDA-Torch: Memory-Efficient GPU-Accelerated Soft Dynamic Time Warping for PyTorch",
+ "authors": [
+  "Ron Shapira Weber",
+  "Oren Freifeld"
+ ],
+ "v1_date": "2026-02-19",
+ "latest_version": 1,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Technical Report",
+ "abstract": "We present softdtw-cuda-torch, an open-source PyTorch library for computing Soft Dynamic Time Warping (SoftDTW) on GPUs. Our implementation addresses three key limitations of existing GPU implementations of SoftDTW: a hard sequence-length cap of 1024, numerical instability in the backward pass for small smoothing parameters, and excessive GPU memory consumption from materializing pairwise distance tensors. We introduce (1) tiled anti-diagonal kernel execution that removes the sequence-length constraint, (2) a log-space back-ward pass that prevents floating-point overflow, and (3) a fused distance-computation mode that eliminates the O(BN M ) intermediate distance tensor, achieving up to 98% memory reduction compared to prior work. The library supports arbitrary sequence lengths, full PyTorch autograd integration, and Soft-DTW Barycenter computation. Code is available at https://github.com/BGU-CS-VIL/sdtw-cuda-torch.",
+ "primary": "cs.LG"
+}

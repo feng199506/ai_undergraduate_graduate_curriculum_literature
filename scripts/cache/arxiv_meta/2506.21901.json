@@ -1,0 +1,16 @@
+{
+ "id": "2506.21901",
+ "title": "A Survey of LLM Inference Systems",
+ "authors": [
+  "James Pan",
+  "Guoliang Li"
+ ],
+ "v1_date": "2025-06-27",
+ "latest_version": 1,
+ "latest_date": "2025-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages",
+ "abstract": "The past few years has witnessed specialized large language model (LLM) inference systems, such as vLLM, SGLang, Mooncake, and DeepFlow, alongside rapid LLM adoption via services like ChatGPT. Driving these system design efforts is the unique autoregressive nature of LLM request processing, motivating new techniques for achieving high performance while preserving high inference quality over high-volume and high-velocity workloads. While many of these techniques are discussed across the literature, they have not been analyzed under the framework of a complete inference system, nor have the systems themselves been analyzed and compared. In this survey, we review these techniques, starting from operators and algorithms for request processing, then moving on to techniques for model optimization and execution, including kernel design, batching, and scheduling, before ending with techniques for memory management, including paged memory, eviction and offloading techniques, quantization, and cache persistence. Through these discussions, we show that these techniques fundamentally rely on load prediction, adaptive mechanisms, and cost reduction in order to overcome the challenges introduced by autoregressive generation and achieve the goals of the system. We then discuss how these techniques can be combined to form single-replica and multi-replica inference systems, including disaggregated inference systems that offer more control over resource allocation and serverless systems that can be deployed over shared hardware infrastructure. We end with a discussion of remaining challenges.",
+ "primary": "cs.DB"
+}

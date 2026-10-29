@@ -1,0 +1,20 @@
+{
+ "id": "2409.06941",
+ "title": "FreeRide: Harvesting Bubbles in Pipeline Parallelism",
+ "authors": [
+  "Jiashu Zhang",
+  "Zihan Pan",
+  " Molly",
+  " Xu",
+  "Khuzaima Daudjee",
+  "Sihang Liu"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 2,
+ "latest_date": "2025-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The occurrence of bubbles in pipeline parallelism is an inherent limitation that can account for more than 40% of the large language model (LLM) training time and is one of the main reasons for the underutilization of GPU resources in LLM training. Harvesting these bubbles for GPU side tasks can increase resource utilization and reduce training costs but comes with challenges. First, because bubbles are discontinuous with various shapes, programming side tasks becomes difficult while requiring excessive engineering effort. Second, a side task can compete with pipeline training for GPU resources and incur significant overhead. To address these challenges, we propose FreeRide, a system designed to harvest bubbles in pipeline parallelism for side tasks. FreeRide provides programmers with interfaces to implement side tasks easily, manages bubbles and side tasks during pipeline training, and controls access to GPU resources by side tasks to reduce overhead. We demonstrate that FreeRide achieves 7.8% average cost savings with a negligible overhead of about 1% in training LLMs while serving model training, graph analytics, and image processing side tasks.",
+ "primary": "cs.DC"
+}

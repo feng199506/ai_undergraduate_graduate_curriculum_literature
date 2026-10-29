@@ -1,0 +1,18 @@
+{
+ "id": "2602.12446",
+ "title": "Model checking with temporal graphs and their derivative",
+ "authors": [
+  "Binh-Minh Bui-Xuan",
+  "Florent Krasnopol",
+  "Bruno Monasson",
+  "Nathalie Sznajder"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 3,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal graphs are graphs where the presence or properties of their vertices and edges change over time. When time is discrete, a temporal graph can be defined as a sequence of static graphs over a discrete time span, called lifetime, or as a single graph where each edge is associated with a specific set of time instants where the edge is alive. For static graphs, Courcelle's Theorem asserts that any graph problem expressible in monadic second-order logic can be solved in linear time on graphs of bounded tree-width. We propose the first adaptation of Courcelle's Theorem for monadic second-order logic on temporal graphs that does not explicitly rely on a parameter proportional to the lifetime, or defined as the maximum number of time-edges incident with any vertex which in the worst case is higher than the lifetime. We then introduce the notion of derivative over a sliding time window of a chosen size, and define the tree-width and twin-width of the temporal graph's derivative. We exemplify its usefulness with meta-theorems with respect to a temporal variant of first-order logic. The resulting logic expresses a wide range of temporal graph problems including a version of temporal cliques, an important notion when querying time series databases for community structures.",
+ "primary": "cs.DS"
+}

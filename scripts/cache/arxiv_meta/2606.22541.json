@@ -1,0 +1,22 @@
+{
+ "id": "2606.22541",
+ "title": "ASAP: A Disaggregated and Asynchronous Inference System for MoE Prefill",
+ "authors": [
+  "Weiwei Chen",
+  "Shuang Chen",
+  "Lele Li",
+  "Qiang Hu",
+  "Han Li",
+  "Xin Ye",
+  "Ming Yan",
+  "Zhibin Yu"
+ ],
+ "v1_date": "2026-06-21",
+ "latest_version": 1,
+ "latest_date": "2026-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixture-of-Experts (MoE) models have become the de facto standard for scaling large language models. To maintain computational efficiency, modern MoE serving systems typically employ a hybrid parallelism strategy, combining Data Parallelism (DP) for attention stages with Expert Parallelism (EP) for MoE stages. However, this design necessitates frequent global synchronization barriers between attention DP groups and experts. In online serving, significant variance in request arrival rates and sequence lengths inherently leads to DP imbalance, causing severe synchronization stalls that degrade Time-to-First-Token (TTFT) and system throughput. We present ASAP, an asynchronous inference system specifically designed to accelerate the prefill phase of MoE models. ASAP disaggregates the attention and MoE stages and implements a fully asynchronous execution pipeline. This is achieved through a suite of specialized asynchronous communication primitives and four coordinated optimizations across request scheduling and model execution, which collectively dismantle global synchronization barriers. We implement and evaluate ASAP on CloudMatrix384 super-nodes, demonstrating that it improves SLO-compliant prefill throughput by 90% compared to state-of-the-art synchronous serving solutions.",
+ "primary": "cs.DC"
+}

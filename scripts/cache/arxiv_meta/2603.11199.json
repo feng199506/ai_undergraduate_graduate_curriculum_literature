@@ -1,0 +1,19 @@
+{
+ "id": "2603.11199",
+ "title": "Bayesian Optimization of Partially Known Systems using Hybrid Models",
+ "authors": [
+  "Eike Cramer",
+  "Luis Kutschat",
+  "Oliver Stollenwerk",
+  "Joel A. Paulson",
+  "Alexander Mitsos"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 5 Figures",
+ "abstract": "Bayesian optimization (BO) has gained attention as an efficient algorithm for black-box optimization of expensive-to-evaluate systems, where the BO algorithm iteratively queries the system and suggests new trials based on a probabilistic model fitted to previous samples. Still, the standard BO loop may require a prohibitively large number of experiments to converge to the optimum, especially for high-dimensional and nonlinear systems. We present a hybrid model-based BO formulation that combines the iterative Bayesian learning of BO with partially known mechanistic physical models. Instead of learning a direct mapping from inputs to the objective, we write all known equations for a physics-based model and infer expressions for variables missing equations using a probabilistic model, in our case, a Gaussian process (GP). The final formulation then includes the GP as a constraint in the hybrid model, thereby allowing other physics-based nonlinear and implicit model constraints. This hybrid model formulation yields a constrained, nonlinear stochastic program, which we discretize using the sample-average approximation. In an in-silico optimization of a single-stage distillation, the hybrid BO model based on mass conservation laws yields significantly better designs than a standard BO loop. Furthermore, the hybrid model converges in as few as one iteration, depending on the initial samples, whereas, the standard BO does not converge within 25 for any of the seeds. Overall, the proposed hybrid BO scheme presents a promising optimization method for partially known systems, leveraging the strengths of both mechanistic modeling and data-driven optimization.",
+ "primary": "cs.LG"
+}

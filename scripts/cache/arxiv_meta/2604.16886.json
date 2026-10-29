@@ -1,0 +1,24 @@
+{
+ "id": "2604.16886",
+ "title": "Chain Of Interaction Benchmark (COIN): When Reasoning meets Embodied Interaction",
+ "authors": [
+  "Xianhao Wang",
+  "Xiaojian Ma",
+  "Haozhe Hu",
+  "Rongpeng Su",
+  "Yutian Cheng",
+  "Zhou Ziheng",
+  "Hangxin Liu",
+  "Lei Liu",
+  "Bin Li",
+  "Qing Li"
+ ],
+ "v1_date": "2026-04-18",
+ "latest_version": 1,
+ "latest_date": "2026-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalist embodied agents must perform interactive, causally-dependent reasoning, continually interacting with the environment, acquiring information, and updating plans to solve long-horizon tasks before they could be adopted in real-life scenarios. For instance, retrieving an apple from a cabinet may require opening multiple doors and drawers before the apple becomes visible and reachable, demanding sequential interaction under partial observability. However, existing benchmarks fail to systematically evaluate this essential capability. We introduce COIN, a benchmark designed to assess interactive reasoning in realistic robotic manipulation through three key contributions. First, we construct COIN-50: 50 interactive tasks in daily scenarios, and create COIN-Primitive required by causally-dependent tasks, and COIN-Composition with mid-term complexity for skill learning and generalization evaluation. Second, we develop a low-cost mobile AR teleoperation system and collect the COIN-Primitive Dataset with 50 demonstrations per primitive task (1,000 in total). Third, we develop systematic evaluation metrics about execution stability and generalization robustness to evaluate CodeAsPolicy, VLA, and language-conditioned H-VLA approaches. Our comprehensive evaluation reveals critical limitations in current methods: models struggle with interactive reasoning tasks due to significant gaps between visual understanding and motor execution. We provide fine-grained analysis of these limitations.",
+ "primary": "cs.RO"
+}

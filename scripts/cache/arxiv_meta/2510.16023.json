@@ -1,0 +1,22 @@
+{
+ "id": "2510.16023",
+ "title": "A Conformation-Centric Generative Foundation Model for Linear Polymer Modeling and Design",
+ "authors": [
+  "Fanmeng Wang",
+  "Ruochao Wang",
+  "Shan Mei",
+  "Wentao Guo",
+  "Hongshuai Wang",
+  "Qi Ou",
+  "Zhifeng Gao",
+  "Hongteng Xu"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 2,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Linear polymers, macromolecules formed from monomers covalently bonded into continuous chains, underpin countless technologies and are indispensable to modern life. While deep learning is advancing polymer science, existing methods typically represent the whole linear polymer solely through monomer-level descriptors, overlooking the global structural information inherent in polymer conformations, which ultimately limits their practical performance. Moreover, this important field still lacks a dedicated foundation model that can effectively support diverse downstream tasks, thereby severely constraining progress. To address these challenges, we introduce PolyConFM, a foundation model tailored for modeling and designing linear polymers through conformation-centric generative pretraining. Recognizing that each linear polymer is essentially a continuous chain whose conformation can be naturally decomposed into a sequence of local conformations (i.e., those of its repeating units), we pretrain PolyConFM under the conditional generation paradigm, reconstructing these local conformations via masked autoregressive (MAR) modeling and further generating their orientation transformations to recover the corresponding polymer conformation. Meanwhile, we construct a linear polymer conformation dataset via molecular dynamics simulations to mitigate data sparsity, thereby enabling conformation-centric pretraining. Experiments demonstrate that PolyConFM consistently outperforms representative task-specific methods across diverse downstream tasks, thereby equipping polymer science with a powerful tool targeting linear polymers.",
+ "primary": "cs.LG"
+}

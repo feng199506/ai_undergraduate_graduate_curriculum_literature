@@ -1,0 +1,21 @@
+{
+ "id": "2412.12808",
+ "title": "Detecting Emotional Incongruity of Sarcasm by Commonsense Reasoning",
+ "authors": [
+  "Ziqi Qiu",
+  "Jianxing Yu",
+  "Yufeng Zhang",
+  "Hanjiang Lai",
+  "Yanghui Rao",
+  "Qinliang Su",
+  "Jian Yin"
+ ],
+ "v1_date": "2024-12-17",
+ "latest_version": 2,
+ "latest_date": "2024-12-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "In the experimental chapter, there is a problem with the experimental setting and needs to be corrected",
+ "abstract": "This paper focuses on sarcasm detection, which aims to identify whether given statements convey criticism, mockery, or other negative sentiment opposite to the literal meaning. To detect sarcasm, humans often require a comprehensive understanding of the semantics in the statement and even resort to external commonsense to infer the fine-grained incongruity. However, existing methods lack commonsense inferential ability when they face complex real-world scenarios, leading to unsatisfactory performance. To address this problem, we propose a novel framework for sarcasm detection, which conducts incongruity reasoning based on commonsense augmentation, called EICR. Concretely, we first employ retrieval-augmented large language models to supplement the missing but indispensable commonsense background knowledge. To capture complex contextual associations, we construct a dependency graph and obtain the optimized topology via graph refinement. We further introduce an adaptive reasoning skeleton that integrates prior rules to extract sentiment-inconsistent subgraphs explicitly. To eliminate the possible spurious relations between words and labels, we employ adversarial contrastive learning to enhance the robustness of the detector. Experiments conducted on five datasets demonstrate the effectiveness of EICR.",
+ "primary": "cs.CL"
+}

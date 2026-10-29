@@ -1,0 +1,22 @@
+{
+ "id": "2607.04067",
+ "title": "GPU-Accelerated Matrix-Based Hough Transform for Online Track Reconstruction in the STCF MDC",
+ "authors": [
+  "Liang Peng",
+  "Baolin Zhang",
+  "Zhaoli Guo",
+  "Jiarui Zhao",
+  "Yizhen Ma",
+  "Aonan Zhu",
+  "Huilin Li",
+  "Zhujun Fang"
+ ],
+ "v1_date": "2026-07-05",
+ "latest_version": 1,
+ "latest_date": "2026-07-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Super Tau-Charm Facility (STCF) is a proposed next-generation high-luminosity electron-positron collider operating at center-of-mass energies of 2-7 GeV for precision studies of tau-charm physics. Its high event rate, detector occupancy, and background level impose stringent requirements on real-time track reconstruction in MDC, particularly for low-transverse-momentum particles with strongly curved or multi-turn trajectories. To address this challenge, we develop a GPU-accelerated matrix-based Hough transform method for online track reconstruction in the STCF MDC. Following an algorithm-architecture co-design paradigm, the data representation and computational workflow of the conformal Hough transform are reformulated for GPU execution. The original irregular parameter-space computations are organized into regular matrix-based operations, and the core computations are adapted to CUDA thread organization and the GPU memory hierarchy to exploit the inherent parallelism of the Hough transform and reduce computational and data-transfer overhead. Tests on five representative simulated physics channels with nominal background overlay show an average signal retention ratio of 93.04%, while reducing the retained hit volume to 34.92% of the original level. The GPU implementation processes 1,000 events in approximately 0.14s, achieving a speedup of 151.57 x compared with the CPU baseline. These results demonstrate that the proposed method substantially improves track reconstruction throughput while preserving track-associated hits, providing a new methodological perspective for real-time track reconstruction in future high-luminosity particle-collider experiments.",
+ "primary": "hep-ex"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2312.06005",
+ "title": "Software issues report for bug fixing process: An empirical study of machine-learning libraries",
+ "authors": [
+  "Adekunle Ajibode",
+  "Dong Yunwei",
+  "Yang Hongji"
+ ],
+ "v1_date": "2023-12-10",
+ "latest_version": 1,
+ "latest_date": "2023-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Issue resolution and bug-fixing processes are essential in the development of machine-learning libraries, similar to software development, to ensure well-optimized functions. Understanding the issue resolution and bug-fixing process of machine-learning libraries can help developers identify areas for improvement and optimize their strategies for issue resolution and bug-fixing. However, detailed studies on this topic are lacking. Therefore, we investigated the effectiveness of issue resolution for bug-fixing processes in six machine-learning libraries: Tensorflow, Keras, Theano, Pytorch, Caffe, and Scikit-learn. We addressed seven research questions (RQs) using 16,921 issues extracted from the GitHub repository via the GitHub Rest API. We employed several quantitative methods of data analysis, including correlation, OLS regression, percentage and frequency count, and heatmap to analyze the RQs. We found the following through our empirical investigation: (1) The most common categories of issues that arise in machine-learning libraries are bugs, documentation, optimization, crashes, enhancement, new feature requests, build/CI, support, and performance. (2) Effective strategies for addressing these problems include fixing critical bugs, optimizing performance, and improving documentation. (3) These categorized issues are related to testing and runtime and are common among all six machine-learning libraries. (4) Monitoring the total number of comments on issues can provide insights into the duration of the issues. (5) It is crucial to strike a balance between prioritizing critical issues and addressing other issues in a timely manner. Therefore, this study concludes that efficient issue-tracking processes, effective communication, and collaboration are vital for effective resolution of issues and bug fixing processes in machine-learning libraries.",
+ "primary": "cs.SE"
+}

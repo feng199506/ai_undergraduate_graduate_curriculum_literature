@@ -1,0 +1,20 @@
+{
+ "id": "2505.15622",
+ "title": "Benchmarking Energy and Latency in TinyML: A Novel Method for Resource-Constrained AI",
+ "authors": [
+  "Pietro Bartoli",
+  "Christian Veronesi",
+  "Andrea Giudici",
+  "David Siorpaes",
+  "Diana Trojaniello",
+  "Franco Zappa"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 1,
+ "latest_date": "2025-05-21",
+ "journal_ref": "2025 International Joint Conference on Neural Networks (IJCNN)",
+ "doi": "10.1109/ijcnn64981.2025.11228997",
+ "comment": "8 pages, 6 figures The article is already accepted for International Joint Conference on Neural Networks (IJCNN) 2025",
+ "abstract": "The rise of IoT has increased the need for on-edge machine learning, with TinyML emerging as a promising solution for resource-constrained devices such as MCU. However, evaluating their performance remains challenging due to diverse architectures and application scenarios. Current solutions have many non-negligible limitations. This work introduces an alternative benchmarking methodology that integrates energy and latency measurements while distinguishing three execution phases pre-inference, inference, and post-inference. Additionally, the setup ensures that the device operates without being powered by an external measurement unit, while automated testing can be leveraged to enhance statistical significance. To evaluate our setup, we tested the STM32N6 MCU, which includes a NPU for executing neural networks. Two configurations were considered: high-performance and Low-power. The variation of the EDP was analyzed separately for each phase, providing insights into the impact of hardware configurations on energy efficiency. Each model was tested 1000 times to ensure statistically relevant results. Our findings demonstrate that reducing the core voltage and clock frequency improve the efficiency of pre- and post-processing without significantly affecting network execution performance. This approach can also be used for cross-platform comparisons to determine the most efficient inference platform and to quantify how pre- and post-processing overhead varies across different hardware implementations.",
+ "primary": "cs.LG"
+}

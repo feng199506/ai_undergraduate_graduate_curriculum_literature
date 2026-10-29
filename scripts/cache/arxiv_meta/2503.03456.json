@@ -1,0 +1,18 @@
+{
+ "id": "2503.03456",
+ "title": "Mixed-precision algorithms for solving the Sylvester matrix equation",
+ "authors": [
+  "Andrii Dmytryshyn",
+  "Massimiliano Fasi",
+  "Nicholas J. Higham",
+  "Xiaobo Liu"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 3,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the solution of the Sylvester equation $AX+XB=C$ in mixed precision. We derive a new iterative refinement scheme to solve perturbed quasi-triangular Sylvester equations; our rounding error analysis provides sufficient conditions for convergence and a bound on the attainable relative residual. We leverage this iterative scheme to solve the general Sylvester equation. The new algorithms compute the Schur decomposition of the coefficient matrices $A$ and $B$ in lower than working precision, use the low-precision Schur factors to obtain an approximate solution to the perturbed quasi-triangular equation, and iteratively refine it to obtain a working-precision solution. In order to solve the original equation to working precision, the unitary Schur factors of the coefficient matrices must be unitary to working precision, but this is not the case if the Schur decomposition is computed in low precision. We propose two effective approaches to address this: one is based on re-orthonormalization in working precision, and the other on explicit inversion of the almost-unitary factors. The two mixed-precision algorithms thus obtained are tested on various Sylvester and Lyapunov equations from the literature. Our numerical experiments show that, for both types of equations, the new algorithms are at least as accurate as existing ones. Our cost analysis, on the other hand, suggests that they would typically be faster than mono-precision alternatives if implemented on hardware that natively supports low precision.",
+ "primary": "math.NA"
+}

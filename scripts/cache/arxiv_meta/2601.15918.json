@@ -1,0 +1,25 @@
+{
+ "id": "2601.15918",
+ "title": "A Multi-View Pipeline and Benchmark Dataset for 3D Hand Pose Estimation in Surgery",
+ "authors": [
+  "Valery Fischer",
+  "Alan Magdaleno",
+  "Anna-Katharina Calek",
+  "Nicola Cavalcanti",
+  "Nathan Hoffman",
+  "Christoph Germann",
+  "Joschua Wüthrich",
+  "Max Krähenmann",
+  "Mazda Farshad",
+  "Philipp Fürnstahl",
+  "Lilian Calvet"
+ ],
+ "v1_date": "2026-01-22",
+ "latest_version": 1,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Purpose: Accurate 3D hand pose estimation supports surgical applications such as skill assessment, robot-assisted interventions, and geometry-aware workflow analysis. However, surgical environments pose severe challenges, including intense and localized lighting, frequent occlusions by instruments or staff, and uniform hand appearance due to gloves, combined with a scarcity of annotated datasets for reliable model training. Method: We propose a robust multi-view pipeline for 3D hand pose estimation in surgical contexts that requires no domain-specific fine-tuning and relies solely on off-the-shelf pretrained models. The pipeline integrates reliable person detection, whole-body pose estimation, and state-of-the-art 2D hand keypoint prediction on tracked hand crops, followed by a constrained 3D optimization. In addition, we introduce a novel surgical benchmark dataset comprising over 68,000 frames and 3,000 manually annotated 2D hand poses with triangulated 3D ground truth, recorded in a replica operating room under varying levels of scene complexity. Results: Quantitative experiments demonstrate that our method consistently outperforms baselines, achieving a 31% reduction in 2D mean joint error and a 76% reduction in 3D mean per-joint position error. Conclusion: Our work establishes a strong baseline for 3D hand pose estimation in surgery, providing both a training-free pipeline and a comprehensive annotated dataset to facilitate future research in surgical computer vision.",
+ "primary": "cs.CV"
+}

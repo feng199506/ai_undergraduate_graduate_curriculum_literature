@@ -1,0 +1,18 @@
+{
+ "id": "2310.20053",
+ "title": "Estimating optimal PAC-Bayes bounds with Hamiltonian Monte Carlo",
+ "authors": [
+  "Szilvia Ujváry",
+  "Gergely Flamich",
+  "Vincent Fortuin",
+  "José Miguel Hernández Lobato"
+ ],
+ "v1_date": "2023-10-30",
+ "latest_version": 1,
+ "latest_date": "2023-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Mathematics of Modern Machine Learning Workshop at NeurIPS 2023",
+ "abstract": "An important yet underexplored question in the PAC-Bayes literature is how much tightness we lose by restricting the posterior family to factorized Gaussian distributions when optimizing a PAC-Bayes bound. We investigate this issue by estimating data-independent PAC-Bayes bounds using the optimal posteriors, comparing them to bounds obtained using MFVI. Concretely, we (1) sample from the optimal Gibbs posterior using Hamiltonian Monte Carlo, (2) estimate its KL divergence from the prior with thermodynamic integration, and (3) propose three methods to obtain high-probability bounds under different assumptions. Our experiments on the MNIST dataset reveal significant tightness gaps, as much as 5-6\\% in some cases.",
+ "primary": "stat.ML"
+}

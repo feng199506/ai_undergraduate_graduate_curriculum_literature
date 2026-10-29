@@ -1,0 +1,15 @@
+{
+ "id": "2507.17053",
+ "title": "Matrix-Free Evaluation of High-Order Shifted Boundary Finite Element Operators",
+ "authors": [
+  "Michał Wichrowski"
+ ],
+ "v1_date": "2025-07-22",
+ "latest_version": 1,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a matrix-free approach for implementing the shifted boundary method (SBM) in finite element analysis. The SBM is a versatile technique for solving partial differential equations on complex geometries by shifting boundary conditions to nearby surrogate boundaries. We focus on the efficient evaluation of shifted boundary operators using precomputed data and tensor-product structures. The proposed method avoids the explicit assembly of global matrices, achieving a computational complexity of $O(p^{2d-1})$ per face for the evaluation of shifted boundary contributions on elements of polynomial degree $p$ in $d$ dimensions. Numerical experiments validate the accuracy and efficiency of the approach, demonstrating its scalability and applicability to high-order finite element methods for both continuous and discontinuous Galerkin formulations. We compare the performance of the proposed method with a matrix-free CutFEM implementation.",
+ "primary": "math.NA"
+}

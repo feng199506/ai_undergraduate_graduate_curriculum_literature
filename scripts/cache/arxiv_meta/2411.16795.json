@@ -1,0 +1,19 @@
+{
+ "id": "2411.16795",
+ "title": "Why do Machine Learning Notebooks Crash? An Empirical Study on Public Python Jupyter Notebooks",
+ "authors": [
+  "Yiran Wang",
+  "Willem Meijer",
+  "José Antonio Hernández López",
+  "Ulf Nilsson",
+  "Dániel Varró"
+ ],
+ "v1_date": "2024-11-25",
+ "latest_version": 3,
+ "latest_date": "2025-05-27",
+ "journal_ref": "IEEE Transactions on Software Engineering, vol. 51, no. 7, pp. 2181-2196, July 2025",
+ "doi": "10.1109/tse.2025.3574500",
+ "comment": "",
+ "abstract": "Jupyter notebooks have become central in data science, integrating code, text and output in a flexible environment. With the rise of machine learning (ML), notebooks are increasingly used for prototyping and data analysis. However, due to their dependence on complex ML libraries and the flexible notebook semantics that allow cells to be run in any order, notebooks are susceptible to software bugs that may lead to program crashes. This paper presents a comprehensive empirical study focusing on crashes in publicly available Python ML notebooks. We collect 64,031 notebooks containing 92,542 crashes from GitHub and Kaggle, and manually analyze a sample of 746 crashes across various aspects, including crash types and root causes. Our analysis identifies unique ML-specific crash types, such as tensor shape mismatches and dataset value errors that violate API constraints. Additionally, we highlight unique root causes tied to notebook semantics, including out-of-order execution and residual errors from previous cells, which have been largely overlooked in prior research. Furthermore, we identify the most error-prone ML libraries, and analyze crash distribution across ML pipeline stages. We find that over 40% of crashes stem from API misuse and notebook-specific issues. Crashes frequently occur when using ML libraries like TensorFlow/Keras and Torch. Additionally, over 70% of the crashes occur during data preparation, model training, and evaluation or prediction stages of the ML pipeline, while data visualization errors tend to be unique to ML notebooks.",
+ "primary": "cs.SE"
+}

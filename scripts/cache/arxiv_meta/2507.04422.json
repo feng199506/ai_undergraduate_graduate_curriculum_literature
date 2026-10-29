@@ -1,0 +1,18 @@
+{
+ "id": "2507.04422",
+ "title": "Learning Software Bug Reports: A Systematic Literature Review",
+ "authors": [
+  "Guoming Long",
+  "Jingzhi Gong",
+  "Hui Fang",
+  "Tao Chen"
+ ],
+ "v1_date": "2025-07-06",
+ "latest_version": 2,
+ "latest_date": "2025-07-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by TOSEM",
+ "abstract": "The recent advancement of artificial intelligence, especially machine learning (ML), has significantly impacted software engineering research, including bug report analysis. ML aims to automate the understanding, extraction, and correlation of information from bug reports. Despite its growing importance, there has been no comprehensive review in this area. In this paper, we present a systematic literature review covering 1,825 papers, selecting 204 for detailed analysis. We derive seven key findings: 1) Extensive use of CNN, LSTM, and $k$NN for bug report analysis, with advanced models like BERT underutilized due to their complexity. 2) Word2Vec and TF-IDF are popular for feature representation, with a rise in deep learning approaches. 3) Stop word removal is the most common preprocessing, with structural methods rising after 2020. 4) Eclipse and Mozilla are the most frequently evaluated software projects. 5) Bug categorization is the most common task, followed by bug localization and severity prediction. 6) There is increasing attention on specific bugs like non-functional and performance bugs. 7) Common evaluation metrics are F1-score, Recall, Precision, and Accuracy, with $k$-fold cross-validation preferred for model evaluation. 8) Many studies lack robust statistical tests. We also identify six promising future research directions to provide useful insights for practitioners.",
+ "primary": "cs.SE"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2410.00620",
+ "title": "Differentiable Interacting Multiple Model Particle Filtering",
+ "authors": [
+  "John-Joseph Brady",
+  "Yuhui Luo",
+  "Wenwu Wang",
+  "Víctor Elvira",
+  "Yunpeng Li"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 2,
+ "latest_date": "2024-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a sequential Monte Carlo algorithm for parameter learning when the studied model exhibits random discontinuous jumps in behaviour. To facilitate the learning of high dimensional parameter sets, such as those associated to neural networks, we adopt the emerging framework of differentiable particle filtering, wherein parameters are trained by gradient descent. We design a new differentiable interacting multiple model particle filter to be capable of learning the individual behavioural regimes and the model which controls the jumping simultaneously. In contrast to previous approaches, our algorithm allows control of the computational effort assigned per regime whilst using the probability of being in a given regime to guide sampling. Furthermore, we develop a new gradient estimator that has a lower variance than established approaches and remains fast to compute, for which we prove consistency. We establish new theoretical results of the presented algorithms and demonstrate superior numerical performance compared to the previous state-of-the-art algorithms.",
+ "primary": "stat.ML"
+}

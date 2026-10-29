@@ -1,0 +1,29 @@
+{
+ "id": "2609.15598",
+ "title": "Self-Evolving Memory for Generative Recommendation",
+ "authors": [
+  "Xinyu Lin",
+  "Zhuosong Jiang",
+  "Zixiao Suo",
+  "Siqin Wang",
+  "Hanqing Zeng",
+  "Hanchao Yu",
+  "Yinglong Xia",
+  "Jiang Zhang",
+  "Aashu Singh",
+  "Fei Liu",
+  "Wenjie Wang",
+  "Fuli Feng",
+  "Yang Song",
+  "Qifan Wang",
+  "Tat-Seng Chua"
+ ],
+ "v1_date": "2026-09-14",
+ "latest_version": 1,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to CIKM'26",
+ "abstract": "Generative recommendation has emerged as a promising end-to-end paradigm for personalized recommendation. However, user preferences continuously evolve over time, making self-evolving an essential capability for generative recommender systems. Existing evolving strategies, such as continual retraining and distillation-based adaptation, directly update the shared model parameters using streaming interactions. Nevertheless, we find that directly applying such strategies to generative recommendation introduces a critical issue, termed evolution conflict. Specifically, heterogeneous preference shifts from different users are optimized within a fully shared autoregressive parameter space, causing dominant behavioral patterns to progressively dominate the model evolution process while underrepresented patterns become increasingly overlooked. To address this issue, we propose a self-evolving memory paradigm for generative recommendation, aiming to enable effective evolution across heterogeneous behavioral patterns. We further identify three key principles for effective self-evolving recommendation systems, including isolated memorization, reinforced evolution, and scalable application. Guided by these principles, we develop LION, a simple yet effective framework centered on a sparse Key-Value memory layer. Specifically, LION introduces sparse memory activation to isolate the evolution of different behavioral patterns, while a consolidation loss is designed to reinforce the learning of underrepresented preference dynamics during continual adaptation. Extensive experiments on diverse real-world datasets demonstrate the effectiveness of LION under various continual evolution settings (e.g., per-period evaluation, user/item group evaluation, and evolution convergence analysis). The codes are released at https://github.com/JazyJiang/Self-Evolving-Memory-for-Generative-Recommendation.",
+ "primary": "cs.IR"
+}

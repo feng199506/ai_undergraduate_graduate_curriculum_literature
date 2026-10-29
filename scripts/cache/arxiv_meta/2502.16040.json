@@ -1,0 +1,22 @@
+{
+ "id": "2502.16040",
+ "title": "Inference Computation Scaling for Feature Augmentation in Recommendation Systems",
+ "authors": [
+  "Weihao Liu",
+  "Zhaocheng Du",
+  "Haiyuan Zhao",
+  "Wenbo Zhang",
+  "Xiaoyan Zhao",
+  "Gang Wang",
+  "Zhenhua Dong",
+  "Jun Xu"
+ ],
+ "v1_date": "2025-02-22",
+ "latest_version": 1,
+ "latest_date": "2025-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models have become a powerful method for feature augmentation in recommendation systems. However, existing approaches relying on quick inference often suffer from incomplete feature coverage and insufficient specificity in feature descriptions, limiting their ability to capture fine-grained user preferences and undermining overall performance. Motivated by the recent success of inference scaling in math and coding tasks, we explore whether scaling inference can address these limitations and enhance feature quality. Our experiments show that scaling inference leads to significant improvements in recommendation performance, with a 12% increase in NDCG@10. The gains can be attributed to two key factors: feature quantity and specificity. In particular, models using extended Chain-of-Thought (CoT) reasoning generate a greater number of detailed and precise features, offering deeper insights into user preferences and overcoming the limitations of quick inference. We further investigate the factors influencing feature quantity, revealing that model choice and search strategy play critical roles in generating a richer and more diverse feature set. This is the first work to apply inference scaling to feature augmentation in recommendation systems, bridging advances in reasoning tasks to enhance personalized recommendation.",
+ "primary": "cs.IR"
+}

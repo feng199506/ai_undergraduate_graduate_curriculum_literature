@@ -1,0 +1,24 @@
+{
+ "id": "2609.09250",
+ "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+ "authors": [
+  "Yang Wan",
+  "Xihang Yue",
+  "Zhirui Liu",
+  "Ziyuan Chu",
+  "Shuxun Wang",
+  "Yuhan Chen",
+  "Xiaonan Jiang",
+  "Xukun Zhu",
+  "Yubo Dong",
+  "Linchao Zhu"
+ ],
+ "v1_date": "2026-09-08",
+ "latest_version": 2,
+ "latest_date": "2026-09-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Survey. 33 pages, 5 figures, 7 tables, 202 references. Covers reward models, success and failure detection, temporal-logic and formal verification, world-model evaluation, and reward hacking. Project page: https://github.com/ZJUSCL/Awesome-Robot-Verifier",
+ "abstract": "A verifier for robot policies reads a candidate behavior and returns a score for how well it did, used both to evaluate vision-language-action policies and to train them. Verifiers range from success detectors and reward models to runtime monitors, safety filters, and temporal-logic specifications. We survey roughly 150 verifiers and compare them along two properties. Availability is how much a verdict costs, how early in a rollout the verdict arrives, and how often a verdict can be asked for. Availability rises as verdicts get cheaper, earlier, and denser. Credibility is how much a high score tells us about the task. Credibility falls as the judgment becomes gameable and self-serving. We group the verifiers by who supplies the judgment: human verifiers, rule-based and formal verifiers, learned and pretrained verifiers, and model-intrinsic verifiers. Across the four families, we find that credibility falls as availability rises. Regardless of who supplies the judgment, there is no free checker. We then examine what validates a verifier itself, and how much a high score tells us. Three measures appear in the literature: agreement with human labels, the performance of the policy it trains, and behavior under reward hacking. We close with nine metrics that make a verifier claim checkable, and coordinates for the verifiers still to be built.",
+ "primary": "cs.RO"
+}

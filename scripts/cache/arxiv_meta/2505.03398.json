@@ -1,0 +1,18 @@
+{
+ "id": "2505.03398",
+ "title": "Benchmark-based Study of CPU/GPU Power-Related Features through JAX and TensorFlow",
+ "authors": [
+  "Roblex Nana Tchakoute",
+  "Claude Tadonki",
+  "Petr Dokladal",
+  "Youssef Mesri"
+ ],
+ "v1_date": "2025-05-06",
+ "latest_version": 1,
+ "latest_date": "2025-05-06",
+ "journal_ref": "IEEE Access 13 (2025) 184543-184560",
+ "doi": "10.1109/access.2025.3625414",
+ "comment": "14 pages",
+ "abstract": "Power management has become a crucial focus in the modern computing landscape, considering that {\\em energy} is increasingly recognized as a critical resource. This increased the importance of all topics related to {\\em energy-aware computing}. This paper presents an experimental study of three prevalent power management techniques that are {\\em power limitation, frequency limitation}, and {\\em ACPI/P-State governor modes} (OS states related to power consumption). Through a benchmark approach with a set of six computing kernels, we investigate {\\em power/performance} trade-off with various hardware units and software frameworks (mainly TensorFlow and JAX). Our experimental results show that {\\em frequency limitation} is the most effective technique to improve {\\em Energy-Delay Product (EDP)}, which is a convolution of energy and running time. We also observe that running at the highest frequency compared to a reduced one could lead to a reduction of factor $\\frac{1}{10}$ in EDP. Another noticeable fact is that frequency management shows a consistent behavior with different CPUs, whereas opposite effects sometimes occur between TensorFlow (TF) and JAX with the same power management settings.",
+ "primary": "cs.PF"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2507.20193",
+ "title": "Efficient and Fault-Tolerant Memristive Neural Networks with In-Situ Training",
+ "authors": [
+  "Santlal Prajapat",
+  "Manobendra Nath Mondal",
+  "Susmita Sur-Kolay"
+ ],
+ "v1_date": "2025-07-27",
+ "latest_version": 1,
+ "latest_date": "2025-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neuromorphic architectures, which incorporate parallel and in-memory processing, are crucial for accelerating artificial neural network (ANN) computations. This work presents a novel memristor-based multi-layer neural network (memristive MLNN) architecture and an efficient in-situ training algorithm. The proposed design performs matrix-vector multiplications, outer products, and weight updates in constant time $\\mathcal{O}(1)$, leveraging the inherent parallelism of memristive crossbars. Each synapse is realized using a single memristor, eliminating the need for transistors, and offering enhanced area and energy efficiency. The architecture is evaluated through LTspice simulations on the IRIS, NASA Asteroid, and Breast Cancer Wisconsin datasets, achieving classification accuracies of 98.22\\%, 90.43\\%, and 98.59\\%, respectively. Robustness is assessed by introducing stuck-at-conducting-state faults in randomly selected memristors. The effects of nonlinearity in memristor conductance and a 10\\% device variation are also analyzed. The simulation results establish that the network's performance is not affected significantly by faulty memristors, non-linearity, and device variation.",
+ "primary": "cs.ET"
+}

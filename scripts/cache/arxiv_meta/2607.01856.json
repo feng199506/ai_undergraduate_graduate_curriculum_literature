@@ -1,0 +1,17 @@
+{
+ "id": "2607.01856",
+ "title": "On the algebraic analysis of runtime distribution of probabilistic programs",
+ "authors": [
+  "Michele Boreale",
+  "Luisa Collodi",
+  "Alessandro Pompa Di Gregorio"
+ ],
+ "v1_date": "2026-07-02",
+ "latest_version": 3,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "10.1016/j.jlamp.2026.101181",
+ "comment": "",
+ "abstract": "We present an algebraic method for analyzing probabilistic programs with counters and discrete states, Generalized Constant Probability (GCP) programs. We define the operational semantics of GCP in terms of the runs of a type of probabilistic pushdown automata (pPDAs). We characterize the resulting (sub-)probability generating function (pgf) $Δ(z)$ as an algebraic function, representable via the roots of a kernel polynomial associated with the program. Next, we provide algorithms that, leveraging this information, compute under mild algebraic conditions the dominant singularities and the exact radius of convergence of $Δ(z)$, leading to an exact asymptotic expansion and to exponential bounds for its coefficients. Our approach is sound for GCP programs and complete for the single-state subclass.",
+ "primary": "cs.FL"
+}

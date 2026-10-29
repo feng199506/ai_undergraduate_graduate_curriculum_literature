@@ -1,0 +1,15 @@
+{
+ "id": "2311.03316",
+ "title": "Improving Collaborative Filtering Recommendation via Graph Learning",
+ "authors": [
+  "Yongyu Wang"
+ ],
+ "v1_date": "2023-11-06",
+ "latest_version": 2,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recommendation systems aim to provide personalized predictions by identifying items that are most appealing to individual users. Among various recommendation approaches, k-nearest-neighbor (kNN)-based collaborative filtering (CF) remains one of the most widely used in practice. However, the kNN scheme often results in running the algorithm on a highly dense graph, which degrades computational efficiency. In addition, enforcing a uniform neighborhood size is not well suited to capturing the true underlying structure of the data. In this paper, we leverage recent advances in graph signal processing (GSP) to learn a sparse yet high-quality graph, improving the efficiency of collaborative filtering without sacrificing recommendation accuracy. Experiments on benchmark datasets demonstrate that our method can successfully perform CF-based recommendation using an extremely sparse graph while maintaining competitive performance.",
+ "primary": "cs.IR"
+}

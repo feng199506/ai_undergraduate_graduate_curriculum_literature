@@ -1,0 +1,17 @@
+{
+ "id": "2603.06623",
+ "title": "Advances in GRPO for Generation Models: A Survey",
+ "authors": [
+  "Zexiang Liu",
+  "Xianglong He",
+  "Yangguang Li"
+ ],
+ "v1_date": "2026-02-21",
+ "latest_version": 1,
+ "latest_date": "2026-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large-scale flow matching models have achieved strong performance across generative tasks such as text-to-image, video, 3D, and speech synthesis. However, aligning their outputs with human preferences and task-specific objectives remains challenging. Flow-GRPO extends Group Relative Policy Optimization (GRPO) to generation models, enabling stable reinforcement learning alignment for generative systems. Since its introduction, Flow-GRPO has triggered rapid research growth, spanning methodological refinements and diverse application domains. This survey provides a comprehensive review of Flow-GRPO and its subsequent developments. We organize existing work along two primary dimensions. First, we analyze methodological advances beyond the original framework, including reward signal design, credit assignment, sampling efficiency, diversity preservation, reward hacking mitigation, and reward model construction. Second, we examine extensions of GRPO-based alignment across generative paradigms and modalities, including text-to-image, video generation, image editing, speech and audio, 3D modeling, embodied vision-language-action systems, unified multimodal models, autoregressive and masked diffusion models, and restoration tasks. By synthesizing theoretical insights and practical adaptations, this survey highlights Flow-GRPO as a general alignment framework for modern generative models and outlines key open challenges for scalable and robust reinforcement-based generation.",
+ "primary": "cs.LG"
+}

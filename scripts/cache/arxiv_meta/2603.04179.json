@@ -1,0 +1,19 @@
+{
+ "id": "2603.04179",
+ "title": "NOVA3R: Non-pixel-aligned Visual Transformer for Amodal 3D Reconstruction",
+ "authors": [
+  "Weirong Chen",
+  "Chuanxia Zheng",
+  "Ganlin Zhang",
+  "Andrea Vedaldi",
+  "Daniel Cremers"
+ ],
+ "v1_date": "2026-03-04",
+ "latest_version": 2,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ICLR 2026. Project Page: https://wrchen530.github.io/nova3r",
+ "abstract": "We present NOVA3R, an effective approach for non-pixel-aligned 3D reconstruction from a set of unposed images in a feed-forward manner. Unlike pixel-aligned methods that tie geometry to per-ray predictions, our formulation learns a global, view-agnostic scene representation that decouples reconstruction from pixel alignment. This addresses two key limitations in pixel-aligned 3D: (1) it recovers both visible and invisible points with a complete scene representation, and (2) it produces physically plausible geometry with fewer duplicated structures in overlapping regions. To achieve this, we introduce a scene-token mechanism that aggregates information across unposed images and a diffusion-based 3D decoder that reconstructs complete, non-pixel-aligned point clouds. Extensive experiments on both scene-level and object-level datasets demonstrate that NOVA3R outperforms state-of-the-art methods in terms of reconstruction accuracy and completeness.",
+ "primary": "cs.CV"
+}

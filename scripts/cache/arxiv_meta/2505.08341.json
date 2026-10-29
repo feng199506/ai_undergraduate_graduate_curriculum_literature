@@ -1,0 +1,23 @@
+{
+ "id": "2505.08341",
+ "title": "Benchmarking AI scientists for omics data driven biological discovery",
+ "authors": [
+  "Erpai Luo",
+  "Jinmeng Jia",
+  "Yifan Xiong",
+  "Xiangyu Li",
+  "Xiaobo Guo",
+  "Baoqi Yu",
+  "Minsheng Hao",
+  "Lei Wei",
+  "Xuegong Zhang"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 2,
+ "latest_date": "2026-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in large language models have enabled the emergence of AI scientists that aim to autonomously analyze biological data and assist scientific discovery. Despite rapid progress, it remains unclear to what extent these systems can extract meaningful biological insights from real experimental data. Existing benchmarks either evaluate reasoning in the absence of data or focus on predefined analytical outputs, failing to reflect realistic, data-driven biological research. Here, we introduce BAISBench (Biological AI Scientist Benchmark), a benchmark for evaluating AI scientists on real single-cell transcriptomic datasets. BAISBench comprises two tasks: cell type annotation across 15 expert-labeled datasets, and scientific discovery through 193 multiple-choice questions derived from biological conclusions reported in 41 published single-cell studies. We evaluated several representative AI scientists using BAISBench and, to provide a human performance baseline, invited six graduate-level bioinformaticians to collectively complete the same tasks. The results show that while current AI scientists fall short of fully autonomous biological discovery, they already demonstrate substantial potential in supporting data-driven biological research. These results position BAISBench as a practical benchmark for characterizing the current capabilities and limitations of AI scientists in biological research. We expect BAISBench to serve as a practical evaluation framework for guiding the development of more capable AI scientists and for helping biologists identify AI systems that can effectively support real-world research workflows. The BAISBench can be found at: https://github.com/EperLuo/BAISBench, https://huggingface.co/datasets/EperLuo/BaisBench.",
+ "primary": "cs.AI"
+}

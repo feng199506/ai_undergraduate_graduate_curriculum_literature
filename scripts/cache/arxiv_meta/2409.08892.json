@@ -1,0 +1,17 @@
+{
+ "id": "2409.08892",
+ "title": "Exploring Action-Centric Representations Through the Lens of Rate-Distortion Theory",
+ "authors": [
+  "Miguel de Llanza Varona",
+  "Christopher L. Buckley",
+  "Beren Millidge"
+ ],
+ "v1_date": "2024-09-13",
+ "latest_version": 1,
+ "latest_date": "2024-09-13",
+ "journal_ref": "4th International Workshop on Active Inference, 2023",
+ "doi": "",
+ "comment": "",
+ "abstract": "Organisms have to keep track of the information in the environment that is relevant for adaptive behaviour. Transmitting information in an economical and efficient way becomes crucial for limited-resourced agents living in high-dimensional environments. The efficient coding hypothesis claims that organisms seek to maximize the information about the sensory input in an efficient manner. Under Bayesian inference, this means that the role of the brain is to efficiently allocate resources in order to make predictions about the hidden states that cause sensory data. However, neither of those frameworks accounts for how that information is exploited downstream, leaving aside the action-oriented role of the perceptual system. Rate-distortion theory, which defines optimal lossy compression under constraints, has gained attention as a formal framework to explore goal-oriented efficient coding. In this work, we explore action-centric representations in the context of rate-distortion theory. We also provide a mathematical definition of abstractions and we argue that, as a summary of the relevant details, they can be used to fix the content of action-centric representations. We model action-centric representations using VAEs and we find that such representations i) are efficient lossy compressions of the data; ii) capture the task-dependent invariances necessary to achieve successful behaviour; and iii) are not in service of reconstructing the data. Thus, we conclude that full reconstruction of the data is rarely needed to achieve optimal behaviour, consistent with a teleological approach to perception.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2405.01098",
+ "title": "Multivariate trace estimation using quantum state space linear algebra",
+ "authors": [
+  "Liron Mor Yosef",
+  "Shashanka Ubaru",
+  "Lior Horesh",
+  "Haim Avron"
+ ],
+ "v1_date": "2024-05-02",
+ "latest_version": 1,
+ "latest_date": "2024-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we present a quantum algorithm for approximating multivariate traces, i.e. the traces of matrix products. Our research is motivated by the extensive utility of multivariate traces in elucidating spectral characteristics of matrices, as well as by recent advancements in leveraging quantum computing for faster numerical linear algebra. Central to our approach is a direct translation of a multivariate trace formula into a quantum circuit, achieved through a sequence of low-level circuit construction operations. To facilitate this translation, we introduce \\emph{quantum Matrix States Linear Algebra} (qMSLA), a framework tailored for the efficient generation of state preparation circuits via primitive matrix algebra operations. Our algorithm relies on sets of state preparation circuits for input matrices as its primary inputs and yields two state preparation circuits encoding the multivariate trace as output. These circuits are constructed utilizing qMSLA operations, which enact the aforementioned multivariate trace formula. We emphasize that our algorithm's inputs consist solely of state preparation circuits, eschewing harder to synthesize constructs such as Block Encodings. Furthermore, our approach operates independently of the availability of specialized hardware like QRAM, underscoring its versatility and practicality.",
+ "primary": "quant-ph"
+}

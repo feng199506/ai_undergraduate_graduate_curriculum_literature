@@ -1,0 +1,24 @@
+{
+ "id": "2410.10989",
+ "title": "Liger Kernel: Efficient Triton Kernels for LLM Training",
+ "authors": [
+  "Pin-Lun Hsu",
+  "Yun Dai",
+  "Vignesh Kothapalli",
+  "Qingquan Song",
+  "Shao Tang",
+  "Siyu Zhu",
+  "Steven Shimizu",
+  "Shivam Sahni",
+  "Haowen Ning",
+  "Yanning Chen"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 3,
+ "latest_date": "2025-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 12 figures",
+ "abstract": "Training Large Language Models (LLMs) efficiently at scale presents a formidable challenge, driven by their ever-increasing computational demands and the need for enhanced performance. In this work, we introduce Liger-Kernel, an open-sourced set of Triton kernels developed specifically for LLM training. With kernel optimization techniques like kernel operation fusing and input chunking, our kernels achieve on average a 20% increase in training throughput and a 60% reduction in GPU memory usage for popular LLMs compared to HuggingFace implementations. In addition, Liger-Kernel is designed with modularity, accessibility, and adaptability in mind, catering to both casual and expert users. Comprehensive benchmarks and integration tests are built in to ensure compatibility, performance, correctness, and convergence across diverse computing environments and model architectures. The source code is available under a permissive license at: github.com/linkedin/Liger-Kernel.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2410.15828",
+ "title": "LLM4GRN: Discovering Causal Gene Regulatory Networks with LLMs -- Evaluation through Synthetic Data Generation",
+ "authors": [
+  "Tejumade Afonja",
+  "Ivaxi Sheth",
+  "Ruta Binkyte",
+  "Waqar Hanif",
+  "Thomas Ulas",
+  "Matthias Becker",
+  "Mario Fritz"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 1,
+ "latest_date": "2024-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gene regulatory networks (GRNs) represent the causal relationships between transcription factors (TFs) and target genes in single-cell RNA sequencing (scRNA-seq) data. Understanding these networks is crucial for uncovering disease mechanisms and identifying therapeutic targets. In this work, we investigate the potential of large language models (LLMs) for GRN discovery, leveraging their learned biological knowledge alone or in combination with traditional statistical methods. We develop a task-based evaluation strategy to address the challenge of unavailable ground truth causal graphs. Specifically, we use the GRNs suggested by LLMs to guide causal synthetic data generation and compare the resulting data against the original dataset. Our statistical and biological assessments show that LLMs can support statistical modeling and data synthesis for biological research.",
+ "primary": "cs.AI"
+}

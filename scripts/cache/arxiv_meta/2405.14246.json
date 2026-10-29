@@ -1,0 +1,17 @@
+{
+ "id": "2405.14246",
+ "title": "GCondenser: Benchmarking Graph Condensation",
+ "authors": [
+  "Yilun Liu",
+  "Ruihong Qiu",
+  "Zi Huang"
+ ],
+ "v1_date": "2024-05-23",
+ "latest_version": 3,
+ "latest_date": "2024-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "GCondenser is open-sourced and available at https://github.com/superallen13/GCondenser",
+ "abstract": "Large-scale graphs are valuable for graph representation learning, yet the abundant data in these graphs hinders the efficiency of the training process. Graph condensation (GC) alleviates this issue by compressing the large graph into a significantly smaller one that still supports effective model training. Although recent research has introduced various approaches to improve the effectiveness of the condensed graph, comprehensive and practical evaluations across different GC methods are neglected. This paper proposes the first large-scale graph condensation benchmark, GCondenser, to holistically evaluate and compare mainstream GC methods. GCondenser includes a standardised GC paradigm, consisting of condensation, validation, and evaluation procedures, as well as enabling extensions to new GC methods and datasets. With GCondenser, a comprehensive performance study is conducted, presenting the effectiveness of existing methods. GCondenser is open-sourced and available at https://github.com/superallen13/GCondenser.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2504.01509",
+ "title": "PROPHET: An Inferable Future Forecasting Benchmark with Causal Intervened Likelihood Estimation",
+ "authors": [
+  "Zhengwei Tao",
+  "Pu Wu",
+  "Zhi Jin",
+  "Xiaoying Bai",
+  "Haiyan Zhao",
+  "Chengfeng Dou",
+  "Xiancai Chen",
+  "Jia Li",
+  "Linyu Li",
+  "Chongyang Tao",
+  "Wentao Zhang"
+ ],
+ "v1_date": "2025-04-02",
+ "latest_version": 2,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Predicting future events based on news on the Web stands as one of the ultimate aspirations of artificial intelligence. Recent advances in large language model (LLM)-based systems have shown remarkable potential in forecasting future events, thereby garnering significant interest in the research community. Currently, several benchmarks have been established to evaluate the forecasting capabilities by formalizing the event prediction as a retrieval-augmented generation (RAG)-and-reasoning task. In these benchmarks, each prediction question is answered with relevant retrieved news articles downloaded from the Web. However, because there is no consideration of whether the questions can be supported by valid or sufficient supporting rationales, some of the questions in these benchmarks may be inherently noninferable. To address this issue, we introduce a new benchmark, PROPHET, which comprises inferable forecasting questions paired with relevant news for retrieval. To ensure the inferability of the benchmark, we propose Causal Intervened Likelihood (CIL), a statistical measure that assesses inferability through causal inference. In constructing this benchmark, we first collected recent trend forecasting questions, and then filtered the data using CIL resulting in an inferable benchmark for future forecasting. Through extensive experiments, we first demonstrate the validity of CIL and in-depth investigations into future forecasting with the aid of CIL. Subsequently, we evaluate several representative prediction methods on PROPHET. The overall results draws valuable insights for task of future directions.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2511.08866",
+ "title": "BioVerge: A Comprehensive Benchmark and Study of Self-Evaluating Agents for Biomedical Hypothesis Generation",
+ "authors": [
+  "Fuyi Yang",
+  "Chenchen Ye",
+  "Mingyu Derek Ma",
+  "Yijia Xiao",
+  "Matthew Yang",
+  "Wei Wang"
+ ],
+ "v1_date": "2025-11-12",
+ "latest_version": 1,
+ "latest_date": "2025-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hypothesis generation in biomedical research has traditionally centered on uncovering hidden relationships within vast scientific literature, often using methods like Literature-Based Discovery (LBD). Despite progress, current approaches typically depend on single data types or predefined extraction patterns, which restricts the discovery of novel and complex connections. Recent advances in Large Language Model (LLM) agents show significant potential, with capabilities in information retrieval, reasoning, and generation. However, their application to biomedical hypothesis generation has been limited by the absence of standardized datasets and execution environments. To address this, we introduce BioVerge, a comprehensive benchmark, and BioVerge Agent, an LLM-based agent framework, to create a standardized environment for exploring biomedical hypothesis generation at the frontier of existing scientific knowledge. Our dataset includes structured and textual data derived from historical biomedical hypotheses and PubMed literature, organized to support exploration by LLM agents. BioVerge Agent utilizes a ReAct-based approach with distinct Generation and Evaluation modules that iteratively produce and self-assess hypothesis proposals. Through extensive experimentation, we uncover key insights: 1) different architectures of BioVerge Agent influence exploration diversity and reasoning strategies; 2) structured and textual information sources each provide unique, critical contexts that enhance hypothesis generation; and 3) self-evaluation significantly improves the novelty and relevance of proposed hypotheses.",
+ "primary": "cs.CL"
+}

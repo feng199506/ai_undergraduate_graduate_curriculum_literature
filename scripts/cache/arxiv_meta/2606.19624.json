@@ -1,0 +1,29 @@
+{
+ "id": "2606.19624",
+ "title": "MassSpecGym in the Wild: Uncovering and Correcting Evaluation Pitfalls in AI-Driven Molecule Discovery",
+ "authors": [
+  "Hongxuan Liu",
+  "Roman Bushuiev",
+  "Ivy Lightheart",
+  "Mrunali Manjrekar",
+  "Anton Bushuiev",
+  "Magdalena Lederbauer",
+  "Filip Jozefov",
+  "Yinkai Wang",
+  "Soha Hassoun",
+  "Josef Sivic",
+  "James Taylor",
+  "Runzhong Wang",
+  "David Healey",
+  "Tomáš Pluskal",
+  "Connor W. Coley"
+ ],
+ "v1_date": "2026-06-17",
+ "latest_version": 1,
+ "latest_date": "2026-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable benchmarking is critical for developing machine learning models for tandem mass spectrometry (MS/MS) based molecule discovery. Subtle issues in experimental design and model evaluation procedures can degrade the trustworthiness of such benchmarks and lead to erroneous conclusions. We conduct a thorough review of model evaluation issues in the recent MS/MS machine learning literature, using the standard MassSpecGym benchmark suite as a case study to illustrate the impact of these issues. We find evaluation issues in at least 17 of 26 papers reporting MassSpecGym benchmark results in the first year of its adoption. We isolate three classes of failures: (i) data leakage, (ii) shortcut learning, and (iii) implementation bugs and metric divergence. Through extensive experimentation and code replication, we quantify the impact of these issues and show how they corrupt the evaluation standards MassSpecGym was designed to enforce. We distill our findings into recommendations generalizable to MS/MS challenges, benchmarks, and custom evaluation setups. We also release MassSpecGym v1.5, an implementation of our recommendations in the MassSpecGym benchmarking suite which addresses the failure modes identified in this audit. MassSpecGym v1.5 is publicly available at https://github.com/pluskal-lab/MassSpecGym.",
+ "primary": "cs.LG"
+}

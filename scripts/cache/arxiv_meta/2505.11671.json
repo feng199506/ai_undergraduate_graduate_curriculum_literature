@@ -1,0 +1,18 @@
+{
+ "id": "2505.11671",
+ "title": "Humble your Overconfident Networks: Unlearning Overfitting via Sequential Monte Carlo Tempered Deep Ensembles",
+ "authors": [
+  "Andrew Millard",
+  "Zheng Zhao",
+  "Joshua Murphy",
+  "Simon Maskell"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 1,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential Monte Carlo (SMC) methods offer a principled approach to Bayesian uncertainty quantification but are traditionally limited by the need for full-batch gradient evaluations. We introduce a scalable variant by incorporating Stochastic Gradient Hamiltonian Monte Carlo (SGHMC) proposals into SMC, enabling efficient mini-batch based sampling. Our resulting SMCSGHMC algorithm outperforms standard stochastic gradient descent (SGD) and deep ensembles across image classification, out-of-distribution (OOD) detection, and transfer learning tasks. We further show that SMCSGHMC mitigates overfitting and improves calibration, providing a flexible, scalable pathway for converting pretrained neural networks into well-calibrated Bayesian models.",
+ "primary": "stat.ML"
+}

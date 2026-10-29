@@ -1,0 +1,17 @@
+{
+ "id": "2401.14086",
+ "title": "Generating Likely Counterfactuals Using Sum-Product Networks",
+ "authors": [
+  "Jiri Nemecek",
+  "Tomas Pevny",
+  "Jakub Marecek"
+ ],
+ "v1_date": "2024-01-25",
+ "latest_version": 5,
+ "latest_date": "2025-06-11",
+ "journal_ref": "The Thirteenth International Conference on Learning Representations (ICLR 2025)",
+ "doi": "",
+ "comment": "32 pages total",
+ "abstract": "The need to explain decisions made by AI systems is driven by both recent regulation and user demand. The decisions are often explainable only post hoc. In counterfactual explanations, one may ask what constitutes the best counterfactual explanation. Clearly, multiple criteria must be taken into account, although \"distance from the sample\" is a key criterion. Recent methods that consider the plausibility of a counterfactual seem to sacrifice this original objective. Here, we present a system that provides high-likelihood explanations that are, at the same time, close and sparse. We show that the search for the most likely explanations satisfying many common desiderata for counterfactual explanations can be modeled using Mixed-Integer Optimization (MIO). We use a Sum-Product Network (SPN) to estimate the likelihood of a counterfactual. To achieve that, we propose an MIO formulation of an SPN, which can be of independent interest. The source code with examples is available at https://github.com/Epanemu/LiCE.",
+ "primary": "cs.AI"
+}

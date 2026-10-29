@@ -1,0 +1,22 @@
+{
+ "id": "2510.23684",
+ "title": "VIKING: Deep variational inference with stochastic projections",
+ "authors": [
+  "Samuel G. Fadel",
+  "Hrittik Roy",
+  "Nicholas Krämer",
+  "Yevgen Zainchkovskyy",
+  "Stas Syrota",
+  "Alejandro Valverde Mahou",
+  "Carl Henrik Ek",
+  "Søren Hauberg"
+ ],
+ "v1_date": "2025-10-27",
+ "latest_version": 1,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025 (poster)",
+ "abstract": "Variational mean field approximations tend to struggle with contemporary overparametrized deep neural networks. Where a Bayesian treatment is usually associated with high-quality predictions and uncertainties, the practical reality has been the opposite, with unstable training, poor predictive power, and subpar calibration. Building upon recent work on reparametrizations of neural networks, we propose a simple variational family that considers two independent linear subspaces of the parameter space. These represent functional changes inside and outside the support of training data. This allows us to build a fully-correlated approximate posterior reflecting the overparametrization that tunes easy-to-interpret hyperparameters. We develop scalable numerical routines that maximize the associated evidence lower bound (ELBO) and sample from the approximate posterior. Empirically, we observe state-of-the-art performance across tasks, models, and datasets compared to a wide array of baseline methods. Our results show that approximate Bayesian inference applied to deep neural networks is far from a lost cause when constructing inference mechanisms that reflect the geometry of reparametrizations.",
+ "primary": "stat.ML"
+}

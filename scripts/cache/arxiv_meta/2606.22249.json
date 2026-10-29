@@ -1,0 +1,15 @@
+{
+ "id": "2606.22249",
+ "title": "On the Expressive Power of Weight Quantization in Large Language Models",
+ "authors": [
+  "Shao-Qun Zhang"
+ ],
+ "v1_date": "2026-06-20",
+ "latest_version": 1,
+ "latest_date": "2026-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, weight quantization that encodes the learnable parameters of large language models in an $n$-bit format has garnered significant attention due to its potential for model compression and inference acceleration. Many practical techniques have been developed; however, the theoretical understanding of many aspects, especially the approximation and degradation of expressive power as the number of quantization bits decreases, remains unclear. In this paper, we provide a theoretical investigation into the expressive capability of large language models relative to the number of quantization bits. We argue that 1.58-bit is the limiting precision for weight quantization by establishing the universal approximation and expressive collapse properties of weight-quantized models with respect to the number of quantization bits. Additionally, we confirm that weight quantization leads to expressive degradation, in which the expressive capacity of weight-quantized models degrades polynomially as the number of quantization bits decreases. These theoretical findings provide a solid foundation for advancing weight quantization in the context of scaling laws and shed insights for future research in model compression and inference acceleration.",
+ "primary": "cs.LG"
+}

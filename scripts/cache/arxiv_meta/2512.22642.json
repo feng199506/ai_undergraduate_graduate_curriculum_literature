@@ -1,0 +1,19 @@
+{
+ "id": "2512.22642",
+ "title": "Machine Learning for Scheduling Decision Systems: A Critical Review of Architecture, Assurance, and Deployment",
+ "authors": [
+  "Anbang Liu",
+  "Shaochong Lin",
+  "Jingchuan Chen",
+  "Peng Wu",
+  "Zuojun Max Shen"
+ ],
+ "v1_date": "2025-12-27",
+ "latest_version": 3,
+ "latest_date": "2026-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning supports scheduling through prediction, search guidance, or schedule formation, but model-level evaluations obscure the downstream work, technical authority, and controls needed to release decisions. We conduct a critical integrative review combining structured candidate identification and purposive full-text synthesis, treating the complete reported scheduling decision system (from problem specification to release and conditional recovery) as the unit of analysis. Our system-level taxonomy distinguishes the function of learned outputs, schedule formation, and binding control along the normal release path. It separates learning and adaptation from decision assurance, and technical authority from organizational decision rights. Reported timing and solver guarantees depend on downstream work and the decision space left after learned commitments; transfer of retained capability differs from architectural reuse, and operational maturity from automated release. Evidence supports selected quality-computation-time trade-offs, bounded transfer of retained capability, performance within specified regimes, and operating use in several configurations. It does not support a system-equivalent ranking of learning and optimization, general cross-task transfer, or common conclusions about lifecycle economics and long-run field performance. Four operations-management propositions link lifecycle value to effective reuse, technical authority to forms of change, deadline-feasible assurance and recovery, and organizational rights to information and accountability. Solver-led, shared-authority, and model-led configurations are alternative designs, not maturity stages; model performance alone does not justify greater release authority.",
+ "primary": "math.OC"
+}

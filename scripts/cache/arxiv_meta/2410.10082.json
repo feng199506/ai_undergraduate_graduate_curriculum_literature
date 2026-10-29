@@ -1,0 +1,19 @@
+{
+ "id": "2410.10082",
+ "title": "fastHDMI: Fast Mutual Information Estimation for High-Dimensional Data",
+ "authors": [
+  "Kai Yang",
+  "Masoud Asgharian",
+  "Nikhil Bhagwat",
+  "Jean-Baptiste Poline",
+  "Celia M. T. Greenwood"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 1,
+ "latest_date": "2024-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 5 figures",
+ "abstract": "In this paper, we introduce fastHDMI, a Python package designed for efficient variable screening in high-dimensional datasets, particularly neuroimaging data. This work pioneers the application of three mutual information estimation methods for neuroimaging variable selection, a novel approach implemented via fastHDMI. These advancements enhance our ability to analyze the complex structures of neuroimaging datasets, providing improved tools for variable selection in high-dimensional spaces. Using the preprocessed ABIDE dataset, we evaluate the performance of these methods through extensive simulations. The tests cover a range of conditions, including linear and nonlinear associations, as well as continuous and binary outcomes. Our results highlight the superiority of the FFTKDE-based mutual information estimation for feature screening in continuous nonlinear outcomes, while binning-based methods outperform others for binary outcomes with nonlinear probability preimages. For linear simulations, both Pearson correlation and FFTKDE-based methods show comparable performance for continuous outcomes, while Pearson excels in binary outcomes with linear probability preimages. A comprehensive case study using the ABIDE dataset further demonstrates fastHDMI's practical utility, showcasing the predictive power of models built from variables selected using our screening techniques. This research affirms the computational efficiency and methodological strength of fastHDMI, significantly enriching the toolkit available for neuroimaging analysis.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2605.13123",
+ "title": "Multi-Depth Uniform Coverage Path Planning for Unmanned Surface Vehicle Surveying",
+ "authors": [
+  "Maider Larrazabal",
+  "Tong Yang",
+  "Izaro Goienetxea",
+  "Jaime Valls Miro"
+ ],
+ "v1_date": "2026-05-13",
+ "latest_version": 1,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "10.1109/icra57385.2026.11696941",
+ "comment": "Accepted by ICRA 2026",
+ "abstract": "This paper introduces a novel automatic coverage path planning algorithm for bathymetry surveying with unmanned surface vehicles. The detection range of the mapping sensor employed - a multibeam echo sounder - is heavily influenced by local seafloor depths. Hence, a path designed to uniformly cover the sea surface does not guarantee uniform coverage of the seafloor. Yet this is currently the typical process for bathymetric surveys, with the simplistic boustrophedon scheme along manually selected waypoints at constant depths being the most widespread planner used. The proposed scheme incorporates coarse prior depth information to pre-process the target region and adaptively guide path generation and sensing range configuration. By explicitly accounting for depth variations, the proposed algorithm designs a coverage path with optimised spacing between survey passes that adjusts the sensing beam aperture to achieve more consistent seafloor coverage. The proposed method is shown to offer significant improvements in both synthetic and real-world scenarios. Validations in challenging synthetic terrains achieves coverage ratios beyond 99%, a marked improvement when compared with traditional boustrophedon paths revealing a maximum 75% coverage. The same trend appears in realistic simulations using real bathymetric data from a coastal harbour, with coverage reaching over 92%, and significantly surpassing boustrophedon sweeps with coverage rates below 65%. Beyond improved performance, the scheme also brings a fully automated design, suitable for autonomous marine vehicles, thus offering practical utilities for real-world applications.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2506.12689",
+ "title": "SciSage: A Multi-Agent Framework for High-Quality Scientific Survey Generation",
+ "authors": [
+  "Xiaofeng Shi",
+  "Qian Kou",
+  "Yuduo Li",
+  "Ning Tang",
+  "Jinxin Xie",
+  "Longbin Yu",
+  "Songjing Wang",
+  "Hua Zhou"
+ ],
+ "v1_date": "2025-06-15",
+ "latest_version": 2,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid growth of scientific literature demands robust tools for automated survey-generation. However, current large language model (LLM)-based methods often lack in-depth analysis, structural coherence, and reliable citations. To address these limitations, we introduce SciSage, a multi-agent framework employing a reflect-when-you-write paradigm. SciSage features a hierarchical Reflector agent that critically evaluates drafts at outline, section, and document levels, collaborating with specialized agents for query interpretation, content retrieval, and refinement. We also release SurveyScope, a rigorously curated benchmark of 46 high-impact papers (2020-2025) across 11 computer science domains, with strict recency and citation-based quality controls. Evaluations demonstrate that SciSage outperforms state-of-the-art baselines (LLM x MapReduce-V2, AutoSurvey), achieving +1.73 points in document coherence and +32% in citation F1 scores. Human evaluations reveal mixed outcomes (3 wins vs. 7 losses against human-written surveys), but highlight SciSage's strengths in topical breadth and retrieval efficiency. Overall, SciSage offers a promising foundation for research-assistive writing tools.",
+ "primary": "cs.AI"
+}

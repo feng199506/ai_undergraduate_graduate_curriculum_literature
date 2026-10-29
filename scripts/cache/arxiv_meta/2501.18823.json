@@ -1,0 +1,17 @@
+{
+ "id": "2501.18823",
+ "title": "Transcoders Beat Sparse Autoencoders for Interpretability",
+ "authors": [
+  "Gonçalo Paulo",
+  "Stepan Shabalin",
+  "Nora Belrose"
+ ],
+ "v1_date": "2025-01-31",
+ "latest_version": 2,
+ "latest_date": "2025-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse autoencoders (SAEs) extract human-interpretable features from deep neural networks by transforming their activations into a sparse, higher dimensional latent space, and then reconstructing the activations from these latents. Transcoders are similar to SAEs, but they are trained to reconstruct the output of a component of a deep network given its input. In this work, we compare the features found by transcoders and SAEs trained on the same model and data, finding that transcoder features are significantly more interpretable. We also propose skip transcoders, which add an affine skip connection to the transcoder architecture, and show that these achieve lower reconstruction loss with no effect on interpretability.",
+ "primary": "cs.LG"
+}

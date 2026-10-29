@@ -1,0 +1,18 @@
+{
+ "id": "2503.00660",
+ "title": "An Empirical Study on the Classification of Bug Reports with Machine Learning",
+ "authors": [
+  "Renato Andrade",
+  "César Teixeira",
+  "Nuno Laranjeiro",
+  "Marco Vieira"
+ ],
+ "v1_date": "2025-03-01",
+ "latest_version": 1,
+ "latest_date": "2025-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Software defects are a major threat to the reliability of computer systems. The literature shows that more than 30% of bug reports submitted in large software projects are misclassified (i.e., are feature requests, or mistakes made by the bug reporter), leading developers to place great effort in manually inspecting them. Machine Learning algorithms can be used for the automatic classification of issue reports. Still, little is known regarding key aspects of training models, such as the influence of programming languages and issue tracking systems. In this paper, we use a dataset containing more than 660,000 issue reports, collected from heterogeneous projects hosted in different issue tracking systems, to study how different factors (e.g., project language, report content) can influence the performance of models in handling classification of issue reports. Results show that using the report title or description does not significantly differ; Support Vector Machine, Logistic Regression, and Random Forest are effective in classifying issue reports; programming languages and issue tracking systems influence classification outcomes; and models based on heterogeneous projects can classify reports from projects not present during training. Based on findings, we propose guidelines for future research, including recommendations for using heterogeneous data and selecting high-performing algorithms.",
+ "primary": "cs.SE"
+}

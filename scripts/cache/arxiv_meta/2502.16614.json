@@ -1,0 +1,32 @@
+{
+ "id": "2502.16614",
+ "title": "CodeCriticBench: A Holistic Code Critique Benchmark for Large Language Models",
+ "authors": [
+  "Alexander Zhang",
+  "Marcus Dong",
+  "Jiaheng Liu",
+  "Wei Zhang",
+  "Yejie Wang",
+  "Jian Yang",
+  "Ge Zhang",
+  "Tianyu Liu",
+  "Zhongyuan Peng",
+  "Yingshui Tan",
+  "Yuanxing Zhang",
+  "Zhexu Wang",
+  "Weixun Wang",
+  "Yancheng He",
+  "Ken Deng",
+  "Wangchunshu Zhou",
+  "Wenhao Huang",
+  "Zhaoxiang Zhang"
+ ],
+ "v1_date": "2025-02-23",
+ "latest_version": 1,
+ "latest_date": "2025-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The critique capacity of Large Language Models (LLMs) is essential for reasoning abilities, which can provide necessary suggestions (e.g., detailed analysis and constructive feedback). Therefore, how to evaluate the critique capacity of LLMs has drawn great attention and several critique benchmarks have been proposed. However, existing critique benchmarks usually have the following limitations: (1). Focusing on diverse reasoning tasks in general domains and insufficient evaluation on code tasks (e.g., only covering code generation task), where the difficulty of queries is relatively easy (e.g., the code queries of CriticBench are from Humaneval and MBPP). (2). Lacking comprehensive evaluation from different dimensions. To address these limitations, we introduce a holistic code critique benchmark for LLMs called CodeCriticBench. Specifically, our CodeCriticBench includes two mainstream code tasks (i.e., code generation and code QA) with different difficulties. Besides, the evaluation protocols include basic critique evaluation and advanced critique evaluation for different characteristics, where fine-grained evaluation checklists are well-designed for advanced settings. Finally, we conduct extensive experimental results of existing LLMs, which show the effectiveness of CodeCriticBench.",
+ "primary": "cs.CL"
+}

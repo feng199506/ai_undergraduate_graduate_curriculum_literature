@@ -1,0 +1,15 @@
+{
+ "id": "2507.18466",
+ "title": "Solution of Least Squares Problems with Randomized Preconditioned Normal Equations",
+ "authors": [
+  "Ilse C. F. Ipsen"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 2,
+ "latest_date": "2025-12-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the solution of full column-rank least squares problems by means of normal equations that are preconditioned, symmetrically or non-symmetrically, with a randomized preconditioner. With an effective preconditioner, the solutions from the preconditioned normal equations are almost as accurate as those from the QR-based Matlab backslash (mldivide) command -- even for highly illconditioned matrices. This means the accuracy of the preconditioned normal equations depends on the residual of the original least squares problem. We present non-intuitive but realistic perturbation bounds for the relative error in the computed solutions and show that, with an effective preconditioner, these bounds are essentially equal to the perturbation bound for the original least squares problem. Probabilitistic condition number bounds corroborate the effectiveness of the randomized preconditioner computed with small amounts of sampling.",
+ "primary": "math.NA"
+}

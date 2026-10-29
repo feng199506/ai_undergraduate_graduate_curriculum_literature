@@ -1,0 +1,16 @@
+{
+ "id": "2604.24078",
+ "title": "Explaining Temporal Graph Predictions With Shapley Values",
+ "authors": [
+  "Lea-Marie Sussek",
+  "Stefan Heindorf"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal Graph Neural Networks (TGNNs) have become increasingly popular in recent years due to their superior predictive performance by combining both spatial and temporal information. However, how these models utilize the information to make predictions is rather unexplored, leading to potentially faulty or biased models. This work introduces two novel model-agnostic explainers for local explanations of TGNNs based on Shapley and Owen values. The first method, an event-level (edge-level) Shapley explainer, applies the KernelSHAP algorithm to estimate contribution scores for individual temporal events, providing interpretable descriptions for model behavior. The second, a feature-level Shapley explainer, extends this framework by decomposing event-level Shapley values into Owen values, and thereby uncovers hierarchical dependencies of the event and its features. The explainers outperform SOTA explainers on different metrics and datasets. Additionally, the Feature Explainer reveals a faulty extraction of actual timestamps of a commonly used TGAT implementation, helping to further understand performance drops on very sparse explanations.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2603.22463",
+ "title": "Parallelizable Feynman-Kac Models for Universal Probabilistic Programming",
+ "authors": [
+  "Michele Boreale",
+  "Luisa Collodi"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 1,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2509.14092",
+ "abstract": "We study provably correct and efficient instantiations of Sequential Monte Carlo (SMC) inference in the context of formal operational semantics of Probabilistic Programs (PPs). We focus on universal PPs featuring sampling from arbitrary measures and conditioning/reweighting in unbounded loops. We first equip Probabilistic Program Graphs (PPGs), an automata-theoretic description format of PPs, with an expectation-based semantics over infinite execution traces, which also incorporates trace weights. We then prove a finite approximation theorem that provides bounds to this semantics based on expectations taken over finite, fixed-length traces. This enables us to frame our semantics within a Feynman-Kac (FK) model, and ensures the consistency of the Particle Filtering (PF) algorithm, an instance of SMC, with respect to our semantics. Building on these results, we introduce VPF, a vectorized version of the PF algorithm tailored to PPGs and our semantics. Experiments conducted with a proof-of-concept implementation of VPF show very promising results compared to state-of-the-art PP inference tools.",
+ "primary": "cs.PL"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2511.13981",
+ "title": "Data Whitening Improves Sparse Autoencoder Learning",
+ "authors": [
+  "Ashwin Saraswatula",
+  "David Klindt"
+ ],
+ "v1_date": "2025-11-17",
+ "latest_version": 1,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the AAAI 2026 XAI4Science Workshop",
+ "abstract": "Sparse autoencoders (SAEs) have emerged as a promising approach for learning interpretable features from neural network activations. However, the optimization landscape for SAE training can be challenging due to correlations in the input data. We demonstrate that applying PCA Whitening to input activations -- a standard preprocessing technique in classical sparse coding -- improves SAE performance across multiple metrics. Through theoretical analysis and simulation, we show that whitening transforms the optimization landscape, making it more convex and easier to navigate. We evaluate both ReLU and Top-K SAEs across diverse model architectures, widths, and sparsity regimes. Empirical evaluation on SAEBench, a comprehensive benchmark for sparse autoencoders, reveals that whitening consistently improves interpretability metrics, including sparse probing accuracy and feature disentanglement, despite minor drops in reconstruction quality. Our results challenge the assumption that interpretability aligns with an optimal sparsity--fidelity trade-off and suggest that whitening should be considered as a default preprocessing step for SAE training, particularly when interpretability is prioritized over perfect reconstruction.",
+ "primary": "cs.LG"
+}

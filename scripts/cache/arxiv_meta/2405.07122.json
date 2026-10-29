@@ -1,0 +1,16 @@
+{
+ "id": "2405.07122",
+ "title": "PCF Learned Sort: a Learning Augmented Sort Algorithm with $O(n \\log\\log n)$ Expected Complexity",
+ "authors": [
+  "Atsuki Sato",
+  "Yusuke Matsui"
+ ],
+ "v1_date": "2024-05-12",
+ "latest_version": 3,
+ "latest_date": "2025-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "TMLR 2025 (Featured Certification)",
+ "abstract": "Sorting is one of the most fundamental algorithms in computer science. Recently, Learned Sorts, which use machine learning to improve sorting speed, have attracted attention. While existing studies show that Learned Sort is empirically faster than classical sorting algorithms, they do not provide theoretical guarantees about its computational complexity. We propose Piecewise Constant Function (PCF) Learned Sort, a theoretically guaranteed Learned Sort algorithm. We prove that the expected complexity of PCF Learned Sort is $\\mathcal{O}(n \\log \\log n)$ under mild assumptions on the data distribution. We also confirm empirically that PCF Learned Sort has a computational complexity of $\\mathcal{O}(n \\log \\log n)$ on both synthetic and real datasets. This is the first study to theoretically support the empirical success of Learned Sort, and provides evidence for why Learned Sort is fast. The code is available at https://github.com/atsukisato/PCF_Learned_Sort .",
+ "primary": "cs.DS"
+}

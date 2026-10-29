@@ -1,0 +1,17 @@
+{
+ "id": "2505.18526",
+ "title": "Scalable Deep Basis Kernel Gaussian Processes",
+ "authors": [
+  "Yunqin Zhu",
+  "Henry Shaowu Yuchi",
+  "Yao Xie"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 2,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Previous title: Scalable Gaussian Processes with Low-Rank Deep Kernel Decomposition",
+ "abstract": "Learning expressive kernels while retaining tractable inference remains a central challenge in scaling Gaussian processes (GPs) to large and complex datasets. We propose a scalable GP regressor based on deep basis kernels (DBKs). Our DBK is constructed from a small set of neural-network-parameterized basis functions with an explicit low-rank structure. This formulation immediately enables linear-complexity inference with respect to the number of samples, possibly without inducing points. DBKs provide a unifying perspective that recovers sparse deep kernel learning and Gaussian Bayesian last-layer methods as special cases. We further identify that naively maximizing the marginal likelihood can lead to oversimplified uncertainty and rank-deficient solutions. To address this, we introduce a mini-batch stochastic objective that directly targets the predictive distribution with decoupled regularization. Empirically, DBKs show advantages in predictive accuracy, uncertainty quantification, and computational efficiency across a range of large-scale regression benchmarks.",
+ "primary": "stat.ML"
+}

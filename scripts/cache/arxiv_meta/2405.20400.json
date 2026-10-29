@@ -1,0 +1,18 @@
+{
+ "id": "2405.20400",
+ "title": "Fast leave-one-cluster-out cross-validation using clustered Network Information Criterion (NICc)",
+ "authors": [
+  "Jiaxing Qiu",
+  "Douglas E. Lake",
+  "Pavel Chernyavskiy",
+  "Teague R. Henry"
+ ],
+ "v1_date": "2024-05-30",
+ "latest_version": 2,
+ "latest_date": "2024-10-09",
+ "journal_ref": "",
+ "doi": "10.1177/09622802251345486",
+ "comment": "Statistical Methods in Medical Research. 2025",
+ "abstract": "For prediction models developed on clustered data that do not account for cluster heterogeneity in model parameterization, it is crucial to use cluster-based validation to assess model generalizability on unseen clusters. This paper introduces a clustered estimator of the Network Information Criterion (NICc) to approximate leave-one-cluster-out deviance for standard prediction models with twice differentiable log-likelihood functions. The NICc serves as a fast alternative to cluster-based cross-validation. Stone (1977) proved that the Akaike Information Criterion (AIC) is asymptotically equivalent to leave-one-observation-out cross-validation for true parametric models with independent and identically distributed observations. Ripley (1996) noted that the Network Information Criterion (NIC), derived from Stone's proof, is a better approximation when the model is misspecified. For clustered data, we derived NICc by substituting the Fisher information matrix in the NIC with a clustering-adjusted estimator. The NICc imposes a greater penalty when the data exhibits stronger clustering, thereby allowing the NICc to better prevent over-parameterization. In a simulation study and an empirical example, we used standard regression to develop prediction models for clustered data with Gaussian or binomial responses. Compared to the commonly used AIC and BIC for standard regression, NICc provides a much more accurate approximation to leave-one-cluster-out deviance and results in more accurate model size and variable selection, as determined by cluster-based cross-validation, especially when the data exhibit strong clustering.",
+ "primary": "stat.ME"
+}

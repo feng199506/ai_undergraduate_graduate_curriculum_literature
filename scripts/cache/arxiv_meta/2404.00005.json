@@ -1,0 +1,15 @@
+{
+ "id": "2404.00005",
+ "title": "Introduction: Swarm-based gradient descent for non convex optimization",
+ "authors": [
+  "Janina Tikko"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 1,
+ "latest_date": "2024-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Bachelor Thesis",
+ "abstract": "The field of optimization has the goal to find an optimal solution to a target function, i.e. to minimize (or maximize) the target function. When trying to find such a global minimum, one often encounters local minima due to unfavorable procedures and starting regions. The swarm-based gradient descent method of Prof. Eitan Tadmor offers an alternative method for solving global minimization problems. By using a swarm of agents, local minima will not be taken account and the global minimum will be found. Furthermore leads the communication between the agent to a further expansion of the search region. Under the supervision of Prof. Angela Kunoth, I give an introduction to this swarm-based method in my bachelor thesis. Therefore I used my own program in Julia to give a more visual understanding of how the new method works and which influence certain parameters such as the number of agents or \"q\" have.",
+ "primary": "math.OC"
+}

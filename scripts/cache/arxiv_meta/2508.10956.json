@@ -1,0 +1,19 @@
+{
+ "id": "2508.10956",
+ "title": "A Study of Commonsense Reasoning over Visual Object Properties",
+ "authors": [
+  "Abhishek Kolari",
+  "Mohammadhossein Khojasteh",
+  "Yifan Jiang",
+  "Floris den Hengst",
+  "Filip Ilievski"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 3,
+ "latest_date": "2026-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Inspired by human categorization, visual reasoning about object properties, such as physical attributes and functions, involves identifying and recognizing low-level details and higher-level abstractions. While current visual question answering (VQA) studies consider multiple object properties, such as size, they typically blend perception and reasoning and lack representativeness with respect to reasoning levels and image categories, making it unclear whether and how vision-language models (VLMs) recognize and reason about depicted objects. To this end, we introduce a systematic evaluation framework comprising images of three representative types, three reasoning levels of increasing complexity, and four object property dimensions, informed by prior work on commonsense knowledge representation and reasoning. We develop a procedure to instantiate this framework in two VQA object-reasoning benchmarks: OPTICS-CNT, comprising 360 images paired with 1,080 multi-level, count-based questions, and OPTICS-CMP, comprising 2.1k comparison questions. Experiments with 12 state-of-the-art VLMs in zero-shot settings reveal significant limitations relative to humans, with the best-performing model achieving below 40% counting and 70% comparison accuracy. While newer reasoning models perform better, a 20% gap to human performance remains. VLMs struggle particularly with photographic images, counterfactual reasoning, physical and functional properties, and higher counts. We make the OPTICS benchmark data and code available to support future scalable benchmarking methods, generalized annotation guidelines, and advanced reasoning VLMs.",
+ "primary": "cs.CV"
+}

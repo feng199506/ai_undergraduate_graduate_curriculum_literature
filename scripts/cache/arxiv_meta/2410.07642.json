@@ -1,0 +1,16 @@
+{
+ "id": "2410.07642",
+ "title": "Improving Numerical Stability of Normalized Mutual Information Estimator on High Dimensions",
+ "authors": [
+  "Marko Tuononen",
+  "Ville Hautamäki"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 3,
+ "latest_date": "2025-07-07",
+ "journal_ref": "IEEE Signal Processing Letters, vol. 32, 2025",
+ "doi": "10.1109/lsp.2025.3588026",
+ "comment": "4+1+1 pages, 3 figures, 39 equations",
+ "abstract": "Mutual information provides a powerful, general-purpose metric for quantifying the amount of shared information between variables. Estimating normalized mutual information using a k-Nearest Neighbor (k-NN) based approach involves the calculation of the scaling-invariant k-NN radius. Calculation of the radius suffers from numerical overflow when the joint dimensionality of the data becomes high, typically in the range of several hundred dimensions. To address this issue, we propose a logarithmic transformation technique that improves the numerical stability of the radius calculation in high-dimensional spaces. By applying the proposed transformation during the calculation of the radius, numerical overflow is avoided, and precision is maintained. Proposed transformation is validated through both theoretical analysis and empirical evaluation, demonstrating its ability to stabilize the calculation without compromising precision, increasing bias, or adding significant computational overhead, while also helping to maintain estimator variance.",
+ "primary": "cs.IT"
+}

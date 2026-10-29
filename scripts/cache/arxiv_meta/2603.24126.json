@@ -1,0 +1,19 @@
+{
+ "id": "2603.24126",
+ "title": "Likelihood Hacking in Probabilistic Program Synthesis",
+ "authors": [
+  "Jacek Karwowski",
+  "Younesse Kaddar",
+  "Zihuiwen Ye",
+  "Esmeralda S. Whitammer",
+  "Sam Staton"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 2,
+ "latest_date": "2026-08-18",
+ "journal_ref": "Proceedings of the 42nd Conference on Uncertainty in Artificial Intelligence, PMLR 337:2744-2791, 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "When language models are trained by reinforcement learning (RL) to write probabilistic programs, they can artificially inflate their marginal-likelihood reward by producing programs whose data distribution fails to normalise instead of fitting the data better. We call this failure likelihood hacking (LH). We formalise LH in a core probabilistic programming language (PPL) and give sufficient syntactic conditions for its prevention, proving that a safe language fragment $\\mathcal{L}_{\\text{safe}}$ satisfying these conditions cannot produce likelihood-hacking programs. Empirically, we show that GRPO-trained models generating PyMC code discover LH exploits within the first few training steps, driving violation rates well above the untrained-model baseline. We implement $\\mathcal{L}_{\\text{safe}}$'s conditions as $\\texttt{SafeStan}$, a LH-resistant modification of Stan, and show empirically that it suppresses LH under optimisation pressure. These results show that language-level safety constraints are both theoretically grounded and effective in practice for automated Bayesian model discovery.",
+ "primary": "cs.LG"
+}

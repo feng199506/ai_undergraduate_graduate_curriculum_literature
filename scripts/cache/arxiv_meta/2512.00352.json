@@ -1,0 +1,20 @@
+{
+ "id": "2512.00352",
+ "title": "Sample-Efficient Tabular Self-Play for Offline Robust Reinforcement Learning",
+ "authors": [
+  "Na Li",
+  "Zewu Zheng",
+  "Wei Ni",
+  "Hangguan Shan",
+  "Wenjie Zhang",
+  "Xinyu Li"
+ ],
+ "v1_date": "2025-11-29",
+ "latest_version": 1,
+ "latest_date": "2025-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025",
+ "abstract": "Multi-agent reinforcement learning (MARL), as a thriving field, explores how multiple agents independently make decisions in a shared dynamic environment. Due to environmental uncertainties, policies in MARL must remain robust to tackle the sim-to-real gap. We focus on robust two-player zero-sum Markov games (TZMGs) in offline settings, specifically on tabular robust TZMGs (RTZMGs). We propose a model-based algorithm (\\textit{RTZ-VI-LCB}) for offline RTZMGs, which is optimistic robust value iteration combined with a data-driven Bernstein-style penalty term for robust value estimation. By accounting for distribution shifts in the historical dataset, the proposed algorithm establishes near-optimal sample complexity guarantees under partial coverage and environmental uncertainty. An information-theoretic lower bound is developed to confirm the tightness of our algorithm's sample complexity, which is optimal regarding both state and action spaces. To the best of our knowledge, RTZ-VI-LCB is the first to attain this optimality, sets a new benchmark for offline RTZMGs, and is validated experimentally.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2412.17136",
+ "title": "Empirical evaluation of normalizing flows in Markov Chain Monte Carlo",
+ "authors": [
+  "David Nabergoj",
+  "Erik Štrumbelj"
+ ],
+ "v1_date": "2024-12-22",
+ "latest_version": 2,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages, 10 figures. Accepted for publication in Machine Learning; post-review, pre-copyediting version",
+ "abstract": "Recent advances in MCMC use normalizing flows to precondition target distributions and enable jumps to distant regions. However, there is currently no systematic comparison of different normalizing flow architectures for MCMC. As such, many works choose simple flow architectures that are readily available and do not consider other models. Guidelines for choosing an appropriate architecture would reduce analysis time for practitioners and motivate researchers to take the recommended models as foundations to be improved. We provide the first such guideline by extensively evaluating many normalizing flow architectures on various flow-based MCMC methods and target distributions. When the target density gradient is available, we show that flow-based MCMC outperforms classic MCMC for suitable NF architecture choices with minor hyperparameter tuning. When the gradient is unavailable, flow-based MCMC wins with off-the-shelf architectures. We find contractive residual flows to be the best general-purpose models with relatively low sensitivity to hyperparameter choice. We also provide various insights into normalizing flow behavior within MCMC when varying their hyperparameters, properties of target distributions, and the overall computational budget.",
+ "primary": "cs.LG"
+}

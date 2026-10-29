@@ -1,0 +1,16 @@
+{
+ "id": "2404.04441",
+ "title": "Evaluation of Programming Models and Performance for Stencil Computation on Current GPU Architectures",
+ "authors": [
+  "Baodi Shan",
+  "Mauricio Araya-Polo"
+ ],
+ "v1_date": "2024-04-05",
+ "latest_version": 2,
+ "latest_date": "2024-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accelerated computing is widely used in high-performance computing. Therefore, it is crucial to experiment and discover how to better utilize GPUGPUs latest generations on relevant applications. In this paper, we present results and share insights about highly tuned stencil-based kernels for NVIDIA Ampere (A100) and Hopper (GH200) architectures. Performance results yield useful insights into the behavior of this type of algorithms for these new accelerators. This knowledge can be leveraged by many scientific applications which involve stencils computations. Further, evaluation of three different programming models: CUDA, OpenACC, and OpenMP target offloading is conducted on aforementioned accelerators. We extensively study the performance and portability of various kernels under each programming model and provide corresponding optimization recommendations. Furthermore, we compare the performance of different programming models on the mentioned architectures. Up to 58% performance improvement was achieved against the previous GPGPU's architecture generation for an highly optimized kernel of the same class, and up to 42% for all classes. In terms of programming models, and keeping portability in mind, optimized OpenACC implementation outperforms OpenMP implementation by 33%. If portability is not a factor, our best tuned CUDA implementation outperforms the optimized OpenACC one by 2.1x.",
+ "primary": "cs.DC"
+}

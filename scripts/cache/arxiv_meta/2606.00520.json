@@ -1,0 +1,15 @@
+{
+ "id": "2606.00520",
+ "title": "In-Expectation Convergence of Stochastic Gradient Methods under Heavy-Tailed Noise",
+ "authors": [
+  "Zijian Liu"
+ ],
+ "v1_date": "2026-05-30",
+ "latest_version": 1,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many stochastic gradient methods are believed not to converge when the noise in stochastic gradients has only a finite $p$-th moment for $p\\in\\left(1,2\\right)$, a setting known as the heavy-tailed noise assumption. However, some recent studies have found that Stochastic Gradient Descent ($\\textsf{SGD}$), without any modification to its update rule, can surprisingly converge in expectation for convex problems with bounded domains, highlighting the potential of classical stochastic gradient methods. Inspired by this recent progress, we provide a comprehensive study of stochastic optimization under heavy-tailed noise and establish new in-expectation convergence results for Stochastic Mirror Descent ($\\textsf{SMD}$) and Accelerated Stochastic Mirror Descent ($\\textsf{ASMD}$) in convex optimization, and for $\\textsf{SGD}$ and Stochastic Gradient Descent with Momentum ($\\textsf{SGDM}$) in nonconvex optimization. Notably, our results not only hold without algorithmic changes but also avoid restrictive assumptions, such as bounded domains, imposed in prior work. More importantly, our analysis provides a new, elegant, and powerful framework for studying heavy-tailed stochastic optimization, opening a new route to understanding first-order stochastic gradient methods.",
+ "primary": "math.OC"
+}

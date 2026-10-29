@@ -1,0 +1,19 @@
+{
+ "id": "2311.05610",
+ "title": "Efficient Parallelization Layouts for Large-Scale Distributed Model Training",
+ "authors": [
+  "Johannes Hagemann",
+  "Samuel Weinbach",
+  "Konstantin Dobler",
+  "Maximilian Schall",
+  "Gerard de Melo"
+ ],
+ "v1_date": "2023-11-09",
+ "latest_version": 3,
+ "latest_date": "2024-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Camera-ready version for the First Conference on Language Modeling (COLM 2024)",
+ "abstract": "Efficiently training large language models requires parallelizing across hundreds of hardware accelerators and invoking various compute and memory optimizations. When combined, many of these strategies have complex interactions regarding the final training efficiency. Prior work tackling this problem did not have access to the latest set of optimizations, such as FlashAttention or sequence parallelism. In this work, we conduct a comprehensive ablation study of possible training configurations for large language models. We distill this large study into several key recommendations for the most efficient training. For instance, we find that using a micro-batch size of 1 usually enables the most efficient training layouts. Larger micro-batch sizes necessitate activation checkpointing or higher degrees of model parallelism and also lead to larger pipeline bubbles. Our most efficient configurations enable us to achieve state-of-the-art training efficiency results over a range of model sizes, most notably a Model FLOPs utilization of 70.5% when training a Llama 13B model.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2503.03158",
+ "title": "A Systematic Survey on Debugging Techniques for Machine Learning Systems",
+ "authors": [
+  "Thanh-Dat Nguyen",
+  "Haoye Tian",
+  "Bach Le",
+  "Patanamon Thongtanunam",
+  "Shane McIntosh"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 1,
+ "latest_date": "2025-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Debugging ML software (i.e., the detection, localization and fixing of faults) poses unique challenges compared to traditional software largely due to the probabilistic nature and heterogeneity of its development process. Various methods have been proposed for testing, diagnosing, and repairing ML systems. However, the big picture informing important research directions that really address the dire needs of developers is yet to unfold, leaving several key questions unaddressed: (1) What faults have been targeted in the ML debugging research that fulfill developers needs in practice? (2) How are these faults addressed? (3) What are the challenges in addressing the yet untargeted faults? In this paper, we conduct a systematic study of debugging techniques for machine learning systems. We first collect technical papers focusing on debugging components in machine learning software. We then map these papers to a taxonomy of faults to assess the current state of fault resolution identified in existing literature. Subsequently, we analyze which techniques are used to address specific faults based on the collected papers. This results in a comprehensive taxonomy that aligns faults with their corresponding debugging methods. Finally, we examine previously released transcripts of interviewing developers to identify the challenges in resolving unfixed faults. Our analysis reveals that only 48 percent of the identified ML debugging challenges have been explicitly addressed by researchers, while 46.9 percent remain unresolved or unmentioned. In real world applications, we found that 52.6 percent of issues reported on GitHub and 70.3% of problems discussed in interviews are still unaddressed by research in ML debugging. The study identifies 13 primary challenges in ML debugging, highlighting a significant gap between the identification of ML debugging issues and their resolution in practice.",
+ "primary": "cs.SE"
+}

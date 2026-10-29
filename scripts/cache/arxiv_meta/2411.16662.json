@@ -1,0 +1,21 @@
+{
+ "id": "2411.16662",
+ "title": "A Supervised Machine Learning Approach for Assessing Grant Peer Review Reports",
+ "authors": [
+  "Gabriel Okasa",
+  "Alberto de León",
+  "Michaela Strinzel",
+  "Anne Jorstad",
+  "Katrin Milzow",
+  "Matthias Egger",
+  "Stefan Müller"
+ ],
+ "v1_date": "2024-11-25",
+ "latest_version": 2,
+ "latest_date": "2024-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "added results and references",
+ "abstract": "Peer review in grant evaluation informs funding decisions, but the contents of peer review reports are rarely analyzed. In this work, we develop a thoroughly tested pipeline to analyze the texts of grant peer review reports using methods from applied Natural Language Processing (NLP) and machine learning. We start by developing twelve categories reflecting content of grant peer review reports that are of interest to research funders. This is followed by multiple human annotators' iterative annotation of these categories in a novel text corpus of grant peer review reports submitted to the Swiss National Science Foundation. After validating the human annotation, we use the annotated texts to fine-tune pre-trained transformer models to classify these categories at scale, while conducting several robustness and validation checks. Our results show that many categories can be reliably identified by human annotators and machine learning approaches. However, the choice of text classification approach considerably influences the classification performance. We also find a high correspondence between out-of-sample classification performance and human annotators' perceived difficulty in identifying categories. Our results and publicly available fine-tuned transformer models will allow researchers and research funders and anybody interested in peer review to examine and report on the contents of these reports in a structured manner. Ultimately, we hope our approach can contribute to ensuring the quality and trustworthiness of grant peer review.",
+ "primary": "econ.EM"
+}

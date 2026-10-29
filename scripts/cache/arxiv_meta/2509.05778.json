@@ -1,0 +1,19 @@
+{
+ "id": "2509.05778",
+ "title": "DCV-ROOD Evaluation Framework: Dual Cross-Validation for Robust Out-of-Distribution Detection",
+ "authors": [
+  "Arantxa Urrea-Castaño",
+  "Nicolás Segura-Kunsagi",
+  "Juan Luis Suárez-Díaz",
+  "Rosana Montes",
+  "Francisco Herrera"
+ ],
+ "v1_date": "2025-09-06",
+ "latest_version": 1,
+ "latest_date": "2025-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages and appendix",
+ "abstract": "Out-of-distribution (OOD) detection plays a key role in enhancing the robustness of artificial intelligence systems by identifying inputs that differ significantly from the training distribution, thereby preventing unreliable predictions and enabling appropriate fallback mechanisms. Developing reliable OOD detection methods is a significant challenge, and rigorous evaluation of these techniques is essential for ensuring their effectiveness, as it allows researchers to assess their performance under diverse conditions and to identify potential limitations or failure modes. Cross-validation (CV) has proven to be a highly effective tool for providing a reasonable estimate of the performance of a learning algorithm. Although OOD scenarios exhibit particular characteristics, an appropriate adaptation of CV can lead to a suitable evaluation framework for this setting. This work proposes a dual CV framework for robust evaluation of OOD detection models, aimed at improving the reliability of their assessment. The proposed evaluation framework aims to effectively integrate in-distribution (ID) and OOD data while accounting for their differing characteristics. To achieve this, ID data are partitioned using a conventional approach, whereas OOD data are divided by grouping samples based on their classes. Furthermore, we analyze the context of data with class hierarchy to propose a data splitting that considers the entire class hierarchy to obtain fair ID-OOD partitions to apply the proposed evaluation framework. This framework is called Dual Cross-Validation for Robust Out-of-Distribution Detection (DCV-ROOD). To test the validity of the evaluation framework, we selected a set of state-of-the-art OOD detection methods, both with and without outlier exposure. The results show that the method achieves very fast convergence to the true performance.",
+ "primary": "cs.LG"
+}

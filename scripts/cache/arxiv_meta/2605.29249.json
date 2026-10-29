@@ -1,0 +1,17 @@
+{
+ "id": "2605.29249",
+ "title": "Prediction-Powered Inference Across Many Tasks for AI Evaluation & Social Science Research",
+ "authors": [
+  "Nicolas Emmenegger",
+  "Ellery Stahler",
+  "Chara Podimata"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many applications require statistically valid inference across many related tasks, while using only a handful of high-quality labels per hypothesis. In AI evaluation, these tasks may correspond to model behaviors across prompts, subgroups, or hypotheses; in social science surveys, they may correspond to related questions, populations, or measurement conditions. Prediction-powered inference (PPI) uses abundant but inexpensive proxy measurements to improve inference from limited, ground-truth labels, but commonly used methods treat tasks independently and therefore fail to exploit shared structure across related tasks. This limitation is especially important in settings where only a small number of labels are available per task. To address this issue, we introduce a multi-task prediction-powered inference framework that uses labeled data from related tasks to improve power while preserving task-specific inference. Our methods exploit the shared structure in the proxy-ground-truth relationship through cross-task recalibration, while retaining within-task rectification and power tuning to construct accurate point estimates and confidence intervals. We prove that efficiency gains beyond power-tuned PPI are only possible when the proxy-ground-truth relationship contains nonlinear structure; affine cross-task recalibrations are asymptotically equivalent to using the original proxy. We complement our theoretical findings with experiments on synthetic and semi-synthetic datasets, as well as a case study auditing language models on election-related information during the 2024 U.S. presidential election. Using a large human-annotation study, we show that cross-task recalibration can substantially reduce confidence interval widths when labels are scarce.",
+ "primary": "stat.ML"
+}

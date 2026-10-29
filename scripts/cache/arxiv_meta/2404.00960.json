@@ -1,0 +1,17 @@
+{
+ "id": "2404.00960",
+ "title": "Randomized Nyström approximation of non-negative self-adjoint operators",
+ "authors": [
+  "David Persson",
+  "Nicolas Boullé",
+  "Daniel Kressner"
+ ],
+ "v1_date": "2024-04-01",
+ "latest_version": 2,
+ "latest_date": "2024-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The randomized singular value decomposition (SVD) has become a popular approach to computing cheap, yet accurate, low-rank approximations to matrices due to its efficiency and strong theoretical guarantees. Recent work by Boullé and Townsend (FoCM, 2023) presents an infinite-dimensional analog of the randomized SVD to approximate Hilbert-Schmidt operators. However, many applications involve computing low-rank approximations to symmetric positive semi-definite matrices. In this setting, it is well-established that the randomized Nyström approximation is usually preferred over the randomized SVD. This paper explores an infinite-dimensional analog of the Nyström approximation to compute low-rank approximations to non-negative self-adjoint trace-class operators. We present an analysis of the method and, along the way, improve the existing infinite-dimensional bounds for the randomized SVD. Our analysis yields bounds on the expected value and tail bounds for the Nyström approximation error in the operator, trace, and Hilbert-Schmidt norms. Numerical experiments on integral operators arising from Gaussian process sampling and Bayesian inverse problems are used to validate the proposed infinite-dimensional Nyström algorithm.",
+ "primary": "math.NA"
+}

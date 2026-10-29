@@ -1,0 +1,19 @@
+{
+ "id": "2510.21267",
+ "title": "Relieving the Over-Aggregating Effect in Graph Transformers",
+ "authors": [
+  "Junshu Sun",
+  "Wanxing Chang",
+  "Chenxue Yang",
+  "Qingming Huang",
+  "Shuhui Wang"
+ ],
+ "v1_date": "2025-10-24",
+ "latest_version": 1,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by NeurIPS 2025",
+ "abstract": "Graph attention has demonstrated superior performance in graph learning tasks. However, learning from global interactions can be challenging due to the large number of nodes. In this paper, we discover a new phenomenon termed over-aggregating. Over-aggregating arises when a large volume of messages is aggregated into a single node with less discrimination, leading to the dilution of the key messages and potential information loss. To address this, we propose Wideformer, a plug-and-play method for graph attention. Wideformer divides the aggregation of all nodes into parallel processes and guides the model to focus on specific subsets of these processes. The division can limit the input volume per aggregation, avoiding message dilution and reducing information loss. The guiding step sorts and weights the aggregation outputs, prioritizing the informative messages. Evaluations show that Wideformer can effectively mitigate over-aggregating. As a result, the backbone methods can focus on the informative messages, achieving superior performance compared to baseline methods.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2606.20952",
+ "title": "Tiny Machine-Learning Operations within Cyber-Physical Systems: a Field Study",
+ "authors": [
+  "Filippo Scaramuzza",
+  "Damian A. Tamburri"
+ ],
+ "v1_date": "2026-06-18",
+ "latest_version": 2,
+ "latest_date": "2026-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This work has been submitted to the Software Engineering in Practice (SEIP) track at ICSE 2027",
+ "abstract": "Machine-Learning Operations (MLOps) is maturing into a software-engineering discipline, yet its tiny-scale variant (TinyMLOps)-targeting the resource-constrained microcontrollers embedded in cyber-physical systems (CPS)-remains poorly understood in industrial practice. Opaque models, noisy heterogeneous data, and tight memory budgets hinder adoption in safety-critical settings, where most decisions still rely on human experts. We report a field study of an end-to-end, knowledge-centered TinyMLOps pipeline that fuses domain physics, expert speculation, and sensor streams to deliver explainable, low-footprint models deployable on-device. The pipeline spans automated collection and cleaning of heterogeneous time series, knowledge-driven feature construction, interpretable regularized models, and rolling temporal cross-validation under concept drift. We evaluate it on 4.4 GB of data from two offshore-wind cable-trenching campaigns. The classifier anticipates harmful load peaks up to three minutes ahead at 0.84 AUC within a 32 kB footprint on an ARM Cortex-M4; an ablation shows that injecting prior knowledge halves false alarms and surfaces actionable operational rules. Replaying recommendations in operational dashboards indicates an 11% reduction in non-productive time. We distill engineering lessons and validity threats for trustworthy TinyMLOps in CPS, and release code and an annotated dataset to support reproducibility.",
+ "primary": "cs.SE"
+}

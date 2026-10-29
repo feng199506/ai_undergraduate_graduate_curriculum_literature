@@ -1,0 +1,28 @@
+{
+ "id": "2406.17145",
+ "title": "GraphPipe: Improving Performance and Scalability of DNN Training with Graph Pipeline Parallelism",
+ "authors": [
+  "Byungsoo Jeon",
+  "Mengdi Wu",
+  "Shiyi Cao",
+  "Sunghyun Kim",
+  "Sunghyun Park",
+  "Neeraj Aggarwal",
+  "Colin Unger",
+  "Daiyaan Arfeen",
+  "Peiyuan Liao",
+  "Xupeng Miao",
+  "Mohammad Alizadeh",
+  "Gregory R. Ganger",
+  "Tianqi Chen",
+  "Zhihao Jia"
+ ],
+ "v1_date": "2024-06-24",
+ "latest_version": 2,
+ "latest_date": "2024-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep neural networks (DNNs) continue to grow rapidly in size, making them infeasible to train on a single device. Pipeline parallelism is commonly used in existing DNN systems to support large-scale DNN training by partitioning a DNN into multiple stages, which concurrently perform DNN training for different micro-batches in a pipeline fashion. However, existing pipeline-parallel approaches only consider sequential pipeline stages and thus ignore the topology of a DNN, resulting in missed model-parallel opportunities. This paper presents graph pipeline parallelism (GPP), a new pipeline-parallel scheme that partitions a DNN into pipeline stages whose dependencies are identified by a directed acyclic graph. GPP generalizes existing sequential pipeline parallelism and preserves the inherent topology of a DNN to enable concurrent execution of computationally-independent operators, resulting in reduced memory requirement and improved GPU performance. In addition, we develop GraphPipe, a distributed system that exploits GPP strategies to enable performant and scalable DNN training. GraphPipe partitions a DNN into a graph of stages, optimizes micro-batch schedules for these stages, and parallelizes DNN training using the discovered GPP strategies. Evaluation on a variety of DNNs shows that GraphPipe outperforms existing pipeline-parallel systems such as PipeDream and Piper by up to 1.6X. GraphPipe also reduces the search time by 9-21X compared to PipeDream and Piper.",
+ "primary": "cs.DC"
+}

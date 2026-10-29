@@ -1,0 +1,19 @@
+{
+ "id": "2510.00742",
+ "title": "How Foundational are Foundation Models for Time Series Forecasting?",
+ "authors": [
+  "Nouha Karaouli",
+  "Denis Coquenet",
+  "Elisa Fromont",
+  "Martial Mermillod",
+  "Marina Reyboz"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 3,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Typo rectified in this v3 version. Accepted at NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation Models (BERT2S)",
+ "abstract": "Foundation Models are designed to serve as versatile embedding machines, with strong zero shot capabilities and superior generalization performance when fine-tuned on diverse downstream tasks. While this is largely true for language and vision foundation models, we argue that the inherent diversity of time series data makes them less suited for building effective foundation models. We demonstrate this using forecasting as our downstream task. We show that the zero-shot capabilities of a time series foundation model are significantly influenced and tied to the specific domains it has been pretrained on. Furthermore, when applied to unseen real-world time series data, fine-tuned foundation models do not consistently yield substantially better results, relative to their increased parameter count and memory footprint, than smaller, dedicated models tailored to the specific forecasting task at hand.",
+ "primary": "cs.LG"
+}

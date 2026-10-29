@@ -1,0 +1,16 @@
+{
+ "id": "2401.17957",
+ "title": "Avoiding breakdown in incomplete factorizations in low precision arithmetic",
+ "authors": [
+  "Jennifer Scott",
+  "Miroslav Tůma"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 2,
+ "latest_date": "2024-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages",
+ "abstract": "The emergence of low precision floating-point arithmetic in computer hardware has led to a resurgence of interest in the use of mixed precision numerical linear algebra. For linear systems of equations, there has been renewed enthusiasm for mixed precision variants of iterative refinement. We consider the iterative solution of large sparse systems using incomplete factorization preconditioners. The focus is on the robust computation of such preconditioners in half precision arithmetic and employing them to solve symmetric positive definite systems to higher precision accuracy; however, the proposed ideas can be applied more generally. Even for well-conditioned problems, incomplete factorizations can break down when small entries occur on the diagonal during the factorization. When using half precision arithmetic, overflows are an additional possible source of breakdown. We examine how breakdowns can be avoided and we implement our strategies within new half precision Fortran sparse incomplete Cholesky factorization software. Results are reported for a range of problems from practical applications. These demonstrate that, even for highly ill-conditioned problems, half precision preconditioners can potentially replace double precision preconditioners, although unsurprisingly this may be at the cost of additional iterations of a Krylov solver.",
+ "primary": "math.NA"
+}

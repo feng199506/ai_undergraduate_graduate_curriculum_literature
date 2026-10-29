@@ -1,0 +1,18 @@
+{
+ "id": "2505.11534",
+ "title": "Empirical Performance Evaluation of Lane Keeping Assist on Modern Production Vehicles",
+ "authors": [
+  "Yuhang Wang",
+  "Abdulaziz Alhuraish",
+  "Shuyi Wang",
+  "Hao Zhou"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 1,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Leveraging a newly released open dataset of Lane Keeping Assist (LKA) systems from production vehicles, this paper presents the first comprehensive empirical analysis of real-world LKA performance. Our study yields three key findings: (i) LKA failures can be systematically categorized into perception, planning, and control errors. We present representative examples of each failure mode through in-depth analysis of LKA-related CAN signals, enabling both justification of the failure mechanisms and diagnosis of when and where each module begins to degrade; (ii) LKA systems tend to follow a fixed lane-centering strategy, often resulting in outward drift that increases linearly with road curvature, whereas human drivers proactively steer slightly inward on similar curved segments; (iii) We provide the first statistical summary and distribution analysis of environmental and road conditions under LKA failures, identifying with statistical significance that faded lane markings, low pavement laneline contrast, and sharp curvature are the most dominant individual factors, along with critical combinations that substantially increase failure likelihood. Building on these insights, we propose a theoretical model that integrates road geometry, speed limits, and LKA steering capability to inform infrastructure design. Additionally, we develop a machine learning-based model to assess roadway readiness for LKA deployment, offering practical tools for safer infrastructure planning, especially in rural areas. This work highlights key limitations of current LKA systems and supports the advancement of safer and more reliable autonomous driving technologies.",
+ "primary": "cs.RO"
+}

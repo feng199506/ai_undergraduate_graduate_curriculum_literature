@@ -1,0 +1,16 @@
+{
+ "id": "2608.26703",
+ "title": "Uncertainty quantification for expectation-calibrated predictions",
+ "authors": [
+  "Georgios Gavrilopoulos",
+  "Johanna Ziegel"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 1,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The existing literature on model calibration focuses mainly on classification and probabilistic prediction. In this work, we address calibrated point predictions for the conditional mean. Although existing impossibility results preclude exact out-of-sample calibrated predictions, we develop calibrated confidence intervals that provide uncertainty quantification around such predictions. Our results come with distribution-free theoretical guarantees and are applicable in model-agnostic, finite-sample settings under exchangeability by leveraging conformal prediction. Calibrated confidence intervals rely on a general underlying binning scheme. We present two examples of such a binning scheme, one based on a data-independent partition and the other on isotonic regression. Under structural assumptions, we prove that calibrated confidence intervals based on isotonic regression come with strong asymptotic consistency properties and have an asymptotically vanishing width. We illustrate the empirical performance of our methods by applying them first in a simulated setting and then to a highly imbalanced insurance dataset.",
+ "primary": "stat.ME"
+}

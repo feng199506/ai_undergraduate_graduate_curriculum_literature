@@ -1,0 +1,18 @@
+{
+ "id": "2505.23183",
+ "title": "Unsupervised Word-level Quality Estimation for Machine Translation Through the Lens of Annotators (Dis)agreement",
+ "authors": [
+  "Gabriele Sarti",
+  "Vilém Zouhar",
+  "Malvina Nissim",
+  "Arianna Bisazza"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 1,
+ "latest_date": "2025-05-29",
+ "journal_ref": "Proceedings of EMNLP (2025) 18320-18337",
+ "doi": "10.18653/v1/2025.emnlp-main.924",
+ "comment": "Under review. Code: https://github.com/gsarti/labl/tree/main/examples/unsup_wqe Metrics: https://huggingface.co/datasets/gsarti/unsup_wqe_metrics",
+ "abstract": "Word-level quality estimation (WQE) aims to automatically identify fine-grained error spans in machine-translated outputs and has found many uses, including assisting translators during post-editing. Modern WQE techniques are often expensive, involving prompting of large language models or ad-hoc training on large amounts of human-labeled data. In this work, we investigate efficient alternatives exploiting recent advances in language model interpretability and uncertainty quantification to identify translation errors from the inner workings of translation models. In our evaluation spanning 14 metrics across 12 translation directions, we quantify the impact of human label variation on metric performance by using multiple sets of human labels. Our results highlight the untapped potential of unsupervised metrics, the shortcomings of supervised methods when faced with label uncertainty, and the brittleness of single-annotator evaluation practices.",
+ "primary": "cs.CL"
+}

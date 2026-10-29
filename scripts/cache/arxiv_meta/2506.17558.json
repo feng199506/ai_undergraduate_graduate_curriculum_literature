@@ -1,0 +1,16 @@
+{
+ "id": "2506.17558",
+ "title": "SynDaCaTE: A Synthetic Dataset For Evaluating Part-Whole Hierarchical Inference",
+ "authors": [
+  "Jake Levi",
+  "Mark van der Wilk"
+ ],
+ "v1_date": "2025-06-21",
+ "latest_version": 1,
+ "latest_date": "2025-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at Methods and Opportunities at Small Scale (MOSS), ICML 2025, Vancouver, Canada",
+ "abstract": "Learning to infer object representations, and in particular part-whole hierarchies, has been the focus of extensive research in computer vision, in pursuit of improving data efficiency, systematic generalisation, and robustness. Models which are \\emph{designed} to infer part-whole hierarchies, often referred to as capsule networks, are typically trained end-to-end on supervised tasks such as object classification, in which case it is difficult to evaluate whether such a model \\emph{actually} learns to infer part-whole hierarchies, as claimed. To address this difficulty, we present a SYNthetic DAtaset for CApsule Testing and Evaluation, abbreviated as SynDaCaTE, and establish its utility by (1) demonstrating the precise bottleneck in a prominent existing capsule model, and (2) demonstrating that permutation-equivariant self-attention is highly effective for parts-to-wholes inference, which motivates future directions for designing effective inductive biases for computer vision.",
+ "primary": "cs.CV"
+}

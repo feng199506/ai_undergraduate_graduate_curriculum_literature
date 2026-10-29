@@ -1,0 +1,15 @@
+{
+ "id": "2604.15698",
+ "title": "Rate-Distortion Theory for Deductive Sources under Closure Fidelity",
+ "authors": [
+  "Jianfeng Xu"
+ ],
+ "v1_date": "2026-04-17",
+ "latest_version": 4,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study lossy compression of a finite statement source generated in a fixed deductive environment. The source symbols are statements in a knowledge base endowed with a shared proof system, and reconstruction fidelity is measured by preservation of deductive closure rather than by symbolwise equality. Fixing the proof system and a canonical scan order yields a decomposition of the source alphabet into an irredundant core and redundant stored consequences. At zero distortion, each core symbol induces a set of distortion-free reconstructions. In the nonconfusable (disjoint-core) regime, we show that the minimum zero-distortion rate equals the source mass of the core times the entropy of the source conditioned on that core. In the general confusable-core regime, we characterise the exact zero-distortion rate via a hypergraph-entropy quantity induced by jointly realisable core subsets, with a reduction to Korner-style graph entropy under a natural pairwise realisability condition. For reconstruction alphabets contained in the deductive closure of the source knowledge base, we further prove that the full rate-distortion function depends only on the core, so redundant states are invisible to both rate and distortion. Finally, when the decoder is limited to a bounded inference-depth budget (a bounded number of iterations of the immediate-consequence operator), we obtain an exact rate-depth-distortion characterisation. Under an additional order-robustness assumption identifying the chosen core with the order-free essential set, this characterisation interpolates between classical symbolwise compression and unconstrained deductive compression.",
+ "primary": "cs.IT"
+}

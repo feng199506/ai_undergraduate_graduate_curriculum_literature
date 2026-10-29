@@ -1,0 +1,17 @@
+{
+ "id": "2501.05267",
+ "title": "Distributed Graph Algorithms with Predictions",
+ "authors": [
+  "Joan Boyar",
+  "Faith Ellen",
+  "Kim S. Larsen"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 2,
+ "latest_date": "2025-12-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 2 figures, 6 algorithms",
+ "abstract": "We initiate the study of deterministic distributed graph algorithms with predictions in synchronous message passing systems. The process at each node in the graph is given a prediction, which is some extra information about the problem instance that may be incorrect. The processes may use the predictions to help them solve the problem. The overall goal is to develop algorithms that both work faster when predictions are good and do not work much worse than algorithms without predictions when predictions are bad. Concepts from the more general area of algorithms with predictions, such as error measures, consistency, robustness, and smoothness, are adapted to distributed graph algorithms with predictions. We consider algorithms with predictions for distributed graph problems, where each node is given a prediction for its output. We present a framework for evaluating distributed graph algorithms with predictions and methods for transforming existing algorithms without predictions to effectively use predictions. Our approach is illustrated by developing algorithms with predictions for the Maximal Independent Set problem. We also include a discussion of error measures and demonstrate how fine-tuning an error measure towards a particular problem can yield stronger results about the performance of algorithms for that problem.",
+ "primary": "cs.DC"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2602.20371",
+ "title": "Semi-parametric Bayesian inference under Neyman orthogonality",
+ "authors": [
+  "Magid Sabbagh",
+  "David A. Stephens"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages",
+ "abstract": "The validity of two-step or plug-in inference methods is questioned in the Bayesian framework. We study semi-parametric models where the plug-in of a non-parametrically modelled nuisance component is used. We show that when the nuisance and targeted parameters satisfy a Neyman orthogonal score property, the approach of cutting feedback through a two-step procedure is a valid way of conducting Bayesian inference. Our method relies on a non-parametric Bayesian formulation based on the Dirichlet process and the Bayesian bootstrap. We show that the marginal posterior of the targeted parameter exhibits good frequentist properties despite not accounting for the inferential uncertainty of the nuisance parameter. We adopt this approach in Bayesian causal inference problems where the nuisance propensity score model is estimated to obtain marginal inference for the treatment effect parameter, and demonstrate that a plug-in of the propensity score has a negligible effect on marginal posterior inference for the causal contrast. We investigate the absence of Neyman orthogonality and exploit our findings to show that in conventional two-step procedures, the posterior distribution converges under weaker restrictions than those needed in the frequentist sequel. For a simple family of useful scores, we demonstrate that even in the absence of Neyman orthogonality, the posterior distribution is asymptotically unchanged by the estimation of the nuisance parameter, merely provided the latter estimator is consistent.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2602.23006",
+ "title": "Regular Fourier Features for Nonstationary Gaussian Processes",
+ "authors": [
+  "Arsalan Jawaid",
+  "Abdullah Karatas",
+  "Jörg Seewig"
+ ],
+ "v1_date": "2026-02-26",
+ "latest_version": 3,
+ "latest_date": "2026-09-23",
+ "journal_ref": "Transactions on Machine Learning Research, 2026",
+ "doi": "",
+ "comment": "18 pages (including 3-page appendix), 6 figures, 3 tables. OpenReview: https://openreview.net/forum?id=2eZhxVDAhR",
+ "abstract": "Simulating a Gaussian process requires sampling from a high-dimensional Gaussian distribution, which scales cubically with the number of sample locations. Spectral methods address this challenge by exploiting the Fourier representation and treating the spectral density as a probability distribution suitable for Monte Carlo approximation. Although this probabilistic interpretation is valid for stationary processes, it is overly restrictive for the nonstationary case, where spectral densities are generally not probability measures. To avoid this limitation, we propose regular Fourier features for harmonizable processes with one-dimensional inputs. Our method discretizes the spectral representation directly, preserving the correlation structure among spectral weights without requiring probability assumptions. Assuming finite spectral support, this yields an efficient low-rank approximation that is positive semi-definite by construction and consistent under mild regularity conditions. When the spectral density is unknown, the framework also extends to kernel learning from data, which we explore as a proof of concept. We demonstrate the approximation on locally stationary and harmonizable mixture kernels, the latter with a complex-valued spectral density. As a feasibility study, we then apply the kernel-learning extension to real and synthetic data, where it matches competitive baselines.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2407.12208",
+ "title": "Computing k-means in mixed precision",
+ "authors": [
+  "Erin Carson",
+  "Xinye Chen",
+  "Xiaobo Liu"
+ ],
+ "v1_date": "2024-07-16",
+ "latest_version": 3,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by the increasing availability of low- and mixed-precision arithmetic on modern hardware, we develop mixed-precision variants of Lloyd's algorithm for k-means clustering. The main ingredient is a family of mixed-precision kernels for Euclidean distance computation. These kernels are guided by rounding-error analysis and use a simple reliability test to decide whether the expanded distance formula can be evaluated safely with low precision or a higher-precision correction by the direct distance formula is required. Thus, most distance computations can be carried out with low precision, while high-precision arithmetic is used selectively when cancellation may lead to a loss of accuracy. We evaluate the proposed methods on large-scale distance-computation benchmarks, synthetic clustering problems, and image-segmentation tasks. The experiments verify that the mixed-precision kernels on GPUs can substantially improve performance while retaining the accuracy and convergence behavior of higher-precision baselines. In particular, our CUDA implementations achieve orders-of-magnitude speedups over the CPU implementation in \\texttt{scikit-learn} and up to $4\\times$ faster than the IEEE double-precision \\texttt{cdist} routine of \\texttt{PyTorch} on NVIDIA A100 GPU, while providing improved numerical robustness in cancellation-prone regimes. The resulting mixed-precision k-means methods are effective for clustering and image segmentation, although the observed gains depend on the dataset, feature dimension, and number of clusters. These results demonstrate that mixed-precision distance kernels can offer a useful trade-off between performance and accuracy for k-means clustering and suggest that similar ideas may be beneficial for other distance-based machine learning methods.",
+ "primary": "math.NA"
+}

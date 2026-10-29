@@ -1,0 +1,21 @@
+{
+ "id": "2504.21296",
+ "title": "Fairness in Augmented Graph Learning: A Survey",
+ "authors": [
+  "Renqiang Luo",
+  "Huafei Huang",
+  "Ziqi Xu",
+  "Xikun Zhang",
+  "Enyan Dai",
+  "Bo Yang",
+  "Feng Xia"
+ ],
+ "v1_date": "2025-04-30",
+ "latest_version": 2,
+ "latest_date": "2026-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in TKDE, 18 pages",
+ "abstract": "Graph learning has evolved into Augmented Graph Learning (AGL) by integrating specialized machine learning (ML) techniques. Examples include federated learning, graph transformers, and graph condensation. While enhancing model utility, AGL introduces unique intersectional fairness challenges that traditional GNN debiasing frameworks, which primarily focus on message-passing regulations, fail to address. This paper provides a systematic investigation into this emerging field, termed FairGX. We first delineate the shift from conventional fairness-aware graph learning to the FairGX paradigm, identifying novel bias sources inherent in ML augmentations, such as dual-side disparities in federated aggregation and attention-head skewness. A structured taxonomy is established to categorize existing literature based on their technical integration and fairness objectives. Furthermore, we analyze the impact of diverse ML paradigms on algorithmic equity, emphasizing the unique challenges in human-centered applications and the absence of a unified framework. We conclude by identifying five critical future directions, including novel metrics for AGL, fairness-privacy synergy, and Fairness-aware LLM4Graph/Graph4LLM. This survey serves as a foundational roadmap for developing robust and equitable graph systems in complex ML environments.",
+ "primary": "cs.LG"
+}

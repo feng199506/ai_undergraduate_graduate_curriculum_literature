@@ -1,0 +1,17 @@
+{
+ "id": "2604.03721",
+ "title": "The Generalised Kernel Covariance Measure",
+ "authors": [
+  "Luca Bergen",
+  "Dino Sejdinovic",
+  "Vanessa Didelez"
+ ],
+ "v1_date": "2026-04-04",
+ "latest_version": 1,
+ "latest_date": "2026-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for the 5th Conference on Causal Learning and Reasoning (CLeaR 2026)",
+ "abstract": "We consider the problem of conditional independence (CI) testing and adopt a kernel-based approach. Kernel-based CI tests embed variables in reproducing kernel Hilbert spaces, regress their embeddings on the conditioning variables, and test the resulting residuals for marginal independence. This approach yields tests that are sensitive to a broad range of conditional dependencies. Existing methods, however, rely heavily on kernel ridge regression, which is computationally expensive when properly tuned and yields poorly calibrated tests when left untuned, which limits their practical usefulness. We propose the Generalised Kernel Covariance Measure (GKCM), a regression-model-agnostic kernel-based CI test that accommodates a broad class of regression estimators. Building on the Generalised Hilbertian Covariance Measure framework (Lundborg et al., 2022), we characterise conditions under which GKCM satisfies uniform asymptotic level guarantees. In simulations, GKCM paired with tree-based regression models frequently outperforms state-of-the-art CI tests across a diverse range of data-generating processes, achieving better type I error control and competitive or superior power.",
+ "primary": "stat.ML"
+}

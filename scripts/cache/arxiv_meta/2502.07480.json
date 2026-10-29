@@ -1,0 +1,17 @@
+{
+ "id": "2502.07480",
+ "title": "Beyond Benign Overfitting in Nadaraya-Watson Interpolators",
+ "authors": [
+  "Daniel Barzilai",
+  "Guy Kornowski",
+  "Ohad Shamir"
+ ],
+ "v1_date": "2025-02-11",
+ "latest_version": 3,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025",
+ "abstract": "In recent years, there has been much interest in understanding the generalization behavior of interpolating predictors, which overfit on noisy training data. Whereas standard analyses are concerned with whether a method is consistent or not, recent observations have shown that even inconsistent predictors can generalize well. In this work, we revisit the classic interpolating Nadaraya-Watson (NW) estimator (also known as Shepard's method), and study its generalization capabilities through this modern viewpoint. In particular, by varying a single bandwidth-like hyperparameter, we prove the existence of multiple overfitting behaviors, ranging non-monotonically from catastrophic, through benign, to tempered. Our results highlight how even classical interpolating methods can exhibit intricate generalization behaviors. In addition, for the purpose of tuning the hyperparameter, the results suggest that over-estimating the intrinsic dimension of the data is less harmful than under-estimating it. Numerical experiments complement our theory, demonstrating the same phenomena.",
+ "primary": "cs.LG"
+}

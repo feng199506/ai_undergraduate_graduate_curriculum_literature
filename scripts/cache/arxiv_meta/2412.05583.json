@@ -1,0 +1,18 @@
+{
+ "id": "2412.05583",
+ "title": "Electrocardiogram (ECG) Based Cardiac Arrhythmia Detection and Classification using Machine Learning Algorithms",
+ "authors": [
+  "Atit Pokharel",
+  "Shashank Dahal",
+  "Pratik Sapkota",
+  "Bhupendra Bimal Chhetri"
+ ],
+ "v1_date": "2024-12-07",
+ "latest_version": 2,
+ "latest_date": "2024-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid advancements in Artificial Intelligence, specifically Machine Learning (ML) and Deep Learning (DL), have opened new prospects in medical sciences for improved diagnosis, prognosis, and treatment of severe health conditions. This paper focuses on the development of an ML model with high predictive accuracy to classify arrhythmic electrocardiogram (ECG) signals. The ECG signals datasets utilized in this study were sourced from the PhysioNet and MIT-BIH databases. The research commenced with binary classification, where an optimized Bidirectional Long Short-Term Memory (Bi-LSTM) model yielded excellent results in differentiating normal and atrial fibrillation signals. A pivotal aspect of this research was a survey among medical professionals, which not only validated the practicality of AI-based ECG classifiers but also identified areas for improvement, including accuracy and the inclusion of more arrhythmia types. These insights drove the development of an advanced Convolutional Neural Network (CNN) system capable of classifying five different types of ECG signals with better accuracy and precision. The CNN model's robust performance was ensured through rigorous stratified 5-fold cross validation. A web portal was also developed to demonstrate real-world utility, offering access to the trained model for real-time classification. This study highlights the potential applications of such models in remote health monitoring, predictive healthcare, assistive diagnostic tools, and simulated environments for educational training and interdisciplinary collaboration between data scientists and medical personnel.",
+ "primary": "cs.LG"
+}

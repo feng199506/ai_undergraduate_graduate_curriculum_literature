@@ -1,0 +1,19 @@
+{
+ "id": "2606.10890",
+ "title": "Optimal Post-Training Quantization Scales and Where to Find Them",
+ "authors": [
+  "Juan Amboage",
+  "Pablo Monteagudo-Lago",
+  "Ian Colbert",
+  "Giuseppe Franco",
+  "Nicholas Fraser"
+ ],
+ "v1_date": "2026-06-09",
+ "latest_version": 2,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages excluding references and appendix, 39 pages total, 2 figures in the main text, 3 tables in the main text",
+ "abstract": "Post-training quantization (PTQ) compresses large language models by mapping weights to low-bit representations. While much work has focused on how weights are rounded onto the quantization grid, the scaling factor that defines the grid is typically chosen with simple, data-free heuristics. We observe that, under round-to-nearest (RTN) quantization, the grid assignments are piecewise constant in the scale, making the output reconstruction error piecewise quadratic over finitely many intervals, each admitting a closed-form optimization. Building on this insight, we present PiSO (Piecewise Scale Optimization), an algorithm that leverages calibration data to efficiently select channel-wise scales to achieve globally optimal output reconstruction error to arbitrary accuracy. We extend PiSO to group-wise quantization via tractable objectives. We also propose strategies for integrating it with error-correction methods such as GPTQ and Qronos, which greedily adjust weight assignments to compensate for the rounding errors of previously quantized weights. Experiments on Llama and Qwen models across multiple sizes and bit-widths show consistent improvements in perplexity and zero-shot accuracy, both standalone and combined with error correction, with gains increasing as the bit-width narrows. For instance, on Llama-3, PiSO reduces the 2-bit perplexity of Qronos by up to 7x, and at 3 bits, PiSO without error correction outperforms GPTQ with absmax scales.",
+ "primary": "cs.LG"
+}

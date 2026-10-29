@@ -1,0 +1,17 @@
+{
+ "id": "2504.21037",
+ "title": "Security Bug Report Prediction Within and Across Projects: A Comparative Study of BERT and Random Forest",
+ "authors": [
+  "Farnaz Soltaniani",
+  "Mohammad Ghafari",
+  "Mohammed Sayagh"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 1,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Early detection of security bug reports (SBRs) is crucial for preventing vulnerabilities and ensuring system reliability. While machine learning models have been developed for SBR prediction, their predictive performance still has room for improvement. In this study, we conduct a comprehensive comparison between BERT and Random Forest (RF), a competitive baseline for predicting SBRs. The results show that RF outperforms BERT with a 34% higher average G-measure for within-project predictions. Adding only SBRs from various projects improves both models' average performance. However, including both security and nonsecurity bug reports significantly reduces RF's average performance to 46%, while boosts BERT to its best average performance of 66%, surpassing RF. In cross-project SBR prediction, BERT achieves a remarkable 62% G-measure, which is substantially higher than RF.",
+ "primary": "cs.CR"
+}

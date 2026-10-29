@@ -1,0 +1,16 @@
+{
+ "id": "2512.24975",
+ "title": "Attribution-Guided Distillation of Matryoshka Sparse Autoencoders",
+ "authors": [
+  "Cristina P. Martin-Linares",
+  "Jonathan P. Ling"
+ ],
+ "v1_date": "2025-12-31",
+ "latest_version": 1,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse autoencoders (SAEs) aim to disentangle model activations into monosemantic, human-interpretable features. In practice, learned features are often redundant and vary across training runs and sparsity levels, which makes interpretations difficult to transfer and reuse. We introduce Distilled Matryoshka Sparse Autoencoders (DMSAEs), a training pipeline that distills a compact core of consistently useful features and reuses it to train new SAEs. DMSAEs run an iterative distillation cycle: train a Matryoshka SAE with a shared core, use gradient X activation to measure each feature's contribution to next-token loss in the most nested reconstruction, and keep only the smallest subset that explains a fixed fraction of the attribution. Only the core encoder weight vectors are transferred across cycles; the core decoder and all non-core latents are reinitialized each time. On Gemma-2-2B layer 12 residual stream activations, seven cycles of distillation (500M tokens, 65k width) yielded a distilled core of 197 features that were repeatedly selected. Training using this distilled core improves several SAEBench metrics and demonstrates that consistent sets of latent features can be transferred across sparsity levels",
+ "primary": "cs.LG"
+}

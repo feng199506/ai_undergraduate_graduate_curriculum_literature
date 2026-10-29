@@ -1,0 +1,18 @@
+{
+ "id": "2408.08456",
+ "title": "Distributional Drift Detection in Medical Imaging with Sketching and Fine-Tuned Transformer",
+ "authors": [
+  "Yusen Wu",
+  "Phuong Nguyen",
+  "Rose Yesha",
+  "Yelena Yesha"
+ ],
+ "v1_date": "2024-08-15",
+ "latest_version": 2,
+ "latest_date": "2025-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Distributional drift detection is important in medical applications as it helps ensure the accuracy and reliability of models by identifying changes in the underlying data distribution that could affect the prediction results of machine learning models. However, current methods have limitations in detecting drift, for example, the inclusion of abnormal datasets can lead to unfair comparisons. This paper presents an accurate and sensitive approach to detect distributional drift in CT-scan medical images by leveraging data-sketching and fine-tuning techniques. We developed a robust baseline library model for real-time anomaly detection, allowing for efficient comparison of incoming images and identification of anomalies. Additionally, we fine-tuned a pre-trained Vision Transformer model to extract relevant features, using mammography as a case study, significantly enhancing model accuracy to 99.11%. Combining with data-sketches and fine-tuning, our feature extraction evaluation demonstrated that cosine similarity scores between similar datasets provide greater improvements, from around 50% increased to 99.1%. Finally, the sensitivity evaluation shows that our solutions are highly sensitive to even 1% salt-and-pepper and speckle noise, and it is not sensitive to lighting noise (e.g., lighting conditions have no impact on data drift). The proposed methods offer a scalable and reliable solution for maintaining the accuracy of diagnostic models in dynamic clinical environments.",
+ "primary": "eess.IV"
+}

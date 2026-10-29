@@ -1,0 +1,17 @@
+{
+ "id": "2311.00463",
+ "title": "Robust and Conjugate Gaussian Process Regression",
+ "authors": [
+  "Matias Altamirano",
+  "François-Xavier Briol",
+  "Jeremias Knoblauch"
+ ],
+ "v1_date": "2023-11-01",
+ "latest_version": 2,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To enable closed form conditioning, a common assumption in Gaussian process (GP) regression is independent and identically distributed Gaussian observation noise. This strong and simplistic assumption is often violated in practice, which leads to unreliable inferences and uncertainty quantification. Unfortunately, existing methods for robustifying GPs break closed-form conditioning, which makes them less attractive to practitioners and significantly more computationally expensive. In this paper, we demonstrate how to perform provably robust and conjugate Gaussian process (RCGP) regression at virtually no additional cost using generalised Bayesian inference. RCGP is particularly versatile as it enables exact conjugate closed form updates in all settings where standard GPs admit them. To demonstrate its strong empirical performance, we deploy RCGP for problems ranging from Bayesian optimisation to sparse variational Gaussian processes.",
+ "primary": "stat.ML"
+}

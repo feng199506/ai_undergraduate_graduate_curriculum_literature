@@ -1,0 +1,22 @@
+{
+ "id": "2311.01619",
+ "title": "InsPLAD: A Dataset and Benchmark for Power Line Asset Inspection in UAV Images",
+ "authors": [
+  "André Luiz Buarque Vieira e Silva",
+  "Heitor de Castro Felix",
+  "Franscisco Paulo Magalhães Simões",
+  "Veronica Teichrieb",
+  "Michel Mozinho dos Santos",
+  "Hemir Santiago",
+  "Virginia Sgotti",
+  "Henrique Lott Neto"
+ ],
+ "v1_date": "2023-11-02",
+ "latest_version": 2,
+ "latest_date": "2023-12-04",
+ "journal_ref": "",
+ "doi": "10.1080/01431161.2023.2283900",
+ "comment": "This is an original manuscript of an article published by Taylor & Francis in the International Journal of Remote Sensing on 29 Nov 2023, available online: https://doi.org/10.1080/01431161.2023.2283900",
+ "abstract": "Power line maintenance and inspection are essential to avoid power supply interruptions, reducing its high social and financial impacts yearly. Automating power line visual inspections remains a relevant open problem for the industry due to the lack of public real-world datasets of power line components and their various defects to foster new research. This paper introduces InsPLAD, a Power Line Asset Inspection Dataset and Benchmark containing 10,607 high-resolution Unmanned Aerial Vehicles colour images. The dataset contains seventeen unique power line assets captured from real-world operating power lines. Additionally, five of those assets present six defects: four of which are corrosion, one is a broken component, and one is a bird's nest presence. All assets were labelled according to their condition, whether normal or the defect name found on an image level. We thoroughly evaluate state-of-the-art and popular methods for three image-level computer vision tasks covered by InsPLAD: object detection, through the AP metric; defect classification, through Balanced Accuracy; and anomaly detection, through the AUROC metric. InsPLAD offers various vision challenges from uncontrolled environments, such as multi-scale objects, multi-size class instances, multiple objects per image, intra-class variation, cluttered background, distinct point-of-views, perspective distortion, occlusion, and varied lighting conditions. To the best of our knowledge, InsPLAD is the first large real-world dataset and benchmark for power line asset inspection with multiple components and defects for various computer vision tasks, with a potential impact to improve state-of-the-art methods in the field. It will be publicly available in its integrity on a repository with a thorough description. It can be found at https://github.com/andreluizbvs/InsPLAD.",
+ "primary": "cs.CV"
+}

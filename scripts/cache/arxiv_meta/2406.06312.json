@@ -1,0 +1,17 @@
+{
+ "id": "2406.06312",
+ "title": "Memory Complexity of Estimating Entropy and Mutual Information",
+ "authors": [
+  "Tomer Berg",
+  "Or Ordentlich",
+  "Ofer Shayevitz"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 3,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We observe an infinite sequence of independent identically distributed random variables $X_1,X_2,\\ldots$ drawn from an unknown distribution $p$ over $[n]$, and our goal is to estimate the entropy $H(p)=-\\mathbb{E}[\\log p(X)]$ within an $\\varepsilon$-additive error. To that end, at each time point we are allowed to update a finite-state machine with $S$ states, using a possibly randomized but time-invariant rule, where each state of the machine is assigned an entropy estimate. Our goal is to characterize the minimax memory complexity $S^*$ of this problem, which is the minimal number of states for which the estimation task is feasible with probability at least $1-δ$ asymptotically, uniformly in $p$. Specifically, we show that there exist universal constants $C_1$ and $C_2$ such that $ S^* \\leq C_1\\cdot\\frac{n (\\log n)^4}{\\varepsilon^2δ}$ for $\\varepsilon$ not too small, and $S^* \\geq C_2 \\cdot \\max \\{n, \\frac{\\log n}{\\varepsilon}\\}$ for $\\varepsilon$ not too large. The upper bound is proved using approximate counting to estimate the logarithm of $p$, and a finite memory bias estimation machine to estimate the expectation operation. The lower bound is proved via a reduction of entropy estimation to uniformity testing. We also apply these results to derive bounds on the memory complexity of mutual information estimation.",
+ "primary": "cs.IT"
+}

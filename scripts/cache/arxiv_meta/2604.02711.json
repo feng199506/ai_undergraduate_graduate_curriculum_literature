@@ -1,0 +1,24 @@
+{
+ "id": "2604.02711",
+ "title": "Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook",
+ "authors": [
+  "Sizhen Bian",
+  "Mengxi Liu",
+  "Lala Shakti Swarup Ray",
+  "Bo Zhou",
+  "Bin Guo",
+  "Zhiwen Yu",
+  "Thomas Ploetz",
+  "Paul Lukowicz",
+  "Siyu Yuan",
+  "Vitor Fortes Rey"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 2,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sensor-based Human Activity Recognition (HAR) underpins many ubiquitous and wearable computing applications, yet current models remain limited by scarce labels, sensor heterogeneity, and weak generalization across users, devices, and contexts. Foundation models, which are generally pretrained at scale using self-supervised and multimodal learning, offer a unifying paradigm to address these challenges by learning reusable, adaptable representations for activity understanding. This survey synthesizes emerging foundation models for sensor-based HAR. We first clarify foundational concepts, definitions, and evaluation criteria, then organize existing work using a lifecycle-oriented taxonomy spanning input design, pretraining, adaptation, and utilization. Rather than enumerating individual models, we analyze recurring design patterns and trade-offs across nine technical axes, including modality scope, tokenization, architectures, learning paradigms, adaptation mechanisms, and deployment settings. From this synthesis, we identify three dominant development trajectories: (1) HAR-specific foundation models trained from scratch on large sensor corpora, (2) adaptation of general time-series or multimodal foundation models to sensor-based HAR, and (3) integration of large language models for reasoning, annotation, and human-AI interaction. We conclude by highlighting open challenges in data curation, multimodal alignment, personalization, privacy, and responsible deployment, and outline directions toward general-purpose, interpretable, and human-centered foundation models for activity understanding. A complete, continuously updated index of papers and models is available in our companion repository: https://github.com/zhaxidele/Foundation-Models-Defining-A-New-Era-In-Human-Activity-Recognition.",
+ "primary": "eess.SP"
+}

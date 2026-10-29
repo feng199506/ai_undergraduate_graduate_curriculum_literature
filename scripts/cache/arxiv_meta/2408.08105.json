@@ -1,0 +1,21 @@
+{
+ "id": "2408.08105",
+ "title": "Multimodal Causal Reasoning Benchmark: Challenging Vision Large Language Models to Discern Causal Links Across Modalities",
+ "authors": [
+  "Zhiyuan Li",
+  "Heng Wang",
+  "Dongnan Liu",
+  "Chaoyi Zhang",
+  "Ao Ma",
+  "Jieting Long",
+  "Weidong Cai"
+ ],
+ "v1_date": "2024-08-15",
+ "latest_version": 4,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ACL2025 Findings",
+ "abstract": "Multimodal Large Language Models (MLLMs) have showcased exceptional Chain-of-Thought (CoT) reasoning ability in complex textual inference tasks including causal reasoning. However, will these causalities remain straightforward when crucial hints hide in visual details? If not, what factors might influence cross-modal generalization? Whether we can effectively enhance their capacity for robust causal inference across both text and vision? Motivated by these, we introduce MuCR - a novel Multimodal Causal Reasoning benchmark that leverages synthetic siamese images and text pairs to challenge MLLMs. Additionally, we develop tailored metrics from multiple perspectives, including image-level match, phrase-level understanding, and sentence-level explanation, to comprehensively assess MLLMs' comprehension abilities. Our experiments reveal that current MLLMs fall short in multimodal causal reasoning compared to their performance in purely textual settings. Additionally, we find that identifying visual cues across images is key to effective cross-modal generalization. Finally, we propose a VcCoT strategy that better highlights visual cues, and our results confirm its efficacy in enhancing multimodal causal reasoning. The project is available at: https://github.com/Zhiyuan-Li-John/MuCR",
+ "primary": "cs.CV"
+}

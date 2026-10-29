@@ -1,0 +1,18 @@
+{
+ "id": "2608.28135",
+ "title": "Stochastic trace estimation for positive trace-class operators",
+ "authors": [
+  "Zvonimir Bujanović",
+  "Luka Grubišić",
+  "Daniel Kressner",
+  "Hrvoje Olić"
+ ],
+ "v1_date": "2026-08-28",
+ "latest_version": 1,
+ "latest_date": "2026-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 6 figures",
+ "abstract": "Implicit trace estimation aims to approximate the trace of a matrix or linear operator accessible only through matrix-vector or operator-vector products. In the matrix setting, the Girard-Hutchinson estimator typically requires $\\mathcal{O}(\\varepsilon^{-2})$ products to achieve accuracy $\\varepsilon$, while the variance-reduced Hutch++ algorithm reduces this sample complexity to $\\mathcal{O}(\\varepsilon^{-1})$ for positive semidefinite matrices. We develop infinite-dimensional analogues of these estimators for positive trace-class operators on separable Hilbert spaces. The idealized estimators use Gaussian random elements whose covariance is determined by the target operator, leading to unbiased operator versions of Girard-Hutchinson and Hutch++. We prove high-probability error bounds analogous to the finite-dimensional matrix results; in particular, idealized infHutch++ achieves $\\mathcal{O}(\\varepsilon^{-1})$ sample complexity. For practical computation, we introduce truncated implementations that restrict the random samples to finite-dimensional subspaces; for fixed sample budget, we show that truncated infHutch++ converges in distribution to its idealized counterpart as the truncation dimension tends to infinity. Numerical experiments with integral operators, density-of-states approximations, and spectral filtering for a radial Dirac operator show that these truncated estimators can achieve accuracy comparable to the ContHutch++ algorithm by Zvonek, Horning & Townsend while using lower-degree function representations and smaller internal discretizations in chebfun.",
+ "primary": "math.NA"
+}

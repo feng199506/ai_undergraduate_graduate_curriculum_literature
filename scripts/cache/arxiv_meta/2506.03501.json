@@ -1,0 +1,20 @@
+{
+ "id": "2506.03501",
+ "title": "Measuring Human Involvement in AI-Generated Text: A Case Study on Academic Writing",
+ "authors": [
+  "Yuchen Guo",
+  "Zhicheng Dou",
+  "Huy H. Nguyen",
+  "Ching-Chun Chang",
+  "Saku Sugawara",
+  "Isao Echizen"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 1,
+ "latest_date": "2025-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "IJCNN2025 accepted",
+ "abstract": "Content creation has dramatically progressed with the rapid advancement of large language models like ChatGPT and Claude. While this progress has greatly enhanced various aspects of life and work, it has also negatively affected certain areas of society. A recent survey revealed that nearly 30% of college students use generative AI to help write academic papers and reports. Most countermeasures treat the detection of AI-generated text as a binary classification task and thus lack robustness. This approach overlooks human involvement in the generation of content even though human-machine collaboration is becoming mainstream. Besides generating entire texts, people may use machines to complete or revise texts. Such human involvement varies case by case, which makes binary classification a less than satisfactory approach. We refer to this situation as participation detection obfuscation. We propose using BERTScore as a metric to measure human involvement in the generation process and a multi-task RoBERTa-based regressor trained on a token classification task to address this problem. To evaluate the effectiveness of this approach, we simulated academic-based scenarios and created a continuous dataset reflecting various levels of human involvement. All of the existing detectors we examined failed to detect the level of human involvement on this dataset. Our method, however, succeeded (F1 score of 0.9423 and a regressor mean squared error of 0.004). Moreover, it demonstrated some generalizability across generative models. Our code is available at https://github.com/gyc-nii/CAS-CS-and-dual-head-detector",
+ "primary": "cs.CL"
+}

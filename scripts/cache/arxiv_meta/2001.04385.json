@@ -1,0 +1,23 @@
+{
+ "id": "2001.04385",
+ "title": "Universal Differential Equations for Scientific Machine Learning",
+ "authors": [
+  "Christopher Rackauckas",
+  "Yingbo Ma",
+  "Julius Martensen",
+  "Collin Warner",
+  "Kirill Zubov",
+  "Rohit Supekar",
+  "Dominic Skinner",
+  "Ali Ramadhan",
+  "Alan Edelman"
+ ],
+ "v1_date": "2020-01-13",
+ "latest_version": 4,
+ "latest_date": "2021-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 figures, 2 tables, 11 supplemental figures, 29 pages, 25 supplemental pages",
+ "abstract": "In the context of science, the well-known adage \"a picture is worth a thousand words\" might well be \"a model is worth a thousand datasets.\" In this manuscript we introduce the SciML software ecosystem as a tool for mixing the information of physical laws and scientific models with data-driven machine learning approaches. We describe a mathematical object, which we denote universal differential equations (UDEs), as the unifying framework connecting the ecosystem. We show how a wide variety of applications, from automatically discovering biological mechanisms to solving high-dimensional Hamilton-Jacobi-Bellman equations, can be phrased and efficiently handled through the UDE formalism and its tooling. We demonstrate the generality of the software tooling to handle stochasticity, delays, and implicit constraints. This funnels the wide variety of SciML applications into a core set of training mechanisms which are highly optimized, stabilized for stiff equations, and compatible with distributed parallelism and GPU accelerators.",
+ "primary": "cs.LG"
+}

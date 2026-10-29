@@ -1,0 +1,19 @@
+{
+ "id": "2505.02224",
+ "title": "Enhanced Outsourced and Secure Inference for Tall Sparse Decision Trees",
+ "authors": [
+  "Andrew Quijano",
+  "Spyros T. Halkidis",
+  "Kevin Gallagher",
+  "Kemal Akkaya",
+  "Nikolaos Samaras"
+ ],
+ "v1_date": "2025-05-04",
+ "latest_version": 1,
+ "latest_date": "2025-05-04",
+ "journal_ref": "IEEE International Performance Computing and Communications Conference (2024) 1-6",
+ "doi": "10.1109/ipccc59868.2024.10850192",
+ "comment": "",
+ "abstract": "A decision tree is an easy-to-understand tool that has been widely used for classification tasks. On the one hand, due to privacy concerns, there has been an urgent need to create privacy-preserving classifiers that conceal the user's input from the classifier. On the other hand, with the rise of cloud computing, data owners are keen to reduce risk by outsourcing their model, but want security guarantees that third parties cannot steal their decision tree model. To address these issues, Joye and Salehi introduced a theoretical protocol that efficiently evaluates decision trees while maintaining privacy by leveraging their comparison protocol that is resistant to timing attacks. However, their approach was not only inefficient but also prone to side-channel attacks. Therefore, in this paper, we propose a new decision tree inference protocol in which the model is shared and evaluated among multiple entities. We partition our decision tree model by each level to be stored in a new entity we refer to as a \"level-site.\" Utilizing this approach, we were able to gain improved average run time for classifier evaluation for a non-complete tree, while also having strong mitigations against side-channel attacks.",
+ "primary": "cs.CR"
+}

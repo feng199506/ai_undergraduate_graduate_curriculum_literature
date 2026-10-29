@@ -1,0 +1,21 @@
+{
+ "id": "2502.16147",
+ "title": "Number Representations in LLMs: A Computational Parallel to Human Perception",
+ "authors": [
+  "H. V. AlquBoj",
+  "Hilal AlQuabeh",
+  "Velibor Bojkovic",
+  "Tatsuya Hiraoka",
+  "Ahmed Oumar El-Shangiti",
+  "Munachiso Nwadike",
+  "Kentaro Inui"
+ ],
+ "v1_date": "2025-02-22",
+ "latest_version": 1,
+ "latest_date": "2025-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The number line of LLMs",
+ "abstract": "Humans are believed to perceive numbers on a logarithmic mental number line, where smaller values are represented with greater resolution than larger ones. This cognitive bias, supported by neuroscience and behavioral studies, suggests that numerical magnitudes are processed in a sublinear fashion rather than on a uniform linear scale. Inspired by this hypothesis, we investigate whether large language models (LLMs) exhibit a similar logarithmic-like structure in their internal numerical representations. By analyzing how numerical values are encoded across different layers of LLMs, we apply dimensionality reduction techniques such as PCA and PLS followed by geometric regression to uncover latent structures in the learned embeddings. Our findings reveal that the model's numerical representations exhibit sublinear spacing, with distances between values aligning with a logarithmic scale. This suggests that LLMs, much like humans, may encode numbers in a compressed, non-uniform manner.",
+ "primary": "cs.CL"
+}

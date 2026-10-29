@@ -1,0 +1,17 @@
+{
+ "id": "2403.14385",
+ "title": "Estimating Causal Effects with Double Machine Learning -- A Method Evaluation",
+ "authors": [
+  "Jonathan Fuhr",
+  "Philipp Berens",
+  "Dominik Papies"
+ ],
+ "v1_date": "2024-03-21",
+ "latest_version": 2,
+ "latest_date": "2024-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The estimation of causal effects with observational data continues to be a very active research area. In recent years, researchers have developed new frameworks which use machine learning to relax classical assumptions necessary for the estimation of causal effects. In this paper, we review one of the most prominent methods - \"double/debiased machine learning\" (DML) - and empirically evaluate it by comparing its performance on simulated data relative to more traditional statistical methods, before applying it to real-world data. Our findings indicate that the application of a suitably flexible machine learning algorithm within DML improves the adjustment for various nonlinear confounding relationships. This advantage enables a departure from traditional functional form assumptions typically necessary in causal effect estimation. However, we demonstrate that the method continues to critically depend on standard assumptions about causal structure and identification. When estimating the effects of air pollution on housing prices in our application, we find that DML estimates are consistently larger than estimates of less flexible methods. From our overall results, we provide actionable recommendations for specific choices researchers must make when applying DML in practice.",
+ "primary": "stat.ML"
+}

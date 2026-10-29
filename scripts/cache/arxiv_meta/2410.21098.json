@@ -1,0 +1,20 @@
+{
+ "id": "2410.21098",
+ "title": "Single CASANOVA? Not in multiple comparisons",
+ "authors": [
+  "Ina Dormuth",
+  "Carolin Herrmann",
+  "Frank Konietschke",
+  "Markus Pauly",
+  "Matthias Wirth",
+  "Marc Ditzhaus"
+ ],
+ "v1_date": "2024-10-28",
+ "latest_version": 3,
+ "latest_date": "2025-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When comparing multiple groups in clinical trials, we are not only interested in whether there is a difference between any groups but rather the location. Such research questions lead to testing multiple individual hypotheses. To control the familywise error rate (FWER), we must apply some corrections or introduce tests that control the FWER by design. In the case of time-to-event data, a Bonferroni-corrected log-rank test is commonly used. This approach has two significant drawbacks: (i) it loses power when the proportional hazards assumption is violated [1] and (ii) the correction generally leads to a lower power, especially when the test statistics are not independent [2]. We propose two new tests based on combined weighted log-rank tests. One as a simple multiple contrast test of weighted log-rank tests and one as an extension of the so-called CASANOVA test [3]. The latter was introduced for factorial designs. We propose a new multiple contrast test based on the CASANOVA approach. Our test promises to be more powerful under crossing hazards and eliminates the need for additional p-value correction. We assess the performance of our tests through extensive Monte Carlo simulation studies covering both proportional and non-proportional hazard scenarios. Finally, we apply the new and reference methods to a real-world data example. The new approaches control the FWER and show reasonable power in all scenarios. They outperform the adjusted approaches in some non-proportional settings in terms of power.",
+ "primary": "stat.ME"
+}

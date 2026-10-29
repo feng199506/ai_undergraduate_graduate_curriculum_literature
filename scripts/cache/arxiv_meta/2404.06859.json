@@ -1,0 +1,18 @@
+{
+ "id": "2404.06859",
+ "title": "Multi-Label Continual Learning for the Medical Domain: A Novel Benchmark",
+ "authors": [
+  "Marina Ceccon",
+  "Davide Dalle Pezze",
+  "Alessandro Fabris",
+  "Gian Antonio Susto"
+ ],
+ "v1_date": "2024-04-10",
+ "latest_version": 3,
+ "latest_date": "2024-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Despite the critical importance of the medical domain in Deep Learning, most of the research in this area solely focuses on training models in static environments. It is only in recent years that research has begun to address dynamic environments and tackle the Catastrophic Forgetting problem through Continual Learning (CL) techniques. Previous studies have primarily focused on scenarios such as Domain Incremental Learning and Class Incremental Learning, which do not fully capture the complexity of real-world applications. Therefore, in this work, we propose a novel benchmark combining the challenges of new class arrivals and domain shifts in a single framework, by considering the New Instances and New Classes (NIC) scenario. This benchmark aims to model a realistic CL setting for the multi-label classification problem in medical imaging. Additionally, it encompasses a greater number of tasks compared to previously tested scenarios. Specifically, our benchmark consists of two datasets (NIH and CXP), nineteen classes, and seven tasks, a stream longer than the previously tested ones. To solve common challenges (e.g., the task inference problem) found in the CIL and NIC scenarios, we propose a novel approach called Replay Consolidation with Label Propagation (RCLP). Our method surpasses existing approaches, exhibiting superior performance with minimal forgetting.",
+ "primary": "cs.CV"
+}

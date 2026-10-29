@@ -1,0 +1,17 @@
+{
+ "id": "2410.15005",
+ "title": "CAP: Data Contamination Detection via Consistency Amplification",
+ "authors": [
+  "Yi Zhao",
+  "Jing Li",
+  "Linyi Yang"
+ ],
+ "v1_date": "2024-10-19",
+ "latest_version": 1,
+ "latest_date": "2024-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) are widely used, but concerns about data contamination challenge the reliability of LLM evaluations. Existing contamination detection methods are often task-specific or require extra prerequisites, limiting practicality. We propose a novel framework, Consistency Amplification-based Data Contamination Detection (CAP), which introduces the Performance Consistency Ratio (PCR) to measure dataset leakage by leveraging LM consistency. To the best of our knowledge, this is the first method to explicitly differentiate between fine-tuning and contamination, which is crucial for detecting contamination in domain-specific models. Additionally, CAP is applicable to various benchmarks and works for both white-box and black-box models. We validate CAP's effectiveness through experiments on seven LLMs and four domain-specific benchmarks. Our findings also show that composite benchmarks from various dataset sources are particularly prone to unintentional contamination. Codes will be publicly available soon.",
+ "primary": "cs.CL"
+}

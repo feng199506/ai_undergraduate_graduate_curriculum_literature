@@ -1,0 +1,16 @@
+{
+ "id": "2409.20157",
+ "title": "RSVP: Beyond Weisfeiler Lehman Graph Isomorphism Test",
+ "authors": [
+  "Sourav Dutta",
+  "Arnab Bhattacharya"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 1,
+ "latest_date": "2024-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph isomorphism, a classical algorithmic problem, determines whether two input graphs are structurally identical or not. Interestingly, it is one of the few problems that is not yet known to belong to either the P or NP-complete complexity classes. As such, intelligent search-space pruning based strategies were proposed for developing isomorphism testing solvers like nauty and bliss, which are still, unfortunately, exponential in the worst-case scenario. Thus, the polynomial-time Weisfeiler-Lehman (WL) isomorphism testing heuristic, based on colour refinement, has been widely adopted in the literature. However, WL fails for multiple classes of non-isomorphic graph instances such as strongly regular graphs, block structures, and switched edges, among others. In this paper, we propose a novel polynomial-time graph isomorphism testing heuristic, RSVP, and depict its enhanced discriminative power compared to the Weisfeiler-Lehman approach for several challenging classes of graphs. Bounded by a run-time complexity of O(m^2+mn^2+n^3) (where n and m are the number of vertices and edges respectively), we show that RSVP can identify non-isomorphism in several 'hard' graph instance classes including Miyazaki, Paulus, cubic hypohamiltonian, strongly regular, Latin series and Steiner triple system graphs, where the 3-WL test fails. Similar to the WL test, our proposed algorithm is prone to only one-sided errors, where isomorphic graphs will never be determined to be non-isomorphic, although the reverse can happen.",
+ "primary": "cs.DS"
+}

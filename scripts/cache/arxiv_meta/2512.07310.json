@@ -1,0 +1,17 @@
+{
+ "id": "2512.07310",
+ "title": "Towards a Relationship-Aware Transformer for Tabular Data",
+ "authors": [
+  "Andrei V. Konstantinov",
+  "Valerii A. Zuev",
+  "Lev V. Utkin"
+ ],
+ "v1_date": "2025-12-08",
+ "latest_version": 1,
+ "latest_date": "2025-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep learning models for tabular data typically do not allow for imposing a graph of external dependencies between samples, which can be useful for accounting for relatedness in tasks such as treatment effect estimation. Graph neural networks only consider adjacent nodes, making them difficult to apply to sparse graphs. This paper proposes several solutions based on a modified attention mechanism, which accounts for possible relationships between data points by adding a term to the attention matrix. Our models are compared with each other and the gradient boosting decision trees in a regression task on synthetic and real-world datasets, as well as in a treatment effect estimation task on the IHDP dataset.",
+ "primary": "cs.LG"
+}

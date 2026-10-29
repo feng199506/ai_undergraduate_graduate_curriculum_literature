@@ -1,0 +1,15 @@
+{
+ "id": "2601.02875",
+ "title": "Revisiting Data Compression with Language Modeling",
+ "authors": [
+  "Chen-Han Tsai"
+ ],
+ "v1_date": "2026-01-06",
+ "latest_version": 1,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint",
+ "abstract": "In this report, we investigate the potential use of large language models (LLM's) in the task of data compression. Previous works have demonstrated promising results in applying LLM's towards compressing not only text, but also a wide range of multi-modal data. Despite the favorable performance achieved, there still remains several practical questions that pose a challenge towards replacing existing data compression algorithms with LLM's. In this work, we explore different methods to achieve a lower adjusted compression rate using LLM's as data compressors. In comparison to previous works, we were able to achieve a new state-of-the-art (SOTA) adjusted compression rate of around $18\\%$ on the enwik9 dataset without additional model training. Furthermore, we explore the use of LLM's in compressing non-English data, code data, byte stream sequences. We show that while LLM's excel in compressing data in text-dominant domains, their ability in compressing non-natural text sequences still remain competitive if configured in the right way.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2402.01021",
+ "title": "Towards Understanding the Challenges of Bug Localization in Deep Learning Systems",
+ "authors": [
+  "Sigma Jahan",
+  "Mehil B. Shah",
+  "Mohammad Masudur Rahman"
+ ],
+ "v1_date": "2024-02-01",
+ "latest_version": 2,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in Empirical Software Engineering Journal in 2025",
+ "abstract": "Software bugs cost the global economy billions of dollars annually and claim ~50\\% of the programming time from software developers. Locating these bugs is crucial for their resolution but challenging. It is even more challenging in deep-learning systems due to their black-box nature. Bugs in these systems are also hidden not only in the code but also in the models and training data, which might make traditional debugging methods less effective. In this article, we conduct a large-scale empirical study to better understand the challenges of localizing bugs in deep-learning systems. First, we determine the bug localization performance of four existing techniques using 2,365 bugs from deep-learning systems and 2,913 from traditional software. We found these techniques significantly underperform in localizing deep-learning system bugs. Second, we evaluate how different bug types in deep learning systems impact bug localization. We found that the effectiveness of localization techniques varies with bug type due to their unique challenges. For example, tensor bugs were more accessible to locate due to their structural nature, while all techniques struggled with GPU bugs due to their external dependencies. Third, we investigate the impact of bugs' extrinsic nature on localization in deep-learning systems. We found that deep learning bugs are often extrinsic and thus connected to artifacts other than source code (e.g., GPU, training data), contributing to the poor performance of existing localization methods.",
+ "primary": "cs.SE"
+}

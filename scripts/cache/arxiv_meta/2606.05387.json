@@ -1,0 +1,15 @@
+{
+ "id": "2606.05387",
+ "title": "Feature Encoding in Quantum Machine Learning: A Survey and Practical Guidelines",
+ "authors": [
+  "Vincenzo Sammartino"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Article submitted to ACM Computer Surveys the 15-Apr-2026",
+ "abstract": "The encoding of classical data into quantum states constitutes the primary performance bottleneck in Quantum Machine Learning (qml) on Noisy Intermediate-Scale Quantum (nisq) devices. No existing framework jointly characterises resource cost, expressivity, and noise robustness, nor provides actionable selection guidelines for practitioners. This survey addresses that gap through a systematic review of 66 primary works (2017-2026) assembled via a PRISMA-adapted protocol across five academic databases. Four principal contributions are made. First, a three-axis cost-expressivity-robustness taxonomy classifies all major encoding families - basis, angle, dense-angle, amplitude, data re-uploading, and IQP - along independently measurable axes. Second, closed-form depth-fidelity bounds under nisq decoherence channels identify the critical gate-error rate p* ~ 10^-3 below which amplitude encoding is viable. Third, a unified treatment of Fourier expressivity, barren-plateau onset, and quantum kernel concentration as functions of the encoding circuit provides the first joint trainability analysis. Fourth, a five-regime decision framework maps (D, n, p, tau) - feature dimension, qubit budget, error rate, and task type - to a hardware-grounded encoding recommendation. The central finding is that for p >= 10^-3, shallow angle-based encodings consistently outperform amplitude encoding in practice, despite the latter's exponential qubit advantage.",
+ "primary": "quant-ph"
+}

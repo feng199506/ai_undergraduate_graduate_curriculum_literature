@@ -1,0 +1,21 @@
+{
+ "id": "2405.17537",
+ "title": "CLIBD: Bridging Vision and Genomics for Biodiversity Monitoring at Scale",
+ "authors": [
+  "ZeMing Gong",
+  "Austin T. Wang",
+  "Xiaoliang Huo",
+  "Joakim Bruslund Haurum",
+  "Scott C. Lowe",
+  "Graham W. Taylor",
+  "Angel X. Chang"
+ ],
+ "v1_date": "2024-05-27",
+ "latest_version": 5,
+ "latest_date": "2025-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Add Variations of DNA encoding",
+ "abstract": "Measuring biodiversity is crucial for understanding ecosystem health. While prior works have developed machine learning models for taxonomic classification of photographic images and DNA separately, in this work, we introduce a multimodal approach combining both, using CLIP-style contrastive learning to align images, barcode DNA, and text-based representations of taxonomic labels in a unified embedding space. This allows for accurate classification of both known and unknown insect species without task-specific fine-tuning, leveraging contrastive learning for the first time to fuse barcode DNA and image data. Our method surpasses previous single-modality approaches in accuracy by over 8% on zero-shot learning tasks, showcasing its effectiveness in biodiversity studies.",
+ "primary": "cs.AI"
+}

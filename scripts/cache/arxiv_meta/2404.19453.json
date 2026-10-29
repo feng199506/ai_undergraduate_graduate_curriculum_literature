@@ -1,0 +1,18 @@
+{
+ "id": "2404.19453",
+ "title": "Structural Parameters for Dense Temporal Graphs",
+ "authors": [
+  "Jessica Enright",
+  "Samuel D. Hand",
+  "Laura Larios-Jones",
+  "Kitty Meeks"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 2,
+ "latest_date": "2026-08-21",
+ "journal_ref": "",
+ "doi": "10.1016/j.jcss.2026.103846",
+ "comment": "27 pages, 2 figures",
+ "abstract": "Temporal graphs provide a useful model for many real-world networks. Unfortunately the majority of algorithmic problems we might consider on such graphs are intractable. There has been recent progress in defining structural parameters which describe tractable cases by simultaneously restricting the underlying structure and the times at which edges appear in the graph. These all rely on the temporal graph being sparse in some sense. We introduce temporal analogues of three increasingly restrictive static graph parameters -- cliquewidth, modular-width and neighbourhood diversity -- which take small values for highly structured temporal graphs, even if a large number of edges are active at each timestep. The computational problems solvable efficiently when the temporal cliquewidth of the input graph is bounded form a subset of those solvable efficiently when the temporal modular-width is bounded, which is in turn a subset of problems efficiently solvable when the temporal neighbourhood diversity is bounded. By considering specific temporal graph problems, we demonstrate that (up to standard complexity theoretic assumptions) these inclusions are strict.",
+ "primary": "cs.DM"
+}

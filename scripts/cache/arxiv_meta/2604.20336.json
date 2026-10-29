@@ -1,0 +1,20 @@
+{
+ "id": "2604.20336",
+ "title": "Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation",
+ "authors": [
+  "Jiahao Xu",
+  "Xiaohan Yuan",
+  "Xingchen Wu",
+  "Chongyang Xu",
+  "Kun Li",
+  "Buzhen Huang"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "CVPR 2026",
+ "abstract": "Co-manipulation requires multiple humans to synchronize their motions with a shared object while ensuring reasonable interactions, maintaining natural poses, and preserving stable states. However, most existing motion generation approaches are designed for single-character scenarios or fail to account for payload-induced dynamics. In this work, we propose a flow-matching framework that ensures the generated co-manipulation motions align with the intended goals while maintaining naturalness and effectiveness. Specifically, we first introduce a generative model that derives explicit manipulation strategies from the object's affordance and spatial configuration, which guide the motion flow toward successful manipulation. To improve motion quality, we then design an adversarial interaction prior that promotes natural individual poses and realistic inter-person interactions during co-manipulation. In addition, we also incorporate a stability-driven simulation into the flow matching process, which refines unstable interaction states through sampling-based optimization and directly adjusts the vector field regression to promote more effective manipulation. The experimental results demonstrate that our method achieves higher contact accuracy, lower penetration, and better distributional fidelity compared to state-of-the-art human-object interaction baselines. The code is available at https://github.com/boycehbz/StaCOM.",
+ "primary": "cs.CV"
+}

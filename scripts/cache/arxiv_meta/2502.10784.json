@@ -1,0 +1,19 @@
+{
+ "id": "2502.10784",
+ "title": "Preconditioned Inexact Stochastic ADMM for Deep Model",
+ "authors": [
+  "Shenglong Zhou",
+  "Ouya Wang",
+  "Ziyan Luo",
+  "Yongxu Zhu",
+  "Geoffrey Ye Li"
+ ],
+ "v1_date": "2025-02-15",
+ "latest_version": 7,
+ "latest_date": "2026-07-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep learning models are usually trained with stochastic gradient descent-based algorithms, but these optimizers face inherent limitations, such as slow convergence and stringent assumptions for convergence. In particular, data heterogeneity arising from distributed settings poses significant challenges to their theoretical and numerical performance. This paper develops an algorithm, PISA (Preconditioned Inexact Stochastic Alternating Direction Method of Multipliers). Grounded in rigorous theoretical guarantees, the algorithm converges under the sole assumption of Lipschitz continuity of the gradient on a bounded region, thereby removing the need for other conditions commonly imposed by stochastic methods. This capability enables the proposed algorithm to tackle the challenge of data heterogeneity effectively. Moreover, the algorithmic architecture enables scalable parallel computing and supports various preconditions, such as second-order information, second moment, and orthogonalized momentum by Newton-Schulz iterations. Incorporating the latter two preconditions in PISA yields two computationally efficient variants: SISA and NSISA. Comprehensive experimental evaluations for training or fine-tuning diverse deep models, including vision models, large language models, reinforcement learning models, generative adversarial networks, and recurrent neural networks, demonstrate superior numerical performance of SISA and NSISA compared to various state-of-the-art optimizers.",
+ "primary": "cs.LG"
+}

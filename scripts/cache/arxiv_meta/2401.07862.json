@@ -1,0 +1,18 @@
+{
+ "id": "2401.07862",
+ "title": "Adaptive Neural-Operator Backstepping Control of a Benchmark Hyperbolic PDE",
+ "authors": [
+  "Maxence Lamarque",
+  "Luke Bhan",
+  "Yuanyuan Shi",
+  "Miroslav Krstic"
+ ],
+ "v1_date": "2024-01-15",
+ "latest_version": 1,
+ "latest_date": "2024-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16.5 pages, 3 figures",
+ "abstract": "To stabilize PDEs, feedback controllers require gain kernel functions, which are themselves governed by PDEs. Furthermore, these gain-kernel PDEs depend on the PDE plants' functional coefficients. The functional coefficients in PDE plants are often unknown. This requires an adaptive approach to PDE control, i.e., an estimation of the plant coefficients conducted concurrently with control, where a separate PDE for the gain kernel must be solved at each timestep upon the update in the plant coefficient function estimate. Solving a PDE at each timestep is computationally expensive and a barrier to the implementation of real-time adaptive control of PDEs. Recently, results in neural operator (NO) approximations of functional mappings have been introduced into PDE control, for replacing the computation of the gain kernel with a neural network that is trained, once offline, and reused in real-time for rapid solution of the PDEs. In this paper, we present the first result on applying NOs in adaptive PDE control, presented for a benchmark 1-D hyperbolic PDE with recirculation. We establish global stabilization via Lyapunov analysis, in the plant and parameter error states, and also present an alternative approach, via passive identifiers, which avoids the strong assumptions on kernel differentiability. We then present numerical simulations demonstrating stability and observe speedups up to three orders of magnitude, highlighting the real-time efficacy of neural operators in adaptive control. Our code (Github) is made publicly available for future researchers.",
+ "primary": "eess.SY"
+}

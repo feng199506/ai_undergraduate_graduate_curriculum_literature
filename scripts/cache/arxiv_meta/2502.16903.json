@@ -1,0 +1,19 @@
+{
+ "id": "2502.16903",
+ "title": "GuidedBench: Measuring and Mitigating the Evaluation Discrepancies of In-the-wild LLM Jailbreak Methods",
+ "authors": [
+  "Ruixuan Huang",
+  "Xunguang Wang",
+  "Zongjie Li",
+  "Daoyuan Wu",
+  "Shuai Wang"
+ ],
+ "v1_date": "2025-02-24",
+ "latest_version": 3,
+ "latest_date": "2026-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICLR 2026; Homepage: https://sproutnan.github.io/GuidedBench/",
+ "abstract": "Despite the growing interest in jailbreaks as an effective red-teaming tool for building safe and responsible large language models (LLMs), flawed evaluation system designs have led to significant discrepancies in their effectiveness assessments. With a systematic measurement study based on 37 jailbreak studies since 2022, we find that existing evaluation systems lack case-specific criteria, resulting in misleading conclusions about their effectiveness and safety implications. In this paper, we introduce GuidedBench, a novel benchmark comprising a curated harmful question dataset and GuidedEval, an evaluation system integrated with detailed case-by-case evaluation guidelines. Experiments demonstrate that GuidedBench offers more accurate evaluations of jailbreak performance, enabling meaningful comparisons across methods. GuidedEval reduces inter-evaluator variance by at least 76.03%, ensuring reliable and reproducible evaluations. We reveal why existing jailbreak benchmarks fail to evaluate accurately and suggest better evaluation practices.",
+ "primary": "cs.CL"
+}

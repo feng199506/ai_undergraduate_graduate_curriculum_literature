@@ -1,0 +1,16 @@
+{
+ "id": "2506.18062",
+ "title": "Floating-Point Data Transformation for Lossless Compression",
+ "authors": [
+  "Samirasadat Jamalidinan",
+  "Kazem Cheshmi"
+ ],
+ "v1_date": "2025-06-22",
+ "latest_version": 2,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Floating-point data is widely used across various domains. Depending on the required precision, each floating-point value can occupy several bytes. Lossless storage of this information is crucial due to its critical accuracy, as seen in applications such as medical imaging and language model weights. In these cases, data size is often significant, making lossless compression essential. Previous approaches either treat this data as raw byte streams for compression or fail to leverage all patterns within the dataset. However, because multiple bytes represent a single value and due to inherent patterns in floating-point representations, some of these bytes are correlated. To leverage this property, we propose a novel data transformation method called Typed Data Transformation (TDT) that groups related bytes together to improve compression. We implemented and tested our approach on various datasets across both CPU and GPU. TDT achieves a geometric mean compression ratio improvement of 1.16$\\times$ over state-of-the-art compression tools such as zstd, while also improving both compression and decompression throughput by 1.18--3.79$\\times$.",
+ "primary": "cs.DB"
+}

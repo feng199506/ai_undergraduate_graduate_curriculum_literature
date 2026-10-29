@@ -1,0 +1,18 @@
+{
+ "id": "2409.02327",
+ "title": "Generative Principal Component Regression via Variational Inference",
+ "authors": [
+  "Austin Talbot",
+  "Corey J Keller",
+  "David E Carlson",
+  "Alex V Kotlar"
+ ],
+ "v1_date": "2024-09-03",
+ "latest_version": 1,
+ "latest_date": "2024-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The ability to manipulate complex systems, such as the brain, to modify specific outcomes has far-reaching implications, particularly in the treatment of psychiatric disorders. One approach to designing appropriate manipulations is to target key features of predictive models. While generative latent variable models, such as probabilistic principal component analysis (PPCA), is a powerful tool for identifying targets, they struggle incorporating information relevant to low-variance outcomes into the latent space. When stimulation targets are designed on the latent space in such a scenario, the intervention can be suboptimal with minimal efficacy. To address this problem, we develop a novel objective based on supervised variational autoencoders (SVAEs) that enforces such information is represented in the latent space. The novel objective can be used with linear models, such as PPCA, which we refer to as generative principal component regression (gPCR). We show in simulations that gPCR dramatically improves target selection in manipulation as compared to standard PCR and SVAEs. As part of these simulations, we develop a metric for detecting when relevant information is not properly incorporated into the loadings. We then show in two neural datasets related to stress and social behavior in which gPCR dramatically outperforms PCR in predictive performance and that SVAEs exhibit low incorporation of relevant information into the loadings. Overall, this work suggests that our method significantly improves target selection for manipulation using latent variable models over competitor inference schemes.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2603.22355",
+ "title": "Demystifying Low-Rank Knowledge Distillation in Large Language Models: Convergence, Generalization, and Information-Theoretic Guarantees",
+ "authors": [
+  "Alberlucia Rafael Soarez",
+  "Daniel Kim",
+  "Mariana Costa",
+  "Alejandro Torre"
+ ],
+ "v1_date": "2026-03-22",
+ "latest_version": 1,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Knowledge distillation has emerged as a powerful technique for compressing large language models (LLMs) into efficient, deployable architectures while preserving their advanced capabilities. Recent advances in low-rank knowledge distillation, particularly methods like Low-Rank Clone (LRC), have demonstrated remarkable empirical success, achieving comparable performance to full-parameter distillation with significantly reduced training data and computational overhead. However, the theoretical foundations underlying these methods remain poorly understood. In this paper, we establish a rigorous theoretical framework for low-rank knowledge distillation in language models. We prove that under mild assumptions, low-rank projection preserves the optimization dynamics, yielding explicit convergence rates of $O(1/\\sqrt{T})$. We derive generalization bounds that characterize the fundamental trade-off between model compression and generalization capability, showing that the generalization error scales with the rank parameter as $O(r(m+n)/\\sqrt{n})$. Furthermore, we provide an information-theoretic analysis of the activation cloning mechanism, revealing its role in maximizing the mutual information between the teacher's and student's intermediate representations. Our theoretical results offer principled guidelines for rank selection, mathematically suggesting an optimal rank $r^* = O(\\sqrt{n})$ where $n$ is the sample size. Experimental validation on standard language modeling benchmarks confirms our theoretical predictions, demonstrating that the empirical convergence, rank scaling, and generalization behaviors align closely with our bounds.",
+ "primary": "stat.ML"
+}

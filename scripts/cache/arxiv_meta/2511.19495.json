@@ -1,0 +1,17 @@
+{
+ "id": "2511.19495",
+ "title": "A Systematic Study of Compression Ordering for Large Language Models",
+ "authors": [
+  "Shivansh Chhawri",
+  "Rahul Mahadik",
+  "Suparna Rooj"
+ ],
+ "v1_date": "2025-11-23",
+ "latest_version": 1,
+ "latest_date": "2025-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) require substantial computational resources, making model compression essential for efficient deployment in constrained environments. Among the dominant compression techniques: knowledge distillation, structured pruning, and low-bit quantization, their individual effects are well studied, but their interactions and optimal sequencing remain unclear. This work systematically examines how these techniques perform both independently and in combination when applied to the Qwen2.5 3B model. We evaluate multiple compression pipelines, including single, and proposed three-technique sequences, using perplexity, G-Eval, clarity, prompt alignment, and compression ratio as metrics. Our experiments show that quantization provides the greatest standalone compression, while pruning introduces moderate quality degradation. Critically, the ordering of techniques significantly affects the final model quality: the sequence Pruning, Knowledge Distillation, Quantization (P-KD-Q) yields the best balance, achieving a 3.68x compression ratio while preserving strong instruction-following and language understanding capabilities. Conversely, pipelines applying quantization early suffer severe performance degradation due to irreversible information loss that impairs subsequent training. Overall, this study offers practical insight into designing effective, ordering-aware compression pipelines for deploying LLMs in resource-limited settings.",
+ "primary": "cs.LG"
+}

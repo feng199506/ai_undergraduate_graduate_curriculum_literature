@@ -1,0 +1,22 @@
+{
+ "id": "2503.03182",
+ "title": "Enhancing Memory Efficiency in Large Language Model Training Through Chronos-aware Pipeline Parallelism",
+ "authors": [
+  "Xinyuan Lin",
+  "Chenlu Li",
+  "Zongle Huang",
+  "Chunyu Wang",
+  "Bo Xiao",
+  "Huazhong Yang",
+  "Shishi Duan",
+  "Yongpan Liu"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 2,
+ "latest_date": "2025-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Larger model sizes and longer sequence lengths have empowered the Large Language Model (LLM) to achieve outstanding performance across various domains. However, this progress brings significant storage capacity challenges for LLM pretraining. High Bandwidth Memory (HBM) is expensive and requires more advanced packaging technologies for capacity expansion, creating an urgent need for memory-efficient scheduling strategies. Yet, prior pipeline parallelism schedules have primarily focused on reducing bubble overhead, often neglecting memory efficiency and lacking compatibility with other memory-efficient strategies. Consequently, these methods struggle to meet the storage demands of storage capacity for next-generation LLM. This work presents ChronosPipe, a Chronos-aware pipeline parallelism for memory-efficient LLM pretraining. The core insight of ChronosPipe is to treat HBM as a fast but small 'cache,' optimizing and exploiting temporal locality within LLM pretraining to enhance HBM utilization. ChronosPipe introduces a pipeline scheduling strategy, Chronos-Pipe, to reduce the extrinsic overhead that disrupts the temporal locality of activations. Additionally, it leverages Chronos-Recomp and Chronos-Offload to efficiently harness the intrinsic temporal locality of activations and weights in Deep Neural Networks. Experiment results show that ChronosPipe can expand the trainable model size by 2.4x while maintaining comparable throughput, achieving 1.5x better than the 1F1B strategy combined with recomputation.",
+ "primary": "cs.DC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2507.01598",
+ "title": "Convergence Bound and Critical Batch Size of Muon Optimizer",
+ "authors": [
+  "Naoki Sato",
+  "Hiroki Naganuma",
+  "Hideaki Iiduka"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 5,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Muon, a recently proposed optimizer that leverages the inherent matrix structure of neural network parameters, has demonstrated strong empirical performance, indicating its potential as a successor to standard optimizers such as AdamW. This paper presents theoretical analysis to support its practical success. We provide convergence proofs for Muon across four practical settings, systematically examining its behavior with and without the inclusion of Nesterov momentum and weight decay. We then demonstrate that the addition of weight decay ensures almost-sure boundedness of the parameter and gradient norms -- without relying on the commonly imposed bounded-gradient assumption -- and clarify the interplay between the weight decay coefficient and the learning rate. Finally, we derive a lower bound on the critical batch size for Muon -- the batch size that minimizes the stochastic first-order oracle (SFO) complexity of training. Because the resulting formula involves problem-dependent quantities that are not directly observable (gradient variance, target precision, effective rank), it does not predict the critical batch size in absolute terms; rather, it reveals how the hyperparameters $β$ (momentum) and $λ$ (weight decay) govern the qualitative scaling of this value. Our experiments validate these hyperparameter-dependent predictions across workloads including image classification and language modeling.",
+ "primary": "cs.LG"
+}

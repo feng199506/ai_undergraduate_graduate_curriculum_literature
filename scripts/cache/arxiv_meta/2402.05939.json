@@ -1,0 +1,20 @@
+{
+ "id": "2402.05939",
+ "title": "Uncertainty Awareness of Large Language Models Under Code Distribution Shifts: A Benchmark Study",
+ "authors": [
+  "Yufei Li",
+  "Simin Chen",
+  "Yanghong Guo",
+  "Wei Yang",
+  "Yue Dong",
+  "Cong Liu"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 1,
+ "latest_date": "2024-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 12 figures",
+ "abstract": "Large Language Models (LLMs) have been widely employed in programming language analysis to enhance human productivity. Yet, their reliability can be compromised by various code distribution shifts, leading to inconsistent outputs. While probabilistic methods are known to mitigate such impact through uncertainty calibration and estimation, their efficacy in the language domain remains underexplored compared to their application in image-based tasks. In this work, we first introduce a large-scale benchmark dataset, incorporating three realistic patterns of code distribution shifts at varying intensities. Then we thoroughly investigate state-of-the-art probabilistic methods applied to CodeLlama using these shifted code snippets. We observe that these methods generally improve the uncertainty awareness of CodeLlama, with increased calibration quality and higher uncertainty estimation~(UE) precision. However, our study further reveals varied performance dynamics across different criteria (e.g., calibration error vs misclassification detection) and trade-off between efficacy and efficiency, highlighting necessary methodological selection tailored to specific contexts.",
+ "primary": "cs.SE"
+}

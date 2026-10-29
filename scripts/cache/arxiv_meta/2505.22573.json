@@ -1,0 +1,19 @@
+{
+ "id": "2505.22573",
+ "title": "FNOPE: Simulation-based inference on function spaces with Fourier Neural Operators",
+ "authors": [
+  "Guy Moss",
+  "Leah Sophie Muhle",
+  "Reinhard Drews",
+  "Jakob H. Macke",
+  "Cornelius Schröder"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 2,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simulation-based inference (SBI) is an established approach for performing Bayesian inference on scientific simulators. SBI so far works best on low-dimensional parametric models. However, it is difficult to infer function-valued parameters, which frequently occur in disciplines that model spatiotemporal processes such as the climate and earth sciences. Here, we introduce an approach for efficient posterior estimation, using a Fourier Neural Operator (FNO) architecture with a flow matching objective. We show that our approach, FNOPE, can perform inference of function-valued parameters at a fraction of the simulation budget of state of the art methods. In addition, FNOPE supports posterior evaluation at arbitrary discretizations of the domain, as well as simultaneous estimation of vector-valued parameters. We demonstrate the effectiveness of our approach on several benchmark tasks and a challenging spatial inference task from glaciology. FNOPE extends the applicability of SBI methods to new scientific domains by enabling the inference of function-valued parameters.",
+ "primary": "cs.LG"
+}

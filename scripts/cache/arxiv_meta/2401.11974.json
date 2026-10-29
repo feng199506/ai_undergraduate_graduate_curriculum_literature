@@ -1,0 +1,18 @@
+{
+ "id": "2401.11974",
+ "title": "Cross-Validation Conformal Risk Control",
+ "authors": [
+  "Kfir M. Cohen",
+  "Sangwoo Park",
+  "Osvaldo Simeone",
+  "Shlomo Shamai"
+ ],
+ "v1_date": "2024-01-22",
+ "latest_version": 2,
+ "latest_date": "2024-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "accepted for presentation at 2024 IEEE International Symposium on Information Theory (ISIT 2024)",
+ "abstract": "Conformal risk control (CRC) is a recently proposed technique that applies post-hoc to a conventional point predictor to provide calibration guarantees. Generalizing conformal prediction (CP), with CRC, calibration is ensured for a set predictor that is extracted from the point predictor to control a risk function such as the probability of miscoverage or the false negative rate. The original CRC requires the available data set to be split between training and validation data sets. This can be problematic when data availability is limited, resulting in inefficient set predictors. In this paper, a novel CRC method is introduced that is based on cross-validation, rather than on validation as the original CRC. The proposed cross-validation CRC (CV-CRC) extends a version of the jackknife-minmax from CP to CRC, allowing for the control of a broader range of risk functions. CV-CRC is proved to offer theoretical guarantees on the average risk of the set predictor. Furthermore, numerical experiments show that CV-CRC can reduce the average set size with respect to CRC when the available data are limited.",
+ "primary": "cs.LG"
+}

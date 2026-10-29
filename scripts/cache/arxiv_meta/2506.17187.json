@@ -1,0 +1,16 @@
+{
+ "id": "2506.17187",
+ "title": "Optimal Implicit Bias in Linear Regression",
+ "authors": [
+  "Kanumuri Nithin Varma",
+  "Babak Hassibi"
+ ],
+ "v1_date": "2025-06-20",
+ "latest_version": 1,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Most modern learning problems are over-parameterized, where the number of learnable parameters is much greater than the number of training data points. In this over-parameterized regime, the training loss typically has infinitely many global optima that completely interpolate the data with varying generalization performance. The particular global optimum we converge to depends on the implicit bias of the optimization algorithm. The question we address in this paper is, ``What is the implicit bias that leads to the best generalization performance?\". To find the optimal implicit bias, we provide a precise asymptotic analysis of the generalization performance of interpolators obtained from the minimization of convex functions/potentials for over-parameterized linear regression with non-isotropic Gaussian data. In particular, we obtain a tight lower bound on the best generalization error possible among this class of interpolators in terms of the over-parameterization ratio, the variance of the noise in the labels, the eigenspectrum of the data covariance, and the underlying distribution of the parameter to be estimated. Finally, we find the optimal convex implicit bias that achieves this lower bound under certain sufficient conditions involving the log-concavity of the distribution of a Gaussian convolved with the prior of the true underlying parameter.",
+ "primary": "cs.LG"
+}

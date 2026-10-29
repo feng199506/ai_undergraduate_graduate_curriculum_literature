@@ -1,0 +1,19 @@
+{
+ "id": "2504.02821",
+ "title": "Sparse Autoencoders Learn Monosemantic Features in Vision-Language Models",
+ "authors": [
+  "Mateusz Pach",
+  "Shyamgopal Karthik",
+  "Quentin Bouniot",
+  "Serge Belongie",
+  "Zeynep Akata"
+ ],
+ "v1_date": "2025-04-03",
+ "latest_version": 3,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NeurIPS 2025",
+ "abstract": "Sparse Autoencoders (SAEs) have recently gained attention as a means to improve the interpretability and steerability of Large Language Models (LLMs), both of which are essential for AI safety. In this work, we extend the application of SAEs to Vision-Language Models (VLMs), such as CLIP, and introduce a comprehensive framework for evaluating monosemanticity at the neuron-level in visual representations. To ensure that our evaluation aligns with human perception, we propose a benchmark derived from a large-scale user study. Our experimental results reveal that SAEs trained on VLMs significantly enhance the monosemanticity of individual neurons, with sparsity and wide latents being the most influential factors. Further, we demonstrate that applying SAE interventions on CLIP's vision encoder directly steers multimodal LLM outputs (e.g., LLaVA), without any modifications to the underlying language model. These findings emphasize the practicality and efficacy of SAEs as an unsupervised tool for enhancing both interpretability and control of VLMs. Code and benchmark data are available at https://github.com/ExplainableML/sae-for-vlm.",
+ "primary": "cs.CV"
+}

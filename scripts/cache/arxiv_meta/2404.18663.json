@@ -1,0 +1,18 @@
+{
+ "id": "2404.18663",
+ "title": "Terrain characterisation for online adaptability of automated sonar processing: Lessons learnt from operationally applying ATR to sidescan sonar in MCM applications",
+ "authors": [
+  "Thomas Guerneve",
+  "Stephanos Loizou",
+  "Andrea Munafo",
+  "Pierre-Yves Mignotte"
+ ],
+ "v1_date": "2024-04-29",
+ "latest_version": 1,
+ "latest_date": "2024-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Presented at UACE (Underwater Acoustics Conference & Exhibition) 2023, Kalamata, Greece",
+ "abstract": "The performance of Automated Recognition (ATR) algorithms on side-scan sonar imagery has shown to degrade rapidly when deployed on non benign environments. Complex seafloors and acoustic artefacts constitute distractors in the form of strong textural patterns, creating false detections or preventing detections of true objects. This paper presents two online seafloor characterisation techniques to improve explainability during Autonomous Underwater Vehicles (AUVs) missions. Importantly and as opposed to previous work in the domain, these techniques are not based on a model and require limited input from human operators, making it suitable for real-time onboard processing. Both techniques rely on an unsupervised machine learning approach to extract terrain features which relate to the human understanding of terrain complexity. The first technnique provides a quantitative, application-driven terrain characterisation metric based on the performance of an ATR algorithm. The second method provides a way to incorporate subject matter expertise and enables contextualisation and explainability in support for scenario-dependent subjective terrain characterisation. The terrain complexity matches the expectation of seasoned users making this tool desirable and trustworthy in comparison to traditional unsupervised approaches. We finally detail an application of these techniques to repair a Mine Countermeasures (MCM) mission carried with SeeByte autonomy framework Neptune.",
+ "primary": "cs.CV"
+}

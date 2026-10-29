@@ -1,0 +1,18 @@
+{
+ "id": "2312.12710",
+ "title": "Semiparametric Copula Estimation for Spatially Correlated Multivariate Mixed Outcomes: Analyzing Visual Sightings of Fin Whales from a Line Transect Survey",
+ "authors": [
+  "Tomotaka Momozaki",
+  "Tomoyuki Nakagawa",
+  "Shonosuke Sugasawa",
+  "Hiroko Kato Solvang"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 4,
+ "latest_date": "2026-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "74 pages, 33 figures",
+ "abstract": "For marine biologists, ascertaining the dependence structures between marine species and marine environments, such as sea surface temperature and ocean depth, is imperative for defining ecosystem functioning and providing insights into the dynamics of marine ecosystems. However, obtained data include not only continuous but also discrete data, such as binaries and counts (referred to as mixed outcomes), as well as spatial correlations, both of which make conventional multivariate analysis tools impractical. To solve this issue, we propose semiparametric Bayesian inference and develop an efficient algorithm for computing the posterior of the dependence structure based on the rank likelihood under a latent multivariate spatial Gaussian process using the Markov chain Monte Carlo method. To alleviate the computational intractability caused by the Gaussian process, we also provide a scalable implementation that leverages the nearest-neighbor Gaussian process. Extensive numerical experiments reveal that the proposed method reliably infers the dependence structures of spatially correlated mixed outcomes. Finally, we apply the proposed method to a dataset collected during an international synoptic krill survey in the Scotia Sea of the Antarctic Peninsula to infer the dependence structure between fin whales (Balaenoptera physalus), krill biomass, and relevant oceanographic data.",
+ "primary": "stat.ME"
+}

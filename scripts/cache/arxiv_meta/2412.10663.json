@@ -1,0 +1,18 @@
+{
+ "id": "2412.10663",
+ "title": "Memory-Efficient 4-bit Preconditioned Stochastic Optimization",
+ "authors": [
+  "Jingyang Li",
+  "Kuangyu Ding",
+  "Kim-Chuan Toh",
+  "Pan Zhou"
+ ],
+ "v1_date": "2024-12-14",
+ "latest_version": 2,
+ "latest_date": "2025-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Preconditioned stochastic optimization algorithms, exemplified by Shampoo, outperform first-order optimizers by offering theoretical convergence benefits and practical gains in large-scale neural network training. However, they incur substantial memory overhead due to the storage demands of non-diagonal preconditioning matrices. To address this, we introduce 4-bit quantization for Shampoo's preconditioners. We introduce two key methods: First, we apply Cholesky decomposition followed by quantization of the Cholesky factors, reducing memory usage by leveraging their lower triangular structure while better preserving spectral properties to minimize information loss. To our knowledge, this is the first quantization approach applied to Cholesky factors of preconditioners. Second, we incorporate error feedback in the quantization process, efficiently storing Cholesky factor and error state in the lower and upper triangular parts of the same matrix. Through extensive experiments, we demonstrate that combining Cholesky quantization with error feedback enhances memory efficiency and algorithm performance in large-scale deep-learning tasks. Theoretically, we also provide convergence proofs for quantized Shampoo under both smooth and non-smooth stochastic optimization settings.",
+ "primary": "cs.LG"
+}

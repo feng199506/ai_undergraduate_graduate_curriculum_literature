@@ -1,0 +1,17 @@
+{
+ "id": "2503.22744",
+ "title": "Uncertainty-Aware Graph Self-Training with Expectation-Maximization Regularization",
+ "authors": [
+  "Emily Wang",
+  "Michael Chen",
+  "Chao Li"
+ ],
+ "v1_date": "2025-03-26",
+ "latest_version": 2,
+ "latest_date": "2025-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: This paper has been withdrawn by arXiv due to disputed and unverifiable authorship and affiliation",
+ "abstract": "In this paper, we propose a novel \\emph{uncertainty-aware graph self-training} approach for semi-supervised node classification. Our method introduces an Expectation-Maximization (EM) regularization scheme to incorporate an uncertainty mechanism during pseudo-label generation and model retraining. Unlike conventional graph self-training pipelines that rely on fixed pseudo-labels, our approach iteratively refines label confidences with an EM-inspired uncertainty measure. This ensures that the predictive model focuses on reliable graph regions while gradually incorporating ambiguous nodes. Inspired by prior work on uncertainty-aware self-training techniques~\\cite{wang2024uncertainty}, our framework is designed to handle noisy graph structures and feature spaces more effectively. Through extensive experiments on several benchmark graph datasets, we demonstrate that our method outperforms strong baselines by a margin of up to 2.5\\% in accuracy while maintaining lower variance in performance across multiple runs.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.01919",
+ "title": "Poisson Hierarchical Indian Buffet Processes-With Indications for Microbiome Species Sampling Models",
+ "authors": [
+  "Lancelot F. James",
+  "Juho Lee",
+  "Abhinav Pandey"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 2,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Major adjustments with full proofs new theoretical and experimental results",
+ "abstract": "We introduce the Poisson Hierarchical Indian Buffet Process (PHIBP), a new class of species sampling models designed to address the challenges of complex, sparse count data by facilitating information sharing across and within groups. Our theoretical developments enable a tractable Bayesian nonparametric framework with machine learning elements, accommodating a potentially infinite number of species (taxa) whose parameters are learned from data. Focusing on microbiome analysis, we address key gaps by providing a flexible multivariate count model that accounts for overdispersion and robustly handles diverse data types (OTUs, ASVs). We introduce novel parameters reflecting species abundance and diversity. The model borrows strength across groups while explicitly distinguishing between technical and biological zeros to interpret sparse co-occurrence patterns. This results in a framework with tractable posterior inference, exact generative sampling, and a principled solution to the unseen species problem. We describe extensions where domain experts can incorporate knowledge through covariates and structured priors, with potential for strain-level analysis. While motivated by ecology, our work provides a broadly applicable methodology for hierarchical count modeling in genetics, commerce, and text analysis, and has significant implications for the broader theory of species sampling models arising in probability and statistics.",
+ "primary": "stat.ML"
+}

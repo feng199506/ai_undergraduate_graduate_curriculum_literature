@@ -1,0 +1,18 @@
+{
+ "id": "2401.16487",
+ "title": "Active learning of Boltzmann samplers and potential energies with quantum mechanical accuracy",
+ "authors": [
+  "Ana Molina-Taborda",
+  "Pilar Cossio",
+  "Olga Lopez-Acevedo",
+  "Marylou Gabrié"
+ ],
+ "v1_date": "2024-01-29",
+ "latest_version": 2,
+ "latest_date": "2024-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Extracting consistent statistics between relevant free-energy minima of a molecular system is essential for physics, chemistry and biology. Molecular dynamics (MD) simulations can aid in this task but are computationally expensive, especially for systems that require quantum accuracy. To overcome this challenge, we develop an approach combining enhanced sampling with deep generative models and active learning of a machine learning potential (MLP). We introduce an adaptive Markov chain Monte Carlo framework that enables the training of one Normalizing Flow (NF) and one MLP per state, achieving rapid convergence towards the Boltzmann distribution. Leveraging the trained NF and MLP models, we compute thermodynamic observables such as free-energy differences or optical spectra. We apply this method to study the isomerization of an ultrasmall silver nanocluster, belonging to a set of systems with diverse applications in the fields of medicine and catalysis.",
+ "primary": "physics.chem-ph"
+}

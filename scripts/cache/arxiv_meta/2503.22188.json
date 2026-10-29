@@ -1,0 +1,15 @@
+{
+ "id": "2503.22188",
+ "title": "stanhf: HistFactory models in the probabilistic programming language Stan",
+ "authors": [
+  "Andrew Fowlie"
+ ],
+ "v1_date": "2025-03-28",
+ "latest_version": 2,
+ "latest_date": "2025-09-01",
+ "journal_ref": "",
+ "doi": "10.1140/epjc/s10052-025-14495-1",
+ "comment": "8 pages, see https://github.com/xhep-lab/stanhf",
+ "abstract": "In collider physics, experiments are often based on counting the numbers of events in bins of a histogram. We present a new way to build and analyze statistical models that describe these experiments, based on the probabilistic programming language Stan and the HistFactory specification. A command-line tool transpiles HistFactory models into Stan code and data files. Because Stan is an imperative language, it enables richer and more detailed modeling, as modeling choices defined in the HistFactory declarative specification can be tweaked and adapted in the Stan language. Stan was constructed with automatic differentiation, allowing modern computational algorithms for sampling and optimization.",
+ "primary": "hep-ph"
+}

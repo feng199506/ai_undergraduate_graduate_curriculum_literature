@@ -1,0 +1,22 @@
+{
+ "id": "2509.10378",
+ "title": "Matrix-free Neural Preconditioner for the Dirac Operator in Lattice Gauge Theory",
+ "authors": [
+  "Yixuan Sun",
+  "Srinivas Eswar",
+  "Yin Lin",
+  "William Detmold",
+  "Phiala Shanahan",
+  "Xiaoye Li",
+  "Yang Liu",
+  "Prasanna Balaprakash"
+ ],
+ "v1_date": "2025-09-12",
+ "latest_version": 2,
+ "latest_date": "2026-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 10 figures. Accepted for publication in ACM Transactions on AI for Science",
+ "abstract": "Linear systems arise in generating samples and in calculating observables in lattice quantum chromodynamics~(QCD). Solving the Hermitian positive definite systems, which are sparse but ill-conditioned, involves using iterative methods, such as Conjugate Gradient (CG), which are time-consuming and computationally expensive. Preconditioners can effectively accelerate this process, with the state-of-the-art being multigrid preconditioners. However, constructing useful preconditioners can be challenging, adding additional computational overhead, especially in large linear systems. We propose a framework, leveraging operator learning techniques, to construct linear maps as effective preconditioners. The method in this work does \\emph{not} rely on explicit matrices from either the original linear systems or the produced preconditioners, allowing efficient model training and application in the CG solver. In the context of the Schwinger model U(1) gauge theory in 1+1 spacetime dimensions with two degenerate-mass fermions), this preconditioning scheme effectively decreases the condition number of the linear systems and approximately halves the number of iterations required for convergence in relevant parameter ranges. We further demonstrate the framework learns a general mapping dependent on the lattice structure which leads to zero-shot learning ability for the Dirac operators constructed from gauge field configurations of different sizes.",
+ "primary": "hep-lat"
+}

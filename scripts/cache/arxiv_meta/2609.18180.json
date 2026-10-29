@@ -1,0 +1,20 @@
+{
+ "id": "2609.18180",
+ "title": "Galaxy-Galaxy Strong Lensing simulation with the GPU acceleration across surveys and multi-bands",
+ "authors": [
+  "Fucheng Zhong",
+  "Ruibiao Luo",
+  "Nicola R. Napolitano",
+  "Crescenzo Tortora",
+  "Valerio Busillo",
+  "Rui Li"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 1,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted version of Frontiers in Astronomy and Space Sciences. 18 pages and 6 figures; comments are welcome",
+ "abstract": "We present a GPU-accelerated, PyTorch tensor-based simulation framework designed to generate high-fidelity galaxy-galaxy strong lensing images. By integrating synthetic Spectral Energy Distribution (SEDs), the pipeline accurately models the redshift-dependent photometric properties of lens and source galaxies, ensuring physical consistency across multi-band observations. The framework incorporates key observational parameters, including Point Spread Functions (PSF), magnitude limits, and zero points, to replicate specific survey conditions, thereby enabling robust cross-survey joint analyses. As an application, we simulate multi-band images for KiDS, LSST, and Euclid using identical lens model parameters, and employ a deep learning network to evaluate image deblending performance. In particular, the simulation leverages PyTorch to ensure full auto-differentiability and GPU acceleration, making it a highly efficient tool for advanced deep learning algorithms that require gradient-based optimization beyond standard model training. Our framework achieves a speedup of approximately $\\mathcal{O}(10^3)$ over traditional CPU-based pipelines, demonstrating the potential feasibility of joint gradient-based lens modeling across next-generation surveys.",
+ "primary": "astro-ph.GA"
+}

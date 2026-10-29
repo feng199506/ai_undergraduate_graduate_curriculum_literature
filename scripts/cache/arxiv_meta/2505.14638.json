@@ -1,0 +1,17 @@
+{
+ "id": "2505.14638",
+ "title": "Dual Precision Quantization for Efficient and Accurate Deep Neural Networks Inference",
+ "authors": [
+  "Tomer Gafni",
+  "Asaf Karnieli",
+  "Yair Hanani"
+ ],
+ "v1_date": "2025-05-20",
+ "latest_version": 1,
+ "latest_date": "2025-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at eLVM Workshop, CVPR, 2025",
+ "abstract": "Deep neural networks have achieved state-of-the-art results in a wide range of applications, from natural language processing and computer vision to speech recognition. However, as tasks become increasingly complex, model sizes continue to grow, posing challenges in latency and memory efficiency. To meet these constraints, post-training quantization has emerged as a promising solution. In this paper, we propose a novel hardware-efficient quantization and inference scheme that exploits hardware advantages with minimal accuracy degradation. Specifically, we introduce a W4A8 scheme, where weights are quantized and stored using 4-bit integer precision, and inference computations are performed using 8-bit floating-point arithmetic, demonstrating significant speedups and improved memory utilization compared to 16-bit operations, applicable on various modern accelerators. To mitigate accuracy loss, we develop a novel quantization algorithm, dubbed Dual Precision Quantization (DPQ), that leverages the unique structure of our scheme without introducing additional inference overhead. Experimental results demonstrate improved performance (i.e., increased throughput) while maintaining tolerable accuracy degradation relative to the full-precision model.",
+ "primary": "cs.CV"
+}

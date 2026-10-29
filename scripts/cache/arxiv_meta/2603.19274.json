@@ -1,0 +1,20 @@
+{
+ "id": "2603.19274",
+ "title": "CURE: A Multimodal Benchmark for Clinical Understanding and Retrieval Evaluation",
+ "authors": [
+  "Yannian Gu",
+  "Zhongzhen Huang",
+  "Linjie Mu",
+  "Xizhuo Zhang",
+  "Shaoting Zhang",
+  "Xiaofan Zhang"
+ ],
+ "v1_date": "2026-02-28",
+ "latest_version": 1,
+ "latest_date": "2026-02-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multimodal large language models (MLLMs) demonstrate considerable potential in clinical diagnostics, a domain that inherently requires synthesizing complex visual and textual data alongside consulting authoritative medical literature. However, existing benchmarks primarily evaluate MLLMs in end-to-end answering scenarios. This limits the ability to disentangle a model's foundational multimodal reasoning from its proficiency in evidence retrieval and application. We introduce the Clinical Understanding and Retrieval Evaluation (CURE) benchmark. Comprising $500$ multimodal clinical cases mapped to physician-cited reference literature, CURE evaluates reasoning and retrieval under controlled evidence settings to disentangle their respective contributions. We evaluate state-of-the-art MLLMs across distinct evidence-gathering paradigms in both closed-ended and open-ended diagnosis tasks. Evaluations reveal a stark dichotomy: while advanced models demonstrate clinical reasoning proficiency when supplied with physician reference evidence (achieving up to $73.4\\%$ accuracy on differential diagnosis), their performance substantially declines (as low as $25.4\\%$) when reliant on independent retrieval mechanisms. This disparity highlights the dual challenges of effectively integrating multimodal clinical evidence and retrieving precise supporting literature. CURE is publicly available at https://github.com/yanniangu/CURE.",
+ "primary": "cs.CL"
+}

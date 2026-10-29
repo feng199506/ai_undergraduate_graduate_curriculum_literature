@@ -1,0 +1,16 @@
+{
+ "id": "2506.16890",
+ "title": "From Lab to Factory: Pitfalls and Guidelines for Self-/Unsupervised Defect Detection on Low-Quality Industrial Images",
+ "authors": [
+  "Sebastian Hönel",
+  "Jonas Nordqvist"
+ ],
+ "v1_date": "2025-06-20",
+ "latest_version": 1,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 7 figures, 1 table. Camera-ready version for the 2025 conference European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD '25)",
+ "abstract": "The detection and localization of quality-related problems in industrially mass-produced products has historically relied on manual inspection, which is costly and error-prone. Machine learning has the potential to replace manual handling. As such, the desire is to facilitate an unsupervised (or self-supervised) approach, as it is often impossible to specify all conceivable defects ahead of time. A plethora of prior works have demonstrated the aptitude of common reconstruction-, embedding-, and synthesis-based methods in laboratory settings. However, in practice, we observe that most methods do not handle low data quality well or exude low robustness in unfavorable, but typical real-world settings. For practitioners it may be very difficult to identify the actual underlying problem when such methods underperform. Worse, often-reported metrics (e.g., AUROC) are rarely suitable in practice and may give misleading results. In our setting, we attempt to identify subtle anomalies on the surface of blasted forged metal parts, using rather low-quality RGB imagery only, which is a common industrial setting. We specifically evaluate two types of state-of-the-art models that allow us to identify and improve quality issues in production data, without having to obtain new data. Our contribution is to provide guardrails for practitioners that allow them to identify problems related to, e.g., (lack of) robustness or invariance, in either the chosen model or the data reliably in similar scenarios. Furthermore, we exemplify common pitfalls in and shortcomings of likelihood-based approaches and outline a framework for proper empirical risk estimation that is more suitable for real-world scenarios.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2601.12023",
+ "title": "A Kernel Approach for Semi-implicit Variational Inference",
+ "authors": [
+  "Longlin Yu",
+  "Ziheng Cheng",
+  "Shiyue Zhang",
+  "Cheng Zhang"
+ ],
+ "v1_date": "2026-01-17",
+ "latest_version": 1,
+ "latest_date": "2026-01-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 15 figures. arXiv admin note: substantial text overlap with arXiv:2405.18997",
+ "abstract": "Semi-implicit variational inference (SIVI) enhances the expressiveness of variational families through hierarchical semi-implicit distributions, but the intractability of their densities makes standard ELBO-based optimization biased. Recent score-matching approaches to SIVI (SIVI-SM) address this issue via a minimax formulation, at the expense of an additional lower-level optimization problem. In this paper, we propose kernel semi-implicit variational inference (KSIVI), a principled and tractable alternative that eliminates the lower-level optimization by leveraging kernel methods. We show that when optimizing over a reproducing kernel Hilbert space, the lower-level problem admits an explicit solution, reducing the objective to the kernel Stein discrepancy (KSD). Exploiting the hierarchical structure of semi-implicit distributions, the resulting KSD objective can be efficiently optimized using stochastic gradient methods. We establish optimization guarantees via variance bounds on Monte Carlo gradient estimators and derive statistical generalization bounds of order $\\tilde{\\mathcal{O}}(1/\\sqrt{n})$. We further introduce a multi-layer hierarchical extension that improves expressiveness while preserving tractability. Empirical results on synthetic and real-world Bayesian inference tasks demonstrate the effectiveness of KSIVI.",
+ "primary": "stat.ML"
+}

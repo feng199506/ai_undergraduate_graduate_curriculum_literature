@@ -1,0 +1,18 @@
+{
+ "id": "2605.25034",
+ "title": "Randomized conjugate gradient least squares",
+ "authors": [
+  "Yun Zeng",
+  "Jian-Feng Cai",
+  "Deren Han",
+  "Jiaxin Xie"
+ ],
+ "v1_date": "2026-05-24",
+ "latest_version": 1,
+ "latest_date": "2026-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a novel randomized conjugate gradient least squares (RCGLS) method for solving least-squares problems, in which iterative sketching is employed at each step to reduce the dimension and hence the computational cost. In particular, we propose a new perspective on the classical CGLS method, where the next descent direction is determined via a constraint correction problem associated with the gradient. Based on this insight, we replace the gradient with a randomized coordinate gradient that naturally satisfies the variance reduction property, leading directly to the proposed RCGLS method. We prove that RCGLS converges linearly in expectation, with a better convergence bound compared to the randomized coordinate descent method. Furthermore, we investigate an implementation of the method that avoids full-dimensional vector operations, which are the major bottleneck of vanilla RCGLS for sparse matrices and render it impractical. We also show how to apply the RCGLS method to solve the ridge regression problem, yielding a lightweight, parallelizable, and accelerated method for such problems. Numerical experiments are provided to confirm our results.",
+ "primary": "math.NA"
+}

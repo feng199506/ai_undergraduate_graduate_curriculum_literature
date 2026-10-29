@@ -1,0 +1,17 @@
+{
+ "id": "2604.16359",
+ "title": "LLM4Log: A Systematic Review of Large Language Model-based Log Analysis",
+ "authors": [
+  "Zeyang Ma",
+  "Jinqiu Yang",
+  "Tse-Hsun Chen"
+ ],
+ "v1_date": "2026-03-18",
+ "latest_version": 3,
+ "latest_date": "2026-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Software systems generate massive, evolving, semi-structured logs that are central to reliability engineering and AIOps, yet difficult to analyze at scale under drift and limited labels. Recent advances in pretrained Transformer models and instruction-tuned large language models (LLMs) have reshaped log analysis by enabling semantic generalization and cross-source evidence integration, but also introducing deployment risks such as context limits, latency and cost, privacy constraints, and hallucinations. This paper presents LLM4Log, a systematic review of LLM-based log analysis across the end-to-end pipeline, from upstream logging-statement generation and maintenance to log parsing/structuring and downstream tasks including anomaly detection, failure prediction, root cause analysis, and log summarization. Following a structured search and manual screening protocol, we completed literature collection in November 2025 and identified 145 unique papers across seven logging tasks. We organize the research area through a unified, task-driven taxonomy, summarize common design patterns (prompting/ICL, retrieval grounding, fine-tuning, tool/agent augmentation, and verification), and analyze evaluation practices, datasets, metrics, and reproducibility. Based on these cross-paper analyses, we summarize key lessons and open challenges for reliable real-world adoption. We emphasize robustness under drift and long-tail events, grounding and faithfulness for operator-facing outputs, and deployment-oriented designs with verifiable behavior.",
+ "primary": "cs.SE"
+}

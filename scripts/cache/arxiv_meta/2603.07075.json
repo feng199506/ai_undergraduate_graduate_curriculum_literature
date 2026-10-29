@@ -1,0 +1,16 @@
+{
+ "id": "2603.07075",
+ "title": "A unified high-resolution ODE framework for first-order methods",
+ "authors": [
+  "Lixia Wang",
+  "Hao Luo"
+ ],
+ "v1_date": "2026-03-07",
+ "latest_version": 1,
+ "latest_date": "2026-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For a generic discrete-time algorithm (DTA): $z^+=g(z,s)$, where $s$ is the step size, Lu (Math. Program., 194(1):1061--1112, 2022) proposed an $O(s^r)$-resolution ordinary differential equation (ODE) framework based on the backward error analysis, which can be used to analyze many DTAs satisfying the fixed point assumption $g(z,0)=z$ such as gradient descent, extra gradient method and primal-dual hybrid gradient (PDHG). However, most first-order methods with momentum violate this critical assumption. To address this issue, in this work, we introduce a novel $O((\\sqrt{s})^r)$-resolution ODE framework for accelerated first-order methods allowing momentum and variable parameters, such as Nesterov accelerated gradient (NAG), heavy-ball (HB) method and accelerated mirror gradient. The proposed high-resolution framework provides deeper insight into the convergence properties of DTAs. Especially, although the $O(1)$-resolution ODEs for HB and NAG are identical, their $O(\\sqrt{s})$-resolution ODEs differ from the subtle existence of the Hessian-driven damping. Moreover, we propose a high-resolution correction approach and apply it to PDHG and HB for provably convergent modifications that achieve global optimal convergence rates. Numerical results are reported to confirm the theoretical predictions.",
+ "primary": "math.OC"
+}

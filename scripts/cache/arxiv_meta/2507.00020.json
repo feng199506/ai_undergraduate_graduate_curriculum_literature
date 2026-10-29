@@ -1,0 +1,17 @@
+{
+ "id": "2507.00020",
+ "title": "Variational Autoencoder for Generating Broader-Spectrum prior Proposals in Markov chain Monte Carlo Methods",
+ "authors": [
+  "Marcio Borges",
+  "Felipe Pereira",
+  "Michel Tosin"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 1,
+ "latest_date": "2025-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The main contribution of this work is to show the advantages of using deep generative models like VAE to provide more flexible and versatile prior distributions",
+ "abstract": "This study uses a Variational Autoencoder method to enhance the efficiency and applicability of Markov Chain Monte Carlo (McMC) methods by generating broader-spectrum prior proposals. Traditional approaches, such as the Karhunen-Loève Expansion (KLE), require previous knowledge of the covariance function, often unavailable in practical applications. The VAE framework enables a data-driven approach to flexibly capture a broader range of correlation structures in Bayesian inverse problems, particularly subsurface flow modeling. The methodology is tested on a synthetic groundwater flow inversion problem, where pressure data is used to estimate permeability fields. Numerical experiments demonstrate that the VAE-based parameterization achieves comparable accuracy to KLE when the correlation length is known and outperforms KLE when the assumed correlation length deviates from the true value. Moreover, the VAE approach significantly reduces stochastic dimensionality, improving computational efficiency. The results suggest that leveraging deep generative models in McMC methods can lead to more adaptable and efficient Bayesian inference in high-dimensional problems.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2606.07624",
+ "title": "Sequential statistical inference for Large Language Models: Representation, validity, and monitoring",
+ "authors": [
+  "Yao Xie"
+ ],
+ "v1_date": "2026-05-30",
+ "latest_version": 1,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This article was prepared for a invited discussion in The American Statistician",
+ "abstract": "This discussion argues that sequential statistical inference can naturally contribute to LLM trustworthiness. In deployment, LLM systems are queried repeatedly, conditioned on evolving contexts, and incorporate user or tool feedback, and may exhibit behavioral shifts after model updates or distribution changes. The discussion is organized around three tasks: representation, modeling LLM interactions as dependent stochastic processes rather than isolated prompt--response pairs; validity, developing uncertainty guarantees that remain meaningful under dependence, repeated use, and adaptation; and monitoring, using sequential alarms and change-point detection to identify shifts in calibration, hallucination rates, refusal behavior, fairness, or other task-relevant properties. This perspective complements recent surveys by viewing trustworthy LLM deployment as a problem of statistical process control.",
+ "primary": "cs.LG"
+}

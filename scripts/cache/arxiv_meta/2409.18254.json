@@ -1,0 +1,15 @@
+{
+ "id": "2409.18254",
+ "title": "Evaluation of Cluster Id Assignment Schemes with ABCDE",
+ "authors": [
+  "Stephan van Staden"
+ ],
+ "v1_date": "2024-09-26",
+ "latest_version": 1,
+ "latest_date": "2024-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A cluster id assignment scheme labels each cluster of a clustering with a distinct id. The goal of id assignment is semantic id stability, which means that, whenever possible, a cluster for the same underlying concept as that of a historical cluster should ideally receive the same id as the historical cluster. Semantic id stability allows the users of a clustering to refer to a concept's cluster with an id that is stable across clusterings/time. This paper treats the problem of evaluating the relative merits of id assignment schemes. In particular, it considers a historical clustering with id assignments, and a new clustering with ids assigned by a baseline and an experiment. It produces metrics that characterize both the magnitude and the quality of the id assignment diffs between the baseline and the experiment. That happens by transforming the problem of cluster id assignment into a problem of cluster membership, and evaluating it with ABCDE. ABCDE is a sophisticated and scalable technique for evaluating differences in cluster membership in real-world applications, where billions of items are grouped into millions of clusters, and some items are more important than others. The paper also describes several generalizations to the basic evaluation setup for id assignment schemes. For example, it is fairly straightforward to evaluate changes that simultaneously mutate cluster memberships and cluster ids. The ideas are generously illustrated with examples.",
+ "primary": "cs.IR"
+}

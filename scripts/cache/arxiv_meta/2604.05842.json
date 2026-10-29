@@ -1,0 +1,15 @@
+{
+ "id": "2604.05842",
+ "title": "Expectation Maximization (EM) Converges for General Agnostic Mixtures",
+ "authors": [
+  "Avishek Ghosh"
+ ],
+ "v1_date": "2026-04-07",
+ "latest_version": 1,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at IEEE International Symposium on Information Theory (ISIT 2026)",
+ "abstract": "Mixture of linear regression is well studied in statistics and machine learning, where the data points are generated probabilistically using $k$ linear models. Algorithms like Expectation Maximization (EM) may be used to recover the ground truth regressors for this problem. Recently, in \\cite{pal2022learning,ghosh_agnostic} the mixed linear regression problem is studied in the agnostic setting, where no generative model on data is assumed. Rather, given a set of data points, the objective is \\emph{fit} $k$ lines by minimizing a suitable loss function. It is shown that a modification of EM, namely gradient EM converges exponentially to appropriately defined loss minimizer even in the agnostic setting. In this paper, we study the problem of \\emph{fitting} $k$ parametric functions to given set of data points. We adhere to the agnostic setup. However, instead of fitting lines equipped with quadratic loss, we consider any arbitrary parametric function fitting equipped with a strongly convex and smooth loss. This framework encompasses a large class of problems including mixed linear regression (regularized), mixed linear classifiers (mixed logistic regression, mixed Support Vector Machines) and mixed generalized linear regression. We propose and analyze gradient EM for this problem and show that with proper initialization and separation condition, the iterates of gradient EM converge exponentially to appropriately defined population loss minimizers with high probability. This shows the effectiveness of EM type algorithm which converges to \\emph{optimal} solution in the non-generative setup beyond mixture of linear regression.",
+ "primary": "cs.LG"
+}

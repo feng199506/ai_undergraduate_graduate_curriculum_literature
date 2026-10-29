@@ -1,0 +1,16 @@
+{
+ "id": "2602.23877",
+ "title": "Difference-in-differences for mediation analysis using double machine learning",
+ "authors": [
+  "Martin Huber",
+  "Sarina Joy Oberhänsli"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 1,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a difference-in-differences (DiD) framework with mediation for possibly multivalued discrete or continuous treatments and mediators, aimed at identifying the direct effect of the treatment on the outcome (net of effects operating through the mediator), the indirect effect via the mediator, and the joint effects of treatment and mediator, consistent with the framework of dynamic treatment effects. Identification relies on a conditional parallel trends assumption imposed on the mean potential outcome across treatment and mediator states, or (depending on the causal parameter) additionally on the mean potential outcomes and potential mediator distributions across treatment states. We propose ATET estimators for repeated cross sections and panel data within the double/debiased machine learning framework, which allows for data-driven control of covariates, and we establish their asymptotic normality under standard regularity conditions. We investigate the finite-sample performance of the proposed methods in a simulation study and illustrate our approach in an empirical application to the US National Longitudinal Survey of Youth, estimating the direct effect of health care coverage on general health as well as the indirect effect operating through routine checkups.",
+ "primary": "econ.EM"
+}

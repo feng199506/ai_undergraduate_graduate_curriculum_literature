@@ -1,0 +1,18 @@
+{
+ "id": "2403.18565",
+ "title": "Artifact Reduction in 3D and 4D Cone-beam Computed Tomography Images with Deep Learning -- A Review",
+ "authors": [
+  "Mohammadreza Amirian",
+  "Daniel Barco",
+  "Ivo Herzig",
+  "Frank-Peter Schilling"
+ ],
+ "v1_date": "2024-03-27",
+ "latest_version": 1,
+ "latest_date": "2024-03-27",
+ "journal_ref": "IEEE Access, vol. 12, pp. 10281-10295, 2024",
+ "doi": "10.1109/access.2024.3353195",
+ "comment": "16 pages, 4 figures, 1 Table, published in IEEE Access Journal",
+ "abstract": "Deep learning based approaches have been used to improve image quality in cone-beam computed tomography (CBCT), a medical imaging technique often used in applications such as image-guided radiation therapy, implant dentistry or orthopaedics. In particular, while deep learning methods have been applied to reduce various types of CBCT image artifacts arising from motion, metal objects, or low-dose acquisition, a comprehensive review summarizing the successes and shortcomings of these approaches, with a primary focus on the type of artifacts rather than the architecture of neural networks, is lacking in the literature. In this review, the data generation and simulation pipelines, and artifact reduction techniques are specifically investigated for each type of artifact. We provide an overview of deep learning techniques that have successfully been shown to reduce artifacts in 3D, as well as in time-resolved (4D) CBCT through the use of projection- and/or volume-domain optimizations, or by introducing neural networks directly within the CBCT reconstruction algorithms. Research gaps are identified to suggest avenues for future exploration. One of the key findings of this work is an observed trend towards the use of generative models including GANs and score-based or diffusion models, accompanied with the need for more diverse and open training datasets and simulations.",
+ "primary": "cs.CV"
+}

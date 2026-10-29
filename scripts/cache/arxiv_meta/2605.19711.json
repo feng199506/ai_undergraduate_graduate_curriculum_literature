@@ -1,0 +1,19 @@
+{
+ "id": "2605.19711",
+ "title": "Can Large Language Models Reliably Correct Errors in Low-Resource ASR? A Contamination-Aware Case Study on West Frisian",
+ "authors": [
+  "Yun Hao",
+  "Reihaneh Amooie",
+  "Wietse de Vries",
+  "Rik van Noord",
+  "Martijn Wieling"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 1,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Interspeech 2026",
+ "abstract": "Automatic speech recognition (ASR) has improved substantially in recent years, yet performance remains limited for low-resource languages. Large language models (LLMs) have shown promise for improving ASR through generative error correction (GER), but their effectiveness in low-resource settings remains underexplored. In addition, it remains unclear to what extent data contamination influences the reported improvements in LLM-based GER. This study investigates LLM-based GER for low-resource Frisian. In addition to a public corpus, we construct and use a Frisian offline dataset with non-public texts for evaluation to control for potential data contamination. Results show that GER improves ASR performance in most settings, with the best GPT-5.1 results surpassing oracle WERs. Comparable gains on the offline dataset indicate that improvements reflect true correction ability. We further provide a detailed error analysis revealing model correction patterns.",
+ "primary": "cs.CL"
+}

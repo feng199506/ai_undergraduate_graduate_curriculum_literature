@@ -1,0 +1,18 @@
+{
+ "id": "2410.09487",
+ "title": "Benchmarking Time Series Foundation Models for Short-Term Household Electricity Load Forecasting",
+ "authors": [
+  "Marcel Meyer",
+  "David Zapata",
+  "Sascha Kaltenpoth",
+  "Oliver Müller"
+ ],
+ "v1_date": "2024-10-12",
+ "latest_version": 3,
+ "latest_date": "2026-01-08",
+ "journal_ref": "IEEE Access, vol. 13, pp. 218141-218153, 2025",
+ "doi": "10.1109/access.2025.3648056",
+ "comment": "This article has been accepted for publication in IEEE Access",
+ "abstract": "Accurate household electricity short-term load forecasting (STLF) is key to future and sustainable energy systems. While various studies have analyzed statistical, machine learning, or deep learning approaches for household electricity STLF, recently proposed time series foundation models such as Chronos, TimesFM or Time-MoE promise a new approach for household electricity STLF. These models are trained on a vast amount of time series data and are able to forecast time series without explicit task-specific training (zero-shot learning). In this study, we benchmark the forecasting capabilities of time series foundation models compared to Trained-from-Scratch (TFS) Transformer-based approaches. Our results suggest that foundation models perform comparably to TFS Transformer models, while certain time series foundation models outperform all TFS models when the input size increases. At the same time, they require less effort, as they need no domain-specific training and only limited contextual data for inference.",
+ "primary": "cs.CE"
+}

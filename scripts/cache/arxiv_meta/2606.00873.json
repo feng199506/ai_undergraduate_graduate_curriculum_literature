@@ -1,0 +1,15 @@
+{
+ "id": "2606.00873",
+ "title": "Prompts for Public-Sector LLMs Should Be Governed as Commons",
+ "authors": [
+  "Rashid Mushkani"
+ ],
+ "v1_date": "2026-05-30",
+ "latest_version": 1,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in the Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)",
+ "abstract": "This paper argues that prompts used to deploy large language models (LLMs) in public-sector settings should be treated as governed artefacts rather than private, transient inputs. Prompts encode role instructions, decision framings, and value claims; prompt choice can materially shift outputs even when model weights and input records are held fixed. Existing governance tools, including model and dataset documentation, organisation-level policies, and post-training alignment, rarely make the local prompt collections used in deployment transparent, contestable, or auditable. We propose Prompt Commons: a versioned, community-maintained repository of prompt templates with provenance metadata, licensing, and moderation logs. Using a pilot dataset collected with community partners in a large North American city (443 human prompts; 3,317 after augmentation), we illustrate three governance states (open, curated, veto-enabled) and a negotiation-oriented ensemble method that aggregates stakeholder prompts into compromise recommendations. We close with falsifiable implications and an evaluation agenda for prompt-layer governance.",
+ "primary": "cs.CY"
+}

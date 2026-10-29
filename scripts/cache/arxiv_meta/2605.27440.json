@@ -1,0 +1,18 @@
+{
+ "id": "2605.27440",
+ "title": "Paraphrase Brittleness in Production Retrieval-Augmented Commercial Recommendation: Reproducibility Below the Rerun-Stability Baseline",
+ "authors": [
+  "Will Jack",
+  "Noah Lehman",
+  "Keller Maloney",
+  "Sarah Xu"
+ ],
+ "v1_date": "2026-05-22",
+ "latest_version": 1,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Small changes to how a buyer phrases a question -- \"best CRM\" vs \"top CRM\" vs \"best CRM for a SaaS startup\" -- produce substantially different brand recommendations from AI assistants. Across ~6,000 paraphrase runs and ~6,000 same-prompt rerun controls on OpenAI and Anthropic models, the recommendation-set similarity (Jaccard) between two paraphrases of the same underlying buying intent is 0.288 for cosmetic rewordings (clustered 95% CI [0.215, 0.361]) and 0.135 for constraint-adding rewordings ([0.098, 0.175], pooling region/language and specificity-ladder axes) -- both far below the 0.50-0.61 same-prompt rerun baseline. The prompt string, not the underlying buyer intent, is the dominant input to which brands surface. Increasing reasoning effort does not narrow the gap (bounded by +/-0.05). This is a direct challenge to an increasingly popular AEO/GEO practice. Tracking a brand's \"AI visibility\" by counting brand mentions over a fixed set of prompts produces a metric whose dominant source of variance is which paraphrase the tracker happens to issue, not the model's behavior toward the brand: the same buyer intent in two natural paraphrases produces recommendation sets that overlap 14-29% in Jaccard versus 50-61% for same-prompt reruns. Sampling more paraphrases per intent reduces the artifact in principle, and efficient multi-prompt evaluation methods exist in the academic literature, but the natural buyer-phrasing space is much larger than the benchmark-scale prompt sets those methods have been validated on, and far beyond what any commercial tracker issues per brand-intent combination. Prompt-by-prompt mention tracking is therefore structurally unstable as a unit of measurement; meaningful improvement likely requires a different unit rather than a larger prompt set.",
+ "primary": "cs.IR"
+}

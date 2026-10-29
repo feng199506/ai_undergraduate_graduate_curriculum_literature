@@ -1,20 +1,130 @@
 [
- {"q": "(ti:tutorial OR ti:introduction OR ti:\"gentle introduction\" OR ti:primer) AND abs:\"conformal prediction\"", "subtopic": "共形预测"},
- {"q": "(ti:survey OR ti:review) AND abs:\"conformal prediction\"", "subtopic": "共形预测"},
- {"q": "(ti:\"statistical significance\" OR ti:\"statistical tests\" OR ti:\"hypothesis testing\" OR ti:\"statistical inference\") AND (abs:\"machine learning\" OR abs:\"evaluation\" OR abs:\"language models\")", "subtopic": "ML 评测中的统计检验"},
- {"q": "(ti:\"A/B testing\" OR ti:\"online controlled experiments\" OR ti:\"online experiments\") AND (ti:survey OR ti:review OR ti:tutorial OR abs:variance)", "subtopic": "A/B 测试与实验设计"},
- {"q": "(ti:\"multiple testing\" OR ti:\"false discovery rate\" OR ti:\"e-values\" OR ti:\"selective inference\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)", "subtopic": "多重检验与选择性推断"},
- {"q": "(ti:\"anytime-valid\" OR ti:\"safe testing\" OR ti:\"game-theoretic statistics\" OR ti:\"sequential testing\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview)", "subtopic": "序贯检验与随时有效推断"},
- {"q": "(ti:tutorial OR ti:review OR ti:survey OR ti:introduction) AND (abs:\"Bayesian inference\" OR abs:\"Bayesian statistics\") AND (cat:stat.ME OR cat:stat.CO OR cat:stat.ML)", "subtopic": "贝叶斯统计"},
- {"q": "(ti:\"Bayesian workflow\" OR ti:\"prior elicitation\" OR ti:\"simulation-based inference\") AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:overview)", "subtopic": "贝叶斯工作流与基于模拟的推断"},
- {"q": "(ti:\"prediction-powered inference\" OR abs:\"prediction-powered inference\")", "subtopic": "ML 辅助统计推断"},
- {"q": "(ti:bootstrap OR ti:\"resampling\" OR ti:\"cross-validation\") AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction)", "subtopic": "重抽样与交叉验证"},
- {"q": "(ti:\"stochastic processes\" OR ti:\"Markov chains\" OR ti:\"stochastic differential equations\" OR ti:\"Brownian motion\") AND (ti:introduction OR ti:tutorial OR ti:\"lecture notes\" OR ti:primer)", "subtopic": "随机过程"},
- {"q": "(ti:\"concentration inequalities\" OR ti:\"high-dimensional probability\" OR ti:\"high-dimensional statistics\") AND (ti:introduction OR ti:tutorial OR ti:\"lecture notes\" OR ti:survey)", "subtopic": "概率不等式与高维统计"},
- {"q": "(ti:\"uncertainty quantification\" OR ti:\"calibration\") AND (ti:tutorial OR ti:survey OR ti:review) AND cat:stat.ML", "subtopic": "不确定性与校准的统计视角"},
- {"q": "(ti:\"evaluation\" OR ti:\"benchmarks\") AND (ti:statistical OR ti:\"error bars\" OR ti:\"confidence intervals\" OR ti:\"uncertainty\") AND (abs:\"language model\" OR abs:\"machine learning\")", "subtopic": "ML 评测中的统计检验"},
- {"q": "(ti:\"distribution-free\" OR ti:\"nonparametric\") AND (ti:introduction OR ti:tutorial OR ti:review OR ti:survey) AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)", "subtopic": "非参数与分布无关推断"},
- {"q": "(ti:\"causal\" OR ti:\"experimental design\" OR ti:\"design of experiments\") AND (ti:\"adaptive experimental design\" OR ti:\"Bayesian optimal experimental design\" OR ti:\"active learning\") AND (ti:review OR ti:survey OR ti:tutorial)", "subtopic": "实验设计"},
- {"q": "(ti:\"variational inference\" OR ti:\"Markov chain Monte Carlo\" OR ti:\"Monte Carlo\") AND (ti:introduction OR ti:tutorial OR ti:review) AND cat:stat.CO", "subtopic": "统计计算"},
- {"q": "(ti:\"statistics\" OR ti:\"statistical\") AND (ti:\"large language models\" OR ti:\"machine learning\") AND (ti:survey OR ti:review OR ti:perspective OR ti:overview)", "subtopic": "统计学与机器学习的交叉"}
+ {
+  "q": "(ti:tutorial OR ti:introduction OR ti:\"gentle introduction\" OR ti:primer) AND abs:\"conformal prediction\"",
+  "subtopic": "共形预测"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND abs:\"conformal prediction\"",
+  "subtopic": "共形预测"
+ },
+ {
+  "q": "(ti:\"statistical significance\" OR ti:\"statistical tests\" OR ti:\"hypothesis testing\" OR ti:\"statistical inference\") AND (abs:\"machine learning\" OR abs:\"evaluation\" OR abs:\"language models\")",
+  "subtopic": "ML 评测中的统计检验"
+ },
+ {
+  "q": "(ti:\"A/B testing\" OR ti:\"online controlled experiments\" OR ti:\"online experiments\") AND (ti:survey OR ti:review OR ti:tutorial OR abs:variance)",
+  "subtopic": "A/B 测试与实验设计"
+ },
+ {
+  "q": "(ti:\"multiple testing\" OR ti:\"false discovery rate\" OR ti:\"e-values\" OR ti:\"selective inference\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)",
+  "subtopic": "多重检验与选择性推断"
+ },
+ {
+  "q": "(ti:\"anytime-valid\" OR ti:\"safe testing\" OR ti:\"game-theoretic statistics\" OR ti:\"sequential testing\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview)",
+  "subtopic": "序贯检验与随时有效推断"
+ },
+ {
+  "q": "(ti:tutorial OR ti:review OR ti:survey OR ti:introduction) AND (abs:\"Bayesian inference\" OR abs:\"Bayesian statistics\") AND (cat:stat.ME OR cat:stat.CO OR cat:stat.ML)",
+  "subtopic": "贝叶斯统计"
+ },
+ {
+  "q": "(ti:\"Bayesian workflow\" OR ti:\"prior elicitation\" OR ti:\"simulation-based inference\") AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:overview)",
+  "subtopic": "贝叶斯工作流与基于模拟的推断"
+ },
+ {
+  "q": "(ti:\"prediction-powered inference\" OR abs:\"prediction-powered inference\")",
+  "subtopic": "ML 辅助统计推断"
+ },
+ {
+  "q": "(ti:bootstrap OR ti:\"resampling\" OR ti:\"cross-validation\") AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction)",
+  "subtopic": "重抽样与交叉验证"
+ },
+ {
+  "q": "(ti:\"stochastic processes\" OR ti:\"Markov chains\" OR ti:\"stochastic differential equations\" OR ti:\"Brownian motion\") AND (ti:introduction OR ti:tutorial OR ti:\"lecture notes\" OR ti:primer)",
+  "subtopic": "随机过程"
+ },
+ {
+  "q": "(ti:\"concentration inequalities\" OR ti:\"high-dimensional probability\" OR ti:\"high-dimensional statistics\") AND (ti:introduction OR ti:tutorial OR ti:\"lecture notes\" OR ti:survey)",
+  "subtopic": "概率不等式与高维统计"
+ },
+ {
+  "q": "(ti:\"uncertainty quantification\" OR ti:\"calibration\") AND (ti:tutorial OR ti:survey OR ti:review) AND cat:stat.ML",
+  "subtopic": "不确定性与校准的统计视角"
+ },
+ {
+  "q": "(ti:\"evaluation\" OR ti:\"benchmarks\") AND (ti:statistical OR ti:\"error bars\" OR ti:\"confidence intervals\" OR ti:\"uncertainty\") AND (abs:\"language model\" OR abs:\"machine learning\")",
+  "subtopic": "ML 评测中的统计检验"
+ },
+ {
+  "q": "(ti:\"distribution-free\" OR ti:\"nonparametric\") AND (ti:introduction OR ti:tutorial OR ti:review OR ti:survey) AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)",
+  "subtopic": "非参数与分布无关推断"
+ },
+ {
+  "q": "(ti:\"causal\" OR ti:\"experimental design\" OR ti:\"design of experiments\") AND (ti:\"adaptive experimental design\" OR ti:\"Bayesian optimal experimental design\" OR ti:\"active learning\") AND (ti:review OR ti:survey OR ti:tutorial)",
+  "subtopic": "实验设计"
+ },
+ {
+  "q": "(ti:\"variational inference\" OR ti:\"Markov chain Monte Carlo\" OR ti:\"Monte Carlo\") AND (ti:introduction OR ti:tutorial OR ti:review) AND cat:stat.CO",
+  "subtopic": "统计计算"
+ },
+ {
+  "q": "(ti:\"statistics\" OR ti:\"statistical\") AND (ti:\"large language models\" OR ti:\"machine learning\") AND (ti:survey OR ti:review OR ti:perspective OR ti:overview)",
+  "subtopic": "统计学与机器学习的交叉"
+ },
+ {
+  "q": "ti:conformal AND (ti:tutorial OR ti:introduction OR ti:foundations OR ti:review OR ti:survey OR ti:primer OR ti:\"lecture notes\" OR ti:overview)",
+  "subtopic": "共形预测"
+ },
+ {
+  "q": "(ti:\"e-values\" OR ti:\"e-value\" OR ti:\"testing by betting\" OR ti:\"e-processes\" OR ti:\"confidence sequences\")",
+  "subtopic": "序贯检验与随时有效推断"
+ },
+ {
+  "q": "(ti:\"multiple comparisons\" OR ti:\"comparing classifiers\" OR ti:\"model comparison\" OR ti:\"comparing algorithms\" OR ti:\"statistical comparison\") AND (abs:\"statistical test\" OR abs:\"hypothesis test\" OR abs:\"significance\")",
+  "subtopic": "ML 评测中的统计检验"
+ },
+ {
+  "q": "(ti:\"probability theory\" OR ti:\"measure theory\" OR ti:\"probability\" OR ti:\"statistical inference\") AND (ti:\"lecture notes\" OR ti:introduction OR ti:primer OR ti:tutorial) AND (abs:\"machine learning\" OR abs:\"data science\" OR abs:\"students\")",
+  "subtopic": "概率论基础"
+ },
+ {
+  "q": "(ti:concentration OR ti:\"tail bounds\" OR ti:\"high-dimensional\") AND (ti:\"lecture notes\" OR ti:introduction OR ti:primer OR ti:tutorial OR ti:survey) AND (cat:math.PR OR cat:math.ST OR cat:stat.ML)",
+  "subtopic": "概率不等式与高维统计"
+ },
+ {
+  "q": "(ti:\"Bayesian\") AND (ti:\"tutorial\" OR ti:\"primer\" OR ti:\"introduction\" OR ti:\"review\" OR ti:workflow) AND (abs:\"prior\" AND abs:\"posterior\") AND (cat:stat.ME OR cat:stat.CO OR cat:stat.ML OR cat:stat.AP)",
+  "subtopic": "贝叶斯统计"
+ },
+ {
+  "q": "(ti:\"experimental design\" OR ti:\"experiment design\" OR ti:\"design of experiments\" OR ti:\"Bayesian optimal design\") AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:modern)",
+  "subtopic": "实验设计"
+ },
+ {
+  "q": "(ti:\"online controlled experiments\" OR ti:\"A/B testing\" OR ti:\"A/B tests\" OR ti:\"experimentation platform\") AND (ti:survey OR ti:review OR ti:tutorial OR ti:guide OR ti:pitfalls OR ti:lessons OR ti:\"practical\")",
+  "subtopic": "A/B 测试与实验设计"
+ },
+ {
+  "q": "(ti:\"statistical\" OR ti:\"statistics\") AND (ti:\"language model evaluation\" OR ti:\"LLM evaluation\" OR ti:\"benchmark\" OR ti:\"evals\") AND (abs:\"confidence interval\" OR abs:\"hypothesis test\" OR abs:\"standard error\" OR abs:\"significance\")",
+  "subtopic": "ML 评测中的统计检验"
+ },
+ {
+  "q": "(ti:\"two-sample\" OR ti:\"kernel two-sample\" OR ti:\"maximum mean discrepancy\" OR ti:\"permutation test\" OR ti:\"permutation tests\") AND (ti:introduction OR ti:tutorial OR ti:review OR ti:survey OR ti:primer)",
+  "subtopic": "非参数与分布无关推断"
+ },
+ {
+  "q": "(ti:bootstrap OR ti:jackknife OR ti:\"confidence intervals\") AND (ti:introduction OR ti:tutorial OR ti:review OR ti:primer OR ti:guide) AND (cat:stat.ME OR cat:stat.ML OR cat:stat.CO OR cat:stat.OT)",
+  "subtopic": "重抽样与交叉验证"
+ },
+ {
+  "q": "(ti:\"Markov chain Monte Carlo\" OR ti:MCMC OR ti:\"Hamiltonian Monte Carlo\" OR ti:\"Langevin\") AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:review OR ti:\"lecture notes\")",
+  "subtopic": "统计计算"
+ },
+ {
+  "q": "(ti:\"statistical learning\" OR ti:\"statistics\" OR ti:\"statistical\") AND (ti:\"machine learning\" OR ti:\"AI\" OR ti:\"data science\") AND (ti:perspective OR ti:\"position\" OR ti:\"role of\" OR ti:\"what is\" OR ti:\"statisticians\")",
+  "subtopic": "统计学与机器学习的交叉"
+ },
+ {
+  "q": "(ti:\"risk control\" OR ti:\"conformal risk\" OR ti:\"learn then test\" OR ti:\"calibration\") AND (abs:\"distribution-free\") AND (cat:stat.ML OR cat:stat.ME OR cat:cs.LG)",
+  "subtopic": "共形预测"
+ }
 ]

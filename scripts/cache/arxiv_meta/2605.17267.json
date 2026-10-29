@@ -1,0 +1,25 @@
+{
+ "id": "2605.17267",
+ "title": "RAGR: Review-Augmented Generative Recommendation",
+ "authors": [
+  "Yingyi Zhang",
+  "Junyi Li",
+  "Yejing Wang",
+  "Wenlin Zhang",
+  "Xiaowei Qian",
+  "Sheng Zhang",
+  "Yue Feng",
+  "Yichao Wang",
+  "Yong Liu",
+  "Xiangyu Zhao",
+  "Xianneng Li"
+ ],
+ "v1_date": "2026-05-17",
+ "latest_version": 2,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential recommendation (SR) is traditionally formulated as next-item prediction over chronological item interactions. Although recent generative recommendation (GR) methods introduce new machinery, such as semantic IDs, autoregressive decoding, and unified token spaces, they largely inherit the same item-only modeling assumption. We argue that this design constitutes a structural bottleneck, because user decision-making is not purely behavioral: while item interactions reveal what users choose, review feedback often explains why they choose it by exposing latent evaluative factors. Motivated by this observation, we propose Review-Augmented Generative Recommendation (RAGR), a novel GR framework that incorporates review feedback into the generative user sequence rather than treating reviews as auxiliary side information. Specifically, RAGR introduces a Review-Augmented User Sequence Modeling mechanism that interleaves item semantic IDs and review semantic IDs in chronological order to construct a mixed behavioral-semantic sequence, enabling review signals to participate directly in autoregressive next-token generation. To preserve the recommendation objective, we further introduce an Item-Centric Task Generation Alignment strategy based on direct preference optimization (DPO), encouraging the model to favor item tokens over review tokens at prediction positions. Experiments on three real-world datasets show that RAGR yields consistent and significant gains over strong GR backbones. Our code is available at https://github.com/Zhang-Yingyi/RAGR.",
+ "primary": "cs.IR"
+}

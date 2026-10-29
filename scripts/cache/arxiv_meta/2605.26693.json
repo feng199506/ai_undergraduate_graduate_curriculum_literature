@@ -1,0 +1,19 @@
+{
+ "id": "2605.26693",
+ "title": "Model Merging on Loss Landscape: A Geometry Perspective",
+ "authors": [
+  "Juanwu Lu",
+  "Anand Bhaskar",
+  "Brian Axelrod",
+  "Ekaterina Tolstaya",
+  "Tristan Emrich"
+ ],
+ "v1_date": "2026-05-26",
+ "latest_version": 1,
+ "latest_date": "2026-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "CVPR 2026 Findings Track. 18 pages, 4 figures, 6 tables",
+ "abstract": "Model merging offers a promising avenue for knowledge integration and parallel development without retraining. Yet, existing methods either ignore the geometry of the loss landscape or rely on intractable full-space Hessian approximations. We propose EpiMer, a framework that casts model merging as solving the Fréchet mean on a Riemannian manifold and restricts the computation to a low-rank subspace spanned by the task vectors. With the expected Hessian as the metric, we reveal a connection between local curvature and epistemic uncertainty of the parameters. Our theoretical analysis decomposes the merging error bound into the subspace Fréchet variance and the residual energy, and provides a closed-form characterization of when curvature-aware merging provably outperforms flat-geometry methods. In addition, our framework unifies both curvature-aware methods and recent spectral methods as special cases of the subspace Fréchet mean with different geometric metrics. Merging fine-tuned CLIP-ViT models on eight image classification tasks, Epistemic Merging strictly outperforms the baselines on all three CLIP-ViT backbones at matched rank, improving the across-task average accuracy and worst-task accuracy on every backbone.",
+ "primary": "cs.LG"
+}

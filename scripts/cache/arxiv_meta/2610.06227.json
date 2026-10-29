@@ -1,0 +1,24 @@
+{
+ "id": "2610.06227",
+ "title": "APOD: reasoning-guided agentic population ordinary differential equation discovery for pharmacological digital twins",
+ "authors": [
+  "Romain Ferrara",
+  "Martin Soucail",
+  "Victor Gertner",
+  "Adil Moussali",
+  "Joris Cocquebert",
+  "Sandrine Oziel-Taieb",
+  "Julien Nicolas",
+  "Florence Gattacceca",
+  "Mihaela van der Schaar",
+  "Sébastien Benzekry"
+ ],
+ "v1_date": "2026-10-05",
+ "latest_version": 1,
+ "latest_date": "2026-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Establishing ordinary differential equations (ODEs) describing population data is a fundamental part of mathematical modeling in pharmacology, crucial to developing digital twins. However, doing so from sparse, noisy data is a slow, expert-driven task. Existing automated methods either search a restricted model space or ignore population inter-individual variability. Here we introduce APOD (Agentic Population ODE Discovery), a language-model agent that iteratively reasons over biological knowledge and fit diagnostics in an open-ended search space to discover a population digital twin (PDT), i.e., a shared ODE system with between-subject variability. On synthetic pharmacokinetic and tumor-dynamics benchmarks, APOD recovered ground-truth structures in 94-100\\% of runs, 12-fold faster in median than an established library-based search. On real cohorts it converged to valid structures, and proposed a PDT of radioligand-therapy-induced platelet dynamics that predicts thrombocytopenia from first-cycle data and simulates alternative dosing schedules that lower the predicted risk of toxicity.",
+ "primary": "q-bio.QM"
+}

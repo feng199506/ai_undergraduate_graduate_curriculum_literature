@@ -1,0 +1,16 @@
+{
+ "id": "2508.18052",
+ "title": "Weisfeiler-Lehman meets Events: An Expressivity Analysis for Continuous-Time Dynamic Graph Neural Networks",
+ "authors": [
+  "Silvia Beddar-Wiesing",
+  "Alice Moallemy-Oureh"
+ ],
+ "v1_date": "2025-08-25",
+ "latest_version": 1,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph Neural Networks (GNNs) are known to match the distinguishing power of the 1-Weisfeiler-Lehman (1-WL) test, and the resulting partitions coincide with the unfolding tree equivalence classes of graphs. Preserving this equivalence, GNNs can universally approximate any target function on graphs in probability up to any precision. However, these results are limited to attributed discrete-dynamic graphs represented as sequences of connected graph snapshots. Real-world systems, such as communication networks, financial transaction networks, and molecular interactions, evolve asynchronously and may split into disconnected components. In this paper, we extend the theory of attributed discrete-dynamic graphs to attributed continuous-time dynamic graphs with arbitrary connectivity. To this end, we introduce a continuous-time dynamic 1-WL test, prove its equivalence to continuous-time dynamic unfolding trees, and identify a class of continuous-time dynamic GNNs (CGNNs) based on discrete-dynamic GNN architectures that retain both distinguishing power and universal approximation guarantees. Our constructive proofs further yield practical design guidelines, emphasizing a compact and expressive CGNN architecture with piece-wise continuously differentiable temporal functions to process asynchronous, disconnected graphs.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2605.28554",
+ "title": "High Performance, Low Reliability: Uncertainty Benchmarking for Tabular Foundation Models",
+ "authors": [
+  "José Lucas De Melo Costa",
+  "Fabrice Popineau",
+  "Arpad Rimmel",
+  "Bich-Liên Doan"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 1,
+ "latest_date": "2026-05-27",
+ "journal_ref": "ESANN 2026 proceedings, European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, Bruges (Belgium) and online event, 22-24 April 2026, pp. 115-120, i6doc.com publ., ISBN 9782875870964",
+ "doi": "10.14428/esann/2026.es2026-261",
+ "comment": "6 pages, 2 figures, 2 tables. Accepted at ESANN 2026 (European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning), 22-24 April 2026, Bruges (Belgium)",
+ "abstract": "Recent Tabular Foundation Models (TFMs) have demonstrated state-of-the-art predictive performance, often surpassing Gradient-Boosted Decision Trees (GBDTs). However, the trustworthiness of these models, particularly their uncertainty quantification, has been largely overlooked. We investigate this gap through an extensive study comparing TFMs, GBDTs, and classical baselines on the 112 datasets of the TALENT benchmark. Our results reveal a performance-uncertainty trade-off: although TFMs achieve the highest predictive performance, measured by AUC, they exhibit lower conditional coverage under conformal prediction, measured by SSCS, compared to GBDTs. Complementary experiments on synthetic datasets further characterize the regimes in which this effect intensifies. We conclude that while TFMs advance predictive frontiers, achieving well-calibrated uncertainty remains a major open challenge for their reliable adoption. Code is available at: https://github.com/jose-melo/high-performance-low-reliability",
+ "primary": "cs.LG"
+}

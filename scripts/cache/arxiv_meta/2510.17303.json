@@ -1,0 +1,16 @@
+{
+ "id": "2510.17303",
+ "title": "Symmetries in PAC-Bayesian Learning",
+ "authors": [
+  "Armin Beck",
+  "Peter Ochs"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 2,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Symmetries are known to improve the empirical performance of machine learning models, yet theoretical guarantees explaining these gains remain limited. Prior work has focused mainly on compact group symmetries and often assumes that the data distribution itself is invariant, an assumption rarely satisfied in real-world applications. In this work, we extend generalization guarantees to the broader setting of non-compact symmetries, such as translations and to non-invariant data distributions. Building on the PAC-Bayes framework, we adapt and tighten existing bounds, demonstrating the approach on McAllester's PAC-Bayes bound while showing that it applies to a wide range of PAC-Bayes bounds. We validate our theory with experiments on several datasets with non-uniform and non-compact transformations, where the derived guarantees not only hold but also improve upon prior results. These findings provide theoretical evidence that, for symmetric data, symmetric models are preferable beyond the narrow setting of compact groups and invariant distributions, opening the way to a more general understanding of symmetries in machine learning.",
+ "primary": "cs.LG"
+}

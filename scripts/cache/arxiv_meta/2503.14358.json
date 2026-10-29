@@ -1,0 +1,18 @@
+{
+ "id": "2503.14358",
+ "title": "RFMI: Estimating Mutual Information on Rectified Flow for Text-to-Image Alignment",
+ "authors": [
+  "Chao Wang",
+  "Giulio Franzese",
+  "Alessandro Finamore",
+  "Pietro Michiardi"
+ ],
+ "v1_date": "2025-03-18",
+ "latest_version": 1,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "to appear at ICLR 2025 Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy",
+ "abstract": "Rectified Flow (RF) models trained with a Flow matching framework have achieved state-of-the-art performance on Text-to-Image (T2I) conditional generation. Yet, multiple benchmarks show that synthetic images can still suffer from poor alignment with the prompt, i.e., images show wrong attribute binding, subject positioning, numeracy, etc. While the literature offers many methods to improve T2I alignment, they all consider only Diffusion Models, and require auxiliary datasets, scoring models, and linguistic analysis of the prompt. In this paper we aim to address these gaps. First, we introduce RFMI, a novel Mutual Information (MI) estimator for RF models that uses the pre-trained model itself for the MI estimation. Then, we investigate a self-supervised fine-tuning approach for T2I alignment based on RFMI that does not require auxiliary information other than the pre-trained model itself. Specifically, a fine-tuning set is constructed by selecting synthetic images generated from the pre-trained RF model and having high point-wise MI between images and prompts. Our experiments on MI estimation benchmarks demonstrate the validity of RFMI, and empirical fine-tuning on SD3.5-Medium confirms the effectiveness of RFMI for improving T2I alignment while maintaining image quality.",
+ "primary": "cs.CV"
+}

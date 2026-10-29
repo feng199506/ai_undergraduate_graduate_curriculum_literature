@@ -1,0 +1,18 @@
+{
+ "id": "2602.03906",
+ "title": "GeoIB: Geometry-Aware Information Bottleneck via Statistical-Manifold Compression",
+ "authors": [
+  "Weiqi Wang",
+  "Zhiyi Tian",
+  "Chenhan Zhang",
+  "Shui Yu"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Information Bottleneck (IB) is widely used, but in deep learning, it is usually implemented through tractable surrogates, such as variational bounds or neural mutual information (MI) estimators, rather than directly controlling the MI I(X;Z) itself. The looseness and estimator-dependent bias can make IB \"compression\" only indirectly controlled and optimization fragile. We revisit the IB problem through the lens of information geometry and propose a \\textbf{Geo}metric \\textbf{I}nformation \\textbf{B}ottleneck (\\textbf{GeoIB}) that dispenses with mutual information (MI) estimation. We show that I(X;Z) and I(Z;Y) admit exact projection forms as minimal Kullback-Leibler (KL) distances from the joint distributions to their respective independence manifolds. Guided by this view, GeoIB controls information compression with two complementary terms: (i) a distribution-level Fisher-Rao (FR) discrepancy, which matches KL to second order and is reparameterization-invariant; and (ii) a geometry-level Jacobian-Frobenius (JF) term that provides a local capacity-type upper bound on I(Z;X) by penalizing pullback volume expansion of the encoder. We further derive a natural-gradient optimizer consistent with the FR metric and prove that the standard additive natural-gradient step is first-order equivalent to the geodesic update. We conducted extensive experiments and observed that the GeoIB achieves a better trade-off between prediction accuracy and compression ratio in the information plane than the mainstream IB baselines on popular datasets. GeoIB improves invariance and optimization stability by unifying distributional and geometric regularization under a single bottleneck multiplier. The source code of GeoIB is released at \"https://anonymous.4open.science/r/G-IB-0569\".",
+ "primary": "cs.LG"
+}

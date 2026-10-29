@@ -1,0 +1,18 @@
+{
+ "id": "2605.04381",
+ "title": "Causal discovery under mean independence and linearity",
+ "authors": [
+  "Geert Mesters",
+  "Alvaro Ribot",
+  "Anna Seigal",
+  "Piotr Zwiernik"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 5 figures",
+ "abstract": "Causal discovery methods such as LiNGAM identify causal structure from observational data by assuming mutually independent disturbances. This assumption is fragile: shared volatility, common scale effects, or other forms of dependence can cause the methods to recover the wrong causal order, even with infinite data. We introduce the Linear Mean-Independent Acyclic Model (LiMIAM), which replaces full independence with weaker one-sided mean-independence restrictions on the disturbances. Under finite-order consequences of these restrictions, source nodes are generically identifiable, and hence a compatible causal order can be recovered recursively. Our proof is constructive and leads to DirectLiMIAM, a sequential residual-based algorithm for causal discovery under dependent noise. In simulations with mean-independent but dependent disturbances, DirectLiMIAM outperforms LiNGAM methods. A large-scale empirical application to the oil market highlights the implausibility of the independence assumption and the ability of DirectLiMIAM to recover a realistic causal ordering, from policy to production and from prices to inflation.",
+ "primary": "stat.ME"
+}

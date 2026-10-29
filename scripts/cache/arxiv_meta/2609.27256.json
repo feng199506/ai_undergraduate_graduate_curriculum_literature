@@ -1,0 +1,16 @@
+{
+ "id": "2609.27256",
+ "title": "Functional Causal Discovery via Conditional Covariance Ordering",
+ "authors": [
+  "Keyu Li",
+  "Ruoxu Tan"
+ ],
+ "v1_date": "2026-09-23",
+ "latest_version": 1,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study causal discovery where each node is a random function. Previous studies on this topic rely on structural assumptions, e.g., linearity or non-linearity, and distributional assumptions, e.g., Gaussianity or non-Gaussianity. In contrast, we make use of covariance operators to avoid these assumptions. Under functional additive noise models, we propose a new sufficient condition to identify a valid topological ordering based on comparing norms of conditional covariance operators. Taking advantage of this identifiability condition, we develop a new mixed regression model that subsumes linear and non-linear models. Together with variable selection, our procedure yields an estimation of the causal directed acyclic graph (DAG) for functional variables. In theory, we develop the least-squares-type theory of this regression model, and derive asymptotic consistency of order determination, sparse regression, as well as identifying the DAG. Computational algorithms based on discrete observations are provided. Applied to simulated data, our approach performs satisfactorily among existing approaches. A real data example of brain effective connectivity is also presented.",
+ "primary": "stat.ME"
+}

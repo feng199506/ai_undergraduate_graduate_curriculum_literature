@@ -1,0 +1,18 @@
+{
+ "id": "2510.07649",
+ "title": "A Honest Cross-Validation Estimator for Prediction Performance",
+ "authors": [
+  "Tianyu Pan",
+  "Vincent Z. Yu",
+  "Viswanath Devanarayan",
+  "Lu Tian"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 1,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cross-validation is a standard tool for obtaining a honest assessment of the performance of a prediction model. The commonly used version repeatedly splits data, trains the prediction model on the training set, evaluates the model performance on the test set, and averages the model performance across different data splits. A well-known criticism is that such cross-validation procedure does not directly estimate the performance of the particular model recommended for future use. In this paper, we propose a new method to estimate the performance of a model trained on a specific (random) training set. A naive estimator can be obtained by applying the model to a disjoint testing set. Surprisingly, cross-validation estimators computed from other random splits can be used to improve this naive estimator within a random-effects model framework. We develop two estimators -- a hierarchical Bayesian estimator and an empirical Bayes estimator -- that perform similarly to or better than both the conventional cross-validation estimator and the naive single-split estimator. Simulations and a real-data example demonstrate the superior performance of the proposed method.",
+ "primary": "stat.ML"
+}

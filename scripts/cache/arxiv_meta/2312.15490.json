@@ -1,0 +1,18 @@
+{
+ "id": "2312.15490",
+ "title": "Diffusion-EXR: Controllable Review Generation for Explainable Recommendation via Diffusion Models",
+ "authors": [
+  "Ling Li",
+  "Shaohua Li",
+  "June Tay",
+  "Huijing Zhan"
+ ],
+ "v1_date": "2023-12-24",
+ "latest_version": 5,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "We request to withdraw our paper from the archive due to significant errors identified in the analysis and conclusions. Upon further review, we realized that these errors undermine the validity of our findings. We plan to conduct additional research to correct these issues and resubmit a revised version in the future",
+ "abstract": "Denoising Diffusion Probabilistic Model (DDPM) has shown great competence in image and audio generation tasks. However, there exist few attempts to employ DDPM in the text generation, especially review generation under recommendation systems. Fueled by the predicted reviews explainability that justifies recommendations could assist users better understand the recommended items and increase the transparency of recommendation system, we propose a Diffusion Model-based Review Generation towards EXplainable Recommendation named Diffusion-EXR. Diffusion-EXR corrupts the sequence of review embeddings by incrementally introducing varied levels of Gaussian noise to the sequence of word embeddings and learns to reconstruct the original word representations in the reverse process. The nature of DDPM enables our lightweight Transformer backbone to perform excellently in the recommendation review generation task. Extensive experimental results have demonstrated that Diffusion-EXR can achieve state-of-the-art review generation for recommendation on two publicly available benchmark datasets.",
+ "primary": "cs.IR"
+}

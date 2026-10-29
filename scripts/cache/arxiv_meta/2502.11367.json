@@ -1,0 +1,20 @@
+{
+ "id": "2502.11367",
+ "title": "Sparse Autoencoder Features for Classifications and Transferability",
+ "authors": [
+  "Jack Gallifant",
+  "Shan Chen",
+  "Kuleen Sasse",
+  "Hugo Aerts",
+  "Thomas Hartvigsen",
+  "Danielle S. Bitterman"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 2,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse Autoencoders (SAEs) provide potentials for uncovering structured, human-interpretable representations in Large Language Models (LLMs), making them a crucial tool for transparent and controllable AI systems. We systematically analyze SAE for interpretable feature extraction from LLMs in safety-critical classification tasks. Our framework evaluates (1) model-layer selection and scaling properties, (2) SAE architectural configurations, including width and pooling strategies, and (3) the effect of binarizing continuous SAE activations. SAE-derived features achieve macro F1 > 0.8, outperforming hidden-state and BoW baselines while demonstrating cross-model transfer from Gemma 2 2B to 9B-IT models. These features generalize in a zero-shot manner to cross-lingual toxicity detection and visual classification tasks. Our analysis highlights the significant impact of pooling strategies and binarization thresholds, showing that binarization offers an efficient alternative to traditional feature selection while maintaining or improving performance. These findings establish new best practices for SAE-based interpretability and enable scalable, transparent deployment of LLMs in real-world applications. Full repo: https://github.com/shan23chen/MOSAIC.",
+ "primary": "cs.LG"
+}

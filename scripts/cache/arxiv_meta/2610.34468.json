@@ -1,0 +1,18 @@
+{
+ "id": "2610.34468",
+ "title": "GNSS Anomaly Detection in Urban Canyons: A Comprehensive Survey of Multimodal Visibility Inference",
+ "authors": [
+  "Abdelgabar Ahmed",
+  "Tarig Ballal",
+  "Nour Kouzayha",
+  "Tareq Y. Al-Naffouri"
+ ],
+ "v1_date": "2026-10-25",
+ "latest_version": 1,
+ "latest_date": "2026-10-25",
+ "journal_ref": "",
+ "doi": "10.1109/maes.2026.3746915",
+ "comment": "Accepted for publication in IEEE Aerospace and Electronic Systems Magazine. DOI: 10.1109/MAES.2026.3746915",
+ "abstract": "Reliable GNSS positioning in dense urban environments depends on assessing satellite visibility and identifying measurements degraded by non-line-of-sight (NLOS) reception and multipath. This survey organizes reception-state inference into three complementary evidence families: receiver-side signals, 3D maps and environmental models, and auxiliary sensors. Receiver-side approaches span antenna/electromagnetic, tracking/baseband, and observable-domain evidence, interpreted through rule-based, statistical, machine-learning, and deep-learning methods. Map-based approaches are examined by reviewing environmental representations and methods such as geometric screening, shadow matching, 3D ray tracing, and neural implicit visibility prediction. IMU, camera, and LiDAR measurements provide complementary kinematic, visual, and geometric evidence for online screening. Across these families, we compare accuracy, interpretability, hardware and calibration requirements, map dependence, computational cost, and suitability for real-time deployment. We identify open challenges in dataset quality and labeling, domain generalization, map freshness, and resource-efficient implementation. The resulting synthesis connects signal processing, environmental modeling, and sensor fusion to guide the design of robust urban GNSS measurement-screening systems.",
+ "primary": "eess.SP"
+}

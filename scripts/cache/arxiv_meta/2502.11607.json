@@ -1,0 +1,23 @@
+{
+ "id": "2502.11607",
+ "title": "GraphThought: Graph Combinatorial Optimization with Thought Generation",
+ "authors": [
+  "Zixiao Huang",
+  "Lifeng Guo",
+  "Wenhao Li",
+  "Junjie Sheng",
+  "Chuyun Shen",
+  "Haosheng Chen",
+  "Bo Jin",
+  "Changhong Lu",
+  "Xiangfeng Wang"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 2,
+ "latest_date": "2025-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 5 figures, 13 tables",
+ "abstract": "Graph combinatorial optimization (GCO) problems are central to domains like logistics and bioinformatics. While traditional solvers dominate, large language models (LLMs) offer new possibilities for structured reasoning, yet struggle with complex GCO tasks requiring rigorous combinatorial analysis and multi-step deduction, often producing hallucinated steps. We first formalize the Optimal Thoughts Design (OTD) problem, which provides a structured guidance for producing high-quality intermediate reasoning steps. Building on this formulation, we introduce GraphThought, a novel framework that generates effective reasoning sequences through either heuristic-guided forward search or solver-aligned backward reasoning. By fine-tuning LLMs on these structured thought sequences, we develop Llama-GT, an 8B-parameter model that achieves state-of-the-art performance on the GraphArena benchmark, outperforming significantly larger models like DeepSeek-V3. Our results demonstrate that when scaffolded with structured reasoning priors, principled thought generation can significantly enhance LLM performance on GCO tasks without requiring increased model scale.",
+ "primary": "cs.LG"
+}

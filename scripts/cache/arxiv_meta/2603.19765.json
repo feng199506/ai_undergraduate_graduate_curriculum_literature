@@ -1,0 +1,20 @@
+{
+ "id": "2603.19765",
+ "title": "FREAK: A Fine-grained Hallucination Evaluation Benchmark for Advanced MLLMs",
+ "authors": [
+  "Zhihan Yin",
+  "Jianxin Liang",
+  "Yueqian Wang",
+  "Yifeng Yao",
+  "Huishuai Zhang",
+  "Dongyan Zhao"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages",
+ "abstract": "Multimodal Large Language Models (MLLMs) suffer from hallucinations. Existing hallucination evaluation benchmarks are often limited by over-simplified tasks leading to saturated metrics, or insufficient diversity that fails to adequately assess the hallucination extent in state-of-the-art multimodal models. To address this gap, we propose FREAK, a comprehensive multimodal benchmark designed for fine-grained hallucination assessment in MLLMs. Through high-quality photorealistic images featuring fine-grained counter-commonsense edits, FREAK innovatively evaluates hallucination phenomena in detailed visual perception of MLLMs. Extensive experiments on FREAK show severe hallucination issues in SOTA models regarding detailed visual perception. To enable deeper investigation, we curate a controlled subset to indirectly evaluate the model's ability to perceive target detailed information. Through systematic evaluation of prevailing Chain-of-Thought (CoT) prompting techniques within this task, we reveal critical insights regarding hallucination patterns and model reasoning processes.",
+ "primary": "cs.CV"
+}

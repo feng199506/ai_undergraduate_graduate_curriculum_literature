@@ -1,0 +1,23 @@
+{
+ "id": "2511.06254",
+ "title": "LLaDA-Rec: Discrete Diffusion for Parallel Semantic ID Generation in Generative Recommendation",
+ "authors": [
+  "Teng Shi",
+  "Chenglei Shen",
+  "Weijie Yu",
+  "Shen Nie",
+  "Chongxuan Li",
+  "Xiao Zhang",
+  "Ming He",
+  "Yan Han",
+  "Jun Xu"
+ ],
+ "v1_date": "2025-11-09",
+ "latest_version": 1,
+ "latest_date": "2025-11-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative recommendation represents each item as a semantic ID, i.e., a sequence of discrete tokens, and generates the next item through autoregressive decoding. While effective, existing autoregressive models face two intrinsic limitations: (1) unidirectional constraints, where causal attention restricts each token to attend only to its predecessors, hindering global semantic modeling; and (2) error accumulation, where the fixed left-to-right generation order causes prediction errors in early tokens to propagate to the predictions of subsequent token. To address these issues, we propose LLaDA-Rec, a discrete diffusion framework that reformulates recommendation as parallel semantic ID generation. By combining bidirectional attention with the adaptive generation order, the approach models inter-item and intra-item dependencies more effectively and alleviates error accumulation. Specifically, our approach comprises three key designs: (1) a parallel tokenization scheme that produces semantic IDs for bidirectional modeling, addressing the mismatch between residual quantization and bidirectional architectures; (2) two masking mechanisms at the user-history and next-item levels to capture both inter-item sequential dependencies and intra-item semantic relationships; and (3) an adapted beam search strategy for adaptive-order discrete diffusion decoding, resolving the incompatibility of standard beam search with diffusion-based generation. Experiments on three real-world datasets show that LLaDA-Rec consistently outperforms both ID-based and state-of-the-art generative recommenders, establishing discrete diffusion as a new paradigm for generative recommendation.",
+ "primary": "cs.IR"
+}

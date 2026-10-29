@@ -1,0 +1,19 @@
+{
+ "id": "2510.17385",
+ "title": "Strengthening LLMs for Tabular Prediction with Structural Priors",
+ "authors": [
+  "Pengxiang Cai",
+  "Zihao Gao",
+  "Wanchen Lian",
+  "Guocong Li",
+  "Jintai Chen"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 5,
+ "latest_date": "2026-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tabular prediction has long been dominated by gradient-boosted decision trees and specialized deep tabular models, while large language models (LLMs) remain difficult to make competitive despite their cross-task adaptability and transparent reasoning traces. We address this gap by incorporating tabular structural priors into LLM post-training. Specifically, we propose Permutation Relative Policy Optimization (PRPO), which operationalizes column-permutation invariance through label-preserving column permutations and two-level advantage estimation. This design converts sparse outcome rewards into denser and more stable optimization signals. Extensive experiments on 139 OpenML datasets show that our 8B model reaches a genuinely competitive regime against strong specialized tabular baselines. It achieves strong fully supervised performance, dominates zero-shot settings, and performs on par with 32-shot strong baselines. Moreover, it substantially outperforms much larger general-purpose and reasoning LLMs, including up to a 53.17% improvement over DeepSeek-R1 (685B). These results show that structural-prior RL post-training is an effective route for making LLMs competitive in tabular prediction.",
+ "primary": "cs.LG"
+}

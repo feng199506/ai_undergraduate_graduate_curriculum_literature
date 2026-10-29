@@ -1,0 +1,16 @@
+{
+ "id": "2508.08412",
+ "title": "Multiple Regression Analysis of Unmeasured Confounding",
+ "authors": [
+  "Brian Knaeble",
+  "R Mitchell Hughes"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 1,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 9 figures",
+ "abstract": "Whereas confidence intervals are used to assess uncertainty due to unmeasured individuals, confounding intervals can be used to assess uncertainty due to unmeasured attributes. Previously, we have introduced a methodology for computing confounding intervals in a simple regression setting in a paper titled ``Regression Analysis of Unmeasured Confounding.\" Here we extend that methodology for more general application in the context of multiple regression. Our multiple regression analysis of unmeasured confounding utilizes subject matter knowledge about coefficients of determination to bound omitted variables bias, while taking into account measured covariate data. Our generalized methodology can be used to partially identify causal effects. The methodology is demonstrated with example applications, to show how coefficients of determination, being complementary to randomness, can support sensitivity analysis for causal inference from observational data. The methodology is best applied when natural sources of randomness are present and identifiable within the data generating process. Our main contribution is an algorithm that supports our methodology. The purpose of this article is to describe our algorithm in detail. In the paper we provide a link to our GitHub page for readers who would like to access and utilize our algorithm.",
+ "primary": "stat.ME"
+}

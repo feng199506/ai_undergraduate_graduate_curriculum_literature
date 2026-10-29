@@ -1,0 +1,16 @@
+{
+ "id": "2311.04561",
+ "title": "Information-Theoretic Generalization Bounds for Transductive Learning and its Applications",
+ "authors": [
+  "Huayi Tang",
+  "Yong Liu"
+ ],
+ "v1_date": "2023-11-08",
+ "latest_version": 3,
+ "latest_date": "2025-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we establish generalization bounds for transductive learning algorithms in the context of information theory and PAC-Bayes, covering both the random sampling and the random splitting setting. First, we show that the transductive generalization gap can be controlled by the mutual information between training label selection and the hypothesis. Next, we propose the concept of transductive supersample and use it to derive transductive information-theoretic bounds involving conditional mutual information and different information measures. We further establish transductive PAC-Bayesian bounds with weaker assumptions on the type of loss function and the number of training and test data points. Lastly, we use the theoretical results to derive upper bounds for adaptive optimization algorithms under the transductive learning setting. We also apply them to semi-supervised learning and transductive graph learning scenarios, meanwhile validating the derived bounds by experiments on synthetic and real-world datasets.",
+ "primary": "cs.LG"
+}

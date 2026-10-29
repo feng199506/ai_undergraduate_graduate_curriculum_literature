@@ -1,0 +1,18 @@
+{
+ "id": "2608.28674",
+ "title": "Multi-exposure HDR Imaging: A Review of Pixel-level and Feature-level Reconstruction Methods",
+ "authors": [
+  "Qian Tao",
+  "Wei Wang",
+  "Chaobing Zheng",
+  "Zhengguo Li"
+ ],
+ "v1_date": "2026-08-25",
+ "latest_version": 1,
+ "latest_date": "2026-08-25",
+ "journal_ref": "Sensors 2026, 26(14), 4649",
+ "doi": "10.3390/s26144649",
+ "comment": "Published in Sensors, 2026, 26(14), 4649",
+ "abstract": "Multi-exposure is an efficient way to capture real-world high-dynamic-range (HDR) scenes. However, HDR imaging suffers from severe ghosting artifacts in dynamic scenes due to the temporal gap between sequential exposures. In this article, we categorize the literature on two important topics on HDR imaging: multi-exposure fusion (MEF) and ghost removal. Conventional filter-based and data-driven methods are studied in pixel space and feature space. For popular deep learning-based approaches, we provide a granular taxonomy based on their alignment and fusion domains: pixel-space methods, which typically employ explicit motion compensation such as optical flow or spatial transformers, and feature-space methods, which leverage implicit alignment through deformable convolutions, attention mechanisms, or latent representation merging. Representative works are compared across different supervision settings, and key design principles are summarized. In addition, this survey summarizes commonly used datasets and evaluation metrics, discussing their applicability under diverse output forms. Finally, major bottlenecks and promising directions for future research are outlined.",
+ "primary": "cs.CV"
+}

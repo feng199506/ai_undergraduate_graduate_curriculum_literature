@@ -1,0 +1,24 @@
+{
+ "id": "2312.08890",
+ "title": "Defenses in Adversarial Machine Learning: A Survey",
+ "authors": [
+  "Baoyuan Wu",
+  "Shaokui Wei",
+  "Mingli Zhu",
+  "Meixi Zheng",
+  "Zihao Zhu",
+  "Mingda Zhang",
+  "Hongrui Chen",
+  "Danni Yuan",
+  "Li Liu",
+  "Qingshan Liu"
+ ],
+ "v1_date": "2023-12-13",
+ "latest_version": 1,
+ "latest_date": "2023-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 5 figures, 2 tables, 237 reference papers",
+ "abstract": "Adversarial phenomenon has been widely observed in machine learning (ML) systems, especially in those using deep neural networks, describing that ML systems may produce inconsistent and incomprehensible predictions with humans at some particular cases. This phenomenon poses a serious security threat to the practical application of ML systems, and several advanced attack paradigms have been developed to explore it, mainly including backdoor attacks, weight attacks, and adversarial examples. For each individual attack paradigm, various defense paradigms have been developed to improve the model robustness against the corresponding attack paradigm. However, due to the independence and diversity of these defense paradigms, it is difficult to examine the overall robustness of an ML system against different kinds of attacks.This survey aims to build a systematic review of all existing defense paradigms from a unified perspective. Specifically, from the life-cycle perspective, we factorize a complete machine learning system into five stages, including pre-training, training, post-training, deployment, and inference stages, respectively. Then, we present a clear taxonomy to categorize and review representative defense methods at each individual stage. The unified perspective and presented taxonomies not only facilitate the analysis of the mechanism of each defense paradigm but also help us to understand connections and differences among different defense paradigms, which may inspire future research to develop more advanced, comprehensive defenses.",
+ "primary": "cs.CV"
+}

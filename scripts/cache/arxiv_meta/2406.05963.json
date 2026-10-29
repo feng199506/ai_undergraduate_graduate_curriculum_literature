@@ -1,0 +1,23 @@
+{
+ "id": "2406.05963",
+ "title": "Solution for SMART-101 Challenge of CVPR Multi-modal Algorithmic Reasoning Task 2024",
+ "authors": [
+  "Jinwoo Ahn",
+  "Junhyeok Park",
+  "Min-Jun Kim",
+  "Kang-Hyeon Kim",
+  "So-Yeong Sohn",
+  "Yun-Ji Lee",
+  "Du-Seong Chang",
+  "Yu-Jung Heo",
+  "Eun-Sol Kim"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 1,
+ "latest_date": "2024-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, the solution of HYU MLLAB KT Team to the Multimodal Algorithmic Reasoning Task: SMART-101 CVPR 2024 Challenge is presented. Beyond conventional visual question-answering problems, the SMART-101 challenge aims to achieve human-level multimodal understanding by tackling complex visio-linguistic puzzles designed for children in the 6-8 age group. To solve this problem, we suggest two main ideas. First, to utilize the reasoning ability of a large-scale language model (LLM), the given visual cues (images) are grounded in the text modality. For this purpose, we generate highly detailed text captions that describe the context of the image and use these captions as input for the LLM. Second, due to the nature of puzzle images, which often contain various geometric visual patterns, we utilize an object detection algorithm to ensure these patterns are not overlooked in the captioning process. We employed the SAM algorithm, which can detect various-size objects, to capture the visual features of these geometric patterns and used this information as input for the LLM. Under the puzzle split configuration, we achieved an option selection accuracy Oacc of 29.5 on the test set and a weighted option selection accuracy (WOSA) of 27.1 on the challenge set.",
+ "primary": "cs.CV"
+}

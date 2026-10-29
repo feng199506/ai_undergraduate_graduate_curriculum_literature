@@ -1,0 +1,18 @@
+{
+ "id": "2406.08148",
+ "title": "Probing Implicit Bias in Semi-gradient Q-learning: Visualizing the Effective Loss Landscapes via the Fokker--Planck Equation",
+ "authors": [
+  "Shuyu Yin",
+  "Fei Wen",
+  "Peilin Liu",
+  "Tao Luo"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 1,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semi-gradient Q-learning is applied in many fields, but due to the absence of an explicit loss function, studying its dynamics and implicit bias in the parameter space is challenging. This paper introduces the Fokker--Planck equation and employs partial data obtained through sampling to construct and visualize the effective loss landscape within a two-dimensional parameter space. This visualization reveals how the global minima in the loss landscape can transform into saddle points in the effective loss landscape, as well as the implicit bias of the semi-gradient method. Additionally, we demonstrate that saddle points, originating from the global minima in loss landscape, still exist in the effective loss landscape under high-dimensional parameter spaces and neural network settings. This paper develop a novel approach for probing implicit bias in semi-gradient Q-learning.",
+ "primary": "cs.LG"
+}

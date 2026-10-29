@@ -1,0 +1,18 @@
+{
+ "id": "2509.24906",
+ "title": "Neural network embeddings recover value dimensions from psychometric survey items on par with human data",
+ "authors": [
+  "Max Pellert",
+  "Clemens M. Lechner",
+  "Indira Sen",
+  "Markus Strohmaier"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We demonstrate that embeddings derived from large language models, when processed with \"Survey and Questionnaire Item Embeddings Differentials\" (SQuID), can recover the structure of human values obtained from human rater judgments on the Revised Portrait Value Questionnaire (PVQ-RR). We compare multiple embedding models across a number of evaluation metrics including internal consistency, dimension correlations and multidimensional scaling configurations. Unlike previous approaches, SQuID addresses the challenge of obtaining negative correlations between dimensions without requiring domain-specific fine-tuning or training data re-annotation. Quantitative analysis reveals that our embedding-based approach explains 55% of variance in dimension-dimension similarities compared to human data. Multidimensional scaling configurations show alignment with pooled human data from 49 different countries. Generalizability tests across three personality inventories (IPIP, BFI-2, HEXACO) demonstrate that SQuID consistently increases correlation ranges, suggesting applicability beyond value theory. These results show that semantic embeddings can effectively replicate psychometric structures previously established through extensive human surveys. The approach offers substantial advantages in cost, scalability and flexibility while maintaining comparable quality to traditional methods. Our findings have significant implications for psychometrics and social science research, providing a complementary methodology that could expand the scope of human behavior and experience represented in measurement tools.",
+ "primary": "cs.AI"
+}

@@ -1,20 +1,86 @@
 [
- {"q": "(ti:survey OR ti:review) AND abs:\"automatic differentiation\"", "subtopic": "自动微分"},
- {"q": "(ti:tutorial OR ti:primer OR ti:introduction OR ti:\"lecture notes\") AND abs:\"deep learning\" AND cat:cs.LG", "subtopic": "深度学习教程"},
- {"q": "(ti:survey OR ti:review) AND abs:transformer AND abs:architecture AND cat:cs.LG", "subtopic": "网络结构"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"state space model\" OR abs:mamba)", "subtopic": "网络结构"},
- {"q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"efficient attention\" OR abs:\"linear attention\")", "subtopic": "网络结构"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:optimizer AND abs:\"deep learning\" AND cat:cs.LG", "subtopic": "优化器"},
- {"q": "abs:optimizer AND (abs:\"neural network training\" OR abs:benchmark) AND (ti:Adam OR ti:optimizer OR ti:Muon OR ti:Shampoo)", "subtopic": "优化器"},
- {"q": "(ti:survey OR ti:review) AND (abs:regularization OR abs:\"data augmentation\" OR abs:dropout) AND cat:cs.LG", "subtopic": "正则化"},
- {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"representation learning\" OR abs:\"self-supervised learning\") AND cat:cs.LG", "subtopic": "表示学习"},
- {"q": "(ti:survey OR ti:review) AND abs:\"contrastive learning\"", "subtopic": "表示学习"},
- {"q": "(ti:\"scaling law\" OR ti:\"scaling laws\") AND cat:cs.LG", "subtopic": "训练与调试"},
- {"q": "(ti:survey OR ti:review) AND (abs:normalization OR abs:initialization) AND abs:\"neural network\"", "subtopic": "训练与调试"},
- {"q": "(ti:tutorial OR ti:guide OR ti:recipe OR ti:practical) AND abs:\"training\" AND abs:\"neural networks\" AND cat:cs.LG", "subtopic": "训练与调试"},
- {"q": "(ti:survey OR ti:review) AND (abs:\"loss landscape\" OR abs:\"generalization\") AND abs:\"deep learning\" AND cat:cs.LG", "subtopic": "训练与调试"},
- {"q": "(ti:survey OR ti:review) AND (abs:\"knowledge distillation\" OR abs:pruning OR abs:quantization) AND cat:cs.LG", "subtopic": "训练与调试"},
- {"q": "(ti:survey OR ti:review) AND abs:\"deep learning theory\"", "subtopic": "深度学习理论"},
- {"q": "(ti:survey OR ti:review) AND (abs:\"graph neural\" OR abs:\"convolutional neural network\" OR abs:\"recurrent neural network\") AND abs:architecture", "subtopic": "网络结构"},
- {"q": "(ti:survey OR ti:review) AND (abs:\"hyperparameter\" OR abs:\"learning rate schedule\") AND cat:cs.LG", "subtopic": "训练与调试"}
+ {
+  "q": "(ti:survey OR ti:review) AND abs:\"automatic differentiation\"",
+  "subtopic": "自动微分"
+ },
+ {
+  "q": "(ti:tutorial OR ti:primer OR ti:introduction OR ti:\"lecture notes\") AND abs:\"deep learning\" AND cat:cs.LG",
+  "subtopic": "深度学习教程"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND abs:transformer AND abs:architecture AND cat:cs.LG",
+  "subtopic": "网络结构"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"state space model\" OR abs:mamba)",
+  "subtopic": "网络结构"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND (abs:\"mixture of experts\" OR abs:\"efficient attention\" OR abs:\"linear attention\")",
+  "subtopic": "网络结构"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND abs:optimizer AND abs:\"deep learning\" AND cat:cs.LG",
+  "subtopic": "优化器"
+ },
+ {
+  "q": "abs:optimizer AND (abs:\"neural network training\" OR abs:benchmark) AND (ti:Adam OR ti:optimizer OR ti:Muon OR ti:Shampoo)",
+  "subtopic": "优化器"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND (abs:regularization OR abs:\"data augmentation\" OR abs:dropout) AND cat:cs.LG",
+  "subtopic": "正则化"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:\"representation learning\" OR abs:\"self-supervised learning\") AND cat:cs.LG",
+  "subtopic": "表示学习"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND abs:\"contrastive learning\"",
+  "subtopic": "表示学习"
+ },
+ {
+  "q": "(ti:\"scaling law\" OR ti:\"scaling laws\") AND cat:cs.LG",
+  "subtopic": "训练与调试"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND (abs:normalization OR abs:initialization) AND abs:\"neural network\"",
+  "subtopic": "训练与调试"
+ },
+ {
+  "q": "(ti:tutorial OR ti:guide OR ti:recipe OR ti:practical) AND abs:\"training\" AND abs:\"neural networks\" AND cat:cs.LG",
+  "subtopic": "训练与调试"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND (abs:\"loss landscape\" OR abs:\"generalization\") AND abs:\"deep learning\" AND cat:cs.LG",
+  "subtopic": "训练与调试"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND (abs:\"knowledge distillation\" OR abs:pruning OR abs:quantization) AND cat:cs.LG",
+  "subtopic": "训练与调试"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND abs:\"deep learning theory\"",
+  "subtopic": "深度学习理论"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND (abs:\"graph neural\" OR abs:\"convolutional neural network\" OR abs:\"recurrent neural network\") AND abs:architecture",
+  "subtopic": "网络结构"
+ },
+ {
+  "q": "(ti:survey OR ti:review) AND (abs:\"hyperparameter\" OR abs:\"learning rate schedule\") AND cat:cs.LG",
+  "subtopic": "训练与调试"
+ },
+ {
+  "q": "(ti:\"automatic differentiation\" OR ti:autodiff OR ti:backpropagation OR ti:\"differentiable programming\") AND (cat:cs.LG OR cat:cs.MS OR cat:cs.PL)",
+  "subtopic": "自动微分"
+ },
+ {
+  "q": "abs:\"automatic differentiation\" AND (ti:tutorial OR ti:review OR ti:introduction OR ti:survey OR ti:primer)",
+  "subtopic": "自动微分"
+ },
+ {
+  "q": "(ti:tutorial OR ti:\"lecture notes\" OR ti:introduction OR ti:primer) AND (abs:\"neural networks\" OR abs:transformer) AND cat:cs.LG",
+  "subtopic": "深度学习教程"
+ }
 ]

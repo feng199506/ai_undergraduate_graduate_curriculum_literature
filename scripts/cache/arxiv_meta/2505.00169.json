@@ -1,0 +1,18 @@
+{
+ "id": "2505.00169",
+ "title": "GEOM-Drugs Revisited: Toward More Chemically Accurate Benchmarks for 3D Molecule Generation",
+ "authors": [
+  "Filipp Nikitin",
+  "Ian Dunn",
+  "David Ryan Koes",
+  "Olexandr Isayev"
+ ],
+ "v1_date": "2025-04-30",
+ "latest_version": 2,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep generative models have shown significant promise in generating valid 3D molecular structures, with the GEOM-Drugs dataset serving as a key benchmark. However, current evaluation protocols suffer from critical flaws, including incorrect valency definitions, bugs in bond order calculations, and reliance on force fields inconsistent with the reference data. In this work, we revisit GEOM-Drugs and propose a corrected evaluation framework: we identify and fix issues in data preprocessing, construct chemically accurate valency tables, and introduce a GFN2-xTB-based geometry and energy benchmark. We retrain and re-evaluate several leading models under this framework, providing updated performance metrics and practical recommendations for future benchmarking. Our results underscore the need for chemically rigorous evaluation practices in 3D molecular generation. Our recommended evaluation methods and GEOM-Drugs processing scripts are available at https://github.com/isayevlab/geom-drugs-3dgen-evaluation.",
+ "primary": "cs.LG"
+}

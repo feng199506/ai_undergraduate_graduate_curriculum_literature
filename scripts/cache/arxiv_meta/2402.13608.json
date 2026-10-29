@@ -1,0 +1,16 @@
+{
+ "id": "2402.13608",
+ "title": "Convergence Acceleration of Markov Chain Monte Carlo-based Gradient Descent by Deep Unfolding",
+ "authors": [
+  "Ryo Hagiwara",
+  "Satoshi Takabe"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 1,
+ "latest_date": "2024-02-21",
+ "journal_ref": "",
+ "doi": "10.7566/jpsj.93.063801",
+ "comment": "10 pages, 5 figures",
+ "abstract": "This study proposes a trainable sampling-based solver for combinatorial optimization problems (COPs) using a deep-learning technique called deep unfolding. The proposed solver is based on the Ohzeki method that combines Markov-chain Monte-Carlo (MCMC) and gradient descent, and its step sizes are trained by minimizing a loss function. In the training process, we propose a sampling-based gradient estimation that substitutes auto-differentiation with a variance estimation, thereby circumventing the failure of back propagation due to the non-differentiability of MCMC. The numerical results for a few COPs demonstrated that the proposed solver significantly accelerated the convergence speed compared with the original Ohzeki method.",
+ "primary": "cond-mat.dis-nn"
+}

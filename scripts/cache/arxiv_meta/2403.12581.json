@@ -1,0 +1,16 @@
+{
+ "id": "2403.12581",
+ "title": "An Upper Bound on the Weisfeiler-Leman Dimension",
+ "authors": [
+  "Thomas Schneider",
+  "Pascal Schweitzer"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 2,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Weisfeiler-Leman (WL) algorithms form a family of incomplete approaches to the graph isomorphism problem. They recently found various applications in algorithmic group theory and machine learning. In fact, the algorithms form a parameterized family: for each $k \\in \\mathbb{N}$ there is a corresponding $k$-dimensional algorithm $\\texttt{WLk}$. The algorithms become increasingly powerful with increasing dimension, but at the same time the running time increases. The WL-dimension of a graph $G$ is the smallest $k \\in \\mathbb{N}$ for which $\\texttt{WLk}$ correctly decides isomorphism between $G$ and every other graph. In some sense, the WL-dimension measures how difficult it is to test isomorphism of one graph to others using a fairly general class of combinatorial algorithms. Nowadays, it is a standard measure in descriptive complexity theory for the structural complexity of a graph. We prove that the WL-dimension of a graph on $n$ vertices is at most $3/20 \\cdot n + o(n) = 0.15 \\cdot n + o(n)$. Reducing the question to coherent configurations, the proof develops various techniques to analyze their structure. This includes sufficient conditions under which a fiber can be restored uniquely up to isomorphism if it is removed, a recursive proof exploiting a degree reduction and treewidth bounds, as well as an exhaustive analysis of interspaces involving small fibers. As a base case, we also analyze the dimension of coherent configurations with small fiber size and thereby graphs with small color class size.",
+ "primary": "cs.DM"
+}

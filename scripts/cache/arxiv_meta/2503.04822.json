@@ -1,0 +1,18 @@
+{
+ "id": "2503.04822",
+ "title": "HeTGB: A Comprehensive Benchmark for Heterophilic Text-Attributed Graphs",
+ "authors": [
+  "Shujie Li",
+  "Yuxia Wu",
+  "Yuan Fang",
+  "Chuan Shi"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 2,
+ "latest_date": "2026-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EMNLP Findings, 2026",
+ "abstract": "Graph neural networks (GNNs) have demonstrated success in modeling relational data primarily under the assumption of homophily. However, many real-world graphs exhibit heterophily, where linked nodes belong to different categories or possess diverse attributes, such as webpages, Wikipedia articles, social networks, and e-commerce platforms. Additionally, nodes in many domains are associated with textual descriptions, forming heterophilic text-attributed graphs (TAGs). Despite their significance, heterophilic TAGs remain underexplored due to the lack of dedicated benchmarks that jointly capture heterophilic structures and rich textual attributes. To address this gap, we introduce the \\textbf{He}terophilic \\textbf{T}ext-attributed \\textbf{G}raph \\textbf{B}enchmark (HeTGB), a novel benchmark comprising five real-world heterophilic graph datasets from diverse domains, with nodes enriched by extensive textual descriptions. HeTGB enables systematic evaluation of GNNs, pre-trained language models (PLMs) and co-training methods on the node classification task. Through extensive benchmarking experiments, we showcase the utility of text attributes in heterophilic graphs, analyze the challenges posed by heterophilic TAGs and the limitations of existing models, and provide insights into the interplay between graph structures and textual attributes.",
+ "primary": "cs.CL"
+}

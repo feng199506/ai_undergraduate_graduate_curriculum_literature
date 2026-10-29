@@ -1,0 +1,15 @@
+{
+ "id": "2510.17220",
+ "title": "Exploiting the Potential of Linearity in Automatic Differentiation and Computational Cryptography",
+ "authors": [
+  "Giulia Giusti"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 1,
+ "latest_date": "2025-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The concept of linearity plays a central role in both mathematics and computer science, with distinct yet complementary meanings. In mathematics, linearity underpins functions and vector spaces, forming the foundation of linear algebra and functional analysis. In computer science, it relates to resource-sensitive computation. Linear Logic (LL), for instance, models assumptions that must be used exactly once, providing a natural framework for tracking computational resources such as time, memory, or data access. This dual perspective makes linearity essential to programming languages, type systems, and formal models that express both computational complexity and composability. Bridging these interpretations enables rigorous yet practical methodologies for analyzing and verifying complex systems. This thesis explores the use of LL to model programming paradigms based on linearity. It comprises two parts: ADLL and CryptoBLL. The former applies LL to Automatic Differentiation (AD), modeling linear functions over the reals and the transposition operation. The latter uses LL to express complexity constraints on adversaries in computational cryptography. In AD, two main approaches use linear type systems: a theoretical one grounded in proof theory, and a practical one implemented in JAX, a Python library developed by Google for machine learning research. In contrast, frameworks like PyTorch and TensorFlow support AD without linear types. ADLL aims to bridge theory and practice by connecting JAX's type system to LL. In modern cryptography, several calculi aim to model cryptographic proofs within the computational paradigm. These efforts face a trade-off between expressiveness, to capture reductions, and simplicity, to abstract probability and complexity. CryptoBLL addresses this tension by proposing a framework for the automatic analysis of protocols in computational cryptography.",
+ "primary": "cs.CR"
+}

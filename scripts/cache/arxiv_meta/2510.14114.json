@@ -1,0 +1,18 @@
+{
+ "id": "2510.14114",
+ "title": "Briding Diffusion Posterior Sampling and Monte Carlo methods: a survey",
+ "authors": [
+  "Yazid Janati",
+  "Alain Durmus",
+  "Jimmy Olsson",
+  "Eric Moulines"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 1,
+ "latest_date": "2025-10-15",
+ "journal_ref": "Philosophical Transactions A, 383(2299), 20240331 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion models enable the synthesis of highly accurate samples from complex distributions and have become foundational in generative modeling. Recently, they have demonstrated significant potential for solving Bayesian inverse problems by serving as priors. This review offers a comprehensive overview of current methods that leverage \\emph{pre-trained} diffusion models alongside Monte Carlo methods to address Bayesian inverse problems without requiring additional training. We show that these methods primarily employ a \\emph{twisting} mechanism for the intermediate distributions within the diffusion process, guiding the simulations toward the posterior distribution. We describe how various Monte Carlo methods are then used to aid in sampling from these twisted distributions.",
+ "primary": "cs.LG"
+}

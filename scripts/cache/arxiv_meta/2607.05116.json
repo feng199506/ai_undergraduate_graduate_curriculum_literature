@@ -1,0 +1,19 @@
+{
+ "id": "2607.05116",
+ "title": "Communication-Aware Placement and Pruning for Efficient Mixture-of-Experts Inference",
+ "authors": [
+  "Xiao Shi",
+  "Yingying Sun",
+  "Jiangsu Du",
+  "Zhiguang Chen",
+  "Yutong Lu"
+ ],
+ "v1_date": "2026-07-06",
+ "latest_version": 1,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12pages",
+ "abstract": "As MoE models scale to hundreds of experts, placement and pruning decisions increasingly dictate communication volume, affecting the performance of distributed inference across GPUs and nodes. We propose CAP (Communication-Aware Assignment and Pruning), a framework that considers computation, communication and accuracy together for efficient MoE inference through expert placement and pruning. It consists of three components: (1) Co-activation driven expert placement, which groups frequently co-activated experts to reduce inter-device and inter-node communication; (2) Communicationcomputation trade-off adjustment, which generates placements with different computational load and communication volume; and (3) Communication-aware expert pruning, which selectively removes routing destinations to reduce communication with limited accuracy degradation. By combining these components, CAP selects an efficient operating strategy for different hardware configurations. Across our single-node and multi-node experiments, it achieves 1.23x - 1.86 x throughput improvement over DeepSeek EPLB and sequential placement in vLLM, and preserves better model accuracy at the same target speedup under lossy acceleration.",
+ "primary": "cs.DC"
+}

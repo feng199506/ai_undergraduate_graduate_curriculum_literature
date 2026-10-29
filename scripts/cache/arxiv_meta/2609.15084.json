@@ -1,0 +1,17 @@
+{
+ "id": "2609.15084",
+ "title": "Shape calculus and automatic differentiation for multi-phase level-set topology optimisation with unfitted finite elements",
+ "authors": [
+  "Zachary J. Wegert",
+  "Martin Berggren",
+  "Vivien J. Challis"
+ ],
+ "v1_date": "2026-09-14",
+ "latest_version": 2,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Minus sign was noted to be missing in (57). We fix all places where this appears",
+ "abstract": "We present shape calculus techniques and a scalable automatic shape differentiation framework for multi-phase topology optimisation on unfitted discretisations defined by several level-set functions. First we establish general, exact shape calculus expressions in the discrete case for multi-phase systems by leveraging concepts from convex geometry. To complement this theoretical foundation, we introduce an open-source multi-phase automatic shape differentiation framework based on polytopal cutting. This computational framework is validated against both finite differences and our established exact expressions, matching the latter to near machine precision. Furthermore, the proposed automatic shape differentiation is scalable across distributed computing environments, demonstrating near ideal weak scaling up to 1.65 billion finite elements across 13,824 computer cores. We demonstrate our implementation by solving unfitted multi-phase topology optimisation problems for anisotropic diffusion, linear elasticity, and fluid--structure interaction. Together, these theoretical and computational contributions provide a robust and accessible foundation for advancing multi-phase topology optimisation using unfitted finite element methods. In particular, the methods enable the solution of topology optimisation problems involving multi-phase and multi-physics systems with non-trivial boundary conditions. The open-source software is available at https://github.com/zjwegert/GridapTopOpt.jl.",
+ "primary": "math.NA"
+}

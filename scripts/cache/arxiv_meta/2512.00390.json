@@ -1,0 +1,20 @@
+{
+ "id": "2512.00390",
+ "title": "Mitigating the Threshold Priming Effect in Large Language Model-Based Relevance Judgments via Personality Infusing",
+ "authors": [
+  "Nuo Chen",
+  "Hanpei Fang",
+  "Jiqun Liu",
+  "Wilson Wei",
+  "Tetsuya Sakai",
+  "Xiao-Ming Wu"
+ ],
+ "v1_date": "2025-11-29",
+ "latest_version": 1,
+ "latest_date": "2025-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent research has explored LLMs as scalable tools for relevance labeling, but studies indicate they are susceptible to priming effects, where prior relevance judgments influence later ones. Although psychological theories link personality traits to such biases, it is unclear whether simulated personalities in LLMs exhibit similar effects. We investigate how Big Five personality profiles in LLMs influence priming in relevance labeling, using multiple LLMs on TREC 2021 and 2022 Deep Learning Track datasets. Our results show that certain profiles, such as High Openness and Low Neuroticism, consistently reduce priming susceptibility. Additionally, the most effective personality in mitigating priming may vary across models and task types. Based on these findings, we propose personality prompting as a method to mitigate threshold priming, connecting psychological evidence with LLM-based evaluation practices.",
+ "primary": "cs.CL"
+}

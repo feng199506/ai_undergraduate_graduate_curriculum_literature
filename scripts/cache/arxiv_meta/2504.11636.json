@@ -1,0 +1,17 @@
+{
+ "id": "2504.11636",
+ "title": "Scalable Efficient Inference in Complex Surveys through Targeted Resampling of Weights",
+ "authors": [
+  "Snigdha Das",
+  "Dipankar Bandyopadhyay",
+  "Debdeep Pati"
+ ],
+ "v1_date": "2025-04-15",
+ "latest_version": 1,
+ "latest_date": "2025-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 5 figures",
+ "abstract": "Survey data often arises from complex sampling designs, such as stratified or multistage sampling, with unequal inclusion probabilities. When sampling is informative, traditional inference methods yield biased estimators and poor coverage. Classical pseudo-likelihood based methods provide accurate asymptotic inference but lack finite-sample uncertainty quantification and the ability to integrate prior information. Existing Bayesian approaches, like the Bayesian pseudo-posterior estimator and weighted Bayesian bootstrap, have limitations; the former struggles with uncertainty quantification, while the latter is computationally intensive and sensitive to bootstrap replicates. To address these challenges, we propose the Survey-adjusted Weighted Likelihood Bootstrap (S-WLB), which resamples weights from a carefully chosen distribution centered around the underlying sampling weights. S-WLB is computationally efficient, theoretically consistent, and delivers finite-sample uncertainty intervals which are proven to be asymptotically valid. We demonstrate its performance through simulations and applications to nationally representative survey datasets like NHANES and NSDUH.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2407.10916",
+ "title": "When Heterophily Meets Heterogeneity: Challenges and a New Large-Scale Graph Benchmark",
+ "authors": [
+  "Junhong Lin",
+  "Xiaojie Guo",
+  "Shuaicheng Zhang",
+  "Yada Zhu",
+  "Julian Shun"
+ ],
+ "v1_date": "2024-07-15",
+ "latest_version": 2,
+ "latest_date": "2025-06-03",
+ "journal_ref": "",
+ "doi": "10.1145/3711896.3737421",
+ "comment": "This work has been accepted to the KDD 2025 Datasets and Benchmarks Track",
+ "abstract": "Graph mining has become crucial in fields such as social science, finance, and cybersecurity. Many large-scale real-world networks exhibit both heterogeneity, where multiple node and edge types exist in the graph, and heterophily, where connected nodes may have dissimilar labels and attributes. However, existing benchmarks primarily focus on either heterophilic homogeneous graphs or homophilic heterogeneous graphs, leaving a significant gap in understanding how models perform on graphs with both heterogeneity and heterophily. To bridge this gap, we introduce H2GB, a large-scale node-classification graph benchmark that brings together the complexities of both the heterophily and heterogeneity properties of real-world graphs. H2GB encompasses 9 real-world datasets spanning 5 diverse domains, 28 baseline models, and a unified benchmarking library with a standardized data loader, evaluator, unified modeling framework, and an extensible framework for reproducibility. We establish a standardized workflow supporting both model selection and development, enabling researchers to easily benchmark graph learning methods. Extensive experiments across 28 baselines reveal that current methods struggle with heterophilic and heterogeneous graphs, underscoring the need for improved approaches. Finally, we present a new variant of the model, H2G-former, developed following our standardized workflow, that excels at this challenging benchmark. Both the benchmark and the framework are publicly available at Github and PyPI, with documentation hosted at https://junhongmit.github.io/H2GB.",
+ "primary": "cs.LG"
+}

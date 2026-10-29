@@ -1,0 +1,18 @@
+{
+ "id": "2601.11821",
+ "title": "Shapelets-Enriched Selective Forecasting using Time Series Foundation Models",
+ "authors": [
+  "Shivani Tomar",
+  "Seshu Tirupathi",
+  "Elizabeth Daly",
+  "Ivana Dusparic"
+ ],
+ "v1_date": "2026-01-16",
+ "latest_version": 1,
+ "latest_date": "2026-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by the AAAI-26 Workshop on Artificial Intelligence for Time Series Analysis (AI4TS)",
+ "abstract": "Time series foundation models have recently gained a lot of attention due to their ability to model complex time series data encompassing different domains including traffic, energy, and weather. Although they exhibit strong average zero-shot performance on forecasting tasks, their predictions on certain critical regions of the data are not always reliable, limiting their usability in real-world applications, especially when data exhibits unique trends. In this paper, we propose a selective forecasting framework to identify these critical segments of time series using shapelets. We learn shapelets using shift-invariant dictionary learning on the validation split of the target domain dataset. Utilizing distance-based similarity to these shapelets, we facilitate the user to selectively discard unreliable predictions and be informed of the model's realistic capabilities. Empirical results on diverse benchmark time series datasets demonstrate that our approach leveraging both zero-shot and full-shot fine-tuned models reduces the overall error by an average of 22.17% for zero-shot and 22.62% for full-shot fine-tuned model. Furthermore, our approach using zero-shot and full-shot fine-tuned models, also outperforms its random selection counterparts by up to 21.41% and 21.43% on one of the datasets.",
+ "primary": "cs.LG"
+}

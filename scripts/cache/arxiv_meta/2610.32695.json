@@ -1,0 +1,18 @@
+{
+ "id": "2610.32695",
+ "title": "Tile-Based Decompression in Compiled GPU Engines",
+ "authors": [
+  "Antonio Boffa",
+  "Ananya Gupta",
+  "Hamish Nicholson",
+  "Anastasia Ailamaki"
+ ],
+ "v1_date": "2026-10-23",
+ "latest_version": 1,
+ "latest_date": "2026-10-23",
+ "journal_ref": "Proc. VLDB Endow. 20 (2026)",
+ "doi": "10.14778/3849423.3849445",
+ "comment": "15 pages, 6 figures, 3 tables. Accepted to PVLDB Vol. 20",
+ "abstract": "Modern GPUs reach record analytical performance only when a query's working set fits within its GPU memory budget, and that budget is under growing pressure: GPUs are partitioned and shared, working sets are outgrowing high-bandwidth memory (HBM), and HBM is a fixed on-device resource whose per-dollar capacity has stagnated across generations. Lightweight compression can relieve this pressure by shrinking both footprint and bandwidth demand, but existing GPU compressed-execution techniques either bind decompression to a specific execution model or materialize decompressed columns in HBM before query execution. We present a compression subsystem for compiled GPU query engines that treats decompression as a first-class physical operator. Compression-specific logic is isolated behind a narrow backend interface, so new GPU-oriented encodings can be added without rewriting downstream operators. We implement the design in Proteus and study where decompressed values should be materialized in the GPU memory hierarchy. Our compiler-integrated shared-memory strategy fuses cooperative tile decompression with tuple-at-a-time query execution inside a single generated GPU kernel, avoiding decompressed-column materialization in HBM. Compared with HeavyDB and Sirius on GPU-resident data, fused on-chip decompression achieves competitive query times while reducing the resident memory footprint by up to 4x and memory-bandwidth consumption by up to 6x.",
+ "primary": "cs.DB"
+}

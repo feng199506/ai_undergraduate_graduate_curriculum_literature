@@ -1,0 +1,17 @@
+{
+ "id": "2409.14844",
+ "title": "Evaluating Robot Influence on Pedestrian Behavior Models for Crowd Simulation and Benchmarking",
+ "authors": [
+  "Subham Agrawal",
+  "Nils Dengler",
+  "Maren Bennewitz"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 1,
+ "latest_date": "2024-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The presence of robots amongst pedestrians affects them causing deviation to their trajectories. Existing methods suffer from the limitation of not being able to objectively measure this deviation in unseen cases. In order to solve this issue, we introduce a simulation framework that repetitively measures and benchmarks the deviation in trajectory of pedestrians due to robots driven by different navigation algorithms. We simulate the deviation behavior of the pedestrians using an enhanced Social Force Model (SFM) with a robot force component that accounts for the influence of robots on pedestrian behavior, resulting in the Social Robot Force Model (SRFM). Parameters for this model are learned using the pedestrian trajectories from the JRDB dataset. Pedestrians are then simulated using the SRFM with and without the robot force component to objectively measure the deviation to their trajectory caused by the robot in 5 different scenarios. Our work in this paper is a proof of concept that shows objectively measuring the pedestrian reaction to robot is possible. We use our simulation to train two different RL policies and evaluate them against traditional navigation models.",
+ "primary": "cs.RO"
+}

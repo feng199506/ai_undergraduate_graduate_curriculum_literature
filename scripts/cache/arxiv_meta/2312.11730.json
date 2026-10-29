@@ -1,0 +1,15 @@
+{
+ "id": "2312.11730",
+ "title": "Stronger Graph Transformer with Regularized Attention Scores",
+ "authors": [
+  "Eugene Ku"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 4,
+ "latest_date": "2024-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph Neural Networks are notorious for its memory consumption. A recent Transformer-based GNN called Graph Transformer is shown to obtain superior performances when long range dependencies exist. However, combining graph data and Transformer architecture led to a combinationally worse memory issue. We propose a novel version of \"edge regularization technique\" that alleviates the need for Positional Encoding and ultimately alleviate GT's out of memory issue. We observe that it is not clear whether having an edge regularization on top of positional encoding is helpful. However, it seems evident that applying our edge regularization technique indeed stably improves GT's performance compared to GT without Positional Encoding.",
+ "primary": "cs.LG"
+}

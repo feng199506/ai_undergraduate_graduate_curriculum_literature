@@ -1,0 +1,16 @@
+{
+ "id": "2406.15531",
+ "title": "cp3-bench: A tool for benchmarking symbolic regression algorithms tested with cosmology",
+ "authors": [
+  "Mattias E. Thing",
+  "Sofie M. Koksbang"
+ ],
+ "v1_date": "2024-06-21",
+ "latest_version": 2,
+ "latest_date": "2024-12-16",
+ "journal_ref": "JCAP01(2025)040",
+ "doi": "10.1088/1475-7516/2025/01/040",
+ "comment": "45 pages, 26 tables, 2 figures. v2: 72 pages. Extended benchmark to 12 algorithms and 28 datasets + clarified text. Matches version accepted for publication in JCAP",
+ "abstract": "We introduce cp3-bench, a tool for comparing symbolic regression algorithms which we make publicly available at https://github.com/CP3-Origins/cp3-bench. Currently, cp3-bench includes 12 symbolic regression algorithms which can be automatically installed as part of cp3-bench. The philosophy behind cp3-bench is that it should be as user-friendly as possible, available in a ready-to-use format, and allow for easy additions of new algorithms and datasets. Our hope is that users of symbolic regression algorithms can use cp3-bench to easily install and compare symbolic regression algorithms to better decide which algorithms to use for their specific tasks at hand. To introduce and motivate the use of cp3-bench we present a benchmark of 12 symbolic regression algorithms applied to 28 datasets representing six different astrophysical setups. Overall, we find that most of the benched algorithms do poorly in the benchmark and suggest possible ways to proceed with developing algorithms that will be better at identifying ground truth expressions for cosmological datasets. Our demonstration benchmark studies the significance of dimensionality of the feature space and precision of datasets. We find both to be highly important for symbolic regression tasks to be successful. On the other hand, we find no indication that inter-dependence of features in datasets is important, i.e. it is not in general a hindrance for symbolic regression algorithms if datasets e.g. contain both $z$ and $H(z)$ as features. Lastly, we find no indication that performance of algorithms on standardized datasets are good indicators of performance on particular astrophysical datasets. This suggests that it is not necessarily prudent to choose symbolic regression algorithms based on their performance on standardized data. A more robust approach is to consider a variety of algorithms, chosen based on the particular task at hand.",
+ "primary": "astro-ph.IM"
+}

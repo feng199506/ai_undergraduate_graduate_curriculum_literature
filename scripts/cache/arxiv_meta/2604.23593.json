@@ -1,0 +1,24 @@
+{
+ "id": "2604.23593",
+ "title": "When AI reviews science: Can we trust the referee?",
+ "authors": [
+  "Jialiang Wang",
+  "Yuchen Liu",
+  "Hang Xu",
+  "Kaichun Hu",
+  "Shimin Di",
+  "Wangze Ni",
+  "Linan Yue",
+  "Min-Ling Zhang",
+  "Kui Ren",
+  "Lei Chen"
+ ],
+ "v1_date": "2026-04-26",
+ "latest_version": 1,
+ "latest_date": "2026-04-26",
+ "journal_ref": "The Innovation Informatics 2:100030 (2026)",
+ "doi": "10.59717/j.xinn-inform.2026.100030",
+ "comment": "",
+ "abstract": "The volume of scientific submissions continues to climb, outpacing the capacity of qualified human referees and stretching editorial timelines. At the same time, modern large language models (LLMs) offer impressive capabilities in summarization, fact checking, and literature triage, making the integration of AI into peer review increasingly attractive -- and, in practice, unavoidable. Yet early deployments and informal adoption have exposed acute failure modes. Recent incidents have revealed that hidden prompt injections embedded in manuscripts can steer LLM-generated reviews toward unjustifiably positive judgments. Complementary studies have also demonstrated brittleness to adversarial phrasing, authority and length biases, and hallucinated claims. These episodes raise a central question for scholarly communication: when AI reviews science, can we trust the AI referee? This paper provides a security- and reliability-centered analysis of AI peer review. We map attacks across the review lifecycle -- training and data retrieval, desk review, deep review, rebuttal, and system-level. We instantiate this taxonomy with four treatment-control probes on a stratified set of ICLR 2025 submissions, using two advanced LLM-based referees to isolate the causal effects of prestige framing, assertion strength, rebuttal sycophancy, and contextual poisoning on review scores. Together, this taxonomy and experimental audit provide an evidence-based baseline for assessing and tracking the reliability of AI peer review and highlight concrete failure points to guide targeted, testable mitigations.",
+ "primary": "cs.AI"
+}

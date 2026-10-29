@@ -1,0 +1,26 @@
+{
+ "id": "2502.14914",
+ "title": "CAPability: A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Thoroughness",
+ "authors": [
+  "Zhihang Liu",
+  "Chen-Wei Xie",
+  "Bin Wen",
+  "Feiwu Yu",
+  "Jixuan Chen",
+  "Pandeng Li",
+  "Boqiang Zhang",
+  "Nianzu Yang",
+  "Yinglu Li",
+  "Zuan Gao",
+  "Yun Zheng",
+  "Hongtao Xie"
+ ],
+ "v1_date": "2025-02-19",
+ "latest_version": 4,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2025",
+ "abstract": "Visual captioning benchmarks have become outdated with the emergence of modern multimodal large language models (MLLMs), as the brief ground-truth sentences and traditional metrics fail to assess detailed captions effectively. While recent benchmarks attempt to address this by focusing on keyword extraction or object-centric evaluation, they remain limited to vague-view or object-view analyses and incomplete visual element coverage. In this paper, we introduce CAPability, a comprehensive multi-view benchmark for evaluating visual captioning across 12 dimensions spanning six critical views. We curate nearly 11K human-annotated images and videos with visual element annotations to evaluate the generated captions. CAPability stably assesses both the correctness and thoroughness of captions with \\textit{precision} and \\textit{hit} metrics. By converting annotations to QA pairs, we further introduce a heuristic metric, \\textit{know but cannot tell} ($K\\bar{T}$), indicating a significant performance gap between QA and caption capabilities. Our work provides a holistic analysis of MLLMs' captioning abilities, as we identify their strengths and weaknesses across various dimensions, guiding future research to enhance specific aspects of their capabilities.",
+ "primary": "cs.CV"
+}

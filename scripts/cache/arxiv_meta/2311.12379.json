@@ -1,0 +1,18 @@
+{
+ "id": "2311.12379",
+ "title": "Infinite forecast combinations based on Dirichlet process",
+ "authors": [
+  "Yinuo Ren",
+  "Feng Li",
+  "Yanfei Kang",
+  "Jue Wang"
+ ],
+ "v1_date": "2023-11-21",
+ "latest_version": 2,
+ "latest_date": "2023-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Forecast combination integrates information from various sources by consolidating multiple forecast results from the target time series. Instead of the need to select a single optimal forecasting model, this paper introduces a deep learning ensemble forecasting model based on the Dirichlet process. Initially, the learning rate is sampled with three basis distributions as hyperparameters to convert the infinite mixture into a finite one. All checkpoints are collected to establish a deep learning sub-model pool, and weight adjustment and diversity strategies are developed during the combination process. The main advantage of this method is its ability to generate the required base learners through a single training process, utilizing the decaying strategy to tackle the challenge posed by the stochastic nature of gradient descent in determining the optimal learning rate. To ensure the method's generalizability and competitiveness, this paper conducts an empirical analysis using the weekly dataset from the M4 competition and explores sensitivity to the number of models to be combined. The results demonstrate that the ensemble model proposed offers substantial improvements in prediction accuracy and stability compared to a single benchmark model.",
+ "primary": "cs.LG"
+}

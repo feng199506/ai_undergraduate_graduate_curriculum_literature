@@ -1,0 +1,17 @@
+{
+ "id": "2609.31253",
+ "title": "Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings",
+ "authors": [
+  "Ekaterina Trushkova",
+  "Artur Gimranov",
+  "Anton Lysenko"
+ ],
+ "v1_date": "2026-09-25",
+ "latest_version": 1,
+ "latest_date": "2026-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "CIKM 2026",
+ "abstract": "Sequential recommenders typically rely on learnable positional embeddings to encode the order of user interactions. In this work, we ask whether this ordinal signal can be replaced by a structural one derived from the item space. We propose to use Laplacian positional embeddings in SASRec: we build an item co-occurrence graph from training interactions, compute eigenvectors of its symmetric normalized Laplacian, and use them as frozen graph-derived positional embeddings. The backbone architecture and training objective remain unchanged. Experiments on four public sequential-recommendation benchmarks show that this simple replacement improves SASRec performance on most ranking metrics and remains competitive with strong positional and temporal encoding baselines. These findings indicate that item-item graph structure can be an effective substitute for standard ordinal positional embeddings in sequential recommendation.",
+ "primary": "cs.IR"
+}

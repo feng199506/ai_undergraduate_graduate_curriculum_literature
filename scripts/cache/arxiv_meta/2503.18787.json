@@ -1,0 +1,18 @@
+{
+ "id": "2503.18787",
+ "title": "Sample-Efficient Reinforcement Learning of Koopman eNMPC",
+ "authors": [
+  "Daniel Mayfrank",
+  "Mehmet Velioglu",
+  "Alexander Mitsos",
+  "Manuel Dahmen"
+ ],
+ "v1_date": "2025-03-24",
+ "latest_version": 2,
+ "latest_date": "2025-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 9 figures, 2 tables",
+ "abstract": "Reinforcement learning (RL) can be used to tune data-driven (economic) nonlinear model predictive controllers ((e)NMPCs) for optimal performance in a specific control task by optimizing the dynamic model or parameters in the policy's objective function or constraints, such as state bounds. However, the sample efficiency of RL is crucial, and to improve it, we combine a model-based RL algorithm with our published method that turns Koopman (e)NMPCs into automatically differentiable policies. We apply our approach to an eNMPC case study of a continuous stirred-tank reactor (CSTR) model from the literature. The approach outperforms benchmark methods, i.e., data-driven eNMPCs using models based on system identification without further RL tuning of the resulting policy, and neural network controllers trained with model-based RL, by achieving superior control performance and higher sample efficiency. Furthermore, utilizing partial prior knowledge about the system dynamics via physics-informed learning further increases sample efficiency.",
+ "primary": "cs.LG"
+}

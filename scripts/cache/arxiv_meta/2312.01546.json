@@ -1,0 +1,19 @@
+{
+ "id": "2312.01546",
+ "title": "Learning Channel Capacity with Neural Mutual Information Estimator Based on Message Importance Measure",
+ "authors": [
+  "Zhefan Li",
+  "Rui She",
+  "Pingyi Fan",
+  "Chenghui Peng",
+  "Khaled B. Letaief"
+ ],
+ "v1_date": "2023-12-04",
+ "latest_version": 1,
+ "latest_date": "2023-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 5 figures",
+ "abstract": "Channel capacity estimation plays a crucial role in beyond 5G intelligent communications. Despite its significance, this task is challenging for a majority of channels, especially for the complex channels not modeled as the well-known typical ones. Recently, neural networks have been used in mutual information estimation and optimization. They are particularly considered as efficient tools for learning channel capacity. In this paper, we propose a cooperative framework to simultaneously estimate channel capacity and design the optimal codebook. First, we will leverage MIM-based GAN, a novel form of generative adversarial network (GAN) using message importance measure (MIM) as the information distance, into mutual information estimation, and develop a novel method, named MIM-based mutual information estimator (MMIE). Then, we design a generalized cooperative framework for channel capacity learning, in which a generator is regarded as an encoder producing the channel input, while a discriminator is the mutual information estimator that assesses the performance of the generator. Through the adversarial training, the generator automatically learns the optimal codebook and the discriminator estimates the channel capacity. Numerical experiments will demonstrate that compared with several conventional estimators, the MMIE achieves state-of-the-art performance in terms of accuracy and stability.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2501.17302",
+ "title": "Deterministic Optimal Transport-based Gaussian Mixture Particle Filtering for Verifiable Applications",
+ "authors": [
+  "Andrey A Popov",
+  "Renato Zanetti"
+ ],
+ "v1_date": "2025-01-28",
+ "latest_version": 1,
+ "latest_date": "2025-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixture-model particle filters such as the ensemble Gaussian mixture filter require a resampling procedure in order to converge to exact Bayesian inference. Canonically, stochastic resampling is performed, which provides useful samples with no guarantee of usefulness for a finite ensemble. We propose a new resampling procedure based on optimal transport that deterministically selects optimal resampling points. We show on a toy 3-variable problem that it significantly reduces the amount of particles required for useful state estimation. Finally, we show that this filter improves the state estimation of a seldomly-observed space object in an NRHO around the moon.",
+ "primary": "stat.CO"
+}

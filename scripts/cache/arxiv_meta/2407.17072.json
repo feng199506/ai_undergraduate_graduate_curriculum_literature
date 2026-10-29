@@ -1,0 +1,16 @@
+{
+ "id": "2407.17072",
+ "title": "An Efficient Procedure for Computing Bayesian Network Structure Learning",
+ "authors": [
+  "Hongming Huang",
+  "Joe Suzuki"
+ ],
+ "v1_date": "2024-07-24",
+ "latest_version": 1,
+ "latest_date": "2024-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a globally optimal Bayesian network structure discovery algorithm based on a progressively leveled scoring approach. Bayesian network structure discovery is a fundamental yet NP-hard problem in the field of probabilistic graphical models, and as the number of variables increases, memory usage grows exponentially. The simple and effective method proposed by Silander and Myllymäki has been widely applied in this field, as it incrementally calculates local scores to achieve global optimality. However, existing methods that utilize disk storage, while capable of handling networks with a larger number of variables, introduce issues such as latency, fragmentation, and additional overhead associated with disk I/O operations. To avoid these problems, we explore how to further enhance computational efficiency and reduce peak memory usage using only memory. We introduce an efficient hierarchical computation method that requires only a single traversal of all local structures, retaining only the data and information necessary for the current computation, thereby improving efficiency and significantly reducing memory requirements. Experimental results indicate that our method, when using only memory, not only reduces peak memory usage but also improves computational efficiency compared to existing methods, demonstrating good scalability for handling larger networks and exhibiting stable experimental results. Ultimately, we successfully achieved the processing of a Bayesian network with 28 variables using only memory.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2508.15593",
+ "title": "Inductive Domain Transfer In Misspecified Simulation-Based Inference",
+ "authors": [
+  "Ortal Senouf",
+  "Antoine Wehenkel",
+  "Cédric Vincent-Cuaz",
+  "Emmanuel Abbé",
+  "Pascal Frossard"
+ ],
+ "v1_date": "2025-08-21",
+ "latest_version": 3,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simulation-based inference (SBI) is a statistical inference approach for estimating latent parameters of a physical system when the likelihood is intractable but simulations are available. In practice, SBI is often hindered by model misspecification--the mismatch between simulated and real-world observations caused by inherent modeling simplifications. RoPE, a recent SBI approach, addresses this challenge through a two-stage domain transfer process that combines semi-supervised calibration with optimal transport (OT)-based distribution alignment. However, RoPE operates in a fully transductive setting, requiring access to a batch of test samples at inference time, which limits scalability and generalization. We propose here a fully inductive and amortized SBI framework that integrates calibration and distributional alignment into a single, end-to-end trainable model. Our method leverages mini-batch OT with a closed-form coupling to align real and simulated observations that correspond to the same latent parameters, using both paired calibration data and unpaired samples. A conditional normalizing flow is then trained to approximate the OT-induced posterior, enabling efficient inference without simulation access at test time. Across a range of synthetic and real-world benchmarks--including complex medical biomarker estimation--our approach matches or surpasses the performance of RoPE, as well as other standard SBI and non-SBI estimators, while offering improved scalability and applicability in challenging, misspecified environments.",
+ "primary": "cs.LG"
+}

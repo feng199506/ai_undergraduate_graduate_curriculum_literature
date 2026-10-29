@@ -1,0 +1,19 @@
+{
+ "id": "2409.09359",
+ "title": "Symbolic Regression with a Learned Concept Library",
+ "authors": [
+  "Arya Grayeli",
+  "Atharva Sehgal",
+  "Omar Costilla-Reyes",
+  "Miles Cranmer",
+  "Swarat Chaudhuri"
+ ],
+ "v1_date": "2024-09-14",
+ "latest_version": 3,
+ "latest_date": "2024-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS version; 10 pages; no checklist; added more experiment details",
+ "abstract": "We present a novel method for symbolic regression (SR), the task of searching for compact programmatic hypotheses that best explain a dataset. The problem is commonly solved using genetic algorithms; we show that we can enhance such methods by inducing a library of abstract textual concepts. Our algorithm, called LaSR, uses zero-shot queries to a large language model (LLM) to discover and evolve concepts occurring in known high-performing hypotheses. We discover new hypotheses using a mix of standard evolutionary steps and LLM-guided steps (obtained through zero-shot LLM queries) conditioned on discovered concepts. Once discovered, hypotheses are used in a new round of concept abstraction and evolution. We validate LaSR on the Feynman equations, a popular SR benchmark, as well as a set of synthetic tasks. On these benchmarks, LaSR substantially outperforms a variety of state-of-the-art SR approaches based on deep learning and evolutionary algorithms. Moreover, we show that LaSR can be used to discover a novel and powerful scaling law for LLMs.",
+ "primary": "cs.LG"
+}

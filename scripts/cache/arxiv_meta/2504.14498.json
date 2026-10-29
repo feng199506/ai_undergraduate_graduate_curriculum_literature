@@ -1,0 +1,15 @@
+{
+ "id": "2504.14498",
+ "title": "Assessing the Performance of Mixed-Precision ILU(0)-Preconditioned Multiple-Precision Real and Complex Krylov Subspace Methods",
+ "authors": [
+  "Tomonori Kouya"
+ ],
+ "v1_date": "2025-04-20",
+ "latest_version": 1,
+ "latest_date": "2025-04-20",
+ "journal_ref": "",
+ "doi": "10.1007/978-3-031-97606-3_3",
+ "comment": "",
+ "abstract": "Krylov subspace methods are linear solvers based on matrix-vector multiplications and vector operations. While easily parallelizable, they are sensitive to rounding errors and may experience convergence issues. ILU(0), an incomplete LU factorization with zero fill-in, is a well-known preconditioning technique that enhances convergence for sparse matrices. In this paper, we implement a double-precision and multiple-precision ILU(0) preconditioner, compatible with product-type Krylov subspace methods, and evaluate its performance.",
+ "primary": "math.NA"
+}

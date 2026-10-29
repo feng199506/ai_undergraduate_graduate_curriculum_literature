@@ -1,0 +1,26 @@
+{
+ "id": "2505.17654",
+ "title": "EVADE-Bench: Multimodal Benchmark for Evaluating and Enhancing Evasive Content Detection",
+ "authors": [
+  "Ancheng Xu",
+  "Zhihao Yang",
+  "Jingpeng Li",
+  "Guanghu Yuan",
+  "Longze Chen",
+  "Liang Yan",
+  "Jiehui Zhou",
+  "Zhen Qin",
+  "Hengyu Chang",
+  "Yukun Chen",
+  "Hamid Alinejad-Rokny",
+  "Min Yang"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 4,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "SIGIR 2026",
+ "abstract": "E-commerce platforms increasingly rely on Large Language Models (LLMs) and Vision Language Models (VLMs) to detect illicit or misleading product content. However, these models remain vulnerable to evasive content, which refers to inputs that have been deliberately modified through techniques such as word splitting, euphemistic language, or image cropping to conceal policy violations while still conveying prohibited claims. Crucially, detecting such content requires a model to simultaneously master two capabilities: accurately comprehending complex rules, and correctly inferring the true intent behind deliberately obfuscated multimodal inputs. While prior work has separately explored LLM reasoning over complex rules and LLM-based detection of evasive content, no existing benchmark combines both within a unified evaluation framework. This gap is particularly consequential in e-commerce, where accurate moderation demands that both capabilities operate in concert. To address this gap, we introduce EVADE-Bench, the first expert-curated Chinese multimodal benchmark specifically designed to evaluate LLMs and VLMs on evasive content detection in real-world e-commerce scenarios. Our comprehensive evaluation of 26 open- and closed-source LLMs and VLMs reveals that even state-of-the-art models frequently misclassify evasive samples. We further demonstrate that clearer rule categorization significantly improves model prediction consistency and reduces false predictions, highlighting the critical role of benchmark design in enabling reliable evaluation. To explore paths for performance improvement, we investigate the feasibility of multi-agent decomposition for multimodal reasoning, wherein visual description and logical inference are decoupled into separate agents, and find that this strategy yields notable accuracy gains.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2605.00951",
+ "title": "Graph Rewiring in GNNs to Mitigate Over-Squashing and Over-Smoothing: A Survey",
+ "authors": [
+  "Hugo Attali",
+  "Nathalie Pernelle",
+  "Davide Buscaldi",
+  "Fragkiskos D. Malliaros"
+ ],
+ "v1_date": "2026-05-01",
+ "latest_version": 1,
+ "latest_date": "2026-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the International Joint Conference on Artificial Intelligence (IJCAI 2026), Survey Track",
+ "abstract": "Graph Neural Networks are powerful models for learning from graph-structured data, yet their effectiveness is often limited by two critical challenges: over-squashing, where information from distant nodes is excessively compressed, and over-smoothing, where repeated propagation makes node representations indistinguishable. Both phenomena stem from the interaction between message passing and the input topology, ultimately degrading information flow and limiting the performance of GNNs. In this survey, we examine graph rewiring techniques, a class of methods designed to modify the graph topology to enhance information propagation in GNNs. We provide a comprehensive review of state-of-the-art rewiring approaches, delving into their theoretical underpinnings, practical implementations, and performance trade-offs.",
+ "primary": "cs.LG"
+}

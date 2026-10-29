@@ -1,0 +1,16 @@
+{
+ "id": "2412.03486",
+ "title": "Tight PAC-Bayesian Risk Certificates for Contrastive Learning",
+ "authors": [
+  "Anna Van Elst",
+  "Debarghya Ghoshdastidar"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 4,
+ "latest_date": "2025-09-20",
+ "journal_ref": "SIAM Journal on Mathematics of Data Science, vol. 7, no. 4, pp. 1904-1927, 2025",
+ "doi": "10.1137/24m1715283",
+ "comment": "",
+ "abstract": "Contrastive representation learning is a modern paradigm for learning representations of unlabeled data via augmentations -- precisely, contrastive models learn to embed semantically similar pairs of samples (positive pairs) closer than independently drawn samples (negative samples). In spite of its empirical success and widespread use in foundation models, statistical theory for contrastive learning remains less explored. Recent works have developed generalization error bounds for contrastive losses, but the resulting risk certificates are either vacuous (certificates based on Rademacher complexity or $f$-divergence) or require strong assumptions about samples that are unreasonable in practice. The present paper develops non-vacuous PAC-Bayesian risk certificates for contrastive representation learning, considering the practical considerations of the popular SimCLR framework. Notably, we take into account that SimCLR reuses positive pairs of augmented data as negative samples for other data, thereby inducing strong dependence and making classical PAC or PAC-Bayesian bounds inapplicable. We further refine existing bounds on the downstream classification loss by incorporating SimCLR-specific factors, including data augmentation and temperature scaling, and derive risk certificates for the contrastive zero-one risk. The resulting bounds for contrastive loss and downstream prediction are much tighter than those of previous risk certificates, as demonstrated by experiments on CIFAR-10.",
+ "primary": "stat.ML"
+}

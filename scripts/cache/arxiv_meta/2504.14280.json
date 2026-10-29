@@ -1,0 +1,21 @@
+{
+ "id": "2504.14280",
+ "title": "CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey",
+ "authors": [
+  "Jindong Li",
+  "Yongguang Li",
+  "Yali Fu",
+  "Jiahong Liu",
+  "Yixin Liu",
+  "Menglin Yang",
+  "Irwin King"
+ ],
+ "v1_date": "2025-04-19",
+ "latest_version": 2,
+ "latest_date": "2026-09-21",
+ "journal_ref": "",
+ "doi": "10.1109/tpami.2026.3651700",
+ "comment": "Published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
+ "abstract": "As machine learning evolves, domain generalization (DG) and domain adaptation (DA) have become crucial for improving model robustness across diverse environments. Contrastive Language-Image Pretraining (CLIP) plays a central role in these tasks, offering strong zero-shot capabilities that allow models to operate effectively in unseen domains. Yet, despite CLIP's growing influence, no comprehensive survey has systematically examined its applications in DG and DA, underscoring the need for this review. This survey provides a unified and in-depth overview of CLIP-driven DG and DA. Before reviewing methods, we establish precise and complete scenario definitions covering source accessibility (SA vs. SF), source number (SS vs. MS), and label relations (CS, PS, OS, OPS), forming a coherent taxonomy that structures all subsequent analyses. For DG, we categorize methods into prompt optimization techniques that enhance task alignment and architectures that leverage CLIP as a backbone for transferable feature extraction. For DA, we examine both source-available approaches that rely on labeled source data and source-free approaches operating primarily on target-domain samples, emphasizing the knowledge transfer mechanisms that enable adaptation across heterogeneous settings. We further provide consolidated trend analyses for both DG and DA, revealing overarching patterns, methodological principles, and scenario-dependent behaviors. We then discuss key challenges such as realistic deployment scenarios, LLM knowledge integration, multimodal fusion, interpretability, and catastrophic forgetting, and outline future directions for developing scalable and trustworthy CLIP-based DG and DA systems. This survey offers actionable insights for advancing CLIP-based domain robustness in real-world scenarios.",
+ "primary": "cs.CV"
+}

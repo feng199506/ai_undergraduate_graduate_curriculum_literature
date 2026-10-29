@@ -1,0 +1,16 @@
+{
+ "id": "2501.07358",
+ "title": "Deep Generative Clustering with VAEs and Expectation-Maximization",
+ "authors": [
+  "Michael Adipoetra",
+  "Ségolène Martin"
+ ],
+ "v1_date": "2025-01-13",
+ "latest_version": 1,
+ "latest_date": "2025-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel deep clustering method that integrates Variational Autoencoders (VAEs) into the Expectation-Maximization (EM) framework. Our approach models the probability distribution of each cluster with a VAE and alternates between updating model parameters by maximizing the Evidence Lower Bound (ELBO) of the log-likelihood and refining cluster assignments based on the learned distributions. This enables effective clustering and generation of new samples from each cluster. Unlike existing VAE-based methods, our approach eliminates the need for a Gaussian Mixture Model (GMM) prior or additional regularization techniques. Experiments on MNIST and FashionMNIST demonstrate superior clustering performance compared to state-of-the-art methods.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2606.24188",
+ "title": "Aspect-Based Sentiment Evolution and its Correlation with Review Rounds in Multi-Round Peer Reviews: A Deep Learning Approach",
+ "authors": [
+  "Ruxue Hana",
+  "Haomin Zhoua",
+  "Jiangtao Zhong",
+  "Chengzhi Zhang"
+ ],
+ "v1_date": "2026-06-23",
+ "latest_version": 1,
+ "latest_date": "2026-06-23",
+ "journal_ref": "Data and Information Management, 2026",
+ "doi": "10.1016/j.dim.2025.100105",
+ "comment": "",
+ "abstract": "Mining sentiment information from the textual content of peer review comments offers valuable insights into the scientific evaluation process. However, previous studies are often constrained by coarse-grained analysis and the lack of differentiation across review rounds. Notably, the dynamic shifts in reviewers' focus and sentiment tendencies throughout multiple review stages remain underexplored. To address this gap, the present study investigates the distribution and evolution of aspect-level sentiments and examines their correlation with the number of review rounds. We begin by segmenting the multi-round review comments of 11,063 accepted papers from Nature Communications and identifying fine-grained review aspect clusters. A manually annotated corpus of approximately 5,000 review sentences is then constructed. Using this dataset, we train a series of deep learning-based aspect sentiment classification models. Among them, the LCF-BERT-CDM model achieves the best performance, with a Macro-F1 score of 82.65%. Subsequent statistical analysis reveals a consistent trend: as the number of review rounds increases, the proportion of positive sentiments rises, while negative sentiments decline. Correlation analysis further indicates that aspect sentiment scores are negatively associated with the total number of review rounds. Key aspects exhibiting stronger correlations include \"experiments\", \"research significance\" and \"result analysis\".",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2605.06462",
+ "title": "Measuring Structure in Graph Benchmark Datasets Using Graph Invariants",
+ "authors": [
+  "Richard von Moos",
+  "Mathieu Alain",
+  "Bastian Rieck"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 2,
+ "latest_date": "2026-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Progress in graph learning is hindered by benchmark practices that conflate the contributions of node features and graph structure, making it hard to tell whether a model actually learns from the graph, or whether it even needs to. We propose measuring this using graph invariants, i.e., permutation-invariant, task-agnostic structural descriptors. Our analysis on datasets substantiates three tacit assumptions in graph learning, namely that (i) a curated subset of invariants is more expressive than standard GNNs, (ii) benchmark datasets exhibit structural heterogeneity even when originating from the same domain, and (iii) simple models are often competitive with, and sometimes exceed, approaches based on transformers or message passing. We thus posit that graph invariants should become a standard tool for measuring graph learning task complexity and the relevance of graph structure.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2504.08784",
+ "title": "SLOs-Serve: Optimized Serving of Multi-SLO LLMs",
+ "authors": [
+  "Siyuan Chen",
+  "Zhipeng Jia",
+  "Samira Khan",
+  "Arvind Krishnamurthy",
+  "Phillip B. Gibbons"
+ ],
+ "v1_date": "2025-04-05",
+ "latest_version": 1,
+ "latest_date": "2025-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces SLOs-Serve, a system designed for serving multi-stage large language model (LLM) requests with application- and stage-specific service level objectives (SLOs). The key idea behind SLOs-Serve is to customize the allocation of tokens to meet these SLO requirements. SLOs-Serve uses a multi-SLO dynamic programming-based algorithm to continuously optimize token allocations under SLO constraints by exploring the full design space of chunked prefill and (optional) speculative decoding. Leveraging this resource planning algorithm, SLOs-Serve effectively supports multi-SLOs and multi-replica serving with dynamic request routing while being resilient to bursty arrivals. Our evaluation across 6 LLM application scenarios (including summarization, coding, chatbot, tool calling, and reasoning) demonstrates that SLOs-Serve improves per-GPU serving capacity by 2.2x on average compared to prior state-of-the-art systems.",
+ "primary": "cs.DC"
+}

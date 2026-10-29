@@ -1,0 +1,19 @@
+{
+ "id": "2407.10070",
+ "title": "Have ASkotch: A Neat Solution for Large-scale Kernel Ridge Regression",
+ "authors": [
+  "Pratik Rathore",
+  "Zachary Frangella",
+  "Jiaming Yang",
+  "Michał Dereziński",
+  "Madeleine Udell"
+ ],
+ "v1_date": "2024-07-14",
+ "latest_version": 3,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "63 pages (including appendices), 17 figures, 6 tables",
+ "abstract": "Kernel ridge regression (KRR) is a fundamental computational tool, appearing in problems that range from computational chemistry to health analytics, with a particular interest due to its starring role in Gaussian process regression. However, full KRR solvers are challenging to scale to large datasets: both direct (i.e., Cholesky decomposition) and iterative methods (i.e., PCG) incur prohibitive computational and storage costs. The standard approach to scale KRR to large datasets chooses a set of inducing points and solves an approximate version of the problem, inducing points KRR. However, the resulting solution tends to have worse predictive performance than the full KRR solution. In this work, we introduce a new solver, ASkotch, for full KRR that provides better solutions faster than state-of-the-art solvers for full and inducing points KRR. ASkotch is a scalable, accelerated, iterative method for full KRR that provably obtains linear convergence. Under appropriate conditions, we show that ASkotch obtains condition-number-free linear convergence. This convergence analysis rests on the theory of ridge leverage scores and determinantal point processes. ASkotch outperforms state-of-the-art KRR solvers on a testbed of 23 large-scale KRR regression and classification tasks derived from a wide range of application domains, demonstrating the superiority of full KRR over inducing points KRR. Our work opens up the possibility of as-yet-unimagined applications of full KRR across a number of disciplines.",
+ "primary": "cs.LG"
+}

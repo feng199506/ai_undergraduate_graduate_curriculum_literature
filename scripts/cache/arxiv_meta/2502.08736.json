@@ -1,0 +1,20 @@
+{
+ "id": "2502.08736",
+ "title": "Recurrent Memory for Online Interdomain Gaussian Processes",
+ "authors": [
+  "Wenlong Chen",
+  "Naoki Kiyohara",
+  "Harrison Bo Hua Zhu",
+  "Jacob Curran-Sebastian",
+  "Samir Bhatt",
+  "Yingzhen Li"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 4,
+ "latest_date": "2025-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at the 39th Conference on Neural Information Processing Systems (NeurIPS 2025)",
+ "abstract": "We propose a novel online Gaussian process (GP) model that is capable of capturing long-term memory in sequential data in an online learning setting. Our model, Online HiPPO Sparse Variational Gaussian Process (OHSVGP), leverages the HiPPO (High-order Polynomial Projection Operators) framework, which is popularized in the RNN domain due to its long-range memory modeling capabilities. We interpret the HiPPO time-varying orthogonal projections as inducing variables with time-dependent orthogonal polynomial basis functions, which allows the SVGP inducing variables to memorize the process history. We show that the HiPPO framework fits naturally into the interdomain GP framework and demonstrate that the kernel matrices can also be updated online in a recurrence form based on the ODE evolution of HiPPO. We evaluate OHSVGP with online prediction for 1D time series, continual learning in discriminative GP model for data with multidimensional inputs, and deep generative modeling with sparse Gaussian process variational autoencoder, showing that it outperforms existing online GP methods in terms of predictive performance, long-term memory preservation, and computational efficiency.",
+ "primary": "cs.LG"
+}

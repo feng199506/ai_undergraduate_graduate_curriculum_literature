@@ -1,0 +1,17 @@
+{
+ "id": "2403.05358",
+ "title": "Variational Inference of Parameters in Opinion Dynamics Models",
+ "authors": [
+  "Jacopo Lenti",
+  "Fabrizio Silvestri",
+  "Gianmarco De Francisci Morales"
+ ],
+ "v1_date": "2024-03-08",
+ "latest_version": 2,
+ "latest_date": "2025-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Despite the frequent use of agent-based models (ABMs) for studying social phenomena, parameter estimation remains a challenge, often relying on costly simulation-based heuristics. This work uses variational inference to estimate the parameters of an opinion dynamics ABM, by transforming the estimation problem into an optimization task that can be solved directly. Our proposal relies on probabilistic generative ABMs (PGABMs): we start by synthesizing a probabilistic generative model from the ABM rules. Then, we transform the inference process into an optimization problem suitable for automatic differentiation. In particular, we use the Gumbel-Softmax reparameterization for categorical agent attributes and stochastic variational inference for parameter estimation. Furthermore, we explore the trade-offs of using variational distributions with different complexity: normal distributions and normalizing flows. We validate our method on a bounded confidence model with agent roles (leaders and followers). Our approach estimates both macroscopic (bounded confidence intervals and backfire thresholds) and microscopic ($200$ categorical, agent-level roles) more accurately than simulation-based and MCMC methods. Consequently, our technique enables experts to tune and validate their ABMs against real-world observations, thus providing insights into human behavior in social systems via data-driven analysis.",
+ "primary": "cs.CY"
+}

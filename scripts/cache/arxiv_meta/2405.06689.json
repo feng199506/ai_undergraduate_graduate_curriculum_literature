@@ -1,0 +1,16 @@
+{
+ "id": "2405.06689",
+ "title": "Policy Iteration for Two-Player General-Sum Stochastic Stackelberg Games",
+ "authors": [
+  "Mikoto Kudo",
+  "Youhei Akimoto"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 2,
+ "latest_date": "2026-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages. Accepted at ACML 2025. To appear in PMLR 304",
+ "abstract": "We address two-player general-sum stochastic Stackelberg games (SSGs), where the leader's policy is optimized considering the best-response follower whose policy is optimal for its reward under the leader. Existing policy gradient and value iteration approaches for SSGs do not guarantee monotone improvement in the leader's policy under the best-response follower. Consequently, their performance is not guaranteed when their limits are not stationary Stackelberg equilibria (SSEs), which do not necessarily exist. In this paper, we derive a policy improvement theorem for SSGs under the best-response follower and propose a novel policy iteration algorithm that guarantees monotone improvement in the leader's performance. Additionally, we introduce Pareto-optimality as an extended optimality of the SSE and prove that our method converges to the Pareto front when the leader is myopic.",
+ "primary": "cs.GT"
+}

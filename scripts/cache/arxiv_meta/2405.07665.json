@@ -1,0 +1,15 @@
+{
+ "id": "2405.07665",
+ "title": "Partial information decomposition: redundancy as information bottleneck",
+ "authors": [
+  "Artemy Kolchinsky"
+ ],
+ "v1_date": "2024-05-13",
+ "latest_version": 2,
+ "latest_date": "2024-06-27",
+ "journal_ref": "",
+ "doi": "10.3390/e26070546",
+ "comment": "Entropy, 2024",
+ "abstract": "The partial information decomposition (PID) aims to quantify the amount of redundant information that a set of sources provides about a target. Here, we show that this goal can be formulated as a type of information bottleneck (IB) problem, termed the \"redundancy bottleneck\" (RB). The RB formalizes a tradeoff between prediction and compression: it extracts information from the sources that best predict the target, without revealing which source provided the information. It can be understood as a generalization of \"Blackwell redundancy\", which we previously proposed as a principled measure of PID redundancy. The \"RB curve\" quantifies the prediction--compression tradeoff at multiple scales. This curve can also be quantified for individual sources, allowing subsets of redundant sources to be identified without combinatorial optimization. We provide an efficient iterative algorithm for computing the RB curve.",
+ "primary": "cs.IT"
+}

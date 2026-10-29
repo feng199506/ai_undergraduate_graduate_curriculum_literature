@@ -1,0 +1,16 @@
+{
+ "id": "2507.17747",
+ "title": "Pretraining on the Test Set Is No Longer All You Need: A Debate-Driven Approach to QA Benchmarks",
+ "authors": [
+  "Linbo Cao",
+  "Jinman Zhao"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 2,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 7 figures. Accepted to COLM 2025. Code available at: github.com/l6cao/Debate-Driven-Evaluation",
+ "abstract": "As frontier language models increasingly saturate standard QA benchmarks, concerns about data contamination, memorization, and escalating dataset creation costs persist. We propose a debate-driven evaluation paradigm that transforms any existing QA dataset into structured adversarial debates--where one model is given the official answer to defend, and another constructs and defends an alternative answer--adjudicated by a judge model blind to the correct solution. By forcing multi-round argumentation, this approach substantially increases difficulty while penalizing shallow memorization, yet reuses QA items to reduce curation overhead. We make two main contributions: (1) an evaluation pipeline to systematically convert QA tasks into debate-based assessments, and (2) a public benchmark that demonstrates our paradigm's effectiveness on a subset of MMLU-Pro questions, complete with standardized protocols and reference models. Empirical results validate the robustness of the method and its effectiveness against data contamination--a Llama 3.1 model fine-tuned on test questions showed dramatic accuracy improvements (50% -> 82%) but performed worse in debates. Results also show that even weaker judges can reliably differentiate stronger debaters, highlighting how debate-based evaluation can scale to future, more capable systems while maintaining a fraction of the cost of creating new benchmarks. Overall, our framework underscores that \"pretraining on the test set is no longer all you need,\" offering a sustainable path for measuring the genuine reasoning ability of advanced language models.",
+ "primary": "cs.CL"
+}

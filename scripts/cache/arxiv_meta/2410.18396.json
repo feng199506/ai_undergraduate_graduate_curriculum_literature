@@ -1,0 +1,18 @@
+{
+ "id": "2410.18396",
+ "title": "Revisiting Differentiable Structure Learning: Inconsistency of $\\ell_1$ Penalty and Beyond",
+ "authors": [
+  "Kaifeng Jin",
+  "Ignavier Ng",
+  "Kun Zhang",
+  "Biwei Huang"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 1,
+ "latest_date": "2024-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in differentiable structure learning have framed the combinatorial problem of learning directed acyclic graphs as a continuous optimization problem. Various aspects, including data standardization, have been studied to identify factors that influence the empirical performance of these methods. In this work, we investigate critical limitations in differentiable structure learning methods, focusing on settings where the true structure can be identified up to Markov equivalence classes, particularly in the linear Gaussian case. While Ng et al. (2024) highlighted potential non-convexity issues in this setting, we demonstrate and explain why the use of $\\ell_1$-penalized likelihood in such cases is fundamentally inconsistent, even if the global optimum of the optimization problem can be found. To resolve this limitation, we develop a hybrid differentiable structure learning method based on $\\ell_0$-penalized likelihood with hard acyclicity constraint, where the $\\ell_0$ penalty can be approximated by different techniques including Gumbel-Softmax. Specifically, we first estimate the underlying moral graph, and use it to restrict the search space of the optimization problem, which helps alleviate the non-convexity issue. Experimental results show that the proposed method enhances empirical performance both before and after data standardization, providing a more reliable path for future advancements in differentiable structure learning, especially for learning Markov equivalence classes.",
+ "primary": "cs.LG"
+}

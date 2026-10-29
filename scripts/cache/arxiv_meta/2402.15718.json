@@ -1,0 +1,17 @@
+{
+ "id": "2402.15718",
+ "title": "Optimal Rates and Saturation for Noiseless Kernel Ridge Regression",
+ "authors": [
+  "Jihao Long",
+  "Xiaojun Peng",
+  "Lei Wu"
+ ],
+ "v1_date": "2024-02-24",
+ "latest_version": 2,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel ridge regression (KRR), also known as the least-squares support vector machine, is a fundamental method for learning functions from finite samples. While most existing analyses focus on the noisy setting with constant-level label noise, we present a comprehensive study of KRR in the noiseless regime -- a critical setting in scientific computing where data are often generated via high-fidelity numerical simulations. We establish that, up to logarithmic factors, noiseless KRR achieves minimax optimal convergence rates, jointly determined by the eigenvalue decay of the associated integral operator and the target function's smoothness. These rates are derived under Sobolev-type interpolation norms, with the $L^2$ norm as a special case. Notably, we uncover two key phenomena: an extra-smoothness effect, where the KRR solution exhibits higher smoothness than typical functions in the native reproducing kernel Hilbert space (RKHS), and a saturation effect, where the KRR's adaptivity to the target function's smoothness plateaus beyond a certain level. Leveraging these insights, we also derive a novel error bound for noisy KRR that is noise-level aware and achieves minimax optimality in both noiseless and noisy regimes. As a key technical contribution, we introduce a refined notion of degrees of freedom, which we believe has broader applicability in the analysis of kernel methods. Extensive numerical experiments validate our theoretical results and provide insights beyond existing theory.",
+ "primary": "stat.ML"
+}

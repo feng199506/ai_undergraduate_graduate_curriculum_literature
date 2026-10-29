@@ -1,0 +1,21 @@
+{
+ "id": "2406.04598",
+ "title": "OCDB: Revisiting Causal Discovery with a Comprehensive Benchmark and Evaluation Framework",
+ "authors": [
+  "Wei Zhou",
+  "Hong Huang",
+  "Guowen Zhang",
+  "Ruize Shi",
+  "Kehan Yin",
+  "Yuanyuan Lin",
+  "Bang Liu"
+ ],
+ "v1_date": "2024-06-07",
+ "latest_version": 1,
+ "latest_date": "2024-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have excelled in various natural language processing tasks, but challenges in interpretability and trustworthiness persist, limiting their use in high-stakes fields. Causal discovery offers a promising approach to improve transparency and reliability. However, current evaluations are often one-sided and lack assessments focused on interpretability performance. Additionally, these evaluations rely on synthetic data and lack comprehensive assessments of real-world datasets. These lead to promising methods potentially being overlooked. To address these issues, we propose a flexible evaluation framework with metrics for evaluating differences in causal structures and causal effects, which are crucial attributes that help improve the interpretability of LLMs. We introduce the Open Causal Discovery Benchmark (OCDB), based on real data, to promote fair comparisons and drive optimization of algorithms. Additionally, our new metrics account for undirected edges, enabling fair comparisons between Directed Acyclic Graphs (DAGs) and Completed Partially Directed Acyclic Graphs (CPDAGs). Experimental results show significant shortcomings in existing algorithms' generalization capabilities on real data, highlighting the potential for performance improvement and the importance of our framework in advancing causal discovery techniques.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2402.18940",
+ "title": "Towards Fault-Tolerant Quantum Deep Learning: Designing and Analyzing Quantum ResNet and Transformer with Quantum Arithmetic and Linear Algebra Primitives",
+ "authors": [
+  "Xiao-Fan Xu",
+  "Cheng Xue",
+  "Xi-Ning Zhuang",
+  "Yun-Jie Wang",
+  "Tai-Ping Sun",
+  "Yu Fang",
+  "Jun-Chao Wang",
+  "Huan-Yu Liu",
+  "Yu-Chun Wu",
+  "Zhao-Yun Chen",
+  "Guo-Ping Guo"
+ ],
+ "v1_date": "2024-02-29",
+ "latest_version": 3,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24pages, 10 figures",
+ "abstract": "Achieving a practical quantum speedup for deep neural networks (DNNs) remains a central yet elusive goal, hindered by the dual challenges of constructing deep architectures and the prohibitive overhead of data loading and measurement. We introduce a framework to overcome these barriers, specifically targeting an asymptotic speedup with respect to the large input dimensions of modern DNNs (e.g., sequence length or image size). Our framework enables the design of multi-layer Quantum ResNet and Quantum Transformer models by strategically decomposing tasks: computationally intensive operations on the large input dimension are assigned to quantum linear algebra subroutines, while operations on the smaller, fixed feature dimension are handled by efficient quantum arithmetic. A cornerstone of our approach is a novel data transfer protocol, Discrete Chebyshev Decomposition (DCD), which facilitates this modularity. Numerical validation reveals a pivotal insight: the measurement cost required to maintain a target accuracy scales sublinearly with the input dimension. This sublinear scaling is the key to preserving the quantum advantage, ensuring that I/O overhead does not nullify the computational gains. A rigorous resource analysis further corroborates the superiority of our models in both efficiency and flexibility. Powered by this targeted acceleration strategy and the efficiency of DCD, our framework establishes a viable path toward scalable quantum deep learning.",
+ "primary": "quant-ph"
+}

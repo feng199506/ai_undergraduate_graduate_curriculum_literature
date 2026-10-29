@@ -1,0 +1,19 @@
+{
+ "id": "2610.07504",
+ "title": "Mosaic: GPU Sharing with Latency Guarantees through Kernel-Level Interference Prediction",
+ "authors": [
+  "Foteini Strati",
+  "Ethan Graham",
+  "Leo Stephan",
+  "Paul Elvinger",
+  "Ana Klimovic"
+ ],
+ "v1_date": "2026-10-05",
+ "latest_version": 1,
+ "latest_date": "2026-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "GPUs are increasingly in demand for AI workloads, yet often remain substantially underutilized, motivating workload colocation. However, colocation introduces interference that can degrade latency-critical workloads. Existing approaches mitigate interference using either heuristic-based scheduling or interference predictors. Heuristics rely on coarse-grained metrics that overlook important interference sources, while predictors often depend on simulator-specific or similarly coarse metrics. However, GPU interference is complex and arises from multiple mechanisms, including thread-block placement, memory hierarchy contention, and intra-SM resource contention. We present Mosaic, a kernel-level interference predictor that explicitly models these mechanisms using a combination of analytical and lightweight learned models. Across four GPU architectures, Mosaic reduces prediction error by up to an order of magnitude compared to prior predictors. We integrate Mosaic into a scheduler, MosaicSched, that performs online kernel admission control and selects between full-GPU colocation and SM partitioning to maximize best-effort throughput while satisfying latency SLOs. Across all workloads, MosaicSched keeps the p99 latency below or very close to the target SLO.",
+ "primary": "cs.DC"
+}

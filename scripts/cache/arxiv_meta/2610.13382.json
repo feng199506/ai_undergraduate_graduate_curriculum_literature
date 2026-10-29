@@ -1,0 +1,19 @@
+{
+ "id": "2610.13382",
+ "title": "BLOKS: Scaling Kernel Solvers with Sketched Block Preconditioning",
+ "authors": [
+  "Giordano Vitale",
+  "Giacomo Meanti",
+  "Marco Rando",
+  "Blanca Ayuso de Dios",
+  "Lorenzo Rosasco"
+ ],
+ "v1_date": "2026-10-09",
+ "latest_version": 1,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 7 figures, 9 tables",
+ "abstract": "Kernel Ridge Regression (KRR) is a theoretically sound algorithm for nonparametric learning, which is also often used to investigate properties of deep learning. However, the exact KRR formulation incurs time and memory costs preventing applicability to large datasets, motivating the development of approximate solvers. These algorithms rely on (i) iterative methods, to avoid the computational burden of direct solutions; (ii) sketching or batching, to reduce the problem size; and (iii) preconditioning, to accelerate convergence. While crucial for fast convergence, preconditioning incurs memory costs that can be managed by lowering the number of free parameters of the model, potentially at the expense of expressivity and hence accuracy. To address this challenge, we propose BLOKS, a Conjugate Gradient-based solver for Nyström-sketched KRR built around a novel preconditioner that combines a block Jacobi approximation with sketching. The BLOKS preconditioner has memory cost independent of both the dataset size and the number of parameters, allowing scaling to large models. We provide a memory-efficient, GPU-accelerated implementation and show that BLOKS achieves excellent accuracy while retaining favorable time/memory complexity. Indeed, on standard large-scale datasets used to benchmark kernel solvers, BLOKS achieves comparable or better performances than state-of-the-art methods.",
+ "primary": "cs.LG"
+}

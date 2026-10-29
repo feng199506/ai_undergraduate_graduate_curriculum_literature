@@ -1,0 +1,18 @@
+{
+ "id": "2608.14314",
+ "title": "Filling survey gaps in food security monitoring with spatio-temporal additive Gaussian process models",
+ "authors": [
+  "Emma Kopp",
+  "Sahoko Ishida",
+  "Rebecca Leygonie",
+  "Francesca Panero"
+ ],
+ "v1_date": "2026-08-14",
+ "latest_version": 1,
+ "latest_date": "2026-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ensuring food security across all regions of a country requires continuous monitoring, yet household surveys often leave significant spatio-temporal gaps due to resource constraints and operational priorities. In this paper, we propose a spatio-temporal additive Gaussian process model to estimate sub-national food security time series by regions. To address the computational cost of Gaussian process models, we exploit Kronecker structure of the spatio-temporal covariance matrix for scalable inference. We evaluate the proposed approach on food security survey data from Nigeria and Chad comparing it against other statistical and machine learning models and show how our proposal achieves better accuracy while retaining reliable uncertainty, especially when covariates are informative. We further apply the model to generate estimates for Nigerian states not covered by the survey, demonstrating its operational value for filling geographic gaps in food security monitoring.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2608.06928",
+ "title": "When Do Pretrained Audio Representations Help Music Recommendation? A Study Across Ranking and Generative Interfaces",
+ "authors": [
+  "Qingrui Li",
+  "Haowei Lou",
+  "Chengkai Huang",
+  "Quan Z. Sheng",
+  "Lina Yao"
+ ],
+ "v1_date": "2026-08-07",
+ "latest_version": 3,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 5 figures, 10 tables. Updated title and evaluation protocol; expanded experiments with random-feature, ID-only, and shuffled-SID controls",
+ "abstract": "Pretrained audio encoders are increasingly used to provide content representations for music recommendation, but their downstream value can change substantially with the recommendation interface through which they are used. We study this effect across six pretrained audio encoders and three representative settings: content-based retrieval, sequential recommendation, and Semantic-ID-based generative recommendation. Using matched random-feature and ID-only controls, we distinguish absolute recommendation performance from gains over content-free inputs. Across two music datasets and a full-catalog evaluation, music-pretrained and audio-text-aligned encoders are generally stronger when their pretrained geometry is used directly or converted into Semantic IDs, while these differences become much smaller after interaction-based adaptation in SASRec. We further examine how audio representations should be discretized for generative recommendation by varying residual-quantization width, depth, and retained layers. At epoch 10, depth one performs best at every tested width, while larger codebooks generally help at depth three; the best single-layer subset also outperforms the full three-layer identifier in every evaluated comparison. For CLAP-Music, the third-layer identifier ranks higher under both original and shuffled assignments, whereas the full three-layer identifier gains more from the original assignment. Better reconstruction likewise does not ensure better ranking. Overall, our results show that the utility of pretrained audio representations is interface-dependent and that Semantic-ID quality should be assessed by downstream ranking rather than representation fidelity alone.",
+ "primary": "cs.IR"
+}

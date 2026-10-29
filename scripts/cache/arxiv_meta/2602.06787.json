@@ -1,0 +1,17 @@
+{
+ "id": "2602.06787",
+ "title": "Weisfeiler and Lehman Go Categorical",
+ "authors": [
+  "Seongjin Choi",
+  "Gahee Kim",
+  "Se-Young Yun"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Comments are welcome!",
+ "abstract": "While lifting map has significantly enhanced the expressivity of graph neural networks, extending this paradigm to hypergraphs remains fragmented. To address this, we introduce the categorical Weisfeiler-Lehman framework, which formalizes lifting as a functorial mapping from an arbitrary data category to the unifying category of graded posets. When applied to hypergraphs, this perspective allows us to systematically derive Hypergraph Isomorphism Networks, a family of neural architectures where the message passing topology is strictly determined by the choice of functor. We introduce two distinct functors from the category of hypergraphs: an incidence functor and a symmetric simplicial complex functor. While the incidence architecture structurally mirrors standard bipartite schemes, our functorial derivation enforces a richer information flow over the resulting poset, capturing complex intersection geometries often missed by existing methods. We theoretically characterize the expressivity of these models, proving that both the incidence-based and symmetric simplicial approaches subsume the expressive power of the standard Hypergraph Weisfeiler-Lehman test. Extensive experiments on real-world benchmarks validate these theoretical findings.",
+ "primary": "cs.LG"
+}

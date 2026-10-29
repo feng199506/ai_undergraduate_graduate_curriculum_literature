@@ -1,0 +1,16 @@
+{
+ "id": "2507.06939",
+ "title": "Sound Interval-Based Synthesis for Probabilistic Programs",
+ "authors": [
+  "Guilherme Espada",
+  "Alcides Fonseca"
+ ],
+ "v1_date": "2025-07-09",
+ "latest_version": 1,
+ "latest_date": "2025-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic programming has become a standard practice to model stochastic events and learn about the behavior of nature in different scientific contexts, ranging from Genetics and Ecology to Linguistics and Psychology. However, domain practitioners (such as biologists) also need to be experts in statistics in order to select which probabilistic model is suitable for a given particular problem, relying then on probabilistic inference engines such as Stan, Pyro or Edward to fine-tune the parameters of that particular model. Probabilistic Programming would be more useful if the model selection is made automatic, without requiring statistics expertise from the end user. Automatically selecting the model is challenging because of the large search space of probabilistic programs needed to be explored, because the fact that most of that search space contains invalid programs, and because invalid programs may only be detected in some executions, due to its probabilistic nature. We propose a type system to statically reject invalid probabilistic programs, a type-directed synthesis algorithm that guarantees that generated programs are type-safe by construction, and an heuristic search procedure to handle the vast search space. We collect a number of probabilistic programs from the literature, and use them to compare our method with both a type-agnostic random search, and a data-guided method from the literature (DaPPer). Our results show that our technique both outperforms random search and DaPPer, specially on more complex programs. This drastic performance difference in synthesis allows for fast sampling of programs and enables techniques that previously suffered from the complexity of synthesis, such as Genetic Programming, to be applied.",
+ "primary": "cs.PL"
+}

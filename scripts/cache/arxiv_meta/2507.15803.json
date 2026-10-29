@@ -1,0 +1,21 @@
+{
+ "id": "2507.15803",
+ "title": "ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction",
+ "authors": [
+  "Danhui Chen",
+  "Ziquan Liu",
+  "Chuxi Yang",
+  "Dan Wang",
+  "Yan Yan",
+  "Yi Xu",
+  "Xiangyang Ji"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 1,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICCV 2025",
+ "abstract": "Pixel-level vision tasks, such as semantic segmentation, require extensive and high-quality annotated data, which is costly to obtain. Semi-supervised semantic segmentation (SSSS) has emerged as a solution to alleviate the labeling burden by leveraging both labeled and unlabeled data through self-training techniques. Meanwhile, the advent of foundational segmentation models pre-trained on massive data, has shown the potential to generalize across domains effectively. This work explores whether a foundational segmentation model can address label scarcity in the pixel-level vision task as an annotator for unlabeled images. Specifically, we investigate the efficacy of using SEEM, a Segment Anything Model (SAM) variant fine-tuned for textual input, to generate predictive masks for unlabeled data. To address the shortcomings of using SEEM-generated masks as supervision, we propose ConformalSAM, a novel SSSS framework which first calibrates the foundation model using the target domain's labeled data and then filters out unreliable pixel labels of unlabeled data so that only high-confidence labels are used as supervision. By leveraging conformal prediction (CP) to adapt foundation models to target data through uncertainty calibration, ConformalSAM exploits the strong capability of the foundational segmentation model reliably which benefits the early-stage learning, while a subsequent self-reliance training strategy mitigates overfitting to SEEM-generated masks in the later training stage. Our experiment demonstrates that, on three standard benchmarks of SSSS, ConformalSAM achieves superior performance compared to recent SSSS methods and helps boost the performance of those methods as a plug-in.",
+ "primary": "cs.CV"
+}

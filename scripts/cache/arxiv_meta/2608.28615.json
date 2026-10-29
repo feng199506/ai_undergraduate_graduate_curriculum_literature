@@ -1,0 +1,16 @@
+{
+ "id": "2608.28615",
+ "title": "Distributional Validity of a Korean Synthetic Persona Panel: Evidence From the Korea Media Panel Survey",
+ "authors": [
+  "Howard Kim",
+  "Keuntae Cho"
+ ],
+ "v1_date": "2026-07-23",
+ "latest_version": 2,
+ "latest_date": "2026-10-01",
+ "journal_ref": "IEEE Access, vol. 14, pp. 148208-148229, 2026",
+ "doi": "10.1109/access.2026.3736943",
+ "comment": "22 pages, 5 figures, 15 tables. Authors' version of the article published in IEEE Access, vol. 14, pp. 148208-148229, 2026 (open access, CC BY 4.0). Code and data: https://github.com/howardkim1977/persona-validation-repro (doi:10.5281/zenodo.22324669)",
+ "abstract": "Large language model (LLM) personas are proposed as survey respondents, yet validation outside English-speaking contexts is scarce. We evaluate how well a Korean synthetic persona panel used to condition Gemini 3.5 Flash and EXAONE reproduces digital and artificial intelligence (AI) service-use distributions of the Korea Media Panel Survey. About 8,000 personas per model answered eight service-use items and eight attitudinal constructs; responses were compared with weighted survey estimates. The overall mean absolute error (MAE) was 14-19 percentage points (pp), with binary item-mean correlations of 0.70-0.91 across waves. Segment error across five axes was 14-18 pp, with between-group signed-error ranges of 49.6/34.7 pp (Gemini/EXAONE; 39.5/31.2 without the non-comparable teen cells). Errors were model-specific: an age stereotype (Gemini) versus an acquiescence-consistent level bias (EXAONE). Generative-AI overestimation was consistent with temporal misalignment; short-form underestimation was framing-sensitive and persisted under randomized order (both shown for Gemini). Post-hoc holdout calibration on 30% of the real data, with the correction form selected inside the calibration set, cut cell MAE from 18.3/15.1 to 4.9/4.4 pp, yet direct estimation from that subsample was more accurate than the calibrated panel (3.6 pp), a synthetic-informed shrinkage estimator beat its real-only counterpart by at most 0.7 pp, and the correction did not transfer competitively across waves. The calibrated panel kept an advantage only below roughly 250-860 real responses (at most 2.3 pp over a real-only shrinkage estimator) or, for one model, on unobserved segments. In this setting, synthetic panels are not survey substitutes; their value is diagnostic.",
+ "primary": "cs.CY"
+}

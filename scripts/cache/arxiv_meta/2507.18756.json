@@ -1,0 +1,19 @@
+{
+ "id": "2507.18756",
+ "title": "Exploitation Over Exploration: Unmasking the Bias in Linear Bandit Recommender Offline Evaluation",
+ "authors": [
+  "Pedro R. Pires",
+  "Gregorio F. Azevedo",
+  "Pietro L. Campos",
+  "Rafael T. Sereicikas",
+  "Tiago A. Almeida"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 2,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "10.1145/3705328.3748166",
+ "comment": "Published in RecSys'25, 10 pages, 3 figures",
+ "abstract": "Multi-Armed Bandit (MAB) algorithms are widely used in recommender systems that require continuous, incremental learning. A core aspect of MABs is the exploration-exploitation trade-off: choosing between exploiting items likely to be enjoyed and exploring new ones to gather information. In contextual linear bandits, this trade-off is particularly central, as many variants share the same linear regression backbone and differ primarily in their exploration strategies. Despite its prevalent use, offline evaluation of MABs is increasingly recognized for its limitations in reliably assessing exploration behavior. This study conducts an extensive offline empirical comparison of several linear MABs. Strikingly, across over 90% of various datasets, a greedy linear model, with no type of exploration, consistently achieves top-tier performance, often outperforming or matching its exploratory counterparts. This observation is further corroborated by hyperparameter optimization, which consistently favors configurations that minimize exploration, suggesting that pure exploitation is the dominant strategy within these evaluation settings. Our results expose significant inadequacies in offline evaluation protocols for bandits, particularly concerning their capacity to reflect true exploratory efficacy. Consequently, this research underscores the urgent necessity for developing more robust assessment methodologies, guiding future investigations into alternative evaluation frameworks for interactive learning in recommender systems.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "2402.02447",
+ "title": "Breaking MLPerf Training: A Case Study on Optimizing BERT",
+ "authors": [
+  "Yongdeok Kim",
+  "Jaehyung Ahn",
+  "Myeongwoo Kim",
+  "Changin Choi",
+  "Heejae Kim",
+  "Narankhuu Tuvshinjargal",
+  "Seungwon Lee",
+  "Yanzi Zhang",
+  "Yuan Pei",
+  "Xiongzhan Linghu",
+  "Jingkun Ma",
+  "Lin Chen",
+  "Yuehua Dai",
+  "Sungjoo Yoo"
+ ],
+ "v1_date": "2024-02-04",
+ "latest_version": 1,
+ "latest_date": "2024-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Total 15 pages (Appendix 3 pages)",
+ "abstract": "Speeding up the large-scale distributed training is challenging in that it requires improving various components of training including load balancing, communication, optimizers, etc. We present novel approaches for fast large-scale training of BERT model which individually ameliorates each component thereby leading to a new level of BERT training performance. Load balancing is imperative in distributed BERT training since its training datasets are characterized by samples with various lengths. Communication cost, which is proportional to the scale of distributed training, needs to be hidden by useful computation. In addition, the optimizers, e.g., ADAM, LAMB, etc., need to be carefully re-evaluated in the context of large-scale distributed training. We propose two new ideas, (1) local presorting based on dataset stratification for load balancing and (2) bucket-wise gradient clipping before allreduce which allows us to benefit from the overlap of gradient computation and synchronization as well as the fast training of gradient clipping before allreduce. We also re-evaluate existing optimizers via hyperparameter optimization and utilize ADAM, which also contributes to fast training via larger batches than existing methods. Our proposed methods, all combined, give the fastest MLPerf BERT training of 25.1 (22.3) seconds on 1,024 NVIDIA A100 GPUs, which is 1.33x (1.13x) and 1.57x faster than the other top two (one) submissions to MLPerf v1.1 (v2.0). Our implementation and evaluation results are available at MLPerf v1.1~v2.1.",
+ "primary": "cs.LG"
+}

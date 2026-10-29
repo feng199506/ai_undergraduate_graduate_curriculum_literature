@@ -1,0 +1,16 @@
+{
+ "id": "2505.20048",
+ "title": "Synthetic Time Series Forecasting with Transformer Architectures: Extensive Simulation Benchmarks",
+ "authors": [
+  "Ali Forootani",
+  "Mohammad Khosravi"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 1,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time series forecasting plays a critical role in domains such as energy, finance, and healthcare, where accurate predictions inform decision-making under uncertainty. Although Transformer-based models have demonstrated success in sequential modeling, their adoption for time series remains limited by challenges such as noise sensitivity, long-range dependencies, and a lack of inductive bias for temporal structure. In this work, we present a unified and principled framework for benchmarking three prominent Transformer forecasting architectures-Autoformer, Informer, and Patchtst-each evaluated through three architectural variants: Minimal, Standard, and Full, representing increasing levels of complexity and modeling capacity. We conduct over 1500 controlled experiments on a suite of ten synthetic signals, spanning five patch lengths and five forecast horizons under both clean and noisy conditions. Our analysis reveals consistent patterns across model families. To advance this landscape further, we introduce the Koopman-enhanced Transformer framework, Deep Koopformer, which integrates operator-theoretic latent state modeling to improve stability and interpretability. We demonstrate its efficacy on nonlinear and chaotic dynamical systems. Our results highlight Koopman based Transformer as a promising hybrid approach for robust, interpretable, and theoretically grounded time series forecasting in noisy and complex real-world conditions.",
+ "primary": "cs.LG"
+}

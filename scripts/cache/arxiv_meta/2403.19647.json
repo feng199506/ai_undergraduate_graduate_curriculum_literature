@@ -1,0 +1,20 @@
+{
+ "id": "2403.19647",
+ "title": "Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models",
+ "authors": [
+  "Samuel Marks",
+  "Can Rager",
+  "Eric J. Michaud",
+  "Yonatan Belinkov",
+  "David Bau",
+  "Aaron Mueller"
+ ],
+ "v1_date": "2024-03-28",
+ "latest_version": 3,
+ "latest_date": "2025-03-27",
+ "journal_ref": "International Conference on Learning Representations, 2025",
+ "doi": "",
+ "comment": "Code and data at https://github.com/saprmarks/feature-circuits. Demonstration at https://feature-circuits.xyz",
+ "abstract": "We introduce methods for discovering and applying sparse feature circuits. These are causally implicated subnetworks of human-interpretable features for explaining language model behaviors. Circuits identified in prior work consist of polysemantic and difficult-to-interpret units like attention heads or neurons, rendering them unsuitable for many downstream applications. In contrast, sparse feature circuits enable detailed understanding of unanticipated mechanisms. Because they are based on fine-grained units, sparse feature circuits are useful for downstream tasks: We introduce SHIFT, where we improve the generalization of a classifier by ablating features that a human judges to be task-irrelevant. Finally, we demonstrate an entirely unsupervised and scalable interpretability pipeline by discovering thousands of sparse feature circuits for automatically discovered model behaviors.",
+ "primary": "cs.LG"
+}

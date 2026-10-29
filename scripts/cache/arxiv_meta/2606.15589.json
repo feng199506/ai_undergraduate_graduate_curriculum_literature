@@ -1,0 +1,18 @@
+{
+ "id": "2606.15589",
+ "title": "Is Code Better Than Language for Algorithmic Reasoning",
+ "authors": [
+  "Terry Tong",
+  "Yu Feng",
+  "Surbhi Goel",
+  "Dan Roth"
+ ],
+ "v1_date": "2026-06-14",
+ "latest_version": 1,
+ "latest_date": "2026-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026",
+ "abstract": "For tool-augmented language models, comparing natural-language reasoning with code-execution pipelines is difficult because the comparison changes both the intermediate representation and the execution mechanism. We separate these factors with an intermediate intervention: the model expresses its reasoning as executable code, and the language model simulates that code in context to produce an answer. On a 40-task verifiable algorithmic benchmark, deterministic code execution outperforms natural-language reasoning by +31.6pp. We observe that the intermediate intervention is not meaningfully different from natural-language reasoning (+0.15pp). These results suggest that, in our evaluated setting, changing the intermediate representation alone does not explain the tool-use advantage, providing evidence for the performance gains requiring reliable external execution. We formalize this intuition with a simple statistical decision-theoretic model that characterizes when execution dominates end-to-end risk in our disentangled trace-generation/execution regime. We validate our theory using a reconstruction intervention that leverages a proxy language model to infer natural-language reasoning traces from code representations, recovering performance comparable to the original natural-language reasoning pipeline. All experiments are at https://github.com/TerryTong-Git/ToolProj.",
+ "primary": "cs.LG"
+}

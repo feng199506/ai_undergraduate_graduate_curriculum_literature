@@ -1,0 +1,19 @@
+{
+ "id": "2601.18591",
+ "title": "How are MLOps Frameworks Used in Open Source Projects? An Empirical Characterization",
+ "authors": [
+  "Fiorella Zampetti",
+  "Federico Stocchetti",
+  "Federica Razzano",
+  "Damian Andrew Tamburri",
+  "Massimiliano Di Penta"
+ ],
+ "v1_date": "2026-01-26",
+ "latest_version": 1,
+ "latest_date": "2026-01-26",
+ "journal_ref": "23rd International Conference on Mining Software Repositories (MSR '26), April 13--14, 2026, Rio de Janeiro, Brazil",
+ "doi": "10.1145/3793302.3793366",
+ "comment": "",
+ "abstract": "Machine Learning (ML) Operations (MLOps) frameworks have been conceived to support developers and AI engineers in managing the lifecycle of their ML models. While such frameworks provide a wide range of features, developers may leverage only a subset of them, while missing some highly desired features. This paper investigates the practical use and desired feature enhancements of eight popular open-source MLOps frameworks. Specifically, we analyze their usage by dependent projects on GitHub, examining how they invoke the frameworks' APIs and commands. Then, we qualitatively analyze feature requests and enhancements mined from the frameworks' issue trackers, relating these desired improvements to the previously identified usage features. Results indicate that MLOps frameworks are rarely used out-of-the-box and are infrequently integrated into GitHub Workflows, but rather, developers use their APIs to implement custom functionality in their projects. Used features concern core ML phases and whole infrastructure governance, sometimes leveraging multiple frameworks with complementary features. The mapping with feature requests highlights that users mainly ask for enhancements to core features of the frameworks, but also better API exposure and CI/CD integration.",
+ "primary": "cs.SE"
+}

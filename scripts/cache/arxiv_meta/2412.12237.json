@@ -1,0 +1,21 @@
+{
+ "id": "2412.12237",
+ "title": "Equivariant Action Sampling for Reinforcement Learning and Planning",
+ "authors": [
+  "Linfeng Zhao",
+  "Owen Howell",
+  "Xupeng Zhu",
+  "Jung Yeon Park",
+  "Zhewen Zhang",
+  "Robin Walters",
+  "Lawson L. S. Wong"
+ ],
+ "v1_date": "2024-12-16",
+ "latest_version": 1,
+ "latest_date": "2024-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at International Workshop on the Algorithmic Foundations of Robotics (WAFR) 2024. Website: http://lfzhao.com/EquivSampling",
+ "abstract": "Reinforcement learning (RL) algorithms for continuous control tasks require accurate sampling-based action selection. Many tasks, such as robotic manipulation, contain inherent problem symmetries. However, correctly incorporating symmetry into sampling-based approaches remains a challenge. This work addresses the challenge of preserving symmetry in sampling-based planning and control, a key component for enhancing decision-making efficiency in RL. We introduce an action sampling approach that enforces the desired symmetry. We apply our proposed method to a coordinate regression problem and show that the symmetry aware sampling method drastically outperforms the naive sampling approach. We furthermore develop a general framework for sampling-based model-based planning with Model Predictive Path Integral (MPPI). We compare our MPPI approach with standard sampling methods on several continuous control tasks. Empirical demonstrations across multiple continuous control environments validate the effectiveness of our approach, showcasing the importance of symmetry preservation in sampling-based action selection.",
+ "primary": "cs.RO"
+}

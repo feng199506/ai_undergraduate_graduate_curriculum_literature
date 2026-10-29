@@ -1,0 +1,17 @@
+{
+ "id": "2508.06906",
+ "title": "Machine Learning Algorithms for Improving Exact Classical Solvers in Mixed Integer Continuous Optimization",
+ "authors": [
+  "Morteza Kimiaei",
+  "Vyacheslav Kungurtsev",
+  "Brian Olimba"
+ ],
+ "v1_date": "2025-08-09",
+ "latest_version": 2,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Integer and mixed-integer nonlinear programming (INLP, MINLP) are central to logistics, energy, and scheduling, but remain computationally challenging. This survey examines how machine learning and reinforcement learning can enhance exact optimization methods-particularly branch-and-bound (BB)-without compromising global optimality. We cover discrete, continuous, and mixed-integer formulations, and highlight applications such as vehicle routing, hydropower planning, and crew scheduling. We introduce a unified BB framework that embeds learning-based strategies into branching, cut selection, node ordering, and parameter control. Classical algorithms are augmented using supervised, imitation, and reinforcement learning models to accelerate convergence while maintaining correctness. We conclude with a taxonomy of learning methods by solver class and learning paradigm, and outline open challenges in generalization, hybridization, and scaling intelligent solvers.",
+ "primary": "math.OC"
+}

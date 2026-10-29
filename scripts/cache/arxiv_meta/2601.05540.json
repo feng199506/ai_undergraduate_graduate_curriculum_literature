@@ -1,0 +1,19 @@
+{
+ "id": "2601.05540",
+ "title": "Empirical Characterization of Logging Smells in Machine Learning Code",
+ "authors": [
+  "Patrick Loic Foalem",
+  "Leuson Da Silva",
+  "Foutse Khomh",
+  "Ettore Merlo",
+  "Heng Li"
+ ],
+ "v1_date": "2026-01-09",
+ "latest_version": 1,
+ "latest_date": "2026-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "\\underline{Context:} Logging is a fundamental yet complex practice in software engineering, essential for monitoring, debugging, and auditing software systems. With the increasing integration of machine learning (ML) components into software systems, effective logging has become critical to ensure reproducibility, traceability, and observability throughout model training and deployment. Although various general-purpose and ML-specific logging frameworks exist, little is known about how these tools are actually used in practice or whether ML practitioners adopt consistent and effective logging strategies. To date, no empirical study has systematically characterized recurring bad logging practices--or logging smells--in ML System. \\underline{Goal:} This study aims to empirically identify and characterize logging smells in ML systems, providing an evidence-based understanding of how logging is implemented and challenged in practice. \\underline{Method:} We propose to conduct a large-scale mining of open-source ML repositories hosted on GitHub to catalogue recurring logging smells. Subsequently, a practitioner survey involving ML engineers will be conducted to assess the perceived relevance, severity, and frequency of the identified smells. \\underline{Limitations:} % While The study's limitations include that While our findings may not be generalizable to closed-source industrial projects, we believe our study provides an essential step toward understanding and improving logging practices in ML development.",
+ "primary": "cs.SE"
+}

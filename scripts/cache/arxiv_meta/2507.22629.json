@@ -1,0 +1,17 @@
+{
+ "id": "2507.22629",
+ "title": "Quantum-assisted Gaussian process regression using random Fourier features",
+ "authors": [
+  "Cristian A. Galvis-Florez",
+  "Ahmad Farooq",
+  "Simo Särkkä"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 1,
+ "latest_date": "2025-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at 2025 IEEE International Conference on Quantum Software (QSW)",
+ "abstract": "Probabilistic machine learning models are distinguished by their ability to integrate prior knowledge of noise statistics, smoothness parameters, and training data uncertainty. A common approach involves modeling data with Gaussian processes; however, their computational complexity quickly becomes intractable as the training dataset grows. To address this limitation, we introduce a quantum-assisted algorithm for sparse Gaussian process regression based on the random Fourier feature kernel approximation. We start by encoding the data matrix into a quantum state using a multi-controlled unitary operation, which encodes the classical representation of the random Fourier features matrix used for kernel approximation. We then employ a quantum principal component analysis along with a quantum phase estimation technique to extract the spectral decomposition of the kernel matrix. We apply a conditional rotation operator to the ancillary qubit based on the eigenvalue. We then use Hadamard and swap tests to compute the mean and variance of the posterior Gaussian distribution. We achieve a polynomial-order computational speedup relative to the classical method.",
+ "primary": "stat.CO"
+}

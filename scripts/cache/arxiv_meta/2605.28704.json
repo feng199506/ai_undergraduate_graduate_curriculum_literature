@@ -1,0 +1,18 @@
+{
+ "id": "2605.28704",
+ "title": "Expressive Power of Floating-Point Neural Networks with Arbitrary Reduction Orders and Inexact Activation Implementations",
+ "authors": [
+  "Yeachan Park",
+  "Geonho Hwang",
+  "Wonyeol Lee",
+  "Sejun Park"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 1,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Most existing expressivity theories for neural networks assume exact real arithmetic, whereas practical neural networks are executed under finite-precision floating-point arithmetic with implementation-dependent execution semantics. Recent works have begun studying the expressive power of floating-point neural networks, but existing results are limited to highly restricted activation functions and idealized assumptions such as fixed left-to-right reduction orders and correctly rounded activation implementations. In this work, we study the expressive power of floating-point neural networks under generalized floating-point execution semantics, including arbitrary reduction orders and inexact activation implementations with bounded ulp errors. We investigate when floating-point neural networks can represent arbitrary functions between floating-point domains exactly. To this end, we introduce a general distinguishability framework and show that the ability to distinguish every pair of distinct inputs in the first layer is necessary for universal representability. This characterization yields broad classes of activation implementations that are not universal representators, extending previous isolated counterexamples such as the correctly rounded cosine activation. We further prove that a suitable form of distinguishability is also sufficient for universal representability under mild conditions on the activation implementation. Using this framework, we establish universal representability results for a broad class of practical activation functions, including implementations of $\\mathrm{Sigmoid}$, $\\tanh$, $\\mathrm{ReLU}$, $\\mathrm{ELU}$, $\\mathrm{SeLU}$, $\\mathrm{GeLU}$, $\\mathrm{Swish}$, $\\mathrm{Mish}$, and $\\sin$, under significantly more realistic floating-point execution models than previously known.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2509.04208",
+ "title": "One-Embedding-Fits-All: Efficient Zero-Shot Time Series Forecasting by a Model Zoo",
+ "authors": [
+  "Hao-Nan Shi",
+  "Ting-Ji Huang",
+  "Lu Han",
+  "De-Chuan Zhan",
+  "Han-Jia Ye"
+ ],
+ "v1_date": "2025-09-04",
+ "latest_version": 2,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The proliferation of Time Series Foundation Models (TSFMs) has significantly advanced zero-shot forecasting, enabling predictions for unseen time series without task-specific fine-tuning. Extensive research has confirmed that no single TSFM excels universally, as different models exhibit preferences for distinct temporal patterns. This diversity suggests an opportunity: how to take advantage of the complementary abilities of TSFMs. To this end, we propose ZooCast, which characterizes each model's distinct forecasting strengths. ZooCast can intelligently assemble current TSFMs into a model zoo that dynamically selects optimal models for different forecasting tasks. Our key innovation lies in the One-Embedding-Fits-All paradigm that constructs a unified representation space where each model in the zoo is represented by a single embedding, enabling efficient similarity matching for all tasks. Experiments demonstrate ZooCast's strong performance on the GIFT-Eval zero-shot forecasting benchmark while maintaining the efficiency of a single TSFM. In real-world scenarios with sequential model releases, the framework seamlessly adds new models for progressive accuracy gains with negligible overhead.",
+ "primary": "cs.LG"
+}

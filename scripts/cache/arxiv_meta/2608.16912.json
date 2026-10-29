@@ -1,0 +1,16 @@
+{
+ "id": "2608.16912",
+ "title": "What Makes a Fairness Gap Actionable? Statistical Actionability for Responsible AI Deployment",
+ "authors": [
+  "Hairu Fan",
+  "Shiyuan Wang"
+ ],
+ "v1_date": "2026-07-12",
+ "latest_version": 1,
+ "latest_date": "2026-07-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended version of a manuscript under review. 18 pages, 5 figures",
+ "abstract": "Algorithmic fairness audits can detect disparities, but they do not determine when those disparities warrant intervention. Deployment decisions also depend on the reliability of the evidence, subgroup support, and deployment context. Existing fairness methods quantify disparities and uncertainty, yet provide limited guidance for translating accumulated evidence into action. We introduce Statistical Actionability, a statistical construct that recasts fairness deployment as an evidence-based decision problem. The framework integrates fairness evidence regarding disparity magnitude, statistical reliability, subgroup adequacy, and deployment context, and maps the resulting evidence state to one of four recommendations: mitigate, collect more data, monitor, or take no immediate action. In controlled simulations, Statistical Actionability achieved the lowest decision cost among representative baselines, reducing average decision cost by 19.2% relative to gap-based intervention while simultaneously reducing both false alarms and missed bias. A calibrated deployment rule generalized across heterogeneous statistical environments, remaining within 2% of the target oracle in four of five transportability regimes. Analyses of benchmark fairness audits further demonstrated that the framework distinguished audits with similar observed fairness gaps but different levels of uncertainty and subgroup support, yielding interpretable deployment recommendations. Statistical Actionability therefore establishes a statistical decision layer between fairness evaluation and deployment intervention, enabling responsible AI systems to act on accumulated evidence rather than disparity magnitude alone.",
+ "primary": "cs.CY"
+}

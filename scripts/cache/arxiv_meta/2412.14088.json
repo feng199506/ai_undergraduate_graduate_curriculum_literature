@@ -1,0 +1,17 @@
+{
+ "id": "2412.14088",
+ "title": "Joint Perception and Prediction for Autonomous Driving: A Survey",
+ "authors": [
+  "Lucas Dal'Col",
+  "Miguel Oliveira",
+  "Vítor Santos"
+ ],
+ "v1_date": "2024-12-18",
+ "latest_version": 1,
+ "latest_date": "2024-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 5 sections, 7 figures, 7 tables. This work has been submitted to the IEEE Transactions on Intelligent Transportation Systems for possible publication",
+ "abstract": "Perception and prediction modules are critical components of autonomous driving systems, enabling vehicles to navigate safely through complex environments. The perception module is responsible for perceiving the environment, including static and dynamic objects, while the prediction module is responsible for predicting the future behavior of these objects. These modules are typically divided into three tasks: object detection, object tracking, and motion prediction. Traditionally, these tasks are developed and optimized independently, with outputs passed sequentially from one to the next. However, this approach has significant limitations: computational resources are not shared across tasks, the lack of joint optimization can amplify errors as they propagate throughout the pipeline, and uncertainty is rarely propagated between modules, resulting in significant information loss. To address these challenges, the joint perception and prediction paradigm has emerged, integrating perception and prediction into a unified model through multi-task learning. This strategy not only overcomes the limitations of previous methods, but also enables the three tasks to have direct access to raw sensor data, allowing richer and more nuanced environmental interpretations. This paper presents the first comprehensive survey of joint perception and prediction for autonomous driving. We propose a taxonomy that categorizes approaches based on input representation, scene context modeling, and output representation, highlighting their contributions and limitations. Additionally, we present a qualitative analysis and quantitative comparison of existing methods. Finally, we discuss future research directions based on identified gaps in the state-of-the-art.",
+ "primary": "cs.CV"
+}

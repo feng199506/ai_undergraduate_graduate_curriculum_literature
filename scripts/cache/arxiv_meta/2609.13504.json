@@ -1,0 +1,20 @@
+{
+ "id": "2609.13504",
+ "title": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction",
+ "authors": [
+  "Tingjun Huang",
+  "Dmitry Rudshin",
+  "Mathieu Meyer",
+  "Pietro Bonazzi",
+  "Marc Pollefeys",
+  "Emilia Szymańska"
+ ],
+ "v1_date": "2026-09-11",
+ "latest_version": 2,
+ "latest_date": "2026-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent developments in feed-forward 3D reconstruction resulted in models which can recover dense scene representations and camera motion solely from an image stream. However, such predictions are prone to becoming inconsistent over long trajectories, specifically in demanding environments with repetitive structures, weak textures and dynamic objects or people. One way to mitigate those challenges is to use an omnidirectional camera, which provides wide spatial coverage and captures richer visual information. Yet, the majority of models do not offer support for 360-degree imagery or require additional fine-tuning. To bridge these two aspects, we present RIGOR: a large-scale reconstruction pipeline for gravity-aligned omnidirectional videos that retains a frozen feed-forward perspective backbone and exploits each panorama as a four-view virtual rig. The rig structure is used to detect and repair locally inconsistent predictions, to retrieve loop closures through cyclic four-view consensus, and to geometrically verify candidate revisits before global optimization. Verified constraints drive a Sim(3) pose graph that corrects accumulated rotation, translation, and scale drift along the sequence. We demonstrate that the proposed consistency mechanisms improve both trajectory accuracy and reconstructed geometry over a feed-forward baseline on challenging construction-site sequences. The code is made available under this link: https://github.com/TangentH/RIGOR.",
+ "primary": "cs.CV"
+}

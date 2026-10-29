@@ -1,0 +1,19 @@
+{
+ "id": "2510.08526",
+ "title": "Convergence Theorems for Entropy-Regularized and Distributional Reinforcement Learning",
+ "authors": [
+  "Yash Jhaveri",
+  "Harley Wiltzer",
+  "Patrick Shafto",
+  "Marc G. Bellemare",
+  "David Meger"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 1,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2025. First two authors contributed equally",
+ "abstract": "In the pursuit of finding an optimal policy, reinforcement learning (RL) methods generally ignore the properties of learned policies apart from their expected return. Thus, even when successful, it is difficult to characterize which policies will be learned and what they will do. In this work, we present a theoretical framework for policy optimization that guarantees convergence to a particular optimal policy, via vanishing entropy regularization and a temperature decoupling gambit. Our approach realizes an interpretable, diversity-preserving optimal policy as the regularization temperature vanishes and ensures the convergence of policy derived objects--value functions and return distributions. In a particular instance of our method, for example, the realized policy samples all optimal actions uniformly. Leveraging our temperature decoupling gambit, we present an algorithm that estimates, to arbitrary accuracy, the return distribution associated to its interpretable, diversity-preserving optimal policy.",
+ "primary": "cs.LG"
+}

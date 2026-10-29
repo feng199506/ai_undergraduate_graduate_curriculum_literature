@@ -1,0 +1,20 @@
+{
+ "id": "2503.23434",
+ "title": "Towards Trustworthy GUI Agents: A Survey",
+ "authors": [
+  "Yucheng Shi",
+  "Wenhao Yu",
+  "Jingyuan Huang",
+  "Wenlin Yao",
+  "Wenhu Chen",
+  "Ninghao Liu"
+ ],
+ "v1_date": "2025-03-30",
+ "latest_version": 2,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, work in process",
+ "abstract": "Graphical User Interface (GUI) agents extend large language models from text generation to action execution in real-world digital environments. Unlike conversational systems, GUI agents perform irreversible operations such as submitting forms, granting permissions, or deleting data, making trustworthiness a core requirement. This survey identifies the execution gap as a key challenge in building trustworthy GUI agents: the misalignment between perception, reasoning, and interaction in dynamic, partially observable interfaces. We introduce a workflow-aligned taxonomy that decomposes trust into Perception Trust, Reasoning Trust, and Interaction Trust, showing how failures propagate across agent pipelines and compound through action/observation loops. We systematically review benign failure modes and adversarial attacks at each stage, together with corresponding defense mechanisms tailored to GUI settings. We further analyze evaluation practices and argue that task completion alone is insufficient for trust assessment. We highlight emerging trust-aware metrics and benchmarks that capture error cascades and the security/utility trade-off, and outline open challenges for deploying GUI agents safely and reliably.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2410.18451",
+ "title": "Skywork-Reward: Bag of Tricks for Reward Modeling in LLMs",
+ "authors": [
+  "Chris Yuhao Liu",
+  "Liang Zeng",
+  "Jiacai Liu",
+  "Rui Yan",
+  "Jujie He",
+  "Chaojie Wang",
+  "Shuicheng Yan",
+  "Yang Liu",
+  "Yahui Zhou"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 1,
+ "latest_date": "2024-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this report, we introduce a collection of methods to enhance reward modeling for LLMs, focusing specifically on data-centric techniques. We propose effective data selection and filtering strategies for curating high-quality open-source preference datasets, culminating in the Skywork-Reward data collection, which contains only 80K preference pairs -- significantly smaller than existing datasets. Using this curated dataset, we developed the Skywork-Reward model series -- Skywork-Reward-Gemma-27B and Skywork-Reward-Llama-3.1-8B -- with the former currently holding the top position on the RewardBench leaderboard. Notably, our techniques and datasets have directly enhanced the performance of many top-ranked models on RewardBench, highlighting the practical impact of our contributions in real-world preference learning applications.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.03672",
+ "title": "Latent Guided Sampling for Combinatorial Optimization",
+ "authors": [
+  "Sobihan Surendran",
+  "Adeline Fermanian",
+  "Sylvain Le Corff"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 2,
+ "latest_date": "2026-06-09",
+ "journal_ref": "International Conference on Machine Learning, Jul 2026, Seoul, South Korea",
+ "doi": "",
+ "comment": "",
+ "abstract": "Combinatorial Optimization problems are widespread in domains such as logistics, manufacturing, and drug discovery, yet their NP-hard nature makes them computationally challenging. Recent Neural Combinatorial Optimization (NCO) methods leverage deep learning to learn policies for constructing solutions, trained via Supervised or Reinforcement Learning. While promising, these approaches often rely on task-specific augmentations, perform poorly on out-of-distribution instances, and lack robust inference mechanisms. Moreover, existing latent space models either require labeled data or use an instance-independent latent distribution. In this work, we propose LGS-Net, a novel latent space model that conditions on problem instances, and introduce an efficient inference method, Latent Guided Sampling (LGS), based on Markov Chain Monte Carlo and Stochastic Approximation. We show that the iterations of our method form a time-inhomogeneous Markov Chain and provide rigorous theoretical convergence guarantees. Empirical results on benchmark routing tasks show that our method achieves state-of-the-art performance among NCO baselines.",
+ "primary": "stat.ML"
+}

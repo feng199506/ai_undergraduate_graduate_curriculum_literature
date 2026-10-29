@@ -1,0 +1,16 @@
+{
+ "id": "2401.00828",
+ "title": "Multi-Lattice Sampling of Quantum Field Theories via Neural Operator-based Flows",
+ "authors": [
+  "Bálint Máté",
+  "François Fleuret"
+ ],
+ "v1_date": "2024-01-01",
+ "latest_version": 4,
+ "latest_date": "2024-11-07",
+ "journal_ref": "",
+ "doi": "10.1088/2632-2153/ad9707",
+ "comment": "",
+ "abstract": "We consider the problem of sampling lattice field configurations on a lattice from the Boltzmann distribution corresponding to some action. Since such densities arise as approximationw of an underlying functional density, we frame the task as an instance of operator learning. We propose to approximate a time-dependent neural operator whose time integral provides a mapping between the functional distributions of the free and target theories. Once a particular lattice is chosen, the neural operator can be discretized to a finite-dimensional, time-dependent vector field which in turn induces a continuous normalizing flow between finite dimensional distributions over the chosen lattice. This flow can then be trained to be a diffeormorphism between the discretized free and target theories on the chosen lattice, and, by construction, can be evaluated on different discretizations of spacetime. We experimentally validate the proposal on the 2-dimensional $φ^4$-theory to explore to what extent such operator-based flow architectures generalize to lattice sizes they were not trained on, and show that pretraining on smaller lattices can lead to a speedup over training directly on the target lattice size.",
+ "primary": "cs.LG"
+}

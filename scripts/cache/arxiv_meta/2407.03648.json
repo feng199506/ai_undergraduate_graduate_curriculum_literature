@@ -1,0 +1,26 @@
+{
+ "id": "2407.03648",
+ "title": "High Fidelity Text-Guided Music Editing via Single-Stage Flow Matching",
+ "authors": [
+  "Gael Le Lan",
+  "Bowen Shi",
+  "Zhaoheng Ni",
+  "Sidd Srinivasan",
+  "Anurag Kumar",
+  "Brian Ellis",
+  "David Kant",
+  "Varun Nagaraja",
+  "Ernie Chang",
+  "Wei-Ning Hsu",
+  "Yangyang Shi",
+  "Vikas Chandra"
+ ],
+ "v1_date": "2024-07-04",
+ "latest_version": 2,
+ "latest_date": "2024-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce MelodyFlow, an efficient text-controllable high-fidelity music generation and editing model. It operates on continuous latent representations from a low frame rate 48 kHz stereo variational auto encoder codec. Based on a diffusion transformer architecture trained on a flow-matching objective the model can edit diverse high quality stereo samples of variable duration, with simple text descriptions. We adapt the ReNoise latent inversion method to flow matching and compare it with the original implementation and naive denoising diffusion implicit model (DDIM) inversion on a variety of music editing prompts. Our results indicate that our latent inversion outperforms both ReNoise and DDIM for zero-shot test-time text-guided editing on several objective metrics. Subjective evaluations exhibit a substantial improvement over previous state of the art for music editing. Code and model weights will be publicly made available. Samples are available at https://melodyflow.github.io.",
+ "primary": "eess.AS"
+}

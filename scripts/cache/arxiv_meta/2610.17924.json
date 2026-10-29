@@ -1,0 +1,17 @@
+{
+ "id": "2610.17924",
+ "title": "Free-support Wasserstein Resampling in Sequential Monte Carlo",
+ "authors": [
+  "Mengyu Li",
+  "Cheng Meng",
+  "Jun S. Liu"
+ ],
+ "v1_date": "2026-10-13",
+ "latest_version": 1,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In modern sequential Monte Carlo (SMC) applications, such as diffusion model samplers, propagating a particle is expensive, so only a few particles can be afforded. In this regime, each resampling step decides which regions of the state space survive, so a better resampling scheme is worth extra computation. However, classical resampling methods only replicate existing particles and suffer from sample impoverishment, especially when the particle size is small relative to the dimension. To create new particles, we relax the unbiasedness of resampling and control the mean squared error via a Wasserstein criterion. Specifically, we propose Wasserstein-Dirichlet resampling (WDR), which constructs an equal-weight measure that optimally approximates the weighted particle distribution by solving a free-support Wasserstein barycenter problem. We then randomize the resulting optimal coupling by Dirichlet mixing. Theoretically, we provide non-asymptotic mean squared error bounds that quantify the bias-variance trade-off and show that the rate depends on the intrinsic dimension. A truncated variant preserves high-weight particles while applying WDR to the remaining mass, targeting mild weight degeneracy. Experiments on state-space models and conditional image generation demonstrate that WDR consistently improves estimation accuracy, stability, and sample diversity. The improvements persist at matched wall-clock cost when the propagation cost dominates.",
+ "primary": "stat.ME"
+}

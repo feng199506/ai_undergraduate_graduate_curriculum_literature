@@ -1,0 +1,17 @@
+{
+ "id": "2508.21698",
+ "title": "Unidentified and Confounded? Understanding Two-Tower Models for Unbiased Learning to Rank (Extended Abstract)",
+ "authors": [
+  "Philipp Hager",
+  "Onno Zoeter",
+  "Maarten de Rijke"
+ ],
+ "v1_date": "2025-08-29",
+ "latest_version": 1,
+ "latest_date": "2025-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Additive two-tower models are popular learning-to-rank methods for handling biased user feedback in industry settings. Recent studies, however, report a concerning phenomenon: training two-tower models on clicks collected by well-performing production systems leads to decreased ranking performance. This paper investigates two recent explanations for this observation: confounding effects from logging policies and model identifiability issues. We theoretically analyze the identifiability conditions of two-tower models, showing that either document swaps across positions or overlapping feature distributions are required to recover model parameters from clicks. We also investigate the effect of logging policies on two-tower models, finding that they introduce no bias when models perfectly capture user behavior. However, logging policies can amplify biases when models imperfectly capture user behavior, particularly when prediction errors correlate with document placement across positions. We propose a sample weighting technique to mitigate these effects and provide actionable insights for researchers and practitioners using two-tower models.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2401.05146",
+ "title": "Federated Unlearning: A Survey on Methods, Design Guidelines, and Evaluation Metrics",
+ "authors": [
+  "Nicolò Romandini",
+  "Alessio Mora",
+  "Carlo Mazzocca",
+  "Rebecca Montanari",
+  "Paolo Bellavista"
+ ],
+ "v1_date": "2024-01-10",
+ "latest_version": 3,
+ "latest_date": "2024-11-05",
+ "journal_ref": "",
+ "doi": "10.1109/tnnls.2024.3478334",
+ "comment": "21 pages, 6 figures, and 6 tables",
+ "abstract": "Federated learning (FL) enables collaborative training of a machine learning (ML) model across multiple parties, facilitating the preservation of users' and institutions' privacy by maintaining data stored locally. Instead of centralizing raw data, FL exchanges locally refined model parameters to build a global model incrementally. While FL is more compliant with emerging regulations such as the European General Data Protection Regulation (GDPR), ensuring the right to be forgotten in this context - allowing FL participants to remove their data contributions from the learned model - remains unclear. In addition, it is recognized that malicious clients may inject backdoors into the global model through updates, e.g., to generate mispredictions on specially crafted data examples. Consequently, there is the need for mechanisms that can guarantee individuals the possibility to remove their data and erase malicious contributions even after aggregation, without compromising the already acquired \"good\" knowledge. This highlights the necessity for novel federated unlearning (FU) algorithms, which can efficiently remove specific clients' contributions without full model retraining. This article provides background concepts, empirical evidence, and practical guidelines to design/implement efficient FU schemes. This study includes a detailed analysis of the metrics for evaluating unlearning in FL and presents an in-depth literature review categorizing state-of-the-art FU contributions under a novel taxonomy. Finally, we outline the most relevant and still open technical challenges, by identifying the most promising research directions in the field.",
+ "primary": "cs.LG"
+}

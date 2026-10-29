@@ -1,0 +1,16 @@
+{
+ "id": "2510.04780",
+ "title": "Kernel ridge regression under power-law data: spectrum and generalization",
+ "authors": [
+  "Arie Wortsman",
+  "Bruno Loureiro"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 1,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we investigate high-dimensional kernel ridge regression (KRR) on i.i.d. Gaussian data with anisotropic power-law covariance. This setting differs fundamentally from the classical source & capacity conditions for KRR, where power-law assumptions are typically imposed on the kernel eigen-spectrum itself. Our contributions are twofold. First, we derive an explicit characterization of the kernel spectrum for polynomial inner-product kernels, giving a precise description of how the kernel eigen-spectrum inherits the data decay. Second, we provide an asymptotic analysis of the excess risk in the high-dimensional regime for a particular kernel with this spectral behavior, showing that the sample complexity is governed by the effective dimension of the data rather than the ambient dimension. These results establish a fundamental advantage of learning with power-law anisotropic data over isotropic data. To our knowledge, this is the first rigorous treatment of non-linear KRR under power-law data.",
+ "primary": "stat.ML"
+}

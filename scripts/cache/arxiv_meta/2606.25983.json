@@ -1,0 +1,17 @@
+{
+ "id": "2606.25983",
+ "title": "Exploring Pareto smoothing in sequential Monte Carlo",
+ "authors": [
+  "Jia Le Tan",
+  "Nicola D. Walker",
+  "Richard G. Everitt"
+ ],
+ "v1_date": "2026-06-24",
+ "latest_version": 1,
+ "latest_date": "2026-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A popular technique for reducing the variance of importance sampling (IS) estimators is to modify the weights of some importance points. One approach is to truncate the largest weights, which reduces variance but can introduce substantial bias. Pareto smoothed importance sampling (PSIS), by contrast, reduces the variance of the weights by fitting a generalised Pareto distribution to the upper tail of the weight distribution and replacing the weights in this tail with the corresponding expected quantiles from the fitted distribution. PSIS can therefore also reduce variance, but typically with less bias, and has been used successfully in IS-based approximations for Bayesian cross-validation. This paper explores the use of PSIS steps within sequential Monte Carlo (SMC) samplers, with a particular focus on approximate Bayesian computation (ABC)-SMC algorithms, where we aim to use Pareto smoothing to reduce the use of Markov chain Monte Carlo (MCMC) moves, each of which requires simulation from a model that is often computationally expensive. Our empirical investigation suggests that there are only minimal benefits to using Pareto smoothing in SMC, since the variance reduction through using a sequence of targets dominates the impact of the weight adjustment.",
+ "primary": "stat.CO"
+}

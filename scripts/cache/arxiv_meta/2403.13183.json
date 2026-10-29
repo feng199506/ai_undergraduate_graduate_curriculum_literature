@@ -1,0 +1,17 @@
+{
+ "id": "2403.13183",
+ "title": "Resolving Sets in Temporal Graphs",
+ "authors": [
+  "Jan Bok",
+  "Antoine Dailly",
+  "Tuomo Lehtilä"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 3,
+ "latest_date": "2024-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A \\emph{resolving set} $R$ in a graph $G$ is a set of vertices such that every vertex of $G$ is uniquely identified by its distances to the vertices of $R$. Introduced in the 1970s, this concept has been since then extensively studied from both combinatorial and algorithmic points of view. We propose a generalization of the concept of resolving sets to temporal graphs, \\emph{i.e.}, graphs with edge sets that change over discrete time-steps. In this setting, the \\emph{temporal distance from $u$ to $v$} is the earliest possible time-step at which a journey with strictly increasing time-steps on edges leaving $u$ reaches $v$, \\emph{i.e.}, the first time-step at which $v$ could receive a message broadcast from $u$. A \\emph{temporal resolving set} of a temporal graph $\\mathcal{G}$ is a subset $R$ of its vertices such that every vertex of $\\mathcal{G}$ is uniquely identified by its temporal distances from vertices of $R$. We study the problem of finding a minimum-size temporal resolving set, and show that it is NP-complete even on very restricted graph classes and with strong constraints on the time-steps: temporal complete graphs where every edge appears in either time-step~1 or~2, temporal trees where every edge appears in at most two consecutive time-steps, and even temporal subdivided stars where every edge appears in at most two (not necessarily consecutive) time-steps. On the other hand, we give polynomial-time algorithms for temporal paths and temporal stars where every edge appears in exactly one time-step, and give a combinatorial analysis and algorithms for several temporal graph classes where the edges appear in periodic time-steps.",
+ "primary": "math.CO"
+}

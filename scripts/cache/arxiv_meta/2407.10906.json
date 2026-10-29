@@ -1,0 +1,19 @@
+{
+ "id": "2407.10906",
+ "title": "An Exploratory Study on Just-in-Time Multi-Programming-Language Bug Prediction",
+ "authors": [
+  "Zengyang Li",
+  "Jiabao Ji",
+  "Peng Liang",
+  "Ran Mo",
+  "Hui Liu"
+ ],
+ "v1_date": "2024-07-15",
+ "latest_version": 1,
+ "latest_date": "2024-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint accepted for publication in Information and Software Technology, 2024",
+ "abstract": "Context: An increasing number of software systems are written in multiple programming languages (PLs), which are called multi-programming-language (MPL) systems. MPL bugs (MPLBs) refers to the bugs whose resolution involves multiple PLs. Despite high complexity of MPLB resolution, there lacks MPLB prediction methods. Objective: This work aims to construct just-in-time (JIT) MPLB prediction models with selected prediction metrics, analyze the significance of the metrics, and then evaluate the performance of cross-project JIT MPLB prediction. Method: We develop JIT MPLB prediction models with the selected metrics using machine learning algorithms and evaluate the models in within-project and cross-project contexts with our constructed dataset based on 18 Apache MPL projects. Results: Random Forest is appropriate for JIT MPLB prediction. Changed LOC of all files, added LOC of all files, and the total number of lines of all files of the project currently are the most crucial metrics in JIT MPLB prediction. The prediction models can be simplified using a few top-ranked metrics. Training on the dataset from multiple projects can yield significantly higher AUC than training on the dataset from a single project for cross-project JIT MPLB prediction. Conclusions: JIT MPLB prediction models can be constructed with the selected set of metrics, which can be reduced to build simplified JIT MPLB prediction models, and cross-project JIT MPLB prediction is feasible.",
+ "primary": "cs.SE"
+}

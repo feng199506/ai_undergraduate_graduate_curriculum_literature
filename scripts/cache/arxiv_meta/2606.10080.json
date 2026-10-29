@@ -1,0 +1,16 @@
+{
+ "id": "2606.10080",
+ "title": "VFUSE: Virulent Feature Understanding with Sparse autoEncoders",
+ "authors": [
+  "Michael Yu",
+  "Matthew L. Olson"
+ ],
+ "v1_date": "2026-06-08",
+ "latest_version": 1,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative models have shown remarkable progress in a variety of domains such as protein design, but such power enables the opaque generation of hazardous proteins. In this work, we introduce VFUSE (Virulent Feature Understanding with Sparse autoEncoders), a mechanistic interpretability approach that trains SAEs on diffusion-transformer activations to audit protein models for hazard-aware features. We apply VFUSE to RoseTTAFold3 and RFDiffusion3, popular open-weight models for protein folding and synthesis. We find that for certain blocks, linear probes detect hazardous designs significantly better when fit in the SAE latent space over the original model's representations: improving interpretability without sacrificing model performance. Furthermore, we identify monosemantic features from the SAE that fire only on hazardous designs at up to AUROC $0.84$ ($q < 10^{-13}$). To our knowledge this is the first SAE trained on an all-atom diffusion model and the first feature-level virulence audit of a protein design model, paving the way towards safe and interpretable protein design.",
+ "primary": "cs.LG"
+}

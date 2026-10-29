@@ -1,0 +1,16 @@
+{
+ "id": "2410.01221",
+ "title": "Induced Covariance for Causal Discovery in Linear Sparse Structures",
+ "authors": [
+  "Saeed Mohseni-Sehdeh",
+  "Walid Saad"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 1,
+ "latest_date": "2024-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal models seek to unravel the cause-effect relationships among variables from observed data, as opposed to mere mappings among them, as traditional regression models do. This paper introduces a novel causal discovery algorithm designed for settings in which variables exhibit linearly sparse relationships. In such scenarios, the causal links represented by directed acyclic graphs (DAGs) can be encapsulated in a structural matrix. The proposed approach leverages the structural matrix's ability to reconstruct data and the statistical properties it imposes on the data to identify the correct structural matrix. This method does not rely on independence tests or graph fitting procedures, making it suitable for scenarios with limited training data. Simulation results demonstrate that the proposed method outperforms the well-known PC, GES, BIC exact search, and LINGAM-based methods in recovering linearly sparse causal structures.",
+ "primary": "cs.LG"
+}

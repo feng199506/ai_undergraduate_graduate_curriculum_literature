@@ -1,0 +1,17 @@
+{
+ "id": "2508.00696",
+ "title": "Online Rolling Controlled Sequential Monte Carlo",
+ "authors": [
+  "Liwen Xue",
+  "Axel Finke",
+  "Adam M. Johansen"
+ ],
+ "v1_date": "2025-08-01",
+ "latest_version": 1,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce methodology for real-time inference in general-state-space hidden Markov models. Specifically, we extend recent advances in controlled sequential Monte Carlo (CSMC) methods-originally proposed for offline smoothing-to the online setting via a rolling window mechanism. Our novel online rolling controlled sequential Monte Carlo (ORCSMC) algorithm employs two particle systems to simultaneously estimate twisting functions and perform filtering, ensuring real-time adaptivity to new observations while maintaining bounded computational cost. Numerical results on linear-Gaussian, stochastic volatility, and neuroscience models demonstrate improved estimation accuracy and robustness in higher dimensions, compared to standard particle filtering approaches. The method offers a statistically efficient and practical solution for sequential and real-time inference in complex latent variable models.",
+ "primary": "stat.CO"
+}

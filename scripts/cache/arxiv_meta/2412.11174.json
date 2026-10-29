@@ -1,0 +1,17 @@
+{
+ "id": "2412.11174",
+ "title": "Semi-Supervised Risk Control via Prediction-Powered Inference",
+ "authors": [
+  "Bat-Sheva Einbinder",
+  "Liran Ringel",
+  "Yaniv Romano"
+ ],
+ "v1_date": "2024-12-15",
+ "latest_version": 2,
+ "latest_date": "2025-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The risk-controlling prediction sets (RCPS) framework is a general tool for transforming the output of any machine learning model to design a predictive rule with rigorous error rate control. The key idea behind this framework is to use labeled hold-out calibration data to tune a hyper-parameter that affects the error rate of the resulting prediction rule. However, the limitation of such a calibration scheme is that with limited hold-out data, the tuned hyper-parameter becomes noisy and leads to a prediction rule with an error rate that is often unnecessarily conservative. To overcome this sample-size barrier, we introduce a semi-supervised calibration procedure that leverages unlabeled data to rigorously tune the hyper-parameter without compromising statistical validity. Our procedure builds upon the prediction-powered inference framework, carefully tailoring it to risk-controlling tasks. We demonstrate the benefits and validity of our proposal through two real-data experiments: few-shot image classification and early time series classification.",
+ "primary": "cs.LG"
+}

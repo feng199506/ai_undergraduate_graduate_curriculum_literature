@@ -1,0 +1,19 @@
+{
+ "id": "2602.23967",
+ "title": "PDHCG-II: An Enhanced Version of PDHCG for Large-Scale Convex QP",
+ "authors": [
+  "Hongpei Li",
+  "Yicheng Huang",
+  "Huikang Liu",
+  "Dongdong Ge",
+  "Yinyu Ye"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 1,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "A GPU-accelerated Convex QP Solver",
+ "abstract": "Quadratic programming (QP) is a fundamental optimization model with wide-ranging applications in decision-making and machine learning, yet efficiently solving large-scale instances remains a major computational challenge. Building upon the recently developed PDHCG framework, we propose PDHCG-II, an enhanced first-order solver tailored for large-scale convex QPs. The proposed method explicitly exploits the quadratic structure of the objective and incorporates several key algorithmic innovations, including Halpern-type acceleration and a PID-controlled adaptive update of the primal-dual weight. To further improve practical performance, PDHCG-II introduces a refined adaptive termination criterion for inner subproblems to prevent over-solving, together with an infeasibility detection mechanism for robust handling of ill-posed instances. Extensive numerical experiments demonstrate that PDHCG-II consistently achieves 2.5-5 times speedups over PDHCG on standard QP benchmarks. To facilitate reproducibility and broader adoption, we release a CUDA-C implementation of PDHCG-II as open-source software.",
+ "primary": "math.OC"
+}

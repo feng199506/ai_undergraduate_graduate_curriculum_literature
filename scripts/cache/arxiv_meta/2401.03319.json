@@ -1,0 +1,21 @@
+{
+ "id": "2401.03319",
+ "title": "Comparison of Microservice Call Rate Predictions for Replication in the Cloud",
+ "authors": [
+  "Narges Mehran",
+  "Arman Haghighi",
+  "Pedram Aminharati",
+  "Nikolay Nikolov",
+  "Ahmet Soylu",
+  "Dumitru Roman",
+  "Radu Prodan"
+ ],
+ "v1_date": "2023-10-29",
+ "latest_version": 1,
+ "latest_date": "2023-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 5 figures, 4 tables",
+ "abstract": "Today, many users deploy their microservice-based applications with various interconnections on a cluster of Cloud machines, subject to stochastic changes due to dynamic user requirements. To address this problem, we compare three machine learning (ML) models for predicting the microservice call rates based on the microservice times and aiming at estimating the scalability requirements. We apply the linear regression (LR), multilayer perception (MLP), and gradient boosting regression (GBR) models on the Alibaba microservice traces. The prediction results reveal that the LR model reaches a lower training time than the GBR and MLP models. However, the GBR reduces the mean absolute error and the mean absolute percentage error compared to LR and MLP models. Moreover, the prediction results show that the required number of replicas for each microservice by the gradient boosting model is close to the actual test data without any prediction.",
+ "primary": "cs.DC"
+}

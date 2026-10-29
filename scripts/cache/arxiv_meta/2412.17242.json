@@ -1,0 +1,25 @@
+{
+ "id": "2412.17242",
+ "title": "On the Generalization and Adaptation Ability of Machine-Generated Text Detectors in Academic Writing",
+ "authors": [
+  "Yule Liu",
+  "Zhiyuan Zhong",
+  "Yifan Liao",
+  "Zhen Sun",
+  "Jingyi Zheng",
+  "Jiaheng Wei",
+  "Qingyuan Gong",
+  "Fenghua Tong",
+  "Yang Chen",
+  "Yang Zhang",
+  "Xinlei He"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 3,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "10.1145/3711896.3737408",
+ "comment": "",
+ "abstract": "The rising popularity of large language models (LLMs) has raised concerns about machine-generated text (MGT), particularly in academic settings, where issues like plagiarism and misinformation are prevalent. As a result, developing a highly generalizable and adaptable MGT detection system has become an urgent priority. Given that LLMs are most commonly misused in academic writing, this work investigates the generalization and adaptation capabilities of MGT detectors in three key aspects specific to academic writing: First, we construct MGT-Acedemic, a large-scale dataset comprising over 336M tokens and 749K samples. MGT-Acedemic focuses on academic writing, featuring human-written texts (HWTs) and MGTs across STEM, Humanities, and Social Sciences, paired with an extensible code framework for efficient benchmarking. Second, we benchmark the performance of various detectors for binary classification and attribution tasks in both in-domain and cross-domain settings. This benchmark reveals the often-overlooked challenges of attribution tasks. Third, we introduce a novel attribution task where models have to adapt to new classes over time without (or with very limited) access to prior training data in both few-shot and many-shot scenarios. We implement eight different adapting techniques to improve the performance and highlight the inherent complexity of the task. Our findings provide insights into the generalization and adaptation ability of MGT detectors across diverse scenarios and lay the foundation for building robust, adaptive detection systems. The code framework is available at https://github.com/Y-L-LIU/MGTBench-2.0.",
+ "primary": "cs.AI"
+}

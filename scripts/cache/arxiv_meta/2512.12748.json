@@ -1,0 +1,16 @@
+{
+ "id": "2512.12748",
+ "title": "Complexity of Markov Chain Monte Carlo for Generalized Linear Models",
+ "authors": [
+  "Martin Chak",
+  "Giacomo Zanella"
+ ],
+ "v1_date": "2025-12-14",
+ "latest_version": 2,
+ "latest_date": "2026-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Markov Chain Monte Carlo (MCMC), Laplace approximation (LA) and variational inference (VI) methods are popular approaches to Bayesian inference, each with trade-offs between computational cost and accuracy. However, a theoretical understanding of these differences is missing, particularly when both the sample size $n$ and the dimension $d$ are large. LA and Gaussian VI are justified by Bernstein-von Mises (BvM) theorems, and recent work has derived the characteristic condition $n\\gg d^2$ for their validity, improving over the condition $n\\gg d^3$. In this paper, we show for linear, logistic and Poisson regression that for $n\\gtrsim d$, MCMC attains the same complexity scaling in $n$, $d$ as first-order optimization algorithms, up to sub-polynomial factors. Thus MCMC is competitive with LA and Gaussian VI in complexity, under a scaling between $n$ and $d$ more general than BvM regimes. Our complexities apply to appropriately scaled priors that are not necessarily Gaussian-tailed, including Student-$t$ and flat priors, with log-posteriors that are not necessarily globally concave or gradient-Lipschitz.",
+ "primary": "stat.CO"
+}

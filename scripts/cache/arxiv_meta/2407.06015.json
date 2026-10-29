@@ -1,0 +1,18 @@
+{
+ "id": "2407.06015",
+ "title": "Simulation-based Benchmarking for Causal Structure Learning in Gene Perturbation Experiments",
+ "authors": [
+  "Luka Kovačević",
+  "Izzy Newsham",
+  "Sach Mukherjee",
+  "John Whittaker"
+ ],
+ "v1_date": "2024-07-08",
+ "latest_version": 1,
+ "latest_date": "2024-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 8 figures, 4 tables",
+ "abstract": "Causal structure learning (CSL) refers to the task of learning causal relationships from data. Advances in CSL now allow learning of causal graphs in diverse application domains, which has the potential to facilitate data-driven causal decision-making. Real-world CSL performance depends on a number of $\\textit{context-specific}$ factors, including context-specific data distributions and non-linear dependencies, that are important in practical use-cases. However, our understanding of how to assess and select CSL methods in specific contexts remains limited. To address this gap, we present $\\textit{CausalRegNet}$, a multiplicative effect structural causal model that allows for generating observational and interventional data incorporating context-specific properties, with a focus on the setting of gene perturbation experiments. Using real-world gene perturbation data, we show that CausalRegNet generates accurate distributions and scales far better than current simulation frameworks. We illustrate the use of CausalRegNet in assessing CSL methods in the context of interventional experiments in biology.",
+ "primary": "stat.ML"
+}

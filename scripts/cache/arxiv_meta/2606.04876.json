@@ -1,0 +1,18 @@
+{
+ "id": "2606.04876",
+ "title": "Towards Pretraining Text Encoders for TabPFN",
+ "authors": [
+  "Mustafa Tajjar",
+  "Alexander Pfefferle",
+  "Lennart Purucker",
+  "Frank Hutter"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 1,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tabular foundation models, such as TabPFN, achieve strong performance on tabular datasets with numerical and categorical data, but do not natively handle high-cardinality text features. Standard pipelines, therefore, embed text with a language model and compress the resulting vectors with PCA into a small number of scalar features before inputting them into TabPFN. This creates an information bottleneck: most embedding dimensions are discarded, and the compressed representation must then be expanded again by TabPFN's feature encoder. End-to-end alternatives can avoid PCA, but they require large amounts of pretraining data containing text cells and usually perform subpar compared to tabular foundation models that were pretrained on large amounts of synthetic data. Inspired by modality-alignment approaches like LLaVA (vision-to-LLM token projection) and TableGPT-style systems (table-to-LLM token projection), we introduce the TabPFN Text Adapter (text-to-TFM token projection). We freeze both the sentence encoder and TabPFN, and train only a lightweight adapter that maps text embeddings into a short sequence of tokens in TabPFN's embedding space. This design removes the PCA bottleneck, preserves TabPFN's numerical strengths, and is more efficient to train than end-to-end text-tabular pipelines.",
+ "primary": "cs.LG"
+}

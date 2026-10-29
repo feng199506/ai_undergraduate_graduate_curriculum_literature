@@ -1,0 +1,22 @@
+{
+ "id": "2505.21910",
+ "title": "Taming Transformer Without Using Learning Rate Warmup",
+ "authors": [
+  "Xianbiao Qi",
+  "Yelin He",
+  "Jiaquan Ye",
+  "Chun-Guang Li",
+  "Bojia Zi",
+  "Xili Dai",
+  "Qin Zou",
+  "Rong Xiao"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 1,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper is published as a conference paper at ICLR 2025",
+ "abstract": "Scaling Transformer to a large scale without using some technical tricks such as learning rate warump and using an obviously lower learning rate is an extremely challenging task, and is increasingly gaining more attention. In this paper, we provide a theoretical analysis for the process of training Transformer and reveal the rationale behind the model crash phenomenon in the training process, termed \\textit{spectral energy concentration} of ${\\bW_q}^{\\top} \\bW_k$, which is the reason for a malignant entropy collapse, where ${\\bW_q}$ and $\\bW_k$ are the projection matrices for the query and the key in Transformer, respectively. To remedy this problem, motivated by \\textit{Weyl's Inequality}, we present a novel optimization strategy, \\ie, making the weight updating in successive steps smooth -- if the ratio $\\frac{σ_{1}(\\nabla \\bW_t)}{σ_{1}(\\bW_{t-1})}$ is larger than a threshold, we will automatically bound the learning rate to a weighted multiple of $\\frac{σ_{1}(\\bW_{t-1})}{σ_{1}(\\nabla \\bW_t)}$, where $\\nabla \\bW_t$ is the updating quantity in step $t$. Such an optimization strategy can prevent spectral energy concentration to only a few directions, and thus can avoid malignant entropy collapse which will trigger the model crash. We conduct extensive experiments using ViT, Swin-Transformer and GPT, showing that our optimization strategy can effectively and stably train these Transformers without using learning rate warmup.",
+ "primary": "cs.LG"
+}

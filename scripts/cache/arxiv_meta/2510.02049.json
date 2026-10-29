@@ -1,0 +1,18 @@
+{
+ "id": "2510.02049",
+ "title": "Mathematical Modeling and Convergence Analysis of Deep Neural Networks with Dense Layer Connectivities in Deep Learning",
+ "authors": [
+  "Jinshu Huang",
+  "Haibin Su",
+  "Xue-Cheng Tai",
+  "Chunlin Wu"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 1,
+ "latest_date": "2025-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In deep learning, dense layer connectivity has become a key design principle in deep neural networks (DNNs), enabling efficient information flow and strong performance across a range of applications. In this work, we model densely connected DNNs mathematically and analyze their learning problems in the deep-layer limit. For a broad applicability, we present our analysis in a framework setting of DNNs with densely connected layers and general non-local feature transformations (with local feature transformations as special cases) within layers, which is called dense non-local (DNL) framework and includes standard DenseNets and variants as special examples. In this formulation, the densely connected networks are modeled as nonlinear integral equations, in contrast to the ordinary differential equation viewpoint commonly adopted in prior works. We study the associated training problems from an optimal control perspective and prove convergence results from the network learning problem to its continuous-time counterpart. In particular, we show the convergence of optimal values and the subsequence convergence of minimizers, using a piecewise linear extension and $Γ$-convergence analysis. Our results provide a mathematical foundation for understanding densely connected DNNs and further suggest that such architectures can offer stability of training deep models.",
+ "primary": "cs.LG"
+}

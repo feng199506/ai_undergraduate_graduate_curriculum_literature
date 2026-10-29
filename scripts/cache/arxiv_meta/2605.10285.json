@@ -1,0 +1,15 @@
+{
+ "id": "2605.10285",
+ "title": "Scalable Gaussian process inference via neural feature maps",
+ "authors": [
+  "Anthony Stephenson"
+ ],
+ "v1_date": "2026-05-11",
+ "latest_version": 2,
+ "latest_date": "2026-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Mathematical error with the consistency claim",
+ "abstract": "We present a theoretically grounded Gaussian process framework that leverages neural feature maps to construct expressive kernels. We show that the learned feature map can be interpreted as an optimal low-rank approximation to a Gram matrix derived from an implied RKHS, from which we establish consistency of the GP posterior. We further analyse the spectral properties of the induced kernels and introduce product feature-map kernels to address oversmoothing. This simple yet powerful approach enables fast, scalable, and accurate exact GP inference with minimal upfront work. The flexibility of kernel design supports seamless application to both regression and classification tasks across diverse data modalities, including tabular inputs and structured domains such as images. On benchmark datasets, this approach surpasses pre-existing methods in terms of accuracy and training and prediction efficiency.",
+ "primary": "stat.ML"
+}

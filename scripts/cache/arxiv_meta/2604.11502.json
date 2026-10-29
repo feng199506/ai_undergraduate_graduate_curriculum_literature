@@ -1,0 +1,21 @@
+{
+ "id": "2604.11502",
+ "title": "METER: Evaluating Multi-Level Contextual Causal Reasoning in Large Language Models",
+ "authors": [
+  "Pengfeng Li",
+  "Chen Huang",
+  "Chaoqun Hao",
+  "Hongyao Chen",
+  "Xiao-Yong Wei",
+  "Wenqiang Lei",
+  "See-Kiong Ng"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 2,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ACL 2026. Our code and dataset are available at https://github.com/SCUNLP/METER",
+ "abstract": "Contextual causal reasoning is a critical yet challenging capability for Large Language Models (LLMs). Existing benchmarks, however, often evaluate this skill in fragmented settings, failing to ensure context consistency or cover the full causal hierarchy. To address this, we pioneer METER to systematically benchmark LLMs across all three levels of the causal ladder under a unified context setting. Our extensive evaluation of various LLMs reveals a significant decline in proficiency as tasks ascend the causal hierarchy. To diagnose this degradation, we conduct a deep mechanistic analysis via both error pattern identification and internal information flow tracing. Our analysis reveals two primary failure modes: (1) LLMs are susceptible to distraction by causally irrelevant but factually correct information at lower level of causality; and (2) as tasks ascend the causal hierarchy, faithfulness to the provided context degrades, leading to a reduced performance. We belive our work advances our understanding of the mechanisms behind LLM contextual causal reasoning and establishes a critical foundation for future research. Our code and dataset are available at https://github.com/SCUNLP/METER .",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2603.03299",
+ "title": "How LLMs Cite and Why It Matters: A Cross-Model Audit of Reference Fabrication in AI-Assisted Academic Writing and Methods to Detect Phantom Citations",
+ "authors": [
+  "MZ Naser"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 1,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have been noted to fabricate scholarly citations, yet the scope of this behavior across providers, domains, and prompting conditions remains poorly quantified. We present one of the largest citation hallucination audits to date, in which 10 commercially deployed LLMs were prompted across four academic domains, generating 69,557 citation instances verified against three scholarly databases (namely, CrossRef, OpenAlex, and Semantic Scholar). Our results show that the observed hallucination rates span a fivefold range (between 11.4% and 56.8%) and are strongly shaped by model, domain, and prompt framing. Our results also show that no model spontaneously generates citations when unprompted, which seems to establish hallucination as prompt-induced rather than intrinsic. We identify two practical filters: 1) multi-model consensus (with more than 3 LLMs citing the same work yields 95.6% accuracy, a 5.8-fold improvement), and 2) within-prompt repetition (with more than 2 replications yields 88.9% accuracy). In addition, we present findings on generational model tracking, which reveal that improvements are not guaranteed when deploying newer LLMs, and on capacity scaling, which appears to reduce hallucination within model families. Finally, a lightweight classifier trained solely on bibliographic string features is developed to classify hallucinated citations from verified citations, achieving AUC 0.876 in cross-validation and 0.834 in LOMO generalization (without querying any external database). This classifier offers a pre-screening tool deployable at inference time.",
+ "primary": "cs.CL"
+}

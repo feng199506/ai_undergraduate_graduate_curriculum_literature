@@ -1,0 +1,17 @@
+{
+ "id": "2604.18309",
+ "title": "From Program Slices to Causal Clarity: Evaluating Faithful, Actionable LLM-Generated Failure Explanations via Context Partitioning and LLM-as-a-Judge",
+ "authors": [
+  "Julius Porbeck",
+  "Christian Medeiros Adriano",
+  "Holger Giese"
+ ],
+ "v1_date": "2026-04-20",
+ "latest_version": 2,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "10.1145/3816483.3816622",
+ "comment": "10 pages, 5 figures, 5 tables. Accepted to EASE 2026 (EQUISA workshop), Glasgow, United Kingdom",
+ "abstract": "Large language model (LLM)-based debugging systems can generate failure explanations, but these explanations may be incomplete or incorrect. Misleading explanations are harmful for downstream tasks (e.g., bug triage, bug fixing). We investigate how explanation quality is affected by various LLM context configurations. Existing work predominantly treats LLM-generated failure explanations as an ad hoc by-product of debugging or repair workflows, using generic prompting over undifferentiated artifacts such as code, tests, and error messages rather than targeting explanations as a first-class output with dedicated quality assessment. Consequently, existing approaches provide limited support for assessing whether these explanations capture the underlying fault-error-failure mechanism and for actionable next steps, and most techniques instead prioritize task success (e.g., patch correctness or review quality) over the explicit causal explanation quality. We systematically vary the debugging information to study how distinct context compositions affect the quality of LLM-generated failure explanations. Across 93 context configurations on real bugs and three economically viable models (gpt-5-mini, DeepSeek-V3.2, and Grok-4.1-fast), we evaluate explanations with six criteria and validate the LLM-as-a-judge scores against human ratings in a user study. Our results indicate that explanation quality is causally affected by context composition. Evidence-rich, failure-specific artifacts improve causal and action-oriented quality, whereas overly large contexts tend to yield vague explanations. Higher explanation-score quartiles are associated with higher downstream repair pass rates and, for some models, with fixes that are closer to the reference minimal fixes. In contrast, low-score quartiles can even underperform the no-explanation baseline. Reproduction package is publicly available.",
+ "primary": "cs.SE"
+}

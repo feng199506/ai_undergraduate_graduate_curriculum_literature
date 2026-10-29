@@ -1,0 +1,16 @@
+{
+ "id": "2407.00649",
+ "title": "Particle Semi-Implicit Variational Inference",
+ "authors": [
+  "Jen Ning Lim",
+  "Adam M. Johansen"
+ ],
+ "v1_date": "2024-06-30",
+ "latest_version": 3,
+ "latest_date": "2025-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2024 Camera ready",
+ "abstract": "Semi-implicit variational inference (SIVI) enriches the expressiveness of variational families by utilizing a kernel and a mixing distribution to hierarchically define the variational distribution. Existing SIVI methods parameterize the mixing distribution using implicit distributions, leading to intractable variational densities. As a result, directly maximizing the evidence lower bound (ELBO) is not possible, so they resort to one of the following: optimizing bounds on the ELBO, employing costly inner-loop Markov chain Monte Carlo runs, or solving minimax objectives. In this paper, we propose a novel method for SIVI called Particle Variational Inference (PVI) which employs empirical measures to approximate the optimal mixing distributions characterized as the minimizer of a free energy functional. PVI arises naturally as a particle approximation of a Euclidean--Wasserstein gradient flow and, unlike prior works, it directly optimizes the ELBO whilst making no parametric assumption about the mixing distribution. Our empirical results demonstrate that PVI performs favourably compared to other SIVI methods across various tasks. Moreover, we provide a theoretical analysis of the behaviour of the gradient flow of a related free energy functional: establishing the existence and uniqueness of solutions as well as propagation of chaos results.",
+ "primary": "stat.ML"
+}

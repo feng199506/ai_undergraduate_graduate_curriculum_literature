@@ -1,0 +1,20 @@
+{
+ "id": "2405.18392",
+ "title": "Scaling Laws and Compute-Optimal Training Beyond Fixed Training Durations",
+ "authors": [
+  "Alexander Hägele",
+  "Elie Bakouch",
+  "Atli Kosson",
+  "Loubna Ben Allal",
+  "Leandro Von Werra",
+  "Martin Jaggi"
+ ],
+ "v1_date": "2024-05-28",
+ "latest_version": 3,
+ "latest_date": "2024-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Spotlight at NeurIPS 2024",
+ "abstract": "Scale has become a main ingredient in obtaining strong machine learning models. As a result, understanding a model's scaling properties is key to effectively designing both the right training setup as well as future generations of architectures. In this work, we argue that scale and training research has been needlessly complex due to reliance on the cosine schedule, which prevents training across different lengths for the same model size. We investigate the training behavior of a direct alternative -- constant learning rate and cooldowns -- and find that it scales predictably and reliably similar to cosine. Additionally, we show that stochastic weight averaging yields improved performance along the training trajectory, without additional training costs, across different scales. Importantly, with these findings we demonstrate that scaling experiments can be performed with significantly reduced compute and GPU hours by utilizing fewer but reusable training runs. Our code is available at \\url{https://github.com/epfml/schedules-and-scaling/}.",
+ "primary": "cs.LG"
+}

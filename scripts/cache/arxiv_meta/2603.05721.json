@@ -1,0 +1,17 @@
+{
+ "id": "2603.05721",
+ "title": "FlexTrace: Exchangeable Randomized Trace Estimation for Matrix Functions",
+ "authors": [
+  "Madhusudan Madhavan",
+  "Alen Alexanderian",
+  "Arvind K. Saibaba"
+ ],
+ "v1_date": "2026-03-05",
+ "latest_version": 1,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 10 figures",
+ "abstract": "We consider the task of estimating the trace of a matrix function, ${\\rm tr}(f({\\bf A}))$, of a large symmetric positive semi-definite matrix ${\\bf A}$. This problem arises in multiple applications, including kernel methods and inverse problems. A key challenge across existing trace estimation methods is the need for matrix-vector products (matvecs) with $f({\\bf A})$, which can be very expensive. In this article, we introduce a novel trace estimator, FlexTrace, an exchangeable, single-pass method that estimates ${\\rm tr}(f({\\bf A}))$ solely using matvecs with ${\\bf A}$. We consider the case where $f$ is an operator monotone matrix function with $f(0)=0$, which includes functions such as $\\log(1+x)$ and $x^{1/2}$, and derive probabilistic bounds showcasing the theoretical advantages of FlexTrace. Numerical experiments across synthetic examples and application domains demonstrate that FlexTrace provides substantially more accurate estimates of the trace of $f({\\bf A})$ compared to existing methods.",
+ "primary": "math.NA"
+}

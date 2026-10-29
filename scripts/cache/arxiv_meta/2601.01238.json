@@ -1,0 +1,15 @@
+{
+ "id": "2601.01238",
+ "title": "Evidence Slopes and Effective Dimension in Singular Linear Models",
+ "authors": [
+  "Kalyaan Rao"
+ ],
+ "v1_date": "2026-01-03",
+ "latest_version": 1,
+ "latest_date": "2026-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint. 10 pages, 6 figures. Under review",
+ "abstract": "Bayesian model selection commonly relies on Laplace approximation or the Bayesian Information Criterion (BIC), which assume that the effective model dimension equals the number of parameters. Singular learning theory replaces this assumption with the real log canonical threshold (RLCT), an effective dimension that can be strictly smaller in overparameterized or rank-deficient models. We study linear-Gaussian rank models and linear subspace (dictionary) models in which the exact marginal likelihood is available in closed form and the RLCT is analytically tractable. In this setting, we show theoretically and empirically that the error of Laplace/BIC grows linearly with (d/2 minus lambda) times log n, where d is the ambient parameter dimension and lambda is the RLCT. An RLCT-aware correction recovers the correct evidence slope and is invariant to overcomplete reparameterizations that represent the same data subspace. Our results provide a concrete finite-sample characterization of Laplace failure in singular models and demonstrate that evidence slopes can be used as a practical estimator of effective dimension in simple linear settings.",
+ "primary": "stat.ML"
+}

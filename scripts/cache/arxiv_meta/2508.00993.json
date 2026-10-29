@@ -1,0 +1,17 @@
+{
+ "id": "2508.00993",
+ "title": "Consistent DAG selection for Bayesian causal discovery under general error distributions",
+ "authors": [
+  "Anamitra Chaudhuri",
+  "Anirban Bhattacharya",
+  "Yang Ni"
+ ],
+ "v1_date": "2025-08-01",
+ "latest_version": 1,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of learning the underlying causal structure among a set of variables, which are assumed to follow a Bayesian network or, more specifically, a linear recursive structural equation model (SEM) with the associated errors being independent and allowed to be non-Gaussian. A Bayesian hierarchical model is proposed to identify the true data-generating directed acyclic graph (DAG) structure where the nodes and edges represent the variables and the direct causal effects, respectively. Moreover, incorporating the information of non-Gaussian errors, we characterize the distribution equivalence class of the true DAG, which specifies the best possible extent to which the DAG can be identified based on purely observational data. Furthermore, under the consideration that the errors are distributed as some scale mixture of Gaussian, where the mixing distribution is unspecified, and mild distributional assumptions, we establish that by employing a non-standard DAG prior, the posterior probability of the distribution equivalence class of the true DAG converges to unity as the sample size grows. This shows that the proposed method achieves the posterior DAG selection consistency, which is further illustrated with examples and simulation studies.",
+ "primary": "math.ST"
+}

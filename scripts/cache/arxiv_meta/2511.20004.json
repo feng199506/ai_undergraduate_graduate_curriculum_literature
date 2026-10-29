@@ -1,0 +1,20 @@
+{
+ "id": "2511.20004",
+ "title": "Zero-Shot Transfer Capabilities of the Sundial Foundation Model for Leaf Area Index Forecasting",
+ "authors": [
+  "Peining Zhang",
+  "Hongchen Qin",
+  "Haochen Zhang",
+  "Ziqi Guo",
+  "Guiling Wang",
+  "Jinbo Bi"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 2,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 5 figures, AAAI 2026 AgriAI workshop",
+ "abstract": "This work investigates the zero-shot forecasting capability of time series foundation models for Leaf Area Index (LAI) forecasting in agricultural monitoring. Using the HiQ dataset (U.S., 2000-2022), we systematically compare statistical baselines, a fully supervised LSTM, and the Sundial foundation model under multiple evaluation protocols. We find that Sundial, in the zero-shot setting, can outperform a fully trained LSTM provided that the input context window is sufficiently long-specifically, when covering more than one or two full seasonal cycles. We show that a general-purpose foundation model can surpass specialized supervised models on remote-sensing time series prediction without any task-specific tuning. These results highlight the strong potential of pretrained time series foundation models to serve as effective plug-and-play forecasters in agricultural and environmental applications.",
+ "primary": "cs.LG"
+}

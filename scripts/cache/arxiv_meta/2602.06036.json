@@ -1,0 +1,17 @@
+{
+ "id": "2602.06036",
+ "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+ "authors": [
+  "Jian Chen",
+  "Yesheng Liang",
+  "Zhijian Liu"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 2,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML 2026. Camera-ready version. Code: https://github.com/z-lab/dflash",
+ "abstract": "Autoregressive large language models (LLMs) deliver strong performance but require inherently sequential decoding, leading to high inference latency and poor GPU utilization. Speculative decoding mitigates this bottleneck by using a fast draft model whose outputs are verified in parallel by the target LLM; however, existing methods still rely on autoregressive drafting, which remains sequential and limits practical speedups. Diffusion LLMs offer a promising alternative by enabling parallel generation, but current diffusion models typically underperform compared with autoregressive models. In this paper, we introduce DFlash, a speculative decoding framework that employs a lightweight block diffusion model for parallel drafting. By generating draft tokens in a single forward pass and conditioning the draft model on context features extracted from the target model, DFlash enables efficient drafting with high-quality outputs and higher acceptance rates. Experiments show that DFlash achieves over 6x lossless acceleration across a range of models and tasks, delivering up to 2.5x higher speedup than the state-of-the-art speculative decoding method EAGLE-3.",
+ "primary": "cs.CL"
+}

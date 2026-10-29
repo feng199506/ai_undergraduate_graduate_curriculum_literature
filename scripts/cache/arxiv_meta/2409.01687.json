@@ -1,0 +1,15 @@
+{
+ "id": "2409.01687",
+ "title": "A sparse PAC-Bayesian approach for high-dimensional quantile prediction",
+ "authors": [
+  "The Tien Mai"
+ ],
+ "v1_date": "2024-09-03",
+ "latest_version": 1,
+ "latest_date": "2024-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantile regression, a robust method for estimating conditional quantiles, has advanced significantly in fields such as econometrics, statistics, and machine learning. In high-dimensional settings, where the number of covariates exceeds sample size, penalized methods like lasso have been developed to address sparsity challenges. Bayesian methods, initially connected to quantile regression via the asymmetric Laplace likelihood, have also evolved, though issues with posterior variance have led to new approaches, including pseudo/score likelihoods. This paper presents a novel probabilistic machine learning approach for high-dimensional quantile prediction. It uses a pseudo-Bayesian framework with a scaled Student-t prior and Langevin Monte Carlo for efficient computation. The method demonstrates strong theoretical guarantees, through PAC-Bayes bounds, that establish non-asymptotic oracle inequalities, showing minimax-optimal prediction error and adaptability to unknown sparsity. Its effectiveness is validated through simulations and real-world data, where it performs competitively against established frequentist and Bayesian techniques.",
+ "primary": "stat.ML"
+}

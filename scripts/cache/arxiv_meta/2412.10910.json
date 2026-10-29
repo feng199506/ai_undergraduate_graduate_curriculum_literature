@@ -1,0 +1,18 @@
+{
+ "id": "2412.10910",
+ "title": "Matrix-free implementation of the non-nested multigrid method",
+ "authors": [
+  "Marco Feder",
+  "Luca Heltai",
+  "Martin Kronbichler",
+  "Peter Munch"
+ ],
+ "v1_date": "2024-12-14",
+ "latest_version": 1,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 23 figures, 14 tables",
+ "abstract": "Traditionally, the geometric multigrid method is used with nested levels. However, the construction of a suitable hierarchy for very fine and unstructured grids is, in general, highly non-trivial. In this scenario, the non-nested multigrid method could be exploited in order to handle the burden of hierarchy generation, allowing some flexibility on the choice of the levels. We present a parallel, matrix-free, implementation of the non-nested multigrid method for continuous Lagrange finite elements, where each level may consist of independently partitioned triangulations. Our algorithm has been added to the multigrid framework of the C++ finite-element library deal.II. Several 2D and 3D numerical experiments are presented, ranging from Poisson problems to linear elasticity. We test the robustness and performance of the proposed implementation with different polynomial degrees and geometries.",
+ "primary": "math.NA"
+}

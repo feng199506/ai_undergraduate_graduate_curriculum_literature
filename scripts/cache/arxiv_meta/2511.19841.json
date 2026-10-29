@@ -1,0 +1,27 @@
+{
+ "id": "2511.19841",
+ "title": "Cisco Time Series Model Technical Report",
+ "authors": [
+  "Liang Gou",
+  "Archit Khare",
+  "Praneet Pabolu",
+  "Prachi Patel",
+  "Joseph Ross",
+  "Hercy Shen",
+  " Yuhan",
+  " Song",
+  "Jingze Sun",
+  "Kristal Curtis",
+  "Vedant Dharnidharka",
+  "Abhinav Mathur",
+  "Hao Yang"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 1,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce the Cisco Time Series Model, a univariate zero-shot forecaster. This time series foundation model is the result of a general architectural innovation to a time series model enabling it to accept multiresolution input, applied to a popular decoder-only time series model (TimesFM). The resulting multiresolution decoder-only model is trained on over 300B unique data points, with more than half coming from the observability domain. Quantitative and qualitative evaluations demonstrate that the resulting model achieves superior performance on observability datasets while retaining very similar performance on a standard general-purpose forecasting benchmark (GIFT-Eval), and suggest that the multiresolution structure enables the model to make more accurate predictions on long context input.",
+ "primary": "cs.LG"
+}

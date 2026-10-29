@@ -1,0 +1,18 @@
+{
+ "id": "2609.21681",
+ "title": "Performance Analysis of Low-Order, GPU-accelerated Finite Element Kernels using Kokkos",
+ "authors": [
+  "Fabian Böhm",
+  "Nils Kohl",
+  "Harald Köstler",
+  "Ulrich Rüde"
+ ],
+ "v1_date": "2026-09-18",
+ "latest_version": 2,
+ "latest_date": "2026-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study performance portability for low-order, matrix-free finite element kernels, using the example of a vectorial, variable-coefficient PDE operator originating in geophysical models. Written in Kokkos, the kernel is compared on NVIDIA H100, AMD MI250X, AMD MI300A and Intel PVC Max 1550 GPUs. Owing to its low order and to optimizations that reduce the arithmetic, the kernel has a low arithmetic intensity, so that its performance is determined by how the finite element assembly is mapped onto the memory hierarchy. This is a dimension in which the architectures differ even within one vendor family, causing different performance characteristics. We examine how Kokkos' hierarchical parallelism and shared scratch memory, which are used for the shared degrees of freedom of the conforming discretization, behave on each device. Finally, we show how portability gaps can be narrowed with tuning levers such as the size of the thread groups, the balance between occupancy and register use, and the atomic accumulation strategy at the end of the kernel.",
+ "primary": "cs.PF"
+}

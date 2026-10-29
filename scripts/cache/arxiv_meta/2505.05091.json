@@ -1,0 +1,19 @@
+{
+ "id": "2505.05091",
+ "title": "DispBench: Benchmarking Disparity Estimation to Synthetic Corruptions",
+ "authors": [
+  "Shashank Agnihotri",
+  "Amaan Ansari",
+  "Annika Dackermann",
+  "Fabian Rösch",
+  "Margret Keuper"
+ ],
+ "v1_date": "2025-05-08",
+ "latest_version": 1,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at CVPR 2025 Workshop on Synthetic Data for Computer Vision",
+ "abstract": "Deep learning (DL) has surpassed human performance on standard benchmarks, driving its widespread adoption in computer vision tasks. One such task is disparity estimation, estimating the disparity between matching pixels in stereo image pairs, which is crucial for safety-critical applications like medical surgeries and autonomous navigation. However, DL-based disparity estimation methods are highly susceptible to distribution shifts and adversarial attacks, raising concerns about their reliability and generalization. Despite these concerns, a standardized benchmark for evaluating the robustness of disparity estimation methods remains absent, hindering progress in the field. To address this gap, we introduce DispBench, a comprehensive benchmarking tool for systematically assessing the reliability of disparity estimation methods. DispBench evaluates robustness against synthetic image corruptions such as adversarial attacks and out-of-distribution shifts caused by 2D Common Corruptions across multiple datasets and diverse corruption scenarios. We conduct the most extensive performance and robustness analysis of disparity estimation methods to date, uncovering key correlations between accuracy, reliability, and generalization. Open-source code for DispBench: https://github.com/shashankskagnihotri/benchmarking_robustness/tree/disparity_estimation/final/disparity_estimation",
+ "primary": "cs.CV"
+}

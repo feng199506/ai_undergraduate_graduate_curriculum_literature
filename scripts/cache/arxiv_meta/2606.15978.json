@@ -1,0 +1,15 @@
+{
+ "id": "2606.15978",
+ "title": "Scalar-Stepsize Nonuniform Monte Carlo Optimistic Policy Iteration: A Certified Counterexample",
+ "authors": [
+  "Yuanlong Chen"
+ ],
+ "v1_date": "2026-06-14",
+ "latest_version": 1,
+ "latest_date": "2026-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tsitsiklis proved convergence of Monte Carlo optimistic policy iteration under a uniform update structure and identified nonuniform update frequencies as a delicate obstruction. We give a certified negative answer for the natural scalar-stepsize, unnormalized asynchronous state-value recursion with fixed nonuniform state-selection probabilities. In a three-state, two-action discounted MDP, the nonuniform update frequencies induce a diagonally scaled greedy-policy mean field with a certified nonconstant attracting hybrid periodic orbit. With a bounded unbiased geometric-horizon estimator and Robbins--Monro stepsizes, the original stochastic recursion remains trapped near the cycle with positive probability and therefore fails to converge. The example pinpoints a geometric obstruction: uniform sampling gives radial residual contraction, whereas scalar nonuniform sampling anisotropically distorts the residual dynamics and can generate switched attracting cycles.",
+ "primary": "cs.LG"
+}

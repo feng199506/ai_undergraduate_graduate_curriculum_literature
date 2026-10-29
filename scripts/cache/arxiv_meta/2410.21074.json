@@ -1,0 +1,17 @@
+{
+ "id": "2410.21074",
+ "title": "Transforming optimization problems into a QUBO form: A tutorial",
+ "authors": [
+  "Alexander M. Semenov",
+  "Sergey R. Usmanov",
+  "Aleksey K. Fedorov"
+ ],
+ "v1_date": "2024-10-28",
+ "latest_version": 1,
+ "latest_date": "2024-10-28",
+ "journal_ref": "Probl. Inf. Transm. 61, 110 (2025)",
+ "doi": "10.1134/s0032946025020036",
+ "comment": "26 pages, 3 figures; in Russian",
+ "abstract": "Practically relevant problems of quadratic optimization often contain multidimensional arrays of variables interconnected by linear constraints, such as equalities and inequalities. The values of each variable depend on its specific meaning and can be binary, integer, discrete, and continuous. These circumstances make it technically difficult to reduce the original problem statement to the QUBO form. The paper identifies and considers three main transformations of the original problem statement, namely, the transition from a multidimensional to a one-dimensional array of variables, the transition in mixed problems to binary variables, and the inclusion of linear constraints in the objective function in the form of quadratic penalties. Convenient formulas for calculations are presented and proven, simplifying the implementation of these transformations. In particular, the formulas for the transition in the problem statement from a multidimensional to a one-dimensional array of variables are based on the use of the Kronecker product of matrices. The considered transformations are illustrated by numerous examples.",
+ "primary": "math.OC"
+}

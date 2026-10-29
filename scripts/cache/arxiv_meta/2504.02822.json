@@ -1,0 +1,17 @@
+{
+ "id": "2504.02822",
+ "title": "Do Two AI Scientists Agree?",
+ "authors": [
+  "Xinghong Fu",
+  "Ziming Liu",
+  "Max Tegmark"
+ ],
+ "v1_date": "2025-04-03",
+ "latest_version": 1,
+ "latest_date": "2025-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When two AI models are trained on the same scientific task, do they learn the same theory or two different theories? Throughout history of science, we have witnessed the rise and fall of theories driven by experimental validation or falsification: many theories may co-exist when experimental data is lacking, but the space of survived theories become more constrained with more experimental data becoming available. We show the same story is true for AI scientists. With increasingly more systems provided in training data, AI scientists tend to converge in the theories they learned, although sometimes they form distinct groups corresponding to different theories. To mechanistically interpret what theories AI scientists learn and quantify their agreement, we propose MASS, Hamiltonian-Lagrangian neural networks as AI Scientists, trained on standard problems in physics, aggregating training results across many seeds simulating the different configurations of AI scientists. Our findings suggests for AI scientists switch from learning a Hamiltonian theory in simple setups to a Lagrangian formulation when more complex systems are introduced. We also observe strong seed dependence of the training dynamics and final learned weights, controlling the rise and fall of relevant theories. We finally demonstrate that not only can our neural networks aid interpretability, it can also be applied to higher dimensional problems.",
+ "primary": "cs.AI"
+}

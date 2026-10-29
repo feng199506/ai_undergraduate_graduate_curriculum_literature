@@ -1,0 +1,20 @@
+{
+ "id": "2603.20450",
+ "title": "Policies Permitting LLM Use for Polishing Peer Reviews Are Currently Not Enforceable",
+ "authors": [
+  "Rounak Saha",
+  "Gurusha Juneja",
+  "Dayita Chaudhuri",
+  "Naveeja Sajeevan",
+  "Nihar B Shah",
+  "Danish Pruthi"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 2,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026",
+ "abstract": "A number of scientific conferences and journals have recently enacted policies that prohibit LLM usage by peer reviewers, except for polishing, paraphrasing, and grammar correction of otherwise human-written reviews. But, are these policies enforceable? To answer this question, we assemble a dataset of peer reviews simulating multiple levels of human-AI collaboration, and evaluate five state-of-the-art detectors, including two commercial systems. Our analysis shows that all detectors misclassify a non-trivial fraction of LLM-polished reviews as AI-generated, thereby risking false accusations of academic misconduct. We further investigate whether peer-review-specific signals, including access to the paper manuscript and the constrained domain of scientific writing, can be leveraged to improve detection. While incorporating such signals yields measurable gains in some settings, we identify limitations in each approach and find that none meets the accuracy standards required for identifying AI use in peer reviews. Importantly, our results suggest that recent public estimates of AI use in peer reviews through the use of AI-text detectors should be interpreted with caution, as current detectors misclassify mixed reviews (collaborative human-AI outputs) as fully AI generated, potentially overstating the extent of policy violations.",
+ "primary": "cs.CL"
+}

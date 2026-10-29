@@ -1,0 +1,15 @@
+{
+ "id": "2610.24491",
+ "title": "VBO-MI: A Differentiable Black-Box Optimization Framework via Variational Mutual Information Estimation",
+ "authors": [
+  "Farhad Mirkarimi"
+ ],
+ "v1_date": "2026-10-17",
+ "latest_version": 1,
+ "latest_date": "2026-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many real-world tasks require optimizing expensive black-box functions accessible only through noisy evaluations, a setting commonly addressed with Bayesian optimization. While Gaussian processes(GPs) and Bayesian neural networks have driven significant progress, GP-based methods scale cubically with observations, and BNN-based approaches remain burdened by expensive posterior sampling such as Hamiltonian Monte Carlo, and inner-loop acquisition optimization in high-dimensional setting. In this work, we propose VBO-MI, a fully gradient-based BO framework that requires no assumptions on a Gaussian prior or a variational posterior family over $f$. While our framework uses gradient-based updates to train the internal action and information-estimation networks, it treats the objective function $f$ as a strict black box, requiring only zeroth-order evaluations. To enable end-to-end gradient flow, we employ an actor-critic architecture consisting of an action-net to navigate the input space and a variational critic to estimate a surrogate information signal for exploration. Additionally, we design a lightweight surrogate that approximates the objective from observed data using a replay buffer, which reduces the total required real function queries to one batch per iteration. We provide theoretical analysis for our framework, establishing convergence of its training objective and surrogate estimator, and showing, that near-optimal solutions exist. We evaluate our method on a diverse suite of benchmarks, including high-dimensional synthetic function and complex real-world tasks such as Rover Trajectory planning optimization, the Lunar Lander, and Pest Control problems. Our experiments demonstrate that VBO-MI provides the same or superior optimization performance over the various baselines.",
+ "primary": "cs.LG"
+}

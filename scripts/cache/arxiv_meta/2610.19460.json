@@ -1,0 +1,19 @@
+{
+ "id": "2610.19460",
+ "title": "Learning-Augmented Streaming Algorithms for Approximating Boolean Max-CSPs",
+ "authors": [
+  "Yinhao Dong",
+  "Pan Peng",
+  "Ali Vakilian",
+  "Santhoshini Velusamy",
+  "Xiaoyang Xu"
+ ],
+ "v1_date": "2026-10-14",
+ "latest_version": 1,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2026",
+ "abstract": "We study learning-augmented streaming algorithms for estimating the value of Boolean Maximum Constraint Satisfaction Problems (Max-CSPs). Specifically, we consider streaming algorithms equipped with an $\\varepsilon$-accurate oracle: for each variable, the oracle outputs a label in $\\{-1,1\\}$ that agrees with a fixed optimal assignment with probability $1/2+\\varepsilon$, and disagrees otherwise. Prior work by Dong, Peng, and Vakilian [ITCS 2025] showed that, for the special case of Max-Cut, such an oracle enables a $(1/2+Ω(\\varepsilon^2))$-approximation using $\\operatorname{poly}(1/\\varepsilon)$ words of space in insertion-only streams, and $\\operatorname{poly}(1/\\varepsilon,\\log n)$ words of space in dynamic streams. We substantially generalize and strengthen their result, provided that a highly accurate estimate of $\\varepsilon$ is available. For any Boolean Max-$2$CSP and any $η>0$ independent of $\\varepsilon$, we obtain, with high constant probability, a single-pass $(1-η)$-approximation using $\\operatorname{poly}(1/\\varepsilon,1/η)$ words of space in insertion-only streams, and $\\operatorname{poly}(1/\\varepsilon,1/η,\\log n)$ words of space in dynamic streams, where $n$ is the number of variables. We further extend our techniques to general Boolean Max-$k$CSPs for $k\\ge 3$, with slightly worse space complexity.",
+ "primary": "cs.DS"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2601.19916",
+ "title": "PaperAudit-Bench: Benchmarking Error Detection in Research Papers for Critical Automated Peer Review",
+ "authors": [
+  "Songjun Tu",
+  "Yiwen Ma",
+  "Jiahao Lin",
+  "Qichao Zhang",
+  "Xiangyuan Lan",
+  "Junfeng. Li",
+  "Nan Xu",
+  "Linjing Li",
+  "Dongbin Zhao"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 2,
+ "latest_date": "2026-10-19",
+ "journal_ref": "EMNLP 2026, Main",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) can generate fluent peer reviews but often miss sparse, subtle, and document-level scientific errors. We introduce PaperAudit-Bench, a benchmark for evaluating paper-level error detection and error-aware automated review. It comprises (1) PaperAudit-Dataset, 220 high-quality AI/ML papers containing more than 2,200 controlled synthetic errors across eight categories, and (2) PaperAudit-Review, an evidence-aware framework that links structured error detection to review generation. Experiments across models, error categories, paper sections, and analysis depths show that sparse long-context auditing remains challenging for current LLMs. Conditioning review generation on explicit, manuscript-grounded error evidence produces more conservative and discriminative assessments that align more closely with human judgments than representative automated-review baselines. The dataset also supports post-training compact detectors through SFT and RL; Qwen3-14B achieves 55.8% F1 at Detection@1 under a fixed held-out protocol. A PubPeer transfer study and deployment in ScienceOne, a scientific foundation-model platform led by the Chinese Academy of Sciences, further illustrate practical applicability. Code and Dataset Page: https://github.com/TU2021/PaperAudit ScienceOne Manuscript Review: https://www.scienceone.cn/lit/#/assistant",
+ "primary": "cs.CL"
+}

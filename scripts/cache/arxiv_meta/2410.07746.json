@@ -1,0 +1,20 @@
+{
+ "id": "2410.07746",
+ "title": "Benign Overfitting in Single-Head Attention",
+ "authors": [
+  "Roey Magen",
+  "Shuning Shang",
+  "Zhiwei Xu",
+  "Spencer Frei",
+  "Wei Hu",
+  "Gal Vardi"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 2,
+ "latest_date": "2025-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The phenomenon of benign overfitting, where a trained neural network perfectly fits noisy training data but still achieves near-optimal test performance, has been extensively studied in recent years for linear models and fully-connected/convolutional networks. In this work, we study benign overfitting in a single-head softmax attention model, which is the fundamental building block of Transformers. We prove that under appropriate conditions, the model exhibits benign overfitting in a classification setting already after two steps of gradient descent. Moreover, we show conditions where a minimum-norm/maximum-margin interpolator exhibits benign overfitting. We study how the overfitting behavior depends on the signal-to-noise ratio (SNR) of the data distribution, namely, the ratio between norms of signal and noise tokens, and prove that a sufficiently large SNR is both necessary and sufficient for benign overfitting.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2410.13061",
+ "title": "Optimal Transport for Probabilistic Circuits",
+ "authors": [
+  "Adrian Ciotinga",
+  "YooJung Choi"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 3,
+ "latest_date": "2025-06-17",
+ "journal_ref": "Proceedings of the Forty-first Conference on Uncertainty in Artificial Intelligence, PMLR 286:777-797, 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel optimal transport framework for probabilistic circuits (PCs). While it has been shown recently that divergences between distributions represented as certain classes of PCs can be computed tractably, to the best of our knowledge, there is no existing approach to compute the Wasserstein distance between probability distributions given by PCs. We propose a Wasserstein-type distance that restricts the coupling measure of the associated optimal transport problem to be a probabilistic circuit. We then develop an algorithm for computing this distance by solving a series of small linear programs and derive the circuit conditions under which this is tractable. Furthermore, we show that we can easily retrieve the optimal transport plan between the PCs from the solutions to these linear programs. Lastly, we study the empirical Wasserstein distance between a PC and a dataset, and show that we can estimate the PC parameters to minimize this distance through an efficient iterative algorithm.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2604.23022",
+ "title": "CASP: Support-Aware Offline Policy Selection for Two-Stage Recommender Systems",
+ "authors": [
+  "Nilson Chapagain"
+ ],
+ "v1_date": "2026-04-24",
+ "latest_version": 1,
+ "latest_date": "2026-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages",
+ "abstract": "Two-stage recommender systems first choose a candidate generator and then rank items within the generated set. Because the generator decides which items are available to the ranker, changing the generator changes both the policy value and the data support used to estimate that value. This creates an offline selection problem that standard single-stage objectives do not capture: a policy may look good under a retrieval score or a raw off-policy value estimate, but still be unreliable if it depends on weakly supported generator-item pairs. We propose CASP (Coupled Action-Set Pessimism), a support-aware offline selector for finite libraries of two-stage recommender policies. CASP combines doubly robust value estimation with a support-burden penalty. We show that stagewise rules that ignore downstream continuation value can be arbitrarily suboptimal, and we derive population, finite-class, and reconstructed-propensity guarantees for conservative selection. In simulations and a reconstructed MovieLens 1M application, CASP selects lower-burden policies when estimated value and support credibility are in tension.",
+ "primary": "cs.IR"
+}

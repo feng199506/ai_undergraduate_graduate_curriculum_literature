@@ -1,0 +1,22 @@
+{
+ "id": "2512.10449",
+ "title": "When Reject Turns into Accept: Quantifying the Vulnerability of LLM-Based Scientific Reviewers to Indirect Prompt Injection",
+ "authors": [
+  "Devanshu Sahoo",
+  "Manish Prasad",
+  "Vasudev Majhi",
+  "Jahnvi Singh",
+  "Vinay Chamola",
+  "Yash Sinha",
+  "Murari Mandal",
+  "Dhruv Kumar"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 3,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Driven by surging submission volumes, scientific peer review has catalyzed two parallel trends: individual over-reliance on LLMs and institutional AI-powered assessment systems. This study investigates the robustness of \"LLM-as-a-Judge\" systems to adversarial PDF manipulation via invisible text injections and layout aware encoding attacks. We specifically target the distinct incentive of flipping \"Reject\" decisions to \"Accept,\" a vulnerability that fundamentally compromises scientific integrity. To measure this, we introduce the Weighted Adversarial Vulnerability Score (WAVS), a novel metric that quantifies susceptibility by weighting score inflation against the severity of decision shifts relative to ground truth. We adapt 15 domain-specific attack strategies, ranging from semantic persuasion to cognitive obfuscation, and evaluate them across 13 diverse language models (including GPT-5 and DeepSeek) using a curated dataset of 200 official and real-world accepted and rejected submissions (e.g., ICLR OpenReview). Our results demonstrate that obfuscation techniques like \"Maximum Mark Magyk\" and \"Symbolic Masking & Context Redirection\" successfully manipulate scores, achieving decision flip rates of up to 86.26% in open-source models, while exposing distinct \"reasoning traps\" in proprietary systems. We release our complete dataset and injection framework to facilitate further research on the topic (https://anonymous.4open.sciencer/llm-jailbreak-FC9E/).",
+ "primary": "cs.AI"
+}

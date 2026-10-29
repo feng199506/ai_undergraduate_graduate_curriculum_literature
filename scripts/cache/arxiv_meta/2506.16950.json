@@ -1,0 +1,19 @@
+{
+ "id": "2506.16950",
+ "title": "LAION-C: An Out-of-Distribution Benchmark for Web-Scale Vision Models",
+ "authors": [
+  "Fanfei Li",
+  "Thomas Klein",
+  "Wieland Brendel",
+  "Robert Geirhos",
+  "Roland S. Zimmermann"
+ ],
+ "v1_date": "2025-06-20",
+ "latest_version": 2,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2025 camera ready version",
+ "abstract": "Out-of-distribution (OOD) robustness is a desired property of computer vision models. Improving model robustness requires high-quality signals from robustness benchmarks to quantify progress. While various benchmark datasets such as ImageNet-C were proposed in the ImageNet era, most ImageNet-C corruption types are no longer OOD relative to today's large, web-scraped datasets, which already contain common corruptions such as blur or JPEG compression artifacts. Consequently, these benchmarks are no longer well-suited for evaluating OOD robustness in the era of web-scale datasets. Indeed, recent models show saturating scores on ImageNet-era OOD benchmarks, indicating that it is unclear whether models trained on web-scale datasets truly become better at OOD generalization or whether they have simply been exposed to the test distortions during training. To address this, we introduce LAION-C as a benchmark alternative for ImageNet-C. LAION-C consists of six novel distortion types specifically designed to be OOD, even for web-scale datasets such as LAION. In a comprehensive evaluation of state-of-the-art models, we find that the LAION-C dataset poses significant challenges to contemporary models, including MLLMs such as Gemini and GPT-4o. We additionally conducted a psychophysical experiment to evaluate the difficulty of our corruptions for human observers, enabling a comparison of models to lab-quality human robustness data. We observe a paradigm shift in OOD generalization: from humans outperforming models, to the best models now matching or outperforming the best human observers.",
+ "primary": "cs.CV"
+}

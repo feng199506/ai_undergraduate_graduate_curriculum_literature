@@ -1,0 +1,20 @@
+{
+ "id": "2503.23333",
+ "title": "Beyond Unimodal Boundaries: Generative Recommendation with Multimodal Semantics",
+ "authors": [
+  "Jing Zhu",
+  "Mingxuan Ju",
+  "Yozen Liu",
+  "Danai Koutra",
+  "Neil Shah",
+  "Tong Zhao"
+ ],
+ "v1_date": "2025-03-30",
+ "latest_version": 1,
+ "latest_date": "2025-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative recommendation (GR) has become a powerful paradigm in recommendation systems that implicitly links modality and semantics to item representation, in contrast to previous methods that relied on non-semantic item identifiers in autoregressive models. However, previous research has predominantly treated modalities in isolation, typically assuming item content is unimodal (usually text). We argue that this is a significant limitation given the rich, multimodal nature of real-world data and the potential sensitivity of GR models to modality choices and usage. Our work aims to explore the critical problem of Multimodal Generative Recommendation (MGR), highlighting the importance of modality choices in GR nframeworks. We reveal that GR models are particularly sensitive to different modalities and examine the challenges in achieving effective GR when multiple modalities are available. By evaluating design strategies for effectively leveraging multiple modalities, we identify key challenges and introduce MGR-LF++, an enhanced late fusion framework that employs contrastive modality alignment and special tokens to denote different modalities, achieving a performance improvement of over 20% compared to single-modality alternatives.",
+ "primary": "cs.IR"
+}

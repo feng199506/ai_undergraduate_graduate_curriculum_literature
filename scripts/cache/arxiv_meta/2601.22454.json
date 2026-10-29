@@ -1,0 +1,18 @@
+{
+ "id": "2601.22454",
+ "title": "Temporal Graph Pattern Machine",
+ "authors": [
+  "Yijun Ma",
+  "Zehong Wang",
+  "Weixiang Sun",
+  "Yanfang Ye"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 3,
+ "latest_date": "2026-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "GFM @ ICML Workshop (Oral) 2026",
+ "abstract": "Temporal graph learning is pivotal for deciphering dynamic systems, where the core challenge lies in explicitly modeling the underlying evolving patterns that govern network transformation. However, prevailing methods are predominantly task-centric and rely on restrictive assumptions -- such as short-term dependency modeling, static neighborhood semantics, and retrospective time usage. These constraints hinder the discovery of transferable temporal evolution mechanisms. To address this, we propose the Temporal Graph Pattern Machine (TGPM), a foundation framework that shifts the focus toward directly learning generalized evolving patterns. TGPM conceptualizes each interaction as an interaction patch synthesized via temporally-biased random walks, thereby capturing multi-scale structural semantics and long-range dependencies that extend beyond immediate neighborhoods. These patches are processed by a Transformer-based backbone designed to capture global temporal regularities while adapting to context-specific interaction dynamics. To further empower the model, we introduce a suite of self-supervised pre-training tasks -- specifically masked token modeling and next-time prediction -- to explicitly encode the fundamental laws of network evolution. Extensive experiments on temporal link prediction and temporal node classification show that TGPM consistently ranks among the top-performing methods, demonstrating exceptional cross-domain transferability. Our code has been released in https://github.com/antman9914/TGPM.",
+ "primary": "cs.LG"
+}

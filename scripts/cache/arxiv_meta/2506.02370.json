@@ -1,0 +1,19 @@
+{
+ "id": "2506.02370",
+ "title": "Converge Faster, Talk Less: Hessian-Informed Federated Zeroth-Order Optimization",
+ "authors": [
+  "Zhe Li",
+  "Bicheng Ying",
+  "Zidong Liu",
+  "Chaosheng Dong",
+  "Haibo Yang"
+ ],
+ "v1_date": "2025-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICLR 2026",
+ "abstract": "Zeroth-order (ZO) optimization enables dimension-free communication in federated learning (FL), making it attractive for fine-tuning of large language models (LLMs) due to significant communication savings. However, existing ZO-FL methods largely overlook curvature information, despite its well-established benefits for convergence acceleration. To address this, we propose HiSo, a Hessian-informed ZO federated optimization method that accelerates convergence by leveraging global diagonal Hessian approximations, while strictly preserving scalar-only communication without transmitting any second-order information. Theoretically, for non-convex functions, we show that HiSo can achieve an accelerated convergence rate that is independent of the Lipschitz constant $L$ and model dimension $d$ under some Hessian approximation assumptions, offering a plausible explanation for the observed phenomenon of ZO convergence being much faster than its worst-case $\\mathscr{O}(d)$-bound. Empirically, across diverse LLM fine-tuning benchmarks, HiSo delivers a 1$\\sim$5$\\times$ speedup in communication rounds over existing state-of-the-art ZO-FL baselines. This superior convergence not only cuts communication costs but also provides strong empirical evidence that Hessian information acts as an effective accelerator in federated ZO optimization settings. Our source code is provided at https://github.com/ZidongLiu/DeComFL.",
+ "primary": "cs.LG"
+}

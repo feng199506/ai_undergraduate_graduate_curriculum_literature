@@ -1,0 +1,16 @@
+{
+ "id": "2508.10149",
+ "title": "Prediction-Powered Inference with Inverse Probability Weighting",
+ "authors": [
+  "Jyotishka Datta",
+  "Nicholas G. Polson"
+ ],
+ "v1_date": "2025-08-13",
+ "latest_version": 2,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 3 figures",
+ "abstract": "Prediction-powered inference (PPI) is a recent framework for valid statistical inference with partially labeled data, combining model-based predictions on a large unlabeled set with bias correction from a smaller labeled subset. Building on existing PPI results under covariate shift, we show that PPI rectification admits a direct design-based interpretation, and that informative labeling can be handled naturally by Horvitz--Thompson and Hájek-style corrections. This connection unites design-based survey sampling ideas with modern prediction-assisted inference, yielding estimators that remain valid when labeling probabilities vary across units. We consider the common setting where the inclusion probabilities are not known but estimated from a correctly specified model. In simulations, the performance of IPW-adjusted PPI with estimated propensities closely matches the known-probability case, retaining both nominal coverage and the variance-reduction benefits of PPI.",
+ "primary": "stat.ML"
+}

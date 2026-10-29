@@ -1,0 +1,21 @@
+{
+ "id": "2606.21911",
+ "title": "The Pitfall of Scaling Up: Uncovering and Mitigating Popularity Bias Amplification in Scaling Transformer-based Recommenders",
+ "authors": [
+  "Weiqin Yang",
+  "Yue Pan",
+  "Chongming Gao",
+  "Sheng Zhou",
+  "Xiang Wang",
+  "Can Wang",
+  "Jiawei Chen"
+ ],
+ "v1_date": "2026-06-20",
+ "latest_version": 1,
+ "latest_date": "2026-06-20",
+ "journal_ref": "",
+ "doi": "10.1145/3770855.3818185",
+ "comment": "Accepted by KDD 2026",
+ "abstract": "We identify a critical pitfall in scaling transformer-based sequential recommenders: while increasing model size improves recommendation accuracy, it simultaneously amplifies popularity bias. This bias drives systems to over-recommend popular items at the expense of niche ones, which not only undermines fairness but also degrades the broader ecosystem by reinforcing the Matthew effect and filter bubbles. Consequently, this bias amplification emerges as a fundamental obstacle to sustainable model scaling. Through comprehensive theoretical and empirical analyses, we uncover the root cause of this amplification. Our findings reveal that as model depth increases, the two core components of the transformer architecture, i.e., attention aggregation and feed-forward projections, synergistically induce severe spectral collapse in model predictions, which directly translates to the amplification of popularity bias. To address this challenge, we propose SPRINT (Scalable Popularity Regularization IN Transformers), which mitigates spectral collapse during scaling by constraining (i) the maximum column-sums of the attention score matrices and (ii) the spectral norms of the feed-forward parameters. Extensive experiments demonstrate that SPRINT significantly improves both accuracy and long-tail fairness. Crucially, it yields more favorable scaling behaviors when expanding model sizes from 0.05M to 0.34B parameters. The code is available at https://github.com/Tiny-Snow/GenRec.",
+ "primary": "cs.IR"
+}

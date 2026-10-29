@@ -1,0 +1,15 @@
+{
+ "id": "2603.22331",
+ "title": "Conformal Risk Control for Safety-Critical Wildfire Evacuation Mapping: A Comparative Study of Tabular, Spatial, and Graph-Based Models",
+ "authors": [
+  "Baljinnyam Dayan"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Every wildfire prediction model deployed today shares a dangerous property: none of these methods provides formal guarantees on how much fire spread is missed. Despite extensive work on wildfire spread prediction using deep learning, no prior study has applied distribution-free safety guarantees to this domain, leaving evacuation planners reliant on probability thresholds with no formal assurance. We address this gap by presenting, to our knowledge, the first application of conformal risk control (CRC) to wildfire spread prediction, providing finite-sample guarantees on false negative rate (FNR <= 0.05). We expose a stark failure: across three model families of increasing complexity (tabular: LightGBM, AUROC 0.854; convolutional: Tiny U-Net, AUROC 0.969; and graph-based: Hybrid ResGNN-UNet, AUROC 0.964), standard thresholds capture only 7-72% of true fire spread. CRC eliminates this failure uniformly. Our central finding is that model architecture determines evacuation efficiency, while CRC determines safety: both spatial models with CRC achieve approximately 95% fire coverage while flagging only approximately 15% of total pixels, making them 4.2x more efficient than LightGBM, while the graph model's additional complexity over a simple U-Net yields no meaningful efficiency gain. We propose a shift-aware three-way CRC framework that assigns SAFE/MONITOR/EVACUATE zones for operational triage, and characterize a fundamental limitation of prevalence-weighted bounds under extreme class imbalance (approximately 5% fire prevalence). All models, calibration code, and evaluation pipelines are released for reproducibility.",
+ "primary": "cs.LG"
+}

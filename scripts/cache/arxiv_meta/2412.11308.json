@@ -1,0 +1,16 @@
+{
+ "id": "2412.11308",
+ "title": "From XAI to MLOps: Explainable Concept Drift Detection with Profile Drift Detection",
+ "authors": [
+  "Ugur Dar",
+  "Mustafa Cavus"
+ ],
+ "v1_date": "2024-12-15",
+ "latest_version": 2,
+ "latest_date": "2026-04-06",
+ "journal_ref": "Future Generation Computer Systems (2026)",
+ "doi": "10.1016/j.future.2026.108586",
+ "comment": "15 pages, 6 figures",
+ "abstract": "Predictive models often degrade in performance due to evolving data distributions, a phenomenon known as data drift. Among its forms, concept drift, where the relationship between explanatory variables and the response variable changes, is particularly challenging to detect and adapt to. Traditional drift detection methods often rely on metrics such as accuracy or marginal variable distributions, which may fail to capture subtle but important conceptual changes. This paper proposes a novel method, Profile Drift Detection (PDD), which enables both the detection of concept drift and an enhanced understanding of its underlying causes by leveraging an explainable AI tool: Partial Dependence Profiles (PDPs). PDD quantifies changes in PDPs through new drift metrics that are sensitive to shifts in the data stream while remaining computationally efficient. This approach is aligned with MLOps practices, emphasizing continuous model monitoring and adaptive retraining in dynamic environments. Experiments on synthetic and real-world datasets demonstrate that PDD outperforms existing methods by maintaining high predictive performance while effectively balancing sensitivity and stability in drift signals. The results highlight its suitability for real-time applications, and the paper concludes by discussing the method's advantages, limitations, and potential extensions to broader use cases.",
+ "primary": "stat.ML"
+}

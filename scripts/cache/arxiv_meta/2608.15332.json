@@ -1,0 +1,17 @@
+{
+ "id": "2608.15332",
+ "title": "GFCM: A Tail-Sensitive Mixed-Type Conditional Independence Test for Causal Discovery",
+ "authors": [
+  "Pavel Averin",
+  "Theodoros Moysiadis",
+  "Ioannis Katakis"
+ ],
+ "v1_date": "2026-08-15",
+ "latest_version": 1,
+ "latest_date": "2026-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 7 figures",
+ "abstract": "Constraint-based causal discovery like PC and FCI depends on its conditional independence test. Partial correlation and the Generalised Covariance Measure (GCM) detect only the conditional covariance of residuals, so they miss dependence in the mean's nonlinear part, the scale, and the tails. Tests that detect more are biased inside PC, not scalable, only continuous, or not aimed at the tails. Our Generalised Feature Covariance Measure (GFCM) is valid, sensitive beyond covariance, robust inside PC, and applicable to mixed-type data. It runs the GCM template on a configurable set of residual features with conditional mean zero (centered moments and conditional quantile indicators), pooled in blocks and combined by the Cauchy rule, with a growing-knot spline nuisance at regression cost. We contribute (i) a centering result making the scale feature Neyman orthogonal, where the uncentered version is biased; (ii) the orientation asymmetry the mean-quantile construction creates inside PC, and its fix; (iii) a Phi-faithfulness theory under which PC with GFCM recovers the CPDAG of the set's detection class; and (iv) a benchmark of CI tests sensitive beyond covariance on synthetic data, semi-synthetic tail injections, and PC discovery on random DAGs. Under size-corrected power, GFCM recovers the scale and tail edges the covariance family misses and alone keeps power at the deep conditioning sets PC issues. It stays calibrated as n grows, whereas FFCI, the boosted GCM, and the partial copula test do not, and it handles mixed-type data directly. Inside PC at scale it attains the lowest skeleton SHD among tests that stay calibrated, while the others inflate false edges. Validity rests on an additive nuisance, and the tail advantage is shown on simulated and semi-synthetic data, as no fully real benchmark with both heavy tails and known structure exists.",
+ "primary": "stat.ME"
+}

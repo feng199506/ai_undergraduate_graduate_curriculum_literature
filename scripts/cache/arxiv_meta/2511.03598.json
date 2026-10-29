@@ -1,0 +1,20 @@
+{
+ "id": "2511.03598",
+ "title": "Adaptive Randomized Tensor Train Rounding using Khatri-Rao Products",
+ "authors": [
+  "Hussam Al Daas",
+  "Grey Ballard",
+  "Laura Grigori",
+  "Mariana Martinez Aguilar",
+  "Arvind K. Saibaba",
+  "Bhisham Dev Verma"
+ ],
+ "v1_date": "2025-11-05",
+ "latest_version": 1,
+ "latest_date": "2025-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximating a tensor in the tensor train (TT) format has many important applications in scientific computing. Rounding a TT tensor involves further compressing a tensor that is already in the TT format. This paper proposes new randomized algorithms for TT-rounding that uses sketches based on Khatri-Rao products (KRP). When the TT-ranks are known in advance, the proposed methods are comparable in cost to the sketches that used a sketching matrix in the TT-format~\\cite{al2023randomized}. However, the use of KRP sketches enables adaptive algorithms to round the tensor in the TT-format within a fixed user-specified tolerance. An important component of the adaptivity is the estimation of error using KRP sketching, for which we develop theoretical guarantees. We report numerical experiments on synthetic tensors, parametric low-rank kernel approximations, and the solution of parametric partial differential equations. The numerical experiments show that we obtain speed-ups of up to $50\\times$ compared to deterministic TT-rounding. Both the computational cost analysis and numerical experiments verify that the adaptive algorithms are competitive with the fixed rank algorithms, suggesting the adaptivity introduces only a low overhead.",
+ "primary": "math.NA"
+}

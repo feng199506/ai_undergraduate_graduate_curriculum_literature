@@ -1,0 +1,17 @@
+{
+ "id": "2512.20051",
+ "title": "Generative Bayesian Hyperparameter Tuning",
+ "authors": [
+  "Hedibert Lopes",
+  "Nick Polson",
+  "Vadim Sokolov"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 1,
+ "latest_date": "2025-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "\\noindent Hyper-parameter selection is a central practical problem in modern machine learning, governing regularization strength, model capacity, and robustness choices. Cross-validation is often computationally prohibitive at scale, while fully Bayesian hyper-parameter learning can be difficult due to the cost of posterior sampling. We develop a generative perspective on hyper-parameter tuning that combines two ideas: (i) optimization-based approximations to Bayesian posteriors via randomized, weighted objectives (weighted Bayesian bootstrap), and (ii) amortization of repeated optimization across many hyper-parameter settings by learning a transport map from hyper-parameters (including random weights) to the corresponding optimizer. This yields a ``generator look-up table'' for estimators, enabling rapid evaluation over grids or continuous ranges of hyper-parameters and supporting both predictive tuning objectives and approximate Bayesian uncertainty quantification. We connect this viewpoint to weighted $M$-estimation, envelope/auxiliary-variable representations that reduce non-quadratic losses to weighted least squares, and recent generative samplers for weighted $M$-estimators.",
+ "primary": "stat.ML"
+}

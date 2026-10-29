@@ -1,0 +1,23 @@
+{
+ "id": "2506.23090",
+ "title": "Multi-task Offline Reinforcement Learning for Online Advertising in Recommender Systems",
+ "authors": [
+  "Langming Liu",
+  "Wanyu Wang",
+  "Chi Zhang",
+  "Bo Li",
+  "Hongzhi Yin",
+  "Xuetao Wei",
+  "Wenbo Su",
+  "Bo Zheng",
+  "Xiangyu Zhao"
+ ],
+ "v1_date": "2025-06-29",
+ "latest_version": 2,
+ "latest_date": "2025-07-09",
+ "journal_ref": "",
+ "doi": "10.1145/3711896.3737250",
+ "comment": "KDD 2025",
+ "abstract": "Online advertising in recommendation platforms has gained significant attention, with a predominant focus on channel recommendation and budget allocation strategies. However, current offline reinforcement learning (RL) methods face substantial challenges when applied to sparse advertising scenarios, primarily due to severe overestimation, distributional shifts, and overlooking budget constraints. To address these issues, we propose MTORL, a novel multi-task offline RL model that targets two key objectives. First, we establish a Markov Decision Process (MDP) framework specific to the nuances of advertising. Then, we develop a causal state encoder to capture dynamic user interests and temporal dependencies, facilitating offline RL through conditional sequence modeling. Causal attention mechanisms are introduced to enhance user sequence representations by identifying correlations among causal states. We employ multi-task learning to decode actions and rewards, simultaneously addressing channel recommendation and budget allocation. Notably, our framework includes an automated system for integrating these tasks into online advertising. Extensive experiments on offline and online environments demonstrate MTORL's superiority over state-of-the-art methods.",
+ "primary": "cs.IR"
+}

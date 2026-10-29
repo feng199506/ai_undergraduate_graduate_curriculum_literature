@@ -1,0 +1,20 @@
+{
+ "id": "2512.10805",
+ "title": "Interpretable and Steerable Concept Bottleneck Sparse Autoencoders",
+ "authors": [
+  "Akshay Kulkarni",
+  "Tsui-Wei Weng",
+  "Vivek Narayanaswamy",
+  "Shusen Liu",
+  "Wesam A. Sakla",
+  "Kowshik Thopalli"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 2,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "CVPR 2026",
+ "abstract": "Sparse autoencoders (SAEs) promise a unified approach for mechanistic interpretability, concept discovery, and model steering in LLMs and LVLMs. However, realizing this potential requires learned features to be both interpretable and steerable. To that end, we introduce two new computationally inexpensive interpretability and steerability metrics for a systematic analysis of LVLM SAEs. This uncovers two observations; (i) a majority of SAE neurons exhibit either low interpretability or low steerability or both, rendering them ineffective for downstream use; and (ii) user-desired concepts are often absent in the SAE, thus limiting their practical utility. To address these limitations, we propose Concept Bottleneck Sparse Autoencoders (CB-SAE) - a novel post-hoc framework that prunes low-utility neurons and augments the latent space with a lightweight concept bottleneck aligned to a user-defined concept set. The resulting CB-SAE improves interpretability by +32.1% and steerability by +14.5% across LVLMs and image generation tasks.",
+ "primary": "cs.LG"
+}

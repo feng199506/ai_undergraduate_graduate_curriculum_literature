@@ -1,0 +1,15 @@
+{
+ "id": "2406.11862",
+ "title": "Matrix-Free Jacobian Chaining",
+ "authors": [
+  "Uwe Naumann"
+ ],
+ "v1_date": "2024-04-11",
+ "latest_version": 1,
+ "latest_date": "2024-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2003.05755",
+ "abstract": "The efficient computation of Jacobians represents a fundamental challenge in computational science and engineering. Large-scale modular numerical simulation programs can be regarded as sequences of evaluations of in our case differentiable subprograms with corresponding elemental Jacobians. The latter are typically not available. Tangent and adjoint versions of the individual subprograms are assumed to be given as results of algorithmic differentiation instead. The classical (Jacobian) Matrix Chain Product problem is reformulated in terms of matrix-free Jacobian-matrix (tangents) and matrix-Jacobian products (adjoints), subject to limited memory for storing information required by latter. All numerical results can be reproduced using an open-source reference implementation.",
+ "primary": "cs.LG"
+}

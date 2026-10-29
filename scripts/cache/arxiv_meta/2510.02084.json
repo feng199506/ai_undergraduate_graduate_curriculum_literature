@@ -1,0 +1,22 @@
+{
+ "id": "2510.02084",
+ "title": "KAIROS: Unified Training for Universal Non-Autoregressive Time Series Forecasting",
+ "authors": [
+  "Kuiye Ding",
+  "Fanda Fan",
+  "Zheya Wang",
+  "Hongxiao Li",
+  "Yifan Wang",
+  "Lei Wang",
+  "Chunjie Luo",
+  "Jianfeng Zhan"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 2,
+ "latest_date": "2025-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the World Wide Web, reliable time series forecasts provide the forward-looking signals that drive resource planning, cache placement, and anomaly response, enabling platforms to operate efficiently as user behavior and content distributions evolve. Compared with other domains, time series forecasting for Web applications requires much faster responsiveness to support real-time decision making. We present KAIROS, a non-autoregressive time series forecasting framework that directly models segment-level multi-peak distributions. Unlike autoregressive approaches, KAIROS avoids error accumulation and achieves just-in-time inference, while improving over existing non-autoregressive models that collapse to over-smoothed predictions. Trained on the large-scale corpus, KAIROS demonstrates strong zero-shot generalization on six widely used benchmarks, delivering forecasting performance comparable to state-of-the-art foundation models with similar scale, at a fraction of their inference cost. Beyond empirical results, KAIROS highlights the importance of non-autoregressive design as a scalable paradigm for foundation models in time series.",
+ "primary": "cs.LG"
+}

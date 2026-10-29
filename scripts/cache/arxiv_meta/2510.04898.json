@@ -1,0 +1,20 @@
+{
+ "id": "2510.04898",
+ "title": "HyperVLA: Efficient Inference in Vision-Language-Action Models via Hypernetworks",
+ "authors": [
+  "Zheng Xiong",
+  "Kang Li",
+  "Zilin Wang",
+  "Matthew Jackson",
+  "Jakob Foerster",
+  "Shimon Whiteson"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 1,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Built upon language and vision foundation models with strong generalization ability and trained on large-scale robotic data, Vision-Language-Action (VLA) models have recently emerged as a promising approach to learning generalist robotic policies. However, a key drawback of existing VLAs is their extremely high inference costs. In this paper, we propose HyperVLA to address this problem. Unlike existing monolithic VLAs that activate the whole model during both training and inference, HyperVLA uses a novel hypernetwork (HN)-based architecture that activates only a small task-specific policy during inference, while still retaining the high model capacity needed to accommodate diverse multi-task behaviors during training. Successfully training an HN-based VLA is nontrivial so HyperVLA contains several key algorithm design features that improve its performance, including properly utilizing the prior knowledge from existing vision foundation models, HN normalization, and an action generation strategy. Compared to monolithic VLAs, HyperVLA achieves a similar or even higher success rate for both zero-shot generalization and few-shot adaptation, while significantly reducing inference costs. Compared to OpenVLA, a state-of-the-art VLA model, HyperVLA reduces the number of activated parameters at test time by $90\\times$, and accelerates inference speed by $120\\times$. Code is publicly available at https://github.com/MasterXiong/HyperVLA",
+ "primary": "cs.RO"
+}

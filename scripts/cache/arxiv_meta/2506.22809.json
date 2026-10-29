@@ -1,0 +1,18 @@
+{
+ "id": "2506.22809",
+ "title": "Learning Adapter Rank via Symmetry Breaking",
+ "authors": [
+  "Cooper Doyle",
+  "Andy Hu",
+  "Rebecca Chan",
+  "Anna Leontjeva"
+ ],
+ "v1_date": "2025-06-28",
+ "latest_version": 4,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 2 figures, 4 tables",
+ "abstract": "Low-rank adaptation is effective partly because downstream updates lie in a low-dimensional subspace, but the latent rank coordinates of LoRA are not identifiable: any invertible reparameterization of the adapter factors leaves the weight update unchanged. We show that variational inference with a diagonal rank-wise posterior turns this non-identifiability into a useful inductive bias. By breaking LoRA's rotational gauge symmetry, the variational objective selects a preferred basis in rank space, enabling automatic relevance determination over rank directions. This yields Low-Rank Variational Dropout (LRVD), a Bayesian framework that performs inference directly in the low-rank adaptation space rather than the ambient weight space. As an instantiation, BayesLoRA jointly learns effective adapter rank and predictive uncertainty with only $\\mathcal{O}(r)$ additional parameters. Empirically, BayesLoRA induces stable rank structure aligned with the dominant singular directions of learned updates, yields compact predictive calibration and matches or exceeds strong low-rank sparsification baselines at comparable training cost.",
+ "primary": "cs.LG"
+}

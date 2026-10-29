@@ -1,0 +1,20 @@
+{
+ "id": "2410.18626",
+ "title": "SAMG: Offline-to-Online Reinforcement Learning via State-Action-Conditional Offline Model Guidance",
+ "authors": [
+  "Liyu Zhang",
+  "Haochi Wu",
+  "Xu Wan",
+  "Quan Kong",
+  "Ruilong Deng",
+  "Mingyang Sun"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 2,
+ "latest_date": "2025-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Offline-to-online (O2O) reinforcement learning (RL) pre-trains models on offline data and refines policies through online fine-tuning. However, existing O2O RL algorithms typically require maintaining the tedious offline datasets to mitigate the effects of out-of-distribution (OOD) data, which significantly limits their efficiency in exploiting online samples. To address this deficiency, we introduce a new paradigm for O2O RL called State-Action-Conditional Offline \\Model Guidance (SAMG). It freezes the pre-trained offline critic to provide compact offline understanding for each state-action sample, thus eliminating the need for retraining on offline data. The frozen offline critic is incorporated with the online target critic weighted by a state-action-adaptive coefficient. This coefficient aims to capture the offline degree of samples at the state-action level, and is updated adaptively during training. In practice, SAMG could be easily integrated with Q-function-based algorithms. Theoretical analysis shows good optimality and lower estimation error. Empirically, SAMG outperforms state-of-the-art O2O RL algorithms on the D4RL benchmark.",
+ "primary": "cs.LG"
+}

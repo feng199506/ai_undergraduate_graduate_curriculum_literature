@@ -1,0 +1,15 @@
+{
+ "id": "2406.17228",
+ "title": "Greedy equivalence search for nonparametric graphical models",
+ "authors": [
+  "Bryon Aragam"
+ ],
+ "v1_date": "2024-06-25",
+ "latest_version": 1,
+ "latest_date": "2024-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "One of the hallmark achievements of the theory of graphical models and Bayesian model selection is the celebrated greedy equivalence search (GES) algorithm due to Chickering and Meek. GES is known to consistently estimate the structure of directed acyclic graph (DAG) models in various special cases including Gaussian and discrete models, which are in particular curved exponential families. A general theory that covers general nonparametric DAG models, however, is missing. Here, we establish the consistency of greedy equivalence search for general families of DAG models that satisfy smoothness conditions on the Markov factorization, and hence may not be curved exponential families, or even parametric. The proof leverages recent advances in nonparametric Bayes to construct a test for comparing misspecified DAG models that avoids arguments based on the Laplace approximation. Nonetheless, when the Laplace approximation is valid and a consistent scoring function exists, we recover the classical result. As a result, we obtain a general consistency theorem for GES applied to general DAG models.",
+ "primary": "stat.ML"
+}

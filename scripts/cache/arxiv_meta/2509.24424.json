@@ -1,0 +1,17 @@
+{
+ "id": "2509.24424",
+ "title": "Multi-Item-Query Attention for Stable Sequential Recommendation",
+ "authors": [
+  "Mingshi Xu",
+  "Haoren Zhu",
+  "Wilfred Siu Hung Ng"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 1,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "10.1145/3746252.3760817",
+ "comment": "",
+ "abstract": "The inherent instability and noise in user interaction data challenge sequential recommendation systems. Prevailing masked attention models, relying on a single query from the most recent item, are sensitive to this noise, reducing prediction reliability. We propose the Multi-Item-Query attention mechanism (MIQ-Attn) to enhance model stability and accuracy. MIQ-Attn constructs multiple diverse query vectors from user interactions, effectively mitigating noise and improving consistency. It is designed for easy adoption as a drop-in replacement for existing single-query attention. Experiments show MIQ-Attn significantly improves performance on benchmark datasets.",
+ "primary": "cs.IR"
+}

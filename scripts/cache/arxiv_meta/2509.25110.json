@@ -1,0 +1,20 @@
+{
+ "id": "2509.25110",
+ "title": "gCAMB: A GPU-accelerated Boltzmann solver for next-generation cosmological surveys",
+ "authors": [
+  "L. Storchi",
+  "P. Campeti",
+  "M. Lattanzi",
+  "N. Antonini",
+  "E. Calore",
+  "P. Lubrano"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 1,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code available at https://github.com/lstorchi/CAMB/tree/gpuport. Submitted to Astronomy & Computing. 7 pages, 4 figures",
+ "abstract": "Inferring cosmological parameters from Cosmic Microwave Background (CMB) data requires repeated and computationally expensive calculations of theoretical angular power spectra using Boltzmann solvers like CAMB. This creates a significant bottleneck, particularly for non-standard cosmological models and the high-accuracy demands of future surveys. While emulators based on deep neural networks can accelerate this process by several orders of magnitude, they first require large, pre-computed training datasets, which are costly to generate and model-specific. To address this challenge, we introduce gCAMB, a version of the CAMB code ported to GPUs, which preserves all the features of the original CPU-only code. By offloading the most computationally intensive modules to the GPU, gCAMB significantly accelerates the generation of power spectra, saving massive computational time, halving the power consumption in high-accuracy settings and, among other purposes, facilitating the creation of extensive training sets needed for robust cosmological analyses. We make the gCAMB software available to the community at https://github.com/lstorchi/CAMB/tree/gpuport.",
+ "primary": "astro-ph.CO"
+}

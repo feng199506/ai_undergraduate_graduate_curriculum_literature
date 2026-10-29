@@ -1,0 +1,18 @@
+{
+ "id": "2512.21691",
+ "title": "Analyzing the Mechanism of Attention Collapse in VGGT from a Dynamics Perspective",
+ "authors": [
+  "Huan Li",
+  "Longjun Luo",
+  "Yuling Shi",
+  "Xiaodong Gu"
+ ],
+ "v1_date": "2025-12-25",
+ "latest_version": 1,
+ "latest_date": "2025-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures",
+ "abstract": "Visual Geometry Grounded Transformer (VGGT) delivers state-of-the-art feed-forward 3D reconstruction, yet its global self-attention layer suffers from a drastic collapse phenomenon when the input sequence exceeds a few hundred frames: attention matrices rapidly become near rank-one, token geometry degenerates to an almost one-dimensional subspace, and reconstruction error accumulates super-linearly.In this report,we establish a rigorous mathematical explanation of the collapse by viewing the global-attention iteration as a degenerate diffusion process.We prove that,in VGGT, the token-feature flow converges toward a Dirac-type measure at a $O(1/L)$ rate, where $L$ is the layer index, yielding a closed-form mean-field partial differential equation that precisely predicts the empirically observed rank profile.The theory quantitatively matches the attention-heat-map evolution and a series of experiments outcomes reported in relevant works and explains why its token-merging remedy -- which periodically removes redundant tokens -- slows the effective diffusion coefficient and thereby delays collapse without additional training.We believe the analysis provides a principled lens for interpreting future scalable 3D-vision transformers,and we highlight its potential for multi-modal generalization.",
+ "primary": "cs.CV"
+}

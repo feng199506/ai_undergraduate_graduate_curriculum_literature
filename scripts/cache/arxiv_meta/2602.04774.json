@@ -1,0 +1,16 @@
+{
+ "id": "2602.04774",
+ "title": "Theory of Optimal Learning Rate Schedules and Scaling Laws for a Random Feature Model",
+ "authors": [
+  "Blake Bordelon",
+  "Francesco Mori"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 2,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Setting the learning rate (LR) for a deep learning model is a critical part of successful training. Choosing LRs is often done empirically with trial and error. In this work, we explore a solvable model of optimal LR schedules for a powerlaw random feature model trained with stochastic gradient descent (SGD). We consider the optimal schedule $η_T^\\star(t)$ where $t$ is the current iterate and $T$ is the training horizon. This schedule is computed both as a numerical optimization problem and also analytically using optimal control theory. Our analysis reveals two regimes which we term the easy phase and hard phase. In the easy phase the optimal schedule is a polynomial decay $η_T^\\star(t) \\simeq T^{-ξ} (1-t/T)^δ$ where $ξ$ and $δ$ depend on the properties of the features and task. In the hard phase, the optimal schedule resembles warmup-stable-decay with constant initial LR and annealing performed over a vanishing fraction of training steps. We investigate joint optimization of LR and batch size and find batch ramps can improve the wall-clock time in the easy phase. Beyond SGD, we derive optimal schedules for momentum parameter $β(t)$ and show that it improves the loss-scaling exponent in the hard phase. We compare our optimal schedule to various benchmarks including (1) optimal constant learning rates $η_T(t) \\sim T^{-ξ}$ (2) optimal power laws $η_T(t) \\sim T^{-ξ} t^{-χ}$, finding that our schedule achieves better rates than either of these. Our theory suggests that LR transfer across training horizon depends on the structure of the model and task. For ResNet image classification on CIFAR-5M, the learning curves exhibit hard-phase behavior where optimal base LRs are constant under sufficient annealing. GPT-2 style transformers trained in language modeling exhibit easy-phase behavior where optimal LRs shift even under annealing.",
+ "primary": "cond-mat.dis-nn"
+}

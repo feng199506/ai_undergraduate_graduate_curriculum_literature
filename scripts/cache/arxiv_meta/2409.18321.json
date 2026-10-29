@@ -1,0 +1,16 @@
+{
+ "id": "2409.18321",
+ "title": "Local Prediction-Powered Inference",
+ "authors": [
+  "Yanwu Gu",
+  "Dong Xia"
+ ],
+ "v1_date": "2024-09-26",
+ "latest_version": 1,
+ "latest_date": "2024-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To infer a function value on a specific point $x$, it is essential to assign higher weights to the points closer to $x$, which is called local polynomial / multivariable regression. In many practical cases, a limited sample size may ruin this method, but such conditions can be improved by the Prediction-Powered Inference (PPI) technique. This paper introduced a specific algorithm for local multivariable regression using PPI, which can significantly reduce the variance of estimations without enlarge the error. The confidence intervals, bias correction, and coverage probabilities are analyzed and proved the correctness and superiority of our algorithm. Numerical simulation and real-data experiments are applied and show these conclusions. Another contribution compared to PPI is the theoretical computation efficiency and explainability by taking into account the dependency of the dependent variable.",
+ "primary": "stat.ML"
+}

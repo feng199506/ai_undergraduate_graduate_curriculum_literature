@@ -1,0 +1,19 @@
+{
+ "id": "2512.18583",
+ "title": "SD2AIL: Adversarial Imitation Learning from Synthetic Demonstrations via Diffusion Models",
+ "authors": [
+  "Pengcheng Li",
+  "Qiang Fang",
+  "Tong Zhao",
+  "Yixing Lan",
+  "Xin Xu"
+ ],
+ "v1_date": "2025-12-21",
+ "latest_version": 2,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper has the following problems: Limited novelty, not clearly differentiated from existing methods/concepts; The level of experimental validation is limited; Sufficient serious structural, language, or other issues that impact the comprehensibility of the manuscript",
+ "abstract": "Adversarial Imitation Learning (AIL) is a dominant framework in imitation learning that infers rewards from expert demonstrations to guide policy optimization. Although providing more expert demonstrations typically leads to improved performance and greater stability, collecting such demonstrations can be challenging in certain scenarios. Inspired by the success of diffusion models in data generation, we propose SD2AIL, which utilizes synthetic demonstrations via diffusion models. We first employ a diffusion model in the discriminator to generate synthetic demonstrations as pseudo-expert data that augment the expert demonstrations. To selectively replay the most valuable demonstrations from the large pool of (pseudo-) expert demonstrations, we further introduce a prioritized expert demonstration replay strategy (PEDR). The experimental results on simulation tasks demonstrate the effectiveness and robustness of our method. In particular, in the Hopper task, our method achieves an average return of 3441, surpassing the state-of-the-art method by 89. Our code will be available at https://github.com/positron-lpc/SD2AIL.",
+ "primary": "cs.LG"
+}

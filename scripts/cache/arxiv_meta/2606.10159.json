@@ -1,0 +1,19 @@
+{
+ "id": "2606.10159",
+ "title": "Gaming AI-Assisted Peer Reviews Poses New Risks to the Scientific Community",
+ "authors": [
+  "Lin Li",
+  "Qi Zhang",
+  "Xander Davies",
+  "Jianing Qiu",
+  "Yarin Gal"
+ ],
+ "v1_date": "2026-06-08",
+ "latest_version": 1,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "AI is increasingly used to support scientific peer review, from manuscript screening, reviewer assistance to editorial triage. Although such systems promise to reduce reviewer burden and accelerate publication, their robustness to strategic manipulation remains poorly understood. Here we show that AI-mediated peer review is vulnerable to a simple, low-cost manipulation: superficial rephrasing of the manuscript abstract. Without changing the underlying scientific content and communication, and even without knowledge of the reviewing model, adversarially rewritten abstracts substantially improve AI review outcomes. We see this across disciplines and publication venues, for both human-written and AI-generated papers. Our strongest attack achieves an attack-success-rate of about 38%, increasing acceptance ratings by +1.31 for Gemini 3 Flash reviewers and by +0.88 for GPT 5.4 Mini reviewers on a 10-point scale. When the original AI review suggests 'reject', the success rate rises to more than 50%. This effect extends beyond overall score inflation, increasing review confidence and scores on core scientific criteria such as soundness, significance and perceived contribution. The attack is practical, requiring only about 5 minutes and $1 for a 10-page AI conference submission, and is hard to distinguish from ordinary scientific editing. Inflated AI reviews could bias downstream human decision-making, shifting editorial recommendations from rejection towards acceptance. These findings reveal a general vulnerability in AI-assisted scientific evaluation: when AI-generated review influence editorial decisions, authors may be incentivized to optimize manuscripts for AI judgment rather than scientific merit. Our results suggest that AI tools should not be treated as neutral evaluators in high-stakes peer review without systematic robustness testing, transparent safeguards and careful human oversight.",
+ "primary": "cs.CL"
+}

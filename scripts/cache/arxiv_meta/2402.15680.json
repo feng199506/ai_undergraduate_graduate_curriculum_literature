@@ -1,0 +1,23 @@
+{
+ "id": "2402.15680",
+ "title": "Overcoming Pitfalls in Graph Contrastive Learning Evaluation: Toward Comprehensive Benchmarks",
+ "authors": [
+  "Qian Ma",
+  "Hongliang Chi",
+  "Hengrui Zhang",
+  "Kay Liu",
+  "Zhiwei Zhang",
+  "Lu Cheng",
+  "Suhang Wang",
+  "Philip S. Yu",
+  "Yao Ma"
+ ],
+ "v1_date": "2024-02-24",
+ "latest_version": 1,
+ "latest_date": "2024-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rise of self-supervised learning, which operates without the need for labeled data, has garnered significant interest within the graph learning community. This enthusiasm has led to the development of numerous Graph Contrastive Learning (GCL) techniques, all aiming to create a versatile graph encoder that leverages the wealth of unlabeled data for various downstream tasks. However, the current evaluation standards for GCL approaches are flawed due to the need for extensive hyper-parameter tuning during pre-training and the reliance on a single downstream task for assessment. These flaws can skew the evaluation away from the intended goals, potentially leading to misleading conclusions. In our paper, we thoroughly examine these shortcomings and offer fresh perspectives on how GCL methods are affected by hyper-parameter choices and the choice of downstream tasks for their evaluation. Additionally, we introduce an enhanced evaluation framework designed to more accurately gauge the effectiveness, consistency, and overall capability of GCL methods.",
+ "primary": "cs.LG"
+}

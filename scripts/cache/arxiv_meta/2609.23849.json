@@ -1,0 +1,18 @@
+{
+ "id": "2609.23849",
+ "title": "A Redundancy Reduction Approach for Controllable Sequential Recommendations",
+ "authors": [
+  "Veronika Ivanova",
+  "Marina Munkhoeva",
+  "Ivan Razvorotnev",
+  "Evgeny Frolov"
+ ],
+ "v1_date": "2026-09-20",
+ "latest_version": 1,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential recommendation must operate under long-tailed item distributions and popularity-driven concentration, often forcing practitioners to trade short-list accuracy against long-tail exposure. In this work, we study feature decorrelation as a mechanism for shaping representation geometry in dot-product sequential recommenders, and analyze how this, in turn, affects popularity-driven concentration. We propose a decorrelation-regularized training framework that augments next-item prediction with an auxiliary redundancy-reduction term, and instantiate it with BT-SR, which uses the Barlow Twins objective. To form label-consistent positive pairs without synthetic corruptions, we pair user histories that share the same next-item target. Beyond accuracy, we provide a geometric analysis showing how decorrelation suppresses shared low-rank directions in the user representation space that can give popular items a global scoring advantage, and we introduce a bucket-based alignment concentration metric to quantify this effect. Experiments on five public benchmarks show that BT-SR consistently improves next-item ranking quality, while the decorrelation strength acts as a simple control knob that reallocates accuracy across head and tail items, enabling accuracy-exposure trade-offs. Our analysis also reveals that the impact on head-vs-tail exposure differs across datasets, reflecting interactions between decorrelation and data temporal structure.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2610.34035",
+ "title": "Prior-Data Fitted Networks for In-Context Off-Policy Evaluation",
+ "authors": [
+  "Shuguang Yu",
+  "Ting Li",
+  "Fan Zhou"
+ ],
+ "v1_date": "2026-10-25",
+ "latest_version": 1,
+ "latest_date": "2026-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Off-policy evaluation (OPE) is essential for assessing decision policies before deployment when online experimentation is costly or unsafe. Accurate estimation remains difficult when behavior-policy data are limited and the target policy favors states and actions rarely observed in those data. We propose InCOPE, a prior-data fitted network that learns a shared policy-value prediction rule across synthetic OPE tasks. We construct an OPE task prior over Markov decision processes and behavior-target policy pairs, generating behavior-policy datasets and exact target-policy values for pretraining. For a new tabular decision problem, the pretrained network uses the behavior-policy dataset, target policy, and known task settings as context to predict the policy's expected return without task-specific parameter updates. Experiments across four tabular domains, including a semi-synthetic clinical setting, demonstrate InCOPE's effectiveness for policy-value estimation.",
+ "primary": "stat.ML"
+}

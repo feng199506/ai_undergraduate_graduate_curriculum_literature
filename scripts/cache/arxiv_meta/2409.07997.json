@@ -1,0 +1,26 @@
+{
+ "id": "2409.07997",
+ "title": "Privacy-preserving federated prediction of pain intensity change based on multi-center survey data",
+ "authors": [
+  "Supratim Das",
+  "Mahdie Rafie",
+  "Paula Kammer",
+  "Søren T. Skou",
+  "Dorte T. Grønne",
+  "Ewa M. Roos",
+  "André Hajek",
+  "Hans-Helmut König",
+  "Md Shihab Ullaha",
+  "Niklas Probul",
+  "Jan Baumbacha",
+  "Linda Baumbach"
+ ],
+ "v1_date": "2024-09-12",
+ "latest_version": 1,
+ "latest_date": "2024-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Background: Patient-reported survey data are used to train prognostic models aimed at improving healthcare. However, such data are typically available multi-centric and, for privacy reasons, cannot easily be centralized in one data repository. Models trained locally are less accurate, robust, and generalizable. We present and apply privacy-preserving federated machine learning techniques for prognostic model building, where local survey data never leaves the legally safe harbors of the medical centers. Methods: We used centralized, local, and federated learning techniques on two healthcare datasets (GLA:D data from the five health regions of Denmark and international SHARE data of 27 countries) to predict two different health outcomes. We compared linear regression, random forest regression, and random forest classification models trained on local data with those trained on the entire data in a centralized and in a federated fashion. Results: In GLA:D data, federated linear regression (R2 0.34, RMSE 18.2) and federated random forest regression (R2 0.34, RMSE 18.3) models outperform their local counterparts (i.e., R2 0.32, RMSE 18.6, R2 0.30, RMSE 18.8) with statistical significance. We also found that centralized models (R2 0.34, RMSE 18.2, R2 0.32, RMSE 18.5, respectively) did not perform significantly better than the federated models. In SHARE, the federated model (AC 0.78, AUROC: 0.71) and centralized model (AC 0.84, AUROC: 0.66) perform significantly better than the local models (AC: 0.74, AUROC: 0.69). Conclusion: Federated learning enables the training of prognostic models from multi-center surveys without compromising privacy and with only minimal or no compromise regarding model performance.",
+ "primary": "cs.LG"
+}

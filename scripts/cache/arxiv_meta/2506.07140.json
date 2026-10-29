@@ -1,0 +1,19 @@
+{
+ "id": "2506.07140",
+ "title": "Quantile-Optimal Policy Learning under Unmeasured Confounding",
+ "authors": [
+  "Zhongren Chen",
+  "Siyu Chen",
+  "Zhengling Qi",
+  "Xiaohong Chen",
+  "Zhuoran Yang"
+ ],
+ "v1_date": "2025-06-08",
+ "latest_version": 1,
+ "latest_date": "2025-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study quantile-optimal policy learning where the goal is to find a policy whose reward distribution has the largest $α$-quantile for some $α\\in (0, 1)$. We focus on the offline setting whose generating process involves unobserved confounders. Such a problem suffers from three main challenges: (i) nonlinearity of the quantile objective as a functional of the reward distribution, (ii) unobserved confounding issue, and (iii) insufficient coverage of the offline dataset. To address these challenges, we propose a suite of causal-assisted policy learning methods that provably enjoy strong theoretical guarantees under mild conditions. In particular, to address (i) and (ii), using causal inference tools such as instrumental variables and negative controls, we propose to estimate the quantile objectives by solving nonlinear functional integral equations. Then we adopt a minimax estimation approach with nonparametric models to solve these integral equations, and propose to construct conservative policy estimates that address (iii). The final policy is the one that maximizes these pessimistic estimates. In addition, we propose a novel regularized policy learning method that is more amenable to computation. Finally, we prove that the policies learned by these methods are $\\tilde{\\mathscr{O}}(n^{-1/2})$ quantile-optimal under a mild coverage assumption on the offline dataset. Here, $\\tilde{\\mathscr{O}}(\\cdot)$ omits poly-logarithmic factors. To the best of our knowledge, we propose the first sample-efficient policy learning algorithms for estimating the quantile-optimal policy when there exist unmeasured confounding.",
+ "primary": "stat.ML"
+}

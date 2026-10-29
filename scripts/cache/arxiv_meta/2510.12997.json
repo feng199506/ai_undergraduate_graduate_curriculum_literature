@@ -1,0 +1,16 @@
+{
+ "id": "2510.12997",
+ "title": "Max It or Miss It: Benchmarking LLM On Solving Extremal Problems",
+ "authors": [
+  "Binxin Gao",
+  "Jingjun Han"
+ ],
+ "v1_date": "2025-10-14",
+ "latest_version": 2,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Our benchmark dataset is available at https://huggingface.co/datasets/binxingao/extrem-bench",
+ "abstract": "Test-time scaling has enabled Large Language Models (LLMs) with remarkable reasoning capabilities, particularly in mathematical domains, through intermediate chain-of-thought (CoT) reasoning before generating final answers. However, the specific sources and mechanisms underlying these reasoning capabilities remain insufficiently understood. Optimization reasoning, i.e. finding extrema under constraints, represents a fundamental abstraction that underpins critical applications in planning, control, resource allocation, and prompt search. To systematically evaluate this capability, we introduce ExtremBench, a benchmark dataset for solving mathematical extremal problems, curated from inequality exercises used for Chinese Mathematical Olympiad and transformed into $93$ standardized extrema-finding problems. We conduct extensive evaluations across various state-of-the-art open-source model families, including the Qwen3, GPT-OSS, and DeepSeek. Our results reveal that LLMs' extremal-solving reasoning capabilities do not always align with those of current mathematical benchmarks such as AIME25 and MATH-500, with some models showing strong general mathematical reasoning but poor extremal-solving skills, and vice versa. This discrepancy highlights a critical gap in current evaluation practices and suggests that existing benchmarks may not comprehensively capture the full spectrum of mathematical reasoning abilities.",
+ "primary": "cs.LG"
+}

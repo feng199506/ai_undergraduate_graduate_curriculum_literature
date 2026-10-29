@@ -1,0 +1,21 @@
+{
+ "id": "2503.06163",
+ "title": "VACT: A Video Automatic Causal Testing System and a Benchmark",
+ "authors": [
+  "Haotong Yang",
+  "Qingyuan Zheng",
+  "Yunjian Gao",
+  "Yongkun Yang",
+  "Yangbo He",
+  "Zhouchen Lin",
+  "Muhan Zhang"
+ ],
+ "v1_date": "2025-03-08",
+ "latest_version": 2,
+ "latest_date": "2025-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "A preliminary version of this paper has been accepted by workshop SCSL@ICLR 2025",
+ "abstract": "With the rapid advancement of text-conditioned Video Generation Models (VGMs), the quality of generated videos has significantly improved, bringing these models closer to functioning as ``*world simulators*'' and making real-world-level video generation more accessible and cost-effective. However, the generated videos often contain factual inaccuracies and lack understanding of fundamental physical laws. While some previous studies have highlighted this issue in limited domains through manual analysis, a comprehensive solution has not yet been established, primarily due to the absence of a generalized, automated approach for modeling and assessing the causal reasoning of these models across diverse scenarios. To address this gap, we propose VACT: an **automated** framework for modeling, evaluating, and measuring the causal understanding of VGMs in real-world scenarios. By combining causal analysis techniques with a carefully designed large language model assistant, our system can assess the causal behavior of models in various contexts without human annotation, which offers strong generalization and scalability. Additionally, we introduce multi-level causal evaluation metrics to provide a detailed analysis of the causal performance of VGMs. As a demonstration, we use our framework to benchmark several prevailing VGMs, offering insight into their causal reasoning capabilities. Our work lays the foundation for systematically addressing the causal understanding deficiencies in VGMs and contributes to advancing their reliability and real-world applicability.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2604.13410",
+ "title": "Estimating Continuous Treatment Effects with Two-Stage Kernel Ridge Regression",
+ "authors": [
+  "Seok-Jin Kim",
+  "Kaizheng Wang"
+ ],
+ "v1_date": "2026-04-15",
+ "latest_version": 2,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of estimating the effect function for a continuous treatment, which maps each treatment value to a population-averaged outcome. A central challenge in this setting is confounding: treatment assignment often depends on covariates, creating selection bias that makes direct regression of the response on treatment unreliable. To address this issue, we propose a two-stage kernel ridge regression method. In the first stage, we learn a model for the response as a function of both treatment and covariates; in the second stage, we use this model to construct pseudo-outcomes that correct for distribution shift, and then fit a second model to estimate the treatment effect. Although the response varies with both treatment and covariates, the induced effect function obtained by averaging over covariates is typically much simpler, and our estimator adapts to this structure. Our optimal learning bounds are achieved without estimating the conditional treatment density, thereby bypassing a major bottleneck in existing methods. Furthermore, we introduce a fully data-driven model selection procedure that achieves provable adaptivity to both the unknown degree of overlap and the spectral decay of the underlying kernel.",
+ "primary": "stat.ME"
+}

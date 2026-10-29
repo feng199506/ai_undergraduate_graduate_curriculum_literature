@@ -1,0 +1,16 @@
+{
+ "id": "2511.09872",
+ "title": "Randomized batch-sampling Kaczmarz methods for solving linear systems",
+ "authors": [
+  "Dong-Yue Xie",
+  "Xi Yang"
+ ],
+ "v1_date": "2025-11-13",
+ "latest_version": 2,
+ "latest_date": "2026-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To conduct a more in-depth investigation of randomized solvers for solving linear systems, we adopt a unified randomized batch-sampling Kaczmarz framework with per-iteration costs as low as cyclic block methods, and develop a general analysis technique to establish its convergence guarantee. With concentration inequalities, we derive new expected linear convergence rate bounds. The analysis applies to any randomized non-extended block Kaczmarz methods with arbitrary static stochastic samplings. In addition, the new rate bounds are scale-invariant, which eliminate the dependence on the magnitude of the data matrix. In most experiments, the new bounds are significantly tighter than existing ones and better reflect the empirical convergence behavior of block methods. Within this new framework, the batch-sampling distribution, as a learnable parameter, provides the possibility for block methods to achieve efficient performance in specific application scenarios, which deserves further investigation.",
+ "primary": "math.NA"
+}

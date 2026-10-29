@@ -1,0 +1,19 @@
+{
+ "id": "2609.08310",
+ "title": "Exploring Bottom-Up Clustering for Creating Semantic IDs",
+ "authors": [
+  "Leah Woldemariam",
+  "Sudhanshu Garg",
+  "Taha Belkhouja",
+  "Charles Kim-Yip",
+  "Ali Sahami"
+ ],
+ "v1_date": "2026-09-08",
+ "latest_version": 1,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 Pages, workshop Paper",
+ "abstract": "The success of generative retrieval has largely been attributed to the use of Semantic IDs, which improve over arbitrary item-level identifiers such as hashes by capturing the semantics of items. The main challenges faced when constructing Semantic IDs, however, is in mapping each identifier to a unique product and capturing information valuable to downstream tasks. Past works have appended additional codewords to de-duplicate item identifiers and utilized residual quantization to create hierarchical clusters. In this work, we present an algorithm for generating Semantic IDs that ensure the identifiers are both unique and preserve the structure of the original embedding. Key to our work is the use of bottom-up clustering to preserve local structure in the embedding space, improving the clustering quality of the resulting Semantic IDs and their utility for downstream generative retrieval.",
+ "primary": "cs.IR"
+}

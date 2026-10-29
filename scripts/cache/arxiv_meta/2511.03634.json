@@ -1,0 +1,18 @@
+{
+ "id": "2511.03634",
+ "title": "nanoTabPFN: A Lightweight and Educational Reimplementation of TabPFN",
+ "authors": [
+  "Alexander Pfefferle",
+  "Johannes Hog",
+  "Lennart Purucker",
+  "Frank Hutter"
+ ],
+ "v1_date": "2025-11-05",
+ "latest_version": 2,
+ "latest_date": "2025-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tabular foundation models such as TabPFN have revolutionized predictive machine learning for tabular data. At the same time, the driving factors of this revolution are hard to understand. Existing open-source tabular foundation models are implemented in complicated pipelines boasting over 10,000 lines of code, lack architecture documentation or code quality. In short, the implementations are hard to understand, not beginner-friendly, and complicated to adapt for new experiments. We introduce nanoTabPFN, a simplified and lightweight implementation of the TabPFN v2 architecture and a corresponding training loop that uses pre-generated training data. nanoTabPFN makes tabular foundation models more accessible to students and researchers alike. For example, restricted to a small data setting it achieves a performance comparable to traditional machine learning baselines within one minute of pre-training on a single GPU (160,000x faster than TabPFN v2 pretraining). This eliminated requirement of large computational resources makes pre-training tabular foundation models accessible for educational purposes. Our code is available at https://github.com/automl/nanoTabPFN.",
+ "primary": "cs.LG"
+}

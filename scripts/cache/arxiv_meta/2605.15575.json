@@ -1,0 +1,18 @@
+{
+ "id": "2605.15575",
+ "title": "Gaussian Relational Graph Transformer",
+ "authors": [
+  "Zezhong Ding",
+  "Jin Li",
+  "Xugang Wang",
+  "Xike Xie"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 2,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Relational graph learning enables predictive modeling over relational databases by directly capturing dependencies across interconnected tables. While relational graph Transformers extend the receptive field beyond local message passing, a larger receptive field does not necessarily provide more useful information: sampling must preserve relational structure without introducing excessive semantically irrelevant nodes, while attention must account for the temporal relevance of the retained information. We propose GelGT, a Gaussian relational graph transformer that explicitly addresses these challenges. GelGT introduces a structure-semantic collaborative sampling strategy to preserve structural connectivity while filtering irrelevant semantic information, and incorporates a Gaussian graph attention mechanism with a learnable Gaussian bias on the sampled subgraphs to dynamically encode temporal dependencies. We provide theoretical analysis characterizing the structural preservation, semantic refinement, and temporal discrimination of these mechanisms. Experiments on \\textbf{7} real-world relational datasets covering \\textbf{21} prediction tasks show that GelGT consistently outperforms existing relational graph learning methods, with improvements of up to \\textbf{13.8\\%}.",
+ "primary": "cs.LG"
+}

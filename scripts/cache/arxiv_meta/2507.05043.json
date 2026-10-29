@@ -1,0 +1,22 @@
+{
+ "id": "2507.05043",
+ "title": "MoLink: Distributed and Efficient Serving Framework for Large Models",
+ "authors": [
+  "Lewei Jin",
+  "Yongqi Chen",
+  "Kui Zhang",
+  "Yifan Zhuo",
+  "Yi Gao",
+  "Bowei Yang",
+  "Zhengong Cai",
+  "Wei Dong"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 2,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models represent a groundbreaking shift in generative AI. Yet, these advances come with a significant challenge: the high cost of model serving. To mitigate these costs, consumer-grade GPUs emerge as a more affordable alternative. This presents an opportunity for more cost-efficient LLM serving by leveraging these GPUs. However, it is non-trivial to achieve high-efficiency LLM serving on consumer-grade GPUs, mainly due to two challenges: 1) these GPUs are often deployed in limited network conditions; 2) these GPUs often exhibit heterogeneity in host systems. To address these challenges, we present MoLink, a distributed LLM serving system for large models. It incorporates several key techniques, enabling efficient LLM serving on heterogeneous and weakly connected consumer-grade GPUs. Our experiments demonstrate that it achieves throughput improvements of up to 458\\% and cost-profit margin improvements of up to 151\\%, compared to state-of-the-art systems. MoLink allows users on Windows, Linux, and containerized VMs to seamlessly integrate GPUs with just a few lines of code over Ethernet or public networks. Currently, it supports 18 mainstream architectures of open-source large language models. The source code is publicly available https://github.com/oldcpple/MoLink.",
+ "primary": "cs.DC"
+}

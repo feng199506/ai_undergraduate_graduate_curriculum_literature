@@ -1,0 +1,19 @@
+{
+ "id": "2311.06012",
+ "title": "Double Machine Learning Based Structure Identification from Temporal Data",
+ "authors": [
+  "Emmanouil Angelis",
+  "Francesco Quinzan",
+  "Ashkan Soleymani",
+  "Patrick Jaillet",
+  "Stefan Bauer"
+ ],
+ "v1_date": "2023-11-10",
+ "latest_version": 2,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning the causes of time-series data is a fundamental task in many applications, spanning from finance to earth sciences or bio-medical applications. Common approaches for this task are based on vector auto-regression, and they do not take into account unknown confounding between potential causes. However, in settings with many potential causes and noisy data, these approaches may be substantially biased. Furthermore, potential causes may be correlated in practical applications or even contain cycles. To address these challenges, we propose a new double machine learning based method for structure identification from temporal data (DR-SIT). We provide theoretical guarantees, showing that our method asymptotically recovers the true underlying causal structure. Our analysis extends to cases where the potential causes have cycles, and they may even be confounded. We further perform extensive experiments to showcase the superior performance of our method. Code: https://github.com/sdi1100041/TMLR_submission_DR_SIT",
+ "primary": "cs.LG"
+}

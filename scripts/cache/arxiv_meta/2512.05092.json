@@ -1,0 +1,20 @@
+{
+ "id": "2512.05092",
+ "title": "Foundations of Diffusion Models in General State Spaces: A Self-Contained Introduction",
+ "authors": [
+  "Vincent Pauline",
+  "Tobias Höppe",
+  "Kirill Neklyudov",
+  "Alexander Tong",
+  "Stefan Bauer",
+  "Andrea Dittadi"
+ ],
+ "v1_date": "2025-12-04",
+ "latest_version": 2,
+ "latest_date": "2026-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although diffusion models now occupy a central place in generative modeling, introductory treatments commonly assume Euclidean data and seldom clarify their connection to discrete-state analogues. This article is a self-contained primer on diffusion over general state spaces, unifying continuous domains and discrete/categorical structures under one lens. We develop the discrete-time view (forward noising via Markov kernels and learned reverse dynamics) alongside its continuous-time limits -- stochastic differential equations (SDEs) in $\\mathbb{R}^d$ and continuous-time Markov chains (CTMCs) on finite alphabets -- and derive the associated Fokker--Planck and master equations. A common variational treatment yields the ELBO that underpins standard training losses. We make explicit how forward corruption choices -- Gaussian processes in continuous spaces and structured categorical transition kernels (uniform, masking/absorbing and more) in discrete spaces -- shape reverse dynamics and the ELBO. The presentation is layered for three audiences: newcomers seeking a self-contained intuitive introduction; diffusion practitioners wanting a global theoretical synthesis; and continuous-diffusion experts looking for an analogy-first path into discrete diffusion. The result is a unified roadmap to modern diffusion methodology across continuous domains and discrete sequences, highlighting a compact set of reusable proofs, identities, and core theoretical principles.",
+ "primary": "stat.ML"
+}

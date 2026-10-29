@@ -1,0 +1,19 @@
+{
+ "id": "2503.15294",
+ "title": "Borsuk-Ulam and Replicable Learning of Large-Margin Halfspaces",
+ "authors": [
+  "Ari Blondal",
+  "Hamed Hatami",
+  "Pooya Hatami",
+  "Chavdar Lalov",
+  "Sivan Tretiak"
+ ],
+ "v1_date": "2025-03-19",
+ "latest_version": 4,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Improved the writing and added a separation between randomized and pseudo-deterministic communication complexity",
+ "abstract": "We prove that the list replicability number of $d$-dimensional $γ$-margin half-spaces satisfies \\[ \\frac{d}{2}+1 \\le \\mathrm{LR}(H^d_γ) \\le d, \\] which grows with dimension. This resolves several open problems: $\\bullet$ Every disambiguation of infinite-dimensional large-margin half-spaces to a total concept class has unbounded Littlestone dimension, answering an open question of Alon, Hanneke, Holzman, and Moran (FOCS '21). $\\bullet$ Every disambiguation of the Gap Hamming Distance problem in the large gap regime has unbounded public-coin randomized communication complexity. This answers an open question of Fang, Göös, Harms, and Hatami (STOC '25). $\\bullet$ There is a separation of $O(1)$ vs $ω(1)$ between randomized and pseudo-deterministic communication complexity. $\\bullet$ The maximum list-replicability number of any finite set of points and homogeneous half-spaces in $d$-dimensional Euclidean space is $d$, resolving a problem of Chase, Moran, and Yehudayoff (FOCS '23). $\\bullet$ There exists a partial concept class with Littlestone dimension $1$ such that all its disambiguations have infinite Littlestone dimension. This resolves a problem of Cheung, H. Hatami, P. Hatami, and Hosseini (ICALP '23). Our lower bound follows from a topological argument based on a local Borsuk-Ulam theorem. For the upper bound, we construct a list-replicable learning rule using the generalization properties of SVMs.",
+ "primary": "cs.LG"
+}

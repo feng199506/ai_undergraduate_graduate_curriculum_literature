@@ -1,0 +1,17 @@
+{
+ "id": "2312.05215",
+ "title": "DeltaZip: Efficient Serving of Multiple Full-Model-Tuned LLMs",
+ "authors": [
+  "Xiaozhe Yao",
+  "Qinghao Hu",
+  "Ana Klimovic"
+ ],
+ "v1_date": "2023-12-08",
+ "latest_version": 3,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EuroSys 2025'",
+ "abstract": "Fine-tuning large language models (LLMs) greatly improves model quality for downstream tasks. However, serving many fine-tuned LLMs concurrently is challenging due to the sporadic, bursty, and varying request patterns of different LLMs. To bridge this gap, we present DeltaZip, an LLM serving system that efficiently serves multiple full-parameter fine-tuned models concurrently by aggressively compressing model deltas by up to 10x while maintaining high model quality. The key insight behind this design is that fine-tuning results in small-magnitude changes to the pre-trained model. By co-designing the serving system with the compression algorithm, DeltaZip achieves 2x to 12x improvement in throughput compared to the state-of-the-art systems.",
+ "primary": "cs.DC"
+}

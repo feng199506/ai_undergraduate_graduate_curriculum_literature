@@ -1,0 +1,17 @@
+{
+ "id": "2409.01578",
+ "title": "Estimating Treatment Effect Heterogeneity in Psychiatry: A Review and Tutorial with Causal Forests",
+ "authors": [
+  "Erik Sverdrup",
+  "Maria Petukhova",
+  "Stefan Wager"
+ ],
+ "v1_date": "2024-09-03",
+ "latest_version": 2,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Causal forest tutorial prepared for IJMPR",
+ "abstract": "Flexible machine learning tools are increasingly used to estimate heterogeneous treatment effects. This paper gives an accessible tutorial demonstrating the use of the causal forest algorithm, available in the R package grf. We start with a brief non-technical overview of treatment effect estimation methods, focusing on estimation in observational studies; the same techniques can also be applied in experimental studies. We then discuss the logic of estimating heterogeneous effects using the extension of the random forest algorithm implemented in grf. Finally, we illustrate causal forest by conducting a secondary analysis on the extent to which individual differences in resilience to high combat stress can be measured among US Army soldiers deploying to Afghanistan based on information about these soldiers available prior to deployment. We illustrate simple and interpretable exercises for model selection and evaluation, including targeting operator characteristics curves, Qini curves, area-under-the-curve summaries, and best linear projections. A replication script with simulated data is available at https://github.com/grf-labs/grf/tree/master/experiments/ijmpr",
+ "primary": "stat.AP"
+}

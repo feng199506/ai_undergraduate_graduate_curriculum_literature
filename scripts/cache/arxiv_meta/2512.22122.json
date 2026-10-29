@@ -1,0 +1,18 @@
+{
+ "id": "2512.22122",
+ "title": "MonoM: Enhancing Monotonicity in Learned Cardinality Estimators",
+ "authors": [
+  "Lyu Yi",
+  "Weiqi Feng",
+  "Yuanbiao Wang",
+  "Yuhong Kan"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 1,
+ "latest_date": "2025-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cardinality estimation is a key component of database query optimization. Recent studies have demonstrated that learned cardinality estimation techniques can surpass traditional methods in accuracy. However, a significant barrier to their adoption in production systems is their tendency to violate fundamental logical principles such as monotonicity. In this paper, we explore how learned models specifically MSCN, a query driven deep learning algorithm can breach monotonicity constraints. To address this, we propose a metric called MonoM, which quantitatively measures how well a cardinality estimator adheres to monotonicity across a given query workload. We also propose a monotonic training framework which includes a workload generator that produces directly comparable queries (one query's predicates are strictly more relaxed than another's, enabling monotonicity inference without actual execution) and a novel regularization term added to the loss function. Experimental results show that our monotonic training algorithm not only enhances monotonicity adherence but also improves cardinality estimation accuracy. This improvement is attributed to the regularization term, which reduces overfitting and improves model generalization.",
+ "primary": "cs.DB"
+}

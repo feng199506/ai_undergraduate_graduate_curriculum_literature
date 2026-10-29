@@ -1,0 +1,20 @@
+{
+ "id": "2601.11606",
+ "title": "A Multimodal Data Processing Pipeline for MIMIC-IV Dataset",
+ "authors": [
+  "Farzana Islam Adiba",
+  "Varsha Danduri",
+  "Fahmida Liza Piya",
+  "Ali Abbasi",
+  "Mehak Gupta",
+  "Rahmatollah Beheshti"
+ ],
+ "v1_date": "2026-01-08",
+ "latest_version": 1,
+ "latest_date": "2026-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The MIMIC-IV dataset is a large, publicly available electronic health record (EHR) resource widely used for clinical machine learning research. It comprises multiple modalities, including structured data, clinical notes, waveforms, and imaging data. Working with these disjointed modalities requires an extensive manual effort to preprocess and align them for downstream analysis. While several pipelines for MIMIC-IV data extraction are available, they target a small subset of modalities or do not fully support arbitrary downstream applications. In this work, we greatly expand our prior popular unimodal pipeline and present a comprehensive and customizable multimodal pipeline that can significantly reduce multimodal processing time and enhance the reproducibility of MIMIC-based studies. Our pipeline systematically integrates the listed modalities, enabling automated cohort selection, temporal alignment across modalities, and standardized multimodal output formats suitable for arbitrary static and time-series downstream applications. We release the code, a simple UI, and a Python package for selective integration (with embedding) at https://github.com/healthylaife/MIMIC-IV-Data-Pipeline.",
+ "primary": "cs.LG"
+}

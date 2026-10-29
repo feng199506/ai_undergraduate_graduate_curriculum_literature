@@ -1,0 +1,15 @@
+{
+ "id": "2407.15200",
+ "title": "HyperbolicLR: Epoch insensitive learning rate scheduler",
+ "authors": [
+  "Tae-Geun Kim"
+ ],
+ "v1_date": "2024-07-21",
+ "latest_version": 3,
+ "latest_date": "2025-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 9 figures",
+ "abstract": "This study proposes two novel learning rate schedulers -- Hyperbolic Learning Rate Scheduler (HyperbolicLR) and Exponential Hyperbolic Learning Rate Scheduler (ExpHyperbolicLR) -- to address the epoch sensitivity problem that often causes inconsistent learning curves in conventional methods. By leveraging the asymptotic behavior of hyperbolic curves, the proposed schedulers maintain more stable learning curves across varying epoch settings. Specifically, HyperbolicLR applies this property directly in the epoch-learning rate space, while ExpHyperbolicLR extends it to an exponential space. We first determine optimal hyperparameters for each scheduler on a small number of epochs, fix these hyperparameters, and then evaluate performance as the number of epochs increases. Experimental results on various deep learning tasks (e.g., image classification, time series forecasting, and operator learning) demonstrate that both HyperbolicLR and ExpHyperbolicLR achieve more consistent performance improvements than conventional schedulers as training duration grows. These findings suggest that our hyperbolic-based schedulers offer a more robust and efficient approach to deep network optimization, particularly in scenarios constrained by computational resources or time.",
+ "primary": "cs.LG"
+}

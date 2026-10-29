@@ -1,0 +1,19 @@
+{
+ "id": "2412.08222",
+ "title": "Structured IB: Improving Information Bottleneck with Structured Feature Learning",
+ "authors": [
+  "Hanzhe Yang",
+  "Youlong Wu",
+  "Dingzhu Wen",
+  "Yong Zhou",
+  "Yuanming Shi"
+ ],
+ "v1_date": "2024-12-11",
+ "latest_version": 2,
+ "latest_date": "2025-03-04",
+ "journal_ref": "Proceedings of the AAAI Conference on Artificial Intelligence, 2025, Vol. 39, No. 20",
+ "doi": "10.1609/aaai.v39i20.35499",
+ "comment": "",
+ "abstract": "The Information Bottleneck (IB) principle has emerged as a promising approach for enhancing the generalization, robustness, and interpretability of deep neural networks, demonstrating efficacy across image segmentation, document clustering, and semantic communication. Among IB implementations, the IB Lagrangian method, employing Lagrangian multipliers, is widely adopted. While numerous methods for the optimizations of IB Lagrangian based on variational bounds and neural estimators are feasible, their performance is highly dependent on the quality of their design, which is inherently prone to errors. To address this limitation, we introduce Structured IB, a framework for investigating potential structured features. By incorporating auxiliary encoders to extract missing informative features, we generate more informative representations. Our experiments demonstrate superior prediction accuracy and task-relevant information preservation compared to the original IB Lagrangian method, even with reduced network size.",
+ "primary": "cs.IT"
+}

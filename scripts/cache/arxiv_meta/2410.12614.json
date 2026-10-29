@@ -1,0 +1,16 @@
+{
+ "id": "2410.12614",
+ "title": "Mixed-precision finite element kernels and assembly: Rounding error analysis and hardware acceleration",
+ "authors": [
+  "M. Croci",
+  "G. N. Wells"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 1,
+ "latest_date": "2024-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Keywords: Mixed precision, finite element method, finite element kernel and assembly, rounding error analysis, hardware acceleration, matrix units, Intel AMX",
+ "abstract": "In this paper we develop the first fine-grained rounding error analysis of finite element (FE) cell kernels and assembly. The theory includes mixed-precision implementations and accounts for hardware-acceleration via matrix multiplication units, thus providing theoretical guidance for designing reduced- and mixed-precision FE algorithms on CPUs and GPUs. Guided by this analysis, we introduce hardware-accelerated mixed-precision implementation strategies which are provably robust to low-precision computations. Indeed, these algorithms are accurate to the lower-precision unit roundoff with an error constant that is independent from: the conditioning of FE basis function evaluations, the ill-posedness of the cell, the polynomial degree, and the number of quadrature nodes. Consequently, we present the first AMX-accelerated FE kernel implementations on Intel Sapphire Rapids CPUs. Numerical experiments demonstrate that the proposed mixed- (single/half-) precision algorithms are up to 60 times faster than their double precision equivalent while being orders of magnitude more accurate than their fully half-precision counterparts.",
+ "primary": "math.NA"
+}

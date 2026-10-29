@@ -1,0 +1,20 @@
+{
+ "id": "2410.20245",
+ "title": "Improving Model Evaluation using SMART Filtering of Benchmark Datasets",
+ "authors": [
+  "Vipul Gupta",
+  "Candace Ross",
+  "David Pantoja",
+  "Rebecca J. Passonneau",
+  "Megan Ung",
+  "Adina Williams"
+ ],
+ "v1_date": "2024-10-26",
+ "latest_version": 2,
+ "latest_date": "2025-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 5 figures",
+ "abstract": "One of the most challenging problems facing NLP today is evaluation. Some of the most pressing issues pertain to benchmark saturation, data contamination, and diversity in the quality of test examples. To address these concerns, we propose Selection Methodology for Accurate, Reduced, and Targeted (SMART) filtering, a novel approach to select a high-quality subset of examples from existing benchmark datasets by systematically removing less informative and less challenging examples. Our approach applies three filtering criteria, removing (i) easy examples, (ii) data-contaminated examples, and (iii) examples that are similar to each other based on distance in an embedding space. We demonstrate the effectiveness of SMART on three multiple choice QA datasets, where our methodology increases efficiency by reducing dataset size by 48\\% on average, while increasing Pearson correlation with rankings from ChatBot Arena, a more open-ended human evaluation setting. Our method enables us to be more efficient, whether using SMART to make new benchmarks more challenging or to revitalize older datasets, while still preserving the relative model rankings.",
+ "primary": "cs.CL"
+}

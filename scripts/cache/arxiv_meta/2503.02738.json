@@ -1,0 +1,18 @@
+{
+ "id": "2503.02738",
+ "title": "Variable-Friction In-Hand Manipulation for Arbitrary Objects via Diffusion-Based Imitation Learning",
+ "authors": [
+  "Qiyang Yan",
+  "Zihan Ding",
+  "Xin Zhou",
+  "Adam J. Spiers"
+ ],
+ "v1_date": "2025-03-04",
+ "latest_version": 1,
+ "latest_date": "2025-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICRA 2025 Project website: https://sites.google.com/view/vf-ihm-il/home",
+ "abstract": "Dexterous in-hand manipulation (IHM) for arbitrary objects is challenging due to the rich and subtle contact process. Variable-friction manipulation is an alternative approach to dexterity, previously demonstrating robust and versatile 2D IHM capabilities with only two single-joint fingers. However, the hard-coded manipulation methods for variable friction hands are restricted to regular polygon objects and limited target poses, as well as requiring the policy to be tailored for each object. This paper proposes an end-to-end learning-based manipulation method to achieve arbitrary object manipulation for any target pose on real hardware, with minimal engineering efforts and data collection. The method features a diffusion policy-based imitation learning method with co-training from simulation and a small amount of real-world data. With the proposed framework, arbitrary objects including polygons and non-polygons can be precisely manipulated to reach arbitrary goal poses within 2 hours of training on an A100 GPU and only 1 hour of real-world data collection. The precision is higher than previous customized object-specific policies, achieving an average success rate of 71.3% with average pose error being 2.676 mm and 1.902 degrees.",
+ "primary": "cs.RO"
+}

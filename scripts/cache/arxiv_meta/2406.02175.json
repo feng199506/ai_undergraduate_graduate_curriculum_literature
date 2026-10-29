@@ -1,0 +1,17 @@
+{
+ "id": "2406.02175",
+ "title": "Branches: Efficiently Seeking Optimal Sparse Decision Trees with AO*",
+ "authors": [
+  "Ayman Chaouki",
+  "Jesse Read",
+  "Albert Bifet"
+ ],
+ "v1_date": "2024-06-04",
+ "latest_version": 5,
+ "latest_date": "2025-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Proceedings of the 42nd International Conference on Machine Learning, Vancouver, Canada. PMLR 267, 2025",
+ "abstract": "Decision Tree (DT) Learning is a fundamental problem in Interpretable Machine Learning, yet it poses a formidable optimisation challenge. Practical algorithms have recently emerged, primarily leveraging Dynamic Programming and Branch & Bound. However, most of these approaches rely on a Depth-First-Search strategy, which is inefficient when searching for DTs at high depths and requires the definition of a maximum depth hyperparameter. Best-First-Search was also employed by other methods to circumvent these issues. The downside of this strategy is its higher memory consumption, as such, it has to be designed in a fully efficient manner that takes full advantage of the problem's structure. We formulate the problem within an AND/OR graph search framework and we solve it with a novel AO*-type algorithm called Branches. We prove both optimality and complexity guarantees for Branches and we show that it is more efficient than the state of the art theoretically and on a variety of experiments. Furthermore, Branches supports non-binary features unlike the other methods, we show that this property can further induce larger gains in computational efficiency.",
+ "primary": "cs.LG"
+}

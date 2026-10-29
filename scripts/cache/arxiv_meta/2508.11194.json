@@ -1,0 +1,26 @@
+{
+ "id": "2508.11194",
+ "title": "Representation Quantization for Collaborative Filtering Augmentation",
+ "authors": [
+  "Yunze Luo",
+  "Yinjie Jiang",
+  "Gaode Chen",
+  "Jingchi Wang",
+  "Shicheng Wang",
+  "Ruina Sun",
+  "Jiang Yuezihan",
+  "Jun Zhang",
+  "Jian Liang",
+  "Han Li",
+  "Kun Gai",
+  "Kaigui Bian"
+ ],
+ "v1_date": "2025-08-15",
+ "latest_version": 1,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 4 figures",
+ "abstract": "As the core algorithm in recommendation systems, collaborative filtering (CF) algorithms inevitably face the problem of data sparsity. Since CF captures similar users and items for recommendations, it is effective to augment the lacking user-user and item-item homogeneous linkages. However, existing methods are typically limited to connecting through overlapping interacted neighbors or through similar attributes and contents. These approaches are constrained by coarse-grained, sparse attributes and fail to effectively extract behavioral characteristics jointly from interaction sequences and attributes. To address these challenges, we propose a novel two-stage collaborative recommendation algorithm, DQRec: Decomposition-based Quantized Variational AutoEncoder (DQ-VAE) for Recommendation. DQRec augments features and homogeneous linkages by extracting the behavior characteristics jointly from interaction sequences and attributes, namely patterns, such as user multi-aspect interests. Inspired by vector quantization (VQ) technology, we propose a new VQ algorithm, DQ-VAE, which decomposes the pre-trained representation embeddings into distinct dimensions, and quantize them to generates semantic IDs. We utilize the generated semantic IDs as the extracted patterns mentioned above. By integrating these semantic ID patterns into the recommendation process through feature and linkage augmentation, the system enriches both latent and explicit user and item features, identifies pattern-similar neighbors, and thereby improves the efficiency of information diffusion. Experimental comparisons with baselines across multiple datasets demonstrate the superior performance of the proposed DQRec method.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2402.15043",
+ "title": "KIEval: A Knowledge-grounded Interactive Evaluation Framework for Large Language Models",
+ "authors": [
+  "Zhuohao Yu",
+  "Chang Gao",
+  "Wenjin Yao",
+  "Yidong Wang",
+  "Wei Ye",
+  "Jindong Wang",
+  "Xing Xie",
+  "Yue Zhang",
+  "Shikun Zhang"
+ ],
+ "v1_date": "2024-02-23",
+ "latest_version": 2,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ACL 2024 (main conference); 19 pages, 5 figures, 19 tables, code is available at: https://github.com/zhuohaoyu/KIEval",
+ "abstract": "Automatic evaluation methods for large language models (LLMs) are hindered by data contamination, leading to inflated assessments of their effectiveness. Existing strategies, which aim to detect contaminated texts, focus on quantifying contamination status instead of accurately gauging model performance. In this paper, we introduce KIEval, a Knowledge-grounded Interactive Evaluation framework, which incorporates an LLM-powered \"interactor\" role for the first time to accomplish a dynamic contamination-resilient evaluation. Starting with a question in a conventional LLM benchmark involving domain-specific knowledge, KIEval utilizes dynamically generated, multi-round, and knowledge-focused dialogues to determine whether a model's response is merely a recall of benchmark answers or demonstrates a deep comprehension to apply knowledge in more complex conversations. Extensive experiments on seven leading LLMs across five datasets validate KIEval's effectiveness and generalization. We also reveal that data contamination brings no contribution or even negative effect to models' real-world applicability and understanding, and existing contamination detection methods for LLMs can only identify contamination in pre-training but not during supervised fine-tuning.",
+ "primary": "cs.CL"
+}

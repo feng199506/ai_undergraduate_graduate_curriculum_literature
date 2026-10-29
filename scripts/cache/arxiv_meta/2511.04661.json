@@ -1,0 +1,16 @@
+{
+ "id": "2511.04661",
+ "title": "unimpeded: A Public Grid of Nested Sampling Chains for Cosmological Model Comparison and Tension Analysis",
+ "authors": [
+  "Dily Duan Yi Ong",
+  "Will Handley"
+ ],
+ "v1_date": "2025-11-06",
+ "latest_version": 3,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 13 figures. Version 3: Revised in response to the JCAP editor's report. Added Section 3.2.12 on the treatment of nuisance parameters in the evidence and tension calculations. Results unchanged",
+ "abstract": "Bayesian inference is central to modern cosmology, yet comprehensive model comparison and tension quantification remain computationally prohibitive for many researchers. To address this, we release $\\texttt{unimpeded}$, a publicly available Python library and data repository providing pre-computed nested sampling and MCMC chains. We apply this resource to conduct a systematic analysis across a grid of eight cosmological models, including $Λ$CDM and seven extensions, and 39 datasets, including individual probes and their pairwise combinations. Our model comparison reveals that whilst individual datasets show varied preferences for model extensions, the base $Λ$CDM model is most frequently preferred in combined analyses, with the general trend suggesting that evidence for new physics is diluted when probes are combined. Using five complementary statistics, we quantify tensions, finding the most significant to be between DES and Planck ($σ=3.57\\pm0.10$) and SH0ES and Planck ($σ=3.27\\pm0.10$) within $Ω_kΛ$CDM. We characterise the $S_8$ tension as high-dimensional ($d_G=4.87\\pm0.79$) and partially resolvable in certain extended models, whereas the Hubble tension is low-dimensional and persists across the model space. Caution should be exercised when combining datasets in tension. The $\\texttt{unimpeded}$ data products, hosted on Zenodo, provide a powerful resource for reproducible cosmological analysis and underscore the robustness of the $Λ$CDM model against this comprehensive benchmark compilation.",
+ "primary": "astro-ph.CO"
+}

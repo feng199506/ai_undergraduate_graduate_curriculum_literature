@@ -1,0 +1,15 @@
+{
+ "id": "2505.09134",
+ "title": "Scaling Gaussian Process Regression with Full Derivative Observations",
+ "authors": [
+  "Daniel Huang"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 2,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, Published in TMLR",
+ "abstract": "We present a scalable Gaussian Process (GP) method called DSoftKI that can fit and predict full derivative observations. It extends SoftKI, a method that approximates a kernel via softmax interpolation, to the setting with derivatives. DSoftKI enhances SoftKI's interpolation scheme by replacing its global temperature vector with local temperature vectors associated with each interpolation point. This modification allows the model to encode local directional sensitivity, enabling the construction of a scalable approximate kernel, including its first and second-order derivatives, through interpolation. Moreover, the interpolation scheme eliminates the need for kernel derivatives, facilitating extensions such as Deep Kernel Learning (DKL). We evaluate DSoftKI on synthetic benchmarks, a toy n-body physics simulation, standard regression datasets with synthetic gradients, and high-dimensional molecular force field prediction (100-1000 dimensions). Our results demonstrate that DSoftKI is accurate and scales to larger datasets with full derivative observations than previously possible.",
+ "primary": "cs.LG"
+}

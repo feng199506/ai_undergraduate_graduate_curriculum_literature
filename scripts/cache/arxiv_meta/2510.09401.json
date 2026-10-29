@@ -1,0 +1,17 @@
+{
+ "id": "2510.09401",
+ "title": "Uncertainty Quantification for Multi-level Models Using the Survey-Weighted Pseudo-Posterior",
+ "authors": [
+  "Matthew R. Williams",
+  "F. Hunter McGuire",
+  "Terrance D. Savitsky"
+ ],
+ "v1_date": "2025-10-10",
+ "latest_version": 2,
+ "latest_date": "2026-05-11",
+ "journal_ref": "Journal of Data Science, 2026",
+ "doi": "10.6339/26-jds1238",
+ "comment": "25 pages, 3 tables, 12 figures. arXiv admin note: text overlap with arXiv:2308.06845",
+ "abstract": "Parameter estimation and inference from complex survey samples typically focuses on global model parameters whose estimators have asymptotic properties, such as from fixed effects regression models. The central challenge is to both mitigate bias induced from potentially unbalanced samples and to incorporate adjustments for differences in effective sample size to get correct variance and interval estimates. We present a motivating example of Bayesian inference for a multi-level or mixed effects model in which estimates of both the local parameters (e.g. group level random effects) and the global parameters need to be adjusted for the complex sampling design. We evaluate the limitations of the survey-weighted pseudo-posterior and an existing automated post-processing method to improve the uncertainty quantification. We propose modifications to the automated process and demonstrate their improvements for multi-level models via a simulation study and a motivating example from the National Survey on Drug Use and Health. Reproduction examples are available from the authors and the updated R package is available via github:https://github.com/RyanHornby/csSampling",
+ "primary": "stat.ME"
+}

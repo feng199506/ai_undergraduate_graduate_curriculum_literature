@@ -1,0 +1,17 @@
+{
+ "id": "2607.21799",
+ "title": "Agentic Evaluation of Copyright Law Compliance",
+ "authors": [
+  "Zheng Hui",
+  "Doni Bloomfield",
+  "Noam Kolt"
+ ],
+ "v1_date": "2026-07-23",
+ "latest_version": 2,
+ "latest_date": "2026-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026 Spotlight",
+ "abstract": "Large language model (LLM) agents increasingly perform commercial tasks that involve retrieving external content, such as images, and, where appropriate, reproducing that content. LLM agents should comply with the law, including copyright law. Presently, however, we lack adequate frameworks to assess whether they do so in practice. To that end, we introduce Copyright-Bench, a benchmark designed to evaluate LLM agents' compliance with copyright law. Copyright-Bench comprises realistic commercial tasks---website development, merchandise design, and pitch deck production---that involve agents selecting between public-domain content, the use of which is legal, and copyrighted content, the use of which is infringing in this setting. The evaluation introduces prompt variations that simulate different user preferences, as well as time pressure. Comparing state-of-the-art LLM agents against a human baseline, we find that: (1) agents select copyrighted works despite the availability of public-domain alternatives; and (2) for open-weight models, violation rates increase in response to certain user preferences and simulated time pressure.",
+ "primary": "cs.CL"
+}

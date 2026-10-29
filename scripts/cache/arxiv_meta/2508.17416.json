@@ -1,0 +1,17 @@
+{
+ "id": "2508.17416",
+ "title": "Data Leakage in Visual Datasets",
+ "authors": [
+  "Patrick Ramos",
+  "Ryan Ramos",
+  "Noa Garcia"
+ ],
+ "v1_date": "2025-08-24",
+ "latest_version": 1,
+ "latest_date": "2025-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We analyze data leakage in visual datasets. Data leakage refers to images in evaluation benchmarks that have been seen during training, compromising fair model evaluation. Given that large-scale datasets are often sourced from the internet, where many computer vision benchmarks are publicly available, our efforts are focused into identifying and studying this phenomenon. We characterize visual leakage into different types according to its modality, coverage, and degree. By applying image retrieval techniques, we unequivocally show that all the analyzed datasets present some form of leakage, and that all types of leakage, from severe instances to more subtle cases, compromise the reliability of model evaluation in downstream tasks.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2604.12209",
+ "title": "SeisDiff-intp: a unified prompt-guided flow matching framework for multi-tasks seismic interpretation",
+ "authors": [
+  "Donglin Zhu",
+  "Peiyao Li",
+  "Ge Jin"
+ ],
+ "v1_date": "2026-04-14",
+ "latest_version": 1,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The increasing demand for deep learning in seismic interpretation has highlighted significant challenges, particularly the reliance on massive, labeled datasets and the inefficiency of training isolated models for individual tasks. To address these limitations, we introduce a unified, prompt-guided flow-matching framework (SeisDiff-intp) capable of executing multiple seismic interpretation tasks within a single model. By conditioning on varying prompts, the model dynamically switches between interpretation objectives without requiring structural modifications. Furthermore, to overcome the scarcity of labeled data for complex subsurface features, we propose an integrated generative augmentation strategy. By employing the flow matching setting, the framework can synthesize diverse and geologically realistic training pairs, specifically targeting structurally complex. Experimental results demonstrate that the proposed approach, coupled with generative augmentation, delivers high-quality, task-specific interpretations with stable and reproducible inference behavior. Ultimately, this approach provides a scalable, flexible, and robust alternative to single-task deep learning based seismic interpretation models.",
+ "primary": "physics.geo-ph"
+}

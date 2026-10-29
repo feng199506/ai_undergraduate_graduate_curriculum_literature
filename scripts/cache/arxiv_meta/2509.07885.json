@@ -1,0 +1,18 @@
+{
+ "id": "2509.07885",
+ "title": "Clustering methods for Categorical Time Series and Sequences : A scoping review",
+ "authors": [
+  "Ottavio Khalifa",
+  "Viet-Thi Tran",
+  "Alan Balendran",
+  "François Petit"
+ ],
+ "v1_date": "2025-09-09",
+ "latest_version": 3,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Objective: To provide an overview of clustering methods for categorical time series (CTS), a data structure commonly found in epidemiology, sociology, biology, and marketing, and to support method selection in regards to data characteristics. Methods: We searched PubMed, Web of Science, and Google Scholar, from inception up to November 2024 to identify articles that propose and evaluate clustering techniques for CTS. Methods were classified according to three major families -- distance-based, feature-based, and model-based -- and assessed on their ability to handle data challenges such as variable sequence length, multivariate data, continuous time, missing data, time-invariant covariates, and large data volumes. Results: Out of 14607 studies, we included 124 articles describing 129 methods, spanning domains such as artificial intelligence, social sciences, and epidemiology. Distance-based methods, particularly those using Optimal Matching, were most prevalent, with 56 methods. We identified 28 model-based methods, which demonstrated superior flexibility for handling complex data structures such as multivariate data, continuous time and time-invariant covariates. We also recorded 45 feature-based approaches, which were on average more scalable but less flexible. A searchable Web application was developed to facilitate method selection based on dataset characteristics ( https://cts-clustering-scoping-review-7sxqj3sameqvmwkvnzfynz.streamlit.app/ ) Discussion: While distance-based methods dominate, model-based approaches offer the richest modeling potential but are less scalable. Feature-based methods favor performance over flexibility, with limited support for complex data structures. Conclusion: This review highlights methodological diversity and gaps in CTS clustering. The proposed typology aims to guide researchers in selecting methods for their specific use cases.",
+ "primary": "stat.ME"
+}

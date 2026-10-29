@@ -1,0 +1,20 @@
+{
+ "id": "2410.11188",
+ "title": "Fast Second-Order Online Kernel Learning through Incremental Matrix Sketching and Decomposition",
+ "authors": [
+  "Dongxie Wen",
+  "Xiao Zhang",
+  "Zhewei Wei",
+  "Chenping Hou",
+  "Shuai Li",
+  "Weinan Zhang"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 2,
+ "latest_date": "2025-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by IJCAI 2025",
+ "abstract": "Online Kernel Learning (OKL) has attracted considerable research interest due to its promising predictive performance in streaming environments. Second-order approaches are particularly appealing for OKL as they often offer substantial improvements in regret guarantees. However, existing second-order OKL approaches suffer from at least quadratic time complexity with respect to the pre-set budget, rendering them unsuitable for meeting the real-time demands of large-scale streaming recommender systems. The singular value decomposition required to obtain explicit feature mapping is also computationally expensive due to the complete decomposition process. Moreover, the absence of incremental updates to manage approximate kernel space causes these algorithms to perform poorly in adversarial environments and real-world streaming recommendation datasets. To address these issues, we propose FORKS, a fast incremental matrix sketching and decomposition approach tailored for second-order OKL. FORKS constructs an incremental maintenance paradigm for second-order kernelized gradient descent, which includes incremental matrix sketching for kernel approximation and incremental matrix decomposition for explicit feature mapping construction. Theoretical analysis demonstrates that FORKS achieves a logarithmic regret guarantee on par with other second-order approaches while maintaining a linear time complexity w.r.t. the budget, significantly enhancing efficiency over existing approaches. We validate the performance of FORKS through extensive experiments conducted on real-world streaming recommendation datasets, demonstrating its superior scalability and robustness against adversarial attacks.",
+ "primary": "cs.LG"
+}

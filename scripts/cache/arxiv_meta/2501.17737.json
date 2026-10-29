@@ -1,0 +1,16 @@
+{
+ "id": "2501.17737",
+ "title": "Sparser, Better, Faster, Stronger: Sparsity Detection for Efficient Automatic Differentiation",
+ "authors": [
+  "Adrian Hill",
+  "Guillaume Dalle"
+ ],
+ "v1_date": "2025-01-29",
+ "latest_version": 2,
+ "latest_date": "2025-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 6 figures, 6 tables, 3 listings",
+ "abstract": "From implicit differentiation to probabilistic modeling, Jacobian and Hessian matrices have many potential use cases in Machine Learning (ML), but they are viewed as computationally prohibitive. Fortunately, these matrices often exhibit sparsity, which can be leveraged to speed up the process of Automatic Differentiation (AD). This paper presents advances in sparsity detection, previously the performance bottleneck of Automatic Sparse Differentiation (ASD). Our implementation of sparsity detection is based on operator overloading, able to detect both local and global sparsity patterns, and supports flexible index set representations. It is fully automatic and requires no modification of user code, making it compatible with existing ML codebases. Most importantly, it is highly performant, unlocking Jacobians and Hessians at scales where they were considered too expensive to compute. On real-world problems from scientific ML, graph neural networks and optimization, we show significant speed-ups of up to three orders of magnitude. Notably, using our sparsity detection system, ASD outperforms standard AD for one-off computations, without amortization of either sparsity detection or matrix coloring.",
+ "primary": "cs.LG"
+}

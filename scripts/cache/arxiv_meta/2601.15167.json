@@ -1,0 +1,18 @@
+{
+ "id": "2601.15167",
+ "title": "DeGAS: Gradient-Based Optimization of Probabilistic Programs without Sampling",
+ "authors": [
+  "Francesca Randone",
+  "Romina Doz",
+  "Mirco Tribastone",
+  "Luca Bortolussi"
+ ],
+ "v1_date": "2026-01-21",
+ "latest_version": 1,
+ "latest_date": "2026-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present DeGAS, a differentiable Gaussian approximate semantics for loopless probabilistic programs that enables sample-free, gradient-based optimization in models with both continuous and discrete components. DeGAS evaluates programs under a Gaussian-mixture semantics and replaces measure-zero predicates and discrete branches with a vanishing smoothing, yielding closed-form expressions for posterior and path probabilities. We prove differentiability of these quantities with respect to program parameters, enabling end-to-end optimization via standard automatic differentiation, without Monte Carlo estimators. On thirteen benchmark programs, DeGAS achieves accuracy and runtime competitive with variational inference and MCMC. Importantly, it reliably tackles optimization problems where sampling-based baselines fail to converge due to conditioning involving continuous variables.",
+ "primary": "cs.PL"
+}

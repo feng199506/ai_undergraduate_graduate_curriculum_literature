@@ -1,0 +1,21 @@
+{
+ "id": "2312.09571",
+ "title": "Extending Context Window of Large Language Models via Semantic Compression",
+ "authors": [
+  "Weizhi Fei",
+  "Xueyan Niu",
+  "Pingyi Zhou",
+  "Lu Hou",
+  "Bo Bai",
+  "Lei Deng",
+  "Wei Han"
+ ],
+ "v1_date": "2023-12-15",
+ "latest_version": 1,
+ "latest_date": "2023-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transformer-based Large Language Models (LLMs) often impose limitations on the length of the text input to ensure the generation of fluent and relevant responses. This constraint restricts their applicability in scenarios involving long texts. We propose a novel semantic compression method that enables generalization to texts that are 6-8 times longer, without incurring significant computational costs or requiring fine-tuning. Our proposed framework draws inspiration from source coding in information theory and employs a pre-trained model to reduce the semantic redundancy of long inputs before passing them to the LLMs for downstream tasks. Experimental results demonstrate that our method effectively extends the context window of LLMs across a range of tasks including question answering, summarization, few-shot learning, and information retrieval. Furthermore, the proposed semantic compression method exhibits consistent fluency in text generation while reducing the associated computational overhead.",
+ "primary": "cs.CL"
+}

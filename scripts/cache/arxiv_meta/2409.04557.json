@@ -1,0 +1,19 @@
+{
+ "id": "2409.04557",
+ "title": "A Deep Learning Framework for TTV Characterization: A Case Study of the Kepler-88 System",
+ "authors": [
+  "Chen Chen",
+  "Jiapeng Gao",
+  "Gongjie Li",
+  "Lingkai Kong",
+  "Molei Tao"
+ ],
+ "v1_date": "2024-09-06",
+ "latest_version": 2,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 8 figures and 5 tables. Accepted by AJ",
+ "abstract": "Transit timing variation (TTV) provides rich information about the mass and orbital properties of exoplanets, which are often obtained by solving an inverse problem via Markov Chain Monte Carlo (MCMC). In this paper, we design a new data-driven approach, which potentially can be applied to problems that are hard to traditional MCMC methods, such as the case with only one planet transiting. Specifically, we use a deep learning approach to predict the parameters of non-transit companion for the single transit system with transit information (i.e., TTV, and Transit Duration Variation (TDV)) as input. This approach is constructed using the Transformer-based architecture that can extract long-range interactions from TTV sequential data. We focus on two-planet systems based on Kepler-88 as a starting point, with the inner planet fixed to the properties of Kepler-88 and the mass and orbital elements of the outer planet varied. Applying to Kepler-88, we obtained an overall fractional error of $\\lesssim$10\\% on semi-major axis and eccentricity, and $\\sim 10-30\\%$ on planet mass (assuming that the stellar and transiting planet parameters are known), based on a training set of a million simulations. When applied to the test set, our model achieves low fractional errors of less than a few percent for systems with TTV semi-amplitudes ranging from $\\sim 0.3$ s to $\\sim 5$ min. Extending our approach to a broader range of planetary architectures, including systems with substantially weaker or stronger TTV signals and those containing additional planets or stellar companions, remains an important direction for future work.",
+ "primary": "astro-ph.EP"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2508.06142",
+ "title": "SDEval: Safety Dynamic Evaluation for Multimodal Large Language Models",
+ "authors": [
+  "Hanqing Wang",
+  "Yuan Tian",
+  "Mingyu Liu",
+  "Zhenhao Zhang",
+  "Xiangyang Zhu"
+ ],
+ "v1_date": "2025-08-08",
+ "latest_version": 2,
+ "latest_date": "2026-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "AAAI 2026 poster",
+ "abstract": "In the rapidly evolving landscape of Multimodal Large Language Models (MLLMs), the safety concerns of their outputs have earned significant attention. Although numerous datasets have been proposed, they may become outdated with MLLM advancements and are susceptible to data contamination issues. To address these problems, we propose \\textbf{SDEval}, the \\textit{first} safety dynamic evaluation framework to controllably adjust the distribution and complexity of safety benchmarks. Specifically, SDEval mainly adopts three dynamic strategies: text, image, and text-image dynamics to generate new samples from original benchmarks. We first explore the individual effects of text and image dynamics on model safety. Then, we find that injecting text dynamics into images can further impact safety, and conversely, injecting image dynamics into text also leads to safety risks. SDEval is general enough to be applied to various existing safety and even capability benchmarks. Experiments across safety benchmarks, MLLMGuard and VLSBench, and capability benchmarks, MMBench and MMVet, show that SDEval significantly influences safety evaluation, mitigates data contamination, and exposes safety limitations of MLLMs. Code is available at https://github.com/hq-King/SDEval",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2510.16805",
+ "title": "Mixed-Precision Quantization for Language Models: Techniques and Prospects",
+ "authors": [
+  "Mariam Rakka",
+  "Marios Fournarakis",
+  "Olga Krestinskaya",
+  "Jinane Bazzi",
+  "Khaled N. Salama",
+  "Fadi Kurdahi",
+  "Ahmed M. Eltawil",
+  "Mohammed E. Fouda"
+ ],
+ "v1_date": "2025-10-19",
+ "latest_version": 1,
+ "latest_date": "2025-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 6 figures, 5 tables",
+ "abstract": "The rapid scaling of language models (LMs) has resulted in unprecedented computational, memory, and energy requirements, making their training and deployment increasingly unsustainable. Quantization has emerged as an essential compression technique to reduce model size, alleviate memory bottlenecks, and accelerate inference. However, while uniform low-bit quantization (e.g., INT8, INT4) provides significant efficiency gains, it can degrade accuracy in sensitive components of transformer-based LMs. Mixed-precision quantization offers a promising alternative by selectively allocating precision across layers or within tensors to balance efficiency and accuracy. This survey provides a comprehensive overview of Mixed-Precision quantization frameworks for LMs (MXPLMs). We first review quantization fundamentals, including uniform and non-uniform quantizers, quantization granularity, and methods widely used in post-training quantization. We then categorize and compare recent MXPLM frameworks according to their bit allocation strategies and precision configurations across weights, activations, and key-value caches. A comparative analysis highlights differences in perplexity, zero-shot task performance, and deployment trade-offs. Furthermore, we contrast MXPLMs with earlier mixed-precision quantization methods for deep neural networks, identifying strategies that transfer and those that face challenges in the LM setting. Finally, we summarize open issues and future directions, including hardware-aware design, activation quantization, and scalable optimization methods for billion-parameter models. By consolidating recent advances, this work serves as a reference for understanding the current landscape and research prospects of mixed-precision quantization for large-scale language models.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2406.05318",
+ "title": "Integrating Text and Image Pre-training for Multi-modal Algorithmic Reasoning",
+ "authors": [
+  "Zijian Zhang",
+  "Wei Liu"
+ ],
+ "v1_date": "2024-06-08",
+ "latest_version": 1,
+ "latest_date": "2024-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we present our solution for SMART-101 Challenge of CVPR Multi-modal Algorithmic Reasoning Task 2024. Unlike traditional visual questions and answer tasks, this challenge evaluates abstraction, deduction and generalization ability of neural network in solving visuo-linguistic puzzles designed for specially children in the 6-8 age group. Our model is based on two pre-trained models, dedicated to extract features from text and image respectively. To integrate the features from different modalities, we employed a fusion layer with attention mechanism. We explored different text and image pre-trained models, and fine-tune the integrated classifier on the SMART-101 dataset. Experiment results show that under the data splitting style of puzzle split, our proposed integrated classifier achieves superior performance, verifying the effectiveness of multi-modal pre-trained representations.",
+ "primary": "cs.CV"
+}

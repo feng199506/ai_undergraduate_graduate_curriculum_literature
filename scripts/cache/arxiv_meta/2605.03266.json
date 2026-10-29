@@ -1,0 +1,15 @@
+{
+ "id": "2605.03266",
+ "title": "Intrinsic effective sample size for manifold-valued Markov chain Monte Carlo via kernel discrepancy",
+ "authors": [
+  "Kisung You"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Effective sample size is a standard summary of Markov chain Monte Carlo output, but it is usually attached to scalar or Euclidean summaries chosen by the analyst. For manifold-valued samples this choice is not canonical: coordinate-wise effective sample sizes can change under rotations, chart changes, or alternative embeddings of the same underlying path. We propose an intrinsic effective sample size based on kernel discrepancy. The proposed quantity is the number of independent draws that would yield the same expected squared kernel discrepancy between the empirical distribution and the target distribution. This gives an exact finite-sample risk interpretation, an asymptotic integrated-autocorrelation representation, and a coordinate-free diagnostic whenever the kernel respects the geometry of the state space. We establish invariance under transported kernels, operator and principal-direction interpretations, and consistency of a lag-window estimator under boundedness and absolute-regularity conditions. We also discuss valid kernel constructions on manifolds, emphasizing that geodesic Gaussian kernels are not generally positive definite on curved spaces. Sphere experiments illustrate rotation invariance and calibration of the proposed diagnostic against empirical distributional error.",
+ "primary": "stat.ML"
+}

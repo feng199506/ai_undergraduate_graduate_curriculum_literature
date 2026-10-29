@@ -1,0 +1,19 @@
+{
+ "id": "2602.18946",
+ "title": "Exponential Convergence of (Stochastic) Gradient Descent for Separable Logistic Regression",
+ "authors": [
+  "Sacchit Kale",
+  "Piyushi Manupriya",
+  "Pierre Marion",
+  "Francis Bach",
+  "Anant Raj"
+ ],
+ "v1_date": "2026-02-21",
+ "latest_version": 2,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gradient descent and stochastic gradient descent are central to modern machine learning, yet their behavior under large step sizes remains theoretically unclear. Recent work suggests that acceleration often arises near the edge of stability, where optimization trajectories become unstable and difficult to analyze. Existing results for separable logistic regression achieve faster convergence by explicitly leveraging such unstable regimes through constant or adaptive large step sizes. In this paper, we show that instability is not inherent to acceleration. We prove that gradient descent with a simple, non-adaptive increasing step-size schedule achieves exponential convergence for separable logistic regression under a margin condition, while remaining entirely within a stable optimization regime. The resulting method is anytime and does not require prior knowledge of the optimization horizon or target accuracy. We also establish exponential convergence of stochastic gradient descent using a lightweight adaptive step-size rule that avoids line search and specialized procedures, improving upon existing polynomial-rate guarantees. Together, our results demonstrate that carefully structured step-size growth alone suffices to obtain exponential acceleration for both gradient descent and stochastic gradient descent.",
+ "primary": "cs.LG"
+}

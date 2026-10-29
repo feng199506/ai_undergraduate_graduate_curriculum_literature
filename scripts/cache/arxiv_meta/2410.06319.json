@@ -1,0 +1,16 @@
+{
+ "id": "2410.06319",
+ "title": "Mixed precision sketching for least-squares problems and its application in GMRES-based iterative refinement",
+ "authors": [
+  "Erin Carson",
+  "Ieva Daužickaitė"
+ ],
+ "v1_date": "2024-10-08",
+ "latest_version": 2,
+ "latest_date": "2025-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sketching-based preconditioners have been shown to accelerate the solution of dense least-squares problems with coefficient matrices having substantially more rows than columns. The cost of generating these preconditioners can be reduced by employing low precision floating-point formats for all or part of the computations. We perform finite precision analysis of a mixed precision algorithm that computes the $R$-factor of a QR factorization of the sketched coefficient matrix. Two precisions can be chosen and the analysis allows understanding how to set these precisions to exploit the potential benefits of low precision formats and still guarantee an effective preconditioner. If the nature of the least-squares problem requires a solution with a small forward error, then mixed precision iterative refinement (IR) may be needed. For ill-conditioned problems the GMRES-based IR approach can be used, but good preconditioner is crucial to ensure convergence. We theoretically show when the sketching-based preconditioner can guarantee that the GMRES-based IR reduces the relative forward error of the least-squares solution and the residual to the level of the working precision unit roundoff. Small numerical examples illustrate the analysis.",
+ "primary": "math.NA"
+}

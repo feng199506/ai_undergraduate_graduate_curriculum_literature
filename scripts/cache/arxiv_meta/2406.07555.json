@@ -1,0 +1,19 @@
+{
+ "id": "2406.07555",
+ "title": "Sequential Monte Carlo for Cut-Bayesian Posterior Computation",
+ "authors": [
+  "Joseph Mathews",
+  "Giri Gopalan",
+  "James Gattiker",
+  "Sean Smith",
+  "Devin Francom"
+ ],
+ "v1_date": "2024-03-09",
+ "latest_version": 2,
+ "latest_date": "2024-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revision accepted for Computational Statistics",
+ "abstract": "We propose a sequential Monte Carlo (SMC) method to efficiently and accurately compute cut-Bayesian posterior quantities of interest, variations of standard Bayesian approaches constructed primarily to account for model misspecification. We prove finite sample concentration bounds for estimators derived from the proposed method and apply these results to a realistic setting where a computer model is misspecified. Two theoretically justified variations are presented for making the sequential Monte Carlo estimator more computationally efficient, based on linear tempering and finding suitable permutations of initial parameter draws. We then illustrate the SMC method for inference in a modular chemical reactor example that includes submodels for reaction kinetics, turbulence, mass transfer, and diffusion. The samples obtained are commensurate with a direct-sampling approach that consists of running multiple Markov chains, with computational efficiency gains using the SMC method. Overall, the SMC method presented yields a novel, rigorous approach to computing with cut-Bayesian posterior distributions.",
+ "primary": "stat.CO"
+}

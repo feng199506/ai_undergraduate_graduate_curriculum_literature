@@ -1,0 +1,20 @@
+{
+ "id": "2507.16242",
+ "title": "Robustifying Learning-Augmented Caching Efficiently without Compromising 1-Consistency",
+ "authors": [
+  "Peng Chen",
+  "Hailiang Zhao",
+  "Jiaji Zhang",
+  "Xueyan Tang",
+  "Yixuan Wang",
+  "Shuiguang Deng"
+ ],
+ "v1_date": "2025-07-22",
+ "latest_version": 8,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2025. https://neurips.cc/virtual/2025/poster/116615",
+ "abstract": "The online caching problem aims to minimize cache misses when serving a sequence of requests under a limited cache size. While naive learning-augmented caching algorithms achieve ideal $1$-consistency, they lack robustness guarantees. Existing robustification methods either sacrifice $1$-consistency or introduce excessive computational overhead. In this paper, we introduce Guard, a lightweight robustification framework that enhances the robustness of a broad class of learning-augmented caching algorithms to $2H_{k-1} + 2$, while preserving their $1$-consistency. Guard achieves the current best-known trade-off between consistency and robustness, with only O(1) additional per-request overhead, thereby maintaining the original time complexity of the base algorithm. Extensive experiments across multiple real-world datasets and prediction models validate the effectiveness of Guard in practice.",
+ "primary": "cs.DS"
+}

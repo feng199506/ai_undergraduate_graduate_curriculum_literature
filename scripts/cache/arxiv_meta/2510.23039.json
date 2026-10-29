@@ -1,0 +1,17 @@
+{
+ "id": "2510.23039",
+ "title": "Sublinear Sketches for Approximate Nearest Neighbor and Kernel Density Estimation",
+ "authors": [
+  "Ved Danait",
+  "Srijan Das",
+  "Sujoy Bhore"
+ ],
+ "v1_date": "2025-10-27",
+ "latest_version": 2,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 12 figures, 2 tables",
+ "abstract": "Approximate Nearest Neighbor (ANN) search and Approximate Kernel Density Estimation (A-KDE) are fundamental problems at the core of modern machine learning, with broad applications in data analysis, information systems, and large-scale decision making. In massive and dynamic data streams, a central challenge is to design compact sketches that preserve essential structural properties of the data while enabling efficient queries. In this work, we develop new sketching algorithms that achieve sublinear space and query time guarantees for both ANN and A-KDE for a dynamic stream of data. For ANN in the streaming model, under natural assumptions, we design a sublinear sketch that requires only $\\mathcal{O}(n^{(1-η)(1+ρ)})$ memory by storing only a sublinear ($n^{-η}$) fraction of the total inputs, where $ρ$ is a parameter of the LSH family, and $0<η<1$. Our method supports sublinear query time, batch queries, and extends to the more general Turnstile model. While earlier works have focused on Exact NN, this is the first result on ANN that achieves near-optimal trade-offs between memory size and approximation error. Next, for A-KDE in the Sliding-Window model, we propose a sketch of size $\\mathcal{O}\\left(LW \\cdot \\frac{1}{\\sqrt{1+ε} - 1} \\log^2 N\\right)$, where $L$ is the number of sketch rows, $W$ is the LSH range, $N$ is the window size, and $ε$ is the approximation error. This, to the best of our knowledge, is the first theoretical sublinear sketch guarantee for A-KDE in the Sliding-Window model. We complement our theoretical results with experiments on various real-world datasets, which show that the proposed sketches are lightweight and achieve consistently low error in practice.",
+ "primary": "cs.LG"
+}

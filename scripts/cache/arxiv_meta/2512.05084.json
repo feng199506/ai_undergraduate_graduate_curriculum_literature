@@ -1,0 +1,15 @@
+{
+ "id": "2512.05084",
+ "title": "Gradient Descent with Provably Tuned Learning-rate Schedules",
+ "authors": [
+  "Dravyansh Sharma"
+ ],
+ "v1_date": "2025-12-04",
+ "latest_version": 1,
+ "latest_date": "2025-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gradient-based iterative optimization methods are the workhorse of modern machine learning. They crucially rely on careful tuning of parameters like learning rate and momentum. However, one typically sets them using heuristic approaches without formal near-optimality guarantees. Recent work by Gupta and Roughgarden studies how to learn a good step-size in gradient descent. However, like most of the literature with theoretical guarantees for gradient-based optimization, their results rely on strong assumptions on the function class including convexity and smoothness which do not hold in typical applications. In this work, we develop novel analytical tools for provably tuning hyperparameters in gradient-based algorithms that apply to non-convex and non-smooth functions. We obtain matching sample complexity bounds for learning the step-size in gradient descent shown for smooth, convex functions in prior work (up to logarithmic factors) but for a much broader class of functions. Our analysis applies to gradient descent on neural networks with commonly used activation functions (including ReLU, sigmoid and tanh). We extend our framework to tuning multiple hyperparameters, including tuning the learning rate schedule, simultaneously tuning momentum and step-size, and pre-training the initialization vector. Our approach can be used to bound the sample complexity for minimizing both the validation loss as well as the number of gradient descent iterations.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2607.15297",
+ "title": "Large Language Model-Enhanced Multi-hop Parallel Image Semantic Communication",
+ "authors": [
+  "Bingyan Xie",
+  "Jihong Park",
+  "Rui Mao",
+  "Longyu Zhou",
+  "Tianhao Liang",
+  "Yongpeng Wu",
+  "Wenjun Zhang"
+ ],
+ "v1_date": "2026-07-02",
+ "latest_version": 1,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a large language model-enhanced multi-hop parallel image semantic communication (LLM-MHPSC) framework to mitigate distortion accumulation in multi-hop wireless image transmission. Unlike conventional single-hop semantic communication schemes, LLM-MHPSC deploys an extra residual compensation link at each hop to counteract accumulated distortions. To minimize additional bandwidth overhead, a coarse-to-fine residual compression scheme is designed by integrating a deep learning-based compressor with adaptive arithmetic coding (AAC). Furthermore, a large language model-based residual transmission optimizer (LLM-RTO) is developed to accurately estimate residual distributions and enable channel state and hop-aware rate adjustment, thereby improving residual compression efficiency under varying channel and hop conditions. An adaptive hop selection strategy is also proposed to activate the residual link on demand, striking a balance between transmission performance and computational cost. Experimental results show that LLM-MHPSC outperforms state-of-the-art semantic communication and traditional schemes, realizing robust image transmission with a marginal increase in bandwidth. This framework provides a flexible and effective solution for extending semantic communication to practical multi-hop application scenarios.",
+ "primary": "eess.IV"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2506.17539",
+ "title": "Breaking Single-Tester Limits: Multi-Agent LLMs for Multi-User Feature Testing",
+ "authors": [
+  "Sidong Feng",
+  "Changhao Du",
+  "Huaxiao Liu",
+  "Qingnan Wang",
+  "Zhengwei Lv",
+  "Mengfei Wang",
+  "Chunyang Chen"
+ ],
+ "v1_date": "2025-06-21",
+ "latest_version": 3,
+ "latest_date": "2025-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to International Conference on Software Engineering (ICSE 2026). arXiv admin note: substantial text overlap with arXiv:2504.15474",
+ "abstract": "The growing dependence on mobile phones and their apps has made multi-user interactive features, like chat calls, live streaming, and video conferencing, indispensable for bridging the gaps in social connectivity caused by physical and situational barriers. However, automating these interactive features for testing is fraught with challenges, owing to their inherent need for timely, dynamic, and collaborative user interactions, which current automated testing methods inadequately address. Inspired by the concept of agents designed to autonomously and collaboratively tackle problems, we propose MAdroid, a novel multi-agent approach powered by the Large Language Models (LLMs) to automate the multi-user interactive task for app feature testing. Specifically, MAdroid employs two functional types of multi-agents: user agents (Operator) and supervisor agents (Coordinator and Observer). Each agent takes a specific role: the Coordinator directs the interactive task; the Operator mimics user interactions on the device; and the Observer monitors and reviews the task automation process. Our evaluation, which included 41 multi-user interactive tasks, demonstrates the effectiveness of our approach, achieving 82.9% of the tasks with 96.8% action similarity, outperforming the ablation studies and state-of-the-art baselines. Additionally, a preliminary investigation underscores MAdroid's practicality by helping identify 11 multi-user interactive bugs during regression app testing, confirming its potential value in real-world software development contexts.",
+ "primary": "cs.SE"
+}

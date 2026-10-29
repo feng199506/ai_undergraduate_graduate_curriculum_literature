@@ -1,0 +1,21 @@
+{
+ "id": "2507.08799",
+ "title": "KV Cache Steering for Controlling Frozen LLMs",
+ "authors": [
+  "Max Belitsky",
+  "Dawid J. Kopiczko",
+  "Michael Dorkenwald",
+  "M. Jehanzeb Mirza",
+  "James R. Glass",
+  "Cees G. M. Snoek",
+  "Yuki M. Asano"
+ ],
+ "v1_date": "2025-07-11",
+ "latest_version": 2,
+ "latest_date": "2025-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose cache steering, a lightweight method for implicit steering of language models via a one-shot intervention applied directly to the key-value cache. To validate its effectiveness, we apply cache steering to induce chain-of-thought reasoning in small language models. Our approach constructs steering vectors from reasoning traces, obtained either from teacher models (e.g., GPT-4o) or existing human annotations, that shift model behavior toward more explicit, multi-step reasoning without fine-tuning or prompt modifications. Experimental evaluations on diverse reasoning benchmarks demonstrate that cache steering improves both the qualitative structure of model reasoning and quantitative task performance. Additional experiments show that the method also scales to larger models and yields further gains on challenging datasets such as GPQA and MATH. Compared to prior activation steering techniques that require continuous interventions, our one-shot cache steering offers substantial advantages in terms of inference latency, hyperparameter stability, and ease of integration with existing inference APIs. Beyond mere reasoning induction, we show that cache steering enables controllable transfer of reasoning styles (e.g., stepwise, causal, analogical), making it a practical tool for behavior-level guidance of language models.",
+ "primary": "cs.CL"
+}

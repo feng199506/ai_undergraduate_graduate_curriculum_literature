@@ -1,0 +1,21 @@
+{
+ "id": "2505.12617",
+ "title": "Double machine learning to estimate the effects of multiple treatments and their interactions",
+ "authors": [
+  "Qingyan Xiang",
+  "Yubai Yuan",
+  "Dongyuan Song",
+  "Usman J. Wudil",
+  "Muktar H. Aliyu",
+  "C. William Wester",
+  "Bryan E. Shepherd"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 2,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference literature has extensively focused on binary treatments, with relatively fewer methods developed for multi-valued treatments. In particular, methods for multiple simultaneously assigned treatments remain understudied despite their practical importance. This paper introduces two settings: (1) estimating the effects of multiple treatments of different types (binary, categorical, and continuous) and the effects of treatment interactions, and (2) estimating the average treatment effect across categories of multi-valued regimens. To obtain robust estimates for both settings, we propose a class of methods based on the Double Machine Learning (DML) framework. Our methods are well-suited for complex settings of multiple treatments/regimens, using machine learning to model confounding relationships while overcoming regularization and overfitting biases through Neyman orthogonality and cross-fitting. To our knowledge, this work is the first to apply machine learning for robust estimation of interaction effects in the presence of multiple treatments. We further establish the asymptotic distribution of our estimators and derive variance estimators for statistical inference. Extensive simulations demonstrate the performance of our methods. Finally, we apply the methods to study the effect of three treatments on HIV-associated kidney disease in an adult HIV cohort of 2455 participants in Nigeria.",
+ "primary": "stat.ME"
+}

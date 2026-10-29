@@ -1,0 +1,18 @@
+{
+ "id": "2603.01110",
+ "title": "Compact Task-Aligned Imitation Learning for Laboratory Automation",
+ "authors": [
+  "Kanata Suzuki",
+  "Hanon Nakamura",
+  "Kana Miyamoto",
+  "Tetsuya Ogata"
+ ],
+ "v1_date": "2026-03-01",
+ "latest_version": 2,
+ "latest_date": "2026-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robotic laboratory automation has traditionally relied on carefully engineered motion pipelines and task-specific hardware interfaces, resulting in high design cost and limited flexibility. While recent imitation learning techniques can generate general robot behaviors, their large model sizes often require high-performance computational resources, limiting applicability in practical laboratory environments. In this study, we propose a compact imitation learning framework for laboratory automation using small foundation models. The proposed method, TVF-DiT, aligns a self-supervised vision foundation model with a vision-language model through a compact adapter, and integrates them with a Diffusion Transformer-based action expert. The entire model consists of fewer than 500M parameters, enabling inference on low-VRAM GPUs. Experiments on three real-world laboratory tasks - test tube cleaning, test tube arrangement, and powder transfer - demonstrate an average success rate of 86.6%, significantly outperforming alternative lightweight baselines. Furthermore, detailed task prompts improve vision-language alignment and task performance. These results indicate that small foundation models, when properly aligned and integrated with diffusion-based policy learning, can effectively support practical laboratory automation with limited computational resources.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2508.06001",
+ "title": "KnapFormer: An Online Load Balancer for Efficient Diffusion Transformers Training",
+ "authors": [
+  "Kai Zhang",
+  "Peng Wang",
+  "Sai Bi",
+  "Jianming Zhang",
+  "Yuanjun Xiong"
+ ],
+ "v1_date": "2025-08-08",
+ "latest_version": 1,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code is available at https://github.com/Kai-46/KnapFormer/",
+ "abstract": "We present KnapFormer, an efficient and versatile framework to combine workload balancing and sequence parallelism in distributed training of Diffusion Transformers (DiT). KnapFormer builds on the insight that strong synergy exists between sequence parallelism and the need to address the significant token imbalance across ranks. This imbalance arises from variable-length text inputs and varying visual token counts in mixed-resolution and image-video joint training. KnapFormer redistributes tokens by first gathering sequence length metadata across all ranks in a balancing group and solving a global knapsack problem. The solver aims to minimize the variances of total workload per-GPU, while accounting for the effect of sequence parallelism. By integrating DeepSpeed-Ulysees-based sequence parallelism in the load-balancing decision process and utilizing a simple semi-empirical workload model, KnapFormers achieves minimal communication overhead and less than 1% workload discrepancy in real-world training workloads with sequence length varying from a few hundred to tens of thousands. It eliminates straggler effects and achieves 2x to 3x speedup when training state-of-the-art diffusion models like FLUX on mixed-resolution and image-video joint data corpora. We open-source the KnapFormer implementation at https://github.com/Kai-46/KnapFormer/",
+ "primary": "cs.DC"
+}

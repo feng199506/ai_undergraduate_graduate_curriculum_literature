@@ -1,0 +1,17 @@
+{
+ "id": "2606.03923",
+ "title": "Contrastive Neural Algorithmic Reasoning for Graph Coloring",
+ "authors": [
+  "Thien Le",
+  "Tianyu Zhao",
+  "Melanie Weber"
+ ],
+ "v1_date": "2026-06-02",
+ "latest_version": 1,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 5 figures, 45 tables",
+ "abstract": "Graph coloring seeks to assigns colors to a graph's nodes so that adjacent nodes receive different colors, using as few colors as possible. Here, we study approximate $k$-coloring, where the goal is to use at most $k$ colors while minimizing the number of monochromatic edges. This problem is central to graph theory and has applications in areas such as scheduling and resource allocation. Recent unsupervised GNN approaches optimize each instance directly, precluding generalization across graph sizes and distributions. We instead propose a contrastive learning framework that learns transferable coloring geometry where the embeddings of same-color nodes align, while adjacent nodes' representations are pushed toward distinct directions. We analyze the resulting population objective over bounded-size graphs. For unit-norm embeddings, we show that its optima have a line-prototype structure: Representations of nodes of the same color collapse to a shared one-dimensional subspace, and edges connect orthogonal subspaces. This geometry yields stationarity conditions in the supervised setting and is preserved by projected subgradient dynamics under a balanced-coloring assumption. In an unnormalized variant, gradient descent has a max-margin bias governed by a quotient-graph hard-margin problem. Experiments on synthetic and real-world graphs show that contrastive GNN encoders generalize effectively and produce low-conflict colorings, matching and sometimes improving on greedy approaches.",
+ "primary": "cs.LG"
+}

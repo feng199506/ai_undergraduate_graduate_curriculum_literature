@@ -1,0 +1,17 @@
+{
+ "id": "2411.01558",
+ "title": "Adaptive Conformal Inference by Particle Filtering under Hidden Markov Models",
+ "authors": [
+  "Xiaoyi Su",
+  "Zhixin Zhou",
+  "Rui Luo"
+ ],
+ "v1_date": "2024-11-03",
+ "latest_version": 1,
+ "latest_date": "2024-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformal inference is a statistical method used to construct prediction sets for point predictors, providing reliable uncertainty quantification with probability guarantees. This method utilizes historical labeled data to estimate the conformity or nonconformity between predictions and true labels. However, conducting conformal inference for hidden states under hidden Markov models (HMMs) presents a significant challenge, as the hidden state data is unavailable, resulting in the absence of a true label set to serve as a conformal calibration set. This paper proposes an adaptive conformal inference framework that leverages a particle filtering approach to address this issue. Rather than directly focusing on the unobservable hidden state, we innovatively use weighted particles as an approximation of the actual posterior distribution of the hidden state. Our goal is to produce prediction sets that encompass these particles to achieve a specific aggregate weight sum, referred to as the aggregated coverage level. The proposed framework can adapt online to the time-varying distribution of data and achieve the defined marginal aggregated coverage level in both one-step and multi-step inference over the long term. We verify the effectiveness of this approach through a real-time target localization simulation study.",
+ "primary": "cs.LG"
+}

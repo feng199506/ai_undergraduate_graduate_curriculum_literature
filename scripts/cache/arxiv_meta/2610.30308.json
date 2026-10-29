@@ -1,0 +1,15 @@
+{
+ "id": "2610.30308",
+ "title": "Matrix-Free Local Multigrid for $C^1$ Hermite Discretizations on GPUs",
+ "authors": [
+  "Michał Wichrowski"
+ ],
+ "v1_date": "2026-10-21",
+ "latest_version": 1,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "I present a matrix-free local multigrid method for $C^1$ tensor-product Hermite discretizations on adaptively refined Cartesian meshes, using the clamped biharmonic problem as the model problem. Extending a cell-wise primal-dual formulation to Hermite elements, I enforce continuity through a constraint operator that is never formed. At refinement edges, geometric prolongation supplies both the trace and its normal derivative, so the local V-cycle needs no edge operator and no hanging-node machinery. For the cubic element, an even-odd decomposition based on the signed reflection symmetry of the Hermite basis, applied along two axes, splits the element matrix into four dense $16\\times16$ blocks and reaches 85% of peak memory bandwidth. Chebyshev-Jacobi and vertex-patch smoothers both preserve conformity by construction. In three dimensions on one NVIDIA A100 in double precision, conjugate gradients preconditioned by the Chebyshev-Jacobi V-cycle need five or six iterations on uniform meshes and solve at up to 4.23 million cells per second. On locally refined meshes the count rises to at most sixteen, ordered by the fraction of cells on a refinement edge and nearly equal for both smoothers.",
+ "primary": "math.NA"
+}

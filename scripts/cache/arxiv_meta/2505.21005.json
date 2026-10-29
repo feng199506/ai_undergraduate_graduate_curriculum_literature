@@ -1,0 +1,17 @@
+{
+ "id": "2505.21005",
+ "title": "Efficient and Unbiased Sampling from Boltzmann Distributions via Variance-Tuned Diffusion Models",
+ "authors": [
+  "Fengzhe Zhang",
+  "Laurence I. Midgley",
+  "José Miguel Hernández-Lobato"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 2,
+ "latest_date": "2025-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Score-based diffusion models (SBDMs) are powerful amortized samplers for Boltzmann distributions; however, imperfect score estimates bias downstream Monte Carlo estimates. Classical importance sampling (IS) can correct this bias, but computing exact likelihoods requires solving the probability-flow ordinary differential equation (PF-ODE), a procedure that is prohibitively costly and scales poorly with dimensionality. We introduce Variance-Tuned Diffusion Importance Sampling (VT-DIS), a lightweight post-training method that adapts the per-step noise covariance of a pretrained SBDM by minimizing the $α$-divergence ($α=2$) between its forward diffusion and reverse denoising trajectories. VT-DIS assigns a single trajectory-wise importance weight to the joint forward-reverse process, yielding unbiased expectation estimates at test time with negligible overhead compared to standard sampling. On the DW-4, LJ-13, and alanine-dipeptide benchmarks, VT-DIS achieves effective sample sizes of approximately 80 %, 35 %, and 3.5 %, respectively, while using only a fraction of the computational budget required by vanilla diffusion + IS or PF-ODE-based IS.",
+ "primary": "cs.LG"
+}

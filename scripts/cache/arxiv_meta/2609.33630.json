@@ -1,0 +1,19 @@
+{
+ "id": "2609.33630",
+ "title": "lapanda: A Matrix-Free Differentiable Solver for Nonconvex Constrained Optimization Layers",
+ "authors": [
+  "Yuankun Chen",
+  "Zifei Nie",
+  "Kangyu Lin",
+  "Ján Drgoňa",
+  "Liang Wu"
+ ],
+ "v1_date": "2026-09-27",
+ "latest_version": 1,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Differentiable optimization brings the structural guarantees of mathematical optimization to network pipelines, allowing them to be trained end-to-end. However, its application remains challenging for nonconvex constrained problems, as existing differentiable solvers often suffer from limited modeling expressiveness due to their reliance on specialized problem structures, while also incurring substantial computation time and memory overhead in both the forward and backward passes. To address these challenges, we propose lapanda, a matrix-free differentiable solver for nonconvex optimization with general constraints. It reformulates the problem to a sequence of augmented Lagrangian subproblems, each handled by a first-order inner solver through a proximal averaged quasi-Newton algorithm with adaptive linesearch, thus enabling efficient forward optimization. We establish local well-posedness of the solution map and convergence of the outer iterations, and further derive a sensitivity alignment between the original problem and the final subproblem in the backward pass, demonstrating that the subproblem sensitivity, which can be computed efficiently in a matrix-free manner, provides a principled approximation to the exact optimizer sensitivity. We evaluate lapanda on nonconvex constrained Rosenbrock benchmarks, imitation learning with several representative constrained optimal control problems, and embedded robotic obstacle-avoidance tasks. Compared with state-of-the-art differentiable solvers, lapanda delivers substantial reductions in computation time and memory footprint while maintaining reliable constraint satisfaction and learning performance.",
+ "primary": "math.OC"
+}

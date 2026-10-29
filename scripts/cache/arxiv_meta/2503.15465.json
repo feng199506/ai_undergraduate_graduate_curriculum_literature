@@ -1,0 +1,17 @@
+{
+ "id": "2503.15465",
+ "title": "FP4DiT: Towards Effective Floating Point Quantization for Diffusion Transformers",
+ "authors": [
+  "Ruichen Chen",
+  "Keith G. Mills",
+  "Di Niu"
+ ],
+ "v1_date": "2025-03-19",
+ "latest_version": 3,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The code is available at https://github.com/cccrrrccc/FP4DiT",
+ "abstract": "Diffusion Models (DM) have revolutionized the text-to-image visual generation process. However, the large computational cost and model footprint of DMs hinders practical deployment, especially on edge devices. Post-training quantization (PTQ) is a lightweight method to alleviate these burdens without the need for training or fine-tuning. While recent DM PTQ methods achieve W4A8 \\blue{(i.e., 4-bit weights and 8-bit activations)} on integer-based PTQ, two key limitations remain: First, while most existing DM PTQ methods evaluate on classical DMs like Stable Diffusion XL, 1.5 or earlier, which use convolutional U-Nets, newer Diffusion Transformer (DiT) models like the PixArt series, Hunyuan and others adopt fundamentally different transformer backbones to achieve superior image synthesis. Second, integer (INT) quantization is prevailing in DM PTQ but does not align well with the network weight and activation distribution, while Floating-Point Quantization (FPQ) is still under-investigated, yet it holds the potential to better align the weight and activation distributions in low-bit settings for DiT. In this paper, we introduce FP4DiT, a PTQ method that leverages FPQ to achieve W4A6 quantization. Specifically, we extend and generalize the Adaptive Rounding PTQ technique to adequately calibrate weight quantization for FPQ and demonstrate that DiT activations depend on input patch data, necessitating robust online activation quantization techniques. Experimental results demonstrate that FP4DiT achieves higher CLIP, ImageReward and HPSv2 performance compared to integer-based PTQ at the W4A6 and W4A8 precision levels while generating convincing visual content on PixArt-$α$, PixArt-$Σ$ and Hunyuan.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2602.22777",
+ "title": "KMLP: A Scalable Hybrid Architecture for Web-Scale Tabular Data Modeling",
+ "authors": [
+  "Mingming Zhang",
+  "Pengfei Shi",
+  "Zhiqing Xiao",
+  "Feng Zhao",
+  "Guandong Sun",
+  "Yulin Kang",
+  "Ruizhe Gao",
+  "Ningtao Wang",
+  "Xing Fu",
+  "Weiqiang Wang",
+  "Junbo Zhao"
+ ],
+ "v1_date": "2026-02-26",
+ "latest_version": 1,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by THE ACM WEB CONFERENCE 2026",
+ "abstract": "Predictive modeling on web-scale tabular data with billions of instances and hundreds of heterogeneous numerical features faces significant scalability challenges. These features exhibit anisotropy, heavy-tailed distributions, and non-stationarity, creating bottlenecks for models like Gradient Boosting Decision Trees and requiring laborious manual feature engineering. We introduce KMLP, a hybrid deep architecture integrating a shallow Kolmogorov-Arnold Network (KAN) front-end with a Gated Multilayer Perceptron (gMLP) backbone. The KAN front-end uses learnable activation functions to automatically model complex non-linear transformations for each feature, while the gMLP backbone captures high-order interactions. Experiments on public benchmarks and an industrial dataset with billions of samples show KMLP achieves state-of-the-art performance, with advantages over baselines like GBDTs increasing at larger scales, validating KMLP as a scalable deep learning paradigm for large-scale web tabular data.",
+ "primary": "cs.LG"
+}

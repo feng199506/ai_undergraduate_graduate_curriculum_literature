@@ -1,0 +1,16 @@
+{
+ "id": "2306.12418",
+ "title": "Randomized algorithms for low-rank matrix approximation: Design, analysis, and applications",
+ "authors": [
+  "Joel A. Tropp",
+  "Robert J. Webber"
+ ],
+ "v1_date": "2023-06-21",
+ "latest_version": 3,
+ "latest_date": "2023-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "60 pages, 14 figures",
+ "abstract": "This survey explores modern approaches for computing low-rank approximations of high-dimensional matrices by means of the randomized SVD, randomized subspace iteration, and randomized block Krylov iteration. The paper compares the procedures via theoretical analyses and numerical studies to highlight how the best choice of algorithm depends on spectral properties of the matrix and the computational resources available. Despite superior performance for many problems, randomized block Krylov iteration has not been widely adopted in computational science. The paper strengthens the case for this method in three ways. First, it presents new pseudocode that can significantly reduce computational costs. Second, it provides a new analysis that yields simple, precise, and informative error bounds. Last, it showcases applications to challenging scientific problems, including principal component analysis for genetic data and spectral clustering for molecular dynamics data.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2405.20641",
+ "title": "Query Provenance Analysis: Efficient and Robust Defense against Query-based Black-box Attacks",
+ "authors": [
+  "Shaofei Li",
+  "Ziqi Zhang",
+  "Haomin Jia",
+  "Ding Li",
+  "Yao Guo",
+  "Xiangqun Chen"
+ ],
+ "v1_date": "2024-05-31",
+ "latest_version": 2,
+ "latest_date": "2024-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The final version of this paper is going to appear in IEEE Symposium on Security and Privacy 2025",
+ "abstract": "Query-based black-box attacks have emerged as a significant threat to machine learning systems, where adversaries can manipulate the input queries to generate adversarial examples that can cause misclassification of the model. To counter these attacks, researchers have proposed Stateful Defense Models (SDMs) for detecting adversarial query sequences and rejecting queries that are \"similar\" to the history queries. Existing state-of-the-art (SOTA) SDMs (e.g., BlackLight and PIHA) have shown great effectiveness in defending against these attacks. However, recent studies have shown that they are vulnerable to Oracle-guided Adaptive Rejection Sampling (OARS) attacks, which is a stronger adaptive attack strategy. It can be easily integrated with existing attack algorithms to evade the SDMs by generating queries with fine-tuned direction and step size of perturbations utilizing the leaked decision information from the SDMs. In this paper, we propose a novel approach, Query Provenance Analysis (QPA), for more robust and efficient SDMs. QPA encapsulates the historical relationships among queries as the sequence feature to capture the fundamental difference between benign and adversarial query sequences. To utilize the query provenance, we propose an efficient query provenance analysis algorithm with dynamic management. We evaluate QPA compared with two baselines, BlackLight and PIHA, on four widely used datasets with six query-based black-box attack algorithms. The results show that QPA outperforms the baselines in terms of defense effectiveness and efficiency on both non-adaptive and adaptive attacks. Specifically, QPA reduces the Attack Success Rate (ASR) of OARS to 4.08%, comparing to 77.63% and 87.72% for BlackLight and PIHA, respectively. Moreover, QPA also achieves 7.67x and 2.25x higher throughput than BlackLight and PIHA.",
+ "primary": "cs.CR"
+}

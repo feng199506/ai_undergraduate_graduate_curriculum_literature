@@ -1,0 +1,19 @@
+{
+ "id": "2409.17092",
+ "title": "Accumulator-Aware Post-Training Quantization for Large Language Models",
+ "authors": [
+  "Ian Colbert",
+  "Giuseppe Franco",
+  "Fabian Grob",
+  "Jinjie Zhang",
+  "Rayan Saab"
+ ],
+ "v1_date": "2024-09-25",
+ "latest_version": 2,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When quantizing weights and activations to increasingly narrower representations, the cost of additions begins to dominate that of multiplications in multiply-accumulate (MAC) units. Recent studies show that reducing addition costs via low-precision accumulation improves throughput, power, and area across inference platforms, albeit with an increased risk of overflow. Accumulator-aware quantization research has so far only considered the quantization-aware training (QAT) paradigm, in which models are fine-tuned or trained from scratch with quantization in the loop. As models and datasets continue to grow in size, QAT techniques become increasingly more expensive, which has motivated the recent surge in post-training quantization (PTQ) research. To bridge this gap, we introduce AXE, the first accumulator-aware quantization framework explicitly designed to endow overflow avoidance guarantees to PTQ algorithms. We present theoretical motivation for AXE and demonstrate its flexibility by implementing it on top of two existing algorithms: GPFQ and OPTQ. We design AXE to support multi-stage accumulation, opening the door to full datapath optimization for the first time. We evaluate AXE using recent language generation models; when quantizing Llama3 8B for a 16-bit multi-stage accumulation datapath, AXE maintains up to 98% of the FP16 perplexity, surpassing naive bit width manipulation by up to 15%.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2602.19728",
+ "title": "GrIT: Group Informed Transformer for Sequential Recommendation",
+ "authors": [
+  "Adamya Shyam",
+  "Venkateswara Rao Kagita",
+  "Bharti Rana",
+  "Vikas Kumar"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential recommender systems aim to predict a user's future interests by extracting temporal patterns from their behavioral history. Existing approaches typically employ transformer-based architectures to process long sequences of user interactions, capturing preference shifts by modeling temporal relationships between items. However, these methods often overlook the influence of group-level features that capture the collective behavior of similar users. We hypothesize that explicitly modeling temporally evolving group features alongside individual user histories can significantly enhance next-item recommendation. Our approach introduces latent group representations, where each user's affiliation to these groups is modeled through learnable, time-varying membership weights. The membership weights at each timestep are computed by modeling shifts in user preferences through their interaction history, where we incorporate both short-term and long-term user preferences. We extract a set of statistical features that capture the dynamics of user behavior and further refine them through a series of transformations to produce the final drift-aware membership weights. A group-based representation is derived by weighting latent group embeddings with the learned membership scores. This representation is integrated with the user's sequential representation within the transformer block to jointly capture personal and group-level temporal dynamics, producing richer embeddings that lead to more accurate, context-aware recommendations. We validate the effectiveness of our approach through extensive experiments on five benchmark datasets, where it consistently outperforms state-of-the-art sequential recommendation methods.",
+ "primary": "cs.IR"
+}

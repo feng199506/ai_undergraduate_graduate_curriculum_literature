@@ -1,0 +1,21 @@
+{
+ "id": "2510.03760",
+ "title": "EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models",
+ "authors": [
+  "Ping Guo",
+  "Chenyu Zhu",
+  "Siyuan Chen",
+  "Fei Liu",
+  "Xi Lin",
+  "Zhichao Lu",
+  "Qingfu Zhang"
+ ],
+ "v1_date": "2025-10-04",
+ "latest_version": 1,
+ "latest_date": "2025-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under Review of ICLR 2026",
+ "abstract": "CUDA kernel optimization has become a critical bottleneck for AI performance, as deep learning training and inference efficiency directly depends on highly optimized GPU kernels. Despite the promise of Large Language Models (LLMs) for automating kernel optimization, this field suffers from a fragmented ecosystem of isolated and incomparable approaches with unclear problem formulations. Furthermore, general-purpose LLM code evolution methods cannot meet strict correctness requirements of CUDA kernel optimization. We address these fundamental challenges by first formalizing CUDA kernel optimization as a code optimization task with a clear objective, constraints, and evaluation metrics. We then establish the first systematic LLM-based code evolution framework, EvoEngineer, that provides guidance for designing and adapting optimization strategies to achieve a balance between performance and correctness. Finally, we implement a kernel optimization system based on this framework and conduct extensive experiments on 91 real-world CUDA kernels. Our results demonstrate that EvoEngineer achieves a principled balance between performance and correctness, with the highest averaged median speedup of \\textbf{2.72}$\\times$ over baseline CUDA kernels and a code validity rate of \\textbf{69.8}\\%, outperforming existing methods on both dimensions. Our method achieves a maximum speedup of \\textbf{36.75}$\\times$ among all operations over PyTorch kernels and delivers the highest speedup on \\textbf{28} (\\textbf{56.0\\%}) of 50 operations that achieve over \\textbf{2$\\times$} acceleration.",
+ "primary": "cs.LG"
+}

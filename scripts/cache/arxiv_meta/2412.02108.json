@@ -1,0 +1,18 @@
+{
+ "id": "2412.02108",
+ "title": "Evaluating the Impact of Data Augmentation on Predictive Model Performance",
+ "authors": [
+  "Valdemar Švábenský",
+  "Conrad Borchers",
+  "Elizabeth B. Cloude",
+  "Atsushi Shimada"
+ ],
+ "v1_date": "2024-12-03",
+ "latest_version": 1,
+ "latest_date": "2024-12-03",
+ "journal_ref": "",
+ "doi": "10.1145/3706468.3706485",
+ "comment": "Published in LAK 2025 conference proceedings in the ACM Digital Library, see https://doi.org/10.1145/3706468.3706485",
+ "abstract": "In supervised machine learning (SML) research, large training datasets are essential for valid results. However, obtaining primary data in learning analytics (LA) is challenging. Data augmentation can address this by expanding and diversifying data, though its use in LA remains underexplored. This paper systematically compares data augmentation techniques and their impact on prediction performance in a typical LA task: prediction of academic outcomes. Augmentation is demonstrated on four SML models, which we successfully replicated from a previous LAK study based on AUC values. Among 21 augmentation techniques, SMOTE-ENN sampling performed the best, improving the average AUC by 0.01 and approximately halving the training time compared to the baseline models. In addition, we compared 99 combinations of chaining 21 techniques, and found minor, although statistically significant, improvements across models when adding noise to SMOTE-ENN (+0.014). Notably, some augmentation techniques significantly lowered predictive performance or increased performance fluctuation related to random chance. This paper's contribution is twofold. Primarily, our empirical findings show that sampling techniques provide the most statistically reliable performance improvements for LA applications of SML, and are computationally more efficient than deep generation methods with complex hyperparameter settings. Second, the LA community may benefit from validating a recent study through independent replication.",
+ "primary": "cs.LG"
+}

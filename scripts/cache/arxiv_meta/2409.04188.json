@@ -1,0 +1,17 @@
+{
+ "id": "2409.04188",
+ "title": "Reassessing the Validity of Spurious Correlations Benchmarks",
+ "authors": [
+  "Samuel J. Bell",
+  "Diane Bouchacourt",
+  "Levent Sagun"
+ ],
+ "v1_date": "2024-09-06",
+ "latest_version": 1,
+ "latest_date": "2024-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neural networks can fail when the data contains spurious correlations. To understand this phenomenon, researchers have proposed numerous spurious correlations benchmarks upon which to evaluate mitigation methods. However, we observe that these benchmarks exhibit substantial disagreement, with the best methods on one benchmark performing poorly on another. We explore this disagreement, and examine benchmark validity by defining three desiderata that a benchmark should satisfy in order to meaningfully evaluate methods. Our results have implications for both benchmarks and mitigations: we find that certain benchmarks are not meaningful measures of method performance, and that several methods are not sufficiently robust for widespread use. We present a simple recipe for practitioners to choose methods using the most similar benchmark to their given problem.",
+ "primary": "cs.LG"
+}

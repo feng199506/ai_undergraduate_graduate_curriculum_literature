@@ -1,0 +1,17 @@
+{
+ "id": "2603.16236",
+ "title": "ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation",
+ "authors": [
+  "Moonsoo Park",
+  "Seulbeen Je",
+  "Donghyeon Park"
+ ],
+ "v1_date": "2026-03-17",
+ "latest_version": 1,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recommender systems, large language models (LLMs) have gained popularity for generating descriptive summarization to improve recommendation robustness, along with Graph Convolution Networks. However, existing LLM-enhanced recommendation studies mainly rely on the internal knowledge of LLMs about item titles while neglecting the importance of various factors influencing users' decisions. Although information reflecting various decision factors of each user is abundant in reviews, few studies have actively exploited such insights for recommendation. To address these limitations, we propose a ReFORM: Review-aggregated Profile Generation via LLM with Multi-FactOr Attentive RecoMmendation framework. Specifically, we first generate factor-specific user and item profiles from reviews using LLM to capture a user's preference by items and an item's evaluation by users. Then, we propose a Multi-Factor Attention to highlight the most influential factors in each user's decision-making process. In this paper, we conduct experiments on two restaurant datasets of varying scales, demonstrating its robustness and superior performance over state-of-the-art baselines. Furthermore, in-depth analyses validate the effectiveness of the proposed modules and provide insights into the sources of personalization. Our source code and datasets are available at https://github.com/m0onsoo/ReFORM.",
+ "primary": "cs.IR"
+}

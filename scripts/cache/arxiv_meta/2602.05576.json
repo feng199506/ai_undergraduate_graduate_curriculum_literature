@@ -1,0 +1,23 @@
+{
+ "id": "2602.05576",
+ "title": "OpenMAG: A Comprehensive Benchmark for Multimodal-Attributed Graph",
+ "authors": [
+  "Chenxi Wan",
+  "Xunkai Li",
+  "Yilong Zuo",
+  "Haokun Deng",
+  "Sihan Li",
+  "Bowen Fan",
+  "Hongchao Qin",
+  "Ronghua Li",
+  "Guoren Wang"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 1,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multimodal-Attributed Graph (MAG) learning has achieved remarkable success in modeling complex real-world systems by integrating graph topology with rich attributes from multiple modalities. With the rapid proliferation of novel MAG models capable of handling intricate cross-modal semantics and structural dependencies, establishing a rigorous and unified evaluation standard has become imperative. Although existing benchmarks have facilitated initial progress, they exhibit critical limitations in domain coverage, encoder flexibility, model diversity, and task scope, presenting significant challenges to fair evaluation. To bridge this gap, we present OpenMAG, a comprehensive benchmark that integrates 19 datasets across 6 domains and incorporates 16 encoders to support both static and trainable feature encoding. OpenMAG further implements a standardized library of 24 state-of-the-art models and supports 8 downstream tasks, enabling fair comparisons within a unified framework. Through systematic assessment of necessity, data quality, effectiveness, robustness, and efficiency, we derive 14 fundamental insights into MAG learning to guide future advancements. Our code is available at https://github.com/YUKI-N810/OpenMAG.",
+ "primary": "cs.LG"
+}

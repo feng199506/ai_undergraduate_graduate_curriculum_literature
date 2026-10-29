@@ -1,0 +1,19 @@
+{
+ "id": "2602.14580",
+ "title": "Replicable Constrained Bandits",
+ "authors": [
+  "Matteo Bollini",
+  "Gianmarco Genalti",
+  "Francesco Emanuele Stradi",
+  "Matteo Castiglioni",
+  "Alberto Marchesi"
+ ],
+ "v1_date": "2026-02-16",
+ "latest_version": 1,
+ "latest_date": "2026-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Algorithmic \\emph{replicability} has recently been introduced to address the need for reproducible experiments in machine learning. A \\emph{replicable online learning} algorithm is one that takes the same sequence of decisions across different executions in the same environment, with high probability. We initiate the study of algorithmic replicability in \\emph{constrained} MAB problems, where a learner interacts with an unknown stochastic environment for $T$ rounds, seeking not only to maximize reward but also to satisfy multiple constraints. Our main result is that replicability can be achieved in constrained MABs. Specifically, we design replicable algorithms whose regret and constraint violation match those of non-replicable ones in terms of $T$. As a key step toward these guarantees, we develop the first replicable UCB-like algorithm for \\emph{unconstrained} MABs, showing that algorithms that employ the optimism in-the-face-of-uncertainty principle can be replicable, a result that we believe is of independent interest.",
+ "primary": "cs.LG"
+}

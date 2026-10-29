@@ -1,0 +1,29 @@
+{
+ "id": "2512.00975",
+ "title": "MM-ACT: Learn from Multimodal Parallel Generation to Act",
+ "authors": [
+  "Haotian Liang",
+  "Xinyi Chen",
+  "Bin Wang",
+  "Mingkang Chen",
+  "Yitian Liu",
+  "Yuhao Zhang",
+  "Zanxin Chen",
+  "Tianshuo Yang",
+  "Yilun Chen",
+  "Jiangmiao Pang",
+  "Dong Liu",
+  "Xiaokang Yang",
+  "Yao Mu",
+  "Wenqi Shao",
+  "Ping Luo"
+ ],
+ "v1_date": "2025-11-30",
+ "latest_version": 2,
+ "latest_date": "2025-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages",
+ "abstract": "A generalist robotic policy needs both semantic understanding for task planning and the ability to interact with the environment through predictive capabilities. To tackle this, we present MM-ACT, a unified Vision-Language-Action (VLA) model that integrates text, image, and action in shared token space and performs generation across all three modalities. MM-ACT adopts a re-mask parallel decoding strategy for text and image generation, and employs a one-step parallel decoding strategy for action generation to improve efficiency. We introduce Context-Shared Multimodal Learning, a unified training paradigm that supervises generation in all three modalities from a shared context, enhancing action generation through cross-modal learning. Experiments were conducted on the LIBERO simulation and Franka real-robot setups as well as RoboTwin2.0 to assess in-domain and out-of-domain performances respectively. Our approach achieves a success rate of 96.3% on LIBERO, 72.0% across three tasks of real Franka, and 52.38% across eight bimanual tasks of RoboTwin2.0 with an additional gain of 9.25% from cross-modal learning. We release our codes, models and data at https://github.com/HHYHRHY/MM-ACT.",
+ "primary": "cs.CV"
+}

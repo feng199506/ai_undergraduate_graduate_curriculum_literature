@@ -1,0 +1,27 @@
+{
+ "id": "2407.04656",
+ "title": "Lazarus: Resilient and Elastic Training of Mixture-of-Experts Models",
+ "authors": [
+  "Yongji Wu",
+  "Wenjie Qu",
+  "Xueshen Liu",
+  "Tianyang Tao",
+  "Yifan Qiao",
+  "Zhuang Wang",
+  "Wei Bai",
+  "Yuan Tian",
+  "Jiaheng Zhang",
+  "Z. Morley Mao",
+  "Matthew Lentz",
+  "Danyang Zhuo",
+  "Ion Stoica"
+ ],
+ "v1_date": "2024-07-05",
+ "latest_version": 2,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparsely-activated Mixture-of-Experts (MoE) architecture has increasingly been adopted to further scale large language models (LLMs). However, frequent failures still pose significant challenges as training scales. The cost of even a single failure is significant, as all GPUs need to idle wait until the failure is resolved, potentially losing considerable training progress as training has to restart from checkpoints. This problem is exacerbated by the growing use of spot instances on public clouds for model training, which despite offering substantial cost savings, introduce frequent preemptions-essentially failures that regularly occur throughout the training process. Existing solutions for efficient fault-tolerant training either lack elasticity or rely on building resiliency into pipeline parallelism, which cannot be applied to MoE models due to the expert parallelism strategy adopted by the MoE architecture. We present Lazarus, a system for resilient and elastic training of MoE models. Lazarus adaptively allocates expert replicas to address the inherent imbalance in expert workload and speeds up training, while a provably optimal expert placement algorithm is developed to maximize the probability of recovery upon failures. Through adaptive expert placement and a flexible token dispatcher, Lazarus can also fully utilize all available nodes after failures, leaving no GPU idle. Our evaluation shows that Lazarus outperforms existing MoE training systems by up to 5.7x under frequent node failures and 3.4x on a real spot instance trace.",
+ "primary": "cs.DC"
+}

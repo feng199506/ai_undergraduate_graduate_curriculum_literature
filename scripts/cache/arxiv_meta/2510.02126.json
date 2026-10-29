@@ -1,0 +1,16 @@
+{
+ "id": "2510.02126",
+ "title": "Mixed-precision iterative refinement for low-rank Lyapunov equations",
+ "authors": [
+  "Peter Benner",
+  "Xiaobo Liu"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 2,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a mixed-precision iterative refinement framework for solving low-rank Lyapunov matrix equations $AX + XA^T + W =0$, where $W=LL^T$ or $W=LSL^T$. Via rounding error analysis of the algorithms we derive sufficient conditions for the attainable normwise residuals in different precision settings and show how the algorithmic parameters should be chosen. These conditions are independent of the choice of inner solver, provided that the prescribed residual accuracy is attained in the inner solves. Using the sign-function Newton iteration as the solver, we demonstrate that reduced precisions, such as half precision with unit roundoff $u_s$, can be used efficiently for Lyapunov equations with condition numbers of order $1/u_s$ without compromising the attainable solution quality. This provides an algorithmic framework towards exploiting native low-precision hardware to accelerate Lyapunov solvers without sacrificing accuracy.",
+ "primary": "math.NA"
+}

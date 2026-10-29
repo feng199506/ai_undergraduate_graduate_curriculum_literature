@@ -1,0 +1,16 @@
+{
+ "id": "2606.00309",
+ "title": "Large-scale Uncertainty Quantification for Latent Variable Models Using Subsampling Markov Chain Monte Carlo",
+ "authors": [
+  "Xiaoyu Wang",
+  "Jonathan H. Huggins"
+ ],
+ "v1_date": "2026-05-29",
+ "latest_version": 1,
+ "latest_date": "2026-05-29",
+ "journal_ref": "Proceedings of the 43rd International Conference on Machine Learning, Seoul, South Korea. PMLR 306, 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic gradient Langevin dynamics combined with Gibbs updates (SGLD--Gibbs) provides a highly scalable approach to approximate Bayesian inference in latent variable models. However, it remains unclear how to tune the algorithm's hyperparameters in a principled manner to ensure the uncertainty estimates are statistically meaningful. In this work, we address this gap in tuning guidance by developing a statistical scaling limit theory for SGLD--Gibbs. We derive a joint asymptotic limit for the global parameters and latent variables under appropriate space-time rescaling. We show that global parameters converge to a diffusion-type limit, while each latent variable converges to a jump process, reflecting the use of intermittent Gibbs updates. This joint jump-diffusion structure reveals how latent-variable randomness contributes to the stationary distribution of the global parameters. We leverage our results to propose explicit guidance on hyperparameter tuning for SGLD--Gibbs that ensures meaningful uncertainty quantification. Numerical experiments show that SGLD--Gibbs with our tuning guidance leads to better parameter estimates, uncertainty quantification, and predictive performance than stochastic variational inference.",
+ "primary": "cs.LG"
+}

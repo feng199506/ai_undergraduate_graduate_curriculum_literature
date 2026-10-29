@@ -1,0 +1,17 @@
+{
+ "id": "2311.07035",
+ "title": "ContHutch++: Stochastic trace estimation for implicit integral operators",
+ "authors": [
+  "Jennifer Zvonek",
+  "Andrew Horning",
+  "Alex Townsend"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 2,
+ "latest_date": "2024-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hutchinson's estimator is a randomized algorithm that computes an $ε$-approximation to the trace of any positive semidefinite matrix using $\\mathcal{O}(1/ε^2)$ matrix-vector products. An improvement of Hutchinson's estimator, known as Hutch++, only requires $\\mathcal{O}(1/ε)$ matrix-vector products. In this paper, we propose a generalization of Hutch++, which we call ContHutch++, that uses operator-function products to efficiently estimate the trace of any trace-class integral operator. Our ContHutch++ estimates avoid spectral artifacts introduced by discretization and are accompanied by rigorous high-probability error bounds. We use ContHutch++ to derive a new high-order accurate algorithm for quantum density-of-states and also show how it can estimate electromagnetic fields induced by incoherent sources.",
+ "primary": "math.NA"
+}

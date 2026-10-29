@@ -1,0 +1,16 @@
+{
+ "id": "2610.24315",
+ "title": "Latent State Utilization in Probabilistic Circuits",
+ "authors": [
+  "Zilei Shao",
+  "Anji Liu"
+ ],
+ "v1_date": "2026-10-16",
+ "latest_version": 1,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic circuits (PCs) are generative models that support efficient probabilistic inference. Adding latent states to a PC increases its representational capacity, but yields diminishing gains in likelihood. We use mutual information to examine how the dependence represented by a trained PC changes with latent size. Experiments with Hidden Chow-Liu Trees (HCLTs) on ImageNet32 show that learned dependence grows slowly and remains well below both the latent-state upper bound and estimates of dependence in the data. To understand how learning uses these states, we examine how strongly each sample favors particular latent states and how broadly states are used across the dataset. Tracking these measurements during HCLT training distinguishes rapid early posterior concentration from the more gradual stabilization of sample-dependent state preferences. Early measurements also guide initialization selection in HCLTs and hidden Markov models (HMMs), as well as tree selection in HCLTs. The resulting choices improve the ultimate performance across the tested latent sizes, providing a practical benefit from our study of latent-state utilization.",
+ "primary": "cs.LG"
+}

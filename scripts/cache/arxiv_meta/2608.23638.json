@@ -1,0 +1,17 @@
+{
+ "id": "2608.23638",
+ "title": "Replicable Conformal Prediction",
+ "authors": [
+  "Marios Papamichalis",
+  "Regina Ruane",
+  "Theofanis Papamichalis"
+ ],
+ "v1_date": "2026-08-23",
+ "latest_version": 1,
+ "latest_date": "2026-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint",
+ "abstract": "Two analysts who calibrate the same predictive model on independent samples will deploy different prediction sets every time, because the calibration threshold inherits the randomness of the data. Wherever deployments must be audited, cached, or approved across sites, this instability is costly: no one can verify that two calibrations produced the same object. We ask two questions: when can independent calibrations yield the identical classifier, and what must that agreement cost? Perfect agreement is impossible, since a procedure that almost always returns one fixed answer cannot remain valid for every distribution, and exact agreement through shared randomness forces the procedure to ignore its data. Sharing a single random seed and rounding the calibrated threshold up to a coarse shared grid resolves the tension: the deployed classifier becomes identical across analysts with any desired probability, coverage guarantees survive, and the price is a quantified increase in set size and calibration data. Matching lower bounds show that no threshold method can pay less, and the method's one tuning constant vanishes asymptotically. Without any shared seed, a fixed grid still confines all analysts to two adjacent classifiers, and no method does better. Replicability also blocks gaming: selecting the most favorable of many recalibrations barely moves a replicable classifier, while the same selection silently undercovers standard conformal prediction. Experiments on real ImageNet outputs, a four-hospital site split, and four language-model families match the theory, including the measured sample-cost frontier.",
+ "primary": "stat.ML"
+}

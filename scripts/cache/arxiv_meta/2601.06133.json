@@ -1,0 +1,22 @@
+{
+ "id": "2601.06133",
+ "title": "A Review of Online Diffusion Policy RL Algorithms for Scalable Robotic Control",
+ "authors": [
+  "Wonhyeok Choi",
+  "Shutong Ding",
+  "Minwoo Choi",
+  "Jungwan Woo",
+  "Kyumin Hwang",
+  "Jaeyeul Kim",
+  "Ye Shi",
+  "Sunghoon Im"
+ ],
+ "v1_date": "2026-01-05",
+ "latest_version": 2,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion policies have emerged as a powerful approach for robotic control, demonstrating superior expressiveness in modeling multimodal action distributions compared to conventional policy networks. However, their integration with online reinforcement learning remains challenging due to fundamental incompatibilities between diffusion model training objectives and standard RL policy improvement mechanisms. This paper presents the first comprehensive review and empirical analysis of current Online Diffusion Policy Reinforcement Learning (Online DPRL) algorithms for scalable robotic control systems. We propose a novel taxonomy that categorizes existing approaches into four distinct families--Action-Gradient, Q-Weighting, Proximity-Based, and Backpropagation Through Time (BPTT) methods--based on their policy improvement mechanisms. Through extensive experiments on a unified NVIDIA Isaac Lab benchmark encompassing 12 diverse robotic tasks, we systematically evaluate representative algorithms across five critical dimensions: task diversity, parallelization capability, diffusion step scalability, cross-embodiment generalization, and environmental robustness. Our analysis identifies key findings regarding the fundamental trade-offs inherent in each algorithmic family, particularly concerning sample efficiency and scalability. Furthermore, we reveal critical computational and algorithmic bottlenecks that currently limit the practical deployment of online DPRL. Based on these findings, we provide concrete guidelines for algorithm selection tailored to specific operational constraints and outline promising future research directions to advance the field toward more general and scalable robotic learning systems.",
+ "primary": "cs.LG"
+}

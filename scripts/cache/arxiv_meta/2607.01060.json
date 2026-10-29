@@ -1,0 +1,21 @@
+{
+ "id": "2607.01060",
+ "title": "RoboWorld: Fast and Reliable Neural Simulators for Generalist Robot Policy Evaluation",
+ "authors": [
+  "Byeongguk Jeon",
+  "Seonghyeon Ye",
+  "JaeHyeok Doo",
+  "Sungdong Kim",
+  "Minjoon Seo",
+  "Hyungmok Son",
+  "Kimin Lee"
+ ],
+ "v1_date": "2026-07-01",
+ "latest_version": 4,
+ "latest_date": "2026-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Project page: https://byeongguks.github.io/RoboWorld/",
+ "abstract": "Video world models are emerging as a scalable alternative for evaluating generalist robot policies, bypassing the physical constraints and engineering burdens of real-world deployment. However, evaluating policies with video world models remains challenging, as world-model errors can make generated rollouts unreliable and slow inference limits large-scale throughput. We introduce RoboWorld, an automated evaluation pipeline that pairs a fast autoregressive video world model with a task-progress-aware vision-language model scoring. To enable reliable long-horizon autoregressive world-model rollouts, we propose Step Forcing, which combines anchored and one-step self-forwarded contexts to reduce train-test mismatch while preserving action-observation dynamics. Together, these components enable RoboWorld to align strongly with real-world robot evaluation across tasks and environments, achieving Pearson's r = 0.989 and Spearman's $ρ$ = 0.970.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2608.26014",
+ "title": "A unified continuous-discrete framework for Nesterov acceleration: transitions between convex and strongly convex regimes",
+ "authors": [
+  "Xin He",
+  "Ya-Ping Fang"
+ ],
+ "v1_date": "2026-08-26",
+ "latest_version": 1,
+ "latest_date": "2026-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Classical Nesterov acceleration employs different choices of damping and inertial parameters in the convex and strongly convex settings, both for continuous-time dynamics and for discrete algorithms. When the strong convexity parameter is small, directly using the strongly convex damping or inertial coefficient may lead to slower early-stage convergence than the corresponding convex choice, despite its favorable asymptotic exponential or linear rate. We develop a unified continuous-discrete framework that encompasses both classical regimes and provides systematic transitions between them. The resulting coefficient families retain the accelerated convex behavior at early stages while attaining the strongly convex asymptotic rate. The continuous-time dynamics arise from a two-state coupling and are analyzed within a unified Lyapunov framework that yields simultaneous $\\mathcal{O}(1/t^2)$ and exponential convergence estimates, thereby recovering the classical convex and strongly convex rates. We further derive two classes of accelerated forward-backward algorithms by discretizing the proposed dynamics and establish convergence estimates covering the convex, strongly convex, and intermediate regimes. The framework recovers the classical Nesterov inertial coefficients and generates hyperbolic, exponential, algebraic, and polynomial transition families. Numerical experiments demonstrate the effectiveness of the proposed methods when the strong convexity parameter is small.",
+ "primary": "math.OC"
+}

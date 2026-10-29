@@ -1,0 +1,17 @@
+{
+ "id": "2510.19634",
+ "title": "Matrix-Free Least Squares Solvers: Values, Gradients, and What to Do With Them",
+ "authors": [
+  "Hrittik Roy",
+  "Søren Hauberg",
+  "Nicholas Krämer"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 1,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper argues that the method of least squares has significant unfulfilled potential in modern machine learning, far beyond merely being a tool for fitting linear models. To release its potential, we derive custom gradients that transform the solver into a differentiable operator, like a neural network layer, enabling many diverse applications. Empirically, we demonstrate: (i) scalability by enforcing weight sparsity on a 50 million parameter model; (ii) imposing conservativeness constraints in score-based generative models; and (iii) hyperparameter tuning of Gaussian processes based on predictive performance. By doing this, our work represents the next iteration in developing differentiable linear-algebra tools and making them widely accessible to machine learning practitioners.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2510.15337",
+ "title": "Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression",
+ "authors": [
+  "Yeichan Kim",
+  "Ilmun Kim",
+  "Seyoung Park"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 2,
+ "latest_date": "2026-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages; Camera-ready version accepted at NeurIPS 2025 (Spotlight)",
+ "abstract": "Transfer learning is a key component of modern machine learning, enhancing the performance of target tasks by leveraging diverse data sources. Simultaneously, overparameterized models such as the minimum-$\\ell_2$-norm interpolator (MNI) in high-dimensional linear regression have garnered significant attention for their remarkable generalization capabilities, a property known as benign overfitting. Despite their individual importance, the intersection of transfer learning and MNI remains largely unexplored. Our research bridges this gap by proposing a novel two-step Transfer MNI approach and analyzing its trade-offs. We characterize its non-asymptotic excess risk and identify conditions under which it outperforms the target-only MNI. Our analysis reveals free-lunch covariate shift regimes, where leveraging heterogeneous data yields the benefit of knowledge transfer at limited cost. To operationalize our findings, we develop a data-driven procedure to detect informative sources and introduce an ensemble method incorporating multiple informative Transfer MNIs. Finite-sample experiments demonstrate the robustness of our methods to model and data heterogeneity, confirming their advantage.",
+ "primary": "stat.ML"
+}

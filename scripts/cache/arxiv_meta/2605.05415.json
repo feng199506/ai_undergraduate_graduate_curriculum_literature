@@ -1,0 +1,20 @@
+{
+ "id": "2605.05415",
+ "title": "Information Theoretic Adversarial Training of Large Language Models",
+ "authors": [
+  "Yiwei Zhang",
+  "Jeremiah Birrell",
+  "Reza Ebrahimi",
+  "Rouzbeh Behnia",
+  "Jason Pacheco",
+  "Elisa Bertino"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) remain vulnerable to adversarial prompting despite advances in alignment and safety, often exhibiting harmful behaviors under novel attack strategies. While adversarial training can improve robustness, existing approaches are computationally expensive and difficult to scale. Recent continuous adversarial training methods, such as Continuous adversarial training (CAT) and Continuous Adversarial Preference Optimization (CAPO), address this challenge by leveraging gradient-based perturbations in the embedding space, enabling more efficient and expressive attacks. Building on this paradigm, we propose WARDEN, a distributionally robust adversarial training framework for LLMs that dynamically reweights adversarial examples through an f -divergence ambiguity set around the empirical training distribution. Our method optimizes the worst-case adversarial loss within a divergence ball around the empirical data distribution, automatically emphasizing harder adversarial examples. Using the convex dual formulation, the objective reduces to a log-sum-exp form under the KL divergence, with a dynamical parameter controlling the strength of reweighting. This study leads to a new class of information-theoretic objectives that significantly reduce attack success rates while maintaining model utility. Across multiple LLMs and attack settings, WARDEN substantially reduces attack success rates with computational and utility costs comparable to CAT-, CAPO-, and MixAT-based baselines, making it a practical approach for scalable robust alignment.",
+ "primary": "cs.LG"
+}

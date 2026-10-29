@@ -1,0 +1,17 @@
+{
+ "id": "2409.10044",
+ "title": "Benchmarking Large Language Model Uncertainty for Prompt Optimization",
+ "authors": [
+  "Pei-Fu Guo",
+  "Yun-Da Tsai",
+  "Shou-De Lin"
+ ],
+ "v1_date": "2024-09-16",
+ "latest_version": 2,
+ "latest_date": "2024-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prompt optimization algorithms for Large Language Models (LLMs) excel in multi-step reasoning but still lack effective uncertainty estimation. This paper introduces a benchmark dataset to evaluate uncertainty metrics, focusing on Answer, Correctness, Aleatoric, and Epistemic Uncertainty. Through analysis of models like GPT-3.5-Turbo and Meta-Llama-3.1-8B-Instruct, we show that current metrics align more with Answer Uncertainty, which reflects output confidence and diversity, rather than Correctness Uncertainty, highlighting the need for improved metrics that are optimization-objective-aware to better guide prompt optimization. Our code and dataset are available at https://github.com/0Frett/PO-Uncertainty-Benchmarking.",
+ "primary": "cs.LG"
+}

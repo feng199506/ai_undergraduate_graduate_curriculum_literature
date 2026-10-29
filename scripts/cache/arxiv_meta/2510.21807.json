@@ -1,0 +1,21 @@
+{
+ "id": "2510.21807",
+ "title": "Activating Visual Context and Commonsense Reasoning through Masked Prediction in VLMs",
+ "authors": [
+  "Jiaao Yu",
+  "Shenwei Li",
+  "Mingjie Han",
+  "Yifei Yin",
+  "Wenzheng Song",
+  "Chenghao Jia",
+  "Man Lan"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 1,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages",
+ "abstract": "Recent breakthroughs in reasoning models have markedly advanced the reasoning capabilities of large language models, particularly via training on tasks with verifiable rewards. Yet, a significant gap persists in their adaptation to real world multimodal scenarios, most notably, vision language tasks, due to a heavy focus on single modal language settings. While efforts to transplant reinforcement learning techniques from NLP to VLMs have emerged, these approaches often remain confined to perception centric tasks or reduce images to textual summaries, failing to fully exploit visual context and commonsense knowledge, ultimately constraining the generalization of reasoning capabilities across diverse multimodal environments. To address this limitation, we introduce a novel fine tuning task, Masked Prediction via Context and Commonsense, which forces models to integrate visual context and commonsense reasoning by reconstructing semantically meaningful content from occluded images, thereby laying the foundation for generalized reasoning. To systematically evaluate the model performance in generalized reasoning, we developed a specialized evaluation benchmark, MPCC Eval, and employed various fine tuning strategies to guide reasoning. Among these, we introduced an innovative training method, Reinforcement Fine tuning with Prior Sampling, which not only enhances model performance but also improves its generalized reasoning capabilities in OOD and cross task scenarios.",
+ "primary": "cs.CV"
+}

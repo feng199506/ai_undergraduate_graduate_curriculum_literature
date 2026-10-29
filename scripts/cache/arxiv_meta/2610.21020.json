@@ -1,0 +1,17 @@
+{
+ "id": "2610.21020",
+ "title": "Acceleration and its Limits in Gaussian Variational Inference",
+ "authors": [
+  "Jaesung R. Park",
+  "Uijeong Jang",
+  "Yifan Chen"
+ ],
+ "v1_date": "2026-10-14",
+ "latest_version": 1,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 9 figures",
+ "abstract": "We study whether the classical momentum-based acceleration that improves the condition-number dependence of gradient descent from $κ$ to $\\sqrtκ$ for strongly convex, smooth objectives extends to Gaussian variational inference (GVI) for strongly log-concave, log-smooth target distributions. With exact Gaussian expectations, a convex composite formulation of GVI yields the classical accelerated $\\sqrtκ$ convergence rate. However, when only pointwise derivatives are available, we construct a family of strongly log-concave targets for which any randomized algorithm requires $κ^{1-o(1)}$ queries to achieve a fixed objective accuracy, even when the initial objective gap is bounded independently of $κ$. Thus curvature bounds alone cannot guarantee uniform accelerated total-query complexity. We then ask which additional structure permits acceleration and give positive examples: under a Hessian-Lipschitz assumption, variance-reduced stochastic methods yield accelerated guarantees when the Hessian variation is sufficiently small. Finally, experiments on real datasets show substantial empirical speedups from acceleration across a broad range of methods.",
+ "primary": "stat.ML"
+}

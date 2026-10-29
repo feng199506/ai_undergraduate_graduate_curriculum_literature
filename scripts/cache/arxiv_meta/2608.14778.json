@@ -1,0 +1,26 @@
+{
+ "id": "2608.14778",
+ "title": "AMPLIFAI: A Multiphase CT Dataset for Benchmarking Clinical Reasoning in LI-RADS Assessment of Liver Lesions",
+ "authors": [
+  "Pranav Kulkarni",
+  "Nikhil Shah",
+  "Amritansh Suryavanshi",
+  "Jana G. Delfino",
+  "James Tonascia",
+  "Jade Wong-You-Cheong",
+  "Barton Lane",
+  "Joseph Chirico",
+  "Jeffrey D. Hirsch",
+  "Ang Li",
+  "Heng Huang",
+  "Florence X. Doo"
+ ],
+ "v1_date": "2026-08-14",
+ "latest_version": 2,
+ "latest_date": "2026-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 6 figures, 3 tables",
+ "abstract": "Hepatocellular carcinoma (HCC) is the third leading cause of cancer-related mortality worldwide, with early detection improving survival from <20% to >70%. The standardized Liver Imaging Reporting and Data System (LI-RADS) criteria provide an imaging-based diagnostic framework to evaluate liver lesions for HCC, serving as a foundation for automating HCC detection with artificial intelligence (AI). However, the lack of large, publicly available datasets with high-quality annotations has limited the development and evaluation of AI models for automated LI-RADS assessment. We introduce AMPLIFAI dataset, the first public dataset of 590 multiphase abdominal CT studies annotated with LI-RADS categories, lesion size, and voxel-level segmentations for three major LI-RADS features: arterial phase hyperenhancement, washout, and enhancing capsule. The dataset was curated and harmonized from four public datasets and augmented with expert annotations from five board-certified radiologists and one resident. Following the Datasheets for Datasets format, this paper details the dataset's composition, curation and harmonization process, and annotation workflow to support transparent, reproducible research in medical imaging AI.",
+ "primary": "cs.CV"
+}

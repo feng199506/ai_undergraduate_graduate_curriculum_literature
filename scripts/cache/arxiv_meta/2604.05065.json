@@ -1,0 +1,17 @@
+{
+ "id": "2604.05065",
+ "title": "Adaptive LSQR Preconditioning from One Small Sketch",
+ "authors": [
+  "Jung Eun Huh",
+  "Coralia Cartis",
+  "Yuji Nakatsukasa"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 1,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose APLICUR, an adaptive preconditioning framework for large-scale linear least-squares (LLS) problems. Using a single small sketch computed once at initialization, APLICUR incrementally refines a CUR-based preconditioner throughout the Krylov solve, interleaving preconditioning with iteration. This enables early convergence without the need to construct a costly high-quality preconditioner upfront. With a modest sketch dimension (typically 5 - 250), largely independent of both the problem size and numerical rank, APLICUR achieves convergence guarantees that are likewise independent of the sketch size. The method is applicable to general matrices without structural assumptions (e.g. need not be heavily overdetermined) and is well suited to large, sparse, or numerically low-rank problems. We conduct extensive numerical studies to examine the behavior of the proposed framework and guide the effective algorithmic design choices. Across a range of test problems, \\mainalg{} achieves competitive or improved time-to-accuracy performance compared with established randomized preconditioners, including Blendenpik and Nyström PCG, while maintaining low setup cost and robustness across problem regimes.",
+ "primary": "math.NA"
+}

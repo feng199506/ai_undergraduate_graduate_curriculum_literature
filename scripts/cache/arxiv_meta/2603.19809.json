@@ -1,0 +1,25 @@
+{
+ "id": "2603.19809",
+ "title": "How Well Does Generative Recommendation Generalize?",
+ "authors": [
+  "Yijie Ding",
+  "Zitian Guo",
+  "Jiacheng Li",
+  "Letian Peng",
+  "Shuai Shao",
+  "Wei Shao",
+  "Xiaoqiang Luo",
+  "Luke Simon",
+  "Jingbo Shang",
+  "Julian McAuley",
+  "Yupeng Hou"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A widely held hypothesis for why generative recommendation (GR) models outperform conventional item ID-based models is that they generalize better. However, there is few systematic way to verify this hypothesis beyond a superficial comparison of overall performance. To address this gap, we categorize each data instance based on the specific capability required for a correct prediction: either memorization (reusing item transition patterns observed during training) or generalization (composing known patterns to predict unseen item transitions). Extensive experiments show that GR models perform better on instances that require generalization, whereas item ID-based models perform better when memorization is more important. To explain this divergence, we shift the analysis from the item level to the token level and show that what appears to be item-level generalization often reduces to token-level memorization for GR models. Finally, we show that the two paradigms are complementary. We propose a simple memorization-aware indicator that adaptively combines them on a per-instance basis, leading to improved overall recommendation performance.",
+ "primary": "cs.IR"
+}

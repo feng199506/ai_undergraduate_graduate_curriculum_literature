@@ -1,0 +1,19 @@
+{
+ "id": "2402.11523",
+ "title": "Neighborhood-Enhanced Supervised Contrastive Learning for Collaborative Filtering",
+ "authors": [
+  "Peijie Sun",
+  "Le Wu",
+  "Kun Zhang",
+  "Xiangzhi Chen",
+  "Meng Wang"
+ ],
+ "v1_date": "2024-02-18",
+ "latest_version": 1,
+ "latest_date": "2024-02-18",
+ "journal_ref": "IEEE TKDE, 2023",
+ "doi": "10.1109/tkde.2023.3317068",
+ "comment": "",
+ "abstract": "While effective in recommendation tasks, collaborative filtering (CF) techniques face the challenge of data sparsity. Researchers have begun leveraging contrastive learning to introduce additional self-supervised signals to address this. However, this approach often unintentionally distances the target user/item from their collaborative neighbors, limiting its efficacy. In response, we propose a solution that treats the collaborative neighbors of the anchor node as positive samples within the final objective loss function. This paper focuses on developing two unique supervised contrastive loss functions that effectively combine supervision signals with contrastive loss. We analyze our proposed loss functions through the gradient lens, demonstrating that different positive samples simultaneously influence updating the anchor node's embeddings. These samples' impact depends on their similarities to the anchor node and the negative samples. Using the graph-based collaborative filtering model as our backbone and following the same data augmentation methods as the existing contrastive learning model SGL, we effectively enhance the performance of the recommendation model. Our proposed Neighborhood-Enhanced Supervised Contrastive Loss (NESCL) model substitutes the contrastive loss function in SGL with our novel loss function, showing marked performance improvement. On three real-world datasets, Yelp2018, Gowalla, and Amazon-Book, our model surpasses the original SGL by 10.09%, 7.09%, and 35.36% on NDCG@20, respectively.",
+ "primary": "cs.IR"
+}

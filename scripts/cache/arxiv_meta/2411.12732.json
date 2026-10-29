@@ -1,0 +1,17 @@
+{
+ "id": "2411.12732",
+ "title": "Benchmarking Positional Encodings for GNNs and Graph Transformers",
+ "authors": [
+  "Florian Grötschla",
+  "Jiaqing Xie",
+  "Roger Wattenhofer"
+ ],
+ "v1_date": "2024-11-19",
+ "latest_version": 2,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "10.1145/3770854.3785701",
+ "comment": "Accepted at KDD 2026 Datasets & Benchmarks Track",
+ "abstract": "Positional Encodings (PEs) are essential for injecting structural information into Graph Neural Networks (GNNs), particularly Graph Transformers, yet their empirical impact remains insufficiently understood. We introduce a unified benchmarking framework that decouples PEs from architectural choices, enabling a fair comparison across 8 GNN and Transformer models, 9 PEs, and 10 synthetic and real-world datasets. Across more than 500 model-PE-dataset configurations, we find that commonly used expressiveness proxies, including Weisfeiler-Lehman distinguishability, do not reliably predict downstream performance. In particular, highly expressive PEs frequently fail to improve, and can even degrade performance on real-world tasks. At the same time, we identify several simple and previously overlooked model-PE combinations that match or outperform recent state-of-the-art methods. Our results demonstrate the strong task-dependence of PEs and underscore the need for empirical validation beyond theoretical expressiveness. To support reproducible research, we release an open-source benchmarking framework for evaluating PEs for graph learning tasks.",
+ "primary": "cs.LG"
+}

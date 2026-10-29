@@ -1,0 +1,20 @@
+{
+ "id": "2311.13379",
+ "title": "Pruning-Based Extraction of Descriptions from Probabilistic Circuits",
+ "authors": [
+  "Sieben Bocklandt",
+  "Vincent Derkinderen",
+  "Koen Vanderstraeten",
+  "Wouter Pijpops",
+  "Kurt Jaspers",
+  "Wannes Meert"
+ ],
+ "v1_date": "2023-11-22",
+ "latest_version": 2,
+ "latest_date": "2024-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Concept learning is a general task with applications in various domains. As a motivating example we consider the application of music playlist generation, where a playlist is represented as a concept (e.g., `relaxing music') rather than as a fixed collection of songs. In this work we use a probabilistic circuit to learn a concept from positively labelled and unlabelled examples. While these circuits form an attractive tractable model for this task, it is challenging for a domain expert to inspect and analyse them, which impedes their use within certain applications. We propose to resolve this by converting a learned probabilistic circuit into a logic-based discriminative model that covers the high density regions of the circuit. That is, those regions the circuit classifies as certainly being part of the learned concept. As part of this approach we present two contributions: PUTPUT, an algorithm to prune low density regions from a probabilistic circuit while considering both the F1-score and a newly proposed description length that we call aggregated entropy. Our experiments demonstrate the effectiveness of our approach in providing discriminative models, outperforming competitors on the music playlist generation task and similar datasets.",
+ "primary": "cs.AI"
+}

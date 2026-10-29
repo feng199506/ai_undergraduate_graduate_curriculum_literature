@@ -1,0 +1,19 @@
+{
+ "id": "2503.07806",
+ "title": "Towards Large Language Models that Benefit for All: Benchmarking Group Fairness in Reward Models",
+ "authors": [
+  "Kefan Song",
+  "Jin Yao",
+  "Runnan Jiang",
+  "Rohan Chandra",
+  "Shangtong Zhang"
+ ],
+ "v1_date": "2025-03-10",
+ "latest_version": 1,
+ "latest_date": "2025-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As Large Language Models (LLMs) become increasingly powerful and accessible to human users, ensuring fairness across diverse demographic groups, i.e., group fairness, is a critical ethical concern. However, current fairness and bias research in LLMs is limited in two aspects. First, compared to traditional group fairness in machine learning classification, it requires that the non-sensitive attributes, in this case, the prompt questions, be the same across different groups. In many practical scenarios, different groups, however, may prefer different prompt questions and this requirement becomes impractical. Second, it evaluates group fairness only for the LLM's final output without identifying the source of possible bias. Namely, the bias in LLM's output can result from both the pretraining and the finetuning. For finetuning, the bias can result from both the RLHF procedure and the learned reward model. Arguably, evaluating the group fairness of each component in the LLM pipeline could help develop better methods to mitigate the possible bias. Recognizing those two limitations, this work benchmarks the group fairness of learned reward models. By using expert-written text from arXiv, we are able to benchmark the group fairness of reward models without requiring the same prompt questions across different demographic groups. Surprisingly, our results demonstrate that all the evaluated reward models (e.g., Nemotron-4-340B-Reward, ArmoRM-Llama3-8B-v0.1, and GRM-llama3-8B-sftreg) exhibit statistically significant group unfairness. We also observed that top-performing reward models (w.r.t. canonical performance metrics) tend to demonstrate better group fairness.",
+ "primary": "cs.CL"
+}

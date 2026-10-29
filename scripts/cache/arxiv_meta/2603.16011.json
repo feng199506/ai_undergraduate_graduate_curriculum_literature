@@ -1,0 +1,21 @@
+{
+ "id": "2603.16011",
+ "title": "FormulaCode: Evaluating Agentic Optimization on Large Codebases",
+ "authors": [
+  "Atharva Sehgal",
+  "James Hou",
+  "Akanksha Sarkar",
+  "Ishaan Mantripragada",
+  "Swarat Chaudhuri",
+  "Jennifer J. Sun",
+  "Yisong Yue"
+ ],
+ "v1_date": "2026-03-16",
+ "latest_version": 3,
+ "latest_date": "2026-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML Camera Ready Version",
+ "abstract": "Large language model (LLM) coding agents increasingly operate at the repository level, motivating benchmarks that evaluate their ability to optimize entire codebases under realistic constraints. Existing code benchmarks largely rely on synthetic tasks, binary correctness signals, or single-objective evaluation, limiting their ability to assess holistic optimization behavior. We introduce FormulaCode, a benchmark for evaluating agentic optimization on large, real-world codebases with fine-grained, multi-objective performance metrics. FormulaCode comprises 957 performance bottlenecks mined from scientific Python repositories on GitHub, each paired with expert-authored patches and, on average, 264.6 community-maintained performance workloads per task, enabling the holistic ability of LLM agents to optimize codebases under realistic correctness and performance constraints. Our evaluations reveal that repository-scale, multi-objective optimization remains a major challenge for frontier LLM agents. Project website at: https://formula-code.github.io",
+ "primary": "cs.SE"
+}

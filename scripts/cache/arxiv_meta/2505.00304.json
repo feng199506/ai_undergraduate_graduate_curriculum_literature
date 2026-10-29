@@ -1,0 +1,21 @@
+{
+ "id": "2505.00304",
+ "title": "Reinforcement Learning with Continuous Actions Under Unmeasured Confounding",
+ "authors": [
+  "Yuhan Li",
+  "Eugene Han",
+  "Yifan Hu",
+  "Wenzhuo Zhou",
+  "Zhengling Qi",
+  "Yifan Cui",
+  "Ruoqing Zhu"
+ ],
+ "v1_date": "2025-05-01",
+ "latest_version": 1,
+ "latest_date": "2025-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses the challenge of offline policy learning in reinforcement learning with continuous action spaces when unmeasured confounders are present. While most existing research focuses on policy evaluation within partially observable Markov decision processes (POMDPs) and assumes discrete action spaces, we advance this field by establishing a novel identification result to enable the nonparametric estimation of policy value for a given target policy under an infinite-horizon framework. Leveraging this identification, we develop a minimax estimator and introduce a policy-gradient-based algorithm to identify the in-class optimal policy that maximizes the estimated policy value. Furthermore, we provide theoretical results regarding the consistency, finite-sample error bound, and regret bound of the resulting optimal policy. Extensive simulations and a real-world application using the German Family Panel data demonstrate the effectiveness of our proposed methodology.",
+ "primary": "stat.ML"
+}

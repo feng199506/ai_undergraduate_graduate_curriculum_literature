@@ -1,0 +1,16 @@
+{
+ "id": "2509.12497",
+ "title": "Prediction and Causality of functional MRI and synthetic signal using a Zero-Shot Time-Series Foundation Model",
+ "authors": [
+  "Alessandro Crimi",
+  "Andrea Brovelli"
+ ],
+ "v1_date": "2025-09-15",
+ "latest_version": 2,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time-series forecasting and causal discovery are central in neuroscience, as predicting brain activity and identifying causal relationships between neural populations and circuits can shed light on the mechanisms underlying cognition and disease. With the rise of foundation models, an open question is how they compare to traditional methods for brain signal forecasting and causality analysis, and whether they can be applied in a zero-shot setting. In this work, we evaluate a foundation model against classical methods for inferring directional interactions from spontaneous brain activity measured with functional magnetic resonance imaging (fMRI) in humans. Traditional approaches often rely on Wiener-Granger causality. We tested the forecasting ability of the foundation model in both zero-shot and fine-tuned settings, and assessed causality by comparing Granger-like estimates from the model with standard Granger causality. We validated the approach using synthetic time series generated from ground-truth causal models, including logistic map coupling and Ornstein-Uhlenbeck processes. The foundation model achieved competitive zero-shot forecasting fMRI time series (mean absolute percentage error of 0.55 in controls and 0.27 in patients). Although standard Granger causality did not show clear quantitative differences between models, the foundation model provided a more precise detection of causal interactions. Overall, these findings suggest that foundation models offer versatility, strong zero-shot performance, and potential utility for forecasting and causal discovery in time-series data.",
+ "primary": "cs.LG"
+}

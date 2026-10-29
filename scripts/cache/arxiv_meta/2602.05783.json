@@ -1,0 +1,22 @@
+{
+ "id": "2602.05783",
+ "title": "Distributional Reinforcement Learning with Diffusion Bridge Critics",
+ "authors": [
+  "Shutong Ding",
+  "Yimiao Zhou",
+  "Ke Hu",
+  "Mokai Pan",
+  "Shan Zhong",
+  "Yanwei Fu",
+  "Jingya Wang",
+  "Ye Shi"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 1,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in diffusion-based reinforcement learning (RL) methods have demonstrated promising results in a wide range of continuous control tasks. However, existing works in this field focus on the application of diffusion policies while leaving the diffusion critics unexplored. In fact, since policy optimization fundamentally relies on the critic, accurate value estimation is far more important than policy expressiveness. Furthermore, given the stochasticity of most reinforcement learning tasks, it has been confirmed that the critic is more appropriately depicted with a distributional model. Motivated by these points, we propose a novel distributional RL method with Diffusion Bridge Critics (DBC). DBC directly models the inverse cumulative distribution function (CDF) of the Q value. This allows us to accurately capture the value distribution and prevents it from collapsing into a trivial Gaussian distribution owing to the strong distribution-matching capability of the diffusion bridge. Moreover, we further derive an analytic integral formula to address discretization errors in DBC, which is essential in value estimation. To our knowledge, DBC is the first work to employ the diffusion bridge model as the critic. Notably, DBC is also a plug-and-play component and can be integrated into most existing RL frameworks. Experimental results on MuJoCo robot control benchmarks demonstrate the superiority of DBC compared with previous distributional critic models.",
+ "primary": "cs.LG"
+}

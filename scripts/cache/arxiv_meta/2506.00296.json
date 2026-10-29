@@ -1,0 +1,17 @@
+{
+ "id": "2506.00296",
+ "title": "CRScore++: Reinforcement Learning with Verifiable Tool and AI Feedback for Code Review",
+ "authors": [
+  "Manav Nitin Kapadnis",
+  "Atharva Naik",
+  "Carolyn Rose"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 1,
+ "latest_date": "2025-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reinforcement learning (RL) to improve code review comment generation requires handling unstructured outputs, making reinforcement learning (RL) feedback challenging. The two main RL approaches, namely RL with Verifiable Feedback (RLVR) and RL with AI Feedback (RLAIF), offer trade-offs: RLVR provides reliable feedback for structured tasks like code generation, while RLAIF works for unstructured outputs but is subjective. We bridge this gap with CRScore++, an RL framework that leverages both LLM-based subjective feedback and verifiable signals for training. Extending CRScore, a code review evaluation metric integrating LLMs with verifiers like linters and code smell detectors, CRScore++ transforms these signals into training rewards. We show that CRScore++ improves a weaker student model through a combination of supervised fine-tuning and RL critique from a stronger teacher model, thus enabling generalization to novel programming languages.",
+ "primary": "cs.SE"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2409.00300",
+ "title": "Data is missing again -- Reconstruction of power generation data using $k$-Nearest Neighbors and spectral graph theory",
+ "authors": [
+  "Amandine Pierrot",
+  "Pierre Pinson"
+ ],
+ "v1_date": "2024-08-30",
+ "latest_version": 1,
+ "latest_date": "2024-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 5 figures, 7 tables",
+ "abstract": "The risk of missing data and subsequent incomplete data records at wind farms increases with the number of turbines and sensors. We propose here an imputation method that blends data-driven concepts with expert knowledge, by using the geometry of the wind farm in order to provide better estimates when performing Nearest Neighbor imputation. Our method relies on learning Laplacian eigenmaps out of the graph of the wind farm through spectral graph theory. These learned representations can be based on the wind farm layout only, or additionally account for information provided by collected data. The related weighted graph is allowed to change with time and can be tracked in an online fashion. Application to the Westermost Rough offshore wind farm shows significant improvement over approaches that do not account for the wind farm layout information.",
+ "primary": "stat.AP"
+}

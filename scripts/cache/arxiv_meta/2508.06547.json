@@ -1,0 +1,17 @@
+{
+ "id": "2508.06547",
+ "title": "A tutorial note on collecting simulated data for vision-language-action models",
+ "authors": [
+  "Heran Wu",
+  "Zirun Zhou",
+  "Jingfeng Zhang"
+ ],
+ "v1_date": "2025-08-06",
+ "latest_version": 1,
+ "latest_date": "2025-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is a tutorial note for educational purposes",
+ "abstract": "Traditional robotic systems typically decompose intelligence into independent modules for computer vision, natural language processing, and motion control. Vision-Language-Action (VLA) models fundamentally transform this approach by employing a single neural network that can simultaneously process visual observations, understand human instructions, and directly output robot actions -- all within a unified framework. However, these systems are highly dependent on high-quality training datasets that can capture the complex relationships between visual observations, language instructions, and robotic actions. This tutorial reviews three representative systems: the PyBullet simulation framework for flexible customized data generation, the LIBERO benchmark suite for standardized task definition and evaluation, and the RT-X dataset collection for large-scale multi-robot data acquisition. We demonstrated dataset generation approaches in PyBullet simulation and customized data collection within LIBERO, and provide an overview of the characteristics and roles of the RT-X dataset for large-scale multi-robot data acquisition.",
+ "primary": "cs.RO"
+}

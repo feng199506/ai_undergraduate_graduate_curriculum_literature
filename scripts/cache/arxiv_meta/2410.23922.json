@@ -1,0 +1,17 @@
+{
+ "id": "2410.23922",
+ "title": "Analyzing & Reducing the Need for Learning Rate Warmup in GPT Training",
+ "authors": [
+  "Atli Kosson",
+  "Bettina Messmer",
+  "Martin Jaggi"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 1,
+ "latest_date": "2024-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2024",
+ "abstract": "Learning Rate Warmup is a popular heuristic for training neural networks, especially at larger batch sizes, despite limited understanding of its benefits. Warmup decreases the update size $Δ\\mathbf{w}_t = η_t \\mathbf{u}_t$ early in training by using lower values for the learning rate $η_t$. In this work we argue that warmup benefits training by keeping the overall size of $Δ\\mathbf{w}_t$ limited, counteracting large initial values of $\\mathbf{u}_t$. Focusing on small-scale GPT training with AdamW/Lion, we explore the following question: Why and by which criteria are early updates $\\mathbf{u}_t$ too large? We analyze different metrics for the update size including the $\\ell_2$-norm, resulting directional change, and impact on the representations of the network, providing a new perspective on warmup. In particular, we find that warmup helps counteract large angular updates as well as a limited critical batch size early in training. Finally, we show that the need for warmup can be significantly reduced or eliminated by modifying the optimizer to explicitly normalize $\\mathbf{u}_t$ based on the aforementioned metrics.",
+ "primary": "cs.LG"
+}

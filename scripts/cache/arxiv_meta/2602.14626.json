@@ -1,0 +1,18 @@
+{
+ "id": "2602.14626",
+ "title": "Concepts' Information Bottleneck Models",
+ "authors": [
+  "Karim Galliamov",
+  "Syed M Ahsan Kazmi",
+  "Adil Khan",
+  "Adín Ramírez Rivera"
+ ],
+ "v1_date": "2026-02-16",
+ "latest_version": 1,
+ "latest_date": "2026-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in ICLR 2026, code: https://github.com/dsb-ifi/cibm",
+ "abstract": "Concept Bottleneck Models (CBMs) aim to deliver interpretable predictions by routing decisions through a human-understandable concept layer, yet they often suffer reduced accuracy and concept leakage that undermines faithfulness. We introduce an explicit Information Bottleneck regularizer on the concept layer that penalizes $I(X;C)$ while preserving task-relevant information in $I(C;Y)$, encouraging minimal-sufficient concept representations. We derive two practical variants (a variational objective and an entropy-based surrogate) and integrate them into standard CBM training without architectural changes or additional supervision. Evaluated across six CBM families and three benchmarks, the IB-regularized models consistently outperform their vanilla counterparts. Information-plane analyses further corroborate the intended behavior. These results indicate that enforcing a minimal-sufficient concept bottleneck improves both predictive performance and the reliability of concept-level interventions. The proposed regularizer offers a theoretic-grounded, architecture-agnostic path to more faithful and intervenable CBMs, resolving prior evaluation inconsistencies by aligning training protocols and demonstrating robust gains across model families and datasets.",
+ "primary": "cs.LG"
+}

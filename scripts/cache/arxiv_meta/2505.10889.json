@@ -1,0 +1,18 @@
+{
+ "id": "2505.10889",
+ "title": "Convergence Analysis of the Last Iterate in Distributed Stochastic Gradient Descent with Momentum",
+ "authors": [
+  "Difei Cheng",
+  "Ruinan Jin",
+  "Hong Qiao",
+  "Bo Zhang"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 1,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "Distributed stochastic gradient methods are widely used to preserve data privacy and ensure scalability in large-scale learning tasks. While existing theory on distributed momentum Stochastic Gradient Descent (mSGD) mainly focuses on time-averaged convergence, the more practical last-iterate convergence remains underexplored. In this work, we analyze the last-iterate convergence behavior of distributed mSGD in non-convex settings under the classical Robbins-Monro step-size schedule. We prove both almost sure convergence and $L_2$ convergence of the last iterate, and derive convergence rates. We further show that momentum can accelerate early-stage convergence, and provide experiments to support our theory.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2404.11982",
+ "title": "SIGformer: Sign-aware Graph Transformer for Recommendation",
+ "authors": [
+  "Sirui Chen",
+  "Jiawei Chen",
+  "Sheng Zhou",
+  "Bohao Wang",
+  "Shen Han",
+  "Chanfei Su",
+  "Yuqing Yuan",
+  "Can Wang"
+ ],
+ "v1_date": "2024-04-18",
+ "latest_version": 3,
+ "latest_date": "2024-05-06",
+ "journal_ref": "",
+ "doi": "10.1145/3626772.3657747",
+ "comment": "Accepted by SIGIR2024",
+ "abstract": "In recommender systems, most graph-based methods focus on positive user feedback, while overlooking the valuable negative feedback. Integrating both positive and negative feedback to form a signed graph can lead to a more comprehensive understanding of user preferences. However, the existing efforts to incorporate both types of feedback are sparse and face two main limitations: 1) They process positive and negative feedback separately, which fails to holistically leverage the collaborative information within the signed graph; 2) They rely on MLPs or GNNs for information extraction from negative feedback, which may not be effective. To overcome these limitations, we introduce SIGformer, a new method that employs the transformer architecture to sign-aware graph-based recommendation. SIGformer incorporates two innovative positional encodings that capture the spectral properties and path patterns of the signed graph, enabling the full exploitation of the entire graph. Our extensive experiments across five real-world datasets demonstrate the superiority of SIGformer over state-of-the-art methods. The code is available at https://github.com/StupidThree/SIGformer.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2405.19521",
+ "title": "Hierarchical Bayesian Crowdsourcing with Item Difficulty",
+ "authors": [
+  "Seong Woo Han",
+  "Ozan Adıgüzel",
+  "Bob Carpenter"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 3,
+ "latest_date": "2026-07-03",
+ "journal_ref": "ProbML 2026 Workshop Track",
+ "doi": "",
+ "comment": "",
+ "abstract": "In applied statistics and machine learning, the gold standards used for training are often biased and almost always noisy. Dawid and Skene's justifiably popular crowdsourcing model adjusts for rater sensitivity and specificity, but fails to capture distributional properties of rating data gathered for training, which in turn biases training. In this study, we introduce a general purpose measurement-error model with which we can infer consensus categories by adding item-level effects for difficulty, discriminativeness, and guessability. We further show how to constrain the bimodal posterior of these models to avoid adversarial raters. We validate our model's goodness of fit with posterior predictive checks, the Bayesian analogue of $χ^2$ tests, and assess its predictive accuracy using leave-one-out cross-validation. We illustrate our new model with two well-studied data sets, binary rating data for caries in dental X-rays and implication in natural language.",
+ "primary": "cs.LG"
+}

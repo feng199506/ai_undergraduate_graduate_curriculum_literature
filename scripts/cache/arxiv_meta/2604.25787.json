@@ -1,0 +1,16 @@
+{
+ "id": "2604.25787",
+ "title": "Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation",
+ "authors": [
+  "Yu Liu",
+  "Jiangxia Cao"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 1,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Work in progress",
+ "abstract": "Generative recommender systems have recently emerged as a promising paradigm by formulating next-item prediction as an auto-regressive semantic IDs generation, such as OneRec series works. However, with the next-item-agnostic prediction paradigm, its could beam out some next potential items via Semantic IDs but hard to estimate which items are better from them, e.g., select the top-10 from beam-256 items, leading to a gap between generation and ranking performance. To fulfill this gap, we propose RecoChain, a unified generative retrieval and ranking framework that integrates candidate generation and ranking within a single Transformer backbone. Specifically, in inference, the model first generates candidate items via hierarchical semantic ID prediction, then performs the SIM-based ranking process to estimate the click possibility of corresponding item candidate continuously. Extensive experiments on large-scale real-world datasets demonstrate that our approach effectively bridges the gap between generative retrieval and ranking, achieving improved Top-K recommendation performance while maintaining strong generative capability.",
+ "primary": "cs.IR"
+}

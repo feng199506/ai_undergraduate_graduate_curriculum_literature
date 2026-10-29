@@ -1,0 +1,23 @@
+{
+ "id": "2407.11676",
+ "title": "SKADA-Bench: Benchmarking Unsupervised Domain Adaptation Methods with Realistic Validation On Diverse Modalities",
+ "authors": [
+  "Yanis Lalou",
+  "Théo Gnassounou",
+  "Antoine Collas",
+  "Antoine de Mathelin",
+  "Oleksii Kachaiev",
+  "Ambroise Odonnat",
+  "Alexandre Gramfort",
+  "Thomas Moreau",
+  "Rémi Flamary"
+ ],
+ "v1_date": "2024-07-16",
+ "latest_version": 4,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in Transactions on Machine Learning Research",
+ "abstract": "Unsupervised Domain Adaptation (DA) consists of adapting a model trained on a labeled source domain to perform well on an unlabeled target domain with some data distribution shift. While many methods have been proposed in the literature, fair and realistic evaluation remains an open question, particularly due to methodological difficulties in selecting hyperparameters in the unsupervised setting. With SKADA-bench, we propose a framework to evaluate DA methods on diverse modalities, beyond computer vision task that have been largely explored in the literature. We present a complete and fair evaluation of existing shallow algorithms, including reweighting, mapping, and subspace alignment. Realistic hyperparameter selection is performed with nested cross-validation and various unsupervised model selection scores, on both simulated datasets with controlled shifts and real-world datasets across diverse modalities, such as images, text, biomedical, and tabular data. Our benchmark highlights the importance of realistic validation and provides practical guidance for real-life applications, with key insights into the choice and impact of model selection approaches. SKADA-bench is open-source, reproducible, and can be easily extended with novel DA methods, datasets, and model selection criteria without requiring re-evaluating competitors. SKADA-bench is available on Github at https://github.com/scikit-adaptation/skada-bench.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2410.09385",
+ "title": "Mamba4Cast: Efficient Zero-Shot Time Series Forecasting with State Space Models",
+ "authors": [
+  "Sathya Kamesh Bhethanabhotla",
+  "Omar Swelam",
+  "Julien Siems",
+  "David Salinas",
+  "Frank Hutter"
+ ],
+ "v1_date": "2024-10-12",
+ "latest_version": 1,
+ "latest_date": "2024-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces Mamba4Cast, a zero-shot foundation model for time series forecasting. Based on the Mamba architecture and inspired by Prior-data Fitted Networks (PFNs), Mamba4Cast generalizes robustly across diverse time series tasks without the need for dataset specific fine-tuning. Mamba4Cast's key innovation lies in its ability to achieve strong zero-shot performance on real-world datasets while having much lower inference times than time series foundation models based on the transformer architecture. Trained solely on synthetic data, the model generates forecasts for entire horizons in a single pass, outpacing traditional auto-regressive approaches. Our experiments show that Mamba4Cast performs competitively against other state-of-the-art foundation models in various data sets while scaling significantly better with the prediction length. The source code can be accessed at https://github.com/automl/Mamba4Cast.",
+ "primary": "cs.LG"
+}

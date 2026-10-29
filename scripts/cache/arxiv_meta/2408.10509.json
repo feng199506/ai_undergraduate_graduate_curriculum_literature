@@ -1,0 +1,15 @@
+{
+ "id": "2408.10509",
+ "title": "Continuous difference-in-differences with double/debiased machine learning",
+ "authors": [
+  "Lucas Z. Zhang"
+ ],
+ "v1_date": "2024-08-20",
+ "latest_version": 6,
+ "latest_date": "2025-12-12",
+ "journal_ref": "The Econometrics Journal, 2025",
+ "doi": "10.1093/ectj/utaf024",
+ "comment": "",
+ "abstract": "This paper extends difference-in-differences to settings with continuous treatments. Specifically, the average treatment effect on the treated (ATT) at any level of treatment intensity is identified under a conditional parallel trends assumption. Estimating the ATT in this framework requires first estimating infinite-dimensional nuisance parameters, particularly the conditional density of the continuous treatment, which can introduce substantial bias. To address this challenge, we propose estimators for the causal parameters under the double/debiased machine learning framework and establish their asymptotic normality. Additionally, we provide consistent variance estimators and construct uniform confidence bands based on a multiplier bootstrap procedure. To demonstrate the effectiveness of our approach, we revisit a previous study on the 1983 Medicare Prospective Payment System reform, reframing it as a DiD with continuous treatment and non-parametrically estimating its effects.",
+ "primary": "econ.EM"
+}

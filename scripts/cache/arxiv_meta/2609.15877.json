@@ -1,0 +1,19 @@
+{
+ "id": "2609.15877",
+ "title": "Using Agentic AI for contextualized and multifaceted code review at Ericsson",
+ "authors": [
+  "Muhammad Laiq",
+  "Ricardo Britto",
+  "Muhammad Usman",
+  "Nishrith Saini",
+  "Deepika Badampudi"
+ ],
+ "v1_date": "2026-09-14",
+ "latest_version": 1,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the 27th International Conference on Product-Focused Software Process Improvement (PROFES 2026)",
+ "abstract": "Context: Conducting effective code reviews is increasingly challenging due to the growing complexity of software systems and the accelerated code generation by AI coding agents. LLM-based approaches for code reviews have shown promising results in identifying defects and improving code quality. However, existing approaches rarely consider project-specific contextualized knowledge, and few have been evaluated in industrial settings. Objective: In this study, we propose a multi-agent-based solution that provides multifaceted assessments of code changes. Method: Following the Design Science Research Process, we developed and evaluated our solution in an industrial setting. Our solution combines specialized agent skills with context-specific knowledge to identify antipatterns in code changes across four dimensions: readability, maintainability, reliability, and performance. Using our solution, we generated reviews for several code commits and identified more than 200 issues. These issues were then manually validated by the developers of the case company for their correctness and importance. Results: The evaluation results show that our solution achieves 96% accuracy in correctly identifying issues in the investigated code commits. Furthermore, around 69% of the correctly identified issues were rated as important, with approximately 33% rated as severe issues that must be fixed and 36% as important issues that should be fixed. Qualitative feedback from developers corroborates these findings and highlights the usefulness of the generated reviews. Conclusion: Our findings provide empirical evidence from an industrial evaluation that combining specialized agent skills with context-specific knowledge yields accurate, practically useful code reviews.",
+ "primary": "cs.SE"
+}

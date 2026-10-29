@@ -1,0 +1,19 @@
+{
+ "id": "2411.00845",
+ "title": "End-to-end Graph Learning Approach for Cognitive Diagnosis of Student Tutorial",
+ "authors": [
+  "Fulai Yang",
+  "Di Wu",
+  "Yi He",
+  "Li Tao",
+  "Xin Luo"
+ ],
+ "v1_date": "2024-10-30",
+ "latest_version": 1,
+ "latest_date": "2024-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cognitive diagnosis (CD) utilizes students' existing studying records to estimate their mastery of unknown knowledge concepts, which is vital for evaluating their learning abilities. Accurate CD is extremely challenging because CD is associated with complex relationships and mechanisms among students, knowledge concepts, studying records, etc. However, existing approaches loosely consider these relationships and mechanisms by a non-end-to-end learning framework, resulting in sub-optimal feature extractions and fusions for CD. Different from them, this paper innovatively proposes an End-to-end Graph Neural Networks-based Cognitive Diagnosis (EGNN-CD) model. EGNN-CD consists of three main parts: knowledge concept network (KCN), graph neural networks-based feature extraction (GNNFE), and cognitive ability prediction (CAP). First, KCN constructs CD-related interaction by comprehensively extracting physical information from students, exercises, and knowledge concepts. Second, a four-channel GNNFE is designed to extract high-order and individual features from the constructed KCN. Finally, CAP employs a multi-layer perceptron to fuse the extracted features to predict students' learning abilities in an end-to-end learning way. With such designs, the feature extractions and fusions are guaranteed to be comprehensive and optimal for CD. Extensive experiments on three real datasets demonstrate that our EGNN-CD achieves significantly higher accuracy than state-of-the-art models in CD.",
+ "primary": "cs.LG"
+}

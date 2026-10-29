@@ -1,0 +1,17 @@
+{
+ "id": "2503.03908",
+ "title": "On the Convergence of Adam-Type Algorithm for Bilevel Optimization under Unbounded Smoothness",
+ "authors": [
+  "Xiaochuan Gong",
+  "Jie Hao",
+  "Mingrui Liu"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 1,
+ "latest_date": "2025-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 5 figures",
+ "abstract": "Adam has become one of the most popular optimizers for training modern deep neural networks, such as transformers. However, its applicability is largely restricted to single-level optimization problems. In this paper, we aim to extend vanilla Adam to tackle bilevel optimization problems, which have important applications in machine learning, such as meta-learning. In particular, we study stochastic bilevel optimization problems where the lower-level function is strongly convex and the upper-level objective is nonconvex with potentially unbounded smoothness. This unbounded smooth objective function covers a broad class of neural networks, including transformers, which may exhibit non-Lipschitz gradients. In this work, we introduce AdamBO, a single-loop Adam-type method that achieves $\\widetilde{O}(ε^{-4})$ oracle complexity to find $ε$-stationary points, where the oracle calls involve stochastic gradient or Hessian/Jacobian-vector product evaluations. The key to our analysis is a novel randomness decoupling lemma that provides refined control over the lower-level variable. We conduct extensive experiments on various machine learning tasks involving bilevel formulations with recurrent neural networks (RNNs) and transformers, demonstrating the effectiveness of our proposed Adam-type algorithm.",
+ "primary": "cs.LG"
+}

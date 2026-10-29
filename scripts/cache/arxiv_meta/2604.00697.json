@@ -1,0 +1,18 @@
+{
+ "id": "2604.00697",
+ "title": "Inverse-Free Sparse Variational Gaussian Processes",
+ "authors": [
+  "Stefano Cortinovis",
+  "Laurence Aitchison",
+  "Stefanos Eleftheriadis",
+  "Mark van der Wilk"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AISTATS 2026. 20 pages, 3 figures, 2 tables",
+ "abstract": "Gaussian processes (GPs) offer appealing properties but are costly to train at scale. Sparse variational GP (SVGP) approximations reduce cost yet still rely on Cholesky decompositions of kernel matrices, ill-suited to low-precision, massively parallel hardware. While one can construct valid variational bounds that rely only on matrix multiplications (matmuls) via an auxiliary matrix parameter, optimising them with off-the-shelf first-order methods is challenging. We make the inverse-free approach practical by proposing a better-conditioned bound and deriving a matmul-only natural-gradient update for the auxiliary parameter, markedly improving stability and convergence. We further provide simple heuristics, such as step-size schedules and stopping criteria, that make the overall optimisation routine fit seamlessly into existing workflows. Across regression and classification benchmarks, we demonstrate that our method 1) serves as a drop-in replacement in SVGP-based models (e.g., deep GPs), 2) recovers similar performance to traditional methods, and 3) can be faster than baselines when well tuned.",
+ "primary": "stat.ML"
+}

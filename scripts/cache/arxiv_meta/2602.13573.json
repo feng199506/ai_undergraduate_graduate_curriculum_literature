@@ -1,0 +1,18 @@
+{
+ "id": "2602.13573",
+ "title": "Unleash the Potential of Long Semantic IDs for Generative Recommendation",
+ "authors": [
+  "Ming Xia",
+  "Guoxin Ma",
+  "Zhiqin Zhou",
+  "Dongmin Huang"
+ ],
+ "v1_date": "2026-02-14",
+ "latest_version": 2,
+ "latest_date": "2026-08-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "under review",
+ "abstract": "Semantic ID-based generative recommenders face a granularity-efficiency dilemma between efficient recommendation with short IDs and expressive item modeling with long IDs. To break this dilemma, we propose ACERec, a framework that preserves the semantic richness of long IDs while keeping the recommendation process efficient. Concretely, ACERec employs an Attentive Token Merger to compress long semantic IDs into compact yet faithful latent tokens. To better capture user intent from the compressed semantics, we further introduce a dedicated Intent Token, optimized by a dual-granularity objective that combines token-level generation with item-level intent-semantic alignment. Extensive experiments on nine real-world benchmarks show that ACERec consistently outperforms state-of-the-art methods, yielding average relative improvements of 12.92% in NDCG@10 and 7.49% in Recall@10 over the strongest baselines.",
+ "primary": "cs.IR"
+}

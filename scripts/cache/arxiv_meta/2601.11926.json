@@ -1,0 +1,19 @@
+{
+ "id": "2601.11926",
+ "title": "Harmonica: A Self-Adaptation Exemplar for Sustainable MLOps",
+ "authors": [
+  "Ananya Halgatti",
+  "Shaunak Biswas",
+  "Hiya Bhatt",
+  "Srinivasan Rakhunathan",
+  "Karthik Vaidhyanathan"
+ ],
+ "v1_date": "2026-01-17",
+ "latest_version": 2,
+ "latest_date": "2026-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper has been accepted to SEAMS 2026 Artifact Track",
+ "abstract": "Machine learning enabled systems (MLS) often operate in settings where they regularly encounter uncertainties arising from changes in their surrounding environment. Without structured oversight, such changes can degrade model behavior, increase operational cost, and reduce the usefulness of deployed systems. Although Machine Learning Operations (MLOps) streamlines the lifecycle of ML models, it provides limited support for addressing runtime uncertainties that influence the longer term sustainability of MLS. To support continued viability, these systems need a mechanism that detects when execution drifts outside acceptable bounds and adjusts system behavior in response. Despite the growing interest in sustainable and self-adaptive MLS, there has been limited work towards exemplars that allow researchers to study these challenges in MLOps pipelines. This paper presents Harmonica, a self-adaptation exemplar built on the HarmonE approach, designed to enable the sustainable operation of such pipelines. Harmonica introduces structured adaptive control through MAPE-K loop, separating high-level adaptation policy from low-level tactic execution. It continuously monitors sustainability metrics, evaluates them against dynamic adaptation boundaries, and automatically triggers architectural tactics when thresholds are violated. We demonstrate the tool through case studies in time series regression and computer vision, examining its ability to improve system stability and reduce manual intervention. The results show that Harmonica offers a practical and reusable foundation for enabling adaptive behavior in MLS that rely on MLOps pipelines for sustained operation.",
+ "primary": "cs.SE"
+}

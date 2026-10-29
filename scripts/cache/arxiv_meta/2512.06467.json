@@ -1,0 +1,15 @@
+{
+ "id": "2512.06467",
+ "title": "Formalisation of Security for Federated Learning with DP and Attacker Advantage in IIIf for Satellite Swarms -- Extended Version",
+ "authors": [
+  "Florian Kammüller"
+ ],
+ "v1_date": "2025-12-06",
+ "latest_version": 1,
+ "latest_date": "2025-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In distributed applications, like swarms of satellites, machine learning can be efficiently applied even on small devices by using Federated Learning (FL). This allows to reduce the learning complexity by transmitting only updates to the general model in the server in the form of differences in stochastic gradient descent. FL naturally supports differential privacy but new attacks, so called Data Leakage from Gradient (DLG) have been discovered recently. There has been work on defenses against DLG but there is a lack of foundation and rigorous evaluation of their security. In the current work, we extend existing work on a formal notion of Differential Privacy for Federated Learning distributed dynamic systems and relate it to the notion of the attacker advantage. This formalisation is carried out within the Isabelle Insider and Infrastructure framework (IIIf) allowing the machine supported verification of theory and applications within the proof assistant Isabelle. Satellite swarm systems are used as a motivating use case but also as a validation case study.",
+ "primary": "cs.CR"
+}

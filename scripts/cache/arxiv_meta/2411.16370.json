@@ -1,0 +1,19 @@
+{
+ "id": "2411.16370",
+ "title": "A Review of Bayesian Uncertainty Quantification in Deep Probabilistic Image Segmentation",
+ "authors": [
+  "M. M. A. Valiuddin",
+  "R. J. G. van Sloun",
+  "C. G. A. Viviers",
+  "P. H. N. de With",
+  "F. van der Sommen"
+ ],
+ "v1_date": "2024-11-25",
+ "latest_version": 8,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "TMLR",
+ "abstract": "Advances in architectural design, data availability, and compute have driven remarkable progress in semantic segmentation. Yet, these models often rely on relaxed Bayesian assumptions, omitting critical uncertainty information needed for robust decision-making. Despite growing interest in probabilistic segmentation to address point-estimate limitations, the research landscape remains fragmented. In response, this review synthesizes foundational concepts in uncertainty modeling, analyzing how feature- and parameter-distribution modeling impact four key segmentation tasks: Observer Variability, Active Learning, Model Introspection, and Model Generalization. Our work establishes a common framework by standardizing theory, notation, and terminology, thereby bridging the gap between method developers, task specialists, and applied researchers. We then discuss critical challenges, including the nuanced distinction between uncertainty types, strong assumptions in spatial aggregation, the lack of standardized benchmarks, and pitfalls in current quantification methods. We identify promising avenues for future research, such as uncertainty-aware active learning, data-driven benchmarks, transformer-based models, and novel techniques to move from simple segmentation problems to uncertainty in holistic scene understanding. Based on our analysis, we offer practical guidelines for researchers on method selection, evaluation, reproducibility, and meaningful uncertainty estimation. Ultimately, our goal is to facilitate the development of more reliable, efficient, and interpretable segmentation models that can be confidently deployed in real-world applications.",
+ "primary": "cs.CV"
+}

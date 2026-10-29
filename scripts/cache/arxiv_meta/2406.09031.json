@@ -1,0 +1,22 @@
+{
+ "id": "2406.09031",
+ "title": "A Comprehensive Graph Pooling Benchmark: Effectiveness, Robustness and Generalizability",
+ "authors": [
+  "Pengyun Wang",
+  "Junyu Luo",
+  "Yanxin Shen",
+  "Ming Zhang",
+  "Shaoen Qin",
+  "Hanwen Xing",
+  "Siyu Heng",
+  "Xiao Luo"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 5,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph pooling has gained attention for its ability to obtain effective node and graph representations for various downstream tasks. Despite the recent surge in graph pooling approaches, there is a lack of standardized experimental settings and fair benchmarks to evaluate their performance. To address this issue, we have constructed a comprehensive benchmark that includes 17 graph pooling methods and 28 different graph datasets. This benchmark systematically assesses the performance of graph pooling methods in three dimensions, i.e., effectiveness, robustness, and generalizability. We first evaluate the performance of these graph pooling approaches across different tasks including graph classification, graph regression and node classification. Then, we investigate their performance under potential noise attacks and out-of-distribution shifts in real-world scenarios. We also involve detailed efficiency analysis, backbone analysis, parameter analysis and visualization to provide more evidence. Extensive experiments validate the strong capability and applicability of graph pooling approaches in various scenarios, which can provide valuable insights and guidance for deep geometric learning research. The source code of our benchmark is available at https://github.com/goose315/Graph_Pooling_Benchmark.",
+ "primary": "cs.LG"
+}

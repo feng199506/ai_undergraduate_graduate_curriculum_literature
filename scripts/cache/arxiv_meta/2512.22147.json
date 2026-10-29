@@ -1,0 +1,19 @@
+{
+ "id": "2512.22147",
+ "title": "GPU Kernel Optimization Beyond Full Builds: An LLM Framework with Minimal Executable Programs",
+ "authors": [
+  "Ruifan Chu",
+  "Anbang Wang",
+  "Xiuxiu Bai",
+  "Shuai Liu",
+  "Xiaoshe Dong"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 1,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In high-performance computing, hotspot GPU kernels are primary bottlenecks, and expert manual tuning is costly and hard to port. Large language model methods often assume kernels can be compiled and executed cheaply, which fails in large applications where full builds and runs are expensive. We present an end-to-end LLM framework with performance feedback that optimizes kernels without building the full application. From independently extracted hotspot kernels, it automatically completes code into a Minimal Executable Program (MEP), then performs multi-round iterative optimization and evaluation outside the full application. The framework integrates Automatic Error Repair and Performance Pattern Inheritance to fix faults, preserve correctness, reuse effective tiling/memory/synchronization strategies, and reduce search cost. Optimized variants are reintegrated into the original application for validation. We evaluate on NVIDIA GPUs and the Haiguang Deep Computing Unit (DCU) platform (AMD-licensed architecture) using PolyBench, the AMD APP SDK, and hotspot kernels from large-scale supercomputing applications. The method achieves average speedups of 5.05x (PolyBench on NVIDIA), 7.77x (PolyBench on DCU), 1.77x (AMD APP SDK), and 1.25x on three hotspot kernels, surpassing direct LLM optimization. The approach requires no full-source dependencies, offers cross-platform portability, and enables practical, low-cost GPU kernel optimization.",
+ "primary": "cs.DC"
+}

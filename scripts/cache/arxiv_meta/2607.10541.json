@@ -1,0 +1,19 @@
+{
+ "id": "2607.10541",
+ "title": "RecRec: Recursive Refinement for Sequential Recommendation",
+ "authors": [
+  "Pervez Shaik",
+  "Prosenjit Biswas",
+  "Abhinav Thorat",
+  "Ravi Kolla",
+  "Niranjan Pedanekar"
+ ],
+ "v1_date": "2026-07-12",
+ "latest_version": 3,
+ "latest_date": "2026-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 3 figures",
+ "abstract": "Sequential recommender systems typically infer user preferences through single-pass encoding of interaction histories without iterative refinement, relying on increasingly deep architectures to capture complex patterns. In this work, we revisit sequential recommendation from a recursive inference perspective: can user preferences be modeled as a persistent latent state that is recursively refined? We propose RecRec (Recursive Recommendation), a lightweight model that maintains a compact latent state and updates it through a shared recursive module conditioned on interaction evidence. Unlike prior recursive models, RecRec introduces an evidence-anchored correction mechanism that stabilizes refinement by grounding each update in the original interaction context, preventing semantic drift during deep recursive reasoning. Experiments on three benchmark datasets under standard evaluation protocols show that RecRec matches or outperforms state-of-the-art sequential, graph-based, and reasoning-enhanced recommenders while using only 3.9M to 14M parameters. Ablation studies demonstrate that both recursive refinement and the evidence-anchored correction gate contribute significantly to performance, highlighting the effectiveness of recursive latent inference as a scalable alternative to deeper or language-based architectures. Code is available at https://anonymous.4open.science/r/RecRec-6B67/README.md.",
+ "primary": "cs.IR"
+}

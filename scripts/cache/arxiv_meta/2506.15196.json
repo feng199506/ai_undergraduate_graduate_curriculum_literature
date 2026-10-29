@@ -1,0 +1,19 @@
+{
+ "id": "2506.15196",
+ "title": "HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges",
+ "authors": [
+  "Xianliang Yang",
+  "Ling Zhang",
+  "Haolong Qian",
+  "Lei Song",
+  "Jiang Bian"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 2,
+ "latest_date": "2025-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages,9 figures",
+ "abstract": "Heuristic algorithms play a vital role in solving combinatorial optimization (CO) problems, yet traditional designs depend heavily on manual expertise and struggle to generalize across diverse instances. We introduce \\textbf{HeurAgenix}, a two-stage hyper-heuristic framework powered by large language models (LLMs) that first evolves heuristics and then selects among them automatically. In the heuristic evolution phase, HeurAgenix leverages an LLM to compare seed heuristic solutions with higher-quality solutions and extract reusable evolution strategies. During problem solving, it dynamically picks the most promising heuristic for each problem state, guided by the LLM's perception ability. For flexibility, this selector can be either a state-of-the-art LLM or a fine-tuned lightweight model with lower inference cost. To mitigate the scarcity of reliable supervision caused by CO complexity, we fine-tune the lightweight heuristic selector with a dual-reward mechanism that jointly exploits singals from selection preferences and state perception, enabling robust selection under noisy annotations. Extensive experiments on canonical benchmarks show that HeurAgenix not only outperforms existing LLM-based hyper-heuristics but also matches or exceeds specialized solvers. Code is available at https://github.com/microsoft/HeurAgenix.",
+ "primary": "cs.AI"
+}

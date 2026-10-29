@@ -1,0 +1,19 @@
+{
+ "id": "2506.10982",
+ "title": "Rethinking Losses for Diffusion Bridge Samplers",
+ "authors": [
+  "Sebastian Sanokowski",
+  "Lukas Gruber",
+  "Christoph Bartmann",
+  "Sepp Hochreiter",
+  "Sebastian Lehner"
+ ],
+ "v1_date": "2025-06-12",
+ "latest_version": 3,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NeurIPS 2025 as a Conference Paper",
+ "abstract": "Diffusion bridges are a promising class of deep-learning methods for sampling from unnormalized distributions. Recent works show that the Log Variance (LV) loss consistently outperforms the reverse Kullback-Leibler (rKL) loss when using the reparametrization trick to compute rKL-gradients. While the on-policy LV loss yields identical gradients to the rKL loss when combined with the log-derivative trick for diffusion samplers with non-learnable forward processes, this equivalence does not hold for diffusion bridges or when diffusion coefficients are learned. Based on this insight we argue that for diffusion bridges the LV loss does not represent an optimization objective that can be motivated like the rKL loss via the data processing inequality. Our analysis shows that employing the rKL loss with the log-derivative trick (rKL-LD) does not only avoid these conceptual problems but also consistently outperforms the LV loss. Experimental results with different types of diffusion bridges on challenging benchmarks show that samplers trained with the rKL-LD loss achieve better performance. From a practical perspective we find that rKL-LD requires significantly less hyperparameter optimization and yields more stable training behavior.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2404.17763",
+ "title": "Likelihood Based Inference in Fully and Partially Observed Exponential Family Graphical Models with Intractable Normalizing Constants",
+ "authors": [
+  "Yujie Chen",
+  "Anindya Bhadra",
+  "Antik Chakraborty"
+ ],
+ "v1_date": "2024-04-27",
+ "latest_version": 3,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in Journal of Machine Learning Research",
+ "abstract": "Probabilistic graphical models that encode an underlying Markov random field are fundamental building blocks of generative modeling to learn latent representations in modern multivariate data sets with complex dependency structures. Among these, the exponential family graphical models are especially popular, given their fairly well-understood statistical properties and computational scalability to high-dimensional data based on pseudo-likelihood methods. These models have been successfully applied in many fields, such as the Ising model in statistical physics and count graphical models in genomics. Another strand of models allows some nodes to be latent, so as to allow the marginal distribution of the observable nodes to depart from exponential family to capture more complex dependence. These approaches form the basis of generative models in artificial intelligence, such as the Boltzmann machines and their restricted versions. A fundamental barrier to likelihood-based (i.e., both maximum likelihood and fully Bayesian) inference in both fully and partially observed cases is the intractability of the likelihood. The usual workaround is via adopting pseudo likelihood-based approaches, following the pioneering work of Besag(1974). The goal of this paper is to demonstrate that full likelihood-based analysis of these models is feasible in a computationally efficient manner under a logarithmically sparse setting. The chief innovation lies in utilizing the tractable independence model underlying an intractable graphical model, to estimate the normalizing constant, as well as its gradient. Extensive numerical results, supporting theory and comparisons with pseudo likelihood-based approaches demonstrate the applicability of the proposed method.",
+ "primary": "stat.ME"
+}

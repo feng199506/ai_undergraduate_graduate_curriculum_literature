@@ -1,0 +1,15 @@
+{
+ "id": "2605.03153",
+ "title": "OCRR: A Benchmark for Online Correction Recovery under Distribution Shift",
+ "authors": [
+  "Adrian Grassi"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 1,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 5 figures, 4 tables. Code and data: https://github.com/adriangrassi/ocrr-benchmark",
+ "abstract": "Static benchmarks measure a model frozen at training time. Real systems face distribution shift: new categories, paraphrased queries, drift: and must recover online via user corrections. No existing benchmark measures recovery speed under correction streams. We introduce OCRR (Online Correction Recovery Rate): a benchmark that streams a corpus through a classification system, applies oracle or stochastic corrections to wrong predictions, and reports two curves: novel-class accuracy and original-distribution accuracy versus correction count. We evaluate the substrate alongside nine baseline algorithms from five families plus seven bounded-storage variants of the substrate for the Pareto sweep, including standard online-learning baselines (river), continual-learning methods (EWC, A-GEM, LwF), retrieval/parametric hybrids (kNN-LM), parameter-efficient fine-tuning of a 1.5 B-parameter encoder (LoRA on DeBERTa-v3-large), and a hash-chained append-only substrate (Substrate). On Banking77 and CLINC150, under oracle and sparse correction policies, the substrate is the only system that simultaneously recovers novel-class accuracy (88.7 +/- 2.9 %) and retains original-distribution accuracy (95.4 +/- 0.8 %) beating the next-best published continual-learning baseline by 32.6 percentage points at equal memory budget, and beating LoRA-on-DeBERTa-v3-large by 84.6 percentage points on retention. We further find that classification accuracy remains stable at 99 % even as approximate-nearest-neighbour recall@5 degrades from 0.69 to 0.23 across 10 k to 10 M corpus scales, suggesting the substrate's margin-band majority vote is robust to retrieval imperfection in a way that pure top-k recall metrics do not predict. Code and data are available at https://github.com/adriangrassi/ocrr-benchmark.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2510.03838",
+ "title": "Technical note on Fisher Information for Robust Federated Cross-Validation",
+ "authors": [
+  "Behraj Khan",
+  "Tahir Qasim Syed"
+ ],
+ "v1_date": "2025-10-04",
+ "latest_version": 1,
+ "latest_date": "2025-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When training data are fragmented across batches or federated-learned across different geographic locations, trained models manifest performance degradation. That degradation partly owes to covariate shift induced by data having been fragmented across time and space and producing dissimilar empirical training distributions. Each fragment's distribution is slightly different to a hypothetical unfragmented training distribution of covariates, and to the single validation distribution. To address this problem, we propose Fisher Information for Robust fEderated validation (\\textbf{FIRE}). This method accumulates fragmentation-induced covariate shift divergences from the global training distribution via an approximate Fisher information. That term, which we prove to be a more computationally-tractable estimate, is then used as a per-fragment loss penalty, enabling scalable distribution alignment. FIRE outperforms importance weighting benchmarks by $5.1\\%$ at maximum and federated learning (FL) benchmarks by up to $5.3\\%$ on shifted validation sets.",
+ "primary": "cs.LG"
+}

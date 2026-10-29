@@ -1,0 +1,16 @@
+{
+ "id": "2403.16860",
+ "title": "CipherFormer: Efficient Transformer Private Inference with Low Round Complexity",
+ "authors": [
+  "Weize Wang",
+  "Yi Kuang"
+ ],
+ "v1_date": "2024-03-25",
+ "latest_version": 1,
+ "latest_date": "2024-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by CSCWD 2024 (27th International Conference on Computer Supported Cooperative Work in Design)",
+ "abstract": "There is a growing trend to outsource the inference task of large transformer models to cloud servers. However, this poses a severe threat to users' private data as they are exposed to cloud servers after uploading. Although several works attempted to provide private inference for transformer models, their hundreds of communication rounds limit the application scenarios. Motivated by the desire to minimize round complexity, we propose CipherFormer, a novel transformer private inference scheme using homomorphic encryption and garbled circuits. We present a protocol for quickly computing homomorphic matrix multiplications. We then modify the attention mechanism and design the corresponding garbled circuits. Furthermore, we show how to use a lightweight attention mechanism and mixed-bitwidth to reduce the inference latency while maintaining accuracy. In comparison with an advanced homomorphic encryption scheme on text classification tasks, our model improves accuracy by 3% to 11% while performing private inference with a 7.7x-11.9x speedup.",
+ "primary": "cs.CR"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2510.27257",
+ "title": "Synergistic Tensor and Pipeline Parallelism",
+ "authors": [
+  "Mengshi Qi",
+  "Jiaxuan Peng",
+  "Jie Zhang",
+  "Juan Zhu",
+  "Yong Li",
+  "Huadong Ma"
+ ],
+ "v1_date": "2025-10-31",
+ "latest_version": 1,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the machine learning system, the hybrid model parallelism combining tensor parallelism (TP) and pipeline parallelism (PP) has become the dominant solution for distributed training of Large Language Models~(LLMs) and Multimodal LLMs (MLLMs). However, TP introduces significant collective communication overheads, while PP suffers from synchronization inefficiencies such as pipeline bubbles. Existing works primarily address these challenges from isolated perspectives, focusing either on overlapping TP communication or on flexible PP scheduling to mitigate pipeline bubbles. In this paper, we propose a new synergistic tensor and pipeline parallelism schedule that simultaneously reduces both types of bubbles. Our proposed schedule decouples the forward and backward passes in PP into fine-grained computation units, which are then braided to form a composite computation sequence. This compositional structure enables near-complete elimination of TP-related bubbles. Building upon this structure, we further design the PP schedule to minimize PP bubbles. Experimental results demonstrate that our approach improves training throughput by up to 12% for LLMs and 16% for MLLMs compared to existing scheduling methods. Our source code is avaiable at https://github.com/MICLAB-BUPT/STP.",
+ "primary": "cs.DC"
+}

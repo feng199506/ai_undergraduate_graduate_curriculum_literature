@@ -1,0 +1,21 @@
+{
+ "id": "2404.10546",
+ "title": "Warm-Start Variational Quantum Policy Iteration",
+ "authors": [
+  "Nico Meyer",
+  "Jakob Murauer",
+  "Alexander Popov",
+  "Christian Ufrecht",
+  "Axel Plinge",
+  "Christopher Mutschler",
+  "Daniel D. Scherer"
+ ],
+ "v1_date": "2024-04-16",
+ "latest_version": 2,
+ "latest_date": "2024-07-17",
+ "journal_ref": "",
+ "doi": "10.1109/qce60285.2024.00172",
+ "comment": "Accepted to the IEEE International Conference on Quantum Computing and Engineering (QCE 2024), Montréal, Québec, Canada. 9 pages, 6 figures, 1 table",
+ "abstract": "Reinforcement learning is a powerful framework aiming to determine optimal behavior in highly complex decision-making scenarios. This objective can be achieved using policy iteration, which requires to solve a typically large linear system of equations. We propose the variational quantum policy iteration (VarQPI) algorithm, realizing this step with a NISQ-compatible quantum-enhanced subroutine. Its scalability is supported by an analysis of the structure of generic reinforcement learning environments, laying the foundation for potential quantum advantage with utility-scale quantum computers. Furthermore, we introduce the warm-start initialization variant (WS-VarQPI) that significantly reduces resource overhead. The algorithm solves a large FrozenLake environment with an underlying 256x256-dimensional linear system, indicating its practical robustness.",
+ "primary": "quant-ph"
+}

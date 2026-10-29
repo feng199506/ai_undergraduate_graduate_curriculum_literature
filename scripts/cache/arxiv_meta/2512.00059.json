@@ -1,0 +1,20 @@
+{
+ "id": "2512.00059",
+ "title": "SafeCiM: Investigating Resilience of Hybrid Floating-Point Compute-in-Memory Deep Learning Accelerators",
+ "authors": [
+  "Swastik Bhattacharya",
+  "Sanjay Das",
+  "Anand Menon",
+  "Shamik Kundu",
+  "Arnab Raha",
+  "Kanad Basu"
+ ],
+ "v1_date": "2025-11-23",
+ "latest_version": 1,
+ "latest_date": "2025-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep Neural Networks (DNNs) continue to grow in complexity with Large Language Models (LLMs) incorporating vast numbers of parameters. Handling these parameters efficiently in traditional accelerators is limited by data-transmission bottlenecks, motivating Compute-in-Memory (CiM) architectures that integrate computation within or near memory to reduce data movement. Recent work has explored CiM designs using Floating-Point (FP) and Integer (INT) operations. FP computations typically deliver higher output quality due to their wider dynamic range and precision, benefiting precision-sensitive Generative AI applications. These include models such as LLMs, thus driving advancements in FP-CiM accelerators. However, the vulnerability of FP-CiM to hardware faults remains underexplored, posing a major reliability concern in mission-critical settings. To address this gap, we systematically analyze hardware fault effects in FP-CiM by introducing bit-flip faults at key computational stages, including digital multipliers, CiM memory cells, and digital adder trees. Experiments with Convolutional Neural Networks (CNNs) such as AlexNet and state-of-the-art LLMs including LLaMA-3.2-1B and Qwen-0.3B-Base reveal how faults at each stage affect inference accuracy. Notably, a single adder fault can reduce LLM accuracy to 0%. Based on these insights, we propose a fault-resilient design, SafeCiM, that mitigates fault impact far better than a naive FP-CiM with a pre-alignment stage. For example, with 4096 MAC units, SafeCiM reduces accuracy degradation by up to 49x for a single adder fault compared to the baseline FP-CiM architecture.",
+ "primary": "cs.AR"
+}

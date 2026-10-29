@@ -1,0 +1,19 @@
+{
+ "id": "2605.08182",
+ "title": "Quantile Geometry Regularization for Distributional Reinforcement Learning",
+ "authors": [
+  "Zhaofan Zhang",
+  "Minghao Yang",
+  "Rufeng Chen",
+  "Sihong Xie",
+  "Hui Xiong"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantile-based distributional reinforcement learning methods learn return distributions through sampled quantile regression, but their bootstrapped target quantiles may induce distorted or degenerate distribution estimates. We propose Robust Quantile-based Implicit Quantile Networks (RQIQN), a lightweight Wasserstein distributionally robust enhancement boosted from a quantile estimation perspective. We first reinterpret a snapshot of IQN loss as a collection of local empirical quantile estimation problems over sampled current fractions. We then robustify each local slot with a Wasserstein distributionally robust quantile estimation formulation, yielding a closed-form, fraction-dependent correction to the Bellman target. This correction directly addresses distributional degeneration: its median antisymmetry preserves the risk-neutral quantile average, while its monotonicity enlarges upper-lower quantile gaps and counteracts collapsed distributional spread. RQIQN thus regularizes quantile geometry without changing the underlying value objective or requiring additional sample set reconstruction. Finally, we empirically show that the proposed RQIQN outperforms other existing quantile-based distributional reinforcement learning algorithms in risk-sensitive navigation and Atari games.",
+ "primary": "cs.LG"
+}

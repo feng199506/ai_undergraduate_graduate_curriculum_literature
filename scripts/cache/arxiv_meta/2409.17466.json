@@ -1,0 +1,18 @@
+{
+ "id": "2409.17466",
+ "title": "Adjusting Regression Models for Conditional Uncertainty Calibration",
+ "authors": [
+  "Ruijiang Gao",
+  "Mingzhang Yin",
+  "James McInerney",
+  "Nathan Kallus"
+ ],
+ "v1_date": "2024-09-26",
+ "latest_version": 1,
+ "latest_date": "2024-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Machine Learning Special Issue on Uncertainty Quantification",
+ "abstract": "Conformal Prediction methods have finite-sample distribution-free marginal coverage guarantees. However, they generally do not offer conditional coverage guarantees, which can be important for high-stakes decisions. In this paper, we propose a novel algorithm to train a regression function to improve the conditional coverage after applying the split conformal prediction procedure. We establish an upper bound for the miscoverage gap between the conditional coverage and the nominal coverage rate and propose an end-to-end algorithm to control this upper bound. We demonstrate the efficacy of our method empirically on synthetic and real-world datasets.",
+ "primary": "stat.ML"
+}

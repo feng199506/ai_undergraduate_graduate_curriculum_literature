@@ -1,0 +1,20 @@
+{
+ "id": "2508.14394",
+ "title": "Tuning Random Generators: Property-Based Testing as Probabilistic Programming",
+ "authors": [
+  "Ryan Tjoa",
+  "Poorva Garg",
+  "Harrison Goldstein",
+  "Todd Millstein",
+  "Benjamin Pierce",
+  "Guy Van den Broeck"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 2,
+ "latest_date": "2025-11-16",
+ "journal_ref": "",
+ "doi": "10.1145/3763082",
+ "comment": "Extended version of OOPSLA '25 paper",
+ "abstract": "Property-based testing validates software against an executable specification by evaluating it on randomly generated inputs. The standard way that PBT users generate test inputs is via generators that describe how to sample test inputs through random choices. To achieve a good distribution over test inputs, users must tune their generators, i.e., decide on the weights of these individual random choices. Unfortunately, it is very difficult to understand how to choose individual generator weights in order to achieve a desired distribution, so today this process is tedious and limits the distributions that can be practically achieved. In this paper, we develop techniques for the automatic and offline tuning of generators. Given a generator with undetermined symbolic weights and an objective function, our approach automatically learns values for these weights that optimize for the objective. We describe useful objective functions that allow users to (1) target desired distributions and (2) improve the diversity and validity of their test cases. We have implemented our approach in a novel discrete probabilistic programming system, Loaded Dice, that supports differentiation and parameter learning, and use it as a language for generators. We empirically demonstrate that our approach is effective at optimizing generator distributions according to the specified objective functions. We also perform a thorough evaluation on PBT benchmarks, demonstrating that, when automatically tuned for diversity and validity, the generators exhibit a 3.1-7.4x speedup in bug finding.",
+ "primary": "cs.PL"
+}

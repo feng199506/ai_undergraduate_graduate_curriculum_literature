@@ -1,0 +1,26 @@
+{
+ "id": "2402.10802",
+ "title": "TimeSeriesBench: An Industrial-Grade Benchmark for Time Series Anomaly Detection Models",
+ "authors": [
+  "Haotian Si",
+  "Jianhui Li",
+  "Changhua Pei",
+  "Hang Cui",
+  "Jingwen Yang",
+  "Yongqian Sun",
+  "Shenglin Zhang",
+  "Jingjing Li",
+  "Haiming Zhang",
+  "Jing Han",
+  "Dan Pei",
+  "Gaogang Xie"
+ ],
+ "v1_date": "2024-02-16",
+ "latest_version": 3,
+ "latest_date": "2024-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ISSRE'24",
+ "abstract": "Time series anomaly detection (TSAD) has gained significant attention due to its real-world applications to improve the stability of modern software systems. However, there is no effective way to verify whether they can meet the requirements for real-world deployment. Firstly, current algorithms typically train a specific model for each time series. Maintaining such many models is impractical in a large-scale system with tens of thousands of curves. The performance of using merely one unified model to detect anomalies remains unknown. Secondly, most TSAD models are trained on the historical part of a time series and are tested on its future segment. In distributed systems, however, there are frequent system deployments and upgrades, with new, previously unseen time series emerging daily. The performance of testing newly incoming unseen time series on current TSAD algorithms remains unknown. Lastly, the assumptions of the evaluation metrics in existing benchmarks are far from practical demands. To solve the above-mentioned problems, we propose an industrial-grade benchmark TimeSeriesBench. We assess the performance of existing algorithms across more than 168 evaluation settings and provide comprehensive analysis for the future design of anomaly detection algorithms. An industrial dataset is also released along with TimeSeriesBench.",
+ "primary": "cs.LG"
+}

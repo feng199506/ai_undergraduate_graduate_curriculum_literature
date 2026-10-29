@@ -1,0 +1,17 @@
+{
+ "id": "2503.04480",
+ "title": "Poisoning Bayesian Inference via Data Deletion and Replication",
+ "authors": [
+  "Matthieu Carreau",
+  "Roi Naveiro",
+  "William N. Caballero"
+ ],
+ "v1_date": "2025-03-06",
+ "latest_version": 1,
+ "latest_date": "2025-03-06",
+ "journal_ref": "The 28th International Conference on Artificial Intelligence and Statistics, 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "Research in adversarial machine learning (AML) has shown that statistical models are vulnerable to maliciously altered data. However, despite advances in Bayesian machine learning models, most AML research remains concentrated on classical techniques. Therefore, we focus on extending the white-box model poisoning paradigm to attack generic Bayesian inference, highlighting its vulnerability in adversarial contexts. A suite of attacks are developed that allow an attacker to steer the Bayesian posterior toward a target distribution through the strategic deletion and replication of true observations, even when only sampling access to the posterior is available. Analytic properties of these algorithms are proven and their performance is empirically examined in both synthetic and real-world scenarios. With relatively little effort, the attacker is able to substantively alter the Bayesian's beliefs and, by accepting more risk, they can mold these beliefs to their will. By carefully constructing the adversarial posterior, surgical poisoning is achieved such that only targeted inferences are corrupted and others are minimally disturbed.",
+ "primary": "stat.ML"
+}

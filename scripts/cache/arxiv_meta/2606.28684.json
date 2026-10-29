@@ -1,0 +1,20 @@
+{
+ "id": "2606.28684",
+ "title": "A Neuroimaging Simulation Framework for Developing and Evaluating Causal AI",
+ "authors": [
+  "Eryn Libert-Scott",
+  "Emma A. M. Stanley",
+  "Vibujithan Vigneshwaran",
+  "Matthias Wilms",
+  "Erik Y. Ohara",
+  "Nils D. Forkert"
+ ],
+ "v1_date": "2026-06-27",
+ "latest_version": 1,
+ "latest_date": "2026-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 5 figures, submitted to the Journal of Biomedical and Health Informatics, Code available at https://github.com/erynl-s/SCAR",
+ "abstract": "Causally linking disease-related factors to image-derived biomarkers provides a powerful pathway to understanding disease mechanisms. Despite growing interest in applying causal artificial intelligence (AI) approaches for this task, these methods still need to be adapted for complex medical images, and especially, neuroimaging. However, the lack of ground-truth data presents a barrier to development. To bridge this gap, we developed and tested a method for generating synthetic neuroimages, which adhere to a user-specified causal structure describing the non-image to image variable relationships, permitting the creation of ground-truth neuroimaging datasets. In the simulated T1-weighted magnetic resonance images, anatomical variability is modeled by sampling from a subspace estimated from real data and deforming a template image to create unique simulated subjects. Causal relationships are encoded via precise volumetric changes of any region-of-interest without unwanted global artifacts. We achieved relative volume errors of 0.3-2.66% for the targeted regions-of-interest and demonstrate their statistically significant causal relationships, while maintaining mean absolute errors for non-target brain regions between 0.034-0.397ml. An initial evaluation of causal discovery methods exposes their limited ability to suppress spurious connections, highlighting the need for image-appropriate methods. Our framework is the first to enable the generation of realistic synthetic 3D neuroimages with explicit causal control that can serve as the missing ground-truth data necessary for the objective benchmarking and development of causal AI methods.",
+ "primary": "eess.IV"
+}

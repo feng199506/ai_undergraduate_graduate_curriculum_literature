@@ -1,0 +1,17 @@
+{
+ "id": "2403.14504",
+ "title": "Soft Learning Probabilistic Circuits",
+ "authors": [
+  "Soroush Ghandi",
+  "Benjamin Quost",
+  "Cassio de Campos"
+ ],
+ "v1_date": "2024-03-21",
+ "latest_version": 1,
+ "latest_date": "2024-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic Circuits (PCs) are prominent tractable probabilistic models, allowing for a range of exact inferences. This paper focuses on the main algorithm for training PCs, LearnSPN, a gold standard due to its efficiency, performance, and ease of use, in particular for tabular data. We show that LearnSPN is a greedy likelihood maximizer under mild assumptions. While inferences in PCs may use the entire circuit structure for processing queries, LearnSPN applies a hard method for learning them, propagating at each sum node a data point through one and only one of the children/edges as in a hard clustering process. We propose a new learning procedure named SoftLearn, that induces a PC using a soft clustering process. We investigate the effect of this learning-inference compatibility in PCs. Our experiments show that SoftLearn outperforms LearnSPN in many situations, yielding better likelihoods and arguably better samples. We also analyze comparable tractable models to highlight the differences between soft/hard learning and model querying.",
+ "primary": "cs.LG"
+}

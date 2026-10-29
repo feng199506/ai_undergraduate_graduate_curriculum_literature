@@ -1,0 +1,16 @@
+{
+ "id": "2312.00509",
+ "title": "Bayesian causal discovery from unknown general interventions",
+ "authors": [
+  "Alessandro Mascaro",
+  "Federico Castelletti"
+ ],
+ "v1_date": "2023-12-01",
+ "latest_version": 1,
+ "latest_date": "2023-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of learning causal Directed Acyclic Graphs (DAGs) using combinations of observational and interventional experimental data. Current methods tailored to this setting assume that interventions either destroy parent-child relations of the intervened (target) nodes or only alter such relations without modifying the parent sets, even when the intervention targets are unknown. We relax this assumption by proposing a Bayesian method for causal discovery from general interventions, which allow for modifications of the parent sets of the unknown targets. Even in this framework, DAGs and general interventions may be identifiable only up to some equivalence classes. We provide graphical characterizations of such interventional Markov equivalence and devise compatible priors for Bayesian inference that guarantee score equivalence of indistinguishable structures. We then develop a Markov Chain Monte Carlo (MCMC) scheme to approximate the posterior distribution over DAGs, intervention targets and induced parent sets. Finally, we evaluate the proposed methodology on both simulated and real protein expression data.",
+ "primary": "stat.ME"
+}

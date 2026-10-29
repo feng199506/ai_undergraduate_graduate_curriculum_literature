@@ -1,0 +1,21 @@
+{
+ "id": "2501.18501",
+ "title": "Beyond Prior Limits: Addressing Distribution Misalignment in Particle Filtering",
+ "authors": [
+  "Yiwei Shi",
+  "Jingyu Hu",
+  "Yu Zhang",
+  "Mengyue Yang",
+  "Weinan Zhang",
+  "Cunjia Liu",
+  "Weiru Liu"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 1,
+ "latest_date": "2025-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Particle filtering is a Bayesian inference method and a fundamental tool in state estimation for dynamic systems, but its effectiveness is often limited by the constraints of the initial prior distribution, a phenomenon we define as the Prior Boundary Phenomenon. This challenge arises when target states lie outside the prior's support, rendering traditional particle filtering methods inadequate for accurate estimation. Although techniques like unbounded priors and larger particle sets have been proposed, they remain computationally prohibitive and lack adaptability in dynamic scenarios. To systematically overcome these limitations, we propose the Diffusion-Enhanced Particle Filtering Framework, which introduces three key innovations: adaptive diffusion through exploratory particles, entropy-driven regularisation to prevent weight collapse, and kernel-based perturbations for dynamic support expansion. These mechanisms collectively enable particle filtering to explore beyond prior boundaries, ensuring robust state estimation for out-of-boundary targets. Theoretical analysis and extensive experiments validate framework's effectiveness, indicating significant improvements in success rates and estimation accuracy across high-dimensional and non-convex scenarios.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2406.00104",
+ "title": "Scalable Bayesian Learning with posteriors",
+ "authors": [
+  "Samuel Duffield",
+  "Kaelan Donatella",
+  "Johnathan Chiu",
+  "Phoebe Klett",
+  "Daniel Simpson"
+ ],
+ "v1_date": "2024-05-31",
+ "latest_version": 2,
+ "latest_date": "2025-04-14",
+ "journal_ref": "Published as a conference paper at ICLR 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although theoretically compelling, Bayesian learning with modern machine learning models is computationally challenging since it requires approximating a high dimensional posterior distribution. In this work, we (i) introduce posteriors, an easily extensible PyTorch library hosting general-purpose implementations making Bayesian learning accessible and scalable to large data and parameter regimes; (ii) present a tempered framing of stochastic gradient Markov chain Monte Carlo, as implemented in posteriors, that transitions seamlessly into optimization and unveils a minor modification to deep ensembles to ensure they are asymptotically unbiased for the Bayesian posterior, and (iii) demonstrate and compare the utility of Bayesian approximations through experiments including an investigation into the cold posterior effect and applications with large language models.",
+ "primary": "cs.LG"
+}

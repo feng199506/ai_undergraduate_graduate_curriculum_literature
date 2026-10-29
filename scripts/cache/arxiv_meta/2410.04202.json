@@ -1,0 +1,22 @@
+{
+ "id": "2410.04202",
+ "title": "Deep Transfer Learning Based Peer Review Aggregation and Meta-review Generation for Scientific Articles",
+ "authors": [
+  "Md. Tarek Hasan",
+  "Mohammad Nazmush Shamael",
+  "H. M. Mutasim Billah",
+  "Arifa Akter",
+  "Md Al Emran Hossain",
+  "Sumayra Islam",
+  "Salekul Islam",
+  "Swakkhar Shatabda"
+ ],
+ "v1_date": "2024-10-05",
+ "latest_version": 1,
+ "latest_date": "2024-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Peer review is the quality assessment of a manuscript by one or more peer experts. Papers are submitted by the authors to scientific venues, and these papers must be reviewed by peers or other authors. The meta-reviewers then gather the peer reviews, assess them, and create a meta-review and decision for each manuscript. As the number of papers submitted to these venues has grown in recent years, it becomes increasingly challenging for meta-reviewers to collect these peer evaluations on time while still maintaining the quality that is the primary goal of meta-review creation. In this paper, we address two peer review aggregation challenges a meta-reviewer faces: paper acceptance decision-making and meta-review generation. Firstly, we propose to automate the process of acceptance decision prediction by applying traditional machine learning algorithms. We use pre-trained word embedding techniques BERT to process the reviews written in natural language text. For the meta-review generation, we propose a transfer learning model based on the T5 model. Experimental results show that BERT is more effective than the other word embedding techniques, and the recommendation score is an important feature for the acceptance decision prediction. In addition, we figure out that fine-tuned T5 outperforms other inference models. Our proposed system takes peer reviews and other relevant features as input to produce a meta-review and make a judgment on whether or not the paper should be accepted. In addition, experimental results show that the acceptance decision prediction system of our task outperforms the existing models, and the meta-review generation task shows significantly improved scores compared to the existing models. For the statistical test, we utilize the Wilcoxon signed-rank test to assess whether there is a statistically significant improvement between paired observations.",
+ "primary": "cs.LG"
+}

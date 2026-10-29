@@ -1,0 +1,16 @@
+{
+ "id": "2602.01627",
+ "title": "Why Does Adaptive Zeroth-Order Optimization Work?",
+ "authors": [
+  "Haishan Ye",
+  "Luo Luo"
+ ],
+ "v1_date": "2026-02-02",
+ "latest_version": 1,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Zeroth-order (ZO) optimization is popular in real-world applications that accessing the gradient information is expensive or unavailable. Recently, adaptive ZO methods that normalize gradient estimators by the empirical standard deviation of function values have achieved strong practical performance, particularly in fine-tuning the large language model. However, the theoretical understanding of such strategy remains limited. In this work, we show that the empirical standard deviation is, with high probability, closely proportional to the norm of the (stochastic) gradient. Based on this insight, we analyze adaptive ZO methods under the generalized $(L_0,L_1)$-smoothness condition with respect to the matrix norm. We establish explicit convergence rates and query complexity bounds for both deterministic and stochastic settings, demonstrating that adaptive ZO methods achieve the faster convergence and the improved query efficiency compared to the vanilla ZO methods with fixed-step.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2406.15652",
+ "title": "GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables",
+ "authors": [
+  "Mathieu Huot",
+  "Matin Ghavami",
+  "Alexander K. Lew",
+  "Ulrich Schaechtle",
+  "Cameron E. Freer",
+  "Zane Shelby",
+  "Martin C. Rinard",
+  "Feras A. Saad",
+  "Vikash K. Mansinghka"
+ ],
+ "v1_date": "2024-06-21",
+ "latest_version": 1,
+ "latest_date": "2024-06-21",
+ "journal_ref": "",
+ "doi": "10.1145/3656409",
+ "comment": "54 pages, 30 figures, 1 table, published at PLDI 2024",
+ "abstract": "This article presents GenSQL, a probabilistic programming system for querying probabilistic generative models of database tables. By augmenting SQL with only a few key primitives for querying probabilistic models, GenSQL enables complex Bayesian inference workflows to be concisely implemented. GenSQL's query planner rests on a unified programmatic interface for interacting with probabilistic models of tabular data, which makes it possible to use models written in a variety of probabilistic programming languages that are tailored to specific workflows. Probabilistic models may be automatically learned via probabilistic program synthesis, hand-designed, or a combination of both. GenSQL is formalized using a novel type system and denotational semantics, which together enable us to establish proofs that precisely characterize its soundness guarantees. We evaluate our system on two case real-world studies -- an anomaly detection in clinical trials and conditional synthetic data generation for a virtual wet lab -- and show that GenSQL more accurately captures the complexity of the data as compared to common baselines. We also show that the declarative syntax in GenSQL is more concise and less error-prone as compared to several alternatives. Finally, GenSQL delivers a 1.7-6.8x speedup compared to its closest competitor on a representative benchmark set and runs in comparable time to hand-written code, in part due to its reusable optimizations and code specialization.",
+ "primary": "cs.PL"
+}

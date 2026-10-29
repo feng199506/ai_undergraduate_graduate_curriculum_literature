@@ -1,0 +1,22 @@
+{
+ "id": "2312.14996",
+ "title": "Bridging AI and Clinical Practice: Integrating Automated Sleep Scoring Algorithm with Uncertainty-Guided Physician Review",
+ "authors": [
+  "Michal Bechny",
+  "Giuliana Monachino",
+  "Luigi Fiorillo",
+  "Julia van der Meer",
+  "Markus H. Schmidt",
+  "Claudio L. A. Bassetti",
+  "Athina Tzovara",
+  "Francesca D. Faraci"
+ ],
+ "v1_date": "2023-12-22",
+ "latest_version": 1,
+ "latest_date": "2023-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Purpose: This study aims to enhance the clinical use of automated sleep-scoring algorithms by incorporating an uncertainty estimation approach to efficiently assist clinicians in the manual review of predicted hypnograms, a necessity due to the notable inter-scorer variability inherent in polysomnography (PSG) databases. Our efforts target the extent of review required to achieve predefined agreement levels, examining both in-domain and out-of-domain data, and considering subjects diagnoses. Patients and methods: Total of 19578 PSGs from 13 open-access databases were used to train U-Sleep, a state-of-the-art sleep-scoring algorithm. We leveraged a comprehensive clinical database of additional 8832 PSGs, covering a full spectrum of ages and sleep-disorders, to refine the U-Sleep, and to evaluate different uncertainty-quantification approaches, including our novel confidence network. The ID data consisted of PSGs scored by over 50 physicians, and the two OOD sets comprised recordings each scored by a unique senior physician. Results: U-Sleep demonstrated robust performance, with Cohen's kappa (K) at 76.2% on ID and 73.8-78.8% on OOD data. The confidence network excelled at identifying uncertain predictions, achieving AUROC scores of 85.7% on ID and 82.5-85.6% on OOD data. Independently of sleep-disorder status, statistical evaluations revealed significant differences in confidence scores between aligning vs discording predictions, and significant correlations of confidence scores with classification performance metrics. To achieve K of at least 90% with physician intervention, examining less than 29.0% of uncertain epochs was required, substantially reducing physicians workload, and facilitating near-perfect agreement.",
+ "primary": "cs.LG"
+}

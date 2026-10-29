@@ -1,0 +1,20 @@
+{
+ "id": "2609.18737",
+ "title": "Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting",
+ "authors": [
+  "Harvey Caldeira",
+  "Haoran Wang",
+  "Guoxi Huang",
+  "Shaoyu Cai",
+  "Rachel Fu",
+  "Nantheera Anantrasirichai"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 2,
+ "latest_date": "2026-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to SIGGRAPH Asia Poster",
+ "abstract": "Underwater 3D reconstruction remains challenging under sparse views, where scattering, absorption, and suspended particles degrade feature correspondences and geometric estimation. Although feed-forward geometry foundation models offer an alternative to conventional Structure-from-Motion, their direct application underwater produces noisy and fragmented geometry that limits subsequent 3D Gaussian Splatting (3DGS). We propose a sparse-view underwater reconstruction framework that adapts feed-forward geometry to underwater degradation and exploits its dense geometric priors for view synthesis. First, we adapt VGGT using LoRA and teacher--student distillation, training on synthetically degraded underwater images while preserving clean geometric supervision. This improves robustness to underwater appearance distortions without modifying the pretrained prediction heads. Second, the predicted dense geometry initialises an intermediate 3DGS representation that generates geometry-guided pseudo-views, increasing view overlap and strengthening feature tracks for subsequent RUSplatting optimisation. Experiments on SeaThru-NeRF and Submerged3D demonstrate improved reconstruction quality under sparse-view conditions. On SeaThru-NeRF, our method improves RUSplatting from 24.37 to 27.11 dB PSNR and increases SSIM from 0.7611 to 0.8634, while achieving the best average PSNR and LPIPS on Submerged3D. These results demonstrate the potential of domain-adapted geometric priors for robust sparse-view underwater 3D reconstruction.",
+ "primary": "cs.CV"
+}

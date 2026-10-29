@@ -1,0 +1,17 @@
+{
+ "id": "2507.06907",
+ "title": "Robust and Safe Traffic Sign Recognition using N-version with Weighted Voting",
+ "authors": [
+  "Linyun Gao",
+  "Qiang Wen",
+  "Fumio Machida"
+ ],
+ "v1_date": "2025-07-09",
+ "latest_version": 1,
+ "latest_date": "2025-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages including appendix, 1 figure",
+ "abstract": "Autonomous driving is rapidly advancing as a key application of machine learning, yet ensuring the safety of these systems remains a critical challenge. Traffic sign recognition, an essential component of autonomous vehicles, is particularly vulnerable to adversarial attacks that can compromise driving safety. In this paper, we propose an N-version machine learning (NVML) framework that integrates a safety-aware weighted soft voting mechanism. Our approach utilizes Failure Mode and Effects Analysis (FMEA) to assess potential safety risks and assign dynamic, safety-aware weights to the ensemble outputs. We evaluate the robustness of three-version NVML systems employing various voting mechanisms against adversarial samples generated using the Fast Gradient Sign Method (FGSM) and Projected Gradient Descent (PGD) attacks. Experimental results demonstrate that our NVML approach significantly enhances the robustness and safety of traffic sign recognition systems under adversarial conditions.",
+ "primary": "cs.LG"
+}

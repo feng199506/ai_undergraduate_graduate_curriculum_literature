@@ -1,0 +1,19 @@
+{
+ "id": "2510.02532",
+ "title": "Learning Multi-Index Models with Hyper-Kernel Ridge Regression",
+ "authors": [
+  "Shuo Huang",
+  "Hippolyte Labarrière",
+  "Ernesto De Vito",
+  "Tomaso Poggio",
+  "Lorenzo Rosasco"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 2,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep neural networks excel in high-dimensional problems, outperforming models such as kernel methods, which suffer from the curse of dimensionality. However, the theoretical foundations of this success remain poorly understood. We follow the idea that the compositional structure of the learning task is the key factor determining when deep networks outperform other approaches. Taking a step towards formalizing this idea, we consider a simple compositional model, namely the multi-index model (MIM). In this context, we introduce and study hyper-kernel ridge regression (HKRR), an approach blending neural networks and kernel methods. Our main contribution is a sample complexity result demonstrating that HKRR can adaptively learn MIM, overcoming the curse of dimensionality. Further, we exploit the kernel nature of the estimator to develop ad hoc optimization approaches. Indeed, we contrast alternating minimization and alternating gradient methods both theoretically and numerically. These numerical results complement and reinforce our theoretical findings.",
+ "primary": "stat.ML"
+}

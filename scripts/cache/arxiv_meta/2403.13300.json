@@ -1,0 +1,16 @@
+{
+ "id": "2403.13300",
+ "title": "Kernel Multigrid: Accelerate Back-fitting via Sparse Gaussian Process Regression",
+ "authors": [
+  "Lu Zou",
+  "Liang Ding"
+ ],
+ "v1_date": "2024-03-20",
+ "latest_version": 2,
+ "latest_date": "2024-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Additive Gaussian Processes (GPs) are popular approaches for nonparametric feature selection. The common training method for these models is Bayesian Back-fitting. However, the convergence rate of Back-fitting in training additive GPs is still an open problem. By utilizing a technique called Kernel Packets (KP), we prove that the convergence rate of Back-fitting is no faster than $(1-\\mathcal{O}(\\frac{1}{n}))^t$, where $n$ and $t$ denote the data size and the iteration number, respectively. Consequently, Back-fitting requires a minimum of $\\mathcal{O}(n\\log n)$ iterations to achieve convergence. Based on KPs, we further propose an algorithm called Kernel Multigrid (KMG). This algorithm enhances Back-fitting by incorporating a sparse Gaussian Process Regression (GPR) to process the residuals after each Back-fitting iteration. It is applicable to additive GPs with both structured and scattered data. Theoretically, we prove that KMG reduces the required iterations to $\\mathcal{O}(\\log n)$ while preserving the time and space complexities at $\\mathcal{O}(n\\log n)$ and $\\mathcal{O}(n)$ per iteration, respectively. Numerically, by employing a sparse GPR with merely 10 inducing points, KMG can produce accurate approximations of high-dimensional targets within 5 iterations.",
+ "primary": "stat.ML"
+}

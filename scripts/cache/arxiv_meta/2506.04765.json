@@ -1,0 +1,20 @@
+{
+ "id": "2506.04765",
+ "title": "OpenGT: A Comprehensive Benchmark For Graph Transformers",
+ "authors": [
+  "Jiachen Tang",
+  "Zhonghao Wang",
+  "Sirui Chen",
+  "Sheng Zhou",
+  "Jiawei Chen",
+  "Jiajun Bu"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 1,
+ "latest_date": "2025-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 5 figures",
+ "abstract": "Graph Transformers (GTs) have recently demonstrated remarkable performance across diverse domains. By leveraging attention mechanisms, GTs are capable of modeling long-range dependencies and complex structural relationships beyond local neighborhoods. However, their applicable scenarios are still underexplored, this highlights the need to identify when and why they excel. Furthermore, unlike GNNs, which predominantly rely on message-passing mechanisms, GTs exhibit a diverse design space in areas such as positional encoding, attention mechanisms, and graph-specific adaptations. Yet, it remains unclear which of these design choices are truly effective and under what conditions. As a result, the community currently lacks a comprehensive benchmark and library to promote a deeper understanding and further development of GTs. To address this gap, this paper introduces OpenGT, a comprehensive benchmark for Graph Transformers. OpenGT enables fair comparisons and multidimensional analysis by establishing standardized experimental settings and incorporating a broad selection of state-of-the-art GNNs and GTs. Our benchmark evaluates GTs from multiple perspectives, encompassing diverse tasks and datasets with varying properties. Through extensive experiments, our benchmark has uncovered several critical insights, including the difficulty of transferring models across task levels, the limitations of local attention, the efficiency trade-offs in several models, the application scenarios of specific positional encodings, and the preprocessing overhead of some positional encodings. We aspire for this work to establish a foundation for future graph transformer research emphasizing fairness, reproducibility, and generalizability. We have developed an easy-to-use library OpenGT for training and evaluating existing GTs. The benchmark code is available at https://github.com/eaglelab-zju/OpenGT.",
+ "primary": "cs.LG"
+}

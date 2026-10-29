@@ -1,0 +1,16 @@
+{
+ "id": "2409.02399",
+ "title": "Guidance for twisted particle filter: a continuous-time perspective",
+ "authors": [
+  "Jianfeng Lu",
+  "Yuliang Wang"
+ ],
+ "v1_date": "2024-09-04",
+ "latest_version": 2,
+ "latest_date": "2026-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The particle filter (PF), also known as sequential Monte Carlo (SMC), approximates high-dimensional probability distributions and their normalizing constants in the discrete-time setting. To reduce the variance of the Monte Carlo approximation, various twisted particle filters (TPFs) have been proposed, in which a twisting function is chosen or learned to modify the Markov transition kernel. Guided by existing control-based importance sampling algorithms in the continuous-time setting, we propose a novel algorithm called the ``Twisted-Path Particle Filter'' (TPPF), in which the twisting function is parameterized by a neural network and trained to minimize a specific KL-divergence between path measures. Numerical experiments illustrate the capability of the proposed algorithm.",
+ "primary": "stat.CO"
+}

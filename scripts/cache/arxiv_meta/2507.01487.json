@@ -1,0 +1,18 @@
+{
+ "id": "2507.01487",
+ "title": "How to Securely Shuffle? A survey about Secure Shufflers for privacy-preserving computations",
+ "authors": [
+  "Marc Damie",
+  "Florian Hahn",
+  "Andreas Peter",
+  "Jan Ramon"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 2,
+ "latest_date": "2025-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ishai et al. (FOCS'06) introduced secure shuffling as an efficient building block for private data aggregation. Recently, the field of differential privacy has revived interest in secure shufflers by highlighting the privacy amplification they can provide in various computations. Although several works argue for the utility of secure shufflers, they often treat them as black boxes; overlooking the practical vulnerabilities and performance trade-offs of existing implementations. This leaves a central question open: what makes a good secure shuffler? This survey addresses that question by identifying, categorizing, and comparing 26 secure protocols that realize the necessary shuffling functionality. To enable a meaningful comparison, we adapt and unify existing security definitions into a consistent set of properties. We also present an overview of privacy-preserving technologies that rely on secure shufflers, offer practical guidelines for selecting appropriate protocols, and outline promising directions for future work.",
+ "primary": "cs.CR"
+}

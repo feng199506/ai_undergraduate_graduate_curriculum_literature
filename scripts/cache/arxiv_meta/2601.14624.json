@@ -1,0 +1,20 @@
+{
+ "id": "2601.14624",
+ "title": "Biological Sequence Clustering: A Survey",
+ "authors": [
+  "Simeng Zhang",
+  "Xinying Liu",
+  "Jun Lou",
+  "Mudi Jiang",
+  "Quan Zou",
+  "Zengyou He"
+ ],
+ "v1_date": "2026-01-21",
+ "latest_version": 1,
+ "latest_date": "2026-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid development of high-throughput sequencing technologies has led to an explosive increase in biological sequence data, making sequence clustering a fundamental task in large-scale bioinformatics analyses. Unlike traditional clustering problems, biological sequence clustering faces unique challenges due to the lack of direct similarity measures, strict biological constraints, and demanding requirements for both scalability and accuracy. Over the past decades, a wide variety of methods have been developed, differing in how they model sequence similarity, construct clusters, and prioritize optimization objectives. In this review, we provide a comprehensive methodological overview of biological sequence clustering algorithms. We begin by summarizing the main strategies for modeling sequence similarity, which can be divided into three stages: sequence encoding, feature generation, and similarity measurement. Next, we discuss the major clustering paradigms, including greedy incremental, hierarchical, graph-based, model-based, partitional, and deep learning approaches, highlighting their methodological characteristics and practical trade-offs. We then discuss clustering objectives from three key perspectives: scalability and resource efficiency, biological interpretability, and robustness and clustering quality. Organizing existing methods along these dimensions allows us to explore the trade-offs in biological sequence clustering and clarify the contexts in which different approaches are most appropriate. Finally, we identify current limitations and challenges, providing guidance for researchers and directions for future method development.",
+ "primary": "q-bio.GN"
+}

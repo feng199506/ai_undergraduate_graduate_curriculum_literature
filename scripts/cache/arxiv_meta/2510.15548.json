@@ -1,0 +1,16 @@
+{
+ "id": "2510.15548",
+ "title": "Geometric Convergence Analysis of Variational Inference via Bregman Divergences",
+ "authors": [
+  "Sushil Bohara",
+  "Amedeo Roberto Esposito"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 1,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 4 figures",
+ "abstract": "Variational Inference (VI) provides a scalable framework for Bayesian inference by optimizing the Evidence Lower Bound (ELBO), but convergence analysis remains challenging due to the objective's non-convexity and non-smoothness in Euclidean space. We establish a novel theoretical framework for analyzing VI convergence by exploiting the exponential family structure of distributions. We express negative ELBO as a Bregman divergence with respect to the log-partition function, enabling a geometric analysis of the optimization landscape. We show that this Bregman representation admits a weak monotonicity property that, while weaker than convexity, provides sufficient structure for rigorous convergence analysis. By deriving bounds on the objective function along rays in parameter space, we establish properties governed by the spectral characteristics of the Fisher information matrix. Under this geometric framework, we prove non-asymptotic convergence rates for gradient descent algorithms with both constant and diminishing step sizes.",
+ "primary": "stat.ML"
+}

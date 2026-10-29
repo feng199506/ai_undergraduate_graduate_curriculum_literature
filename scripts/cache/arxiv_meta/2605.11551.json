@@ -1,0 +1,17 @@
+{
+ "id": "2605.11551",
+ "title": "VNDUQE: Information-Theoretic Novelty Detection using Deep Variational Information Bottleneck",
+ "authors": [
+  "Aryan Gondkar",
+  "Hayder Radha",
+  "Yiming Deng"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 1,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 3 figures, Fall 2025 version",
+ "abstract": "Detecting out-of-distribution (OOD) samples is critical for safe deployment of neural networks in safety-critical applications. While maximum softmax probability (MSP) provides a simple baseline, it lacks theoretical grounding and suffers from miscalibration. We propose VNDUQE (VIB-based Novelty Detection and Uncertainty Quantification for Nondestructive Evaluation), which investigates novelty detection through the Deep Variational Information Bottleneck (VIB), which explicitly constrains information flow through learned representations. We train VIB models on MNIST with held-out digit classes and evaluate OOD detection using information-theoretic metrics: KL divergence and prediction entropy. Our results reveal complementary detection signals: KL divergence achieves perfect detection (100\\% AUROC on noise) on far-OOD samples (noise, domain shift), while prediction entropy excels at near-OOD detection (94.7\\% AUROC on novel digit classes). A parallel detection strategy combining both metrics achieves 95.3\\% average AUROC and 92\\% true positive rate at 5\\% false positive rate, which is a 32 percentage point improvement over baseline MSP (85.0\\% AUROC, 60.1\\% TPR). Compression via the information bottleneck principle ($β=10^{-3}$) reduces Expected Calibration Error by 38\\%, demonstrating that information-theoretic constraints produce fundamentally more reliable uncertainty estimates. These findings directly support active learning with expensive computational oracles, where well-calibrated novelty detection enables principled threshold selection for oracle queries.",
+ "primary": "cs.LG"
+}

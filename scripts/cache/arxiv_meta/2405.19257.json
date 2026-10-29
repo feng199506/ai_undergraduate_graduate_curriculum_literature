@@ -1,0 +1,23 @@
+{
+ "id": "2405.19257",
+ "title": "Hybrid-Parallel: Achieving High Performance and Energy Efficient Distributed Inference on Robots",
+ "authors": [
+  "Zekai Sun",
+  "Xiuxian Guan",
+  "Junming Wang",
+  "Haoze Song",
+  "Yuhao Qing",
+  "Tianxiang Shen",
+  "Dong Huang",
+  "Fangming Liu",
+  "Heming Cui"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 1,
+ "latest_date": "2024-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid advancements in machine learning techniques have led to significant achievements in various real-world robotic tasks. These tasks heavily rely on fast and energy-efficient inference of deep neural network (DNN) models when deployed on robots. To enhance inference performance, distributed inference has emerged as a promising approach, parallelizing inference across multiple powerful GPU devices in modern data centers using techniques such as data parallelism, tensor parallelism, and pipeline parallelism. However, when deployed on real-world robots, existing parallel methods fail to provide low inference latency and meet the energy requirements due to the limited bandwidth of robotic IoT. We present Hybrid-Parallel, a high-performance distributed inference system optimized for robotic IoT. Hybrid-Parallel employs a fine-grained approach to parallelize inference at the granularity of local operators within DNN layers (i.e., operators that can be computed independently with the partial input, such as the convolution kernel in the convolution layer). By doing so, Hybrid-Parallel enables different operators of different layers to be computed and transmitted concurrently, and overlap the computation and transmission phases within the same inference task. The evaluation demonstrate that Hybrid-Parallel reduces inference time by 14.9% ~41.1% and energy consumption per inference by up to 35.3% compared to the state-of-the-art baselines.",
+ "primary": "cs.RO"
+}

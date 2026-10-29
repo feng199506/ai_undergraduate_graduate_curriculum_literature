@@ -1,0 +1,24 @@
+{
+ "id": "2602.22581",
+ "title": "IBCircuit: Towards Holistic Circuit Discovery with Information Bottleneck",
+ "authors": [
+  "Tian Bian",
+  "Yifan Niu",
+  "Chaohao Yuan",
+  "Chengzhi Piao",
+  "Bingzhe Wu",
+  "Long-Kai Huang",
+  "Yu Rong",
+  "Tingyang Xu",
+  "Hong Cheng",
+  "Jia Li"
+ ],
+ "v1_date": "2026-02-26",
+ "latest_version": 1,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Circuit discovery has recently attracted attention as a potential research direction to explain the non-trivial behaviors of language models. It aims to find the computational subgraphs, also known as circuits, within the model that are responsible for solving specific tasks. However, most existing studies overlook the holistic nature of these circuits and require designing specific corrupted activations for different tasks, which is inaccurate and inefficient. In this work, we propose an end-to-end approach based on the principle of Information Bottleneck, called IBCircuit, to identify informative circuits holistically. IBCircuit is an optimization framework for holistic circuit discovery and can be applied to any given task without tediously corrupted activation design. In both the Indirect Object Identification (IOI) and Greater-Than tasks, IBCircuit identifies more faithful and minimal circuits in terms of critical node components and edge components compared to recent related work.",
+ "primary": "cs.LG"
+}

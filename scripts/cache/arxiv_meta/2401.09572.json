@@ -1,0 +1,18 @@
+{
+ "id": "2401.09572",
+ "title": "Handling Large-scale Cardinality in building recommendation systems",
+ "authors": [
+  "Dhruva Dixith Kurra",
+  "Bo Ling",
+  "Chun Zh",
+  "Seyedshahin Ashrafzadeh"
+ ],
+ "v1_date": "2024-01-17",
+ "latest_version": 1,
+ "latest_date": "2024-01-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Effective recommendation systems rely on capturing user preferences, often requiring incorporating numerous features such as universally unique identifiers (UUIDs) of entities. However, the exceptionally high cardinality of UUIDs poses a significant challenge in terms of model degradation and increased model size due to sparsity. This paper presents two innovative techniques to address the challenge of high cardinality in recommendation systems. Specifically, we propose a bag-of-words approach, combined with layer sharing, to substantially decrease the model size while improving performance. Our techniques were evaluated through offline and online experiments on Uber use cases, resulting in promising results demonstrating our approach's effectiveness in optimizing recommendation systems and enhancing their overall performance.",
+ "primary": "cs.IR"
+}

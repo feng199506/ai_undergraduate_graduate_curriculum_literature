@@ -1,0 +1,18 @@
+{
+ "id": "2406.16552",
+ "title": "Inference of Sequential Patterns for Neural Message Passing in Temporal Graphs",
+ "authors": [
+  "Jan von Pichowski",
+  "Vincenzo Perri",
+  "Lisi Qarkaxhija",
+  "Ingo Scholtes"
+ ],
+ "v1_date": "2024-06-24",
+ "latest_version": 1,
+ "latest_date": "2024-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The modelling of temporal patterns in dynamic graphs is an important current research issue in the development of time-aware GNNs. Whether or not a specific sequence of events in a temporal graph constitutes a temporal pattern not only depends on the frequency of its occurrence. We consider whether it deviates from what is expected in a temporal graph where timestamps are randomly shuffled. While accounting for such a random baseline is important to model temporal patterns, it has mostly been ignored by current temporal graph neural networks. To address this issue we propose HYPA-DBGNN, a novel two-step approach that combines (i) the inference of anomalous sequential patterns in time series data on graphs based on a statistically principled null model, with (ii) a neural message passing approach that utilizes a higher-order De Bruijn graph whose edges capture overrepresented sequential patterns. Our method leverages hypergeometric graph ensembles to identify anomalous edges within both first- and higher-order De Bruijn graphs, which encode the temporal ordering of events. The model introduces an inductive bias that enhances model interpretability. We evaluate our approach for static node classification using benchmark datasets and a synthetic dataset that showcases its ability to incorporate the observed inductive bias regarding over- and under-represented temporal edges. We demonstrate the framework's effectiveness in detecting similar patterns within empirical datasets, resulting in superior performance compared to baseline methods in node classification tasks. To the best of our knowledge, our work is the first to introduce statistically informed GNNs that leverage temporal and causal sequence anomalies. HYPA-DBGNN represents a path for bridging the gap between statistical graph inference and neural graph representation learning, with potential applications to static GNNs.",
+ "primary": "cs.LG"
+}

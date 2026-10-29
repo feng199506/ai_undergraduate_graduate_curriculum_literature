@@ -1,0 +1,16 @@
+{
+ "id": "2509.15074",
+ "title": "Weighted Automata for Exact Inference in Discrete Probabilistic Programs",
+ "authors": [
+  "Dominik Geißler",
+  "Tobias Winkler"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 2,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In probabilistic programming, the inference problem asks to determine a program's posterior distribution conditioned on its \"observe\" instructions. Inference is challenging, especially when exact rather than approximate results are required. Inspired by recent work on probability generating functions (PGFs), we propose encoding distributions on $\\mathbb{N}^k$ as weighted automata over a commutative alphabet with $k$ symbols. Based on this, we map the semantics of various imperative programming statements to automata-theoretic constructions. For a rich class of programs, this results in an effective translation from prior to posterior distribution, both encoded as automata. We prove that our approach is sound with respect to a standard operational program semantics.",
+ "primary": "cs.FL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2502.08132",
+ "title": "SS4Rec: Continuous-Time Sequential Recommendation with State Space Models",
+ "authors": [
+  "Wei Xiao",
+  "Huiying Wang",
+  "Qifeng Zhou",
+  "Qing Wang"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 3,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential recommendation is a key area in the field of recommendation systems aiming to model user interest based on historical interaction sequences with irregular intervals. While previous recurrent neural network-based and attention-based approaches have achieved significant results, they have limitations in capturing system continuity due to the discrete characteristics. In the context of continuous-time modeling, state space model (SSM) offers a potential solution, as it can effectively capture the dynamic evolution of user interest over time. However, existing SSM-based approaches ignore the impact of irregular time intervals within historical user interactions, making it difficult to model complexed user-item transitions in sequences. To address this issue, we propose a hybrid SSM-based model called SS4Rec for continuous-time sequential recommendation. SS4Rec integrates a time-aware SSM to handle irregular time intervals and a relation-aware SSM to model contextual dependencies, enabling it to infer user interest from both temporal and sequential perspectives. In the training process, the time-aware SSM and the relation-aware SSM are discretized by variable stepsizes according to user interaction time intervals and input data, respectively. This helps capture the continuous dependency from irregular time intervals and provides time-specific personalized recommendations. Experimental studies on five benchmark datasets demonstrate the superiority and effectiveness of SS4Rec.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2604.04948",
+ "title": "From PDF to RAG-Ready: Evaluating Document Conversion Frameworks for Domain-Specific Question Answering",
+ "authors": [
+  "José Guilherme Marques dos Santos",
+  "Ricardo Yang",
+  "Rui Humberto Pereira",
+  "Alexandre Sousa",
+  "Brígida Mónica Faria",
+  "Henrique Lopes Cardoso",
+  "José Duarte",
+  "José Luís Reis",
+  "Luís Paulo Reis",
+  "Pedro Pimenta",
+  "José Paulo Marques dos Santos"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 2,
+ "latest_date": "2026-05-25",
+ "journal_ref": "Applied Sciences 16 (2026) 5069",
+ "doi": "10.3390/app16105069",
+ "comment": "27 pages, 3 figures, 7 tables",
+ "abstract": "Retrieval-Augmented Generation (RAG) systems depend critically on the quality of document preprocessing, yet no prior study has evaluated PDF processing frameworks by their impact on downstream question-answering accuracy. We address this gap through a systematic comparison of four open-source PDF-to-Markdown conversion frameworks, Docling, MinerU, Marker, and DeepSeek OCR, across 21 pipeline configurations, varying the conversion tool, cleaning transformations, splitting strategy, and metadata enrichment. Evaluation was performed using a 50-question benchmark over a corpus of 36 Portuguese administrative documents (1706 pages, ~492K words), with LLM-as-judge scoring over 50 independent runs per configuration. Statistical significance was assessed via Wilcoxon signed-rank tests with Cohen's d effect sizes. Two baselines bounded the results: naïve PDFLoader (86.2%) and manually curated Markdown (91.3%). Docling with hierarchical splitting and image descriptions achieved the highest automated accuracy (94.1 +/- 1.6%), surpassing even manual curation. A per-question-type analysis revealed that table-dependent questions drive the largest accuracy differences, with a 33-percentage-point gap between basic and hierarchical splitting. Metadata enrichment and hierarchy-aware chunking contributed more to accuracy than the conversion framework alone. An exploratory GraphRAG implementation underperformed basic RAG (82% vs. 94.1%). These findings demonstrate that data preparation quality is the dominant factor in RAG system performance.",
+ "primary": "cs.IR"
+}

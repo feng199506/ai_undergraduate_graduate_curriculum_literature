@@ -1,0 +1,17 @@
+{
+ "id": "2604.01502",
+ "title": "Conformal Risk Control under Non-Monotone Losses: Theory and Finite-Sample Guarantees",
+ "authors": [
+  "Tareq Aldirawi",
+  "Yun Li",
+  "Wenge Guo"
+ ],
+ "v1_date": "2026-04-02",
+ "latest_version": 2,
+ "latest_date": "2026-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 6 figures, 3 tables",
+ "abstract": "Conformal risk control (CRC) provides distribution-free guarantees for controlling the expected loss at a user-specified level. Existing theory typically assumes that the loss decreases monotonically with a tuning parameter that governs the size of the prediction set. However, this assumption is often violated in practice, where losses may behave non-monotonically due to competing objectives such as coverage and efficiency. In this paper, we study CRC under non-monotone loss functions when the tuning parameter is selected from a finite grid, a setting commonly arising in thresholding and discretized decision rules. Revisiting a known counterexample, we show that the validity of CRC without monotonicity depends critically on the relationship between the calibration sample size and the grid resolution. In particular, reliable risk control can still be achieved when the calibration sample is sufficiently large relative to the grid size. We establish a finite-sample guarantee for bounded losses over a grid of size $m$, showing that the excess risk above the target level $α$ scales on the order of $\\sqrt{\\log(m)/n}$, where $n$ is the calibration sample size. A matching lower bound demonstrates that this rate is minimax optimal. We also derive refined guarantees under additional structural conditions, including Lipschitz continuity and monotonicity, and extend the analysis to settings with distribution shift via importance weighting. Numerical experiments on synthetic multilabel classification and real object detection data illustrate the practical implications of non-monotonicity. Methods that explicitly account for finite-sample uncertainty achieve more stable risk control than approaches based on monotonicity transformations, while maintaining competitive prediction set sizes.",
+ "primary": "stat.ML"
+}

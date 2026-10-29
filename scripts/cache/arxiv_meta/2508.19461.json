@@ -1,0 +1,22 @@
+{
+ "id": "2508.19461",
+ "title": "Reliable Weak-to-Strong Monitoring of LLM Agents",
+ "authors": [
+  "Neil Kale",
+  "Chen Bo Calvin Zhang",
+  "Kevin Zhu",
+  "Ankit Aich",
+  "Paula Rodriguez",
+  "Scale Red Team",
+  "Christina Q. Knight",
+  "Zifan Wang"
+ ],
+ "v1_date": "2025-08-26",
+ "latest_version": 1,
+ "latest_date": "2025-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 15 figures",
+ "abstract": "We stress test monitoring systems for detecting covert misbehavior in autonomous LLM agents (e.g., secretly sharing private information). To this end, we systematize a monitor red teaming (MRT) workflow that incorporates: (1) varying levels of agent and monitor situational awareness; (2) distinct adversarial strategies to evade the monitor, such as prompt injection; and (3) two datasets and environments -- SHADE-Arena for tool-calling agents and our new CUA-SHADE-Arena, which extends TheAgentCompany, for computer-use agents. We run MRT on existing LLM monitor scaffoldings, which orchestrate LLMs and parse agent trajectories, alongside a new hybrid hierarchical-sequential scaffolding proposed in this work. Our empirical results yield three key findings. First, agent awareness dominates monitor awareness: an agent's knowledge that it is being monitored substantially degrades the monitor's reliability. On the contrary, providing the monitor with more information about the agent is less helpful than expected. Second, monitor scaffolding matters more than monitor awareness: the hybrid scaffolding consistently outperforms baseline monitor scaffolding, and can enable weaker models to reliably monitor stronger agents -- a weak-to-strong scaling effect. Third, in a human-in-the-loop setting where humans discuss with the LLM monitor to get an updated judgment for the agent's behavior, targeted human oversight is most effective; escalating only pre-flagged cases to human reviewers improved the TPR by approximately 15% at FPR = 0.01. Our work establishes a standard workflow for MRT, highlighting the lack of adversarial robustness for LLMs and humans when monitoring and detecting agent misbehavior. We release code, data, and logs to spur further research.",
+ "primary": "cs.AI"
+}

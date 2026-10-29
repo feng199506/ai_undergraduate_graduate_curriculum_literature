@@ -1,0 +1,18 @@
+{
+ "id": "2601.08833",
+ "title": "Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications",
+ "authors": [
+  "Jiaxi Li",
+  "Yue Zhu",
+  "Eun Kyung Lee",
+  "Klara Nahrstedt"
+ ],
+ "v1_date": "2025-11-14",
+ "latest_version": 1,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Different from traditional Large Language Model (LLM) serving that colocates the prefill and decode stages on the same GPU, disaggregated serving dedicates distinct GPUs to prefill and decode workload. Once the prefill GPU completes its task, the KV cache must be transferred to the decode GPU. While existing works have proposed various KV cache transfer paths across different memory and storage tiers, there remains a lack of systematic benchmarking that compares their performance and energy efficiency. Meanwhile, although optimization techniques such as KV cache reuse and frequency scaling have been utilized for disaggregated serving, their performance and energy implications have not been rigorously benchmarked. In this paper, we fill this research gap by re-evaluating prefill-decode disaggregation under different KV transfer mediums and optimization strategies. Specifically, we include a new colocated serving baseline and evaluate disaggregated setups under different KV cache transfer paths. Through GPU profiling using dynamic voltage and frequency scaling (DVFS), we identify and compare the performance-energy Pareto frontiers across all setups to evaluate the potential energy savings enabled by disaggregation. Our results show that performance benefits from prefill-decode disaggregation are not guaranteed and depend on the request load and KV transfer mediums. In addition, stage-wise independent frequency scaling enabled by disaggregation does not lead to energy saving due to inherently higher energy consumption of disaggregated serving.",
+ "primary": "cs.PF"
+}

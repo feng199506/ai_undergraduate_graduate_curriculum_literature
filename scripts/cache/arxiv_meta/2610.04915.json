@@ -1,0 +1,16 @@
+{
+ "id": "2610.04915",
+ "title": "Are We Measuring Scientific Intelligence? Rethinking the Evaluation of AI Scientists",
+ "authors": [
+  "Kate Zhang",
+  "Yuante Li"
+ ],
+ "v1_date": "2026-10-04",
+ "latest_version": 1,
+ "latest_date": "2026-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "[Oral] NeurIPS 2026 Agentic AI for Biological Discovery Workshop",
+ "abstract": "AI agents can now carry out data-driven scientific analyses end to end, and benchmarks assess them by giving an agent a question and a dataset and scoring its final answer against a fixed key. These benchmarks assume that a correct answer was derived from the supplied data, a property we call evidence grounding. However, an agent can also reach the key from prior knowledge or by ruling out the other options, and a score based on a single run cannot tell these cases apart. We show how to test this assumption and find that it often fails. For each question, we build versions of its data files in which the evidence for the answer is left intact, withdrawn or reversed, check each edit with a pre-registered reference statistic, and run the same agent on every version. We then measure evidence-grounded accuracy, which credits a correct answer only if the agent also responds when the evidence is withdrawn and follows it when it is reversed. We evaluate three agent scaffolds and five models on 18 single-cell questions from BAISBench and four synthetic problems from GeneBench-Pro. On the single-cell questions, the Claude agents are 95% accurate and answer 83% correctly without any data, but their evidence-grounded accuracy is only 41%. Hiding gene names raises the share of runs that follow reversed evidence from 58% to 93% on ten gene tasks, suggesting that prior knowledge competes with the supplied data. The benchmark score and LLM judges can also reward answers that ignore the changed evidence. Measuring scientific intelligence rather than recall therefore requires checking whether answers follow the evidence and whether scores reward them for it.",
+ "primary": "cs.AI"
+}

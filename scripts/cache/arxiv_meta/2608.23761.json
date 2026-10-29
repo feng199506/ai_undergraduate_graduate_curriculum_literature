@@ -1,0 +1,18 @@
+{
+ "id": "2608.23761",
+ "title": "(Mis)Understanding Benign Overfitting in Equity Return Prediction",
+ "authors": [
+  "Hui Guo",
+  "Jiawei Huang",
+  "Runze Li",
+  "Yan Yu"
+ ],
+ "v1_date": "2026-08-24",
+ "latest_version": 1,
+ "latest_date": "2026-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Highly overparameterized models often predict well despite interpolating training data in complex domains, challenging the classical bias--variance tradeoff. We investigate whether this ``benign overfitting'' phenomenon extends to equity return prediction. Consistent with recent statistical theory, we document two key phenomena: first, a double descent pattern in the ridgeless model's prediction risk; and second, that while the optimal ridge model consistently outperforms its ridgeless counterpart, this performance gap becomes negligible at large parameter-to-observation ratios. Ultimately, however, both models fail to outperform a simple historical average. This empirical evidence aligns with our asymptotic results under the null hypothesis of zero slope coefficients, suggesting that standard equity predictors lack true forecasting power---even within highly flexible, nonlinear machine learning architectures. These findings reconcile modern and classical machine learning in asset pricing: in the absence of a true signal, they asymptotically collapse to the historical average benchmark.",
+ "primary": "stat.ML"
+}

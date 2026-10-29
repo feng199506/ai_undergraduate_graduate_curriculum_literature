@@ -1,0 +1,18 @@
+{
+ "id": "2411.19421",
+ "title": "A Simple Introduction to the SiMPL Method for Density-Based Topology Optimization",
+ "authors": [
+  "Dohyun Kim",
+  "Boyan Stefanov Lazarov",
+  "Thomas M. Surowiec",
+  "Brendan Keith"
+ ],
+ "v1_date": "2024-11-29",
+ "latest_version": 3,
+ "latest_date": "2025-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel method for solving density-based topology optimization problems: Sigmoidal Mirror descent with a Projected Latent variable (SiMPL). The SiMPL method (pronounced as ``the simple method'') optimizes a design using only first-order derivative information of the objective function. The bound constraints on the density field are enforced with the help of the (negative) Fermi--Dirac entropy, which is also used to define a non-symmetric distance function called a Bregman divergence on the set of admissible designs. This Bregman divergence leads to a simple update rule that is further simplified with the help of a so-called latent variable. Because the SiMPL method involves discretizing the latent variable, it produces a sequence of pointwise-feasible iterates, even when high-order finite elements are used in the discretization. Numerical experiments demonstrate that the method outperforms other popular first-order optimization algorithms. To outline the general applicability of the technique, we include examples with (self-load) compliance minimization and compliant mechanism optimization problems.",
+ "primary": "math.OC"
+}

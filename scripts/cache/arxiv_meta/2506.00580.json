@@ -1,0 +1,16 @@
+{
+ "id": "2506.00580",
+ "title": "Slow Feature Analysis as Variational Inference Objective",
+ "authors": [
+  "Merlin Schüler",
+  "Laurenz Wiskott"
+ ],
+ "v1_date": "2025-05-31",
+ "latest_version": 1,
+ "latest_date": "2025-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work presents a novel probabilistic interpretation of Slow Feature Analysis (SFA) through the lens of variational inference. Unlike prior formulations that recover linear SFA from Gaussian state-space models with linear emissions, this approach relaxes the key constraint of linearity. While it does not lead to full equivalence to non-linear SFA, it recasts the classical slowness objective in a variational framework. Specifically, it allows the slowness objective to be interpreted as a regularizer to a reconstruction loss. Furthermore, we provide arguments, why -- from the perspective of slowness optimization -- the reconstruction loss takes on the role of the constraints that ensure informativeness in SFA. We conclude with a discussion of potential new research directions.",
+ "primary": "cs.LG"
+}

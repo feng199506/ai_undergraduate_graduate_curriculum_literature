@@ -1,0 +1,17 @@
+{
+ "id": "2508.13967",
+ "title": "A PC Algorithm for Max-Linear Bayesian Networks",
+ "authors": [
+  "Carlos Améndola",
+  "Benjamin Hollering",
+  "Francesco Nowell"
+ ],
+ "v1_date": "2025-08-19",
+ "latest_version": 1,
+ "latest_date": "2025-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 7 figures, 1 table",
+ "abstract": "Max-linear Bayesian networks (MLBNs) are a relatively recent class of structural equation models which arise when the random variables involved have heavy-tailed distributions. Unlike most directed graphical models, MLBNs are typically not faithful to d-separation and thus classical causal discovery algorithms such as the PC algorithm or greedy equivalence search can not be used to accurately recover the true graph structure. In this paper, we begin the study of constraint-based discovery algorithms for MLBNs given an oracle for testing conditional independence in the true, unknown graph. We show that if the oracle is given by the $\\ast$-separation criteria in the true graph, then the PC algorithm remains consistent despite the presence of additional CI statements implied by $\\ast$-separation. We also introduce a new causal discovery algorithm named \"PCstar\" which assumes faithfulness to $C^\\ast$-separation and is able to orient additional edges which cannot be oriented with only d- or $\\ast$-separation.",
+ "primary": "stat.ML"
+}

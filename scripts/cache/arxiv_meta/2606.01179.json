@@ -1,0 +1,16 @@
+{
+ "id": "2606.01179",
+ "title": "Physics-Informed Deep Learning for Entropy Prediction in Heterogeneous Systems: Thermodynamic and Information-Theoretic Case Studies",
+ "authors": [
+  "Biswajeet Sahoo",
+  "Debadutta Patra"
+ ],
+ "v1_date": "2026-05-31",
+ "latest_version": 1,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Entropy production governs irreversibility and uncertainty in both physical and information-theoretic systems. While Physics-Informed Neural Networks (PINNs) successfully solve differential equations, current architectures remain inherently domain-specific. The extraction of domain-invariant entropy representations across fundamentally different physical laws remains unexplored. This paper introduces a unified Physics-Informed Deep Learning (PIDL) framework that simultaneously enforces differential equation residuals and information-theoretic bounds within a single neural architecture. We demonstrate this framework via two canonical studies: (i) a thermodynamic continuous stirred-tank reactor (CSTR) model solving governing ODEs, where a Softplus constraint strictly enforces the Second Law of Thermodynamics; and (ii) an information-theoretic financial market model solving the inverse Fokker-Planck PDE to infer latent drift and diffusion coefficients, guaranteeing diffusion positivity via a Softplus constraint while naturally inducing Shannon entropy. Three model variants are evaluated: two domain-specific baselines and one shared-encoder architecture. The PIDL framework guarantees absolute thermodynamic admissibility with zero Second-Law violations and exhibits exceptional data efficiency, retaining >90% predictive accuracy using merely 30% of available training data. Furthermore, a post-hoc Ruppeiner Riemannian geometric analysis of the learned entropy surface successfully identifies thermodynamic phase instabilities. This methodology provides a robust, domain-agnostic architecture for physics-constrained entropy modeling, advancing applications in sustainable process design and quantitative financial risk assessment.",
+ "primary": "cs.LG"
+}

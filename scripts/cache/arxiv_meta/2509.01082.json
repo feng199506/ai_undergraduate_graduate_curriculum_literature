@@ -1,0 +1,17 @@
+{
+ "id": "2509.01082",
+ "title": "RefineStat: Efficient Exploration for Probabilistic Program Synthesis",
+ "authors": [
+  "Madhav Kanda",
+  "Shubham Ugare",
+  "Sasa Misailovic"
+ ],
+ "v1_date": "2025-09-01",
+ "latest_version": 3,
+ "latest_date": "2026-04-19",
+ "journal_ref": "ICLR 2026 (Oral)",
+ "doi": "",
+ "comment": "RefineStat constrains LM decoding with statistical validity checks and uses diagnostic-guided resampling (priors/likelihoods) to transform small LMs' drafts into correct, reliable probabilistic programs that can match or surpass closed-source models",
+ "abstract": "Probabilistic programming offers a powerful framework for modeling uncertainty, yet statistical model discovery in this domain entails navigating an immense search space under strict domain-specific constraints. When small language models are tasked with generating probabilistic programs, they frequently produce outputs that suffer from both syntactic and semantic errors, such as flawed inference constructs. Motivated by probabilistic programmers' domain expertise and debugging strategies, we introduce RefineStat, a language model--driven framework that enforces semantic constraints ensuring synthesized programs contain valid distributions and well-formed parameters, and then applies diagnostic-aware refinement by resampling prior or likelihood components whenever reliability checks fail. We evaluate RefineStat on multiple probabilistic-programming code-generation tasks using smaller language models (SLMs) and find that it produces programs that are both syntactically sound and statistically reliable, often matching or surpassing those from closed-source large language models (e.g., OpenAI o3).",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2509.18067",
+ "title": "Learning to Rank with Top-$K$ Fairness",
+ "authors": [
+  "Boyang Zhang",
+  "Quanqi Hu",
+  "Mingxuan Sun",
+  "Qihang Lin",
+  "Tianbao Yang"
+ ],
+ "v1_date": "2025-09-22",
+ "latest_version": 1,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Already accepted: https://openreview.net/forum?id=SSPCc39XvO @article{ zhang2025learning, title={Learning to Rank with Top-\\$K\\$ Fairness}, author={Boyang Zhang and Quanqi Hu and Mingxuan Sun and Qihang Lin and Tianbao Yang}, journal={Transactions on Machine Learning Research}, issn={2835-8856}, year={2025}, url={https://openreview.net/forum?id=SSPCc39XvO}, note={} }",
+ "abstract": "Fairness in ranking models is crucial, as disparities in exposure can disproportionately affect protected groups. Most fairness-aware ranking systems focus on ensuring comparable average exposure for groups across the entire ranked list, which may not fully address real-world concerns. For example, when a ranking model is used for allocating resources among candidates or disaster hotspots, decision-makers often prioritize only the top-$K$ ranked items, while the ranking beyond top-$K$ becomes less relevant. In this paper, we propose a list-wise learning-to-rank framework that addresses the issues of inequalities in top-$K$ rankings at training time. Specifically, we propose a top-$K$ exposure disparity measure that extends the classic exposure disparity metric in a ranked list. We then learn a ranker to balance relevance and fairness in top-$K$ rankings. Since direct top-$K$ selection is computationally expensive for a large number of items, we transform the non-differentiable selection process into a differentiable objective function and develop efficient stochastic optimization algorithms to achieve both high accuracy and sufficient fairness. Extensive experiments demonstrate that our method outperforms existing methods.",
+ "primary": "cs.LG"
+}

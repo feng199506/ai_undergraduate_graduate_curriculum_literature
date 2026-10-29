@@ -1,0 +1,21 @@
+{
+ "id": "2510.19356",
+ "title": "Imitation Learning Policy based on Multi-Step Consistent Integration Shortcut Model",
+ "authors": [
+  "Yu Fang",
+  "Xinyu Wang",
+  "Xuehe Zhang",
+  "Wanli Xue",
+  "Mingwei Zhang",
+  "Shengyong Chen",
+  "Jie Zhao"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 1,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The wide application of flow-matching methods has greatly promoted the development of robot imitation learning. However, these methods all face the problem of high inference time. To address this issue, researchers have proposed distillation methods and consistency methods, but the performance of these methods still struggles to compete with that of the original diffusion models and flow-matching models. In this article, we propose a one-step shortcut method with multi-step integration for robot imitation learning. To balance the inference speed and performance, we extend the multi-step consistency loss on the basis of the shortcut model, split the one-step loss into multi-step losses, and improve the performance of one-step inference. Secondly, to solve the problem of unstable optimization of the multi-step loss and the original flow-matching loss, we propose an adaptive gradient allocation method to enhance the stability of the learning process. Finally, we evaluate the proposed method in two simulation benchmarks and five real-world environment tasks. The experimental results verify the effectiveness of the proposed algorithm.",
+ "primary": "cs.RO"
+}

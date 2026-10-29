@@ -1,0 +1,19 @@
+{
+ "id": "2603.02873",
+ "title": ".tmu: A Low-Entropy Tree-Structured Representation for LLM-Assisted Scientific Writing",
+ "authors": [
+  "Tianyou Liu",
+  "Ziqiang Li",
+  "Xurui Liu",
+  "Yu Wu",
+  "Yansong Li"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 5,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 8 figures. To be published in EMNLP 2026",
+ "abstract": "As large language models (LLMs) increasingly assist scientific writing, the limitations and token costs of generating TeX become increasingly visible. This paper analyzes TeX's architectural mismatch with LLM workflows, stemming from its lack of an explicit structural representation, to illustrate its limitations on generated semantics and error localization. As an alternative, we introduce .tmu, a low-entropy tree-structured representation. With its efficient data structure and clear contextual boundaries, .tmu outperforms .tex in the above aspects. Experiments across four LLMs provide evidence for this claim in most evaluated settings. Furthermore, we show that due to its lower information entropy, fine-tuning LLMs on .tmu achieves approximately 43% lower final training loss than on .tex. Our work provides a more scalable and LLM-friendly data representation for LLM-assisted scientific writing.",
+ "primary": "cs.CL"
+}

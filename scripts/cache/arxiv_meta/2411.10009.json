@@ -1,0 +1,16 @@
+{
+ "id": "2411.10009",
+ "title": "Semiparametric inference for impulse response functions using double/debiased machine learning",
+ "authors": [
+  "Daniele Ballinari",
+  "Alexander Wehrli"
+ ],
+ "v1_date": "2024-11-15",
+ "latest_version": 2,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a double/debiased machine learning estimator for the impulse response function in settings where a time series of interest is subjected to multiple discrete treatments, assigned over time, which can have a causal effect on future outcomes. The proposed estimator can rely on fully nonparametric relations between treatment and outcome variables, opening up the possibility to use flexible machine learning approaches to estimate impulse response functions. To this end, we extend the theory of double machine learning from an i.i.d. to a time series setting and show that the proposed estimator is consistent and asymptotically normally distributed at the parametric rate, allowing for semiparametric inference for dynamic effects in a time series setting. The properties of the estimator are validated numerically in finite samples by applying it to learn the impulse response function in the presence of serial dependence in both the confounder and observation innovation processes. We also illustrate the methodology empirically by applying it to the estimation of the effects of macroeconomic shocks.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,24 @@
+{
+ "id": "2506.13114",
+ "title": "Understanding LLM-Centric Challenges for Deep Learning Frameworks: An Empirical Analysis",
+ "authors": [
+  "Yanzhou Mu",
+  "Rong Wang",
+  "Juan Zhai",
+  "Chunrong Fang",
+  "Xiang Chen",
+  "Jiacong Wu",
+  "An Guo",
+  "Jiawei Shen",
+  "Bingzhuo Li",
+  "Zhenyu Chen"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 2,
+ "latest_date": "2025-08-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 14 figures",
+ "abstract": "Large language models (LLMs) have driven significant progress across a wide range of real-world applications. Realizing such models requires substantial system-level support. Deep learning (DL) frameworks provide this foundation by enabling efficient model construction, distributed execution, and optimized deployment. The large parameter scale and extended execution cycles impose exacting demands on deep learning frameworks, particularly in terms of scalability, stability, and efficiency. Therefore, poor usability, limited functionality, and subtle bugs in DL frameworks may hinder development efficiency and cause severe failures or resource waste. However, a fundamental question has not been thoroughly investigated in previous studies, i.e., what challenges do DL frameworks face in supporting LLMs? To answer this question, we analyze issue reports from three major DL frameworks (i.e., MindSpore, PyTorch, and TensorFlow) and eight associated LLM toolkits such as Megatron. Based on a manual review of these reports, we construct a taxonomy that captures LLM-centric framework bugs, user requirements, and user questions. We then refine and enrich this taxonomy through interviews with 11 LLM users and eight DL framework developers. Based on the constructed taxonomy and findings summarized from interviews, our study further reveals key technical challenges and mismatches between LLM user needs and developer priorities.",
+ "primary": "cs.SE"
+}

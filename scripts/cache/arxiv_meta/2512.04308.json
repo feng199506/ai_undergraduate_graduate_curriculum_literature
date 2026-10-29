@@ -1,0 +1,21 @@
+{
+ "id": "2512.04308",
+ "title": "ResponsibleRobotBench: Benchmarking Responsible Robot Manipulation using Multi-modal Large Language Models",
+ "authors": [
+  "Lei Zhang",
+  "Ju Dong",
+  "Kaixin Bai",
+  "Minheng Ni",
+  "Zoltan-Csaba Marton",
+  "Zhaopeng Chen",
+  "Jianwei Zhang"
+ ],
+ "v1_date": "2025-12-03",
+ "latest_version": 1,
+ "latest_date": "2025-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "https://sites.google.com/view/responsible-robotbench",
+ "abstract": "Recent advances in large multimodal models have enabled new opportunities in embodied AI, particularly in robotic manipulation. These models have shown strong potential in generalization and reasoning, but achieving reliable and responsible robotic behavior in real-world settings remains an open challenge. In high-stakes environments, robotic agents must go beyond basic task execution to perform risk-aware reasoning, moral decision-making, and physically grounded planning. We introduce ResponsibleRobotBench, a systematic benchmark designed to evaluate and accelerate progress in responsible robotic manipulation from simulation to real world. This benchmark consists of 23 multi-stage tasks spanning diverse risk types, including electrical, chemical, and human-related hazards, and varying levels of physical and planning complexity. These tasks require agents to detect and mitigate risks, reason about safety, plan sequences of actions, and engage human assistance when necessary. Our benchmark includes a general-purpose evaluation framework that supports multimodal model-based agents with various action representation modalities. The framework integrates visual perception, context learning, prompt construction, hazard detection, reasoning and planning, and physical execution. It also provides a rich multimodal dataset, supports reproducible experiments, and includes standardized metrics such as success rate, safety rate, and safe success rate. Through extensive experimental setups, ResponsibleRobotBench enables analysis across risk categories, task types, and agent configurations. By emphasizing physical reliability, generalization, and safety in decision-making, this benchmark provides a foundation for advancing the development of trustworthy, real-world responsible dexterous robotic systems. https://sites.google.com/view/responsible-robotbench",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2402.02634",
+ "title": "Key-Graph Transformer for Image Restoration",
+ "authors": [
+  "Bin Ren",
+  "Yawei Li",
+  "Jingyun Liang",
+  "Rakesh Ranjan",
+  "Mengyuan Liu",
+  "Rita Cucchiara",
+  "Luc Van Gool",
+  "Nicu Sebe"
+ ],
+ "v1_date": "2024-02-04",
+ "latest_version": 1,
+ "latest_date": "2024-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 6 figures",
+ "abstract": "While it is crucial to capture global information for effective image restoration (IR), integrating such cues into transformer-based methods becomes computationally expensive, especially with high input resolution. Furthermore, the self-attention mechanism in transformers is prone to considering unnecessary global cues from unrelated objects or regions, introducing computational inefficiencies. In response to these challenges, we introduce the Key-Graph Transformer (KGT) in this paper. Specifically, KGT views patch features as graph nodes. The proposed Key-Graph Constructor efficiently forms a sparse yet representative Key-Graph by selectively connecting essential nodes instead of all the nodes. Then the proposed Key-Graph Attention is conducted under the guidance of the Key-Graph only among selected nodes with linear computational complexity within each window. Extensive experiments across 6 IR tasks confirm the proposed KGT's state-of-the-art performance, showcasing advancements both quantitatively and qualitatively.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.00330",
+ "title": "Accurate Estimation of Mutual Information in High Dimensional Data",
+ "authors": [
+  "Eslam Abdelaleem",
+  "K. Michael Martini",
+  "Ilya Nemenman"
+ ],
+ "v1_date": "2025-05-31",
+ "latest_version": 3,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages main text, 21 pages SI, 12 Figs overall",
+ "abstract": "Mutual information (MI) quantifies statistical dependence between variables and is widely used across scientific disciplines, yet accurate estimation from finite data remains notoriously difficult. Common approaches fail in high-dimensional, undersampled regimes ($N \\lesssim K$) typical of modern experiments, and no accepted tests exist to detect when neural network-based estimators fail, making them effectively unusable as scientific instruments. We show that neural MI estimators can be made reliable when the statistical dependencies admit a low-dimensional latent representation. Sample complexity is then governed by the latent dimensionality $K_Z \\ll K$ rather than the ambient dimension -- a regime shift we confirm empirically and ground theoretically via random matrix theory. Building on this insight, we develop a practical protocol that provides neural estimators with explicit statistical consistency checks, bias correction, and confidence intervals. We additionally introduce a new class of probabilistic critics (the VSIB family) that substantially reduce bias and variance at higher MI values where standard estimators break down. We validate the protocol on synthetic benchmarks ($K=500$, $N$ as low as $256$), on the standard 40-dataset benchmark suite of Czyz et al. (2023), on noisy MNIST ($K=784$), and on CIFAR-10/100 ($K=3072$) with a ResNet-20 backbone. Our protocol consistently matches or exceeds existing methods while being the only approach to report confidence intervals and flag unreliable estimates, achieving reliable MI detection well below the ambient pixel dimension on real images.",
+ "primary": "physics.data-an"
+}

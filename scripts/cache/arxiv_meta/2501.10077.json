@@ -1,0 +1,21 @@
+{
+ "id": "2501.10077",
+ "title": "Double descent in quantum kernel methods",
+ "authors": [
+  "Marie Kempkes",
+  "Aroosa Ijaz",
+  "Elies Gil-Fuster",
+  "Carlos Bravo-Prieto",
+  "Jakob Spiegelberg",
+  "Evert van Nieuwenburg",
+  "Vedran Dunjko"
+ ],
+ "v1_date": "2025-01-17",
+ "latest_version": 2,
+ "latest_date": "2025-09-19",
+ "journal_ref": "PRX Quantum 7, 010312 (2026)",
+ "doi": "10.1103/cn64-gs6b",
+ "comment": "",
+ "abstract": "The double descent phenomenon challenges traditional statistical learning theory by revealing scenarios where larger models do not necessarily lead to reduced performance on unseen data. While this counterintuitive behavior has been observed in a variety of classical machine learning models, particularly modern neural network architectures, it remains elusive within the context of quantum machine learning. In this work, we analytically demonstrate that linear regression models in quantum feature spaces can exhibit double descent behavior by drawing on insights from classical linear regression and random matrix theory. Additionally, our numerical experiments on quantum kernel methods across different real-world datasets and system sizes further confirm the existence of a test error peak, a characteristic feature of double descent. Our findings provide evidence that quantum models can operate in the modern, overparameterized regime without experiencing overfitting, potentially opening pathways to improved learning performance beyond traditional statistical learning theory.",
+ "primary": "quant-ph"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2402.04038",
+ "title": "PAC-Bayesian Adversarially Robust Generalization Bounds for Graph Neural Network",
+ "authors": [
+  "Tan Sun",
+  "Junhong Lin"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 2,
+ "latest_date": "2024-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38pages",
+ "abstract": "Graph neural networks (GNNs) have gained popularity for various graph-related tasks. However, similar to deep neural networks, GNNs are also vulnerable to adversarial attacks. Empirical studies have shown that adversarially robust generalization has a pivotal role in establishing effective defense algorithms against adversarial attacks. In this paper, we contribute by providing adversarially robust generalization bounds for two kinds of popular GNNs, graph convolutional network (GCN) and message passing graph neural network, using the PAC-Bayesian framework. Our result reveals that spectral norm of the diffusion matrix on the graph and spectral norm of the weights as well as the perturbation factor govern the robust generalization bounds of both models. Our bounds are nontrivial generalizations of the results developed in (Liao et al., 2020) from the standard setting to adversarial setting while avoiding exponential dependence of the maximum node degree. As corollaries, we derive better PAC-Bayesian robust generalization bounds for GCN in the standard setting, which improve the bounds in (Liao et al., 2020) by avoiding exponential dependence on the maximum node degree.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2505.16136",
+ "title": "Interpretable Machine Learning for Macro Alpha: A News Sentiment Case Study",
+ "authors": [
+  "Yuke Zhang"
+ ],
+ "v1_date": "2025-05-22",
+ "latest_version": 1,
+ "latest_date": "2025-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages (including references), 1 figure, 1 table. Code available at \\url{https://github.com/yukepenn/macro-news-sentiment-trading}. Keywords: Macro Sentiment, News Sentiment, Algorithmic Trading, GDELT, FinBERT, NLP, Alternative Data, Foreign Exchange, Treasury Futures, Quantitative Finance, Machine Learning, SHAP, Interpretability",
+ "abstract": "This study introduces an interpretable machine learning (ML) framework to extract macroeconomic alpha from global news sentiment. We process the Global Database of Events, Language, and Tone (GDELT) Project's worldwide news feed using FinBERT -- a Bidirectional Encoder Representations from Transformers (BERT) based model pretrained on finance-specific language -- to construct daily sentiment indices incorporating mean tone, dispersion, and event impact. These indices drive an XGBoost classifier, benchmarked against logistic regression, to predict next-day returns for EUR/USD, USD/JPY, and 10-year U.S. Treasury futures (ZN). Rigorous out-of-sample (OOS) backtesting (5-fold expanding-window cross-validation, OOS period: c. 2017-April 2025) demonstrates exceptional, cost-adjusted performance for the XGBoost strategy: Sharpe ratios achieve 5.87 (EUR/USD), 4.65 (USD/JPY), and 4.65 (Treasuries), with respective compound annual growth rates (CAGRs) exceeding 50% in Foreign Exchange (FX) and 22% in bonds. Shapley Additive Explanations (SHAP) affirm that sentiment dispersion and article impact are key predictive features. Our findings establish that integrating domain-specific Natural Language Processing (NLP) with interpretable ML offers a potent and explainable source of macro alpha.",
+ "primary": "q-fin.CP"
+}

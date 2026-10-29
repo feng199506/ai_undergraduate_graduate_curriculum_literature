@@ -1,0 +1,18 @@
+{
+ "id": "2609.05212",
+ "title": "PAC-Bayesian Reconstruction Guarantees for Time Series Variational Autoencoders",
+ "authors": [
+  "Chloé Hashimoto-Cullen",
+  "Ghislain Agoua",
+  "Benjamin Guedj",
+  "Sylvain Le Corff"
+ ],
+ "v1_date": "2026-09-04",
+ "latest_version": 1,
+ "latest_date": "2026-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages",
+ "abstract": "Forecasting time series accurately is critical for applications with complex data ranging from energy systems to healthcare and finance. Among current state of the art models, generative latent variable models are increasingly implemented; yet principled generalisation guarantees for modern latent variable models remain limited. In particular, while Variational AutoEncoders are widely used for sequential data, their theoretical analysis is largely restricted to i.i.d. settings. In this work, we develop a PAC-Bayesian framework for latent variables models applied to time series. Building on reconstruction-based bounds, we extend PAC-Bayesian guarantees to Markovian latent structures, capturing temporal dependencies through a sequential generative process. These guarantees do not grow with the length of the trajectory. Our bounds depend on assumptions which are common in the literature; we provide an example framework where they would be verified to show that they are not as restrictive as they may seem.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2506.23411",
+ "title": "Datasets for Fairness in Language Models: An In-Depth Survey",
+ "authors": [
+  "Jiale Zhang",
+  "Zichong Wang",
+  "Avash Palikhe",
+  "Zhipeng Yin",
+  "Wenbin Zhang"
+ ],
+ "v1_date": "2025-06-29",
+ "latest_version": 2,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Despite the growing reliance on fairness benchmarks to evaluate language models, the datasets that underpin these benchmarks remain critically underexamined. This survey addresses that overlooked foundation by offering a comprehensive analysis of the most widely used fairness datasets in language model research. To ground this analysis, we characterize each dataset across key dimensions, including provenance, demographic scope, annotation design, and intended use, revealing the assumptions and limitations baked into current evaluation practices. Building on this foundation, we propose a unified evaluation framework that surfaces consistent patterns of demographic disparities across benchmarks and scoring metrics. Applying this framework to sixteen popular datasets, we uncover overlooked biases that may distort conclusions about model fairness and offer guidance on selecting, combining, and interpreting these resources more effectively and responsibly. Our findings highlight an urgent need for new benchmarks that capture a broader range of social contexts and fairness notions. To support future research, we release all data, code, and results at https://github.com/vanbanTruong/Fairness-in-Large-Language-Models/tree/main/datasets, fostering transparency and reproducibility in the evaluation of language model fairness.",
+ "primary": "cs.CL"
+}

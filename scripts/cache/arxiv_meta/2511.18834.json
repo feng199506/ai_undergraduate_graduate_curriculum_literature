@@ -1,0 +1,23 @@
+{
+ "id": "2511.18834",
+ "title": "FlowSteer: Guiding Few-Step Image Synthesis with Authentic Trajectories",
+ "authors": [
+  "Lei Ke",
+  "Hubery Yin",
+  "Gongye Liu",
+  "Zhengyao Lv",
+  "Jingcai Guo",
+  "Chen Li",
+  "Wenhan Luo",
+  "Yujiu Yang",
+  "Jing Lyu"
+ ],
+ "v1_date": "2025-11-24",
+ "latest_version": 1,
+ "latest_date": "2025-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Few-Step Image Synthesis",
+ "abstract": "With the success of flow matching in visual generation, sampling efficiency remains a critical bottleneck for its practical application. Among flow models' accelerating methods, ReFlow has been somehow overlooked although it has theoretical consistency with flow matching. This is primarily due to its suboptimal performance in practical scenarios compared to consistency distillation and score distillation. In this work, we investigate this issue within the ReFlow framework and propose FlowSteer, a method unlocks the potential of ReFlow-based distillation by guiding the student along teacher's authentic generation trajectories. We first identify that Piecewised ReFlow's performance is hampered by a critical distribution mismatch during the training and propose Online Trajectory Alignment(OTA) to resolve it. Then, we introduce a adversarial distillation objective applied directly on the ODE trajectory, improving the student's adherence to the teacher's generation trajectory. Furthermore, we find and fix a previously undiscovered flaw in the widely-used FlowMatchEulerDiscreteScheduler that largely degrades few-step inference quality. Our experiment result on SD3 demonstrates our method's efficacy.",
+ "primary": "cs.CV"
+}

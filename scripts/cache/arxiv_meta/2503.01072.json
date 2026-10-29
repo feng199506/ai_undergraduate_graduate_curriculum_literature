@@ -1,0 +1,17 @@
+{
+ "id": "2503.01072",
+ "title": "Vector Copula Variational Inference and Dependent Block Posterior Approximations",
+ "authors": [
+  "Yu Fu",
+  "Michael Stanley Smith",
+  "Anastasios Panagiotelis"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 2,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The key to VI is the selection of a tractable density to approximate the Bayesian posterior. For large and complex models a common choice is to assume independence between multivariate blocks in a partition of the parameter space. While this simplifies the problem it can reduce accuracy. This paper proposes using vector copulas to capture dependence between the blocks parsimoniously. Tailored multivariate marginals are constructed using learnable transport maps. We call the resulting joint distribution a ``dependent block posterior'' approximation. Vector copula models are suggested that make tractable and flexible variational approximations. They allow for differing marginals, numbers of blocks, block sizes and forms of between block dependence. They also allow for solution of the variational optimization using efficient stochastic gradient methods. The approach is demonstrated using four different statistical models and 16 datasets which have posteriors that are challenging to approximate. This includes models that use global-local shrinkage priors for regularization, and hierarchical models for smoothing and heteroscedastic time series. In all cases, our method produces more accurate posterior approximations than benchmark VI methods that either assume block independence or factor-based dependence, at limited additional computational cost. A python package implementing the method is available on GitHub at https://github.com/YuFuOliver/VCVI_Rep_PyPackage.",
+ "primary": "stat.ML"
+}

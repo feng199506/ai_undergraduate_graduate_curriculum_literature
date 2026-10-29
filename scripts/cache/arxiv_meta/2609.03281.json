@@ -1,0 +1,16 @@
+{
+ "id": "2609.03281",
+ "title": "A Unified Theory of H-Duality in First-Order Methods",
+ "authors": [
+  "Kevin Shu",
+  "Alex L. Wang"
+ ],
+ "v1_date": "2026-09-03",
+ "latest_version": 1,
+ "latest_date": "2026-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We provide two complementary explanations of H-duality in smooth strongly convex optimization and contractive fixed-point problems. H-duality refers to the phenomenon where the worst-case performance of many fixed-step first-order methods (FSFOMs) for a given performance setup are exactly equal to the worst-case performance of their \"time-reversed\" counterparts and a paired performance setup. This concept gained interest as a mechanism for automatically converting an algorithm with guarantees on the final suboptimality to algorithms with guarantees on the final gradient norm. Since its initial discovery, additional H-dual performance setup pairings have been discovered empirically, yet a general explanation for these phenomena remained elusive. Our first explanation of H-duality shows that, on a class of instances with extremal curvature properties, FSFOMs produce a final iterate that is a scalar multiple of the initial iterate, and that this scalar is invariant under the time reversal of the underlying FSFOM. This, together with the empirical observation that many FSFOMs have such an instance with extremal curvature as their worst case, gives one explanation for why H-duality often occurs. The second explanation is complementary and uses the notion of a performance estimation certificate of the convergence rate of a FSFOM. We exhibit an explicit transformation of such certificates that preserves many of the properties that define such a certificate, and we show that in many numerical and analytical examples, this transformation in fact transforms certificates of the convergence rate of an algorithm into certificates for its time-reversal. As an application, we prove a convergence guarantee for the H-dual of ITEM matching the conjectured optimal gradient-to-gradient guarantee.",
+ "primary": "math.OC"
+}

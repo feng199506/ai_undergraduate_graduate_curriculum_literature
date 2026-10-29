@@ -1,0 +1,15 @@
+{
+ "id": "2605.23101",
+ "title": "Mode-Shape Expansion Using Physics-Constrained Gaussian Process Regression",
+ "authors": [
+  "Farid Ghahari"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses the challenge of reconstructing full-field structural mode shapes from sparse sensor data. While Gaussian Process Regression (GPR) offers a robust non-parametric framework for spatial interpolation and uncertainty quantification, standard formulations often yield physically inconsistent mode-shape reconstructions under sparse sensing conditions. A Physics-Constrained Single-Output Gaussian Process (CONS-SOGP) framework is derived that utilizes independent modal kernels while coupling the optimization via a mass-orthogonality penalty. The paper presents derivations for the marginal likelihood, hyperparameter gradients, and penalty coupling. Numerical verification on a multi-degree-of-freedom structure demonstrates that the proposed method overcomes existing limitations in GP-based prediction, providing more accurate and reliable expanded mode shapes.",
+ "primary": "math.NA"
+}

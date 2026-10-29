@@ -1,0 +1,15 @@
+{
+ "id": "2508.06743",
+ "title": "Analysis of Schedule-Free Nonconvex Optimization",
+ "authors": [
+  "Connor Brown"
+ ],
+ "v1_date": "2025-08-08",
+ "latest_version": 1,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "First-order methods underpin most large-scale learning algorithms, yet their classical convergence guarantees hinge on carefully scheduled step-sizes that depend on the total horizon $T$, which is rarely known in advance. The Schedule-Free (SF) method promises optimal performance with hyperparameters that are independent of $T$ by interpolating between Polyak--Ruppert averaging and momentum, but nonconvex analysis of SF has been limited or reliant on strong global assumptions. We introduce a robust Lyapunov framework that, under only $L$-smoothness and lower-boundedness, reduces SF analysis to a single-step descent inequality. This yields horizon-agnostic bounds in the nonconvex setting: $O(1/\\log T)$ for constant step + PR averaging, $O(\\log T/T)$ for a linearly growing step-size, and a continuum of $O(T^{-(1-α)})$ rates for polynomial averaging. We complement these proofs with Performance Estimation Problem (PEP) experiments that numerically validate our rates and suggest that our $O(1/\\log T)$ bound on the original nonconvex SF algorithm may tighten to $O(1/T)$. Our work extends SF's horizon-free guarantees to smooth nonconvex optimization and charts future directions for optimal nonconvex rates.",
+ "primary": "cs.LG"
+}

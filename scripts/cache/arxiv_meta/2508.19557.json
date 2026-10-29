@@ -1,0 +1,17 @@
+{
+ "id": "2508.19557",
+ "title": "NLAFormer: Transformers Learn Numerical Linear Algebra Operations",
+ "authors": [
+  "Zhantao Ma",
+  "Yihang Gao",
+  "Michael K. Ng"
+ ],
+ "v1_date": "2025-08-27",
+ "latest_version": 1,
+ "latest_date": "2025-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transformers are effective and efficient at modeling complex relationships and learning patterns from structured data in many applications. The main aim of this paper is to propose and design NLAFormer, which is a transformer-based architecture for learning numerical linear algebra operations: pointwise computation, shifting, transposition, inner product, matrix multiplication, and matrix-vector multiplication. Using a linear algebra argument, we demonstrate that transformers can express such operations. Moreover, the proposed approach discards the simulation of computer control flow adopted by the loop-transformer, significantly reducing both the input matrix size and the number of required layers. By assembling linear algebra operations, NLAFormer can learn the conjugate gradient method to solve symmetric positive definite linear systems. Experiments are conducted to illustrate the numerical performance of NLAFormer.",
+ "primary": "math.NA"
+}

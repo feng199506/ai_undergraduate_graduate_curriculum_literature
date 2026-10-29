@@ -1,0 +1,20 @@
+{
+ "id": "2608.27968",
+ "title": "Quantile Randomized Kaczmarz for Streaming Linear Systems with Massart Noise",
+ "authors": [
+  "Emeric Battaglia",
+  "Jian-Feng Cai",
+  "Junren Chen",
+  "Anna Ma",
+  "Deanna Needell",
+  "Tong Wu"
+ ],
+ "v1_date": "2026-08-28",
+ "latest_version": 1,
+ "latest_date": "2026-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 4 figures",
+ "abstract": "Quantile randomized Kaczmarz (QRK) has proven to be an efficient solver for corrupted linear systems and has received much attention. It was recently shown by Cai et al. (SIAM J. Matrix Anal. Appl. 47(2):802-823, 2026) that using $O(\\log T/\\log(1/β))$ samples for computing the quantile is necessary and sufficient for QRK to converge linearly over $T$ iterations when solving linear systems with a $β$-fraction of arbitrary corruptions, as long as $β$ is small enough. However, it remains unclear how large the corruption level $β$ can be, and how to compute the required subsample size $D$ explicitly, without hidden constants. This paper studies streaming linear systems with Massart noise via QRK using an order-optimal batch size $D=O(\\log T)$ in each update. The independence of samples from previous iterations in the streaming setting enables a sharper analysis, yielding explicit, computable bounds on both the tolerable corruption level and the required subsample size. In particular, we establish linear convergence for corruption levels of up to approximately 7%. We also discuss how the constants improve under oblivious noise.",
+ "primary": "math.NA"
+}

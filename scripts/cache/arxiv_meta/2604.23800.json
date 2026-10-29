@@ -1,0 +1,19 @@
+{
+ "id": "2604.23800",
+ "title": "Causal Representation Learning from General Environments under Nonparametric Mixing",
+ "authors": [
+  "Ignavier Ng",
+  "Shaoan Xie",
+  "Xinshuai Dong",
+  "Peter Spirtes",
+  "Kun Zhang"
+ ],
+ "v1_date": "2026-04-26",
+ "latest_version": 1,
+ "latest_date": "2026-04-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AISTATS 2025. This is a slightly revised version of the published paper",
+ "abstract": "Causal representation learning aims to recover the latent causal variables and their causal relations, typically represented by directed acyclic graphs (DAGs), from low-level observations such as image pixels. A prevailing line of research exploits multiple environments, which assume how data distributions change, including single-node interventions, coupled interventions, or hard interventions, or parametric constraints on the mixing function or the latent causal model, such as linearity. Despite the novelty and elegance of the results, they are often violated in real problems. Accordingly, we formalize a set of desiderata for causal representation learning that applies to a broader class of environments, referred to as general environments. Interestingly, we show that one can fully recover the latent DAG and identify the latent variables up to minor indeterminacies under a nonparametric mixing function and nonlinear latent causal models, such as additive (Gaussian) noise models or heteroscedastic noise models, by properly leveraging sufficient change conditions on the causal mechanisms up to third-order derivatives. These represent, to our knowledge, the first results to fully recover the latent DAG from general environments under nonparametric mixing. Notably, our results match or improve upon many existing works, but require less restrictive assumptions about changing environments.",
+ "primary": "cs.LG"
+}

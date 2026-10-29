@@ -1,0 +1,16 @@
+{
+ "id": "2508.15932",
+ "title": "Interpretable Kernels",
+ "authors": [
+  "Patrick J. F. Groenen",
+  "Michael Greenacre"
+ ],
+ "v1_date": "2025-08-21",
+ "latest_version": 1,
+ "latest_date": "2025-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The use of kernels for nonlinear prediction is widespread in machine learning. They have been popularized in support vector machines and used in kernel ridge regression, amongst others. Kernel methods share three aspects. First, instead of the original matrix of predictor variables or features, each observation is mapped into an enlarged feature space. Second, a ridge penalty term is used to shrink the coefficients on the features in the enlarged feature space. Third, the solution is not obtained in this enlarged feature space, but through solving a dual problem in the observation space. A major drawback in the present use of kernels is that the interpretation in terms of the original features is lost. In this paper, we argue that in the case of a wide matrix of features, where there are more features than observations, the kernel solution can be re-expressed in terms of a linear combination of the original matrix of features and a ridge penalty that involves a special metric. Consequently, the exact same predicted values can be obtained as a weighted linear combination of the features in the usual manner and thus can be interpreted. In the case where the number of features is less than the number of observations, we discuss a least-squares approximation of the kernel matrix that still allows the interpretation in terms of a linear combination. It is shown that these results hold for any function of a linear combination that minimizes the coefficients and has a ridge penalty on these coefficients, such as in kernel logistic regression and kernel Poisson regression. This work makes a contribution to interpretable artificial intelligence.",
+ "primary": "stat.ML"
+}

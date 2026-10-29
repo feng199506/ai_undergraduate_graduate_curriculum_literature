@@ -1,0 +1,17 @@
+{
+ "id": "2504.20121",
+ "title": "Benchmarking Transferability: A Framework for Fair and Robust Evaluation",
+ "authors": [
+  "Alireza Kazemi",
+  "Helia Rezvani",
+  "Mahsa Baktashmotlagh"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 1,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transferability scores aim to quantify how well a model trained on one domain generalizes to a target domain. Despite numerous methods proposed for measuring transferability, their reliability and practical usefulness remain inconclusive, often due to differing experimental setups, datasets, and assumptions. In this paper, we introduce a comprehensive benchmarking framework designed to systematically evaluate transferability scores across diverse settings. Through extensive experiments, we observe variations in how different metrics perform under various scenarios, suggesting that current evaluation practices may not fully capture each method's strengths and limitations. Our findings underscore the value of standardized assessment protocols, paving the way for more reliable transferability measures and better-informed model selection in cross-domain applications. Additionally, we achieved a 3.5\\% improvement using our proposed metric for the head-training fine-tuning experimental setup. Our code is available in this repository: https://github.com/alizkzm/pert_robust_platform.",
+ "primary": "cs.LG"
+}

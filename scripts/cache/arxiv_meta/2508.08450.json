@@ -1,0 +1,16 @@
+{
+ "id": "2508.08450",
+ "title": "Differentiable Cyclic Causal Discovery Under Unmeasured Confounders",
+ "authors": [
+  "Muralikrishnna G. Sethuraman",
+  "Faramarz Fekri"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 3,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding causal relationships between variables is fundamental across scientific disciplines. Most causal discovery algorithms rely on two key assumptions: (i) all variables are observed, and (ii) the underlying causal graph is acyclic. While these assumptions simplify theoretical analysis, they are often violated in real-world systems, such as biological networks. Existing methods that account for confounders either assume linearity or struggle with scalability. To address these limitations, we propose DCCD-CONF, a novel framework for differentiable learning of nonlinear cyclic causal graphs in the presence of unmeasured confounders using interventional data. Our approach alternates between optimizing the graph structure and estimating the confounder distribution by maximizing the log-likelihood of the data. Through experiments on synthetic data and real-world gene perturbation datasets, we show that DCCD-CONF outperforms state-of-the-art methods in both causal graph recovery and confounder identification. Additionally, we also provide consistency guarantees for our framework, reinforcing its theoretical soundness.",
+ "primary": "cs.LG"
+}

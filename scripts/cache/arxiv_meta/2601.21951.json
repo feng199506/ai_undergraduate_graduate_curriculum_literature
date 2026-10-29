@@ -1,0 +1,19 @@
+{
+ "id": "2601.21951",
+ "title": "Diffusion Path Samplers via Sequential Monte Carlo",
+ "authors": [
+  "James Matthew Young",
+  "Paula Cordero-Encinar",
+  "Sebastian Reich",
+  "Andrew Duncan",
+  "O. Deniz Akyildiz"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 2,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop diffusion-based samplers for target distributions known up to a normalising constant. To this end, we rely on the well-known diffusion path that smoothly interpolates between a simple base distribution and the target, popularised by diffusion models. We tackle the score estimation problem by developing an efficient sequential Monte Carlo sampler that evolves auxiliary variables from conditional distributions along the path, providing principled score and density estimates for time-varying distributions. To control the variance of score estimates, we further propose practical control variate schedules that incur minimal overhead. We adapt this general framework to paths induced by the Ornstein-Uhlenbeck (OU) time-reversal process, stochastic interpolants, and diffusion annealed Langevin dynamics, outlining their trade-offs. Finally, we provide theoretical guarantees and empirically demonstrate the effectiveness of our method on several synthetic and real-world datasets.",
+ "primary": "stat.ML"
+}

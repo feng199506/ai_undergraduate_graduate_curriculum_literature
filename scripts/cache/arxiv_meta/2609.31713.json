@@ -1,0 +1,17 @@
+{
+ "id": "2609.31713",
+ "title": "Agentic Video Understanding: A Survey",
+ "authors": [
+  "Xinyu Deng",
+  "Siwen Luo",
+  "Daochang Liu"
+ ],
+ "v1_date": "2026-09-21",
+ "latest_version": 2,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages,3 figures, Accepted to DICTA 2026; Revised Fig. 2 to correct taxonomy inconsistencies",
+ "abstract": "As large language models (LLMs) become capable of processing increasingly diverse modalities and longer temporal contexts, an emerging line of work is moving beyond fixed video-language inference toward agentic systems that actively decide what information to inspect, retain, verify, and act upon. This survey reviews video understanding agents: systems that use video as the primary information source and solve understanding tasks through adaptive state construction and action selection. We first formalize an agent loop for video understanding, then address a central question: why do agents matter for video understanding? To answer this, we organize the literature through a challenge-to-design taxonomy, linking context bottlenecks to hierarchical evidence memory, evidence sparsity to active evidence acquisition, temporal causality to state and process tracking, and multimodal ambiguity to role-specialized coordination. We further review state space paradigms, learning paradigms, supervision signals, benchmarks, and evaluation protocols. Finally, we identify open directions toward agentic-native temporal modeling and video-native agents. Project page: https://github.com/DXY0711/Awesome-Agentic-Video-Understanding",
+ "primary": "cs.CV"
+}

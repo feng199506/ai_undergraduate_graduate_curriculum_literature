@@ -1,0 +1,24 @@
+{
+ "id": "2603.01194",
+ "title": "RnG: A Unified Transformer for Complete 3D Modeling from Partial Observations",
+ "authors": [
+  "Mochu Xiang",
+  "Zhelun Shen",
+  "Xuesong Li",
+  "Jiahui Ren",
+  "Jing Zhang",
+  "Chen Zhao",
+  "Shanshan Liu",
+  "Haocheng Feng",
+  "Jingdong Wang",
+  "Yuchao Dai"
+ ],
+ "v1_date": "2026-03-01",
+ "latest_version": 1,
+ "latest_date": "2026-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to CVPR 2026",
+ "abstract": "Human perceive the 3D world through 2D observations from limited viewpoints. While recent feed-forward generalizable 3D reconstruction models excel at recovering 3D structures from sparse images, their representations are often confined to observed regions, leaving unseen geometry un-modeled. This raises a key, fundamental challenge: Can we infer a complete 3D structure from partial 2D observations? We present RnG (Reconstruction and Generation), a novel feed-forward Transformer that unifies these two tasks by predicting an implicit, complete 3D representation. At the core of RnG, we propose a reconstruction-guided causal attention mechanism that separates reconstruction and generation at the attention level, and treats the KV-cache as an implicit 3D representation. Then, arbitrary poses can efficiently query this cache to render high-fidelity, novel-view RGBD outputs. As a result, RnG not only accurately reconstructs visible geometry but also generates plausible, coherent unseen geometry and appearance. Our method achieves state-of-the-art performance in both generalizable 3D reconstruction and novel view generation, while operating efficiently enough for real-time interactive applications. Project page: https://npucvr.github.io/RnG",
+ "primary": "cs.CV"
+}

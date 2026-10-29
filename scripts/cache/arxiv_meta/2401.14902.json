@@ -1,0 +1,17 @@
+{
+ "id": "2401.14902",
+ "title": "Model-assisted survey sampling with Bayesian optimization",
+ "authors": [
+  "Jonne Pohjankukka",
+  "Sakari Tuominen",
+  "Jukka Heikkonen"
+ ],
+ "v1_date": "2024-01-26",
+ "latest_version": 1,
+ "latest_date": "2024-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 1 figure, 2 tables",
+ "abstract": "Survey sampling plays an important role in the efficient allocation and management of resources. The essence of survey sampling lies in acquiring a sample of data points from a population and subsequently using this sample to estimate the population parameters of the targeted response variable, such as environmental-related metrics or other pertinent factors. Practical limitations imposed on survey sampling necessitate prudent consideration of the number of samples attainable from the study areas, given the constraints of a fixed budget. To this end, researchers are compelled to employ sampling designs that optimize sample allocations to the best of their ability. Generally, probability sampling serves as the preferred method, ensuring an unbiased estimation of population parameters. Evaluating the efficiency of estimators involves assessing their variances and benchmarking them against alternative baseline approaches, such as simple random sampling. In this study, we propose a novel model-assisted unbiased probability sampling method that leverages Bayesian optimization for the determination of sampling designs. As a result, this approach can yield in estimators with more efficient variance outcomes compared to the conventional estimators such as the Horvitz-Thompson. Furthermore, we test the proposed method in a simulation study using an empirical dataset covering plot-level tree volume from central Finland. The results demonstrate statistically significant improved performance for the proposed method when compared to the baseline.",
+ "primary": "stat.ME"
+}

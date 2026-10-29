@@ -1,0 +1,15 @@
+{
+ "id": "2603.20392",
+ "title": "SymCircuit: Bayesian Structure Inference for Tractable Probabilistic Circuits via Entropy-Regularized Reinforcement Learning",
+ "authors": [
+  "Y. Sungtaek Ju"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages",
+ "abstract": "Probabilistic circuit (PC) structure learning is hampered by greedy algorithms that make irreversible, locally optimal decisions. We propose SymCircuit, which replaces greedy search with a learned generative policy trained via entropy-regularized reinforcement learning. Instantiating the RL-as-inference framework in the PC domain, we show the optimal policy is a tempered Bayesian posterior, recovering the exact posterior when the regularization temperature is set inversely proportional to the dataset size. The policy is implemented as SymFormer, a grammar-constrained autoregressive Transformer with tree-relative self-attention that guarantees valid circuits at every generation step. We introduce option-level REINFORCE, restricting gradient updates to structural decisions rather than all tokens, yielding an SNR (signal to noise ratio) improvement and >10 times sample efficiency gain on the NLTCS dataset. A three-layer uncertainty decomposition (structural via model averaging, parametric via the delta method, leaf via conjugate Dirichlet-Categorical propagation) is grounded in the multilinear polynomial structure of PC outputs. On NLTCS, SymCircuit closes 93% of the gap to LearnSPN; preliminary results on Plants (69 variables) suggest scalability.",
+ "primary": "cs.LG"
+}

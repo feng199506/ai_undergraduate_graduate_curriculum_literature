@@ -1,0 +1,15 @@
+{
+ "id": "2312.17396",
+ "title": "Mixed-Precision Paterson--Stockmeyer Method for Evaluating Polynomials of Matrices",
+ "authors": [
+  "Xiaobo Liu"
+ ],
+ "v1_date": "2023-12-28",
+ "latest_version": 3,
+ "latest_date": "2024-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Paterson--Stockmeyer method is an evaluation scheme for matrix polynomials with scalar coefficients that arise in many state-of-the-art algorithms based on polynomial or rational approximation, for example, those for computing transcendental matrix functions. We derive a mixed-precision version of the Paterson--Stockmeyer method that is particularly useful for evaluating matrix polynomials with scalar coefficients of decaying magnitude. The new method is mainly of interest in the arbitrary precision arithmetic, and it is attractive for high-precision computations. The key idea is to perform computations on data of small magnitude in low precision, and rounding error analysis is provided for the use of lower-than-the-working precisions. We focus on the evaluation of the Taylor approximants of the matrix exponential and show the applicability of our method to the existing scaling and squaring algorithms. We also demonstrate through experiments the general applicability of our method to other problems, such as computing the polynomials from the Padé approximant of the matrix exponential and the Taylor approximant of the matrix cosine. Numerical experiments show our mixed-precision Paterson--Stockmeyer algorithms can be more efficient than its fixed-precision counterpart while delivering the same level of accuracy.",
+ "primary": "math.NA"
+}

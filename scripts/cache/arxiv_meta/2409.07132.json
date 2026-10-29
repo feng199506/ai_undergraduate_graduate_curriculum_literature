@@ -1,0 +1,18 @@
+{
+ "id": "2409.07132",
+ "title": "LLM-based feature generation from text for interpretable machine learning",
+ "authors": [
+  "Vojtěch Balek",
+  "Lukáš Sýkora",
+  "Vilém Sklenák",
+  "Tomáš Kliegr"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 2,
+ "latest_date": "2025-08-27",
+ "journal_ref": "Machine Learning (2025) 114:241",
+ "doi": "10.1007/s10994-025-06867-1",
+ "comment": "",
+ "abstract": "Existing text representations such as embeddings and bag-of-words are not suitable for rule learning due to their high dimensionality and absent or questionable feature-level interpretability. This article explores whether large language models (LLMs) could address this by extracting a small number of interpretable features from text. We demonstrate this process on two datasets (CORD-19 and M17+) containing several thousand scientific articles from multiple disciplines and a target being a proxy for research impact. An evaluation based on testing for the statistically significant correlation with research impact has shown that LLama 2-generated features are semantically meaningful. We consequently used these generated features in text classification to predict the binary target variable representing the citation rate for the CORD-19 dataset and the ordinal 5-class target representing an expert-awarded grade in the M17+ dataset. Machine-learning models trained on the LLM-generated features provided similar predictive performance to the state-of-the-art embedding model SciBERT for scientific text. The LLM used only 62 features compared to 768 features in SciBERT embeddings, and these features were directly interpretable, corresponding to notions such as article methodological rigor, novelty, or grammatical correctness. As the final step, we extract a small number of well-interpretable action rules. Consistently competitive results obtained with the same LLM feature set across both thematically diverse datasets show that this approach generalizes across domains.",
+ "primary": "cs.LG"
+}

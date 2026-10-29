@@ -1,0 +1,17 @@
+{
+ "id": "2504.09932",
+ "title": "A Theory of Universal Rate-Distortion-Classification Representations for Lossy Compression",
+ "authors": [
+  "Nam Nguyen",
+  "Thinh Nguyen",
+  "Bella Bose"
+ ],
+ "v1_date": "2025-04-14",
+ "latest_version": 1,
+ "latest_date": "2025-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In lossy compression, Blau and Michaeli [5] introduced the information rate-distortion-perception (RDP) function, extending traditional rate-distortion theory by incorporating perceptual quality. More recently, this framework was expanded by defining the rate-distortion-perception-classification (RDPC) function, integrating multi-task learning that jointly optimizes generative tasks such as perceptual quality and classification accuracy alongside reconstruction tasks [28]. To that end, motivated by the concept of a universal RDP encoder introduced in [34], we investigate universal representations that enable diverse distortion-classification tradeoffs through a single fixed encoder combined with multiple decoders. Specifically, theoretical analysis and numerical experiment demonstrate that for the Gaussian source under mean squared error (MSE) distortion, the entire distortion-classification tradeoff region can be achieved using one universal encoder. In addition, this paper characterizes achievable distortion-classification regions for fixed universal representations in general source distributions, identifying conditions that ensure minimal distortion penalty when reusing encoders across varying tradeoff points. Experimental results using MNIST and SVHN datasets validate our theoretical insights, showing that universal encoders can obtain distortion performance comparable to task-specific encoders, thus supporting the practicality and effectiveness of our proposed universal representations.",
+ "primary": "cs.IT"
+}

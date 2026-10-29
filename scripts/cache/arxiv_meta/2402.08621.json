@@ -1,0 +1,16 @@
+{
+ "id": "2402.08621",
+ "title": "A Unified Framework for Analyzing Meta-algorithms in Online Convex Optimization",
+ "authors": [
+  "Mohammad Pedramfar",
+  "Vaneet Aggarwal"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 4,
+ "latest_date": "2026-02-20",
+ "journal_ref": "Proc. AAMAS 2026",
+ "doi": "",
+ "comment": "in Proc. AAMAS 2026",
+ "abstract": "In this paper, we analyze the problem of online convex optimization in different settings, including different feedback types (full-information/semi-bandit/bandit/etc) in either stochastic or non-stochastic setting and different notions of regret (static adversarial regret/dynamic regret/adaptive regret). This is done through a framework which allows us to systematically propose and analyze meta-algorithms for the various settings described above. We show that any algorithm for online linear optimization with deterministic gradient feedback against fully adaptive adversaries is an algorithm for online convex optimization. We also show that any such algorithm that requires full-information feedback may be transformed to an algorithm with semi-bandit feedback with comparable regret bound. We further show that algorithms that are designed for fully adaptive adversaries using deterministic semi-bandit feedback can obtain similar bounds using only stochastic semi-bandit feedback when facing oblivious adversaries. We use this to describe general meta-algorithms to convert first order algorithms to zeroth order algorithms with comparable regret bounds. Our framework allows us to analyze online optimization in various settings, recovers several results in the literature with a simplified proof technique, and provides new results.",
+ "primary": "cs.LG"
+}

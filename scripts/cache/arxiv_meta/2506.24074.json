@@ -1,0 +1,20 @@
+{
+ "id": "2506.24074",
+ "title": "C3VDv2 -- Colonoscopy 3D video dataset with enhanced realism",
+ "authors": [
+  "Mayank V. Golhar",
+  "Lucas Sebastian Galeano Fretes",
+  "Loren Ayers",
+  "Venkata S. Akshintala",
+  "Taylor L. Bobrow",
+  "Nicholas J. Durr"
+ ],
+ "v1_date": "2025-06-30",
+ "latest_version": 2,
+ "latest_date": "2025-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 7 figures",
+ "abstract": "Spatial computer vision techniques have the potential to improve the diagnostic performance of colonoscopy. However, the lack of 3D colonoscopy datasets for training and validation hinders their development. This paper introduces C3VDv2, the second version (v2) of the high-definition Colonoscopy 3D Video Dataset, featuring enhanced realism designed to facilitate the quantitative evaluation of 3D colon reconstruction algorithms. 192 video sequences totaling 169,371 frames were captured by imaging 60 unique, high-fidelity silicone colon phantom segments. Ground truth depth, surface normals, optical flow, occlusion, diffuse maps, six-degree-of-freedom pose, coverage map, and 3D models are provided for 169 colonoscopy videos. Eight simulated screening colonoscopy videos acquired by a gastroenterologist are provided with ground truth poses. Lastly, the dataset includes 15 videos with colon deformations for qualitative assessment. C3VDv2 emulates diverse and challenging scenarios for 3D reconstruction algorithms, including fecal debris, mucous pools, blood, debris obscuring the colonoscope lens, en-face views, and fast camera motion. The enhanced realism of C3VDv2 will allow for more robust and representative development and evaluation of 3D reconstruction algorithms. Project Page - https://durrlab.github.io/C3VDv2/",
+ "primary": "eess.IV"
+}

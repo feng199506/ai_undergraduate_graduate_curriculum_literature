@@ -1,0 +1,24 @@
+{
+ "id": "2510.24358",
+ "title": "Automatically Benchmarking LLM Code Agents through Agent-Driven Annotation and Evaluation",
+ "authors": [
+  "Lingyue Fu",
+  "Bolun Zhang",
+  "Hao Guan",
+  "Yaoming Zhu",
+  "Lin Qiu",
+  "Weiwen Liu",
+  "Xuezhi Cao",
+  "Xunliang Cai",
+  "Weinan Zhang",
+  "Yong Yu"
+ ],
+ "v1_date": "2025-10-28",
+ "latest_version": 3,
+ "latest_date": "2026-03-23",
+ "journal_ref": "Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026), Paphos, Cyprus, May 25-29, 2026",
+ "doi": "10.65109/hjfb4234",
+ "comment": "Accepted by AAMAS 2026",
+ "abstract": "Recent advances in code agents have enabled automated software development at the project level, supported by large language models (LLMs). However, existing benchmarks for code agent evaluation face two major limitations. First, creating high-quality project-level evaluation datasets requires extensive domain expertise, leading to prohibitive annotation costs and limited diversity. Second, while recent Agent-as-a-Judge paradigms address the rigidity of traditional unit tests by enabling flexible metrics, their reliance on In-Context Learning (ICL) with general LLMs often results in inaccurate assessments that misalign with human standards. To address these challenges, we propose an agent-driven benchmark construction pipeline that leverages human supervision to efficiently generate diverse project-level tasks. Based on this, we introduce PRDBench, comprising 50 real-world Python projects across 20 domains, each with structured Product Requirement Documents (PRDs) and comprehensive criteria. Furthermore, to overcome the inaccuracy of general LLM judges, we propose a highly reliable evaluation framework powered by a specialized, fine-tuned model. Based on Qwen3-Coder-30B, our dedicated PRDJudge achieves over 90% human alignment in fixed-interface scenarios. Extensive experiments demonstrate that our suite provides a scalable, robust, and highly accurate framework for assessing state-of-the-art code agents.",
+ "primary": "cs.SE"
+}

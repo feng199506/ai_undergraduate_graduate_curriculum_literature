@@ -1,0 +1,17 @@
+{
+ "id": "2502.11953",
+ "title": "Refined PAC-Bayes Bounds for Offline Bandits",
+ "authors": [
+  "Amaury Gouverneur",
+  "Tobias J. Oechtering",
+  "Mikael Skoglund"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages",
+ "abstract": "In this paper, we present refined probabilistic bounds on empirical reward estimates for off-policy learning in bandit problems. We build on the PAC-Bayesian bounds from Seldin et al. (2010) and improve on their results using a new parameter optimization approach introduced by Rodríguez et al. (2024). This technique is based on a discretization of the space of possible events to optimize the \"in probability\" parameter. We provide two parameter-free PAC-Bayes bounds, one based on Hoeffding-Azuma's inequality and the other based on Bernstein's inequality. We prove that our bounds are almost optimal as they recover the same rate as would be obtained by setting the \"in probability\" parameter after the realization of the data.",
+ "primary": "stat.ML"
+}

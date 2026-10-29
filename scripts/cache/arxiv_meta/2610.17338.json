@@ -1,0 +1,32 @@
+{
+ "id": "2610.17338",
+ "title": "Budgeted KV-Cache Repair for Evolving Contexts",
+ "authors": [
+  "Han Yu",
+  "Wenhui Zhu",
+  "Jincheng Cao",
+  "Rui Cai",
+  "Yuanda Xu",
+  "Zhengze Zhou",
+  "Xiwen Chen",
+  "Hao Wang",
+  "Xuanzhao Dong",
+  "Han Shi",
+  "Menglin Zhou",
+  "Shayan Mohajer Hamidi",
+  "Lin Su",
+  "Mina Razghandi",
+  "Sayan Ghosh",
+  "Qing Lan",
+  "Rohit Jain",
+  "Alborz Geramifard"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Language-model agents revise their working context as information becomes obsolete, but deleting text does not erase its influence on cached computation. Later key-value (KV) states remain conditioned on the deleted content, while recomputing the entire retained suffix can be costly. We introduce budgeted KV-cache repair: recovering task performance by recomputing a user-chosen fraction of the retained suffix. Comparing repair allocations under identical relevance scores and token budgets, we find that refreshing coherent regions can substantially outperform refreshing isolated tokens. This finding motivates Semantic-Unit Refresh (SUR), which allocates the budget to query-relevant text regions using inexpensive embedding scores, without training or an auxiliary transformer forward. To execute these repairs efficiently, a layer-packed executor processes selected states together at each layer while preserving full causal cache access. Across five models, SUR achieves strong recovery in controlled deletion tasks while recomputing only 2-5% of the suffix. On four natural multi-hop QA datasets, it achieves near-full-recompute exact match at a 5% budget with lower post-edit latency. The executor accelerates fragmented refresh by up to 16.1x over interval-wise execution.",
+ "primary": "cs.AI"
+}

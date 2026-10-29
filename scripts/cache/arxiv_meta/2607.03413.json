@@ -1,0 +1,15 @@
+{
+ "id": "2607.03413",
+ "title": "Coalesced Matrix-Free Geometric Multigrid on Persistent Cell-Wise Storage",
+ "authors": [
+  "Michał Wichrowski"
+ ],
+ "v1_date": "2026-07-03",
+ "latest_version": 1,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a geometric multigrid preconditioner for high-order continuous finite elements that operates entirely on redundant, cell-wise stored vectors: the assembled global vector is never formed on any level of the hierarchy. In this storage paradigm the machinery that classically complicates adaptive multigrid dissolves. Hanging-node constraints are never assembled: we prove that the plain tensor-product transfer operators, applied to the \\emph{unassembled} residual, algebraically reproduce the classical constrained restriction, including the action of the transposed constraint matrix, and the edge operators of local smoothing reduce to a pointwise masking of the residual, with no splitting of the level operator into interior and edge blocks. As a consequence, the single inter-cell primitive of the whole V-cycle can use a topologically oblivious structured kernel even on adaptively refined meshes. We prove that the resulting cell-wise V-cycle is equivalent, iterate by iterate, to the classical local multigrid method, and therefore inherits its convergence theory. Numerical experiments for the Laplace operator confirm grid-independent convergence that is essentially unaffected by local refinement; on a single GPU, using nothing more than a masked point-Jacobi smoother, the solver sustains up to $1.1$\\, GDoF/s per V-cycle in double precision and reaches end-to-end solve throughput on par with patch-smoother-based solvers.",
+ "primary": "math.NA"
+}

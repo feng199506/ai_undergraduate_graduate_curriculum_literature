@@ -1,0 +1,16 @@
+{
+ "id": "2610.17962",
+ "title": "CALM-5G: Event-Level Conformal Risk Control for Predictive Service-Assurance Alarms",
+ "authors": [
+  "Ömer Faruk İşcanlı",
+  "Yağmur Sabucu Sandal"
+ ],
+ "v1_date": "2026-10-13",
+ "latest_version": 1,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 4 figures, 5 tables. Submitted to IEEE Transactions on Network and Service Management",
+ "abstract": "Predictive service assurance converts forecasts of key performance indicators into alarms, and that conversion decides whether the assurance function is deployable. We present CALM-5G, an assurance layer that operates above any forecasting backbone and issues alarms with distribution-free, finite-sample guarantees. It calibrates on service-level violation events, scores violation onset directly, selects its calibration scheme out of sample, and reports the alarm duty cycle with every certified miss rate. Four corpora are evaluated separately, namely a production cellular network, commercial 5G traces, an open radio access network testbed and our 5G standalone testbed. Risk control on the regression-derived score yields duty cycles of 0.24 to 0.91. Onset targeting with cross-validated calibration reduces time-in-alarm by 56.3% to 89.7% on three corpora, with no significant change on the fourth. The realised miss rate stays within a two-standard-error tolerance on three corpora and within one standard error of it on the fourth. Under label shift, pooled batch calibration exceeds that tolerance structurally, by 10.9 standard errors on the production corpus. Online calibration restores compliance. Calibration schemes cannot be ranked on the split that fits their thresholds. Miss rate and duty cycle are certified jointly where within-entity dependence leaves sufficient calibration units.",
+ "primary": "cs.NI"
+}

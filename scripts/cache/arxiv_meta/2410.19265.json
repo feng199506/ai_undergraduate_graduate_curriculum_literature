@@ -1,0 +1,23 @@
+{
+ "id": "2410.19265",
+ "title": "A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation",
+ "authors": [
+  "Kexin Zhang",
+  "Shuhan Liu",
+  "Song Wang",
+  "Weili Shi",
+  "Chen Chen",
+  "Pan Li",
+  "Sheng Li",
+  "Jundong Li",
+  "Kaize Ding"
+ ],
+ "v1_date": "2024-10-25",
+ "latest_version": 2,
+ "latest_date": "2025-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 3 figures. arXiv admin note: text overlap with arXiv:2402.11153",
+ "abstract": "Distribution shifts on graphs -- the discrepancies in data distribution between training and employing a graph machine learning model -- are ubiquitous and often unavoidable in real-world scenarios. These shifts may severely deteriorate model performance, posing significant challenges for reliable graph machine learning. Consequently, there has been a surge in research on graph machine learning under distribution shifts, aiming to train models to achieve satisfactory performance on out-of-distribution (OOD) test data. In our survey, we provide an up-to-date and forward-looking review of deep graph learning under distribution shifts. Specifically, we cover three primary scenarios: graph OOD generalization, training-time graph OOD adaptation, and test-time graph OOD adaptation. We begin by formally formulating the problems and discussing various types of distribution shifts that can affect graph learning, such as covariate shifts and concept shifts. To provide a better understanding of the literature, we introduce a systematic taxonomy that classifies existing methods into model-centric and data-centric approaches, investigating the techniques used in each category. We also summarize commonly used datasets in this research area to facilitate further investigation. Finally, we point out promising research directions and the corresponding challenges to encourage further study in this vital domain. We also provide a continuously updated reading list at https://github.com/kaize0409/Awesome-Graph-OOD.",
+ "primary": "cs.LG"
+}

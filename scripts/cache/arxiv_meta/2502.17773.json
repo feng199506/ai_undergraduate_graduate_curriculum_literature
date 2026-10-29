@@ -1,0 +1,17 @@
+{
+ "id": "2502.17773",
+ "title": "How Many Human Survey Respondents is a Large Language Model Worth? An Uncertainty Quantification Perspective",
+ "authors": [
+  "Chengpiao Huang",
+  "Yuhang Wu",
+  "Kaizheng Wang"
+ ],
+ "v1_date": "2025-02-25",
+ "latest_version": 6,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "63 pages, 13 figures",
+ "abstract": "Large language models (LLMs) are increasingly used to simulate survey responses, but synthetic data can be misaligned with the human population, leading to unreliable inference. We develop a general framework that converts LLM-simulated responses into reliable confidence sets for population parameters of human responses, quantifying the uncertainty induced by the human-LLM misalignment. The key design choice is the number of simulated responses: too many produce overly narrow sets with poor coverage, while too few yield overly wide and uninformative sets dominated by stochastic noise. We propose a data-driven approach that adaptively selects the simulation sample size to achieve nominal average-case coverage, regardless of the LLM's simulation fidelity or the confidence set construction procedure. The selected sample size is further shown to reflect the effective human population size that the LLM can represent, providing a quantitative measure of its simulation fidelity. Experiments on real survey datasets reveal heterogeneous simulation fidelity across different LLMs and domains.",
+ "primary": "stat.ME"
+}

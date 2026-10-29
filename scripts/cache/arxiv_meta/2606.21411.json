@@ -1,0 +1,19 @@
+{
+ "id": "2606.21411",
+ "title": "CoughPhase-CLR: Designing an acoustics-informed foundation model for coughing sound classification",
+ "authors": [
+  "Marius Moldovan",
+  "Anton Batliner",
+  "Thomas M. Berghaus",
+  "Björn W. Schuller",
+  "Andreas Triantafyllopoulos"
+ ],
+ "v1_date": "2026-06-19",
+ "latest_version": 1,
+ "latest_date": "2026-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we introduce CoughPhase-CLR, a self-supervised learning framework designed to leverage the physiological phases of a cough for robust representation learning. Unlike generic contrastive frameworks, CoughPhase-CLR constructs positive pairs based on these specific acoustic phases. We pre-trained our model on approximately 40 hours of public cough audio and evaluated it across five downstream tasks, including COVID-19 detection, chronic obstructive pulmonary disease (COPD) state classification, and smoker status prediction. Our results demonstrate that cough-specific pre-training consistently outperforms standard random-cropping techniques when training on cough recordings. Additionally, we benchmarked a diverse set of state-of-the-art models on COPD state classification, highlighting the difficulty of this task. The best-performing models, pretrained on either general audio or respiratory sounds, achieved a UAR of 57\\%, failing to outperform the state-of-the-art performance of 84\\% UAR achieved using speech analysis.",
+ "primary": "cs.SD"
+}

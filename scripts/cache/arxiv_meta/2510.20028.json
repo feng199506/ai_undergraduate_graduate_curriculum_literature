@@ -1,0 +1,15 @@
+{
+ "id": "2510.20028",
+ "title": "The Temporal Graph of Bitcoin Transactions",
+ "authors": [
+  "Vahid Jalili"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 1,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Since its 2009 genesis block, the Bitcoin network has processed >1.08 billion (B) transactions representing >8.72B BTC, offering rich potential for machine learning (ML); yet, its pseudonymity and obscured flow of funds inherent in its UTxO-based design, have rendered this data largely inaccessible for ML research. Addressing this gap, we present an ML-compatible graph modeling the Bitcoin's economic topology by reconstructing the flow of funds. This temporal, heterogeneous graph encompasses complete transaction history up to block 863000, consisting of >2.4B nodes and >39.72B edges. Additionally, we provide custom sampling methods yielding node and edge feature vectors of sampled communities, tools to load and analyze the Bitcoin graph data within specialized graph databases, and ready-to-use database snapshots. This comprehensive dataset and toolkit empower the ML community to tackle Bitcoin's intricate ecosystem at scale, driving progress in applications such as anomaly detection, address classification, market analysis, and large-scale graph ML benchmarking. Dataset and code available at https://github.com/B1AAB/EBA",
+ "primary": "cs.LG"
+}

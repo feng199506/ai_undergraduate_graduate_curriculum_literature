@@ -1,0 +1,19 @@
+{
+ "id": "2511.22604",
+ "title": "Improved exploration of temporal graphs",
+ "authors": [
+  "Paul Bastide",
+  "Carla Groenland",
+  "Lukas Michel",
+  "Clément Rambaud",
+  "Paulina Smolarova"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 2,
+ "latest_date": "2026-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 3 figures",
+ "abstract": "A temporal graph $G$ is a sequence $(G_t)_{t \\in I}$ of graphs on the same vertex set of size $n$. The \\emph{temporal exploration problem} asks for the length of the shortest sequence of vertices that starts at a given vertex, visits every vertex, and at each time step $t$ either stays at the current vertex or moves to an adjacent vertex in $G_t$. When each $G_t$ is connected and has bounded maximum degree, Erlebach, Kammer, Luo, Sajenko, and Spooner [ICALP 2019] showed that an exploration exists in $\\mathcal{O}(n^{7/4})$ time steps. We significantly improve this bound by showing that $\\mathcal{O}(n^{3/2}\\sqrt{\\log n})$ time steps suffice. In fact, we prove a more general statement unifying this setting with many others. Let the \\emph{average temporal maximum degree} $D$ of $G$ be the average of $\\max_{t \\in I}d_{G_t}(v)$ over all vertices $v \\in V(G)$, where $d_{G_t}(v)$ denotes the degree of $v$ in $G_t$. We show that if each $G_t$ is connected, then an exploration exists in $\\mathcal{O}(n^{3/2}\\sqrt{D\\log n})$ time steps. This gives the first subquadratic upper bound when the underlying graph has bounded average degree, improving the previous best bounds when it is planar or has bounded treewidth. Our bound is subquadratic already when $D=o(n/\\log n)$. In addition, we make progress on a recent conjecture of Baguley, Göbel, Klodt, Skretas, Sylvester, and Zamaraev [SODA 2025]. They conjectured that if $μ$ is a probability distribution on trees with maximum degree at most $Δ$ and each $G_t$ is sampled independently from $μ$, then an exploration exists in $\\mathcal{O}(\\sqrtΔn)$ time steps with high probability. We show that there is a temporal exploration of length $\\mathcal{O}(Δn\\log^3 n)$ with high probability. This improves the previous best bound of $\\mathcal{O}(n^{3/2})$ and extends to the more general setup of average temporal maximum degree.",
+ "primary": "cs.DS"
+}

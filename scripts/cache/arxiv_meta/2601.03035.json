@@ -1,0 +1,17 @@
+{
+ "id": "2601.03035",
+ "title": "Who can compete with quantum computers? Lecture notes on quantum inspired tensor networks computational techniques",
+ "authors": [
+  "Xavier Waintal",
+  "Chen-How Huang",
+  "Christoph W. Groth"
+ ],
+ "v1_date": "2026-01-06",
+ "latest_version": 3,
+ "latest_date": "2026-08-18",
+ "journal_ref": "SciPost Phys. Lect. Notes 133 (2026)",
+ "doi": "10.21468/scipostphyslectnotes.133",
+ "comment": "65 pages, 92 figures. Set of lectures given at the Jyväskylä summer school during August 2025",
+ "abstract": "This is a set of lectures on tensor networks with a strong emphasis on the core algorithms involving Matrix Product States (MPS) and Matrix Product Operators (MPO). Compared to other presentations, particular care has been given to disentangle aspects of tensor networks from the quantum many-body problem: MPO/MPS algorithms are presented as a way to deal with linear algebra on extremely (exponentially) large matrices and vectors, regardless of any particular application. The lectures include well-known algorithms to find eigenvectors of MPOs (the celebrated DMRG), solve linear problems, and recent learning algorithms that allow one to map a known function into an MPS (the Tensor Cross Interpolation, or TCI, algorithm). The lectures end with a discussion of how to represent functions and perform calculus with tensor networks using the \"quantics\" representation. They include the detailed analytical construction of important MPOs such as those for differentiation, indefinite integration, convolution, and the quantum Fourier transform. Three concrete applications are discussed in detail: the simulation of a quantum computer (either exactly or with compression), the simulation of a quantum annealer, and techniques to solve partial differential equations (e.g. Poisson, diffusion, or Gross-Pitaevskii) within the \"quantics\" representation. The lectures have been designed to be accessible to a first-year PhD student and include detailed proofs of all statements.",
+ "primary": "quant-ph"
+}

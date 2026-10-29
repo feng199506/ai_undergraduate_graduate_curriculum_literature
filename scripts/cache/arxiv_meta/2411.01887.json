@@ -1,0 +1,17 @@
+{
+ "id": "2411.01887",
+ "title": "Stein Variational Newton Neural Network Ensembles",
+ "authors": [
+  "Klemens Flöge",
+  "Mohammed Abdul Moeed",
+  "Vincent Fortuin"
+ ],
+ "v1_date": "2024-11-04",
+ "latest_version": 1,
+ "latest_date": "2024-11-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling, 27 pages, 14 figures",
+ "abstract": "Deep neural network ensembles are powerful tools for uncertainty quantification, which have recently been re-interpreted from a Bayesian perspective. However, current methods inadequately leverage second-order information of the loss landscape, despite the recent availability of efficient Hessian approximations. We propose a novel approximate Bayesian inference method that modifies deep ensembles to incorporate Stein Variational Newton updates. Our approach uniquely integrates scalable modern Hessian approximations, achieving faster convergence and more accurate posterior distribution approximations. We validate the effectiveness of our method on diverse regression and classification tasks, demonstrating superior performance with a significantly reduced number of training epochs compared to existing ensemble-based methods, while enhancing uncertainty quantification and robustness against overfitting.",
+ "primary": "stat.ML"
+}

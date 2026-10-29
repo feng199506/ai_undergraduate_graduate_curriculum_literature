@@ -1,0 +1,17 @@
+{
+ "id": "2605.13383",
+ "title": "Beyond Oversquashing: Understanding Signal Propagation in GNNs Via Observables",
+ "authors": [
+  "Eden Nagar",
+  "Ya-Wei Eileen Lin",
+  "Ron Levie"
+ ],
+ "v1_date": "2026-05-13",
+ "latest_version": 1,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph Neural Networks (GNNs) perform computations on graphs by routing the signal between graph regions using a graph shift operator or a message passing scheme. Often, the propagation of the signal leads to a loss of information, where the signal tends to diffuse across the graph instead of being deliberately routed between regions of interest. Two notions that depict this phenomenon are oversmoothing and oversquashing. In this paper, we propose an alternative approach for modeling signal propagation, inspired by quantum mechanics, using the notion of observables. Specifically, we model the place in the graph where the signal lies, how much the signal is concentrated there, and how much of the signal is propagated towards a location of interest when applying a GNN. Using these new concepts, we prove that standard spectral GNNs have poor signal propagation capabilities. We then propose a new type of spectral GNN, termed Schrödinger GNN, which we show has a superior capacity to route the signal across the graph.",
+ "primary": "cs.LG"
+}

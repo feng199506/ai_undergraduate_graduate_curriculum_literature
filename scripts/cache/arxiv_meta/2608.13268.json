@@ -1,0 +1,20 @@
+{
+ "id": "2608.13268",
+ "title": "Multiobjective Preexpectation Reasoning for Probabilistic Programs",
+ "authors": [
+  "Lena Verscht",
+  "Hannah Mertens",
+  "Kevin Batz",
+  "Sebastian Junges",
+  "Benjamin Lucien Kaminski",
+  "Joost-Pieter Katoen"
+ ],
+ "v1_date": "2026-08-13",
+ "latest_version": 2,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic programs with nondeterminism model planning problems in which a strategy typically resolves the nondeterminism to meet a specification. We study the multiobjective setting, meeting several specifications at once along a Pareto front, and provide a deductive, program-level account of strategy synthesis. Its core is a multiobjective preexpectation transformer mapping a tuple of postexpectations to the set of simultaneously achievable values, an element of the convex Hoare powerdomain. It conservatively extends weakest preexpectations and lifts standard loop rules. We develop rules to synthesize witnessing strategies as mixed determinizations that solve nondeterminism probabilistically. We prove the transformer and synthesis rules sound against an operational Markov decision process (MDP) semantics, without requiring a finite state space: our approach can be seen as a symbolic approach - at program level - for multiobjective optimization over infinite MDPs. We demonstrate our machinery using two case studies.",
+ "primary": "cs.PL"
+}

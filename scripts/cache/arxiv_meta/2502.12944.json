@@ -1,0 +1,19 @@
+{
+ "id": "2502.12944",
+ "title": "Performance of Zero-Shot Time Series Foundation Models on Cloud Data",
+ "authors": [
+  "William Toner",
+  "Thomas L. Lee",
+  "Artjom Joosen",
+  "Rajkarn Singh",
+  "Martin Asenov"
+ ],
+ "v1_date": "2025-02-18",
+ "latest_version": 3,
+ "latest_date": "2025-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, presented at the \"I Can't Believe It's Not Better\" workshop at ICLR 2025",
+ "abstract": "Time series foundation models (FMs) have emerged as a popular paradigm for zero-shot multi-domain forecasting. FMs are trained on numerous diverse datasets and claim to be effective forecasters across multiple different time series domains, including cloud data. In this work we investigate this claim, exploring the effectiveness of FMs on cloud data. We demonstrate that many well-known FMs fail to generate meaningful or accurate zero-shot forecasts in this setting. We support this claim empirically, showing that FMs are outperformed consistently by simple linear baselines. We also illustrate a number of interesting pathologies, including instances where FMs suddenly output seemingly erratic, random-looking forecasts. Our results suggest a widespread failure of FMs to model cloud data.",
+ "primary": "cs.LG"
+}

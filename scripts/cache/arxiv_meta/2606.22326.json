@@ -1,0 +1,15 @@
+{
+ "id": "2606.22326",
+ "title": "Adam Converges in Nonsmooth Nonconvex Optimization",
+ "authors": [
+  "Zijian Liu"
+ ],
+ "v1_date": "2026-06-21",
+ "latest_version": 1,
+ "latest_date": "2026-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Adam is one of the most widely implemented and influential modern optimizers. Why is it effective across different optimization problems in practice? This question arguably lies at the center of the optimization community over the last decade and has motivated a substantial body of work aimed at understanding its convergence behavior. However, existing studies have mainly focused on the convergence rate of Adam in smooth nonconvex optimization, which unfortunately does not adequately capture practical settings, since many real-world problems are nonsmooth, such as those arising in training neural networks. Thus, these studies cannot fully explain the popularity and empirical success of Adam. Recently, an insightful and powerful framework called Online-to-Nonconvex Conversion has opened a new way to analyze Adam for nonsmooth nonconvex optimization. Unfortunately, prior works along this line share two common limitations. First, all of them ignore the important bias-correction term in the original Adam algorithm. Second and more importantly, many of them require extra operations that are not used in Adam, such as a clipping step. Therefore, the convergence guarantee for the original Adam method still remains unclear. In this work, we present the first finite-time analysis for the classical form of Adam, i.e., with the bias-correction step and without further algorithmic modifications, and prove that a randomly scaled learning rate ensures a convergence rate of $1/T^{\\frac{2}{13}}$ for nonsmooth nonconvex optimization. Moreover, our result provably applies to the modern heavy-tailed noise regime, which is closer to practice. Interestingly, our theory is established under the parameter choice $β_1=β_2$, aligning with the recent empirical studies.",
+ "primary": "math.OC"
+}

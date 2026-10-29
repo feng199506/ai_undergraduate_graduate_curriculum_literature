@@ -1,0 +1,22 @@
+{
+ "id": "2601.07338",
+ "title": "Beyond Literal Mapping: Benchmarking and Improving Non-Literal Translation Evaluation",
+ "authors": [
+  "Yanzhi Tian",
+  "Cunxiang Wang",
+  "Zeming Liu",
+  "Heyan Huang",
+  "Wenbo Yu",
+  "Dawei Song",
+  "Jie Tang",
+  "Yuhang Guo"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 2,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ACL 2026 Main Conference",
+ "abstract": "Large Language Models (LLMs) have significantly advanced Machine Translation (MT), applying them to linguistically complex domains-such as Social Network Services, literature etc. In these scenarios, translations often require handling non-literal expressions, leading to the inaccuracy of MT metrics. To systematically investigate the reliability of MT metrics, we first curate a meta-evaluation dataset focused on non-literal translations, namely MENT. MENT encompasses four non-literal translation domains and features source sentences paired with translations from diverse MT systems, with 7,530 human-annotated scores on translation quality. Experimental results reveal the inaccuracies of traditional MT metrics and the limitations of LLM-as-a-Judge, particularly the knowledge cutoff and score inconsistency problem. To mitigate these limitations, we propose RATE, a novel agentic translation evaluation framework, centered by a reflective Core Agent that dynamically invokes specialized sub-agents. Experimental results indicate the efficacy of RATE, achieving an improvement of at least 3.2 points in combined system- and segment-level correlation with human judgments compared with current methods. Further experiments demonstrate the robustness of RATE to general-domain MT evaluation. Code and dataset are available at: https://github.com/BITHLP/RATE.",
+ "primary": "cs.CL"
+}

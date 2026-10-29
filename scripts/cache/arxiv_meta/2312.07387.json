@@ -1,0 +1,16 @@
+{
+ "id": "2312.07387",
+ "title": "Wiener Chaos in Kernel Regression: Towards Untangling Aleatoric and Epistemic Uncertainty",
+ "authors": [
+  "T. Faulwasser",
+  "O. Molodchyk"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 2,
+ "latest_date": "2024-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 2 figures; accepted to the SysDO conference",
+ "abstract": "Gaussian Processes (GPs) are a versatile method that enables different approaches towards learning for dynamics and control. Gaussianity assumptions appear in two dimensions in GPs: The positive semi-definite kernel of the underlying reproducing kernel Hilbert space is used to construct the co-variance of a Gaussian distribution over functions, while measurement noise (i.e. data corruption) is usually modeled as i.i.d. additive Gaussians. In this note, we generalize the setting and consider kernel ridge regression with additive i.i.d. non-Gaussian measurement noise. To apply the usual kernel trick, we rely on the representation of the uncertainty via polynomial chaos expansions, which are series expansions for random variables of finite variance introduced by Norbert Wiener. We derive and discuss the analytic $\\mathcal{L}^2$ solution to the arising Wiener kernel regression. Considering a polynomial dynamic system as a numerical example, we show that our approach allows us to distinguish the uncertainty that stems from the noise in the data samples from the total uncertainty encoded in the GP posterior distribution.",
+ "primary": "stat.ML"
+}

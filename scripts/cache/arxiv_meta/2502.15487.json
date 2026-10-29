@@ -1,0 +1,21 @@
+{
+ "id": "2502.15487",
+ "title": "ExpliCa: Evaluating Explicit Causal Reasoning in Large Language Models",
+ "authors": [
+  "Martina Miliani",
+  "Serena Auriemma",
+  "Alessandro Bondielli",
+  "Emmanuele Chersoni",
+  "Lucia Passaro",
+  "Irene Sucameli",
+  "Alessandro Lenci"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 4,
+ "latest_date": "2026-02-09",
+ "journal_ref": "In Findings of the Association for Computational Linguistics: ACL 2025, pages 17335-17355, Vienna, Austria. Association for Computational Linguistics",
+ "doi": "",
+ "comment": "Accepted for publication in Findings of ACL 2025",
+ "abstract": "Large Language Models (LLMs) are increasingly used in tasks requiring interpretive and inferential accuracy. In this paper, we introduce ExpliCa, a new dataset for evaluating LLMs in explicit causal reasoning. ExpliCa uniquely integrates both causal and temporal relations presented in different linguistic orders and explicitly expressed by linguistic connectives. The dataset is enriched with crowdsourced human acceptability ratings. We tested LLMs on ExpliCa through prompting and perplexity-based metrics. We assessed seven commercial and open-source LLMs, revealing that even top models struggle to reach 0.80 accuracy. Interestingly, models tend to confound temporal relations with causal ones, and their performance is also strongly influenced by the linguistic order of the events. Finally, perplexity-based scores and prompting performance are differently affected by model size.",
+ "primary": "cs.CL"
+}

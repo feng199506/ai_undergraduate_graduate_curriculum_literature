@@ -1,0 +1,25 @@
+{
+ "id": "2405.15208",
+ "title": "Decoding at the Speed of Thought: Harnessing Parallel Decoding of Lexical Units for LLMs",
+ "authors": [
+  "Chenxi Sun",
+  "Hongzhi Zhang",
+  "Zijia Lin",
+  "Jingyuan Zhang",
+  "Fuzheng Zhang",
+  "Zhongyuan Wang",
+  "Bin Chen",
+  "Chengru Song",
+  "Di Zhang",
+  "Kun Gai",
+  "Deyi Xiong"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 1,
+ "latest_date": "2024-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication at LREC-COLING 2024",
+ "abstract": "Large language models have demonstrated exceptional capability in natural language understanding and generation. However, their generation speed is limited by the inherently sequential nature of their decoding process, posing challenges for real-time applications. This paper introduces Lexical Unit Decoding (LUD), a novel decoding methodology implemented in a data-driven manner, accelerating the decoding process without sacrificing output quality. The core of our approach is the observation that a pre-trained language model can confidently predict multiple contiguous tokens, forming the basis for a \\textit{lexical unit}, in which these contiguous tokens could be decoded in parallel. Extensive experiments validate that our method substantially reduces decoding time while maintaining generation quality, i.e., 33\\% speed up on natural language generation with no quality loss, and 30\\% speed up on code generation with a negligible quality loss of 3\\%. Distinctively, LUD requires no auxiliary models and does not require changes to existing architectures. It can also be integrated with other decoding acceleration methods, thus achieving an even more pronounced inference efficiency boost. We posit that the foundational principles of LUD could define a new decoding paradigm for future language models, enhancing their applicability for a broader spectrum of applications. All codes are be publicly available at https://github.com/tjunlp-lab/Lexical-Unit-Decoding-LUD-. Keywords: Parallel Decoding, Lexical Unit Decoding, Large Language Model",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2410.19449",
+ "title": "Learned Reference-based Diffusion Sampling for multi-modal distributions",
+ "authors": [
+  "Maxence Noble",
+  "Louis Grenioux",
+  "Marylou Gabrié",
+  "Alain Oliviero Durmus"
+ ],
+ "v1_date": "2024-10-25",
+ "latest_version": 3,
+ "latest_date": "2025-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICLR 2025",
+ "abstract": "Over the past few years, several approaches utilizing score-based diffusion have been proposed to sample from probability distributions, that is without having access to exact samples and relying solely on evaluations of unnormalized densities. The resulting samplers approximate the time-reversal of a noising diffusion process, bridging the target distribution to an easy-to-sample base distribution. In practice, the performance of these methods heavily depends on key hyperparameters that require ground truth samples to be accurately tuned. Our work aims to highlight and address this fundamental issue, focusing in particular on multi-modal distributions, which pose significant challenges for existing sampling methods. Building on existing approaches, we introduce Learned Reference-based Diffusion Sampler (LRDS), a methodology specifically designed to leverage prior knowledge on the location of the target modes in order to bypass the obstacle of hyperparameter tuning. LRDS proceeds in two steps by (i) learning a reference diffusion model on samples located in high-density space regions and tailored for multimodality, and (ii) using this reference model to foster the training of a diffusion-based sampler. We experimentally demonstrate that LRDS best exploits prior knowledge on the target distribution compared to competing algorithms on a variety of challenging distributions.",
+ "primary": "stat.ML"
+}

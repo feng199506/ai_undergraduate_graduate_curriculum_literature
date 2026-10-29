@@ -1,0 +1,18 @@
+{
+ "id": "2407.02610",
+ "title": "Towards Federated Learning with On-device Training and Communication in 8-bit Floating Point",
+ "authors": [
+  "Bokun Wang",
+  "Axel Berg",
+  "Durmus Alp Emre Acar",
+  "Chuteng Zhou"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 2,
+ "latest_date": "2025-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "extended version",
+ "abstract": "Recent work has shown that 8-bit floating point (FP8) can be used for efficiently training neural networks with reduced computational cost compared to training in FP32/FP16. In this work, we investigate the use of FP8 training in a federated learning context. This approach brings not only the usual benefits of FP8 which are desirable for on-device training at the edge, but also reduces client-server communication costs due to significant weight compression. We present a novel method for combining FP8 client training while maintaining a global FP32 server model and provide convergence analysis. Experiments with various machine learning models and datasets show that our method consistently yields communication reductions of at least 2.9x across a variety of tasks and models compared to an FP32 baseline to achieve the same trained model accuracy.",
+ "primary": "cs.LG"
+}

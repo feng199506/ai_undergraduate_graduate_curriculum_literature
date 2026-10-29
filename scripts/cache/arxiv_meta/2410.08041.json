@@ -1,0 +1,16 @@
+{
+ "id": "2410.08041",
+ "title": "On the Convergence of (Stochastic) Gradient Descent for Kolmogorov--Arnold Networks",
+ "authors": [
+  "Yihang Gao",
+  "Vincent Y. F. Tan"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 1,
+ "latest_date": "2024-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kolmogorov--Arnold Networks (KANs), a recently proposed neural network architecture, have gained significant attention in the deep learning community, due to their potential as a viable alternative to multi-layer perceptrons (MLPs) and their broad applicability to various scientific tasks. Empirical investigations demonstrate that KANs optimized via stochastic gradient descent (SGD) are capable of achieving near-zero training loss in various machine learning (e.g., regression, classification, and time series forecasting, etc.) and scientific tasks (e.g., solving partial differential equations). In this paper, we provide a theoretical explanation for the empirical success by conducting a rigorous convergence analysis of gradient descent (GD) and SGD for two-layer KANs in solving both regression and physics-informed tasks. For regression problems, we establish using the neural tangent kernel perspective that GD achieves global linear convergence of the objective function when the hidden dimension of KANs is sufficiently large. We further extend these results to SGD, demonstrating a similar global convergence in expectation. Additionally, we analyze the global convergence of GD and SGD for physics-informed KANs, which unveils additional challenges due to the more complex loss structure. This is the first work establishing the global convergence guarantees for GD and SGD applied to optimize KANs and physics-informed KANs.",
+ "primary": "cs.LG"
+}

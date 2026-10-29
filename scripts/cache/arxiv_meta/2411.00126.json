@@ -1,0 +1,17 @@
+{
+ "id": "2411.00126",
+ "title": "Training and Evaluating Causal Forecasting Models for Time-Series",
+ "authors": [
+  "Thomas Crasson",
+  "Yacine Nabet",
+  "Mathias Lécuyer"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 1,
+ "latest_date": "2024-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep learning time-series models are often used to make forecasts that inform downstream decisions. Since these decisions can differ from those in the training set, there is an implicit requirement that time-series models will generalize outside of their training distribution. Despite this core requirement, time-series models are typically trained and evaluated on in-distribution predictive tasks. We extend the orthogonal statistical learning framework to train causal time-series models that generalize better when forecasting the effect of actions outside of their training distribution. To evaluate these models, we leverage Regression Discontinuity Designs popular in economics to construct a test set of causal treatment effects.",
+ "primary": "cs.LG"
+}

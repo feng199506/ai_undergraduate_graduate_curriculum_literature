@@ -1,0 +1,20 @@
+{
+ "id": "2505.18886",
+ "title": "KerZOO: Kernel Function Informed Zeroth-Order Optimization for Accurate and Accelerated LLM Fine-Tuning",
+ "authors": [
+  "Zhendong Mi",
+  "Qitao Tan",
+  "Xiaodong Yu",
+  "Zining Zhu",
+  "Geng Yuan",
+  "Shaoyi Huang"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 1,
+ "latest_date": "2025-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 6 figures, Neurips",
+ "abstract": "Large language models (LLMs) have demonstrated impressive capabilities across numerous NLP tasks. Nevertheless, conventional first-order fine-tuning techniques impose heavy memory demands, creating practical obstacles to real-world applications. Zeroth-order (ZO) optimization has recently emerged as a promising memory-efficient alternative, as it circumvents the need for backpropagation by estimating gradients solely through forward passes--making it particularly suitable for resource-limited environments. Despite its efficiency, ZO optimization suffers from gradient estimation bias, which significantly hinders convergence speed. To address this, we analytically identify and characterize the lower-order bias introduced during ZO-based gradient estimation in LLM fine-tuning. Motivated by tools in mathematical physics, we introduce a kernel-function-based ZO framework aimed at mitigating this bias and improving optimization stability. KerZOO achieves comparable or superior performance to existing ZO baselines in both full-parameter and parameter-efficient fine-tuning settings of LLMs, while significantly reducing the number of iterations required to reach convergence. For example, KerZOO reduces total GPU training hours by as much as 74% and 44% on WSC and MultiRC datasets in fine-tuning OPT-2.7B model and can exceed the MeZO baseline by 2.9% and 2.6% in accuracy. We show that the kernel function is an effective avenue for reducing estimation bias in ZO methods.",
+ "primary": "cs.LG"
+}

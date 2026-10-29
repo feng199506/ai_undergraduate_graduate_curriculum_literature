@@ -1,0 +1,18 @@
+{
+ "id": "2501.15646",
+ "title": "Mathematical analysis of the gradients in deep learning",
+ "authors": [
+  "Steffen Dereich",
+  "Thang Do",
+  "Arnulf Jentzen",
+  "Frederic Weber"
+ ],
+ "v1_date": "2025-01-26",
+ "latest_version": 1,
+ "latest_date": "2025-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages",
+ "abstract": "Deep learning algorithms -- typically consisting of a class of deep artificial neural networks (ANNs) trained by a stochastic gradient descent (SGD) optimization method -- are nowadays an integral part in many areas of science, industry, and also our day to day life. Roughly speaking, in their most basic form, ANNs can be regarded as functions that consist of a series of compositions of affine-linear functions with multidimensional versions of so-called activation functions. One of the most popular of such activation functions is the rectified linear unit (ReLU) function $\\mathbb{R} \\ni x \\mapsto \\max\\{ x, 0 \\} \\in \\mathbb{R}$. The ReLU function is, however, not differentiable and, typically, this lack of regularity transfers to the cost function of the supervised learning problem under consideration. Regardless of this lack of differentiability issue, deep learning practioners apply SGD methods based on suitably generalized gradients in standard deep learning libraries like {\\sc TensorFlow} or {\\sc Pytorch}. In this work we reveal an accurate and concise mathematical description of such generalized gradients in the training of deep fully-connected feedforward ANNs and we also study the resulting generalized gradient function analytically. Specifically, we provide an appropriate approximation procedure that uniquely describes the generalized gradient function, we prove that the generalized gradients are limiting Fréchet subgradients of the cost functional, and we conclude that the generalized gradients must coincide with the standard gradient of the cost functional on every open sets on which the cost functional is continuously differentiable.",
+ "primary": "cs.LG"
+}

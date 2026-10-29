@@ -1,0 +1,21 @@
+{
+ "id": "2507.22792",
+ "title": "Segment Anything for Video: A Comprehensive Review of Video Object Segmentation and Tracking from Past to Future",
+ "authors": [
+  "Guoping Xu",
+  "Jayaram K. Udupa",
+  "Yajun Yu",
+  "Hua-Chieh Shao",
+  "Songlin Zhao",
+  "Wei Liu",
+  "You Zhang"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 2,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 21 figures",
+ "abstract": "Video Object Segmentation and Tracking (VOST) presents a complex yet critical challenge in computer vision, requiring robust integration of segmentation and tracking across temporally dynamic frames. Traditional methods have struggled with domain generalization, temporal consistency, and computational efficiency. The emergence of foundation models like the Segment Anything Model (SAM) and its successor, SAM2, has introduced a paradigm shift, enabling prompt-driven segmentation with strong generalization capabilities. Building upon these advances, this survey provides a comprehensive review of SAM/SAM2-based methods for VOST, structured along three temporal dimensions: past, present, and future. We examine strategies for retaining and updating historical information (past), approaches for extracting and optimizing discriminative features from the current frame (present), and motion prediction and trajectory estimation mechanisms for anticipating object dynamics in subsequent frames (future). In doing so, we highlight the evolution from early memory-based architectures to the streaming memory and real-time segmentation capabilities of SAM2. We also discuss recent innovations such as motion-aware memory selection and trajectory-guided prompting, which aim to enhance both accuracy and efficiency. Finally, we identify remaining challenges including memory redundancy, error accumulation, and prompt inefficiency, and suggest promising directions for future research. This survey offers a timely and structured overview of the field, aiming to guide researchers and practitioners in advancing the state of VOST through the lens of foundation models.",
+ "primary": "cs.CV"
+}

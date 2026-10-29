@@ -1,0 +1,18 @@
+{
+ "id": "2411.05288",
+ "title": "Balancing Pipeline Parallelism with Vocabulary Parallelism",
+ "authors": [
+  "Man Tsung Yeung",
+  "Penghui Qi",
+  "Min Lin",
+  "Xinyi Wan"
+ ],
+ "v1_date": "2024-11-08",
+ "latest_version": 2,
+ "latest_date": "2025-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Pipeline parallelism is widely used to scale the training of transformer-based large language models, various works have been done to improve its throughput and memory footprint. In this paper, we address a frequently overlooked issue: the vocabulary layers can cause imbalanced computation and memory usage across pipeline stages, worsening pipeline bubbles and the memory bottleneck. To tackle this, we partition the vocabulary layers evenly across pipeline devices and group the computation into pipeline passes. To reduce the activation memory overhead, we propose several algorithms to reduce communication barriers within vocabulary layers. Additionally, we utilize a generalizable method to integrate Vocabulary Parallelism with existing pipeline schedules. By combining these techniques, our methods effectively balance the computation and parameter memory, with only a small constant activation memory overhead. Notably, when combined with activation memory-balanced schedules like V-Half, our approach achieves perfect balance in both memory and computation. Extensive evaluations demonstrate that our method achieves computation and memory balance regardless of the vocabulary size, resulting in a 5% to 51% improvement in throughput compared to naive approaches, meanwhile significantly reducing peak memory usage especially for large vocabulary scenarios. Our implementation is open-sourced at https://github.com/sail-sg/VocabularyParallelism .",
+ "primary": "cs.DC"
+}

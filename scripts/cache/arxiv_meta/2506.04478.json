@@ -1,0 +1,17 @@
+{
+ "id": "2506.04478",
+ "title": "Matching Markets Meet LLMs: Algorithmic Reasoning with Ranked Preferences",
+ "authors": [
+  "Hadi Hosseini",
+  "Samarth Khanna",
+  "Ronak Singh"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 2,
+ "latest_date": "2025-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rise of Large Language Models (LLMs) has driven progress in reasoning tasks -- from program synthesis to scientific hypothesis generation -- yet their ability to handle ranked preferences and structured algorithms in combinatorial domains remains underexplored. We study matching markets, a core framework behind applications like resource allocation and ride-sharing, which require reconciling individual ranked preferences to ensure stable outcomes. We evaluate several state-of-the-art models on a hierarchy of preference-based reasoning tasks -- ranging from stable-matching generation to instability detection, instability resolution, and fine-grained preference queries -- to systematically expose their logical and algorithmic limitations in handling ranked inputs. Surprisingly, even top-performing models with advanced reasoning struggle to resolve instability in large markets, often failing to identify blocking pairs or execute algorithms iteratively. We further show that parameter-efficient fine-tuning (LoRA) significantly improves performance in small markets, but fails to bring about a similar improvement on large instances, suggesting the need for more sophisticated strategies to improve LLMs' reasoning with larger-context inputs.",
+ "primary": "cs.AI"
+}

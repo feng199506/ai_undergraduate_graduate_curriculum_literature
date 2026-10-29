@@ -1,0 +1,20 @@
+{
+ "id": "2508.11269",
+ "title": "Inference performance evaluation for LLMs on edge devices with a novel benchmarking framework and metric",
+ "authors": [
+  "Hao Chen",
+  "Cong Tian",
+  "Zixuan He",
+  "Bin Yu",
+  "Yepang Liu",
+  "Jialun Cao"
+ ],
+ "v1_date": "2025-08-15",
+ "latest_version": 1,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the significant success achieved by large language models (LLMs) like LLaMA, edge computing-based LLM inference services for mobile and PC are in high demand for data privacy. However, different edge platforms have different hardware characteristics and the large demand for memory capacity and bandwidth makes it very challenging to deploy and benchmark LLMs on edge devices. In this paper, we introduce a benchmarking tool named ELIB (edge LLM inference benchmarking) to evaluate LLM inference performance of different edge platforms, and propose a novel metric named MBU to indicate the percentage of the theoretically efficient use of available memory bandwidth for a specific model running on edge hardware to optimize memory usage. We deploy ELIB on three edge platforms and benchmark using five quantized models to optimize MBU in combination with other metrics such as FLOPS, throughput, latency and accuracy. And we analyze the results to derive the key factors, constraints, unpredictability in optimizing MBU that can guide deploying LLMs on more edge platforms.",
+ "primary": "cs.PF"
+}

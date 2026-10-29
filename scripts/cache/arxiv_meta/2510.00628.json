@@ -1,0 +1,20 @@
+{
+ "id": "2510.00628",
+ "title": "Hearing the Order: Investigating Position Bias in Large Audio-Language Models",
+ "authors": [
+  "Yu-Xiang Lin",
+  "Chen-An Li",
+  "Sheng-Lun Wei",
+  "Po-Chun Chen",
+  "Hsin-Hsi Chen",
+  "Hung-yi Lee"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 3,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The first two authors contributed equally. Accepted to Interspeech 2026",
+ "abstract": "Large audio-language models (LALMs) are often used in tasks that involve reasoning over ordered options. An open question is whether their predictions are influenced by the order of answer choices, which would indicate a form of position bias and undermine their reliability. In this paper, we identify and analyze this problem in LALMs. We demonstrate that no model is immune to this bias through extensive experiments on six LALMs across three widely used benchmarks and their spoken counterparts. Shuffling the order of answer options can cause performance fluctuations of up to 24% and even change model rankings, raising concerns about the reliability of current evaluation practices. We also study permutation-based strategies and show that they can mitigate bias in most cases. Our work represents the first systematic investigation of this issue in LALMs, and we hope it raises awareness and motivates further research in this direction.",
+ "primary": "cs.SD"
+}

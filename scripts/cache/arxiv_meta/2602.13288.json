@@ -1,0 +1,16 @@
+{
+ "id": "2602.13288",
+ "title": "Benchmarking Anomaly Detection Across Heterogeneous Cloud Telemetry Datasets",
+ "authors": [
+  "Mohammad Saiful Islam",
+  "Andriy Miranskyy"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 1,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Anomaly detection is important for keeping cloud systems reliable and stable. Deep learning has improved time-series anomaly detection, but most models are evaluated on one dataset at a time. This raises questions about whether these models can handle different types of telemetry, especially in large-scale and high-dimensional environments. In this study, we evaluate four deep learning models, GRU, TCN, Transformer, and TSMixer. We also include Isolation Forest as a classical baseline. The models are tested across four telemetry datasets: the Numenta Anomaly Benchmark, Microsoft Cloud Monitoring dataset, Exathlon dataset, and IBM Console dataset. These datasets differ in structure, dimensionality, and labelling strategy. They include univariate time series, synthetic multivariate workloads, and real-world production telemetry with over 100,000 features. We use a unified training and evaluation pipeline across all datasets. The evaluation includes NAB-style metrics to capture early detection behaviour for datasets where anomalies persist over contiguous time intervals. This enables window-based scoring in settings where anomalies occur over contiguous time intervals, even when labels are recorded at the point level. The unified setup enables consistent analysis of model behaviour under shared scoring and calibration assumptions. Our results demonstrate that anomaly detection performance in cloud systems is governed not only by model architecture, but critically by calibration stability and feature-space geometry. By releasing our preprocessing pipelines, benchmark configuration, and evaluation artifacts, we aim to support reproducible and deployment-aware evaluation of anomaly detection systems for cloud environments.",
+ "primary": "cs.NI"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2609.20676",
+ "title": "Epidemiological Causal Graph Identification: Challenges, Identifiability and Algorithms",
+ "authors": [
+  "Sambit Mishra",
+  "Yingying Wang",
+  "Christine K. Johnson",
+  "Urbashi Mitra"
+ ],
+ "v1_date": "2026-09-17",
+ "latest_version": 1,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, 2 figures, accepted at the 60th Asilomar Conference on Signals, Systems, and Computers 2026",
+ "abstract": "Causal discovery from observational data is fundamental to statistics and machine learning, yet determining causal direction without interventions necessitates structural assumptions. Existing identifiability research primarily focuses on continuous variables under additive noise models, often neglecting mixed datasets containing ordinal scales, counts, and continuous measurements. This paper investigates causal discovery in Directed Acyclic Graphs (DAGs) where nodes follow either an ordinal distribution (via an ordered logit model) or a regular one-parameter exponential family distribution. We prove that the edge direction between an ordinal and an exponential family node is distributionally identifiable for generic parameter values. Our findings generalize previous Ordinal-Poisson results to the broader exponential family. Computationally, we introduce a score-based exhaustive search and a masked continuous optimization framework using DAGMA for larger graphs. Numerical results validate the theory, recovering edge orientations within a Markov equivalence class that are unidentifiable under classical structural equation models.",
+ "primary": "cs.LG"
+}

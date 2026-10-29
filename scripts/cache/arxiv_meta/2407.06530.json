@@ -1,0 +1,17 @@
+{
+ "id": "2407.06530",
+ "title": "RS-BNN: A Deep Learning Framework for the Optimal Beamforming Design of Rate-Splitting Multiple Access",
+ "authors": [
+  "Yiwen Wang",
+  "Yijie Mao",
+  "Sijie Ji"
+ ],
+ "v1_date": "2024-07-09",
+ "latest_version": 1,
+ "latest_date": "2024-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rate splitting multiple access (RSMA) relies on beamforming design for attaining spectral efficiency and energy efficiency gains over traditional multiple access schemes. While conventional optimization approaches such as weighted minimum mean square error (WMMSE) achieve suboptimal solutions for RSMA beamforming optimization, they are computationally demanding. A novel approach based on fractional programming (FP) has unveiled the optimal beamforming structure (OBS) for RSMA. This method, combined with a hyperplane fixed point iteration (HFPI) approach, named FP-HFPI, provides suboptimal beamforming solutions with identical sum rate performance but much lower computational complexity compared to WMMSE. Inspired by such an approach, in this work, a novel deep unfolding framework based on FP-HFPI, named rate-splitting-beamforming neural network (RS-BNN), is proposed to unfold the FP-HFPI algorithm. Numerical results indicate that the proposed RS-BNN attains a level of performance closely matching that of WMMSE and FP-HFPI, while dramatically reducing the computational complexity.",
+ "primary": "eess.SP"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2606.12496",
+ "title": "Artifact-Conditioned Interval Diagnostics for Flow-Matching Neural Posterior Estimation in a Controlled Gravitational-Wave Benchmark",
+ "authors": [
+  "Zhi Luo",
+  "Qi-Qin Jing"
+ ],
+ "v1_date": "2026-06-10",
+ "latest_version": 2,
+ "latest_date": "2026-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Calibration checks for neural posterior estimators in gravitational-wave inference should remain interpretable when observations contain data-quality artifacts. We study marginal interval calibration in a controlled frequency-domain binary-black-hole benchmark with synthetic glitches, frequency masks, and power spectral density (PSD) mismatch. The posterior sampler is a support-aware flow-matching posterior estimator (FMPE) with a circular representation of coalescence phase. We compare raw marginal credible intervals with global rescaling, oracle artifact-stratified rescaling, hard predicted-label rescaling, and soft learned artifact-aware interval rescaling (LAIR). In the 1024-bin evaluation, a single global scale fitted on mixed calibration data transfers poorly to frequency-mask cases, giving a mean absolute 90\\% marginal coverage error (MA90CE) of 0.1195. Soft LAIR lowers the corresponding error to 0.0672, although it is not uniformly better than the raw FMPE intervals. A 40-split LAIR evaluation and a six-checkpoint FMPE training-seed study show that the frequency-mask behavior is not a single-split artifact. The classifier recognizes frequency masks and PSD mismatch reliably, while glitch recall remains low. Waveform-resolution tests, PyCBC/LAL TaylorF2 backend checks, prior and Gaussian baselines, and controlled-likelihood reference-posterior probes indicate that marginal coverage must be read together with posterior width, geometry, and likelihood-based diagnostics. These results support using LAIR as an artifact-structured interval diagnostic, not as a substitute for posterior validation.",
+ "primary": "astro-ph.IM"
+}

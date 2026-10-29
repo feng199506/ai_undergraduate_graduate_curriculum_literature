@@ -1,0 +1,21 @@
+{
+ "id": "2508.03194",
+ "title": "Scaling DRL for Decision Making: A Survey on Data, Network, and Training Budget Strategies",
+ "authors": [
+  "Yi Ma",
+  "Hongyao Tang",
+  "Chenjun Xiao",
+  "Yaodong Yang",
+  "Wei Wei",
+  "Jianye Hao",
+  "Jiye Liang"
+ ],
+ "v1_date": "2025-08-05",
+ "latest_version": 1,
+ "latest_date": "2025-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, the expansion of neural network models and training data has driven remarkable progress in deep learning, particularly in computer vision and natural language processing. This advancement is underpinned by the concept of Scaling Laws, which demonstrates that scaling model parameters and training data enhances learning performance. While these fields have witnessed breakthroughs, such as the development of large language models like GPT-4 and advanced vision models like Midjourney, the application of scaling laws in deep reinforcement learning (DRL) remains relatively unexplored. Despite its potential to improve performance, the integration of scaling laws into DRL for decision making has not been fully realized. This review addresses this gap by systematically analyzing scaling strategies in three dimensions: data, network, and training budget. In data scaling, we explore methods to optimize data efficiency through parallel sampling and data generation, examining the relationship between data volume and learning outcomes. For network scaling, we investigate architectural enhancements, including monolithic expansions, ensemble and MoE methods, and agent number scaling techniques, which collectively enhance model expressivity while posing unique computational challenges. Lastly, in training budget scaling, we evaluate the impact of distributed training, high replay ratios, large batch sizes, and auxiliary training on training efficiency and convergence. By synthesizing these strategies, this review not only highlights their synergistic roles in advancing DRL for decision making but also provides a roadmap for future research. We emphasize the importance of balancing scalability with computational efficiency and outline promising directions for leveraging scaling to unlock the full potential of DRL in various tasks such as robot control, autonomous driving and LLM training.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2607.02522",
+ "title": "Multi-Turn Distributed Inference with Mixture of Experts for 6G Edge--Cloud Networks",
+ "authors": [
+  "Bo Liu",
+  "Haiyuan Li",
+  "Yuelin Liu",
+  "Yulei Wu",
+  "Rasheed Hussain",
+  "Shadi Moazzeni",
+  "Dimitra Simeonidou"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixture-of-Experts (MoE) architectures are increasingly deployed across 6G edge--cloud networks, where sparse activation reduces the computational footprint of each inference to only a fraction of the full expert set. However, MoE inference in edge-cloud networks creates a tension between KV state locality and elastic expert dispatch. KV state relocation incurs substantial transfer overhead, while expert computation benefits from spreading across the network to exploit available capacity. This tension is amplified in multi-turn inference, where each turn extends the KV state that must persist across the dialogue. To this end, we present StateFlow, a distributed inference policy that decouples persistent KV state from transient sparse computation. StateFlow pins KV state at a sticky serving site for cross-turn reuse and jointly optimizes expert dispatch and aggregation placement across the network. We further implement a real-world testbed with kernel-level network emulation and experimental results show that StateFlow sustains more than $2\\times$ higher stable dialogue concurrency than the distributed baseline solutions and reduces turn-level p95 latency under multi-turn inference by 53.0\\%.",
+ "primary": "cs.DC"
+}

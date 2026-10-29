@@ -1,0 +1,19 @@
+{
+ "id": "2509.07972",
+ "title": "Theoretical Analysis on how Learning Rate Warmup Accelerates Convergence",
+ "authors": [
+  "Yuxing Liu",
+  "Yuze Ge",
+  "Rui Pan",
+  "An Kang",
+  "Tong Zhang"
+ ],
+ "v1_date": "2025-09-09",
+ "latest_version": 1,
+ "latest_date": "2025-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning rate warmup is a popular and practical technique in training large-scale deep neural networks. Despite the huge success in practice, the theoretical advantages of this strategy of gradually increasing the learning rate at the beginning of the training process have not been fully understood. To resolve this gap between theory and practice, we first propose a novel family of generalized smoothness assumptions, and validate its applicability both theoretically and empirically. Under the novel smoothness assumption, we study the convergence properties of gradient descent (GD) in both deterministic and stochastic settings. It is shown that learning rate warmup consistently accelerates GD, and GD with warmup can converge at most $Θ(T)$ times faster than with a non-increasing learning rate schedule in some specific cases, providing insights into the benefits of this strategy from an optimization theory perspective.",
+ "primary": "cs.LG"
+}

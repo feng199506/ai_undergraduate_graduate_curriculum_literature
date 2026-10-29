@@ -1,0 +1,17 @@
+{
+ "id": "2311.11123",
+ "title": "(Why) Is My Prompt Getting Worse? Rethinking Regression Testing for Evolving LLM APIs",
+ "authors": [
+  "Wanqin Ma",
+  "Chenyang Yang",
+  "Christian Kästner"
+ ],
+ "v1_date": "2023-11-18",
+ "latest_version": 2,
+ "latest_date": "2024-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "conference version",
+ "abstract": "Large Language Models (LLMs) are increasingly integrated into software applications. Downstream application developers often access LLMs through APIs provided as a service. However, LLM APIs are often updated silently and scheduled to be deprecated, forcing users to continuously adapt to evolving models. This can cause performance regression and affect prompt design choices, as evidenced by our case study on toxicity detection. Based on our case study, we emphasize the need for and re-examine the concept of regression testing for evolving LLM APIs. We argue that regression testing LLMs requires fundamental changes to traditional testing approaches, due to different correctness notions, prompting brittleness, and non-determinism in LLM APIs.",
+ "primary": "cs.SE"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2507.10575",
+ "title": "An Adaptive Volatility-based Learning Rate Scheduler",
+ "authors": [
+  "Kieran Chai Kai Ren"
+ ],
+ "v1_date": "2025-07-11",
+ "latest_version": 1,
+ "latest_date": "2025-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Effective learning rate (LR) scheduling is crucial for training deep neural networks. However, popular pre-defined and adaptive schedulers can still lead to suboptimal generalization. This paper introduces VolSched, a novel adaptive LR scheduler inspired by the concept of volatility in stochastic processes like Geometric Brownian Motion to dynamically adjust the learning rate. By calculating the ratio between long-term and short-term accuracy volatility, VolSched increases the LR to escape plateaus and decreases it to stabilize training, allowing the model to explore the loss landscape more effectively. We evaluate VolSched on the CIFAR-100 dataset against a strong baseline using a standard augmentation pipeline. When paired with ResNet-18 and ResNet-34, our scheduler delivers consistent performance gains, improving top-1 accuracy by 1.4 and 1.3 percentage points respectively. Analysis of the loss curves reveals that VolSched promotes a longer exploration phase. A quantitative analysis of the Hessian shows that VolSched finds a final solution that is 38% flatter than the next-best baseline, allowing the model to obtain wider minima and hence better generalization performance.",
+ "primary": "cs.LG"
+}

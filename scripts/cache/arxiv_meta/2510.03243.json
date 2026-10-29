@@ -1,0 +1,21 @@
+{
+ "id": "2510.03243",
+ "title": "Ranking Before Serving: Low-Latency LLM Serving via Pairwise Learning-to-Rank",
+ "authors": [
+  "Yiheng Tao",
+  "Yihe Zhang",
+  "Matthew Dearing",
+  "Xin Wang",
+  "Yuping Fan",
+  "Michael E. Papka",
+  "Zhiling Lan"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 3,
+ "latest_date": "2026-06-26",
+ "journal_ref": "ISC High Performance 2026 Research Paper Proceedings (41st International Conference), Hamburg, Germany, 2026",
+ "doi": "10.23919/isc.2026.11520485",
+ "comment": "13 pages, 4 figures. Published in ISC High Performance 2026 Research Paper Proceedings (41st International Conference)",
+ "abstract": "Efficient scheduling of large language model (LLM) inference tasks is critical for achieving low latency and high throughput, a challenge that is becoming increasingly acute with the rise of reasoning-capable LLMs whose generation lengths are highly variable. Traditional strategies like First Come, First-Serve (FCFS) often suffer from Head-of-Line (HOL) blocking, where long-running tasks delay shorter ones queued behind them. In this paper, we introduce PARS, a prompt-aware LLM task scheduler that mitigates HOL blocking by approximating shortest-job-first (SJF) scheduling through pairwise ranking with a margin ranking loss. PARS effectively predicts response-length-based task ordering directly from prompts, thereby optimizing scheduling decisions with minimal overhead. In addition, it integrates seamlessly with vLLM, a state-of-the-art LLM serving system, for the research community. Extensive experiments across multiple LLM models and real-world inference use cases, including chat, math, and code generation, demonstrate that PARS significantly reduces latency by up to 15.7x compared to the vLLM default scheduler. Cross-model evaluations demonstrate that our design generalizes effectively, allowing effective scheduling across diverse LLMs without requiring model-specific retraining.",
+ "primary": "cs.LG"
+}

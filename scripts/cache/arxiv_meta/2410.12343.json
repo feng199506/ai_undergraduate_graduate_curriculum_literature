@@ -1,0 +1,18 @@
+{
+ "id": "2410.12343",
+ "title": "Federated Temporal Graph Clustering",
+ "authors": [
+  "Zihao Zhou",
+  "Yang Liu",
+  "Xianghong Xu",
+  "Qian Li"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 3,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 1 figure",
+ "abstract": "Temporal graph clustering is a complex task that involves discovering meaningful structures in dynamic graphs where relationships and entities change over time. Existing methods typically require centralized data collection, which poses significant privacy and communication challenges. In this work, we introduce a novel Federated Temporal Graph Clustering (FTGC) framework that enables decentralized training of graph neural networks (GNNs) across multiple clients, ensuring data privacy throughout the process. Our approach incorporates a temporal aggregation mechanism to effectively capture the evolution of graph structures over time and a federated optimization strategy to collaboratively learn high-quality clustering representations. By preserving data privacy and reducing communication overhead, our framework achieves competitive performance on temporal graph datasets, making it a promising solution for privacy-sensitive, real-world applications involving dynamic data.",
+ "primary": "cs.LG"
+}

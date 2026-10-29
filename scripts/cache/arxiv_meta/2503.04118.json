@@ -1,0 +1,20 @@
+{
+ "id": "2503.04118",
+ "title": "TimeFound: A Foundation Model for Time Series Forecasting",
+ "authors": [
+  "Congxi Xiao",
+  "Jingbo Zhou",
+  "Yixiong Xiao",
+  "Xinjiang Lu",
+  "Le Zhang",
+  "Hui Xiong"
+ ],
+ "v1_date": "2025-03-06",
+ "latest_version": 1,
+ "latest_date": "2025-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present TimeFound, an encoder-decoder transformer-based time series foundation model for out-of-the-box zero-shot forecasting. To handle time series data from various domains, TimeFound employs a multi-resolution patching strategy to capture complex temporal patterns at multiple scales. We pre-train our model with two sizes (200M and 710M parameters) on a large time-series corpus comprising both real-world and synthetic datasets. Over a collection of unseen datasets across diverse domains and forecasting horizons, our empirical evaluations suggest that TimeFound can achieve superior or competitive zero-shot forecasting performance, compared to state-of-the-art time series foundation models.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2504.02627",
+ "title": "Incorporating the ChEES Criterion into Sequential Monte Carlo Samplers",
+ "authors": [
+  "Andrew Millard",
+  "Joshua Murphy",
+  "Daniel Frisch",
+  "Simon Maskell"
+ ],
+ "v1_date": "2025-04-03",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 9 figures",
+ "abstract": "Markov chain Monte Carlo (MCMC) methods are a powerful but computationally expensive way of performing non-parametric Bayesian inference. MCMC proposals which utilise gradients, such as Hamiltonian Monte Carlo (HMC), can better explore the parameter space of interest if the additional hyper-parameters are chosen well. The No-U-Turn Sampler (NUTS) is a variant of HMC which is extremely effective at selecting these hyper-parameters but is slow to run and is not suited to GPU architectures. An alternative to NUTS, Change in the Estimator of the Expected Square HMC (ChEES-HMC) was shown not only to run faster than NUTS on GPU but also sample from posteriors more efficiently. Sequential Monte Carlo (SMC) samplers are another sampling method which instead output weighted samples from the posterior. They are very amenable to parallelisation and therefore being run on GPUs while having additional flexibility in their choice of proposal over MCMC. We incorporate (ChEEs-HMC) as a proposal into SMC samplers and demonstrate competitive but faster performance than NUTS on a number of tasks.",
+ "primary": "stat.CO"
+}

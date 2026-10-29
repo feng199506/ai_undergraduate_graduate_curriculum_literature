@@ -1,0 +1,16 @@
+{
+ "id": "2412.19826",
+ "title": "Modular probabilistic programming with algebraic effects (MSc Thesis 2019)",
+ "authors": [
+  "Oliver Goldstein",
+  "Ohad Kammar"
+ ],
+ "v1_date": "2024-12-18",
+ "latest_version": 1,
+ "latest_date": "2024-12-18",
+ "journal_ref": "",
+ "doi": "10.7488/era/5485",
+ "comment": "47 Pages",
+ "abstract": "Probabilistic programming languages, which exist in abundance, are languages that allow users to calculate probability distributions defined by probabilistic programs, by using inference algorithms. However, the underlying inference algorithms are not implemented in a modular fashion, though, the algorithms are presented as a composition of other inference components. This discordance between the theory and the practice of Bayesian machine learning, means that reasoning about the correctness of probabilistic programs is more difficult, and composing inference algorithms together in code may not necessarily produce correct compound inference algorithms. In this dissertation, I create a modular probabilistic programming library, already a nice property as its not a standalone language, called Koka Bayes, that is based off of both the modular design of Monad Bayes -- a probabilistic programming library developed in Haskell -- and its semantic validation. The library is embedded in a recently created programming language, Koka, that supports algebraic effect handlers and expressive effect types -- novel programming abstractions that support modular programming. Effects are generalizations of computational side-effects, and it turns out that fundamental operations in probabilistic programming such as probabilistic choice and conditioning are instances of effects.",
+ "primary": "cs.PL"
+}

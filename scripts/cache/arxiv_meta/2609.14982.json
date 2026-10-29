@@ -1,0 +1,21 @@
+{
+ "id": "2609.14982",
+ "title": "efficient matrix-free gauss-newton traveltime tomography on full-metric deformed grids",
+ "authors": [
+  "Zuwei Huang",
+  "Pingchuan Ma",
+  "Peng Yu",
+  "Takao Koyama",
+  "Luolei Zhang",
+  "Chongjin Zhao",
+  "Mingxin Chu"
+ ],
+ "v1_date": "2026-09-14",
+ "latest_version": 1,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 3 figures",
+ "abstract": "First-arrival traveltime tomography provides a computationally efficient means of imaging subsurface velocity structure, while boundary-conforming deformed grids allow rugged topography to be represented without abandoning a logically structured mesh. In matrix-free Gauss-Newton inversion, however, the linearized full-metric Eikonal transport and its transpose must be applied repeatedly at a fixed background model. Directional sweeping consequently revisits the same state-dependent dependency structure for every Krylov right-hand side. We recast the frozen tangent transport as a directed graph and distinguish loss of the background-traveltime ordering from genuine algebraic cyclicity. Strongly connected components identify the irreducible part of the transport, whereas the remaining dependencies admit exact scalar substitution after reordering. The condensation graph and local block factorizations are constructed once for each frozen source state and then reused for both primal and transpose applications. Numerical experiments on deformed grids and a three-dimensional tomography problem show that the resulting block-triangular formulation preserves the frozen sensitivity action while substantially reducing the repeated transport cost. By eliminating this dominant inner-iteration cost, the proposed method markedly accelerates Gauss-Newton computation and makes full-metric matrix-free inversion on deformed grids practical at much lower cost.",
+ "primary": "math.NA"
+}

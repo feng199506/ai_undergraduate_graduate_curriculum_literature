@@ -1,0 +1,15 @@
+{
+ "id": "2603.27153",
+ "title": "Preconditioned Attention: Enhancing Efficiency in Transformers",
+ "authors": [
+  "Hemanth Saratchandran"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 1,
+ "latest_date": "2026-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "AISTATS 2026",
+ "abstract": "Central to the success of Transformers is the attention block, which effectively models global dependencies among input tokens associated to a dataset. However, we theoretically demonstrate that standard attention mechanisms in transformers often produce ill-conditioned matrices with large condition numbers. This ill-conditioning is a well-known obstacle for gradient-based optimizers, leading to inefficient training. To address this issue, we introduce preconditioned attention, a novel approach that incorporates a conditioning matrix into each attention head. Our theoretical analysis shows that this method significantly reduces the condition number of attention matrices, resulting in better-conditioned matrices that improve optimization. Conditioned attention serves as a simple drop-in replacement for a wide variety of attention mechanisms in the literature. We validate the effectiveness of preconditioned attention across a diverse set of transformer applications, including image classification, object detection, instance segmentation, long sequence modeling and language modeling.",
+ "primary": "cs.LG"
+}

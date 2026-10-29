@@ -1,0 +1,19 @@
+{
+ "id": "2606.01289",
+ "title": "Feature to Dynamics: Feature-space to Autoregression strategy for Zero-shot Time Series Forecasting",
+ "authors": [
+  "Yifan Wu",
+  "Junjie Wu",
+  "Kai Wu",
+  "Xiaoyu Zhang",
+  "Jian Lou"
+ ],
+ "v1_date": "2026-05-31",
+ "latest_version": 1,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Zero-shot time series forecasting aims to predict future values for previously unseen series, requiring models to generalize temporal dynamics beyond the training distribution. While recent foundation models achieve strong in-domain performance through large-scale pretraining, their effectiveness often relies on broad data coverage and implicit pattern memorization, which can limit generalization when data are scarce or source and target domains are disjoint. In this work, we propose FSA, a feature-to-strategy framework for controlled zero-shot univariate forecasting. Instead of directly modeling raw sequences in the observation space, FSA learns a structured mapping from an interpretable feature space to an autoregressive strategy space. This design introduces explicit inductive biases that disentangle global trends, periodic components, and local temporal dynamics, enabling the model to capture transferable time-series structure with fewer data assumptions. Empirical results show that, under identical pretraining data, training protocol, and comparable parameter budgets, FSA outperforms Transformer-based architectures in our controlled zero-shot setting.",
+ "primary": "cs.LG"
+}

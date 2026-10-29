@@ -1,0 +1,17 @@
+{
+ "id": "2402.03386",
+ "title": "A generalized decision tree ensemble based on the NeuralNetworks architecture: Distributed Gradient Boosting Forest (DGBF)",
+ "authors": [
+  "Ángel Delgado-Panadero",
+  "José Alberto Benítez-Andrades",
+  "María Teresa García-Ordás"
+ ],
+ "v1_date": "2024-02-04",
+ "latest_version": 1,
+ "latest_date": "2024-02-04",
+ "journal_ref": "Applied Intelligence, Volume 53, July 2023, pages 22991-23003",
+ "doi": "10.1007/s10489-023-04735-w",
+ "comment": "",
+ "abstract": "Tree ensemble algorithms as RandomForest and GradientBoosting are currently the dominant methods for modeling discrete or tabular data, however, they are unable to perform a hierarchical representation learning from raw data as NeuralNetworks does thanks to its multi-layered structure, which is a key feature for DeepLearning problems and modeling unstructured data. This limitation is due to the fact that tree algorithms can not be trained with back-propagation because of their mathematical nature. However, in this work, we demonstrate that the mathematical formulation of bagging and boosting can be combined together to define a graph-structured-tree-ensemble algorithm with a distributed representation learning process between trees naturally (without using back-propagation). We call this novel approach Distributed Gradient Boosting Forest (DGBF) and we demonstrate that both RandomForest and GradientBoosting can be expressed as particular graph architectures of DGBT. Finally, we see that the distributed learning outperforms both RandomForest and GradientBoosting in 7 out of 9 datasets.",
+ "primary": "cs.LG"
+}

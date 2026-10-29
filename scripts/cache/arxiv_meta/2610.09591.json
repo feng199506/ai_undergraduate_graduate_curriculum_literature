@@ -1,0 +1,17 @@
+{
+ "id": "2610.09591",
+ "title": "Scalable Logistic Gaussian Process Density Regression with Kinetic Langevin Sampling",
+ "authors": [
+  "Daniel Paulin",
+  "Ádám Jung",
+  "András A. Benczúr"
+ ],
+ "v1_date": "2026-10-07",
+ "latest_version": 1,
+ "latest_date": "2026-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 3 figures",
+ "abstract": "Conditional density estimation targets the full distribution of a response given covariates, as required, for example, for per-galaxy photometric redshifts. We develop a scalable Bayesian estimator based on the logistic Gaussian process. The log conditional density has a separable covariance: a Matérn kernel along the response, represented in a truncated Fourier basis on a circle, and a covariate kernel represented by Nyström features, which accommodate non-stationary kernels with input-dependent amplitudes and length scales. Instead of a Laplace or variational approximation, we sample the latent field of this finite-feature model. Given the hyperparameters, its posterior is strongly log-concave with a uniformly bounded Hessian, and we draw from it by simulating kinetic Langevin dynamics with symmetric minibatch splitting in Kronecker-whitened coordinates. Marginal-likelihood gradients follow from Fisher's identity as posterior expectations. Under the conditions of our analysis their bias is controlled by the sampler's step size and run length, and the predictive averages over the non-Gaussian latent posterior instead of a Gaussian around its mode. On photometric-redshift benchmarks with up to 3.9 million training observations, trained on a single GPU, the estimator is competitive with state-of-the-art tabular foundation models on density and calibration metrics.",
+ "primary": "stat.ML"
+}

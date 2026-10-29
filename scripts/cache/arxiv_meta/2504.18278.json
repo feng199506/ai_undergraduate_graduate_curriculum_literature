@@ -1,0 +1,15 @@
+{
+ "id": "2504.18278",
+ "title": "A comprehensive review of classifier probability calibration metrics",
+ "authors": [
+  "Richard Oliver Lane"
+ ],
+ "v1_date": "2025-04-25",
+ "latest_version": 1,
+ "latest_date": "2025-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "60 pages, 7 figures",
+ "abstract": "Probabilities or confidence values produced by artificial intelligence (AI) and machine learning (ML) models often do not reflect their true accuracy, with some models being under or over confident in their predictions. For example, if a model is 80% sure of an outcome, is it correct 80% of the time? Probability calibration metrics measure the discrepancy between confidence and accuracy, providing an independent assessment of model calibration performance that complements traditional accuracy metrics. Understanding calibration is important when the outputs of multiple systems are combined, for assurance in safety or business-critical contexts, and for building user trust in models. This paper provides a comprehensive review of probability calibration metrics for classifier and object detection models, organising them according to a number of different categorisations to highlight their relationships. We identify 82 major metrics, which can be grouped into four classifier families (point-based, bin-based, kernel or curve-based, and cumulative) and an object detection family. For each metric, we provide equations where available, facilitating implementation and comparison by future researchers.",
+ "primary": "cs.LG"
+}

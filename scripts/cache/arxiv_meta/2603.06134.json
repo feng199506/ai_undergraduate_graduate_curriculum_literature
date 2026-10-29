@@ -1,0 +1,23 @@
+{
+ "id": "2603.06134",
+ "title": "Clustering-Based Outcome Models for Clinical Studies: A Scoping Review",
+ "authors": [
+  "Johannes Vilsmeier",
+  "Fabian Eibensteiner",
+  "Franz König",
+  "Francois Mercier",
+  "Robin Ristl",
+  "Nigel Stallard",
+  "Marc Vandemeulebroecke",
+  "Sarah Zohar",
+  "Martin Posch"
+ ],
+ "v1_date": "2026-03-06",
+ "latest_version": 2,
+ "latest_date": "2026-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This review provides a systematic overview of methods that combine covariate-based clustering of observational units (patients) with outcome models for clinical studies. We distinguish between informed-cluster models, where the outcome contributes to cluster formation, and agnostic-cluster models, where clustering is performed solely on covariates in a separate first step. Informed-cluster models include product partition models with covariates (PPMx), finite mixtures of regression models (FMR), and cluster-aware supervised learning (CluSL). Agnostic-cluster models encompass two-step procedures using either model-based or algorithmic clustering followed by cluster-specific regression models. Following a systematic search of Web of Science and PubMed, 55 records were identified that propose or evaluate such models. We describe the key models, summarise study characteristics, and present applications from biomedical and public health research. Clustering-based outcome models are particularly relevant for settings with high-dimensional covariates (e.g., biomarker panels and \"omics\") and heterogeneous patient populations. These models can support risk stratification and we discuss extensions to estimate subgroup-specific treatment effects. They are most valuable when the population is clustered in distinct regions of the covariate space that correspond to different outcome distributions. We discuss applications to rare disease research, covariate adjustment and borrowing from historical data, and subgroup-specific treatment effect estimation in clinical trials.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2502.08148",
+ "title": "ACCESS : A Benchmark for Abstract Causal Event Discovery and Reasoning",
+ "authors": [
+  "Vy Vo",
+  "Lizhen Qu",
+  "Tao Feng",
+  "Yuncheng Hua",
+  "Xiaoxi Kang",
+  "Songhai Fan",
+  "Tim Dwyer",
+  "Lay-Ki Soon",
+  "Gholamreza Haffari"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 1,
+ "latest_date": "2025-02-12",
+ "journal_ref": "Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics",
+ "doi": "",
+ "comment": "",
+ "abstract": "Identifying cause-and-effect relationships is critical to understanding real-world dynamics and ultimately causal reasoning. Existing methods for identifying event causality in NLP, including those based on Large Language Models (LLMs), exhibit difficulties in out-of-distribution settings due to the limited scale and heavy reliance on lexical cues within available benchmarks. Modern benchmarks, inspired by probabilistic causal inference, have attempted to construct causal graphs of events as a robust representation of causal knowledge, where \\texttt{CRAB} \\citep{romanou2023crab} is one such recent benchmark along this line. In this paper, we introduce \\texttt{ACCESS}, a benchmark designed for discovery and reasoning over abstract causal events. Unlike existing resources, \\texttt{ACCESS} focuses on causality of everyday life events on the abstraction level. We propose a pipeline for identifying abstractions for event generalizations from \\texttt{GLUCOSE} \\citep{mostafazadeh-etal-2020-glucose}, a large-scale dataset of implicit commonsense causal knowledge, from which we subsequently extract $1,4$K causal pairs. Our experiments highlight the ongoing challenges of using statistical methods and/or LLMs for automatic abstraction identification and causal discovery in NLP. Nonetheless, we demonstrate that the abstract causal knowledge provided in \\texttt{ACCESS} can be leveraged for enhancing QA reasoning performance in LLMs.",
+ "primary": "cs.AI"
+}

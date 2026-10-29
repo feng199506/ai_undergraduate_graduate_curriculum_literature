@@ -1,0 +1,17 @@
+{
+ "id": "2407.08250",
+ "title": "Gradient Boosting Reinforcement Learning",
+ "authors": [
+  "Benjamin Fuhrer",
+  "Chen Tessler",
+  "Gal Dalal"
+ ],
+ "v1_date": "2024-07-11",
+ "latest_version": 3,
+ "latest_date": "2026-10-18",
+ "journal_ref": "Proceedings of the 42nd International Conference on Machine Learning ICML 2025, PMLR 267, 17960-17985, Vancouver Canada, 13-19 July 2025",
+ "doi": "",
+ "comment": "to be published in the Forty-Second International Conference on Machine Learning",
+ "abstract": "We present Gradient Boosting Reinforcement Learning (GBRL), a framework that adapts the strengths of gradient boosting trees (GBT) to reinforcement learning (RL) tasks. While neural networks (NNs) have become the de facto choice for RL, they face significant challenges with structured and categorical features and tend to generalize poorly to out-of-distribution samples. These are challenges for which GBTs have traditionally excelled in supervised learning. However, GBT's application in RL has been limited. The design of traditional GBT libraries is optimized for static datasets with fixed labels, making them incompatible with RL's dynamic nature, where both state distributions and reward signals evolve during training. GBRL overcomes this limitation by continuously interleaving tree construction with environment interaction. Through extensive experiments, we demonstrate that GBRL outperforms NNs in domains with structured observations and categorical features while maintaining competitive performance on standard continuous control benchmarks. Like its supervised learning counterpart, GBRL demonstrates superior robustness to out-of-distribution samples and better handles irregular state-action relationships.",
+ "primary": "cs.LG"
+}

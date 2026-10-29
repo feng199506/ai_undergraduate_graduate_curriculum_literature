@@ -1,0 +1,17 @@
+{
+ "id": "2412.09686",
+ "title": "The Cost of Replicability in Active Learning",
+ "authors": [
+  "Rupkatha Hira",
+  "Dominik Kau",
+  "Jessica Sorrell"
+ ],
+ "v1_date": "2024-12-12",
+ "latest_version": 2,
+ "latest_date": "2026-03-23",
+ "journal_ref": "Transactions on Machine Learning Research, 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "Active learning aims to reduce the number of labeled data points required by machine learning algorithms by selectively querying labels from initially unlabeled data. Ensuring replicability, where an algorithm produces consistent outcomes across different runs, is essential for the reliability of machine learning models but often increases sample complexity. This paper investigates the cost of replicability in active learning using two classical disagreement-based methods: the CAL and A^2 algorithms. Leveraging randomized thresholding techniques, we propose two replicable active learning algorithms: one for realizable learning of finite hypothesis classes and another for the agnostic setting. Our theoretical analysis shows that while enforcing replicability increases label complexity, CAL and A^2 still achieve substantial label savings under this constraint. These findings provide insights into balancing efficiency and stability in active learning.",
+ "primary": "cs.LG"
+}

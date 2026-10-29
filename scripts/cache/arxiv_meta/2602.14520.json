@@ -1,0 +1,21 @@
+{
+ "id": "2602.14520",
+ "title": "Accelerating Posterior Inference from Pulsar Light Curves via Learned Latent Representations and Local Simulator-Guided Optimization",
+ "authors": [
+  "Farhana Taiyebah",
+  "Abu Bucker Siddik",
+  "Indronil Bhattacharjee",
+  "Diane Oyen",
+  "Soumi De",
+  "Greg Olmschenk",
+  "Constantinos Kalapotharakos"
+ ],
+ "v1_date": "2026-02-16",
+ "latest_version": 1,
+ "latest_date": "2026-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Posterior inference from pulsar observations in the form of light curves is commonly performed using Markov chain Monte Carlo methods, which are accurate but computationally expensive. We introduce a framework that accelerates posterior inference while maintaining accuracy by combining learned latent representations with local simulator-guided optimization. A masked U-Net is first pretrained to reconstruct complete light curves from partial observations and to produce informative latent embeddings. Given a query light curve, we identify similar simulated light curves from the simulation bank by measuring similarity in the learned embedding space produced by pretrained U-Net encoder, yielding an initial empirical approximation to the posterior over parameters. This initialization is then refined using a local optimization procedure using hill-climbing updates, guided by a forward simulator, progressively shifting the empirical posterior toward higher-likelihood parameter regions. Experiments on the observed light curve of PSR J0030+0451, captured by NASA's Neutron Star Interior Composition Explorer (NICER), show that our method closely matches posterior estimates obtained using traditional MCMC methods while achieving 120 times reduction in inference time (from 24 hours to 12 minutes), demonstrating the effectiveness of learned representations and simulator-guided optimization for accelerated posterior inference.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2503.18608",
+ "title": "AutoBayes: A Compositional Framework for Generalized Variational Inference",
+ "authors": [
+  "Toby St Clere Smithe",
+  "Marco Perin"
+ ],
+ "v1_date": "2025-03-24",
+ "latest_version": 2,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages. v2: fixed a typo",
+ "abstract": "We introduce a new compositional framework for generalized variational inference, clarifying the different parts of a model, how they interact, and how they compose. We explain that both exact Bayesian inference and the loss functions typical of variational inference (such as variational free energy and its generalizations) satisfy chain rules akin to that of reverse-mode automatic differentiation, and we advocate for exploiting this to build and optimize models accordingly. To this end, we construct a series of compositional tools: for building models; for constructing their inversions; for attaching local loss functions; and for exposing parameters. Finally, we explain how the resulting parameterized statistical games may be optimized locally, too. We illustrate our framework with a number of classic examples, pointing to new areas of extensibility that are revealed.",
+ "primary": "stat.ML"
+}

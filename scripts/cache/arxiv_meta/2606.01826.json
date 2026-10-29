@@ -1,0 +1,16 @@
+{
+ "id": "2606.01826",
+ "title": "Revisiting the Quantum-Guided Cluster Algorithm: Improvements and Numerical Experiments",
+ "authors": [
+  "Peter J. Eder",
+  "Sarah Braun"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study correlation-guided cluster algorithms for solving the Max-Cut problem that iteratively try to improve solutions by updating clusters of nodes. Building on the recently proposed quantum-guided cluster algorithm (QGCA) [arXiv:2508.10656], which leverages precomputed two-point correlations to guide collective updates, we extend the cluster construction by incorporating next-nearest-neighbor (NNN) information. We evaluate this extension across different correlation sources on random regular graphs and non-degenerate tile-planted instances. Notably, we observe particularly strong performance on non-degenerate instances and provide a scaling analysis for this class. Finally, we outline an extension toward a correlation-guided Markov-chain Monte Carlo algorithm, whose detailed analysis remains an open direction for future work.",
+ "primary": "quant-ph"
+}

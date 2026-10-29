@@ -1,0 +1,16 @@
+{
+ "id": "2411.04278",
+ "title": "The Recurrent Sticky Hierarchical Dirichlet Process Hidden Markov Model",
+ "authors": [
+  "Mikołaj Słupiński",
+  "Piotr Lipiński"
+ ],
+ "v1_date": "2024-11-06",
+ "latest_version": 1,
+ "latest_date": "2024-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Hierarchical Dirichlet Process Hidden Markov Model (HDP-HMM) is a natural Bayesian nonparametric extension of the classical Hidden Markov Model for learning from (spatio-)temporal data. A sticky HDP-HMM has been proposed to strengthen the self-persistence probability in the HDP-HMM. Then, disentangled sticky HDP-HMM has been proposed to disentangle the strength of the self-persistence prior and transition prior. However, the sticky HDP-HMM assumes that the self-persistence probability is stationary, limiting its expressiveness. Here, we build on previous work on sticky HDP-HMM and disentangled sticky HDP-HMM, developing a more general model: the recurrent sticky HDP-HMM (RS-HDP-HMM). We develop a novel Gibbs sampling strategy for efficient inference in this model. We show that RS-HDP-HMM outperforms disentangled sticky HDP-HMM, sticky HDP-HMM, and HDP-HMM in both synthetic and real data segmentation.",
+ "primary": "cs.LG"
+}

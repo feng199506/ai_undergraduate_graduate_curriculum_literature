@@ -1,0 +1,18 @@
+{
+ "id": "2501.05333",
+ "title": "Stability and List-Replicability for Agnostic Learners",
+ "authors": [
+  "Ari Blondal",
+  "Shan Gao",
+  "Hamed Hatami",
+  "Pooya Hatami"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 3,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Some minor changes to the terminology and presentation",
+ "abstract": "Two seminal papers--Alon, Livni, Malliaris, Moran (STOC 2019) and Bun, Livni, and Moran (FOCS 2020)--established the equivalence between online learnability and globally stable PAC learnability in binary classification. However, Chase, Chornomaz, Moran, and Yehudayoff (STOC 2024) recently showed that this equivalence does not hold in the agnostic setting. Specifically, they proved that in the agnostic setting, only finite hypothesis classes are globally stable learnable. Therefore, agnostic global stability is too restrictive to capture interesting hypothesis classes. To address this limitation, Chase et al. introduced two relaxations of agnostic global stability. In this paper, we characterize the classes that are learnable under their proposed relaxed conditions, resolving the two open problems raised in their work. First, we prove that in the setting where the stability parameter can depend on the excess error (the gap between the learner's error and the best achievable error by the hypothesis class), agnostic stability is fully characterized by the Littlestone dimension. Consequently, as in the realizable case, this form of learnability is equivalent to online learnability. As part of the proof of this theorem, we strengthen the celebrated result of Bun et al. by showing that classes with infinite Littlestone dimension are not stably PAC learnable, even if we allow the stability parameter to depend on the excess error. For the second relaxation proposed by Chase et al., we prove that only finite hypothesis classes are globally stable learnable, even if we restrict the agnostic setting to distributions with small population loss.",
+ "primary": "cs.LG"
+}

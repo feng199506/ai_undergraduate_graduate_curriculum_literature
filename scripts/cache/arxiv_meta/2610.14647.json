@@ -1,0 +1,21 @@
+{
+ "id": "2610.14647",
+ "title": "Can Synthetic UAV Benchmarks Be Trusted? Real-Synthetic Validation for UAV Model Selection",
+ "authors": [
+  "Yuyi Zhi",
+  "Min Du",
+  "Bill Shi",
+  "Guodong Yuan",
+  "Junheng Liang",
+  "Peifan Liao",
+  "Xin Guan"
+ ],
+ "v1_date": "2026-10-10",
+ "latest_version": 1,
+ "latest_date": "2026-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 5 figures",
+ "abstract": "Synthetic UAV imagery can expand pre-deployment test evidence when task-specific Real data are scarce, but visual plausibility or semantic label alignment alone does not establish validity for model selection. We study when Synthetic evaluation preserves the model-selection conclusions obtained from Real UAV data through two complementary cases under fixed evaluation protocols. In a requirement-specific road-debris benchmark, four language-conditioned perception systems obtain lower absolute F1 on Synthetic data, yet the point-estimate ordering and top-ranked model are preserved; bootstrap analysis yields no supported pairwise reversal, and size-matched resampling preserves the top-model decision. In contrast, a closed-set stress test on a separately materialized business corpus, using four VisDrone-compatible detectors over eight empirically supported classes, changes the point-estimate top-ranked detector and reverses three of six pairwise point-estimate preference directions. A complementary audit of five UAV business scenarios further reveals substantial Real-Synthetic mismatch in class composition, object density, and target scale, including systematic under-representation of small targets. These results show that Synthetic UAV benchmark trust is conditional: semantic coverage is insufficient, and validity must be established empirically for the task, operating regime, and model panel of interest.",
+ "primary": "cs.CV"
+}

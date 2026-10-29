@@ -1,0 +1,20 @@
+{
+ "id": "2603.03341",
+ "title": "Ethical and Explainable AI in Reusable MLOps Pipelines",
+ "authors": [
+  "Rakib Hossain",
+  "Mahmood Menon Khan",
+  "Lisan Al Amin",
+  "Dhruv Parikh",
+  "Farhana Afroz",
+  "Bestoun S. Ahmed"
+ ],
+ "v1_date": "2026-02-15",
+ "latest_version": 1,
+ "latest_date": "2026-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages",
+ "abstract": "This paper introduces a unified machine learning operations (MLOps) framework that brings ethical artificial intelligence principles into practical use by enforcing fairness, explainability, and governance throughout the machine learning lifecycle. The proposed method reduces bias by lowering the demographic parity difference (DPD) from 0.31 to 0.04 without model retuning, and cross-dataset validation achieves an area under the curve (AUC) of 0.89 on the Statlog Heart dataset. The framework maintains fairness metrics within operational limits across all deployments. Model deployment is blocked if the DPD exceeds 0.05 or if equalized odds (EO) exceeds 0.05 on the validation set. After deployment, retraining is automatically triggered if the 30-day Kolmogorov-Smirnov drift statistic exceeds 0.20. In production, the system consistently achieved DPD <= 0.05 and EO <= 0.03, while the KS statistic remained <= 0.20. Decision-curve analysis indicates a positive net benefit in the 10 to 20 percent operating range, showing that the mitigated model preserves predictive utility while satisfying fairness constraints. These results demonstrate that automated fairness gates and explainability artefacts can be successfully deployed in production without disrupting operational flow, providing organizations with a practical and credible approach to implementing ethical, transparent, and trustworthy AI across diverse datasets and operational settings.",
+ "primary": "cs.CY"
+}

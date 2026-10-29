@@ -1,0 +1,16 @@
+{
+ "id": "2607.14742",
+ "title": "Newton-Based Mixed Precision Iterative Refinement for Large-Scale Sparse Continuous-Time Algebraic Riccati Equations",
+ "authors": [
+  "Juan Zhang",
+  "Yang Zhou"
+ ],
+ "v1_date": "2026-07-16",
+ "latest_version": 1,
+ "latest_date": "2026-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 5 tables",
+ "abstract": "We propose a Newton-based mixed precision iterative refinement framework for solving large-scale sparse continuous-time algebraic Riccati equations (CAREs). The framework computes the initial approximation and the inner Lyapunov correction equations in lower precision, while evaluating residuals and updating the solution in higher precision. To handle indefinite residuals and Newton correction terms in low-rank form, we introduce factor decomposition procedures with truncation strategies that preserve positive semidefiniteness and control rank growth. A first-order rounding error analysis derives a residual recurrence for the refinement process and relates stable mixed precision refinement to a Lyapunov operator conditioning threshold governed by the unit roundoff of the lower precision inner solves. We then present a concrete ADI-based realization, using NLR-ADI for the initial CARE approximation and LR-ADI for the inner Lyapunov correction equations. Compared with dense Lyapunov correction implementations, this realization reduces the main computations to shifted linear solves and low-rank factor operations, and we provide a solver-dependent complexity analysis. Numerical experiments on dense CARE over a range of condition numbers illustrate the conditioning effect described by the error analysis, and experiments on large-scale sparse CAREs show that the mixed precision framework is faster than the full double precision implementation while maintaining the same level of accuracy.",
+ "primary": "math.NA"
+}

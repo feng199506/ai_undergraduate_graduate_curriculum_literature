@@ -1,0 +1,19 @@
+{
+ "id": "2406.03161",
+ "title": "Ethical considerations of use of hold-out sets in clinical prediction model management",
+ "authors": [
+  "Louis Chislett",
+  "Louis JM Aslett",
+  "Alisha R Davies",
+  "Catalina A Vallejos",
+  "James Liley"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 1,
+ "latest_date": "2024-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clinical prediction models are statistical or machine learning models used to quantify the risk of a certain health outcome using patient data. These can then inform potential interventions on patients, causing an effect called performative prediction: predictions inform interventions which influence the outcome they were trying to predict, leading to a potential underestimation of risk in some patients if a model is updated on this data. One suggested resolution to this is the use of hold-out sets, in which a set of patients do not receive model derived risk scores, such that a model can be safely retrained. We present an overview of clinical and research ethics regarding potential implementation of hold-out sets for clinical prediction models in health settings. We focus on the ethical principles of beneficence, non-maleficence, autonomy and justice. We also discuss informed consent, clinical equipoise, and truth-telling. We present illustrative cases of potential hold-out set implementations and discuss statistical issues arising from different hold-out set sampling methods. We also discuss differences between hold-out sets and randomised control trials, in terms of ethics and statistical issues. Finally, we give practical recommendations for researchers interested in the use hold-out sets for clinical prediction models.",
+ "primary": "cs.LG"
+}

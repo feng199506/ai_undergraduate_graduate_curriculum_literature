@@ -1,0 +1,25 @@
+{
+ "id": "2403.19622",
+ "title": "RH20T-P: A Primitive-Level Robotic Dataset Towards Composable Generalization Agents",
+ "authors": [
+  "Zeren Chen",
+  "Zhelun Shi",
+  "Xiaoya Lu",
+  "Lehan He",
+  "Sucheng Qian",
+  "Zhenfei Yin",
+  "Wanli Ouyang",
+  "Jing Shao",
+  "Yu Qiao",
+  "Cewu Lu",
+  "Lu Sheng"
+ ],
+ "v1_date": "2024-03-28",
+ "latest_version": 2,
+ "latest_date": "2025-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 11 figures, 7 tables. Accepted by NeurIPS 2024 Workshop",
+ "abstract": "Achieving generalizability in solving out-of-distribution tasks is one of the ultimate goals of learning robotic manipulation. Recent progress of Vision-Language Models (VLMs) has shown that VLM-based task planners can alleviate the difficulty of solving novel tasks, by decomposing the compounded tasks as a plan of sequentially executing primitive-level skills that have been already mastered. It is also promising for robotic manipulation to adapt such composable generalization ability, in the form of composable generalization agents (CGAs). However, the community lacks of reliable design of primitive skills and a sufficient amount of primitive-level data annotations. Therefore, we propose RH20T-P, a primitive-level robotic manipulation dataset, which contains about 38k video clips covering 67 diverse manipulation tasks in real-world scenarios. Each clip is manually annotated according to a set of meticulously designed primitive skills that are common in robotic manipulation. Furthermore, we standardize a plan-execute CGA paradigm and implement an exemplar baseline called RA-P on our RH20T-P, whose positive performance on solving unseen tasks validates that the proposed dataset can offer composable generalization ability to robotic manipulation agents.",
+ "primary": "cs.RO"
+}

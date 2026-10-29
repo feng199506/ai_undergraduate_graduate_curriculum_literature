@@ -1,0 +1,22 @@
+{
+ "id": "2602.21677",
+ "title": "Trie-Aware Transformers for Generative Recommendation",
+ "authors": [
+  "Zhenxiang Xu",
+  "Jiawei Chen",
+  "Sirui Chen",
+  "Yong He",
+  "Jieyu Yang",
+  "Chuan Yuan",
+  "Ke Ding",
+  "Can Wang"
+ ],
+ "v1_date": "2026-02-25",
+ "latest_version": 1,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative recommendation (GR) aligns with advances in generative AI by casting next-item prediction as token-level generation rather than score-based ranking. Most GR methods adopt a two-stage pipeline: (i) \\textit{item tokenization}, which maps each item to a sequence of discrete, hierarchically organized tokens; and (ii) \\textit{autoregressive generation}, which predicts the next item's tokens conditioned on the tokens of user's interaction history. Although hierarchical tokenization induces a prefix tree (trie) over items, standard autoregressive modeling with conventional Transformers often flattens item tokens into a linear stream and overlooks the underlying topology. To address this, we propose TrieRec, a trie-aware generative recommendation method that augments Transformers with structural inductive biases via two positional encodings. First, a \\textit{trie-aware absolute positional encoding} aggregates a token's (node's) local structural context (\\eg depth, ancestors, and descendants) into the token representation. Second, a \\textit{topology-aware relative positional encoding} injects pairwise structural relations into self-attention to capture topology-induced semantic relatedness. TrieRec is also model-agnostic, efficient, and hyperparameter-free. In our experiments, we implement TrieRec within three representative GR backbones, achieving notably improvements of 8.83\\% on average across four real-world datasets.",
+ "primary": "cs.IR"
+}

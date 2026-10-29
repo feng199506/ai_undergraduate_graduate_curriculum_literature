@@ -1,0 +1,19 @@
+{
+ "id": "2602.21046",
+ "title": "PIME: Prototype-based Interpretable MCTS-Enhanced Brain Network Analysis for Disorder Diagnosis",
+ "authors": [
+  "Kunyu Zhang",
+  "Yanwu Yang",
+  "Jing Zhang",
+  "Xiangjie Shi",
+  "Shujian Yu"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent deep learning methods for fMRI-based diagnosis have achieved promising accuracy by modeling functional connectivity networks. However, standard approaches often struggle with noisy interactions, and conventional post-hoc attribution methods may lack reliability, potentially highlighting dataset-specific artifacts. To address these challenges, we introduce PIME, an interpretable framework that bridges intrinsic interpretability with minimal-sufficient subgraph optimization by integrating prototype-based classification and consistency training with structural perturbations during learning. This encourages a structured latent space and enables Monte Carlo Tree Search (MCTS) under a prototype-consistent objective to extract compact minimal-sufficient explanatory subgraphs post-training. Experiments on three benchmark fMRI datasets demonstrate that PIME achieves state-of-the-art performance. Furthermore, by constraining the search space via learned prototypes, PIME identifies critical brain regions that are consistent with established neuroimaging findings. Stability analysis shows 90% reproducibility and consistent explanations across atlases.",
+ "primary": "cs.LG"
+}

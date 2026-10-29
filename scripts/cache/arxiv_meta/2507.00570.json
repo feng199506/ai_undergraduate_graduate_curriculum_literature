@@ -1,0 +1,18 @@
+{
+ "id": "2507.00570",
+ "title": "Out-of-distribution detection in 3D applications: a review",
+ "authors": [
+  "Zizhao Li",
+  "Xueyang Kang",
+  "Joseph West",
+  "Kourosh Khoshelham"
+ ],
+ "v1_date": "2025-07-01",
+ "latest_version": 1,
+ "latest_date": "2025-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The ability to detect objects that are not prevalent in the training set is a critical capability in many 3D applications, including autonomous driving. Machine learning methods for object recognition often assume that all object categories encountered during inference belong to a closed set of classes present in the training data. This assumption limits generalization to the real world, as objects not seen during training may be misclassified or entirely ignored. As part of reliable AI, OOD detection identifies inputs that deviate significantly from the training distribution. This paper provides a comprehensive overview of OOD detection within the broader scope of trustworthy and uncertain AI. We begin with key use cases across diverse domains, introduce benchmark datasets spanning multiple modalities, and discuss evaluation metrics. Next, we present a comparative analysis of OOD detection methodologies, exploring model structures, uncertainty indicators, and distributional distance taxonomies, alongside uncertainty calibration techniques. Finally, we highlight promising research directions, including adversarially robust OOD detection and failure identification, particularly relevant to 3D applications. The paper offers both theoretical and practical insights into OOD detection, showcasing emerging research opportunities such as 3D vision integration. These insights help new researchers navigate the field more effectively, contributing to the development of reliable, safe, and robust AI systems.",
+ "primary": "cs.CV"
+}

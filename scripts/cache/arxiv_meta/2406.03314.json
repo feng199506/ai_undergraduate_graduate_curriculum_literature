@@ -1,0 +1,18 @@
+{
+ "id": "2406.03314",
+ "title": "Reproducibility study of FairAC",
+ "authors": [
+  "Gijs de Jong",
+  "Macha J. Meijer",
+  "Derck W. E. Prinzhorn",
+  "Harold Ruiter"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 2,
+ "latest_date": "2024-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 2 figures, accepted at TMLR",
+ "abstract": "This work aims to reproduce the findings of the paper \"Fair Attribute Completion on Graph with Missing Attributes\" written by Guo, Chu, and Li arXiv:2302.12977 by investigating the claims made in the paper. This paper suggests that the results of the original paper are reproducible and thus, the claims hold. However, the claim that FairAC is a generic framework for many downstream tasks is very broad and could therefore only be partially tested. Moreover, we show that FairAC is generalizable to various datasets and sensitive attributes and show evidence that the improvement in group fairness of the FairAC framework does not come at the expense of individual fairness. Lastly, the codebase of FairAC has been refactored and is now easily applicable for various datasets and models.",
+ "primary": "cs.LG"
+}

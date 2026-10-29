@@ -1,0 +1,15 @@
+{
+ "id": "2601.17431",
+ "title": "The 17% Gap: Quantifying Epistemic Decay in AI-Assisted Survey Papers",
+ "authors": [
+  "H. Kemal İlter"
+ ],
+ "v1_date": "2026-01-24",
+ "latest_version": 1,
+ "latest_date": "2026-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The adoption of Large Language Models (LLMs) in scientific writing promises efficiency but risks introducing informational entropy. While \"hallucinated papers\" are a known artifact, the systematic degradation of valid citation chains remains unquantified. We conducted a forensic audit of 50 recent survey papers in Artificial Intelligence (N=5,514 citations) published between September 2024 and January 2026. We utilized a hybrid verification pipeline combining DOI resolution, Crossref metadata analysis, Semantic Scholar queries, and fuzzy text matching to distinguish between formatting errors (\"Sloppiness\") and verifiable non-existence (\"Phantoms). We detect a persistent 17.0% Phantom Rate -- citations that cannot be resolved to any digital object despite aggressive forensic recovery. Diagnostic categorization reveals three distinct failure modes: pure hallucinations (5.1%), hallucinated identifiers with valid titles (16.4%), and parsing-induced matching failures (78.5%). Longitudinal analysis reveals a flat trend (+0.07 pp/month), suggesting that high-entropy citation practices have stabilized as an endemic feature of the field. The scientific citation graph in AI survey literature exhibits \"link rot\" at scale. This suggests a mechanism where AI tools act as \"lazy research assistants,\" retrieving correct titles but hallucinating metadata, thereby severing the digital chain of custody required for reproducible science.",
+ "primary": "cs.CY"
+}

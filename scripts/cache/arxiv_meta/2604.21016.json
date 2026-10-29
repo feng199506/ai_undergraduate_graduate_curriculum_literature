@@ -1,0 +1,17 @@
+{
+ "id": "2604.21016",
+ "title": "SGD at the Edge of Stability: The Stochastic Sharpness Gap",
+ "authors": [
+  "Fangshuo Liao",
+  "Afroditi Kolomvaki",
+  "Anastasios Kyrillidis"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When training neural networks with full-batch gradient descent (GD) and step size $η$, the largest eigenvalue of the Hessian -- the sharpness $S(\\boldsymbolθ)$ -- rises to $2/η$ and hovers there, a phenomenon termed the Edge of Stability (EoS). \\citet{damian2023selfstab} showed that this behavior is explained by a self-stabilization mechanism driven by third-order structure of the loss, and that GD implicitly follows projected gradient descent (PGD) on the constraint $ S(\\boldsymbolθ)\\leq 2/η$. For mini-batch stochastic gradient descent (SGD), the sharpness stabilizes below $2/η$, with the gap widening as the batch size decreases; yet no theoretical explanation exists for this suppression. We introduce stochastic self-stabilization, extending the self-stabilization framework to SGD. Our key insight is that gradient noise injects variance into the oscillatory dynamics along the top Hessian eigenvector, strengthening the cubic sharpness-reducing force and shifting the equilibrium below $2/η$. Following the approach of \\citet{damian2023selfstab}, we define stochastic predicted dynamics relative to a moving projected gradient descent trajectory and prove a stochastic coupling theorem that bounds the deviation of SGD from these predictions. We derive a closed-form equilibrium sharpness gap: $ΔS = ηβσ_{\\boldsymbol{u}}^{2}/(4α)$, where $α$ is the progressive sharpening rate, $β$ is the self-stabilization strength, and $σ_{ \\boldsymbol{u}}^{2}$ is the gradient noise variance projected onto the top eigenvector. This formula predicts that smaller batch sizes yield flatter solutions and recovers GD when the batch equals the full dataset.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.00446",
+ "title": "Off-Policy Evaluation of Ranking Policies via Embedding-Space User Behavior Modeling",
+ "authors": [
+  "Tatsuki Takahashi",
+  "Chihiro Maru",
+  "Hiroko Shoji"
+ ],
+ "v1_date": "2025-05-31",
+ "latest_version": 1,
+ "latest_date": "2025-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Off-policy evaluation (OPE) in ranking settings with large ranking action spaces, which stems from an increase in both the number of unique actions and length of the ranking, is essential for assessing new recommender policies using only logged bandit data from previous versions. To address the high variance issues associated with existing estimators, we introduce two new assumptions: no direct effect on rankings and user behavior model on ranking embedding spaces. We then propose the generalized marginalized inverse propensity score (GMIPS) estimator with statistically desirable properties compared to existing ones. Finally, we demonstrate that the GMIPS achieves the lowest MSE. Notably, among GMIPS variants, the marginalized reward interaction IPS (MRIPS) incorporates a doubly marginalized importance weight based on a cascade behavior assumption on ranking embeddings. MRIPS effectively balances the trade-off between bias and variance, even as the ranking action spaces increase and the above assumptions may not hold, as evidenced by our experiments.",
+ "primary": "stat.ML"
+}

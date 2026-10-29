@@ -1,0 +1,16 @@
+{
+ "id": "2511.17994",
+ "title": "Learning Rate Scheduling with Matrix Factorization for Private Training",
+ "authors": [
+  "Nikita P. Kalinin",
+  "Joel Daniel Andersson"
+ ],
+ "v1_date": "2025-11-22",
+ "latest_version": 2,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at FORC 2026",
+ "abstract": "We study differentially private model training with stochastic gradient descent under learning rate scheduling and correlated noise. Although correlated noise, in particular via matrix factorizations, has been shown to improve accuracy, prior theoretical work focused primarily on the prefix-sum workload. That workload assumes a constant learning rate, whereas in practice learning rate schedules are widely used to accelerate training and improve convergence. We close this gap by deriving general upper and lower bounds for a broad class of learning rate schedules in both single- and multi-epoch settings. Building on these results, we propose a learning-rate-aware factorization that achieves improvements over prefix-sum factorizations under both MaxSE and MeanSE error metrics. Our theoretical analysis yields memory-efficient constructions suitable for practical deployment, and experiments on CIFAR-10 and IMDB datasets confirm that schedule-aware factorizations improve accuracy in private training.",
+ "primary": "cs.LG"
+}

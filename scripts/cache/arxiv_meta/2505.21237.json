@@ -1,0 +1,20 @@
+{
+ "id": "2505.21237",
+ "title": "Unfolding A Few Structures for The Many: Memory-Efficient Compression of Conformer and Speech Foundation Models",
+ "authors": [
+  "Zhaoqing Li",
+  "Haoning Xu",
+  "Xurong Xie",
+  "Zengrui Jin",
+  "Tianzi Wang",
+  "Xunying Liu"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 1,
+ "latest_date": "2025-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by Interspeech2025",
+ "abstract": "This paper presents a novel memory-efficient model compression approach for Conformer ASR and speech foundation systems. Our approach features a unique \"small-to-large\" design. A compact \"seed\" model containing a few Conformer or Transformer blocks is trained and unfolded many times to emulate the performance of larger uncompressed models with different logical depths. The seed model and many unfolded paths are jointly trained within a single unfolding cycle. The KL-divergence between the largest unfolded and smallest seed models is used in a self-distillation process to minimize their performance disparity. Experimental results show that our foldable model produces ASR performance comparable to individually constructed Conformer and wav2vec2/HuBERT speech foundation models under various depth configurations, while requiring only minimal memory and storage. Conformer and wav2vec2 models with a reduction of 35% and 30% parameters are obtained without loss of performance, respectively.",
+ "primary": "cs.SD"
+}

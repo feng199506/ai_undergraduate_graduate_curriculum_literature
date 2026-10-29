@@ -1,0 +1,19 @@
+{
+ "id": "2610.16966",
+ "title": "Learning to Design SR Solvers: Harness Optimization for Symbolic Regression",
+ "authors": [
+  "Qian Li",
+  "Yuxiao Hu",
+  "Qihao Duan",
+  "Jinyue Yan",
+  "Yuntian Chen"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Symbolic regression (SR) seeks explicit equations that explain observed data, and recent methods increasingly employ large language models (LLMs) and agents for equation discovery. However, these systems typically rely on manually designed workflows and prompts. We argue that the SR agent harness should itself be an optimization target: its design shapes search priors and how numerical feedback guides subsequent equation refinement. We therefore propose HarnessSR, a framework for jointly optimizing prompts and workflows to construct reusable SR agents. During both harness optimization and agent execution, HarnessSR supports either PySR or an LLM-based equation generator through tool-specific interfaces, allowing the framework to optimize search guidance for different equation-discovery mechanisms. HarnessSR first optimizes role prompts through equation-discovery feedback in basic workflows, then jointly searches prompt assignments and workflows with brief adaptation to align the two. Finally, it refines role instructions through reflection on residual patterns, candidate equation structures, and search outcomes, improving how these signals guide subsequent equation search. On LSR-Synth in LLM-SRBench, HarnessSR achieves a mean ID $\\mathrm{Acc}_{0.01}$ of 61.33% across three backbones, a 45.0% relative improvement over the next-best baseline.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2409.12243",
+ "title": "Convergence of Markov Chains for Constant Step-size Stochastic Gradient Descent with Separable Functions",
+ "authors": [
+  "David Shirokoff",
+  "Philip Zaleski"
+ ],
+ "v1_date": "2024-09-18",
+ "latest_version": 2,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic gradient descent (SGD) is a popular algorithm for minimizing objective functions that arise in machine learning. For constant step-sized SGD, the iterates form a Markov chain on a general state space. Focusing on a class of separable (non-convex) objective functions, we establish a \"Doeblin-type decomposition,\" in that the state space decomposes into a uniformly transient set and a disjoint union of absorbing sets. Each of the absorbing sets contains a unique invariant measure, with the set of all invariant measures being the convex hull. Moreover the set of invariant measures are shown to be global attractors to the Markov chain with a geometric convergence rate. The theory is highlighted with examples that show: (1) the failure of the diffusion approximation to characterize the long-time dynamics of SGD; (2) the global minimum of an objective function may lie outside the support of the invariant measures (i.e., even if initialized at the global minimum, SGD iterates will leave); and (3) bifurcations may enable the SGD iterates to transition between two local minima. Key ingredients in the theory involve viewing the SGD dynamics as a monotone iterated function system and establishing a \"splitting condition\" of Dubins and Freedman 1966 and Bhattacharya and Lee 1988.",
+ "primary": "math.OC"
+}

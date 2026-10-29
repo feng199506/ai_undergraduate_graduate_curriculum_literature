@@ -1,0 +1,20 @@
+{
+ "id": "2410.12119",
+ "title": "Scaling Laws for Post Training Quantized Large Language Models",
+ "authors": [
+  "Zifei Xu",
+  "Alexander Lan",
+  "Wanzin Yazar",
+  "Tristan Webb",
+  "Sayeh Sharify",
+  "Xin Wang"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 3,
+ "latest_date": "2024-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalization abilities of well-trained large language models (LLMs) are known to scale predictably as a function of model size. In contrast to the existence of practical scaling laws governing pre-training, the quality of LLMs after post-training compression remains highly unpredictable, often requiring case-by-case validation in practice. In this work, we attempted to close this gap for post-training weight quantization of LLMs by conducting a systematic empirical study on multiple LLM families quantized to numerous low-precision tensor data types using popular weight quantization techniques. We identified key scaling factors pertaining to characteristics of the local loss landscape, based on which the performance of quantized LLMs can be reasonably well predicted by a statistical model.",
+ "primary": "cs.LG"
+}

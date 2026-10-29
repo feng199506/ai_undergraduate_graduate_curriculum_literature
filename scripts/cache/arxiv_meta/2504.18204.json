@@ -1,0 +1,27 @@
+{
+ "id": "2504.18204",
+ "title": "Optimizing Multi-Round Enhanced Training in Diffusion Models for Improved Preference Understanding",
+ "authors": [
+  "Kun Li",
+  "Jianhui Wang",
+  "Yangfan He",
+  "Xinyuan Song",
+  "Ruoyu Wang",
+  "Hongyang He",
+  "Wenxin Zhang",
+  "Jiaqi Chen",
+  "Keqin Li",
+  "Sida Li",
+  "Miao Zhang",
+  "Tianyu Shi",
+  "Xueqian Wang"
+ ],
+ "v1_date": "2025-04-25",
+ "latest_version": 1,
+ "latest_date": "2025-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2503.17660",
+ "abstract": "Generative AI has significantly changed industries by enabling text-driven image generation, yet challenges remain in achieving high-resolution outputs that align with fine-grained user preferences. Consequently, multi-round interactions are necessary to ensure the generated images meet expectations. Previous methods enhanced prompts via reward feedback but did not optimize over a multi-round dialogue dataset. In this work, we present a Visual Co-Adaptation (VCA) framework incorporating human-in-the-loop feedback, leveraging a well-trained reward model aligned with human preferences. Using a diverse multi-turn dialogue dataset, our framework applies multiple reward functions, such as diversity, consistency, and preference feedback, while fine-tuning the diffusion model through LoRA, thus optimizing image generation based on user input. We also construct multi-round dialogue datasets of prompts and image pairs aligned with user intent. Experiments demonstrate that our method outperforms state-of-the-art baselines, significantly improving image consistency and alignment with user intent. Our approach consistently surpasses competing models in user satisfaction, especially in multi-turn dialogue scenarios.",
+ "primary": "cs.CV"
+}

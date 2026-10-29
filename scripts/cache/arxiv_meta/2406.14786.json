@@ -1,0 +1,16 @@
+{
+ "id": "2406.14786",
+ "title": "Graph Structure Learning with Interpretable Bayesian Neural Networks",
+ "authors": [
+  "Max Wasserman",
+  "Gonzalo Mateos"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 1,
+ "latest_date": "2024-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graphs serve as generic tools to encode the underlying relational structure of data. Often this graph is not given, and so the task of inferring it from nodal observations becomes important. Traditional approaches formulate a convex inverse problem with a smoothness promoting objective and rely on iterative methods to obtain a solution. In supervised settings where graph labels are available, one can unroll and truncate these iterations into a deep network that is trained end-to-end. Such a network is parameter efficient and inherits inductive bias from the optimization formulation, an appealing aspect for data constrained settings in, e.g., medicine, finance, and the natural sciences. But typically such settings care equally about uncertainty over edge predictions, not just point estimates. Here we introduce novel iterations with independently interpretable parameters, i.e., parameters whose values - independent of other parameters' settings - proportionally influence characteristics of the estimated graph, such as edge sparsity. After unrolling these iterations, prior knowledge over such graph characteristics shape prior distributions over these independently interpretable network parameters to yield a Bayesian neural network (BNN) capable of graph structure learning (GSL) from smooth signal observations. Fast execution and parameter efficiency allow for high-fidelity posterior approximation via Markov Chain Monte Carlo (MCMC) and thus uncertainty quantification on edge predictions. Synthetic and real data experiments corroborate this model's ability to provide well-calibrated estimates of uncertainty, in test cases that include unveiling economic sector modular structure from S$\\&$P$500$ data and recovering pairwise digit similarities from MNIST images. Overall, this framework enables GSL in modest-scale applications where uncertainty on the data structure is paramount.",
+ "primary": "cs.LG"
+}

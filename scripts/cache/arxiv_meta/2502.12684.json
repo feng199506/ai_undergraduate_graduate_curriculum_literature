@@ -1,0 +1,19 @@
+{
+ "id": "2502.12684",
+ "title": "Federated Variational Inference for Bayesian Mixture Models",
+ "authors": [
+  "Jackie Rao",
+  "Francesca L. Crowe",
+  "Tom Marshall",
+  "Sylvia Richardson",
+  "Paul D. W. Kirk"
+ ],
+ "v1_date": "2025-02-18",
+ "latest_version": 2,
+ "latest_date": "2025-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the Proceedings Track at Machine Learning for Health (ML4H 2025) Symposium, held on December 1-2, 2025 in San Diego, USA",
+ "abstract": "We present a federated learning approach for Bayesian model-based clustering of large-scale binary and categorical datasets. We introduce a principled 'divide and conquer' inference procedure using variational inference with local merge and delete moves within batches of the data in parallel, followed by 'global' merge moves across batches to find global clustering structures. We show that these merge moves require only summaries of the data in each batch, enabling federated learning across local nodes without requiring the full dataset to be shared. Empirical results on simulated and benchmark datasets demonstrate that our method performs well in comparison to existing clustering algorithms. We validate the practical utility of the method by applying it to large scale electronic health record (EHR) data.",
+ "primary": "stat.ML"
+}

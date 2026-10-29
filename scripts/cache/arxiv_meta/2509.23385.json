@@ -1,0 +1,18 @@
+{
+ "id": "2509.23385",
+ "title": "Flow Matching Calibration for Simulation-Based Inference under Model Misspecification",
+ "authors": [
+  "Pierre-Louis Ruhlmann",
+  "Michael Arbel",
+  "Florence Forbes",
+  "Pedro L. C. Rodrigues"
+ ],
+ "v1_date": "2025-09-27",
+ "latest_version": 5,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simulation-based inference (SBI) is transforming experimental sciences by enabling parameter estimation in complex non-linear models from simulated data. A persistent challenge, however, is model misspecification. In a Bayesian setting, targeting posterior distributions, errors may arise from the simulator, the noise or prior modelling. These model components are only approximations of reality, and severe mismatches can yield biased or overconfident posteriors. We address this issue by introducing Flow Matching Corrected Posterior Estimation (FMCPE), a framework that leverages the flow matching paradigm to refine simulation-trained posterior estimators using a small set of calibration samples. Our approach proceeds in two stages: first, a posterior approximator is trained on abundant simulated data; second, flow matching transports its predictions toward the true posterior supported by calibration observations. We rely on the later to guide the correction, without requiring explicit knowledge of the misspecification form or of which model components are affected. This design enables FMCPE to combine the scalability of SBI with robustness to distributional shift. Across synthetic benchmarks and real-world datasets, we show that our proposal consistently mitigates the effects of misspecification, delivering improved inference accuracy and uncertainty quantification compared to standard SBI baselines, while remaining computationally efficient.",
+ "primary": "stat.ML"
+}

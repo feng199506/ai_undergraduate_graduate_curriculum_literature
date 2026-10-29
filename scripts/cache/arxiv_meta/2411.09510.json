@@ -1,0 +1,18 @@
+{
+ "id": "2411.09510",
+ "title": "Communication Compression for Tensor Parallel LLM Inference",
+ "authors": [
+  "Jan Hansen-Palmus",
+  "Michael Truong Le",
+  "Oliver Hausdörfer",
+  "Alok Verma"
+ ],
+ "v1_date": "2024-11-14",
+ "latest_version": 3,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) have pushed the frontier of artificial intelligence but are comprised of hundreds of billions of parameters and operations. For faster inference latency, LLMs are deployed on multiple hardware accelerators through various Model Parallelism strategies. Our paper looks into the details on one such strategy - Tensor Parallel - and proposes to reduce latency by compressing inter-accelerator communication. We leverage fine grained quantization techniques to compress selected activations by 3.5 - 4.5x. Our proposed method leads up to 2x reduction of time-to-first-token (TTFT) with negligible model performance degradation.",
+ "primary": "cs.LG"
+}

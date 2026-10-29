@@ -1,0 +1,24 @@
+{
+ "id": "2605.24832",
+ "title": "Optimus: Elastic Decoding for Efficient Diffusion LLM Serving",
+ "authors": [
+  "Chiyue Wei",
+  "Cong Guo",
+  "Bowen Duan",
+  "Junyao Zhang",
+  "Haoxuan Shan",
+  "Yifei Wang",
+  "Yangjie Zhou",
+  "Hai \"Helen\" Li",
+  "Danyang Zhuo",
+  "Yiran Chen"
+ ],
+ "v1_date": "2026-05-24",
+ "latest_version": 1,
+ "latest_date": "2026-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language model (LLM) serving is fundamentally limited by inefficient hardware utilization. Autoregressive (AR) decoding underutilizes GPUs due to its strictly sequential execution, while diffusion LLMs (DLLMs) improve throughput by decoding multiple tokens per iteration. However, fixed block-size diffusion decoding exhibits strong load sensitivity: large blocks exploit idle GPU resources under low load, but saturate early and incur substantial redundant computation under high load. As a result, throughput gains vanish beyond saturation, and no single decoding granularity performs well across dynamic serving workloads. We present Optimus, a serving system that enables elastic decoding for diffusion LLMs by dynamically adapting decoding granularity to runtime load. The key idea is to treat decoding granularity as a runtime control variable, balancing GPU utilization and token efficiency. Optimus combines chunked decoding, which enables fine-grained execution without retraining, with saturation-aware scheduling, a closed-loop mechanism that selects chunk sizes based on runtime conditions. Together with system-level optimizations and customized attention kernels, Optimus achieves significant performance improvements while preserving model accuracy. Experiments show that Optimus delivers up to 6.1x throughput improvement over AR decoding and 4.3x improvement over fixed-block diffusion LLM, while maintaining stable performance across diverse load regimes and improving end-to-end serving capacity under latency constraints. The source code is available at https://github.com/dubcyfor3/Optimus.",
+ "primary": "cs.DC"
+}

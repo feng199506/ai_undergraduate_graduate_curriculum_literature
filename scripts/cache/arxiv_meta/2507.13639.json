@@ -1,0 +1,17 @@
+{
+ "id": "2507.13639",
+ "title": "Differential Privacy in Kernelized Contextual Bandits via Random Projections",
+ "authors": [
+  "Nikola Pavlovic",
+  "Sudeep Salgia",
+  "Qing Zhao"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 1,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of contextual kernel bandits with stochastic contexts, where the underlying reward function belongs to a known Reproducing Kernel Hilbert Space. We study this problem under an additional constraint of Differential Privacy, where the agent needs to ensure that the sequence of query points is differentially private with respect to both the sequence of contexts and rewards. We propose a novel algorithm that achieves the state-of-the-art cumulative regret of $\\widetilde{\\mathcal{O}}(\\sqrt{γ_TT}+\\frac{γ_T}{\\varepsilon_{\\mathrm{DP}}})$ and $\\widetilde{\\mathcal{O}}(\\sqrt{γ_TT}+\\frac{γ_T\\sqrt{T}}{\\varepsilon_{\\mathrm{DP}}})$ over a time horizon of $T$ in the joint and local models of differential privacy, respectively, where $γ_T$ is the effective dimension of the kernel and $\\varepsilon_{\\mathrm{DP}} > 0$ is the privacy parameter. The key ingredient of the proposed algorithm is a novel private kernel-ridge regression estimator which is based on a combination of private covariance estimation and private random projections. It offers a significantly reduced sensitivity compared to its classical counterpart while maintaining a high prediction accuracy, allowing our algorithm to achieve the state-of-the-art performance guarantees.",
+ "primary": "stat.ML"
+}

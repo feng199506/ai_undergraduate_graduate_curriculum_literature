@@ -1,0 +1,23 @@
+{
+ "id": "2606.26633",
+ "title": "Simulating Unified Tensor Resharding in heterogeneous AI systems",
+ "authors": [
+  "Sumit Kumar",
+  "Sayantan Dasgupta",
+  "Kushal Mitra",
+  "Meet Dadhania",
+  "Rohan Sudhir Basugade",
+  "Praveen Tammana",
+  "Satananda Burla",
+  "Abed Mohammad Kamaluddin",
+  "Rinku Shah"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 1,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "State-of-the-art AI training simulators assume homogeneous compute and network infrastructure. However, real-world training infrastructure is becoming increasingly heterogeneous since: (a) Model architectures such as multimodal and MoE exploit heterogeneity to improve device utilization, (b) Public cloud platforms often provide limited availability of homogeneous hardware due to fast hardware evolution, and (c) Large enterprises frequently deploy geographically distributed infrastructure that is both diverse and heterogeneous. In this paper, we present Xsim, a heterogeneity-aware simulator for distributed LLM training. Xsim supports: (i) Load balancing through non-uniform workload partitioning across heterogeneous device groups, (ii) Heterogeneity-aware collective communication via customized ring construction and chunk partitioning, (iii) Reusable heterogeneity-aware abstractions for emerging pipeline-parallel algorithms and non-uniform tensor resharding technique, (iv) Flexible input abstractions for specifying deployment plans with custom device groups and custom device-to-parallelism mappings, and (v) Pluggable integration with NS-3 and htsim, allowing users to trade off simulation fidelity for performance and scalability. Our evaluation demonstrates that Xsim accurately predicts training time for real-world heterogeneous deployments, with an error of less than 5% across most heterogeneous data-parallel/tensor-parallel configurations and around 2% error with pipeline-parallel communication modeling. We expose actionable metrics such as pipeline bubble time and straggler waiting time.",
+ "primary": "cs.DC"
+}

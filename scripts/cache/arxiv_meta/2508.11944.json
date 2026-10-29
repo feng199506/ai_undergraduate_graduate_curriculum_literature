@@ -1,0 +1,18 @@
+{
+ "id": "2508.11944",
+ "title": "CHBench: A Cognitive Hierarchy Benchmark for Evaluating Strategic Reasoning Capability of LLMs",
+ "authors": [
+  "Hongtao Liu",
+  "Zhicheng Du",
+  "Zihe Wang",
+  "Weiran Shen"
+ ],
+ "v1_date": "2025-08-16",
+ "latest_version": 1,
+ "latest_date": "2025-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Game-playing ability serves as an indicator for evaluating the strategic reasoning capability of large language models (LLMs). While most existing studies rely on utility performance metrics, which are not robust enough due to variations in opponent behavior and game structure. To address this limitation, we propose \\textbf{Cognitive Hierarchy Benchmark (CHBench)}, a novel evaluation framework inspired by the cognitive hierarchy models from behavioral economics. We hypothesize that agents have bounded rationality -- different agents behave at varying reasoning depths/levels. We evaluate LLMs' strategic reasoning through a three-phase systematic framework, utilizing behavioral data from six state-of-the-art LLMs across fifteen carefully selected normal-form games. Experiments show that LLMs exhibit consistent strategic reasoning levels across diverse opponents, confirming the framework's robustness and generalization capability. We also analyze the effects of two key mechanisms (Chat Mechanism and Memory Mechanism) on strategic reasoning performance. Results indicate that the Chat Mechanism significantly degrades strategic reasoning, whereas the Memory Mechanism enhances it. These insights position CHBench as a promising tool for evaluating LLM capabilities, with significant potential for future research and practical applications.",
+ "primary": "cs.AI"
+}

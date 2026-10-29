@@ -1,0 +1,21 @@
+{
+ "id": "2604.14841",
+ "title": "Generalizability of Learning-based Occupancy Detection in Residential Buildings (extended version)",
+ "authors": [
+  "Mahsa Farjadnia",
+  "Katayoun Eshkofti",
+  "Albin Apell",
+  "Tilde Hjalmarsson",
+  "Karl Henrik Johansson",
+  "Angela Fontan",
+  "Marco Molinari"
+ ],
+ "v1_date": "2026-04-16",
+ "latest_version": 2,
+ "latest_date": "2026-05-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 8 Figures, 4 Tables, Accepted for publication in the proceedings of the 2026 IFAC World Congress, Busan, Republic of Korea",
+ "abstract": "This paper investigates non-intrusive occupancy detection methods for residential buildings using environmental sensor data from the KTH Live-In Lab in Stockholm, Sweden. Three machine learning approaches, namely, logistic regression (LR), support vector machines (SVM), and long short-term memory (LSTM) network enhanced with an attention mechanism, are evaluated in terms of predictive performance and computational complexity. The analysis considers the trade-off between sensor availability (investment cost) and prediction accuracy in real applications, as well as the models' cross-apartment generalizability. Hyperparameters for both the SVM and LSTM models are optimized using Bayesian optimization. All three models are evaluated on data collected from apartments not used during training, and on data generated from a calibrated digital model of the testbed. Results show that all models achieve comparable performance on the same-apartment test data (accuracy of approximately 0.83, F1 score of approximately 0.86). When assessed on cross-apartment data, the LSTM model demonstrates the strongest generalization capability (accuracy of 0.84, F1 score of 0.85), while LR provides a competitive, low-complexity alternative for applications that do not require cross-apartment generalization.",
+ "primary": "eess.SY"
+}

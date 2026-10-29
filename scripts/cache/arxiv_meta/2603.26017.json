@@ -1,0 +1,24 @@
+{
+ "id": "2603.26017",
+ "title": "QuitoBench: A High-Quality Open Time Series Forecasting Benchmark",
+ "authors": [
+  "Siqiao Xue",
+  "Zhaoyang Zhu",
+  "Wei Zhang",
+  "Rongyao Cai",
+  "Rui Wang",
+  "Yixiang Mu",
+  "Fan Zhou",
+  "Jianguo Li",
+  "Peng Di",
+  "Hang Yu"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "project site: https://hq-bench.github.io/quito/",
+ "abstract": "Time series forecasting is critical across finance, healthcare, and cloud computing, yet progress is constrained by a fundamental bottleneck: the scarcity of large-scale, high-quality benchmarks. To address this gap, we introduce \\textsc{QuitoBench}, a regime-balanced benchmark for time series forecasting with coverage across eight trend$\\times$seasonality$\\times$forecastability (TSF) regimes, designed to capture forecasting-relevant properties rather than application-defined domain labels. The benchmark is built upon \\textsc{Quito}, a billion-scale time series corpus of application traffic from Alipay spanning nine business domains. Benchmarking 10 models from deep learning, foundation models, and statistical baselines across 232,200 evaluation instances, we report four key findings: (i) a context-length crossover where deep learning models lead at short context ($L=96$) but foundation models dominate at long context ($L \\ge 576$); (ii) forecastability is the dominant difficulty driver, producing a $3.64 \\times$ MAE gap across regimes; (iii) deep learning models match or surpass foundation models at $59 \\times$ fewer parameters; and (iv) scaling the amount of training data provides substantially greater benefit than scaling model size for both model families. These findings are validated by strong cross-benchmark and cross-metric consistency. Our open-source release enables reproducible, regime-aware evaluation for time series forecasting research.",
+ "primary": "cs.LG"
+}

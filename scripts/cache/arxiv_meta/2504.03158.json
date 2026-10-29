@@ -1,0 +1,18 @@
+{
+ "id": "2504.03158",
+ "title": "Accelerating Particle-based Energetic Variational Inference",
+ "authors": [
+  "Xuelian Bao",
+  "Lulu Kang",
+  "Chun Liu",
+  "Yiwei Wang"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 2,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 6 figures, 2 tables",
+ "abstract": "In this work, we propose a new particle-based variational inference (ParVI) method for accelerating the Energetic Variational Inference with Implicit scheme (EVI-Im) introduced in Ref. \\cite{wang2021particle}. Inspired by energy quadratization (EQ) and operator splitting techniques for gradient flows, the proposed method efficiently drives particles towards the target distribution, while retaining a meaningful stability mechanism. Unlike EVI-Im, which employs the implicit Euler method to solve variational-preserving particle dynamics obtained from a \"discretization-then-variation\" approach for minimizing the Kullback--Leibler divergence, the proposed algorithm avoids repeated evaluation of inter-particle interaction terms within each time step, significantly reducing computational cost. The framework is also extensible to other gradient-based sampling techniques. Through several numerical experiments, we demonstrate that the proposed method achieves competitive performance compared with existing ParVI approaches, while offering advantages in efficiency and robustness in certain regimes.",
+ "primary": "stat.ML"
+}

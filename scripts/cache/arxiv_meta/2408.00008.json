@@ -1,0 +1,24 @@
+{
+ "id": "2408.00008",
+ "title": "ScaleLLM: A Resource-Frugal LLM Serving Framework by Optimizing End-to-End Efficiency",
+ "authors": [
+  "Yuhang Yao",
+  "Han Jin",
+  "Alay Dilipbhai Shah",
+  "Shanshan Han",
+  "Zijian Hu",
+  "Yide Ran",
+  "Dimitris Stripelis",
+  "Zhaozhuo Xu",
+  "Salman Avestimehr",
+  "Chaoyang He"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 2,
+ "latest_date": "2024-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have surged in popularity and are extensively used in commercial applications, where the efficiency of model serving is crucial for the user experience. Most current research focuses on optimizing individual sub-procedures, e.g. local inference and communication, however, there is no comprehensive framework that provides a holistic system view for optimizing LLM serving in an end-to-end manner. In this work, we conduct a detailed analysis to identify major bottlenecks that impact end-to-end latency in LLM serving systems. Our analysis reveals that a comprehensive LLM serving endpoint must address a series of efficiency bottlenecks that extend beyond LLM inference. We then propose ScaleLLM, an optimized system for resource-efficient LLM serving. Our extensive experiments reveal that with 64 concurrent requests, ScaleLLM achieves a 4.3x speed up over vLLM and outperforms state-of-the-arts with 1.5x higher throughput.",
+ "primary": "cs.DC"
+}

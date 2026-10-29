@@ -1,0 +1,18 @@
+{
+ "id": "2501.19089",
+ "title": "Resolving Oversmoothing with Opinion Dissensus",
+ "authors": [
+  "Keqin Wang",
+  "Yulong Yang",
+  "Ishan Saha",
+  "Christine Allen-Blanchette"
+ ],
+ "v1_date": "2025-01-31",
+ "latest_version": 2,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 4 figures",
+ "abstract": "While graph neural networks (GNNs) have allowed researchers to successfully apply neural networks to non-Euclidean domains, deep GNNs often exhibit lower predictive performance than their shallow counterparts. This phenomena has been attributed in part to oversmoothing, the tendency of node representations to become increasingly similar with network depth. In this paper we introduce an analogy between oversmoothing in GNNs and consensus (i.e., perfect agreement) in the opinion dynamics literature. We show that the message passing algorithms of several GNN models are equivalent to linear opinion dynamics models which have been shown to converge to consensus for all inputs regardless of the graph structure. This new perspective on oversmoothing motivates the use of nonlinear opinion dynamics as an inductive bias in GNN models. In our Behavior-Inspired Message Passing (BIMP) GNN, we leverage the nonlinear opinion dynamics model which is more general than the linear opinion dynamics model, and can be designed to converge to dissensus for general inputs. Through extensive experiments we show that BIMP resists oversmoothing beyond 100 time steps and consistently outperforms existing architectures even when those architectures are amended with oversmoothing mitigation techniques. We also show that BIMP has several desirable properties including well behaved gradients and adaptability to homophilic and heterophilic datasets.",
+ "primary": "cs.LG"
+}

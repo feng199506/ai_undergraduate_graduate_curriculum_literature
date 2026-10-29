@@ -1,0 +1,19 @@
+{
+ "id": "2603.13431",
+ "title": "CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design",
+ "authors": [
+  "Mansoor Ahmed",
+  "Nadeem Taj",
+  "Imdad Ullah Khan",
+  "Hemanth Venkateswara",
+  "Murray Patterson"
+ ],
+ "v1_date": "2026-03-13",
+ "latest_version": 3,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Computational antibody design has seen rapid methodological progress, with dozens of deep generative methods proposed in the past three years, yet the field lacks a standardized benchmark for fair comparison and model development. These methods are evaluated on different SAbDab snapshots, non-overlapping test sets, and incompatible metrics, and the literature fragments the design problem into numerous sub-tasks with no common definition. We introduce CHIMERA-Bench: (CDR Modeling with Epitope-guided Redesign), a unified benchmark built around a single canonical task: epitope-conditioned CDR sequence-structure co-design. CHIMERA-Bench provides three components. The first is a curated, deduplicated dataset of 2,922 antibody-antigen complexes with epitope and paratope annotations. The second is a set of three biologically motivated splits that test generalization to unseen epitopes, unseen antigen folds, and prospective temporal targets. The third is a comprehensive evaluation protocol with five metric groups, including novel epitope-specificity measures. We benchmark eleven methods spanning six generative paradigms and report results across all splits. CHIMERA-Bench is the largest dataset of its kind for the antibody design problem, allowing the community to develop and test novel methods and evaluate their generalizability.",
+ "primary": "cs.LG"
+}

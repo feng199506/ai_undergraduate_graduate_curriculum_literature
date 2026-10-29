@@ -1,0 +1,16 @@
+{
+ "id": "2409.00733",
+ "title": "Benign Overfitting under Learning Rate Conditions for $α$ Sub-exponential Input",
+ "authors": [
+  "Kota Okudo",
+  "Kei Kobayashi"
+ ],
+ "v1_date": "2024-09-01",
+ "latest_version": 2,
+ "latest_date": "2024-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper investigates the phenomenon of benign overfitting in binary classification problems with heavy-tailed input distributions, extending the analysis of maximum margin classifiers to $α$ sub-exponential distributions ($α\\in (0, 2]$). This generalizes previous work focused on sub-gaussian inputs. We provide generalization error bounds for linear classifiers trained using gradient descent on unregularized logistic loss in this heavy-tailed setting. Our results show that, under certain conditions on the dimensionality $p$ and the distance between the centers of the distributions, the misclassification error of the maximum margin classifier asymptotically approaches the noise level, the theoretical optimal value. Moreover, we derive an upper bound on the learning rate $β$ for benign overfitting to occur and show that as the tail heaviness of the input distribution $α$ increases, the upper bound on the learning rate decreases. These results demonstrate that benign overfitting persists even in settings with heavier-tailed inputs than previously studied, contributing to a deeper understanding of the phenomenon in more realistic data environments.",
+ "primary": "cs.LG"
+}

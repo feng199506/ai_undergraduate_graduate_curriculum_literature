@@ -1,0 +1,18 @@
+{
+ "id": "2512.21596",
+ "title": "Quantitative Verification of Omega-regular Properties in Probabilistic Programming",
+ "authors": [
+  "Peixin Wang",
+  "Jianhao Bai",
+  "Min Zhang",
+  "C. -H. Luke Ong"
+ ],
+ "v1_date": "2025-12-25",
+ "latest_version": 1,
+ "latest_date": "2025-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic programming provides a high-level framework for specifying statistical models as executable programs with built-in randomness and conditioning. Existing inference techniques, however, typically compute posterior distributions over program states at fixed time points, most often at termination, thereby failing to capture the temporal evolution of probabilistic behaviors. We introduce temporal posterior inference (TPI), a new framework that unifies probabilistic programming with temporal logic by computing posterior distributions over execution traces that satisfy omega-regular specifications, conditioned on possibly temporal observations. To obtain rigorous quantitative guarantees, we develop a new method for computing upper and lower bounds on the satisfaction probabilities of omega-regular properties. Our approach decomposes Rabin acceptance conditions into persistence and recurrence components and constructs stochastic barrier certificates that soundly bound each component. We implement our approach in a prototype tool, TPInfer, and evaluate it on a suite of benchmarks, demonstrating effective and efficient inference over rich temporal properties in probabilistic models.",
+ "primary": "cs.PL"
+}

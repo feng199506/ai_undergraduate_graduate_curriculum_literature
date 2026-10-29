@@ -1,0 +1,16 @@
+{
+ "id": "2401.07012",
+ "title": "An ADRC-Incorporated Stochastic Gradient Descent Algorithm for Latent Factor Analysis",
+ "authors": [
+  "Jinli Li",
+  "Ye Yuan"
+ ],
+ "v1_date": "2024-01-13",
+ "latest_version": 1,
+ "latest_date": "2024-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional and incomplete (HDI) matrix contains many complex interactions between numerous nodes. A stochastic gradient descent (SGD)-based latent factor analysis (LFA) model is remarkably effective in extracting valuable information from an HDI matrix. However, such a model commonly encounters the problem of slow convergence because a standard SGD algorithm only considers the current learning error to compute the stochastic gradient without considering the historical and future state of the learning error. To address this critical issue, this paper innovatively proposes an ADRC-incorporated SGD (ADS) algorithm by refining the instance learning error by considering the historical and future state by following the principle of an ADRC controller. With it, an ADS-based LFA model is further achieved for fast and accurate latent factor analysis on an HDI matrix. Empirical studies on two HDI datasets demonstrate that the proposed model outperforms the state-of-the-art LFA models in terms of computational efficiency and accuracy for predicting the missing data of an HDI matrix.",
+ "primary": "cs.LG"
+}

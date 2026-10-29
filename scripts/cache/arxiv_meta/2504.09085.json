@@ -1,0 +1,18 @@
+{
+ "id": "2504.09085",
+ "title": "crowd-hpo: Realistic Hyperparameter Optimization and Benchmarking for Learning from Crowds with Noisy Labels",
+ "authors": [
+  "Marek Herde",
+  "Lukas Lührs",
+  "Denis Huseljic",
+  "Bernhard Sick"
+ ],
+ "v1_date": "2025-04-12",
+ "latest_version": 2,
+ "latest_date": "2025-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under review",
+ "abstract": "Crowdworking is a cost-efficient solution for acquiring class labels. Since these labels are subject to noise, various approaches to learning from crowds have been proposed. Typically, these approaches are evaluated with default hyperparameter configurations, resulting in unfair and suboptimal performance, or with hyperparameter configurations tuned via a validation set with ground truth class labels, representing an often unrealistic scenario. Moreover, both setups can produce different approach rankings, complicating study comparisons. Therefore, we introduce crowd-hpo as a framework for evaluating approaches to learning from crowds in combination with criteria to select well-performing hyperparameter configurations with access only to noisy crowd-labeled validation data. Extensive experiments with neural networks demonstrate that these criteria select hyperparameter configurations, which improve the learning from crowd approaches' generalization performances, measured on separate test sets with ground truth labels. Hence, incorporating such criteria into experimental studies is essential for enabling fairer and more realistic benchmarking.",
+ "primary": "cs.LG"
+}

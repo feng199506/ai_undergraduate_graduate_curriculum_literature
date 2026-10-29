@@ -1,0 +1,20 @@
+{
+ "id": "2609.39215",
+ "title": "In a Streaming World, Should You Stand Still? A Comprehensive Benchmark of Anomaly Detection in Streams",
+ "authors": [
+  "Magali Parrino",
+  "Antoine Ajenjo",
+  "Emmanuel Remy",
+  "Pierre Stephan",
+  "Pierre Senellart",
+  "Paul Boniol"
+ ],
+ "v1_date": "2026-09-30",
+ "latest_version": 1,
+ "latest_date": "2026-09-30",
+ "journal_ref": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2026",
+ "doi": "10.1145/3770855.3817495",
+ "comment": "",
+ "abstract": "Time series anomaly detection (TSAD) is increasingly deployed in streaming settings, where data arrive sequentially and may exhibit non-stationarity. As a result, several works from the recent literature propose streaming anomaly detection methods that rely on incremental updates to adapt over time. However, most of these approaches originate from the streaming outlier detection literature and largely ignore core characteristics of time series anomalies. Moreover, their empirical evaluation is typically conducted on synthetic or small-scale benchmarks with limited diversity, making it unclear whether streaming methods are truly advantageous in realistic TSAD scenarios. In this work, we carry out the first large-scale experimental study comparing streaming and static TSAD methods under a unified streaming evaluation benchmark. We consider a realistic setting in which an initial batch of data is available for model training, followed by online evaluation of both detection accuracy and computational efficiency. In addition, we propose a distribution-drift dataset of real time series, called TSB- drift, to isolate scenarios where streaming updates are theoretically justified. Our results show that, contrary to common assumptions, static TSAD methods significantly outperform streaming approaches in most streaming settings. Such finding highlights a critical gap between the design of existing streaming methods and the requirements of modern TSAD, and calls for a rethinking of how streaming capabilities should be integrated into TSAD.",
+ "primary": "cs.LG"
+}

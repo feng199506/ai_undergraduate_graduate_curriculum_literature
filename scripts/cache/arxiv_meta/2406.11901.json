@@ -1,0 +1,16 @@
+{
+ "id": "2406.11901",
+ "title": "A Deep Learning Framework for Evaluating Dynamic Network Generative Models and Anomaly Detection",
+ "authors": [
+  "Alireza Rashnu",
+  "Sadegh Aliakbary"
+ ],
+ "v1_date": "2024-06-15",
+ "latest_version": 2,
+ "latest_date": "2025-09-25",
+ "journal_ref": "Journal of Innovations in Computer Science and Engineering (JICSE), 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding dynamic systems like disease outbreaks, social influence, and information diffusion requires effective modeling of complex networks. Traditional evaluation methods for static networks often fall short when applied to temporal networks. This paper introduces DGSP-GCN (Dynamic Graph Similarity Prediction based on Graph Convolutional Network), a deep learning-based framework that integrates graph convolutional networks with dynamic graph signal processing techniques to provide a unified solution for evaluating generative models and detecting anomalies in dynamic networks. DGSP-GCN assesses how well a generated network snapshot matches the expected temporal evolution, incorporating an attention mechanism to improve embedding quality and capture dynamic structural changes. The approach was tested on five real-world datasets: WikiMath, Chickenpox, PedalMe, MontevideoBus, and MetraLa. Results show that DGSP-GCN outperforms baseline methods, such as time series regression and random similarity assignment, achieving the lowest error rates (MSE of 0.0645, MAE of 0.1781, RMSE of 0.2507). These findings highlight DGSP-GCN's effectiveness in evaluating and detecting anomalies in dynamic networks, offering valuable insights for network evolution and anomaly detection research.",
+ "primary": "cs.SI"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2401.12554",
+ "title": "Can Large Language Models Write Parallel Code?",
+ "authors": [
+  "Daniel Nichols",
+  "Joshua H. Davis",
+  "Zhaojun Xie",
+  "Arjun Rajaram",
+  "Abhinav Bhatele"
+ ],
+ "v1_date": "2024-01-23",
+ "latest_version": 3,
+ "latest_date": "2024-05-14",
+ "journal_ref": "The 33rd International Symposium on High-Performance Parallel and Distributed Computing (HPDC '24), June 3-7, 2024, Pisa, Italy. ACM, New York, NY, USA, 14 pages",
+ "doi": "10.1145/3625549.3658689",
+ "comment": "",
+ "abstract": "Large language models are increasingly becoming a popular tool for software development. Their ability to model and generate source code has been demonstrated in a variety of contexts, including code completion, summarization, translation, and lookup. However, they often struggle to generate code for complex programs. In this paper, we study the capabilities of state-of-the-art language models to generate parallel code. In order to evaluate language models, we create a benchmark, ParEval, consisting of prompts that represent 420 different coding tasks related to scientific and parallel computing. We use ParEval to evaluate the effectiveness of several state-of-the-art open- and closed-source language models on these tasks. We introduce novel metrics for evaluating the performance of generated code, and use them to explore how well each large language model performs for 12 different computational problem types and six different parallel programming models.",
+ "primary": "cs.DC"
+}

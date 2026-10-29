@@ -1,0 +1,18 @@
+{
+ "id": "2402.14418",
+ "title": "Uncertainty-Aware Evaluation for Vision-Language Models",
+ "authors": [
+  "Vasily Kostumov",
+  "Bulat Nutfullin",
+  "Oleg Pilipenko",
+  "Eugene Ilyushin"
+ ],
+ "v1_date": "2024-02-22",
+ "latest_version": 2,
+ "latest_date": "2024-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Vision-Language Models like GPT-4, LLaVA, and CogVLM have surged in popularity recently due to their impressive performance in several vision-language tasks. Current evaluation methods, however, overlook an essential component: uncertainty, which is crucial for a comprehensive assessment of VLMs. Addressing this oversight, we present a benchmark incorporating uncertainty quantification into evaluating VLMs. Our analysis spans 20+ VLMs, focusing on the multiple-choice Visual Question Answering (VQA) task. We examine models on 5 datasets that evaluate various vision-language capabilities. Using conformal prediction as an uncertainty estimation approach, we demonstrate that the models' uncertainty is not aligned with their accuracy. Specifically, we show that models with the highest accuracy may also have the highest uncertainty, which confirms the importance of measuring it for VLMs. Our empirical findings also reveal a correlation between model uncertainty and its language model part.",
+ "primary": "cs.CV"
+}

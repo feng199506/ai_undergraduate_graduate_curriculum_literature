@@ -1,0 +1,18 @@
+{
+ "id": "2603.24613",
+ "title": "Persistence-based topological optimization: a survey",
+ "authors": [
+  "Mathieu Carriere",
+  "Yuichi Ike",
+  "Théo Lacombe",
+  "Naoki Nishikawa"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Computational topology provides a tool, persistent homology, to extract quantitative descriptors from structured objects (images, graphs, point clouds, etc). These descriptors can then be involved in optimization problems, typically as a way to incorporate topological priors or to regularize machine learning models. This is usually achieved by minimizing adequate, topologically-informed losses based on these descriptors, which, in turn, naturally raises theoretical and practical questions about the possibility of optimizing such loss functions using gradient-based algorithms. This has been an active research field in the topological data analysis community over the last decade, and various techniques have been developed to enable optimization of persistence-based loss functions with gradient descent schemes. This survey presents the current state of this field, covering its theoretical foundations, the algorithmic aspects, and showcasing practical uses in several applications. It includes a detailed introduction to persistence theory and, as such, aims at being accessible to mathematicians and data scientists newcomers to the field. It is accompanied by an open-source library which implements the different approaches covered in this survey, providing a convenient playground for researchers to get familiar with the field.",
+ "primary": "cs.CG"
+}

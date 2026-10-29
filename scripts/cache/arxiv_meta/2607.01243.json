@@ -1,0 +1,16 @@
+{
+ "id": "2607.01243",
+ "title": "STRUCTSURVEY: Structured Agentic Retrieval for Automated Survey Paper Generation",
+ "authors": [
+  "Paolo Pedinotti",
+  "Enrico Santus"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 1,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 1 figure, appendices, SurgeLLM, RAG4Reports, ACL",
+ "abstract": "The rapid growth of scientific publications makes it increasingly difficult to track and synthesize research progress. While Large Language Models (LLMs) can support automated survey generation, existing methods retrieve unstructured data and require models to infer conceptual, methodological, and taxonomic relations from raw text at generation time. We introduce STRUCTSURVEY, a hierarchical multi-agent framework that shifts structural reasoning from generation to retrieval by dynamically constructing graph-based representations of entities, relations, and topical taxonomies. We evaluate STRUCTSURVEY on a new reference-grounded benchmark of ACL survey papers for reproducible long-form scientific summarization. Compared with embedding-only retrieval baselines, STRUCTSURVEY improves ROUGE-1 recall by +2.9 and ROUGE-2 recall by +1.0 on average, without reducing precision. It also improves LLM-as-a-Judge ratings for logical structure, depth, and synthesis, showing that explicit structural retrieval yields surveys closer to human-written organization and reasoning.",
+ "primary": "cs.IR"
+}

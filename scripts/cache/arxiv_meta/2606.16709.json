@@ -1,0 +1,16 @@
+{
+ "id": "2606.16709",
+ "title": "Low Precision Fortran -- Enabling Low Precision Floating Point Arithmetic in Modern Fortran",
+ "authors": [
+  "Martin Köhler",
+  "Peter Benner"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 1,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although Fortran is almost 70 years old, the language continues to evolve in order to keep pace with developments in computer science. In particular, a flexible type system was introduced that allows developers to specify the sizes of floating-point numbers and integers. In the latest revisions of the Fortran standard, portable type variants for IEEE 754 binary64 (double precision, real64) and binary32 (single precision, real32) were added. However, the rapid development of AI toolkits and accelerator hardware has created a strong focus on floating-point types of lower precision and lower memory usage than binary32. While the IEEE 754-2019 standard defines the binary16 type for representing half-precision numbers, the Fortran standard does not provide the real16 variant in the type system. In contrast, most C compilers support such a data type. In numerical linear algebra, there is strong interest in exploiting the high performance of accelerator devices for core algorithms like matrix decompositions or iterative solvers. Especially when the performance ratio between double, single, and half precision is on the order of 1:2:20, as on current NVidia H100 accelerators, it becomes highly beneficial to use lower-precision types. Yet, before performance can be targeted, correctness and accuracy must be verified when operating below single precision. In this article, we present our Low Precision Fortran (LPF) library that enables the use of low-precision types -- binary16, bfloat16, fp8_e4m3, and fp8_e5m2 -- just like any other floating-point type in Fortran. Furthermore, we introduce extensions that support BLAS operations in low precision and show how easily existing routines can be rewritten to use these data types.",
+ "primary": "cs.MS"
+}

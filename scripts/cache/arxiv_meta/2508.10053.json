@@ -1,0 +1,18 @@
+{
+ "id": "2508.10053",
+ "title": "xRFM: Accurate, scalable, and interpretable feature learning models for tabular data",
+ "authors": [
+  "Daniel Beaglehole",
+  "David Holzmüller",
+  "Adityanarayanan Radhakrishnan",
+  "Mikhail Belkin"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 3,
+ "latest_date": "2026-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Inference from tabular data, collections of continuous and categorical variables organized into matrices, is a foundation for modern technology and science. Yet, in contrast to the explosive changes in the rest of AI, the best practice for these predictive tasks has been relatively unchanged and is still primarily based on variations of Gradient Boosted Decision Trees (GBDTs). Very recently, there has been renewed interest in developing state-of-the-art methods for tabular data based on recent developments in neural networks and feature learning methods. In this work, we introduce xRFM, an algorithm that combines feature learning kernel machines with a tree structure to both adapt to the local structure of the data and scale to essentially unlimited amounts of training data. We show that compared to $31$ other methods, including recently introduced tabular foundation models (TabPFNv2) and GBDTs, xRFM achieves best performance across $100$ regression datasets and is competitive to the best methods across $200$ classification datasets outperforming GBDTs. Additionally, xRFM provides interpretability natively through the Average Gradient Outer Product.",
+ "primary": "cs.LG"
+}

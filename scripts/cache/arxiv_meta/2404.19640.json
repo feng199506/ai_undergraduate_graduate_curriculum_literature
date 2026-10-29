@@ -1,0 +1,18 @@
+{
+ "id": "2404.19640",
+ "title": "Attacking Bayes: On the Adversarial Robustness of Bayesian Neural Networks",
+ "authors": [
+  "Yunzhen Feng",
+  "Tim G. J. Rudner",
+  "Nikolaos Tsilivis",
+  "Julia Kempe"
+ ],
+ "v1_date": "2024-04-27",
+ "latest_version": 1,
+ "latest_date": "2024-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Adversarial examples have been shown to cause neural networks to fail on a wide range of vision and language tasks, but recent work has claimed that Bayesian neural networks (BNNs) are inherently robust to adversarial perturbations. In this work, we examine this claim. To study the adversarial robustness of BNNs, we investigate whether it is possible to successfully break state-of-the-art BNN inference methods and prediction pipelines using even relatively unsophisticated attacks for three tasks: (1) label prediction under the posterior predictive mean, (2) adversarial example detection with Bayesian predictive uncertainty, and (3) semantic shift detection. We find that BNNs trained with state-of-the-art approximate inference methods, and even BNNs trained with Hamiltonian Monte Carlo, are highly susceptible to adversarial attacks. We also identify various conceptual and experimental errors in previous works that claimed inherent adversarial robustness of BNNs and conclusively demonstrate that BNNs and uncertainty-aware Bayesian prediction pipelines are not inherently robust against adversarial attacks.",
+ "primary": "cs.LG"
+}

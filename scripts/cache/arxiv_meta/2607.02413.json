@@ -1,0 +1,22 @@
+{
+ "id": "2607.02413",
+ "title": "Q-GAIN: A Python Package for Machine Learning and Physically Informed Analysis Applications",
+ "authors": [
+  "M. Doris",
+  "S. Guo",
+  "S. M. Koh",
+  "L. Ritter",
+  "A. R. Fritsch",
+  "S. Mukherjee",
+  "I. B. Spielman",
+  "J. P. Zwolak"
+ ],
+ "v1_date": "2026-07-02",
+ "latest_version": 1,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submission to SciPost, 20 pages with 4 figures",
+ "abstract": "Here we describe the quantum gas analysis and inference (Q-GAIN) Python package, which enables rapid deployment of machine learning (ML) and physics-informed analysis techniques for cold-atom experiments. Out of the box, Q-GAIN implements classification, object detection, and physics-informed metrics for feature detection in images of atomic Bose-Einstein condensates (BECs). Q-GAIN encourages a natural, module-based workflow: starting with data loading and preprocessing, followed by ML-based feature identification, and ending with conventional analysis techniques. We demonstrate this modularity by configuring Q-GAIN for three ML tasks. First, we demonstrate the basic workflow of the Q-GAIN framework by implementing the standard task of classifying handwritten digits from the MNIST dataset. Then, we re-implement our earlier soliton detection (SolDet) package in the Q-GAIN framework, enabling the detection and analysis of solitonic excitations in time-of-flight data. Finally, we develop an object-detection tool that identifies quantized vortices in images of ring-shaped BECs.",
+ "primary": "cond-mat.quant-gas"
+}

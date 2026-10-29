@@ -1,0 +1,18 @@
+{
+ "id": "2505.13693",
+ "title": "HarmonE: A Self-Adaptive Approach to Architecting Sustainable MLOps",
+ "authors": [
+  "Hiya Bhatt",
+  "Shaunak Biswas",
+  "Srinivasan Rakhunathan",
+  "Karthik Vaidhyanathan"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 1,
+ "latest_date": "2025-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper has been accepted to ECSA 2025",
+ "abstract": "Machine Learning Enabled Systems (MLS) are becoming integral to real-world applications, but ensuring their sustainable performance over time remains a significant challenge. These systems operate in dynamic environments and face runtime uncertainties like data drift and model degradation, which affect the sustainability of MLS across multiple dimensions: technical, economical, environmental, and social. While Machine Learning Operations (MLOps) addresses the technical dimension by streamlining the ML model lifecycle, it overlooks other dimensions. Furthermore, some traditional practices, such as frequent retraining, incur substantial energy and computational overhead, thus amplifying sustainability concerns. To address them, we introduce HarmonE, an architectural approach that enables self-adaptive capabilities in MLOps pipelines using the MAPE-K loop. HarmonE allows system architects to define explicit sustainability goals and adaptation thresholds at design time, and performs runtime monitoring of key metrics, such as prediction accuracy, energy consumption, and data distribution shifts, to trigger appropriate adaptation strategies. We validate our approach using a Digital Twin (DT) of an Intelligent Transportation System (ITS), focusing on traffic flow prediction as our primary use case. The DT employs time series ML models to simulate real-time traffic and assess various flow scenarios. Our results show that HarmonE adapts effectively to evolving conditions while maintaining accuracy and meeting sustainability goals.",
+ "primary": "cs.SE"
+}

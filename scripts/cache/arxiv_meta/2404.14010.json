@@ -1,0 +1,17 @@
+{
+ "id": "2404.14010",
+ "title": "A Stochastic Rounding-Enabled Low-Precision Floating-Point MAC for DNN Training",
+ "authors": [
+  "Sami Ben Ali",
+  "Silviu-Ioan Filip",
+  "Olivier Sentieys"
+ ],
+ "v1_date": "2024-04-22",
+ "latest_version": 2,
+ "latest_date": "2024-09-26",
+ "journal_ref": "DATE 2024 - 27th IEEE/ACM Design, Automation and Test in Europe, Mar 2024, Valencia, Spain. pp.1-6",
+ "doi": "",
+ "comment": "",
+ "abstract": "Training Deep Neural Networks (DNNs) can be computationally demanding, particularly when dealing with large models. Recent work has aimed to mitigate this computational challenge by introducing 8-bit floating-point (FP8) formats for multiplication. However, accumulations are still done in either half (16-bit) or single (32-bit) precision arithmetic. In this paper, we investigate lowering accumulator word length while maintaining the same model accuracy. We present a multiply-accumulate (MAC) unit with FP8 multiplier inputs and FP12 accumulations, which leverages an optimized stochastic rounding (SR) implementation to mitigate swamping errors that commonly arise during low precision accumulations. We investigate the hardware implications and accuracy impact associated with varying the number of random bits used for rounding operations. We additionally attempt to reduce MAC area and power by proposing a new scheme to support SR in floating-point MAC and by removing support for subnormal values. Our optimized eager SR unit significantly reduces delay and area when compared to a classic lazy SR design. Moreover, when compared to MACs utilizing single-or half-precision adders, our design showcases notable savings in all metrics. Furthermore, our approach consistently maintains near baseline accuracy across a diverse range of computer vision tasks, making it a promising alternative for low-precision DNN training.",
+ "primary": "cs.AR"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2503.13296",
+ "title": "On Local Posterior Structure in Deep Ensembles",
+ "authors": [
+  "Mikkel Jordahn",
+  "Jonas Vestergaard Jensen",
+  "Mikkel N. Schmidt",
+  "Michael Riis Andersen"
+ ],
+ "v1_date": "2025-03-17",
+ "latest_version": 1,
+ "latest_date": "2025-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code and models available at https://github.com/jonasvj/OnLocalPosteriorStructureInDeepEnsembles",
+ "abstract": "Bayesian Neural Networks (BNNs) often improve model calibration and predictive uncertainty quantification compared to point estimators such as maximum-a-posteriori (MAP). Similarly, deep ensembles (DEs) are also known to improve calibration, and therefore, it is natural to hypothesize that deep ensembles of BNNs (DE-BNNs) should provide even further improvements. In this work, we systematically investigate this across a number of datasets, neural network architectures, and BNN approximation methods and surprisingly find that when the ensembles grow large enough, DEs consistently outperform DE-BNNs on in-distribution data. To shine light on this observation, we conduct several sensitivity and ablation studies. Moreover, we show that even though DE-BNNs outperform DEs on out-of-distribution metrics, this comes at the cost of decreased in-distribution performance. As a final contribution, we open-source the large pool of trained models to facilitate further research on this topic.",
+ "primary": "cs.LG"
+}

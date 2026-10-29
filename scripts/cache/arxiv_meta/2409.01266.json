@@ -1,0 +1,16 @@
+{
+ "id": "2409.01266",
+ "title": "Double Machine Learning meets Panel Data -- Promises, Pitfalls, and Potential Solutions",
+ "authors": [
+  "Jonathan Fuhr",
+  "Dominik Papies"
+ ],
+ "v1_date": "2024-09-02",
+ "latest_version": 1,
+ "latest_date": "2024-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating causal effect using machine learning (ML) algorithms can help to relax functional form assumptions if used within appropriate frameworks. However, most of these frameworks assume settings with cross-sectional data, whereas researchers often have access to panel data, which in traditional methods helps to deal with unobserved heterogeneity between units. In this paper, we explore how we can adapt double/debiased machine learning (DML) (Chernozhukov et al., 2018) for panel data in the presence of unobserved heterogeneity. This adaptation is challenging because DML's cross-fitting procedure assumes independent data and the unobserved heterogeneity is not necessarily additively separable in settings with nonlinear observed confounding. We assess the performance of several intuitively appealing estimators in a variety of simulations. While we find violations of the cross-fitting assumptions to be largely inconsequential for the accuracy of the effect estimates, many of the considered methods fail to adequately account for the presence of unobserved heterogeneity. However, we find that using predictive models based on the correlated random effects approach (Mundlak, 1978) within DML leads to accurate coefficient estimates across settings, given a sample size that is large relative to the number of observed confounders. We also show that the influence of the unobserved heterogeneity on the observed confounders plays a significant role for the performance of most alternative methods.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2507.14746",
+ "title": "Sampling from Gaussian Processes: A Tutorial and Applications in Global Sensitivity Analysis and Optimization",
+ "authors": [
+  "Bach Do",
+  "Nafeezat A. Ajenifuja",
+  "Taiwo A. Adebiyi",
+  "Ruda Zhang"
+ ],
+ "v1_date": "2025-07-19",
+ "latest_version": 2,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-fidelity simulations and physical experiments are essential for engineering analysis and design, yet their high cost often makes two critical tasks--global sensitivity analysis (GSA) and optimization--prohibitively expensive. This limitation motivates the common use of Gaussian processes (GPs) as proxy regression models that provide uncertainty-aware predictions from a limited number of high-quality observations. GPs naturally enable efficient sampling strategies that support informed decision-making under uncertainty by extracting information from a subset of possible functions for the model of interest. However, direct sampling from GPs is inefficient due to their infinite-dimensional nature and the high cost associated with large covariance matrix operations. Despite their popularity in machine learning and statistics communities, sampling from GPs has received little attention in the community of engineering optimization. In this paper, we present the formulation and detailed implementation of two notable sampling methods--random Fourier features and pathwise conditioning--for generating posterior samples from GPs at reduced computational cost. Alternative approaches are briefly described. Importantly, we detail how the generated samples can be applied in GSA, single-objective optimization, and multi-objective optimization. We show successful applications of these sampling methods through a series of numerical examples.",
+ "primary": "cs.LG"
+}

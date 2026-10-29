@@ -1,0 +1,15 @@
+{
+ "id": "2608.10356",
+ "title": "Conditional validity of prediction-powered inference for spatially dependent finite populations",
+ "authors": [
+  "Shinichiro Shirota"
+ ],
+ "v1_date": "2026-08-11",
+ "latest_version": 2,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Substantially revised manuscript with a new title and refocused theory. 19 pages plus 29 pages of supplementary material. Code and data: https://github.com/ShinShirota/spatial-ppi",
+ "abstract": "Prediction-powered inference (PPI) combines full-frame predictions with a small labelled sample to estimate finite-population regression coefficients. We establish conditions for the conditional validity of existing calibrated residual-regression PPI estimators under nonuniform label acquisition and spatially dependent prediction errors. Approximate calibration can leave a population-specific displacement: the projection of prediction errors onto coefficient-specific calibration defects. We characterize its role in conditional inference through the noncentrality of a fixed-candidate Wald region. The relevant target-weight function is the coefficient loading divided by acquisition intensity. When mean-approximation error does not dominate, directional covariance control yields a wider sufficient recovery regime than a total residual-energy bound. A bounded spectral-basis theorem gives conditional coverage under directional covariance, tail and nondegeneracy conditions, with Gaussian and bounded non-Gaussian spatial examples. The analysis accounts for estimation of the one-step augmentation and permits same-label selection from a fixed finite library with a common first-order influence vector. A periodic Fourier construction attains the stochastic directional-gap order within a restricted dictionary class. Constructed and real-record-set experiments illustrate why mean calibration need not protect a slope. The results concern descriptive census projection coefficients under the stated sampling and field conditions.",
+ "primary": "stat.ME"
+}

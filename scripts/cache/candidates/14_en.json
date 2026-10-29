@@ -14,6 +14,11 @@
     "subtopic": "具身智能综述",
     "q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")",
     "rank": 1
+   },
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 0
    }
   ]
  },
@@ -23,6 +28,11 @@
     "subtopic": "具身智能综述",
     "q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")",
     "rank": 2
+   },
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 0
    }
   ]
  },
@@ -50,6 +60,11 @@
     "subtopic": "具身智能综述",
     "q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")",
     "rank": 5
+   },
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 1
    }
   ]
  },
@@ -91,6 +106,16 @@
     "subtopic": "具身智能综述",
     "q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")",
     "rank": 9
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 29
+   },
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 18
    }
   ]
  },
@@ -118,6 +143,11 @@
     "subtopic": "具身智能综述",
     "q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")",
     "rank": 12
+   },
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 2
    }
   ]
  },
@@ -218,6 +248,11 @@
     "subtopic": "具身智能综述",
     "q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")",
     "rank": 22
+   },
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 5
    }
   ]
  },
@@ -236,6 +271,11 @@
     "subtopic": "具身智能综述",
     "q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")",
     "rank": 24
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 21
    }
   ]
  },
@@ -272,6 +312,11 @@
     "subtopic": "具身智能综述",
     "q": "(ti:survey OR ti:review) AND (ti:\"embodied AI\" OR ti:\"embodied intelligence\" OR ti:\"embodied agents\")",
     "rank": 28
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 35
    }
   ]
  },
@@ -358,6 +403,11 @@
     "subtopic": "视觉-语言-动作模型",
     "q": "(ti:\"vision-language-action\" OR ti:VLA) AND (ti:survey OR ti:review)",
     "rank": 6
+   },
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 7
    }
   ]
  },
@@ -403,6 +453,11 @@
     "subtopic": "视觉-语言-动作模型",
     "q": "(ti:\"vision-language-action\" OR ti:VLA) AND (ti:survey OR ti:review)",
     "rank": 12
+   },
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 12
    }
   ]
  },
@@ -412,6 +467,11 @@
     "subtopic": "视觉-语言-动作模型",
     "q": "(ti:\"vision-language-action\" OR ti:VLA) AND (ti:survey OR ti:review)",
     "rank": 13
+   },
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 38
    }
   ]
  },
@@ -421,6 +481,11 @@
     "subtopic": "视觉-语言-动作模型",
     "q": "(ti:\"vision-language-action\" OR ti:VLA) AND (ti:survey OR ti:review)",
     "rank": 14
+   },
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 29
    }
   ]
  },
@@ -529,6 +594,11 @@
     "subtopic": "视觉-语言-动作模型",
     "q": "(ti:\"vision-language-action\" OR ti:VLA) AND (ti:survey OR ti:review)",
     "rank": 26
+   },
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 24
    }
   ]
  },
@@ -1105,6 +1175,11 @@
     "subtopic": "机器人基础模型",
     "q": "(ti:\"foundation models\" OR ti:\"large language models\") AND ti:robot* AND (ti:survey OR ti:review)",
     "rank": 6
+   },
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 15
    }
   ]
  },
@@ -1114,6 +1189,11 @@
     "subtopic": "机器人基础模型",
     "q": "(ti:\"foundation models\" OR ti:\"large language models\") AND ti:robot* AND (ti:survey OR ti:review)",
     "rank": 7
+   },
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 21
    }
   ]
  },
@@ -1132,6 +1212,11 @@
     "subtopic": "机器人基础模型",
     "q": "(ti:\"foundation models\" OR ti:\"large language models\") AND ti:robot* AND (ti:survey OR ti:review)",
     "rank": 11
+   },
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 26
    }
   ]
  },
@@ -1195,6 +1280,16 @@
     "subtopic": "机器人基础模型",
     "q": "(ti:\"foundation models\" OR ti:\"large language models\") AND ti:robot* AND (ti:survey OR ti:review)",
     "rank": 18
+   },
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 7
+   },
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"whole-body control\" OR ti:\"impedance control\" OR ti:\"operational space\" OR ti:\"force control\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
    }
   ]
  },
@@ -1204,6 +1299,3008 @@
     "subtopic": "机器人基础模型",
     "q": "(ti:\"foundation models\" OR ti:\"large language models\") AND ti:robot* AND (ti:survey OR ti:review)",
     "rank": 19
+   },
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:\"differentiable physics\" OR ti:\"differentiable simulation\" OR ti:\"contact dynamics\" OR ti:\"contact-rich\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 2
+   }
+  ]
+ },
+ "2508.06426": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 0
+   }
+  ]
+ },
+ "2606.18247": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 1
+   }
+  ]
+ },
+ "2510.10125": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 2
+   }
+  ]
+ },
+ "2410.24164": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 3
+   }
+  ]
+ },
+ "2503.24278": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 4
+   }
+  ]
+ },
+ "2610.26717": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 5
+   }
+  ]
+ },
+ "2506.18123": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 6
+   }
+  ]
+ },
+ "2512.01773": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 7
+   }
+  ]
+ },
+ "2606.18043": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 8
+   }
+  ]
+ },
+ "2512.01188": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 9
+   }
+  ]
+ },
+ "2607.01060": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 10
+   }
+  ]
+ },
+ "2602.04880": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 11
+   }
+  ]
+ },
+ "2604.19683": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 12
+   }
+  ]
+ },
+ "2410.01971": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 13
+   }
+  ]
+ },
+ "2411.13677": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 14
+   }
+  ]
+ },
+ "2610.16309": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 16
+   }
+  ]
+ },
+ "2509.19958": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 17
+   }
+  ]
+ },
+ "2605.28634": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 18
+   }
+  ]
+ },
+ "2503.19757": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 19
+   }
+  ]
+ },
+ "2507.17294": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 20
+   }
+  ]
+ },
+ "2606.02307": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 21
+   }
+  ]
+ },
+ "2603.06450": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 22
+   }
+  ]
+ },
+ "2602.17259": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 23
+   }
+  ]
+ },
+ "2602.06512": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 24
+   }
+  ]
+ },
+ "2512.00975": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 25
+   }
+  ]
+ },
+ "2610.35604": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 26
+   }
+  ]
+ },
+ "2505.13255": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 27
+   }
+  ]
+ },
+ "2610.22368": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 28
+   }
+  ]
+ },
+ "2412.14803": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 29
+   }
+  ]
+ },
+ "2608.10780": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 30
+   }
+  ]
+ },
+ "2509.24797": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 31
+   }
+  ]
+ },
+ "2609.18651": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 32
+   }
+  ]
+ },
+ "2408.14037": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 33
+   }
+  ]
+ },
+ "2410.13816": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 34
+   }
+  ]
+ },
+ "2608.23831": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 35
+   }
+  ]
+ },
+ "2501.15830": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 36
+   }
+  ]
+ },
+ "2505.08627": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 37
+   }
+  ]
+ },
+ "2510.10642": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 38
+   }
+  ]
+ },
+ "2510.04898": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 39
+   }
+  ]
+ },
+ "2405.12213": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 40
+   }
+  ]
+ },
+ "2606.16776": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 41
+   }
+  ]
+ },
+ "2605.00416": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 42
+   }
+  ]
+ },
+ "2606.13102": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 43
+   }
+  ]
+ },
+ "2602.19260": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 44
+   }
+  ]
+ },
+ "2609.36595": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 45
+   }
+  ]
+ },
+ "2609.22085": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 46
+   }
+  ]
+ },
+ "2610.30320": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 47
+   }
+  ]
+ },
+ "2410.06819": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 48
+   }
+  ]
+ },
+ "2501.04693": {
+  "hits": [
+   {
+    "subtopic": "机器人基础模型",
+    "q": "abs:\"generalist robot policy\" AND cat:cs.RO",
+    "rank": 49
+   }
+  ]
+ },
+ "2405.16194": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 0
+   }
+  ]
+ },
+ "2504.03515": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 1
+   }
+  ]
+ },
+ "2504.16925": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 2
+   }
+  ]
+ },
+ "2606.01238": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 3
+   }
+  ]
+ },
+ "2606.12365": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 4
+   }
+  ]
+ },
+ "2501.10869": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 5
+   }
+  ]
+ },
+ "2512.18583": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 6
+   }
+  ]
+ },
+ "2603.01110": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 7
+   }
+  ]
+ },
+ "2506.13498": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 8
+   },
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:\"differentiable physics\" OR ti:\"differentiable simulation\" OR ti:\"contact dynamics\" OR ti:\"contact-rich\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 1
+   }
+  ]
+ },
+ "2602.02396": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 9
+   }
+  ]
+ },
+ "2402.17768": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 10
+   }
+  ]
+ },
+ "2609.30462": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 11
+   }
+  ]
+ },
+ "2608.03103": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 12
+   }
+  ]
+ },
+ "2605.11762": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 13
+   }
+  ]
+ },
+ "2506.21057": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 14
+   }
+  ]
+ },
+ "2407.12381": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 15
+   }
+  ]
+ },
+ "2609.18004": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 16
+   }
+  ]
+ },
+ "2502.01784": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 17
+   }
+  ]
+ },
+ "2606.25360": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 18
+   }
+  ]
+ },
+ "2311.01419": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 19
+   }
+  ]
+ },
+ "2506.00098": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 20
+   },
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 13
+   }
+  ]
+ },
+ "2603.27058": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 21
+   }
+  ]
+ },
+ "2411.12633": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 22
+   }
+  ]
+ },
+ "2505.09424": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 23
+   }
+  ]
+ },
+ "2508.08707": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 24
+   }
+  ]
+ },
+ "2510.14467": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 25
+   }
+  ]
+ },
+ "2608.22591": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 26
+   }
+  ]
+ },
+ "2609.22730": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 27
+   }
+  ]
+ },
+ "2605.26649": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 28
+   }
+  ]
+ },
+ "2609.09630": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 29
+   }
+  ]
+ },
+ "2605.23847": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 30
+   },
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 28
+   }
+  ]
+ },
+ "2403.19578": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 31
+   }
+  ]
+ },
+ "2609.17714": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 32
+   }
+  ]
+ },
+ "2605.10166": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 33
+   }
+  ]
+ },
+ "2510.20406": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 34
+   }
+  ]
+ },
+ "2402.05421": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 35
+   }
+  ]
+ },
+ "2607.26047": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 36
+   }
+  ]
+ },
+ "2510.19356": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 37
+   }
+  ]
+ },
+ "2511.00555": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 38
+   }
+  ]
+ },
+ "2410.07584": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 39
+   }
+  ]
+ },
+ "2508.00491": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 40
+   }
+  ]
+ },
+ "2505.12410": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 41
+   }
+  ]
+ },
+ "2605.01195": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 42
+   }
+  ]
+ },
+ "2607.21049": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 43
+   }
+  ]
+ },
+ "2503.10626": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 44
+   }
+  ]
+ },
+ "2411.04919": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 45
+   }
+  ]
+ },
+ "2503.02738": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 46
+   }
+  ]
+ },
+ "2601.23087": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 47
+   }
+  ]
+ },
+ "2605.07943": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 48
+   }
+  ]
+ },
+ "2508.21501": {
+  "hits": [
+   {
+    "subtopic": "模仿学习与策略学习",
+    "q": "ti:\"imitation learning\" AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial OR abs:diffusion)",
+    "rank": 49
+   }
+  ]
+ },
+ "2510.12403": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
+   }
+  ]
+ },
+ "2609.13295": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 1
+   }
+  ]
+ },
+ "2503.09829": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 2
+   }
+  ]
+ },
+ "2504.08438": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 3
+   }
+  ]
+ },
+ "2606.00113": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 4
+   },
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 3
+   }
+  ]
+ },
+ "2503.03464": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 5
+   }
+  ]
+ },
+ "2609.09403": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 6
+   }
+  ]
+ },
+ "2511.02097": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 8
+   },
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 6
+   }
+  ]
+ },
+ "2408.11537": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 9
+   }
+  ]
+ },
+ "2510.10903": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 10
+   }
+  ]
+ },
+ "2507.11840": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 11
+   }
+  ]
+ },
+ "2402.07127": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 14
+   }
+  ]
+ },
+ "2604.27621": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 15
+   }
+  ]
+ },
+ "2312.10807": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 16
+   }
+  ]
+ },
+ "2605.00080": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 17
+   },
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 4
+   }
+  ]
+ },
+ "2609.22319": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 18
+   }
+  ]
+ },
+ "2312.00948": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 19
+   }
+  ]
+ },
+ "2312.10419": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 20
+   }
+  ]
+ },
+ "2609.16074": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 22
+   }
+  ]
+ },
+ "2404.19664": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 23
+   }
+  ]
+ },
+ "2607.21655": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 25
+   }
+  ]
+ },
+ "2608.07558": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 27
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 11
+   }
+  ]
+ },
+ "2408.11822": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 28
+   }
+  ]
+ },
+ "2402.02980": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 30
+   }
+  ]
+ },
+ "2608.01851": {
+  "hits": [
+   {
+    "subtopic": "机器人操作与学习",
+    "q": "(ti:\"robot learning\" OR ti:\"robotic manipulation\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 31
+   }
+  ]
+ },
+ "2602.06995": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
+   },
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 3
+   }
+  ]
+ },
+ "2510.00783": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 1
+   },
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 5
+   }
+  ]
+ },
+ "2408.14518": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 2
+   }
+  ]
+ },
+ "2510.23988": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 3
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 23
+   }
+  ]
+ },
+ "2602.04251": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 4
+   }
+  ]
+ },
+ "2505.12384": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 5
+   }
+  ]
+ },
+ "2402.13255": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 6
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 33
+   }
+  ]
+ },
+ "2405.01398": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:SLAM OR ti:\"simultaneous localization and mapping\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 7
+   }
+  ]
+ },
+ "2411.03951": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
+   }
+  ]
+ },
+ "2312.17487": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 1
+   }
+  ]
+ },
+ "2507.01143": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 2
+   }
+  ]
+ },
+ "2311.15643": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 4
+   }
+  ]
+ },
+ "2607.11792": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 6
+   }
+  ]
+ },
+ "2410.07700": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"state estimation\" OR ti:localization OR ti:odometry) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 7
+   },
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"Lie group\" OR ti:\"Lie groups\" OR ti:\"factor graph\" OR ti:\"Kalman\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:survey OR ti:review)",
+    "rank": 1
+   }
+  ]
+ },
+ "2410.19414": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
+   }
+  ]
+ },
+ "2508.09304": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 1
+   }
+  ]
+ },
+ "2605.13123": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 2
+   }
+  ]
+ },
+ "2406.05575": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 3
+   }
+  ]
+ },
+ "2411.07053": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 4
+   }
+  ]
+ },
+ "2404.00340": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 5
+   }
+  ]
+ },
+ "2606.02677": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 6
+   },
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:kinematics OR ti:dynamics OR ti:\"rigid body\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey)",
+    "rank": 4
+   }
+  ]
+ },
+ "2512.11944": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 7
+   }
+  ]
+ },
+ "2501.04442": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 8
+   }
+  ]
+ },
+ "2404.02817": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 9
+   }
+  ]
+ },
+ "2503.03338": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 10
+   }
+  ]
+ },
+ "2503.23650": {
+  "hits": [
+   {
+    "subtopic": "运动规划",
+    "q": "(ti:\"motion planning\" OR ti:\"path planning\" OR ti:\"trajectory optimization\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 11
+   }
+  ]
+ },
+ "2510.20070": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:kinematics OR ti:dynamics OR ti:\"rigid body\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey)",
+    "rank": 0
+   },
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(abs:\"inverse kinematics\" OR abs:\"forward kinematics\" OR abs:\"rigid body dynamics\") AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 1
+   }
+  ]
+ },
+ "2606.03735": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:kinematics OR ti:dynamics OR ti:\"rigid body\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey)",
+    "rank": 1
+   },
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 16
+   }
+  ]
+ },
+ "2610.08800": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:kinematics OR ti:dynamics OR ti:\"rigid body\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey)",
+    "rank": 2
+   },
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 8
+   }
+  ]
+ },
+ "2509.23641": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:kinematics OR ti:dynamics OR ti:\"rigid body\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey)",
+    "rank": 3
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 22
+   }
+  ]
+ },
+ "2602.06969": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:kinematics OR ti:dynamics OR ti:\"rigid body\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey)",
+    "rank": 5
+   }
+  ]
+ },
+ "2405.15775": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
+   }
+  ]
+ },
+ "2501.01432": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 1
+   }
+  ]
+ },
+ "2407.05886": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 2
+   }
+  ]
+ },
+ "2601.06133": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 3
+   }
+  ]
+ },
+ "2404.17070": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 4
+   }
+  ]
+ },
+ "2510.21773": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 5
+   }
+  ]
+ },
+ "2604.20990": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "(ti:\"robot control\" OR ti:\"legged\" OR ti:locomotion OR ti:humanoid) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 6
+   }
+  ]
+ },
+ "2410.16411": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "ti:\"reinforcement learning\" AND ti:robot* AND (ti:survey OR ti:review)",
+    "rank": 0
+   }
+  ]
+ },
+ "2510.21758": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "ti:\"reinforcement learning\" AND ti:robot* AND (ti:survey OR ti:review)",
+    "rank": 1
+   }
+  ]
+ },
+ "2408.03539": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "ti:\"reinforcement learning\" AND ti:robot* AND (ti:survey OR ti:review)",
+    "rank": 2
+   }
+  ]
+ },
+ "2512.00049": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "ti:\"reinforcement learning\" AND ti:robot* AND (ti:survey OR ti:review)",
+    "rank": 3
+   }
+  ]
+ },
+ "2610.09891": {
+  "hits": [
+   {
+    "subtopic": "机器人控制与运动",
+    "q": "ti:\"reinforcement learning\" AND ti:robot* AND (ti:survey OR ti:review)",
+    "rank": 4
+   }
+  ]
+ },
+ "2510.10804": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 0
+   }
+  ]
+ },
+ "2402.13120": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 1
+   }
+  ]
+ },
+ "2509.02478": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 2
+   }
+  ]
+ },
+ "2407.06792": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 3
+   }
+  ]
+ },
+ "2408.15388": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 4
+   }
+  ]
+ },
+ "2609.19216": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 5
+   }
+  ]
+ },
+ "2412.14088": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 6
+   }
+  ]
+ },
+ "2404.18750": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 7
+   }
+  ]
+ },
+ "2404.14022": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 8
+   }
+  ]
+ },
+ "2504.15643": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 9
+   }
+  ]
+ },
+ "2405.15777": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 10
+   }
+  ]
+ },
+ "2511.05982": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 12
+   }
+  ]
+ },
+ "2405.05173": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 13
+   }
+  ]
+ },
+ "2508.20892": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 14
+   }
+  ]
+ },
+ "2410.12262": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 15
+   }
+  ]
+ },
+ "2506.17513": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 16
+   }
+  ]
+ },
+ "2509.07996": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 17
+   }
+  ]
+ },
+ "2507.11852": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 18
+   }
+  ]
+ },
+ "2505.00747": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 19
+   }
+  ]
+ },
+ "2509.08302": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 20
+   }
+  ]
+ },
+ "2408.04426": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 24
+   }
+  ]
+ },
+ "2312.01262": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 25
+   }
+  ]
+ },
+ "2507.00963": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 26
+   }
+  ]
+ },
+ "2609.34743": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 27
+   }
+  ]
+ },
+ "2404.16139": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 28
+   }
+  ]
+ },
+ "2411.18147": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 30
+   }
+  ]
+ },
+ "2510.25386": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 31
+   }
+  ]
+ },
+ "2508.07560": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 32
+   }
+  ]
+ },
+ "2503.14537": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 34
+   }
+  ]
+ },
+ "2405.10255": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 36
+   }
+  ]
+ },
+ "2406.11786": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 37
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:grasping OR ti:grasp) AND (ti:survey OR ti:review) AND cat:cs.RO",
+    "rank": 0
+   }
+  ]
+ },
+ "2606.30900": {
+  "hits": [
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:perception OR ti:\"3D\" OR ti:tactile OR ti:grasp*) AND cat:cs.RO AND (ti:survey OR ti:review)",
+    "rank": 38
+   },
+   {
+    "subtopic": "机器人感知",
+    "q": "(ti:grasping OR ti:grasp) AND (ti:survey OR ti:review) AND cat:cs.RO",
+    "rank": 1
+   }
+  ]
+ },
+ "2407.05560": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 0
+   },
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(ti:\"differentiable physics\" OR ti:\"differentiable simulation\" OR ti:\"contact dynamics\" OR ti:\"contact-rich\") AND cat:cs.RO AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
+   }
+  ]
+ },
+ "2505.18631": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 1
+   }
+  ]
+ },
+ "2508.11117": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 2
+   },
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 30
+   }
+  ]
+ },
+ "2406.11793": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 3
+   },
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 42
+   }
+  ]
+ },
+ "2311.11056": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 4
+   }
+  ]
+ },
+ "2605.06311": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 5
+   },
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 45
+   }
+  ]
+ },
+ "2610.10384": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 6
+   },
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 4
+   }
+  ]
+ },
+ "2502.13187": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 7
+   }
+  ]
+ },
+ "2609.34782": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 8
+   }
+  ]
+ },
+ "2607.04434": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 9
+   },
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 37
+   }
+  ]
+ },
+ "2411.01200": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 10
+   }
+  ]
+ },
+ "2606.18097": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 11
+   }
+  ]
+ },
+ "2412.14207": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 12
+   }
+  ]
+ },
+ "2610.26663": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 13
+   }
+  ]
+ },
+ "2504.06245": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 14
+   }
+  ]
+ },
+ "2605.30581": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 15
+   }
+  ]
+ },
+ "2509.08221": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 17
+   }
+  ]
+ },
+ "2606.21011": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 19
+   }
+  ]
+ },
+ "2403.10506": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 20
+   }
+  ]
+ },
+ "2505.12748": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 21
+   }
+  ]
+ },
+ "2512.18537": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 22
+   }
+  ]
+ },
+ "2505.14030": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 23
+   }
+  ]
+ },
+ "2606.11901": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 24
+   }
+  ]
+ },
+ "2606.08729": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 25
+   }
+  ]
+ },
+ "2409.14196": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 26
+   }
+  ]
+ },
+ "2407.16680": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 27
+   }
+  ]
+ },
+ "2606.31993": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 28
+   }
+  ]
+ },
+ "2606.31037": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 29
+   }
+  ]
+ },
+ "2609.27449": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 30
+   },
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 41
+   }
+  ]
+ },
+ "2610.26765": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 31
+   }
+  ]
+ },
+ "2405.08626": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 32
+   }
+  ]
+ },
+ "2311.02296": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 33
+   }
+  ]
+ },
+ "2410.07686": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 34
+   }
+  ]
+ },
+ "2505.17434": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 35
+   }
+  ]
+ },
+ "2607.15935": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 36
+   }
+  ]
+ },
+ "2610.28432": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 37
+   }
+  ]
+ },
+ "2406.15349": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 38
+   }
+  ]
+ },
+ "2607.19695": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 39
+   },
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 9
+   }
+  ]
+ },
+ "2502.01304": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 40
+   }
+  ]
+ },
+ "2606.12207": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 41
+   }
+  ]
+ },
+ "2508.01922": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 42
+   }
+  ]
+ },
+ "2609.21909": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 43
+   }
+  ]
+ },
+ "2409.14844": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 44
+   }
+  ]
+ },
+ "2603.04356": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 45
+   }
+  ]
+ },
+ "2607.25219": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 46
+   }
+  ]
+ },
+ "2604.09860": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 47
+   }
+  ]
+ },
+ "2505.22634": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 48
+   }
+  ]
+ },
+ "2512.04415": {
+  "hits": [
+   {
+    "subtopic": "仿真与迁移",
+    "q": "(ti:\"sim-to-real\" OR ti:simulation OR ti:simulator) AND cat:cs.RO AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 49
+   }
+  ]
+ },
+ "2608.13049": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 0
+   }
+  ]
+ },
+ "2405.18860": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 1
+   }
+  ]
+ },
+ "2604.19092": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 2
+   }
+  ]
+ },
+ "2610.18053": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 3
+   }
+  ]
+ },
+ "2505.21495": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 5
+   }
+  ]
+ },
+ "2609.00641": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 6
+   }
+  ]
+ },
+ "2403.12945": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 7
+   }
+  ]
+ },
+ "2610.02366": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 8
+   }
+  ]
+ },
+ "2608.12122": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 9
+   }
+  ]
+ },
+ "2509.22356": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 10
+   }
+  ]
+ },
+ "2603.22435": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 11
+   }
+  ]
+ },
+ "2412.13877": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 12
+   }
+  ]
+ },
+ "2610.24587": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 13
+   }
+  ]
+ },
+ "2610.22372": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 14
+   }
+  ]
+ },
+ "2503.01729": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 15
+   }
+  ]
+ },
+ "2607.00020": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 16
+   }
+  ]
+ },
+ "2603.04363": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 17
+   }
+  ]
+ },
+ "2511.12436": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 18
+   }
+  ]
+ },
+ "2503.02834": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 19
+   }
+  ]
+ },
+ "2403.19622": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 20
+   }
+  ]
+ },
+ "2609.24778": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 21
+   }
+  ]
+ },
+ "2512.04308": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 22
+   }
+  ]
+ },
+ "2507.23734": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 23
+   }
+  ]
+ },
+ "2606.08881": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 24
+   }
+  ]
+ },
+ "2609.22591": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 25
+   }
+  ]
+ },
+ "2604.11674": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 26
+   }
+  ]
+ },
+ "2511.06434": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 27
+   }
+  ]
+ },
+ "2610.01744": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 29
+   }
+  ]
+ },
+ "2502.10550": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 31
+   }
+  ]
+ },
+ "2609.36605": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 32
+   }
+  ]
+ },
+ "2604.16886": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 33
+   }
+  ]
+ },
+ "2610.04255": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 34
+   }
+  ]
+ },
+ "2610.30051": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 35
+   }
+  ]
+ },
+ "2512.24653": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 36
+   }
+  ]
+ },
+ "2610.13643": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 39
+   }
+  ]
+ },
+ "2508.17449": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 40
+   }
+  ]
+ },
+ "2603.16866": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 43
+   }
+  ]
+ },
+ "2410.07166": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 44
+   }
+  ]
+ },
+ "2406.17898": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 46
+   }
+  ]
+ },
+ "2505.18229": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 47
+   }
+  ]
+ },
+ "2606.17639": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 48
+   }
+  ]
+ },
+ "2407.06951": {
+  "hits": [
+   {
+    "subtopic": "数据集与评测",
+    "q": "(ti:dataset OR ti:benchmark) AND (abs:\"robot manipulation\" OR abs:\"embodied\") AND cat:cs.RO",
+    "rank": 49
+   }
+  ]
+ },
+ "2603.19229": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 1
+   }
+  ]
+ },
+ "2508.05855": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 2
+   }
+  ]
+ },
+ "2410.07087": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 3
+   }
+  ]
+ },
+ "2412.09082": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 4
+   }
+  ]
+ },
+ "2610.30609": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 5
+   }
+  ]
+ },
+ "2605.28237": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 6
+   }
+  ]
+ },
+ "2311.00530": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 7
+   }
+  ]
+ },
+ "2609.31507": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 8
+   }
+  ]
+ },
+ "2512.19021": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 10
+   }
+  ]
+ },
+ "2605.10376": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 11
+   }
+  ]
+ },
+ "2508.15354": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 12
+   }
+  ]
+ },
+ "2608.12860": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 13
+   }
+  ]
+ },
+ "2604.00265": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 14
+   }
+  ]
+ },
+ "2511.14161": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 15
+   }
+  ]
+ },
+ "2610.10125": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 16
+   }
+  ]
+ },
+ "2605.23187": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 17
+   }
+  ]
+ },
+ "2602.06459": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 18
+   }
+  ]
+ },
+ "2604.07973": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 19
+   }
+  ]
+ },
+ "2505.18881": {
+  "hits": [
+   {
+    "subtopic": "具身导航",
+    "q": "(ti:\"vision-language navigation\" OR ti:\"embodied navigation\" OR ti:\"object navigation\") AND (ti:survey OR ti:review OR ti:benchmark)",
+    "rank": 20
+   }
+  ]
+ },
+ "2608.26214": {
+  "hits": [
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 7
+   }
+  ]
+ },
+ "2601.07823": {
+  "hits": [
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 9
+   }
+  ]
+ },
+ "2506.13833": {
+  "hits": [
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 10
+   }
+  ]
+ },
+ "2411.14499": {
+  "hits": [
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 11
+   }
+  ]
+ },
+ "2606.00133": {
+  "hits": [
+   {
+    "subtopic": "具身世界模型",
+    "q": "(ti:\"world model\" OR ti:\"world models\") AND (ti:embodied OR ti:robot* OR abs:robotics) AND (ti:survey OR ti:review)",
+    "rank": 12
+   }
+  ]
+ },
+ "2510.21854": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(abs:\"inverse kinematics\" OR abs:\"forward kinematics\" OR abs:\"rigid body dynamics\") AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2311.09327": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(abs:\"inverse kinematics\" OR abs:\"forward kinematics\" OR abs:\"rigid body dynamics\") AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 2
+   }
+  ]
+ },
+ "2502.10306": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(abs:\"inverse kinematics\" OR abs:\"forward kinematics\" OR abs:\"rigid body dynamics\") AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 3
+   }
+  ]
+ },
+ "2609.18667": {
+  "hits": [
+   {
+    "subtopic": "运动学与动力学",
+    "q": "(abs:\"inverse kinematics\" OR abs:\"forward kinematics\" OR abs:\"rigid body dynamics\") AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:survey OR ti:\"lecture notes\")",
+    "rank": 4
+   }
+  ]
+ },
+ "2603.07143": {
+  "hits": [
+   {
+    "subtopic": "定位与 SLAM",
+    "q": "(ti:\"Lie group\" OR ti:\"Lie groups\" OR ti:\"factor graph\" OR ti:\"Kalman\") AND cat:cs.RO AND (ti:tutorial OR ti:introduction OR ti:survey OR ti:review)",
+    "rank": 0
    }
   ]
  }

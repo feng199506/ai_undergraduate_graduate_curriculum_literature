@@ -1,0 +1,17 @@
+{
+ "id": "2603.04436",
+ "title": "ZorBA: Zeroth-order Federated Fine-tuning of LLMs with Heterogeneous Block Activation",
+ "authors": [
+  "Chuiyang Meng",
+  "Ming Tang",
+  "Vincent W. S. Wong"
+ ],
+ "v1_date": "2026-02-19",
+ "latest_version": 1,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Federated fine-tuning of large language models (LLMs) enables collaborative tuning across distributed clients. However, due to the large size of LLMs, local updates in federated learning (FL) may incur substantial video random-access memory (VRAM) usage. Moreover, frequent model exchange may lead to significant communication overhead. To tackle these challenges, in this paper we propose ZorBA, a zeroth-order optimization-based federated fine-tuning framework with heterogeneous block activation. ZorBA leverages zeroth-order optimization to eliminate the storage of gradients at the clients by forward passes. ZorBA includes a heterogeneous block activation mechanism in which the central server allocates different subsets of transformer blocks to clients in order to accelerate the convergence rate and reduce the VRAM usage. Furthermore, ZorBA utilizes shared random seeds and the finite differences of gradients in order to reduce the communication overhead. We conduct theoretical analysis to characterize the effect of block activation decisions on the convergence rate and VRAM usage. To jointly enhance the convergence rate and reduce the VRAM usage, we formulate an optimization problem to optimize the block activation decisions. We propose an $ε$-constraint lexicographic algorithm to solve this problem. Experimental results show that ZorBA outperforms three federated fine-tuning baselines in VRAM usage by up to 62.41% and incurs a low communication overhead.",
+ "primary": "cs.LG"
+}

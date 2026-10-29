@@ -1,0 +1,18 @@
+{
+ "id": "2412.02484",
+ "title": "Vector Optimization with Gaussian Process Bandits",
+ "authors": [
+  "İlter Onat Korkmaz",
+  "Yaşar Cahit Yıldırım",
+  "Çağın Ararat",
+  "Cem Tekin"
+ ],
+ "v1_date": "2024-12-03",
+ "latest_version": 2,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study black-box vector optimization with Gaussian process bandits, where there is an incomplete order relation on objective vectors described by a polyhedral convex cone. Existing black-box vector optimization approaches either suffer from high sample complexity or lack theoretical guarantees. We propose Vector Optimization with Gaussian Process (VOGP), an adaptive elimination algorithm that identifies Pareto optimal solutions sample efficiently by exploiting the smoothness of the objective function. We establish theoretical guarantees, deriving information gain-based and kernel-specific sample complexity bounds. Finally, we conduct a thorough empirical evaluation of VOGP and compare it with the state-of-the-art multi-objective and vector optimization algorithms on several real-world and synthetic datasets, emphasizing VOGP's efficiency (e.g., $\\sim18\\times$ lower sample complexity on average). We also provide heuristic adaptations of VOGP for cases where the design space is continuous and where the Gaussian process model lacks access to the true kernel hyperparameters. This work opens a new frontier in sample-efficient multi-objective black-box optimization by incorporating preference structures while maintaining theoretical guarantees and practical efficiency.",
+ "primary": "cs.LG"
+}

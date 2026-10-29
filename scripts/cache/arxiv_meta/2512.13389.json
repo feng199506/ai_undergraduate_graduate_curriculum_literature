@@ -1,0 +1,29 @@
+{
+ "id": "2512.13389",
+ "title": "The PAU Survey: Uncovering the connection between intrinsic and observed galaxy properties using symbolic regression",
+ "authors": [
+  "Adarsh Kumar",
+  "Carlton M. Baugh",
+  "Suttikoon Koonkor",
+  "Giorgio Manzoni",
+  "Sukanta Panda",
+  "D. Navarro Girones",
+  "R. Casas",
+  "J. Carretero",
+  "F. Castander",
+  "J. De Vicente",
+  "J. Garcia Bellido",
+  "E. Gaztanaga",
+  "R. Miquel",
+  "P. Renard",
+  "P. Tallada Crespi"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 2,
+ "latest_date": "2025-12-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 21 figures, 2 tables",
+ "abstract": "Estimating stellar masses for billions of galaxies in upcoming surveys requires methods that are both accurate and computationally efficient. We present a new approach using symbolic regression trained on a simulation to derive simple, explicit mathematical expressions that estimate galaxy stellar masses from basic observables: photometry and redshift. Using a mock catalogue from the GALFORM semi-analytical model that reproduces the Physics of the Accelerating Universe Survey (PAUS), we show that a linear combination of just four observables -- minimally processed $u$- and $i$- band magnitudes, observed $(g-r)$ colour, and redshift -- can recover stellar masses with accuracy comparable to traditional spectral energy distribution (SED) fitting, but with negligible computational cost. Our expressions can be evaluated instantaneously for millions of galaxies, making them ideal for next-generation surveys like LSST and Euclid. When observational errors are included, symbolic regression achieves a similar accuracy to deep neural networks while maintaining transparency. Validation against CIGALE SED fitting on PAUS data shows agreement within 0.13 dex for galaxies with $M_{*} > 10^8 M_{\\odot}$. We demonstrate that the stellar mass function can be recovered at $z < 0.5$, though with distortions at the extremes: the high-mass end is overestimated by a factor of $\\sim 3$ at $10^{11.5} h^{-1} M_{\\odot}$ due to scatter. Our approach offers a fast, transparent alternative to traditional methods without sacrificing accuracy for the bulk of the galaxy population.",
+ "primary": "astro-ph.GA"
+}

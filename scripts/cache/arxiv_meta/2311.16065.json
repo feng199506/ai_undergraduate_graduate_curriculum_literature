@@ -1,0 +1,18 @@
+{
+ "id": "2311.16065",
+ "title": "A Survey on Vulnerability of Federated Learning: A Learning Algorithm Perspective",
+ "authors": [
+  "Xianghua Xie",
+  "Chen Hu",
+  "Hanchi Ren",
+  "Jingjing Deng"
+ ],
+ "v1_date": "2023-11-27",
+ "latest_version": 1,
+ "latest_date": "2023-11-27",
+ "journal_ref": "",
+ "doi": "10.1016/j.neucom.2023.127225",
+ "comment": "https://github.com/Rand2AI/Awesome-Vulnerability-of-Federated-Learning",
+ "abstract": "This review paper takes a comprehensive look at malicious attacks against FL, categorizing them from new perspectives on attack origins and targets, and providing insights into their methodology and impact. In this survey, we focus on threat models targeting the learning process of FL systems. Based on the source and target of the attack, we categorize existing threat models into four types, Data to Model (D2M), Model to Data (M2D), Model to Model (M2M) and composite attacks. For each attack type, we discuss the defense strategies proposed, highlighting their effectiveness, assumptions and potential areas for improvement. Defense strategies have evolved from using a singular metric to excluding malicious clients, to employing a multifaceted approach examining client models at various phases. In this survey paper, our research indicates that the to-learn data, the learning gradients, and the learned model at different stages all can be manipulated to initiate malicious attacks that range from undermining model performance, reconstructing private local data, and to inserting backdoors. We have also seen these threat are becoming more insidious. While earlier studies typically amplified malicious gradients, recent endeavors subtly alter the least significant weights in local models to bypass defense measures. This literature review provides a holistic understanding of the current FL threat landscape and highlights the importance of developing robust, efficient, and privacy-preserving defenses to ensure the safe and trusted adoption of FL in real-world applications.",
+ "primary": "cs.LG"
+}

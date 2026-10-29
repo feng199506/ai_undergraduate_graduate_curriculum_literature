@@ -1,0 +1,20 @@
+{
+ "id": "2506.12383",
+ "title": "Scaling Probabilistic Circuits via Monarch Matrices",
+ "authors": [
+  "Honghua Zhang",
+  "Meihua Dang",
+  "Benjie Wang",
+  "Stefano Ermon",
+  "Nanyun Peng",
+  "Guy Van den Broeck"
+ ],
+ "v1_date": "2025-06-14",
+ "latest_version": 1,
+ "latest_date": "2025-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic Circuits (PCs) are tractable representations of probability distributions allowing for exact and efficient computation of likelihoods and marginals. Recent advancements have improved the scalability of PCs either by leveraging their sparse properties or through the use of tensorized operations for better hardware utilization. However, no existing method fully exploits both aspects simultaneously. In this paper, we propose a novel sparse and structured parameterization for the sum blocks in PCs. By replacing dense matrices with sparse Monarch matrices, we significantly reduce the memory and computation costs, enabling unprecedented scaling of PCs. From a theory perspective, our construction arises naturally from circuit multiplication; from a practical perspective, compared to previous efforts on scaling up tractable probabilistic models, our approach not only achieves state-of-the-art generative modeling performance on challenging benchmarks like Text8, LM1B and ImageNet, but also demonstrates superior scaling behavior, achieving the same performance with substantially less compute as measured by the number of floating-point operations (FLOPs) during training.",
+ "primary": "cs.LG"
+}

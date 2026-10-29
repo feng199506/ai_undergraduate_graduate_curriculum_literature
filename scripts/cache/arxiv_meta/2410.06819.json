@@ -1,0 +1,19 @@
+{
+ "id": "2410.06819",
+ "title": "Dynamic Neural Potential Field: Online Trajectory Optimization in the Presence of Moving Obstacles",
+ "authors": [
+  "Aleksei Staroverov",
+  "Muhammad Alhaddad",
+  "Aditya Narendra",
+  "Konstantin Mironov",
+  "Aleksandr Panov"
+ ],
+ "v1_date": "2024-10-09",
+ "latest_version": 3,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalist robot policies must operate safely and reliably in everyday human environments such as homes, offices, and warehouses, where people and objects move unpredictably. We present Dynamic Neural Potential Field (NPField-GPT), a learning-enhanced model predictive control (MPC) framework that couples classical optimization with a Transformer-based predictor of footprint-aware repulsive potentials. Given an occupancy sub-map, robot footprint, and optional dynamic-obstacle cues, our NPField-GPT model forecasts a horizon of differentiable potentials that are injected into a sequential quadratic MPC program via L4CasADi, yielding real-time, constraint-aware trajectory optimization. We additionally study two baselines: NPField-StaticMLP, where a dynamic scene is treated as a sequence of static maps; and NPField-DynamicMLP, which predicts the future potential sequence in parallel with an MLP. In dynamic indoor scenarios from BenchMR and on a Husky UGV in office corridors, NPField-GPT produces more efficient and safer trajectories under motion changes, while StaticMLP/DynamicMLP offer lower latency. We also compare with the CIAO* and MPPI baselines. Across methods, the Transformer+MPC synergy preserves the transparency and stability of model-based planning while learning only the part that benefits from data: spatiotemporal collision risk. Code and trained models are available at https://github.com/CognitiveAISystems/Dynamic-Neural-Potential-Field",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2607.00178",
+ "title": "A Scoping Review of Physics Informed Machine Learning for Wave Propagation Modeling in Seismology",
+ "authors": [
+  "Óscar Rincón-Cardeño",
+  "Gregorio Pérez-Bernal",
+  "Silvana Montoya-Noguera",
+  "Nicolás Guarín-Zapata"
+ ],
+ "v1_date": "2026-06-30",
+ "latest_version": 2,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard numerical methods accurately simulate seismic waves but are computationally expensive, particularly for inverse problems. Some machine-learning-based alternatives have emerged, promising to reduce cost while preserving physical accuracy. This scoping review, drawing on OpenAlex and Scopus, maps physics-informed machine learning applications to seismic wave propagation based on partial differential equations, classifying selected studies by problem type (forward or inverse) and learning strategy to uncover trends, patterns, and gaps. Results show that these methods have been applied to both forward modeling and inversion, often matching standard numerical accuracy at lower cost. We identified three mechanisms for incorporating physical knowledge into models: observational, inductive, and learning bias. We implemented a PyTorch replication of the original PINN framework to test methodological reproducibility of a representative method, obtaining results consistent with and, in most cases, more accurate than those originally reported. Based on the reviewed literature, we identified limitations in benchmarking consistency, training cost, and scalability to three-dimensional and experimentally validated problems. We conclude that while standard numerical methods remain foundational, physics-informed machine learning serves as a complementary tool valuable for inverse problems and surrogate modeling, with future work needing consistent benchmarking, hybrid formulations, and validation under realistic geophysical conditions. The continued development of these methods, particularly through hybrid formulations and reproducible benchmarking, may broaden their role in seismological workflows, although realizing this potential will need addressing current limitations in scalability.",
+ "primary": "physics.comp-ph"
+}

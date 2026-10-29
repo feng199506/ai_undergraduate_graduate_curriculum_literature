@@ -1,0 +1,20 @@
+{
+ "id": "2405.17146",
+ "title": "Compressed-Language Models for Understanding Compressed File Formats: a JPEG Exploration",
+ "authors": [
+  "Juan C. Pérez",
+  "Alejandro Pardo",
+  "Mattia Soldan",
+  "Hani Itani",
+  "Juan Leon-Alcazar",
+  "Bernard Ghanem"
+ ],
+ "v1_date": "2024-05-27",
+ "latest_version": 1,
+ "latest_date": "2024-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study investigates whether Compressed-Language Models (CLMs), i.e. language models operating on raw byte streams from Compressed File Formats~(CFFs), can understand files compressed by CFFs. We focus on the JPEG format as a representative CFF, given its commonality and its representativeness of key concepts in compression, such as entropy coding and run-length encoding. We test if CLMs understand the JPEG format by probing their capabilities to perform along three axes: recognition of inherent file properties, handling of files with anomalies, and generation of new files. Our findings demonstrate that CLMs can effectively perform these tasks. These results suggest that CLMs can understand the semantics of compressed data when directly operating on the byte streams of files produced by CFFs. The possibility to directly operate on raw compressed files offers the promise to leverage some of their remarkable characteristics, such as their ubiquity, compactness, multi-modality and segment-nature.",
+ "primary": "cs.CV"
+}

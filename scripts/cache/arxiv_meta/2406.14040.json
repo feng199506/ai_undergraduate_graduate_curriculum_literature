@@ -1,0 +1,16 @@
+{
+ "id": "2406.14040",
+ "title": "A Practical Diffusion Path for Sampling",
+ "authors": [
+  "Omar Chehab",
+  "Anna Korba"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 1,
+ "latest_date": "2024-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion models are state-of-the-art methods in generative modeling when samples from a target probability distribution are available, and can be efficiently sampled, using score matching to estimate score vectors guiding a Langevin process. However, in the setting where samples from the target are not available, e.g. when this target's density is known up to a normalization constant, the score estimation task is challenging. Previous approaches rely on Monte Carlo estimators that are either computationally heavy to implement or sample-inefficient. In this work, we propose a computationally attractive alternative, relying on the so-called dilation path, that yields score vectors that are available in closed-form. This path interpolates between a Dirac and the target distribution using a convolution. We propose a simple implementation of Langevin dynamics guided by the dilation path, using adaptive step-sizes. We illustrate the results of our sampling method on a range of tasks, and shows it performs better than classical alternatives.",
+ "primary": "stat.ML"
+}

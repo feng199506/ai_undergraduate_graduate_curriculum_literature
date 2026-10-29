@@ -1,0 +1,18 @@
+{
+ "id": "2503.07966",
+ "title": "Benign Overfitting and the Geometry of the Ridge Regression Solution in Binary Classification",
+ "authors": [
+  "Alexander Tsigler",
+  "Luiz F. O. Chamon",
+  "Spencer Frei",
+  "Peter L. Bartlett"
+ ],
+ "v1_date": "2025-03-11",
+ "latest_version": 1,
+ "latest_date": "2025-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "115 pages, 2 figures",
+ "abstract": "In this work, we investigate the behavior of ridge regression in an overparameterized binary classification task. We assume examples are drawn from (anisotropic) class-conditional cluster distributions with opposing means and we allow for the training labels to have a constant level of label-flipping noise. We characterize the classification error achieved by ridge regression under the assumption that the covariance matrix of the cluster distribution has a high effective rank in the tail. We show that ridge regression has qualitatively different behavior depending on the scale of the cluster mean vector and its interaction with the covariance matrix of the cluster distributions. In regimes where the scale is very large, the conditions that allow for benign overfitting turn out to be the same as those for the regression task. We additionally provide insights into how the introduction of label noise affects the behavior of the minimum norm interpolator (MNI). The optimal classifier in this setting is a linear transformation of the cluster mean vector and in the noiseless setting the MNI approximately learns this transformation. On the other hand, the introduction of label noise can significantly change the geometry of the solution while preserving the same qualitative behavior.",
+ "primary": "stat.ML"
+}

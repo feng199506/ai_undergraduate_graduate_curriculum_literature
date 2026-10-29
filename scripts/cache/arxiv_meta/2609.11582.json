@@ -1,0 +1,19 @@
+{
+ "id": "2609.11582",
+ "title": "OmniKVQuant: KV Cache Quantization for Omni-LLMs",
+ "authors": [
+  "Suho Yoo",
+  "Hyunjong Ok",
+  "Jongmin Choi",
+  "Jihoo Jung",
+  "Joon Son Chung"
+ ],
+ "v1_date": "2026-09-10",
+ "latest_version": 1,
+ "latest_date": "2026-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint",
+ "abstract": "As Omni-modal large language models (Omni-LLMs) take in audio, video and text together, their KV cache memory cost grows. KV cache quantization is the de facto approach in text-only LLMs, but its application to Omni-LLMs remains unexplored. In this paper, we analyze how TurboQuant, a representative rotation-based KV cache quantization method, behaves on multimodal caches and identify two critical issues: temporal key drift and heterogeneous value geometry. To address these, we propose OmniKVQuant, a training-free framework that (i) sets the key quantization range over each short window of the input stream; and (ii) rotates values separately per modality. On Qwen2.5-Omni and Qwen3-Omni, OmniKVQuant enables 2-bit KV caches while substantially preserving performance across seven audio-visual benchmarks. We further provide a fused Triton decode kernel that unpacks the 2-bit cache during attention, so no dense FP16 cache is ever built. Code: https://github.com/kaistmm/OmniKVQuant",
+ "primary": "cs.CV"
+}

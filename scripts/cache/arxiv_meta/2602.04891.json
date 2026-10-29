@@ -1,0 +1,17 @@
+{
+ "id": "2602.04891",
+ "title": "Parameter Estimation for Differential Equation Models Using Generalized Profiling: A Computational Tutorial",
+ "authors": [
+  "Matthew J Simpson",
+  "James S Bennett",
+  "Ruth E Baker"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 3,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 6 figures",
+ "abstract": "Parameter estimation connects mathematical models to real-world data and decision making across many scientific and industrial applications. Standard approaches such as maximum likelihood estimation and Markov chain Monte Carlo estimate parameters by repeatedly solving the model, which often requires numerical solutions of differential equation models. In contrast, generalized profiling (also called parameter cascading) focuses directly on the governing differential equation(s), linking the model and data through a penalized likelihood that explicitly measures both the data fit and model fit. Despite several advantages, generalized profiling is relatively rarely used in practice. This tutorial-style article outlines a set of self-directed computational exercises that facilitate skills development in applying generalized profiling to a range of ordinary differential equation models. All calculations can be repeated using reproducible open-source Jupyter notebooks that are available on GitHub.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2501.01511",
+ "title": "TreeLUT: An Efficient Alternative to Deep Neural Networks for Inference Acceleration Using Gradient Boosted Decision Trees",
+ "authors": [
+  "Alireza Khataei",
+  "Kia Bazargan"
+ ],
+ "v1_date": "2025-01-02",
+ "latest_version": 1,
+ "latest_date": "2025-01-02",
+ "journal_ref": "Proceedings of the 2025 ACM/SIGDA International Symposium on Field Programmable Gate Arrays (FPGA '25), February 27-March 1, 2025, Monterey, CA, USA",
+ "doi": "10.1145/3706628.3708877",
+ "comment": "Accepted by FPGA'25 conference",
+ "abstract": "Accelerating machine learning inference has been an active research area in recent years. In this context, field-programmable gate arrays (FPGAs) have demonstrated compelling performance by providing massive parallelism in deep neural networks (DNNs). Neural networks (NNs) are computationally intensive during inference, as they require massive amounts of multiplication and addition, which makes their implementations costly. Numerous studies have recently addressed this challenge to some extent using a combination of sparsity induction, quantization, and transformation of neurons or sub-networks into lookup tables (LUTs) on FPGAs. Gradient boosted decision trees (GBDTs) are a high-accuracy alternative to DNNs in a wide range of regression and classification tasks, particularly for tabular datasets. The basic building block of GBDTs is a decision tree, which resembles the structure of binary decision diagrams. FPGA design flows are heavily optimized to implement such a structure efficiently. In addition to decision trees, GBDTs perform simple operations during inference, including comparison and addition. We present TreeLUT as an open-source tool for implementing GBDTs using an efficient quantization scheme, hardware architecture, and pipelining strategy. It primarily utilizes LUTs with no BRAMs or DSPs on FPGAs, resulting in high efficiency. We show the effectiveness of TreeLUT using multiple classification datasets, commonly used to evaluate ultra-low area and latency architectures. Using these benchmarks, we compare our implementation results with existing DNN and GBDT methods, such as DWN, PolyLUT-Add, NeuraLUT, LogicNets, FINN, hls4ml, and others. Our results show that TreeLUT significantly improves hardware utilization, latency, and throughput at competitive accuracy compared to previous works.",
+ "primary": "cs.LG"
+}

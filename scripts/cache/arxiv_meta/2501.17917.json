@@ -1,0 +1,17 @@
+{
+ "id": "2501.17917",
+ "title": "Deep Ensembles Secretly Perform Empirical Bayes",
+ "authors": [
+  "Gabriel Loaiza-Ganem",
+  "Valentin Villecroze",
+  "Yixin Wang"
+ ],
+ "v1_date": "2025-01-29",
+ "latest_version": 1,
+ "latest_date": "2025-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantifying uncertainty in neural networks is a highly relevant problem which is essential to many applications. The two predominant paradigms to tackle this task are Bayesian neural networks (BNNs) and deep ensembles. Despite some similarities between these two approaches, they are typically surmised to lack a formal connection and are thus understood as fundamentally different. BNNs are often touted as more principled due to their reliance on the Bayesian paradigm, whereas ensembles are perceived as more ad-hoc; yet, deep ensembles tend to empirically outperform BNNs, with no satisfying explanation as to why this is the case. In this work we bridge this gap by showing that deep ensembles perform exact Bayesian averaging with a posterior obtained with an implicitly learned data-dependent prior. In other words deep ensembles are Bayesian, or more specifically, they implement an empirical Bayes procedure wherein the prior is learned from the data. This perspective offers two main benefits: (i) it theoretically justifies deep ensembles and thus provides an explanation for their strong empirical performance; and (ii) inspection of the learned prior reveals it is given by a mixture of point masses -- the use of such a strong prior helps elucidate observed phenomena about ensembles. Overall, our work delivers a newfound understanding of deep ensembles which is not only of interest in it of itself, but which is also likely to generate future insights that drive empirical improvements for these models.",
+ "primary": "cs.LG"
+}

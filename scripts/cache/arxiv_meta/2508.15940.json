@@ -1,0 +1,17 @@
+{
+ "id": "2508.15940",
+ "title": "ASIC-Agent: An Autonomous Multi-Agent System for ASIC Design with Benchmark Evaluation",
+ "authors": [
+  "Ahmed Allam",
+  "Youssef Mansour",
+  "Mohamed Shalan"
+ ],
+ "v1_date": "2025-08-21",
+ "latest_version": 1,
+ "latest_date": "2025-08-21",
+ "journal_ref": "",
+ "doi": "10.1109/iclad65226.2025.00033",
+ "comment": "2025 IEEE International Conference on LLM-Aided Design (ICLAD)",
+ "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in Register Transfer Level (RTL) design, enabling high-quality code generation from natural language descriptions. However, LLMs alone face significant limitations in real-world hardware design workflows, including the inability to execute code, lack of debugging capabilities, and absence of long-term memory. To address these challenges, we present ASIC-Agent, an autonomous system designed specifically for digital ASIC design tasks. ASIC-Agent enhances base LLMs with a multi-agent architecture incorporating specialized sub-agents for RTL generation, verification, OpenLane hardening, and Caravel chip integration, all operating within a comprehensive sandbox environment with access to essential hardware design tools. The system leverages a vector database containing documentation, API references, error knowledge, and curated insights from the open-source silicon community. To evaluate ASIC-Agent's performance, we introduce ASIC-Agent-Bench, the first benchmark specifically designed to assess agentic systems in hardware design tasks. We evaluate ASIC-Agent with various base LLMs, providing quantitative comparisons and qualitative insights into agent behavior across different design scenarios. Our results demonstrate that ASIC-Agent, when powered by Claude 4 Sonnet, successfully automates a broad range of ASIC design tasks spanning varying levels of complexity, showing the potential of significantly accelerating the ASIC design workflow.",
+ "primary": "cs.AR"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2412.17335",
+ "title": "Hierarchical Dirichlet Process Mixture of Products of Multinomial Distributions: Applications to Survey Data with Potentially Missing Values",
+ "authors": [
+  "Chayut Wongkamthong"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 2,
+ "latest_date": "2024-12-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This manuscript is currently undergoing the journal submission process",
+ "abstract": "In social science research, understanding latent structures in populations through survey data with categorical responses is a common and important task. Traditional methods like Factor Analysis and Latent Class Analysis have limitations, particularly in handling categorical data and accommodating mixed memberships in latent structures, respectively. Moreover, choosing the number of factors or latent classes is often subjective and can be challenging in the presence of missing values. This study introduces a Hierarchical Dirichlet Process Mixture of Products of Multinomial Distributions (HDPMPM) model, which leverages the flexibility of nonparametric Bayesian methods to address these limitations. The HDPMPM model allows for multiple latent classes within individuals and avoids fixing the number of mixture components at an arbitrary number. Additionally, it incorporates missing data imputation directly into the model's Gibbs sampling process. By applying a truncated stick-breaking representation of the Dirichlet process, we can derive a Gibbs sampling scheme for posterior inference. An application of the HDPMPM model to the 2016 American National Election Study (ANES) data demonstrates its effectiveness in identifying political profiles and handling missing data scenarios, including those that are missing at random (MAR) and missing completely at random (MCAR). The results show that the HDPMPM model successfully recovers dominant profiles and manages complex latent structures in survey data, providing an alternative tool for social science researchers in dealing with categorical data with missing values.",
+ "primary": "stat.ME"
+}

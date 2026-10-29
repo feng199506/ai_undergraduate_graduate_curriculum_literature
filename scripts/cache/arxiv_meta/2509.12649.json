@@ -1,0 +1,18 @@
+{
+ "id": "2509.12649",
+ "title": "A Systematic Evaluation of Parameter-Efficient Fine-Tuning Methods for the Security of Code LLMs",
+ "authors": [
+  "Kiho Lee",
+  "Jungkon Kim",
+  "Doowon Kim",
+  "Hyoungshick Kim"
+ ],
+ "v1_date": "2025-09-16",
+ "latest_version": 1,
+ "latest_date": "2025-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages",
+ "abstract": "Code-generating Large Language Models (LLMs) significantly accelerate software development. However, their frequent generation of insecure code presents serious risks. We present a comprehensive evaluation of seven parameter-efficient fine-tuning (PEFT) techniques, demonstrating substantial gains in secure code generation without compromising functionality. Our research identifies prompt-tuning as the most effective PEFT method, achieving an 80.86% Overall-Secure-Rate on CodeGen2 16B, a 13.5-point improvement over the 67.28% baseline. Optimizing decoding strategies through sampling temperature further elevated security to 87.65%. This equates to a reduction of approximately 203,700 vulnerable code snippets per million generated. Moreover, prompt and prefix tuning increase robustness against poisoning attacks in our TrojanPuzzle evaluation, with strong performance against CWE-79 and CWE-502 attack vectors. Our findings generalize across Python and Java, confirming prompt-tuning's consistent effectiveness. This study provides essential insights and practical guidance for building more resilient software systems with LLMs.",
+ "primary": "cs.CR"
+}

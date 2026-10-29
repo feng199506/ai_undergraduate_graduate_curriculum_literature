@@ -1,0 +1,17 @@
+{
+ "id": "2605.20187",
+ "title": "Neural Estimation of Pairwise Mutual Information in Masked Discrete Sequence Models",
+ "authors": [
+  "Jai Sharma",
+  "Yifan Wang",
+  "Bryan Li"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 1,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 3 figures; submitting to ICML 2026",
+ "abstract": "Understanding dependencies between variables is critical for interpretability and efficient generation in masked diffusion models (MDMs), yet these models primarily expose marginal conditional distributions and do not explicitly represent inter-variable dependence. We propose a neural framework for estimating pairwise conditional mutual information (MI) directly from the hidden states of a pretrained MDM, using ground-truth MI computed from the model's own conditional distributions for supervision. The resulting estimator captures the model's internal belief about dependency structure and predicts the full MI matrix in a single forward pass, enabling MI-guided parallel decoding by identifying conditionally independent subsets of variables. We evaluate our approach on Sudoku and protein sequence generation with ESM-C, where the MI maps recover known structural constraints and enable a 3-5x magnitude reduction in inference-time forward passes compared to sequential decoding, while preserving generative quality and outperforming entropy-based parallelization methods.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2403.15711",
+ "title": "Towards Identifiable Latent Additive Noise Models",
+ "authors": [
+  "Yuhang Liu",
+  "Zhen Zhang",
+  "Dong Gong",
+  "Erdun Gao",
+  "Biwei Huang",
+  "Mingming Gong",
+  "Anton van den Hengel",
+  "Kun Zhang",
+  "Javen Qinfeng Shi"
+ ],
+ "v1_date": "2024-03-23",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal representation learning (CRL) offers the promise of uncovering the underlying causal model by which observed data was generated, but the practical applicability of existing methods remains limited by the strong assumptions required for identifiability and by challenges in applying them to real-world settings. Most current approaches are applicable only to relatively restrictive model classes, such as linear or polynomial models, which limits their flexibility and robustness in practice. One promising approach to this problem seeks to address these issues by leveraging changes in causal influences among latent variables. In this vein we propose a more general and relaxed framework than typically applied, formulated by imposing constraints on the function classes applied. Within this framework, we establish partial identifiability results under weaker conditions, including scenarios where only a subset of causal influences change. We then extend our analysis to a broader class of latent post-nonlinear models. Building on these theoretical insights, we develop a flexible method for learning latent causal representations. We demonstrate the effectiveness of our approach on synthetic and semi-synthetic datasets, and further showcase its applicability in a case study on human motion analysis, a complex real-world domain that also highlights the potential to broaden the practical reach of identifiable CRL models.",
+ "primary": "cs.LG"
+}

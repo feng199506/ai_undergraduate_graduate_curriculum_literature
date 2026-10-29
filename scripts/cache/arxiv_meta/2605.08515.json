@@ -1,0 +1,19 @@
+{
+ "id": "2605.08515",
+ "title": "Quantile-Coupled Flow Matching for Distributional Reinforcement Learning",
+ "authors": [
+  "Michael Groom",
+  "Victor-Alexandru Darvariu",
+  "Lars Kunze",
+  "James Wilson",
+  "Nick Hawes"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Unlike standard expected-return Reinforcement Learning (RL), Distributional RL (DRL) models the full return distribution, making it better-suited for uncertainty-aware and risk-sensitive decision-making. Conditional Flow Matching (CFM) critics have recently attracted attention for modelling continuous, multi-modal return distributions. Despite this interest, there remains a substantial metric mismatch: DRL theory relies on the distributional Bellman operator being contractive in the $p$-Wasserstein distance, yet existing CFM critics are trained with arbitrary source-target couplings, so their flow-matching losses are not Wasserstein-aligned surrogates for matching Bellman target return distributions. In this work, we address this mismatch by proposing FlowIQN, a CFM critic that sorts source and Bellman target samples within each mini-batch to approximate the monotone optimal transport coupling, replacing arbitrary pairings with quantile-aligned flow paths. We prove that the loss of our quantile-coupled CFM critic yields a Wasserstein-aligned approximate projection compatible with the foundations of DRL. To our knowledge, FlowIQN is the first flow-matching distributional critic with an explicit Wasserstein-aligned projection guarantee. We further extend FlowIQN with shortcut models for efficient inference. Empirical results show that FlowIQN improves Wasserstein return-distribution accuracy over other CFM critics. It also yields competitive performance on offline RL benchmarks across multiple policy extraction methods, providing a theoretically grounded CFM critic that is readily compatible with DRL pipelines. Code: https://github.com/ori-goals/flowIQN.",
+ "primary": "cs.LG"
+}

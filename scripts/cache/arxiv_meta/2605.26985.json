@@ -1,0 +1,17 @@
+{
+ "id": "2605.26985",
+ "title": "A Unified Primal-Dual Recipe for Accelerating Three-Operator Splitting Methods",
+ "authors": [
+  "Abdurakhmon Sadiev",
+  "Laurent Condat",
+  "Peter Richtárik"
+ ],
+ "v1_date": "2026-05-26",
+ "latest_version": 1,
+ "latest_date": "2026-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Composite optimization problems, formulated as the minimization of three functions, are ubiquitous in large-scale machine learning and signal processing. While state-of-the-art splitting methods such as Condat-Vũ (CV) [Condat, 2013, Vũ, 2013], Primal-Dual Davis-Yin (PDDY) [Salim et al., 2022b], and Primal-Dual Twice Reflected (PDTR) [Malitsky and Tam, 2026] are highly versatile, they inherently exhibit non-accelerated convergence rates. Existing accelerated primal-dual splitting results either focus on special structures like one of the functions being zero, or linearly constrained problems, or smooth regimes, or directly use Nesterov-type momentum. Our contribution is a unified Bregman primal-dual framework that yields four variants and a common Lyapunov analysis. By applying the Chambolle-Pock algorithm [Chambolle and Pock, 2011] to primal-dual reformulations, we systematically derive four novel accelerated algorithms: Accelerated Condat-Vũ (ACV-I and ACV-II) and Accelerated Primal-Dual Twice Reflected (APDTR-I and APDTR-II). Through a simplified Lyapunov-based analysis, we establish iteration complexities for both smooth and nonsmooth cases, successfully removing the restrictive assumptions restrictions required by prior works.",
+ "primary": "math.OC"
+}

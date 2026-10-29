@@ -1,0 +1,16 @@
+{
+ "id": "2604.12783",
+ "title": "A Bayes-Factor-Guided Approach to Post-Double Selection with Bootstrapped Multiple Imputation",
+ "authors": [
+  "Johannes Bleher",
+  "Claudia Tarantola"
+ ],
+ "v1_date": "2026-04-14",
+ "latest_version": 2,
+ "latest_date": "2026-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 8 figures, 11 tables",
+ "abstract": "When variable selection methods are applied to bootstrapped and multiply imputed datasets, the set of selected variables typically varies across iterations. Aggregating results via the union rule can lead to overly dense models. We propose a sequential evidence aggregation procedure that models detection outcomes across perturbation iterations as Bernoulli trials and accumulates evidence for variable relevance through a likelihood-ratio process admitting an approximate Bayes-factor interpretation. The procedure provides both a variable inclusion criterion and a stopping rule that eliminates the need to fix the number of bootstrap-imputation iterations ex ante. A Monte Carlo study across 126 scenarios and an empirical illustration demonstrate the method's performance relative to existing aggregation approaches.",
+ "primary": "stat.ME"
+}

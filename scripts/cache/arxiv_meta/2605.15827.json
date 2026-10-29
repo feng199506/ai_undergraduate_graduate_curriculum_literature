@@ -1,0 +1,21 @@
+{
+ "id": "2605.15827",
+ "title": "Caesar: A Deductive Verifier for Probabilistic Programs",
+ "authors": [
+  "Philipp Schröer",
+  "Kevin Batz",
+  "Umut Yiğit Dural",
+  "Darion Haase",
+  "Benjamin Lucien Kaminski",
+  "Joost-Pieter Katoen",
+  "Christoph Matheja"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To be published at CAV2026",
+ "abstract": "Caesar is a deductive verifier for probabilistic programs. At its core lies HeyVL, a quantitative intermediate verification language based on the real-valued logic HeyLo. HeyVL allows users to express a probabilistic program, its specifications, and proof rules in a programming-language style, so that new proof rules can be easily integrated into the verifier. Caesar translates HeyVL programs into verification conditions, which are then checked using the Z3 SMT solver. It also includes a backend based on probabilistic model checking for a subset of HeyVL. We report on the results of five years of development of Caesar, highlighting its main features and architecture. In particular, we describe recent improvements such as additional proof rules, a model-checking backend, and better diagnostics.",
+ "primary": "cs.PL"
+}

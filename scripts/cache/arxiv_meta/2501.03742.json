@@ -1,0 +1,18 @@
+{
+ "id": "2501.03742",
+ "title": "Computing accurate eigenvalues using a mixed-precision Jacobi algorithm",
+ "authors": [
+  "Nicholas J. Higham",
+  "Françoise Tisseur",
+  "Marcus Webb",
+  "Zhengbo Zhou"
+ ],
+ "v1_date": "2025-01-07",
+ "latest_version": 5,
+ "latest_date": "2025-08-18",
+ "journal_ref": "",
+ "doi": "10.1137/25m1723748",
+ "comment": "27 pages",
+ "abstract": "We provide a rounding error analysis of a mixed-precision preconditioned Jacobi algorithm, which uses low precision to compute the preconditioner, applies it at high precision (amounting to two matrix-matrix multiplications) and solves the eigenproblem using the Jacobi algorithm at working precision. Our analysis yields meaningfully smaller relative forward error bounds for the computed eigenvalues compared with those of the Jacobi algorithm. We further prove that, after preconditioning, if the off-diagonal entries of the preconditioned matrix are sufficiently small relative to its smallest diagonal entry, the relative forward error bound is independent of the condition number of the original matrix. We present two constructions for the preconditioner that exploit low precision, along with their error analyses. Our numerical experiments confirm our theoretical results and compare the relative forward error of the proposed algorithm with the Jacobi algorithm, a preconditioned Jacobi algorithm, and MATLAB's $\\texttt{eig}$ function. Timings using Julia suggest that the dominant cost of obtaining this level of accuracy comes from the high precision matrix-matrix multiplies; if support in software or hardware for this were improved, then this would become a negligible cost.",
+ "primary": "math.NA"
+}

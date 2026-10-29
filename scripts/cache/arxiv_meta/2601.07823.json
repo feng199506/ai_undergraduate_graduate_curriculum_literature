@@ -1,0 +1,26 @@
+{
+ "id": "2601.07823",
+ "title": "Robotic Video World Models: A Survey of Applications, Research Challenges, Future Directions",
+ "authors": [
+  "Zhiting Mei",
+  "Tenny Yin",
+  "Ola Shorinwa",
+  "Apurva Badithela",
+  "Zhonghe Zheng",
+  "Joseph Bruno",
+  "Madison Bland",
+  "Lihan Zha",
+  "Asher Hancock",
+  "Jaime Fernández Fisac",
+  "Philip Dames",
+  "Anirudha Majumdar"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 2,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Video world models have emerged as promising candidates for high-fidelity world models, offering the potential to synthesize high-quality videos capturing fine-grained interactions between agents and their environments conditioned on multi-modal user inputs. Their impressive capabilities address many of the long-standing challenges faced by physics-based simulators, driving broad adoption in many problem domains, e.g., robotics. For example, video models can generate photorealistic, physically consistent deformable-body simulation without making prohibitive simplifying assumptions, which is a major bottleneck in physics-based simulation. Moreover, video models can serve as foundation world models that capture the dynamics of the world in a fine-grained and expressive way. They thus overcome the limited expressiveness of language-only abstractions in describing intricate physical interactions. However, despite their potential, video models still generate physics-violating future predictions, often manifesting as hallucinations. In this survey, we provide a review of video models and their applications as embodied world models in robotics, including efficient data generation and policy learning, dynamics and rewards modeling in reinforcement learning, policy evaluation, and visual planning. Further, we highlight important challenges hindering the trustworthy integration of video models, such as poor instruction following, hallucinations like violations of physics, unsafe content generation, in addition to significant data and compute overhead. We present potential future directions to address these open research challenges to motivate research and ultimately facilitate broader applications, especially in safety-critical settings. We provide a curated bibliography at https://github.com/irom-princeton/awesome-robotics-video-world-model-papers .",
+ "primary": "eess.SY"
+}

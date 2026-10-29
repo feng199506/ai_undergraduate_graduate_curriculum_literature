@@ -1,0 +1,22 @@
+{
+ "id": "2602.04525",
+ "title": "SLUM-i: Semi-supervised Learning for Urban Mapping of Informal Settlements and Data Quality Benchmarking",
+ "authors": [
+  "Muhammad Taha Mukhtar",
+  "Syed Musa Ali Kazmi",
+  "Khola Naseem",
+  "Muhammad Ali Chattha",
+  "Andreas Dengel",
+  "Sheraz Ahmed",
+  "Muhammad Naseer Bajwa",
+  "Muhammad Imran Malik"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 3,
+ "latest_date": "2026-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Very-high-resolution remote-sensing imagery provides a scalable basis for delineating informal settlements, but sparse annotations, severe imbalance between informal-settlement and background pixels, and cross-city heterogeneity in urban morphology and image--mask correspondence complicate model development. We present SLUM-i, a semi-supervised semantic segmentation framework together with a geographically diverse seven-city Earth observation benchmark spanning three continents. The benchmark combines a newly annotated Lahore dataset and companion Karachi and Mumbai datasets with four publicly released city datasets, totaling 14,458 RGB image--mask tiles. We quantify cross-city heterogeneity using class composition, boundary morphology, grayscale separability, correspondence between mask boundaries and image edges, and divergence between measured feature distributions. For label-efficient mapping, SLUM-i combines representation-guided unlabeled-pool curation, using embeddings from a vision foundation model (DINOv2-Small) to remove the least-similar tiles, and Class-Aware Adaptive Thresholding, which adapts pseudo-label acceptance by class through global mean-confidence and per-class mean-softmax exponential moving averages. Experiments at 10%, 20%, and 30% label budgets, using convolutional and vision-transformer backbones and five random seeds, demonstrate improvements over the corresponding UniMatch baselines in multiple city--budget settings, reaching +5.9 percentage points in mean intersection-over-union. At the 30% budget, the ResNet-101 configuration matches or exceeds its corresponding fully labeled supervised baseline in four of seven cities. Both components operate only during training and add no inference overhead.",
+ "primary": "cs.CV"
+}

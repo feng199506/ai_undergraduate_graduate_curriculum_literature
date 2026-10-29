@@ -1,0 +1,17 @@
+{
+ "id": "2610.16506",
+ "title": "Locally adaptive step sizes for Hamiltonian Monte Carlo methods",
+ "authors": [
+  "Jimmy Huy Tran",
+  "Tore Selland Kleppe",
+  "Nawaf Bou-Rabee"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Exact reversible locally adaptive step sizes are introduced by Bou-Rabee et al. (2026) in the context of the No-U-Turn Hamiltonian Monte Carlo (HMC) sampler for the purpose of high performance HMC sampling in challenging target distributions. This paper carefully explains and illustrates the locally adaptive step size procedure under more general assumptions. Alternative error measures are introduced with the aim of further enhancing MCMC performance by reducing the prevalence of reversibility failure rejections. In addition, the paper shows how to introduce the locally adaptive step sizes also within standard HMC and Metropolis-corrected kinetic Langevin/generalized HMC (GHMC). Finally, a numerical study of the relative merits of the proposed error measures in the context of different Hamiltonian flow-based MCMC methods is provided.",
+ "primary": "stat.CO"
+}

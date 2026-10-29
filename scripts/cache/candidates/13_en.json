@@ -43,6 +43,11 @@
     "subtopic": "强化学习综述与教程",
     "q": "(ti:tutorial OR ti:introduction OR ti:primer OR ti:\"lecture notes\") AND abs:\"reinforcement learning\" AND cat:cs.LG",
     "rank": 10
+   },
+   {
+    "subtopic": "离线强化学习",
+    "q": "ti:\"offline reinforcement learning\" AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+    "rank": 0
    }
   ]
  },
@@ -677,6 +682,11 @@
     "subtopic": "强化学习综述与教程",
     "q": "(ti:tutorial OR ti:introduction OR ti:primer OR ti:\"lecture notes\") AND abs:\"reinforcement learning\" AND cat:cs.LG",
     "rank": 8
+   },
+   {
+    "subtopic": "最优控制与模型预测控制",
+    "q": "(ti:\"learning-based control\" OR ti:\"learning for control\" OR ti:\"data-driven control\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
    }
   ]
  },
@@ -695,6 +705,11 @@
     "subtopic": "强化学习综述与教程",
     "q": "(ti:tutorial OR ti:introduction OR ti:primer OR ti:\"lecture notes\") AND abs:\"reinforcement learning\" AND cat:cs.LG",
     "rank": 11
+   },
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "abs:\"Markov decision process\" AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:\"lecture notes\")",
+    "rank": 2
    }
   ]
  },
@@ -2673,6 +2688,11 @@
     "subtopic": "模型式强化学习与世界模型",
     "q": "abs:\"world model\" AND abs:\"reinforcement learning\" AND cat:cs.LG",
     "rank": 13
+   },
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 21
    }
   ]
  },
@@ -2741,6 +2761,11 @@
     "subtopic": "多智能体强化学习",
     "q": "(ti:\"multi-agent reinforcement learning\") AND (ti:survey OR ti:review OR ti:tutorial OR abs:benchmark)",
     "rank": 32
+   },
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 8
    }
   ]
  },
@@ -4049,6 +4074,11 @@
     "subtopic": "多智能体强化学习",
     "q": "(ti:\"multi-agent reinforcement learning\") AND (ti:survey OR ti:review OR ti:tutorial OR abs:benchmark)",
     "rank": 33
+   },
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 10
    }
   ]
  },
@@ -4351,6 +4381,11 @@
     "subtopic": "评测基准与实验方法",
     "q": "ti:\"reinforcement learning\" AND (ti:benchmark OR ti:library OR ti:environments) AND cat:cs.LG",
     "rank": 4
+   },
+   {
+    "subtopic": "离线强化学习",
+    "q": "ti:\"offline reinforcement learning\" AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+    "rank": 2
    }
   ]
  },
@@ -4945,6 +4980,906 @@
     "subtopic": "逆强化学习与奖励设计",
     "q": "(ti:\"inverse reinforcement learning\" OR ti:\"imitation learning\" OR ti:\"reward\") AND (ti:survey OR ti:review OR ti:tutorial)",
     "rank": 25
+   }
+  ]
+ },
+ "2412.05528": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "abs:\"Markov decision process\" AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:\"lecture notes\")",
+    "rank": 0
+   }
+  ]
+ },
+ "2610.30789": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "abs:\"Markov decision process\" AND (ti:introduction OR ti:tutorial OR ti:primer OR ti:\"lecture notes\")",
+    "rank": 1
+   }
+  ]
+ },
+ "2412.04882": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 0
+   }
+  ]
+ },
+ "2406.03485": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 1
+   }
+  ]
+ },
+ "2407.10454": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 2
+   }
+  ]
+ },
+ "2505.01828": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 3
+   }
+  ]
+ },
+ "2405.12952": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 4
+   }
+  ]
+ },
+ "2512.11082": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 5
+   }
+  ]
+ },
+ "2404.10546": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 6
+   }
+  ]
+ },
+ "2406.09592": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 7
+   }
+  ]
+ },
+ "2311.11166": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 8
+   }
+  ]
+ },
+ "2502.03244": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 9
+   }
+  ]
+ },
+ "2406.10920": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 11
+   }
+  ]
+ },
+ "2504.01174": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 12
+   }
+  ]
+ },
+ "2506.07134": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 13
+   }
+  ]
+ },
+ "2405.06689": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 14
+   }
+  ]
+ },
+ "2503.16192": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 15
+   }
+  ]
+ },
+ "2606.01952": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 16
+   }
+  ]
+ },
+ "2512.12088": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 17
+   }
+  ]
+ },
+ "2606.15978": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 18
+   }
+  ]
+ },
+ "2501.13394": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 19
+   }
+  ]
+ },
+ "2510.23914": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 20
+   }
+  ]
+ },
+ "2512.18763": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 21
+   }
+  ]
+ },
+ "2404.19346": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 22
+   }
+  ]
+ },
+ "2605.10671": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 23
+   }
+  ]
+ },
+ "2406.08404": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 24
+   }
+  ]
+ },
+ "2604.04394": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 25
+   }
+  ]
+ },
+ "2606.10580": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 26
+   }
+  ]
+ },
+ "2603.26464": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 27
+   }
+  ]
+ },
+ "2605.07116": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 28
+   }
+  ]
+ },
+ "2512.06218": {
+  "hits": [
+   {
+    "subtopic": "动态规划与马尔可夫决策过程",
+    "q": "(ti:\"value iteration\" OR ti:\"policy iteration\" OR ti:\"approximate dynamic programming\") AND cat:cs.LG",
+    "rank": 29
+   }
+  ]
+ },
+ "2311.10832": {
+  "hits": [
+   {
+    "subtopic": "探索与样本效率",
+    "q": "ti:exploration AND abs:\"reinforcement learning\" AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 0
+   }
+  ]
+ },
+ "2503.09956": {
+  "hits": [
+   {
+    "subtopic": "探索与样本效率",
+    "q": "ti:exploration AND abs:\"reinforcement learning\" AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 1
+   }
+  ]
+ },
+ "2409.00328": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 0
+   }
+  ]
+ },
+ "2506.03333": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 1
+   }
+  ]
+ },
+ "2602.05783": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 2
+   }
+  ]
+ },
+ "2605.08104": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 3
+   }
+  ]
+ },
+ "2605.30160": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 4
+   }
+  ]
+ },
+ "2507.12657": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 5
+   }
+  ]
+ },
+ "2605.08182": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 6
+   }
+  ]
+ },
+ "2605.31222": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 7
+   }
+  ]
+ },
+ "2608.12973": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 8
+   }
+  ]
+ },
+ "2504.03804": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 9
+   }
+  ]
+ },
+ "2604.04334": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 10
+   }
+  ]
+ },
+ "2603.17820": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 11
+   }
+  ]
+ },
+ "2407.14175": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 12
+   }
+  ]
+ },
+ "2605.08515": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 13
+   }
+  ]
+ },
+ "2610.29595": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 14
+   }
+  ]
+ },
+ "2607.11607": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 15
+   }
+  ]
+ },
+ "2605.08253": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 16
+   }
+  ]
+ },
+ "2510.08526": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 17
+   }
+  ]
+ },
+ "2407.13146": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 18
+   }
+  ]
+ },
+ "2402.07598": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 19
+   }
+  ]
+ },
+ "2607.08444": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 20
+   }
+  ]
+ },
+ "2409.16764": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 21
+   }
+  ]
+ },
+ "2312.07025": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 22
+   }
+  ]
+ },
+ "2402.18159": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 23
+   }
+  ]
+ },
+ "2410.11022": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 24
+   }
+  ]
+ },
+ "2604.00977": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 25
+   }
+  ]
+ },
+ "2510.15006": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 26
+   }
+  ]
+ },
+ "2602.00051": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 27
+   }
+  ]
+ },
+ "2408.12446": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 28
+   }
+  ]
+ },
+ "2604.08620": {
+  "hits": [
+   {
+    "subtopic": "值函数方法与时序差分",
+    "q": "ti:\"distributional reinforcement learning\"",
+    "rank": 29
+   }
+  ]
+ },
+ "2407.11069": {
+  "hits": [
+   {
+    "subtopic": "最优控制与模型预测控制",
+    "q": "(ti:\"learning-based control\" OR ti:\"learning for control\" OR ti:\"data-driven control\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 1
+   }
+  ]
+ },
+ "2609.16074": {
+  "hits": [
+   {
+    "subtopic": "最优控制与模型预测控制",
+    "q": "(ti:\"learning-based control\" OR ti:\"learning for control\" OR ti:\"data-driven control\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 2
+   }
+  ]
+ },
+ "2602.00399": {
+  "hits": [
+   {
+    "subtopic": "最优控制与模型预测控制",
+    "q": "(ti:\"learning-based control\" OR ti:\"learning for control\" OR ti:\"data-driven control\") AND (ti:survey OR ti:review OR ti:tutorial)",
+    "rank": 3
+   }
+  ]
+ },
+ "2506.02883": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "ti:\"offline reinforcement learning\" AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+    "rank": 1
+   }
+  ]
+ },
+ "2607.21111": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "ti:\"offline reinforcement learning\" AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+    "rank": 3
+   }
+  ]
+ },
+ "2606.07550": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "ti:\"offline reinforcement learning\" AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+    "rank": 4
+   }
+  ]
+ },
+ "2404.02429": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "ti:\"offline reinforcement learning\" AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+    "rank": 5
+   }
+  ]
+ },
+ "2408.10556": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "ti:\"offline reinforcement learning\" AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+    "rank": 6
+   }
+  ]
+ },
+ "2503.19267": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "ti:\"offline reinforcement learning\" AND (ti:survey OR ti:review OR ti:benchmark OR ti:tutorial)",
+    "rank": 7
+   }
+  ]
+ },
+ "2506.21495": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 0
+   }
+  ]
+ },
+ "2601.02850": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 1
+   }
+  ]
+ },
+ "2405.20984": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 2
+   }
+  ]
+ },
+ "2512.10510": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 3
+   }
+  ]
+ },
+ "2503.18787": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 4
+   }
+  ]
+ },
+ "2508.06806": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 5
+   }
+  ]
+ },
+ "2406.02696": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 6
+   }
+  ]
+ },
+ "2605.11151": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 7
+   }
+  ]
+ },
+ "2410.18626": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 9
+   }
+  ]
+ },
+ "2502.02332": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 10
+   }
+  ]
+ },
+ "2511.09681": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 11
+   }
+  ]
+ },
+ "2512.00352": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 12
+   }
+  ]
+ },
+ "2509.12867": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 13
+   }
+  ]
+ },
+ "2312.02355": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 14
+   }
+  ]
+ },
+ "2402.05963": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 15
+   }
+  ]
+ },
+ "2610.31812": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 16
+   }
+  ]
+ },
+ "2608.07086": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 17
+   }
+  ]
+ },
+ "2512.20115": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 18
+   }
+  ]
+ },
+ "2605.05123": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 19
+   }
+  ]
+ },
+ "2510.00819": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 20
+   }
+  ]
+ },
+ "2603.18444": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 22
+   }
+  ]
+ },
+ "2604.08958": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 23
+   }
+  ]
+ },
+ "2501.16443": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 24
+   }
+  ]
+ },
+ "2509.01720": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 25
+   }
+  ]
+ },
+ "2608.17347": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 26
+   }
+  ]
+ },
+ "2509.25756": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 27
+   }
+  ]
+ },
+ "2410.02581": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 28
+   }
+  ]
+ },
+ "2512.14031": {
+  "hits": [
+   {
+    "subtopic": "离线强化学习",
+    "q": "(ti:\"offline-to-online\" OR ti:\"sample-efficient\") AND ti:\"reinforcement learning\" AND abs:benchmark",
+    "rank": 29
    }
   ]
  }

@@ -1,0 +1,19 @@
+{
+ "id": "2406.05216",
+ "title": "TabPFGen -- Tabular Data Generation with TabPFN",
+ "authors": [
+  "Junwei Ma",
+  "Apoorv Dankar",
+  "George Stein",
+  "Guangwei Yu",
+  "Anthony Caterini"
+ ],
+ "v1_date": "2024-06-07",
+ "latest_version": 1,
+ "latest_date": "2024-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Advances in deep generative modelling have not translated well to tabular data. We argue that this is caused by a mismatch in structure between popular generative models and discriminative models of tabular data. We thus devise a technique to turn TabPFN -- a highly performant transformer initially designed for in-context discriminative tabular tasks -- into an energy-based generative model, which we dub TabPFGen. This novel framework leverages the pre-trained TabPFN as part of the energy function and does not require any additional training or hyperparameter tuning, thus inheriting TabPFN's in-context learning capability. We can sample from TabPFGen analogously to other energy-based models. We demonstrate strong results on standard generative modelling tasks, including data augmentation, class-balancing, and imputation, unlocking a new frontier of tabular data generation.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2601.11590",
+ "title": "EPD-Serve: A Flexible Multimodal EPD Disaggregation Inference Serving System On Ascend",
+ "authors": [
+  "Fan Bai",
+  "Pai Peng",
+  "Zhengzhi Tang",
+  "Zhe Wang",
+  "Gong Chen",
+  "Xiang Lu",
+  "Yinuo Li",
+  "Huan Lin",
+  "Weizhe Lin",
+  "Yaoyuan Wang",
+  "Xiaosong Li"
+ ],
+ "v1_date": "2026-01-05",
+ "latest_version": 1,
+ "latest_date": "2026-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the widespread adoption of large multimodal models, efficient inference across text, image, audio, and video modalities has become critical. However, existing multimodal inference systems typically employ monolithic architectures that tightly couple the Encode, Prefill, and Decode stages on homogeneous hardware, neglecting the heterogeneous computational characteristics of each stage. This design leads to inefficient resource utilization and limited system throughput. To address these issues, we propose EPD-Serve, a stage-level disaggregated inference serving system for multimodal models. EPD-Serve decouples the inference pipeline into independent Encode, Prefill, and Decode stages, enabling logical isolation and flexible co-located deployment through dynamic orchestration. Leveraging the Ascend interconnect topology, EPD-Serve introduces asynchronous feature prefetching between Encode and Prefill stages and a hierarchical grouped KV cache transmission mechanism between Prefill and Decode stages to improve cross-node communication efficiency. In addition, EPD-Serve incorporates multi-route scheduling, instance-level load balancing, and multi-stage hardware co-location with spatial multiplexing to better support diverse multimodal workloads. Comprehensive experiments on multimodal understanding models demonstrate that, under high-concurrency scenarios, EPD-Serve improves end-to-end throughput by 57.37-69.48% compared to PD-disaggregated deployment, while satisfying strict SLO constraints, including TTFT below 2000 ms and TPOT below 50 ms. These results highlight the effectiveness of stage-level disaggregation for optimizing multimodal large model inference systems.",
+ "primary": "cs.DC"
+}

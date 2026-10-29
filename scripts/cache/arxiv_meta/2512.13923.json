@@ -1,0 +1,17 @@
+{
+ "id": "2512.13923",
+ "title": "DAMA: A Unified Accelerated Approach for Decentralized Nonconvex Minimax Optimization-Part II: Convergence and Performance Analyses",
+ "authors": [
+  "Haoyuan Cai",
+  "Sulaiman A. Alghunaim",
+  "Ali H. Sayed"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 1,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In Part I of this work [1], we developed an accelerated algorithmic framework, DAMA (Decentralized Accelerated Minimax Approach), for nonconvex Polyak-Lojasiewicz (PL) minimax optimization over decentralized multi-agent networks. To further enhance convergence in online and offline scenarios, Part I of this work [1] also proposed a novel accelerated gradient estimator, namely, GRACE (GRadient ACceleration Estimator), which unifies several momentum-based methods (e.g., STORM) and loopless variance-reduction techniques (e.g., PAGE, Loopless SARAH), thereby enabling accelerated gradient updates within DAMA. Part I reported a unified performance bound for DAMA and refined guarantees for specific algorithmic instances, demonstrating the superior performance of several new variants on sparsely connected networks. In this Part II, we focus on the convergence and performance bounds that substantiate the main results presented in Part I [1]. In particular, we establish a unified performance bound for DAMA using the transformed recursion derived in Part I and subsequently refine this bound for its various special cases.",
+ "primary": "math.OC"
+}

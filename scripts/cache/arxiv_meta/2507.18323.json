@@ -1,0 +1,18 @@
+{
+ "id": "2507.18323",
+ "title": "SemiSegECG: A Multi-Dataset Benchmark for Semi-Supervised Semantic Segmentation in ECG Delineation",
+ "authors": [
+  "Minje Park",
+  "Jeonghwa Lim",
+  "Taehyung Yu",
+  "Sunghoon Joo"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 2,
+ "latest_date": "2025-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by CIKM 2025. The code is available at https://github.com/bakqui/semi-seg-ecg",
+ "abstract": "Electrocardiogram (ECG) delineation, the segmentation of meaningful waveform features, is critical for clinical diagnosis. Despite recent advances using deep learning, progress has been limited by the scarcity of publicly available annotated datasets. Semi-supervised learning presents a promising solution by leveraging abundant unlabeled ECG data. In this study, we present SemiSegECG, the first systematic benchmark for semi-supervised semantic segmentation (SemiSeg) in ECG delineation. We curated and unified multiple public datasets, including previously underused sources, to support robust and diverse evaluation. We adopted five representative SemiSeg algorithms from computer vision, implemented them on two different architectures: the convolutional network and the transformer, and evaluated them in two different settings: in-domain and cross-domain. Additionally, we propose ECG-specific training configurations and augmentation strategies and introduce a standardized evaluation framework. Our results show that the transformer outperforms the convolutional network in semi-supervised ECG delineation. We anticipate that SemiSegECG will serve as a foundation for advancing semi-supervised ECG delineation methods and will facilitate further research in this domain.",
+ "primary": "cs.CV"
+}

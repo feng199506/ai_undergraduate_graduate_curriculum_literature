@@ -1,0 +1,19 @@
+{
+ "id": "2610.20908",
+ "title": "Replicable Dueling Bandits",
+ "authors": [
+  "Rohan Deb",
+  "Aadirupa Saha",
+  "Udaya Ghai",
+  "Karan Singh",
+  "Arindam Banerjee"
+ ],
+ "v1_date": "2026-10-14",
+ "latest_version": 1,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dueling bandits choose each comparison based on earlier noisy outcomes, so two runs on the same preferences can compare different pairs. We study replicable dueling bandits, where two executions with shared internal randomness and independent comparison outcomes must select the same ordered pair in every round with probability at least $1-ρ$. Building on Beat-the-Mean, whose scores change as arms are eliminated and need not rank the best arm highest, we design the first such algorithms with sublinear regret. Under relaxed stochastic transitivity with parameter $γ\\ge 1$ and the stochastic triangle inequality, we design an algorithm that achieves expected regret $\\widetilde{O}(γ^8 K^4 H_{\\mathrm{p}}/ρ^2)$, where $H_{\\mathrm{p}}=\\sum_{i=2}^{K}(P_{1i}-1/2)^{-1}$. Under strong stochastic transitivity, we design an algorithm based on simultaneous elimination that improves the dependence on $K$ and achieves $\\widetilde{O}(K^2 H_{\\mathrm{p}}/ρ^2)$ regret. For linear dueling bandits, we design an algorithm that achieves regret $\\widetilde{O}(d^3\\sqrt{T}/(c_μρ))$. Experiments on synthetic and language-model preferences show replicability, with sublinear regret.",
+ "primary": "cs.LG"
+}

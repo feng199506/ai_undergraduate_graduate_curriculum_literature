@@ -1,0 +1,17 @@
+{
+ "id": "2606.24514",
+ "title": "Exact Evaluation of Probabilistic Programs with Cylindrical Algebraic Decomposition",
+ "authors": [
+  "Fredrik Dahlqvist",
+  "Mohamed Hamza Bandukara",
+  "Niki Omidvari"
+ ],
+ "v1_date": "2026-06-23",
+ "latest_version": 1,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Full version of QEST+FORMATS 2026 paper",
+ "abstract": "We present a method for computing the exact output distribution of small programs with random inputs. Specifically, we are interested in inline programs manipulating sensor data such as \\eg GPS or inertial measurement sensors whose inputs have a known or well-modelled distribution. These programs typically only include relatively few variables, arithmetic operations, square roots and if-else statements. This small syntax allows us to recast the problem of computing the exact output distribution as a cylindrical algebraic decomposition problem followed by symbolic and/or numerical integration. We present this method in detail and show with two prototypes that it can successfully be applied to benchmarks from the literature on floating-point arithmetic and small programs from open-source sensor libraries.",
+ "primary": "cs.SC"
+}

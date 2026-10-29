@@ -1,0 +1,17 @@
+{
+ "id": "2404.01076",
+ "title": "Debiased calibration estimation using generalized entropy in survey sampling",
+ "authors": [
+  "Yonghyun Kwon",
+  "Jae Kwang Kim",
+  "Yumou Qiu"
+ ],
+ "v1_date": "2024-04-01",
+ "latest_version": 4,
+ "latest_date": "2025-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Incorporating the auxiliary information into the survey estimation is a fundamental problem in survey sampling. Calibration weighting is a popular tool for incorporating the auxiliary information. The calibration weighting method of Deville and Sarndal (1992) uses a distance measure between the design weights and the final weights to solve the optimization problem with calibration constraints. This paper introduces a novel framework that leverages generalized entropy as the objective function for optimization, where design weights play a role in the constraints to ensure design consistency, rather than being part of the objective function. This innovative calibration framework is particularly attractive due to its generality and its ability to generate more efficient calibration weights compared to traditional methods based on Deville and Sarndal (1992). Furthermore, we identify the optimal choice of the generalized entropy function that achieves the minimum variance across various choices of the generalized entropy function under the same constraints. Asymptotic properties, such as design consistency and asymptotic normality, are presented rigorously. The results from a limited simulation study are also presented. We demonstrate a real-life application using agricultural survey data collected from Kynetec, Inc.",
+ "primary": "stat.ME"
+}

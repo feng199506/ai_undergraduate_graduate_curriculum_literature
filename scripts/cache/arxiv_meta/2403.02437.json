@@ -1,0 +1,17 @@
+{
+ "id": "2403.02437",
+ "title": "A Survey on Federated Unlearning: Challenges and Opportunities",
+ "authors": [
+  "Hyejun Jeong",
+  "Shiqing Ma",
+  "Amir Houmansadr"
+ ],
+ "v1_date": "2024-03-04",
+ "latest_version": 3,
+ "latest_date": "2025-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Federated learning (FL), introduced in 2017, facilitates collaborative learning between non-trusting parties with no need for the parties to explicitly share their data among themselves. This allows training models on user data while respecting privacy regulations such as GDPR and CPRA. However, emerging privacy requirements may mandate model owners to be able to \\emph{forget} some learned data, e.g., when requested by data owners or law enforcement. This has given birth to an active field of research called \\emph{machine unlearning}. In the context of FL, many techniques developed for unlearning in centralized settings are not trivially applicable! This is due to the unique differences between centralized and distributed learning, in particular, interactivity, stochasticity, heterogeneity, and limited accessibility in FL. In response, a recent line of work has focused on developing unlearning mechanisms tailored to FL. This SoK paper aims to take a deep look at the \\emph{federated unlearning} literature, with the goal of identifying research trends and challenges in this emerging field. By carefully categorizing papers published on FL unlearning (since 2020), we aim to pinpoint the unique complexities of federated unlearning, highlighting limitations on directly applying centralized unlearning methods. We compare existing federated unlearning methods regarding influence removal and performance recovery, compare their threat models and assumptions, and discuss their implications and limitations. For instance, we analyze the experimental setup of FL unlearning studies from various perspectives, including data heterogeneity and its simulation, the datasets used for demonstration, and evaluation metrics. Our work aims to offer insights and suggestions for future research on federated unlearning.",
+ "primary": "cs.LG"
+}

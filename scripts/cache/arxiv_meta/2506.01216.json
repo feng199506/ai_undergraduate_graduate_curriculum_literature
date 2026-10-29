@@ -1,0 +1,19 @@
+{
+ "id": "2506.01216",
+ "title": "Real-time Light Curve Classification Framework for the Wide Field Survey Telescope Using Modified Semi-supervised Variational Auto-Encoder",
+ "authors": [
+  "Yongling Tang",
+  "Lulu Fan",
+  "Zhen Wan",
+  "Yating Liu",
+  "Yan Lu"
+ ],
+ "v1_date": "2025-06-01",
+ "latest_version": 1,
+ "latest_date": "2025-06-01",
+ "journal_ref": "AJ, 169, 304 (2025)",
+ "doi": "10.3847/1538-3881/adcac0",
+ "comment": "31 pages, 13 figures",
+ "abstract": "Modern time-domain astronomy will benefit from the vast data collected by survey telescopes. The 2.5 m Wide Field Survey Telescope (WFST), with its powerful capabilities, is promising to make significant contributions in the era of large sky surveys. To harness the full potential of the enormous amount of unlabeled light curve data that the WFST will collect, we have developed a semisupervised light curve classification framework. This framework showcases several unique features. First, it is optimized for classifying events based on the early phase of the light curve (three days after trigger), which can help identify interesting events early and enable efficient follow-up observations. Second, the semisupervised nature of our framework allows it to leverage valuable information from large volumes of unlabeled data, potentially bridging the gap between simulations and real observations and achieving better generalization in practical scenarios. Compared to the commonly used Recurrent Neural Network models, our framework has shown a 5.59% improvement in accuracy for early classification tasks, as well as improvements in precision and recall in almost all subclasses. Moreover, our approach provides a reconstructed light curve, along with a compact latent representation, offering a different perspective that can be used for further downstream tasks beyond classification. The code and model weights used in this work are maintained and publicly available on our GitHub repository.",
+ "primary": "astro-ph.IM"
+}

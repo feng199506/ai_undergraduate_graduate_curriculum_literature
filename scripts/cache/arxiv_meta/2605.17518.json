@@ -1,0 +1,22 @@
+{
+ "id": "2605.17518",
+ "title": "Integrating Bayesian Spectral Deconvolution and Expert Scientific Reasoning for Robust Peak Estimation",
+ "authors": [
+  "Hayato Okubo",
+  "Yoshifumi Amamoto",
+  "Toshimitsu Aritake",
+  "Hiroyuki Kumazoe",
+  "Shiryu Nakano",
+  "Evan Jamison",
+  "Satoshi Tanaka",
+  "Yoh-ichi Mototake"
+ ],
+ "v1_date": "2026-05-17",
+ "latest_version": 1,
+ "latest_date": "2026-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages, 26 figures",
+ "abstract": "Spectral deconvolution is essential for extracting peak structures that encode material properties and chemical structures, but conventional automated methods often fail when spectra contain high-intensity noise or unknown background components. In practice, scientists rarely interpret spectra in isolation. Instead, they identify physically meaningful peaks by relating spectral structures to auxiliary information such as physical-property values, chemical structures, and trends across related measurements. Here, we propose a Bayesian framework that integrates spectral deconvolution with a model of expert scientific reasoning. In this work, expert scientific reasoning refers to the practice of evaluating candidate spectral structures by their consistency with independently measured physical-property values, rather than to manual expert intervention during inference. We formalize this reasoning as a physical-property regression layer, implemented using Gaussian process regression, and couple it with Bayesian spectral deconvolution. By averaging the physical-property likelihood over posterior predictive spectra inferred from Bayesian spectral deconvolution, the proposed method selects spectral models according to the consistency between inferred spectral structures and physical-property information. We validate the framework using synthetic spectra with high-intensity noise or unknown backgrounds and infrared spectra of poly(lactic acid). The method recovers physically meaningful peak structures that conventional Bayesian spectral deconvolution misses or misidentifies from spectra alone, including weak peaks in poly(lactic acid) IR spectra related to measured degradation rates. These results demonstrate that integrating expert scientific reasoning with Bayesian spectral deconvolution enables robust peak estimation under conditions where spectrum-only inference is unreliable.",
+ "primary": "physics.data-an"
+}

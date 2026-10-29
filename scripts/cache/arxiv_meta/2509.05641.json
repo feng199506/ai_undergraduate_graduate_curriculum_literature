@@ -1,0 +1,18 @@
+{
+ "id": "2509.05641",
+ "title": "GUIDe: Generative and Uncertainty-Informed Inverse Design for On-Demand Nonlinear Functional Responses",
+ "authors": [
+  "Haoxuan Dylan Mu",
+  "Mingjian Tang",
+  "Wei Gao",
+  "Wei \"Wayne\" Chen"
+ ],
+ "v1_date": "2025-09-06",
+ "latest_version": 2,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 6 figures",
+ "abstract": "Inverse design is a common yet challenging engineering problem, particularly for nonlinear functional responses such as mechanical behavior or spectral analysis. Deep generative models are motivated by intractability, non-existence or non-uniqueness of solutions, and the need for rapid solution-space exploration. In this study, we show that deep generative model-based and optimization-based approaches can provide incomplete solutions or hallucinate given out-of-distribution targets. To address this, we propose the Generative and Uncertainty-informed Inverse Design (GUIDe) framework, which leverages probabilistic machine learning, statistical inference, and Markov chain Monte Carlo to generate designs with targeted nonlinear behaviors. Instead of inverse mappings, i.e., response $\\mapsto$ design, GUIDe adopts design $\\mapsto$ response: a forward model predicts each design's nonlinear functional response and evaluates the confidence under a user-specified tolerance. Sampling the solution space by this confidence yields diverse feasible designs. Our validation on nacre-inspired materials finds solutions beyond the training range, even under out-of-distribution targets.",
+ "primary": "cs.CE"
+}

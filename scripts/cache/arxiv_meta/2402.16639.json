@@ -1,0 +1,17 @@
+{
+ "id": "2402.16639",
+ "title": "Differentiable Particle Filtering using Optimal Placement Resampling",
+ "authors": [
+  "Domonkos Csuzdi",
+  "Olivér Törő",
+  "Tamás Bécsi"
+ ],
+ "v1_date": "2024-02-26",
+ "latest_version": 1,
+ "latest_date": "2024-02-26",
+ "journal_ref": "",
+ "doi": "10.1109/saci60582.2024.10619755",
+ "comment": "",
+ "abstract": "Particle filters are a frequent choice for inference tasks in nonlinear and non-Gaussian state-space models. They can either be used for state inference by approximating the filtering distribution or for parameter inference by approximating the marginal data (observation) likelihood. A good proposal distribution and a good resampling scheme are crucial to obtain low variance estimates. However, traditional methods like multinomial resampling introduce nondifferentiability in PF-based loss functions for parameter estimation, prohibiting gradient-based learning tasks. This work proposes a differentiable resampling scheme by deterministic sampling from an empirical cumulative distribution function. We evaluate our method on parameter inference tasks and proposal learning.",
+ "primary": "cs.LG"
+}

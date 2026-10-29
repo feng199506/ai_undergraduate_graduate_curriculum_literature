@@ -1,0 +1,16 @@
+{
+ "id": "2410.10924",
+ "title": "A Benchmark Suite for Evaluating Neural Mutual Information Estimators on Unstructured Datasets",
+ "authors": [
+  "Kyungeun Lee",
+  "Wonjong Rhee"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 1,
+ "latest_date": "2024-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2024",
+ "abstract": "Mutual Information (MI) is a fundamental metric for quantifying dependency between two random variables. When we can access only the samples, but not the underlying distribution functions, we can evaluate MI using sample-based estimators. Assessment of such MI estimators, however, has almost always relied on analytical datasets including Gaussian multivariates. Such datasets allow analytical calculations of the true MI values, but they are limited in that they do not reflect the complexities of real-world datasets. This study introduces a comprehensive benchmark suite for evaluating neural MI estimators on unstructured datasets, specifically focusing on images and texts. By leveraging same-class sampling for positive pairing and introducing a binary symmetric channel trick, we show that we can accurately manipulate true MI values of real-world datasets. Using the benchmark suite, we investigate seven challenging scenarios, shedding light on the reliability of neural MI estimators for unstructured datasets.",
+ "primary": "stat.ML"
+}

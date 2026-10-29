@@ -1,0 +1,17 @@
+{
+ "id": "2502.08364",
+ "title": "A Survey on Pre-Trained Diffusion Model Distillations",
+ "authors": [
+  "Xuhui Fan",
+  "Zhangkai Wu",
+  "Hongyu Wu"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 2,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion Models~(DMs) have emerged as the dominant approach in Generative Artificial Intelligence (GenAI), owing to their remarkable performance in tasks such as text-to-image synthesis. However, practical DMs, such as stable diffusion, are typically trained on massive datasets and thus usually require large storage. At the same time, many steps may be required, i.e., recursively evaluating the trained neural network, to generate a high-quality image, which results in significant computational costs during sample generation. As a result, distillation methods on pre-trained DM have become widely adopted practices to develop smaller, more efficient models capable of rapid, few-step generation in low-resource environment. When these distillation methods are developed from different perspectives, there is an urgent need for a systematic survey, particularly from a methodological perspective. In this survey, we review distillation methods through three aspects: output loss distillation, trajectory distillation and adversarial distillation. We also discuss current challenges and outline future research directions in the conclusion.",
+ "primary": "cs.LG"
+}

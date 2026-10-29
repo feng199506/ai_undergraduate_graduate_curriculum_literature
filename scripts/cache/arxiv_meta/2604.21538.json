@@ -1,0 +1,17 @@
+{
+ "id": "2604.21538",
+ "title": "On a class of constrained particle filters for continuous-discrete state space models",
+ "authors": [
+  "Utku Erdogan",
+  "Gabriel J. Lord",
+  "Joaquin Miguez"
+ ],
+ "v1_date": "2026-04-23",
+ "latest_version": 1,
+ "latest_date": "2026-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2512.11012",
+ "abstract": "Particle filters (PFs) are recursive Monte Carlo algorithms for Bayesian tracking and prediction in state space models. This paper addresses continuous-discrete filtering problems, where the hidden state evolves as an Itô stochastic differential equation (SDE) and observations arrive at discrete times. We propose a novel class of constrained PFs that enforce compact support on the state at each observation instant, thereby limiting exploration to plausible regions of the state space. Unlike earlier approaches that truncate the likelihood, the proposed method constrains the dynamics directly, yielding improved numerical stability. Under standard regularity assumptions, we prove convergence of the constrained filter, derive uniform-in-time error estimates, and extend the analysis to account for discretisation errors arising from numerical SDE solvers. A numerical study on a stochastic Lorenz-96 system demonstrates the practical application of the methodology when the constraint is implemented via barrier functions.",
+ "primary": "stat.CO"
+}

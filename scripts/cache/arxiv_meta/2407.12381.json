@@ -1,0 +1,18 @@
+{
+ "id": "2407.12381",
+ "title": "Flow Matching Imitation Learning for Multi-Support Manipulation",
+ "authors": [
+  "Quentin Rouxel",
+  "Andrea Ferrari",
+  "Serena Ivaldi",
+  "Jean-Baptiste Mouret"
+ ],
+ "v1_date": "2024-07-17",
+ "latest_version": 2,
+ "latest_date": "2024-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2024 IEEE-RAS 23rd International Conference on Humanoid Robots (Humanoids), Nov 2024, Nancy, France",
+ "abstract": "Humanoid robots could benefit from using their upper bodies for support contacts, enhancing their workspace, stability, and ability to perform contact-rich and pushing tasks. In this paper, we propose a unified approach that combines an optimization-based multi-contact whole-body controller with Flow Matching, a recently introduced method capable of generating multi-modal trajectory distributions for imitation learning. In simulation, we show that Flow Matching is more appropriate for robotics than Diffusion and traditional behavior cloning. On a real full-size humanoid robot (Talos), we demonstrate that our approach can learn a whole-body non-prehensile box-pushing task and that the robot can close dishwasher drawers by adding contacts with its free hand when needed for balance. We also introduce a shared autonomy mode for assisted teleoperation, providing automatic contact placement for tasks not covered in the demonstrations. Full experimental videos are available at: https://hucebot.github.io/flow_multisupport_website/",
+ "primary": "cs.RO"
+}

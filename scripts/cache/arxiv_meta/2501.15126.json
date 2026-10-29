@@ -1,0 +1,16 @@
+{
+ "id": "2501.15126",
+ "title": "Fully-Automated Code Generation for Efficient Computation of Sparse Matrix Permanents on GPUs",
+ "authors": [
+  "Deniz Elbek",
+  "Kamer Kaya"
+ ],
+ "v1_date": "2025-01-25",
+ "latest_version": 1,
+ "latest_date": "2025-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Registers are the fastest memory components within the GPU's complex memory hierarchy, accessed by names rather than addresses. They are managed entirely by the compiler through a process called register allocation, during which the compiler attempts to cache predictable data from thread-local memory into thread-private registers. Computing the permanent of a sparse matrix poses a challenge for compilers, as optimizing this process is hindered by the unpredictable distribution of nonzero elements, which only become known at runtime. In this work, we employ fully-automated code generation to address this, producing highly optimized kernels tailored to the matrix's sparsity pattern. State-of-the-art permanent computation algorithms require each thread to store a private array, denoted x, of size n. We first propose a technique that fully stores these arrays in registers, with inclusion and exclusion kernels generated for each column. To minimize control divergence and reduce the number of unique kernels within a warp, we exploit the internal structure of Gray codes, which are also used in the state-of-the-art algorithm. Our second technique reduces register pressure by utilizing both registers and global memory and introduces a matrix ordering and partitioning strategy for greater efficiency. On synthetic matrices, this approach achieves a 31x speedup over state-of-the-art CPU implementations on 112 cores, and an 8x speedup compared to our traditional GPU implementation. For real-world matrices, these speedups are 24.9x and 4.9x.",
+ "primary": "cs.DC"
+}

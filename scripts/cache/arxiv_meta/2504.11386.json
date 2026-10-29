@@ -1,0 +1,16 @@
+{
+ "id": "2504.11386",
+ "title": "Trajectory Encoding Temporal Graph Networks",
+ "authors": [
+  "Jiafeng Xiong",
+  "Rizos Sakellariou"
+ ],
+ "v1_date": "2025-04-15",
+ "latest_version": 1,
+ "latest_date": "2025-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal Graph Networks (TGNs) have demonstrated significant success in dynamic graph tasks such as link prediction and node classification. Both tasks comprise transductive settings, where the model predicts links among known nodes, and in inductive settings, where it generalises learned patterns to previously unseen nodes. Existing TGN designs face a dilemma under these dual scenarios. Anonymous TGNs, which rely solely on temporal and structural information, offer strong inductive generalisation but struggle to distinguish known nodes. In contrast, non-anonymous TGNs leverage node features to excel in transductive tasks yet fail to adapt to new nodes. To address this challenge, we propose Trajectory Encoding TGN (TETGN). Our approach introduces automatically expandable node identifiers (IDs) as learnable temporal positional features and performs message passing over these IDs to capture each node's historical context. By integrating this trajectory-aware module with a standard TGN using multi-head attention, TETGN effectively balances transductive accuracy with inductive generalisation. Experimental results on three real-world datasets show that TETGN significantly outperforms strong baselines on both link prediction and node classification tasks, demonstrating its ability to unify the advantages of anonymous and non-anonymous models for dynamic graph learning.",
+ "primary": "cs.LG"
+}

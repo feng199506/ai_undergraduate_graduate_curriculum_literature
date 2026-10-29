@@ -1,0 +1,26 @@
+{
+ "id": "2602.12029",
+ "title": "PrefillShare: A Shared Prefill Module for KV Reuse in Multi-LLM Disaggregated Serving",
+ "authors": [
+  "Sunghyeon Woo",
+  "Hoseung Kim",
+  "Sunghwan Shim",
+  "Minjung Jo",
+  "Hyunjoon Jeong",
+  "Jeongtae Lee",
+  "Joonghoon Kim",
+  "Sungjae Lee",
+  "Jiwon Ryu",
+  "Baeseong Park",
+  "Se Jung Kwon",
+  "Dongsoo Lee"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 2,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint. 22 pages, 8 figures",
+ "abstract": "Multi-agent systems increasingly orchestrate multiple specialized language models to solve complex real-world problems, often invoking them over a shared context. This execution pattern repeatedly processes the same prompt prefix across models. Consequently, each model redundantly executes the prefill stage and maintains its own key-value (KV) cache, increasing aggregate prefill load and worsening tail latency by intensifying prefill-decode interference in existing LLM serving stacks. Disaggregated serving reduces such interference by placing prefill and decode on separate GPUs, but disaggregation does not fundamentally eliminate inter-model redundancy in computation and KV storage for the same prompt. To address this issue, we propose PrefillShare, a novel algorithm that enables sharing the prefill stage across multiple fine-tuned models in a disaggregated setting. PrefillShare factorizes the model into prefill and decode modules, freezes the prefill module, and fine-tunes only the decode module. This design allows multiple task-specific models to share a prefill module and the KV cache generated for the same prompt. We further introduce a routing mechanism that enables effective prefill sharing in a vLLM-based disaggregated system. PrefillShare not only matches full fine-tuning accuracy on a broad range of tasks and models, but also delivers 4.5x lower p95 latency and 2.0x higher throughput in multi-model agent workloads.",
+ "primary": "cs.LG"
+}

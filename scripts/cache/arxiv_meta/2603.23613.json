@@ -1,0 +1,19 @@
+{
+ "id": "2603.23613",
+ "title": "LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops",
+ "authors": [
+  "Ravin Ravi",
+  "Dylan Bradshaw",
+  "Stefano Ruberto",
+  "Gunel Jahangirova",
+  "Valerio Terragni"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "IEEE International Conference on Software Maintenance and Evolution (ICSME 2025)",
+ "doi": "10.1109/icsme64153.2025.00109",
+ "comment": "Accepted for publication in IEEE International Conference on Software Maintenance and Evolution (ICSME 2025). This arXiv version is the authors' accepted manuscript. DOI: 10.1109/ICSME64153.2025.00109 Code: github.com/ravinravi03/LLMLOOP",
+ "abstract": "Large Language Models (LLMs) are showing remarkable performance in generating source code, yet the generated code often has issues like compilation errors or incorrect code. Researchers and developers often face wasted effort in implementing checks and refining LLM-generated code, frequently duplicating their efforts. This paper presents LLMLOOP, a framework that automates the refinement of both source code and test cases produced by LLMs. LLMLOOP employs five iterative loops: resolving compilation errors, addressing static analysis issues, fixing test case failures, and improving test quality through mutation analysis. These loops ensure the generation of high-quality test cases that serve as both a validation mechanism and a regression test suite for the generated code. We evaluated LLMLOOP on HUMANEVAL-X, a recent benchmark of programming tasks. Results demonstrate the tool's effectiveness in refining LLM-generated outputs.",
+ "primary": "cs.SE"
+}

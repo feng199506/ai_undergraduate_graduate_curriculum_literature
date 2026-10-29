@@ -1,0 +1,17 @@
+{
+ "id": "2504.17719",
+ "title": "Evaluating Uncertainty in Deep Gaussian Processes",
+ "authors": [
+  "Matthijs van der Lende",
+  "Jeremias Lino Ferrao",
+  "Niclas Müller-Hof"
+ ],
+ "v1_date": "2025-04-24",
+ "latest_version": 1,
+ "latest_date": "2025-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable uncertainty estimates are crucial in modern machine learning. Deep Gaussian Processes (DGPs) and Deep Sigma Point Processes (DSPPs) extend GPs hierarchically, offering promising methods for uncertainty quantification grounded in Bayesian principles. However, their empirical calibration and robustness under distribution shift relative to baselines like Deep Ensembles remain understudied. This work evaluates these models on regression (CASP dataset) and classification (ESR dataset) tasks, assessing predictive performance (MAE, Accu- racy), calibration using Negative Log-Likelihood (NLL) and Expected Calibration Error (ECE), alongside robustness under various synthetic feature-level distribution shifts. Results indicate DSPPs provide strong in-distribution calibration leveraging their sigma point approximations. However, compared to Deep Ensembles, which demonstrated superior robustness in both per- formance and calibration under the tested shifts, the GP-based methods showed vulnerabilities, exhibiting particular sensitivity in the observed metrics. Our findings underscore ensembles as a robust baseline, suggesting that while deep GP methods offer good in-distribution calibration, their practical robustness under distribution shift requires careful evaluation. To facilitate reproducibility, we make our code available at https://github.com/matthjs/xai-gp.",
+ "primary": "stat.ML"
+}

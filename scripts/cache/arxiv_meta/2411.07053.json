@@ -1,0 +1,17 @@
+{
+ "id": "2411.07053",
+ "title": "UAV survey coverage path planning of complex regions containing exclusion zones",
+ "authors": [
+  "Shadman Tajwar Shahid",
+  "Shah Md. Ahasan Siddique",
+  "Md. Mahidul Alam"
+ ],
+ "v1_date": "2024-11-11",
+ "latest_version": 2,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article addresses the challenge of UAV survey coverage path planning for areas that are complex concave polygons, containing exclusion zones or obstacles. While standard drone path planners typically generate coverage paths for simple convex polygons, this study proposes a method to manage more intricate regions, including boundary splits, merges, and interior holes. To achieve this, polygonal decomposition techniques are used to partition the target area into convex sub-regions. The sub-polygons are then merged using a depth-first search algorithm, followed by the generation of continuous Boustrophedon paths based on connected components. Polygonal offset by the straight skeleton method was used to ensure a constant safe distance from the exclusion zones. This approach allows UAV path planning in environments with complex geometric constraints.",
+ "primary": "cs.RO"
+}

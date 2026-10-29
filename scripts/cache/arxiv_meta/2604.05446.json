@@ -1,0 +1,16 @@
+{
+ "id": "2604.05446",
+ "title": "MEC: Machine-Learning-Assisted Generalized Entropy Calibration for Semi-Supervised Mean Estimation",
+ "authors": [
+  "Se Yoon Lee",
+  "Jae Kwang Kim"
+ ],
+ "v1_date": "2026-04-07",
+ "latest_version": 2,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Obtaining high-quality labels is costly, whereas unlabeled covariates are often abundant, motivating semi-supervised inference methods with reliable uncertainty quantification. Prediction-powered inference (PPI) leverages a machine-learning predictor trained on a small labeled sample to improve efficiency, but it can lose efficiency under model misspecification and suffer from coverage distortions due to label reuse. We introduce Machine-Learning-Assisted Generalized Entropy Calibration (MEC), a cross-fitted, calibration-weighted variant of PPI. MEC improves efficiency by reweighting labeled samples to better align with the target population, using a principled calibration framework based on Bregman projections. This yields robustness to affine transformations of the predictor and relaxes requirements for validity by replacing conditions on raw prediction error with weaker projection-error conditions. As a result, MEC attains the semiparametric efficiency bound under weaker assumptions than existing PPI variants. Across simulations and a real-data application, MEC achieves near-nominal coverage and tighter confidence intervals than CF-PPI and vanilla PPI.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2503.21468",
+ "title": "Improvement Graph Convolution Collaborative Filtering with Weighted addition input",
+ "authors": [
+  "Tin T. Tran",
+  "V. Snasel"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 1,
+ "latest_date": "2025-03-27",
+ "journal_ref": "",
+ "doi": "10.1007/978-3-031-21743-2_51",
+ "comment": "",
+ "abstract": "Graph Neural Networks have been extensively applied in the field of machine learning to find features of graphs, and recommendation systems are no exception. The ratings of users on considered items can be represented by graphs which are input for many efficient models to find out the characteristics of the users and the items. From these insights, relevant items are recommended to users. However, user's decisions on the items have varying degrees of effects on different users, and this information should be learned so as not to be lost in the process of information mining. In this publication, we propose to build an additional graph showing the recommended weight of an item to a target user to improve the accuracy of GNN models. Although the users' friendships were not recorded, their correlation was still evident through the commonalities in consumption behavior. We build a model WiGCN (Weighted input GCN) to describe and experiment on well-known datasets. Conclusions will be stated after comparing our results with state-of-the-art such as GCMC, NGCF and LightGCN. The source code is also included at https://github.com/trantin84/WiGCN.",
+ "primary": "cs.IR"
+}

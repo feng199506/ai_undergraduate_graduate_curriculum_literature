@@ -1,0 +1,18 @@
+{
+ "id": "2410.08297",
+ "title": "Matrix-free stochastic calculation of operator norms without using adjoints",
+ "authors": [
+  "Jonas Bresch",
+  "Dirk A. Lorenz",
+  "Felix Schneppe",
+  "Maximilian Winkler"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 3,
+ "latest_date": "2025-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper considers the problem of computing the operator norm of a linear map between finite dimensional Hilbert spaces when only evaluations of the linear map are available and under restrictive storage assumptions. We propose a stochastic method of random search type to maximize the Rayleigh quotient and employ an exact line search in the random search directions. Moreover, we show that the proposed algorithm converges to the global maximum (the operator norm) almost surely and a sublinear convergence behavior for the corresponding eigenvector and eigenvalue equation. Finally, we illustrate the performance of the method with numerical experiments.",
+ "primary": "math.NA"
+}

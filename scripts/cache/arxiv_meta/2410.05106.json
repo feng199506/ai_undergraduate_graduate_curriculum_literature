@@ -1,0 +1,20 @@
+{
+ "id": "2410.05106",
+ "title": "Nonasymptotic Analysis of Stochastic Gradient Descent with the Richardson-Romberg Extrapolation",
+ "authors": [
+  "Marina Sheshukova",
+  "Denis Belomestny",
+  "Alain Durmus",
+  "Eric Moulines",
+  "Alexey Naumov",
+  "Sergey Samsonov"
+ ],
+ "v1_date": "2024-10-07",
+ "latest_version": 3,
+ "latest_date": "2025-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICLR-2025, camera-ready version. Some typos and definitions of constants have been fixed in the appendix",
+ "abstract": "We address the problem of solving strongly convex and smooth minimization problems using stochastic gradient descent (SGD) algorithm with a constant step size. Previous works suggested to combine the Polyak-Ruppert averaging procedure with the Richardson-Romberg extrapolation to reduce the asymptotic bias of SGD at the expense of a mild increase of the variance. We significantly extend previous results by providing an expansion of the mean-squared error of the resulting estimator with respect to the number of iterations $n$. We show that the root mean-squared error can be decomposed into the sum of two terms: a leading one of order $\\mathcal{O}(n^{-1/2})$ with explicit dependence on a minimax-optimal asymptotic covariance matrix, and a second-order term of order $\\mathcal{O}(n^{-3/4})$, where the power $3/4$ is best known. We also extend this result to the higher-order moment bounds. Our analysis relies on the properties of the SGD iterates viewed as a time-homogeneous Markov chain. In particular, we establish that this chain is geometrically ergodic with respect to a suitably defined weighted Wasserstein semimetric.",
+ "primary": "math.OC"
+}

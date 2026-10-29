@@ -1,0 +1,15 @@
+{
+ "id": "2501.00889",
+ "title": "Evaluating Time Series Foundation Models on Noisy Periodic Time Series",
+ "authors": [
+  "Syamantak Datta Gupta"
+ ],
+ "v1_date": "2025-01-01",
+ "latest_version": 2,
+ "latest_date": "2025-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While recent advancements in foundation models have significantly impacted machine learning, rigorous tests on the performance of time series foundation models (TSFMs) remain largely underexplored. This paper presents an empirical study evaluating the zero-shot, long-horizon forecasting abilities of several leading TSFMs over two synthetic datasets constituting noisy periodic time series. We assess model efficacy across different noise levels, underlying frequencies, and sampling rates. As benchmarks for comparison, we choose two statistical techniques: a Fourier transform (FFT)-based approach and a linear autoregressive (AR) model. Our findings demonstrate that while for time series with bounded periods and higher sampling rates, TSFMs can match or outperform the statistical approaches, their forecasting abilities deteriorate with longer periods, higher noise levels, lower sampling rates and more complex shapes of the time series.",
+ "primary": "cs.LG"
+}

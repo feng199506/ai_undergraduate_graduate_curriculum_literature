@@ -1,0 +1,18 @@
+{
+ "id": "2505.20178",
+ "title": "No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference",
+ "authors": [
+  "Pranav Mani",
+  "Peng Xu",
+  "Zachary C. Lipton",
+  "Michael Oberst"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 2,
+ "latest_date": "2026-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prediction-Powered Inference (PPI) is a popular strategy for combining gold-standard and possibly noisy pseudo-labels to perform statistical estimation. Prior work has shown an asymptotic \\enquote{free lunch} for PPI++, an adaptive form of PPI, showing that the \\textit{asymptotic} variance of PPI++ is always less than or equal to the variance obtained from using gold-standard labels alone. Notably, this result holds \\textit{regardless of the quality of the pseudo-labels}. In this work, we demystify this result by conducting an exact finite-sample analysis of the estimation error of PPI++ on the mean estimation problem. We give a \\enquote{no free lunch} result, characterizing the settings (and sample sizes) where PPI++ has provably worse estimation error than using gold-standard labels alone. Specifically, PPI++ will outperform if and only if the correlation between pseudo- and gold-standard is above a certain level that depends on the number of labeled samples ($n$). In some cases our results simplify considerably: For Gaussian data, for instance, the correlation must be at least $1/\\sqrt{n - 2}$ in order to see improvement. More broadly, by providing exact non-asymptotic expressions for the variance of PPI++ under sample splitting, we aim to empower practitioners to transparently reason about the benefits of PPI++ in specific applications. In experiments, we illustrate that our theoretical findings hold on real-world datasets.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2407.01892",
+ "title": "GRASP: A Grid-Based Benchmark for Evaluating Commonsense Spatial Reasoning",
+ "authors": [
+  "Zhisheng Tang",
+  "Mayank Kejriwal"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 2,
+ "latest_date": "2025-01-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial reasoning, an important faculty of human cognition with many practical applications, is one of the core commonsense skills that is not purely language-based and, for satisfying (as opposed to optimal) solutions, requires some minimum degree of planning. Existing benchmarks of Commonsense Spatial Reasoning (CSR) tend to evaluate how Large Language Models (LLMs) interpret text-based spatial $\\textit{descriptions}$ rather than directly evaluate a plan produced by the LLM in response to a $\\textit{specific}$ spatial reasoning problem. In this paper, we construct a large-scale benchmark called GRASP, which consists of 16,000 grid-based environments where the agent is tasked with an energy collection problem. These environments include 100 grid instances instantiated using each of the 160 different grid settings, involving five different energy distributions, two modes of agent starting position, and two distinct obstacle configurations, as well as three kinds of agent constraints. Using GRASP, we compare classic baseline approaches, such as random walk and greedy search methods, with advanced LLMs like GPT-3.5-Turbo, GPT-4o, and GPT-o1-mini. The experimental results indicate that even these advanced LLMs struggle to consistently achieve satisfactory solutions.",
+ "primary": "cs.AI"
+}

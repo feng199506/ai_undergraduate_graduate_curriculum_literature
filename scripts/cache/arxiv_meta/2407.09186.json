@@ -1,0 +1,15 @@
+{
+ "id": "2407.09186",
+ "title": "Variational Inference via Smoothed Particle Hydrodynamics",
+ "authors": [
+  "Yongchao Huang"
+ ],
+ "v1_date": "2024-07-12",
+ "latest_version": 2,
+ "latest_date": "2024-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A new variational inference method, SPH-ParVI, based on smoothed particle hydrodynamics (SPH), is proposed for sampling partially known densities (e.g. up to a constant) or sampling using gradients. SPH-ParVI simulates the flow of a fluid under external effects driven by the target density; transient or steady state of the fluid approximates the target density. The continuum fluid is modelled as an interacting particle system (IPS) via SPH, where each particle carries smoothed properties, interacts and evolves as per the Navier-Stokes equations. This mesh-free, Lagrangian simulation method offers fast, flexible, scalable and deterministic sampling and inference for a class of probabilistic models such as those encountered in Bayesian inference and generative modelling.",
+ "primary": "cs.AI"
+}

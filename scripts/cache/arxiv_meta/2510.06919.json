@@ -1,0 +1,18 @@
+{
+ "id": "2510.06919",
+ "title": "Bayesian Nonparametric Dynamical Clustering of Time Series",
+ "authors": [
+  "Adrián Pérez-Herrero",
+  "Paulo Félix",
+  "Jesús Presedo",
+  "Carl Henrik Ek"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 2,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revised version with methodological refinements, expanded experimental results, and improvements to the presentation",
+ "abstract": "We present a method that models the evolution of an unbounded number of time series clusters by switching among an unknown number of regimes with linear dynamics. We develop a Bayesian non-parametric approach using a hierarchical Dirichlet process as a prior on the parameters of a Switching Linear Dynamical System and a Gaussian process prior to model the statistical variations in amplitude and temporal alignment within each cluster. By modeling the evolution of time series patterns, the method avoids unnecessary proliferation of clusters in a principled manner. We perform inference by formulating a variational lower bound for off-line and on-line scenarios, enabling efficient learning through optimization. We illustrate the versatility and effectiveness of the approach through several case studies of electrocardiogram analysis using publicly available databases.",
+ "primary": "stat.ML"
+}

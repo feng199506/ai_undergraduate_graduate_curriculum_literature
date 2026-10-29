@@ -1,0 +1,21 @@
+{
+ "id": "2411.18657",
+ "title": "ScaleViz: Scaling Visualization Recommendation Models on Large Data",
+ "authors": [
+  "Ghazi Shazan Ahmad",
+  "Shubham Agarwal",
+  "Subrata Mitra",
+  "Ryan Rossi",
+  "Manav Doshi",
+  "Vibhor Porwal",
+  "Syam Manoj Kumar Paila"
+ ],
+ "v1_date": "2024-11-27",
+ "latest_version": 1,
+ "latest_date": "2024-11-27",
+ "journal_ref": "",
+ "doi": "10.1007/978-981-97-2262-4_8",
+ "comment": "Accepted at PAKDD 2024 (Oral)",
+ "abstract": "Automated visualization recommendations (vis-rec) help users to derive crucial insights from new datasets. Typically, such automated vis-rec models first calculate a large number of statistics from the datasets and then use machine-learning models to score or classify multiple visualizations choices to recommend the most effective ones, as per the statistics. However, state-of-the art models rely on very large number of expensive statistics and therefore using such models on large datasets become infeasible due to prohibitively large computational time, limiting the effectiveness of such techniques to most real world complex and large datasets. In this paper, we propose a novel reinforcement-learning (RL) based framework that takes a given vis-rec model and a time-budget from the user and identifies the best set of input statistics that would be most effective while generating the visual insights within a given time budget, using the given model. Using two state-of-the-art vis-rec models applied on three large real-world datasets, we show the effectiveness of our technique in significantly reducing time-to visualize with very small amount of introduced error. Our approach is about 10X times faster compared to the baseline approaches that introduce similar amounts of error.",
+ "primary": "cs.AI"
+}

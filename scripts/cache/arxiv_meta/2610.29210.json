@@ -1,0 +1,23 @@
+{
+ "id": "2610.29210",
+ "title": "Understanding Target Probability Reuse in Speculative Decoding",
+ "authors": [
+  "Jungseob Lee",
+  "Giyoon Jang",
+  "Chailin Nam",
+  "Jiwoo Kum",
+  "Sihyeon Lee",
+  "Kyojun Choo",
+  "Jihun Song",
+  "Eunseo Song",
+  "Chanjun Park"
+ ],
+ "v1_date": "2026-10-21",
+ "latest_version": 1,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 6 figures, 29 tables. Code: https://github.com/js-lee-AI/TargetRows",
+ "abstract": "Speculative decoding uses a target model to verify a tree of draft tokens in parallel. We study whether the resulting next-token distributions can help select the next tree. For unrestricted target models, we show that guaranteed exact reuse requires a distribution computed at the next round's complete context. We characterize when retaining this distribution requires sacrificing accepted tokens and establish conditions under which this loss persists across decoding rounds. Across six targets, we find that reranking first-token branches with a separately computed distribution at the current context improves expected acceptance over draft ranking, especially with small tree budgets. Drawing the first token from this distribution before allocating the tree further improves expected acceptance over pruning a preselected tree, even at equal mean tree size. In our experiments, both selection rules also decode faster than draft ranking when the separate target pass overlaps standalone drafting. Our findings show that making target probabilities available before tree allocation can improve the efficiency of speculative decoding. Our code is available at https://github.com/js-lee-AI/TargetRows.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2407.03849",
+ "title": "A sequential multilinear Nyström algorithm for streaming low-rank approximation of tensors in Tucker format",
+ "authors": [
+  "Alberto Bucci",
+  "Behnam Hashemi"
+ ],
+ "v1_date": "2024-07-04",
+ "latest_version": 2,
+ "latest_date": "2024-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a sequential version of the multilinear Nyström algorithm which is suitable for the low-rank Tucker approximation of tensors given in a streaming format. Accessing the tensor $\\mathcal{A}$ exclusively through random sketches of the original data, the algorithm effectively leverages structures in $\\mathcal{A}$, such as low-rankness, and linear combinations. We present a deterministic analysis of the algorithm and demonstrate its superior speed and efficiency in numerical experiments including an application in video processing.",
+ "primary": "math.NA"
+}

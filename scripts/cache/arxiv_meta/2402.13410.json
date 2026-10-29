@@ -1,0 +1,19 @@
+{
+ "id": "2402.13410",
+ "title": "Bayesian Neural Networks with Domain Knowledge Priors",
+ "authors": [
+  "Dylan Sam",
+  "Rattana Pukdee",
+  "Daniel P. Jeong",
+  "Yewon Byun",
+  "J. Zico Kolter"
+ ],
+ "v1_date": "2024-02-20",
+ "latest_version": 1,
+ "latest_date": "2024-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 4 figures",
+ "abstract": "Bayesian neural networks (BNNs) have recently gained popularity due to their ability to quantify model uncertainty. However, specifying a prior for BNNs that captures relevant domain knowledge is often extremely challenging. In this work, we propose a framework for integrating general forms of domain knowledge (i.e., any knowledge that can be represented by a loss function) into a BNN prior through variational inference, while enabling computationally efficient posterior inference and sampling. Specifically, our approach results in a prior over neural network weights that assigns high probability mass to models that better align with our domain knowledge, leading to posterior samples that also exhibit this behavior. We show that BNNs using our proposed domain knowledge priors outperform those with standard priors (e.g., isotropic Gaussian, Gaussian process), successfully incorporating diverse types of prior information such as fairness, physics rules, and healthcare knowledge and achieving better predictive performance. We also present techniques for transferring the learned priors across different model architectures, demonstrating their broad utility across various settings.",
+ "primary": "cs.LG"
+}

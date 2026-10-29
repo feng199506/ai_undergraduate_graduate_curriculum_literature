@@ -1,0 +1,22 @@
+{
+ "id": "2402.03791",
+ "title": "ZeroPP: Unleashing Exceptional Parallelism Efficiency through Tensor-Parallelism-Free Methodology",
+ "authors": [
+  "Ding Tang",
+  "Lijuan Jiang",
+  "Jiecheng Zhou",
+  "Minxi Jin",
+  "Hengjie Li",
+  "Xingcheng Zhang",
+  "Zhilin Pei",
+  "Jidong Zhai"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 3,
+ "latest_date": "2024-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large-scale models rely heavily on 3D parallelism for distributed training, which utilizes tensor parallelism (TP) as the intra-operator parallelism to partition model states across GPUs. However, TP introduces significant communication overheads and complexity in modifying single-GPU code. In this paper, we propose a TP-free distributed framework ZeroPP, which leverages the hybrid of scalable inter-operator pipeline parallelism and intra-operator fully sharded data parallelism to train models at scale, reducing memory consumption and enabling high training efficiency. Through extensive experimentation, we demonstrate that ZeroPP achieves significant performance gains of up to 33% compared to conventional 3D parallelism while maintaining comparable GPU memory consumption.",
+ "primary": "cs.DC"
+}

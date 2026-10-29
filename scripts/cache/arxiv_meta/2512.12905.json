@@ -1,0 +1,18 @@
+{
+ "id": "2512.12905",
+ "title": "PAC-Bayes Bounds for Multivariate Linear Regression and Linear Autoencoders",
+ "authors": [
+  "Ruixin Guo",
+  "Ruoming Jin",
+  "Xinyu Li",
+  "Yang Zhou"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 1,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NeurIPS 2025 (https://openreview.net/forum?id=S1zkFSby8G)",
+ "abstract": "Linear Autoencoders (LAEs) have shown strong performance in state-of-the-art recommender systems. However, this success remains largely empirical, with limited theoretical understanding. In this paper, we investigate the generalizability -- a theoretical measure of model performance in statistical learning -- of multivariate linear regression and LAEs. We first propose a PAC-Bayes bound for multivariate linear regression, extending the earlier bound for single-output linear regression by Shalaeva et al., and establish sufficient conditions for its convergence. We then show that LAEs, when evaluated under a relaxed mean squared error, can be interpreted as constrained multivariate linear regression models on bounded data, to which our bound adapts. Furthermore, we develop theoretical methods to improve the computational efficiency of optimizing the LAE bound, enabling its practical evaluation on large models and real-world datasets. Experimental results demonstrate that our bound is tight and correlates well with practical ranking metrics such as Recall@K and NDCG@K.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2602.12480",
+ "title": "MXFormer: A Microscaling Floating-Point Charge-Trap Transistor Compute-in-Memory Transformer Accelerator",
+ "authors": [
+  "George Karfakis",
+  "Samyak Chakrabarty",
+  "Vinod Kurian Jacob",
+  "Siyun Qiao",
+  "Subramanian S. Iyer",
+  "Sudhakar Pamarti",
+  "Puneet Gupta"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 1,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The proliferation of Transformer models is often constrained by the significant computational and memory bandwidth demands of deployment. To address this, we present MXFormer, a novel, hybrid, weight-stationary Compute-in-Memory (CIM) accelerator that provides high throughput and efficiency for fixed-model inference on large short-sequence Transformers. Our architecture's foundation is the use of ultra-dense Charge-Trap Transistors (CTTs) in Microscaling MXFP4 CIM arrays, uniquely enabling the on-chip storage of up to hundreds of millions of parameters in Fully Weight Stationary (FWS) fashion. We introduce a statically partitioned design with 12 Transformer blocks connected by a deeply pipelined dataflow. Static-weight layers (MLPs and linear projections) execute on highly parallel analog CTT arrays using an MXFP4-native flow with per-block exponent alignment and a 10-bit SAR ADC. Dynamic computations are handled in fully accurate digital blocks that utilize MXFP-enabled systolic arrays for scaled dot-product attention and vector units for LayerNorm and FlashAttention-style Softmax. By eliminating all weight movement, the deeply pipelined MXFormer architecture yields very high single-stream throughput and efficiency, processing 58275 FPS on ViT-L/32 (dual-chip) or 41269 FPS on ViT-B/16 (single chip). MXFormer outperforms comparable state-of-the-art non-FWS digital, hybrid and photonic Transformer accelerators ~3.3x-60.5x in compute density and ~1.7x-2.5x in energy efficiency. Against FWS accelerators, MXFormer improves compute density by ~20.9x and resident weight storage density by ~2x, while preserving near-digital accuracy (drop of <1%) without any model retraining.",
+ "primary": "cs.AR"
+}

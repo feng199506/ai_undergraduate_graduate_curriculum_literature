@@ -1,0 +1,24 @@
+{
+ "id": "2509.23809",
+ "title": "Tequila: Trapping-free Ternary Quantization for Large Language Models",
+ "authors": [
+  "Hong Huang",
+  "Decheng Wu",
+  "Rui Cen",
+  "Guanghua Yu",
+  "Zonghang Li",
+  "Kai Liu",
+  "Jianchen Zhu",
+  "Peng Chen",
+  "Xue Liu",
+  "Dapeng Wu"
+ ],
+ "v1_date": "2025-09-28",
+ "latest_version": 2,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantization techniques are essential for the deployment of Large Language Models (LLMs) on edge devices. However, prevailing methods often rely on mixed-precision multiplication that lacks efficient hardware support, making it not feasible. Ternary weight quantization addresses this by constraining weights to {-1, 0, 1}, replacing expensive multiplications with hardware-efficient additions. However, such aggressive compression leads to significant accuracy degradation, even after costly quantization-aware training with massive data. We identify the core issue as deadzone trapping: a large number of weights are trapped at the deadzone boundary. This occurs because these weights receive only noisy, uninformative gradients, preventing stable escape from the deadzone and severely impeding model capacity and optimization. To address this issue, we propose Tequila, a trapping-free quantization optimization method that reactivates deadzone-trapped weights by repurposing them as dynamic biases. This allows the repurposed weights to provide a continuous signal in the forward pass and, critically, receive direct, meaningful gradient signals during backpropagation, thereby enhancing model capacity and optimization with nearly zero inference overhead. Extensive evaluations demonstrate that Tequila outperforms state-of-the-art (SOTA) ternary quantization methods across five benchmarks. Specifically, on the ARC benchmark, it achieves >4% accuracy gain over the SOTA baseline, nearly matching full-precision performance (within <1% gap) with a 3.0x inference speedup. Consequently, Tequila offers a highly practical and efficient implementation for the deployment of advanced LLMs in resource-constrained environments. The code is available at https://github.com/Tencent/AngelSlim.",
+ "primary": "cs.LG"
+}

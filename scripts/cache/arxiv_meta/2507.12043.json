@@ -1,0 +1,20 @@
+{
+ "id": "2507.12043",
+ "title": "Information-Theoretic Generalization Bounds of Replay-based Continual Learning",
+ "authors": [
+  "Wen Wen",
+  "Tieliang Gong",
+  "Zeyu Gao",
+  "Yunjiao Zhang",
+  "Weizhan Zhang",
+  "Yong-Jin Liu"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 2,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Continual learning (CL) has emerged as a dominant paradigm for acquiring knowledge from sequential tasks while avoiding catastrophic forgetting. Although many CL methods have been proposed to show impressive empirical performance, the theoretical understanding of their generalization behavior remains limited, particularly for replay-based approaches. This paper establishes a unified theoretical framework for replay-based CL, deriving a series of information-theoretic generalization bounds that explicitly elucidate the impact of the memory buffer alongside the current task on generalization performance. Specifically, our hypothesis-based bounds capture the trade-off between the number of selected exemplars and the information dependency between the hypothesis and the memory buffer. Our prediction-based bounds yield tighter and computationally tractable upper bounds on the generalization error by leveraging low-dimensional variables. Theoretical analysis is general and broadly applicable to a wide range of learning algorithms, exemplified by stochastic gradient Langevin dynamics (SGLD) as a representative method. Comprehensive experimental evaluations demonstrate the effectiveness of our derived bounds in capturing the generalization dynamics in replay-based CL settings.",
+ "primary": "cs.LG"
+}

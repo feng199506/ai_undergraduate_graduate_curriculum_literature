@@ -1,0 +1,22 @@
+{
+ "id": "2312.05479",
+ "title": "Exploring Sparsity in Graph Transformers",
+ "authors": [
+  "Chuang Liu",
+  "Yibing Zhan",
+  "Xueqi Ma",
+  "Liang Ding",
+  "Dapeng Tao",
+  "Jia Wu",
+  "Wenbin Hu",
+  "Bo Du"
+ ],
+ "v1_date": "2023-12-09",
+ "latest_version": 1,
+ "latest_date": "2023-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 8 figures",
+ "abstract": "Graph Transformers (GTs) have achieved impressive results on various graph-related tasks. However, the huge computational cost of GTs hinders their deployment and application, especially in resource-constrained environments. Therefore, in this paper, we explore the feasibility of sparsifying GTs, a significant yet under-explored topic. We first discuss the redundancy of GTs based on the characteristics of existing GT models, and then propose a comprehensive \\textbf{G}raph \\textbf{T}ransformer \\textbf{SP}arsification (GTSP) framework that helps to reduce the computational complexity of GTs from four dimensions: the input graph data, attention heads, model layers, and model weights. Specifically, GTSP designs differentiable masks for each individual compressible component, enabling effective end-to-end pruning. We examine our GTSP through extensive experiments on prominent GTs, including GraphTrans, Graphormer, and GraphGPS. The experimental results substantiate that GTSP effectively cuts computational costs, accompanied by only marginal decreases in accuracy or, in some cases, even improvements. For instance, GTSP yields a reduction of 30\\% in Floating Point Operations while contributing to a 1.8\\% increase in Area Under the Curve accuracy on OGBG-HIV dataset. Furthermore, we provide several insights on the characteristics of attention heads and the behavior of attention mechanisms, all of which have immense potential to inspire future research endeavors in this domain.",
+ "primary": "cs.LG"
+}

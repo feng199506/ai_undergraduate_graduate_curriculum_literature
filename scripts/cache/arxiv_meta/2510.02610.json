@@ -1,0 +1,18 @@
+{
+ "id": "2510.02610",
+ "title": "MINERVA: Mutual Information Neural Estimation for Supervised Feature Selection",
+ "authors": [
+  "Taurai Muvunza",
+  "Egor Kraev",
+  "Pere Planell-Morell",
+  "Alexander Y. Shestopaloff"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 2,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages",
+ "abstract": "Existing feature filters rely on statistical pair-wise dependence metrics to model feature-target relationships, but this approach may fail when the target depends on higher-order feature interactions rather than individual contributions. We introduce Mutual Information Neural Estimation Regularized Vetting Algorithm (MINERVA), a novel approach to supervised feature selection based on neural estimation of mutual information between features and targets. We paramaterize the approximation of mutual information with neural networks and perform feature selection using a carefully designed loss function augmented with sparsity-inducing regularizers. Our method is implemented in a two-stage process to decouple representation learning from feature selection, ensuring better generalization and a more accurate expression of feature importance. We present examples of ubiquitous dependency structures that are rarely captured in literature and show that our proposed method effectively captures these complex feature-target relationships by evaluating feature subsets as an ensemble. Experimental results on synthetic and real-life fraud datasets demonstrate the efficacy of our method and its ability to perform exact solutions.",
+ "primary": "cs.LG"
+}

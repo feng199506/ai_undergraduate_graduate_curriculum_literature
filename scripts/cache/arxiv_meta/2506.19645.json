@@ -1,0 +1,19 @@
+{
+ "id": "2506.19645",
+ "title": "Tensor-Parallelism with Partially Synchronized Activations",
+ "authors": [
+  "Itay Lamprecht",
+  "Asaf Karnieli",
+  "Yair Hanani",
+  "Niv Giladi",
+  "Daniel Soudry"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 2,
+ "latest_date": "2025-11-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Training and inference of Large Language Models (LLMs) with tensor-parallelism requires substantial communication to synchronize activations. Our findings suggest that with a few minor adjustments to current practices, LLMs can be trained without fully synchronizing activations, reducing bandwidth demands. We name this \"Communication-Aware Architecture for Tensor-parallelism\" (CAAT-Net). We train a 7B parameter CAAT-Net model and show that tensor-parallel communication can be reduced by up to 50% with no significant drop in pretraining accuracy across nearly all evaluated benchmarks. We also experiment with smaller 130M and 1.1B models to show the robustness and scalability of our method. We find that, in some scenarios, validation loss can even improve when reducing communication. Finally, we demonstrate how CAAT-Net accelerates both training and inference workloads across various settings and model sizes.",
+ "primary": "cs.LG"
+}

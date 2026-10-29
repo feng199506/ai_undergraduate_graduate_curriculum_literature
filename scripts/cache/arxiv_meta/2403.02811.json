@@ -1,0 +1,21 @@
+{
+ "id": "2403.02811",
+ "title": "Linear quadratic control of nonlinear systems with Koopman operator learning and the Nyström method",
+ "authors": [
+  "Edoardo Caldarelli",
+  "Antoine Chatalic",
+  "Adrià Colomé",
+  "Cesare Molinari",
+  "Carlos Ocampo-Martinez",
+  "Carme Torras",
+  "Lorenzo Rosasco"
+ ],
+ "v1_date": "2024-03-05",
+ "latest_version": 4,
+ "latest_date": "2025-03-03",
+ "journal_ref": "Automatica, Volume 177, 2025, 112302",
+ "doi": "10.1016/j.automatica.2025.112302",
+ "comment": "",
+ "abstract": "In this paper, we study how the Koopman operator framework can be combined with kernel methods to effectively control nonlinear dynamical systems. While kernel methods have typically large computational requirements, we show how random subspaces (Nyström approximation) can be used to achieve huge computational savings while preserving accuracy. Our main technical contribution is deriving theoretical guarantees on the effect of the Nyström approximation. More precisely, we study the linear quadratic regulator problem, showing that the approximated Riccati operator converges at the rate $m^{-1/2}$, and the regulator objective, for the associated solution of the optimal control problem, converges at the rate $m^{-1}$, where $m$ is the random subspace size. Theoretical findings are complemented by numerical experiments corroborating our results.",
+ "primary": "math.OC"
+}

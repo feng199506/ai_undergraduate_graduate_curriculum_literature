@@ -1,0 +1,20 @@
+{
+ "id": "2502.11414",
+ "title": "Unbiased Learning to Rank with Query-Level Click Propensity Estimation: Beyond Pointwise Observation and Relevance",
+ "authors": [
+  "Lulu Yu",
+  "Keping Bi",
+  "Jiafeng Guo",
+  "Shihao Liu",
+  "Dawei Yin",
+  "Xueqi Cheng"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 2,
+ "latest_date": "2025-02-18",
+ "journal_ref": "",
+ "doi": "10.1145/3701716.3715458",
+ "comment": "5 pages, 3 figures, accepted by The ACM Web Conference (WWW) 2025 Short Paper Track",
+ "abstract": "Most existing unbiased learning-to-rank (ULTR) approaches are based on the user examination hypothesis, which assumes that users will click a result only if it is both relevant and observed (typically modeled by position). However, in real-world scenarios, users often click only one or two results after examining multiple relevant options, due to limited patience or because their information needs have already been satisfied. Motivated by this, we propose a query-level click propensity model to capture the probability that users will click on different result lists, allowing for non-zero probabilities that users may not click on an observed relevant result. We hypothesize that this propensity increases when more potentially relevant results are present, and refer to this user behavior as relevance saturation bias. Our method introduces a Dual Inverse Propensity Weighting (DualIPW) mechanism -- combining query-level and position-level IPW -- to address both relevance saturation and position bias. Through theoretical derivation, we prove that DualIPW can learn an unbiased ranking model. Experiments on the real-world Baidu-ULTR dataset demonstrate that our approach significantly outperforms state-of-the-art ULTR baselines. The code and dataset information can be found at https://github.com/Trustworthy-Information-Access/DualIPW.",
+ "primary": "cs.IR"
+}

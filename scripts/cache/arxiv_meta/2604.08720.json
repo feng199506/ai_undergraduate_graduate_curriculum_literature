@@ -1,0 +1,18 @@
+{
+ "id": "2604.08720",
+ "title": "Demystifying the Silence of Correctness Bugs in PyTorch Compiler",
+ "authors": [
+  "Meiziniu Li",
+  "Dongze Li",
+  "Jianmeng Liu",
+  "Shing-Chi Cheung"
+ ],
+ "v1_date": "2026-04-09",
+ "latest_version": 1,
+ "latest_date": "2026-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Performance optimization of AI infrastructure is key to the fast adoption of large language models (LLMs). The PyTorch compiler (torch.compile), a core optimization tool for deep learning (DL) models (including LLMs), has received due attention. However, torch.compile is prone to correctness bugs, which cause incorrect outputs of compiled DL models without triggering exceptions, crashes, or warnings. These bugs pose a serious threat to the reliability of downstream LLM applications. Data from the PyTorch community shows that 19.2% of high-priority issues are incorrect outputs of compiled DL models induced by torch.compile bugs, the second-most-common bug category (only behind program crashes at 19.57%). However, no systematic study has been conducted to specifically characterize and thereby detect these bugs. In this paper, we present the first empirical study of the correctness bugs in torch.compile, examine their characteristics, and assess the effectiveness of existing fuzzers in detecting them. Based on our findings, we propose a proof-of-concept testing technique named AlignGuard, tailored specifically for detecting correctness bugs in torch.compile. AlignGuard incorporates bug characteristics distilled from our empirical study, applying LLM-based test mutation to existing test cases for correctness bug detection. At the time of writing, AlignGuard has successfully detected 23 new correctness bugs in recent torch.compile. All these bugs have been confirmed or fixed by the PyTorch development team, and over half (14/23) of them are even marked as high-priority bugs, underscoring the usefulness of our technique.",
+ "primary": "cs.SE"
+}

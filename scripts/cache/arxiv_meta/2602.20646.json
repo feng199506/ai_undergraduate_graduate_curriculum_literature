@@ -1,0 +1,17 @@
+{
+ "id": "2602.20646",
+ "title": "On the Convergence of Stochastic Gradient Descent with Perturbed Forward-Backward Passes",
+ "authors": [
+  "Boao Kong",
+  "Hengrui Zhang",
+  "Kun Yuan"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages",
+ "abstract": "We study stochastic gradient descent (SGD) for composite optimization problems with $N$ sequential operators subject to perturbations in both the forward and backward passes. Unlike classical analyses that treat gradient noise as additive and localized, perturbations to intermediate outputs and gradients cascade through the computational graph, compounding geometrically with the number of operators. We present the first comprehensive theoretical analysis of this setting. Specifically, we characterize how forward and backward perturbations propagate and amplify within a single gradient step, derive convergence guarantees for both general non-convex objectives and functions satisfying the Polyak--Łojasiewicz condition, and identify conditions under which perturbations do not deteriorate the asymptotic convergence order. As a byproduct, our analysis furnishes a theoretical explanation for the gradient spiking phenomenon widely observed in deep learning, precisely characterizing the conditions under which training recovers from spikes or diverges. Experiments on logistic regression with convex and non-convex regularization validate our theories, illustrating the predicted spike behavior and the asymmetric sensitivity to forward versus backward perturbations.",
+ "primary": "math.OC"
+}

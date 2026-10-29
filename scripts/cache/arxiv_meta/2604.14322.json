@@ -1,0 +1,18 @@
+{
+ "id": "2604.14322",
+ "title": "Doubly Outlier-Robust Online Infinite Hidden Markov Model",
+ "authors": [
+  "Horace Yiu",
+  "Leandro Sánchez-Betancourt",
+  "Álvaro Cartea",
+  "Gerardo Duran-Martin"
+ ],
+ "v1_date": "2026-04-15",
+ "latest_version": 2,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43rd International Conference on Machine Learning (ICML 2026)",
+ "abstract": "We derive a robust update rule for the online infinite hidden Markov model (iHMM) for when the streaming data contains outliers and the model is misspecified. Leveraging recent advances in generalised Bayesian inference, we define robustness via the posterior influence function (PIF), and provide conditions under which the online iHMM has bounded PIF. Imposing robustness inevitably induces an adaptation lag for regime switching. Our method, which is called Batched Robust iHMM (BR-iHMM), balances adaptivity and robustness with two additional tunable parameters. Across limit order book data, hourly electricity demand, and a synthetic high-dimensional linear system, BR-iHMM reduces one-step-ahead forecasting error by up to 67% relative to competing online Bayesian methods. Together with theoretical guarantees of bounded PIF, our results highlight the practicality of our approach for both forecasting and interpretable online learning.",
+ "primary": "stat.ML"
+}

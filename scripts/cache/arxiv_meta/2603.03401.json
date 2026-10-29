@@ -1,0 +1,18 @@
+{
+ "id": "2603.03401",
+ "title": "Beyond Cross-Validation: Adaptive Parameter Selection for Kernel-Based Gradient Descents",
+ "authors": [
+  "Xiaotong Liu",
+  "Yunwen Lei",
+  "Xiangyu Chang",
+  "Shao-Bo Lin"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 1,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a novel parameter selection strategy for kernel-based gradient descent (KGD) algorithms, integrating bias-variance analysis with the splitting method. We introduce the concept of empirical effective dimension to quantify iteration increments in KGD, deriving an adaptive parameter selection strategy that is implementable. Theoretical verifications are provided within the framework of learning theory. Utilizing the recently developed integral operator approach, we rigorously demonstrate that KGD, equipped with the proposed adaptive parameter selection strategy, achieves the optimal generalization error bound and adapts effectively to different kernels, target functions, and error metrics. Consequently, this strategy showcases significant advantages over existing parameter selection methods for KGD.",
+ "primary": "stat.ML"
+}

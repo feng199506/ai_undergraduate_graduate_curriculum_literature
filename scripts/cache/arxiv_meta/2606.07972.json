@@ -1,0 +1,15 @@
+{
+ "id": "2606.07972",
+ "title": "OneFeed: A Unified Generative Framework for Feed Content Enhancement and Query Generation",
+ "authors": [
+  "Guo Xun"
+ ],
+ "v1_date": "2026-06-06",
+ "latest_version": 2,
+ "latest_date": "2026-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern feed recommendation and search systems are deeply connected in user behavior but are usually modeled by separate architectures. Feed recommendation mainly captures implicit interests from browsing interactions, while search systems rely on explicit user queries to retrieve intent-matched content. This separation causes fragmented user understanding and missed opportunities for using feed interactions to improve query generation and using generated queries to enhance feed candidate retrieval. In this paper, we propose OneFeed, a unified generative framework for jointly modeling feed content enhancement and query generation. OneFeed encodes heterogeneous user behavior sequences with a shared behavior encoder and employs two generative heads: a Feed Semantic ID Generator that produces content semantic IDs for recommendation retrieval, and an Intent Query Generator that produces natural-language queries for search-based candidate expansion. To bridge the semantic gap between recommendation content and search queries, we introduce a SID-Query alignment objective that learns a shared semantic space for content semantic IDs and query representations. We further design a closed-loop self-enhancement paradigm that leverages implicit user feedback from generated content and search-retrieved results to improve both generation tasks. We report measured offline replay results on public datasets (MovieLens-1M and Amazon Reviews) under a torch-free prototype, alongside a detailed experimental protocol, a comprehensive set of evaluation metrics, and an analysis of where the unified framework helps and where gains await learned semantic IDs and query generators. OneFeed provides a practical and extensible direction for unifying search and recommendation through generative modeling.",
+ "primary": "cs.IR"
+}

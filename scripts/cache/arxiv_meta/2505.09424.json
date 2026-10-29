@@ -1,0 +1,22 @@
+{
+ "id": "2505.09424",
+ "title": "Exploring Pose-Guided Imitation Learning for Robotic Precise Insertion",
+ "authors": [
+  "Han Sun",
+  "Sheng Liu",
+  "Yizhao Wang",
+  "Zhenning Zhou",
+  "Shuai Wang",
+  "Haibo Yang",
+  "Jingyuan Sun",
+  "Qixin Cao"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 2,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Imitation learning is promising for robotic manipulation, but \\emph{precise insertion} in the real world remains difficult due to contact-rich dynamics, tight clearances, and limited demonstrations. Many existing visuomotor policies depend on high-dimensional RGB/point-cloud observations, which can be data-inefficient and generalize poorly under pose variations. In this paper, we study pose-guided imitation learning by using object poses in $\\mathrm{SE}(3)$ as compact, object-centric observations for precise insertion tasks. First, we propose a diffusion policy for precise insertion that observes the \\emph{relative} $\\mathrm{SE}(3)$ pose of the source object with respect to the target object and predicts a future relative pose trajectory as its action. Second, to improve robustness to pose estimation noise, we augment the pose-guided policy with RGBD cues. Specifically, we introduce a goal-conditioned RGBD encoder to capture the discrepancy between current and goal observations. We further propose a pose-guided residual gated fusion module, where pose features provide the primary control signal and RGBD features adaptively compensate when pose estimates are unreliable. We evaluate our methods on six real-robot precise insertion tasks and achieve high performance with only $7$--$10$ demonstrations per task. In our setup, the proposed policies succeed on tasks with clearances down to $0.01$~mm and demonstrate improved data efficiency and generalization over existing baselines. Code will be available at https://github.com/sunhan1997/PoseInsert.",
+ "primary": "cs.RO"
+}

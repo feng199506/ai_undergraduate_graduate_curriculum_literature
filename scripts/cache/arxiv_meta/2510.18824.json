@@ -1,0 +1,20 @@
+{
+ "id": "2510.18824",
+ "title": "BO4Mob: Bayesian Optimization Benchmarks for High-Dimensional Urban Mobility Problem",
+ "authors": [
+  "Seunghee Ryu",
+  "Donghoon Kwon",
+  "Seongjin Choi",
+  "Aryan Deshwal",
+  "Seungmo Kang",
+  "Carolina Osorio"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 1,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce \\textbf{BO4Mob}, a new benchmark framework for high-dimensional Bayesian Optimization (BO), driven by the challenge of origin-destination (OD) travel demand estimation in large urban road networks. Estimating OD travel demand from limited traffic sensor data is a difficult inverse optimization problem, particularly in real-world, large-scale transportation networks. This problem involves optimizing over high-dimensional continuous spaces where each objective evaluation is computationally expensive, stochastic, and non-differentiable. BO4Mob comprises five scenarios based on real-world San Jose, CA road networks, with input dimensions scaling up to 10,100. These scenarios utilize high-resolution, open-source traffic simulations that incorporate realistic nonlinear and stochastic dynamics. We demonstrate the benchmark's utility by evaluating five optimization methods: three state-of-the-art BO algorithms and two non-BO baselines. This benchmark is designed to support both the development of scalable optimization algorithms and their application for the design of data-driven urban mobility models, including high-resolution digital twins of metropolitan road networks. Code and documentation are available at https://github.com/UMN-Choi-Lab/BO4Mob.",
+ "primary": "cs.LG"
+}

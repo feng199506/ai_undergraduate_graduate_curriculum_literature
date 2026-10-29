@@ -1,0 +1,17 @@
+{
+ "id": "2503.08264",
+ "title": "Massively Parallel Expectation Maximization For Approximate Posteriors",
+ "authors": [
+  "Thomas Heap",
+  "Sam Bowyer",
+  "Laurence Aitchison"
+ ],
+ "v1_date": "2025-03-11",
+ "latest_version": 1,
+ "latest_date": "2025-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian inference for hierarchical models can be very challenging. MCMC methods have difficulty scaling to large models with many observations and latent variables. While variational inference (VI) and reweighted wake-sleep (RWS) can be more scalable, they are gradient-based methods and so often require many iterations to converge. Our key insight was that modern massively parallel importance weighting methods (Bowyer et al., 2024) give fast and accurate posterior moment estimates, and we can use these moment estimates to rapidly learn an approximate posterior. Specifically, we propose using expectation maximization to fit the approximate posterior, which we call QEM. The expectation step involves computing the posterior moments using high-quality massively parallel estimates from Bowyer et al. (2024). The maximization step involves fitting the approximate posterior using these moments, which can be done straightforwardly for simple approximate posteriors such as Gaussian, Gamma, Beta, Dirichlet, Binomial, Multinomial, Categorical, etc. (or combinations thereof). We show that QEM is faster than state-of-the-art, massively parallel variants of RWS and VI, and is invariant to reparameterizations of the model that dramatically slow down gradient based methods.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2602.10282",
+ "title": "Linear-LLM-SCM: Benchmarking LLMs for Coefficient Elicitation in Linear-Gaussian Causal Models",
+ "authors": [
+  "Kanta Yamaoka",
+  "Sumantrak Mukherjee",
+  "Thomas Gärtner",
+  "David Antony Selby",
+  "Stefan Konigorski",
+  "Eyke Hüllermeier",
+  "Viktor Bengs",
+  "Sebastian Josef Vollmer"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 2,
+ "latest_date": "2026-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "[v2] Accepted at Workshop on Structured Data for Health@ICML 2026 Seoul,South Korea. 19 pages, 8 figures, preprint",
+ "abstract": "Large language models (LLMs) have shown potential in identifying qualitative causal relations, but their ability to perform quantitative causal reasoning---estimating effect sizes that parametrize functional relationships---remains underexplored in continuous domains. We introduce Linear-LLM-SCM, a plug-and-play framework for evaluating LLMs on Linear Gaussian structural causal model parametrization when a directed acyclic graph (DAG) is given. The framework decomposes a DAG into local parent-child sets and prompts an LLM to produce a regression-style structural equation per node, which is aggregated and compared against available ground-truth parameters. Our experiments with seven real-world DAGs effect ground truth illustrate limitations of LLMs as quantitative causal parameterizers. Across most models, we observe variability in coefficient estimates and sensitivity to structural perturbations. We open-sourced the framework to further encourage the community to work on studies toward the use of LLM for causal effect elicitation in safety-critical domain, e.g., healthcare.",
+ "primary": "cs.LG"
+}

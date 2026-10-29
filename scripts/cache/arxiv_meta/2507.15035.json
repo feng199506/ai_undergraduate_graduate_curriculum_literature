@@ -1,0 +1,25 @@
+{
+ "id": "2507.15035",
+ "title": "OpenBreastUS: Benchmarking Neural Operators for Wave Imaging Using Breast Ultrasound Computed Tomography",
+ "authors": [
+  "Zhijun Zeng",
+  "Youjia Zheng",
+  "Hao Hu",
+  "Zeyuan Dong",
+  "Yihang Zheng",
+  "Xinliang Liu",
+  "Jinzhuo Wang",
+  "Zuoqiang Shi",
+  "Linfeng Zhang",
+  "Yubing Li",
+  "He Sun"
+ ],
+ "v1_date": "2025-07-20",
+ "latest_version": 1,
+ "latest_date": "2025-07-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate and efficient simulation of wave equations is crucial in computational wave imaging applications, such as ultrasound computed tomography (USCT), which reconstructs tissue material properties from observed scattered waves. Traditional numerical solvers for wave equations are computationally intensive and often unstable, limiting their practical applications for quasi-real-time image reconstruction. Neural operators offer an innovative approach by accelerating PDE solving using neural networks; however, their effectiveness in realistic imaging is limited because existing datasets oversimplify real-world complexity. In this paper, we present OpenBreastUS, a large-scale wave equation dataset designed to bridge the gap between theoretical equations and practical imaging applications. OpenBreastUS includes 8,000 anatomically realistic human breast phantoms and over 16 million frequency-domain wave simulations using real USCT configurations. It enables a comprehensive benchmarking of popular neural operators for both forward simulation and inverse imaging tasks, allowing analysis of their performance, scalability, and generalization capabilities. By offering a realistic and extensive dataset, OpenBreastUS not only serves as a platform for developing innovative neural PDE solvers but also facilitates their deployment in real-world medical imaging problems. For the first time, we demonstrate efficient in vivo imaging of the human breast using neural operator solvers.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2409.07627",
+ "title": "Leveraging User-Generated Reviews for Recommender Systems with Dynamic Headers",
+ "authors": [
+  "Shanu Vashishtha",
+  "Abhay Kumar",
+  "Lalitesh Morishetti",
+  "Kaushiki Nag",
+  "Kannan Achan"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 1,
+ "latest_date": "2024-09-11",
+ "journal_ref": "",
+ "doi": "10.3233/faia241071",
+ "comment": "7 pages, 3 figures, PAIS 2024 (ECAI)",
+ "abstract": "E-commerce platforms have a vast catalog of items to cater to their customers' shopping interests. Most of these platforms assist their customers in the shopping process by offering optimized recommendation carousels, designed to help customers quickly locate their desired items. Many models have been proposed in academic literature to generate and enhance the ranking and recall set of items in these carousels. Conventionally, the accompanying carousel title text (header) of these carousels remains static. In most instances, a generic text such as \"Items similar to your current viewing\" is utilized. Fixed variations such as the inclusion of specific attributes \"Other items from a similar seller\" or \"Items from a similar brand\" in addition to \"frequently bought together\" or \"considered together\" are observed as well. This work proposes a novel approach to customize the header generation process of these carousels. Our work leverages user-generated reviews that lay focus on specific attributes (aspects) of an item that were favorably perceived by users during their interaction with the given item. We extract these aspects from reviews and train a graph neural network-based model under the framework of a conditional ranking task. We refer to our innovative methodology as Dynamic Text Snippets (DTS) which generates multiple header texts for an anchor item and its recall set. Our approach demonstrates the potential of utilizing user-generated reviews and presents a unique paradigm for exploring increasingly context-aware recommendation systems.",
+ "primary": "cs.IR"
+}

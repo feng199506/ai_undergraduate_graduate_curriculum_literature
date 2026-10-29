@@ -1,0 +1,27 @@
+{
+ "id": "2504.15279",
+ "title": "VisuLogic: A Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models",
+ "authors": [
+  "Weiye Xu",
+  "Jiahao Wang",
+  "Weiyun Wang",
+  "Zhe Chen",
+  "Wengang Zhou",
+  "Aijun Yang",
+  "Lewei Lu",
+  "Houqiang Li",
+  "Xiaohua Wang",
+  "Xizhou Zhu",
+  "Wenhai Wang",
+  "Jifeng Dai",
+  "Jinguo Zhu"
+ ],
+ "v1_date": "2025-04-21",
+ "latest_version": 1,
+ "latest_date": "2025-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code, data, and baselines are available at https://visulogic-benchmark.github.io/VisuLogic",
+ "abstract": "Visual reasoning is a core component of human intelligence and a critical capability for advanced multimodal models. Yet current reasoning evaluations of multimodal large language models (MLLMs) often rely on text descriptions and allow language-based reasoning shortcuts, failing to measure genuine vision-centric reasoning. To address this, we introduce VisuLogic: a benchmark of 1,000 human-verified problems across six categories (e.g., quantitative shifts, spatial relations, attribute comparisons). These various types of questions can be evaluated to assess the visual reasoning capabilities of MLLMs from multiple perspectives. We evaluate leading MLLMs on this benchmark and analyze their results to identify common failure modes. Most models score below 30% accuracy-only slightly above the 25% random baseline and far below the 51.4% achieved by humans-revealing significant gaps in visual reasoning. Furthermore, we provide a supplementary training dataset and a reinforcement-learning baseline to support further progress.",
+ "primary": "cs.CV"
+}

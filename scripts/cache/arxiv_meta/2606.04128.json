@@ -1,0 +1,17 @@
+{
+ "id": "2606.04128",
+ "title": "On prediction-powered inference for quantile regression via convolution smoothing",
+ "authors": [
+  "Shota Takeishi",
+  "Jimin Ding",
+  "Xuming He"
+ ],
+ "v1_date": "2026-06-02",
+ "latest_version": 1,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 8 figures",
+ "abstract": "This paper studies quantile regression in a data-limited setting where the gold-standard outcome is available only for a limited number of observations, whereas a surrogate outcome is widely available. Such settings are becoming increasingly common with the availability of low-cost predictions from modern AI, motivating a growing line of research on \"prediction-powered inference,\" for improved statistical inference. Naively extending this framework to quantile regression, however, raises two challenges: computational difficulties due to the discontinuity of the subgradient, and overly conservative confidence intervals. To address these issues, we propose a convolution-based smoothing of the check-loss objective and develop two variants of the estimator. The proposed estimators are computationally tractable, and our numerical studies show that they mitigate overcoverage. As a theoretical contribution, we establish the asymptotic distributions of the proposed estimators under a possibly misspecified linear quantile regression model. We further propose an ensemble of the two estimators and illustrate the proposed methods through simulations and an application to a local housing dataset.",
+ "primary": "stat.ME"
+}

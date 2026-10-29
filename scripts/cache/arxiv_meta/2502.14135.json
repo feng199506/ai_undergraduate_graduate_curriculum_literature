@@ -1,0 +1,16 @@
+{
+ "id": "2502.14135",
+ "title": "Cluster Analysis and Concept Drift Detection in Malware",
+ "authors": [
+  "Aniket Mishra",
+  "Mark Stamp"
+ ],
+ "v1_date": "2025-02-19",
+ "latest_version": 1,
+ "latest_date": "2025-02-19",
+ "journal_ref": "Journal of Computer Virology and Hacking Techniques 21, 27 (2025)",
+ "doi": "10.1007/s11416-025-00568-y",
+ "comment": "",
+ "abstract": "Concept drift refers to gradual or sudden changes in the properties of data that affect the accuracy of machine learning models. In this paper, we address the problem of concept drift detection in the malware domain. Specifically, we propose and analyze a clustering-based approach to detecting concept drift. Using a subset of the KronoDroid dataset, malware samples are partitioned into temporal batches and analyzed using MiniBatch $K$-Means clustering. The silhouette coefficient is used as a metric to identify points in time where concept drift has likely occurred. To verify our drift detection results, we train learning models under three realistic scenarios, which we refer to as static training, periodic retraining, and drift-aware retraining. In each scenario, we consider four supervised classifiers, namely, Multilayer Perceptron (MLP), Support Vector Machine (SVM), Random Forest, and XGBoost. Experimental results demonstrate that drift-aware retraining guided by silhouette coefficient thresholding achieves classification accuracy far superior to static models, and generally within 1% of periodic retraining, while also being far more efficient than periodic retraining. These results provide strong evidence that our clustering-based approach is effective at detecting concept drift, while also illustrating a highly practical and efficient fully automated approach to improved malware classification via concept drift detection.",
+ "primary": "cs.LG"
+}

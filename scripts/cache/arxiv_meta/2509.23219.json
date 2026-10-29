@@ -1,0 +1,21 @@
+{
+ "id": "2509.23219",
+ "title": "WirelessMathBench-XL: An Auditable Benchmark for Wireless Mathematical Reasoning",
+ "authors": [
+  "Xin Li",
+  "Mengbing Liu",
+  "Yiyang Zhu",
+  "Wenhe Zhang",
+  "Li Wei",
+  "Jiancheng An",
+  "Chau Yuen"
+ ],
+ "v1_date": "2025-09-27",
+ "latest_version": 2,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2026 Evaluations and Datasets Track. Project page: https://lixin.ai/WirelessMathBench-XL/",
+ "abstract": "Technical-domain benchmarks constructed from arXiv papers can overlap the same public text used in LLM pretraining. Auditing this risk at training-corpus scale requires searching billions of corpus n-grams while retaining per-item evidence that users can inspect and recompute. We contribute a reverse-probe audit at a fixed 13-gram threshold: it indexes benchmark prompts, streams public pretraining corpora, and emits per-problem prompt-surface lexical-overlap metadata with memory that scales with the benchmark. We instantiate the protocol in WirelessMathBench-XL, a 4,027-problem wireless mathematical-reasoning benchmark built from 836 retained arXiv papers across 20 subfields. Against 12.9B streamed 13-grams from RedPajama-arXiv, the audit identifies a strict zero-hit view S0 covering 3,853 problems (95.7%). Filtering to S0 changes accuracy by less than 1 pp for every evaluated model; frontier calibration rows form one high-accuracy cluster between 86.5% and 91.3%, not a resolved rank order. Only 30/800 test items carry detected overlap. Under an all-flagged-correct counterfactual, their largest possible positive score inflation is 0.31-0.51 pp for the frontier rows, so full-versus-S0 is a bounded, structurally underpowered stability summary rather than a contamination-effect test or cleanliness claim. The audit channel does not cover paraphrase, target-answer, post-training, or closed-corpus exposure. The release includes source-paper identifiers, verifier-facing ground truths, audit and threshold metadata, filtered views, a paper-disjoint sensitivity view, evaluation traces, paired-bootstrap scripts, training recipes, Croissant metadata, and a Datasheet for Datasets.",
+ "primary": "cs.LG"
+}

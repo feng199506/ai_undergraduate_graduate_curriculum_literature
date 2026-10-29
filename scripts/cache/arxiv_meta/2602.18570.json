@@ -1,0 +1,21 @@
+{
+ "id": "2602.18570",
+ "title": "Spatiotemporal double machine learning to estimate the impact of Cambodian land concessions on deforestation",
+ "authors": [
+  "Anika Arifin",
+  "Duncan DeProfio",
+  "Layla Lammers",
+  "Benjamin Shapiro",
+  "Brian J Reich",
+  "Henry Uddyback",
+  "Joshua M Gray"
+ ],
+ "v1_date": "2026-02-20",
+ "latest_version": 1,
+ "latest_date": "2026-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Environmental policy evaluation frequently requires thoughtful consideration of space and time in causal inference. We use novel statistical methods to analyze the causal effect of land concessions on deforestation rates in Cambodia. Standard approaches, such as difference-in-differences regression, effectively address spatiotemporally-correlated treatments under some conditions, but they are limited in their ability to account for unobserved confounders affecting both treatment and outcome. Double Spatial Regression (DSR) is an approach that uses double machine learning to address these scenarios. DSR resolves the confounding variables for both treatment and outcome, comparing the residuals to estimate treatment effectiveness. We improve upon DSR by considering time in our analysis of policy interventions with spatial effects. We conduct a large-scale simulation study using Bayesian Additive Regression Trees (BART) with spatial embeddings and find that, under certain conditions, our DSR model outperforms standard approaches for addressing unobserved spatial confounding. We then apply our method to evaluate the policy impacts of land concessions on deforestation in Cambodia.",
+ "primary": "stat.ME"
+}

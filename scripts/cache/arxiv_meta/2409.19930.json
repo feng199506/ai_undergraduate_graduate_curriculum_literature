@@ -1,0 +1,19 @@
+{
+ "id": "2409.19930",
+ "title": "EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction",
+ "authors": [
+  "Ivan Reyes-Amezcua",
+  "Ricardo Espinosa",
+  "Christian Daul",
+  "Gilberto Ochoa-Ruiz",
+  "Andres Mendez-Vazquez"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 1,
+ "latest_date": "2024-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate depth estimation in endoscopy is vital for successfully implementing computer vision pipelines for various medical procedures and CAD tools. In this paper, we present the EndoDepth benchmark, an evaluation framework designed to assess the robustness of monocular depth prediction models in endoscopic scenarios. Unlike traditional datasets, the EndoDepth benchmark incorporates common challenges encountered during endoscopic procedures. We present an evaluation approach that is consistent and specifically designed to evaluate the robustness performance of the model in endoscopic scenarios. Among these is a novel composite metric called the mean Depth Estimation Robustness Score (mDERS), which offers an in-depth evaluation of a model's accuracy against errors brought on by endoscopic image corruptions. Moreover, we present SCARED-C, a new dataset designed specifically to assess endoscopy robustness. Through extensive experimentation, we evaluate state-of-the-art depth prediction architectures on the EndoDepth benchmark, revealing their strengths and weaknesses in handling endoscopic challenging imaging artifacts. Our results demonstrate the importance of specialized techniques for accurate depth estimation in endoscopy and provide valuable insights for future research directions.",
+ "primary": "cs.CV"
+}

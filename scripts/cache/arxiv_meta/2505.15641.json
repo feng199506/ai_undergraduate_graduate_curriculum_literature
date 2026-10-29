@@ -1,0 +1,16 @@
+{
+ "id": "2505.15641",
+ "title": "A Simple Approximation Algorithm for Optimal Decision Tree",
+ "authors": [
+  "Zhengjia Zhuo",
+  "Viswanath Nagarajan"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 1,
+ "latest_date": "2025-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Optimal decision tree (\\odt) is a fundamental problem arising in applications such as active learning, entity identification, and medical diagnosis. An instance of \\odt is given by $m$ hypotheses, out of which an unknown ``true'' hypothesis is drawn according to some probability distribution. An algorithm needs to identify the true hypothesis by making queries: each query incurs a cost and has a known response for each hypothesis. The goal is to minimize the expected query cost to identify the true hypothesis. We consider the most general setting with arbitrary costs, probabilities and responses. \\odt is NP-hard to approximate better than $\\ln m$ and there are $O(\\ln m)$ approximation algorithms known for it. However, these algorithms and/or their analyses are quite complex. Moreover, the leading constant factors are large. We provide a simple algorithm and analysis for \\odt, proving an approximation ratio of $8 \\ln m$.",
+ "primary": "cs.DS"
+}

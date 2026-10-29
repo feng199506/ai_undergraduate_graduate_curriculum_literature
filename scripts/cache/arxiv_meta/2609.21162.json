@@ -1,0 +1,15 @@
+{
+ "id": "2609.21162",
+ "title": "AI-Driven Scientific Computing Workflows: A Systems Review of Orchestration, Execution, Reproducibility and Provenance",
+ "authors": [
+  "Jamie J. Alnasir"
+ ],
+ "v1_date": "2026-09-18",
+ "latest_version": 1,
+ "latest_date": "2026-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 2 figures, 3 tables",
+ "abstract": "Artificial intelligence (AI) is increasingly embedded within scientific computing workflows that combine simulation, data processing, optimisation, visualisation and experimental or observational components. Learned models may serve as explicit workflow components, retain persistent state and, in adaptive settings, influence subsequent computation. Existing work has characterised scientific workflow management systems, dynamic and steered workflows, AI--HPC coupling motifs and the machine-learning lifecycle, although these areas are often discussed separately. This review brings them together from a systems perspective. We distinguish conventional scientific workflows, machine-learning pipelines, AI-coupled high-performance computing (HPC) workflows and broader automated research workflows, and propose a continuum describing the depth of AI participation from a computational stage to co-adaptive workflow control. The associated systems requirements are organised around five concerns: control and orchestration; compute and execution; data and model state; reproducibility and provenance; and governance and assurance. Representative systems and applications include AI-steered molecular simulation, drug and materials discovery, simulation--surrogate coupling and distributed self-driving laboratories. Workflow-level evaluation is considered in terms of scientific progress, execution cost, data movement, resource use, resilience and decision traceability. We conclude by identifying open problems in dynamic workflow representation, state-aware recovery, heterogeneous scheduling, interoperable data planes, model-mediated decision provenance and reproducible adaptive execution.",
+ "primary": "cs.DC"
+}

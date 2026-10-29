@@ -1,0 +1,19 @@
+{
+ "id": "2602.06900",
+ "title": "Supercharging Simulation-Based Inference for Bayesian Optimal Experimental Design",
+ "authors": [
+  "Samuel Klein",
+  "Willie Neiswanger",
+  "Daniel Ratner",
+  "Michael Kagan",
+  "Sean Gasiorowski"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "Machine Learning: Science and Technology 7, 045069 (2026)",
+ "doi": "10.1088/2632-2153/ae98e5",
+ "comment": "",
+ "abstract": "Bayesian optimal experimental design (BOED) seeks to maximize the expected information gain (EIG) of experiments. This requires a likelihood estimate, which in many settings is intractable. Simulation-based inference (SBI) provides powerful tools for this regime. However, existing work explicitly connecting SBI and BOED is restricted to a single contrastive EIG bound. We show that the EIG admits multiple formulations which can directly leverage modern SBI density estimators, encompassing neural posterior, likelihood, and ratio estimation. Building on this perspective, we define a novel EIG estimator using neural likelihood estimation. Further, we identify optimization as a key bottleneck of gradient based EIG maximization and show that a simple multi-start parallel gradient ascent procedure can substantially improve reliability and performance. With these innovations, our SBI-based BOED methods are able to match or outperform by up to $22\\%$ existing state-of-the-art approaches across standard BOED benchmarks.",
+ "primary": "cs.LG"
+}

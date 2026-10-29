@@ -1,0 +1,16 @@
+{
+ "id": "2606.13935",
+ "title": "Machine Learning-Guided Quota Optimization for Multi-Round Two-Sided Matching",
+ "authors": [
+  "Omid Khormali",
+  "Mia Pesavento"
+ ],
+ "v1_date": "2026-06-11",
+ "latest_version": 1,
+ "latest_date": "2026-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes an integrated framework for machine learning-guided quota optimization applied to multi-round sorority recruitment, a small two-sided market where approximately 100 potential new members (PNMs) are matched to three chapters through a structured process governed by the Release Figure Methodology (RFM). Our framework combines a Random Forest classifier trained on historical registration data to generate PNM-chapter compatibility scores, integer linear programs for Round~2 and Round~3 invitation quota optimization balancing fairness, coverage, and efficiency objectives, and a Deferred Acceptance algorithm for final matching. Applied to five years of de-identified recruitment data from a small Midwestern university, and working with only 282 matched training pairs, the compatibility model achieves a cross-validated ROC-AUC of 0.5822, reflecting the inherent difficulty of predicting social compatibility from pre-recruitment registration data in a data-limited setting. Because fairness and coverage constraints dominate quota allocation under noisy scores, the framework is designed to degrade gracefully when ML signal is weak. Optimized quotas closely align with actual coordinator decisions for active chapters, and the Deferred Acceptance algorithm replicates actual 2025 recruitment outcomes with a 96.4% individual-level agreement rate and a 100% match rate across 56 PNMs. An interactive web application implementing the framework is made available to recruitment coordinators. These results support the viability of data-driven approaches to small-market matching with broader applicability to other constrained two-sided markets.",
+ "primary": "cs.GT"
+}

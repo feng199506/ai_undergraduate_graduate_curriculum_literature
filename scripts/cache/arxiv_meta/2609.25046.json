@@ -1,0 +1,21 @@
+{
+ "id": "2609.25046",
+ "title": "Peerify: Benchmarking Peer-Review Claim Verification",
+ "authors": [
+  "Alireza Daghighfarsoodeh",
+  "Sajad Ebrahimi",
+  "Ali Ghorbanpour",
+  "Soroush Sadeghian",
+  "Radin Cheraghi",
+  "Negar Arabzadeh",
+  "Ebrahim Bagheri"
+ ],
+ "v1_date": "2026-09-02",
+ "latest_version": 1,
+ "latest_date": "2026-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Peer review plays a central role in scholarly publishing, yet verifying whether reviewer claims are supported by manuscript evidence remains a largely manual and time-consuming process. We present Peerify, a pipeline for manuscript-grounded verification of peer-review claims. Given a manuscript and a review comment, the Peerify pipeline decomposes reviews into atomic claims, retrieves relevant manuscript evidence, and determines whether each claim is supported by the paper. To support the development and evaluation of the pipeline, we construct a benchmark of 800 claims derived from authentic peer-review interactions collected from NeurIPS 2024 and ICLR 2024, including a 300-claim hand-labeled subset used to audit the automated supervision. We evaluate state-of-the-art language models and retrieval strategies within the Peerify pipeline, together with entailment baselines. Our results demonstrate the importance of retrieval-centered verification and claim decomposition, while highlighting the challenges posed by ambiguous and interpretive reviewer claims. Automated labels agree with human consensus on 90.3% of audited claims ($κ= 0.87$), while off-the-shelf entailment models stay below 0.24 macro-F1.",
+ "primary": "cs.CL"
+}

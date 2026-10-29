@@ -1,0 +1,17 @@
+{
+ "id": "2507.14795",
+ "title": "A DPI-PAC-Bayesian Framework for Generalization Bounds",
+ "authors": [
+  "Muhan Guan",
+  "Farhad Farokhi",
+  "Jingge Zhu"
+ ],
+ "v1_date": "2025-07-20",
+ "latest_version": 4,
+ "latest_date": "2025-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by IEEE ITW 2025. This version: a typo in Theorem 1 is corrected",
+ "abstract": "We develop a unified Data Processing Inequality PAC-Bayesian framework -- abbreviated DPI-PAC-Bayesian -- for deriving generalization error bounds in the supervised learning setting. By embedding the Data Processing Inequality (DPI) into the change-of-measure technique, we obtain explicit bounds on the binary Kullback-Leibler generalization gap for both Rényi divergence and any $f$-divergence measured between a data-independent prior distribution and an algorithm-dependent posterior distribution. We present three bounds derived under our framework using Rényi, Hellinger \\(p\\) and Chi-Squared divergences. Additionally, our framework also demonstrates a close connection with other well-known bounds. When the prior distribution is chosen to be uniform, our bounds recover the classical Occam's Razor bound and, crucially, eliminate the extraneous \\(\\log(2\\sqrt{n})/n\\) slack present in the PAC-Bayes bound, thereby achieving tighter results. The framework thus bridges data-processing and PAC-Bayesian perspectives, providing a flexible, information-theoretic tool to construct generalization guarantees.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2406.00059",
+ "title": "Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution",
+ "authors": [
+  "Yechen Xu",
+  "Xinhao Kong",
+  "Tingjun Chen",
+  "Danyang Zhuo"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 2,
+ "latest_date": "2024-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 8 figures",
+ "abstract": "The complexity of large language model (LLM) serving workloads has substantially increased due to the integration with external tool invocations, such as ChatGPT plugins. In this paper, we identify a new opportunity for efficient LLM serving for requests that trigger tools: tool partial execution alongside LLM decoding. To this end, we design Conveyor, an efficient LLM serving system optimized for handling requests involving external tools. We introduce a novel interface for tool developers to expose partial execution opportunities to the LLM serving system and a request scheduler that facilitates partial tool execution. Our results demonstrate that tool partial execution can improve request completion latency by up to 38.8%.",
+ "primary": "cs.CL"
+}

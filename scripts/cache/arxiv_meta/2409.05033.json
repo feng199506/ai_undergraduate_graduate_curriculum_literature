@@ -1,0 +1,22 @@
+{
+ "id": "2409.05033",
+ "title": "A Survey on Diffusion Models for Recommender Systems",
+ "authors": [
+  "Jianghao Lin",
+  "Jiaqi Liu",
+  "Jiachen Zhu",
+  "Yunjia Xi",
+  "Chengkai Liu",
+  "Yangtian Zhang",
+  "Yong Yu",
+  "Weinan Zhang"
+ ],
+ "v1_date": "2024-09-08",
+ "latest_version": 2,
+ "latest_date": "2024-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under Review",
+ "abstract": "While traditional recommendation techniques have made significant strides in the past decades, they still suffer from limited generalization performance caused by factors like inadequate collaborative signals, weak latent representations, and noisy data. In response, diffusion models (DMs) have emerged as promising solutions for recommender systems due to their robust generative capabilities, solid theoretical foundations, and improved training stability. To this end, in this paper, we present the first comprehensive survey on diffusion models for recommendation, and draw a bird's-eye view from the perspective of the whole pipeline in real-world recommender systems. We systematically categorize existing research works into three primary domains: (1) diffusion for data engineering & encoding, focusing on data augmentation and representation enhancement; (2) diffusion as recommender models, employing diffusion models to directly estimate user preferences and rank items; and (3) diffusion for content presentation, utilizing diffusion models to generate personalized content such as fashion and advertisement creatives. Our taxonomy highlights the unique strengths of diffusion models in capturing complex data distributions and generating high-quality, diverse samples that closely align with user preferences. We also summarize the core characteristics of the adapting diffusion models for recommendation, and further identify key areas for future exploration, which helps establish a roadmap for researchers and practitioners seeking to advance recommender systems through the innovative application of diffusion models. To further facilitate the research community of recommender systems based on diffusion models, we actively maintain a GitHub repository for papers and other related resources in this rising direction https://github.com/CHIANGEL/Awesome-Diffusion-for-RecSys.",
+ "primary": "cs.IR"
+}

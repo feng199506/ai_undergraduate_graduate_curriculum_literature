@@ -1,0 +1,20 @@
+{
+ "id": "2601.08709",
+ "title": "Multi-Preconditioned LBFGS for Training Finite-Basis PINNs",
+ "authors": [
+  "Marc Salvadó-Benasco",
+  "Aymane Kssim",
+  "Alexander Heinlein",
+  "Rolf Krause",
+  "Serge Gratton",
+  "Alena Kopaničáková"
+ ],
+ "v1_date": "2026-01-13",
+ "latest_version": 2,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages",
+ "abstract": "A multi-preconditioned LBFGS (MP-LBFGS) algorithm is introduced for training finite-basis physics-informed neural networks (FBPINNs). The algorithm is motivated by the nonlinear additive Schwarz method and exploits the domain-decomposition-inspired additive architecture of FBPINNs, in which local neural networks are defined on subdomains, thereby localizing the network representation. Parallel, subdomain-local quasi-Newton corrections are then constructed on the corresponding local parts of the architecture. A key feature is a novel nonlinear multi-preconditioning mechanism, in which subdomain corrections are optimally combined through the solution of a low-dimensional subspace minimization problem. Numerical experiments indicate that MP-LBFGS can improve convergence speed, as well as model accuracy over standard LBFGS while incurring lower communication overhead.",
+ "primary": "math.NA"
+}

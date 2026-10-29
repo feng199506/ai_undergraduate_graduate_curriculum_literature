@@ -1,0 +1,18 @@
+{
+ "id": "2505.13521",
+ "title": "Zero-Shot Forecasting Mortality Rates: A Global Study",
+ "authors": [
+  "Gabor Petnehazi",
+  "Laith Al Shaggah",
+  "Jozsef Gall",
+  "Bernadett Aradi"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 1,
+ "latest_date": "2025-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study explores the potential of zero-shot time series forecasting, an innovative approach leveraging pre-trained foundation models, to forecast mortality rates without task-specific fine-tuning. We evaluate two state-of-the-art foundation models, TimesFM and CHRONOS, alongside traditional and machine learning-based methods across three forecasting horizons (5, 10, and 20 years) using data from 50 countries and 111 age groups. In our investigations, zero-shot models showed varying results: while CHRONOS delivered competitive shorter-term forecasts, outperforming traditional methods like ARIMA and the Lee-Carter model, TimesFM consistently underperformed. Fine-tuning CHRONOS on mortality data significantly improved long-term accuracy. A Random Forest model, trained on mortality data, achieved the best overall performance. These findings underscore the potential of zero-shot forecasting while highlighting the need for careful model selection and domain-specific adaptation.",
+ "primary": "cs.LG"
+}

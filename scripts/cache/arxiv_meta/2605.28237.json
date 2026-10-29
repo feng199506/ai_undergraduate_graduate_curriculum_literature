@@ -1,0 +1,29 @@
+{
+ "id": "2605.28237",
+ "title": "POINav: Benchmarking and Enhancing Final-Meters Arrival in Real-World Vision-Language Navigation",
+ "authors": [
+  "Ruiyan Gong",
+  "Meisheng Zhang",
+  "Yuxiang Zhao",
+  "Mingchao Sun",
+  "Yanfen Shen",
+  "Zedong Chu",
+  "Zhining Gu",
+  "Wei Guo",
+  "Xiaolong Cheng",
+  "Qiming Li",
+  "Kangning Niu",
+  "Yanqing Zhu",
+  "Xiaolong Wu",
+  "Tianlun Li",
+  "Mu Xu"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 1,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 9 figures",
+ "abstract": "Real-world navigation is fundamentally driven by Points of Interest (POIs), yet reaching a precise POI remains a critical \"final-meters\" challenge. Existing Vision-Language Navigation (VLN) benchmarks of POI-goal navigation often suffer from coarse granularity or significant sim-to-real gaps due to generated scene. To bridge this gap, we present POINav-Bench, the first benchmark designed for closed-loop evaluation of real-world POI-goal navigation. It comprises 11 commercial areas reconstructed from real-world captures using 3D Gaussian Splatting (3DGS), covering 126,398 $m^{2}$ in total and spanning 163 distinct POIs. With traversability-aware annotations and reference trajectories, POINav-Bench enables high-fidelity evaluation of navigation agents in realistic, POI-rich real-world environments. Building on this, we propose the POINav Brain-Action Framework where a Brain module performs POI-grounded reasoning to guide an Action module in predicting continuous waypoints for real-world execution. We further curate the POINav-Dataset, containing 70K real-world signage-entrance pairs. Experiments show that our framework provides a viable path toward refining real-world POI-goal navigation.",
+ "primary": "cs.RO"
+}

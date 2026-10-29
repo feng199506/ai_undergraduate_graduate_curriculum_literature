@@ -1,0 +1,18 @@
+{
+ "id": "2403.07265",
+ "title": "Self-supervised Contrastive Learning for Implicit Collaborative Filtering",
+ "authors": [
+  "Shipeng Song",
+  "Bin Liu",
+  "Fei Teng",
+  "Tianrui Li"
+ ],
+ "v1_date": "2024-03-12",
+ "latest_version": 1,
+ "latest_date": "2024-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "3 figures",
+ "abstract": "Contrastive learning-based recommendation algorithms have significantly advanced the field of self-supervised recommendation, particularly with BPR as a representative ranking prediction task that dominates implicit collaborative filtering. However, the presence of false-positive and false-negative examples in recommendation systems hampers accurate preference learning. In this study, we propose a simple self-supervised contrastive learning framework that leverages positive feature augmentation and negative label augmentation to improve the self-supervisory signal. Theoretical analysis demonstrates that our learning method is equivalent to maximizing the likelihood estimation with latent variables representing user interest centers. Additionally, we establish an efficient negative label augmentation technique that samples unlabeled examples with a probability linearly dependent on their relative ranking positions, enabling efficient augmentation in constant time complexity. Through validation on multiple datasets, we illustrate the significant improvements our method achieves over the widely used BPR optimization objective while maintaining comparable runtime.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2606.12809",
+ "title": "MLUBench: A Benchmark for Lifelong Unlearning Evaluation in MLLMs",
+ "authors": [
+  "He Li",
+  "Haoang Chi",
+  "Qizhou Wang",
+  "Yunxin Mao",
+  "Zhiheng Zhang",
+  "Jie Tan",
+  "Tongliang Liu",
+  "Wenjing Yang",
+  "Bo Han"
+ ],
+ "v1_date": "2026-06-11",
+ "latest_version": 1,
+ "latest_date": "2026-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, accepted to the ICML 2026",
+ "abstract": "Multimodal large language models (MLLMs) are trained on massive multimodal data, making data unlearning increasingly important as data owners may request the removal of specific content. In practice, these requests often arrive sequentially over time, giving rise to the challenging problem of MLLM Lifelong Unlearning. However, most existing benchmarks are limited in scale and scope, failing to capture the complexities of MLLM lifelong unlearning. To fill this gap, we introduce the MLUBench, a large-scale and comprehensive benchmark featuring 127 entities across 9 classes under lifelong unlearning requests. We perform extensive experiments using MLUBench and reveal that existing unlearning methods suffer from severe, cumulative degradation. More critically, we further identify the unique challenge of this problem: unlike in unimodal models, MLLM lifelong unlearning is constrained by the need to preserve multimodal alignment. Continually unlearning from one modality could degrade the entire model. To alleviate this challenge, we propose LUMoE, an effective method. Experiments demonstrate that LUMoE significantly mitigates the degradation problem faced by baselines. The source code and the MLUBench dataset are open-sourced in https://github.com/lihe-maxsize/Lifelong_Unlearning_main.",
+ "primary": "cs.AI"
+}

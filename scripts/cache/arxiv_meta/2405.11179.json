@@ -1,0 +1,16 @@
+{
+ "id": "2405.11179",
+ "title": "Accelerating Multilevel Markov Chain Monte Carlo Using Machine Learning Models",
+ "authors": [
+  "Sohail Reddy",
+  "Hillary Fairbanks"
+ ],
+ "v1_date": "2024-05-18",
+ "latest_version": 1,
+ "latest_date": "2024-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work presents an efficient approach for accelerating multilevel Markov Chain Monte Carlo (MCMC) sampling for large-scale problems using low-fidelity machine learning models. While conventional techniques for large-scale Bayesian inference often substitute computationally expensive high-fidelity models with machine learning models, thereby introducing approximation errors, our approach offers a computationally efficient alternative by augmenting high-fidelity models with low-fidelity ones within a hierarchical framework. The multilevel approach utilizes the low-fidelity machine learning model (MLM) for inexpensive evaluation of proposed samples thereby improving the acceptance of samples by the high-fidelity model. The hierarchy in our multilevel algorithm is derived from geometric multigrid hierarchy. We utilize an MLM to acclerate the coarse level sampling. Training machine learning model for the coarsest level significantly reduces the computational cost associated with generating training data and training the model. We present an MCMC algorithm to accelerate the coarsest level sampling using MLM and account for the approximation error introduced. We provide theoretical proofs of detailed balance and demonstrate that our multilevel approach constitutes a consistent MCMC algorithm. Additionally, we derive conditions on the accuracy of the machine learning model to facilitate more efficient hierarchical sampling. Our technique is demonstrated on a standard benchmark inference problem in groundwater flow, where we estimate the probability density of a quantity of interest using a four-level MCMC algorithm. Our proposed algorithm accelerates multilevel sampling by a factor of two while achieving similar accuracy compared to sampling using the standard multilevel algorithm.",
+ "primary": "stat.ML"
+}

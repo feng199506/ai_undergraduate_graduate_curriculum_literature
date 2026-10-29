@@ -1,0 +1,21 @@
+{
+ "id": "2602.10080",
+ "title": "Beyond a Single Queue: Multi-Level-Multi-Queue as an Effective Design for SSSP problems on GPUs",
+ "authors": [
+  "Zhengding Hu",
+  "Jingwen Sun",
+  "Le Jiang",
+  "Yuhao Wang",
+  "Junqing Lin",
+  "Yi Zong",
+  "Guangzhong Sun"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As one of the most fundamental problems in graph processing, the Single-Source Shortest Path (SSSP) problem plays a critical role in numerous application scenarios. However, existing GPU-based solutions remain inefficient, as they typically rely on a single, fixed queue design that incurs severe synchronization overhead, high memory latency, and poor adaptivity to diverse inputs. To address these inefficiencies, we propose MultiLevelMultiQueue (MLMQ), a novel data structure that distributes multiple queues across the GPU's multi-level parallelism and memory hierarchy. To realize MLMQ, we introduce a cache-like collaboration mechanism for efficient inter-queue coordination, and develop a modular queue design based on unified Read and Write primitives. Within this framework, we expand the optimization space by designing a set of GPU-friendly queues, composing them across multiple levels, and further providing an input-adaptive MLMQ configuration scheme. Our MLMQ design achieves average speedups of 1.87x to 17.13x over state-of-the-art implementations. Our code is open-sourced at https://github.com/Leo9660/MLMQ.git.",
+ "primary": "cs.DS"
+}

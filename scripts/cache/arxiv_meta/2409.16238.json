@@ -1,0 +1,17 @@
+{
+ "id": "2409.16238",
+ "title": "Efficiently Learning Probabilistic Logical Models by Cheaply Ranking Mined Rules",
+ "authors": [
+  "Jonathan Feldstein",
+  "Dominic Phillips",
+  "Efthymia Tsamoura"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 3,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages",
+ "abstract": "Probabilistic logical models are a core component of neurosymbolic AI and are important in their own right for tasks that require high explainability. Unlike neural networks, logical theories that underlie the model are often handcrafted using domain expertise, making their development costly and prone to errors. While there are algorithms that learn logical theories from data, they are generally prohibitively expensive, limiting their applicability in real-world settings. Here, we introduce precision and recall for logical rules and define their composition as rule utility - a cost-effective measure of the predictive power of logical theories. We also introduce SPECTRUM, a scalable framework for learning logical theories from relational data. Its scalability derives from a linear-time algorithm for mining recurrent subgraphs in the data graph along with a second algorithm that, using a utility measure that can be computed in linear time, efficiently ranks rules derived from these subgraphs. Finally, we prove theoretical guarantees on the utility of the learnt logical theory. As a result, we demonstrate across various tasks that SPECTRUM scales to larger datasets, often learning more accurate logical theories on CPUs in < 1% the runtime of SOTA neural network approaches on GPUs.",
+ "primary": "cs.AI"
+}

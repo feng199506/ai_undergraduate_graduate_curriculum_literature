@@ -1,0 +1,17 @@
+{
+ "id": "2506.18582",
+ "title": "Parallel Continuous Chain-of-Thought with Jacobi Iteration",
+ "authors": [
+  "Haoyi Wu",
+  "Zhihao Teng",
+  "Kewei Tu"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 2,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to EMNLP 2025 main conference",
+ "abstract": "Continuous chain-of-thought has been shown to be effective in saving reasoning tokens for large language models. By reasoning with continuous latent thought tokens, continuous CoT is able to perform implicit reasoning in a compact manner. However, the sequential dependencies between latent thought tokens spoil parallel training, leading to long training time. In this paper, we propose Parallel Continuous Chain-of-Thought (PCCoT), which performs Jacobi iteration on the latent thought tokens, updating them iteratively in parallel instead of sequentially and thus improving both training and inference efficiency of continuous CoT. Experiments demonstrate that by choosing the proper number of iterations, we are able to achieve comparable or even better performance while saving nearly 50% of the training and inference time. Moreover, PCCoT shows better stability and robustness in the training process. Our code is available at https://github.com/whyNLP/PCCoT.",
+ "primary": "cs.CL"
+}

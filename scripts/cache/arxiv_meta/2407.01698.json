@@ -1,0 +1,16 @@
+{
+ "id": "2407.01698",
+ "title": "Column and row subset selection using nuclear scores: algorithms and theory for Nyström approximation, CUR decomposition, and graph Laplacian reduction",
+ "authors": [
+  "Mark Fornace",
+  "Michael Lindsey"
+ ],
+ "v1_date": "2024-07-01",
+ "latest_version": 2,
+ "latest_date": "2024-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Column selection is an essential tool for structure-preserving low-rank approximation, with wide-ranging applications across many fields, such as data science, machine learning, and theoretical chemistry. In this work, we develop unified methodologies for fast, efficient, and theoretically guaranteed column selection. First we derive and implement a sparsity-exploiting deterministic algorithm applicable to tasks including kernel approximation and CUR decomposition. Next, we develop a matrix-free formalism relying on a randomization scheme satisfying guaranteed concentration bounds, applying this construction both to CUR decomposition and to the approximation of matrix functions of graph Laplacians. Importantly, the randomization is only relevant for the computation of the scores that we use for column selection, not the selection itself given these scores. For both deterministic and matrix-free algorithms, we bound the performance favorably relative to the expected performance of determinantal point process (DPP) sampling and, in select scenarios, that of exactly optimal subset selection. The general case requires new analysis of the DPP expectation. Finally, we demonstrate strong real-world performance of our algorithms on a diverse set of example approximation tasks.",
+ "primary": "math.NA"
+}

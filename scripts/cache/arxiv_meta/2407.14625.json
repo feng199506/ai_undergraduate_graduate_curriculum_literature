@@ -1,0 +1,17 @@
+{
+ "id": "2407.14625",
+ "title": "Benchmarking deep learning models for bearing fault diagnosis using the CWRU dataset: A multi-label approach",
+ "authors": [
+  "Rodrigo Kobashikawa Rosa",
+  "Danilo Braga",
+  "Danilo Silva"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 1,
+ "latest_date": "2024-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a novel approach for modeling the problem of fault diagnosis using the Case Western Reserve University (CWRU) bearing fault dataset. Although the dataset is considered a standard reference for testing new algorithms, the typical dataset division suffers from data leakage, as shown by Hendriks et al. (2022) and Abburi et al. (2023), leading to papers reporting over-optimistic results. While their proposed division significantly mitigates this issue, it does not eliminate it entirely. Moreover, their proposed multi-class classification task can still lead to an unrealistic scenario by excluding the possibility of more than one fault type occurring at the same or different locations. As advocated in this paper, a multi-label formulation (detecting the presence of each type of fault for each location) can solve both issues, leading to a scenario closer to reality. Additionally, this approach mitigates the heavy class imbalance of the CWRU dataset, where faulty cases appear much more frequently than healthy cases, even though the opposite is more likely to occur in practice. A multi-label formulation also enables a more precise evaluation using prevalence-independent evaluation metrics for binary classification, such as the ROC curve. Finally, this paper proposes a more realistic dataset division that allows for more diversity in the training dataset while keeping the division free from data leakage. The results show that this new division can significantly improve performance while enabling a fine-grained error analysis. As an application of our approach, a comparative benchmark is performed using several state-of-the-art deep learning models applied to 1D and 2D signal representations in time and/or frequency domains.",
+ "primary": "eess.SP"
+}

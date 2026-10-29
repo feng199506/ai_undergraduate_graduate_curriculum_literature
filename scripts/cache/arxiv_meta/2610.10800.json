@@ -1,0 +1,15 @@
+{
+ "id": "2610.10800",
+ "title": "Decomposition Profiles and Weisfeiler-Leman Dimension for Graphs of Bounded Rank Width",
+ "authors": [
+  "Antonios Kalampakas"
+ ],
+ "v1_date": "2026-10-07",
+ "latest_version": 1,
+ "latest_date": "2026-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages. Includes ancillary verification code",
+ "abstract": "The Weisfeiler-Leman (WL) algorithm tests graph isomorphism by assigning colours to $d$-tuples of vertices and iteratively refining the colouring according to neighbourhood configurations until it stabilizes. Increasing $d$ allows the test to detect finer structural differences between graphs, but the computational cost grows exponentially with $d$. The central question is which dimension allows us to distinguish nonisomorphic graphs. We relate a sufficient such dimension to the structure of a graph $G$ through a rank decomposition over $\\mathbb F_2$. The two parameters governing the bound are the maximum cut rank $w$ and the fork load $\\ell$, which is the largest sum of the parent and two child cut ranks at a fork in the decomposition tree. We prove that WL in dimension $\\max\\{\\ell+1,2w+2\\}$ distinguishes every finite nonempty vertex-coloured graph $G$ with such a decomposition from every graph not isomorphic to $G$. Consequently, for $k\\geq1$, graphs of rank width at most $k$ can be distinguished from every nonisomorphic graph in dimension $3k+1$, graphs of linear rank width at most $k$ in dimension $2k+2$, and edgeless graphs in dimension one. Uncoloured Cai-Fürer-Immerman (CFI) constructions give linear lower bounds for both width parameters, so the upper bounds are tight up to constant factors.",
+ "primary": "math.CO"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2504.20224",
+ "title": "Performance Smells in ML and Non-ML Python Projects: A Comparative Study",
+ "authors": [
+  "François Belias",
+  "Leuson Da Silva",
+  "Foutse Khomh",
+  "Cyrine Zid"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 1,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Python is widely adopted across various domains, especially in Machine Learning (ML) and traditional software projects. Despite its versatility, Python is susceptible to performance smells, i.e., suboptimal coding practices that can reduce application efficiency. This study provides a comparative analysis of performance smells between ML and non-ML projects, aiming to assess the occurrence of these inefficiencies while exploring their distribution across stages in the ML pipeline. For that, we conducted an empirical study analyzing 300 Python-based GitHub projects, distributed across ML and non-ML projects, categorizing performance smells based on the RIdiom tool. Our results indicate that ML projects are more susceptible to performance smells likely due to the computational and data-intensive nature of ML workflows. We also observed that performance smells in the ML pipeline predominantly affect the Data Processing stage. However, their presence in the Model Deployment stage indicates that such smells are not limited to the early stages of the pipeline. Our findings offer actionable insights for developers, emphasizing the importance of targeted optimizations for smells prevalent in ML projects. Furthermore, our study underscores the need to tailor performance optimization strategies to the unique characteristics of ML projects, with particular attention to the pipeline stages most affected by performance smells.",
+ "primary": "cs.SE"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2607.08522",
+ "title": "Stop Guessing When to Stop Testing: Efficient Model Evaluation with Just Enough Data",
+ "authors": [
+  "Ofir Arviv",
+  "Kristjan Greenewald",
+  "Yotam Perlitz",
+  "Hadar Mulian",
+  "Michal Shmueli-Scheuer",
+  "Leshem Choshen"
+ ],
+ "v1_date": "2026-07-09",
+ "latest_version": 1,
+ "latest_date": "2026-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The inherent rigidity of fixed-size benchmarks makes them an inefficient tool for model evaluation. Diverse evaluation objectives, including model ranking, model selection and testing throughout development, demand varying levels of statistical power. The mismatch between fixed sample sizes and these diverse needs results in either excessive computational cost or compromised reliability - a critical concern for model evaluation. To overcome these limitations, we call for adoption of sequential testing in our field. We provide an adaptive evaluation framework, that provides a principled way to navigate the trade-off between efficiency and reliability in model evaluation. Our framework combines the established statistical paradigm of sequential testing with stopping criteria tailored to common evaluation needs such as diminishing returns detection, and minimum detectable effect size. We demonstrate its ability to adaptively manage the efficiency-reliability trade-off on the Open VLM Leaderboard, including, for example, a 80% reduction in computational cost compared to fixed-size evaluation (with a 2.5-point CI width allowance) while maintaining statistical significance.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2610.32911",
+ "title": "Classical, Machine Learning, and Hybrid Solvers for Partial Differential Equations: An Evidence-Weighted Review and Decision Framework",
+ "authors": [
+  "Yingchao Huang",
+  "Xin Wang",
+  "Shanshan Yao",
+  "Fanhua Zeng",
+  "Wei Peng"
+ ],
+ "v1_date": "2026-10-23",
+ "latest_version": 1,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning for partial differential equations raises a practical question: when are classical, learned, or hybrid solvers justified? This survey compares the three families in a decision framework organized by data availability, query volume, and certification needs. An amortization law, tested on parametric Darcy flow, shows that surrogates trained on solver-generated data break even only after many queries, beyond thirty thousand for errors below one percent. An evidence ladder, a benchmark reanalysis, and three case studies show that claims of speedup and generalization carry the weakest evidence. Solver choice should follow regime, query volume, and evidence quality, not method novelty.",
+ "primary": "eess.SY"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2508.05926",
+ "title": "Reverse Diffusion Sequential Monte Carlo Samplers",
+ "authors": [
+  "Luhuan Wu",
+  "Yi Han",
+  "Christian A. Naesseth",
+  "John P. Cunningham"
+ ],
+ "v1_date": "2025-08-08",
+ "latest_version": 2,
+ "latest_date": "2025-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel sequential Monte Carlo (SMC) method for sampling from unnormalized target distributions based on a reverse denoising diffusion process. While recent diffusion-based samplers simulate the reverse diffusion using approximate score functions, they can suffer from accumulating errors due to time discretization and imperfect score estimation. In this work, we introduce a principled SMC framework that formalizes diffusion-based samplers as proposals while systematically correcting for their biases. The core idea is to construct informative intermediate target distributions that progressively steer the sampling trajectory toward the final target distribution. Although ideal intermediate targets are intractable, we develop exact approximations using quantities from the score estimation-based proposal, without requiring additional model training or inference overhead. The resulting sampler, termed Reverse Diffusion Sequential Monte Carlo, enables consistent sampling and unbiased estimation of the target's normalization constant under mild conditions. We demonstrate the effectiveness of our method on a range of synthetic targets and real-world Bayesian inference problems.",
+ "primary": "stat.CO"
+}

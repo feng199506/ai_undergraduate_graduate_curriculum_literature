@@ -1,0 +1,18 @@
+{
+ "id": "2502.18424",
+ "title": "Compressing Language Models for Specialized Domains",
+ "authors": [
+  "Miles Williams",
+  "George Chrysostomou",
+  "Vitor Jeronymo",
+  "Nikolaos Aletras"
+ ],
+ "v1_date": "2025-02-25",
+ "latest_version": 2,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EACL 2026",
+ "abstract": "Language models (LMs) excel at tasks across diverse domains, yet require substantial computational resources during inference. Compression techniques such as pruning and quantization offer a practical path towards efficient LM deployment, exemplified by their ability to preserve performance on general-purpose benchmarks. However, general-purpose LM compression methods can negatively affect performance in specialized domains (e.g. biomedical or legal). Recent work has sought to address this issue, but requires a computationally expensive full-parameter fine-tuning pipeline. To this end, we propose MixCal, a novel calibration method designed to improve the in-domain performance of compressed LMs in a post-training setting. Through extensive experimentation, we demonstrate that MixCal substantially outperforms existing approaches on domain-specific tasks and preserves general performance. Notably, these performance gains are achieved while also reducing the computational cost of LM compression.",
+ "primary": "cs.CL"
+}

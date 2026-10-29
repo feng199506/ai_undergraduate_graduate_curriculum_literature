@@ -1,0 +1,21 @@
+{
+ "id": "2607.08382",
+ "title": "H3D: Benchmarking Unsupervised Text Hashing for Fine-Grained Document Deduplication",
+ "authors": [
+  "Qianren Mao",
+  "Jiaxun Lyu",
+  "Junnan Liu",
+  "Zhijun Chen",
+  "Jingzheng Li",
+  "Hanwen Hao",
+  "Bo Li"
+ ],
+ "v1_date": "2026-07-09",
+ "latest_version": 1,
+ "latest_date": "2026-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Document hashing provides compact representations for efficient similarity search and document deduplication, but existing studies rarely compare hashing pipelines under a unified protocol for fine-grained scientific documents. H3D is an unsupervised text hashing benchmark for fine-grained document deduplication. It evaluates representative unsupervised non-learning hashing approaches (MinHash, SimHash, Winnowing, FuzzyHash, FlyHash) together with semantic-sensitive methods built from frozen BGE embeddings and two quantization strategies (BGE-BIHash and BGE-LSHash). The non-learning methods generate hash fingerprints through manually designed mathematical rules without training or labeled similarity pairs, which distinguishes them from neural semantic hashing models. We benchmark all methods on CSFCube and RELISH, two datasets that provide complementary evaluation settings: facet-level analysis for scientific-document similarity and larger-scale split-level evaluation for biomedical similarity search. H3D jointly reports ranking quality (MAP, NDCG@20), efficiency, and robustness under controlled text compression. The results show a consistent trade-off: lexical and structural fingerprints are competitive for near-duplicate matching, while semantic-sensitive representations better preserve similarity under content rewriting, at higher computational cost. We further analyze when different similarity measures become rank-equivalent for specific hash representations, improving the interpretability and reproducibility of method comparisons.",
+ "primary": "cs.IR"
+}

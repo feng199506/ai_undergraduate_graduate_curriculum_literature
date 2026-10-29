@@ -1,0 +1,18 @@
+{
+ "id": "2606.30835",
+ "title": "The Limits of Photometric Dynamics: Benchmarking Cluster Relaxation Diagnostics",
+ "authors": [
+  "Alisson P. Costa",
+  "Andre L. B. Ribeiro",
+  "Zhonglue L. Wen",
+  "Flavio R. Morais-Neto"
+ ],
+ "v1_date": "2026-06-29",
+ "latest_version": 1,
+ "latest_date": "2026-06-29",
+ "journal_ref": "Universe 2026, 12(7), 196",
+ "doi": "10.3390/universe12070196",
+ "comment": "25 pages, 6 figures, accepted for publication in Universe",
+ "abstract": "Galaxy clusters are key probes of cosmology and structure formation, yet their dynamical classification traditionally relies on spectroscopic redshifts, which do not scale efficiently with survey size. As large photometric surveys such as LSST become available, photometric redshifts offer an attractive alternative, but their impact on velocity-based diagnostics remains poorly constrained. We quantify the sensitivity of two Gaussianity diagnostics - the Anderson-Darling (AD) test and Gaussian mixture modeling (Mclust) - to different photometric redshift error prescriptions. Propagating Gaussian and Student-t uncertainties through SDSS photometric velocity distributions, we assess how the error model affects recovery of cluster dynamical states established by the independent $Γ$ morphological proxy. Using 1672 SDSS clusters with pre-existing $Γ$, we perform Monte Carlo resampling under Gaussian and Student-t errors, the latter mimicking heavy-tailed uncertainties and catastrophic outliers, plus a spectroscopic control experiment with mock photometric redshifts from spectroscopic data. Under Gaussian errors, relaxed clusters are recovered in ~95% of realizations, while unrelaxed ones in only ~5%, revealing a strong bias toward relaxed classifications. Student-t errors drop relaxed recovery to ~60-70% and raise unrelaxed to ~30-45%, though still incomplete. Paired Wilcoxon tests confirm these differences are significant. This has direct implications for large photometric surveys: dynamical studies based primarily on photometric data may significantly underestimate disturbed cluster fractions without robust spectroscopic calibration, outlier mitigation, and validation with realistic mock catalogs.",
+ "primary": "astro-ph.CO"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2606.02006",
+ "title": "An Agentic Approach Towards Replication Package Quality Evaluation",
+ "authors": [
+  "Maximilian Alexander Amougou Mbida",
+  "Florian Angermeir"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 2,
+ "latest_date": "2026-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reproducibility in empirical software engineering relies on complete, accessible, and reusable research artifacts, yet artifact evaluation remains largely manual and difficult to scale. This emerging results paper explores an agentic approach for assessing replication package quality by translating open-science guidelines into machine-verifiable criteria. We consolidate 380 requirements from 34 sources into 51 reproducibility criteria, of which 31 are operationalized for automated artifact-based evaluation. Based on these criteria, we implement a multi-agent prototype that inspects replication packages and produces evidence-grounded improvement reports. A preliminary evaluation on five replication packages shows high inter-run consistency of 91.4% and 75.4% correctness, through micro-averaged agreement with a manual baseline. The agent performs best on structural criteria such as code, environment, and artifact availability, but struggles with qualitative or mixed-method studies. A pilot survey with seven software engineering researchers indicates well perceived usefulness and adoption potential, while revealing cognitive load in the human-in-the-loop planning step. Overall, within these small samples, the results indicate that agentic research artifact evaluation has the potential to support authors and reviewers by automating selected routine checks.",
+ "primary": "cs.SE"
+}

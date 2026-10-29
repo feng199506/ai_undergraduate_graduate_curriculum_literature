@@ -1,0 +1,19 @@
+{
+ "id": "2603.20303",
+ "title": "InjectFlow: Weak Guides Strong via Orthogonal Injection for Flow Matching",
+ "authors": [
+  "Dayu Wang",
+  "Jiaye Yang",
+  "Weikang Li",
+  "Jiahui Liang",
+  "Yang Li"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 1,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Flow Matching (FM) has recently emerged as a leading approach for high-fidelity visual generation, offering a robust continuous-time alternative to ordinary differential equation (ODE) based models. However, despite their success, FM models are highly sensitive to dataset biases, which cause severe semantic degradation when generating out-of-distribution or minority-class samples. In this paper, we provide a rigorous mathematical formalization of the ``Bias Manifold'' within the FM framework. We identify that this performance drop is driven by conditional expectation smoothing, a mechanism that inevitably leads to trajectory lock-in during inference. To resolve this, we introduce InjectFlow, a novel, training-free method by injecting orthogonal semantics during the initial velocity field computation, without requiring any changes to the random seeds. This design effectively prevents the latent drift toward majority modes while maintaining high generative quality. Extensive experiments demonstrate the effectiveness of our approach. Notably, on the GenEval dataset, InjectFlow successfully fixes 75% of the prompts that standard flow matching models fail to generate correctly. Ultimately, our theoretical analysis and algorithm provide a ready-to-use solution for building more fair and robust visual foundation models.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2407.06935",
+ "title": "Bayesian Federated Learning with Hamiltonian Monte Carlo: Algorithm and Theory",
+ "authors": [
+  "Jiajun Liang",
+  "Qian Zhang",
+  "Wei Deng",
+  "Qifan Song",
+  "Guang Lin"
+ ],
+ "v1_date": "2024-07-09",
+ "latest_version": 1,
+ "latest_date": "2024-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work introduces a novel and efficient Bayesian federated learning algorithm, namely, the Federated Averaging stochastic Hamiltonian Monte Carlo (FA-HMC), for parameter estimation and uncertainty quantification. We establish rigorous convergence guarantees of FA-HMC on non-iid distributed data sets, under the strong convexity and Hessian smoothness assumptions. Our analysis investigates the effects of parameter space dimension, noise on gradients and momentum, and the frequency of communication (between the central node and local nodes) on the convergence and communication costs of FA-HMC. Beyond that, we establish the tightness of our analysis by showing that the convergence rate cannot be improved even for continuous FA-HMC process. Moreover, extensive empirical studies demonstrate that FA-HMC outperforms the existing Federated Averaging-Langevin Monte Carlo (FA-LD) algorithm.",
+ "primary": "cs.LG"
+}

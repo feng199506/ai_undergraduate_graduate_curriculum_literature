@@ -1,0 +1,17 @@
+{
+ "id": "2311.13413",
+ "title": "Revisiting Machine Learning based Test Case Prioritization for Continuous Integration",
+ "authors": [
+  "Yifan Zhao",
+  "Dan Hao",
+  "Lu Zhang"
+ ],
+ "v1_date": "2023-11-22",
+ "latest_version": 1,
+ "latest_date": "2023-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper has been accepted by ICSME 2023",
+ "abstract": "To alleviate the cost of regression testing in continuous integration (CI), a large number of machine learning-based (ML-based) test case prioritization techniques have been proposed. However, it is yet unknown how they perform under the same experimental setup, because they are evaluated on different datasets with different metrics. To bridge this gap, we conduct the first comprehensive study on these ML-based techniques in this paper. We investigate the performance of 11 representative ML-based prioritization techniques for CI on 11 open-source subjects and obtain a series of findings. For example, the performance of the techniques changes across CI cycles, mainly resulting from the changing amount of training data, instead of code evolution and test removal/addition. Based on the findings, we give some actionable suggestions on enhancing the effectiveness of ML-based techniques, e.g., pretraining a prioritization technique with cross-subject data to get it thoroughly trained and then finetuning it with within-subject data dramatically improves its performance. In particular, the pretrained MART achieves state-of-the-art performance, producing the optimal sequence on 80% subjects, while the existing best technique, the original MART, only produces the optimal sequence on 50% subjects.",
+ "primary": "cs.SE"
+}

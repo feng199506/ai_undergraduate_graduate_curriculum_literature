@@ -1,0 +1,18 @@
+{
+ "id": "2503.01509",
+ "title": "Recommendations for visual predictive checks in Bayesian workflow",
+ "authors": [
+  "Teemu Säilynoja",
+  "Andrew R. Johnson",
+  "Osvaldo A. Martin",
+  "Aki Vehtari"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 1,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 29 figures",
+ "abstract": "A key step in the Bayesian workflow for model building is the graphical assessment of model predictions, whether these are drawn from the prior or posterior predictive distribution. The goal of these assessments is to identify whether the model is a reasonable (and ideally accurate) representation of the domain knowledge and/or observed data. There are many commonly used visual predictive checks which can be misleading if their implicit assumptions do not match the reality. Thus, there is a need for more guidance for selecting, interpreting, and diagnosing appropriate visualizations. As a visual predictive check itself can be viewed as a model fit to data, assessing when this model fails to represent the data is important for drawing well-informed conclusions. We present recommendations and diagnostic tools to mitigate ad-hoc decision-making in visual predictive checks. These contributions aim to improve the robustness and interpretability of Bayesian model criticism practices. We offer recommendations for appropriate visual predictive checks for observations that are: continuous, discrete, or a mixture of the two. We also discuss diagnostics to aid in the selection of visual methods. Specifically, in the detection of an incorrect assumption of continuously-distributed data: identifying when data is likely to be discrete or contain discrete components, detecting and estimating possible bounds in data, and a diagnostic of the goodness-of-fit to data for density plots made through kernel density estimates.",
+ "primary": "stat.ME"
+}

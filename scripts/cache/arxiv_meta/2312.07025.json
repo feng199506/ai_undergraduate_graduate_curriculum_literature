@@ -1,0 +1,20 @@
+{
+ "id": "2312.07025",
+ "title": "Noise Distribution Decomposition based Multi-Agent Distributional Reinforcement Learning",
+ "authors": [
+  "Wei Geng",
+  "Baidi Xiao",
+  "Rongpeng Li",
+  "Ning Wei",
+  "Dong Wang",
+  "Zhifeng Zhao"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 2,
+ "latest_date": "2024-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generally, Reinforcement Learning (RL) agent updates its policy by repetitively interacting with the environment, contingent on the received rewards to observed states and undertaken actions. However, the environmental disturbance, commonly leading to noisy observations (e.g., rewards and states), could significantly shape the performance of agent. Furthermore, the learning performance of Multi-Agent Reinforcement Learning (MARL) is more susceptible to noise due to the interference among intelligent agents. Therefore, it becomes imperative to revolutionize the design of MARL, so as to capably ameliorate the annoying impact of noisy rewards. In this paper, we propose a novel decomposition-based multi-agent distributional RL method by approximating the globally shared noisy reward by a Gaussian mixture model (GMM) and decomposing it into the combination of individual distributional local rewards, with which each agent can be updated locally through distributional RL. Moreover, a diffusion model (DM) is leveraged for reward generation in order to mitigate the issue of costly interaction expenditure for learning distributions. Furthermore, the optimality of the distribution decomposition is theoretically validated, while the design of loss function is carefully calibrated to avoid the decomposition ambiguity. We also verify the effectiveness of the proposed method through extensive simulation experiments with noisy rewards. Besides, different risk-sensitive policies are evaluated in order to demonstrate the superiority of distributional RL in different MARL tasks.",
+ "primary": "cs.AI"
+}

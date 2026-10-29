@@ -1,0 +1,18 @@
+{
+ "id": "2508.09602",
+ "title": "A Lightweight Learned Cardinality Estimation Model",
+ "authors": [
+  "Yaoyu Zhu",
+  "Jintao Zhang",
+  "Guoliang Li",
+  "Jianhua Feng"
+ ],
+ "v1_date": "2025-08-13",
+ "latest_version": 1,
+ "latest_date": "2025-08-13",
+ "journal_ref": "",
+ "doi": "10.1109/tkde.2025.3591025",
+ "comment": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2025",
+ "abstract": "Cardinality estimation is a fundamental task in database management systems, aiming to predict query results accurately without executing the queries. However, existing techniques either achieve low estimation accuracy or incur high inference latency. Simultaneously achieving high speed and accuracy becomes critical for the cardinality estimation problem. In this paper, we propose a novel data-driven approach called CoDe (Covering with Decompositions) to address this problem. CoDe employs the concept of covering design, which divides the table into multiple smaller, overlapping segments. For each segment, CoDe utilizes tensor decomposition to accurately model its data distribution. Moreover, CoDe introduces innovative algorithms to select the best-fitting distributions for each query, combining them to estimate the final result. By employing multiple models to approximate distributions, CoDe excels in effectively modeling discrete distributions and ensuring computational efficiency. Notably, experimental results show that our method represents a significant advancement in cardinality estimation, achieving state-of-the-art levels of both estimation accuracy and inference efficiency. Across various datasets, CoDe achieves absolute accuracy in estimating more than half of the queries.",
+ "primary": "cs.DB"
+}

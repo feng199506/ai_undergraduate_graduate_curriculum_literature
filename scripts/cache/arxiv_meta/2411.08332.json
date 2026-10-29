@@ -1,0 +1,17 @@
+{
+ "id": "2411.08332",
+ "title": "Learning-Augmented Algorithms for Online Concave Packing and Convex Covering Problems",
+ "authors": [
+  "Elena Grigorescu",
+  "Young-San Lin",
+  "Maoyuan Song"
+ ],
+ "v1_date": "2024-11-13",
+ "latest_version": 1,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages. In submission",
+ "abstract": "Learning-augmented algorithms have been extensively studied across the computer science community in the recent years, driven by advances in machine learning predictors, which can provide additional information to augment classical algorithms. Such predictions are especially powerful in the context of online problems, where decisions have to be made without knowledge of the future, and which traditionally exhibits impossibility results bounding the performance of any online algorithm. The study of learning-augmented algorithms thus aims to use external advice prudently, to overcome classical impossibility results when the advice is accurate, and still perform comparably to the state-of-the-art online algorithms even when the advice is inaccurate. In this paper, we present learning-augmented algorithmic frameworks for two fundamental optimizations settings, extending and generalizing prior works. For online packing with concave objectives, we present a simple but overarching strategy that switches between the advice and the state-of-the-art online algorithm. For online covering with convex objectives, we greatly extend primal-dual methods for online convex covering programs by Azar et al. (FOCS 2016) and previous learning-augmented framework for online covering linear programs from the literature, to many new applications. We show that our algorithms break impossibility results when the advice is accurate, while maintaining comparable performance with state-of-the-art classical online algorithms even when the advice is erroneous.",
+ "primary": "cs.DS"
+}

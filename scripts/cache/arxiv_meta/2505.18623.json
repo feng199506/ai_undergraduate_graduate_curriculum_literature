@@ -1,0 +1,16 @@
+{
+ "id": "2505.18623",
+ "title": "Mind The Gap: Quantifying Mechanistic Gaps in Algorithmic Reasoning via Neural Compilation",
+ "authors": [
+  "Lucas Saldyt",
+  "Subbarao Kambhampati"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 2,
+ "latest_date": "2025-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper aims to understand how neural networks learn algorithmic reasoning by addressing two questions: How faithful are learned algorithms when they are effective, and why do neural networks fail to learn effective algorithms otherwise? To answer these questions, we use neural compilation, a technique that directly encodes a source algorithm into neural network parameters, enabling the network to compute the algorithm exactly. This enables comparison between compiled and conventionally learned parameters, intermediate vectors, and behaviors. This investigation is crucial for developing neural networks that robustly learn complexalgorithms from data. Our analysis focuses on graph neural networks (GNNs), which are naturally aligned with algorithmic reasoning tasks, specifically our choices of BFS, DFS, and Bellman-Ford, which cover the spectrum of effective, faithful, and ineffective learned algorithms. Commonly, learning algorithmic reasoning is framed as induction over synthetic data, where a parameterized model is trained on inputs, traces, and outputs produced by an underlying ground truth algorithm. In contrast, we introduce a neural compilation method for GNNs, which sets network parameters analytically, bypassing training. Focusing on GNNs leverages their alignment with algorithmic reasoning, extensive algorithmic induction literature, and the novel application of neural compilation to GNNs. Overall, this paper aims to characterize expressability-trainability gaps - a fundamental shortcoming in learning algorithmic reasoning. We hypothesize that inductive learning is most effective for parallel algorithms contained within the computational class \\texttt{NC}.",
+ "primary": "cs.AI"
+}

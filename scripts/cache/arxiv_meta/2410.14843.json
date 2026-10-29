@@ -1,0 +1,17 @@
+{
+ "id": "2410.14843",
+ "title": "Predictive variational inference: Learn the predictively optimal posterior distribution",
+ "authors": [
+  "Jinlin Lai",
+  "Antonio Linero",
+  "Yuling Yao"
+ ],
+ "v1_date": "2024-10-18",
+ "latest_version": 4,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026",
+ "abstract": "Vanilla variational inference finds an optimal approximation to the Bayesian posterior distribution, but even the exact Bayesian posterior is often not meaningful under model misspecification. We propose predictive variational inference (PVI): a general inference framework that seeks and samples from an optimal posterior density such that the resulting posterior predictive distribution is as close to the true data generating process as possible, while this closeness is measured by multiple scoring rules. By optimizing the objective, the predictive variational inference is generally not the same as, or even attempting to approximate, the Bayesian posterior, even asymptotically. Rather, we interpret it as implicit hierarchical expansion. Further, the learned posterior uncertainty detects heterogeneity of parameters among the population, enabling automatic model diagnosis. This framework applies to both likelihood-exact and likelihood-free models. We demonstrate its application in real data examples.",
+ "primary": "stat.ML"
+}

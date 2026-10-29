@@ -1,0 +1,16 @@
+{
+ "id": "2403.07929",
+ "title": "Sketching the Heat Kernel: Using Gaussian Processes to Embed Data",
+ "authors": [
+  "Anna C. Gilbert",
+  "Kevin O'Neill"
+ ],
+ "v1_date": "2024-03-01",
+ "latest_version": 1,
+ "latest_date": "2024-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages",
+ "abstract": "This paper introduces a novel, non-deterministic method for embedding data in low-dimensional Euclidean space based on computing realizations of a Gaussian process depending on the geometry of the data. This type of embedding first appeared in (Adler et al, 2018) as a theoretical model for a generic manifold in high dimensions. In particular, we take the covariance function of the Gaussian process to be the heat kernel, and computing the embedding amounts to sketching a matrix representing the heat kernel. The Karhunen-Loève expansion reveals that the straight-line distances in the embedding approximate the diffusion distance in a probabilistic sense, avoiding the need for sharp cutoffs and maintaining some of the smaller-scale structure. Our method demonstrates further advantage in its robustness to outliers. We justify the approach with both theory and experiments.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2404.03707",
+ "title": "Investigating the Robustness of Counterfactual Learning to Rank Models: A Reproducibility Study",
+ "authors": [
+  "Zechun Niu",
+  "Zhilin Zhang",
+  "Jiaxin Mao",
+  "Qingyao Ai",
+  "Ji-Rong Wen"
+ ],
+ "v1_date": "2024-04-04",
+ "latest_version": 2,
+ "latest_date": "2025-08-28",
+ "journal_ref": "Zechun Niu et al. 2025. Investigating the Robustness of Counterfactual Learning to Rank Models: A Reproducibility Study. In Proceedings of SIGIR'25 (pp. 3265-3275)",
+ "doi": "10.1145/3726302.3730310",
+ "comment": "Accepted by SIGIR 2025",
+ "abstract": "Counterfactual learning to rank (CLTR) has attracted extensive attention in the IR community for its ability to leverage massive logged user interaction data to train ranking models. While the CLTR models can be theoretically unbiased when the user behavior assumption is correct and the propensity estimation is accurate, their effectiveness is usually empirically evaluated via simulation-based experiments due to a lack of widely available, large-scale, real click logs. However, many previous simulation-based experiments are somewhat limited because they may have one or more of the following deficiencies: 1) using a weak production ranker to generate initial ranked lists, 2) relying on a simplified user simulation model to simulate user clicks, and 3) generating a fixed number of synthetic click logs. As a result, the robustness of CLTR models in complex and diverse situations is largely unknown and needs further investigation. To address this problem, in this paper, we aim to investigate the robustness of existing CLTR models in a reproducibility study with extensive simulation-based experiments that (1) use production rankers with different ranking performance, (2) leverage multiple user simulation models with different user behavior assumptions, and (3) generate different numbers of synthetic sessions for the training queries. We find that the IPS-DCM, DLA-PBM, and UPE models show better robustness under various simulation settings than other CLTR models. Moreover, existing CLTR models often fail to outperform naive click baselines when the production ranker is strong and the number of training sessions is limited, indicating a pressing need for new CLTR algorithms tailored to these conditions.",
+ "primary": "cs.LG"
+}

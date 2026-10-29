@@ -1,0 +1,17 @@
+{
+ "id": "2412.04882",
+ "title": "Nonmyopic Global Optimisation via Approximate Dynamic Programming",
+ "authors": [
+  "Filippo Airaldi",
+  "Bart De Schutter",
+  "Azita Dabiri"
+ ],
+ "v1_date": "2024-12-06",
+ "latest_version": 2,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 6 figures, 2 tables, submitted to Springer Machine Learning",
+ "abstract": "Global optimisation to optimise expensive-to-evaluate black-box functions without gradient information. Bayesian optimisation, one of the most well-known techniques, typically employs Gaussian processes as surrogate models, leveraging their probabilistic nature to balance exploration and exploitation. However, these processes become computationally prohibitive in high-dimensional spaces. Recent alternatives, based on inverse distance weighting (IDW) and radial basis functions (RBFs), offer competitive, computationally lighter solutions. Despite their efficiency, both traditional global and Bayesian optimisation strategies suffer from the myopic nature of their acquisition functions, which focus on immediate improvement neglecting future implications of the sequential decision making process. Nonmyopic acquisition functions devised for the Bayesian setting have shown promise in improving long-term performance. Yet, their combination with deterministic surrogate models remains unexplored. In this work, we introduce novel nonmyopic acquisition strategies tailored to IDW and RBF based on approximate dynamic programming paradigms, including rollout and multi-step scenario-based optimisation schemes, to enable lookahead acquisition. These methods optimise a sequence of query points over a horizon by predicting the evolution of the surrogate model, inherently managing the exploration-exploitation trade-off via optimisation techniques. The proposed approach represents a significant advance in extending nonmyopic acquisition principles, previously confined to Bayesian optimisation, to deterministic models. Empirical results on synthetic and hyperparameter tuning benchmark problems, a constrained problem, as well as on a data-driven predictive control application, demonstrate that these nonmyopic methods outperform conventional myopic approaches, leading to faster and more robust convergence.",
+ "primary": "cs.LG"
+}

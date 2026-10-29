@@ -1,0 +1,17 @@
+{
+ "id": "2509.22938",
+ "title": "Understanding SOAP from the Perspective of Gradient Whitening",
+ "authors": [
+  "Yanqing Lu",
+  "Letao Wang",
+  "Jinbo Liu"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 1,
+ "latest_date": "2025-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Shampoo with Adam in the Preconditioner's eigenbasis (SOAP) has recently emerged as a promising optimization algorithm for neural network training, achieving superior training efficiency over both Adam and Shampoo in language modeling tasks. In this work, we analyze Adam, Shampoo, and SOAP from the perspective of gradient whitening, interpreting their preconditioners as approximations to the whitening matrix, which captures second-order curvature information. We further establish a theoretical equivalence between idealized versions of SOAP and Shampoo under the Kronecker product assumption. To empirically evaluate these insights, we reproduce the language modeling experiments using nanoGPT and grayscale image colorization. Our results show that SOAP exhibits similar convergence rate as Shampoo, and no significant advantage over both Adam and Shampoo in the final loss achieved, which aligns with their equivalence in theory.",
+ "primary": "cs.LG"
+}

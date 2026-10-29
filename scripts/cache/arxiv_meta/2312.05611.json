@@ -1,0 +1,16 @@
+{
+ "id": "2312.05611",
+ "title": "Triplet Edge Attention for Algorithmic Reasoning",
+ "authors": [
+  "Yeonjoon Jung",
+  "Sungsoo Ahn"
+ ],
+ "v1_date": "2023-12-09",
+ "latest_version": 1,
+ "latest_date": "2023-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work investigates neural algorithmic reasoning to develop neural networks capable of learning from classical algorithms. The main challenge is to develop graph neural networks that are expressive enough to predict the given algorithm outputs while generalizing well to out-of-distribution data. In this work, we introduce a new graph neural network layer called Triplet Edge Attention (TEA), an edge-aware graph attention layer. Our algorithm works by precisely computing edge latent, aggregating multiple triplet messages using edge-based attention. We empirically validate our TEA layer in the CLRS benchmark and demonstrate a $5%$ improvement on average. In particular, we achieve a $30%$ improvement for the string algorithms compared to the state-of-the-art model.",
+ "primary": "cs.LG"
+}

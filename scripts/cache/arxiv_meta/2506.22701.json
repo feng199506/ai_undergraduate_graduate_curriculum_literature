@@ -1,0 +1,15 @@
+{
+ "id": "2506.22701",
+ "title": "Lower bounds for trace estimation via Block Krylov and other methods",
+ "authors": [
+  "Shi Jie Yu"
+ ],
+ "v1_date": "2025-06-28",
+ "latest_version": 1,
+ "latest_date": "2025-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies theoretical lower bounds for estimating the trace of a matrix function, $\\text{tr}(f(A))$, focusing on methods that use Hutchinson's method along with Block Krylov techniques. These methods work by approximating matrix-vector products like $f(A)V$ using a Block Krylov subspace. This is closely related to approximating functions with polynomials. We derive theoretical upper bounds on how many Krylov steps are needed for functions such as $A^{-1/2}$ and $A^{-1}$ by analyzing the upper bounds from the polynomial approximation of their scalar equivalent. In addition, we also develop lower limits on the number of queries needed for trace estimation, specifically for $\\text{tr}(W^{-p})$ where $W$ is a Wishart matrix. Our study clarifies the connection between the number of steps in Block Krylov methods and the degree of the polynomial used for approximation. This links the total cost of trace estimation to basic limits in polynomial approximation and how much information is needed for the computation.",
+ "primary": "math.ST"
+}

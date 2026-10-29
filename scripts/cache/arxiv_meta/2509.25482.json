@@ -1,0 +1,17 @@
+{
+ "id": "2509.25482",
+ "title": "Message passing-based inference in an autoregressive active inference agent",
+ "authors": [
+  "Wouter M. Kouw",
+  "Tim N. Nisslbeck",
+  "Wouter L. N. Nuijten"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 2,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 4 figures, proceedings of the International Workshop on Active Inference 2025. Erratum v1: in Eq. (50), $p(y_t, Θ, u_t \\mid y_{*}, \\mathcal{D}_k)$ should have been $p(y_t, Θ\\mid u_t, y_{*}, \\mathcal{D}_k)$",
+ "abstract": "We present the design of an autoregressive active inference agent in the form of message passing on a factor graph. Expected free energy is derived and distributed across a planning graph. The proposed agent is validated on a robot navigation task, demonstrating exploration and exploitation in a continuous-valued observation space with bounded continuous-valued actions. Compared to a classical optimal controller, the agent modulates action based on predictive uncertainty, arriving later but with a better model of the robot's dynamics.",
+ "primary": "cs.AI"
+}

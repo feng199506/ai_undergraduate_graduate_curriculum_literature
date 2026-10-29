@@ -1,0 +1,18 @@
+{
+ "id": "2403.06178",
+ "title": "Estimating the mass of galactic components using machine learning algorithms",
+ "authors": [
+  "Jessica N. Lopez Sanchez",
+  "Erick Munive Villa",
+  "Ana A. Avilez Lopez",
+  "Oscar M. Martinez Bravo"
+ ],
+ "v1_date": "2024-03-10",
+ "latest_version": 2,
+ "latest_date": "2025-03-26",
+ "journal_ref": "",
+ "doi": "10.3390/universe10050220",
+ "comment": "13 pages, 5 figures and 1 table. Matches published version",
+ "abstract": "The estimation of the bulge and disk massses, the main baryonic components of a galaxy, can be performed using various approaches, but their implementation tend to be challenging as they often rely on strong assumptions about either the baryon dynamics or the dark matter model. In this work, we present an alternative method for predicting the masses of galactic components, including the disk, bulge, stellar and total mass, using a set of machine learning algorithms: KNN-neighbours (KNN), Linear Regression (LR), Random Forest (RF) and Neural Network (NN). The rest-frame absolute magnitudes in the ugriz-photometric system were selected as input features, and the training was performed using a sample of spiral galaxies hosting a bulge from Guo's mock catalogue \\citep{Guo-Catalog} derived from the Millennium simulation. In general, all the algorithms provide good predictions for the galaxy's mass components ranging from $10^9\\,M_\\odot$ to $10^{11}\\,M_\\odot$, corresponding to the central region of the training mass domain; however, the NN give rise to the most precise predictions in comparison to other methods. Additionally, to test the performance of the NN architecture, we used a sample of observed galaxies from the SDSS survey whose mass components are known. We found that the NN can predict the luminous masses of disk-dominant galaxies within the same range of magnitudes that for the synthetic sample up to a $99\\%$ level of confidence, while mass components of galaxies hosting larger bulges are well predicted up to $95\\%$ level of confidence. The NN algorithm can also bring up scaling relations between masses of different components and magnitudes.",
+ "primary": "astro-ph.GA"
+}

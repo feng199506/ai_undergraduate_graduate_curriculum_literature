@@ -1,0 +1,24 @@
+{
+ "id": "2406.04229",
+ "title": "The CLRS-Text Algorithmic Reasoning Language Benchmark",
+ "authors": [
+  "Larisa Markeeva",
+  "Sean McLeish",
+  "Borja Ibarz",
+  "Wilfried Bounsi",
+  "Olga Kozlova",
+  "Alex Vitvitskyi",
+  "Charles Blundell",
+  "Tom Goldstein",
+  "Avi Schwarzschild",
+  "Petar Veličković"
+ ],
+ "v1_date": "2024-06-06",
+ "latest_version": 1,
+ "latest_date": "2024-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint, under review. Comments welcome",
+ "abstract": "Eliciting reasoning capabilities from language models (LMs) is a critical direction on the path towards building intelligent systems. Most recent studies dedicated to reasoning focus on out-of-distribution performance on procedurally-generated synthetic benchmarks, bespoke-built to evaluate specific skills only. This trend makes results hard to transfer across publications, slowing down progress. Three years ago, a similar issue was identified and rectified in the field of neural algorithmic reasoning, with the advent of the CLRS benchmark. CLRS is a dataset generator comprising graph execution traces of classical algorithms from the Introduction to Algorithms textbook. Inspired by this, we propose CLRS-Text -- a textual version of these algorithmic traces. Out of the box, CLRS-Text is capable of procedurally generating trace data for thirty diverse, challenging algorithmic tasks across any desirable input distribution, while offering a standard pipeline in which any additional algorithmic tasks may be created in the benchmark. We fine-tune and evaluate various LMs as generalist executors on this benchmark, validating prior work and revealing a novel, interesting challenge for the LM reasoning community. Our code is available at https://github.com/google-deepmind/clrs/tree/master/clrs/_src/clrs_text.",
+ "primary": "cs.LG"
+}

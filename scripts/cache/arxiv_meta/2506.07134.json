@@ -1,0 +1,19 @@
+{
+ "id": "2506.07134",
+ "title": "Monotone and Conservative Policy Iteration Beyond the Tabular Case",
+ "authors": [
+  "S. R. Eshwar",
+  "Gugan Thoppe",
+  "Ananyabrata Barua",
+  "Aditya Gopalan",
+  "Gal Dalal"
+ ],
+ "v1_date": "2025-06-08",
+ "latest_version": 3,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce Reliable Policy Iteration (RPI) and Conservative RPI (CRPI), variants of Policy Iteration (PI) and Conservative PI (CPI), that retain tabular guarantees under function approximation. RPI uses a novel Bellman-constrained optimization for policy evaluation. We show that RPI restores the textbook \\textit{monotonicity} of value estimates and that these estimates provably \\textit{lower-bound} the true return; moreover, their limit partially satisfies the \\textit{unprojected} Bellman equation. CRPI shares RPI's evaluation, but updates policies conservatively by maximizing a new performance-difference \\textit{lower bound} that explicitly accounts for function-approximation-induced errors. CRPI inherits RPI's guarantees and, crucially, admits per-step improvement bounds. In initial simulations, RPI and CRPI outperform PI and its variants. Our work addresses a foundational gap in RL: popular algorithms such as TRPO and PPO derive from tabular CPI yet are deployed with function approximation, where CPI's guarantees often fail-leading to divergence, oscillations, or convergence to suboptimal policies. By restoring PI/CPI-style guarantees for \\textit{arbitrary} function classes, RPI and CRPI provide a principled basis for next-generation RL.",
+ "primary": "cs.LG"
+}

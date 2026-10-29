@@ -1,0 +1,19 @@
+{
+ "id": "2603.23769",
+ "title": "Empirical Characterization of Logging Smells in Machine Learning Code",
+ "authors": [
+  "Patrick Loic Foalem",
+  "Leuson Da Silva",
+  "Foutse Khomh",
+  "Heng Li",
+  "Ettore Merlo"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Logging plays a central role in ensuring reproducibility, observability, and reliability in machine learning (ML) systems. While logging is generally considered a good engineering practice, poorly designed logging can negatively affect experiment tracking, security, debugging, and system performance. In this paper, we present an empirical study of logging smells in ML projects and propose a taxonomy of ML-specific logging smell types. We conducted a large-scale analysis of 444 ML repositories and manually labeled 2,448 instances of logging smells. Based on this analysis, we identified 12 categories of logging smells spanning security, metric management, configuration, verbosity, and context-related issues. Our results show that logging smells are widespread in ML systems and vary in frequency and manifestation across projects. To assess practical relevance, we conducted a survey with 27 ML practitioners. Most respondents agreed with the identified smells and reported that several types, including Logging Sensitive Data, Metric Overwrite, Missing Hyperparameter Logging, and Log Without Context, have a strong impact on reproducibility, maintainability, and trustworthiness. Other smells, such as Heavy Data Logging and Print-based Logging, were perceived as more context-dependent. We publicly release our labeled dataset to support future research. Our findings highlight logging quality as a critical and underexplored aspect of ML system engineering and open opportunities for automated detection and repair of logging issues.",
+ "primary": "cs.SE"
+}

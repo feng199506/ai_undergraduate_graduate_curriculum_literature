@@ -1,0 +1,20 @@
+{
+ "id": "2504.12477",
+ "title": "Towards Conversational AI for Human-Machine Collaborative MLOps",
+ "authors": [
+  "George Fatouros",
+  "Georgios Makridis",
+  "George Kousiouris",
+  "John Soldatos",
+  "Anargyros Tsadimas",
+  "Dimosthenis Kyriazis"
+ ],
+ "v1_date": "2025-04-16",
+ "latest_version": 1,
+ "latest_date": "2025-04-16",
+ "journal_ref": "2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
+ "doi": "10.1109/dcoss-iot65416.2025.00162",
+ "comment": "8 pages, 5 figures",
+ "abstract": "This paper presents a Large Language Model (LLM) based conversational agent system designed to enhance human-machine collaboration in Machine Learning Operations (MLOps). We introduce the Swarm Agent, an extensible architecture that integrates specialized agents to create and manage ML workflows through natural language interactions. The system leverages a hierarchical, modular design incorporating a KubeFlow Pipelines (KFP) Agent for ML pipeline orchestration, a MinIO Agent for data management, and a Retrieval-Augmented Generation (RAG) Agent for domain-specific knowledge integration. Through iterative reasoning loops and context-aware processing, the system enables users with varying technical backgrounds to discover, execute, and monitor ML pipelines; manage datasets and artifacts; and access relevant documentation, all via intuitive conversational interfaces. Our approach addresses the accessibility gap in complex MLOps platforms like Kubeflow, making advanced ML tools broadly accessible while maintaining the flexibility to extend to other platforms. The paper describes the architecture, implementation details, and demonstrates how this conversational MLOps assistant reduces complexity and lowers barriers to entry for users across diverse technical skill levels.",
+ "primary": "cs.AI"
+}

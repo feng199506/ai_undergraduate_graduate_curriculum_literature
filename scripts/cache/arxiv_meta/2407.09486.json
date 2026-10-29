@@ -1,0 +1,22 @@
+{
+ "id": "2407.09486",
+ "title": "ENOVA: Autoscaling towards Cost-effective and Stable Serverless LLM Serving",
+ "authors": [
+  "Tao Huang",
+  "Pengfei Chen",
+  "Kyoka Gong",
+  "Jocky Hawk",
+  "Zachary Bright",
+  "Wenxin Xie",
+  "Kecheng Huang",
+  "Zhi Ji"
+ ],
+ "v1_date": "2024-05-17",
+ "latest_version": 1,
+ "latest_date": "2024-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Since the increasing popularity of large language model (LLM) backend systems, it is common and necessary to deploy stable serverless serving of LLM on multi-GPU clusters with autoscaling. However, there exist challenges because the diversity and co-location of applications in multi-GPU clusters will lead to low service quality and GPU utilization. To address them, we build ENOVA, a deployment, monitoring and autoscaling service towards serverless LLM serving. ENOVA deconstructs the execution process of LLM service comprehensively, based on which ENOVA designs a configuration recommendation module for automatic deployment on any GPU clusters and a performance detection module for autoscaling. On top of them, ENOVA implements a deployment execution engine for multi-GPU cluster scheduling. The experiment results show that ENOVA significantly outperforms other state-of-the-art methods and is suitable for wide deployment in large online systems.",
+ "primary": "cs.DC"
+}

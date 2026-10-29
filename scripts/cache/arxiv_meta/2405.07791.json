@@ -1,0 +1,19 @@
+{
+ "id": "2405.07791",
+ "title": "Decentralized Kernel Ridge Regression Based on Data-Dependent Random Feature",
+ "authors": [
+  "Ruikai Yang",
+  "Fan He",
+  "Mingzhen He",
+  "Jie Yang",
+  "Xiaolin Huang"
+ ],
+ "v1_date": "2024-05-13",
+ "latest_version": 3,
+ "latest_date": "2024-09-20",
+ "journal_ref": "",
+ "doi": "10.1109/tnnls.2024.3414325",
+ "comment": "Accepted by IEEE Transactions on Neural Networks and Learning Systems",
+ "abstract": "Random feature (RF) has been widely used for node consistency in decentralized kernel ridge regression (KRR). Currently, the consistency is guaranteed by imposing constraints on coefficients of features, necessitating that the random features on different nodes are identical. However, in many applications, data on different nodes varies significantly on the number or distribution, which calls for adaptive and data-dependent methods that generate different RFs. To tackle the essential difficulty, we propose a new decentralized KRR algorithm that pursues consensus on decision functions, which allows great flexibility and well adapts data on nodes. The convergence is rigorously given and the effectiveness is numerically verified: by capturing the characteristics of the data on each node, while maintaining the same communication costs as other methods, we achieved an average regression accuracy improvement of 25.5\\% across six real-world data sets.",
+ "primary": "cs.LG"
+}

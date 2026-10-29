@@ -1,0 +1,17 @@
+{
+ "id": "2406.12763",
+ "title": "Implicit Bias of Mirror Flow on Separable Data",
+ "authors": [
+  "Scott Pesme",
+  "Radu-Alexandru Dragomir",
+  "Nicolas Flammarion"
+ ],
+ "v1_date": "2024-06-18",
+ "latest_version": 3,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Neurips camera ready. Minor changes from the previous versions. Mainly added full iterate trajectories (Figure 4)",
+ "abstract": "We examine the continuous-time counterpart of mirror descent, namely mirror flow, on classification problems which are linearly separable. Such problems are minimised `at infinity' and have many possible solutions; we study which solution is preferred by the algorithm depending on the mirror potential. For exponential tailed losses and under mild assumptions on the potential, we show that the iterates converge in direction towards a $φ_\\infty$-maximum margin classifier. The function $φ_\\infty$ is the \\textit{horizon function} of the mirror potential and characterises its shape `at infinity'. When the potential is separable, a simple formula allows to compute this function. We analyse several examples of potentials and provide numerical experiments highlighting our results.",
+ "primary": "stat.ML"
+}

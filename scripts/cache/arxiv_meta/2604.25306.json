@@ -1,0 +1,17 @@
+{
+ "id": "2604.25306",
+ "title": "QFlash: Bridging Quantization and Memory Efficiency in Vision Transformer Attention",
+ "authors": [
+  "Sehyeon Oh",
+  "Yongin Kwon",
+  "Jemin Lee"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 1,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 6 figures",
+ "abstract": "FlashAttention improves efficiency through tiling, but its online softmax still relies on floating-point arithmetic for numerical stability, making full quantization difficult. We identify three main obstacles to integer-only FlashAttention: (1) scale explosion during tile-wise accumulation, (2) inefficient shift-based exponential operations on GPUs, and (3) quantization granularity constraints requiring uniform scales for integer comparison. To address these challenges, we propose \\textit{QFlash}, an end-to-end integer FlashAttention design that performs softmax entirely in the integer domain and runs as a single Triton kernel. On seven attention workloads from ViT, DeiT, and Swin models, QFlash achieves up to 6.73$\\times$ speedup over I-ViT and up to 8.69$\\times$ speedup on Swin, while reducing energy consumption by 18.8\\% compared to FP16 FlashAttention, without sacrificing Top-1 accuracy on ViT/DeiT and remaining competitive on Swin under per-tensor quantization. Our code is publicly available at https://github.com/EfficientCompLab/qflash.",
+ "primary": "cs.LG"
+}

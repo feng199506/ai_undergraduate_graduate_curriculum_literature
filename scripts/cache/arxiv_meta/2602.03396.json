@@ -1,0 +1,23 @@
+{
+ "id": "2602.03396",
+ "title": "Towards Distillation-Resistant Large Language Models: An Information-Theoretic Perspective",
+ "authors": [
+  "Hao Fang",
+  "Tianyi Zhang",
+  "Tianqu Zhuang",
+  "Jiawei Kong",
+  "Kuofeng Gao",
+  "Bin Chen",
+  "Leqi Zheng",
+  "Shu-Tao Xia",
+  "Ke Xu"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 3,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Proprietary large language models (LLMs) embody substantial economic value and are generally exposed only as black-box APIs, yet adversaries can still exploit their outputs to extract knowledge via distillation. Existing defenses focus exclusively on text-based distillation, leaving the important logit-based distillation largely unexplored. In this work, we analyze this problem and present an effective solution from an information-theoretic perspective. We characterize distillation-relevant information in teacher outputs using the conditional mutual information (CMI) between teacher logits and input queries conditioned on ground-truth labels. This quantity captures contextual information beneficial for model extraction, motivating us to defend distillation via CMI minimization. Guided by our theoretical analysis, we propose learning a transformation matrix that purifies the original outputs to enhance distillation resistance. We further derive a CMI-inspired anti-distillation objective to optimize this transformation, which effectively removes distillation-relevant information while preserving output utility. Extensive experiments across multiple LLMs and strong distillation algorithms demonstrate that the proposed method significantly degrades distillation performance while preserving task accuracy, effectively protecting models' intellectual property.",
+ "primary": "cs.CL"
+}

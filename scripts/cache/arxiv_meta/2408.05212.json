@@ -1,0 +1,20 @@
+{
+ "id": "2408.05212",
+ "title": "Preserving Privacy in Large Language Models: A Survey on Current Threats and Solutions",
+ "authors": [
+  "Michele Miranda",
+  "Elena Sofia Ruzzetti",
+  "Andrea Santilli",
+  "Fabio Massimo Zanzotto",
+  "Sébastien Bratières",
+  "Emanuele Rodolà"
+ ],
+ "v1_date": "2024-08-10",
+ "latest_version": 2,
+ "latest_date": "2025-02-10",
+ "journal_ref": "Transactions on Machine Learning Research, 2025",
+ "doi": "",
+ "comment": "Published in Transactions on Machine Learning Research (TMLR) https://openreview.net/forum?id=Ss9MTTN7OL",
+ "abstract": "Large Language Models (LLMs) represent a significant advancement in artificial intelligence, finding applications across various domains. However, their reliance on massive internet-sourced datasets for training brings notable privacy issues, which are exacerbated in critical domains (e.g., healthcare). Moreover, certain application-specific scenarios may require fine-tuning these models on private data. This survey critically examines the privacy threats associated with LLMs, emphasizing the potential for these models to memorize and inadvertently reveal sensitive information. We explore current threats by reviewing privacy attacks on LLMs and propose comprehensive solutions for integrating privacy mechanisms throughout the entire learning pipeline. These solutions range from anonymizing training datasets to implementing differential privacy during training or inference and machine unlearning after training. Our comprehensive review of existing literature highlights ongoing challenges, available tools, and future directions for preserving privacy in LLMs. This work aims to guide the development of more secure and trustworthy AI systems by providing a thorough understanding of privacy preservation methods and their effectiveness in mitigating risks.",
+ "primary": "cs.CR"
+}

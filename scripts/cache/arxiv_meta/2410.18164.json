@@ -1,0 +1,24 @@
+{
+ "id": "2410.18164",
+ "title": "TabDPT: Scaling Tabular Foundation Models on Real Data",
+ "authors": [
+  "Junwei Ma",
+  "Valentin Thomas",
+  "Rasa Hosseinzadeh",
+  "Alex Labach",
+  "Hamidreza Kamkari",
+  "Jesse C. Cresswell",
+  "Keyvan Golestan",
+  "Guangwei Yu",
+  "Anthony L. Caterini",
+  "Maksims Volkovs"
+ ],
+ "v1_date": "2024-10-23",
+ "latest_version": 3,
+ "latest_date": "2026-01-17",
+ "journal_ref": "NeurIPS 2025 Proceedings",
+ "doi": "",
+ "comment": "Inference repo: github.com/layer6ai-labs/TabDPT-inference; Training repo: github.com/layer6ai-labs/TabDPT-training",
+ "abstract": "Tabular data is one of the most ubiquitous sources of information worldwide, spanning a wide variety of domains. This inherent heterogeneity has slowed the development of Tabular Foundation Models (TFMs) capable of fast generalization to unseen datasets. In-Context Learning (ICL) has recently emerged as a promising solution for TFMs, enabling dynamic adaptation to new tasks without additional tuning. While many studies have attempted to re-purpose large language models for tabular ICL, they have had limited success, so recent works have focused on developing tabular-specific foundation models. In this work, we propose an approach to combine ICL-based retrieval with self supervised learning to train tabular foundation models. We also investigate the utility of real vs. synthetic data for model pre-training, and show that real data can contain useful signal not easily captured in synthetic training. Specifically, we show that incorporating real data during the pre-training phase can lead to significantly faster training and better downstream generalization to unseen data. Our resulting model, TabDPT, achieves strong performance on both regression (CTR23) and classification (CC18) benchmarks. Importantly, we also demonstrate that with our pre-training procedure, scaling both model and data size leads to consistent performance improvements that follow power laws. This echoes scaling laws in LLMs and other foundation models, and suggests that large-scale TFMs can be achievable. We open-source our full pipeline: inference code including trained model weights can be found at github.com/layer6ai-labs/TabDPT-inference, and the training code to reproduce experiments can be found at github.com/layer6ai-labs/TabDPT-training.",
+ "primary": "cs.LG"
+}

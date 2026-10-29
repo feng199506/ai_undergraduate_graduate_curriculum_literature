@@ -1,0 +1,18 @@
+{
+ "id": "2503.06643",
+ "title": "Is Your Benchmark Still Useful? Dynamic Benchmarking for Code Language Models",
+ "authors": [
+  "Batu Guan",
+  "Xiao Wu",
+  "Yuanyuan Yuan",
+  "Shaohua Li"
+ ],
+ "v1_date": "2025-03-09",
+ "latest_version": 2,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 7 figures",
+ "abstract": "In this paper, we tackle a critical challenge in model evaluation: how to keep code benchmarks useful when models might have already seen them during training. We introduce a novel solution, dynamic benchmarking framework, to address this challenge. Given a code understanding or reasoning benchmark, our framework dynamically transforms each input, i.e., programs, with various semantic-preserving mutations to build a syntactically new while semantically identical benchmark. We evaluated 10 popular language models on our dynamic benchmarks. Our evaluation reveals several interesting or surprising findings: (1) all models perform significantly worse than before, (2) the ranking between some models shifts dramatically, and (3) dynamic benchmarks can resist against the data contamination problem.",
+ "primary": "cs.SE"
+}

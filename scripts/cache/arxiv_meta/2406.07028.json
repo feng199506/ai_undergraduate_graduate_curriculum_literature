@@ -1,0 +1,15 @@
+{
+ "id": "2406.07028",
+ "title": "Heterogeneous Learning Rate Scheduling for Neural Architecture Search on Long-Tailed Datasets",
+ "authors": [
+  "Chenxia Tang"
+ ],
+ "v1_date": "2024-06-11",
+ "latest_version": 1,
+ "latest_date": "2024-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we attempt to address the challenge of applying Neural Architecture Search (NAS) algorithms, specifically the Differentiable Architecture Search (DARTS), to long-tailed datasets where class distribution is highly imbalanced. We observe that traditional re-sampling and re-weighting techniques, which are effective in standard classification tasks, lead to performance degradation when combined with DARTS. To mitigate this, we propose a novel adaptive learning rate scheduling strategy tailored for the architecture parameters of DARTS when integrated with the Bilateral Branch Network (BBN) for handling imbalanced datasets. Our approach dynamically adjusts the learning rate of the architecture parameters based on the training epoch, preventing the disruption of well-trained representations in the later stages of training. Additionally, we explore the impact of branch mixing factors on the algorithm's performance. Through extensive experiments on the CIFAR-10 dataset with an artificially induced long-tailed distribution, we demonstrate that our method achieves comparable accuracy to using DARTS alone. And the experiment results suggest that re-sampling methods inherently harm the performance of the DARTS algorithm. Our findings highlight the importance of careful data augment when applying DNAS to imbalanced learning scenarios.",
+ "primary": "cs.LG"
+}

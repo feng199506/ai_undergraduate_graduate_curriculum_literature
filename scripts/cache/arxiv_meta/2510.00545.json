@@ -1,0 +1,20 @@
+{
+ "id": "2510.00545",
+ "title": "Bayesian Neural Networks for Functional ANOVA model",
+ "authors": [
+  "Seokhun Park",
+  "Choeun Kim",
+  "Jihu Lee",
+  "Yunseop Shin",
+  "Insung Kong",
+  "Yongdai Kim"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 2,
+ "latest_date": "2026-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the increasing demand for interpretability in machine learning, functional ANOVA decomposition has gained renewed attention as a principled tool for breaking down high-dimensional function into low-dimensional components that reveal the contributions of different variable groups. Recently, Tensor Product Neural Network (TPNN) has been developed and applied as basis functions in the functional ANOVA model, referred to as ANOVA-TPNN. A disadvantage of ANOVA-TPNN, however, is that the components to be estimated must be specified in advance, which makes it difficult to incorporate higher-order TPNNs into the functional ANOVA model due to computational and memory constraints. In this work, we propose Bayesian-TPNN, a Bayesian inference procedure for the functional ANOVA model with TPNN basis functions, enabling the detection of higher-order components with reduced computational cost compared to ANOVA-TPNN. We develop an efficient MCMC algorithm and demonstrate that Bayesian-TPNN performs well by analyzing multiple benchmark datasets. Theoretically, we prove that the posterior of Bayesian-TPNN is consistent.",
+ "primary": "stat.ML"
+}

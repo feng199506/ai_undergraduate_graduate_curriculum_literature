@@ -1,0 +1,18 @@
+{
+ "id": "2503.15089",
+ "title": "Continual Contrastive Learning on Tabular Data with Out of Distribution",
+ "authors": [
+  "Achmad Ginanjar",
+  "Xue Li",
+  "Priyanka Singh",
+  "Wen Hua"
+ ],
+ "v1_date": "2025-03-19",
+ "latest_version": 1,
+ "latest_date": "2025-03-19",
+ "journal_ref": "",
+ "doi": "10.14428/esann/2025.es2025-141",
+ "comment": "accepeted on esann 2025",
+ "abstract": "Out-of-distribution (OOD) prediction remains a significant challenge in machine learning, particularly for tabular data where traditional methods often fail to generalize beyond their training distribution. This paper introduces Tabular Continual Contrastive Learning (TCCL), a novel framework designed to address OOD challenges in tabular data processing. TCCL integrates contrastive learning principles with continual learning mechanisms, featuring a three-component architecture: an Encoder for data transformation, a Decoder for representation learning, and a Learner Head. We evaluate TCCL against 14 baseline models, including state-of-the-art deep learning approaches and gradient-boosted decision trees (GBDT), across eight diverse tabular datasets. Our experimental results demonstrate that TCCL consistently outperforms existing methods in both classification and regression tasks on OOD data, with particular strength in handling distribution shifts. These findings suggest that TCCL represents a significant advancement in handling OOD scenarios for tabular data.",
+ "primary": "cs.LG"
+}

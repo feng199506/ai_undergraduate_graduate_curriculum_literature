@@ -1,0 +1,18 @@
+{
+ "id": "2605.30580",
+ "title": "Speculative Decoding and the Curse of Multilinguality",
+ "authors": [
+  "Nirajan Paudel",
+  "Michael Ginn",
+  "Luc De Nardi",
+  "Alexis Palmer"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 2,
+ "latest_date": "2026-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 12 figures, submitted to ACL ARR August 2026",
+ "abstract": "Speculative decoding is a popular technique for large language model (LLM) inference, enabling faster generation by drafting multiple tokens with a smaller draft model. However, the effectiveness of speculative decoding has mainly been studied for English. Motivated by the curse of multilinguality, we hypothesize that speculative decoding is far less effective for low-resource languages due to the limited multilingual capacities of smaller models. We test eleven languages under a standard speculative decoding setup and find strong evidence for our hypothesis. Next, we try to improve the multilingual capabilities of the smaller draft model via distillation from the larger model. We find, though, that distillation generalizes poorly across tasks in the same language, and we argue that assembling a task-agnostic, fully representative dataset is infeasible for low-resource languages. Finally, we propose weaker n-gram models as draft models; these provide moderate speed-ups due to their minuscule inference cost.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2508.21501",
+ "title": "Few-Shot Neuro-Symbolic Imitation Learning for Long-Horizon Planning and Acting",
+ "authors": [
+  "Pierrick Lorang",
+  "Hong Lu",
+  "Johannes Huemer",
+  "Patrik Zips",
+  "Matthias Scheutz"
+ ],
+ "v1_date": "2025-08-29",
+ "latest_version": 1,
+ "latest_date": "2025-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at CoRL 2025; to appear in PMLR",
+ "abstract": "Imitation learning enables intelligent systems to acquire complex behaviors with minimal supervision. However, existing methods often focus on short-horizon skills, require large datasets, and struggle to solve long-horizon tasks or generalize across task variations and distribution shifts. We propose a novel neuro-symbolic framework that jointly learns continuous control policies and symbolic domain abstractions from a few skill demonstrations. Our method abstracts high-level task structures into a graph, discovers symbolic rules via an Answer Set Programming solver, and trains low-level controllers using diffusion policy imitation learning. A high-level oracle filters task-relevant information to focus each controller on a minimal observation and action space. Our graph-based neuro-symbolic framework enables capturing complex state transitions, including non-spatial and temporal relations, that data-driven learning or clustering techniques often fail to discover in limited demonstration datasets. We validate our approach in six domains that involve four robotic arms, Stacking, Kitchen, Assembly, and Towers of Hanoi environments, and a distinct Automated Forklift domain with two environments. The results demonstrate high data efficiency with as few as five skill demonstrations, strong zero- and few-shot generalizations, and interpretable decision making.",
+ "primary": "cs.RO"
+}

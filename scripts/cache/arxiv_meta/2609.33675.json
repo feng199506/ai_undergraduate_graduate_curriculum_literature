@@ -1,0 +1,16 @@
+{
+ "id": "2609.33675",
+ "title": "Benign Overfitting for General Norms and Distributions",
+ "authors": [
+  "Daniel Barzilai",
+  "Ohad Shamir"
+ ],
+ "v1_date": "2026-09-27",
+ "latest_version": 1,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding why predictors can generalize despite interpolating noisy training data is a central puzzle in machine learning. Most work on such \"benign overfitting\" studies minimum-2-norm linear regression, reflecting the inductive bias of gradient descent. However, modern optimizers such as Adam and Muon use non-Euclidean update geometries, favoring solutions associated with other norms. Analyzing regression for non-Euclidean norms is substantially more difficult, with known results essentially limited to Gaussians. In this paper, we develop a method to analyze benign overfitting in linear regression for general norms and general (sub-Gaussian) distributions. As a special case, we prove that minimum-p-norm interpolation with p>1 can benignly overfit even for non-Gaussian distributions, under suitable conditions. Perhaps surprisingly, for the 1-norm, benign overfitting does not hold in general for well-behaved (but non-Gaussian) distributions, showing that existing positive 1-norm results rely crucially on Gaussianity. Our proof analyzes the geometry of the dual optimization problem, using concentration and central limit tools to show it is approximately Euclidean in many high-dimensional cases.",
+ "primary": "cs.LG"
+}

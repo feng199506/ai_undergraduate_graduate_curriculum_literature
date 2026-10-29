@@ -1,0 +1,17 @@
+{
+ "id": "2310.19006",
+ "title": "The Weisfeiler-Leman Dimension of Conjunctive Queries",
+ "authors": [
+  "Andreas Göbel",
+  "Leslie Ann Goldberg",
+  "Marc Roth"
+ ],
+ "v1_date": "2023-10-29",
+ "latest_version": 2,
+ "latest_date": "2024-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 4 figures, abstract shortened due to ArXiv requirements, an extended abstract of this work is accepted for publication in the proceedings of PODS 24",
+ "abstract": "The Weisfeiler-Leman (WL) dimension of a graph parameter $f$ is the minimum $k$ such that, if $G_1$ and $G_2$ are indistinguishable by the $k$-dimensional WL-algorithm then $f(G_1)=f(G_2)$. The WL-dimension of $f$ is $\\infty$ if no such $k$ exists. We study the WL-dimension of graph parameters characterised by the number of answers from a fixed conjunctive query to the graph. Given a conjunctive query $\\varphi$, we quantify the WL-dimension of the function that maps every graph $G$ to the number of answers of $\\varphi$ in $G$. The works of Dvorák (J. Graph Theory 2010), Dell, Grohe, and Rattan (ICALP 2018), and Neuen (ArXiv 2023) have answered this question for full conjunctive queries, which are conjunctive queries without existentially quantified variables. For such queries $\\varphi$, the WL-dimension is equal to the treewidth of the Gaifman graph of $\\varphi$. In this work, we give a characterisation that applies to all conjunctive qureies. Given any conjunctive query $\\varphi$, we prove that its WL-dimension is equal to the semantic extension width $\\mathsf{sew}(\\varphi)$, a novel width measure that can be thought of as a combination of the treewidth of $\\varphi$ and its quantified star size, an invariant introduced by Durand and Mengel (ICDT 2013) describing how the existentially quantified variables of $\\varphi$ are connected with the free variables. Using the recently established equivalence between the WL-algorithm and higher-order Graph Neural Networks (GNNs) due to Morris et al. (AAAI 2019), we obtain as a consequence that the function counting answers to a conjunctive query $\\varphi$ cannot be computed by GNNs of order smaller than $\\mathsf{sew}(\\varphi)$.",
+ "primary": "cs.DM"
+}

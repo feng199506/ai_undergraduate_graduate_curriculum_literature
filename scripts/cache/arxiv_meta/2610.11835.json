@@ -1,0 +1,17 @@
+{
+ "id": "2610.11835",
+ "title": "On the Risks of using LLM-Generated Tests for Regression Testing",
+ "authors": [
+  "Mohammadali Charoosaei",
+  "Cedric Richter",
+  "Mike Papadakis"
+ ],
+ "v1_date": "2026-10-08",
+ "latest_version": 1,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Software is under constant evolution: developers continuously add features, fix bugs, and refactor code, and any of these changes may break existing functionality. Regression testing guards against such effects by capturing expected behavior in test cases. LLM-based test generation aims to automate this process by generating regression tests directly from the code under test. This is beneficial when the implementation is correct, but problematic when the code contains faults: the generated tests may then encode and preserve incorrect behavior. To investigate this risk, we apply LLM-based regression test generation to pull requests merged into the main branch of software projects and study the impact of the generated tests on subsequent project evolution. We distinguish between fault-revealing tests, which assert correctly implemented behavior, and fault-enforcing tests, which assert faulty behavior. Across 145 pull requests from SciPy, Qiskit, and pandas, 8%-17% of the generated tests are fault-enforcing, while only 2.4%-4.8% reveal faults. Fault-enforcing tests persist over time: after several subsequent commits, 83%-91% of them are still relevant and pass. They also accumulate: when the faults of all pull requests are combined in one codebase, 83%-92% remain enforced at the end of the commit history, and the developer-written test suite detects only 14%-30% of them. Our results reveal a fundamental risk of LLM-generated regression tests: without manual validation, they may encode faulty behavior as expected behavior, allowing bugs to persist across software revisions and largely evade developer-maintained test suites. LLM-based regression testing can thus give rise to a new form of technical debt.",
+ "primary": "cs.SE"
+}

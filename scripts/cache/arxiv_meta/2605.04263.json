@@ -1,0 +1,18 @@
+{
+ "id": "2605.04263",
+ "title": "Parallel Prefix Verification for Speculative Generation",
+ "authors": [
+  "Yuncheng Yao",
+  "Yuxuan Xia",
+  "Shengjie Wang",
+  "Danyang Zhuo"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce PARSE (PArallel pRefix Speculative Engine), a speculative generation framework that accelerates large language model (LLM) inference by parallelizing prefix verification on a semantic level. Existing speculative decoding methods are fundamentally limited by token-level equivalence: the target model must verify each token, leading to short acceptance lengths and modest speedups. Moving to semantic or segment-level verification can substantially increase acceptance granularity, but prior approaches rely on sequential verification, introducing significant overhead and limiting practical gains. PARSE introduces parallel prefix verification, enabling semantic-level verification without sequential checks. Given a full draft from a draft model, the target model evaluates correctness across multiple prefixes in a single forward pass using a custom attention mask, directly identifying the maximal valid prefix. This eliminates sequential segment verification, and makes verification compute-efficient. PARSE is orthogonal to token-level speculative decoding and can be composed with it for additional gains. Across models and benchmarks, PARSE delivers $1.25\\times$ to $4.3\\times$ throughput gain over the target model, and $1.6\\times$ to $4.5\\times$ when composed with EAGLE-3, all with negligible accuracy degradation. This demonstrates parallel prefix verification as an effective, general approach to accelerating LLM inference.",
+ "primary": "cs.AI"
+}

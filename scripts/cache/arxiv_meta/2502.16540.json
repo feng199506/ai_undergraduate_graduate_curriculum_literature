@@ -1,0 +1,17 @@
+{
+ "id": "2502.16540",
+ "title": "D2S-FLOW: Automated Parameter Extraction from Datasheets for SPICE Model Generation Using Large Language Models",
+ "authors": [
+  "Hong Cai Chen",
+  "Yi Pin Xu",
+  "Yang Zhang"
+ ],
+ "v1_date": "2025-02-23",
+ "latest_version": 2,
+ "latest_date": "2025-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 18 figures",
+ "abstract": "In electronic design, engineers often manually search through extensive documents to retrieve component parameters required for constructing SPICE models, a process that is both labor-intensive and time-consuming. To address this challenge, we present an automated framework called D2S-FLOW that leverages large language models (LLMs) to extract electrical parameters from datasheets and generate SPICE models with high precision and efficiency, significantly reducing the need for manual intervention. Unlike traditional RAG systems, D2S-FLOW employs a workflow to enhance precision in handling unstructured documents and inconsistent naming conventions through three innovative mechanisms: Attention-Guided Document Focusing (AGDF), Hierarchical Document-Enhanced Retrieval (HDER), and Heterogeneous Named Entity Normalization (HNEN). AGDF narrows retrieval to user-selected documents, HDER utilizes document structure for precise parameter localization, and HNEN standardizes terminology via semantic inference. Experimental results demonstrate that the framework achieves an Exact Match (EM) of 0.86, an F1 score of 0.92, and an Exact Correctness (EC) of 0.96, outperforming the strongest baseline by 19.4%, 5.7%, and 13.1%, respectively. Additionally, it reduces API token consumption by 38% and minimizes the irrelevant information ratio to 4%, showcasing substantial improvements in resource efficiency. This research provides an effective automated solution for circuit design.",
+ "primary": "cs.CL"
+}

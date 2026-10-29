@@ -1,0 +1,18 @@
+{
+ "id": "2511.06000",
+ "title": "LLMs Do Not See Age: Assessing Demographic Bias in Automated Systematic Review Synthesis",
+ "authors": [
+  "Favour Yahdii Aghaebe",
+  "Tanefa Apekey",
+  "Elizabeth Williams",
+  "Nafise Sadat Moosavi"
+ ],
+ "v1_date": "2025-11-08",
+ "latest_version": 2,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at AACL 2025 Version 2 Updated with Final version",
+ "abstract": "Clinical interventions often hinge on age: medications and procedures safe for adults may be harmful to children or ineffective for older adults. However, as language models are increasingly integrated into biomedical evidence synthesis workflows, it remains uncertain whether these systems preserve such crucial demographic distinctions. To address this gap, we evaluate how well state-of-the-art language models retain age-related information when generating abstractive summaries of biomedical studies. We construct DemogSummary, a novel age-stratified dataset of systematic review primary studies, covering child, adult, and older adult populations. We evaluate three prominent summarisation-capable LLMs, Qwen (open-source), Longformer (open-source) and GPT-4.1 Nano (proprietary), using both standard metrics and a newly proposed Demographic Salience Score (DSS), which quantifies age-related entity retention and hallucination. Our results reveal systematic disparities across models and age groups: demographic fidelity is lowest for adult-focused summaries, and under-represented populations are more prone to hallucinations. These findings highlight the limitations of current LLMs in faithful and bias-free summarisation and point to the need for fairness-aware evaluation frameworks and summarisation pipelines in biomedical NLP.",
+ "primary": "cs.CL"
+}

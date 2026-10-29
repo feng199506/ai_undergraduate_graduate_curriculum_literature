@@ -1,0 +1,17 @@
+{
+ "id": "2501.09731",
+ "title": "Predictions as Surrogates: Revisiting Surrogate Outcomes in the Age of AI",
+ "authors": [
+  "Wenlong Ji",
+  "Lihua Lei",
+  "Tijana Zrnic"
+ ],
+ "v1_date": "2025-01-16",
+ "latest_version": 2,
+ "latest_date": "2026-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We establish a formal connection between the decades-old surrogate outcome model in biostatistics and economics and the emerging field of prediction-powered inference (PPI). The connection treats predictions from pre-trained models, prevalent in the age of AI, as cost-effective surrogates for expensive outcomes. Building on the surrogate outcomes literature, we develop recalibrated prediction-powered inference, a more efficient approach to statistical inference than existing PPI proposals. Our method departs from the existing proposals by using flexible machine learning techniques to learn the optimal ``imputed loss'' through a step we call recalibration. Importantly, the method always improves upon the estimator that relies solely on the data with available true outcomes, even when the optimal imputed loss is estimated imperfectly, and it achieves the smallest asymptotic variance among PPI estimators if the estimate is consistent. Computationally, our optimization objective is convex whenever the loss function that defines the target parameter is convex. We further analyze the benefits of recalibration, both theoretically and numerically, in several common scenarios where machine learning predictions systematically deviate from the outcome of interest. We demonstrate significant gains in effective sample size over existing PPI proposals via three applications leveraging state-of-the-art machine learning/AI models.",
+ "primary": "stat.ML"
+}

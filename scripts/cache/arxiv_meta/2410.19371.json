@@ -1,0 +1,17 @@
+{
+ "id": "2410.19371",
+ "title": "Noise-Aware Differentially Private Variational Inference",
+ "authors": [
+  "Talal Alrawajfeh",
+  "Joonas Jälkö",
+  "Antti Honkela"
+ ],
+ "v1_date": "2024-10-25",
+ "latest_version": 4,
+ "latest_date": "2026-10-14",
+ "journal_ref": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics (AISTATS 2025), PMLR 258:4987-4995, 2025",
+ "doi": "",
+ "comment": "29 pages, 4 figures. Published at AISTATS 2025",
+ "abstract": "Differential privacy (DP) provides robust privacy guarantees for statistical inference, but this can lead to unreliable results and biases in downstream applications. While several noise-aware approaches have been proposed which integrate DP perturbation into the inference, they are limited to specific types of simple probabilistic models. In this work, we propose a novel method for noise-aware approximate Bayesian inference based on stochastic gradient variational inference which can also be applied to high-dimensional and non-conjugate models. We also propose a more accurate evaluation method for noise-aware posteriors. Empirically, our inference method has similar performance to existing methods in the domain where they are applicable. Outside this domain, we obtain accurate coverages on high-dimensional Bayesian linear regression and well-calibrated predictive probabilities on Bayesian logistic regression with the UCI Adult dataset.",
+ "primary": "stat.ML"
+}

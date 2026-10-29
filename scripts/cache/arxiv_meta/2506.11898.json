@@ -1,0 +1,18 @@
+{
+ "id": "2506.11898",
+ "title": "Martingale Posterior Neural Networks for Fast Sequential Decision Making",
+ "authors": [
+  "Gerardo Duran-Martin",
+  "Leandro Sánchez-Betancourt",
+  "Álvaro Cartea",
+  "Kevin Murphy"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 2,
+ "latest_date": "2025-10-08",
+ "journal_ref": "Advances in Neural Information Processing Systems 39 (NeurIPS 2025)",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce scalable algorithms for online learning of neural network parameters and Bayesian sequential decision making. Unlike classical Bayesian neural networks, which induce predictive uncertainty through a posterior over model parameters, our methods adopt a predictive-first perspective based on martingale posteriors. In particular, we work directly with the one-step-ahead posterior predictive, which we parameterize with a neural network and update sequentially with incoming observations. This decouples Bayesian decision-making from parameter-space inference: we sample from the posterior predictive for decision making, and update the parameters of the posterior predictive via fast, frequentist Kalman-filter-like recursions. Our algorithms operate in a fully online, replay-free setting, providing principled uncertainty quantification without costly posterior sampling. Empirically, they achieve competitive performance-speed trade-offs in non-stationary contextual bandits and Bayesian optimization, offering 10-100 times faster inference than classical Thompson sampling while maintaining comparable or superior decision performance.",
+ "primary": "cs.LG"
+}

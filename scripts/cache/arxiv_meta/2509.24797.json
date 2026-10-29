@@ -1,0 +1,23 @@
+{
+ "id": "2509.24797",
+ "title": "Fidelity-Aware Data Composition for Robust Robot Generalization",
+ "authors": [
+  "Zizhao Tong",
+  "Di Chen",
+  "Sicheng Hu",
+  "Hongwei Fan",
+  "Liliang Chen",
+  "Guanghui Ren",
+  "Hao Tang",
+  "Hao Dong",
+  "Ling Shao"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 1,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages",
+ "abstract": "Generalist robot policies trained on large-scale, visually homogeneous datasets can be susceptible to shortcut learning, which impairs their out-of-distribution (OOD) generalization. While generative data augmentation is a common approach to introduce diversity, it presents a subtle challenge: data composition. Naively mixing real and synthetic data can corrupt the learning signal, as this process often prioritizes visual diversity at the expense of information fidelity. This paper suggests that robust generalization depends on principled, fidelity-aware data composition. We introduce Coherent Information Fidelity Tuning (CIFT), a framework that treats data composition as an optimization problem. CIFT uses a practical proxy for Information Fidelity based on the feature-space geometry of a dataset. This enables the identification of a phase transition, termed the Decoherence Point, where training stability degrades. The framework includes a generative engine, Multi-View Video Augmentation (MVAug), to synthesize a causally disentangled data spectrum for this tuning process. Applying CIFT to policy architectures such as $π_0$ and Diffusion Policy improves OOD success rates by over 54\\%. These results indicate that fidelity-aware composition, beyond data synthesis alone, is an important component for developing robust, general-purpose robots.",
+ "primary": "cs.RO"
+}

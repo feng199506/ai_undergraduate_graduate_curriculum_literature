@@ -1,0 +1,18 @@
+{
+ "id": "2605.29283",
+ "title": "Do Physics Foundation Models Learn Generalizable Physics? A Bias-Aware Benchmark Across Physical Regimes and Distribution Shifts",
+ "authors": [
+  "Mengdi Chu",
+  "Yang Liu",
+  "Ayan Biswas",
+  "Han-Wei Shen"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 2,
+ "latest_date": "2026-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 31 figures",
+ "abstract": "Recent physics foundation models claim general spatiotemporal forecasting ability, yet their evaluations often collapse performance into a single average score under a fixed training distribution. This makes it difficult to determine whether a model has learned generalizable physical dynamics or only performs well under particular settings. We construct a benchmark with 8 physical dynamics, 3 training-data mixtures, and 25 test regimes induced by dynamic-scale and initial-condition complexity shifts, covering in-distribution, distribution-shift, and out-of-distribution settings. We evaluate five physics foundation model architectures and four model variants per architecture (scratch and three pretrained sizes), resulting in 60,000 measurements. Our results show that current physics foundation models behave as conditional rather than universal generalists: their generality depends on the physical regime, temporal scale, initial-condition setting, pretraining, model size, and architecture. Improving the training data distribution only partially mitigates this limitation. Pretraining and scaling are also unable to reliably remove their ability biases. We argue that improving physics foundation models requires moving beyond scaling models or expanding data, toward learning mechanisms that better capture transferable physical knowledge across regimes, temporal scales, and distribution shifts.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "2512.00417",
+ "title": "CryptoBench: A Dynamic Benchmark for Expert-Level Evaluation of LLM Agents in Cryptocurrency",
+ "authors": [
+  "Jiacheng Guo",
+  "Suozhi Huang",
+  "Zixin Yao",
+  "Yifan Zhang",
+  "Yifu Lu",
+  "Jiashuo Liu",
+  "Zihao Li",
+  "Nicholas Deng",
+  "Qixin Xiao",
+  "Jia Tian",
+  "Kanghong Zhan",
+  "Tianyi Li",
+  "Xiaochen Liu",
+  "Jason Ge",
+  "Chaoyang He",
+  "Kaixuan Huang",
+  "Lin Yang",
+  "Wenhao Huang",
+  "Mengdi Wang"
+ ],
+ "v1_date": "2025-11-29",
+ "latest_version": 5,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces CryptoBench, the first expert-curated, dynamic benchmark designed to rigorously evaluate the real-world capabilities of Large Language Model (LLM) agents in the uniquely demanding and fast-paced cryptocurrency domain. Unlike general-purpose agent benchmarks for search and prediction, professional crypto analysis presents specific challenges: \\emph{extreme time-sensitivity}, \\emph{a highly adversarial information environment}, and the critical need to synthesize data from \\emph{diverse, specialized sources}, such as on-chain intelligence platforms and real-time Decentralized Finance (DeFi) dashboards. CryptoBench thus serves as a much more challenging and valuable scenario for LLM agent assessment. To address these challenges, we constructed a live, dynamic benchmark featuring 50 questions per month, expertly designed by crypto-native professionals to mirror actual analyst workflows. These tasks are rigorously categorized within a four-quadrant system: Simple Retrieval, Complex Retrieval, Simple Prediction, and Complex Prediction. This granular categorization enables a precise assessment of an LLM agent's foundational data-gathering capabilities alongside its advanced analytical and forecasting skills. Our evaluation of ten LLMs, both directly and within an agentic framework, reveals a performance hierarchy and uncovers a failure mode. We observe a \\textit{retrieval-prediction imbalance}, where many leading models, despite being proficient at data retrieval, demonstrate a pronounced weakness in tasks requiring predictive analysis. This highlights a problematic tendency for agents to appear factually grounded while lacking the deeper analytical capabilities to synthesize information.",
+ "primary": "cs.CL"
+}

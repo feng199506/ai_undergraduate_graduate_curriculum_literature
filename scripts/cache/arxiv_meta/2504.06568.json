@@ -1,0 +1,16 @@
+{
+ "id": "2504.06568",
+ "title": "Relaxed Weak Accelerated Proximal Gradient Method: a Unified Framework for Nesterov's Accelerations",
+ "authors": [
+  "Hongda Li",
+  "Xianfu Wang"
+ ],
+ "v1_date": "2025-04-09",
+ "latest_version": 1,
+ "latest_date": "2025-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper is devoted to the study of accelerated proximal gradient methods where the sequence that controls the momentum term doesn't follow Nesterov's rule. We propose a relaxed weak accelerated proximal gradient (R-WAPG) method, a generic algorithm that unifies the convergence results for strongly convex and convex problems where the extrapolation constant is characterized by a sequence that is much weaker than Nesterov's rule. Our R-WAPG provides a unified framework for several notable Euclidean variants of FISTA and verifies their convergences. In addition, we provide the convergence rate of strongly convex objective with a constant momentum term. Without using the idea of restarting, we also reformulate R-WAPG as ``Free R-WAPG\" so that it doesn't require any parameter. Explorative numerical experiments were conducted to show its competitive advantages.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2604.11950",
+ "title": "AnyPoC: Universal Proof-of-Concept Test Generation for Scalable LLM-Based Bug Detection",
+ "authors": [
+  "Zijie Zhao",
+  "Chenyuan Yang",
+  "Weidong Wang",
+  "Yihan Yang",
+  "Ziqi Zhang",
+  "Lingming Zhang"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 2,
+ "latest_date": "2026-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While recent LLM-based agents can identify many candidate bugs in source code, their reports remain static hypotheses that require manual validation, limiting the practicality of automated bug detection. We frame this challenge as a test generation task: given a candidate report, synthesizing an executable proof-of-concept (PoC) - such as a script, command sequence, or crafted input - to trigger the suspected defect. Automated PoC generation can act as a scalable validation oracle, enabling end-to-end autonomous bug detection by providing concrete execution evidence. However, naive LLM agents are unreliable validators: they are biased toward \"success\" and may reward-hack by producing plausible but non-functional PoCs or even hallucinated traces. To address this, we present ANYPoC, a general multi-agent framework that (1) analyzes and fact-checks a candidate bug report, (2) iteratively synthesizes and executes a PoC while collecting execution traces, and (3) independently re-executes and scrutinizes the PoC to mitigate hallucination and reward hacking. In addition, ANYPoC also continuously extracts and evolves a PoC knowledge base to handle heterogeneous tasks. ANYPoC operates on candidate bug reports regardless of their source and can be paired with different bug reporters. To demonstrate practicality and generality, we apply ANYPoC, together with a simple agentic bug reporter, on 12 large-scale, critical software systems, including Firefox, Chromium, LLVM, OpenSSL, SQLite, FFmpeg, and Redis. Compared to the state-of-the-art coding agents, e.g., Claude Code and Codex, ANYPoC produces 37% more valid PoCs for true-positive bug reports and rejects 9.7x more false-positive bug reports. ANYPoC also enables the discovery of 121 new bugs from over two thousand noisy bug reports, with 108 confirmed by developers and 92 fixed. 46 PoCs have also been adopted as official regression tests.",
+ "primary": "cs.SE"
+}

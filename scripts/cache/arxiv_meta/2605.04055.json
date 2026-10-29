@@ -1,0 +1,16 @@
+{
+ "id": "2605.04055",
+ "title": "A Self-Attentive Meta-Optimizer with Group-Adaptive Learning Rates and Weight Decay",
+ "authors": [
+  "JiangBo Zhao",
+  "ZhaoXin Liu"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Adaptive optimizers like AdamW apply uniform hyperparameters across all parameter groups, ignoring heterogeneous optimization dynamics across layers and modules. We address this limitation by proposing MetaAdamW - a new optimizer that integrates a self-attention mechanism to dynamically modulate per-group learning rates and weight decay. The modulation factors are produced by a lightweight Transformer encoder that operates on statistical features (gradient norms, momentum norms, correlations) extracted from each parameter group. To train the attention module, we introduce a meta-learning objective that combines gradient alignment, loss decrease, and generalization gap. A key novel contribution is the extension of homoscedastic uncertainty weighting (HUW) with task-specific priorities that directly scale the regularization terms - enabling domain knowledge to guide automatic loss balancing. Extensive experiments on five diverse tasks-time series forecasting (ETT), language modeling (WikiText-2), machine translation (Multi30k), image classification (CIFAR-10), and sentiment analysis (IMDB) - demonstrate that MetaAdamW consistently outperforms the standard AdamW baseline in terms of validation loss, accuracy, or perplexity. Depending on the task, MetaAdamW either reduces overall training time (by up to 17.11%) or improves performance (by up to 11.08%) while introducing only moderate overhead; in some cases, it can also mitigate issues of insufficient convergence caused by premature early stopping. Ablation studies validate the effectiveness of each component, including feature versions, grouping strategies, and the proposed priority-injected uncertainty weighting.",
+ "primary": "cs.LG"
+}

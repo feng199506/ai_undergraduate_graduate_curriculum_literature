@@ -1,0 +1,18 @@
+{
+ "id": "2312.12844",
+ "title": "Effective Causal Discovery under Identifiable Heteroscedastic Noise Model",
+ "authors": [
+  "Naiyu Yin",
+  "Tian Gao",
+  "Yue Yu",
+  "Qiang Ji"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 2,
+ "latest_date": "2024-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Capturing the underlying structural causal relations represented by Directed Acyclic Graphs (DAGs) has been a fundamental task in various AI disciplines. Causal DAG learning via the continuous optimization framework has recently achieved promising performance in terms of both accuracy and efficiency. However, most methods make strong assumptions of homoscedastic noise, i.e., exogenous noises have equal variances across variables, observations, or even both. The noises in real data usually violate both assumptions due to the biases introduced by different data collection processes. To address the issue of heteroscedastic noise, we introduce relaxed and implementable sufficient conditions, proving the identifiability of a general class of SEM subject to these conditions. Based on the identifiable general SEM, we propose a novel formulation for DAG learning that accounts for the variation in noise variance across variables and observations. We then propose an effective two-phase iterative DAG learning algorithm to address the increasing optimization difficulties and to learn a causal DAG from data with heteroscedastic variable noise under varying variance. We show significant empirical gains of the proposed approaches over state-of-the-art methods on both synthetic data and real data.",
+ "primary": "cs.LG"
+}

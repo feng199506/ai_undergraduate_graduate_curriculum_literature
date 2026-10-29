@@ -1,0 +1,15 @@
+{
+ "id": "2602.13322",
+ "title": "Diagnostic Benchmarks for Invariant Learning Dynamics: Empirical Validation of the Eidos Architecture",
+ "authors": [
+  "Datorien L. Anderson"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 3 figures and extra material to help can be found: https://zenodo.org/records/18529180",
+ "abstract": "We present the PolyShapes-Ideal (PSI) dataset, a suite of diagnostic benchmarks designed to isolate topological invariance -- the ability to maintain structural identity across affine transformations -- from the textural correlations that dominate standard vision benchmarks. Through three diagnostic probes (polygon classification under noise, zero-shot font transfer from MNIST, and geometric collapse mapping under progressive deformation), we demonstrate that the Eidos architecture achieves >99% accuracy on PSI and 81.67% zero-shot transfer across 30 unseen typefaces without pre-training. These results validate the \"Form-First\" hypothesis: generalization in structurally constrained architectures is a property of geometric integrity, not statistical scale.",
+ "primary": "cs.CV"
+}

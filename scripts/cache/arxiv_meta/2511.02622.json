@@ -1,0 +1,17 @@
+{
+ "id": "2511.02622",
+ "title": "Machine Learning for RNA Secondary Structure Prediction: a review of current methods and challenges",
+ "authors": [
+  "Giuseppe Sacco",
+  "Giovanni Bussi",
+  "Guido Sanguinetti"
+ ],
+ "v1_date": "2025-11-04",
+ "latest_version": 2,
+ "latest_date": "2026-05-18",
+ "journal_ref": "RNA 32(4): 443-456 (2026)",
+ "doi": "10.1261/rna.080840.125",
+ "comment": "22 pages, 3 figures. Updated version of the article published in RNA 32(4):443-456 (2026); the Foundation Models section has been revised to reflect developments since publication. The remainder of the manuscript is unchanged apart from formatting",
+ "abstract": "Predicting the secondary structure of RNA is a core challenge in computational biology, essential for understanding molecular function and designing novel therapeutics. The field has evolved from foundational but accuracy-limited thermodynamic approaches to a new data-driven paradigm dominated by machine learning and deep learning. These models learn folding patterns directly from data, leading to significant performance gains. This review surveys the modern landscape of these methods, covering single-sequence, evolutionary-based, and hybrid models that blend machine learning with biophysics. A central theme is the field's \"generalization crisis,\" where powerful models were found to fail on new RNA families, prompting a community-wide shift to stricter, homology-aware benchmarking. In response to the underlying challenge of data scarcity, RNA foundation models have emerged, learning from massive, unlabeled sequence corpora to improve generalization. Finally, we look ahead to the next set of major hurdles-including the accurate prediction of complex motifs like pseudoknots, scaling to kilobase-length transcripts, incorporating the chemical diversity of modified nucleotides, and shifting the prediction target from static structures to the dynamic ensembles that better capture biological function. We also highlight the need for a standardized, prospective benchmarking system to ensure unbiased validation and accelerate progress.",
+ "primary": "q-bio.BM"
+}

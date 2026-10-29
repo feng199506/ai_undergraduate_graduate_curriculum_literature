@@ -1,0 +1,20 @@
+{
+ "id": "2311.03260",
+ "title": "From Coupled Oscillators to Graph Neural Networks: Reducing Over-smoothing via a Kuramoto Model-based Approach",
+ "authors": [
+  "Tuan Nguyen",
+  "Hirotada Honda",
+  "Takashi Sano",
+  "Vinh Nguyen",
+  "Shugo Nakamura",
+  "Tan M. Nguyen"
+ ],
+ "v1_date": "2023-11-06",
+ "latest_version": 2,
+ "latest_date": "2024-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose the Kuramoto Graph Neural Network (KuramotoGNN), a novel class of continuous-depth graph neural networks (GNNs) that employs the Kuramoto model to mitigate the over-smoothing phenomenon, in which node features in GNNs become indistinguishable as the number of layers increases. The Kuramoto model captures the synchronization behavior of non-linear coupled oscillators. Under the view of coupled oscillators, we first show the connection between Kuramoto model and basic GNN and then over-smoothing phenomenon in GNNs can be interpreted as phase synchronization in Kuramoto model. The KuramotoGNN replaces this phase synchronization with frequency synchronization to prevent the node features from converging into each other while allowing the system to reach a stable synchronized state. We experimentally verify the advantages of the KuramotoGNN over the baseline GNNs and existing methods in reducing over-smoothing on various graph deep learning benchmark tasks.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2507.12202",
+ "title": "Sparse Autoencoders for Sequential Recommendation Models: Interpretation and Flexible Control",
+ "authors": [
+  "Anton Klenitskiy",
+  "Konstantin Polev",
+  "Daria Denisova",
+  "Alexey Vasilev",
+  "Dmitry Simakov",
+  "Gleb Gusev"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 2,
+ "latest_date": "2026-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many current state-of-the-art models for sequential recommendations are based on transformer architectures. Interpretation and explanation of such black box models is an important research question, as a better understanding of their internals can help understand, influence, and control their behavior, which is very important in a variety of real-world applications. Recently, sparse autoencoders (SAE) have been shown to be a promising unsupervised approach to extract interpretable features from neural networks. In this work, we extend SAE to sequential recommender systems and propose a framework for interpreting and controlling model representations. We show that this approach can be successfully applied to the transformer trained on a sequential recommendation task: directions learned in such an unsupervised regime turn out to be more interpretable and monosemantic than the original hidden state dimensions. Further, we demonstrate a straightforward way to effectively and flexibly control the model's behavior, giving developers and users of recommendation systems the ability to adjust their recommendations to various custom scenarios and contexts.",
+ "primary": "cs.IR"
+}

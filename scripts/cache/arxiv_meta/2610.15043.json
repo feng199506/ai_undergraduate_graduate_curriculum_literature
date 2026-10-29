@@ -1,0 +1,18 @@
+{
+ "id": "2610.15043",
+ "title": "Information-Theoretic Foundations of Online Temperature Sampling",
+ "authors": [
+  "Jin Sima",
+  "Nikolaos Papagiannis",
+  "Ananth Grama",
+  "Wojciech Szpankowski"
+ ],
+ "v1_date": "2026-10-10",
+ "latest_version": 1,
+ "latest_date": "2026-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Repetitive, degenerate generation is a persistent failure of LLM decoding, and the standard remedies (temperature, nucleus, and top-$k$ sampling) are static heuristics. By Kac's lemma and the AEP, a stationary source takes time exponential in its entropy to repeat a block. We therefore maximize the entropy of the sampling distributions under one cross-entropy budget that keeps the output plausible under the model. Offline, the solution is temperature sampling, with the inverse temperature as the budget's Lagrange multiplier. \\emph{Our contribution is the online problem}: the conditionals $p_1, p_2, \\dots$ are revealed one at a time, and the sampling distribution $q_t$ must be chosen causally from $p_1, \\dots, p_t$ while the budget couples the entire horizon. The optimal temperature is thus a global shadow price that must be estimated from a prefix. We propose Entropic Online Sampling (EOS), which re-solves for the temperature on each prefix. We prove it loses $O(R\\log n)$ entropy against the offline optimum while overshooting the budget by $O(R\\log n)$, with $R$ an instance-dependent drift parameter. A budget-tightened variant is exactly feasible at the same rate. Conversely, every exactly feasible online algorithm must lose $Ω(R)$, so EOS is optimal up to a $\\log n$ factor. When the conditionals are drawn from a finite mixture, $R=\\tilde{O}(\\sqrt{n})$. Experiments confirm that EOS tracks the offline temperature and beats fixed-temperature sampling in entropy.",
+ "primary": "cs.LG"
+}

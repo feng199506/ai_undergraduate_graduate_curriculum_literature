@@ -1,0 +1,16 @@
+{
+ "id": "2502.05319",
+ "title": "Semiparametric Inference for Partially Identifiable Data Fusion Estimands via Double Machine Learning",
+ "authors": [
+  "Yicong Jiang",
+  "Lucas Janson"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 1,
+ "latest_date": "2025-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 6 figures",
+ "abstract": "Many statistical estimands of interest (e.g., in regression or causality) are functions of the joint distribution of multiple random variables. But in some applications, data is not available that measures all random variables on each subject, and instead the only possible approach is one of data fusion, where multiple independent data sets, each measuring a subset of the random variables of interest, are combined for inference. In general, since all random variables are never observed jointly, their joint distribution, and hence also the estimand which is a function of it, is only partially identifiable. Unfortunately, the endpoints of the partially identifiable region depend in general on entire conditional distributions, rendering them hard both operationally and statistically to estimate. To address this, we present a novel outer-bound on the region of partial identifiability (and establish conditions under which it is tight) that depends only on certain conditional first and second moments. This allows us to derive semiparametrically efficient estimators of our endpoint outer-bounds that only require the standard machine learning toolbox which learns conditional means. We prove asymptotic normality and semiparametric efficiency of our estimators and provide consistent estimators of their variances, enabling asymptotically valid confidence interval construction for our original partially identifiable estimand. We demonstrate the utility of our method in simulations and a data fusion problem from economics.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2609.20959",
+ "title": "Don't Blame the Model, Verify the Data: An Evaluation of SMT-based Dataset Verification (Extended Version)",
+ "authors": [
+  "Sehee Park",
+  "Dominik Geißler",
+  "Andrei Aleksandrov",
+  "Kim Völlinger"
+ ],
+ "v1_date": "2026-09-17",
+ "latest_version": 2,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The EU AI Act mandates that datasets for high-risk machine learning (ML) systems meet strict quality criteria such as soundness and bias mitigation. While Satisfiability Modulo Theory (SMT) solving offers a formal approach to verifying these properties, its scalability in realistic ML settings remains unexplored. To bridge this gap, this work presents the first large-scale empirical study of SMT-based dataset verification on two real-world ML datasets. We systematically evaluate how solver performance is shaped by three key dimensions: the type of data-quality property, the specification style, and the dataset encoding strategy. Our findings demonstrate that SMT-based verification is feasible for practical scenarios, but each dimension shapes it: the property type sets the tractability limit, the specification style drives scalability (exceeding $2{,}000{\\times}$ for aggregate properties), and the encoding strategy has a systematic effect, with extracted feature columns performing best.",
+ "primary": "cs.LO"
+}

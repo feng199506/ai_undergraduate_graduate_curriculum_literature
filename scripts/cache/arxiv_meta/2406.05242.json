@@ -1,0 +1,16 @@
+{
+ "id": "2406.05242",
+ "title": "Markov chain Monte Carlo without evaluating the target: an auxiliary variable approach",
+ "authors": [
+  "Wei Yuan",
+  "Guanyang Wang"
+ ],
+ "v1_date": "2024-06-07",
+ "latest_version": 4,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026 oral. Code: https://github.com/ywwes26/Auxiliary-MCMC",
+ "abstract": "In sampling tasks, it is common for target distributions to be known up to a normalizing constant. However, in many situations, even evaluating the unnormalized distribution can be costly or infeasible. This issue arises in scenarios such as sampling from the Bayesian posterior for tall datasets and the `doubly-intractable' distributions. In this paper, we begin by observing that seemingly different Markov chain Monte Carlo (MCMC) algorithms, such as the exchange algorithm, PoissonMH, and TunaMH, can be unified under a simple common procedure. We then extend this procedure into a novel framework that allows the use of auxiliary variables in both the proposal and the acceptance--rejection step. Several new MCMC algorithms emerge from this framework that uses estimated gradients to guide the proposal moves. They have demonstrated significantly better performance than existing methods on both synthetic and real datasets. We also develop theory for the new framework and use it to simplify and extend results for existing algorithms. The code to reproduce the experimental results can be found at https://github.com/ywwes26/Auxiliary-MCMC.",
+ "primary": "stat.CO"
+}

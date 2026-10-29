@@ -1,0 +1,17 @@
+{
+ "id": "2507.11866",
+ "title": "SimDiffRec: Semantic Similarity-Guided Diffusion for Contrastive Sequential Recommendation",
+ "authors": [
+  "Jinkyeong Choi",
+  "Yejin Noh",
+  "Donghyeon Park"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 2,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "10.1145/3773966.3777978",
+ "comment": "To appear in Proceedings of the 19th ACM International Conference on Web Search and Data Mining (WSDM 2026)",
+ "abstract": "In sequential recommendation systems, data augmentation and contrastive learning techniques have recently been introduced using diffusion models to achieve robust representation learning. However, most of the existing approaches use random augmentation, which risks damaging the contextual information of the original sequence. Accordingly, we propose SimDiffRec: a Semantic Similarity-Guided Diffusion for Contrastive Sequential Recommendation. Our framework leverages the similarity between item embedding vectors to generate semantically consistent noise. Moreover, we utilize high confidence scores in the denoising process to select our augmentation positions. This approach more effectively reflects contextual and structural information compared to augmentation at random positions. From a contrastive learning perspective, the proposed augmentation technique, combined with hard negative sampling, provides more discriminative positive and negative samples, simultaneously improving training efficiency and recommendation performance. Experimental results on five benchmark datasets show that SimDiffRec outperforms the existing baseline models. The code of our framework is available at https://github.com/zingyon/SimDiffRec.",
+ "primary": "cs.IR"
+}

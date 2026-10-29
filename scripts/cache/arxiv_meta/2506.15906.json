@@ -1,0 +1,18 @@
+{
+ "id": "2506.15906",
+ "title": "From Local Interactions to Global Operators: Scalable Gaussian Process Operator for Physical Systems",
+ "authors": [
+  "Sawan Kumar",
+  "Tapas Tripura",
+  "Rajdip Nayek",
+  "Souvik Chakraborty"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 1,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Operator learning offers a powerful paradigm for solving parametric partial differential equations (PDEs), but scaling probabilistic neural operators such as the recently proposed Gaussian Processes Operators (GPOs) to high-dimensional, data-intensive regimes remains a significant challenge. In this work, we introduce a novel, scalable GPO, which capitalizes on sparsity, locality, and structural information through judicious kernel design. Addressing the fundamental limitation of cubic computational complexity, our method leverages nearest-neighbor-based local kernel approximations in the spatial domain, sparse kernel approximation in the parameter space, and structured Kronecker factorizations to enable tractable inference on large-scale datasets and high-dimensional input. While local approximations often introduce accuracy trade-offs due to limited kernel interactions, we overcome this by embedding operator-aware kernel structures and employing expressive, task-informed mean functions derived from neural operator architectures. Through extensive evaluations on a broad class of nonlinear PDEs - including Navier-Stokes, wave advection, Darcy flow, and Burgers' equations - we demonstrate that our framework consistently achieves high accuracy across varying discretization scales. These results underscore the potential of our approach to bridge the gap between scalability and fidelity in GPO, offering a compelling foundation for uncertainty-aware modeling in complex physical systems.",
+ "primary": "stat.ML"
+}

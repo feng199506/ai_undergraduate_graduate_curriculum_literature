@@ -1,0 +1,18 @@
+{
+ "id": "2602.16541",
+ "title": "From Latent to Observable Position-Based Click Models in Carousel Interfaces",
+ "authors": [
+  "Santiago de Leon-Martinez",
+  "Robert Moro",
+  "Branislav Kveton",
+  "Maria Bielikova"
+ ],
+ "v1_date": "2026-02-18",
+ "latest_version": 3,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "10.1145/3770855.3818211",
+ "comment": "",
+ "abstract": "Click models are a central component of learning and evaluation in recommender systems, yet most existing models are designed for single ranked list interfaces. In contrast, modern recommender platforms increasingly use complex interfaces, such as carousels, which consist of multiple swipeable lists that enable complex user browsing behaviors. In this paper, we study position-based click models in carousel interfaces and examine optimization methods, model structure, and alignment with user behavior. We propose three novel position-based models tailored to carousels, including the first position-based model without latent variables that incorporates observed examination signals derived from eye tracking data, called the Observed Examination Position-Based Model (OEPBM). We develop a general implementation of these carousel click models, supporting multiple optimization techniques and conduct experiments comparing gradient-based methods with classic approaches, namely expectation-maximization and maximum likelihood estimation. Our results show that gradient-based optimization consistently achieves better click likelihoods. Among the evaluated models, the OEPBM achieves the strongest performance in click prediction and produces examination patterns that most closely align to user behavior. However, we also demonstrate that strong click fit does not imply realistic modeling of user examination and browsing patterns. This reveals a fundamental limitation of click-only models in complex interfaces and the need for incorporating additional behavioral signals when designing click models for carousel-based recommender systems.",
+ "primary": "cs.IR"
+}

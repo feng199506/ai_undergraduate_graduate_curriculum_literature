@@ -1,0 +1,19 @@
+{
+ "id": "2510.20883",
+ "title": "Kernel Learning with Adversarial Features: Numerical Efficiency and Adaptive Regularization",
+ "authors": [
+  "Antônio H. Ribeiro",
+  "David Vävinggren",
+  "Dave Zachariah",
+  "Thomas B. Schön",
+  "Francis Bach"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 1,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted NeurIPS 2025",
+ "abstract": "Adversarial training has emerged as a key technique to enhance model robustness against adversarial input perturbations. Many of the existing methods rely on computationally expensive min-max problems that limit their application in practice. We propose a novel formulation of adversarial training in reproducing kernel Hilbert spaces, shifting from input to feature-space perturbations. This reformulation enables the exact solution of inner maximization and efficient optimization. It also provides a regularized estimator that naturally adapts to the noise level and the smoothness of the underlying function. We establish conditions under which the feature-perturbed formulation is a relaxation of the original problem and propose an efficient optimization algorithm based on iterative kernel ridge regression. We provide generalization bounds that help to understand the properties of the method. We also extend the formulation to multiple kernel learning. Empirical evaluation shows good performance in both clean and adversarial settings.",
+ "primary": "stat.ML"
+}

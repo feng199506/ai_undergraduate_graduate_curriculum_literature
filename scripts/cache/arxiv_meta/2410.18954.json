@@ -1,0 +1,20 @@
+{
+ "id": "2410.18954",
+ "title": "Learning Structured Compressed Sensing with Automatic Resource Allocation",
+ "authors": [
+  "Han Wang",
+  "Eduardo Pérez",
+  "Iris A. M. Huijben",
+  "Hans van Gorp",
+  "Ruud van Sloun",
+  "Florian Römer"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 2,
+ "latest_date": "2025-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Unsupervised Learning, Information Theory, Compressed Sensing, Subsampling",
+ "abstract": "Multidimensional data acquisition often requires extensive time and poses significant challenges for hardware and software regarding data storage and processing. Rather than designing a single compression matrix as in conventional compressed sensing, structured compressed sensing yields dimension-specific compression matrices, reducing the number of optimizable parameters. Recent advances in machine learning (ML) have enabled task-based supervised learning of subsampling matrices, albeit at the expense of complex downstream models. Additionally, the sampling resource allocation across dimensions is often determined in advance through heuristics. To address these challenges, we introduce Structured COmpressed Sensing with Automatic Resource Allocation (SCOSARA) with an information theory-based unsupervised learning strategy. SCOSARA adaptively distributes samples across sampling dimensions while maximizing Fisher information content. Using ultrasound localization as a case study, we compare SCOSARA to state-of-the-art ML-based and greedy search algorithms. Simulation results demonstrate that SCOSARA can produce high-quality subsampling matrices that achieve lower Cramér-Rao Bound values than the baselines. In addition, SCOSARA outperforms other ML-based algorithms in terms of the number of trainable parameters, computational complexity, and memory requirements while automatically choosing the number of samples per axis.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2405.09514",
+ "title": "Tackling Distribution Shifts in Task-Oriented Communication with Information Bottleneck",
+ "authors": [
+  "Hongru Li",
+  "Jiawei Shao",
+  "Hengtao He",
+  "Shenghui Song",
+  "Jun Zhang",
+  "Khaled B. Letaief"
+ ],
+ "v1_date": "2024-05-15",
+ "latest_version": 1,
+ "latest_date": "2024-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 8 figures, submitted to IEEE for potential publication",
+ "abstract": "Task-oriented communication aims to extract and transmit task-relevant information to significantly reduce the communication overhead and transmission latency. However, the unpredictable distribution shifts between training and test data, including domain shift and semantic shift, can dramatically undermine the system performance. In order to tackle these challenges, it is crucial to ensure that the encoded features can generalize to domain-shifted data and detect semanticshifted data, while remaining compact for transmission. In this paper, we propose a novel approach based on the information bottleneck (IB) principle and invariant risk minimization (IRM) framework. The proposed method aims to extract compact and informative features that possess high capability for effective domain-shift generalization and accurate semantic-shift detection without any knowledge of the test data during training. Specifically, we propose an invariant feature encoding approach based on the IB principle and IRM framework for domainshift generalization, which aims to find the causal relationship between the input data and task result by minimizing the complexity and domain dependence of the encoded feature. Furthermore, we enhance the task-oriented communication with the label-dependent feature encoding approach for semanticshift detection which achieves joint gains in IB optimization and detection performance. To avoid the intractable computation of the IB-based objective, we leverage variational approximation to derive a tractable upper bound for optimization. Extensive simulation results on image classification tasks demonstrate that the proposed scheme outperforms state-of-the-art approaches and achieves a better rate-distortion tradeoff.",
+ "primary": "eess.SP"
+}

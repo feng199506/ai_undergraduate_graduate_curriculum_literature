@@ -1,0 +1,25 @@
+{
+ "id": "2402.04519",
+ "title": "BioDrone: A Bionic Drone-based Single Object Tracking Benchmark for Robust Vision",
+ "authors": [
+  "Xin Zhao",
+  "Shiyu Hu",
+  "Yipei Wang",
+  "Jing Zhang",
+  "Yimin Hu",
+  "Rongshuai Liu",
+  "Haibin Ling",
+  "Yin Li",
+  "Renshu Li",
+  "Kun Liu",
+  "Jiadong Li"
+ ],
+ "v1_date": "2024-02-07",
+ "latest_version": 1,
+ "latest_date": "2024-02-07",
+ "journal_ref": "Int J Comput Vis (2023)",
+ "doi": "10.1007/s11263-023-01937-0",
+ "comment": "This paper is published in IJCV (refer to DOI). Please cite the published IJCV",
+ "abstract": "Single object tracking (SOT) is a fundamental problem in computer vision, with a wide range of applications, including autonomous driving, augmented reality, and robot navigation. The robustness of SOT faces two main challenges: tiny target and fast motion. These challenges are especially manifested in videos captured by unmanned aerial vehicles (UAV), where the target is usually far away from the camera and often with significant motion relative to the camera. To evaluate the robustness of SOT methods, we propose BioDrone -- the first bionic drone-based visual benchmark for SOT. Unlike existing UAV datasets, BioDrone features videos captured from a flapping-wing UAV system with a major camera shake due to its aerodynamics. BioDrone hence highlights the tracking of tiny targets with drastic changes between consecutive frames, providing a new robust vision benchmark for SOT. To date, BioDrone offers the largest UAV-based SOT benchmark with high-quality fine-grained manual annotations and automatically generates frame-level labels, designed for robust vision analyses. Leveraging our proposed BioDrone, we conduct a systematic evaluation of existing SOT methods, comparing the performance of 20 representative models and studying novel means of optimizing a SOTA method (KeepTrack KeepTrack) for robust SOT. Our evaluation leads to new baselines and insights for robust SOT. Moving forward, we hope that BioDrone will not only serve as a high-quality benchmark for robust SOT, but also invite future research into robust computer vision. The database, toolkits, evaluation server, and baseline results are available at http://biodrone.aitestunion.com.",
+ "primary": "cs.CV"
+}

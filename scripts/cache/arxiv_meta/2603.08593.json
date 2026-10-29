@@ -1,0 +1,25 @@
+{
+ "id": "2603.08593",
+ "title": "A GPU-Accelerated Transient Detection Pipeline for DECam Time-Domain Surveys",
+ "authors": [
+  "Lei Hu",
+  "Tomás Cabrera",
+  "Antonella Palmese",
+  "Lifan Wang",
+  "Igor Andreoni",
+  "Xander J. Hall",
+  "Xingzhuo Chen",
+  "Jiawen Yang",
+  "Frank Valdes",
+  "Brendan O'Connor",
+  "Yuhan Chen"
+ ],
+ "v1_date": "2026-03-09",
+ "latest_version": 1,
+ "latest_date": "2026-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 5 figures",
+ "abstract": "We present a GPU-accelerated transient detection pipeline developed for time-domain surveys with the Dark Energy Camera (DECam). It enables real-time-capable image processing, incorporating science-driven candidate filtering to support rapid transient identification in time-critical observing programs. The pipeline serves as the core transient discovery engine for multiple long-term DECam programs, including the GW-MMADS gravitational-wave follow-up campaign and the DESIRT survey for intermediate-redshift transients with DESI synergy. The pipeline ingests calibrated imaging products from the DECam Community Pipeline and performs image differencing using the SFFT algorithm, coupled with CNN-based real-bogus classification, to produce science-ready transient alerts and light curves that are delivered to community brokers. We validate the pipeline using archival DECam data from the DESIRT survey. The real-bogus classifier achieves a completeness of $\\sim$ 99\\% of real transients while rejecting $\\sim$ 96\\% of subtraction artifacts, and the workflow typically reduces the candidate load to a manageable level for survey operations. With GPU acceleration, the typical processing time per DECam exposure is $\\sim$ 50 s from calibrated image processing to alert generation using a modest allocation of computing resources.",
+ "primary": "astro-ph.IM"
+}

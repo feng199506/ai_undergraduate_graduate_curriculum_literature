@@ -1,0 +1,17 @@
+{
+ "id": "2403.19462",
+ "title": "Offline Imitation Learning from Multiple Baselines with Applications to Compiler Optimization",
+ "authors": [
+  "Teodor V. Marinov",
+  "Alekh Agarwal",
+  "Mircea Trofin"
+ ],
+ "v1_date": "2024-03-28",
+ "latest_version": 1,
+ "latest_date": "2024-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work studies a Reinforcement Learning (RL) problem in which we are given a set of trajectories collected with K baseline policies. Each of these policies can be quite suboptimal in isolation, and have strong performance in complementary parts of the state space. The goal is to learn a policy which performs as well as the best combination of baselines on the entire state space. We propose a simple imitation learning based algorithm, show a sample complexity bound on its accuracy and prove that the the algorithm is minimax optimal by showing a matching lower bound. Further, we apply the algorithm in the setting of machine learning guided compiler optimization to learn policies for inlining programs with the objective of creating a small binary. We demonstrate that we can learn a policy that outperforms an initial policy learned via standard RL through a few iterations of our approach.",
+ "primary": "cs.LG"
+}

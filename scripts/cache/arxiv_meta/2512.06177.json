@@ -1,0 +1,17 @@
+{
+ "id": "2512.06177",
+ "title": "From PyTorch to Calyx: An Open-Source Compiler Toolchain for ML Accelerators",
+ "authors": [
+  "Jiahan Xie",
+  "Evan Williams",
+  "Adrian Sampson"
+ ],
+ "v1_date": "2025-12-05",
+ "latest_version": 1,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, 3 figures",
+ "abstract": "We present an end-to-end open-source compiler toolchain that targets synthesizable SystemVerilog from ML models written in PyTorch. Our toolchain leverages the accelerator design language Allo, the hardware intermediate representation (IR) Calyx, and the CIRCT project under LLVM. We also implement a set of compiler passes for memory partitioning, enabling effective parallelism in memory-intensive ML workloads. Experimental results demonstrate that our compiler can effectively generate optimized FPGA-implementable hardware designs that perform reasonably well against closed-source industry-grade tools such as Vitis HLS.",
+ "primary": "cs.AR"
+}

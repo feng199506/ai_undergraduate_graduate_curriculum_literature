@@ -1,0 +1,15 @@
+{
+ "id": "2401.17763",
+ "title": "Convergence of Expectation-Maximization Algorithm with Mixed-Integer Optimization",
+ "authors": [
+  "Geethu Joseph"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 2,
+ "latest_date": "2024-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The convergence of expectation-maximization (EM)-based algorithms typically requires continuity of the likelihood function with respect to all the unknown parameters (optimization variables). The requirement is not met when parameters comprise both discrete and continuous variables, making the convergence analysis nontrivial. This paper introduces a set of conditions that ensure the convergence of a specific class of EM algorithms that estimate a mixture of discrete and continuous parameters. Our results offer a new analysis technique for iterative algorithms that solve mixed-integer non-linear optimization problems. As a concrete example, we prove the convergence of the EM-based sparse Bayesian learning algorithm in [1] that estimates the state of a linear dynamical system with jointly sparse inputs and bursty missing observations. Our results establish that the algorithm in [1] converges to the set of stationary points of the maximum likelihood cost with respect to the continuous optimization variables.",
+ "primary": "eess.SP"
+}

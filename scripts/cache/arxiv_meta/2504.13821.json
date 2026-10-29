@@ -1,0 +1,20 @@
+{
+ "id": "2504.13821",
+ "title": "Toward Portable GPU Performance: Julia Recursive Implementation of TRMM and TRSM",
+ "authors": [
+  "Vicki Carrica",
+  "Maxwell Onyango",
+  "Rabab Alomairy",
+  "Evelyne Ringoot",
+  "James Schloss",
+  "Alan Edelman"
+ ],
+ "v1_date": "2025-04-18",
+ "latest_version": 1,
+ "latest_date": "2025-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a performant and portable recursive implementation of triangular matrix-matrix multiplication (TRMM) and triangular solve (TRSM) in Julia for GPUs, two kernels that underlie many linear-algebra algorithms. We restructure TRMM and TRSM so that most work is executed as general matrix-matrix multiplication (GEMM), improving use of the GPU memory hierarchy and reducing latency. Exploiting Julia's multiple dispatch and metaprogramming together with the GPUArrays and KernelAbstractions frameworks, we expose a single hardware-agnostic API that runs on NVIDIA, AMD, and Apple Silicon GPUs. For large matrices the recursive code reaches throughput comparable to vendor libraries such as cuBLAS and rocBLAS, while providing these routines on Apple Silicon for the first time. The entire implementation is only a few hundred lines of code, showing that unified Julia programs can deliver near-vendor performance across heterogeneous architectures.",
+ "primary": "cs.MS"
+}

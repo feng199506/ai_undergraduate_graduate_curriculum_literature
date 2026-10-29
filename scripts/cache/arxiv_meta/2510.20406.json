@@ -1,0 +1,29 @@
+{
+ "id": "2510.20406",
+ "title": "PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning",
+ "authors": [
+  "Xiaogang Jia",
+  "Qian Wang",
+  "Anrui Wang",
+  "Han A. Wang",
+  "Balázs Gyenes",
+  "Emiliyan Gospodinov",
+  "Xinkai Jiang",
+  "Ge Li",
+  "Hongyi Zhou",
+  "Weiran Liao",
+  "Xi Huang",
+  "Maximilian Beck",
+  "Moritz Reuss",
+  "Rudolf Lioutikov",
+  "Gerhard Neumann"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 3,
+ "latest_date": "2026-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robotic manipulation systems benefit from complementary sensing modalities, where each provides unique environmental information. Point clouds capture detailed geometric structure, while RGB images provide rich semantic context. Current point cloud methods struggle to capture fine-grained detail, especially for complex tasks, which RGB methods lack geometric awareness, which hinders their precision and generalization. We introduce PointMapPolicy, a novel approach that conditions diffusion policies on structured grids of points without downsampling. The resulting data type makes it easier to extract shape and spatial relationships from observations, and can be transformed between reference frames. Yet due to their structure in a regular grid, we enable the use of established computer vision techniques directly to 3D data. Using xLSTM as a backbone, our model efficiently fuses the point maps with RGB data for enhanced multi-modal perception. Through extensive experiments on the RoboCasa and CALVIN benchmarks and real robot evaluations, we demonstrate that our method achieves state-of-the-art performance across diverse manipulation tasks. The overview and demos are available on our project page: https://point-map.github.io/Point-Map/",
+ "primary": "cs.RO"
+}

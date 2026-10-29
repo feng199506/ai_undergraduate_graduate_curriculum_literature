@@ -1,0 +1,17 @@
+{
+ "id": "2504.16789",
+ "title": "MLOps Monitoring at Scale for Digital Platforms",
+ "authors": [
+  "Yu Jeffrey Hu",
+  "Jeroen Rombouts",
+  "Ines Wilms"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 1,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning models are widely recognized for their strong performance in forecasting. To keep that performance in streaming data settings, they have to be monitored and frequently re-trained. This can be done with machine learning operations (MLOps) techniques under supervision of an MLOps engineer. However, in digital platform settings where the number of data streams is typically large and unstable, standard monitoring becomes either suboptimal or too labor intensive for the MLOps engineer. As a consequence, companies often fall back on very simple worse performing ML models without monitoring. We solve this problem by adopting a design science approach and introducing a new monitoring framework, the Machine Learning Monitoring Agent (MLMA), that is designed to work at scale for any ML model with reasonable labor cost. A key feature of our framework concerns test-based automated re-training based on a data-adaptive reference loss batch. The MLOps engineer is kept in the loop via key metrics and also acts, pro-actively or retrospectively, to maintain performance of the ML model in the production stage. We conduct a large-scale test at a last-mile delivery platform to empirically validate our monitoring framework.",
+ "primary": "econ.EM"
+}

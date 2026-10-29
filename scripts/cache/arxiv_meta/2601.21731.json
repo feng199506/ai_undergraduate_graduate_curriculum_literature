@@ -1,0 +1,18 @@
+{
+ "id": "2601.21731",
+ "title": "Mechanistic Evidence for Spectral Structures in Prior-Data Fitted Networks",
+ "authors": [
+  "Kaustubh Sharma",
+  "Srijan Tiwari",
+  "Ojasva Nema",
+  "Parikshit Pareek"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 4,
+ "latest_date": "2026-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prior-Data Fitted Networks (PFNs) perform approximate Bayesian inference in a single forward pass, and tabular foundation models (TFMs) built on them are now widely used. To understand what networks infer internally, recent mechanistic studies of TFMs locate where predictions form, but treat these models as tabular predictors rather than as PFNs. It therefore remains unknown whether PFNs represent the spectral content of their context, the quantity that specifies a stationary kernel, and whether this content can be read out as an explicit kernel. We answer both questions. First, across seven PFNs, including four pretrained TFMs and a model trained only on a decision-tree prior, a linear probe on the residual stream recovers the frequency of the context with $R^2 \\geq 0.95$. This structure is led by a single principal direction. Second, activation and subspace patching show that the network uses the structure through a low-dimensional subspace, where a few spectral directions move predictions far more than random ones. This holds even for the decision-tree model, so a spectral training prior is not required. On real datasets with up to 499 features, 64 of the 192 directions of TabPFN, chosen without labels, carry 85 to 95\\% of the causal effect of the context in all but one pair. Third, we introduce a Filter Bank Decoder that turns frozen PFN representations into an explicit stationary kernel through Bochner's theorem. Without any test-time optimization, the decoded kernel supports Gaussian process regression competitive with deep kernel learning and random Fourier features at about $200\\times$ lower cost. PFN latents therefore hold spectral structure that is causally used and recoverable as a portable kernel.",
+ "primary": "cs.LG"
+}

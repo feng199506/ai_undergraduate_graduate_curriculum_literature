@@ -1,0 +1,19 @@
+{
+ "id": "2505.13430",
+ "title": "Fine-tuning Quantized Neural Networks with Zeroth-order Optimization",
+ "authors": [
+  "Sifeng Shang",
+  "Jiayi Zhou",
+  "Chenyu Lin",
+  "Minxian Li",
+  "Kaiyang Zhou"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 3,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICLR 2026",
+ "abstract": "As the size of large language models grows exponentially, GPU memory has become a bottleneck for adapting these models to downstream tasks. In this paper, we aim to push the limits of memory-efficient training by minimizing memory usage on model weights, gradients, and optimizer states, within a unified framework. Our idea is to eliminate both gradients and optimizer states using zeroth-order optimization, which approximates gradients by perturbing weights during forward passes to identify gradient directions. To minimize memory usage on weights, we employ model quantization, e.g., converting from bfloat16 to int4. However, directly applying zeroth-order optimization to quantized weights is infeasible due to the precision gap between discrete weights and continuous gradients, which would otherwise require de-quantization and re-quantization. To overcome this challenge, we propose Quantized Zeroth-order Optimization (QZO), a simple yet effective approach that perturbs the continuous quantization scale for gradient estimation and uses a directional derivative clipping method to stabilize training. QZO is orthogonal to both scalar-based and codebook-based post-training quantization methods. Compared to full-parameter fine-tuning in 16 bits, QZO can reduce the total memory cost by more than 18$\\times$ for 4-bit LLMs, and enables fine-tuning Llama-2-13B within a single 24GB GPU.",
+ "primary": "cs.LG"
+}

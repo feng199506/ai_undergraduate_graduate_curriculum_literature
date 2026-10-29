@@ -1,0 +1,18 @@
+{
+ "id": "2609.04011",
+ "title": "Differentiable Hybrid Modelling for Learning and Optimising Chemical Transport Processes from Experimental Data",
+ "authors": [
+  "Arthur Jessop",
+  "Mohammed Alsubeihi",
+  "Ben Moseley",
+  "Ashwin Kumar Rajagopalan"
+ ],
+ "v1_date": "2026-09-03",
+ "latest_version": 2,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transport models underpin the design and optimisation of chemical processes, yet their constitutive laws are typically hand-picked, their experimental initial conditions are assumed exact, and their computational cost restricts optimisation to a handful of process variables. Here we introduce a differentiable hybrid modelling framework that embeds neural networks within a GPU-accelerated population balance equation solver to discover constitutive laws and assimilate initial conditions directly from experimental crystallisation data. Using thirteen real experiments with multi-dimensional size and shape measurements, we show that treating measured initial conditions as exact yields a physically inconsistent rate law despite improved predictive accuracy, whereas assimilating them recovers a physically consistent, non-linear law and reduces trajectory error sevenfold relative to conventional modelling. End-to-end differentiability further enables gradient-based optimisation of high-dimensional operating profiles, identifying a 300-variable temperature profile that reduces crystal aspect ratio by 25% at constant mass, facilitating superior product attributes. Our framework augments, rather than replaces, mechanistic modelling, offering a general route to learning transport models from data and optimising processes with them.",
+ "primary": "cs.CE"
+}

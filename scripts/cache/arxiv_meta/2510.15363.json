@@ -1,0 +1,19 @@
+{
+ "id": "2510.15363",
+ "title": "Kernel Regression in Structured Non-IID Settings: Theory and Implications for Denoising Score Learning",
+ "authors": [
+  "Dechen Zhang",
+  "Zhenmei Shi",
+  "Yi Zhang",
+  "Yingyu Liang",
+  "Difan Zou"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 1,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel ridge regression (KRR) is a foundational tool in machine learning, with recent work emphasizing its connections to neural networks. However, existing theory primarily addresses the i.i.d. setting, while real-world data often exhibits structured dependencies - particularly in applications like denoising score learning where multiple noisy observations derive from shared underlying signals. We present the first systematic study of KRR generalization for non-i.i.d. data with signal-noise causal structure, where observations represent different noisy views of common signals. By developing a novel blockwise decomposition method that enables precise concentration analysis for dependent data, we derive excess risk bounds for KRR that explicitly depend on: (1) the kernel spectrum, (2) causal structure parameters, and (3) sampling mechanisms (including relative sample sizes for signals and noises). We further apply our results to denoising score learning, establishing generalization guarantees and providing principled guidance for sampling noisy data points. This work advances KRR theory while providing practical tools for analyzing dependent data in modern machine learning applications.",
+ "primary": "stat.ML"
+}

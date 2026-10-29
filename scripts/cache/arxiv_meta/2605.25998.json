@@ -1,0 +1,27 @@
+{
+ "id": "2605.25998",
+ "title": "Causal methods for LLM development and evaluation",
+ "authors": [
+  "Dennis Frauen",
+  "Marie Brockschmidt",
+  "Konstantin Hess",
+  "Haorui Ma",
+  "Yuchen Ma",
+  "Abdurahman Maarouf",
+  "Maresa Schröder",
+  "Jonas Schweisthal",
+  "Yuxin Wang",
+  "Athiya Deviyani",
+  "Sonali Parbhoo",
+  "Rahul G. Krishnan",
+  "Stefan Feuerriegel"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 1,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "10.1145/3770855.3818647",
+ "comment": "Published in KDD 2026",
+ "abstract": "Large language model (LLM) development is currently driven by large-scale empirical iteration over data mixtures, reward models, routing strategies, and evaluation pipelines. Here, we argue that many central questions in LLM development and evaluation are inherently causal: What is the effect of adding a data domain during pretraining? How do annotator preferences change when LLMs generate text in a different style? Should a prompt be routed to a larger or smaller model given inference cost constraints? In general, causal methods are well-suited to such settings where interventions change outcomes but, surprisingly, are underrepresented in LLM development. Our contribution is threefold: (1) We explain how causal methods can help develop modern LLM development and evaluation: LLM development relies heavily on logged data, which are often subject to confounding and distribution shifts; evaluation uses learned but potentially biased judges; and deployment environments are non-stationary. These conditions make purely predictive approaches fragile and create opportunities for principled identification and estimation methods from causal inference. (2) We further map opportunities for causal methods in the entire LLM development pipeline, including pretraining, alignment, routing, agentic workflows, and evaluation. (3) We discuss new research opportunities around leveraging causal methods for LLM development and evaluation. Overall, we argue that causal methods are potentially underutilized for the LLM development and evaluation pipeline, despite the fact that such methods can ensure a reliable and scientifically grounded design.",
+ "primary": "cs.LG"
+}

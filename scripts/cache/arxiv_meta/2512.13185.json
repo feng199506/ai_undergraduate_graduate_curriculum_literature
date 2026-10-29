@@ -1,0 +1,16 @@
+{
+ "id": "2512.13185",
+ "title": "Probabilistic Programming Meets Automata Theory: Exact Inference using Weighted Automata",
+ "authors": [
+  "Dominik Geißler",
+  "Tobias Winkler"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 1,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic programs encode stochastic models as ordinary-looking programs with primitives for sampling numbers from predefined distributions and conditioning. Their applications include, among many others, machine learning and modeling of autonomous systems. The analysis of probabilistic programs is often quantitative - it involves reasoning about numerical properties like probabilities and expectations. A particularly important quantitative property of probabilistic programs is their posterior distribution, i.e., the distribution over possible outputs for a given input (or prior) distribution. Computing the posterior distribution exactly is known as exact inference. We present our current research using weighted automata, a generalization of the well-known finite automata, for performing exact inference in a restricted class of discrete probabilistic programs. This is achieved by encoding distributions over program variables - possibly with infinite support - as certain weighted automata. The semantics of our programming language then corresponds to common automata-theoretic constructions, such as product, concatenation, and others.",
+ "primary": "cs.FL"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2609.13295",
+ "title": "Ergodic Control and Controlled Diffusion for Robot Learning: Review and Tutorial",
+ "authors": [
+  "Max Muchen Sun",
+  "Cem Bilaloglu",
+  "Ananya Rao",
+  "Stefan Ivic",
+  "Guillaume Sartoretti",
+  "Kathleen Fitzsimons",
+  "Ian Abraham",
+  "Sylvain Calinon",
+  "Todd Murphey"
+ ],
+ "v1_date": "2026-09-09",
+ "latest_version": 1,
+ "latest_date": "2026-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under review at Foundations and Trends in Robotics",
+ "abstract": "Diffusion learning leverages the statistical mechanism of diffusion processes for learning, reasoning, and inferring complex distributions from data. Recent advances in diffusion learning have been transformative, with robot learning emerging as a key opportunity area, with applications spanning perception, control, and decision-making. At the same time, the statistical mechanism of diffusion processes can be controlled to shape the temporal evolution of the state distribution underlying robot trajectories, inducing ergodic behavior in robotic systems. The frameworks of controlled diffusion and ergodic control were developed around the same time as diffusion learning, and their theories and algorithms have increasingly converged. Ergodicity induced by controlled diffusion has several significant implications for robot learning, distinct from applying diffusion learning to robotics problems: it formally enforces statistical properties required to ensure optimality of robot learning, enables non-myopic search over uncertain information landscapes for data collection, and enables behavior specification based on spatial rather than temporal characteristics of trajectories. This survey introduces the intuition behind controlled diffusion for robot learning, explores its connection to diffusion learning, presents theoretical foundations and numerical tutorials for solving controlled diffusion and ergodic control problems, and reviews applications across robotics. Finally, we discuss key challenges and future opportunities in leveraging controlled diffusion for robot learning.",
+ "primary": "cs.RO"
+}

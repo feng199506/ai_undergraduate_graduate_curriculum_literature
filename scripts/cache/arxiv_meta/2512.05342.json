@@ -1,0 +1,22 @@
+{
+ "id": "2512.05342",
+ "title": "First Demonstration of Second-order Training of Deep Neural Networks with In-memory Analog Matrix Computing",
+ "authors": [
+  "Saitao Zhang",
+  "Yubiao Luo",
+  "Shiqing Wang",
+  "Pushen Zuo",
+  "Yongxiang Li",
+  "Lunshuai Pan",
+  "Zheng Miao",
+  "Zhong Sun"
+ ],
+ "v1_date": "2025-12-05",
+ "latest_version": 1,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Second-order optimization methods, which leverage curvature information, offer faster and more stable convergence than first-order methods such as stochastic gradient descent (SGD) and Adam. However, their practical adoption is hindered by the prohibitively high cost of inverting the second-order information matrix, particularly in large-scale neural network training. Here, we present the first demonstration of a second-order optimizer powered by in-memory analog matrix computing (AMC) using resistive random-access memory (RRAM), which performs matrix inversion (INV) in a single step. We validate the optimizer by training a two-layer convolutional neural network (CNN) for handwritten letter classification, achieving 26% and 61% fewer training epochs than SGD with momentum and Adam, respectively. On a larger task using the same second-order method, our system delivers a 5.88x improvement in throughput and a 6.9x gain in energy efficiency compared to state-of-the-art digital processors. These results demonstrate the feasibility and effectiveness of AMC circuits for second-order neural network training, opening a new path toward energy-efficient AI acceleration.",
+ "primary": "cs.ET"
+}

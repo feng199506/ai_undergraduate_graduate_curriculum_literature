@@ -1,0 +1,16 @@
+{
+ "id": "2610.09601",
+ "title": "Cluster-Robust Prediction-Powered Inference",
+ "authors": [
+  "David Broska",
+  "Michael Howes"
+ ],
+ "v1_date": "2026-10-07",
+ "latest_version": 1,
+ "latest_date": "2026-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data collection is often costly or logistically demanding, limiting both the questions researchers can pursue and how precisely they can answer them. Prediction-powered inference (PPI) can reduce the amount of data needed for precise parameter estimation by combining labeled data with machine learning predictions. However, ignoring dependence within clusters can produce confidence intervals that cover the true parameter less often than their nominal rate. We introduce Cluster-Robust PPI++, which provides standard errors in closed form and asymptotically valid confidence intervals under arbitrary dependence within independent clusters, requiring no bootstrap or resampling. Our central contribution is to accommodate partially labeled clusters, a common empirical setting in which clusters contain both labeled and unlabeled units. As units are dependent within clusters, partially labeled clusters violate the independence assumption of PPI++. We also show how precision increases depend on the labeling design, and derive a cluster-aware power tuning rule that minimizes asymptotic variance. In an application to television news, standard PPI++ confidence intervals have coverage below 60%, whereas Cluster-Robust PPI++ can achieve nominal 95% coverage.",
+ "primary": "stat.ME"
+}

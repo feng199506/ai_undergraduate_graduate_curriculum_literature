@@ -1,0 +1,17 @@
+{
+ "id": "2604.08625",
+ "title": "A Transport Geometry of Benign Overfitting",
+ "authors": [
+  "Olaf Yunus Laitinen Imanov",
+  "Rana Irem Turhan",
+  "Isgandar Jafarli"
+ ],
+ "v1_date": "2026-04-09",
+ "latest_version": 4,
+ "latest_date": "2026-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 2 figures, 4 tables",
+ "abstract": "Benign overfitting, the phenomenon that interpolating noisy data can be statistically harmless, is usually characterized through effective-rank conditions on the covariance spectrum. These conditions are fragile: a perturbation of vanishing relative operator and Frobenius norm can turn a benign covariance into one whose minimum-norm interpolator has non-vanishing excess risk. We argue that the natural geometry of benign overfitting is optimal transport of the log-eigenvalues, measured in units of the sample size $n$. In log-spectral coordinates, the deterministic equivalent of the risk becomes a functional of two measures smoothed by a logistic kernel centred at the interpolation threshold $\\logκ$. We compute its exact first variation: the threshold moves by a sensitivity-weighted average of the log-eigenvalue displacements, and the influence of each eigenvalue decays exponentially with its log-distance to the threshold. We then derive global, dimension-free stability bounds. The variance functional is $8/(27n)$-Lipschitz in the 1-Wasserstein distance between log-spectra, with a sharp constant, and is controlled more generally by a threshold-localized transport discrepancy; an analogous bound controls the bias. Consequently, any rank-$k$ update of the covariance, of arbitrary norm, changes the variance functional by at most $3k/n$, and benign overfitting survives every perturbation whose localized transport cost is $o(n)$. The results extend to ridge regression and to infinite-dimensional trace-class covariances. Matching lower bounds show that the $n$-scaling is necessary and cannot be replaced by operator norms, Frobenius norms, or dimension-normalized spectral distances. Simulations, one-step feature learning in two-layer networks, and random features of real images support the theory and delineate its limits.",
+ "primary": "stat.ML"
+}

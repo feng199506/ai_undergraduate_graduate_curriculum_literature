@@ -1,0 +1,18 @@
+{
+ "id": "2403.18039",
+ "title": "Doubly robust causal inference through penalized bias-reduced estimation: combining non-probability samples with designed surveys",
+ "authors": [
+  "Jiacong Du",
+  "Xu Shi",
+  "Donglin Zeng",
+  "Bhramar Mukherjee"
+ ],
+ "v1_date": "2024-03-26",
+ "latest_version": 1,
+ "latest_date": "2024-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference on the average treatment effect (ATE) using non-probability samples, such as electronic health records (EHR), faces challenges from sample selection bias and high-dimensional covariates. This requires considering a selection model alongside treatment and outcome models that are typical ingredients in causal inference. This paper considers integrating large non-probability samples with external probability samples from a design survey, addressing moderately high-dimensional confounders and variables that influence selection. In contrast to the two-step approach that separates variable selection and debiased estimation, we propose a one-step plug-in doubly robust (DR) estimator of the ATE. We construct a novel penalized estimating equation by minimizing the squared asymptotic bias of the DR estimator. Our approach facilitates ATE inference in high-dimensional settings by ignoring the variability in estimating nuisance parameters, which is not guaranteed in conventional likelihood approaches with non-differentiable L1-type penalties. We provide a consistent variance estimator for the DR estimator. Simulation studies demonstrate the double robustness of our estimator under misspecification of either the outcome model or the selection and treatment models, as well as the validity of statistical inference under penalized estimation. We apply our method to integrate EHR data from the Michigan Genomics Initiative with an external probability sample.",
+ "primary": "stat.ME"
+}

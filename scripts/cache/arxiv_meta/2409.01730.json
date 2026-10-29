@@ -1,0 +1,19 @@
+{
+ "id": "2409.01730",
+ "title": "Federated Prediction-Powered Inference from Decentralized Data",
+ "authors": [
+  "Ping Luo",
+  "Xiaoge Deng",
+  "Ziqing Wen",
+  "Tao Sun",
+  "Dongsheng Li"
+ ],
+ "v1_date": "2024-09-03",
+ "latest_version": 1,
+ "latest_date": "2024-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In various domains, the increasing application of machine learning allows researchers to access inexpensive predictive data, which can be utilized as auxiliary data for statistical inference. Although such data are often unreliable compared to gold-standard datasets, Prediction-Powered Inference (PPI) has been proposed to ensure statistical validity despite the unreliability. However, the challenge of `data silos' arises when the private gold-standard datasets are non-shareable for model training, leading to less accurate predictive models and invalid inferences. In this paper, we introduces the Federated Prediction-Powered Inference (Fed-PPI) framework, which addresses this challenge by enabling decentralized experimental data to contribute to statistically valid conclusions without sharing private information. The Fed-PPI framework involves training local models on private data, aggregating them through Federated Learning (FL), and deriving confidence intervals using PPI computation. The proposed framework is evaluated through experiments, demonstrating its effectiveness in producing valid confidence intervals.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2412.01708",
+ "title": "Are We There Yet? Revealing the Risks of Utilizing Large Language Models in Scholarly Peer Review",
+ "authors": [
+  "Rui Ye",
+  "Xianghe Pang",
+  "Jingyi Chai",
+  "Jiaao Chen",
+  "Zhenfei Yin",
+  "Zhen Xiang",
+  "Xiaowen Dong",
+  "Jing Shao",
+  "Siheng Chen"
+ ],
+ "v1_date": "2024-12-02",
+ "latest_version": 1,
+ "latest_date": "2024-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 24 figures",
+ "abstract": "Scholarly peer review is a cornerstone of scientific advancement, but the system is under strain due to increasing manuscript submissions and the labor-intensive nature of the process. Recent advancements in large language models (LLMs) have led to their integration into peer review, with promising results such as substantial overlaps between LLM- and human-generated reviews. However, the unchecked adoption of LLMs poses significant risks to the integrity of the peer review system. In this study, we comprehensively analyze the vulnerabilities of LLM-generated reviews by focusing on manipulation and inherent flaws. Our experiments show that injecting covert deliberate content into manuscripts allows authors to explicitly manipulate LLM reviews, leading to inflated ratings and reduced alignment with human reviews. In a simulation, we find that manipulating 5% of the reviews could potentially cause 12% of the papers to lose their position in the top 30% rankings. Implicit manipulation, where authors strategically highlight minor limitations in their papers, further demonstrates LLMs' susceptibility compared to human reviewers, with a 4.5 times higher consistency with disclosed limitations. Additionally, LLMs exhibit inherent flaws, such as potentially assigning higher ratings to incomplete papers compared to full papers and favoring well-known authors in single-blind review process. These findings highlight the risks of over-reliance on LLMs in peer review, underscoring that we are not yet ready for widespread adoption and emphasizing the need for robust safeguards.",
+ "primary": "cs.CL"
+}

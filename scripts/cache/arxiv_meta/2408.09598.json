@@ -1,0 +1,18 @@
+{
+ "id": "2408.09598",
+ "title": "Anytime-Valid Inference for Double/Debiased Machine Learning of Causal Parameters",
+ "authors": [
+  "Abhinandan Dalal",
+  "Patrick Blöbaum",
+  "Shiva Kasiviswanathan",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2024-08-18",
+ "latest_version": 2,
+ "latest_date": "2024-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Double (debiased) machine learning (DML) has seen widespread use in recent years for learning causal/structural parameters, in part due to its flexibility and adaptability to high-dimensional nuisance functions as well as its ability to avoid bias from regularization or overfitting. However, the classic double-debiased framework is only valid asymptotically for a predetermined sample size, thus lacking the flexibility of collecting more data if sharper inference is needed, or stopping data collection early if useful inferences can be made earlier than expected. This can be of particular concern in large scale experimental studies with huge financial costs or human lives at stake, as well as in observational studies where the length of confidence of intervals do not shrink to zero even with increasing sample size due to partial identifiability of a structural parameter. In this paper, we present time-uniform counterparts to the asymptotic DML results, enabling valid inference and confidence intervals for structural parameters to be constructed at any arbitrary (possibly data-dependent) stopping time. We provide conditions which are only slightly stronger than the standard DML conditions, but offer the stronger guarantee for anytime-valid inference. This facilitates the transformation of any existing DML method to provide anytime-valid guarantees with minimal modifications, making it highly adaptable and easy to use. We illustrate our procedure using two instances: a) local average treatment effect in online experiments with non-compliance, and b) partial identification of average treatment effect in observational studies with potential unmeasured confounding.",
+ "primary": "stat.ME"
+}

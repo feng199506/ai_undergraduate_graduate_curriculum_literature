@@ -1,0 +1,18 @@
+{
+ "id": "2610.32853",
+ "title": "Near-Optimal List Replicability from Littlestone Dimension",
+ "authors": [
+  "Ari Blondal",
+  "Pooya Hatami",
+  "Chavdar Lalov",
+  "Sivan Tretiak"
+ ],
+ "v1_date": "2026-10-23",
+ "latest_version": 1,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages",
+ "abstract": "We study the list replicability number in the realizable PAC learning framework and prove that every concept class $H$ over a countable domain with Littlestone dimension $d$ and dual VC dimension $v^*$ satisfies \\[ \\mathrm{LR}(H)\\leq 2^{O(d\\min\\{\\log d,v^*\\})}. \\] This matches the worst-case lower bound of $2^{Ω(d)}$ up to a logarithmic factor in the exponent and exponentially improves the previous best upper bound $\\mathrm{LR}(H)\\le 2^{2^{O(d)}}$ of Bun, Livni, and Moran [FOCS 2020]. Unlike earlier bounds of $2^{O_ε(d^2)}$ for fixed accuracy $ε>0$ implied by the work of Ghazi, Golowich, Kumar, and Manurangsi [STOC 2021] and Lyu [STOC 2026], our bound is independent of $ε$. The $2^{O(d\\log d)}$ bound follows from a new inductive framework for bounding list replicability that builds on the recent notion of irreducibility from differentially private learning. The $2^{O(dv^*)}$ bound follows from a simple globally stable learner that takes the majority vote of multiple empirical risk minimizers, with stability established using tools from stable regularity.",
+ "primary": "cs.LG"
+}

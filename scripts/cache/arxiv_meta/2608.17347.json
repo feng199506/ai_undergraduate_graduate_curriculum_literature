@@ -1,0 +1,19 @@
+{
+ "id": "2608.17347",
+ "title": "Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning",
+ "authors": [
+  "Hoda Yamani",
+  "Yuning Xing",
+  "Koen van Rijnsoever",
+  "Bruce A. MacDonald",
+  "Henry Williams"
+ ],
+ "v1_date": "2026-08-18",
+ "latest_version": 1,
+ "latest_date": "2026-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 12 figures. Accepted at RLC 2026; to appear in Reinforcement Learning Journal (RLJ) 2026. Code: https://github.com/UoA-CARES/instant-episode-repetition",
+ "abstract": "Repetition is a fundamental mechanism in human learning, where revisiting successful experiences strengthens memory, consolidates skills, and improves future performance. Motivated by this biological principle, we introduce Instant Episode Repetition (IER), a simple and novel mechanism that improves sample efficiency by immediately repeating action sequences from successful episodes during environment interaction. Unlike conventional approaches such as Experience Replay and Self-Imitation Learning (SIL), which passively reuse past experience during training updates, IER directly influences the data collection process. Upon identifying a high-reward episode, the agent repeats its action sequence for a fixed number of subsequent episodes, reinforcing valuable behaviors through renewed interaction with the environment. We integrate IER into state-of-the-art SAC and TD3 algorithms and evaluate its effectiveness on continuous-control benchmarks, including MuJoCo, the DeepMind Control Suite, and a real-world dynamic object translation task with a robotic manipulator. Experimental results demonstrate that this simple mechanism improves learning performance over standard and self-imitation-based baselines.",
+ "primary": "cs.LG"
+}

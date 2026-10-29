@@ -1,0 +1,22 @@
+{
+ "id": "2312.03549",
+ "title": "Holmes: Towards Distributed Training Across Clusters with Heterogeneous NIC Environment",
+ "authors": [
+  "Fei Yang",
+  "Shuang Peng",
+  "Ning Sun",
+  "Fangyu Wang",
+  "Yuanyuan Wang",
+  "Fu Wu",
+  "Jiezhong Qiu",
+  "Aimin Pan"
+ ],
+ "v1_date": "2023-12-06",
+ "latest_version": 4,
+ "latest_date": "2024-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages",
+ "abstract": "Large language models (LLMs) such as GPT-3, OPT, and LLaMA have demonstrated remarkable accuracy in a wide range of tasks. However, training these models can incur significant expenses, often requiring tens of thousands of GPUs for months of continuous operation. Typically, this training is carried out in specialized GPU clusters equipped with homogeneous high-speed Remote Direct Memory Access (RDMA) network interface cards (NICs). The acquisition and maintenance of such dedicated clusters is challenging. Current LLM training frameworks, like Megatron-LM and Megatron-DeepSpeed, focus primarily on optimizing training within homogeneous cluster settings. In this paper, we introduce Holmes, a training framework for LLMs that employs thoughtfully crafted data and model parallelism strategies over the heterogeneous NIC environment. Our primary technical contribution lies in a novel scheduling method that intelligently allocates distinct computational tasklets in LLM training to specific groups of GPU devices based on the characteristics of their connected NICs. Furthermore, our proposed framework, utilizing pipeline parallel techniques, demonstrates scalability to multiple GPU clusters, even in scenarios without high-speed interconnects between nodes in distinct clusters. We conducted comprehensive experiments that involved various scenarios in the heterogeneous NIC environment. In most cases, our framework achieves performance levels close to those achievable with homogeneous RDMA-capable networks (InfiniBand or RoCE), significantly exceeding training efficiency within the pure Ethernet environment. Additionally, we verified that our framework outperforms other mainstream LLM frameworks under heterogeneous NIC environment in terms of training efficiency and can be seamlessly integrated with them.",
+ "primary": "cs.CL"
+}

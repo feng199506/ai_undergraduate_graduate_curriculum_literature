@@ -1,0 +1,19 @@
+{
+ "id": "2504.11877",
+ "title": "Benchmarking Mutual Information-based Loss Functions in Federated Learning",
+ "authors": [
+  "Sarang S",
+  "Harsh D. Chothani",
+  "Qilei Li",
+  "Ahmed M. Abdelmoniem",
+  "Arnab K. Paul"
+ ],
+ "v1_date": "2025-04-16",
+ "latest_version": 1,
+ "latest_date": "2025-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 4 figures",
+ "abstract": "Federated Learning (FL) has attracted considerable interest due to growing privacy concerns and regulations like the General Data Protection Regulation (GDPR), which stresses the importance of privacy-preserving and fair machine learning approaches. In FL, model training takes place on decentralized data, so as to allow clients to upload a locally trained model and receive a globally aggregated model without exposing sensitive information. However, challenges related to fairness-such as biases, uneven performance among clients, and the \"free rider\" issue complicates its adoption. In this paper, we examine the use of Mutual Information (MI)-based loss functions to address these concerns. MI has proven to be a powerful method for measuring dependencies between variables and optimizing deep learning models. By leveraging MI to extract essential features and minimize biases, we aim to improve both the fairness and effectiveness of FL systems. Through extensive benchmarking, we assess the impact of MI-based losses in reducing disparities among clients while enhancing the overall performance of FL.",
+ "primary": "cs.LG"
+}

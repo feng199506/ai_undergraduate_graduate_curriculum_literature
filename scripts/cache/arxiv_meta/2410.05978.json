@@ -1,0 +1,16 @@
+{
+ "id": "2410.05978",
+ "title": "Probabilistic programming methods for reconstruction of multichannel imaging detector events: ELVES and TRACK",
+ "authors": [
+  "S. A. Sharakin",
+  "R. E. Saraev"
+ ],
+ "v1_date": "2024-10-08",
+ "latest_version": 1,
+ "latest_date": "2024-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes new methods for analyzing dynamic images registered by multichannel, highly sensitive detectors with low spatial but high temporal resolution. The principal characteristic of the approach is the absence of factorization of different types of information within the data set. For a number of rapidly changing (transient) phenomena in the Earth's atmosphere, a probabilistic model can be formulated, and the parameters of this model can be reconstructed using probabilistic programming methods (Bayesian inference based on Markov chain Monte Carlo). This paper demonstrates the aforementioned approach on a number of examples, both simulated and actually registered by the detectors of the SINP MSU. In the case of submillisecond ELVES events registered by the orbital Mini-EUSO detector on board the ISS, the probabilistic model includes the coordinates and orientation of the lightning discharge that generated the glow, as well as the height of the ionized layer in which the glow is registered, among its parameters. Bayesian inference, implemented by means of the PyMC library, allows us to calculate posterior distributions for these parameters based on the times of signal peaks in individual detector channels. In addition to studying different types of aurora, the circumpolar system of ground-based multichannel PAIPS detectors also serves as a test-bench for probabilistic reconstruction algorithms. A wide class of track events is used for this purpose - meteors, satellite and aircraft passes, and the movement of stars across the sky. The Bayesian model includes both the parameters of the track event itself and the peculiarities of its registration. These methods can be generalized to stereo events (track registration by two detectors with overlapping fields of view) or applied to the reconstruction of extremely high energy cosmic rays in orbital fluorescence detectors.",
+ "primary": "astro-ph.IM"
+}

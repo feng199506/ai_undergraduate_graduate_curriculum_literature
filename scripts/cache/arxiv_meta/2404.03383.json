@@ -1,0 +1,17 @@
+{
+ "id": "2404.03383",
+ "title": "A unified Euler--Lagrange system for analyzing continuous-time accelerated gradient methods",
+ "authors": [
+  "Mitsuru Toyoda",
+  "Akatsuki Nishioka",
+  "Mirai Tanaka"
+ ],
+ "v1_date": "2024-04-04",
+ "latest_version": 1,
+ "latest_date": "2024-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents an Euler--Lagrange system for a continuous-time model of the accelerated gradient methods in smooth convex optimization and proposes an associated Lyapunov-function-based convergence analysis framework. Recently, ordinary differential equations (ODEs) with dumping terms have been developed to intuitively interpret the accelerated gradient methods, and the design of unified model describing the various individual ODE models have been examined. In existing reports, the Lagrangian, which results in the Euler-Lagrange equation, and the Lyapunov function for the convergence analysis have been separately proposed for each ODE. This paper proposes a unified Euler--Lagrange system and its Lyapunov function to cover the existing various models. In the convergence analysis using the Lyapunov function, a condition that parameters in the Lagrangian and Lyapunov function must satisfy is derived, and a parameter design for improving the convergence rate naturally results in the mysterious dumping coefficients. Especially, a symmetric Bregman divergence can lead to a relaxed condition of the parameters and a resulting improved convergence rate. As an application of this study, a slight modification in the Lyapunov function establishes the similar convergence proof for ODEs with smooth approximation in nondifferentiable objective function minimization.",
+ "primary": "math.OC"
+}

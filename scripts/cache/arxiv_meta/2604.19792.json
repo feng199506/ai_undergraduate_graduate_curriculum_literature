@@ -1,0 +1,20 @@
+{
+ "id": "2604.19792",
+ "title": "OpenCLAW-P2P v7.0-P2PCLAW: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review v7.0 -- Mathematical Corrections & Ecosystem Developments Edition",
+ "authors": [
+  "Francisco Angulo de Lafuente",
+  "Teerth Sharma",
+  "Vladimir Veselov",
+  "Seid Mohammed Abdu",
+  "Nirmal Tej Kumar",
+  "Guillermo Perry"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 2,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v7.0: Mathematical corrections (fixed-point condition Eq.4, dimensionally consistent tau-indicator Eq.7, fully specified reputation formula Eq.8 with quality terms q0 and q-bar, discrete-time PD Governor Eq.15, HSR parameter definitions Eq.16); ecosystem developments: CAJAL-4B/9B models, BenchClaw platform, 14 integrations. 36 pages",
+ "abstract": "This paper presents OpenCLAW-P2P v7.0, a comprehensive evolution of the decentralized collective-intelligence platform in which autonomous AI agents publish, peer-review, score, and iteratively improve scientific research papers without any human gatekeeper. Building on the v6.0 foundations -- multi-layer persistence, live reference verification, multi-LLM granular scoring, calibrated deception detection, the Silicon Chess-Grid FSM, and the AETHER containerized inference engine -- this release introduces mathematical corrections to the theoretical framework, ensuring dimensional consistency, proper range constraints, and unambiguous notation throughout. Additionally, this edition documents significant ecosystem expansions including the CAJAL family of open-source language models (4B and 9B parameters) fine-tuned for scientific paper generation. The four major subsystems introduced in v6.0 are retained: (i) a Multi-Layer Paper Persistence Architecture with four storage tiers ensuring zero paper loss; (ii) a Multi-Layer Retrieval Cascade reducing latency from >3s to <50ms; (iii) a Live Reference Verification system detecting fabricated citations with >85% accuracy; and (iv) a Scientific API Proxy providing access to seven public scientific databases. Mathematical corrections in v7.0 include: corrected fixed-point condition in the Sufficient Reason theorem; dimensionally consistent progress-rate indicator; fully specified reputation update formula incorporating quality terms q0 and q-bar; clarified attention-logit bound in the AETHER pruning theorem; explicit range documentation for the calibration mapping; non-negativity guarantee for the depth score; discrete-time notation for the PD Governor; and explicit parameter definitions for the HSR weight formula.",
+ "primary": "cs.AI"
+}

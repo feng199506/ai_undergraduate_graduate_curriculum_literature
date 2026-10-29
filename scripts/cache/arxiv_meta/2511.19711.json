@@ -1,0 +1,17 @@
+{
+ "id": "2511.19711",
+ "title": "CrypTorch: PyTorch-based Auto-tuning Compiler for Machine Learning with Multi-party Computation",
+ "authors": [
+  "Jinyu Liu",
+  "Gang Tan",
+  "Kiwan Maeng"
+ ],
+ "v1_date": "2025-11-24",
+ "latest_version": 2,
+ "latest_date": "2026-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 17 figures. Submitted to ATC 2026",
+ "abstract": "MPC-based ML uses multi-party computation (MPC) to run machine learning (ML) workloads across multiple parties without each having to share their private data or model parameters. However, existing frameworks frequently degrade accuracy and performance due to a series of MPC-specific transformations that add errors and overheads. These transformations are mostly opaque to users, making it hard to find and/or optimize problematic transformations. We propose CrypTorch, a modular, extensible, and iteratively-testable compiler framework for MPC-based ML. CrypTorch splits MPC-specific transformations into modular compilation stages, allowing users to easily inspect and optimize them. CrypTorch emits an executable graph after each transformation, allowing iterative testing to pinpoint any problematic transformations. Building on these features, CrypTorch automatically chooses a set of transformations from a pool of choices to balance performance and accuracy during the operator approximation stage, which we identified as the biggest contributor to accuracy/performance degradation. CrypTorch's auto-tuning alone provides 1.21-1.5x speedup without accuracy loss, and 1.33-1.74x speedup when some accuracy degradation is allowed. Combined with better engineering and adoption of state-of-the-art practices (made easier due to CrypTorch's modular design), CrypTorch brings 3.74-8.32x end-to-end speedup compared to the popular CrypTen. CrypTorch is built as an extension to PyTorch 2's compiler.",
+ "primary": "cs.CR"
+}

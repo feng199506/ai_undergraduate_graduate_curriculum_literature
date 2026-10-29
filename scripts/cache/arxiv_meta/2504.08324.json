@@ -1,0 +1,20 @@
+{
+ "id": "2504.08324",
+ "title": "An Introduction to Double/Debiased Machine Learning",
+ "authors": [
+  "Achim Ahrens",
+  "Victor Chernozhukov",
+  "Christian Hansen",
+  "Damian Kozbur",
+  "Mark Schaffer",
+  "Thomas Wiemann"
+ ],
+ "v1_date": "2025-04-11",
+ "latest_version": 2,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper provides an introduction to Double/Debiased Machine Learning (DML). DML is a general approach to performing inference about a target parameter in the presence of nuisance functions: objects that are needed to identify the target parameter but are not of primary interest. Nuisance functions arise naturally in many settings, such as when controlling for confounding variables or leveraging instruments. The paper describes two biases that arise from nuisance function estimation and explains how DML alleviates these biases. Consequently, DML allows the use of flexible methods, including machine learning tools, for estimating nuisance functions, reducing the dependence on auxiliary functional form assumptions and enabling the use of complex non-tabular data, such as text or images. We illustrate the application of DML through simulations and empirical examples. We conclude with a discussion of recommended practices. A companion website includes additional examples with code and references to other resources.",
+ "primary": "econ.EM"
+}

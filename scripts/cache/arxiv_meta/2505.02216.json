@@ -1,0 +1,21 @@
+{
+ "id": "2505.02216",
+ "title": "LLM-Guided Probabilistic Program Induction for POMDP Model Estimation",
+ "authors": [
+  "Aidan Curtis",
+  "Hao Tang",
+  "Thiago Veloso",
+  "Kevin Ellis",
+  "Joshua Tenenbaum",
+  "Tomás Lozano-Pérez",
+  "Leslie Pack Kaelbling"
+ ],
+ "v1_date": "2025-05-04",
+ "latest_version": 2,
+ "latest_date": "2025-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Partially Observable Markov Decision Processes (POMDPs) model decision making under uncertainty. While there are many approaches to approximately solving POMDPs, we aim to address the problem of learning such models. In particular, we are interested in a subclass of POMDPs wherein the components of the model, including the observation function, reward function, transition function, and initial state distribution function, can be modeled as low-complexity probabilistic graphical models in the form of a short probabilistic program. Our strategy to learn these programs uses an LLM as a prior, generating candidate probabilistic programs that are then tested against the empirical distribution and adjusted through feedback. We experiment on a number of classical toy POMDP problems, simulated MiniGrid domains, and two real mobile-base robotics search domains involving partial observability. Our results show that using an LLM to guide in the construction of a low-complexity POMDP model can be more effective than tabular POMDP learning, behavior cloning, or direct LLM planning.",
+ "primary": "cs.AI"
+}

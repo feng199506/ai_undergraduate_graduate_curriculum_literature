@@ -1,0 +1,16 @@
+{
+ "id": "2605.21698",
+ "title": "A Gaussian Sum Filter for Unifying Gaussian and Particle Filters",
+ "authors": [
+  "Kostas Tsampourakis",
+  "Víctor Elvira"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 1,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "State-space models (SSMs) are a broad class of probabilistic models for dynamical systems with many applications in engineering and science. Bayesian filtering is analytically tractable only in the linear-Gaussian setting, where the Kalman filter yields exact posterior distributions. For nonlinear or non-Gaussian SSMs, approximations are required. Two prominent families of approximate methods are Gaussian sum filters (GSFs), which rely on local Gaussian approximations and numerical integration schemes, and particle filters (PFs), which use sequential Monte Carlo sampling. Despite their success, GSFs can suffer from numerical instabilities and severe failures in strongly nonlinear regimes, while PFs are flexible and robust but often demand substantial computational resources to achieve accurate estimates. In this work, we propose the Augmented Gaussian Sum Filter (AGSF), a novel filtering framework that unifies GSFs and PFs through an augmented Gaussian approximation parameterized by latent variables and tunable covariance parameters. By adjusting these covariances, the AGSF interpolates continuously between GSF-like and PF-like behavior, recovering both as special cases. Building on this view, we develop an adaptive AGSF that automatically shifts its behavior according to the local nature of the nonlinearities, acting more like a GSF when Gaussian approximations are reliable and more like a PF when they are not. In a target-tracking application, we demonstrate that AGSF is efficient and robust to common failure modes of both GSFs and PFs. We empirically validate the switching behavior of the adaptive mechanism in a toy example.",
+ "primary": "stat.CO"
+}

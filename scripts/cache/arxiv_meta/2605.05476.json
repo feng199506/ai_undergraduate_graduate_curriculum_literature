@@ -1,0 +1,19 @@
+{
+ "id": "2605.05476",
+ "title": "A Unified Benchmark for Evaluating Knowledge Graph Construction Methods and Graph Neural Networks",
+ "authors": [
+  "Othmane Kabal",
+  "Mounira Harzallah",
+  "Fabrice Guillet",
+  "Hideaki Takeda",
+  "Ryutaro Ichise"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Knowledge graphs automatically constructed from text are increasingly used in real-world applications. However, their inherent noise, fragmentation, and semantic inconsistencies significantly affect the performance of Graph Neural Networks (GNNs) on downstream tasks. Assessing their performance and robustness remains difficult, as it is often unclear whether observed results stem from the learning model or from the quality of the constructed graph itself. In this work, we introduce a dual-purpose benchmark designed to jointly evaluate (i) the performance of GNNs on noisy, text-derived graphs and (ii) the effectiveness of graph construction methods on a downstream task. The benchmark is built in the biomedical domain from a single textual corpus and includes two automatically constructed graphs generated using different extraction methods, alongside a high-quality reference graph curated by experts that serves as an upper performance bound. This design enables controlled comparison of construction methods and systematic evaluation of GNN robustness through semi-supervised node classification. We further provide a standardized, reproducible, and extensible evaluation framework, facilitating the integration of new graph extraction methods and learning models.",
+ "primary": "cs.LG"
+}

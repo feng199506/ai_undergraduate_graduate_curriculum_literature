@@ -1,0 +1,20 @@
+{
+ "id": "2406.19049",
+ "title": "Accuracy on the wrong line: On the pitfalls of noisy data for out-of-distribution generalisation",
+ "authors": [
+  "Amartya Sanyal",
+  "Yaxi Hu",
+  "Yaodong Yu",
+  "Yian Ma",
+  "Yixin Wang",
+  "Bernhard Schölkopf"
+ ],
+ "v1_date": "2024-06-27",
+ "latest_version": 1,
+ "latest_date": "2024-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "\"Accuracy-on-the-line\" is a widely observed phenomenon in machine learning, where a model's accuracy on in-distribution (ID) and out-of-distribution (OOD) data is positively correlated across different hyperparameters and data configurations. But when does this useful relationship break down? In this work, we explore its robustness. The key observation is that noisy data and the presence of nuisance features can be sufficient to shatter the Accuracy-on-the-line phenomenon. In these cases, ID and OOD accuracy can become negatively correlated, leading to \"Accuracy-on-the-wrong-line\". This phenomenon can also occur in the presence of spurious (shortcut) features, which tend to overshadow the more complex signal (core, non-spurious) features, resulting in a large nuisance feature space. Moreover, scaling to larger datasets does not mitigate this undesirable behavior and may even exacerbate it. We formally prove a lower bound on Out-of-distribution (OOD) error in a linear classification model, characterizing the conditions on the noise and nuisance features for a large OOD error. We finally demonstrate this phenomenon across both synthetic and real datasets with noisy data and nuisance features.",
+ "primary": "cs.LG"
+}

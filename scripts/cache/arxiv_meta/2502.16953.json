@@ -1,0 +1,16 @@
+{
+ "id": "2502.16953",
+ "title": "A unified analysis on the speedup of accelerated gradient methods: An inertial dynamics approach",
+ "authors": [
+  "Zepeng Wang",
+  "Juan Peypouquet"
+ ],
+ "v1_date": "2025-02-24",
+ "latest_version": 2,
+ "latest_date": "2026-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Nesterov's Accelerated Gradient Method is one of the most popular first order optimization algorithms. When applied to $L$-smooth, $μ$-strongly convex functions, it converges at a rate of $\\mathcal{O}\\left(\\left(1-\\sqrt{\\fracμ{L}}\\right)^{k}\\right)$. The more recent {\\it Triple Momentum Method} and the {\\it Information Theoretic Exact Method} enjoy an improved rate of $\\mathcal{O}\\left(\\left(1-2\\sqrt{\\fracμ{L}}\\right)^{k}\\right)$. Their analysis relies on {\\it integral quadratic constraints} and {\\it performance estimation techniques}, respectively. In this work, we provide a dynamic explanation for this {\\it factor 2 speedup} based on the subtle relationships between the coefficients of an inertial system with Hessian-driven damping. The standard explicit discretization of this second order ordinary differential equation produces intuitive variants of Nesterov's method with sped-up convergence rates. The proof strategy allows us to extend the analysis beyond the strongly convex setting to account for convex functions with quadratic growth or the Polyak-Łojasiewicz inequality. Under uniqueness of the minimizer, we establish a factor $\\sqrt{2}$ speedup with respect to the state of the art. With no assumption on the set of minimizers, the new convergence rate (asymptotically) matches that of Gradient Descent, a fact that was previously unknown.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2602.12039",
+ "title": "The Implicit Bias of Logit Regularization",
+ "authors": [
+  "Alon Beck",
+  "Yohai Bar Sinai",
+  "Noam Levi"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 2,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Logit regularization, the addition of a convex penalty directly in logit space, is widely used in modern classifiers, with label smoothing as a prominent example. While such methods often improve calibration and generalization, their mechanism remains under-explored. In this work, we analyze a general class of such logit regularizers in the context of linear classification, and demonstrate that they induce an implicit bias of logit clustering around finite per-sample targets. For Gaussian data, or whenever logits are sufficiently clustered, we prove that logit clustering drives the weight vector to align exactly with Fisher's Linear Discriminant. To demonstrate the consequences, we study a simple signal-plus-noise model in which this transition has dramatic effects: Logit regularization halves the critical sample complexity and induces grokking in the small-noise limit, while making generalization robust to noise. Our results extend the theoretical understanding of label smoothing and highlight the efficacy of a broader class of logit-regularization methods.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2409.19629",
+ "title": "A Survey on Graph Neural Networks for Remaining Useful Life Prediction: Methodologies, Evaluation and Future Trends",
+ "authors": [
+  "Yucheng Wang",
+  "Min Wu",
+  "Xiaoli Li",
+  "Lihua Xie",
+  "Zhenghua Chen"
+ ],
+ "v1_date": "2024-09-29",
+ "latest_version": 1,
+ "latest_date": "2024-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Remaining Useful Life (RUL) prediction is a critical aspect of Prognostics and Health Management (PHM), aimed at predicting the future state of a system to enable timely maintenance and prevent unexpected failures. While existing deep learning methods have shown promise, they often struggle to fully leverage the spatial information inherent in complex systems, limiting their effectiveness in RUL prediction. To address this challenge, recent research has explored the use of Graph Neural Networks (GNNs) to model spatial information for more accurate RUL prediction. This paper presents a comprehensive review of GNN techniques applied to RUL prediction, summarizing existing methods and offering guidance for future research. We first propose a novel taxonomy based on the stages of adapting GNNs to RUL prediction, systematically categorizing approaches into four key stages: graph construction, graph modeling, graph information processing, and graph readout. By organizing the field in this way, we highlight the unique challenges and considerations at each stage of the GNN pipeline. Additionally, we conduct a thorough evaluation of various state-of-the-art (SOTA) GNN methods, ensuring consistent experimental settings for fair comparisons. This rigorous analysis yields valuable insights into the strengths and weaknesses of different approaches, serving as an experimental guide for researchers and practitioners working in this area. Finally, we identify and discuss several promising research directions that could further advance the field, emphasizing the potential for GNNs to revolutionize RUL prediction and enhance the effectiveness of PHM strategies. The benchmarking codes are available in GitHub: https://github.com/Frank-Wang-oss/GNN\\_RUL\\_Benchmarking.",
+ "primary": "cs.LG"
+}

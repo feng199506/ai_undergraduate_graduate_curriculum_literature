@@ -1,0 +1,18 @@
+{
+ "id": "2410.18318",
+ "title": "Self-Supervised Learning for Time Series: A Review & Critique of FITS",
+ "authors": [
+  "Andreas Løvendahl Eefsen",
+  "Nicholas Erup Larsen",
+  "Oliver Glozmann Bork Hansen",
+  "Thor Højhus Avenstrup"
+ ],
+ "v1_date": "2024-10-23",
+ "latest_version": 1,
+ "latest_date": "2024-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv:2307.03756v3 45 pages, 36 figures",
+ "abstract": "Accurate time series forecasting is a highly valuable endeavour with applications across many industries. Despite recent deep learning advancements, increased model complexity, and larger model sizes, many state-of-the-art models often perform worse or on par with simpler models. One of those cases is a recently proposed model, FITS, claiming competitive performance with significantly reduced parameter counts. By training a one-layer neural network in the complex frequency domain, we are able to replicate these results. Our experiments on a wide range of real-world datasets further reveal that FITS especially excels at capturing periodic and seasonal patterns, but struggles with trending, non-periodic, or random-resembling behavior. With our two novel hybrid approaches, where we attempt to remedy the weaknesses of FITS by combining it with DLinear, we achieve the best results of any known open-source model on multivariate regression and promising results in multiple/linear regression on price datasets, on top of vastly improving upon what FITS achieves as a standalone model.",
+ "primary": "cs.LG"
+}

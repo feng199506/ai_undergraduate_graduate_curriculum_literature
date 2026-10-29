@@ -1,0 +1,19 @@
+{
+ "id": "2311.11172",
+ "title": "Low-Precision Floating-Point for Efficient On-Board Deep Neural Network Processing",
+ "authors": [
+  "Cédric Gernigon",
+  "Silviu-Ioan Filip",
+  "Olivier Sentieys",
+  "Clément Coggiola",
+  "Mickaël Bruno"
+ ],
+ "v1_date": "2023-11-18",
+ "latest_version": 1,
+ "latest_date": "2023-11-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 7 figures, EDHPC 2023",
+ "abstract": "One of the major bottlenecks in high-resolution Earth Observation (EO) space systems is the downlink between the satellite and the ground. Due to hardware limitations, on-board power limitations or ground-station operation costs, there is a strong need to reduce the amount of data transmitted. Various processing methods can be used to compress the data. One of them is the use of on-board deep learning to extract relevant information in the data. However, most ground-based deep neural network parameters and computations are performed using single-precision floating-point arithmetic, which is not adapted to the context of on-board processing. We propose to rely on quantized neural networks and study how to combine low precision (mini) floating-point arithmetic with a Quantization-Aware Training methodology. We evaluate our approach with a semantic segmentation task for ship detection using satellite images from the Airbus Ship dataset. Our results show that 6-bit floating-point quantization for both weights and activations can compete with single-precision without significant accuracy degradation. Using a Thin U-Net 32 model, only a 0.3% accuracy degradation is observed with 6-bit minifloat quantization (a 6-bit equivalent integer-based approach leads to a 0.5% degradation). An initial hardware study also confirms the potential impact of such low-precision floating-point designs, but further investigation at the scale of a full inference accelerator is needed before concluding whether they are relevant in a practical on-board scenario.",
+ "primary": "cs.LG"
+}

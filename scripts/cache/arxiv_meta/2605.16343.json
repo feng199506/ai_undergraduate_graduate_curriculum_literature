@@ -1,0 +1,18 @@
+{
+ "id": "2605.16343",
+ "title": "LoopQ: Quantization for Looped Language Models",
+ "authors": [
+  "Rui Fang",
+  "Hsi-Wen Chen",
+  "Chia-Ming Cheng",
+  "Ming-Syan Chen"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 2,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Looped language models (LoopLMs) increase effective computational depth by repeatedly applying shared Transformer blocks without increasing the parameter count. However, this reuse makes them particularly sensitive to post-training quantization (PTQ). We systematically study PTQ in LoopLMs and identify three sources of degradation: distribution shift across roles, state reuse across loop transitions, and recursive error accumulation. We propose LoopQ, a loop-aware PTQ framework that preserves a shared quantized backbone while introducing lightweight adaptations. LoopQ combines loop-aware activation scaling and selective transformations to accommodate changing hidden-state distributions, cross-loop state alignment to stabilize transitions, and trajectory-aware calibration to limit accumulated error. Under W4A4 quantization, LoopQ achieves a 67.8% average relative improvement in five-task mean accuracy across four backbones and a conservative estimate of 75.2% for the average relative perplexity reduction across eight backbone-dataset pairs, compared with the strongest static PTQ baseline for each comparison.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2502.03696",
+ "title": "Cascaded Learned Bloom Filter for Optimizing Model-Filter Size Balance and Fast Rejection",
+ "authors": [
+  "Atsuki Sato",
+  "Yusuke Matsui"
+ ],
+ "v1_date": "2025-02-06",
+ "latest_version": 2,
+ "latest_date": "2026-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent studies have demonstrated that learned Bloom filters (LBFs), which combine machine learning with the classical Bloom filter, can achieve superior memory efficiency. However, two challenges remain: (1) jointly optimizing the sizes of the machine learning model and Bloom filters, and (2) systematically minimizing reject time. We propose the Cascaded Learned Bloom Filter (CLBF), a unified architecture that generalizes existing LBF designs, including Sandwiched LBF and Partitioned LBF. Within this framework, we develop a dynamic programming-based optimizer that explores a discretized parameter space and identifies near-optimal configurations that balance model and filter sizes while achieving fast rejection. Experiments on real-world datasets show that CLBF reduces memory usage by up to 17% and decreases reject time by up to a factor of 65 compared to Partitioned LBF, the state-of-the-art LBF in terms of memory efficiency under a fixed machine learning model. Our code is publicly available at https://github.com/atsukisato/CascadedLBF.",
+ "primary": "cs.DS"
+}

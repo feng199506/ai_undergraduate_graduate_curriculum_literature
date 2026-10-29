@@ -1,0 +1,17 @@
+{
+ "id": "2410.01836",
+ "title": "Temporal Graph Memory Networks For Knowledge Tracing",
+ "authors": [
+  "Seif Gad",
+  "Sherif Abdelfattah",
+  "Ghodai Abdelrahman"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 1,
+ "latest_date": "2024-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tracing a student's knowledge growth given the past exercise answering is a vital objective in automatic tutoring systems to customize the learning experience. Yet, achieving this objective is a non-trivial task as it involves modeling the knowledge state across multiple knowledge components (KCs) while considering their temporal and relational dynamics during the learning process. Knowledge tracing methods have tackled this task by either modeling KCs' temporal dynamics using recurrent models or relational dynamics across KCs and questions using graph models. Albeit, there is a lack of methods that could learn joint embedding between relational and temporal dynamics of the task. Moreover, many methods that count for the impact of a student's forgetting behavior during the learning process use hand-crafted features, limiting their generalization on different scenarios. In this paper, we propose a novel method that jointly models the relational and temporal dynamics of the knowledge state using a deep temporal graph memory network. In addition, we propose a generic technique for representing a student's forgetting behavior using temporal decay constraints on the graph memory module. We demonstrate the effectiveness of our proposed method using multiple knowledge tracing benchmarks while comparing it to state-of-the-art methods.",
+ "primary": "cs.CY"
+}

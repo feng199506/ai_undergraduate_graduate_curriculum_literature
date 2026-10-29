@@ -1,0 +1,27 @@
+{
+ "id": "2505.20299",
+ "title": "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery",
+ "authors": [
+  "Jianpeng Chen",
+  "Wangzhi Zhan",
+  "Haohui Wang",
+  "Zian Jia",
+  "Jingru Gan",
+  "Junkai Zhang",
+  "Jingyuan Qi",
+  "Tingwei Chen",
+  "Lifu Huang",
+  "Muhao Chen",
+  "Ling Li",
+  "Wei Wang",
+  "Dawei Zhou"
+ ],
+ "v1_date": "2025-05-08",
+ "latest_version": 1,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages",
+ "abstract": "Metamaterials, engineered materials with architected structures across multiple length scales, offer unprecedented and tunable mechanical properties that surpass those of conventional materials. However, leveraging advanced machine learning (ML) for metamaterial discovery is hindered by three fundamental challenges: (C1) Data Heterogeneity Challenge arises from heterogeneous data sources, heterogeneous composition scales, and heterogeneous structure categories; (C2) Model Complexity Challenge stems from the intricate geometric constraints of ML models, which complicate their adaptation to metamaterial structures; and (C3) Human-AI Collaboration Challenge comes from the \"dual black-box'' nature of sophisticated ML models and the need for intuitive user interfaces. To tackle these challenges, we introduce a unified framework, named MetamatBench, that operates on three levels. (1) At the data level, we integrate and standardize 5 heterogeneous, multi-modal metamaterial datasets. (2) The ML level provides a comprehensive toolkit that adapts 17 state-of-the-art ML methods for metamaterial discovery. It also includes a comprehensive evaluation suite with 12 novel performance metrics with finite element-based assessments to ensure accurate and reliable model validation. (3) The user level features a visual-interactive interface that bridges the gap between complex ML techniques and non-ML researchers, advancing property prediction and inverse design of metamaterials for research and applications. MetamatBench offers a unified platform deployed at http://zhoulab-1.cs.vt.edu:5550 that enables machine learning researchers and practitioners to develop and evaluate new methodologies in metamaterial discovery. For accessibility and reproducibility, we open-source our benchmark and the codebase at https://github.com/cjpcool/Metamaterial-Benchmark.",
+ "primary": "physics.optics"
+}

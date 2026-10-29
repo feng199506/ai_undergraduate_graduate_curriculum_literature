@@ -1,0 +1,17 @@
+{
+ "id": "2602.07933",
+ "title": "Attention-Based Deep Learning for Early Parkinson's Disease Detection with Tabular Biomedical Data",
+ "authors": [
+  "Olamide Samuel Oseni",
+  "Ibraheem Omotolani Obanla",
+  "Toheeb Aduramomi Jimoh"
+ ],
+ "v1_date": "2026-02-08",
+ "latest_version": 1,
+ "latest_date": "2026-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Early and accurate detection of Parkinson's disease (PD) remains a critical challenge in medical diagnostics due to the subtlety of early-stage symptoms and the complex, non-linear relationships inherent in biomedical data. Traditional machine learning (ML) models, though widely applied to PD detection, often rely on extensive feature engineering and struggle to capture complex feature interactions. This study investigates the effectiveness of attention-based deep learning models for early PD detection using tabular biomedical data. We present a comparative evaluation of four classification models: Multi-Layer Perceptron (MLP), Gradient Boosting, TabNet, and SAINT, using a benchmark dataset from the UCI Machine Learning Repository consisting of biomedical voice measurements from PD patients and healthy controls. Experimental results show that SAINT consistently outperformed all baseline models across multiple evaluation metrics, achieving a weighted precision of 0.98, weighted recall of 0.97, weighted F1-score of 0.97, a Matthews Correlation Coefficient (MCC) of 0.9990, and the highest Area Under the ROC Curve (AUC-ROC). TabNet and MLP demonstrated competitive performance, while Gradient Boosting yielded the lowest overall scores. The superior performance of SAINT is attributed to its dual attention mechanism, which effectively models feature interactions within and across samples. These findings demonstrate the diagnostic potential of attention-based deep learning architectures for early Parkinson's disease detection and highlight the importance of dynamic feature representation in clinical prediction tasks.",
+ "primary": "cs.LG"
+}

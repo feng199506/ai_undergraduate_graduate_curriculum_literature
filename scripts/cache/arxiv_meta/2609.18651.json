@@ -1,0 +1,20 @@
+{
+ "id": "2609.18651",
+ "title": "FIERCE: From Generalist Robot Policies to Fast Specialists via Progress-Failure Feedback",
+ "authors": [
+  "Runjia Tan",
+  "Yuang Tu",
+  "Yujie Yan",
+  "Lan Yu",
+  "Xuesong Tian",
+  "Chen Lv"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 1,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 5 figures",
+ "abstract": "Generalist robot policies offer useful initialization, but refining compact specialists through limited physical interaction requires informative learning feedback. We present FIERCE, a generalist-initialized reinforcement learning framework centered on a unified, task-adaptive progress-failure evaluator. Its architecture shares an observation-language representation between an observed-progress head and an action-conditioned latent predictor whose past and current predictions feed a causal sequence head for task-failure estimation. Joint supervision from progress and preference labels, synchronized commands and observations, and terminal outcomes trains the evaluator; target-task rollouts support adaptation and calibration. Fixed evaluator snapshots provide progress shaping and failure-risk penalties alongside independently verified terminal rewards, while evaluator and policy updates alternate as new experience is collected. Refinement requires neither continued generalist action queries nor a dedicated target-task simulator or manually annotated dense rewards. Only the compact specialist is retained at deployment. The evaluation separates feedback quality, policy-learning efficiency, and deployment cost across simulation and two contact-rich real tasks. Code, model weights, and data-restoration tools are released at https://github.com/ar-mine/FIERCE.",
+ "primary": "cs.RO"
+}

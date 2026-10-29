@@ -1,0 +1,18 @@
+{
+ "id": "2605.18745",
+ "title": "SURGE: Approximation and Training Free Particle Filter for Diffusion Surrogate",
+ "authors": [
+  "Lifu Wei",
+  "Yinuo Ren",
+  "Naichen Shi",
+  "Yiping Lu"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 2,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "accepted by ICML 2026",
+ "abstract": "Data assimilation (DA) addresses the problem of sequentially estimating the state of a dynamical system from noisy and incomplete observations. In this work, we employ a diffusion model as a world model to simulate and predict the system's dynamics. Recently, score-based diffusion models have learned global diffusion priors that effectively model (stochastic) dynamics, revealing strong potential for data assimilation. In this paper, we investigate how information from noisy observations can be incorporated to enable continuous correction and refinement of the predicted system state when using a diffusion prior. Motivated by particle filtering methods, we represent the posterior distribution using a set of particles. After receiving noisy observations, the diffusion model is guided using the observation likelihood to steer the generation process toward observation-consistent states. Nevertheless, such guidance does not guarantee sampling from the true posterior. We therefore employ a Sequential Monte Carlo approach over the diffusion trajectory, viewed as a path measure, to reweight and resample particles, thereby correcting the generation process and ensuring convergence toward the desired posterior distribution. This leads to an unbiased particle filtering method that rigorously fuses observational data with diffusion model simulations.",
+ "primary": "stat.ML"
+}

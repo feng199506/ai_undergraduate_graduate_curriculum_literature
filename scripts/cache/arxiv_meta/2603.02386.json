@@ -1,0 +1,21 @@
+{
+ "id": "2603.02386",
+ "title": "Advancing Earth Observation Through Machine Learning: A TorchGeo Tutorial",
+ "authors": [
+  "Caleb Robinson",
+  "Nils Lehmann",
+  "Adam J. Stewart",
+  "Burak Ekim",
+  "Heng Fang",
+  "Isaac A. Corley",
+  "Mauricio Cordeiro"
+ ],
+ "v1_date": "2026-03-02",
+ "latest_version": 1,
+ "latest_date": "2026-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICLR ML4RS 2026 Tutorial Track",
+ "abstract": "Earth observation machine learning pipelines differ fundamentally from standard computer vision workflows. Imagery is typically delivered as large, georeferenced scenes, labels may be raster masks or vector geometries in distinct coordinate reference systems, and both training and evaluation often require spatially aware sampling and splitting strategies. TorchGeo is a PyTorch-based domain library that provides datasets, samplers, transforms and pre-trained models with the goal of making it easy to use geospatial data in machine learning pipelines. In this paper, we introduce a tutorial that demonstrates 1.) the core TorchGeo abstractions through code examples, and 2.) an end-to-end case study on multispectral water segmentation from Sentinel-2 imagery using the Earth Surface Water dataset. This demonstrates how to train a semantic segmentation model using TorchGeo datasets, apply the model to a Sentinel-2 scene over Rio de Janeiro, Brazil, and save the resulting predictions as a GeoTIFF for further geospatial analysis. The tutorial code itself is distributed as two Python notebooks: https://torchgeo.readthedocs.io/en/stable/tutorials/torchgeo.html and https://torchgeo.readthedocs.io/en/stable/tutorials/earth_surface_water.html.",
+ "primary": "cs.CV"
+}

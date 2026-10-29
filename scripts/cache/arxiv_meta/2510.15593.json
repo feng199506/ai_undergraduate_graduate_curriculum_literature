@@ -1,0 +1,17 @@
+{
+ "id": "2510.15593",
+ "title": "Temporal Graph Reconfiguration for Always-Connected Graphs",
+ "authors": [
+  "Paul Sievers",
+  "George Skretas",
+  "Georg Tennigkeit"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 3,
+ "latest_date": "2026-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Network redesign problems ask for modifications to the edges of a given graph to satisfy certain properties. In temporal graphs, where edges are only active at certain times, we are sometimes only allowed to modify when the edges are going to be active. In practice, we might not even be able to perform all of the necessary modifications at once; changes must be applied step-by-step while the network is still in operation, meaning that the network must continue to satisfy some properties. To initiate a study in this area, we introduce the class of temporal graph reconfiguration problems. As a starting point, we consider the Layered Connectivity Reconfiguration (LCR) problem: Given two always-connected temporal graphs G1 and G2, determine if it is possible to transform G1 into G2 by changing the time at which a single temporal edge is active in each step, such that every intermediate temporal graph is always-connected. We provide a dynamic programming algorithm for the LCR problem. We also show that finding the shortest reconfiguration sequence between two temporal graphs cannot be approximated in polynomial time within a factor of c log M for some c > 0, unless P = NP. Additionally, we show that the LCR problem is equivalent to the Spanning Tree Sequence Reconfiguration (STSR) problem introduced by Hanaka et al. Therefore, our results also answer two questions raised by the authors: (i) find a simpler algorithm for the STSR problem, (ii) show that the STSR problem is inapproximable up to a factor of c log M.",
+ "primary": "cs.DS"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.02332",
+ "title": "Coreset-Based Task Selection for Sample-Efficient Meta-Reinforcement Learning",
+ "authors": [
+  "Donglin Zhan",
+  "Leonardo F. Toso",
+  "James Anderson"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 3,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Paper accepted at CDC 2025",
+ "abstract": "We study task selection to enhance sample efficiency in model-agnostic meta-reinforcement learning (MAML-RL). Traditional meta-RL typically assumes that all available tasks are equally important, which can lead to task redundancy when they share significant similarities. To address this, we propose a coreset-based task selection approach that selects a weighted subset of tasks based on how diverse they are in gradient space, prioritizing the most informative and diverse tasks. Such task selection reduces the number of samples needed to find an $ε$-close stationary solution by a factor of O(1/$ε$). Consequently, it guarantees a faster adaptation to unseen tasks while focusing training on the most relevant tasks. As a case study, we incorporate task selection to MAML-LQR (Toso et al., 2024b), and prove a sample complexity reduction proportional to O(log(1/$ε$)) when the task specific cost also satisfy gradient dominance. Our theoretical guarantees underscore task selection as a key component for scalable and sample-efficient meta-RL. We numerically validate this trend across multiple RL benchmark problems, illustrating the benefits of task selection beyond the LQR baseline.",
+ "primary": "math.OC"
+}

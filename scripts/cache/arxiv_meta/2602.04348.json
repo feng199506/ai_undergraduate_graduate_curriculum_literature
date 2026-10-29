@@ -1,0 +1,15 @@
+{
+ "id": "2602.04348",
+ "title": "Balancing Inexactness in Mixed Precision Matrix Computations",
+ "authors": [
+  "Erin Claire Carson"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 1,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages",
+ "abstract": "Support for arithmetic in multiple precisions and number formats is becoming increasingly common in emerging high-performance architectures. From a computational scientist's perspective, our goal is to determine how and where we can safely exploit mixed precision computation in our codes to improve performance. One case where the use of low precision is natural, common in computational science, is when there are already other significant sources of ``inexactness'' present, e.g., discretization error, measurement error, or algorithmic approximation error. In such instances, analyzing the interaction of these different sources of inexactness can give insight into how the precisions of various computations should be chosen in order to ``balance'' the errors, potentially improving performance without a noticeable decrease in accuracy. We present a few recent examples of this approach which demonstrate the potential for the use of mixed precision in numerical linear algebra and matrix computations.",
+ "primary": "math.NA"
+}

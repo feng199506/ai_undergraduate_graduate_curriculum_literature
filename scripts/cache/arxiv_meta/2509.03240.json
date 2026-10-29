@@ -1,0 +1,19 @@
+{
+ "id": "2509.03240",
+ "title": "Evaluation of Stress Detection as Time Series Events -- A Novel Window-Based F1-Metric",
+ "authors": [
+  "Harald Vilhelm Skat-Rørdam",
+  "Sneha Das",
+  "Kathrine Sofie Rasmussen",
+  "Nicole Nadine Lønfeldt",
+  "Line Clemmensen"
+ ],
+ "v1_date": "2025-09-03",
+ "latest_version": 1,
+ "latest_date": "2025-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 6 figures",
+ "abstract": "Accurate evaluation of event detection in time series is essential for applications such as stress monitoring with wearable devices, where ground truth is typically annotated as single-point events, even though the underlying phenomena are gradual and temporally diffused. Standard metrics like F1 and point-adjusted F1 (F1$_{pa}$) often misrepresent model performance in such real-world, imbalanced datasets. We introduce a window-based F1 metric (F1$_w$) that incorporates temporal tolerance, enabling a more robust assessment of event detection when exact alignment is unrealistic. Empirical analysis in three physiological datasets, two in-the-wild (ADARP, Wrist Angel) and one experimental (ROAD), indicates that F1$_w$ reveals meaningful model performance patterns invisible to conventional metrics, while its window size can be adapted to domain knowledge to avoid overestimation. We show that the choice of evaluation metric strongly influences the interpretation of model performance: using predictions from TimesFM, only our temporally tolerant metrics reveal statistically significant improvements over random and null baselines in the two in-the-wild use cases. This work addresses key gaps in time series evaluation and provides practical guidance for healthcare applications where requirements for temporal precision vary by context.",
+ "primary": "cs.LG"
+}

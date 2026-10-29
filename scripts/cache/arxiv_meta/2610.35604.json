@@ -1,0 +1,24 @@
+{
+ "id": "2610.35604",
+ "title": "RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies",
+ "authors": [
+  "Heyang Yu",
+  "Haomin Li",
+  "Sihang Li",
+  "Jixin Yan",
+  "Shiyun Peng",
+  "Wanqi Zhong",
+  "Tianyu Xin",
+  "Yuan Yao",
+  "Xiaoyu Tian",
+  "Yiming Li"
+ ],
+ "v1_date": "2026-10-26",
+ "latest_version": 1,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Project Page: https://robodoctor-rsi.github.io/",
+ "abstract": "Generalist robot policies and language-model agents provide complementary capabilities, but completing a task also requires adapting their use to the consequences of physical interaction. We study execution as a locus of adaptation: feedback guides the current action and supplies evidence for revising subsequent decisions under fixed model weights. We introduce RoboDoctor, a training-free framework that connects diagnosis, grounded action, and persistent experience across three revision targets. The harness allocates control between policy and agent; intervention determines when to assist while preserving useful policy behavior; and operation refines physical methods through observed effects. Linked experience records retain the reason for a decision, the attempted method, its outcome, and conditions for reuse. On a curated archive of 54 RoboDojo-Sim task entries, RoboDoctor achieves a five-dimension mean score of 57.10, with a native success rate of 49.44%. Recorded interactions illustrate strategy changes, selective correction, and grasp revision. These findings characterize execution-time adaptation in the evaluated system; controlled trials remain necessary to isolate the contribution of cross-episode experience.",
+ "primary": "cs.RO"
+}

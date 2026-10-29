@@ -1,0 +1,16 @@
+{
+ "id": "2607.22624",
+ "title": "CHS-SQL: A Text-to-SQL approach based on Confidence-Guided Heuristic Search Schema Linking process",
+ "authors": [
+  "Minghao Yang",
+  "Yanjun Xu"
+ ],
+ "v1_date": "2026-06-17",
+ "latest_version": 1,
+ "latest_date": "2026-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recently, there have been several works in the Text-to-SQL domain that utilize Small Language Models (SLMs) for training. These approaches achieve performance close to that of large models in generating SQL, using only the computational power of a single NVIDIA RTX 4090 GPU, while also ensuring data security. Most existing methods filter out redundant tables and columns during Schema Linking to improve Text-to-SQL accuracy. However, they do not consider the precision-recall trade-off when selecting the candidate schema subset. Our research found that both the precision and recall of Schema Linking directly affect the final SQL accuracy. Therefore, we propose a novel framework for efficiently fine-tuning SLMs on Text-to-SQL tasks, CHS-SQL, that not only balances precision and recall but also improves overall performance on Text-to-SQL tasks. Its main innovation lies in the Schema Linking phase, where a heuristic search combined with model internal confidence is employed to achieve an optimal precision-recall trade-off. This elaborated mechanism maximizes the precision of relevant schema candidates for the generated SQL queries while suppressing irrelevant noise. The same strategy is further applied during SQL generation to refine candidate queries while helping the SLM to avoid trapping in a local optimum. Our method achieves state-of-the-art (SOTA) results on Text-to-SQL tasks via SLMs.",
+ "primary": "cs.AI"
+}

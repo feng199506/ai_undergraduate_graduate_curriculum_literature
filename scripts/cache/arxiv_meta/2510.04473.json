@@ -1,0 +1,15 @@
+{
+ "id": "2510.04473",
+ "title": "Introduction to Model-Based Derivative-Free Optimization",
+ "authors": [
+  "Lindon Roberts"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 2,
+ "latest_date": "2026-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The field of derivative-free optimization (DFO) studies algorithms for nonlinear optimization that do not rely on the availability of gradient or Hessian information. It is primarily designed for settings when functions are black-box, expensive to evaluate and/or noisy. A widely used and studied class of DFO methods for local optimization is model-based DFO, where the general principles from derivative-based nonlinear optimization algorithms are followed, but local Taylor-type approximations are replaced with alternative local models constructed by interpolation. This document provides an overview of the basic algorithms and analysis for model-based DFO, covering worst-case complexity, approximation theory for polynomial interpolation models, and extensions to constrained and noisy problems.",
+ "primary": "math.OC"
+}

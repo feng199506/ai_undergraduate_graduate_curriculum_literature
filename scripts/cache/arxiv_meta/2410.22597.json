@@ -1,0 +1,19 @@
+{
+ "id": "2410.22597",
+ "title": "Are Large-Language Models Graph Algorithmic Reasoners?",
+ "authors": [
+  "Alexander K Taylor",
+  "Anthony Cuturrufo",
+  "Vishal Yathish",
+  "Mingyu Derek Ma",
+  "Wei Wang"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 1,
+ "latest_date": "2024-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 13 Figures",
+ "abstract": "We seek to address a core challenge facing current Large Language Models (LLMs). LLMs have demonstrated superior performance in many tasks, yet continue to struggle with reasoning problems on explicit graphs that require multiple steps. To address this gap, we introduce a novel benchmark designed to evaluate LLM performance on classical algorithmic reasoning tasks on explicit graphs. Our benchmark encompasses five fundamental algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS) for connectivity, Dijkstra's algorithm and Floyd-Warshall algorithm for all nodes shortest path, and Prim's Minimum Spanning Tree (MST-Prim's) algorithm. Through extensive experimentation, we assess the capabilities of state-of-the-art LLMs in executing these algorithms step-by-step and systematically evaluate their performance at each stage. Our findings highlight the persistent challenges LLMs face in this domain and underscore the necessity for advanced prompting techniques and algorithmic instruction to enhance their graph reasoning abilities. This work presents MAGMA, the first comprehensive benchmark focused on LLMs completing classical graph algorithms, and provides a critical step toward understanding and improving their structured problem-solving skills.",
+ "primary": "cs.LG"
+}

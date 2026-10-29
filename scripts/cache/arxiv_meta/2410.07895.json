@@ -1,0 +1,17 @@
+{
+ "id": "2410.07895",
+ "title": "Grid-AR: A Grid-based Booster for Learned Cardinality Estimation and Range Joins",
+ "authors": [
+  "Damjan Gjurovski",
+  "Angjela Davitkova",
+  "Sebastian Michel"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 1,
+ "latest_date": "2024-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 6 figures, 9 tables",
+ "abstract": "We propose an advancement in cardinality estimation by augmenting autoregressive models with a traditional grid structure. The novel hybrid estimator addresses the limitations of autoregressive models by creating a smaller representation of continuous columns and by incorporating a batch execution for queries with range predicates, as opposed to an iterative sampling approach. The suggested modification markedly improves the execution time of the model for both training and prediction, reduces memory consumption, and does so with minimal decline in accuracy. We further present an algorithm that enables the estimator to calculate cardinality estimates for range join queries efficiently. To validate the effectiveness of our cardinality estimator, we conduct and present a comprehensive evaluation considering state-of-the-art competitors using three benchmark datasets -- demonstrating vast improvements in execution times and resource utilization.",
+ "primary": "cs.DB"
+}

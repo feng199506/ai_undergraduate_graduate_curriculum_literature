@@ -1,0 +1,18 @@
+{
+ "id": "2507.22786",
+ "title": "Density Operator Expectation Maximization",
+ "authors": [
+  "Adit Vishnu",
+  "Abhay Shastry",
+  "Dhruva Kashyap",
+  "Chiranjib Bhattacharyya"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 2,
+ "latest_date": "2025-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main text: 34 pages 4 Figures. Total: 45 pages 4 Figures",
+ "abstract": "Machine learning with density operators, the mathematical foundation of quantum mechanics, is gaining prominence with rapid advances in quantum computing. Generative models based on density operators cannot yet handle tasks that are routinely handled by probabilistic models. The progress of latent variable models, a broad and influential class of probabilistic unsupervised models, was driven by the Expectation-Maximization framework. Deriving such a framework for density operators is challenging due to the non-commutativity of operators. To tackle this challenge, an inequality arising from the monotonicity of relative entropy is demonstrated to serve as an evidence lower bound for density operators. A minorant-maximization perspective on this bound leads to Density Operator Expectation Maximization (DO-EM), a general framework for training latent variable models defined through density operators. Through an information-geometric argument, the Expectation step in DO-EM is shown to be the Petz recovery map. The DO-EM algorithm is applied to Quantum Restricted Boltzmann Machines, adapting Contrastive Divergence to approximate the Maximization step gradient. Quantum interleaved Deep Boltzmann Machines and Quantum Gaussian-Bernoulli Restricted Boltzmann Machines, new models introduced in this work, outperform their probabilistic counterparts on generative tasks when trained with similar computational resources and identical hyperparameters.",
+ "primary": "cs.LG"
+}

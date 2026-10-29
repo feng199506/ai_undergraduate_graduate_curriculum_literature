@@ -1,0 +1,17 @@
+{
+ "id": "2407.03389",
+ "title": "A Deterministic Information Bottleneck Method for Clustering Mixed-Type Data",
+ "authors": [
+  "Efthymios Costa",
+  "Ioanna Papatsouma",
+  "Angelos Markos"
+ ],
+ "v1_date": "2024-07-03",
+ "latest_version": 6,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages",
+ "abstract": "In this paper, we present an information-theoretic method for clustering mixed-type data, that is, data consisting of both continuous and categorical variables. The proposed approach extends the Information Bottleneck principle to heterogeneous data through generalised product kernels, integrating continuous, nominal, and ordinal variables within a unified optimization framework. We address the following challenges: developing a systematic bandwidth selection strategy that equalises contributions across variable types, and proposing an adaptive hyperparameter updating scheme that ensures a valid solution into a predetermined number of potentially imbalanced clusters. Through simulations on 28,800 synthetic data sets and ten publicly available benchmarks, we demonstrate that the proposed method, named DIBmix, achieves superior performance compared to four established methods (KAMILA, K-Prototypes, FAMD with K-Means, and PAM with Gower's dissimilarity). Results show DIBmix particularly excels when clusters exhibit size imbalances, data contain low or moderate cluster overlap, and categorical and continuous variables are equally represented. The method presents a significant advantage over traditional centroid-based algorithms, establishing DIBmix as a competitive and theoretically grounded alternative for mixed-type data clustering.",
+ "primary": "stat.ME"
+}

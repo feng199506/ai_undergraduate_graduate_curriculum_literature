@@ -1,0 +1,15 @@
+{
+ "id": "2607.04429",
+ "title": "evalci: A Python Library for Statistically Rigorous Comparison of Language Model Evaluations",
+ "authors": [
+  "Shreyas K Chandrahas"
+ ],
+ "v1_date": "2026-07-05",
+ "latest_version": 1,
+ "latest_date": "2026-07-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 1 figure. Software: https://pypi.org/project/evalci/ (source: https://github.com/Shreyaskc/evalci, Zenodo DOI: 10.5281/zenodo.21201815)",
+ "abstract": "The dominant practice in language model evaluation is to report a single accuracy number per model and declare the higher one better, without testing whether the gap could plausibly be sampling noise. On benchmarks of a few thousand items, and under temperature sampling where a model can differ from itself run to run by more than the reported gap between models, this practice routinely overstates confidence in headline claims. The statistical machinery to fix this -- confidence intervals, paired significance tests, power analysis, clustered standard errors, multiple-comparison correction -- is well established, but no standard, pip-installable tool packages it in the shape an evaluation actually takes: a per-item results table. We present evalci, a pure-Python library (numpy/scipy/pandas only) that turns a per-item results table into a publication-ready claim -- e.g., \"Model A beats Model B, $Δ=3.1$ pts, 95% CI [1.2, 5.0], paired permutation $p=0.002$, $n=1{,}319$\" -- in one function call, with adapters for lm-evaluation-harness and HELM output. Every routine is validated against an independent reference (statsmodels, or brute-force exact enumeration) rather than only against itself. As a case study, we re-analyze a public comparison of nine language models' MMLU accuracy and find that 3 of the 8 adjacent leaderboard-rank gaps are not statistically significant after correcting for the 36 pairwise comparisons the ranking implies. evalci is available at https://pypi.org/project/evalci/ (source: https://github.com/Shreyaskc/evalci, DOI: https://doi.org/10.5281/zenodo.21201815)",
+ "primary": "cs.CL"
+}

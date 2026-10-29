@@ -1,0 +1,18 @@
+{
+ "id": "2405.13592",
+ "title": "Almost sure convergence rates of stochastic gradient methods under gradient domination",
+ "authors": [
+  "Simon Weissmann",
+  "Sara Klein",
+  "Waïss Azizian",
+  "Leif Döring"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 3,
+ "latest_date": "2025-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic gradient methods are among the most important algorithms in training machine learning problems. While classical assumptions such as strong convexity allow a simple analysis they are rarely satisfied in applications. In recent years, global and local gradient domination properties have shown to be a more realistic replacement of strong convexity. They were proved to hold in diverse settings such as (simple) policy gradient methods in reinforcement learning and training of deep neural networks with analytic activation functions. We prove almost sure convergence rates $f(X_n)-f^*\\in o\\big( n^{-\\frac{1}{4β-1}+ε}\\big)$ of the last iterate for stochastic gradient descent (with and without momentum) under global and local $β$-gradient domination assumptions. The almost sure rates get arbitrarily close to recent rates in expectation. Finally, we demonstrate how to apply our results to the training task in both supervised and reinforcement learning.",
+ "primary": "cs.LG"
+}

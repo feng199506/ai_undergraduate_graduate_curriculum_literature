@@ -1,0 +1,19 @@
+{
+ "id": "2311.09491",
+ "title": "Spatial Bayesian Neural Networks",
+ "authors": [
+  "Andrew Zammit-Mangion",
+  "Michael D. Kaminski",
+  "Ba-Hien Tran",
+  "Maurizio Filippone",
+  "Noel Cressie"
+ ],
+ "v1_date": "2023-11-16",
+ "latest_version": 2,
+ "latest_date": "2024-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 21 figures",
+ "abstract": "interpretable, and well understood models that are routinely employed even though, as is revealed through prior and posterior predictive checks, these can poorly characterise the spatial heterogeneity in the underlying process of interest. Here, we propose a new, flexible class of spatial-process models, which we refer to as spatial Bayesian neural networks (SBNNs). An SBNN leverages the representational capacity of a Bayesian neural network; it is tailored to a spatial setting by incorporating a spatial ``embedding layer'' into the network and, possibly, spatially-varying network parameters. An SBNN is calibrated by matching its finite-dimensional distribution at locations on a fine gridding of space to that of a target process of interest. That process could be easy to simulate from or we may have many realisations from it. We propose several variants of SBNNs, most of which are able to match the finite-dimensional distribution of the target process at the selected grid better than conventional BNNs of similar complexity. We also show that an SBNN can be used to represent a variety of spatial processes often used in practice, such as Gaussian processes, lognormal processes, and max-stable processes. We briefly discuss the tools that could be used to make inference with SBNNs, and we conclude with a discussion of their advantages and limitations.",
+ "primary": "stat.ML"
+}

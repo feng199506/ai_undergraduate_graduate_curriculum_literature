@@ -1,0 +1,16 @@
+{
+ "id": "2401.13343",
+ "title": "Lessons on Datasets and Paradigms in Machine Learning for Symbolic Computation: A Case Study on CAD",
+ "authors": [
+  "Tereso del Río",
+  "Matthew England"
+ ],
+ "v1_date": "2024-01-24",
+ "latest_version": 2,
+ "latest_date": "2024-06-20",
+ "journal_ref": "Mathematics in Computer Science, vol 18, article number 17. Springer, 2024",
+ "doi": "10.1007/s11786-024-00591-0",
+ "comment": "",
+ "abstract": "Symbolic Computation algorithms and their implementation in computer algebra systems often contain choices which do not affect the correctness of the output but can significantly impact the resources required: such choices can benefit from having them made separately for each problem via a machine learning model. This study reports lessons on such use of machine learning in symbolic computation, in particular on the importance of analysing datasets prior to machine learning and on the different machine learning paradigms that may be utilised. We present results for a particular case study, the selection of variable ordering for cylindrical algebraic decomposition, but expect that the lessons learned are applicable to other decisions in symbolic computation. We utilise an existing dataset of examples derived from applications which was found to be imbalanced with respect to the variable ordering decision. We introduce an augmentation technique for polynomial systems problems that allows us to balance and further augment the dataset, improving the machine learning results by 28\\% and 38\\% on average, respectively. We then demonstrate how the existing machine learning methodology used for the problem $-$ classification $-$ might be recast into the regression paradigm. While this does not have a radical change on the performance, it does widen the scope in which the methodology can be applied to make choices.",
+ "primary": "cs.SC"
+}

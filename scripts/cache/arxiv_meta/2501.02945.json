@@ -1,0 +1,18 @@
+{
+ "id": "2501.02945",
+ "title": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting",
+ "authors": [
+  "Shi Bin Hoo",
+  "Samuel Müller",
+  "David Salinas",
+  "Frank Hutter"
+ ],
+ "v1_date": "2025-01-06",
+ "latest_version": 4,
+ "latest_date": "2026-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This revision extends the previous version by adding evaluations on covariate-aware forecasting tasks, additional ablation studies, and a dedicated limitations section. It also substantially rewrites and reorganizes the manuscript to improve clarity and overall readability",
+ "abstract": "Recent progress in foundation models has enabled strong zero-shot performance for time series forecasting. In this work, we show that such capabilities can also emerge from tabular foundation models. We introduce TabPFN-TS, a simple method that treats forecasting as a tabular regression problem by combining lightweight temporal featurization with the pretrained TabPFN-v2. This formulation requires no time-series-specific pretraining and naturally supports both univariate and covariate-informed forecasting. Despite its compact size (11M parameters), TabPFN-TS achieves state-of-the-art performance on covariate-informed forecasting and competitive accuracy on univariate forecasting across the GIFT-Eval and fev-bench benchmarks. We further provide controlled analyses examining how the model interprets temporal structure, how featurization choices affect accuracy, and how forecasts change under alternative tabular backbones. Together, our results demonstrate that tabular foundation models--when paired with suitable temporal features--offer an efficient and versatile alternative for forecasting, bridging tabular and time-series learning within a unified framework. Code is available at https://github.com/PriorLabs/tabpfn-time-series.",
+ "primary": "cs.LG"
+}

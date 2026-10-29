@@ -1,0 +1,22 @@
+{
+ "id": "2609.34467",
+ "title": "Alignment-Guided Flow Transformer for Efficient Vision-Language-Action Policy Learning",
+ "authors": [
+  "Shengchao Hu",
+  "Peng Wang",
+  "Qiyang Zhou",
+  "Guodong Zheng",
+  "Yuqi Huang",
+  "Li Shen",
+  "Ya Zhang",
+  "Dacheng Tao"
+ ],
+ "v1_date": "2026-09-28",
+ "latest_version": 2,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS submission",
+ "abstract": "Recent advances in Vision-Language-Action (VLA) models point toward general-purpose robotic intelligence by unifying perception, instruction, and control. Despite impressive progress, existing VLA models often adapt poorly due to \\emph{tri-modal misalignment} among vision, language, and action, which weakens action grounding and hurts generalization and fine-tuning efficiency. In this work, we present Alignment-Guided Flow Transformer (AGFT), a novel framework that explicitly enforces tri-modal alignment through a dedicated alignment loss, bridging the representational gap across modalities and enhancing task adaptation. While prior research has predominantly emphasized bi-modal vision--language alignment, we systematically formalize and study tri-modal alignment in VLA models, and provide both ablations and analysis to isolate its role in improving adaptation and robustness. To further accelerate deployment, we adopt a flow-matching objective, enabling substantially fewer inference steps than diffusion-based policies while maintaining accuracy. Theoretically, we establish a quantitative connection between the tri-modal alignment gap and the optimization tightness of flow matching; empirically, experiments on the extensive benchmark show that AGFT achieves superior success rates and lower inference latency compared to SOTA baselines, underscoring tri-modal alignment as a key ingredient for scaling robust VLA manipulation.",
+ "primary": "cs.LG"
+}

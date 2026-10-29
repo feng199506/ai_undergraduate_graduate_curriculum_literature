@@ -1,0 +1,18 @@
+{
+ "id": "2507.01820",
+ "title": "The Cosmological analysis of X-ray cluster surveys VII. Bypassing scaling relations with Lagrangian Deep Learning and Simulation-based inference",
+ "authors": [
+  "Nicolas Cerardi",
+  "Marguerite Pierre",
+  "François Lanusse",
+  "Xavier Corap"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 1,
+ "latest_date": "2025-07-02",
+ "journal_ref": "A&A 701, A110 (2025)",
+ "doi": "10.1051/0004-6361/202453553",
+ "comment": "17 pages, 17 figures, under revision for A&A, comments welcome",
+ "abstract": "Galaxy clusters, the pinnacle of structure formation in our universe, are a powerful cosmological probe. Several approaches have been proposed to express cluster number counts, but all these methods rely on empirical explicit scaling relations that link observed properties to the total cluster mass. These scaling relations are over-parametrised, inducing some degeneracy with cosmology. Moreover, they do not provide a direct handle on the numerous non-gravitational phenomena that affect the physics of the intra-cluster medium. We present a proof-of-concept to model cluster number counts, that bypasses the explicit use of scaling relations. We rather implement the effect of several astrophysical processes to describe the cluster properties. We then evaluate the performances of this modelling for the cosmological inference. We developed an accelerated machine learning baryonic field-emulator, built upon the Lagrangian Deep Learning method and trained on the CAMELS simulations. We then created a pipeline that simulates cluster counts in terms of XMM observable quantities. We finally compare the performances of our model, with that involving scaling relations, for the purpose of cosmological inference based on simulations. Our model correctly reproduces the cluster population from the calibration simulations at the fiducial parameter values, and allows us to constrain feedback mechanisms. The cosmological-inference analyses indicate that our simulation-based model is less degenerate than the approach using scaling relations. This novel approach to model observed cluster number counts from simulations opens interesting perspectives for cluster cosmology. It has the potential to overcome the limitations of the standard approach, provided that the resolution and the volume of the simulations will allow a most realistic implementation of the complex phenomena driving cluster evolution.",
+ "primary": "astro-ph.CO"
+}

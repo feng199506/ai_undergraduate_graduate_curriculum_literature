@@ -1,0 +1,19 @@
+{
+ "id": "2507.10183",
+ "title": "T-GRAB: A Synthetic Diagnostic Benchmark for Learning on Temporal Graphs",
+ "authors": [
+  "Alireza Dizaji",
+  "Benedict Aaron Tjandra",
+  "Mehrab Hamidi",
+  "Shenyang Huang",
+  "Guillaume Rabusseau"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 2,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to MLoG-GenAI Workshop @ KDD 2025 (Oral)",
+ "abstract": "Dynamic graph learning methods have recently emerged as powerful tools for modelling relational data evolving through time. However, despite extensive benchmarking efforts, it remains unclear whether current Temporal Graph Neural Networks (TGNNs) effectively capture core temporal patterns such as periodicity, cause-and-effect, and long-range dependencies. In this work, we introduce the Temporal Graph Reasoning Benchmark (T-GRAB), a comprehensive set of synthetic tasks designed to systematically probe the capabilities of TGNNs to reason across time. T-GRAB provides controlled, interpretable tasks that isolate key temporal skills: counting/memorizing periodic repetitions, inferring delayed causal effects, and capturing long-range dependencies over both spatial and temporal dimensions. We evaluate 11 temporal graph learning methods on these tasks, revealing fundamental shortcomings in their ability to generalize temporal patterns. Our findings offer actionable insights into the limitations of current models, highlight challenges hidden by traditional real-world benchmarks, and motivate the development of architectures with stronger temporal reasoning abilities. The code for T-GRAB can be found at: https://github.com/alirezadizaji/T-GRAB.",
+ "primary": "cs.LG"
+}

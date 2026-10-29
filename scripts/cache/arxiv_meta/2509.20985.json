@@ -1,0 +1,16 @@
+{
+ "id": "2509.20985",
+ "title": "Empirical PAC-Bayes Bounds for Markov Chains",
+ "authors": [
+  "Vahe Karagulyan",
+  "Pierre Alquier"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 3,
+ "latest_date": "2026-03-11",
+ "journal_ref": "Proceedings of the 29th International Conference on Artificial Intelligence and Statistics (AISTATS), Proceedings of Machine Learning Research, 2026, vol. 300, pp. 361-369",
+ "doi": "",
+ "comment": "To appear in the proceedings of AISTATS 2026",
+ "abstract": "The core of generalization theory was developed for independent observations. Some PAC and PAC-Bayes bounds are available for data that exhibit a temporal dependence. However, there are constants in these bounds that depend on properties of the data-generating process: mixing coefficients, mixing time, spectral gap... Such constants are unknown in practice. In this paper, we prove a new PAC-Bayes bound for Markov chains. This bound depends on a quantity called the pseudo-spectral gap. The main novelty is that we can provide an empirical bound on the pseudo-spectral gap when the state space is finite. Thus, we obtain the first fully empirical PAC-Bayes bound for Markov chains. This extends beyond the finite case, although this requires additional assumptions. On simulated experiments, the empirical version of the bound is essentially as tight as the non-empirical one.",
+ "primary": "stat.ML"
+}

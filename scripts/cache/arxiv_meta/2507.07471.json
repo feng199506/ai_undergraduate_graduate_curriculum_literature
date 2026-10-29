@@ -1,0 +1,18 @@
+{
+ "id": "2507.07471",
+ "title": "JOB-Complex: A Challenging Benchmark for Traditional & Learned Query Optimization",
+ "authors": [
+  "Johannes Wehrstein",
+  "Timo Eckmann",
+  "Roman Heinrich",
+  "Carsten Binnig"
+ ],
+ "v1_date": "2025-07-10",
+ "latest_version": 1,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AIDB@VLDB'25",
+ "abstract": "Query optimization is a fundamental task in database systems that is crucial to providing high performance. To evaluate learned and traditional optimizer's performance, several benchmarks, such as the widely used JOB benchmark, are used. However, in this paper, we argue that existing benchmarks are inherently limited, as they do not reflect many real-world properties of query optimization, thus overstating the performance of both traditional and learned optimizers. In fact, simple but realistic properties, such as joins over string columns or complex filter predicates, can drastically reduce the performance of existing query optimizers. Thus, we introduce JOB-Complex, a new benchmark designed to challenge traditional and learned query optimizers by reflecting real-world complexity. Overall, JOB-Complex contains 30 SQL queries and comes together with a plan-selection benchmark containing nearly 6000 execution plans, making it a valuable resource to evaluate the performance of query optimizers and cost models in real-world scenarios. In our evaluation, we show that traditional and learned cost models struggle to achieve high performance on JOB-Complex, providing a runtime of up to 11x slower compared to the optimal plans.",
+ "primary": "cs.DB"
+}

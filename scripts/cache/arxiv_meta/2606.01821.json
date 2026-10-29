@@ -1,0 +1,16 @@
+{
+ "id": "2606.01821",
+ "title": "Variational Free Energy Pivot Selection for Pivoted Cholesky",
+ "authors": [
+  "Louise Schaub",
+  "Peter Zaspel"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Pivoted Cholesky factorizations construct low-rank approximations of symmetric positive definite matrices by sequentially selecting pivots from the residual diagonal. Classical greedy and randomized rules, such as randomly pivoted Cholesky, target the algebraic trace-norm error of the residual. In many applications, however, the matrix enters a nonlinear matrix functional whose value, not the trace-norm error, determines solution quality, and residual-based rules ignore this structure. We derive a pivot rule that maximizes the exact one-step change of such a functional under Cholesky-consistent rank-1 updates, for a functional combining log-determinant, quadratic, and trace terms. This functional arises as the variational free energy in Gaussian process regression, where the matrix is a kernel matrix. The resulting per-step gain admits a closed-form additive decomposition into complexity, data-fit, and trace contributions, and is used directly as a pivot-selection criterion. We refer to the resulting method as $Δ$-VFE pivoted Cholesky. At each iteration, the criterion is evaluated on a batch of $s$ candidate pivots sampled proportionally to the residual diagonal via incremental Woodbury updates, at a total cost of $\\mathcal{O}(snr^2)$ for an $n\\times n$ matrix and target rank $r$. This matches the asymptotic complexity of randomly pivoted Cholesky up to the batch factor $s$. Cholesky-consistent rank-1 updates yield monotonically non-decreasing functional values, and the proposed rule maximizes the per-step gain among them. Numerical experiments show improved objective values and predictive accuracy at low to moderate ranks compared to classical and randomly pivoted Cholesky, while preserving trace-norm approximation quality.",
+ "primary": "math.NA"
+}

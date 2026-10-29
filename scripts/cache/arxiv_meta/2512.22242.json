@@ -1,0 +1,21 @@
+{
+ "id": "2512.22242",
+ "title": "Fairness Evaluation of Risk Estimation Models for Lung Cancer Screening",
+ "authors": [
+  "Shaurya Gaur",
+  "Michel Vitale",
+  "Alessa Hering",
+  "Johan Kwisthout",
+  "Colin Jacobs",
+  "Lena Philipp",
+  "Fennie van der Graaf"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 1,
+ "latest_date": "2025-12-23",
+ "journal_ref": "Machine.Learning.for.Biomedical.Imaging. 3 (2025)",
+ "doi": "10.59275/j.melba.2025-1e7f",
+ "comment": "Accepted for publication at the Journal of Machine Learning for Biomedical Imaging (MELBA) https://melba-journal.org/2025:025",
+ "abstract": "Lung cancer is the leading cause of cancer-related mortality in adults worldwide. Screening high-risk individuals with annual low-dose CT (LDCT) can support earlier detection and reduce deaths, but widespread implementation may strain the already limited radiology workforce. AI models have shown potential in estimating lung cancer risk from LDCT scans. However, high-risk populations for lung cancer are diverse, and these models' performance across demographic groups remains an open question. In this study, we drew on the considerations on confounding factors and ethically significant biases outlined in the JustEFAB framework to evaluate potential performance disparities and fairness in two deep learning risk estimation models for lung cancer screening: the Sybil lung cancer risk model and the Venkadesh21 nodule risk estimator. We also examined disparities in the PanCan2b logistic regression model recommended in the British Thoracic Society nodule management guideline. Both deep learning models were trained on data from the US-based National Lung Screening Trial (NLST), and assessed on a held-out NLST validation set. We evaluated AUROC, sensitivity, and specificity across demographic subgroups, and explored potential confounding from clinical risk factors. We observed a statistically significant AUROC difference in Sybil's performance between women (0.88, 95% CI: 0.86, 0.90) and men (0.81, 95% CI: 0.78, 0.84, p < .001). At 90% specificity, Venkadesh21 showed lower sensitivity for Black (0.39, 95% CI: 0.23, 0.59) than White participants (0.69, 95% CI: 0.65, 0.73). These differences were not explained by available clinical confounders and thus may be classified as unfair biases according to JustEFAB. Our findings highlight the importance of improving and monitoring model performance across underrepresented subgroups, and further research on algorithmic fairness, in lung cancer screening.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.04750",
+ "title": "Tighter sparse variational Gaussian processes",
+ "authors": [
+  "Thang D. Bui",
+  "Matthew Ashman",
+  "Richard E. Turner"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 2,
+ "latest_date": "2025-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse variational Gaussian process (GP) approximations based on inducing points have become the de facto standard for scaling GPs to large datasets, owing to their theoretical elegance, computational efficiency, and ease of implementation. This paper introduces a provably tighter variational approximation by relaxing the standard assumption that the conditional approximate posterior given the inducing points must match that in the prior. The key innovation is to modify the conditional posterior to have smaller variances than that of the prior at the training points. We derive the collapsed bound for the regression case, describe how to use the proposed approximation in large data settings, and discuss its application to handle orthogonally structured inducing points and GP latent variable models. Extensive experiments on regression benchmarks, classification, and latent variable models demonstrate that the proposed approximation consistently matches or outperforms standard sparse variational GPs while maintaining the same computational cost. An implementation will be made available in all popular GP packages.",
+ "primary": "stat.ML"
+}

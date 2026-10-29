@@ -1,0 +1,19 @@
+{
+ "id": "2505.21423",
+ "title": "Conflicting Biases at the Edge of Stability: Norm versus Sharpness Regularization",
+ "authors": [
+  "Maria Matveev",
+  "Vit Fojtik",
+  "Hung-Hsu Chou",
+  "Gitta Kutyniok",
+  "Johannes Maly"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 3,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML 2026",
+ "abstract": "The remarkable generalization properties of overparameterized networks are often attributed to implicit biases, such as norm minimization at small learning rates and low sharpness in the Edge-of-Stability regime. In this work, we argue that a comprehensive understanding of the generalization performance of gradient descent requires analyzing the interaction between these various forms of implicit regularization. We empirically demonstrate that the learning rate interpolates between low parameter norm and low sharpness of the trained model. We furthermore prove that neither implicit bias alone minimizes the generalization error for diagonal linear networks trained on a simple regression task. These findings demonstrate that focusing on a single implicit bias is insufficient to explain good generalization, and they motivate a broader view of implicit regularization that captures the dynamic trade-off between norm and sharpness induced by non-negligible learning rates.",
+ "primary": "cs.LG"
+}

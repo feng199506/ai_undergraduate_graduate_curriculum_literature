@@ -1,0 +1,21 @@
+{
+ "id": "2410.04560",
+ "title": "GAMformer: Bridging Tabular Foundation Models and Interpretable Machine Learning",
+ "authors": [
+  "Andreas Mueller",
+  "Julien Siems",
+  "Harsha Nori",
+  "David Salinas",
+  "Arber Zela",
+  "Rich Caruana",
+  "Frank Hutter"
+ ],
+ "v1_date": "2024-10-06",
+ "latest_version": 2,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 15 figures",
+ "abstract": "While interpretability is crucial for machine learning applications in safety-critical domains and for regulatory compliance, existing tabular foundation models like TabPFN lack transparency. Generalized Additive Models (GAMs) provide the needed interpretability through their additive structure, but traditional GAM methods rely on iterative learning algorithms (such as splines, boosted trees, or neural networks) that are fundamentally incompatible with the in-context learning paradigm of foundation models. In this paper, we introduce GAMformer, the first tabular foundation model for GAMs that bridges the gap between the power of foundation models and the interpretability requirements of critical real-world applications. GAMformer estimates GAM shape functions in a single forward pass using in-context learning, representing a significant departure from conventional iterative approaches. Building on previous research on tabular foundation models, we train GAMformer exclusively on synthetically generated tables to prevent data leakage. Our experiments demonstrate that GAMformer performs comparably to other leading GAMs across various classification benchmarks.",
+ "primary": "cs.LG"
+}

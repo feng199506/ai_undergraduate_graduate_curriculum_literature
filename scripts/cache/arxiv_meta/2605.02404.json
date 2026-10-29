@@ -1,0 +1,17 @@
+{
+ "id": "2605.02404",
+ "title": "Statistically-Lossless Quantization of Large Language Models",
+ "authors": [
+  "Michael Helcig",
+  "Eldar Kurtic",
+  "Dan Alistarh"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 2,
+ "latest_date": "2026-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model quantization has become essential for efficient large language model deployment, yet existing approaches present clear trade-offs: methods such as GPTQ and AWQ achieve practical compression but are lossy, while lossless techniques preserve fidelity but lack inference acceleration. This paper explores the middle ground of statistically-lossless compression, examining three complementary aspects of what losslessness means for quantized LLMs. First, task-lossless compression preserves zero-shot benchmark accuracy within natural sampling variance and is achievable at aggressive bitwidths. Second, we formalize the stricter notion of distribution-lossless compression, requiring the quantized model's next-token distribution to be practically indistinguishable from the original, and propose the Expected Acceptance Rate (EAR), the maximum token-agreement probability under optimal coupling, as a directly interpretable fidelity metric. For example, EAR >= 0.99 means 99% agreement. Third, we prove a gamma-squared variance law showing that symmetric quantization inflates noise variance by gamma^2 relative to asymmetric quantization, making asymmetric quantization a prerequisite for distribution-lossless fidelity but not for task-level preservation. Through SLQ, a layer-wise non-uniform method with asymmetric quantization and wide bitwidth search, we obtain task-lossless compression at well below 4 bits per parameter, as low as 3.3 bits depending on the model, distribution-lossless compression at 5-6 bits per parameter on average, and inference speedups of 1.7-3.7x compared to FP16 using optimized kernels. Source code is available at [https://github.com/IST-DASLab/SLQ](https://github.com/IST-DASLab/SLQ).",
+ "primary": "cs.LG"
+}

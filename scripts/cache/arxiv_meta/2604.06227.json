@@ -1,0 +1,24 @@
+{
+ "id": "2604.06227",
+ "title": "A Benchmark of Classical and Deep Learning Models for Agricultural Commodity Price Forecasting on A Novel Bangladeshi Market Price Dataset",
+ "authors": [
+  "Tashreef Muhammad",
+  "Tahsin Ahmed",
+  "Meherun Farzana",
+  "Md. Mahmudul Hasan",
+  "Abrar Eyasir",
+  "Md. Emon Khan",
+  "Mahafuzul Islam Shawon",
+  "Ferdous Mondol",
+  "Mahmudul Hasan",
+  "Muhammad Ibrahim"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 22 figures, 7 tables",
+ "abstract": "Accurate short-term forecasting of agricultural commodity prices is critical for food security planning and smallholder income stabilisation in developing economies, yet machine-learning-ready datasets for this purpose remain scarce in South Asia. This paper makes two contributions. First, we introduce AgriPriceBD, a benchmark dataset of 1,779 daily retail mid-prices for five Bangladeshi commodities - garlic, chickpea, green chilli, cucumber, and sweet pumpkin - spanning July 2020 to June 2025, extracted from government reports via an LLM-assisted digitisation pipeline. Second, we evaluate seven forecasting approaches spanning classical models - naïve persistence, SARIMA, and Prophet - and deep learning architectures - BiLSTM, Transformer, Time2Vec-enhanced Transformer, and Informer - with Diebold-Mariano statistical significance tests. Commodity price forecastability is fundamentally heterogeneous: naïve persistence dominates on near-random-walk commodities. Time2Vec temporal encoding provides no statistically significant advantage over fixed sinusoidal encoding and causes catastrophic degradation on green chilli (+146.1% MAE, p<0.001). Prophet fails systematically, attributable to discrete step-function price dynamics incompatible with its smooth decomposition assumptions. Informer produces erratic predictions (variance up to 50x ground-truth), confirming sparse-attention Transformers require substantially larger training sets than small agricultural datasets provide. All code, models, and data are released publicly to support replication and future forecasting research on agricultural commodity markets in Bangladesh and similar developing economies.",
+ "primary": "cs.LG"
+}

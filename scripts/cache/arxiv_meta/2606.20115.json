@@ -1,0 +1,15 @@
+{
+ "id": "2606.20115",
+ "title": "When Average Calibration Fails: Site-Conditional Federated Conformal Risk Control",
+ "authors": [
+  "Nafis Fuad Shahid"
+ ],
+ "v1_date": "2026-06-18",
+ "latest_version": 3,
+ "latest_date": "2026-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 4 figures, 2 tables. Submitted to the DeCaF Workshop at MICCAI 2026",
+ "abstract": "Conformal risk control (CRC) provides distribution-free segmentation guarantees by calibrating a prediction-set threshold on held-out data. In federated deployments, the standard approach pools calibration scores into a single threshold. We quantify, on real multi-institutional brain tumor data (FeTS-2022, 1,251 subjects, 20 institutions), a critical failure: naive pooled CRC protects the average hospital but violates coverage at 40% of individual institutions, with the worst site exceeding the target false-negative rate by 7.8 percentage points. We trace this failure to a hidden design choice: the aggregation weights implicitly determine whose coverage is protected. Sample-size weighting optimizes patient-level validity but can sacrifice institution-level reliability; equal-site weighting improves institution-level reliability on this benchmark at comparable efficiency, using only a single scalar per site. We propose risk-curve shrinkage as a principled mechanism: each site transmits its empirical risk curve (G scalars) and a single hyperparameter n0 smoothly interpolates between site-specific local calibration and sample-size-weighted pooled calibration. Leave-one-site-out sensitivity analysis identifies n0=19, achieving 2.7/20 violations at 2.0x stretch. Direct Lagrangian budget optimization fails by concentrating risk on vulnerable hospitals; the finite-sample correction term is essential: removing it triples violations. No patient-level images, masks, or per-volume scores leave any site.",
+ "primary": "cs.LG"
+}

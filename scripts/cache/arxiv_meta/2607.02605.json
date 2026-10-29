@@ -1,0 +1,23 @@
+{
+ "id": "2607.02605",
+ "title": "A Survey of LLM-Driven Penetration Testing: Taxonomy, Co-Evolution, and Open Challenges",
+ "authors": [
+  "Zheyuan He",
+  "Jiaxun Dong",
+  "Zihao Li",
+  "Ting Chen",
+  "Gelei Deng",
+  "Feng Luo",
+  "Jinkun Ji",
+  "Yuanlong Cao",
+  "Xiapu Luo"
+ ],
+ "v1_date": "2026-07-01",
+ "latest_version": 1,
+ "latest_date": "2026-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Agents4Pentest, an emerging class of LLM-based autonomous penetration testing systems, has become a rapidly growing area in security research. Despite this growth, the field still lacks a unified taxonomy, a systematic understanding of how agent architectures and evaluation benchmarks have co-evolved, and a clear characterization of remaining capability and reliability gaps. This survey addresses these gaps through a systematic analysis of 81 papers between 2023 and 2026. We organize the literature into six categories: evaluation benchmarks, general-purpose systems, domain-specific frameworks, CTF-based systems, defense-oriented research, and surveys. We further trace a four-phase architectural evolution from text-only reasoning agents to agents trained with Reinforcement Learning with Verifiable Rewards (RLVR), showing that each transition is driven by a distinct capability bottleneck. Our analysis yields several key findings. First, RLVR marks a shift in capability acquisition from imitation of expert demonstrations to reward-driven self-improvement, enabling agents to discover previously undocumented attack strategies. Second, CTF platforms have evolved from evaluation testbeds into dual-purpose infrastructure for both agent evaluation and RL training. Third, domain-specific frameworks improve efficiency through recurring specialization mechanisms, but their gains remain largely confined to narrow task classes and are difficult to compare across domains because existing evaluations rely on different benchmarks. Fourth, the field is expanding beyond offensive automation toward adversarial defense and security compliance. Across these categories, we identify three structurally linked open challenges: evaluation reliability, limited performance on multi-stage attack scenarios, and scarcity of high-quality training data.",
+ "primary": "cs.SE"
+}

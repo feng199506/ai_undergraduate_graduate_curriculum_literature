@@ -1,0 +1,20 @@
+{
+ "id": "2506.17551",
+ "title": "Research on Model Parallelism and Data Parallelism Optimization Methods in Large Language Model-Based Recommendation Systems",
+ "authors": [
+  "Haowei Yang",
+  "Yu Tian",
+  "Zhongheng Yang",
+  "Zhao Wang",
+  "Chengrui Zhou",
+  "Dannier Li"
+ ],
+ "v1_date": "2025-06-21",
+ "latest_version": 2,
+ "latest_date": "2025-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the rapid adoption of large language models (LLMs) in recommendation systems, the computational and communication bottlenecks caused by their massive parameter sizes and large data volumes have become increasingly prominent. This paper systematically investigates two classes of optimization methods-model parallelism and data parallelism-for distributed training of LLMs in recommendation scenarios. For model parallelism, we implement both tensor parallelism and pipeline parallelism, and introduce an adaptive load-balancing mechanism to reduce cross-device communication overhead. For data parallelism, we compare synchronous and asynchronous modes, combining gradient compression and sparsification techniques with an efficient aggregation communication framework to significantly improve bandwidth utilization. Experiments conducted on a real-world recommendation dataset in a simulated service environment demonstrate that our proposed hybrid parallelism scheme increases training throughput by over 30% and improves resource utilization by approximately 20% compared to traditional single-mode parallelism, while maintaining strong scalability and robustness. Finally, we discuss trade-offs among different parallel strategies in online deployment and outline future directions involving heterogeneous hardware integration and automated scheduling technologies.",
+ "primary": "cs.DC"
+}

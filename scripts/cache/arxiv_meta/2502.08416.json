@@ -1,0 +1,19 @@
+{
+ "id": "2502.08416",
+ "title": "Multifidelity Simulation-based Inference for Computationally Expensive Simulators",
+ "authors": [
+  "Anastasia N. Krouglova",
+  "Hayden R. Johnson",
+  "Basile Confavreux",
+  "Michael Deistler",
+  "Pedro J. Gonçalves"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 4,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICLR 2026. Available at OpenReview: https://openreview.net/pdf?id=bj0dcKp9t6",
+ "abstract": "Across many domains of science, stochastic models are an essential tool to understand the mechanisms underlying empirically observed data. Models can be of different levels of detail and accuracy, with models of high-fidelity (i.e., high accuracy) to the phenomena under study being often preferable. However, inferring parameters of high-fidelity models via simulation-based inference is challenging, especially when the simulator is computationally expensive. We introduce a multifidelity approach to neural posterior estimation that uses transfer learning to leverage inexpensive low-fidelity simulations to efficiently infer parameters of high-fidelity simulators. Our method applies the multifidelity scheme to both amortized and non-amortized neural posterior estimation. We further improve simulation efficiency by introducing a sequential variant that uses an acquisition function targeting the predictive uncertainty of the density estimator to adaptively select high-fidelity parameters. On established benchmark and neuroscience tasks, our approaches require up to two orders of magnitude fewer high-fidelity simulations than current methods, while showing comparable performance. Overall, our approaches open new opportunities to perform efficient Bayesian inference on computationally expensive simulators.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2508.13953",
+ "title": "ReviewGraph: A Knowledge Graph Embedding Based Framework for Review Rating Prediction with Sentiment Features",
+ "authors": [
+  "A. J. W. de Vink",
+  "Natalia Amat-Lefort",
+  "Lifeng Han"
+ ],
+ "v1_date": "2025-08-19",
+ "latest_version": 2,
+ "latest_date": "2025-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Peer-reviewed and published version is in ICKG-2025 (The 16th IEEE International Conference on Knowledge Graphs, November 13-14, 2025, Limassol, Cyprus)",
+ "abstract": "In the hospitality industry, understanding the factors that drive customer review ratings is critical for improving guest satisfaction and business performance. This work proposes ReviewGraph for Review Rating Prediction (RRP), a novel framework that transforms textual customer reviews into knowledge graphs by extracting (subject, predicate, object) triples and associating sentiment scores. Using graph embeddings (Node2Vec) and sentiment features, the framework predicts review rating scores through machine learning classifiers. We compare ReviewGraph performance with traditional NLP baselines (such as Bag of Words, TF-IDF, and Word2Vec) and large language models (LLMs), evaluating them in the HotelRec dataset. In comparison to the state of the art literature, our proposed model performs similar to their best performing model but with lower computational cost (without ensemble). While ReviewGraph achieves comparable predictive performance to LLMs and outperforms baselines on agreement-based metrics such as Cohen's Kappa, it offers additional advantages in interpretability, visual exploration, and potential integration into Retrieval-Augmented Generation (RAG) systems. This work highlights the potential of graph-based representations for enhancing review analytics and lays the groundwork for future research integrating advanced graph neural networks and fine-tuned LLM-based extraction methods. We will share ReviewGraph output and platform open-sourced on our GitHub page https://github.com/aaronlifenghan/ReviewGraph",
+ "primary": "cs.CL"
+}

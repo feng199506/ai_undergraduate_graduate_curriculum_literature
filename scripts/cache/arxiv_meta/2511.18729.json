@@ -1,0 +1,23 @@
+{
+ "id": "2511.18729",
+ "title": "GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving",
+ "authors": [
+  "Lin Liu",
+  "Caiyan Jia",
+  "Guanyi Yu",
+  "Ziying Song",
+  "JunQiao Li",
+  "Feiyang Jia",
+  "Peiliang Wu",
+  "Xiaoshuai Hao",
+  "Yadan Luo"
+ ],
+ "v1_date": "2025-11-24",
+ "latest_version": 3,
+ "latest_date": "2026-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Driving planning is a critical component of end-to-end (E2E) autonomous driving. However, prevailing Imitative E2E Planners often suffer from multimodal trajectory mode collapse, failing to produce diverse trajectory proposals. Meanwhile, Generative E2E Planners struggle to incorporate crucial safety and physical constraints directly into the generative process, necessitating an additional optimization stage to refine their outputs. In this paper, we propose \\textit{\\textbf{GuideFlow}}, a novel planning framework that leverages Constrained Flow Matching. Concretely, \\textit{\\textbf{GuideFlow}} explicitly models the flow matching process, which inherently mitigates mode collapse and allows for flexible guidance from various conditioning signals. Our core contribution lies in directly enforcing explicit constraints within the flow matching generation process, rather than relying on implicit constraint encoding. Crucially, \\textit{\\textbf{GuideFlow}} unifies the training of the flow matching with the Energy-Based Model (EBM) to enhance the model's autonomous optimization capability to robustly satisfy physical constraints. Secondly, \\textit{\\textbf{GuideFlow}} parameterizes driving aggressiveness as a control signal during generation, enabling precise manipulation of trajectory style. Extensive evaluations on major driving benchmarks (Bench2Drive, NuScenes, NavSim and ADV-NuScenes) validate the effectiveness of \\textit{\\textbf{GuideFlow}}. Notably, on the NavSim test hard split (Navhard), \\textit{\\textbf{GuideFlow}} achieved SOTA with an EPDMS score of 43.0. The code will be in https://github.com/liulin815/GuideFlow.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2312.08566",
+ "title": "Learning adaptive planning representations with natural language guidance",
+ "authors": [
+  "Lionel Wong",
+  "Jiayuan Mao",
+  "Pratyusha Sharma",
+  "Zachary S. Siegel",
+  "Jiahai Feng",
+  "Noa Korneev",
+  "Joshua B. Tenenbaum",
+  "Jacob Andreas"
+ ],
+ "v1_date": "2023-12-13",
+ "latest_version": 1,
+ "latest_date": "2023-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Effective planning in the real world requires not only world knowledge, but the ability to leverage that knowledge to build the right representation of the task at hand. Decades of hierarchical planning techniques have used domain-specific temporal action abstractions to support efficient and accurate planning, almost always relying on human priors and domain knowledge to decompose hard tasks into smaller subproblems appropriate for a goal or set of goals. This paper describes Ada (Action Domain Acquisition), a framework for automatically constructing task-specific planning representations using task-general background knowledge from language models (LMs). Starting with a general-purpose hierarchical planner and a low-level goal-conditioned policy, Ada interactively learns a library of planner-compatible high-level action abstractions and low-level controllers adapted to a particular domain of planning tasks. On two language-guided interactive planning benchmarks (Mini Minecraft and ALFRED Household Tasks), Ada strongly outperforms other approaches that use LMs for sequential decision-making, offering more accurate plans and better generalization to complex tasks.",
+ "primary": "cs.AI"
+}

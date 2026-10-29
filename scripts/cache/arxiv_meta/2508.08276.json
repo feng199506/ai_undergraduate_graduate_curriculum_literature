@@ -1,0 +1,18 @@
+{
+ "id": "2508.08276",
+ "title": "Evaluating Contrast Localizer for Identifying Causal Units in Social & Mathematical Tasks in Language Models",
+ "authors": [
+  "Yassine Jamaa",
+  "Badr AlKhamissi",
+  "Satrajit Ghosh",
+  "Martin Schrimpf"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 3,
+ "latest_date": "2025-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the Interplay of Model Behavior and Model Internals Workshop co-located with COLM 2025",
+ "abstract": "This work adapts a neuroscientific contrast localizer to pinpoint causally relevant units for Theory of Mind (ToM) and mathematical reasoning tasks in large language models (LLMs) and vision-language models (VLMs). Across 11 LLMs and 5 VLMs ranging in size from 3B to 90B parameters, we localize top-activated units using contrastive stimulus sets and assess their causal role via targeted ablations. We compare the effect of lesioning functionally selected units against low-activation and randomly selected units on downstream accuracy across established ToM and mathematical benchmarks. Contrary to expectations, low-activation units sometimes produced larger performance drops than the highly activated ones, and units derived from the mathematical localizer often impaired ToM performance more than those from the ToM localizer. These findings call into question the causal relevance of contrast-based localizers and highlight the need for broader stimulus sets and more accurately capture task-specific units.",
+ "primary": "cs.CL"
+}

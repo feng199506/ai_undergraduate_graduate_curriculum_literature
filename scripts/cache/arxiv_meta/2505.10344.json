@@ -1,0 +1,16 @@
+{
+ "id": "2505.10344",
+ "title": "An Introduction to Discrete Variational Autoencoders",
+ "authors": [
+  "Alan Jeffares",
+  "Liyuan Liu"
+ ],
+ "v1_date": "2025-05-15",
+ "latest_version": 1,
+ "latest_date": "2025-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Tutorial paper",
+ "abstract": "Variational Autoencoders (VAEs) are well-established as a principled approach to probabilistic unsupervised learning with neural networks. Typically, an encoder network defines the parameters of a Gaussian distributed latent space from which we can sample and pass realizations to a decoder network. This model is trained to reconstruct its inputs and is optimized through the evidence lower bound. In recent years, discrete latent spaces have grown in popularity, suggesting that they may be a natural choice for many data modalities (e.g. text). In this tutorial, we provide a rigorous, yet practical, introduction to discrete variational autoencoders -- specifically, VAEs in which the latent space is made up of latent variables that follow a categorical distribution. We assume only a basic mathematical background with which we carefully derive each step from first principles. From there, we develop a concrete training recipe and provide an example implementation, hosted at https://github.com/alanjeffares/discreteVAE.",
+ "primary": "cs.LG"
+}

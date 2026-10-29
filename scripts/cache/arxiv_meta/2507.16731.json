@@ -1,0 +1,23 @@
+{
+ "id": "2507.16731",
+ "title": "Collaborative Inference and Learning between Edge SLMs and Cloud LLMs: A Survey of Algorithms, Execution, and Open Challenges",
+ "authors": [
+  "Senyao Li",
+  "Haozhao Wang",
+  "Wenchao Xu",
+  "Rui Zhang",
+  "Song Guo",
+  "Jingling Yuan",
+  "Xian Zhong",
+  "Tianwei Zhang",
+  "Ruixuan Li"
+ ],
+ "v1_date": "2025-07-22",
+ "latest_version": 1,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 9 figures",
+ "abstract": "As large language models (LLMs) evolve, deploying them solely in the cloud or compressing them for edge devices has become inadequate due to concerns about latency, privacy, cost, and personalization. This survey explores a collaborative paradigm in which cloud-based LLMs and edge-deployed small language models (SLMs) cooperate across both inference and training. We present a unified taxonomy of edge-cloud collaboration strategies. For inference, we categorize approaches into task assignment, task division, and mixture-based collaboration at both task and token granularity, encompassing adaptive scheduling, resource-aware offloading, speculative decoding, and modular routing. For training, we review distributed adaptation techniques, including parameter alignment, pruning, bidirectional distillation, and small-model-guided optimization. We further summarize datasets, benchmarks, and deployment cases, and highlight privacy-preserving methods and vertical applications. This survey provides the first systematic foundation for LLM-SLM collaboration, bridging system and algorithm co-design to enable efficient, scalable, and trustworthy edge-cloud intelligence.",
+ "primary": "cs.DC"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2504.18443",
+ "title": "Pseudo-Boolean Proof Logging for Optimal Classical Planning",
+ "authors": [
+  "Simon Dold",
+  "Malte Helmert",
+  "Jakob Nordström",
+  "Gabriele Röger",
+  "Tanja Schindler"
+ ],
+ "v1_date": "2025-04-25",
+ "latest_version": 2,
+ "latest_date": "2025-05-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35th International Conference on Automated Planning and Scheduling (ICAPS'2025)",
+ "abstract": "We introduce lower-bound certificates for classical planning tasks, which can be used to prove the unsolvability of a task or the optimality of a plan in a way that can be verified by an independent third party. We describe a general framework for generating lower-bound certificates based on pseudo-Boolean constraints, which is agnostic to the planning algorithm used. As a case study, we show how to modify the $A^{*}$ algorithm to produce proofs of optimality with modest overhead, using pattern database heuristics and $h^\\textit{max}$ as concrete examples. The same proof logging approach works for any heuristic whose inferences can be efficiently expressed as reasoning over pseudo-Boolean constraints.",
+ "primary": "cs.AI"
+}

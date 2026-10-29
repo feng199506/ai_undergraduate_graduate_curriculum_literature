@@ -1,0 +1,15 @@
+{
+ "id": "2312.01262",
+ "title": "A Review and A Robust Framework of Data-Efficient 3D Scene Parsing with Traditional/Learned 3D Descriptors",
+ "authors": [
+  "Kangcheng Liu"
+ ],
+ "v1_date": "2023-12-03",
+ "latest_version": 1,
+ "latest_date": "2023-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "International Journal of Computer Vision (IJCV), 2022. 10 Figures, 13 Tables",
+ "abstract": "Existing state-of-the-art 3D point cloud understanding methods merely perform well in a fully supervised manner. To the best of our knowledge, there exists no unified framework that simultaneously solves the downstream high-level understanding tasks including both segmentation and detection, especially when labels are extremely limited. This work presents a general and simple framework to tackle point cloud understanding when labels are limited. The first contribution is that we have done extensive methodology comparisons of traditional and learned 3D descriptors for the task of weakly supervised 3D scene understanding, and validated that our adapted traditional PFH-based 3D descriptors show excellent generalization ability across different domains. The second contribution is that we proposed a learning-based region merging strategy based on the affinity provided by both the traditional/learned 3D descriptors and learned semantics. The merging process takes both low-level geometric and high-level semantic feature correlations into consideration. Experimental results demonstrate that our framework has the best performance among the three most important weakly supervised point clouds understanding tasks including semantic segmentation, instance segmentation, and object detection even when very limited number of points are labeled. Our method, termed Region Merging 3D (RM3D), has superior performance on ScanNet data-efficient learning online benchmarks and other four large-scale 3D understanding benchmarks under various experimental settings, outperforming current arts by a margin for various 3D understanding tasks without complicated learning strategies such as active learning.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2602.11170",
+ "title": "PRIME: Policy-Reinforced Iterative Multi-agent Execution for Algorithmic Reasoning in Large Language Models",
+ "authors": [
+  "Jiawei Xu",
+  "Zhenyu Yu",
+  "Ziqian Bi",
+  "Minh Duc Pham",
+  "Xiaoyi Qu",
+  "Danyang Zhang"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 1,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models have demonstrated remarkable capabilities across diverse reasoning tasks, yet their performance on algorithmic reasoning remains limited. To handle this limitation, we propose PRIME (Policy-Reinforced Iterative Multi-agent Execution), a framework comprising three specialized agents, an executor for step-by-step reasoning, a verifier for constraint checking, and a coordinator for backtracking control, optimized through group relative policy optimization. For comprehensive evaluation, we introduce PRIME-Bench, the largest algorithmic reasoning benchmark to date, comprising 86 tasks across 12 categories with 51,600 instances. Tasks span sorting algorithms, graph and tree structures, automata and state machines, symbolic reasoning, and constraint-based puzzles, with execution traces reaching over one million steps. Compared to baseline approach, PRIME improves average accuracy from 26.8% to 93.8%, a 250% relative gain. The largest improvements occur on tasks requiring sustained state tracking, with Turing machine simulation improving from 9% to 92% and long division from 16% to 94%. Ablation studies identify iterative verification as the primary contributor, preventing the error propagation that causes baseline approaches to fail catastrophically. Analysis across model scales (8B-120B parameters) reveals that smaller models benefit disproportionately, achieving accuracy comparable to models 8x larger.",
+ "primary": "cs.CL"
+}

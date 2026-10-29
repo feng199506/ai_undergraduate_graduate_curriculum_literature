@@ -1,0 +1,26 @@
+{
+ "id": "2605.07125",
+ "title": "An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation",
+ "authors": [
+  "Haoyu Han",
+  "Li Ma",
+  "Hanbing Wang",
+  "Bingheng Li",
+  "Daochen Zha",
+  "Chun How Tan",
+  "Huiji Gao",
+  "Xin Liu",
+  "Stephanie Moyerman",
+  "Sanjeev Katariya",
+  "Hui Liu",
+  "Jiliang Tang"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential recommendation has increasingly shifted toward generative recommenders that combine sequential patterns with semantic item information. Yet these methods are often evaluated on a small set of widely used benchmarks, raising a key question: do these benchmarks actually require the advanced modeling capabilities that modern generative recommenders claim to provide? We conduct a benchmark audit with an intentionally simple graph heuristic. Starting from only the last one or two interacted items, it retrieves candidates from a few-hop item-transition graph and ranks them by item-feature similarity. Despite using no sequence encoder, generative objective, or training, this heuristic matches or outperforms many modern baselines, with relative NDCG@10 improvements of 38.10% and 44.18% over the best competing baseline on Amazon Review Sports and CDs. We show that this behavior reflects shortcut solvability rather than an artifact of one heuristic. We identify three shortcut structures that can make next-item prediction easier than expected: low-branching local transitions, feature-smooth transitions, and limited dependence on long user histories. These shortcuts need not appear together; even one or two strong signals can make simple local retrieval highly competitive, while weakening them makes the benefits of more sophisticated models clearer. Across 14 datasets, model rankings vary substantially with dataset properties, yet the heuristic remains competitive on 10 of them. Our findings suggest that strong performance on standard benchmarks does not always demonstrate advanced sequential, semantic, or generative modeling ability. We call for more careful dataset selection and dataset-level diagnostic analysis when using benchmarks to support claims about new recommendation models.",
+ "primary": "cs.IR"
+}

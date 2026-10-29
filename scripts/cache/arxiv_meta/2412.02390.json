@@ -1,0 +1,23 @@
+{
+ "id": "2412.02390",
+ "title": "Estimating Photometric Redshifts for Galaxies from the DESI Legacy Imaging Surveys with Bayesian Neural Networks Trained by DESI EDR",
+ "authors": [
+  "Xingchen Zhou",
+  "Nan Li",
+  "Hu Zou",
+  "Yan Gong",
+  "Furen Deng",
+  "Xuelei Chen",
+  "Qian Yu",
+  "Zizhao He",
+  "Boyi Ding"
+ ],
+ "v1_date": "2024-12-03",
+ "latest_version": 1,
+ "latest_date": "2024-12-03",
+ "journal_ref": "",
+ "doi": "10.1093/mnras/stae2713",
+ "comment": "18 pages, 11 figures, Accepted for publication in MNRAS",
+ "abstract": "We present a catalogue of photometric redshifts for galaxies from DESI Legacy Imaging Surveys, which includes $\\sim0.18$ billion sources covering 14,000 ${\\rm deg}^2$. The photometric redshifts, along with their uncertainties, are estimated through galaxy images in three optical bands ($g$, $r$ and $z$) from DESI and two near-infrared bands ($W1$ and $W2$) from WISE using a Bayesian Neural Network (BNN). The training of BNN is performed by above images and their corresponding spectroscopic redshifts given in DESI Early Data Release (EDR). Our results show that categorizing galaxies into individual groups based on their inherent characteristics and estimating their photo-$z$s within their group separately can effectively improve the performance. Specifically, the galaxies are categorized into four distinct groups based on DESI's target selection criteria: Bright Galaxy Sample (BGS), Luminous Red Galaxies (LRG), Emission Line Galaxies (ELG) and a group comprising the remaining sources, referred to as NON. As measured by outliers of $|Δz| > 0.15 (1 + z_{\\rm true})$, accuracy $σ_{\\rm NMAD}$ and mean uncertainty $\\overline{E}$ for BNN, we achieve low outlier percentage, high accuracy and low uncertainty: 0.14%, 0.018 and 0.0212 for BGS and 0.45%, 0.026 and 0.0293 for LRG respectively, surpassing results without categorization. However, the photo-$z$s for ELG cannot be reliably estimated, showing result of $>15\\%$, $\\sim0.1$ and $\\sim0.1$ irrespective of training strategy. On the other hand, NON sources can reach 1.9%, 0.039 and 0.0445 when a magnitude cut of $z<21.3$ is applied. Our findings demonstrate that estimating photo-$z$s directly from galaxy images is significantly potential, and to achieve high-quality photo-$z$ measurement for ongoing and future large-scale imaging survey, it is sensible to implement categorization of sources based on their characteristics.",
+ "primary": "astro-ph.GA"
+}

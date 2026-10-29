@@ -1,0 +1,22 @@
+{
+ "id": "2510.10642",
+ "title": "UniJEPA: Enhancing Robot Policy via Unified Continuous and Discrete Representation Learning",
+ "authors": [
+  "Jianke Zhang",
+  "Yucheng Hu",
+  "Yanjiang Guo",
+  "Xiaoyu Chen",
+  "Yichen Liu",
+  "Wenna Chen",
+  "Chaochao Lu",
+  "Jianyu Chen"
+ ],
+ "v1_date": "2025-10-12",
+ "latest_version": 3,
+ "latest_date": "2026-05-13",
+ "journal_ref": "ICML 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "Building generalist robot policies that can handle diverse tasks in open-ended environments is a central challenge in robotics. To leverage knowledge from large-scale pretraining, prior work (VLA) has typically built generalist policies either on top of vision-language understanding models (VLMs) or generative models. However, both semantic understanding from vision-language pretraining and visual dynamics modeling from visual-generation pretraining are crucial for embodied robots. Recent unified models of generation and understanding have demonstrated strong capabilities in both comprehension and generation through large-scale pretraining. We posit that robotic policy learning can likewise benefit from the combined strengths of understanding, planning, and continuous future representation learning. Building on this insight, we introduce UniJEPA, which acquires the ability to dynamically model high-dimensional visual features through pretraining on over 1M internet-scale instructional manipulation videos. Subsequently, UniJEPA is fine-tuned on data collected from the robot embodiment, enabling the learning of mappings from predictive representations to action tokens. Extensive experiments show our approach consistently outperforms baseline methods in terms of 9\\% and 12\\% across simulation environments and real-world out-of-distribution tasks.",
+ "primary": "cs.RO"
+}

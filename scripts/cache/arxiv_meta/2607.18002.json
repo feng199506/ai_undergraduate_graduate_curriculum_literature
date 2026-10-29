@@ -1,0 +1,23 @@
+{
+ "id": "2607.18002",
+ "title": "ExpertPlex: A High-Goodput Disaggregated Serving System for MoE LLMs with Adaptive Persistent Kernels",
+ "authors": [
+  "Bingyang Wu",
+  "Chao Jin",
+  "Zili Zhang",
+  "Xinming Wei",
+  "Yinmin Zhong",
+  "Ruidong Zhu",
+  "Chengxu Yang",
+  "Xin Jin",
+  "Yuliang Liu"
+ ],
+ "v1_date": "2026-07-20",
+ "latest_version": 2,
+ "latest_date": "2026-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "LLMs scale Mixture-of-Experts (MoE) parameters for superior intelligence, but massive weights and dynamic computation impede efficient serving. Existing instance-level prefill-decode disaggregation isolates the phases on separate full-model replicas. As MoE weights grow, each instance may span tens to hundreds of GPUs, making resource allocation increasingly coarse. Configured prefill-to-decode ratios thus often mismatch demand, overprovisioning one phase while overloading the other. Prefill-decode colocation avoids this duplication, but existing Green Context solutions partition each GPU by phase and fix phase resources during a kernel. They cannot track resource changes across operations or layerwise variation in routed expert load, causing head-of-line blocking or idle reserved resources. Partitioning every GPU also leaves each phase with fewer local resources, forces wider parallelism and more communication, and lets prefill and decode traffic interfere on the shared network. We present ExpertPlex, which shares massive MoE experts across phases while disaggregating lightweight attention modules. Expert sharing eliminates over 95% of duplicate model weights and multiplexes dynamically sparse computation, while attention disaggregation reduces attention communication cost. ExpertPlex further uses (1) adaptive persistent kernels to schedule dynamic expert computation at tile granularity for efficient, isolated execution; (2) attention-initiated MoE communication to avoid network interference and enable cross-phase communication-computation overlap; and (3) a tile-to-cluster model to optimize these mechanisms for maximum goodput. Experiments serving MiniMax-M2.7 and GLM-5.1-FP8 show that ExpertPlex improves goodput by up to 2.01$\\times$ over instance-level prefill-decode disaggregation and 1.66$\\times$ over prefill-decode colocation.",
+ "primary": "cs.DC"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2506.22112",
+ "title": "Reward Balancing Revisited: Enhancing Offline Reinforcement Learning for Recommender Systems",
+ "authors": [
+  "Wenzheng Shu",
+  "Yanxiang Zeng",
+  "Yongxiang Tang",
+  "Teng Sha",
+  "Ning Luo",
+  "Yanhua Cheng",
+  "Xialong Liu",
+  "Fan Zhou",
+  "Peng Jiang"
+ ],
+ "v1_date": "2025-06-27",
+ "latest_version": 2,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "10.1145/3701716.3715547",
+ "comment": "Accepted in Companion Proceedings of the ACM Web Conference 2025",
+ "abstract": "Offline reinforcement learning (RL) has emerged as a prevalent and effective methodology for real-world recommender systems, enabling learning policies from historical data and capturing user preferences. In offline RL, reward shaping encounters significant challenges, with past efforts to incorporate prior strategies for uncertainty to improve world models or penalize underexplored state-action pairs. Despite these efforts, a critical gap remains: the simultaneous balancing of intrinsic biases in world models and the diversity of policy recommendations. To address this limitation, we present an innovative offline RL framework termed Reallocated Reward for Recommender Systems (R3S). By integrating inherent model uncertainty to tackle the intrinsic fluctuations in reward predictions, we boost diversity for decision-making to align with a more interactive paradigm, incorporating extra penalizers with decay that deter actions leading to diminished state variety at both local and global scales. The experimental results demonstrate that R3S improves the accuracy of world models and efficiently harmonizes the heterogeneous preferences of the users.",
+ "primary": "cs.IR"
+}

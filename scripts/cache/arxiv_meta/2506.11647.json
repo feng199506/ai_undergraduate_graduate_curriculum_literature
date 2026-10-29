@@ -1,0 +1,17 @@
+{
+ "id": "2506.11647",
+ "title": "High Probability Convergence of Distributed Clipped Stochastic Gradient Descent with Heavy-tailed Noise",
+ "authors": [
+  "Yuchen Yang",
+  "Kaihong Lu",
+  "Long Wang"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 2,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, the problem of distributed optimization is studied via a network of agents. Each agent only has access to a noisy gradient of its own objective function, and can communicate with its neighbors via a network. To handle this problem, a distributed clipped stochastic gradient descent algorithm is proposed, and the high probability convergence of the algorithm is studied. Existing works on distributed algorithms involving stochastic gradients only consider the light-tailed noises. Different from them, we study the case with heavy-tailed settings. Under mild assumptions on the graph connectivity, we prove that the algorithm converges in high probability under a certain clipping operator. Finally, a simulation is provided to demonstrate the effectiveness of our theoretical results",
+ "primary": "math.OC"
+}

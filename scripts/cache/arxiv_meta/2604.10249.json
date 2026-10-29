@@ -1,0 +1,20 @@
+{
+ "id": "2604.10249",
+ "title": "Gaussian Graphical Models for Functional Connectivity Analysis: A Statistical Review with Applications to Alzheimer's Disease",
+ "authors": [
+  "Panpan Zhang",
+  "Shiying Xiao",
+  "W. Hudson Robb",
+  "Dandan Liu",
+  "Angela L. Jefferson",
+  "Jun Yan"
+ ],
+ "v1_date": "2026-04-11",
+ "latest_version": 1,
+ "latest_date": "2026-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Functional connectivity analysis is an important tool for characterizing interactions among brain regions, particularly in studies of neurodegenerative disorders such as Alzheimer's disease (AD). Gaussian graphical models (GGMs) provide a promising statistical framework for estimating functional connectivity by capturing conditional dependence relationships among brain regions. Although a variety of regularized precision matrix estimators have been proposed to estimate sparse conditional dependency structures for GGMs, their comparative performance and practical implications for neuroimaging studies are not well understood. In this work, we present a comprehensive statistical review and empirical evaluation of widely used GGM estimation methods, including the graphical lasso (glasso), ridge-based glasso, graphical elastic net, adaptive glasso, smoothly clipped absolute deviation (SCAD), minimax concave penalty (MCP), constrained $\\ell_1$ minimization for inverse matrix estimation (CLIME), and tuning-insensitive graph estimation and regression (TIGER). Their performance is evaluated through extensive data-driven simulations designed to reflect realistic neuroimaging settings, along with an application to an AD cohort study to illustrate methodological differences and their impact on downstream network analysis. In addition, a user-friendly R package, spice, is provided to facilitate implementation and enhance the reproducibility of empirical studies.",
+ "primary": "stat.ME"
+}

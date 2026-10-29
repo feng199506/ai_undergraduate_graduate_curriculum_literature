@@ -1,0 +1,19 @@
+{
+ "id": "2511.13888",
+ "title": "Tractable Probabilistic Models for Investment Planning",
+ "authors": [
+  "Nicolas M. Cuadrado A.",
+  "Mohannad Takrouri",
+  "Jiří Němeček",
+  "Martin Takáč",
+  "Jakub Mareček"
+ ],
+ "v1_date": "2025-11-17",
+ "latest_version": 3,
+ "latest_date": "2026-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Investment planning in power utilities, such as generation and transmission expansion, requires decisions under substantial uncertainty over decade--long horizons for policies, demand, renewable availability, and outages, while maintaining reliability and computational tractability. Conventional approaches approximate uncertainty using finite scenario sets (modeled as a mixture of Diracs in statistical theory terms), which can become computationally intensive as scenario detail increases and provide limited probabilistic resolution for reliability assessment. We propose an alternative based on tractable probabilistic models, using sum--product networks (SPNs) to represent high--dimensional uncertainty in a compact, analytically tractable form that supports exact probabilistic queries (e.g., likelihoods, marginals, and conditionals). This framework enables the direct embedding of chance constraints into mixed--integer linear programming (MILP) models for investment planning to evaluate reliability events and enforce probabilistic feasibility requirements without enumerating large scenario trees. We demonstrate the approach on a representative planning case study and report reliability--cost trade--offs and computational behavior relative to standard scenario--based formulations.",
+ "primary": "cs.LG"
+}

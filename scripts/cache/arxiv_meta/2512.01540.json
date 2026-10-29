@@ -1,0 +1,16 @@
+{
+ "id": "2512.01540",
+ "title": "FlashVGGT: Efficient and Scalable Visual Geometry Transformers with Compressed Descriptor Attention",
+ "authors": [
+  "Zipeng Wang",
+  "Dan Xu"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 2,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "CVPR2026",
+ "abstract": "3D reconstruction from multi-view images is a core challenge in computer vision. Recently, feed-forward methods have emerged as efficient and robust alternatives to traditional per-scene optimization techniques. Among them, state-of-the-art models like the Visual Geometry Grounding Transformer (VGGT) leverage full self-attention over all image tokens to capture global relationships. However, this approach suffers from poor scalability due to the quadratic complexity of self-attention and the large number of tokens generated in long image sequences. In this work, we introduce FlashVGGT, an efficient alternative that addresses this bottleneck through a descriptor-based attention mechanism. Instead of applying dense global attention across all tokens, FlashVGGT compresses spatial information from each frame into a compact set of descriptor tokens. Global attention is then computed as cross-attention between the full set of image tokens and this smaller descriptor set, significantly reducing computational overhead. Moreover, the compactness of the descriptors enables online inference over long sequences via a chunk-recursive mechanism that reuses cached descriptors from previous chunks. Experimental results show that FlashVGGT achieves reconstruction accuracy competitive with VGGT while reducing inference time to just 9.3% of VGGT for 1,000 images, and scaling efficiently to sequences exceeding 3,000 images. Our project page is available at https://wzpscott.github.io/flashvggt_page/.",
+ "primary": "cs.CV"
+}

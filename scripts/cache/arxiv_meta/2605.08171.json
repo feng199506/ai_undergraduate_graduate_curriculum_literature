@@ -1,0 +1,15 @@
+{
+ "id": "2605.08171",
+ "title": "Communication Dynamics Neural Networks: FFT-Diagonalized Layers for Improved Hessian Conditioning at Reduced Parameter Count",
+ "authors": [
+  "Lurong Pan"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 2,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 5 figures. Includes NumPy implementation, gradient checks, MNIST experiments, and reference PyTorch CD-Transformer implementation",
+ "abstract": "Communication Dynamics Neural Networks (CDNNs) apply the circulant-spectral machinery of the Communication Dynamics framework to neural-network layer design. We introduce CDLinear, a block-circulant linear layer with block size B = 2l + 1 that uses 1/B the parameters of a dense layer with the same input and output dimensions. The construction gives an explicit Fourier-domain diagnostic for optimization: for mean-squared loss, the weight Hessian is diagonalized by the discrete Fourier transform, with eigenvalues determined directly by the Fourier spectrum of the input blocks. Under input pre-whitening, the population Hessian condition number is exactly 1, and the empirical condition number is bounded by 1 + O(sqrt(B/N)) for N samples. We implement CDLinear in pure NumPy with hand-derived backward passes and verify gradients by finite differences. On the 8x8 MNIST digits benchmark, across three random seeds, a CDLinear MLP with B = 4 reaches 97.50% +/- 0.23% test accuracy using 2,380 parameters, compared with 98.15% +/- 0.47% for a dense baseline using 8,970 parameters. This gives a 3.8x parameter reduction at a 0.65% accuracy cost. The CD-MLP's mean Hessian condition number is 1.9e4, about 310x smaller than the dense baseline's 5.9e6. We position CDLinear as a special case of structured matrix neural-network layers, with the main contributions being a closed-form Hessian-spectrum diagnostic, a principled discrete sequence of block multiplicities, and an explicit conditioning analysis. We also release a reference PyTorch implementation integrating CDLinear into a DeepSeek-V3-style mixture-of-experts transformer for future large-scale benchmarks.",
+ "primary": "cs.LG"
+}

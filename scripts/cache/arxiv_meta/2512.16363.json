@@ -1,0 +1,17 @@
+{
+ "id": "2512.16363",
+ "title": "Empirical Likelihood Meets Prediction-Powered Inference",
+ "authors": [
+  "Guanghui Wang",
+  "Mengtao Wen",
+  "Changliang Zou"
+ ],
+ "v1_date": "2025-12-18",
+ "latest_version": 1,
+ "latest_date": "2025-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study inference with a small labeled sample, a large unlabeled sample, and high-quality predictions from an external model. We link prediction-powered inference with empirical likelihood by stacking supervised estimating equations based on labeled outcomes with auxiliary moment conditions built from predictions, and then optimizing empirical likelihood under these joint constraints. The resulting empirical likelihood-based prediction-powered inference (EPI) estimator is asymptotically normal, has asymptotic variance no larger than the fully supervised estimator, and attains the semiparametric efficiency bound when the auxiliary functions span the predictable component of the supervised score. For hypothesis testing and confidence sets, empirical likelihood ratio statistics admit chi-squared-type limiting distributions. As a by-product, the empirical likelihood weights induce a calibrated empirical distribution that integrates supervised and prediction-based information, enabling estimation and uncertainty quantification for general functionals beyond parameters defined by estimating equations. We present two practical implementations: one based on basis expansions in the predictions and covariates, and one that learns an approximately optimal auxiliary function by cross-fitting. In simulations and applications, EPI reduces mean squared error and shortens confidence intervals while maintaining nominal coverage.",
+ "primary": "stat.ME"
+}

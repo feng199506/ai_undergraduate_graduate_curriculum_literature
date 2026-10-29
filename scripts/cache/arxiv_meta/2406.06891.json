@@ -1,0 +1,19 @@
+{
+ "id": "2406.06891",
+ "title": "Tokenize features, enhancing tables: the FT-TABPFN model for tabular classification",
+ "authors": [
+  "Quangao Liu",
+  "Wei Yang",
+  "Chen Liang",
+  "Longlong Pang",
+  "Zhuozhang Zou"
+ ],
+ "v1_date": "2024-06-11",
+ "latest_version": 1,
+ "latest_date": "2024-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional methods for tabular classification usually rely on supervised learning from scratch, which requires extensive training data to determine model parameters. However, a novel approach called Prior-Data Fitted Networks (TabPFN) has changed this paradigm. TabPFN uses a 12-layer transformer trained on large synthetic datasets to learn universal tabular representations. This method enables fast and accurate predictions on new tasks with a single forward pass and no need for additional training. Although TabPFN has been successful on small datasets, it generally shows weaker performance when dealing with categorical features. To overcome this limitation, we propose FT-TabPFN, which is an enhanced version of TabPFN that includes a novel Feature Tokenization layer to better handle classification features. By fine-tuning it for downstream tasks, FT-TabPFN not only expands the functionality of the original model but also significantly improves its applicability and accuracy in tabular classification. Our full source code is available for community use and development.",
+ "primary": "cs.LG"
+}

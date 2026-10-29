@@ -1,0 +1,17 @@
+{
+ "id": "2606.08903",
+ "title": "Synthetic but Not Realistic: The Evaluation Challenge in Generative Modelling for Structured Electronic Medical Records",
+ "authors": [
+  "Nicholas I-Hsien Kuo",
+  "Blanca Gallego",
+  "Louisa Jorm"
+ ],
+ "v1_date": "2026-06-08",
+ "latest_version": 1,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Synthetic healthcare data are widely proposed as privacy-preserving substitutes for real patient data, yet their evaluation remains dominated by statistical similarity and predictive performance that do not reflect clinical validity. We introduce a multi-dimensional evaluation framework grounded in epidemiology, assessing descriptive fidelity, clinical utility, and structural validity, corresponding to descriptive, predictive, and causal questions. We evaluate four representative generative paradigms - GAN-based, VAE-boosted, diffusion-based, and masked modelling - using PRIME-CVD, a 50,000-person cohort with known ground-truth structure. While all models reproduce marginal distributions, none simultaneously preserve subgroup structure, effect estimates, and dependency structure. Notably, models with strong distributional fidelity can exhibit poor calibration and distorted relationships, leading to unreliable inference. These results show that current evaluation practices can overestimate synthetic data quality and motivate domain-informed assessment based on the ability to support valid clinical and scientific conclusions.",
+ "primary": "cs.LG"
+}

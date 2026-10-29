@@ -1,0 +1,16 @@
+{
+ "id": "2501.16931",
+ "title": "Beyond Point Estimates: Distributional Uncertainty in Machine Learning Performance Evaluation",
+ "authors": [
+  "Christoph Lehmann",
+  "Yahor Paromau"
+ ],
+ "v1_date": "2025-01-28",
+ "latest_version": 2,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 9 figures",
+ "abstract": "Machine learning models are often evaluated using point estimates of performance metrics such as accuracy, F1 score, or mean squared error. Such summaries fail to capture the inherent variability induced by stochastic elements of the training process, including data splitting, initialization, and hyperparameter optimization. This work proposes a distributional perspective on model evaluation by treating performance metrics as random quantities rather than fixed values. Instead of focusing solely on aggregate measures, empirical distributions of performance metrics are analyzed using quantiles and corresponding confidence intervals. The study investigates point and interval estimation of quantiles based on real-data use cases for classification and regression tasks, complemented by simulation studies for validation. Special emphasis is placed on small sample sizes, reflecting practical constraints in machine learning, where repeated training is computationally expensive. The results show that meaningful statistical inference on the underlying performance distribution is feasible even with sample sizes in the range of 10-25, while standard nonparametric confidence interval remain applicable under these conditions. The proposed approach provides a more detailed characterization of variability and uncertainty compared to mean-based evaluation and enables a more differentiated comparison of models. In particular, it supports a risk-oriented interpretation of model performance, which is relevant in applications where reliability is critical. The presented methods are easy to implement and broadly applicable, making them a practical extension to standard performance evaluation procedures in machine learning.",
+ "primary": "cs.LG"
+}

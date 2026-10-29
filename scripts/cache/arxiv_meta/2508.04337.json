@@ -1,0 +1,18 @@
+{
+ "id": "2508.04337",
+ "title": "Modelling and Classifying the Components of a Literature Review",
+ "authors": [
+  "Francisco Bolaños",
+  "Angelo Salatino",
+  "Francesco Osborne",
+  "Enrico Motta"
+ ],
+ "v1_date": "2025-08-06",
+ "latest_version": 2,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Previous work has demonstrated that AI methods for analysing scientific literature benefit significantly from annotating sentences in papers according to their rhetorical roles, such as research gaps, results, limitations, extensions of existing methodologies, and others. Such representations also have the potential to support the development of a new generation of systems capable of producing high-quality literature reviews. However, achieving this goal requires the definition of a relevant annotation schema and effective strategies for large-scale annotation of the literature. This paper addresses these challenges in two ways: 1) it introduces a novel, unambiguous annotation schema that is explicitly designed for reliable automatic processing, and 2) it presents a comprehensive evaluation of a wide range of large language models (LLMs) on the task of classifying rhetorical roles according to this schema. To this end, we also present Sci-Sentence, a novel multidisciplinary benchmark comprising 700 sentences manually annotated by domain experts and 2,240 sentences automatically labelled using LLMs. We evaluate 37 LLMs on this benchmark, spanning diverse model families and sizes, using both zero-shot learning and fine-tuning approaches. The experiments reveal that modern LLMs achieve strong results on this task when fine-tuned on high-quality data, surpassing 96% F1, with both large proprietary models such as GPT-4o and lightweight open-source alternatives performing well. Moreover, augmenting the training set with semi-synthetic LLM-generated examples further boosts performance, enabling small encoders to achieve robust results and substantially improving several open decoder models.",
+ "primary": "cs.CL"
+}

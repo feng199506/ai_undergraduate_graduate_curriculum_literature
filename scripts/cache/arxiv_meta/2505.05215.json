@@ -1,0 +1,18 @@
+{
+ "id": "2505.05215",
+ "title": "Diffusion Model Quantization: A Review",
+ "authors": [
+  "Qian Zeng",
+  "Chenggong Hu",
+  "Mingli Song",
+  "Jie Song"
+ ],
+ "v1_date": "2025-05-08",
+ "latest_version": 1,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 8 figures",
+ "abstract": "Recent success of large text-to-image models has empirically underscored the exceptional performance of diffusion models in generative tasks. To facilitate their efficient deployment on resource-constrained edge devices, model quantization has emerged as a pivotal technique for both compression and acceleration. This survey offers a thorough review of the latest advancements in diffusion model quantization, encapsulating and analyzing the current state of the art in this rapidly advancing domain. First, we provide an overview of the key challenges encountered in the quantization of diffusion models, including those based on U-Net architectures and Diffusion Transformers (DiT). We then present a comprehensive taxonomy of prevalent quantization techniques, engaging in an in-depth discussion of their underlying principles. Subsequently, we perform a meticulous analysis of representative diffusion model quantization schemes from both qualitative and quantitative perspectives. From a quantitative standpoint, we rigorously benchmark a variety of methods using widely recognized datasets, delivering an extensive evaluation of the most recent and impactful research in the field. From a qualitative standpoint, we categorize and synthesize the effects of quantization errors, elucidating these impacts through both visual analysis and trajectory examination. In conclusion, we outline prospective avenues for future research, proposing novel directions for the quantization of generative models in practical applications. The list of related papers, corresponding codes, pre-trained models and comparison results are publicly available at the survey project homepage https://github.com/TaylorJocelyn/Diffusion-Model-Quantization.",
+ "primary": "cs.CV"
+}

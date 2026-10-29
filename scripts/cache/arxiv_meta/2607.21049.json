@@ -1,0 +1,21 @@
+{
+ "id": "2607.21049",
+ "title": "GuidedAttention: Interpretable and Correctable Visual Attention for OOD-Robust Robot Manipulation via Imitation Learning",
+ "authors": [
+  "Masaki Murooka",
+  "Ryoichi Nakajo",
+  "Keisuke Shirai",
+  "Tomohiro Motoda",
+  "Hanbit Oh",
+  "Ryo Hanai",
+  "Yukiyasu Domae"
+ ],
+ "v1_date": "2026-07-23",
+ "latest_version": 2,
+ "latest_date": "2026-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Project page added",
+ "abstract": "End-to-end visuomotor policies provide little opportunity for humans to understand or correct the policy's visual attention. We propose GuidedAttention, a visuomotor imitation learning framework that introduces interpretable and correctable visual attention as an explicit intermediate representation. Task-relevant attention keypoints are predicted from camera images and condition a diffusion-based action policy. Users can inspect and optionally correct selected keypoints once at rollout initialization, after which the corrected attention is automatically propagated throughout execution by a tracking module. Experiments in simulation and the real world demonstrate that GuidedAttention consistently improves robot manipulation performance, particularly under positional and appearance out-of-distribution (OOD) conditions. https://mmurooka.github.io/guided-attention-project-page",
+ "primary": "cs.RO"
+}

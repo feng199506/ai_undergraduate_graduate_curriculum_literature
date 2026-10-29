@@ -1,0 +1,19 @@
+{
+ "id": "2505.07023",
+ "title": "Incremental Uncertainty-aware Performance Monitoring with Active Labeling Intervention",
+ "authors": [
+  "Alexander Koebler",
+  "Thomas Decker",
+  "Ingo Thon",
+  "Volker Tresp",
+  "Florian Buettner"
+ ],
+ "v1_date": "2025-05-11",
+ "latest_version": 1,
+ "latest_date": "2025-05-11",
+ "journal_ref": "Proceedings of the 28th International Conference on Artificial Intelligence and Statistics (AISTATS) 2025, PMLR 258",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of monitoring machine learning models under gradual distribution shifts, where circumstances change slowly over time, often leading to unnoticed yet significant declines in accuracy. To address this, we propose Incremental Uncertainty-aware Performance Monitoring (IUPM), a novel label-free method that estimates performance changes by modeling gradual shifts using optimal transport. In addition, IUPM quantifies the uncertainty in the performance prediction and introduces an active labeling procedure to restore a reliable estimate under a limited labeling budget. Our experiments show that IUPM outperforms existing performance estimation baselines in various gradual shift scenarios and that its uncertainty awareness guides label acquisition more effectively compared to other strategies.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2505.13502",
+ "title": "Federated Low-Rank Adaptation for Foundation Models: A Survey",
+ "authors": [
+  "Yiyuan Yang",
+  "Guodong Long",
+  "Qinghua Lu",
+  "Liming Zhu",
+  "Jing Jiang",
+  "Chengqi Zhang"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 1,
+ "latest_date": "2025-05-16",
+ "journal_ref": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI-25), Survey Track, pp. 10779-10787, 2025",
+ "doi": "10.24963/ijcai.2025/1196",
+ "comment": "",
+ "abstract": "Effectively leveraging private datasets remains a significant challenge in developing foundation models. Federated Learning (FL) has recently emerged as a collaborative framework that enables multiple users to fine-tune these models while mitigating data privacy risks. Meanwhile, Low-Rank Adaptation (LoRA) offers a resource-efficient alternative for fine-tuning foundation models by dramatically reducing the number of trainable parameters. This survey examines how LoRA has been integrated into federated fine-tuning for foundation models, an area we term FedLoRA, by focusing on three key challenges: distributed learning, heterogeneity, and efficiency. We further categorize existing work based on the specific methods used to address each challenge. Finally, we discuss open research questions and highlight promising directions for future investigation, outlining the next steps for advancing FedLoRA.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2502.15648",
+ "title": "Logit Disagreement: OoD Detection with Bayesian Neural Networks",
+ "authors": [
+  "Kevin Raina"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 1,
+ "latest_date": "2025-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Presented at ECCV 2024 Workshop: 3rd Workshop on Uncertainty Quantification for Computer Vision",
+ "abstract": "Bayesian neural networks (BNNs), which estimate the full posterior distribution over model parameters, are well-known for their role in uncertainty quantification and its promising application in out-of-distribution detection (OoD). Amongst other uncertainty measures, BNNs provide a state-of-the art estimation of predictive entropy (total uncertainty) which can be decomposed as the sum of mutual information and expected entropy. In the context of OoD detection the estimation of predictive uncertainty in the form of the predictive entropy score confounds aleatoric and epistemic uncertainty, the latter being hypothesized to be high for OoD points. Despite these justifications, the mutual information score has been shown to perform worse than predictive entropy. Taking inspiration from Bayesian variational autoencoder (BVAE) literature, this work proposes to measure the disagreement between a corrected version of the pre-softmax quantities, otherwise known as logits, as an estimate of epistemic uncertainty for Bayesian NNs under mean field variational inference. The three proposed epistemic uncertainty scores demonstrate marked improvements over mutual information on a range of OoD experiments, with equal performance otherwise. Moreover, the epistemic uncertainty scores perform on par with the Bayesian benchmark predictive entropy on a range of MNIST and CIFAR10 experiments.",
+ "primary": "cs.LG"
+}

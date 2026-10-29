@@ -1,0 +1,19 @@
+{
+ "id": "2505.11836",
+ "title": "SplInterp: Improving our Understanding and Training of Sparse Autoencoders",
+ "authors": [
+  "Jeremy Budd",
+  "Javier Ideami",
+  "Benjamin Macdowall Rynne",
+  "Keith Duggar",
+  "Randall Balestriero"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 1,
+ "latest_date": "2025-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 38 figures, under review",
+ "abstract": "Sparse autoencoders (SAEs) have received considerable recent attention as tools for mechanistic interpretability, showing success at extracting interpretable features even from very large LLMs. However, this research has been largely empirical, and there have been recent doubts about the true utility of SAEs. In this work, we seek to enhance the theoretical understanding of SAEs, using the spline theory of deep learning. By situating SAEs in this framework: we discover that SAEs generalise ``$k$-means autoencoders'' to be piecewise affine, but sacrifice accuracy for interpretability vs. the optimal ``$k$-means-esque plus local principal component analysis (PCA)'' piecewise affine autoencoder. We characterise the underlying geometry of (TopK) SAEs using power diagrams. And we develop a novel proximal alternating method SGD (PAM-SGD) algorithm for training SAEs, with both solid theoretical foundations and promising empirical results in MNIST and LLM experiments, particularly in sample efficiency and (in the LLM setting) improved sparsity of codes. All code is available at: https://github.com/splInterp2025/splInterp",
+ "primary": "cs.LG"
+}

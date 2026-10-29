@@ -1,0 +1,19 @@
+{
+ "id": "2502.17259",
+ "title": "Detecting Benchmark Contamination Through Watermarking",
+ "authors": [
+  "Tom Sander",
+  "Pierre Fernandez",
+  "Saeed Mahloujifar",
+  "Alain Durmus",
+  "Chuan Guo"
+ ],
+ "v1_date": "2025-02-24",
+ "latest_version": 2,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Benchmark contamination poses a significant challenge to the reliability of Large Language Models (LLMs) evaluations, as it is difficult to assert whether a model has been trained on a test set. We introduce a solution to this problem by watermarking benchmarks before their release. The embedding involves reformulating the original questions with a watermarked LLM, in a way that does not alter the benchmark utility. During evaluation, we can detect ``radioactivity'', \\ie traces that the text watermarks leave in the model during training, using a theoretically grounded statistical test. We test our method by pre-training 1B models from scratch on 10B tokens with controlled benchmark contamination, and validate its effectiveness in detecting contamination on ARC-Easy, ARC-Challenge, and MMLU. Results show similar benchmark utility post-watermarking and successful contamination detection when models are contaminated enough to enhance performance, \\eg $p$-val $=10^{-3}$ for +5$\\%$ on ARC-Easy.",
+ "primary": "cs.CR"
+}

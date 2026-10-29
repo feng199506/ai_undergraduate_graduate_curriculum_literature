@@ -1,0 +1,16 @@
+{
+ "id": "2603.26464",
+ "title": "Automatic feature identification in least-squares policy iteration using the Koopman operator framework",
+ "authors": [
+  "Christian Mugisho Zagabe",
+  "Sebastian Peitz"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages",
+ "abstract": "In this paper, we present a Koopman autoencoder-based least-squares policy iteration (KAE-LSPI) algorithm in reinforcement learning (RL). The KAE-LSPI algorithm is based on reformulating the so-called least-squares fixed-point approximation method in terms of extended dynamic mode decomposition (EDMD), thereby enabling automatic feature learning via the Koopman autoencoder (KAE) framework. The approach is motivated by the lack of a systematic choice of features or kernels in linear RL techniques. We compare the KAE-LSPI algorithm with two previous works, the classical least-squares policy iteration (LSPI) and the kernel-based least-squares policy iteration (KLSPI), using stochastic chain walk and inverted pendulum control problems as examples. Unlike previous works, no features or kernels need to be fixed a priori in our approach. Empirical results show the number of features learned by the KAE technique remains reasonable compared to those fixed in the classical LSPI algorithm. The convergence to an optimal or a near-optimal policy is also comparable to the other two methods.",
+ "primary": "cs.LG"
+}

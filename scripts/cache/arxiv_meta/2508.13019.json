@@ -1,0 +1,18 @@
+{
+ "id": "2508.13019",
+ "title": "Informfully Recommenders -- Reproducibility Framework for Diversity-aware Intra-session Recommendations",
+ "authors": [
+  "Lucien Heitz",
+  "Runze Li",
+  "Oana Inel",
+  "Abraham Bernstein"
+ ],
+ "v1_date": "2025-08-18",
+ "latest_version": 1,
+ "latest_date": "2025-08-18",
+ "journal_ref": "",
+ "doi": "10.1145/3705328.3748148",
+ "comment": "10 pages",
+ "abstract": "Norm-aware recommender systems have gained increased attention, especially for diversity optimization. The recommender systems community has well-established experimentation pipelines that support reproducible evaluations by facilitating models' benchmarking and comparisons against state-of-the-art methods. However, to the best of our knowledge, there is currently no reproducibility framework to support thorough norm-driven experimentation at the pre-processing, in-processing, post-processing, and evaluation stages of the recommender pipeline. To address this gap, we present Informfully Recommenders, a first step towards a normative reproducibility framework that focuses on diversity-aware design built on Cornac. Our extension provides an end-to-end solution for implementing and experimenting with normative and general-purpose diverse recommender systems that cover 1) dataset pre-processing, 2) diversity-optimized models, 3) dedicated intrasession item re-ranking, and 4) an extensive set of diversity metrics. We demonstrate the capabilities of our extension through an extensive offline experiment in the news domain.",
+ "primary": "cs.IR"
+}

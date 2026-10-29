@@ -1,0 +1,24 @@
+{
+ "id": "2602.06307",
+ "title": "Lost in Speech: Benchmarking, Evaluation, and Parsing of Spoken Bilingual Conversational Language Beyond Standard UD Assumptions",
+ "authors": [
+  "Nemika Tyagi",
+  "Olga Kellert",
+  "Holly Hendrix",
+  "Nelvin Licona-Guevara",
+  "Justin Mackie",
+  "Phanos Kareen",
+  "Megan Michelle Smith",
+  "Tatiana Gallego Hernande",
+  "Samhitha Harish",
+  "Chitta Baral"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 2,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 4 Figures",
+ "abstract": "Spoken bilingual conversations pose substantial challenges for syntactic parsing because they often include disfluencies and discourse-driven structures that complicate dependency parsing under standard Universal Dependencies (UD) assumptions and evaluation practices. To systematically study these challenges, in this work, we first introduce a linguistically grounded taxonomy of conversational bilingual phenomena, together with SpokeBench, an expert-annotated English-Spanish benchmark for structurally complex speech. To address the limitations of existing evaluation practices, we propose Flex-UD, an ambiguity-aware evaluation metric that distinguishes catastrophic structural failures from linguistically acceptable variations. Finally, we introduce DECAP, a decoupled agentic parsing framework that separates spoken-phenomena handling from core syntactic analysis, enabling robust and interpretable dependency parsing without retraining. Experiments across both proprietary and open-weight LLMs show that DECAP substantially improves performance on complex conversational phenomena and achieves over 60% improvements in UPOS-F1 Score over baselines, while Flex-UD evaluations reveal gains that otherwise remain partially hidden under standard attachment-based metrics.",
+ "primary": "cs.CL"
+}

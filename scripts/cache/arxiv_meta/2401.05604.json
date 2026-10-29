@@ -1,0 +1,24 @@
+{
+ "id": "2401.05604",
+ "title": "REBUS: A Robust Evaluation Benchmark of Understanding Symbols",
+ "authors": [
+  "Andrew Gritsevskiy",
+  "Arjun Panickssery",
+  "Aaron Kirtland",
+  "Derik Kauffman",
+  "Hans Gundlach",
+  "Irina Gritsevskaya",
+  "Joe Cavanagh",
+  "Jonathan Chiang",
+  "Lydia La Roux",
+  "Michelle Hung"
+ ],
+ "v1_date": "2024-01-11",
+ "latest_version": 2,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 5 figures. For code, see http://github.com/cvndsh/rebus",
+ "abstract": "We propose a new benchmark evaluating the performance of multimodal large language models on rebus puzzles. The dataset covers 333 original examples of image-based wordplay, cluing 13 categories such as movies, composers, major cities, and food. To achieve good performance on the benchmark of identifying the clued word or phrase, models must combine image recognition and string manipulation with hypothesis testing, multi-step reasoning, and an understanding of human cognition, making for a complex, multimodal evaluation of capabilities. We find that GPT-4o significantly outperforms all other models, followed by proprietary models outperforming all other evaluated models. However, even the best model has a final accuracy of only 42\\%, which goes down to just 7\\% on hard puzzles, highlighting the need for substantial improvements in reasoning. Further, models rarely understand all parts of a puzzle, and are almost always incapable of retroactively explaining the correct answer. Our benchmark can therefore be used to identify major shortcomings in the knowledge and reasoning of multimodal large language models.",
+ "primary": "cs.CL"
+}

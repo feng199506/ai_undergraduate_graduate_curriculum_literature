@@ -1,0 +1,19 @@
+{
+ "id": "2608.28660",
+ "title": "Test-Time Scaling for Scientific Equation Discovery",
+ "authors": [
+  "Haowei Lin",
+  "Hubert Lim",
+  "Xiangyu Wang",
+  "Letian Huang",
+  "Di He"
+ ],
+ "v1_date": "2026-08-21",
+ "latest_version": 1,
+ "latest_date": "2026-08-21",
+ "journal_ref": "EMNLP 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "Test-time scaling (TTS) improves language model reasoning by allocating additional test-time compute, but prior work mainly studies closed-ended tasks such as math and coding. We study TTS for automated equation discovery, an open-ended setting where models search over candidate equations and rely on observed datapoints for feedback. We formulate LLM-driven equation discovery as an iterative search process that unifies Best-of-N, sequential refinement, tree search, and evolution-style methods under a common compute-allocation view. To isolate allocation effects from prompt engineering and other heuristics, we compare minimal parallel controllers under fixed budgets. On LLM-SRBench equation-discovery tasks, we find that search width is the dominant allocation parameter: the best width in our sweep generally increases with the compute budget, while the population--branching split and controller choice matter less. Appropriate width selection also improves wall-clock efficiency by increasing parallelism. These results suggest that, given an informative verifier, controlling exploration and exploitation is central to scaling LLM-based equation discovery.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2404.12367",
+ "title": "Model-free quantification of completeness, uncertainties, and outliers in atomistic machine learning using information theory",
+ "authors": [
+  "Daniel Schwalbe-Koda",
+  "Sebastien Hamel",
+  "Babak Sadigh",
+  "Fei Zhou",
+  "Vincenzo Lordi"
+ ],
+ "v1_date": "2024-04-18",
+ "latest_version": 2,
+ "latest_date": "2024-09-18",
+ "journal_ref": "Nature Communications 16, 4014 (2025)",
+ "doi": "10.1038/s41467-025-59232-0",
+ "comment": "v2.0",
+ "abstract": "An accurate description of information is relevant for a range of problems in atomistic machine learning (ML), such as crafting training sets, performing uncertainty quantification (UQ), or extracting physical insights from large datasets. However, atomistic ML often relies on unsupervised learning or model predictions to analyze information contents from simulation or training data. Here, we introduce a theoretical framework that provides a rigorous, model-free tool to quantify information contents in atomistic simulations. We demonstrate that the information entropy of a distribution of atom-centered environments explains known heuristics in ML potential developments, from training set sizes to dataset optimality. Using this tool, we propose a model-free UQ method that reliably predicts epistemic uncertainty and detects out-of-distribution samples, including rare events in systems such as nucleation. This method provides a general tool for data-driven atomistic modeling and combines efforts in ML, simulations, and physical explainability.",
+ "primary": "cond-mat.mtrl-sci"
+}

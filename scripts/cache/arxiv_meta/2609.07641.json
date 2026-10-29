@@ -1,0 +1,15 @@
+{
+ "id": "2609.07641",
+ "title": "Attestream: Usage-Aware Intermittent Data Distribution with Verifiable Lifecycle Provenance for Machine-Learning Data Streams",
+ "authors": [
+  "Kentaro Oda"
+ ],
+ "v1_date": "2026-09-07",
+ "latest_version": 1,
+ "latest_date": "2026-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 6 figures",
+ "abstract": "Providers of continuously produced, commercially valuable data -- sensor streams, telemetry, and other feeds sold as machine-learning training material -- cannot observe whether delivered data is actually used, while data that keeps flowing to inactive consumers enlarges the leakage surface without producing value. We present Attestream, a blockchain-based architecture for intermittently delivered dataset streams that couples continued delivery to verifiable usage reporting. Every lifecycle event -- dataset preparation, dual-signed delivery, derivative creation (e.g., a model), and derivative distribution -- is appended to an on-chain registry as a non-repudiable, mutually linked lifecycle record. The mechanism requires provable transfer, not tokenization: plain contract storage, ERC-721 tokens, and anchored off-chain receipts are interchangeable representations of the same protocol. A usage-aware gate suspends a consumer's stream when no derivative-creation record is registered within a reporting window; evaluated lazily inside the next delivery transaction, monitoring adds no dedicated transactions. A modality-pluggable fingerprinting layer binds any leaked copy to the dual-signed delivery record of the responsible consumer, instantiated for tabular/geospatial records, images, and documents. We implement the registry as a Solidity contract with EIP-712 dual signatures and evaluate it: a full lifecycle round costs 657k gas with plain records ($0.13 on rollups; ERC-721 tokenization adds ~30k gas per record), and over a 50-consumer pool leak attribution reaches 100% from 40 leaked table rows under moderate noise, survives JPEG recompression to quality 30, and tolerates paraphrase rates up to 30% for documents.",
+ "primary": "cs.CR"
+}

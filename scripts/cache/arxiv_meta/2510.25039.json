@@ -1,0 +1,23 @@
+{
+ "id": "2510.25039",
+ "title": "Automating Benchmark Design",
+ "authors": [
+  "Amanda Dsouza",
+  "Harit Vishwakarma",
+  "Zhengyang Qi",
+  "Justin Bauer",
+  "Derek Pham",
+  "Thomas Walshe",
+  "Armin Parchami",
+  "Frederic Sala",
+  "Paroma Varma"
+ ],
+ "v1_date": "2025-10-28",
+ "latest_version": 1,
+ "latest_date": "2025-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid progress and widespread deployment of LLMs and LLM-powered agents has outpaced our ability to evaluate them. Hand-crafted, static benchmarks are the primary tool for assessing model capabilities, but these quickly become saturated. In contrast, dynamic benchmarks evolve alongside the models they evaluate, but are expensive to create and continuously update. To address these challenges, we develop BeTaL (Benchmark Tuning with an LLM-in-the-loop), a framework that leverages environment design principles to automate the process of dynamic benchmark design. BeTaL works by parameterizing key design choices in base benchmark templates and uses LLMs to reason through the resulting parameter space to obtain target properties (such as difficulty and realism) in a cost-efficient manner. We validate this approach on its ability to create benchmarks with desired difficulty levels. Using BeTaL, we create two new benchmarks and extend a popular agentic benchmark $τ$-bench. Extensive evaluation on these three tasks and multiple target difficulty levels shows that BeTaL produces benchmarks much closer to the desired difficulty, with average deviations ranging from 5.3% to 13.2% -- a 2-4x improvement over the baselines.",
+ "primary": "cs.SE"
+}

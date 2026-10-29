@@ -1,0 +1,16 @@
+{
+ "id": "2511.18562",
+ "title": "Ensuring Calibration Robustness in Split Conformal Prediction Under Adversarial Attacks",
+ "authors": [
+  "Xunlei Qian",
+  "Yue Xing"
+ ],
+ "v1_date": "2025-11-23",
+ "latest_version": 2,
+ "latest_date": "2025-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to AISTATS 2026",
+ "abstract": "Conformal prediction (CP) provides distribution-free, finite-sample coverage guarantees but critically relies on exchangeability, a condition often violated under distribution shift. We study the robustness of split conformal prediction under adversarial perturbations at test time, focusing on both coverage validity and the resulting prediction set size. Our theoretical analysis characterizes how the strength of adversarial perturbations during calibration affects coverage guarantees under adversarial test conditions. We further examine the impact of adversarial training at the model-training stage. Extensive experiments support our theory: (i) Prediction coverage varies monotonically with the calibration-time attack strength, enabling the use of nonzero calibration-time attack to predictably control coverage under adversarial tests; (ii) target coverage can hold over a range of test-time attacks: with a suitable calibration attack, coverage stays within any chosen tolerance band across a contiguous set of perturbation levels; and (iii) adversarial training at the training stage produces tighter prediction sets that retain high informativeness.",
+ "primary": "stat.ML"
+}

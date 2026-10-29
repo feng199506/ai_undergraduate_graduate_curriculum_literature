@@ -1,0 +1,19 @@
+{
+ "id": "2506.05888",
+ "title": "Variational Inference for Quantum HyperNetworks",
+ "authors": [
+  "Luca Nepote",
+  "Alix Lhéritier",
+  "Nicolas Bondoux",
+  "Marios Kountouris",
+  "Maurizio Filippone"
+ ],
+ "v1_date": "2025-06-06",
+ "latest_version": 1,
+ "latest_date": "2025-06-06",
+ "journal_ref": "2025 International Joint Conference on Neural Networks (IJCNN), Rome, Italy, 2025, pp. 1-8",
+ "doi": "10.1109/ijcnn64981.2025.11228637",
+ "comment": "This work has been accepted for publication in 2025 International Joint Conference on Neural Networks (IJCNN 2025) and will be published on IEEE Xplore",
+ "abstract": "Binary Neural Networks (BiNNs), which employ single-bit precision weights, have emerged as a promising solution to reduce memory usage and power consumption while maintaining competitive performance in large-scale systems. However, training BiNNs remains a significant challenge due to the limitations of conventional training algorithms. Quantum HyperNetworks offer a novel paradigm for enhancing the optimization of BiNN by leveraging quantum computing. Specifically, a Variational Quantum Algorithm is employed to generate binary weights through quantum circuit measurements, while key quantum phenomena such as superposition and entanglement facilitate the exploration of a broader solution space. In this work, we establish a connection between this approach and Bayesian inference by deriving the Evidence Lower Bound (ELBO), when direct access to the output distribution is available (i.e., in simulations), and introducing a surrogate ELBO based on the Maximum Mean Discrepancy (MMD) metric for scenarios involving implicit distributions, as commonly encountered in practice. Our experimental results demonstrate that the proposed methods outperform standard Maximum Likelihood Estimation (MLE), improving trainability and generalization.",
+ "primary": "quant-ph"
+}

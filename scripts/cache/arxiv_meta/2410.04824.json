@@ -1,0 +1,16 @@
+{
+ "id": "2410.04824",
+ "title": "Taming Gradient Oversmoothing and Expansion in Graph Neural Networks",
+ "authors": [
+  "MoonJeong Park",
+  "Dongwoo Kim"
+ ],
+ "v1_date": "2024-10-07",
+ "latest_version": 1,
+ "latest_date": "2024-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Oversmoothing has been claimed as a primary bottleneck for multi-layered graph neural networks (GNNs). Multiple analyses have examined how and why oversmoothing occurs. However, none of the prior work addressed how optimization is performed under the oversmoothing regime. In this work, we show the presence of $\\textit{gradient oversmoothing}$ preventing optimization during training. We further analyze that GNNs with residual connections, a well-known solution to help gradient flow in deep architecture, introduce $\\textit{gradient expansion}$, a phenomenon of the gradient explosion in diverse directions. Therefore, adding residual connections cannot be a solution for making a GNN deep. Our analysis reveals that constraining the Lipschitz bound of each layer can neutralize the gradient expansion. To this end, we provide a simple yet effective normalization method to prevent the gradient expansion. An empirical study shows that the residual GNNs with hundreds of layers can be efficiently trained with the proposed normalization without compromising performance. Additional studies show that the empirical observations corroborate our theoretical analysis.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2408.04229",
+ "title": "Probabilistic Circuits for Cumulative Distribution Functions",
+ "authors": [
+  "Oliver Broadrick",
+  "William Cao",
+  "Benjie Wang",
+  "Martin Trapp",
+  "Guy Van den Broeck"
+ ],
+ "v1_date": "2024-08-08",
+ "latest_version": 1,
+ "latest_date": "2024-08-08",
+ "journal_ref": "In Proceedings of the UAI Workshop on Tractable Probabilistic Modeling (TPM), 2024",
+ "doi": "",
+ "comment": "",
+ "abstract": "A probabilistic circuit (PC) succinctly expresses a function that represents a multivariate probability distribution and, given sufficient structural properties of the circuit, supports efficient probabilistic inference. Typically a PC computes the probability mass (or density) function (PMF or PDF) of the distribution. We consider PCs instead computing the cumulative distribution function (CDF). We show that for distributions over binary random variables these representations (PMF and CDF) are essentially equivalent, in the sense that one can be transformed to the other in polynomial time. We then show how a similar equivalence holds for distributions over finite discrete variables using a modification of the standard encoding with binary variables that aligns with the CDF semantics. Finally we show that for continuous variables, smooth, decomposable PCs computing PDFs and CDFs can be efficiently transformed to each other by modifying only the leaves of the circuit.",
+ "primary": "cs.LG"
+}

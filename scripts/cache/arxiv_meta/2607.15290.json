@@ -1,0 +1,17 @@
+{
+ "id": "2607.15290",
+ "title": "Matrix-Free FFT-HSS Preconditioning for Periodic Landau-Lifshitz-Gilbert Saddle-Point Systems",
+ "authors": [
+  "Hang Qi",
+  "Changqing Ye",
+  "Xiaofei Guan"
+ ],
+ "v1_date": "2026-06-24",
+ "latest_version": 2,
+ "latest_date": "2026-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, a matrix-free Hermitian/skew-Hermitian splitting (HSS) preconditioner is proposed for periodic Landau--Lifshitz--Gilbert (LLG) saddle-point systems. The main contributions are threefold. (1) The coupled skew/constraint block has an explicit \\(4\\times4\\) nodal inverse and requires no local factorization. Combining this local inverse with FFT inversion of the shifted exchange block gives \\(O(N_g\\log N_g)\\) work and \\(O(N_g)\\) temporary storage per application. (2) We establish well-posedness and an even-step GMRES residual bound, with an iteration estimate uniform in the mesh size and time step for a class of coupled refinements. (3) The projected implicit Euler and projection-free Crank--Nicolson-type midpoint discretizations generate saddle-point systems of the same form, so the same matrix-free FFT--HSS preconditioning procedure applies to both. They achieve first- and second-order temporal accuracy, respectively; for quadratic-affine energies, the midpoint scheme also preserves nodal length and satisfies an exact discrete dissipation identity. Two- and three-dimensional experiments confirm the predicted temporal orders and midpoint invariants. On the largest smooth tests, FFT--HSS reduces GMRES iterations by \\(35\\)--\\(39\\%\\) relative to same-grid Householder preconditioning and yields approximately 15-fold and 3-fold speedups over unpreconditioned GMRES in two and three dimensions, respectively. Broadband tests retain mesh-independent iterations in the covered refinement regime at time steps 13.3 times the linearized explicit exchange limit.",
+ "primary": "math.NA"
+}

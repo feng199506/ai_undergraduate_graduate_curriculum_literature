@@ -1,0 +1,17 @@
+{
+ "id": "2504.00194",
+ "title": "Identifying Sparsely Active Circuits Through Local Loss Landscape Decomposition",
+ "authors": [
+  "Brianna Chrisman",
+  "Lucius Bushnaq",
+  "Lee Sharkey"
+ ],
+ "v1_date": "2025-03-31",
+ "latest_version": 1,
+ "latest_date": "2025-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Much of mechanistic interpretability has focused on understanding the activation spaces of large neural networks. However, activation space-based approaches reveal little about the underlying circuitry used to compute features. To better understand the circuits employed by models, we introduce a new decomposition method called Local Loss Landscape Decomposition (L3D). L3D identifies a set of low-rank subnetworks: directions in parameter space of which a subset can reconstruct the gradient of the loss between any sample's output and a reference output vector. We design a series of progressively more challenging toy models with well-defined subnetworks and show that L3D can nearly perfectly recover the associated subnetworks. Additionally, we investigate the extent to which perturbing the model in the direction of a given subnetwork affects only the relevant subset of samples. Finally, we apply L3D to a real-world transformer model and a convolutional neural network, demonstrating its potential to identify interpretable and relevant circuits in parameter space.",
+ "primary": "cs.LG"
+}

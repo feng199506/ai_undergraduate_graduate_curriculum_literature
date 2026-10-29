@@ -1,0 +1,18 @@
+{
+ "id": "2207.06503",
+ "title": "Randomly pivoted Cholesky: Practical approximation of a kernel matrix with few entry evaluations",
+ "authors": [
+  "Yifan Chen",
+  "Ethan N. Epperly",
+  "Joel A. Tropp",
+  "Robert J. Webber"
+ ],
+ "v1_date": "2022-07-13",
+ "latest_version": 6,
+ "latest_date": "2024-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 4 figures",
+ "abstract": "The randomly pivoted partial Cholesky algorithm (RPCholesky) computes a factorized rank-k approximation of an N x N positive-semidefinite (psd) matrix. RPCholesky requires only (k + 1) N entry evaluations and O(k^2 N) additional arithmetic operations, and it can be implemented with just a few lines of code. The method is particularly useful for approximating a kernel matrix. This paper offers a thorough new investigation of the empirical and theoretical behavior of this fundamental algorithm. For matrix approximation problems that arise in scientific machine learning, experiments show that RPCholesky matches or beats the performance of alternative algorithms. Moreover, RPCholesky provably returns low-rank approximations that are nearly optimal. The simplicity, effectiveness, and robustness of RPCholesky strongly support its use in scientific computing and machine learning applications.",
+ "primary": "math.NA"
+}

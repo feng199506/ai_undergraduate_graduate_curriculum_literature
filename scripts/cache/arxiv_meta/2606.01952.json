@@ -1,0 +1,18 @@
+{
+ "id": "2606.01952",
+ "title": "Randomized Least Squares Value Iteration itself is Joint Differentially Private",
+ "authors": [
+  "Haiyang Lu",
+  "Pratik Gajane",
+  "Shaojie Bai",
+  "Mohammad Sadegh Talebi"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 0 figures",
+ "abstract": "As reinforcement learning (RL) increasingly applies to sensitive domains, such as health care and recommendation systems, privacy-preserving techniques have become essential to protect users' sensitive information. We investigate privacy-preserving RL under an episodic setting, focusing on algorithms based on randomized exploration, such as Randomized Least Squares Value Iteration (RLSVI). The overall goal is to study how randomized exploration interacts with the injected noise required by privacy mechanisms. In this work, we show a new privacy analysis that characterizes how the noise in RLSVI set for exploration simultaneously provides privacy protection. Specifically, we prove that RLSVI is $(\\varepsilon(δ),δ)$-joint differentially private in tabular MDP as is with $\\varepsilon(δ) = \\frac{2AK}{H^2\\log(2HSA)} + 2\\sqrt{\\frac{2AK\\log(1/δ)}{H^2\\log(2HSA)}}$, where $S$ and $A$ are the number of states and actions respectively, $H$ is the length of an episode and $K$ is the number of episodes.",
+ "primary": "cs.LG"
+}

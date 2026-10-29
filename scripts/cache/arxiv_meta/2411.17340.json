@@ -1,0 +1,16 @@
+{
+ "id": "2411.17340",
+ "title": "Vectorization of Persistence Diagrams for Topological Data Analysis in R and Python Using TDAvec Package",
+ "authors": [
+  "Aleksei Luchinsky",
+  "Umar Islambekov"
+ ],
+ "v1_date": "2024-11-26",
+ "latest_version": 3,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 3 figures, 3 tables; minor changes: two more vectorizations are described",
+ "abstract": "Persistent homology is a widely-used tool in topological data analysis (TDA) for understanding the underlying shape of complex data. By constructing a filtration of simplicial complexes from data points, it captures topological features such as connected components, loops, and voids across multiple scales. These features are encoded in persistence diagrams (PDs), which provide a concise summary of the data's topological structure. However, the non-Hilbert nature of the space of PDs poses challenges for their direct use in machine learning applications. To address this, kernel methods and vectorization techniques have been developed to transform PDs into machine-learning-compatible formats. In this paper, we introduce a new software package designed to streamline the vectorization of PDs, offering an intuitive workflow and advanced functionalities. We demonstrate the necessity of the package through practical examples and provide a detailed discussion on its contributions to applied TDA. Definitions of all vectorization summaries used in the package are included in the appendix.",
+ "primary": "math.AT"
+}

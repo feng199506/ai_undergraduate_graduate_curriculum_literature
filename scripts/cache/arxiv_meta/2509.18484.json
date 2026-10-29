@@ -1,0 +1,16 @@
+{
+ "id": "2509.18484",
+ "title": "Estimating Heterogeneous Causal Effect on Networks via Orthogonal Learning",
+ "authors": [
+  "Yuanchen Wu",
+  "Yubai Yuan"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 2,
+ "latest_date": "2026-05-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating causal effects on networks is challenging because treatments may affect both treated units and their neighbors, while network homophily induces dependence and confounding. These challenges are amplified when causal effects are heterogeneous across units and edges. We propose a two-stage orthogonal learning framework for estimating heterogeneous direct and spillover effects on networks. The first stage uses graph neural networks to estimate nuisance components that capture complex dependence on covariates and network structure. The second stage residualizes these nuisance components and estimates causal effects through an interpretable attention-based interference model, yielding edge-level spillover estimates as well as node- and population-level summaries. Neyman orthogonalization and cross-fitting reduce sensitivity to first-stage estimation error, so nuisance errors enter only at higher order. We further develop a bootstrap-based uncertainty quantification procedure for the estimated spillover matrix, enabling pointwise and simultaneous inference for heterogeneous edge- and node-level effects. Experiments show that our method improves heterogeneous effect estimation while supporting interpretable downstream analyses such as influential-neighbor detection and spillover-sign recovery.",
+ "primary": "stat.ML"
+}

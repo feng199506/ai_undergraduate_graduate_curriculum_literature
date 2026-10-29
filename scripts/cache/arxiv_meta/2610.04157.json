@@ -1,0 +1,19 @@
+{
+ "id": "2610.04157",
+ "title": "Mitigating Over-squashing without Rewiring: A Sheaf Effective Resistance Perspective",
+ "authors": [
+  "André Ribeiro",
+  "Germano Barcelos",
+  "Amauri H. Souza",
+  "Diego Mesquita",
+  "Ana Luiza Tenório"
+ ],
+ "v1_date": "2026-10-03",
+ "latest_version": 1,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS 2026",
+ "abstract": "Graph Neural Networks (GNNs) often struggle to capture long-range dependencies due to over-squashing -- a phenomenon in which the repeated compression of node embeddings into finite-size messages causes representations to collapse. Over-squashing is most often diagnosed as a property of the graph topology, with effective resistance serving as a principled measure of the bottleneck. We provide a complementary view on the matter: building on cellular sheaves, we introduce sheaf effective resistance, a generalization of effective resistance that depends on the sheaf attached to the graph, and we prove that for flat vector bundles, the over-squashing sensitivity in the Jacobian sense is upper bounded by a quantity related to the sheaf effective resistance between the nodes. The bottleneck thus need not lie in the graph itself: it can be relocated, and reduced, by adjusting the sheaf. We instantiate this idea in FlatNSD, a simple message-passing variant of Neural Sheaf Diffusion, and show that it implicitly learns to modulate total sheaf effective resistance, performing well on benchmarks designed to stress over-squashing without altering the original graph topology.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2411.18895",
+ "title": "Evaluating Sparse Autoencoders on Targeted Concept Erasure Tasks",
+ "authors": [
+  "Adam Karvonen",
+  "Can Rager",
+  "Samuel Marks",
+  "Neel Nanda"
+ ],
+ "v1_date": "2024-11-28",
+ "latest_version": 1,
+ "latest_date": "2024-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse Autoencoders (SAEs) are an interpretability technique aimed at decomposing neural network activations into interpretable units. However, a major bottleneck for SAE development has been the lack of high-quality performance metrics, with prior work largely relying on unsupervised proxies. In this work, we introduce a family of evaluations based on SHIFT, a downstream task from Marks et al. (Sparse Feature Circuits, 2024) in which spurious cues are removed from a classifier by ablating SAE features judged to be task-irrelevant by a human annotator. We adapt SHIFT into an automated metric of SAE quality; this involves replacing the human annotator with an LLM. Additionally, we introduce the Targeted Probe Perturbation (TPP) metric that quantifies an SAE's ability to disentangle similar concepts, effectively scaling SHIFT to a wider range of datasets. We apply both SHIFT and TPP to multiple open-source models, demonstrating that these metrics effectively differentiate between various SAE training hyperparameters and architectures.",
+ "primary": "cs.LG"
+}

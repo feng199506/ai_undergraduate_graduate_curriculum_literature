@@ -1,0 +1,20 @@
+{
+ "id": "2502.05523",
+ "title": "Adaptive Domain Scaling for Personalized Sequential Modeling in Recommenders",
+ "authors": [
+  "Zheng Chai",
+  "Hui Lu",
+  "Di Chen",
+  "Qin Ren",
+  "Yuchao Zheng",
+  "Xun Zhou"
+ ],
+ "v1_date": "2025-02-08",
+ "latest_version": 3,
+ "latest_date": "2025-04-28",
+ "journal_ref": "Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2025",
+ "doi": "10.1145/3726302.3731939",
+ "comment": "",
+ "abstract": "Users generally exhibit complex behavioral patterns and diverse intentions in multiple business scenarios of super applications like Douyin, presenting great challenges to current industrial multi-domain recommenders. To mitigate the discrepancies across diverse domains, researches and industrial practices generally emphasize sophisticated network structures to accomodate diverse data distributions, while neglecting the inherent understanding of user behavioral sequence from the multi-domain perspective. In this paper, we present Adaptive Domain Scaling (ADS) model, which comprehensively enhances the personalization capability in target-aware sequence modeling across multiple domains. Specifically, ADS comprises of two major modules, including personalized sequence representation generation (PSRG) and personalized candidate representation generation (PCRG). The modules contribute to the tailored multi-domain learning by dynamically learning both the user behavioral sequence item representation and the candidate target item representation under different domains, facilitating adaptive user intention understanding. Experiments are performed on both a public dataset and two billion-scaled industrial datasets, and the extensive results verify the high effectiveness and compatibility of ADS. Besides, we conduct online experiments on two influential business scenarios including Douyin Advertisement Platform and Douyin E-commerce Service Platform, both of which show substantial business improvements. Currently, ADS has been fully deployed in many recommendation services at ByteDance, serving billions of users.",
+ "primary": "cs.IR"
+}

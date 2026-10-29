@@ -1,0 +1,18 @@
+{
+ "id": "2503.10352",
+ "title": "Safe exploration in reproducing kernel Hilbert spaces",
+ "authors": [
+  "Abdullah Tokmak",
+  "Kiran G. Krishnan",
+  "Thomas B. Schön",
+  "Dominik Baumann"
+ ],
+ "v1_date": "2025-03-13",
+ "latest_version": 1,
+ "latest_date": "2025-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AISTATS 2025",
+ "abstract": "Popular safe Bayesian optimization (BO) algorithms learn control policies for safety-critical systems in unknown environments. However, most algorithms make a smoothness assumption, which is encoded by a known bounded norm in a reproducing kernel Hilbert space (RKHS). The RKHS is a potentially infinite-dimensional space, and it remains unclear how to reliably obtain the RKHS norm of an unknown function. In this work, we propose a safe BO algorithm capable of estimating the RKHS norm from data. We provide statistical guarantees on the RKHS norm estimation, integrate the estimated RKHS norm into existing confidence intervals and show that we retain theoretical guarantees, and prove safety of the resulting safe BO algorithm. We apply our algorithm to safely optimize reinforcement learning policies on physics simulators and on a real inverted pendulum, demonstrating improved performance, safety, and scalability compared to the state-of-the-art.",
+ "primary": "cs.LG"
+}

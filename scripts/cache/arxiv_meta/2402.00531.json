@@ -1,0 +1,21 @@
+{
+ "id": "2402.00531",
+ "title": "Preconditioning for Physics-Informed Neural Networks",
+ "authors": [
+  "Songming Liu",
+  "Chang Su",
+  "Jiachen Yao",
+  "Zhongkai Hao",
+  "Hang Su",
+  "Youjia Wu",
+  "Jun Zhu"
+ ],
+ "v1_date": "2024-02-01",
+ "latest_version": 1,
+ "latest_date": "2024-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Physics-informed neural networks (PINNs) have shown promise in solving various partial differential equations (PDEs). However, training pathologies have negatively affected the convergence and prediction accuracy of PINNs, which further limits their practical applications. In this paper, we propose to use condition number as a metric to diagnose and mitigate the pathologies in PINNs. Inspired by classical numerical analysis, where the condition number measures sensitivity and stability, we highlight its pivotal role in the training dynamics of PINNs. We prove theorems to reveal how condition number is related to both the error control and convergence of PINNs. Subsequently, we present an algorithm that leverages preconditioning to improve the condition number. Evaluations of 18 PDE problems showcase the superior performance of our method. Significantly, in 7 of these problems, our method reduces errors by an order of magnitude. These empirical findings verify the critical role of the condition number in PINNs' training.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2604.02684",
+ "title": "MBGR: Multi-Business Prediction for Generative Recommendation at Meituan",
+ "authors": [
+  "Changhao Li",
+  "Junwei Yin",
+  "Zhilin Zeng",
+  "Senjie Kou",
+  "Shuli Wang",
+  "Wenshuai Chen",
+  "Yinhua Zhu",
+  "Haitao Wang",
+  "Xingxing Wang"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 1,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative recommendation (GR) has recently emerged as a promising paradigm for industrial recommendations. GR leverages Semantic IDs (SIDs) to reduce the encoding-decoding space and employs the Next Token Prediction (NTP) framework to explore scaling laws. However, existing GR methods suffer from two critical issues: (1) a \\textbf{seesaw phenomenon} in multi-business scenarios arises due to NTP's inability to capture complex cross-business behavioral patterns; and (2) a unified SID space causes \\textbf{representation confusion} by failing to distinguish distinct semantic information across businesses. To address these issues, we propose Multi-Business Generative Recommendation (MBGR), the first GR framework tailored for multi-business scenarios. Our framework comprises three key components. First, we design a Business-aware semantic ID (BID) module that preserves semantic integrity via domain-aware tokenization. Then, we introduce a Multi-Business Prediction (MBP) structure to provide business-specific prediction capabilities. Furthermore, we develop a Label Dynamic Routing (LDR) module that transforms sparse multi-business labels into dense labels to further enhance the multi-business generation capability. Extensive offline and online experiments on Meituan's food delivery platform validate MBGR's effectiveness, and we have successfully deployed it in production.",
+ "primary": "cs.IR"
+}

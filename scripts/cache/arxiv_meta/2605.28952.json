@@ -1,0 +1,19 @@
+{
+ "id": "2605.28952",
+ "title": "Optimal Rates for Differentially Private Hypothesis Testing with E-values",
+ "authors": [
+  "Ben Jacobsen",
+  "Tomas Gonzalez",
+  "Gavin Brown",
+  "Kassem Fawaz",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 2,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Corrected typos; updated references; generalized proposition 3.1",
+ "abstract": "E-values have attracted considerable interest in recent years as flexible tools for enabling anytime-valid and adaptive data analysis. Hypothesis testing is at the core of many of these applications, which can often involve private or sensitive data. In this work, we answer a simple but important question: given two distributions $\\mathbb{P}$ and $\\mathbb{Q}$, what is the maximum achievable e-power when testing $X\\sim \\mathbb{P}^n$ against $X\\sim\\mathbb{Q}^n$ with e-values that satisfy $\\varepsilon$-differential privacy? We characterize the optimal rate for this problem and provide an algorithm which matches it exactly. In the sequential setting, when observations arrive one-by-one and the analyst chooses when to halt, we give matching upper and lower bounds on the stopping times of any private e-process. Numerical experiments confirm the practicality of our algorithms, which require less data than the recently proposed DP-SPRT across a range of sequential testing problems and privacy levels.",
+ "primary": "cs.CR"
+}

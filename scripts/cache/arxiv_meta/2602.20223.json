@@ -1,0 +1,17 @@
+{
+ "id": "2602.20223",
+ "title": "MultiModalPFN: Extending Prior-Data Fitted Networks for Multimodal Tabular Learning",
+ "authors": [
+  "Wall Kim",
+  "Chaeyoung Song",
+  "Hanul Kim"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 3,
+ "latest_date": "2026-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to CVPR 2026",
+ "abstract": "Recently, TabPFN has gained attention as a foundation model for tabular data. However, it struggles to integrate heterogeneous modalities such as images and text, which are common in domains like healthcare and marketing, thereby limiting its applicability. To address this, we present the Multi-Modal Prior-data Fitted Network (MMPFN), which extends TabPFN to handle tabular and non-tabular modalities in a unified manner. MMPFN comprises per-modality encoders, modality projectors, and pre-trained foundation models. The modality projectors serve as the critical bridge, transforming non-tabular embeddings into tabular-compatible tokens for unified processing. To this end, we introduce a multi-head gated MLP and a cross-attention pooler that extract richer context from non-tabular inputs while mitigates attention imbalance issue in multimodal learning. Extensive experiments on medical and general-purpose multimodal datasets demonstrate that MMPFN consistently outperforms competitive state-of-the-art methods and effectively exploits non-tabular modalities alongside tabular features. These results highlight the promise of extending prior-data fitted networks to the multimodal setting, offering a scalable and effective framework for heterogeneous data learning. The source code is available at https://github.com/too-z/MultiModalPFN.",
+ "primary": "cs.LG"
+}

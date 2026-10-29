@@ -1,0 +1,17 @@
+{
+ "id": "2604.19444",
+ "title": "Binary Agreement for Efficient Unsupervised Confidence Calibration of Reasoning LLMs",
+ "authors": [
+  "Thomas Zollo",
+  "Jimmy Wang",
+  "Richard Zemel"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 2,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 7 tables, 18 figures; v2: updated method and experiments",
+ "abstract": "Reasoning language models often lack the calibrated confidence needed for reliable deployment, particularly when correctness labels are unavailable and sampling budgets are limited. We introduce Binary Agreement for Self-consistency Calibration (BASC), which uses self-consistency as an unlabeled proxy for correctness without constructing costly self-consistency targets for each calibration query. Our key observation is that agreement between an anchor response and a single independent probe is a Bernoulli observation whose conditional mean is the anchor's latent self-consistency. Pooling these observations across unlabeled queries, BASC supports both recalibrating existing confidence scores and learning more discriminative scores before recalibration, using as few as two responses per calibration query and only one at deployment. The use of binary isotonic recalibration provides a distribution-free calibration guarantee with respect to latent self-consistency. Across 5 tasks and 9 reasoning models, BASC substantially improves calibration with respect to correctness.",
+ "primary": "cs.LG"
+}

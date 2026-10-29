@@ -1,0 +1,27 @@
+{
+ "id": "2409.03797",
+ "title": "NESTFUL: A Benchmark for Evaluating LLMs on Nested Sequences of API Calls",
+ "authors": [
+  "Kinjal Basu",
+  "Ibrahim Abdelaziz",
+  "Kiran Kate",
+  "Mayank Agarwal",
+  "Maxwell Crouse",
+  "Yara Rizk",
+  "Kelsey Bradford",
+  "Asim Munawar",
+  "Sadhana Kumaravel",
+  "Saurabh Goyal",
+  "Xin Wang",
+  "Luis A. Lastras",
+  "Pavan Kapanipathi"
+ ],
+ "v1_date": "2024-09-04",
+ "latest_version": 3,
+ "latest_date": "2025-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The resurgence of autonomous agents built using large language models (LLMs) to solve complex real-world tasks has brought increased focus on LLMs' fundamental ability of tool or function calling. At the core of these agents, an LLM must plan, execute, and respond using external tools, APIs, and custom functions. Research on tool calling has gathered momentum, but evaluation benchmarks and datasets representing the complexity of the tasks have lagged behind. In this work, we focus on one such complexity, nested sequencing, with the goal of extending existing benchmarks and evaluation. Specifically, we present NESTFUL, a benchmark to evaluate LLMs on nested sequences of API calls, i.e., sequences where the output of one API call is passed as input to a subsequent call. NESTFUL contains 1800+ nested sequences where all the function calls are executable. Experimental results on a variety of models show that the best-performing model (GPT-4o) achieves a full sequence match accuracy of 28% and a win-rate of 60%, necessitating a large scope for improvement in the nested sequencing aspect of function calling. Our analysis of these results provides possible future research directions for the community, in addition to a benchmark to track progress. We have released the NESTFUL dataset under the Apache 2.0 license at https://github.com/IBM/NESTFUL.",
+ "primary": "cs.AI"
+}

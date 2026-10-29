@@ -1,0 +1,16 @@
+{
+ "id": "2510.07750",
+ "title": "Calibrating Decision Robustness via Inverse Conformal Risk Control",
+ "authors": [
+  "Wenbin Zhou",
+  "Shixiang Zhu"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 3,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robust optimization safeguards decisions against uncertainty by optimizing against worst-case scenarios, yet their effectiveness hinges on a prespecified robustness level that is often chosen ad hoc, leading to either insufficient protection or overly conservative and costly solutions. Recent approaches using conformal prediction construct data-driven uncertainty sets with finite-sample coverage guarantees, but they still fix coverage targets a priori and offer little guidance for selecting robustness levels. We propose a new framework that provides distribution-free, finite-sample guarantees on both miscoverage and regret for any family of robust predict-then-optimize policies. Our method constructs valid estimators that trace out the miscoverage--regret Pareto frontier, enabling decision-makers to reliably evaluate and calibrate robustness levels according to their cost--risk preferences. The framework is simple to implement, broadly applicable across classical optimization formulations, and achieves sharper finite-sample performance. This paper offers a principled data-driven methodology for guiding robustness selection and empowers practitioners to balance robustness and conservativeness in high-stakes decision-making.",
+ "primary": "stat.ML"
+}

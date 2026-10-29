@@ -1,0 +1,21 @@
+{
+ "id": "2505.09113",
+ "title": "Sequential Treatment Effect Estimation with Unmeasured Confounders",
+ "authors": [
+  "Yingrong Wang",
+  "Anpeng Wu",
+  "Baohong Li",
+  "Ziyang Xiao",
+  "Ruoxuan Xiong",
+  "Qing Han",
+  "Kun Kuang"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 1,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the cumulative causal effects of sequential treatments in the presence of unmeasured confounders. It is a critical issue in sequential decision-making scenarios where treatment decisions and outcomes dynamically evolve over time. Advanced causal methods apply transformer as a backbone to model such time sequences, which shows superiority in capturing long time dependence and periodic patterns via attention mechanism. However, even they control the observed confounding, these estimators still suffer from unmeasured confounders, which influence both treatment assignments and outcomes. How to adjust the latent confounding bias in sequential treatment effect estimation remains an open challenge. Therefore, we propose a novel Decomposing Sequential Instrumental Variable framework for CounterFactual Regression (DSIV-CFR), relying on a common negative control assumption. Specifically, an instrumental variable (IV) is a special negative control exposure, while the previous outcome serves as a negative control outcome. This allows us to recover the IVs latent in observation variables and estimate sequential treatment effects via a generalized moment condition. We conducted experiments on 4 datasets and achieved significant performance in one- and multi-step prediction, supported by which we can identify optimal treatments for dynamic systems.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "2604.00590",
+ "title": "UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems",
+ "authors": [
+  "Mingming Ha",
+  "Guanchen Wang",
+  "Linxun Chen",
+  "Xuan Rao",
+  "Yuexin Shi",
+  "Tianbao Ma",
+  "Zhaojie Liu",
+  "Yunqian Fan",
+  "Zilong Lu",
+  "Yanan Niu",
+  "Han Li",
+  "Kun Gai"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 2,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, the scaling laws of recommendation models have attracted increasing attention, which govern the relationship between performance and parameters/FLOPs of recommenders. Currently, there are three mainstream architectures for achieving scaling in recommendation models, namely attention-based, TokenMixer-based, and factorization-machine-based methods, which exhibit fundamental differences in both design philosophy and architectural structure. In this paper, we propose a unified scaling architecture for recommendation systems, namely \\textbf{UniMixer}, to improve scaling efficiency and establish a unified theoretical framework that unifies the mainstream scaling blocks. By transforming the rule-based TokenMixer to an equivalent parameterized structure, we construct a generalized parameterized feature mixing module that allows the token mixing patterns to be optimized and learned during model training. Meanwhile, the generalized parameterized token mixing removes the constraint in TokenMixer that requires the number of heads to be equal to the number of tokens. Furthermore, we establish a unified scaling module design framework for recommender systems, which bridges the connections among attention-based, TokenMixer-based, and factorization-machine-based methods. To further boost scaling ROI, a lightweight UniMixing module is designed, \\textbf{UniMixing-Lite}, which further compresses the model parameters and computational cost while significantly improve the model performance. The scaling curves are shown in the following figure. Extensive offline and online experiments are conducted to verify the superior scaling abilities of \\textbf{UniMixer}.",
+ "primary": "cs.IR"
+}

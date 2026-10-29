@@ -1,0 +1,24 @@
+{
+ "id": "2310.18859",
+ "title": "SiDA-MoE: Sparsity-Inspired Data-Aware Serving for Efficient and Scalable Large Mixture-of-Experts Models",
+ "authors": [
+  "Zhixu Du",
+  "Shiyu Li",
+  "Yuhao Wu",
+  "Xiangyu Jiang",
+  "Jingwei Sun",
+  "Qilin Zheng",
+  "Yongkai Wu",
+  "Ang Li",
+  "Hai \"Helen\" Li",
+  "Yiran Chen"
+ ],
+ "v1_date": "2023-10-29",
+ "latest_version": 2,
+ "latest_date": "2024-05-17",
+ "journal_ref": "Seventh Conference on Machine Learning and Systems, (2024)",
+ "doi": "",
+ "comment": "Published on MLSys24. https://openreview.net/forum?id=q26ydTFF5j}",
+ "abstract": "Mixture-of-Experts (MoE) has emerged as a favorable architecture in the era of large models due to its inherent advantage, i.e., enlarging model capacity without incurring notable computational overhead. Yet, the realization of such benefits often results in ineffective GPU memory utilization, as large portions of the model parameters remain dormant during inference. Moreover, the memory demands of large models consistently outpace the memory capacity of contemporary GPUs. Addressing this, we introduce SiDA-MoE ($\\textbf{S}$parsity-$\\textbf{i}$nspired $\\textbf{D}$ata-$\\textbf{A}$ware), an efficient inference approach tailored for large MoE models. SiDA-MoE judiciously exploits both the system's main memory, which is now abundant and readily scalable, and GPU memory by capitalizing on the inherent sparsity on expert activation in MoE models. By adopting a data-aware perspective, SiDA-MoE achieves enhanced model efficiency with a neglectable performance drop. Specifically, SiDA-MoE attains a remarkable speedup in MoE inference with up to $3.93\\times$ throughput increasing, up to $72\\%$ latency reduction, and up to $80\\%$ GPU memory saving with down to $1\\%$ performance drop. This work paves the way for scalable and efficient deployment of large MoE models, even with constrained resources. Code is available at: https://github.com/timlee0212/SiDA-MoE.",
+ "primary": "cs.LG"
+}

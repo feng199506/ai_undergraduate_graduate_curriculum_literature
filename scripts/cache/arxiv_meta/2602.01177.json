@@ -1,0 +1,17 @@
+{
+ "id": "2602.01177",
+ "title": "Privacy Implies Stability: Information-Theoretic Generalization Bounds for Quantum Learning",
+ "authors": [
+  "Ayanava Dasgupta",
+  "Naqueeb Ahmad Warsi",
+  "Masahito Hayashi"
+ ],
+ "v1_date": "2026-02-01",
+ "latest_version": 3,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 3 figures; The introduction has been substantially rewritten to provide better context, and certain proofs have been relocated from the appendices to the main body of the paper; The core mathematical framework and technical results remain unchanged",
+ "abstract": "We develop an information-theoretic framework connecting stability, privacy, and generalization for quantum learning algorithms. Learning procedures are modeled as quantum instruments with classical-quantum outputs, and losses are represented by observables. We prove that under a classical-quantum sub-Gaussian condition, an information-theoretic stability measure controls the expected generalization error. Furthermore, we establish a high-probability generalization bound using quantum Rényi divergences to manage higher-order dependencies under non-commutativity. In the trusted Data Processor setting, quantum differential privacy (QDP) provides a mechanism for stability. We show that one-neighbor QDP strictly bounds the information leaked by the classical-quantum output. Combining this with our stability theorem yields a direct privacy-to-generalization guarantee. We also explore an untrusted Data Processor setting. Here, output privacy alone is insufficient since an adversarial processor could perform a highly informative procedure before applying noisy post-processing. To combat this, we introduce Information-Theoretic Admissibility (ITA), a certification condition ensuring the prescribed procedure is not just a degraded version of a strictly more informative, physically allowed operation on the encoded ensemble. We prove a fundamental separation: while admissibility and privacy are in strong tension in classical models, quantum non-orthogonality makes them compatible. A quantum measurement can be ITA - exhausting all relevant accessible information - without perfectly recovering the classical dataset. We illustrate this separation through a concrete quantum ITA example.",
+ "primary": "quant-ph"
+}

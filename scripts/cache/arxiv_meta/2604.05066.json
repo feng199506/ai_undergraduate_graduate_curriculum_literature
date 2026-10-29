@@ -1,0 +1,18 @@
+{
+ "id": "2604.05066",
+ "title": "AutoLALA: Automatic Loop Algebraic Locality Analysis for AI and HPC Kernels",
+ "authors": [
+  "Yifan Zhu",
+  "Yekai Pan",
+  "Yanghui Wu",
+  "Chen Ding"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 1,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data movement is the primary bottleneck in modern computing systems. For loop-based programs common in high-performance computing (HPC) and AI workloads, including matrix multiplication, tensor contraction, stencil computation, and einsum operations, the cost of moving data through the memory hierarchy often exceeds the cost of arithmetic. This paper presents AutoLALA, an open-source tool that analyzes data locality in affine loop programs. The tool accepts programs written in a small domain-specific language (DSL), lowers them to polyhedral sets and maps, and produces closed-form symbolic formulas for reuse distance and data movement complexity. AutoLALA implements the fully symbolic locality analysis of Zhu et al. together with the data movement distance (DMD) framework of Smith et al. In particular, it computes reuse distance as the image of the access space under the access map, avoiding both stack simulation and Denning's recursive working-set formulation. We describe the DSL syntax and its formal semantics, the polyhedral lowering pipeline that constructs timestamp spaces and access maps via affine transformations, and the sequence of Barvinok counting operations used to derive symbolic reuse-interval and reuse-distance distributions. The system is implemented in Rust as a modular library spanning three crates, with safe bindings to the Barvinok library. We provide both a command-line interface and an interactive web playground with LaTeX rendering of the output formulas. The tool handles arbitrary affine loop nests, covering workloads such as tensor contractions, einsum expressions, stencil computations, and general polyhedral programs.",
+ "primary": "cs.PL"
+}

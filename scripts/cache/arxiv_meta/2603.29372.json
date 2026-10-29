@@ -1,0 +1,17 @@
+{
+ "id": "2603.29372",
+ "title": "Relaxed Greedy Randomized Kaczmarz with Signal Averaging for Solving Doubly-Noisy Linear Systems",
+ "authors": [
+  "Lu Zhang",
+  "Jinchuan Zeng",
+  "Hui Zhang"
+ ],
+ "v1_date": "2026-03-31",
+ "latest_version": 1,
+ "latest_date": "2026-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 4 figures",
+ "abstract": "Large-scale linear systems of the form $Ax=b$ are often doubly-noisy, in the sense that both its measurement matrix $A$ and measurement vector $b$ are noisy. In this paper, we extend the relaxed greedy randomized Kaczmarz (RGRK) method to the doubly-noisy systems to accelerate convergence. However, RGRK fails to converge to the least-squares solution for doubly-noisy systems. To address this limitation, we propose a simple modification: averaging multiple measurements instead of using a single measurement. The proposed RGRK with signal averaging (RGRK-SA) converges to the solution of doubly-noisy systems at a polynomial rate. Numerical experiments demonstrate that both RGRK and RGRK-SA outperform the classical randomized Kaczmarz method, and RGRK-SA has a higher accuracy.",
+ "primary": "math.NA"
+}

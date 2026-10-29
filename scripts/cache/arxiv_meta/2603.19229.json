@@ -1,0 +1,25 @@
+{
+ "id": "2603.19229",
+ "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
+ "authors": [
+  "Huaide Jiang",
+  "Yash Chaudhary",
+  "Yuping Wang",
+  "Zehao Wang",
+  "Raghav Sharma",
+  "Manan Mehta",
+  "Yang Zhou",
+  "Lichao Sun",
+  "Zhiwen Fan",
+  "Zhengzhong Tu",
+  "Jiachen Li"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 2,
+ "latest_date": "2026-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026); Project Website: https://navtrust.github.io",
+ "abstract": "There are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object. However, existing work primarily evaluates model performance under nominal conditions, overlooking the potential corruptions that arise in real-world settings. To address this gap, we present NavTrust, a unified benchmark that systematically corrupts input modalities, including RGB, depth, and instructions, in realistic scenarios and evaluates their impact on navigation performance. To our best knowledge, NavTrust is the first benchmark that exposes embodied navigation agents to diverse RGB-Depth corruptions and instruction variations in a unified framework. Our extensive evaluation of seven state-of-the-art approaches reveals substantial performance degradation under realistic corruptions, which highlights critical robustness gaps and provides a roadmap toward more trustworthy embodied navigation systems. Furthermore, we systematically evaluate four distinct mitigation strategies to enhance robustness against RGB-Depth and instruction corruptions. Our base models include Uni-NaVid and ETPNav. We deployed them on a real mobile robot and observed improved robustness to corruptions. The project website is: https://navtrust.github.io/.",
+ "primary": "cs.RO"
+}

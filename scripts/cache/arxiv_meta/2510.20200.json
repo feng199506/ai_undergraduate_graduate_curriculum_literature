@@ -1,0 +1,17 @@
+{
+ "id": "2510.20200",
+ "title": "Approximate Replicability in Learning",
+ "authors": [
+  "Max Hopkins",
+  "Russell Impagliazzo",
+  "Christopher Ye"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 2,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "73 pages, 1 figure",
+ "abstract": "Replicability, introduced by (Impagliazzo et al. STOC '22), is the notion that algorithms should remain stable under a resampling of their inputs (given access to shared randomness). While a strong and interesting notion of stability, the cost of replicability can be prohibitive: there is no replicable algorithm, for instance, for tasks as simple as threshold learning (Bun et al. STOC '23). Given such strong impossibility results we ask: under what approximate notions of replicability is learning possible? In this work, we propose three natural relaxations of replicability in the context of PAC learning: (1) Pointwise: the learner must be consistent on any fixed input, but not across all inputs simultaneously, (2) Approximate: the learner must output hypotheses that classify most of the distribution consistently, (3) Semi: the algorithm is fully replicable, but may additionally use shared unlabeled samples. In all three cases, for constant replicability we obtain close to sample-optimal agnostic PAC learners: 1) and 2) are achievable using $O(d/α^2 + 1/α^{4})$ samples, while 3) requires $Θ(d^2/α^2)$ labeled samples.",
+ "primary": "cs.LG"
+}

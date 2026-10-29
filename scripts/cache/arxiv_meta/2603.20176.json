@@ -1,0 +1,19 @@
+{
+ "id": "2603.20176",
+ "title": "LagerNVS: Latent Geometry for Fully Neural Real-time Novel View Synthesis",
+ "authors": [
+  "Stanislaw Szymanowicz",
+  "Minghao Chen",
+  "Jianyuan Wang",
+  "Christian Rupprecht",
+  "Andrea Vedaldi"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 3,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "IEEE CVF Conference on Computer Vision and Pattern Recognition 2026. Project page with code, models and examples: szymanowiczs.github.io/lagernvs",
+ "abstract": "Recent work has shown that neural networks can perform 3D tasks such as Novel View Synthesis (NVS) without explicit 3D reconstruction. Even so, we argue that strong 3D inductive biases are still helpful in the design of such networks. We show this point by introducing LagerNVS, an encoder-decoder neural network for NVS that builds on `3D-aware' latent features. The encoder is initialized from a 3D reconstruction network pre-trained using explicit 3D supervision. This is paired with a lightweight decoder, and trained end-to-end with photometric losses. LagerNVS achieves state-of-the-art deterministic feed-forward Novel View Synthesis (including 31.4 PSNR on Re10k), with and without known cameras, renders in real time, generalizes to in-the-wild data, and can be paired with a diffusion decoder for generative extrapolation.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2312.16242",
+ "title": "ShiftKD: Benchmarking Knowledge Distillation under Distribution Shift",
+ "authors": [
+  "Songming Zhang",
+  "Yuxiao Luo",
+  "Ziyu Lyu",
+  "Xiaofeng Chen"
+ ],
+ "v1_date": "2023-12-25",
+ "latest_version": 3,
+ "latest_date": "2025-07-19",
+ "journal_ref": "Neural Networks (2025): 107838",
+ "doi": "10.1016/j.neunet.2025.107838",
+ "comment": "Code:https://github.com/ZZhangsm/OOKD",
+ "abstract": "Knowledge Distillation (KD) transfers knowledge from large models to small models and has recently achieved remarkable success. However, the reliability of existing KD methods in real-world applications, especially under distribution shift, remains underexplored. Distribution shift refers to the data distribution drifts between the training and testing phases, and this can adversely affect the efficacy of KD. In this paper, we propose a unified and systematic framework \\textsc{ShiftKD} to benchmark KD against two general distributional shifts: diversity and correlation shift. The evaluation benchmark covers more than 30 methods from algorithmic, data-driven, and optimization perspectives for five benchmark datasets. Our development of \\textsc{ShiftKD} conducts extensive experiments and reveals strengths and limitations of current SOTA KD methods. More importantly, we thoroughly analyze key factors in student model training process, including data augmentation, pruning methods, optimizers, and evaluation metrics. We believe \\textsc{ShiftKD} could serve as an effective benchmark for assessing KD in real-world scenarios, thus driving the development of more robust KD methods in response to evolving demands. The code will be made available upon publication.",
+ "primary": "cs.LG"
+}

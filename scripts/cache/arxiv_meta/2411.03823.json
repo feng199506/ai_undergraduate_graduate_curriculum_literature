@@ -1,0 +1,20 @@
+{
+ "id": "2411.03823",
+ "title": "Both Text and Images Leaked! A Systematic Analysis of Data Contamination in Multimodal LLM",
+ "authors": [
+  "Dingjie Song",
+  "Sicheng Lai",
+  "Mingxuan Wang",
+  "Shunian Chen",
+  "Lichao Sun",
+  "Benyou Wang"
+ ],
+ "v1_date": "2024-11-06",
+ "latest_version": 3,
+ "latest_date": "2025-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to EMNLP 2025 Findings",
+ "abstract": "The rapid advancement of multimodal large language models (MLLMs) has significantly enhanced performance across benchmarks. However, data contamination-unintentional memorization of benchmark data during model training-poses critical challenges for fair evaluation. Existing detection methods for unimodal large language models (LLMs) are inadequate for MLLMs due to multimodal data complexity and multi-phase training. We systematically analyze multimodal data contamination using our analytical framework, MM-Detect, which defines two contamination categories-unimodal and cross-modal-and effectively quantifies contamination severity across multiple-choice and caption-based Visual Question Answering tasks. Evaluations on twelve MLLMs and five benchmarks reveal significant contamination, particularly in proprietary models and older benchmarks. Crucially, contamination sometimes originates during unimodal pre-training rather than solely from multimodal fine-tuning. Our insights refine contamination understanding, guiding evaluation practices and improving multimodal model reliability.",
+ "primary": "cs.CV"
+}

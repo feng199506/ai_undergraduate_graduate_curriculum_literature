@@ -1,0 +1,16 @@
+{
+ "id": "2512.18763",
+ "title": "Gaussian-Mixture-Model Q-Functions for Policy Iteration in Reinforcement Learning",
+ "authors": [
+  "Minh Vu",
+  "Konstantinos Slavakis"
+ ],
+ "v1_date": "2025-12-21",
+ "latest_version": 2,
+ "latest_date": "2026-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This work has been submitted to the IEEE for possible publication",
+ "abstract": "Unlike their conventional use as estimators of probability density functions in reinforcement learning (RL), this paper introduces a novel function-approximation role for Gaussian mixture models (GMMs) as direct surrogates for Q-function losses. The proposed estimators, termed GMM-QFs, possess substantial representational capacity, as they are shown to be universal approximators over a broad class of functions. They are further embedded within Bellman residuals, where their learnable parameters--a fixed number of mixing weights, together with Gaussian mean vectors and covariance matrices--are inferred from data via optimization on a product Riemannian manifold. This geometric perspective on the parameter space naturally introduces Riemannian optimization into the policy-evaluation step of standard policy-iteration (PI) frameworks. Moreover, rigorous theoretical analysis establishes performance bounds on Q-function estimation error under the proposed PI scheme. Supporting numerical tests show that GMM-QFs deliver competitive performance and, in some cases, outperform state-of-the-art approaches across a range of benchmark RL tasks, all while maintaining a significantly smaller computational footprint than deep-learning methods.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2410.09254",
+ "title": "Few Exemplar-Based General Medical Image Segmentation via Domain-Aware Selective Adaptation",
+ "authors": [
+  "Chen Xu",
+  "Qiming Huang",
+  "Yuqi Hou",
+  "Jiangxing Wu",
+  "Fan Zhang",
+  "Hyung Jin Chang",
+  "Jianbo Jiao"
+ ],
+ "v1_date": "2024-10-11",
+ "latest_version": 2,
+ "latest_date": "2024-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepcted in ACCV 2024",
+ "abstract": "Medical image segmentation poses challenges due to domain gaps, data modality variations, and dependency on domain knowledge or experts, especially for low- and middle-income countries (LMICs). Whereas for humans, given a few exemplars (with corresponding labels), we are able to segment different medical images even without exten-sive domain-specific clinical training. In addition, current SAM-based medical segmentation models use fine-grained visual prompts, such as the bounding rectangle generated from manually annotated target segmentation mask, as the bounding box (bbox) prompt during the testing phase. However, in actual clinical scenarios, no such precise prior knowledge is available. Our experimental results also reveal that previous models nearly fail to predict when given coarser bbox prompts. Considering these issues, in this paper, we introduce a domain-aware selective adaptation approach to adapt the general knowledge learned from a large model trained with natural images to the corresponding medical domains/modalities, with access to only a few (e.g. less than 5) exemplars. Our method mitigates the aforementioned limitations, providing an efficient and LMICs-friendly solution. Extensive experimental analysis showcases the effectiveness of our approach, offering potential advancements in healthcare diagnostics and clinical applications in LMICs.",
+ "primary": "cs.CV"
+}

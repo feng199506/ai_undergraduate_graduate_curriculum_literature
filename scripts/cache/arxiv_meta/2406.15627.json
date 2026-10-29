@@ -1,0 +1,29 @@
+{
+ "id": "2406.15627",
+ "title": "Benchmarking Uncertainty Quantification Methods for Large Language Models with LM-Polygraph",
+ "authors": [
+  "Roman Vashurin",
+  "Ekaterina Fadeeva",
+  "Artem Vazhentsev",
+  "Lyudmila Rvanova",
+  "Akim Tsvigun",
+  "Daniil Vasilev",
+  "Rui Xing",
+  "Abdelrahman Boda Sadallah",
+  "Kirill Grishchenkov",
+  "Sergey Petrakov",
+  "Alexander Panchenko",
+  "Timothy Baldwin",
+  "Preslav Nakov",
+  "Maxim Panov",
+  "Artem Shelmanov"
+ ],
+ "v1_date": "2024-06-21",
+ "latest_version": 4,
+ "latest_date": "2025-06-30",
+ "journal_ref": "Transactions of the Association for Computational Linguistics, 13 (2025) 220-248",
+ "doi": "10.1162/tacl_a_00737",
+ "comment": "Published at TACL 2025, presented at ACL 2025. Roman Vashurin, Ekaterina Fadeeva, Artem Vazhentsev contributed equally",
+ "abstract": "The rapid proliferation of large language models (LLMs) has stimulated researchers to seek effective and efficient approaches to deal with LLM hallucinations and low-quality outputs. Uncertainty quantification (UQ) is a key element of machine learning applications in dealing with such challenges. However, research to date on UQ for LLMs has been fragmented in terms of techniques and evaluation methodologies. In this work, we address this issue by introducing a novel benchmark that implements a collection of state-of-the-art UQ baselines and offers an environment for controllable and consistent evaluation of novel UQ techniques over various text generation tasks. Our benchmark also supports the assessment of confidence normalization methods in terms of their ability to provide interpretable scores. Using our benchmark, we conduct a large-scale empirical investigation of UQ and normalization techniques across eleven tasks, identifying the most effective approaches. Code: https://github.com/IINemo/lm-polygraph Benchmark: https://huggingface.co/LM-Polygraph",
+ "primary": "cs.CL"
+}

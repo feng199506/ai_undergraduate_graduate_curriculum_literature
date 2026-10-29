@@ -1,0 +1,15 @@
+{
+ "id": "2511.12840",
+ "title": "Benign Overfitting in Linear Classifiers with a Bias Term",
+ "authors": [
+  "Yuta Kondo"
+ ],
+ "v1_date": "2025-11-16",
+ "latest_version": 2,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Overparameterized models often generalize well even when they interpolate noisy training data. This is known as benign overfitting. For linear classification, Hashimoto et al. (2025) analyzed the phenomenon under a broad class of mixture distributions, but only for homogeneous classifiers without a bias term. We extend their framework to classifiers with an intercept. Benign overfitting still occurs, but the intercept perturbs the normalized Gram matrix of the noise and creates extra constraints on the covariance. These constraints are strongest with label noise. Their effect depends on the covariance: under isotropic noise they are dominated by the homogeneous conditions, while in anisotropic or noisy regimes they can raise the dimensionality needed for benign generalization. Thus the bias term changes the theory in some covariance regimes and leaves the asymptotic thresholds unchanged in others.",
+ "primary": "stat.ML"
+}

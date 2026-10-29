@@ -1,0 +1,16 @@
+{
+ "id": "2605.02593",
+ "title": "Gradient Boosted Risk Scores",
+ "authors": [
+  "Costa Georgantas",
+  "Jonas Richiardi"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 1,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Risk scores are an interpretable and actionable class of machine learning models with applications in medicine, insurance, and risk management. Unlike most computational methods, risk scores are designed to be computed by a human by attributing points to a data sample based on a limited set of criteria. The most common approaches for generating risk scores use linear regressions to estimate the effect of selected variables. We propose a simple and effective approach towards building compact and predictive risk scores. We provide an algorithm based on gradient boosting that is capable of modeling nonlinear effects, along with a C++ implementation with Python and R bindings. Through extensive empirical evaluation on twelve tabular datasets spanning regression, classification, and time-to-event tasks, we show that our method achieves competitive predictive performance while producing substantially more compact scores than regression-based alternatives, with 60% fewer rules for classification tasks and 16% fewer rules for time-to-event tasks on average, compared to AutoScore.",
+ "primary": "cs.LG"
+}

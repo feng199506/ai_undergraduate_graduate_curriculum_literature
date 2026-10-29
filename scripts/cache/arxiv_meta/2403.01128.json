@@ -1,0 +1,15 @@
+{
+ "id": "2403.01128",
+ "title": "Sensitivity Analysis On Loss Landscape",
+ "authors": [
+  "Salman Faroz"
+ ],
+ "v1_date": "2024-03-02",
+ "latest_version": 2,
+ "latest_date": "2024-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gradients can be employed for sensitivity analysis. Here, we leverage the advantages of the Loss Landscape to comprehend which independent variables impact the dependent variable. We seek to grasp the loss landscape by utilizing first, second, and third derivatives through automatic differentiation. we know that Spearman's rank correlation coefficient can detect the monotonic relationship between two variables. However, I have found that second-order gradients, with certain configurations and parameters, provide information that can be visualized similarly to Spearman results, In this approach, we incorporate a loss function with an activation function, resulting in a non-linear pattern. Each exploration of the loss landscape through retraining yields new valuable information. Furthermore, the first and third derivatives are also beneficial, as they indicate the extent to which independent variables influence the dependent variable.",
+ "primary": "cs.LG"
+}

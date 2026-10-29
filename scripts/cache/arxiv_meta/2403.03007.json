@@ -1,0 +1,18 @@
+{
+ "id": "2403.03007",
+ "title": "Scalable and Calibrated Sampling for Bayesian Generalized Linear Mixed Model via Stochastic Gradient Markov Chain Monte Carlo",
+ "authors": [
+  "Youngsoo Baek",
+  "Andrea Agazzi",
+  "Felipe A. Medeiros",
+  "Samuel I. Berchuck"
+ ],
+ "v1_date": "2024-03-05",
+ "latest_version": 4,
+ "latest_date": "2026-06-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 5 figures",
+ "abstract": "Generalized linear mixed models (GLMMs) are widely used for analyzing correlated data, particularly in large-scale biomedical and social science applications. Scalable Bayesian inference for GLMMs is challenging due to an intractable marginal likelihood and a high computational cost incurred by conventional Markov chain Monte Carlo (MCMC) methods. We develop a stochastic gradient MCMC (SGMCMC) algorithm tailored to GLMMs that enables accurate posterior inference in the large-sample regime. Our approach uses Fisher's identity to construct a (biased) Monte Carlo estimator of the gradient of the marginal log-likelihood, making SGMCMC feasible when direct gradient computation is impossible. We analyze the additional variability, introduced by both data subsampling and gradient approximation, to derive a post-hoc covariance correction that yields properly calibrated posterior uncertainty. We show through simulated studies that the proposed method provides accurate posterior means and variances in settings with a large number of groups, outperforming existing approaches, including control variate methods. We further demonstrate the method's practical utility in an analysis of electronic health records data, where accounting for variance inflation materially changes scientific conclusions.",
+ "primary": "stat.CO"
+}

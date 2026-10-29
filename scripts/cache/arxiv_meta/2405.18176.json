@@ -1,0 +1,17 @@
+{
+ "id": "2405.18176",
+ "title": "SEMF: Supervised Expectation-Maximization Framework for Predicting Intervals",
+ "authors": [
+  "Ilia Azizi",
+  "Marc-Olivier Boldi",
+  "Valérie Chavez-Demoulin"
+ ],
+ "v1_date": "2024-05-28",
+ "latest_version": 5,
+ "latest_date": "2025-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work introduces the Supervised Expectation-Maximization Framework (SEMF), a versatile and model-agnostic approach for generating prediction intervals with any ML model. SEMF extends the Expectation-Maximization algorithm, traditionally used in unsupervised learning, to a supervised context, leveraging latent variable modeling for uncertainty estimation. Through extensive empirical evaluation of diverse simulated distributions and 11 real-world tabular datasets, SEMF consistently produces narrower prediction intervals while maintaining the desired coverage probability, outperforming traditional quantile regression methods. Furthermore, without using the quantile (pinball) loss, SEMF allows point predictors, including gradient-boosted trees and neural networks, to be calibrated with conformal quantile regression. The results indicate that SEMF enhances uncertainty quantification under diverse data distributions and is particularly effective for models that otherwise struggle with inherent uncertainty representation.",
+ "primary": "stat.ML"
+}

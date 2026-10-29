@@ -1,0 +1,20 @@
+{
+ "id": "2604.27089",
+ "title": "AutoSP: Unlocking Long-Context LLM Training Via Compiler-Based Sequence Parallelism",
+ "authors": [
+  "Ahan Gupta",
+  "Zhihao Wang",
+  "Neel Dani",
+  "Masahiro Tanaka",
+  "Olatunji Ruwase",
+  "Minjia Zhang"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 1,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 9 figures, 1 table",
+ "abstract": "Large-language-models (LLMs) demonstrate enormous utility in long-context tasks which require processing prompts that consist of tens to hundreds of thousands of tokens. However, existing LLM training libraries do not provide easy to use abstractions to optimize for long-context training, instead focusing on optimizations for models with large parameter counts through ZeRO-3/FSDP, Tensor and Pipeline parallelism. This forces users to rewrite LLM training libraries to incorporate compositions of various complex long-context optimizations, such as sequence-parallelism, to training pipelines; a process that requires in-depth expertise, reducing developer productivity. To tackle these challenges, we introduce AutoSP: the first automated solution to automatically optimize LLM training for longer-contexts. AutoSP compiles models and applies a targeted set of optimizations: automated sequence parallelism, and long-context aware activation-checkpointing, to drastically enhance LLM trainability at negligible cost to throughput. Our evaluation demonstrates AutoSP's capability on both NVIDIA and AMD hardware, increasing training contexts by upto 2.7$\\times$ and 2.5$\\times$ respectively over competitive hand-written baseline at negligible cost to runtime performance.",
+ "primary": "cs.LG"
+}

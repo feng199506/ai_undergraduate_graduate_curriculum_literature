@@ -1,0 +1,18 @@
+{
+ "id": "2407.21535",
+ "title": "Probabilistic Scoring Lists for Interpretable Machine Learning",
+ "authors": [
+  "Jonas Hanselle",
+  "Stefan Heid",
+  "Johannes Fürnkranz",
+  "Eyke Hüllermeier"
+ ],
+ "v1_date": "2024-07-31",
+ "latest_version": 1,
+ "latest_date": "2024-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A scoring system is a simple decision model that checks a set of features, adds a certain number of points to a total score for each feature that is satisfied, and finally makes a decision by comparing the total score to a threshold. Scoring systems have a long history of active use in safety-critical domains such as healthcare and justice, where they provide guidance for making objective and accurate decisions. Given their genuine interpretability, the idea of learning scoring systems from data is obviously appealing from the perspective of explainable AI. In this paper, we propose a practically motivated extension of scoring systems called probabilistic scoring lists (PSL), as well as a method for learning PSLs from data. Instead of making a deterministic decision, a PSL represents uncertainty in the form of probability distributions, or, more generally, probability intervals. Moreover, in the spirit of decision lists, a PSL evaluates features one by one and stops as soon as a decision can be made with enough confidence. To evaluate our approach, we conduct a case study in the medical domain.",
+ "primary": "cs.LG"
+}

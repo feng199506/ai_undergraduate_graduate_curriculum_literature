@@ -1,0 +1,16 @@
+{
+ "id": "2312.08174",
+ "title": "Double Machine Learning for Static Panel Models with Fixed Effects",
+ "authors": [
+  "Paul S. Clarke",
+  "Annalivia Polselli"
+ ],
+ "v1_date": "2023-12-13",
+ "latest_version": 5,
+ "latest_date": "2024-12-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages (excluding Online Appendix)",
+ "abstract": "Recent advances in causal inference have seen the development of methods which make use of the predictive power of machine learning algorithms. In this paper, we develop novel double machine learning (DML) procedures for panel data in which these algorithms are used to approximate high-dimensional and nonlinear nuisance functions of the covariates. Our new procedures are extensions of the well-known correlated random effects, within-group and first-difference estimators from linear to nonlinear panel models, specifically, Robinson (1988)'s partially linear regression model with fixed effects and unspecified nonlinear confounding. Our simulation study assesses the performance of these procedures using different machine learning algorithms. We use our procedures to re-estimate the impact of minimum wage on voting behaviour in the UK. From our results, we recommend the use of first-differencing because it imposes the fewest constraints on the distribution of the fixed effects, and an ensemble learning strategy to ensure optimum estimator accuracy.",
+ "primary": "econ.EM"
+}

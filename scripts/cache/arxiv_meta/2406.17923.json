@@ -1,0 +1,23 @@
+{
+ "id": "2406.17923",
+ "title": "PAFT: A Parallel Training Paradigm for Effective LLM Fine-Tuning",
+ "authors": [
+  "Shiva Kumar Pentyala",
+  "Zhichao Wang",
+  "Bin Bi",
+  "Kiran Ramnath",
+  "Xiang-Bo Mao",
+  "Regunathan Radhakrishnan",
+  "Sitaram Asur",
+  " Na",
+  " Cheng"
+ ],
+ "v1_date": "2024-06-25",
+ "latest_version": 1,
+ "latest_date": "2024-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) have shown remarkable abilities in diverse natural language processing (NLP) tasks. The LLMs generally undergo supervised fine-tuning (SFT) followed by preference alignment to be usable in downstream applications. However, this sequential training pipeline leads to alignment tax that degrades the LLM performance. This paper introduces PAFT, a new PArallel training paradigm for effective LLM Fine-Tuning, which independently performs SFT and preference alignment (e.g., DPO and ORPO, etc.) with the same pre-trained model on respective datasets. The model produced by SFT and the model from preference alignment are then merged into a final model by parameter fusing for use in downstream applications. This work reveals important findings that preference alignment like DPO naturally results in a sparse model while SFT leads to a natural dense model which needs to be sparsified for effective model merging. This paper introduces an effective interference resolution which reduces the redundancy by sparsifying the delta parameters. The LLM resulted from the new training paradigm achieved Rank #1 on the HuggingFace Open LLM Leaderboard. Comprehensive evaluation shows the effectiveness of the parallel training paradigm.",
+ "primary": "cs.CL"
+}

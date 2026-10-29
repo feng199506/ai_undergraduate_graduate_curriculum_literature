@@ -1,0 +1,23 @@
+{
+ "id": "2509.17907",
+ "title": "MEF: A Systematic Evaluation Framework for Text-to-Image Models",
+ "authors": [
+  "Xiaojing Dong",
+  "Weilin Huang",
+  "Liang Li",
+  "Yiying Li",
+  "Shu Liu",
+  "Tongtong Ou",
+  "Shuang Ouyang",
+  "Yu Tian",
+  "Fengxuan Zhao"
+ ],
+ "v1_date": "2025-09-22",
+ "latest_version": 1,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rapid advances in text-to-image (T2I) generation have raised higher requirements for evaluation methodologies. Existing benchmarks center on objective capabilities and dimensions, but lack an application-scenario perspective, limiting external validity. Moreover, current evaluations typically rely on either ELO for overall ranking or MOS for dimension-specific scoring, yet both methods have inherent shortcomings and limited interpretability. Therefore, we introduce the Magic Evaluation Framework (MEF), a systematic and practical approach for evaluating T2I models. First, we propose a structured taxonomy encompassing user scenarios, elements, element compositions, and text expression forms to construct the Magic-Bench-377, which supports label-level assessment and ensures a balanced coverage of both user scenarios and capabilities. On this basis, we combine ELO and dimension-specific MOS to generate model rankings and fine-grained assessments respectively. This joint evaluation method further enables us to quantitatively analyze the contribution of each dimension to user satisfaction using multivariate logistic regression. By applying MEF to current T2I models, we obtain a leaderboard and key characteristics of the leading models. We release our evaluation framework and make Magic-Bench-377 fully open-source to advance research in the evaluation of visual generative models.",
+ "primary": "cs.AI"
+}

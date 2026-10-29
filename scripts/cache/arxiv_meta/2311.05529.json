@@ -1,0 +1,19 @@
+{
+ "id": "2311.05529",
+ "title": "Information-theoretic generalization bounds for learning from quantum data",
+ "authors": [
+  "Matthias Caro",
+  "Tom Gur",
+  "Cambyse Rouzé",
+  "Daniel Stilck França",
+  "Sathyawageeswar Subramanian"
+ ],
+ "v1_date": "2023-11-09",
+ "latest_version": 2,
+ "latest_date": "2024-06-18",
+ "journal_ref": "Proceedings of Thirty Seventh Conference on Learning Theory, PMLR 247:775-839, 2024",
+ "doi": "",
+ "comment": "48+14 pages, 4 figures",
+ "abstract": "Learning tasks play an increasingly prominent role in quantum information and computation. They range from fundamental problems such as state discrimination and metrology over the framework of quantum probably approximately correct (PAC) learning, to the recently proposed shadow variants of state tomography. However, the many directions of quantum learning theory have so far evolved separately. We propose a general mathematical formalism for describing quantum learning by training on classical-quantum data and then testing how well the learned hypothesis generalizes to new data. In this framework, we prove bounds on the expected generalization error of a quantum learner in terms of classical and quantum information-theoretic quantities measuring how strongly the learner's hypothesis depends on the specific data seen during training. To achieve this, we use tools from quantum optimal transport and quantum concentration inequalities to establish non-commutative versions of decoupling lemmas that underlie recent information-theoretic generalization bounds for classical machine learning. Our framework encompasses and gives intuitively accessible generalization bounds for a variety of quantum learning scenarios such as quantum state discrimination, PAC learning quantum states, quantum parameter estimation, and quantumly PAC learning classical functions. Thereby, our work lays a foundation for a unifying quantum information-theoretic perspective on quantum learning.",
+ "primary": "quant-ph"
+}

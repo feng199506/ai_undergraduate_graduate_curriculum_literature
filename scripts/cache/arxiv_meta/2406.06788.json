@@ -1,0 +1,20 @@
+{
+ "id": "2406.06788",
+ "title": "Stochastic Frank-Wolfe: Unified Analysis and Zoo of Special Cases",
+ "authors": [
+  "Ruslan Nazykov",
+  "Aleksandr Shestakov",
+  "Vladimir Solodkin",
+  "Aleksandr Beznosikov",
+  "Gauthier Gidel",
+  "Alexander Gasnikov"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 2,
+ "latest_date": "2024-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Appears in: The 27th International Conference on Artificial Intelligence and Statistics (AISTATS 2024). 42 pages, 13 algorithms, 8 figures, 3 tables. Reference: https://proceedings.mlr.press/v238/nazykov24a.html",
+ "abstract": "The Conditional Gradient (or Frank-Wolfe) method is one of the most well-known methods for solving constrained optimization problems appearing in various machine learning tasks. The simplicity of iteration and applicability to many practical problems helped the method to gain popularity in the community. In recent years, the Frank-Wolfe algorithm received many different extensions, including stochastic modifications with variance reduction and coordinate sampling for training of huge models or distributed variants for big data problems. In this paper, we present a unified convergence analysis of the Stochastic Frank-Wolfe method that covers a large number of particular practical cases that may have completely different nature of stochasticity, intuitions and application areas. Our analysis is based on a key parametric assumption on the variance of the stochastic gradients. But unlike most works on unified analysis of other methods, such as SGD, we do not assume an unbiasedness of the real gradient estimation. We conduct analysis for convex and non-convex problems due to the popularity of both cases in machine learning. With this general theoretical framework, we not only cover rates of many known methods, but also develop numerous new methods. This shows the flexibility of our approach in developing new algorithms based on the Conditional Gradient approach. We also demonstrate the properties of the new methods through numerical experiments.",
+ "primary": "math.OC"
+}

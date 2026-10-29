@@ -1,0 +1,21 @@
+{
+ "id": "2602.10576",
+ "title": "LLM-Based Scientific Equation Discovery via Physics-Informed Token-Regularized Policy Optimization",
+ "authors": [
+  "Boxiao Wang",
+  "Kai Li",
+  "Tianyi Liu",
+  "Chen Li",
+  "Junzhe Wang",
+  "Yifan Zhang",
+  "Jian Cheng"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 2,
+ "latest_date": "2026-07-27",
+ "journal_ref": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Vol. 2, pp. 12195-12206, 2026",
+ "doi": "10.1145/3770855.3818869",
+ "comment": "Accepted at KDD 2026. Code is available at https://github.com/CAS-CLab/PiT-PO",
+ "abstract": "Symbolic regression aims to distill mathematical equations from observational data. Recent approaches have successfully leveraged Large Language Models (LLMs) to generate equation hypotheses, capitalizing on their vast pre-trained scientific priors. However, existing frameworks predominantly treat the LLM as a static generator, relying on prompt-level guidance to steer exploration. This paradigm fails to update the model's internal representations based on search feedback, often yielding physically inconsistent or mathematically redundant expressions. In this work, we propose PiT-PO (Physics-informed Token-regularized Policy Optimization), a unified framework that evolves the LLM into an adaptive generator via reinforcement learning. Central to PiT-PO is a dual-constraint mechanism that rigorously enforces hierarchical physical validity while simultaneously applying fine-grained, token-level penalties to suppress redundant structures. Consequently, PiT-PO aligns LLM to produce equations that are both scientifically consistent and structurally parsimonious. Empirically, PiT-PO achieves state-of-the-art performance on standard benchmarks and successfully discovers novel turbulence models for challenging fluid dynamics problems. We also demonstrate that PiT-PO empowers small-scale models to outperform closed-source giants, democratizing access to high-performance scientific discovery.",
+ "primary": "cs.LG"
+}

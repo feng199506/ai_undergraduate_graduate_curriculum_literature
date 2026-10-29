@@ -1,0 +1,18 @@
+{
+ "id": "2409.12740",
+ "title": "HLLM: Enhancing Sequential Recommendations via Hierarchical Large Language Models for Item and User Modeling",
+ "authors": [
+  "Junyi Chen",
+  "Lu Chi",
+  "Bingyue Peng",
+  "Zehuan Yuan"
+ ],
+ "v1_date": "2024-09-19",
+ "latest_version": 1,
+ "latest_date": "2024-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) have achieved remarkable success in various fields, prompting several studies to explore their potential in recommendation systems. However, these attempts have so far resulted in only modest improvements over traditional recommendation models. Moreover, three critical questions remain under-explored: firstly, the real value of LLMs' pre-trained weights, often considered to encapsulate world knowledge; secondly, the necessity of fine-tuning for recommendation tasks; lastly, whether LLMs can exhibit the same scalability benefits in recommendation systems as they do in other domains. In this paper, we propose a novel Hierarchical Large Language Model (HLLM) architecture designed to enhance sequential recommendation systems. Our approach employs a two-tier model: the first Item LLM extracts rich content features from the detailed text description of the item, while the second User LLM utilizes these features to predict users' future interests based on their interaction history. Extensive experiments demonstrate that our method effectively leverages the pre-trained capabilities of open-source LLMs, and further fine-tuning leads to significant performance boosts. Additionally, HLLM achieves excellent scalability, with the largest configuration utilizing 7B parameters for both item feature extraction and user interest modeling. Moreover, HLLM offers excellent training and serving efficiency, making it practical in real-world applications. Evaluations on two large-scale datasets, PixelRec and Amazon Reviews, show that HLLM achieves state-of-the-art results, outperforming traditional ID-based models by a wide margin. In online A/B testing, HLLM showcases notable gains, validating its practical impact in real-world recommendation scenarios. Codes are available at https://github.com/bytedance/HLLM.",
+ "primary": "cs.IR"
+}

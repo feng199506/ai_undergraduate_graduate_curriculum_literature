@@ -1,0 +1,18 @@
+{
+ "id": "2412.14374",
+ "title": "Scaling Deep Learning Training with MPMD Pipeline Parallelism",
+ "authors": [
+  "Anxhelo Xhebraj",
+  "Sean Lee",
+  "Hanfeng Chen",
+  "Vinod Grover"
+ ],
+ "v1_date": "2024-12-18",
+ "latest_version": 1,
+ "latest_date": "2024-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present JaxPP, a system for efficiently scaling the training of large deep learning models with flexible pipeline parallelism. We introduce a seamless programming model that allows implementing user-defined pipeline schedules for gradient accumulation. JaxPP automatically distributes tasks, corresponding to pipeline stages, over a cluster of nodes and automatically infers the communication among them. We implement a MPMD runtime for asynchronous execution of SPMD tasks. The pipeline parallelism implementation of JaxPP improves hardware utilization by up to $1.11\\times$ with respect to the best performing SPMD configuration.",
+ "primary": "cs.DC"
+}

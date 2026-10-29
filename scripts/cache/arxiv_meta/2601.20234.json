@@ -1,0 +1,27 @@
+{
+ "id": "2601.20234",
+ "title": "MALLOC: Benchmarking the Memory-aware Long Sequence Compression for Large Sequential Recommendation",
+ "authors": [
+  "Qihang Yu",
+  "Kairui Fu",
+  "Zhaocheng Du",
+  "Yuxuan Si",
+  "Kaiyuan Li",
+  "Weihao Zhao",
+  "Zhicheng Zhang",
+  "Jieming Zhu",
+  "Quanyu Dai",
+  "Zhenhua Dong",
+  "Shengyu Zhang",
+  "Kun Kuang",
+  "Fei Wu"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The scaling law, which indicates that model performance improves with increasing dataset and model capacity, has fueled a growing trend in expanding recommendation models in both industry and academia. However, the advent of large-scale recommenders also brings significantly higher computational costs, particularly under the long-sequence dependencies inherent in the user intent of recommendation systems. Current approaches often rely on pre-storing the intermediate states of the past behavior for each user, thereby reducing the quadratic re-computation cost for the following requests. Despite their effectiveness, these methods often treat memory merely as a medium for acceleration, without adequately considering the space overhead it introduces. This presents a critical challenge in real-world recommendation systems with billions of users, each of whom might initiate thousands of interactions and require massive memory for state storage. Fortunately, there have been several memory management strategies examined for compression in LLM, while most have not been evaluated on the recommendation task. To mitigate this gap, we introduce MALLOC, a comprehensive benchmark for memory-aware long sequence compression. MALLOC presents a comprehensive investigation and systematic classification of memory management techniques applicable to large sequential recommendations. These techniques are integrated into state-of-the-art recommenders, enabling a reproducible and accessible evaluation platform. Through extensive experiments across accuracy, efficiency, and complexity, we demonstrate the holistic reliability of MALLOC in advancing large-scale recommendation. Code is available at https://anonymous.4open.science/r/MALLOC.",
+ "primary": "cs.IR"
+}

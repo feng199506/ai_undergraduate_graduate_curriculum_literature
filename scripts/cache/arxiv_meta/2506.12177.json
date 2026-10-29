@@ -1,0 +1,16 @@
+{
+ "id": "2506.12177",
+ "title": "A proxy-based approach for unmeasured confounding in electronic health records research",
+ "authors": [
+  "Haley Colgate Kottler",
+  "Amy Cochran"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 2,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Electronic health records (EHR) are widely used to study clinical decisions, yet unmeasured confounding remains a persistent challenge. Proxy variables offer a potential solution. In EHR data, clinicians already record many such measurements (e.g., vitals), each revealing something about a patient's underlying health. Despite this, proxy-based methods are rarely used in practice. We introduce a new way to use proxies to adjust for unmeasured confounding. Our approach uses a vector of proxies to construct covariates that capture aspects of the unmeasured confounder, which are then included in a regression model. As one implementation, we use factor analysis followed by regression. We compare this approach with existing methods, including proximal causal inference, across a range of realistic settings. In practice, assumptions rarely hold exactly, so we study what happens when models are misspecified and variables are used incorrectly: e.g., a confounder or instrument is treated as a proxy. Finally, we apply the method to EHR data to estimate the effect of hospital admission for older adults presenting to the emergency department with chest pain, a setting where unmeasured confounding is a substantial concern. This work provides a practical way to use proxies and may help bring proxy-based methods into broader use.",
+ "primary": "stat.ME"
+}

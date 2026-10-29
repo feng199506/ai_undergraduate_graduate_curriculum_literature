@@ -1,0 +1,15 @@
+{
+ "id": "2403.11787",
+ "title": "On the Convergence of A Data-Driven Regularized Stochastic Gradient Descent for Nonlinear Ill-Posed Problems",
+ "authors": [
+  "Zehui Zhou"
+ ],
+ "v1_date": "2024-03-18",
+ "latest_version": 2,
+ "latest_date": "2024-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 3 figures",
+ "abstract": "Stochastic gradient descent (SGD) is a promising method for solving large-scale inverse problems, due to its excellent scalability with respect to data size. In this work, we analyze a new data-driven regularized stochastic gradient descent for the efficient numerical solution of a class of nonlinear ill-posed inverse problems in infinite dimensional Hilbert spaces. At each step of the iteration, the method randomly selects one equation from the nonlinear system combined with a corresponding equation from the learned system based on training data to obtain a stochastic estimate of the gradient and then performs a descent step with the estimated gradient. We prove the regularizing property of this method under the tangential cone condition and a priori parameter choice and then derive the convergence rates under the additional source condition and range invariance conditions. Several numerical experiments are provided to complement the analysis.",
+ "primary": "math.NA"
+}

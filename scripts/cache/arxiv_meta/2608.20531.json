@@ -1,0 +1,18 @@
+{
+ "id": "2608.20531",
+ "title": "Nyström method for symmetric indefinite matrices",
+ "authors": [
+  "Yijia Chen",
+  "Yuji Nakatsukasa",
+  "Anjali Narendran",
+  "Taejun Park"
+ ],
+ "v1_date": "2026-08-20",
+ "latest_version": 1,
+ "latest_date": "2026-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 4 figures",
+ "abstract": "The Nyström method approximates $A\\approx A(\\,:\\,,I)A(I,I)^{\\dagger} A(\\,:\\,,I)^{\\top}=CA(I,I)^{\\dagger} C^{\\top}$, where $C:=A(:,I)\\in\\mathbb{R}^{n\\times r}$ is a column subset matrix of $A$. When applied to symmetric but indefinite matrices, the Nyström method can fail because the core matrix $A(I,I)$ may severely underestimate the eigenvalues of $A$ and may become (nearly) singular. We address this issue by developing and analyzing an algorithm that carefully chooses $\\widehat{M}\\in\\mathbb{R}^{r\\times r}$ in place of $A(I,I)^\\dagger$ by solving the two-sided sketched least-squares problem $\\min_{M}\\|X(A-CMC^{\\top})X^{\\top}\\|_F$, where $X\\in\\mathbb{R}^{t\\times n}$ is a random sketch matrix. We study in detail the cases where $X$ is a Gaussian or a leverage score sampling (LSS) matrix, and show that with oversampling $t>r$ the residual $\\|A-C\\widehat{M}C^{\\top}\\|_*$ is comparable to $\\min_{M}\\|A-CMC^{\\top}\\|_*$. For the Gaussian sketch, we require $t=\\mathcal{O}(r)$ samples; for LSS, we show that $t=\\mathcal{O}(r \\log r)$ samples suffice for the theoretical guarantee, with the LSS approach carrying the advantage that once a set of $t$ row indices is identified, the approximation requires only $t^{2}$ matrix-entry evaluations to find $\\widehat{M}$, given $C$. We illustrate our results with synthetic examples and applications to kernel methods.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2512.06218",
+ "title": "Average-reward reinforcement learning in semi-Markov decision processes via relative value iteration",
+ "authors": [
+  "Huizhen Yu",
+  "Yi Wan",
+  "Richard S. Sutton"
+ ],
+ "v1_date": "2025-12-05",
+ "latest_version": 1,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages. This paper presents the reinforcement-learning material previously contained in version 2 of arXiv:2409.03915, which is now being split into two stand-alone papers. Minor corrections and improvements to the main results have also been made in the course of this reformatting",
+ "abstract": "This paper applies the authors' recent results on asynchronous stochastic approximation (SA) in the Borkar-Meyn framework to reinforcement learning in average-reward semi-Markov decision processes (SMDPs). We establish the convergence of an asynchronous SA analogue of Schweitzer's classical relative value iteration algorithm, RVI Q-learning, for finite-space, weakly communicating SMDPs. In particular, we show that the algorithm converges almost surely to a compact, connected subset of solutions to the average-reward optimality equation, with convergence to a unique, sample path-dependent solution under additional stepsize and asynchrony conditions. Moreover, to make full use of the SA framework, we introduce new monotonicity conditions for estimating the optimal reward rate in RVI Q-learning. These conditions substantially expand the previously considered algorithmic framework and are addressed through novel arguments in the stability and convergence analysis of RVI Q-learning.",
+ "primary": "cs.LG"
+}

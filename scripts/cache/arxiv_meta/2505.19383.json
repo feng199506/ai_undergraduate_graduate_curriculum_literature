@@ -1,0 +1,16 @@
+{
+ "id": "2505.19383",
+ "title": "CaseEdit: Enhancing Localized Commonsense Reasoning via Null-Space Constrained Knowledge Editing in Small Parameter Language Models",
+ "authors": [
+  "Varun Reddy",
+  "Yen-Ling Kuo"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 1,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) exhibit strong performance on factual recall and general reasoning but struggle to adapt to user-specific, commonsense knowledge, a challenge particularly acute in small-parameter settings where computational efficiency is prioritized. We introduce CaseEdit, a new dataset and generation pipeline for evaluating localized, personalized commonsense knowledge editing in small LLMs to address this. Built upon the ATOMIC20/20 commonsense graph, CaseEdit uses a multi-stage inference process to generate both typical and atypical contextual edits for household objects, paired with targeted evaluation questions across four axes: reliability, generalization, locality, and portability. We evaluate established knowledge editing methods using CaseEdit and demonstrate that AlphaEdit, a technique employing null-space projection to minimize interference with unrelated knowledge, consistently outperforms other methods when applied to an LLaMA 3.2 3B model, even in scalability tests, showing minimal ripple effects. Our results indicate that using CaseEdit with effective editing techniques like AlphaEdit allows small models to internalize high-quality, context-sensitive common-sense knowledge, paving the way for lightweight, personalized assistants.",
+ "primary": "cs.AI"
+}

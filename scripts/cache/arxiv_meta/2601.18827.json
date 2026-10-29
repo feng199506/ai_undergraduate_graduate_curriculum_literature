@@ -1,0 +1,26 @@
+{
+ "id": "2601.18827",
+ "title": "Automated structural testing of LLM-based agents: methods, framework, and case studies",
+ "authors": [
+  "Jens Kohl",
+  "Otto Kruse",
+  "Youssef Mostafa",
+  "Andre Luckow",
+  "Karsten Schroer",
+  "Thomas Riedl",
+  "Ryan French",
+  "David Katz",
+  "Manuel P. Luitz",
+  "Tanrajbir Takher",
+  "Ken E. Friedl",
+  "Céline Laurent-Winter"
+ ],
+ "v1_date": "2026-01-25",
+ "latest_version": 2,
+ "latest_date": "2026-10-18",
+ "journal_ref": "Proceedings of the 2025 IEEE International Conference on Big Data (BigData), 2025, pp. 1847-1856",
+ "doi": "10.1109/bigdata66926.2025.11401679",
+ "comment": "10 pages, 5 figures. Accepted for publication in the 2025 IEEE International Conference on BigData 2025 (main track). Copyright (c) 2025 IEEE. Source code for the introduced methods and framework available at https://github.com/awslabs/generative-ai-toolkit",
+ "abstract": "LLM-based agents are rapidly being adopted across diverse domains. Since they interact with users without supervision, they must be tested extensively. Current testing approaches focus on acceptance-level evaluation from the user's perspective. While intuitive, these tests require manual evaluation, are difficult to automate, do not facilitate root cause analysis, and incur expensive test environments. In this paper, we present methods to enable structural testing of LLM-based agents. Our approach utilizes traces (based on OpenTelemetry) to capture agent trajectories, employs mocking to enforce reproducible LLM behavior, and adds assertions to automate test verification. This enables testing agent components and interactions at a deeper technical level within automated workflows. We demonstrate how structural testing enables the adaptation of software engineering best practices to agents, including the test automation pyramid, regression testing, test-driven development, and multi-language testing. In representative case studies, we demonstrate automated execution and faster root-cause analysis. Collectively, these methods reduce testing costs and improve agent quality through higher coverage, reusability, and earlier defect detection. We provide an open source reference implementation on GitHub.",
+ "primary": "cs.SE"
+}

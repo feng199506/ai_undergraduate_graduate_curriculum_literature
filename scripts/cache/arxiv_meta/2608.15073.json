@@ -1,0 +1,19 @@
+{
+ "id": "2608.15073",
+ "title": "BOCoDe: Engineering-Centered Benchmarking for Bayesian Optimization",
+ "authors": [
+  "Rosen Ting-Ying Yu",
+  "Christophe Hatterer",
+  "Advaith Narayanan",
+  "Cyril Picard",
+  "Faez Ahmed"
+ ],
+ "v1_date": "2026-08-15",
+ "latest_version": 1,
+ "latest_date": "2026-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian optimization (BO) is a sample-efficient, surrogate-based approach to black-box optimization (BBO), but its evaluation remains dominated by synthetic functions and hyperparameter optimization (HPO) tasks that are typically low-dimensional and single-objective. Engineering design poses a substantially different regime: problems are physics-based, often high-dimensional, constrained by requirements such as cost and manufacturability, and may involve multiple objectives or mixed variables. To close this benchmarking gap, we introduce BOCoDe, an open-source, PyTorch-native benchmark comprising 307 BBO problems, including 159 engineering design tasks and widely used synthetic and HPO benchmarks. Each problem includes cited provenance and machine-readable metadata that supports programmatic discovery, including by LLM-based agents, and all tasks are exposed through a unified API compatible with open-source BO libraries. We evaluate 31 BO and evolutionary algorithms across five problem classes spanning single- and multi-objective optimization, constrained and unconstrained settings, and mixed-variable search spaces. Analyses of problem structure show that engineering tasks uniquely span constrained and multi-objective settings that synthetic and HPO suites rarely cover, while embeddings from a tabular foundation model separate them most clearly from HPO tasks. Algorithm rankings also vary substantially across domains; in several problem classes, rankings obtained on standard benchmarks do not transfer to engineering tasks. BOCoDe establishes a reproducible and extensible foundation for developing and evaluating BO methods that better reflect the demands of engineering design. Code & data can be found at https://github.com/rosenyu304/BOCoDe",
+ "primary": "cs.CE"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2402.04054",
+ "title": "More Flexible PAC-Bayesian Meta-Learning by Learning Learning Algorithms",
+ "authors": [
+  "Hossein Zakerinia",
+  "Amin Behjati",
+  "Christoph H. Lampert"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 2,
+ "latest_date": "2024-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "International Conference on Machine Learning (ICML), 2024",
+ "abstract": "We introduce a new framework for studying meta-learning methods using PAC-Bayesian theory. Its main advantage over previous work is that it allows for more flexibility in how the transfer of knowledge between tasks is realized. For previous approaches, this could only happen indirectly, by means of learning prior distributions over models. In contrast, the new generalization bounds that we prove express the process of meta-learning much more directly as learning the learning algorithm that should be used for future tasks. The flexibility of our framework makes it suitable to analyze a wide range of meta-learning mechanisms and even design new mechanisms. Other than our theoretical contributions we also show empirically that our framework improves the prediction quality in practical meta-learning mechanisms.",
+ "primary": "cs.LG"
+}

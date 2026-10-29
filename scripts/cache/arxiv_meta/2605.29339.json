@@ -1,0 +1,22 @@
+{
+ "id": "2605.29339",
+ "title": "DMC-CF: Dynamic Multimodal CounterFactual QA benchmark for Causal Reasoning",
+ "authors": [
+  "Junzhe Zhang",
+  "Huixuan Zhang",
+  "Guirong Wang",
+  "Xingyao Zhang",
+  "Pei Liu",
+  "Lin Qu",
+  "Hu Wei",
+  "Xiaojun Wan"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the rapid advancement of multimodal large language models (MLLMs), models have demonstrated increasingly powerful multimodal capabilities. However, whether MLLMs trained through statistical learning can truly understand the causal relationships underlying the real world remains a key research question. In recent years, numerous multimodal causal reasoning datasets have been proposed. Nevertheless, these datasets are either limited in scale or constructed from synthetic images and videos, cartoon-based content, or other non-realistic multimodal sources. To address these limitations, we collect real-world videos and construct DMC-CF-Static, a large-scale benchmark for multimodal causal counterfactual reasoning. Furthermore, to mitigate issues such as data contamination in traditional static evaluation, we represent causal events using causal graphs and propose the Dynamic Graph Intervention (DGI) framework to build the dynamic evaluation benchmark DMC-CF-Dynamic from DMC-CF-Static. Experimental results on the overall DMC-CF, which includes both static and dynamic evaluation benchmarks, demonstrate that the multimodal causal reasoning capabilities of current multimodal large language models in real-world scenarios still require substantial improvement.",
+ "primary": "cs.CV"
+}

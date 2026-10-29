@@ -1,0 +1,16 @@
+{
+ "id": "2511.13825",
+ "title": "When AI Does Science: Evaluating the Autonomous AI Scientist KOSMOS in Radiation Biology",
+ "authors": [
+  "Humza Nusrat",
+  "Omar Nusrat"
+ ],
+ "v1_date": "2025-11-17",
+ "latest_version": 1,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 3 figures, preprint",
+ "abstract": "Agentic AI \"scientists\" now use language models to search the literature, run analyses, and generate hypotheses. We evaluate KOSMOS, an autonomous AI scientist, on three problems in radiation biology using simple random-gene null benchmarks. Hypothesis 1: baseline DNA damage response (DDR) capacity across cell lines predicts the p53 transcriptional response after irradiation (GSE30240). Hypothesis 2: baseline expression of OGT and CDO1 predicts the strength of repressed and induced radiation-response modules in breast cancer cells (GSE59732). Hypothesis 3: a 12-gene expression signature predicts biochemical recurrence-free survival after prostate radiotherapy plus androgen deprivation therapy (GSE116918). The DDR-p53 hypothesis was not supported: DDR score and p53 response were weakly negatively correlated (Spearman rho = -0.40, p = 0.76), indistinguishable from random five-gene scores. OGT showed only a weak association (r = 0.23, p = 0.34), whereas CDO1 was a clear outlier (r = 0.70, empirical p = 0.0039). The 12-gene signature achieved a concordance index of 0.61 (p = 0.017) but a non-unique effect size. Overall, KOSMOS produced one well-supported discovery, one plausible but uncertain result, and one false hypothesis, illustrating that AI scientists can generate useful ideas but require rigorous auditing against appropriate null models.",
+ "primary": "cs.AI"
+}

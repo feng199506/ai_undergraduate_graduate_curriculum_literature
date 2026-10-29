@@ -1,0 +1,19 @@
+{
+ "id": "2506.05239",
+ "title": "Evaluating Sparse Autoencoders: From Shallow Design to Matching Pursuit",
+ "authors": [
+  "Valérie Costa",
+  "Thomas Fel",
+  "Ekdeep Singh Lubana",
+  "Bahareh Tolooshams",
+  "Demba Ba"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 2,
+ "latest_date": "2025-11-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Complementary work to arXiv:2506.03093",
+ "abstract": "Sparse autoencoders (SAEs) have recently become central tools for interpretability, leveraging dictionary learning principles to extract sparse, interpretable features from neural representations whose underlying structure is typically unknown. This paper evaluates SAEs in a controlled setting using MNIST, which reveals that current shallow architectures implicitly rely on a quasi-orthogonality assumption that limits the ability to extract correlated features. To move beyond this, we compare them with an iterative SAE that unrolls Matching Pursuit (MP-SAE), enabling the residual-guided extraction of correlated features that arise in hierarchical settings such as handwritten digit generation while guaranteeing monotonic improvement of the reconstruction as more atoms are selected.",
+ "primary": "cs.LG"
+}

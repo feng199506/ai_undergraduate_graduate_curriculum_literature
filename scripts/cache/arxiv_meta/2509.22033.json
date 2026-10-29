@@ -1,0 +1,20 @@
+{
+ "id": "2509.22033",
+ "title": "OrtSAE: Orthogonal Sparse Autoencoders Uncover Atomic Features",
+ "authors": [
+  "Anton Korznikov",
+  "Andrey Galichin",
+  "Alexey Dontsov",
+  "Oleg Rogov",
+  "Elena Tutubalina",
+  "Ivan Oseledets"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 1,
+ "latest_date": "2025-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse autoencoders (SAEs) are a technique for sparse decomposition of neural network activations into human-interpretable features. However, current SAEs suffer from feature absorption, where specialized features capture instances of general features creating representation holes, and feature composition, where independent features merge into composite representations. In this work, we introduce Orthogonal SAE (OrtSAE), a novel approach aimed to mitigate these issues by enforcing orthogonality between the learned features. By implementing a new training procedure that penalizes high pairwise cosine similarity between SAE features, OrtSAE promotes the development of disentangled features while scaling linearly with the SAE size, avoiding significant computational overhead. We train OrtSAE across different models and layers and compare it with other methods. We find that OrtSAE discovers 9% more distinct features, reduces feature absorption (by 65%) and composition (by 15%), improves performance on spurious correlation removal (+6%), and achieves on-par performance for other downstream tasks compared to traditional SAEs.",
+ "primary": "cs.LG"
+}

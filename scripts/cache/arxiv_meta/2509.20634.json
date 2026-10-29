@@ -1,0 +1,19 @@
+{
+ "id": "2509.20634",
+ "title": "Recidivism Prediction, Peer Effect Estimation, and Prediction-Powered Inference with LLM Text Measures",
+ "authors": [
+  "Shanjukta Nath",
+  "Jiwon Hong",
+  "Jae Ho Chang",
+  "Keith Warren",
+  "Subhadeep Paul"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 3,
+ "latest_date": "2026-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We provide a new framework for estimating peer effects when outcomes are multivariate behavioral measures derived from written text using an LLM and the network formation is endogenous. We obtain LLM embeddings and zero shot classification of more than 200,000 written exchanges among residents of low-security correctional facilities. We find that LLM embeddings improve out-of-sample recidivism prediction by up to 30% over pre-entry covariates alone using LASSO and LoRA fine-tuning, showing that text representations capture meaningful signals. For peer effect estimation, we develop a novel instrumental variable estimator that accommodates multivariate outcomes, sparse networks, and multidimensional latent homophily. We show that this estimator is $\\sqrt{N}$-consistent and asymptotically normal under sparsity conditions that relax dense-network assumptions prevalent in the peer effect literature. Limited human annotations are then combined with LLM zero-shot vectors in a new prediction-powered peer inference (PPPI) approach to obtain de-biased estimates and valid inference. Results reveal significant peer effects in the behavioral profiles.",
+ "primary": "econ.EM"
+}

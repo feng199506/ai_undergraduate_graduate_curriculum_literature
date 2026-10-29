@@ -325,6 +325,24 @@ def download(cat, target=50, retry_failed=False):
     used = {Path(v["path"]).name for v in st.values() if v.get("path")}
     get_meta([s["arxiv"] for s in ss if s.get("arxiv")])
 
+    # reconcile: items downloaded under an earlier seed version, or now claimed by a lower-numbered group,
+    # stop counting here; their files leave the library (kept under WORK/superseded, never deleted)
+    keys = {key_of(s) for s in ss}
+    for k, v in st.items():
+        if v["status"] not in ("ok", "pending"):
+            continue
+        why = ("种子修订后已移出本群列表" if k not in keys else
+               f"已由 {claims.get(k)} 群收录，本群不重复计数" if claims.get(k) != cat else "")
+        if not why:
+            continue
+        if v.get("path") and (ROOT / v["path"]).exists():
+            sup = WORK / "superseded" / cat
+            sup.mkdir(parents=True, exist_ok=True)
+            shutil.move(str(ROOT / v["path"]), sup / Path(v["path"]).name)
+        v.update({"status": "superseded" if k not in keys else "dup_elsewhere", "note": why, "path": ""})
+        print(f"  RECONCILED {k}: {why}")
+    save(state_path(cat), st)
+
     def n_ok():
         return sum(1 for v in st.values() if v["status"] == "ok")
 

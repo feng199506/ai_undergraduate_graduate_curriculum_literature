@@ -1,0 +1,15 @@
+{
+ "id": "2507.05263",
+ "title": "Rethinking Over-Smoothing in Graph Neural Networks: A Perspective from Anderson Localization",
+ "authors": [
+  "Kaichen Ouyang"
+ ],
+ "v1_date": "2025-06-20",
+ "latest_version": 1,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 4 figures",
+ "abstract": "Graph Neural Networks (GNNs) have shown great potential in graph data analysis due to their powerful representation capabilities. However, as the network depth increases, the issue of over-smoothing becomes more severe, causing node representations to lose their distinctiveness. This paper analyzes the mechanism of over-smoothing through the analogy to Anderson localization and introduces participation degree as a metric to quantify this phenomenon. Specifically, as the depth of the GNN increases, node features homogenize after multiple layers of message passing, leading to a loss of distinctiveness, similar to the behavior of vibration modes in disordered systems. In this context, over-smoothing in GNNs can be understood as the expansion of low-frequency modes (increased participation degree) and the localization of high-frequency modes (decreased participation degree). Based on this, we systematically reviewed the potential connection between the Anderson localization behavior in disordered systems and the over-smoothing behavior in Graph Neural Networks. A theoretical analysis was conducted, and we proposed the potential of alleviating over-smoothing by reducing the disorder in information propagation.",
+ "primary": "cs.LG"
+}

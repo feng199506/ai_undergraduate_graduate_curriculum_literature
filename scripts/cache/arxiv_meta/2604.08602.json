@@ -1,0 +1,25 @@
+{
+ "id": "2604.08602",
+ "title": "TiAb Review Plugin: A Browser-Based Tool for AI-Assisted Study Selection in Systematic Reviews",
+ "authors": [
+  "Yuki Kataoka",
+  "Masahiro Banno",
+  "Michihito Kyo",
+  "Shuri Nakao",
+  "Tomoo Sato",
+  "Shunsuke Taito",
+  "Tomohiro Takayama",
+  "Takahiro Tsuge",
+  "Yasushi Tsujimoto",
+  "Ryuhei So",
+  "Toshi A. Furukawa"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 2,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v2: extends v1 (title and abstract screening only) to the full-text screening stage and adds a benchmark of nine further LLMs. 18 pages, 3 figures, 4 tables. Code: https://github.com/youkiti/tiab-review-plugin",
+ "abstract": "Server-based screening tools impose subscription costs, while open-source alternatives require coding skills, and full-text screening has remained outside the scope of no-code open-source tools. We developed TiAb Review Plugin, an open-source Chrome browser extension that provides no-code, serverless artificial intelligence (AI)-assisted study selection covering both title and abstract (T&A) screening and full-text screening. It uses Google Sheets as a shared database and Google Drive as a PDF store, and users supply their own large language model (LLM) API key. For T&A screening, it offers manual review, LLM batch screening, and machine learning (ML) active learning. For full-text screening, it retrieves open-access PDFs from PubMed Central, Europe PMC, Unpaywall, OpenAlex, and publisher pages, supports blinded dual review with structured exclusion reasons and adjudication, optionally obtains an LLM judgment with page-anchored evidence, and computes PRISMA 2020 flow counts. We re-implemented the default ASReview algorithm (TF-IDF with Naive Bayes) in TypeScript and compared it with the Python original using 10-fold cross-validation on six datasets. For LLM T&A screening, we compared 16 parameter configurations on a benchmark dataset, validated the best (Gemini 3.0 Flash, low thinking budget, TopP 0.95) on five public datasets (1,038 to 5,628 records; 0.5% to 2.0% prevalence), and benchmarked nine further models from four developers. The TypeScript classifier produced top-100 rankings identical to ASReview on all six datasets. LLM T&A screening achieved recall of 94% to 100% with precision of 2% to 15%, and work saved over sampling at 95% recall (WSS@95) of 46.3% to 89.3%. No additional model exceeded the 96.1% recall of the reference configuration; the most recent models traded recall for precision. The classification accuracy of the full-text stage has not yet been evaluated.",
+ "primary": "cs.DL"
+}

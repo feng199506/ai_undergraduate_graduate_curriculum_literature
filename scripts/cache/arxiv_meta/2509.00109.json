@@ -1,0 +1,17 @@
+{
+ "id": "2509.00109",
+ "title": "Bias Mitigation for AI-Feedback Loops in Recommender Systems: A Systematic Literature Review and Taxonomy",
+ "authors": [
+  "Theodor Stoecker",
+  "Samed Bayer",
+  "Ingo Weber"
+ ],
+ "v1_date": "2025-08-28",
+ "latest_version": 1,
+ "latest_date": "2025-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 6 figures, 2 tables. Accepted at the FAccTRec '25 Workshop, ACM RecSys 2025 (Prague)",
+ "abstract": "Recommender systems continually retrain on user reactions to their own predictions, creating AI feedback loops that amplify biases and diminish fairness over time. Despite this well-known risk, most bias mitigation techniques are tested only on static splits, so their long-term fairness across multiple retraining rounds remains unclear. We therefore present a systematic literature review of bias mitigation methods that explicitly consider AI feedback loops and are validated in multi-round simulations or live A/B tests. Screening 347 papers yields 24 primary studies published between 2019-2025. Each study is coded on six dimensions: mitigation technique, biases addressed, dynamic testing set-up, evaluation focus, application domain, and ML task, organising them into a reusable taxonomy. The taxonomy offers industry practitioners a quick checklist for selecting robust methods and gives researchers a clear roadmap to the field's most urgent gaps. Examples include the shortage of shared simulators, varying evaluation metrics, and the fact that most studies report either fairness or performance; only six use both.",
+ "primary": "cs.IR"
+}

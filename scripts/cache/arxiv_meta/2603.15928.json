@@ -1,0 +1,21 @@
+{
+ "id": "2603.15928",
+ "title": "Prior-Data Fitted Networks for Causal Inference: a Simulation Study with Real-World Scenarios",
+ "authors": [
+  "Francisco Mourao",
+  "David Hajage",
+  "Daria Bystrova",
+  "Bertrand Bouvarel",
+  "Nathanaël Lapidus",
+  "Fabrice Carrat",
+  "Benjamin Glemain"
+ ],
+ "v1_date": "2026-03-16",
+ "latest_version": 2,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 4 tables, 3 figures",
+ "abstract": "Prior-Data Fitted Networks (PFNs) represent a paradigm shift in tabular data prediction. We present the principles of this new paradigm and evaluate two PFNs for estimating the average treatment effect (ATE) of a binary treatment on a binary outcome, using simulated clinical scenarios based on real-world data. We assessed TabPFN combined with causal inference procedures (g-computation and inverse probability of treatment weighting), and CausalPFN, a PFN that directly provides an ATE estimate with a credible interval. Confidence intervals for the TabPFN-based methods were derived using bootstrap resampling. We found that computation times for TabPFN were prohibitive for routine causal inference, particularly because of the need for bootstrapping to yield confidence intervals. Moreover, g-computation with TabPFN produced a highly biased estimator, partially corrected by fitting separate models for each treatment group (T-learner). CausalPFN, by contrast, was computationally efficient but exhibited poor coverage of its 95% credible interval for the ATE, due to both estimation bias and inadequate uncertainty quantification. Beyond automating model specification, some PFN variants - like CausalPFN - attempt to automate causal modeling. In the settings we evaluated, CausalPFN performed poorly. However, new algorithms of this kind continue to be developed, and their application to causal inference tasks requires further investigation.",
+ "primary": "stat.AP"
+}

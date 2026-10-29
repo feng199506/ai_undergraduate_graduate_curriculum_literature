@@ -1,0 +1,25 @@
+{
+ "id": "2610.36890",
+ "title": "Latent Residual Reasoning for Ranking in Generative Recommendation",
+ "authors": [
+  "Haihan Shi",
+  "Ruidong Han",
+  "Wenjie Wang",
+  "Shangyu Chen",
+  "Sunhao Dai",
+  "Yongqi Li",
+  "Yangyang Li",
+  "Fei Jiang",
+  "Wei Lin",
+  "Fuli Feng",
+  "Xiangnan He"
+ ],
+ "v1_date": "2026-10-27",
+ "latest_version": 1,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by CIKM 2026",
+ "abstract": "Generative recommendation (GR) models for ranking typically adopt a fast-thinking direct prediction paradigm with strong practical efficiency. However, ranking requires fine-grained scoring across multiple candidate items, while existing GR models still mainly rely on one-shot prediction. This raises the question whether additional inference-time computation can further improve ranking quality. Recently, inspired by Chain-of-Thought (CoT) reasoning in large language models (LLMs), some work has begun to introduce reasoning into recommendation systems. Some of these methods rely on LLM reasoning frameworks to perform explicit reasoning in textual space, but such designs are not suitable for more widely deployed non-textual recommendation models. A more relevant direction is to introduce latent reasoning into ID-based recommendation models. Although recent work has extended latent reasoning to industrial ranking, how successive reasoning steps should improve fine-grained candidate scores remains less explored. To address this problem, we propose Refiner, a latent residual reasoning framework with parameter-efficient fine-tuning for generative ranking. Our approach introduces three key components: (1) a residual reasoning mechanism that progressively refines ranking scores through cumulative additive corrections, (2) history queries that provide condensed user behavior representations to enhance candidate-specific reasoning, and (3) a parameter-efficient fine-tuning strategy that leverages LoRA modules to adapt pre-trained models for latent reasoning. Extensive experiments on two public benchmarks, an offline industrial dataset, and an online A/B test demonstrate that Refiner consistently improves over direct prediction, validating its effectiveness and practical utility.",
+ "primary": "cs.IR"
+}

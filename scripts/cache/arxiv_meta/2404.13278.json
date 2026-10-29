@@ -1,0 +1,18 @@
+{
+ "id": "2404.13278",
+ "title": "Federated Transfer Learning with Task Personalization for Condition Monitoring in Ultrasonic Metal Welding",
+ "authors": [
+  "Ahmadreza Eslaminia",
+  "Yuquan Meng",
+  "Klara Nahrstedt",
+  "Chenhui Shao"
+ ],
+ "v1_date": "2024-04-20",
+ "latest_version": 1,
+ "latest_date": "2024-04-20",
+ "journal_ref": "Journal of Manufacturing Systems, Vol. 77, pp. 1-12, 2024",
+ "doi": "10.1016/j.jmsy.2024.09.023",
+ "comment": "37 pages, 8 figures",
+ "abstract": "Ultrasonic metal welding (UMW) is a key joining technology with widespread industrial applications. Condition monitoring (CM) capabilities are critically needed in UMW applications because process anomalies significantly deteriorate the joining quality. Recently, machine learning models emerged as a promising tool for CM in many manufacturing applications due to their ability to learn complex patterns. Yet, the successful deployment of these models requires substantial training data that may be expensive and time-consuming to collect. Additionally, many existing machine learning models lack generalizability and cannot be directly applied to new process configurations (i.e., domains). Such issues may be potentially alleviated by pooling data across manufacturers, but data sharing raises critical data privacy concerns. To address these challenges, this paper presents a Federated Transfer Learning with Task Personalization (FTL-TP) framework that provides domain generalization capabilities in distributed learning while ensuring data privacy. By effectively learning a unified representation from feature space, FTL-TP can adapt CM models for clients working on similar tasks, thereby enhancing their overall adaptability and performance jointly. To demonstrate the effectiveness of FTL-TP, we investigate two distinct UMW CM tasks, tool condition monitoring and workpiece surface condition classification. Compared with state-of-the-art FL algorithms, FTL-TP achieves a 5.35%--8.08% improvement of accuracy in CM in new target domains. FTL-TP is also shown to perform excellently in challenging scenarios involving unbalanced data distributions and limited client fractions. Furthermore, by implementing the FTL-TP method on an edge-cloud architecture, we show that this method is both viable and efficient in practice. The FTL-TP framework is readily extensible to various other manufacturing applications.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "2605.24703",
+ "title": "TS-Skill: A Benchmark for Evaluating Analytical Skills in Time-Series Question Answering",
+ "authors": [
+  "Liying Han",
+  "Kang Yang",
+  "Oliver Wang",
+  "Jason Wu",
+  "Pengrui Quan",
+  "Gaofeng Dong",
+  "Ozan Baris Mulayim",
+  "Sizhe Ma",
+  "Yuyang Yuan",
+  "Dezhi Hong",
+  "Mario Berges",
+  "Mani Srivastava"
+ ],
+ "v1_date": "2026-05-23",
+ "latest_version": 1,
+ "latest_date": "2026-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) and time-series language models (TSLMs) are increasingly applied to time-series question answering (TSQA). Unlike text-only QA, TSQA requires models to ground answers in temporal signals whose patterns may occur at different scales, specific time locations, or across separated intervals. However, existing benchmarks are typically organized by task types or high-level reasoning categories, making it difficult to diagnose the underlying signal-level capabilities driving model performance. We introduce TS-Skill, a controlled benchmark for evaluating three composable analytical skills in TSQA: temporal scale selection (SK1), temporal localization (SK2), and cross-interval integration (SK3). TS-Skill provides timestamp-aware questions, broad domain coverage, and human-validated QA quality. To construct the benchmark at scale, we develop SKEvol, a skill-guided agentic framework that combines domain-aware time-series seed generation, skill-controlled question generation, metadata- and code-assisted answer construction, multi-phase signal-grounded verification, and human-in-the-loop curation. Experiments on ten state-of-the-art LLMs and TSLMs reveal substantial and uneven capability gaps across SK1-SK3. In particular, SK3 remains consistently challenging for non-agent models, whereas tool-augmented agents show a selective advantage on standalone SK3. These findings demonstrate that skill-level evaluation can uncover temporal reasoning failures that are obscured by aggregate TSQA scores.",
+ "primary": "cs.CL"
+}

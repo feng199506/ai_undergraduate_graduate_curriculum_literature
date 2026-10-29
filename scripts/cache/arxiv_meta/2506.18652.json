@@ -1,0 +1,18 @@
+{
+ "id": "2506.18652",
+ "title": "A Practical Introduction to Regression-based Causal Inference in Meteorology (II): Unmeasured confounders",
+ "authors": [
+  "Caren Marzban",
+  "Yikun Zhang",
+  "Nicholas Bond",
+  "Michael Richman"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 2,
+ "latest_date": "2026-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "One obstacle to ``elevating'' correlation to causation is the phenomenon of confounding, i.e., when a correlation between two variables exists because both variables are in fact caused by a third variable, called a confounder. The situation where the confounders are measured is examined in an earlier, accompanying article. Here, it is shown that even when the confounding variables are not measured, under certain conditions it is still possible to estimate the causal effect via a regression-based method that uses the notion of instrumental variables. Using a meteorological data set, similar to that in the sister article, a number of different estimates of the causal effect are compared and contrasted. It is shown that the instrumental-variable estimates of causal effect depend on the choice of the instrumental variable, and that meteorological considerations are important in resolving the ambiguity. R code is provided for generating all of the results, and numerous directions for future work are outlined.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2411.10544",
+ "title": "Debias-CLR: A Contrastive Learning Based Debiasing Method for Algorithmic Fairness in Healthcare Applications",
+ "authors": [
+  "Ankita Agarwal",
+  "Tanvi Banerjee",
+  "William Romine",
+  "Mia Cajita"
+ ],
+ "v1_date": "2024-11-15",
+ "latest_version": 2,
+ "latest_date": "2024-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 1 figure, 4 tables. Manuscript accepted at 7th Special Session on HealthCare Data in IEEE Big Data 2024, Washington, D.C",
+ "abstract": "Artificial intelligence based predictive models trained on the clinical notes can be demographically biased. This could lead to adverse healthcare disparities in predicting outcomes like length of stay of the patients. Thus, it is necessary to mitigate the demographic biases within these models. We proposed an implicit in-processing debiasing method to combat disparate treatment which occurs when the machine learning model predict different outcomes for individuals based on the sensitive attributes like gender, ethnicity, race, and likewise. For this purpose, we used clinical notes of heart failure patients and used diagnostic codes, procedure reports and physiological vitals of the patients. We used Clinical BERT to obtain feature embeddings within the diagnostic codes and procedure reports, and LSTM autoencoders to obtain feature embeddings within the physiological vitals. Then, we trained two separate deep learning contrastive learning frameworks, one for gender and the other for ethnicity to obtain debiased representations within those demographic traits. We called this debiasing framework Debias-CLR. We leveraged clinical phenotypes of the patients identified in the diagnostic codes and procedure reports in the previous study to measure fairness statistically. We found that Debias-CLR was able to reduce the Single-Category Word Embedding Association Test (SC-WEAT) effect size score when debiasing for gender and ethnicity. We further found that to obtain fair representations in the embedding space using Debias-CLR, the accuracy of the predictive models on downstream tasks like predicting length of stay of the patients did not get reduced as compared to using the un-debiased counterparts for training the predictive models. Hence, we conclude that our proposed approach, Debias-CLR is fair and representative in mitigating demographic biases and can reduce health disparities.",
+ "primary": "cs.LG"
+}

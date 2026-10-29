@@ -1,0 +1,22 @@
+{
+ "id": "2610.14963",
+ "title": "AD-GS: Anatomical Density-guided 3D Gaussian Splatting for Sparse-View Dental CBCT Reconstruction",
+ "authors": [
+  "Zonglin Li",
+  "Kexian Xie",
+  "Feiran Li",
+  "Chu Zhou",
+  "Yixing Huang",
+  "Ruiyang Chen",
+  "Zhanyu Ma",
+  "Heng Guo"
+ ],
+ "v1_date": "2026-10-10",
+ "latest_version": 1,
+ "latest_date": "2026-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse-view Cone-Beam Computed Tomography (CBCT) reconstruction is essential for reducing radiation dose and scan effort, but remains underconstrained due to limited projection information. Recent 3D Gaussian Splatting (3DGS)-based CBCT reconstruction methods rely on gradient-driven densification, which becomes unstable under sparse acquisition and often leads to over-smoothed structures. We propose AD-GS, an Anatomical Density-guided 3D Gaussian Splatting framework that formulates Gaussian densification as an attenuation-aware Markov Chain Monte Carlo (MCMC) sampling process. By interpreting Gaussians as samples from an underlying anatomical attenuation distribution, AD-GS adaptively concentrates representation capacity in high-attenuation regions, enabling sharper structural boundaries under sparse projections. To further constrain reconstruction, we incorporate a semantic regularization based on zero-shot features from Segment Anything in Medical Images, enforcing multi-view consistency through semantic priors. Experiments on the ToothFairy3 dental CBCT dataset demonstrate that AD-GS achieves superior structural fidelity and boundary preservation compared with existing 3DGS-based approaches under sparse-view settings within the dental and maxillofacial setting. Code is available at https://github.com/yulinjiaxue/AD-GS-BMVC2026.",
+ "primary": "cs.CV"
+}

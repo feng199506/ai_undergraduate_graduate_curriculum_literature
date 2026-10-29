@@ -1,0 +1,19 @@
+{
+ "id": "2507.14176",
+ "title": "Predictive Representativity: Uncovering Racial Bias in AI-based Skin Cancer Detection",
+ "authors": [
+  "Andrés Morales-Forero",
+  "Lili J. Rueda",
+  "Ronald Herrera",
+  "Samuel Bassetto",
+  "Eric Coatanea"
+ ],
+ "v1_date": "2025-07-10",
+ "latest_version": 1,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Artificial intelligence (AI) systems increasingly inform medical decision-making, yet concerns about algorithmic bias and inequitable outcomes persist, particularly for historically marginalized populations. This paper introduces the concept of Predictive Representativity (PR), a framework of fairness auditing that shifts the focus from the composition of the data set to outcomes-level equity. Through a case study in dermatology, we evaluated AI-based skin cancer classifiers trained on the widely used HAM10000 dataset and on an independent clinical dataset (BOSQUE Test set) from Colombia. Our analysis reveals substantial performance disparities by skin phototype, with classifiers consistently underperforming for individuals with darker skin, despite proportional sampling in the source data. We argue that representativity must be understood not as a static feature of datasets but as a dynamic, context-sensitive property of model predictions. PR operationalizes this shift by quantifying how reliably models generalize fairness across subpopulations and deployment contexts. We further propose an External Transportability Criterion that formalizes the thresholds for fairness generalization. Our findings highlight the ethical imperative for post-hoc fairness auditing, transparency in dataset documentation, and inclusive model validation pipelines. This work offers a scalable tool for diagnosing structural inequities in AI systems, contributing to discussions on equity, interpretability, and data justice and fostering a critical re-evaluation of fairness in data-driven healthcare.",
+ "primary": "cs.LG"
+}

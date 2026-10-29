@@ -1,0 +1,17 @@
+{
+ "id": "2405.15167",
+ "title": "ProDAG: Projected Variational Inference for Directed Acyclic Graphs",
+ "authors": [
+  "Ryan Thompson",
+  "Edwin V. Bonilla",
+  "Robert Kohn"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 8,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in Advances in Neural Information Processing Systems",
+ "abstract": "Directed acyclic graph (DAG) learning is a central task in structure discovery and causal inference. Although the field has witnessed remarkable advances over the past few years, it remains statistically and computationally challenging to learn a single (point estimate) DAG from data, let alone provide uncertainty quantification. We address the difficult task of quantifying graph uncertainty by developing a Bayesian variational inference framework based on novel, provably valid distributions that have support directly on the space of sparse DAGs. These distributions, which we use to define our prior and variational posterior, are induced by a projection operation that maps an arbitrary continuous distribution onto the space of sparse weighted acyclic adjacency matrices. While this projection is combinatorial, it can be solved efficiently using recent continuous reformulations of acyclicity constraints. We empirically demonstrate that our method, ProDAG, can outperform state-of-the-art alternatives in both accuracy and uncertainty quantification.",
+ "primary": "stat.ML"
+}

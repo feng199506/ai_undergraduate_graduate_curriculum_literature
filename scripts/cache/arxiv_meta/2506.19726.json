@@ -1,0 +1,15 @@
+{
+ "id": "2506.19726",
+ "title": "Precise Bayesian Neural Networks",
+ "authors": [
+  "Carlos Stein Brito"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 2,
+ "latest_date": "2025-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 6 figures",
+ "abstract": "Despite its long history, Bayesian neural networks (BNNs) and variational training remain underused in practice: standard Gaussian posteriors misalign with network geometry, KL terms can be brittle in high dimensions, and implementations often add complexity without reliably improving uncertainty. We revisit the problem through the lens of normalization. Because normalization layers neutralize the influence of weight magnitude, we model uncertainty \\emph{only in weight directions} using a von Mises-Fisher posterior on the unit sphere. High-dimensional geometry then yields a single, interpretable scalar per layer--the effective post-normalization noise $σ_{\\mathrm{eff}}$--that (i) corresponds to simple additive Gaussian noise in the forward pass and (ii) admits a compact, dimension-aware KL in closed form. We derive accurate, closed-form approximations linking concentration $κ$ to activation variance and to $σ_{\\mathrm{eff}}$ across regimes, producing a lightweight, implementation-ready variational unit that fits modern normalized architectures and improves calibration without sacrificing accuracy. This dimension awareness is critical for stable optimization in high dimensions. In short, by aligning the variational posterior with the network's intrinsic geometry, BNNs can be simultaneously principled, practical, and precise.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2409.01102",
+ "title": "GQL and SQL/PGQ: Theoretical Models and Expressive Power",
+ "authors": [
+  "Amélie Gheerbrant",
+  "Leonid Libkin",
+  "Liat Peterfreund",
+  "Alexandra Rogova"
+ ],
+ "v1_date": "2024-09-02",
+ "latest_version": 3,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "SQL/PGQ and GQL are very recent international standards for querying property graphs: SQL/PGQ specifies how to query relational representations of property graphs in SQL, while GQL is a standalone language for graph databases. The rapid industrial development of these standards left the academic community trailing in its wake. While digests of the languages have appeared, we do not yet have concise foundational models like relational algebra and calculus for relational databases that enable the formal study of languages, including their expressiveness and limitations. At the same time, work on the next versions of the standards has already begun, to address the perceived limitations of their first versions. Motivated by this, we initiate a formal study of SQL/PGQ and GQL, concentrating on their concise formal model and expressiveness. For the former, we define simple core languages -- Core GQL and Core PGQ -- that capture the essence of the new standards, are amenable to theoretical analysis, and fully clarify the difference between PGQ's bottom up evaluation versus GQL's linear, or pipelined approach. Equipped with these models, we both confirm the necessity to extend the language to fill in the expressiveness gaps and identify the source of these deficiencies. We complement our theoretical analysis with an experimental study, demonstrating that existing workarounds in full GQL and PGQ are impractical which further underscores the necessity to correct deficiencies in the language design.",
+ "primary": "cs.DB"
+}

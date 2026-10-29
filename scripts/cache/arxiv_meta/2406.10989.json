@@ -1,0 +1,20 @@
+{
+ "id": "2406.10989",
+ "title": "Predicting the Understandability of Computational Notebooks through Code Metrics Analysis",
+ "authors": [
+  "Mojtaba Mostafavi Ghahfarokhi",
+  "Alireza Asadi",
+  "Arash Asgari",
+  "Bardia Mohammadi",
+  "Abbas Heydarnoori",
+  "Masih Beigi Rizi"
+ ],
+ "v1_date": "2024-06-16",
+ "latest_version": 2,
+ "latest_date": "2025-06-17",
+ "journal_ref": "Empirical Software Engineering, Volume 30, No. 3, Apr. 2025",
+ "doi": "10.1007/s10664-025-10651-z",
+ "comment": "",
+ "abstract": "Computational notebooks are the primary coding tools for data scientists, but their code quality remains understudied and often poor. Given the importance of maintainability and reusability, enhancing code understandability is essential. Traditional methods for assessing understandability typically rely on limited questionnaires or metadata like likes and votes, which may not reflect actual code clarity. To address this, we propose a novel approach that leverages user opinions from software repositories to assess the understandability of Jupyter notebooks. We conducted a case study using 542,051 Kaggle Jupyter notebooks compiled in the DistilKaggle dataset. To identify user comments related to code understandability, we used a fine-tuned DistilBERT transformer. We then introduced a new metric, i.e., User Opinion Code Understandability (UOCU), based on the number of relevant comments, their upvotes, and notebook views. UOCU proved significantly more effective than prior methods. We further enhanced it by combining UOCU with total upvotes in a hybrid approach. Using this improved metric, we collected 34 notebook-level metrics from 132,723 final notebooks and trained machine learning models to predict understandability. Our best model, a Random Forest classifier, achieved 89% accuracy in classifying the understandability level of notebook code. This work demonstrates the value of user opinion signals and notebook metrics in building scalable, accurate measures of code understandability.",
+ "primary": "cs.SE"
+}

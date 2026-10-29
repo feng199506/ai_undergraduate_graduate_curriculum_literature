@@ -1,0 +1,17 @@
+{
+ "id": "2502.06165",
+ "title": "Adversarial Transform Particle Filters",
+ "authors": [
+  "Chengxin Gong",
+  "Wei Lin",
+  "Cheng Zhang"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 1,
+ "latest_date": "2025-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 10 figures, 4 tables",
+ "abstract": "The particle filter (PF) and the ensemble Kalman filter (EnKF) are widely used for approximate inference in state-space models. From a Bayesian perspective, these algorithms represent the prior by an ensemble of particles and update it to the posterior with new observations over time. However, the PF often suffers from weight degeneracy in high-dimensional settings, whereas the EnKF relies on linear Gaussian assumptions that can introduce significant approximation errors. In this paper, we propose the Adversarial Transform Particle Filter (ATPF), a novel filtering framework that combines the strengths of the PF and the EnKF through adversarial learning. Specifically, importance sampling is used to ensure statistical consistency as in the PF, while adversarially learned transformations, such as neural networks, allow accurate posterior matching for nonlinear and non-Gaussian systems. In addition, we incorporate kernel methods to ease optimization and leverage regularization techniques based on optimal transport for better statistical properties and numerical stability. We provide theoretical guarantees, including generalization bounds for both the analysis and forecast steps of ATPF. Extensive experiments across various nonlinear and non-Gaussian scenarios demonstrate the effectiveness and practical advantages of our method.",
+ "primary": "stat.ME"
+}

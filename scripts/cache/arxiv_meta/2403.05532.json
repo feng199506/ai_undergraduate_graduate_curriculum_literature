@@ -1,0 +1,16 @@
+{
+ "id": "2403.05532",
+ "title": "Twin: Tuning Learning Rate and Weight Decay of Deep Homogeneous Classifiers without Validation",
+ "authors": [
+  "Lorenzo Brigato",
+  "Stavroula Mougiakakou"
+ ],
+ "v1_date": "2024-03-08",
+ "latest_version": 2,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at TMLR",
+ "abstract": "We introduce Tune without Validation (Twin), a simple and effective pipeline for tuning learning rate and weight decay of homogeneous classifiers without validation sets, eliminating the need to hold out data and avoiding the two-step process. Twin leverages the margin-maximization dynamics of homogeneous networks and an empirical scaling law that links training and test losses across hyper-parameter configurations. This mathematical modeling yields a regime-dependent, validation-free selection rule: in the non-separable regime, training loss is monotonic in test loss and therefore predictive of generalization, whereas in the separable regime, the parameters' norm becomes a reliable indicator of generalization due to margin maximization. Across 37 dataset-architecture configurations for image classification, we demonstrate that Twin achieves a mean absolute error of 1.28% compared to an Oracle baseline that selects HPs using test accuracy. We demonstrate Twin's benefits in scenarios where validation data is scarce, such as small-data regimes, or difficult and costly to collect, as in medical imaging. Code available at https://github.com/lorenzobrigato/twin.",
+ "primary": "cs.LG"
+}

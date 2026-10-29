@@ -1,0 +1,17 @@
+{
+ "id": "2605.08104",
+ "title": "Distributional Reinforcement Learning via the Cramér Distance",
+ "authors": [
+  "Vanya Aziz",
+  "Ivo Nowak",
+  "E. M. T Hendrix"
+ ],
+ "v1_date": "2026-04-26",
+ "latest_version": 1,
+ "latest_date": "2026-04-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper explores the application of the Soft Actor-Critic (SAC) algorithm within a Distributional Reinforcement Learning setting and introduces an implementation of such algorithm named Cramér-based Distributional Soft Actor-Critic (C-DSAC). The novel approach employs distributional reinforcement learning to represent state-action values, and minimizes the squared Cramér distance for learning the distribution. Empirical results across various robotic benchmarks indicate that our algorithm surpasses the performance of baseline SAC and contemporary distributional methods, with the performance advantage becoming increasingly pronounced in high-complexity environments. To explain the efficiency of the new approach, we conduct an analysis showing that its superior performance is partly due to \\textit{confidence-driven} Q-value updates: High-variance target distributions (low confidence in target) lead to more conservative model updates, thereby attenuating the impact of overestimated values. This work deepens the understanding of distributional reinforcement learning, offering insights into the algorithmic mechanisms governing convergence and value estimation.",
+ "primary": "cs.LG"
+}

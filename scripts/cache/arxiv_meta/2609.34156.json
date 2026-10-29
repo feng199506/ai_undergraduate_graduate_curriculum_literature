@@ -1,0 +1,18 @@
+{
+ "id": "2609.34156",
+ "title": "Transfer Calibrated Prediction Powered Inference",
+ "authors": [
+  "Aditya T. Vadlamani",
+  "Jae Ho Chang",
+  "Srinivasan Parthasarathy",
+  "Subhadeep Paul"
+ ],
+ "v1_date": "2026-09-28",
+ "latest_version": 1,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prediction-powered inference (PPI) and its power-tuned extension (PPI++) improve confidence intervals by combining a small gold-standard labeled sample with a large AI model's predictions. Its efficiency gain relies on low residual variance, which may not hold if the predictor is pre-trained on a different source domain. We propose Transfer Calibrated Prediction-Powered Inference (TC-PPI), adapting the source-domain predictor to the target domain using gold-standard samples through cross-fitting. This approach supports various adaptation methods, such as sparse linear calibration, LoRA, and fine-tuning. Our jointly tuned cross-fit estimator, Joint-TC-Cross-PPI++, maintains unbiasedness and is simultaneously at least as efficient as classical inference, PPI, and PPI++, thereby protecting against negative transfer. We provide high-dimensional MSE bounds for calibration and show empirical improvements over baseline methods across various real-world applications.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2606.01176",
+ "title": "Temporal Motif Signatures for Temporal Graph Neural Networks",
+ "authors": [
+  "Dylan Sandfelder",
+  "Mihai Cucuringu",
+  "Xiaowen Dong"
+ ],
+ "v1_date": "2026-05-31",
+ "latest_version": 1,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Real temporal interaction streams carry predictive structure in short-horizon motif patterns -- repetition, reciprocity, star diversity, triadic flow -- that vanilla temporal graph neural networks (TGNNs) often fail to expose to their edge scorers. We show this concretely on MOOC interaction prediction, where a small four-feature family of past-window star counts already delivers most of the lift over a strong static GNN. Across a wide set of real and synthetic temporal datasets we find that motif activity organizes consistently along three scale-stable axes (dyadic recency/reciprocity, star diversity, triadic flow), and we use this empirical structure to design a compact 13-coordinate, leakage-safe, candidate-local motif feature map h(u, v, t) that linearly embeds into any static or temporal encoder without architectural changes. A temporal Weisfeiler-Leman (WL) analysis places the augmentation relative to the first level of an anchored temporal-WL hierarchy and exhibits a candidate-anchored pair on which motif features distinguish. We demonstrate empirically that the same augmentation consistently lifts performance across heterogeneous tasks: TGB link-property prediction across all five baselines, edge classification on Bitcoin Alpha/OTC and MOOC, and graph-level classification of synthetic temporal generators.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2405.13692",
+ "title": "Challenging Gradient Boosted Decision Trees with Tabular Transformers for Fraud Detection at Booking.com",
+ "authors": [
+  "Sergei Krutikov",
+  "Bulat Khaertdinov",
+  "Rodion Kiriukhin",
+  "Shubham Agrawal",
+  "Mozhdeh Ariannezhad",
+  "Kees Jan De Vries"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 2,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to CIKM'25, Applied Research track",
+ "abstract": "Transformer-based neural networks, empowered by Self-Supervised Learning (SSL), have demonstrated unprecedented performance across various domains. However, related literature suggests that tabular Transformers may struggle to outperform classical Machine Learning algorithms, such as Gradient Boosted Decision Trees (GBDT). In this paper, we aim to challenge GBDTs with tabular Transformers on a typical task faced in e-commerce, namely fraud detection. Our study is additionally motivated by the problem of selection bias, often occurring in real-life fraud detection systems. It is caused by the production system affecting which subset of traffic becomes labeled. This issue is typically addressed by sampling randomly a small part of the whole production data, referred to as a Control Group. This subset follows a target distribution of production data and therefore is usually preferred for training classification models with standard ML algorithms. Our methodology leverages the capabilities of Transformers to learn transferable representations using all available data by means of SSL, giving it an advantage over classical methods. Furthermore, we conduct large-scale experiments, pre-training tabular Transformers on vast amounts of data instances and fine-tuning them on smaller target datasets. The proposed approach outperforms heavily tuned GBDTs by a considerable margin of the Average Precision (AP) score in offline evaluations. Finally, we report the results of an online A/B experiment. Experimental results confirm the superiority of tabular Transformers compared to GBDTs in production, demonstrated by a statistically significant improvement in our business metric.",
+ "primary": "cs.LG"
+}

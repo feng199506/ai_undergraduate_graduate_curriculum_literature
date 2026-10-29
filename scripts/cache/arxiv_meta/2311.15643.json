@@ -1,0 +1,25 @@
+{
+ "id": "2311.15643",
+ "title": "A Survey on Monocular Re-Localization: From the Perspective of Scene Map Representation",
+ "authors": [
+  "Jinyu Miao",
+  "Kun Jiang",
+  "Tuopu Wen",
+  "Yunlong Wang",
+  "Peijing Jia",
+  "Xuhe Zhao",
+  "Qian Cheng",
+  "Zhongyang Xiao",
+  "Jin Huang",
+  "Zhihua Zhong",
+  "Diange Yang"
+ ],
+ "v1_date": "2023-11-27",
+ "latest_version": 3,
+ "latest_date": "2024-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 10 tables, 16 figures, under review",
+ "abstract": "Monocular Re-Localization (MRL) is a critical component in autonomous applications, estimating 6 degree-of-freedom ego poses w.r.t. the scene map based on monocular images. In recent decades, significant progress has been made in the development of MRL techniques. Numerous algorithms have accomplished extraordinary success in terms of localization accuracy and robustness. In MRL, scene maps are represented in various forms, and they determine how MRL methods work and how MRL methods perform. However, to the best of our knowledge, existing surveys do not provide systematic reviews about the relationship between MRL solutions and their used scene map representation. This survey fills the gap by comprehensively reviewing MRL methods from such a perspective, promoting further research. 1) We commence by delving into the problem definition of MRL, exploring current challenges, and comparing ours with existing surveys. 2) Many well-known MRL methods are categorized and reviewed into five classes according to the representation forms of utilized map, i.e., geo-tagged frames, visual landmarks, point clouds, vectorized semantic map, and neural network-based map. 3) To quantitatively and fairly compare MRL methods with various map, we introduce some public datasets and provide the performances of some state-of-the-art MRL methods. The strengths and weakness of MRL methods with different map are analyzed. 4) We finally introduce some topics of interest in this field and give personal opinions. This survey can serve as a valuable referenced materials for MRL, and a continuously updated summary of this survey is publicly available to the community at: https://github.com/jinyummiao/map-in-mono-reloc.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2311.09133",
+ "title": "Explainable Text Classification Techniques in Legal Document Review: Locating Rationales without Using Human Annotated Training Text Snippets",
+ "authors": [
+  "Christian Mahoney",
+  "Peter Gronvall",
+  "Nathaniel Huber-Fliflet",
+  "Jianping Zhang"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 1,
+ "latest_date": "2023-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:1912.09501",
+ "abstract": "US corporations regularly spend millions of dollars reviewing electronically-stored documents in legal matters. Recently, attorneys apply text classification to efficiently cull massive volumes of data to identify responsive documents for use in these matters. While text classification is regularly used to reduce the discovery costs of legal matters, it also faces a perception challenge: amongst lawyers, this technology is sometimes looked upon as a \"black box\". Put simply, no extra information is provided for attorneys to understand why documents are classified as responsive. In recent years, explainable machine learning has emerged as an active research area. In an explainable machine learning system, predictions or decisions made by a machine learning model are human understandable. In legal 'document review' scenarios, a document is responsive, because one or more of its small text snippets are deemed responsive. In these scenarios, if these responsive snippets can be located, then attorneys could easily evaluate the model's document classification decisions - this is especially important in the field of responsible AI. Our prior research identified that predictive models created using annotated training text snippets improved the precision of a model when compared to a model created using all of a set of documents' text as training. While interesting, manually annotating training text snippets is not generally practical during a legal document review. However, small increases in precision can drastically decrease the cost of large document reviews. Automating the identification of training text snippets without human review could then make the application of training text snippet-based models a practical approach.",
+ "primary": "cs.IR"
+}

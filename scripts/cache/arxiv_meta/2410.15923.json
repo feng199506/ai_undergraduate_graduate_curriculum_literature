@@ -1,0 +1,16 @@
+{
+ "id": "2410.15923",
+ "title": "Automatic Differentiation of Optimization Algorithms with Time-Varying Updates",
+ "authors": [
+  "Sheheryar Mehmood",
+  "Peter Ochs"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 2,
+ "latest_date": "2024-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2208.03107",
+ "abstract": "Numerous Optimization Algorithms have a time-varying update rule thanks to, for instance, a changing step size, momentum parameter or, Hessian approximation. In this paper, we apply unrolled or automatic differentiation to a time-varying iterative process and provide convergence (rate) guarantees for the resulting derivative iterates. We adapt these convergence results and apply them to proximal gradient descent with variable step size and FISTA when solving partly smooth problems. We confirm our findings numerically by solving $\\ell_1$ and $\\ell_2$-regularized linear and logisitc regression respectively. Our theoretical and numerical results show that the convergence rate of the algorithm is reflected in its derivative iterates.",
+ "primary": "math.OC"
+}

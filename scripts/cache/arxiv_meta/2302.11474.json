@@ -1,0 +1,27 @@
+{
+ "id": "2302.11474",
+ "title": "Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software",
+ "authors": [
+  "Riley Murray",
+  "James Demmel",
+  "Michael W. Mahoney",
+  "N. Benjamin Erichson",
+  "Maksim Melnichenko",
+  "Osman Asif Malik",
+  "Laura Grigori",
+  "Piotr Luszczek",
+  "Michał Dereziński",
+  "Miles E. Lopes",
+  "Tianyu Liang",
+  "Hengrui Luo",
+  "Jack Dongarra"
+ ],
+ "v1_date": "2023-02-22",
+ "latest_version": 2,
+ "latest_date": "2023-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v1: this is the first arXiv release of LAPACK Working Note 299. v2: complete rewrite of the subsection on trace estimation, among other changes. See frontmatter page ii (pdf page 5) for revision history",
+ "abstract": "Randomized numerical linear algebra - RandNLA, for short - concerns the use of randomization as a resource to develop improved algorithms for large-scale linear algebra computations. The origins of contemporary RandNLA lay in theoretical computer science, where it blossomed from a simple idea: randomization provides an avenue for computing approximate solutions to linear algebra problems more efficiently than deterministic algorithms. This idea proved fruitful in the development of scalable algorithms for machine learning and statistical data analysis applications. However, RandNLA's true potential only came into focus upon integration with the fields of numerical analysis and \"classical\" numerical linear algebra. Through the efforts of many individuals, randomized algorithms have been developed that provide full control over the accuracy of their solutions and that can be every bit as reliable as algorithms that might be found in libraries such as LAPACK. Recent years have even seen the incorporation of certain RandNLA methods into MATLAB, the NAG Library, NVIDIA's cuSOLVER, and SciKit-Learn. For all its success, we believe that RandNLA has yet to realize its full potential. In particular, we believe the scientific community stands to benefit significantly from suitably defined \"RandBLAS\" and \"RandLAPACK\" libraries, to serve as standards conceptually analogous to BLAS and LAPACK. This 200-page monograph represents a step toward defining such standards. In it, we cover topics spanning basic sketching, least squares and optimization, low-rank approximation, full matrix decompositions, leverage score sampling, and sketching data with tensor product structures (among others). Much of the provided pseudo-code has been tested via publicly available MATLAB and Python implementations.",
+ "primary": "math.NA"
+}

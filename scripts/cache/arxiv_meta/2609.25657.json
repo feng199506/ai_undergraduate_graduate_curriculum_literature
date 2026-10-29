@@ -1,0 +1,19 @@
+{
+ "id": "2609.25657",
+ "title": "Targeted Review for AI-Assisted Biodiversity Surveys: Active Continuous-Score Occupancy Modeling",
+ "authors": [
+  "Timm Haucke",
+  "Lauren Harrell",
+  "Justin Kay",
+  "Mary Clapp",
+  "Sara Beery"
+ ],
+ "v1_date": "2026-09-22",
+ "latest_version": 1,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We increasingly use machine learning to label scientific datasets. The models we develop and deploy are improving all the time, but they are not and will likely never be perfect. Mistakes matter, as errors can propagate into our scientific understanding, particularly when systematically biased. Very reasonably, scientists thus review substantial proportions of ML-generated labels to verify or correct mistakes in pursuit of ensuring their scientific findings are not biased by ML. In this work, we focus on helping scientists optimally allocate this reviewing effort relative to their scientific goals. We focus on a specific class of scientists (ecologists) and a specific, widespread, and impactful modeling target (occupancy modeling, which estimates where species are likely to occur, conditioned on environmental factors). We introduce Active Continuous-Score Occupancy Modeling (ACORN), a method that incorporates ML predictions into occupancy models and strategically selects samples for expert review that are maximally informative for downstream ecological analysis. Across camera-trap and bioacoustic datasets, our method recovers ecological conclusions close to those obtained from fully human-labeled data, while requiring substantially fewer expert reviews than non-targeted review policies. Our results suggest that ML-assisted scientific workflows should optimize expert effort for downstream inference, rather than for classifier accuracy alone, especially when human review budget is limited. Our code is available at https://github.com/timmh/acorn",
+ "primary": "cs.LG"
+}

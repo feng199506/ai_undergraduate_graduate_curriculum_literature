@@ -1,0 +1,22 @@
+{
+ "id": "2405.00577",
+ "title": "Discovering robust biomarkers of psychiatric disorders from resting-state functional MRI via graph neural networks: A systematic review",
+ "authors": [
+  "Yi Hao Chan",
+  "Deepank Girish",
+  "Sukrit Gupta",
+  "Jing Xia",
+  "Chockalingam Kasi",
+  "Yinan He",
+  "Conghao Wang",
+  "Jagath C. Rajapakse"
+ ],
+ "v1_date": "2024-05-01",
+ "latest_version": 2,
+ "latest_date": "2025-02-01",
+ "journal_ref": "",
+ "doi": "10.1016/j.neuroimage.2025.121422",
+ "comment": "",
+ "abstract": "Graph neural networks (GNN) have emerged as a popular tool for modelling functional magnetic resonance imaging (fMRI) datasets. Many recent studies have reported significant improvements in disorder classification performance via more sophisticated GNN designs and highlighted salient features that could be potential biomarkers of the disorder. However, existing methods of evaluating their robustness are often limited to cross-referencing with existing literature, which is a subjective and inconsistent process. In this review, we provide an overview of how GNN and model explainability techniques (specifically, feature attributors) have been applied to fMRI datasets for disorder prediction tasks, with an emphasis on evaluating the robustness of potential biomarkers produced for psychiatric disorders. Then, 65 studies using GNNs that reported potential fMRI biomarkers for psychiatric disorders (attention-deficit hyperactivity disorder, autism spectrum disorder, major depressive disorder, schizophrenia) published before 9 October 2024 were identified from 2 online databases (Scopus, PubMed). We found that while most studies have performant models, salient features highlighted in these studies (as determined by feature attribution scores) vary greatly across studies on the same disorder. Reproducibility of biomarkers is only limited to a small subset at the level of regions and few transdiagnostic biomarkers were identified. To address these issues, we suggest establishing new standards that are based on objective evaluation metrics to determine the robustness of these potential biomarkers. We further highlight gaps in the existing literature and put together a prediction-attribution-evaluation framework that could set the foundations for future research on discovering robust biomarkers of psychiatric disorders via GNNs.",
+ "primary": "cs.LG"
+}

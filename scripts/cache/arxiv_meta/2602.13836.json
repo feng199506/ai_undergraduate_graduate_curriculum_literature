@@ -1,0 +1,19 @@
+{
+ "id": "2602.13836",
+ "title": "Speculative Decoding with a Speculative Vocabulary",
+ "authors": [
+  "Miles Williams",
+  "Young D. Kwon",
+  "Rui Li",
+  "Alexandros Kouris",
+  "Stylianos I. Venieris"
+ ],
+ "v1_date": "2026-02-14",
+ "latest_version": 2,
+ "latest_date": "2026-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Findings of ACL 2026",
+ "abstract": "Speculative decoding has rapidly emerged as a leading approach for accelerating language model (LM) inference, as it offers substantial speedups while yielding identical outputs. This relies upon a small draft model, tasked with predicting the outputs of the target model. State-of-the-art speculative decoding methods use a draft model comprising a single decoder layer and output embedding matrix, with the latter dominating drafting time for the latest LMs. Recent work has sought to address this output distribution bottleneck by reducing the vocabulary of the draft model. While this can improve throughput, it compromises speculation effectiveness when the target token is out-of-vocabulary. In this paper, we argue for vocabulary speculation as an alternative to a reduced vocabulary. We propose SpecVocab, an efficient and effective method that selects a vocabulary subset per decoding step. Across a variety of tasks, we show that SpecVocab can achieve a higher acceptance length than state-of-the-art speculative decoding method, EAGLE-3. Notably, this yields up to an 8.1% increase in average throughput over EAGLE-3.",
+ "primary": "cs.CL"
+}

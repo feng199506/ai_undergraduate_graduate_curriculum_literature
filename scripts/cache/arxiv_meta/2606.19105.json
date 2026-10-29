@@ -1,0 +1,17 @@
+{
+ "id": "2606.19105",
+ "title": "Smoothness-Based Derandomization of PAC-Bayes Bounds",
+ "authors": [
+  "Alexandre Lemire Paquin",
+  "Brahim Chaib-Draa",
+  "Philippe Giguère"
+ ],
+ "v1_date": "2026-06-17",
+ "latest_version": 2,
+ "latest_date": "2026-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 8 figures, 3 tables. Version 2 adds the SHEL network specialization and experiments on MNIST",
+ "abstract": "We study PAC-Bayes derandomization for smooth loss functions. Our goal is to obtain generalization bounds that hold with high probability for deterministic predictors by exploiting smoothness properties of both the loss and the predictor class. We show that passing from the Gibbs predictor to the deterministic predictor at the posterior mean has a precise cost, given by the generalization gap of the Jensen gap class. We control this class through its Rademacher complexity, leading to bounds for deterministic predictors that involve flatness quantities expressed in terms of parameter Jacobians and Hessians of the score map. The framework applies to both bounded and unbounded smooth loss functions, and we specialize the results to linear predictors and smooth neural networks. Finally, the Jacobian and Hessian quantities appearing in the theory motivate a practical regularizer. For BatchNorm networks, we compute this regularizer with respect to effective BatchNorm weights obtained by folding the BatchNorm transformation into the adjacent affine weights. Experiments on CIFAR-10 illustrate the behavior of this regularizer under different batch sizes.",
+ "primary": "cs.LG"
+}

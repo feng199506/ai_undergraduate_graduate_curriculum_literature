@@ -1,0 +1,17 @@
+{
+ "id": "2605.03189",
+ "title": "Sentinel2Cap: A Human-Annotated Benchmark Dataset for Multimodal Remote Sensing Image Captioning",
+ "authors": [
+  "Lucrezia Tosato",
+  "Gianluca Lombardi",
+  "Ronny Hansch"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 1,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 6 figures, 5 tables",
+ "abstract": "Image captioning has become an important task in computer vision, enabling models to generate natural language descriptions of visual content. While several datasets exist for natural images and high-resolution optical remote sensing imagery, the availability of captioning datasets for multimodal satellite data remains limited, particularly for SAR imagery and medium-resolution sensors. We introduce Sentinel2Cap, a human-annotated multimodal captioning dataset containing Sentinel-1 SAR and Sentinel-2 multi-spectral image patches at 10 m and 20 m spatial resolution with diverse land cover compositions. Captions are created manually and carefully validated to ensure both semantic accuracy and linguistic quality. To evaluate Sentinel2Cap, we perform a zero-shot captioning using the Qwen3-VL-8B-Instruct model across three image modalities: RGB, multi-spectral, and SAR pseudo-RGB representations. Results show that RGB images achieve the highest captioning performance, while SAR images remain more challenging for vision-language models. Providing modality-specific contextual prompts consistently improves performance across all metrics. These findings highlight both the challenges of multimodal remote sensing image captioning and the potential value of human-annotated datasets for advancing research in cross-modal scene understanding. All the material is publicly avaiable.",
+ "primary": "cs.CV"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2607.13459",
+ "title": "Elton: Urn Resources for Reasoning about Adversarial Probabilistic Programs",
+ "authors": [
+  "Kwing Hei Li",
+  "Alejandro Aguirre",
+  "Philipp G. Haselwarter",
+  "Joseph Tassarotti",
+  "Lars Birkedal"
+ ],
+ "v1_date": "2026-07-15",
+ "latest_version": 1,
+ "latest_date": "2026-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic programs are important for many applications. For security applications in particular, one is interested in establishing properties that hold in the presence of arbitrary adversaries, i.e., unknown pieces of code. We present Elton, a higher-order separation logic for reasoning about higher-order probabilistic programs utilizing unknown adversarial code. Elton incorporates novel logical facilities for specifying invariants over distributional properties using delayed samplings at the language level, and a new kind of separation-logic predicate called urn resources at the logic level. We show that these extensions are sound and can be erased back to a standard call-by-value semantics. Combined with other features, e.g. invariants and ghost resources, Elton is expressive enough to prove error bounds on a wide range of security examples, some of which are beyond the scope of previous techniques. All proofs are mechanized with the Rocq proof assistant and the Iris separation logic framework.",
+ "primary": "cs.LO"
+}

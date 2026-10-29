@@ -1,0 +1,16 @@
+{
+ "id": "2512.11082",
+ "title": "Memoryless Policy Iteration for Episodic POMDPs",
+ "authors": [
+  "Roy van Zuijlen",
+  "Duarte Antunes"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 1,
+ "latest_date": "2025-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Memoryless and finite-memory policies offer a practical alternative for solving partially observable Markov decision processes (POMDPs), as they operate directly in the output space rather than in the high-dimensional belief space. However, extending classical methods such as policy iteration to this setting remains difficult; the output process is non-Markovian, making policy-improvement steps interdependent across stages. We introduce a new family of monotonically improving policy-iteration algorithms that alternate between single-stage output-based policy improvements and policy evaluations according to a prescribed periodic pattern. We show that this family admits optimal patterns that maximize a natural computational-efficiency index, and we identify the simplest pattern with minimal period. Building on this structure, we further develop a model-free variant that estimates values from data and learns memoryless policies directly. Across several POMDPs examples, our method achieves significant computational speedups over policy-gradient baselines and recent specialized algorithms in both model-based and model-free settings.",
+ "primary": "cs.LG"
+}

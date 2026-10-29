@@ -1,0 +1,18 @@
+{
+ "id": "2607.23146",
+ "title": "Foundation Models and Fine-Tuning: Toward a New Generation of Models for Time Series Forecasting",
+ "authors": [
+  "Morad Laglil",
+  "Bertrand Pracca",
+  "Emilie Devijver",
+  "Eric Gaussier"
+ ],
+ "v1_date": "2026-07-25",
+ "latest_version": 1,
+ "latest_date": "2026-07-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Inspired by recent breakthroughs in large language models for natural language processing, foundation models have emerged as a promising paradigm for zero-shot time series forecasting, enabling accurate predictions on datasets never seen during pre-training. Ranging from tens to hundreds of millions of parameters, these models are pre-trained on vast and diverse collections of time series, learning generalizable representations that support both point and probabilistic forecasting. This approach alleviates the need for dataset-specific model design and manual tuning, offering a unified solution across forecasting problems. In this work, we review the main architectures, pre-training strategies, and optimization methods underpinning these models. We further investigate post-pre-training fine-tuning of selected foundation models to enhance their performance on specific datasets. Our empirical results demonstrate that this step consistently improves forecasting accuracy over the zero-shot baseline.",
+ "primary": "cs.LG"
+}

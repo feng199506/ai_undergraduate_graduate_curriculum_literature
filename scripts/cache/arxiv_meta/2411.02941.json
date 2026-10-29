@@ -1,0 +1,24 @@
+{
+ "id": "2411.02941",
+ "title": "A Mamba Foundation Model for Time Series Forecasting",
+ "authors": [
+  "Haoyu Ma",
+  "Yushu Chen",
+  "Wenlai Zhao",
+  "Jinzhe Yang",
+  "Yingsheng Ji",
+  "Xinghua Xu",
+  "Xiaozhu Liu",
+  "Hao Jing",
+  "Shengzhuo Liu",
+  "Guangwen Yang"
+ ],
+ "v1_date": "2024-11-05",
+ "latest_version": 1,
+ "latest_date": "2024-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time series foundation models have demonstrated strong performance in zero-shot learning, making them well-suited for predicting rapidly evolving patterns in real-world applications where relevant training data are scarce. However, most of these models rely on the Transformer architecture, which incurs quadratic complexity as input length increases. To address this, we introduce TSMamba, a linear-complexity foundation model for time series forecasting built on the Mamba architecture. The model captures temporal dependencies through both forward and backward Mamba encoders, achieving high prediction accuracy. To reduce reliance on large datasets and lower training costs, TSMamba employs a two-stage transfer learning process that leverages pretrained Mamba LLMs, allowing effective time series modeling with a moderate training set. In the first stage, the forward and backward backbones are optimized via patch-wise autoregressive prediction; in the second stage, the model trains a prediction head and refines other components for long-term forecasting. While the backbone assumes channel independence to manage varying channel numbers across datasets, a channel-wise compressed attention module is introduced to capture cross-channel dependencies during fine-tuning on specific multivariate datasets. Experiments show that TSMamba's zero-shot performance is comparable to state-of-the-art time series foundation models, despite using significantly less training data. It also achieves competitive or superior full-shot performance compared to task-specific prediction models. The code will be made publicly available.",
+ "primary": "cs.LG"
+}

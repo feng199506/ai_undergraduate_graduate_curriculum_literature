@@ -1,0 +1,17 @@
+{
+ "id": "2407.15745",
+ "title": "Comparing Algorithms for Loading Classical Datasets into Quantum Memory",
+ "authors": [
+  "Andriy Miranskyy",
+  "Mushahid Khan",
+  "Udson Mendes"
+ ],
+ "v1_date": "2024-07-22",
+ "latest_version": 1,
+ "latest_date": "2024-07-22",
+ "journal_ref": "In proceedings of the 2024 IEEE International Conference on Quantum Computing and Engineering (QCE). Presented at the 4th International Workshop on Quantum Software Engineering and Technology at QCE'24, 2024",
+ "doi": "10.1109/qce60285.2024.10284",
+ "comment": "",
+ "abstract": "Quantum computers are gaining importance in various applications like quantum machine learning and quantum signal processing. These applications face significant challenges in loading classical datasets into quantum memory. With numerous algorithms available and multiple quality attributes to consider, comparing data loading methods is complex. Our objective is to compare (in a structured manner) various algorithms for loading classical datasets into quantum memory (by converting statevectors to circuits). We evaluate state preparation algorithms based on five key attributes: circuit depth, qubit count, classical runtime, statevector representation (dense or sparse), and circuit alterability. We use the Pareto set as a multi-objective optimization tool to identify algorithms with the best combination of properties. To improve comprehension and speed up comparisons, we also visually compare three metrics (namely, circuit depth, qubit count, and classical runtime). We compare seven algorithms for dense statevector conversion and six for sparse statevector conversion. Our analysis reduces the initial set of algorithms to two dense and two sparse groups, highlighting inherent trade-offs. This comparison methodology offers a structured approach for selecting algorithms based on specific needs. Researchers and practitioners can use it to help select data-loading algorithms for various quantum computing tasks.",
+ "primary": "quant-ph"
+}

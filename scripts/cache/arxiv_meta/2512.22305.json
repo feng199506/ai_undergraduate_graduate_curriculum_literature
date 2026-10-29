@@ -1,0 +1,17 @@
+{
+ "id": "2512.22305",
+ "title": "PDx -- Adaptive Credit Risk Forecasting Model in Digital Lending using Machine Learning Operations",
+ "authors": [
+  "Sultan Amed",
+  "Chan Yu Hang",
+  "Sayantan Banerjee"
+ ],
+ "v1_date": "2025-12-26",
+ "latest_version": 1,
+ "latest_date": "2025-12-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents PDx, an adaptive, machine learning operations (MLOps) driven decision system for forecasting credit risk using probability of default (PD) modeling in digital lending. While conventional PD models prioritize predictive accuracy during model development with complex machine learning algorithms, they often overlook continuous adaptation to changing borrower behaviour, resulting in static models that degrade over time in production and generate inaccurate default predictions. Many financial institutes also find it difficult transitioning ML models from development environment to production and maintaining their health. With PDx we aimed to addresses these limitations using a dynamic, end-to-end model lifecycle management approach that integrates continuous model monitoring, retraining, and validation through a robust MLOps pipeline. We introduced a dynamic champion-challenger framework for PDx to regularly update baseline models to recalibrate independent parameters with the latest data and select the best-performing model through out-of-time validation, ensuring resilience against data drift and changing credit risk patterns. Our empirical analysis shows that decision tree-based ensemble models consistently outperform others in classifying defaulters but require frequent updates to sustain performance. Linear models (e.g., logistic regression) and neural networks exhibit greater performance degradation. The study demonstrate with PDx we can mitigates value erosion for digital lenders, particularly in short-term, small-ticket loans, where borrower behavior shifts rapidly. We have validated the effectiveness of PDx using datasets from peer-to-peer lending, business loans, and auto loans, demonstrating its scalability and adaptability for modern credit risk forecasting.",
+ "primary": "cs.LG"
+}

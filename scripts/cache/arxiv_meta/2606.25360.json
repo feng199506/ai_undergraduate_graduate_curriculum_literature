@@ -1,0 +1,25 @@
+{
+ "id": "2606.25360",
+ "title": "ResCue: Residual Spatial Cueing for Language-Conditioned Imitation Learning",
+ "authors": [
+  "Yanzhe Tang",
+  "Xinyu Shao",
+  "Yuxuan Hu",
+  "Siyu Chen",
+  "Chenxi Zhai",
+  "Xi Cheng",
+  "Bowen Yang",
+  "Yajun Gao",
+  "Tongtong Cao",
+  "Xiu Li",
+  "Long Zeng"
+ ],
+ "v1_date": "2026-06-24",
+ "latest_version": 2,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Visual imitation policies must learn which image regions matter for action, whether applying the same operation to different objects or selecting a language-specified target. We introduce ResCue (Residual Spatial Cueing), which converts language-derived target information into a spatial condition for visual policy learning. Pretrained grounding produces a target mask; an independent cue encoder adds its features to spatial RGB features before further visual processing and pooling. This retains scene context while making the target explicit. With Diffusion Policy (DP), ResCue achieves 56.5% average success across 15 simulated tasks, versus 33.1% for DP and 40.% for the strongest baseline, $π_0$, with gains in both ordinary manipulation and instruction-dependent object selection. On three real-world bimanual tasks, it reaches 60.0%, compared with 31.7% for $π_0$. Matched-mask ablations favor residual fusion over input-level and pooled alternatives, while test-time interventions show that target-correct guidance matters for execution.",
+ "primary": "cs.RO"
+}

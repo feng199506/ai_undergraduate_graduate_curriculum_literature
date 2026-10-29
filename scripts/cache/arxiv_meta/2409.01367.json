@@ -1,0 +1,19 @@
+{
+ "id": "2409.01367",
+ "title": "Debiasing Graph Representation Learning based on Information Bottleneck",
+ "authors": [
+  "Ziyi Zhang",
+  "Mingxuan Ouyang",
+  "Wanyu Lin",
+  "Hao Lan",
+  "Lei Yang"
+ ],
+ "v1_date": "2024-09-02",
+ "latest_version": 1,
+ "latest_date": "2024-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph representation learning has shown superior performance in numerous real-world applications, such as finance and social networks. Nevertheless, most existing works might make discriminatory predictions due to insufficient attention to fairness in their decision-making processes. This oversight has prompted a growing focus on fair representation learning. Among recent explorations on fair representation learning, prior works based on adversarial learning usually induce unstable or counterproductive performance. To achieve fairness in a stable manner, we present the design and implementation of GRAFair, a new framework based on a variational graph auto-encoder. The crux of GRAFair is the Conditional Fairness Bottleneck, where the objective is to capture the trade-off between the utility of representations and sensitive information of interest. By applying variational approximation, we can make the optimization objective tractable. Particularly, GRAFair can be trained to produce informative representations of tasks while containing little sensitive information without adversarial training. Experiments on various real-world datasets demonstrate the effectiveness of our proposed method in terms of fairness, utility, robustness, and stability.",
+ "primary": "cs.LG"
+}

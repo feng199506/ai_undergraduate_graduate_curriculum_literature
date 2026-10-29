@@ -1,0 +1,18 @@
+{
+ "id": "2503.15136",
+ "title": "A Unified Model for High-Resolution ODEs: New Insights on Accelerated Methods",
+ "authors": [
+  "Hoomaan Maskan",
+  "Konstantinos C. Zygalakis",
+  "Armin Eftekhari",
+  "Alp Yurtsever"
+ ],
+ "v1_date": "2025-03-19",
+ "latest_version": 1,
+ "latest_date": "2025-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 5 figures, 3 tables",
+ "abstract": "Recent work on high-resolution ordinary differential equations (HR-ODEs) captures fine nuances among different momentum-based optimization methods, leading to accurate theoretical insights. However, these HR-ODEs often appear disconnected, each targeting a specific algorithm and derived with different assumptions and techniques. We present a unifying framework by showing that these diverse HR-ODEs emerge as special cases of a general HR-ODE derived using the Forced Euler-Lagrange equation. Discretizing this model recovers a wide range of optimization algorithms through different parameter choices. Using integral quadratic constraints, we also introduce a general Lyapunov function to analyze the convergence of the proposed HR-ODE and its discretizations, achieving significant improvements across various cases, including new guarantees for the triple momentum method$'$s HR-ODE and the quasi-hyperbolic momentum method, as well as faster gradient norm minimization rates for Nesterov$'$s accelerated gradient algorithm, among other advances.",
+ "primary": "math.OC"
+}

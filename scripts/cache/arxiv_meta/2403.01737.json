@@ -1,0 +1,16 @@
+{
+ "id": "2403.01737",
+ "title": "Deep Horseshoe Gaussian Processes",
+ "authors": [
+  "Ismaël Castillo",
+  "Thibault Randrianarisoa"
+ ],
+ "v1_date": "2024-03-04",
+ "latest_version": 2,
+ "latest_date": "2025-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "54 pages (25-page supplement included), one figure",
+ "abstract": "Deep Gaussian processes have recently been proposed as natural objects to fit, similarly to deep neural networks, possibly complex features present in modern data samples, such as compositional structures. Adopting a Bayesian nonparametric approach, it is natural to use deep Gaussian processes as prior distributions, and use the corresponding posterior distributions for statistical inference. We introduce the deep Horseshoe Gaussian process Deep-HGP, a new simple prior based on deep Gaussian processes with a squared-exponential kernel, that in particular enables data-driven choices of the key lengthscale parameters. For nonparametric regression with random design, we show that the associated posterior distribution recovers the unknown true regression curve optimally in terms of quadratic loss, up to a logarithmic factor, in an adaptive way. The convergence rates are simultaneously adaptive to both the smoothness of the regression function and to its structure in terms of compositions. The dependence of the rates in terms of dimension are explicit, allowing in particular for input spaces of dimension increasing with the number of observations.",
+ "primary": "math.ST"
+}

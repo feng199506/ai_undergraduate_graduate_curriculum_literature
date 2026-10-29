@@ -1,0 +1,17 @@
+{
+ "id": "2506.08464",
+ "title": "MAC: An Efficient Gradient Preconditioning using Mean Activation Approximated Curvature",
+ "authors": [
+  "Hyunseok Seung",
+  "Jaewoo Lee",
+  "Hyunsuk Ko"
+ ],
+ "v1_date": "2025-06-10",
+ "latest_version": 2,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "10.1109/icdm65498.2025.00077",
+ "comment": "Accepted to the IEEE International Conference on Data Mining (ICDM-2025)",
+ "abstract": "Second-order optimization methods for training neural networks, such as KFAC, exhibit superior convergence by utilizing curvature information of loss landscape. However, it comes at the expense of high computational burden. In this work, we analyze the two components that constitute the layer-wise Fisher information matrix (FIM) used in KFAC: the Kronecker factors related to activations and pre-activation gradients. Based on empirical observations on their eigenspectra, we propose efficient approximations for them, resulting in a computationally efficient optimization method called MAC. To the best of our knowledge, MAC is the first algorithm to apply the Kronecker factorization to the FIM of attention layers used in transformers and explicitly integrate attention scores into the preconditioning. We also study the convergence property of MAC on nonlinear neural networks and provide two conditions under which it converges to global minima. Our extensive evaluations on various network architectures and datasets show that the proposed method outperforms KFAC and other state-of-the-art methods in terms of accuracy, end-to-end training time, and memory usage.",
+ "primary": "cs.LG"
+}

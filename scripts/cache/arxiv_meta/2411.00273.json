@@ -1,0 +1,17 @@
+{
+ "id": "2411.00273",
+ "title": "Efficient Model Compression for Bayesian Neural Networks",
+ "authors": [
+  "Diptarka Saha",
+  "Zihe Liu",
+  "Feng Liang"
+ ],
+ "v1_date": "2024-11-01",
+ "latest_version": 1,
+ "latest_date": "2024-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model Compression has drawn much attention within the deep learning community recently. Compressing a dense neural network offers many advantages including lower computation cost, deployability to devices of limited storage and memories, and resistance to adversarial attacks. This may be achieved via weight pruning or fully discarding certain input features. Here we demonstrate a novel strategy to emulate principles of Bayesian model selection in a deep learning setup. Given a fully connected Bayesian neural network with spike-and-slab priors trained via a variational algorithm, we obtain the posterior inclusion probability for every node that typically gets lost. We employ these probabilities for pruning and feature selection on a host of simulated and real-world benchmark data and find evidence of better generalizability of the pruned model in all our experiments.",
+ "primary": "cs.LG"
+}

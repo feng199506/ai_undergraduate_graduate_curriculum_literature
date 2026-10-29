@@ -1,0 +1,21 @@
+{
+ "id": "2505.12410",
+ "title": "MTIL: Encoding Full History with Mamba for Temporal Imitation Learning",
+ "authors": [
+  "Yulin Zhou",
+  "Yuankai Lin",
+  "Fanzhe Peng",
+  "Jiahui Chen",
+  "Kaiji Huang",
+  "Hua Yang",
+  "Zhouping Yin"
+ ],
+ "v1_date": "2025-05-18",
+ "latest_version": 3,
+ "latest_date": "2025-10-15",
+ "journal_ref": "IEEE Robotics and Automation Letters, vol. 10, no. 11, pp. 11761-11767, Nov. 2025",
+ "doi": "10.1109/lra.2025.3615520",
+ "comment": "Published in IEEE Robotics and Automation Letters (RA-L), 2025. 8 pages, 5 figures",
+ "abstract": "Standard imitation learning (IL) methods have achieved considerable success in robotics, yet often rely on the Markov assumption, which falters in long-horizon tasks where history is crucial for resolving perceptual ambiguity. This limitation stems not only from a conceptual gap but also from a fundamental computational barrier: prevailing architectures like Transformers are often constrained by quadratic complexity, rendering the processing of long, high-dimensional observation sequences infeasible. To overcome this dual challenge, we introduce Mamba Temporal Imitation Learning (MTIL). Our approach represents a new paradigm for robotic learning, which we frame as a practical synthesis of World Model and Dynamical System concepts. By leveraging the linear-time recurrent dynamics of State Space Models (SSMs), MTIL learns an implicit, action-oriented world model that efficiently encodes the entire trajectory history into a compressed, evolving state. This allows the policy to be conditioned on a comprehensive temporal context, transcending the confines of Markovian approaches. Through extensive experiments on simulated benchmarks (ACT, Robomimic, LIBERO) and on challenging real-world tasks, MTIL demonstrates superior performance against SOTA methods like ACT and Diffusion Policy, particularly in resolving long-term temporal ambiguities. Our findings not only affirm the necessity of full temporal context but also validate MTIL as a powerful and a computationally feasible approach for learning long-horizon, non-Markovian behaviors from high-dimensional observations.",
+ "primary": "cs.RO"
+}

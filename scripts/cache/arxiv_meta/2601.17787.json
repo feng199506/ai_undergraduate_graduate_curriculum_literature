@@ -1,0 +1,19 @@
+{
+ "id": "2601.17787",
+ "title": "Beyond Uniform Token Training: A Multi-Target Framework for Learning Token-Weighted Objectives in Generative Recommenders",
+ "authors": [
+  "Wei-Ning Chiu",
+  "Song-Duo Ma",
+  "Han-Jay Shu",
+  "Chuan-Ju Wang",
+  "Pu-Jen Cheng"
+ ],
+ "v1_date": "2026-01-25",
+ "latest_version": 2,
+ "latest_date": "2026-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 3 figures",
+ "abstract": "Recent generative recommendation models recast next-item prediction as the generation of a semantic identifier sequence. While this formulation enables autoregressive models to produce item IDs directly, the commonly used token-level likelihood objective does not distinguish between tokens that play different roles in item identification. This limitation is especially pronounced for semantic-ID representations, where prefix tokens often determine coarse item groups and later tokens provide finer-grained disambiguation. To better align training with the structure of semantic IDs, we study token-level learning signals from two complementary perspectives. First, we introduce a prefix-aware weighting scheme, Front-Greater Weighting, which emphasizes tokens according to their contribution to reducing semantic ambiguity among candidate items. Second, frequency weighting increases the learning emphasis on infrequent tokens, addressing the long-tailed distributions and popularity bias commonly observed in recommendation data. We further introduce a multi-target optimization framework with curriculum learning, which integrates the two token-weighted objectives with the standard likelihood and enables stable optimization with adaptive emphasis across training stages. Experiments on multiple benchmark datasets demonstrate that the proposed approach consistently improves generative recommendation performance over strong baselines and prior token-weighting methods. Additional analyses show that the method is robust across different semantic-ID constructions and backbone scales, and that it improves recommendation quality for both popular and long-tail items. Code is available at github repository.",
+ "primary": "cs.IR"
+}

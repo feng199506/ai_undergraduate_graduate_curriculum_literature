@@ -1,0 +1,15 @@
+{
+ "id": "2504.18587",
+ "title": "An Expectation-Maximization Perspective on Reinforcement Learning for LLM Reasoning",
+ "authors": [
+  "Tianbing Xu"
+ ],
+ "v1_date": "2025-04-24",
+ "latest_version": 2,
+ "latest_date": "2026-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages",
+ "abstract": "Reinforcement learning has emerged as a powerful approach for improving the reasoning capabilities of large language models, as demonstrated by systems such as OpenAI's O1~\\cite{o1} and DeepSeek-R1~\\cite{r1}. However, widely used algorithms such as PPO~\\cite{ppo} and GRPO~\\cite{grpo} rely on likelihood-ratio correction and heuristic clipping, which increase algorithmic complexity and may introduce additional variance and optimization bias. We present \\textbf{EM Policy Gradient (EMPG)}, a simple and principled framework that formulates reinforcement learning over reasoning trajectories as an Expectation-Maximization (EM) problem~\\cite{em, dempster1977em}. The E-step constructs a reward-weighted distribution over rationale trajectories, while the M-step improves the language model by maximizing their weighted log-likelihood. This formulation leads to a practical off-policy policy-gradient algorithm that directly optimizes the EM surrogate objective without trajectory-level importance weighting or likelihood-ratio clipping. Moreover, under exact E- and improving M-steps, EMPG guarantees monotonic improvement of the expected-reward objective. Experiments on GSM8K and MATH Hard with multiple Qwen2.5 base models show that EMPG achieves performance comparable to or better than GRPO while using a substantially simpler optimization procedure. EMPG also produces more concise reasoning trajectories and exhibits structured reasoning behaviors, including subproblem decomposition, self-verification, reflection, and backtracking. These results suggest that the EM perspective provides an effective theoretical and algorithmic foundation for reinforcement learning of reasoning language models.",
+ "primary": "cs.LG"
+}

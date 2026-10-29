@@ -1,0 +1,18 @@
+{
+ "id": "2505.06800",
+ "title": "A Reverse-BSDE Diffusion Sampler",
+ "authors": [
+  "Jairon H. N. Batista",
+  "Flávio B. Gonçalves",
+  "Yuri F. Saporito",
+  "Rodrigo S. Targino"
+ ],
+ "v1_date": "2025-05-11",
+ "latest_version": 2,
+ "latest_date": "2026-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion-based generative models have renewed interest in stochastic differential equation methods for sampling from complex distributions. We study a setting in which the target density is known only up to a normalizing constant and reformulate the reverse-time diffusion sampler as a forward-backward stochastic differential equation (FBSDE). This formulation replaces the separate pre-estimation of the time-dependent score with the solution of a coupled stochastic system. We prove the equivalence of these formulations and provide a decomposition of the approximation error arising from initializing the sampler with a standard Gaussian, applying Euler discretization to the dynamics, and solving the FBSDE approximately. We then evaluate the proposed algorithm on synthetic targets, including separated mixtures, anisotropic Gaussian distributions, and banana-shaped and ring-shaped distributions. The results demonstrate the promise of the method, particularly for targets with complex global structure.",
+ "primary": "stat.ML"
+}

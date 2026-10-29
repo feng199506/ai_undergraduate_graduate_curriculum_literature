@@ -1,0 +1,22 @@
+{
+ "id": "2609.34334",
+ "title": "HOCCL: Offloading Collective Communication from GPU Cores to Accelerate Distributed Training",
+ "authors": [
+  "Yao Fei",
+  "Gongming Zhao",
+  "Hongli Xu",
+  "Jin Fang",
+  "Jiacheng Zhu",
+  "Shuo Xu",
+  "Kun Huang",
+  "Zhuolong Yu"
+ ],
+ "v1_date": "2026-09-28",
+ "latest_version": 1,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 12 figures",
+ "abstract": "Large language model training involves massive computation on GPU streaming multiprocessors (SMs), the primary compute units of GPUs. Since SMs host specialized accelerators such as Tensor Cores, their efficient utilization is critical to training efficiency. Unfortunately, existing collective communication systems compete with computation for SMs, as they consume SMs for communication-related data movement and synchronization operations. We observe that communication can, in principle, be driven by DMA engines, thereby eliminating SM involvement in communication. Based on this insight, we propose HOCCL, a zero-SM collective communication framework consisting of three components: a stream manager, a point-to-point (P2P) executor, and a collective scheduler. The stream manager preserves operator-level temporal ordering with other GPU kernels. The P2P executor enables zero-SM point-to-point communication, while the collective scheduler orchestrates P2P transfers to maximize bandwidth. Experiments show that HOCCL preserves near-peak communication performance, achieving within 3% of the state of the art on average, while eliminating communication occupancy on nearly 10% of total GPU SMs. By freeing SM resources for computation, HOCCL improves end-to-end training throughput by up to 5%.",
+ "primary": "cs.NI"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2605.05772",
+ "title": "Uniform-Design Subsampling for Compute-Budgeted Double Machine Learning",
+ "authors": [
+  "Yuanke Qu",
+  "Xiaoya Xu",
+  "Hengtao Zhang"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 2,
+ "latest_date": "2026-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Double machine learning (DML) combines orthogonal scores with flexible nuisance estimation, but repeated cross-fitting and repeated analysis can make full-data workflows expensive. When a fixed computational budget requires a working sample of size $r\\ll n$, simple random subsampling may cover the covariate space poorly and produce unstable treated--control composition. We propose Uniform Design Double Machine Learning (UD-DML), which maps a common low-discrepancy skeleton through empirical marginal quantiles and matches each anchor to one treated and one control observation, without replacement within each treatment arm. We establish finite-sample integration and balance bounds, an exact selected-target decomposition, and a selection-aware leading-score central limit theorem on the root-$r$ scale. Under explicit moment, weighted-calibration, variance-stabilisation, and target-transport conditions, a residual-based variance estimator consistently studentises the original UD-DML estimator. Full-scale simulations show that the common-skeleton construction provides its clearest improvements over uniform subsampling under non-uniform covariate geometry and limited treated--control overlap, while maintaining empirical coverage near the nominal level. These results provide a principled working-sample design for repeated causal learning under an explicit computational budget.",
+ "primary": "stat.ME"
+}

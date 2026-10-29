@@ -1,0 +1,22 @@
+{
+ "id": "2512.08731",
+ "title": "LaMoSys3.5D: Enabling 3.5D-IC-Based Large Language Model Inference Serving Systems via Hardware/Software Co-Design",
+ "authors": [
+  "Qipan Wang",
+  "Zhe Zhang",
+  "Shuangchen Li",
+  "Hongzhong Zheng",
+  "Zheng Liang",
+  "Yibo Lin",
+  "Runsheng Wang",
+  "Ru Huang"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 1,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The success of large language models LLMs amplifies the need for highthroughput energyefficient inference at scale. 3DDRAMbased accelerators provide high memory bandwidth and therefore an opportunity to accelerate the bandwidthbound decode phase. However, how to adequately balance compute density for prefill with bandwidthcapacity for decode remains open. Moreover, most prior designs do not target endtoend serving, leaving the codesign of dataflow, parallel mapping, and scheduling underexplored. To bridge the gap, we present LaMoSys3.5D, to our knowledge the first scalable 3.5DIC architecture for LLM serving. LaMoSys3.5D composes heterogeneous 3DDRAM chiplets on a 2.5D interposer: computerich chiplets for prefill and bandwidthcapacityrich chiplets for decode. To realize efficient serving, we adopt a hardwaresoftware codesign spanning dataflow, parallel mapping, and introduce a thermalaware modeling and hierarchical designspace exploration framework. Across diverse LLMs and workloads, LaMoSys3.5D improves throughputperwatt over DGXA100 systems by 62 and achieves a 4.87 better endtoend latency geomean versus prior 3D designs. We further distill intriguing design guidelines for 3.5DIC architectures and endtoend inference serving.",
+ "primary": "eess.SY"
+}

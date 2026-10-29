@@ -1,0 +1,18 @@
+{
+ "id": "2505.16004",
+ "title": "Evaluating Adversarial Robustness of Concept Representations in Sparse Autoencoders",
+ "authors": [
+  "Aaron J. Li",
+  "Suraj Srinivas",
+  "Usha Bhalla",
+  "Himabindu Lakkaraju"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 2,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse autoencoders (SAEs) are commonly used to interpret the internal activations of large language models (LLMs) by mapping them to human-interpretable concept representations. While existing evaluations of SAEs focus on metrics such as the reconstruction-sparsity tradeoff, human (auto-)interpretability, and feature disentanglement, they overlook a critical aspect: the robustness of concept representations to input perturbations. We argue that robustness must be a fundamental consideration for concept representations, reflecting the fidelity of concept labeling. To this end, we formulate robustness quantification as input-space optimization problems and develop a comprehensive evaluation framework featuring realistic scenarios in which adversarial perturbations are crafted to manipulate SAE representations. Empirically, we find that tiny adversarial input perturbations can effectively manipulate concept-based interpretations in most scenarios without notably affecting the base LLM's activations. Overall, our results suggest that SAE concept representations are fragile and without further denoising or postprocessing they might be ill-suited for applications in model monitoring and oversight.",
+ "primary": "cs.LG"
+}

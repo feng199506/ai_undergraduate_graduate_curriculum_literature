@@ -1,0 +1,20 @@
+{
+ "id": "2602.05178",
+ "title": "Benchmarking Artificial Intelligence Models for Daily Coastal Hypoxia Forecasting",
+ "authors": [
+  "Magesh Rajasekaran",
+  "Md Saiful Sajol",
+  "Chris Alvin",
+  "Supratik Mukhopadhyay",
+  "Yanda Ou",
+  "Z. George Xue"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 1,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is a Preprint accepted at IEEE Big Data 2025",
+ "abstract": "Coastal hypoxia, especially in the northern part of Gulf of Mexico, presents a persistent ecological and economic concern. Seasonal models offer coarse forecasts that miss the fine-scale variability needed for daily, responsive ecosystem management. We present study that compares four deep learning architectures for daily hypoxia classification: Bidirectional Long Short-Term Memory (BiLSTM), Medformer (Medical Transformer), Spatio-Temporal Transformer (ST-Transformer), and Temporal Convolutional Network (TCN). We trained our models with twelve years of daily hindcast data from 2009-2020 Our training data consists of 2009-2020 hindcast data from a coupled hydrodynamic-biogeochemical model. Similarly, we use hindcast data from 2020 through 2024 as a test data. We constructed classification models incorporating water column stratification, sediment oxygen consumption, and temperature-dependent decomposition rates. We evaluated each architectures using the same data preprocessing, input/output formulation, and validation protocols. Each model achieved high classification accuracy and strong discriminative ability with ST-Transformer achieving the highest performance across all metrics and tests periods (AUC-ROC: 0.982-0.992). We also employed McNemar's method to identify statistically significant differences in model predictions. Our contribution is a reproducible framework for operational real-time hypoxia prediction that can support broader efforts in the environmental and ocean modeling systems community and in ecosystem resilience. The source code is available https://github.com/rmagesh148/hypoxia-ai/",
+ "primary": "cs.LG"
+}

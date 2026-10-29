@@ -1,0 +1,19 @@
+{
+ "id": "2510.08055",
+ "title": "From Tokens to Layers: Redefining Stall-Free Scheduling for MoE Serving with Layered Prefill",
+ "authors": [
+  "Gunjun Lee",
+  "Jiwon Kim",
+  "Jaiyoung Park",
+  "Younjoo Lee",
+  "Jung Ho Ahn"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 2,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 5 figure, 12 tables, accepted at MLSys 2026",
+ "abstract": "Large Language Model (LLM) inference in production must meet stringent service-level objectives for both time-to-first-token (TTFT) and time-between-token (TBT) while maximizing throughput under fixed compute, memory, and interconnect budgets. Modern serving systems adopt stall-free scheduling techniques such as chunked prefill, which splits the processing of long prompts along the token dimension and interleaves prefill with ongoing decode iterations. While effective at stabilizing TBT, chunked prefill incurs substantial overhead in Mixture-of-Experts (MoE) models: redundant expert weight loads increase memory traffic by up to 39% and inflate energy consumption. We propose layered prefill, a new scheduling paradigm that treats transformer layer groups as the primary scheduling unit, specifically targeting MoE serving. By vertically partitioning the model into contiguous layer groups and interleaving prefill and decode across the groups, layered prefill sustains stall-free decoding while eliminating chunk-induced MoE weight reloads. It reduces off-chip bandwidth demand, lowering TTFT by up to 70%, end-to-end latency by 41% and per-token energy by up to 22%. Evaluations show that layered prefill consistently improves the TTFT--TBT Pareto frontier over chunked prefill, reducing expert-load traffic and energy cost while maintaining stall-free decoding. Overall, shifting the scheduling axis from tokens to layers unlocks a new operating regime for high-efficiency, energy-aware MoE serving in co-located environments.",
+ "primary": "cs.LG"
+}

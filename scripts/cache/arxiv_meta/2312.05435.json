@@ -1,0 +1,20 @@
+{
+ "id": "2312.05435",
+ "title": "Enhancing Robustness of Foundation Model Representations under Provenance-related Distribution Shifts",
+ "authors": [
+  "Xiruo Ding",
+  "Zhecheng Sheng",
+  "Brian Hur",
+  "Feng Chen",
+  "Serguei V. S. Pakhomov",
+  "Trevor Cohen"
+ ],
+ "v1_date": "2023-12-09",
+ "latest_version": 1,
+ "latest_date": "2023-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in Workshop on Distribution Shifts, 37th Conference on Neural Information Processing Systems (NeurIPS 2023)",
+ "abstract": "Foundation models are a current focus of attention in both industry and academia. While they have shown their capabilities in a variety of tasks, in-depth research is required to determine their robustness to distribution shift when used as a basis for supervised machine learning. This is especially important in the context of clinical data, with particular limitations related to data accessibility, lack of pretraining materials, and limited availability of high-quality annotations. In this work, we examine the stability of models based on representations from foundation models under distribution shift. We focus on confounding by provenance, a form of distribution shift that emerges in the context of multi-institutional datasets when there are differences in source-specific language use and class distributions. Using a sampling strategy that synthetically induces varying degrees of distribution shift, we evaluate the extent to which representations from foundation models result in predictions that are inherently robust to confounding by provenance. Additionally, we examine the effectiveness of a straightforward confounding adjustment method inspired by Pearl's conception of backdoor adjustment. Results indicate that while foundation models do show some out-of-the-box robustness to confounding-by-provenance related distribution shifts, this can be considerably improved through adjustment. These findings suggest a need for deliberate adjustment of predictive models using representations from foundation models in the context of source-specific distributional differences.",
+ "primary": "cs.CL"
+}

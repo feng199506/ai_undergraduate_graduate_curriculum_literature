@@ -1,0 +1,22 @@
+{
+ "id": "2404.16014",
+ "title": "Improving Dictionary Learning with Gated Sparse Autoencoders",
+ "authors": [
+  "Senthooran Rajamanoharan",
+  "Arthur Conmy",
+  "Lewis Smith",
+  "Tom Lieberum",
+  "Vikrant Varma",
+  "János Kramár",
+  "Rohin Shah",
+  "Neel Nanda"
+ ],
+ "v1_date": "2024-04-24",
+ "latest_version": 2,
+ "latest_date": "2024-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 main text pages, 22 appendix pages",
+ "abstract": "Recent work has found that sparse autoencoders (SAEs) are an effective technique for unsupervised discovery of interpretable features in language models' (LMs) activations, by finding sparse, linear reconstructions of LM activations. We introduce the Gated Sparse Autoencoder (Gated SAE), which achieves a Pareto improvement over training with prevailing methods. In SAEs, the L1 penalty used to encourage sparsity introduces many undesirable biases, such as shrinkage -- systematic underestimation of feature activations. The key insight of Gated SAEs is to separate the functionality of (a) determining which directions to use and (b) estimating the magnitudes of those directions: this enables us to apply the L1 penalty only to the former, limiting the scope of undesirable side effects. Through training SAEs on LMs of up to 7B parameters we find that, in typical hyper-parameter ranges, Gated SAEs solve shrinkage, are similarly interpretable, and require half as many firing features to achieve comparable reconstruction fidelity.",
+ "primary": "cs.LG"
+}

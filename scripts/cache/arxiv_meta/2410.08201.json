@@ -1,0 +1,19 @@
+{
+ "id": "2410.08201",
+ "title": "Efficient Dictionary Learning with Switch Sparse Autoencoders",
+ "authors": [
+  "Anish Mudide",
+  "Joshua Engels",
+  "Eric J. Michaud",
+  "Max Tegmark",
+  "Christian Schroeder de Witt"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 2,
+ "latest_date": "2025-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code available at https://github.com/amudide/switch_sae",
+ "abstract": "Sparse autoencoders (SAEs) are a recent technique for decomposing neural network activations into human-interpretable features. However, in order for SAEs to identify all features represented in frontier models, it will be necessary to scale them up to very high width, posing a computational challenge. In this work, we introduce Switch Sparse Autoencoders, a novel SAE architecture aimed at reducing the compute cost of training SAEs. Inspired by sparse mixture of experts models, Switch SAEs route activation vectors between smaller \"expert\" SAEs, enabling SAEs to efficiently scale to many more features. We present experiments comparing Switch SAEs with other SAE architectures, and find that Switch SAEs deliver a substantial Pareto improvement in the reconstruction vs. sparsity frontier for a given fixed training compute budget. We also study the geometry of features across experts, analyze features duplicated across experts, and verify that Switch SAE features are as interpretable as features found by other SAE architectures.",
+ "primary": "cs.LG"
+}

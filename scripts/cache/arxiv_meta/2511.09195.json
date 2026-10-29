@@ -1,0 +1,20 @@
+{
+ "id": "2511.09195",
+ "title": "Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives",
+ "authors": [
+  "Yuhao Shen",
+  "Jiahe Qian",
+  "Shuping Zhang",
+  "Zhangtianyi Chen",
+  "Tao Lu",
+  "Juexiao Zhou"
+ ],
+ "v1_date": "2025-11-12",
+ "latest_version": 2,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multimodal large language models (LLMs) are increasingly used to generate dermatology diagnostic narratives directly from images. However, reliable evaluation remains the primary bottleneck for responsible clinical deployment. We introduce a novel evaluation framework that combines DermBench, a meticulously curated benchmark, with DermEval, a robust automatic evaluator, to enable clinically meaningful, reproducible, and scalable assessment. We build DermBench, which pairs 4,000 real-world dermatology images with expert-certified diagnostic narratives and uses an LLM-based judge to score candidate narratives across clinically grounded dimensions, enabling consistent and comprehensive evaluation of multimodal models. For individual case assessment, we train DermEval, a reference-free multimodal evaluator. Given an image and a generated narrative, DermEval produces a structured critique along with an overall score and per-dimension ratings. This capability enables fine-grained, per-case analysis, which is critical for identifying model limitations and biases. Experiments on a diverse dataset of 4,500 cases demonstrate that DermBench and DermEval achieve close alignment with expert ratings, with mean deviations of 0.251 and 0.117 (out of 5), respectively, providing reliable measurement of diagnostic ability and trustworthiness across different multimodal LLMs.",
+ "primary": "cs.CV"
+}

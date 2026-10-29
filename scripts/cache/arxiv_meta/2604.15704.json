@@ -1,0 +1,20 @@
+{
+ "id": "2604.15704",
+ "title": "Intent Propagation Contrastive Collaborative Filtering",
+ "authors": [
+  "Haojie Li",
+  "Junwei Du",
+  "Guanfeng Liu",
+  "Feng Jiang",
+  "Yan Wang",
+  "Xiaofang Zhou"
+ ],
+ "v1_date": "2026-04-17",
+ "latest_version": 1,
+ "latest_date": "2026-04-17",
+ "journal_ref": "IEEE Transactions on Knowledge and Data Engineering, 37(5):2665-2679, May 2025",
+ "doi": "10.1109/tkde.2025.3543241",
+ "comment": "15 pages, 5 figures, 6 tables",
+ "abstract": "Disentanglement techniques used in collaborative filtering uncover interaction intents between nodes, improving the interpretability of node representations and enhancing recommendation performance. However, existing disentanglement methods still face two problems. First, they focus on local structural features derived from direct node interactions and overlook the comprehensive graph structure, which limits disentanglement accuracy. Second, the disentanglement process depends on backpropagation signals derived from recommendation tasks and lacks direct supervision, which may lead to biases and overfitting. To address these issues, we propose the Intent Propagation Contrastive Collaborative Filtering (IPCCF) algorithm. Specifically, we design a double helix message propagation framework to more effectively extract the deep semantic information of nodes, thereby improving the model's understanding of interactions between nodes. We also develop an intent message propagation method that incorporates graph structure information into the disentanglement process, thereby expanding the consideration scope of disentanglement. In addition, contrastive learning techniques are employed to align node representations derived from structure and intents, providing direct supervision for the disentanglement process, mitigating biases, and enhancing the model's robustness to overfitting. Experiments on three real data graphs illustrate the superiority of the proposed approach.",
+ "primary": "cs.IR"
+}

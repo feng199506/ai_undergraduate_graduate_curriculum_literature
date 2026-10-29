@@ -1,0 +1,15 @@
+{
+ "id": "2607.25494",
+ "title": "Automated Numerical Stability Analysis of Deep Learning Operators",
+ "authors": [
+  "Xinye Chen"
+ ],
+ "v1_date": "2026-07-28",
+ "latest_version": 3,
+ "latest_date": "2026-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Finite-precision arithmetic unavoidably introduces numerical approximation errors. Numerical computations may use insufficient precision or an improper formulation, which leads to numerical instability. In this paper, we introduce a unified software tool for stochastic numerical validation of deep-learning operators. The tool follows CESTAC on supported exposed operations and uses an operator-level data-perturbation approximation for GEMM-like kernels. Our developed software not only enables numerical validation with a single computation pass but also detects the sources of numerical instability and provides numerical stability monitoring during deep learning training and inference. We verified its effectiveness on the detection of polluted operators with injected numerical instabilities across various tasks. We believe that our developed method and tools provide valuable insights into developing numerically stable computing kernels, which are particularly critical for numerically stable and efficient deep learning training and inference.",
+ "primary": "math.NA"
+}

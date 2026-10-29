@@ -1,0 +1,22 @@
+{
+ "id": "2411.09807",
+ "title": "Evaluating Loss Landscapes from a Topology Perspective",
+ "authors": [
+  "Tiankai Xie",
+  "Caleb Geniesse",
+  "Jiaqing Chen",
+  "Yaoqing Yang",
+  "Dmitriy Morozov",
+  "Michael W. Mahoney",
+  "Ross Maciejewski",
+  "Gunther H. Weber"
+ ],
+ "v1_date": "2024-11-14",
+ "latest_version": 1,
+ "latest_date": "2024-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Characterizing the loss of a neural network with respect to model parameters, i.e., the loss landscape, can provide valuable insights into properties of that model. Various methods for visualizing loss landscapes have been proposed, but less emphasis has been placed on quantifying and extracting actionable and reproducible insights from these complex representations. Inspired by powerful tools from topological data analysis (TDA) for summarizing the structure of high-dimensional data, here we characterize the underlying shape (or topology) of loss landscapes, quantifying the topology to reveal new insights about neural networks. To relate our findings to the machine learning (ML) literature, we compute simple performance metrics (e.g., accuracy, error), and we characterize the local structure of loss landscapes using Hessian-based metrics (e.g., largest eigenvalue, trace, eigenvalue spectral density). Following this approach, we study established models from image pattern recognition (e.g., ResNets) and scientific ML (e.g., physics-informed neural networks), and we show how quantifying the shape of loss landscapes can provide new insights into model performance and learning dynamics.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2407.03817",
+ "title": "Markerless Multi-view 3D Human Pose Estimation: a survey",
+ "authors": [
+  "Ana Filipa Rodrigues Nogueira",
+  "Hélder P. Oliveira",
+  "Luís F. Teixeira"
+ ],
+ "v1_date": "2024-07-04",
+ "latest_version": 2,
+ "latest_date": "2025-06-09",
+ "journal_ref": "In: Image and Vision Computing 155 (2025), p. 105437. issn: 0262-8856",
+ "doi": "10.1016/j.imavis.2025.105437",
+ "comment": "26 pages, 10 tables, 6 figures, accepted at Image and Vision Computing (IMAVIS)",
+ "abstract": "3D human pose estimation involves reconstructing the human skeleton by detecting the body joints. Accurate and efficient solutions are required for several real-world applications including animation, human-robot interaction, surveillance, and sports. However, challenges such as occlusions, 2D pose mismatches, random camera perspectives, and limited 3D labelled data have been hampering the models' performance and limiting their deployment in real-world scenarios. The higher availability of cameras has led researchers to explore multi-view solutions to take advantage of the different perspectives to reconstruct the pose. Most existing reviews have mainly focused on monocular 3D human pose estimation, so a comprehensive survey on multi-view approaches has been missing since 2012. According to the reviewed articles, the majority of the existing methods are fully-supervised approaches based on geometric constraints, which are often limited by 2D pose mismatches. To mitigate this, researchers have proposed incorporating temporal consistency or depth information. Alternatively, working directly with 3D features has been shown to completely overcome this issue, albeit at the cost of increased computational complexity. Additionally, models with lower levels of supervision have been identified to help address challenges such as annotated data scarcity and generalisation to new setups. Therefore, no method currently addresses all challenges associated with 3D pose reconstruction, and a trade-off between complexity and performance exists. Further research is needed to develop approaches capable of quickly inferring a highly accurate 3D pose with bearable computation cost. Techniques such as active learning, low-supervision methods, temporal consistency, view selection, depth information estimation, and multi-modal approaches are strategies to consider when developing a new method for this task.",
+ "primary": "cs.CV"
+}

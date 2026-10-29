@@ -1,0 +1,20 @@
+{
+ "id": "2508.08285",
+ "title": "The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs",
+ "authors": [
+  "Denis Janiak",
+  "Jakub Binkowski",
+  "Albert Sawczyn",
+  "Bogdan Gabrys",
+  "Ravid Shwartz-Ziv",
+  "Tomasz Kajdanowicz"
+ ],
+ "v1_date": "2025-08-01",
+ "latest_version": 2,
+ "latest_date": "2025-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint, under review",
+ "abstract": "Large language models (LLMs) have revolutionized natural language processing, yet their tendency to hallucinate poses serious challenges for reliable deployment. Despite numerous hallucination detection methods, their evaluations often rely on ROUGE, a metric based on lexical overlap that misaligns with human judgments. Through comprehensive human studies, we demonstrate that while ROUGE exhibits high recall, its extremely low precision leads to misleading performance estimates. In fact, several established detection methods show performance drops of up to 45.9\\% when assessed using human-aligned metrics like LLM-as-Judge. Moreover, our analysis reveals that simple heuristics based on response length can rival complex detection techniques, exposing a fundamental flaw in current evaluation practices. We argue that adopting semantically aware and robust evaluation frameworks is essential to accurately gauge the true performance of hallucination detection methods, ultimately ensuring the trustworthiness of LLM outputs.",
+ "primary": "cs.CL"
+}

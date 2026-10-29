@@ -1,0 +1,20 @@
+{
+ "id": "2602.10485",
+ "title": "Abstraction Generation for Generalized Planning with Pretrained Large Language Models",
+ "authors": [
+  "Zhenhe Cui",
+  "Huaxiang Xia",
+  "Hangjun Shen",
+  "Kailun Luo",
+  "Yong He",
+  "Wei Liang"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 1,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Qualitative Numerical Planning (QNP) serves as an important abstraction model for generalized planning (GP), which aims to compute general plans that solve multiple instances at once. Recent works show that large language models (LLMs) can function as generalized planners. This work investigates whether LLMs can serve as QNP abstraction generators for GP problems and how to fix abstractions via automated debugging. We propose a prompt protocol: input a GP domain and training tasks to LLMs, prompting them to generate abstract features and further abstract the initial state, action set, and goal into QNP problems. An automated debugging method is designed to detect abstraction errors, guiding LLMs to fix abstractions. Experiments demonstrate that under properly guided by automated debugging, some LLMs can generate useful QNP abstractions.",
+ "primary": "cs.AI"
+}

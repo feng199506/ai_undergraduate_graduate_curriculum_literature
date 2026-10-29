@@ -1,0 +1,17 @@
+{
+ "id": "2503.04326",
+ "title": "Guided smoothing and control for diffusion processes",
+ "authors": [
+  "Oskar Eklund",
+  "Annika Lang",
+  "Moritz Schauer"
+ ],
+ "v1_date": "2025-03-06",
+ "latest_version": 1,
+ "latest_date": "2025-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The smoothing distribution is the conditional distribution of the diffusion process in the space of trajectories given noisy observations made continuously in time. It is generally difficult to sample from this distribution. We use the theory of enlargement of filtrations to show that the conditional process has an additional drift term derived from the backward filtering distribution that is moving or guiding the process towards the observations. This term is intractable, but its effect can be equally introduced by replacing it with a heuristic, where importance weights correct for the discrepancy. From this Markov Chain Monte Carlo and sequential Monte Carlo algorithms are derived to sample from the smoothing distribution. The choice of the guiding heuristic is discussed from an optimal control perspective and evaluated. The results are tested numerically on a stochastic differential equation for reaction-diffusion.",
+ "primary": "math.PR"
+}

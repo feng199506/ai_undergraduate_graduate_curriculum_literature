@@ -1,0 +1,17 @@
+{
+ "id": "2506.01893",
+ "title": "Variational Inference for Latent Variable Models in High Dimensions",
+ "authors": [
+  "Chenyang Zhong",
+  "Sumit Mukherjee",
+  "Bodhisattva Sen"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 2,
+ "latest_date": "2025-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "78 pages, 1 figure",
+ "abstract": "Variational inference (VI) is a popular method for approximating intractable posterior distributions in Bayesian inference and probabilistic machine learning. In this paper, we introduce a general framework for quantifying the statistical accuracy of mean-field variational inference (MFVI) for posterior approximation in Bayesian latent variable models with categorical local latent variables (and arbitrary global latent variables). Utilizing our general framework, we capture the exact regime where MFVI 'works' for the celebrated latent Dirichlet allocation model. Focusing on the mixed membership stochastic blockmodel, we show that the vanilla fully factorized MFVI, often used in the literature, is suboptimal. We propose a partially grouped VI algorithm for this model and show that it works, and derive its exact finite-sample performance. We further illustrate that our bounds are tight for both the above models. Our proof techniques, which extend the framework of nonlinear large deviations, open the door for the analysis of MFVI in other latent variable models.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2408.08449",
+ "title": "Machine Learning for Optimization-Based Separation of Mixed-Integer Rounding Cuts",
+ "authors": [
+  "Oscar Guaje",
+  "Arnaud Deza",
+  "Aleksandr M. Kazachkov",
+  "Elias B. Khalil"
+ ],
+ "v1_date": "2024-08-15",
+ "latest_version": 2,
+ "latest_date": "2024-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixed-integer rounding (MIR) cutting planes (cuts) are effective at improving the strength of a linear relaxation for mixed-integer linear programming (MIP) problems. The cuts in this family are derived by aggregating constraints then rounding coefficients, but finding the strongest MIR cuts requires optimizing a costly MIP for the aggregation step, so in practice, heuristic strategies for separating fractional points are employed. We propose to improve MIR cut generation in the context of a common scenario in applications, where constraints remain fixed but costs are varied. We present a hybrid cut generation framework in which we train a machine learning (ML) model to classify which constraints are involved in useful MIR cuts based on fractional points from relaxations of the problem. At test time, the predictions of the ML model create a reduced MIP-based generator of MIR cuts. In our experiments, we create an instance family from each of three benchmark MIP instances by performing a careful and costly perturbation of objective coefficients to build a dataset of 1,000 fractional points to be separated over the same constraint set. The results indicate that the reduced separator better strengthens the bound in each round of cut generation, particularly for instances in which the full separator failed to find strong cuts.",
+ "primary": "math.OC"
+}

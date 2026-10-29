@@ -1,0 +1,17 @@
+{
+ "id": "2504.20130",
+ "title": "Benchmarking field-level cosmological inference from galaxy redshift surveys",
+ "authors": [
+  "Hugo Simon",
+  "François Lanusse",
+  "Arnaud de Mattia"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 2,
+ "latest_date": "2025-12-17",
+ "journal_ref": "JCAP12(2025)039",
+ "doi": "10.1088/1475-7516/2025/12/039",
+ "comment": "28 pages, 10 figures, 2 tables. Accepted to JCAP",
+ "abstract": "Field-level inference has emerged as a promising framework to fully harness the cosmological information encoded in next-generation galaxy surveys. It involves performing Bayesian inference to jointly estimate the cosmological parameters and the initial conditions of the cosmic field, directly from the observed galaxy density field. Yet, the scalability and efficiency of sampling algorithms for field-level inference of large-scale surveys remain unclear. To address this, we introduce a standardized benchmark using a fast and differentiable simulator for the galaxy density field based on $\\texttt{JaxPM}$. We evaluate a range of sampling methods, including standard Hamiltonian Monte Carlo (HMC), No-U-Turn Sampler (NUTS) without and within a Gibbs scheme, and both adjusted and unadjusted microcanonical samplers (MAMS and MCLMC). These methods are compared based on their efficiency, in particular the number of model evaluations required per effective posterior sample. Our findings emphasize the importance of carefully preconditioning latent variables and demonstrate the significant advantage of (unadjusted) MCLMC for scaling to $\\geq 10^6$-dimensional problems. We find that MCLMC outperforms adjusted samplers by over an order-of-magnitude, with a mild scaling with the dimension of our inference problem. This benchmark, along with the associated publicly available code, is intended to serve as a basis for the evaluation of future field-level sampling strategies. The code is readily open-sourced at https://github.com/hsimonfroy/benchmark-field-level",
+ "primary": "astro-ph.CO"
+}

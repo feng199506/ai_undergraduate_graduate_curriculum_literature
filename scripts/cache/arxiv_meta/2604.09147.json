@@ -1,0 +1,16 @@
+{
+ "id": "2604.09147",
+ "title": "Hybrid hierarchical matrices with adaptive mixed precision storage",
+ "authors": [
+  "Ritesh Khan",
+  "Erin Carson"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages",
+ "abstract": "Hierarchical matrices are data-sparse approximations of dense matrices that are widely used for fast matrix computations. Hierarchical matrices are built using a tree data structure, with low-rank blocks identified by various admissibility conditions, such as standard admissibility and weak admissibility. This paper introduces a novel hierarchical matrix framework, namely $\\mathcal{H}_h$, based on a hybrid admissibility condition: we use the standard admissibility at the coarser levels (larger blocks) and the weak admissibility at the finer levels (smaller blocks). This hybrid strategy confines dense blocks only along the diagonal. We provide a criterion that ensures lower storage cost for $\\mathcal{H}_h$-matrices compared to $\\mathcal{H}$-matrices under the standard admissibility condition. We carry out a rounding error analysis of $\\mathcal{H}_h$-matrices and show that the admissible blocks of $\\mathcal{H}_h$-matrices can be represented in low precision (precision lower than the working precision) without degrading the overall approximation quality. We provide an explicit rule for dynamically selecting the precision of a given admissible block, thereby proposing an adaptive mixed precision algorithm for constructing and storing $\\mathcal{H}_h$-matrices. Furthermore, we show that the use of mixed precision does not compromise the numerical stability and accuracy of the resulting $\\mathcal{H}_h$-matrix-vector product. We perform a range of numerical experiments to validate our theoretical findings. Our numerical results show that the proposed adaptive mixed precision $\\mathcal{H}_h$-matrices achieve significant storage reductions (up to $11 \\times$) compared with uniform double precision standard admissibility-based $\\mathcal{H}$-matrices, without compromising accuracy.",
+ "primary": "math.NA"
+}

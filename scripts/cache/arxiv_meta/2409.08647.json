@@ -1,0 +1,18 @@
+{
+ "id": "2409.08647",
+ "title": "Training Gradient Boosted Decision Trees on Tabular Data Containing Label Noise for Classification Tasks",
+ "authors": [
+  "Anita Eisenbürger",
+  "Daniel Otten",
+  "Anselm Hudde",
+  "Frank Hopfgartner"
+ ],
+ "v1_date": "2024-09-13",
+ "latest_version": 2,
+ "latest_date": "2025-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Label noise, which refers to the mislabeling of instances in a dataset, can significantly impair classifier performance, increase model complexity, and affect feature selection. While most research has concentrated on deep neural networks for image and text data, this study explores the impact of label noise on gradient-boosted decision trees (GBDTs), the leading algorithm for tabular data. This research fills a gap by examining the robustness of GBDTs to label noise, focusing on adapting two noise detection methods from deep learning for use with GBDTs and introducing a new detection method called Gradients. Additionally, we extend a method initially designed for GBDTs to incorporate relabeling. By using diverse datasets such as Covertype and Breast Cancer, we systematically introduce varying levels of label noise and evaluate the effectiveness of early stopping and noise detection methods in maintaining model performance. Our noise detection methods achieve state-of-the-art results, with a noise detection accuracy above 99% on the Adult dataset across all noise levels. This work enhances the understanding of label noise in GBDTs and provides a foundation for future research in noise detection and correction methods.",
+ "primary": "cs.LG"
+}

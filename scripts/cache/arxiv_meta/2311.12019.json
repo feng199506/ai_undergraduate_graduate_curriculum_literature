@@ -1,0 +1,18 @@
+{
+ "id": "2311.12019",
+ "title": "An Empirical Study of Self-Admitted Technical Debt in Machine Learning Software",
+ "authors": [
+  "Aaditya Bhatia",
+  "Foutse Khomh",
+  "Bram Adams",
+  "Ahmed E Hassan"
+ ],
+ "v1_date": "2023-11-20",
+ "latest_version": 3,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The emergence of open-source ML libraries such as TensorFlow and Google Auto ML has enabled developers to harness state-of-the-art ML algorithms with minimal overhead. However, during this accelerated ML development process, said developers may often make sub-optimal design and implementation decisions, leading to the introduction of technical debt that, if not addressed promptly, can have a significant impact on the quality of the ML-based software. Developers frequently acknowledge these sub-optimal design and development choices through code comments during software development. These comments, which often highlight areas requiring additional work or refinement in the future, are known as self-admitted technical debt (SATD). This paper aims to investigate SATD in ML code by analyzing 318 open-source ML projects across five domains, along with 318 non-ML projects. We detected SATD in source code comments throughout the different project snapshots, conducted a manual analysis of the identified SATD sample to comprehend the nature of technical debt in the ML code, and performed a survival analysis of the SATD to understand the evolution of such debts. We observed: i) Machine learning projects have a median percentage of SATD that is twice the median percentage of SATD in non-machine learning projects. ii) ML pipeline components for data preprocessing and model generation logic are more susceptible to debt than model validation and deployment components. iii) SATDs appear in ML projects earlier in the development process compared to non-ML projects. iv) Long-lasting SATDs are typically introduced during extensive code changes that span multiple files exhibiting low complexity.",
+ "primary": "cs.SE"
+}

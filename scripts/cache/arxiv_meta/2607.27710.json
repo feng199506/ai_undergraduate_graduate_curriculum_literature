@@ -1,0 +1,17 @@
+{
+ "id": "2607.27710",
+ "title": "NMINE: Normalized Mutual Information Neural Estimation",
+ "authors": [
+  "Petra Eerikinharju",
+  "Marko Tuononen",
+  "Ville Hautamäki"
+ ],
+ "v1_date": "2026-07-30",
+ "latest_version": 1,
+ "latest_date": "2026-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mutual information is a general measure of statistical dependence that captures both linear and nonlinear relationships between random variables. For continuous and multidimensional variables For continuous multidimensional variables, mutual information must be estimated from samples. Because mutual information is unbounded, its values are not directly comparable across datasets, dimensions, or applications. Normalized mutual information addresses this limitation by converting mutual information into a normalized dependency score. Recent work has demonstrated the practical value of normalized mutual information in applications such as molecular dynamics {arXiv:2405.04980} and interpretable machine learning {arXiv:2409.16768}, but existing estimators remain sensitive to dimensionality and numerical stability {arXiv:2410.07642}. In this paper, we propose a fully neural normalized mutual information estimator for continuous variables. The proposed approach combines a MINE-based neural mutual information estimator {arXiv:1801.04062} with MI-NEE-inspired neural marginal entropy estimators {arXiv:1905.12957}. Mutual information is estimated using the Donsker--Varadhan representation, while marginal entropies are estimated by learning the divergence between each marginal distribution and a uniform reference distribution, from which entropy is recovered. The resulting estimator provides a neural alternative to k-nearest-neighbor-based normalized mutual information estimation {arXiv:2405.04980}. Experiments on Gaussian data from one to eight dimensions show that the proposed estimator improves accuracy over a KSG-based normalized mutual information baseline. These results indicate that neural estimation is a promising direction for normalized dependency measurement in continuous multidimensional settings.",
+ "primary": "cs.LG"
+}

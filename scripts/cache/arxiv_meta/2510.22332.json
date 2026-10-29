@@ -1,0 +1,18 @@
+{
+ "id": "2510.22332",
+ "title": "Transformer Key-Value Memories Are Nearly as Interpretable as Sparse Autoencoders",
+ "authors": [
+  "Mengyu Ye",
+  "Jun Suzuki",
+  "Tatsuro Inaba",
+  "Tatsuki Kuribayashi"
+ ],
+ "v1_date": "2025-10-25",
+ "latest_version": 1,
+ "latest_date": "2025-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025",
+ "abstract": "Recent interpretability work on large language models (LLMs) has been increasingly dominated by a feature-discovery approach with the help of proxy modules. Then, the quality of features learned by, e.g., sparse auto-encoders (SAEs), is evaluated. This paradigm naturally raises a critical question: do such learned features have better properties than those already represented within the original model parameters, and unfortunately, only a few studies have made such comparisons systematically so far. In this work, we revisit the interpretability of feature vectors stored in feed-forward (FF) layers, given the perspective of FF as key-value memories, with modern interpretability benchmarks. Our extensive evaluation revealed that SAE and FFs exhibits a similar range of interpretability, although SAEs displayed an observable but minimal improvement in some aspects. Furthermore, in certain aspects, surprisingly, even vanilla FFs yielded better interpretability than the SAEs, and features discovered in SAEs and FFs diverged. These bring questions about the advantage of SAEs from both perspectives of feature quality and faithfulness, compared to directly interpreting FF feature vectors, and FF key-value parameters serve as a strong baseline in modern interpretability research.",
+ "primary": "cs.LG"
+}

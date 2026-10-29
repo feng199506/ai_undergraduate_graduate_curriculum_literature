@@ -1,0 +1,18 @@
+{
+ "id": "2411.05625",
+ "title": "Cross-validating causal discovery via Leave-One-Variable-Out",
+ "authors": [
+  "Daniela Schkoda",
+  "Philipp Faller",
+  "Patrick Blöbaum",
+  "Dominik Janzing"
+ ],
+ "v1_date": "2024-11-08",
+ "latest_version": 2,
+ "latest_date": "2026-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a new approach to falsify causal discovery algorithms without ground truth, which is based on testing the causal model on a variable pair excluded during learning the causal model. Specifically, given data on $X, Y, \\boldsymbol{Z}=X, Y, Z_1,\\dots,Z_k$, we apply the causal discovery algorithm separately to the 'leave-one-out' data sets $X, \\boldsymbol{Z}$ and $Y, \\boldsymbol{Z}$. We demonstrate that the two resulting causal models, in the form DAGs, ADMGs, CPDAGs or PAGs, often entail conclusions on the dependencies between $X$ and $Y$ and allow to estimate $\\mathbb{E}(Y\\mid X=x)$ without any joint observations of $X$ and $Y$, given only the leave-one-out datasets. This estimation is called \"Leave-One-Variable-Out (LOVO)\" prediction. Its error can be estimated since the joint distribution $P(X, Y)$ is available, and $X$ and $Y$ have only been omitted for the purpose of falsification. We present two variants of LOVO prediction: One graphical method, which is applicable to general causal discovery algorithms, and one version tailored towards algorithms relying on specific a priori assumptions, such as linear additive noise models. Simulations indicate that the LOVO prediction error is indeed correlated with the accuracy of the causal outputs, affirming the method's effectiveness.",
+ "primary": "stat.ML"
+}

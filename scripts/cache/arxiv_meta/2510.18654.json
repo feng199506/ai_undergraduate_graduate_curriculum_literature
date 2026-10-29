@@ -1,0 +1,16 @@
+{
+ "id": "2510.18654",
+ "title": "Differentially Private E-Values",
+ "authors": [
+  "Daniel Csillag",
+  "Diego Mesquita"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 1,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "E-values have gained prominence as flexible tools for statistical inference and risk control, enabling anytime- and post-hoc-valid procedures under minimal assumptions. However, many real-world applications fundamentally rely on sensitive data, which can be leaked through e-values. To ensure their safe release, we propose a general framework to transform non-private e-values into differentially private ones. Towards this end, we develop a novel biased multiplicative noise mechanism that ensures our e-values remain statistically valid. We show that our differentially private e-values attain strong statistical power, and are asymptotically as powerful as their non-private counterparts. Experiments across online risk monitoring, private healthcare, and conformal e-prediction demonstrate our approach's effectiveness and illustrate its broad applicability.",
+ "primary": "stat.ME"
+}

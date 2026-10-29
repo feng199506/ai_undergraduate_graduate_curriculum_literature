@@ -1,0 +1,18 @@
+{
+ "id": "2508.15094",
+ "title": "Evaluating Sparse Autoencoders for Monosemantic Representation",
+ "authors": [
+  "Moghis Fereidouni",
+  "Muhammad Umair Haider",
+  "Peizhong Ju",
+  "A. B. Siddique"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 2,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A key barrier to interpreting large language models is polysemanticity, where neurons activate for multiple unrelated concepts. Sparse autoencoders (SAEs) have been proposed to mitigate this issue by transforming dense activations into sparse, more interpretable features. While prior work suggests that SAEs promote monosemanticity, no quantitative comparison has examined how concept activation distributions differ between SAEs and their base models. This paper provides the first systematic evaluation of SAEs against base models through activation distribution lens. We introduce a fine-grained concept separability score based on the Jensen-Shannon distance, which captures how distinctly a neuron's activation distributions vary across concepts. Using two large language models (Gemma-2-2B and DeepSeek-R1) and multiple SAE variants across five datasets (including word-level and sentence-level), we show that SAEs reduce polysemanticity and achieve higher concept separability. To assess practical utility, we evaluate concept-level interventions using two strategies: full neuron masking and partial suppression. We find that, compared to base models, SAEs enable more precise concept-level control when using partial suppression. Building on this, we propose Attenuation via Posterior Probabilities (APP), a new intervention method that uses concept-conditioned activation distributions for targeted suppression. APP achieves the smallest perplexity increase while remaining highly effective at concept removal.",
+ "primary": "cs.LG"
+}

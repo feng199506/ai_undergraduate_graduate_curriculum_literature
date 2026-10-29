@@ -1,0 +1,17 @@
+{
+ "id": "2403.19874",
+ "title": "On Quantile Randomized Kaczmarz for Linear Systems with Time-Varying Noise and Corruption",
+ "authors": [
+  "Nestor Coria",
+  "Jamie Haddock",
+  "Jaime Pacheco"
+ ],
+ "v1_date": "2024-03-28",
+ "latest_version": 2,
+ "latest_date": "2024-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large-scale systems of linear equations arise in machine learning, medical imaging, sensor networks, and in many areas of data science. When the scale of the systems are extreme, it is common for a fraction of the data or measurements to be corrupted. The Quantile Randomized Kaczmarz (QRK) method is known to converge on large-scale systems of linear equations $A\\mathbf{x}=\\mathbf{b}$ that are inconsistent due to static corruptions in the measurement vector $\\mathbf{b}$. We prove that QRK converges even for systems corrupted by time-varying perturbations. Additionally, we prove that QRK converges up to a convergence horizon on systems affected by time-varying noise and corruption. Finally, we utilize Markov's inequality to prove a lower bound on the probability that the largest entries of the QRK residual reveal the time-varying corruption in each iteration. We present numerical experiments which illustrate our theoretical results.",
+ "primary": "math.NA"
+}

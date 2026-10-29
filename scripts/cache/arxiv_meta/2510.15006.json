@@ -1,0 +1,17 @@
+{
+ "id": "2510.15006",
+ "title": "ES-C51: Expected Sarsa Based C51 Distributional Reinforcement Learning Algorithm",
+ "authors": [
+  "Rijul Tandon",
+  "Peter Vamplew",
+  "Cameron Foale"
+ ],
+ "v1_date": "2025-10-16",
+ "latest_version": 1,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In most value-based reinforcement learning (RL) algorithms, the agent estimates only the expected reward for each action and selects the action with the highest reward. In contrast, Distributional Reinforcement Learning (DRL) estimates the entire probability distribution of possible rewards, providing richer information about uncertainty and variability. C51 is a popular DRL algorithm for discrete action spaces. It uses a Q-learning approach, where the distribution is learned using a greedy Bellman update. However, this can cause problems if multiple actions at a state have similar expected reward but with different distributions, as the algorithm may not learn a stable distribution. This study presents a modified version of C51 (ES-C51) that replaces the greedy Q-learning update with an Expected Sarsa update, which uses a softmax calculation to combine information from all possible actions at a state rather than relying on a single best action. This reduces instability when actions have similar expected rewards and allows the agent to learn higher-performing policies. This approach is evaluated on classic control environments from Gym, and Atari-10 games. For a fair comparison, we modify the standard C51's exploration strategy from e-greedy to softmax, which we refer to as QL-C51 (Q- Learning based C51). The results demonstrate that ES-C51 outperforms QL-C51 across many environments.",
+ "primary": "cs.LG"
+}

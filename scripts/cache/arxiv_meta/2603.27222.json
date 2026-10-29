@@ -1,0 +1,28 @@
+{
+ "id": "2603.27222",
+ "title": "HD-VGGT: High-Resolution Visual Geometry Transformer",
+ "authors": [
+  "Tianrun Chen",
+  "Yuanqi Hu",
+  "Yidong Han",
+  "Hanjie Xu",
+  "Deyi Ji",
+  "Qi Zhu",
+  "Chunan Yu",
+  "Xin Zhang",
+  "Cheng Chen",
+  "Chaotao Ding",
+  "Ying Zang",
+  "Xuanfu Li",
+  "Jin Ma",
+  "Lanyun Zhu"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 2,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-resolution imagery is essential for accurate 3D reconstruction, as many geometric details only emerge at fine spatial scales. Recent feed-forward approaches, such as the Visual Geometry Grounded Transformer (VGGT), have demonstrated the ability to infer scene geometry from large collections of images in a single forward pass. However, scaling these models to high-resolution inputs remains challenging: the number of tokens in transformer architectures grows rapidly with both image resolution and the number of views, leading to prohibitive computational and memory costs. Moreover, we observe that visually ambiguous regions, such as repetitive patterns, weak textures, or specular surfaces, often produce unstable feature tokens that degrade geometric inference, especially at higher resolutions. We introduce HD-VGGT, a dual-branch architecture for efficient and robust high-resolution 3D reconstruction. A low-resolution branch predicts a coarse, globally consistent geometry, while a high-resolution branch refines details via a learned feature upsampling module. To handle unstable tokens, we propose Feature Modulation, which suppresses unreliable features early in the transformer. HD-VGGT leverages high-resolution images and supervision without full-resolution transformer costs, achieving state-of-the-art reconstruction quality.",
+ "primary": "cs.CV"
+}

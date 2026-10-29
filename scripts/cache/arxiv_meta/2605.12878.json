@@ -1,0 +1,17 @@
+{
+ "id": "2605.12878",
+ "title": "Adam-SHANG: A Convergent Adam-Type Method for Stochastic Smooth Convex Optimization",
+ "authors": [
+  "Yaxin Yu",
+  "Long Chen",
+  "Minfu Feng"
+ ],
+ "v1_date": "2026-05-13",
+ "latest_version": 1,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 13 figures",
+ "abstract": "We propose Adam-SHANG, a Lyapunov-guided Adam-type method that couples momentum, adaptive preconditioning, and a curvature-aware correction through a more stable lagged-preconditioner update. For stochastic smooth convex optimization, we prove convergence in expectation under an admissible stepsize condition that can always be satisfied by a conservative spectral bound, without imposing global monotonicity on the second-moment sequence. To obtain a less conservative practical rule, we introduce a computable trace-ratio stepsize, motivated by a local coordinatewise alignment condition. The same structural update is also tested beyond the convex setting with simplified parameters. Experiments validate the predicted stochastic decay and show competitive training performance against Adam and AdamW on deep learning tasks.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2408.11601",
+ "title": "Confidential Computing on Heterogeneous CPU-GPU Systems: Survey and Future Directions",
+ "authors": [
+  "Qifan Wang",
+  "David Oswald"
+ ],
+ "v1_date": "2024-08-21",
+ "latest_version": 3,
+ "latest_date": "2026-01-26",
+ "journal_ref": "",
+ "doi": "10.1145/3793532",
+ "comment": "Accepted by ACM Computing Surveys",
+ "abstract": "In recent years, the widespread informatization and rapid data explosion have increased the demand for high-performance heterogeneous systems that integrate multiple computing cores such as CPUs, Graphics Processing Units (GPUs), Application Specific Integrated Circuits (ASICs), and Field Programmable Gate Arrays (FPGAs). The combination of CPU and GPU is particularly popular due to its versatility. However, these heterogeneous systems face significant security and privacy risks. Advances in privacy-preserving techniques, especially hardware-based Trusted Execution Environments (TEEs), offer effective protection for GPU applications. Nonetheless, the potential security risks involved in extending TEEs to GPUs in heterogeneous systems remain uncertain and need further investigation. To investigate these risks in depth, we study the existing popular GPU TEE designs and summarize and compare their key implications. Additionally, we review existing powerful attacks on GPUs and traditional TEEs deployed on CPUs, along with the efforts to mitigate these threats. We identify potential attack surfaces introduced by GPU TEEs and provide insights into key considerations for designing secure GPU TEEs. This survey is timely as new TEEs for heterogeneous systems, particularly GPUs, are being developed, highlighting the need to understand potential security threats and build both efficient and secure systems.",
+ "primary": "cs.CR"
+}

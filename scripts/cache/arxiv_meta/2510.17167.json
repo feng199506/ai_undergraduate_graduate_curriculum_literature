@@ -1,0 +1,19 @@
+{
+ "id": "2510.17167",
+ "title": "Discovering Causal Relationships using Proxy Variables under Unmeasured Confounding",
+ "authors": [
+  "Yong Wu",
+  "Yanwei Fu",
+  "Shouyan Wang",
+  "Yizhou Wang",
+  "Xinwei Sun"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 1,
+ "latest_date": "2025-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "under review",
+ "abstract": "Inferring causal relationships between variable pairs in the observational study is crucial but challenging, due to the presence of unmeasured confounding. While previous methods employed the negative controls to adjust for the confounding bias, they were either restricted to the discrete setting (i.e., all variables are discrete) or relied on strong assumptions for identification. To address these problems, we develop a general nonparametric approach that accommodates both discrete and continuous settings for testing causal hypothesis under unmeasured confounders. By using only a single negative control outcome (NCO), we establish a new identification result based on a newly proposed integral equation that links the outcome and NCO, requiring only the completeness and mild regularity conditions. We then propose a kernel-based testing procedure that is more efficient than existing moment-restriction methods. We derive the asymptotic level and power properties for our tests. Furthermore, we examine cases where our procedure using only NCO fails to achieve identification, and introduce a new procedure that incorporates a negative control exposure (NCE) to restore identifiability. We demonstrate the effectiveness of our approach through extensive simulations and real-world data from the Intensive Care Data and World Values Survey.",
+ "primary": "stat.ME"
+}

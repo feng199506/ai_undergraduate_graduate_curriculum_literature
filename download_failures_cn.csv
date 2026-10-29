@@ -1,0 +1,39 @@
+﻿条目,课程群,类别,标题,来源,状态,原因
+C-10,00,培养方案参考,Stanford MSCS Program Sheet: Artificial Intelligence Specialization (2021-22),https://cs.stanford.edu/degrees/mscs/programsheets/21-22/MSCS-2022-AI.pdf,下载/核验失败,HTTP None
+C-18,00,培养方案参考,MSc Artificial Intelligence — Programme Catalogue 2025/26,https://www.cityu.edu.hk/catalogue/pg/202526/programme/MSAI.htm,下载/核验失败,1 个页面正文 < 1500 字符，如 https://www.cityu.edu.hk/catalogue/pg/202526/programme/MSAI.htm
+A04-05,04,课程,The Missing Semester of Your CS Education (IAP 2026) — Lecture Notes,https://missing.csail.mit.edu/2026/,排除,与 g11_20 分片 A20-03（同一课程 Missing Semester IAP 2026）重复，按“同一课程只收一个”撤回；首次抓取失败原因为索引页正文 < 3000 字符
+A08-02,08,课程,10-708 Probabilistic Graphical Models (Spring 2019) — lecture notes,https://sailinglab.github.io/pgm-spring-2019/lectures/,残缺（文件保留，不计数）：courses/CMU_10708_2019Spring_LectureNotes_html_en,讲次页第 26 讲笔记链接 HTTP 404，实收 26/27 讲（第 15 讲本无笔记）；按“缺讲次不计数”规则不计入课程数，已下载文件保留在本地供参考
+A11-02,11,课程,16-385 Computer Vision (Spring 2020) — Lecture Slides,https://www.cs.cmu.edu/~16385/,排除,Spring 2020 课程页最后一讲 lecture29a.pdf 官方链接 HTTP 404（2026-10-29），课件包不完整；改收同课程 Spring 2019 版（A11-05）
+A13-02,13,课程,CS234: Reinforcement Learning (Winter 2026) — Lecture Slides,https://web.stanford.edu/class/cs234/modules.html,排除,2026-10-29 核验：第 16 讲课前/课后两版 PDF 均 HTTP 404，另 lecture10pre、两份客座课件 404，课件包不完整；改收 UCL David Silver RL 课程（A13-05）
+A20-02,20,课程,Harvard CS197: AI Research Experiences — Course Book (lecture notes compiled),https://docs.google.com/document/d/1uvAbEhbgS_M-uDMTzmOWRlYxqCkogKRXdbKYYT98ooc/export?format=pdf,排除,课程书 Google Doc 导出 PDF 仅 16 页（多标签文档只导出首个标签/目录），不是完整讲义；改收逐讲讲义 15 篇（A20-04）
+B02-04,02,教科书/参考书,"Computer Age Statistical Inference: Algorithms, Evidence, and Data Science",,排除,作者站点原 PDF 地址 casi.pdf 返回 404，CASI 页面未再提供全文 PDF 链接
+B03-02,03,教科书/参考书,Algorithms for Optimization (2nd ed.),,排除,algorithmsbook.com 对 PDF 返回脚本验证页（反爬校验），按规则不绕过访问限制；由 B03-06 Orabona 替代
+B05-02,05,教科书/参考书,Algorithms for Decision Making,,排除,algorithmsbook.com 对 PDF 返回脚本验证页（反爬校验），按规则不绕过访问限制
+B18-05,18,教科书/参考书,Algorithms for Validation,,排除,algorithmsbook.com 对 PDF 返回脚本验证页（反爬校验），按规则不绕过访问限制
+B20-05,20,教科书/参考书,How to do Research At the MIT AI Lab (AI Working Paper 316),https://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf,下载/核验失败,HTTP None
+arxiv:1802.01528,01,论文,The Matrix Calculus You Need For Deep Learning,https://arxiv.org/pdf/1802.01528v3,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2409.14309,01,论文,Sketch 'n Solve: An Efficient Python Package for Large-Scale Least Squares Using Randomized Numerical Linear Algebra,https://arxiv.org/pdf/2409.14309v2,下载/核验失败,可提取文字仅 9260 字符（可能为扫描件或残缺）
+arxiv:2503.01509,02,论文,Recommendations for visual predictive checks in Bayesian workflow,https://arxiv.org/pdf/2503.01509v1,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2501.14458,03,论文,A Survey of Optimization Methods for Training DL Models: Theoretical Perspective on Convergence and Generalization,https://arxiv.org/pdf/2501.14458v1,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2410.03753,03,论文,A Brief Tutorial on Consensus ADMM for Distributed Optimization with Applications in Robotics,https://arxiv.org/pdf/2410.03753v1,下载/核验失败,仅 3 页
+arxiv:2512.05316,03,论文,Foundations of information theory for coding theory,https://arxiv.org/pdf/2512.05316v1,下载/核验失败,可提取文字仅 8926 字符（可能为扫描件或残缺）
+arxiv:2407.14567,04,论文,"Integrating Artificial Intelligence into Operating Systems: A Survey on Techniques, Applications, and Future Directions",https://arxiv.org/pdf/2407.14567v3,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2503.12309,04,论文,"How Scientists Use Jupyter Notebooks: Goals, Quality Attributes, and Opportunities",https://arxiv.org/pdf/2503.12309v1,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2410.01131,07,论文,nGPT: Normalized Transformer with Representation Learning on the Hypersphere,https://arxiv.org/pdf/2410.01131v2,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2403.11782,08,论文,A tutorial on learning from preferences and choices with Gaussian Processes,https://arxiv.org/pdf/2403.11782v6,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2407.16216,10,论文,Reinforcement Learning for LLM Post-Training: A Survey,https://arxiv.org/pdf/2407.16216v4,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2410.02073,11,论文,Depth Pro: Sharp Monocular Metric Depth in Less Than a Second,https://arxiv.org/pdf/2410.02073v2,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2311.00995,12,论文,A Chronological Survey of Theoretical Advancements in Generative Adversarial Networks for Computer Vision,https://arxiv.org/pdf/2311.00995v1,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2410.13720,12,论文,Movie Gen: A Cast of Media Foundation Models,https://arxiv.org/pdf/2410.13720v2,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2412.05265,13,论文,Reinforcement Learning: An Overview,https://arxiv.org/pdf/2412.05265v5,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2405.06161,13,论文,An Initial Introduction to Cooperative Multi-Agent Reinforcement Learning,https://arxiv.org/pdf/2405.06161v7,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2512.20096,13,论文,Information-directed sampling for bandits: a primer,https://arxiv.org/pdf/2512.20096v1,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2406.11786,14,论文,A Brief Survey on Leveraging Large Scale Vision Models for Enhanced Robot Grasping,https://arxiv.org/pdf/2406.11786v1,下载/核验失败,仅 3 页
+arxiv:2408.03539,14,论文,Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes,https://arxiv.org/pdf/2408.03539v3,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2402.14304,14,论文,Vision-Language Navigation with Embodied Intelligence: A Survey,https://arxiv.org/pdf/2402.14304v2,下载/核验失败,下载失败：HTTP 404 
+arxiv:2502.05952,15,论文,Comprehensive Review of Deep Unfolding Techniques for Next-Generation Wireless Communication Systems,https://arxiv.org/pdf/2502.05952v4,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2411.05793,15,论文,A Comprehensive Survey of Deep Learning for Time Series Forecasting: Architectural Diversity and Open Challenges,https://arxiv.org/pdf/2411.05793v3,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2401.01626,16,论文,On the Expressive Power of Graph Neural Networks,https://arxiv.org/pdf/2401.01626v2,下载/核验失败,下载失败：HTTP 404 
+arxiv:2505.15116,16,论文,Graph Foundation Models: A Comprehensive Survey,https://arxiv.org/pdf/2505.15116v1,下载/核验失败,未找到参考文献节（可能不完整）
+arxiv:2505.01658,19,论文,A Survey on Inference Engines for Large Language Models: Perspectives on Optimization and Efficiency,https://arxiv.org/pdf/2505.01658v3,下载/核验失败,未找到参考文献节（可能不完整）
+D20-04,20,官方实践材料,Harvard CS197: AI Research Experiences 作业与期末项目说明,https://docs.google.com/document/d/1iSefo0jV7F1FixdKruR8gGRt1RxCT_eNYRPgAMa9Ie0/export?format=pdf,排除,2026-10-29 核验：作业 1、作业 3 的官方 Google Docs 共享链接 HTTP 410（已被删除），作业集不完整

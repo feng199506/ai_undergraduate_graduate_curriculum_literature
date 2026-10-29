@@ -1,0 +1,21 @@
+{
+ "id": "2512.20953",
+ "title": "Diving into 3D Parallelism with Heterogeneous Spot Instance GPUs: Design and Implications",
+ "authors": [
+  "Yuxiao Wang",
+  "Yuedong Xu",
+  "Qingyang Duan",
+  "Yuxuan Liu",
+  "Lei Jiao",
+  "Yinghao Yu",
+  "Jun Wu"
+ ],
+ "v1_date": "2025-12-24",
+ "latest_version": 1,
+ "latest_date": "2025-12-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid growth of large language models (LLMs) and the continuous release of new GPU products have significantly increased the demand for distributed training across heterogeneous GPU environments. In this paper, we present a comprehensive analysis of the challenges involved in implementing 3D parallelism in such environments, addressing critical issues such as the need for symmetric tensor parallelism, efficient gradient synchronization in asymmetric pipeline parallelism, and the trade-offs between memory utilization and computational efficiency. Building upon these insights, we introduce AutoHet, a novel system that automatically identifies the optimal parallelism plan for distributed training on heterogeneous GPUs. AutoHet supports asymmetric 3D parallelism structures and facilitates fine-grained workload distribution. We propose a theoretical model that frames the device grouping and load balancing as an optimization problem to minimize per-iteration training time, thus effectively balancing computing power and memory usage across GPUs with diverse capabilities. To enable elastic training upon spot instance preemption, AutoHet presents an efficient recovery strategy that prioritizes to retrieve training states from local nodes, and only downloads the missing checkpoints from the cloud storage. Our extensive evaluation, conducted on three large-scale models and utilizing combinations of three different GPU types, demonstrates that AutoHet outperforms existing DNN training systems, achieving up to a 1.79$\\times$ speedup in training throughput compared with Megatron-LM and Whale, and a 4.38$\\times$ speedup of recovery speed compared to a spot instance baseline.",
+ "primary": "cs.DC"
+}

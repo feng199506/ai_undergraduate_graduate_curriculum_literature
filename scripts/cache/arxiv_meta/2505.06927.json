@@ -1,0 +1,16 @@
+{
+ "id": "2505.06927",
+ "title": "Stability Regularized Cross-Validation",
+ "authors": [
+  "Ryan Cory-Wright",
+  "Andrés Gómez"
+ ],
+ "v1_date": "2025-05-11",
+ "latest_version": 2,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Some of this material previously appeared in 2306.14851v2, which we have split into two papers (this one and 2306.14851v3), because it contained two ideas that need separate papers",
+ "abstract": "We revisit the problem of ensuring strong test set performance via cross-validation, and propose a nested k-fold cross-validation scheme that selects hyperparameters by minimizing a weighted sum of the usual cross-validation metric and an empirical model-stability measure. The weight on the stability term is itself chosen via a nested cross-validation procedure. This reduces the risk of strong validation set performance and poor test set performance due to instability. We benchmark our procedure on a suite of $13$ real-world datasets, and find that, compared to $k$-fold cross-validation over the same hyperparameters, it improves the out-of-sample MSE for sparse ridge regression and CART by $4\\%$ and $2\\%$ respectively on average, but has no impact on XGBoost. It also reduces the user's out-of-sample disappointment, sometimes significantly. For instance, for sparse ridge regression, the nested k-fold cross-validation error is on average $0.9\\%$ lower than the test set error, while the $k$-fold cross-validation error is $21.8\\%$ lower than the test error. Thus, for unstable models such as sparse regression and CART, our approach improves test set performance and reduces out-of-sample disappointment.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2404.11032",
+ "title": "CORE: Data Augmentation for Link Prediction via Information Bottleneck",
+ "authors": [
+  "Kaiwen Dong",
+  "Zhichun Guo",
+  "Nitesh V. Chawla"
+ ],
+ "v1_date": "2024-04-17",
+ "latest_version": 1,
+ "latest_date": "2024-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Link prediction (LP) is a fundamental task in graph representation learning, with numerous applications in diverse domains. However, the generalizability of LP models is often compromised due to the presence of noisy or spurious information in graphs and the inherent incompleteness of graph data. To address these challenges, we draw inspiration from the Information Bottleneck principle and propose a novel data augmentation method, COmplete and REduce (CORE) to learn compact and predictive augmentations for LP models. In particular, CORE aims to recover missing edges in graphs while simultaneously removing noise from the graph structures, thereby enhancing the model's robustness and performance. Extensive experiments on multiple benchmark datasets demonstrate the applicability and superiority of CORE over state-of-the-art methods, showcasing its potential as a leading approach for robust LP in graph representation learning.",
+ "primary": "cs.LG"
+}

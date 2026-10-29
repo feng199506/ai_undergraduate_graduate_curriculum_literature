@@ -1,0 +1,22 @@
+{
+ "id": "2408.09865",
+ "title": "MAPLE: Enhancing Review Generation with Multi-Aspect Prompt LEarning in Explainable Recommendation",
+ "authors": [
+  "Ching-Wen Yang",
+  "Zhi-Quan Feng",
+  "Ying-Jia Lin",
+  "Che-Wei Chen",
+  "Kun-da Wu",
+  "Hao Xu",
+  "Jui-Feng Yao",
+  "Hung-Yu Kao"
+ ],
+ "v1_date": "2024-08-19",
+ "latest_version": 2,
+ "latest_date": "2025-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 main pages, 10 pages for appendix. ACL'25 Main",
+ "abstract": "The Explainable Recommendation task is designed to receive a pair of user and item and output explanations to justify why an item is recommended to a user. Many models approach review generation as a proxy for explainable recommendations. While these models can produce fluent and grammatically correct sentences, they often lack precision and fail to provide personalized, informative recommendations. To address this issue, we propose a personalized, aspect-controlled model called Multi-Aspect Prompt LEarner (MAPLE), which integrates aspect category as another input dimension to facilitate memorizing fine-grained aspect terms. Experiments conducted on two real-world review datasets in the restaurant domain demonstrate that MAPLE significantly outperforms baseline review-generation models. MAPLE excels in both text and feature diversity, ensuring that the generated content covers a wide range of aspects. Additionally, MAPLE delivers good generation quality while maintaining strong coherence and factual relevance. The code and dataset used in this paper can be found here https://github.com/Nana2929/MAPLE.git.",
+ "primary": "cs.LG"
+}

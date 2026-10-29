@@ -1,0 +1,19 @@
+{
+ "id": "2610.06479",
+ "title": "Behavior-Preserving KV Cache Compression",
+ "authors": [
+  "Doo Hwan Hwang",
+  "Junyoung Jang",
+  "Junho Na",
+  "Hosung Lim",
+  "Kee-Eung Kim"
+ ],
+ "v1_date": "2026-10-05",
+ "latest_version": 1,
+ "latest_date": "2026-10-05",
+ "journal_ref": "EMNLP 2026 Main Conference Published",
+ "doi": "",
+ "comment": "",
+ "abstract": "KV caches are a major bottleneck in long-context inference and long-form generation with large language models. Existing training-free eviction policies largely rely on proxy importance signals, such as attention mass, to decide which past tokens to retain. We argue that cache compression should instead preserve the predictive behavior of the full-cache model, retaining entries whose removal would substantially change the model's output distribution. We propose Behavior-Preserving KV Cache Compression, a training-free framework that scores candidate evictions by estimating the compressed-cache logits induced by their removal and evaluating the resulting KL to the full-cache next-token distribution. Using pre-eviction forward statistics, the method avoids running separate masked forward passes for each candidate. Across diverse architectures and both prefill-time and generation-time compression, our method delivers substantial gains in downstream task quality over lightweight attention-based heuristics at matched retained-KV budgets, with the largest gains under aggressive compression. It achieves these gains with additional compression-time computation while retaining an end-to-end speedup over full-cache inference in our evaluated settings.",
+ "primary": "cs.CL"
+}

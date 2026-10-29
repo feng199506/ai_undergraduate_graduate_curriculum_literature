@@ -1,0 +1,18 @@
+{
+ "id": "2505.08627",
+ "title": "Augmented Reality for RObots (ARRO): Pointing Visuomotor Policies Towards Visual Robustness",
+ "authors": [
+  "Reihaneh Mirjalili",
+  "Tobias Jülg",
+  "Florian Walter",
+  "Wolfram Burgard"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 3,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Visuomotor policies trained on human expert demonstrations have recently shown strong performance across a wide range of robotic manipulation tasks. However, these policies remain highly sensitive to domain shifts stemming from background or robot embodiment changes, which limits their generalization capabilities. In this paper, we present ARRO, a novel visual representation that leverages zero-shot open-vocabulary segmentation and object detection models to efficiently mask out task-irrelevant regions of the scene in real time without requiring additional training, modeling of the setup, or camera calibration. By filtering visual distractors and overlaying virtual guides during both training and inference, ARRO improves robustness to scene variations and reduces the need for additional data collection. We extensively evaluate ARRO with Diffusion Policy on a range of tabletop manipulation tasks in both simulation and real-world environments, and further demonstrate its compatibility and effectiveness with generalist robot policies, such as Octo, OpenVLA and Pi Zero. Across all settings in our evaluation, ARRO yields consistent performance gains, allows for selective masking to choose between different objects, and shows robustness even to challenging segmentation conditions. Videos showcasing our results are available at: https://augmented-reality-for-robots.github.io/",
+ "primary": "cs.RO"
+}

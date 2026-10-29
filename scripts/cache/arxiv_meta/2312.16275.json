@@ -1,0 +1,20 @@
+{
+ "id": "2312.16275",
+ "title": "Understanding Before Recommendation: Semantic Aspect-Aware Review Exploitation via Large Language Models",
+ "authors": [
+  "Fan Liu",
+  "Yaqi Liu",
+  "Huilin Chen",
+  "Zhiyong Cheng",
+  "Liqiang Nie",
+  "Mohan Kankanhalli"
+ ],
+ "v1_date": "2023-12-26",
+ "latest_version": 2,
+ "latest_date": "2024-11-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ACM TOIS",
+ "abstract": "Recommendation systems harness user-item interactions like clicks and reviews to learn their representations. Previous studies improve recommendation accuracy and interpretability by modeling user preferences across various aspects and intents. However, the aspects and intents are inferred directly from user reviews or behavior patterns, suffering from the data noise and the data sparsity problem. Furthermore, it is difficult to understand the reasons behind recommendations due to the challenges of interpreting implicit aspects and intents. Inspired by the deep semantic understanding offered by large language models (LLMs), we introduce a chain-based prompting approach to uncover semantic aspect-aware interactions, which provide clearer insights into user behaviors at a fine-grained semantic level. To incorporate the abundant interactions of various aspects, we propose the simple yet effective Semantic Aspect-based Graph Convolution Network (short for SAGCN). By performing graph convolutions on multiple semantic aspect graphs, SAGCN efficiently combines embeddings across multiple semantic aspects for final user and item representations. The effectiveness of the SAGCN was evaluated on three publicly available datasets through extensive experiments, which revealed that it outperforms all other competitors. Furthermore, interpretability analysis experiments were conducted to demonstrate the interpretability of incorporating semantic aspects into the model.",
+ "primary": "cs.IR"
+}

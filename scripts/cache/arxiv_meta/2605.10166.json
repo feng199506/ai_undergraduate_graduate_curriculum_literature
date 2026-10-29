@@ -1,0 +1,22 @@
+{
+ "id": "2605.10166",
+ "title": "Data-Asymmetric Latent Imagination and Reranking for 3D Robotic Imitation Learning",
+ "authors": [
+  "Lianghao Luo",
+  "Xizhou Bu",
+  "Ruyan Liu",
+  "Qingqiu Huang",
+  "Chufeng Tang",
+  "Xiaoshuai Hao",
+  "Hongbo Wang",
+  "Wei Li"
+ ],
+ "v1_date": "2026-05-11",
+ "latest_version": 1,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robotic imitation learning typically assumes access to optimal demonstrations, yet real-world data collection often yields suboptimal, exploratory, or even failed trajectories. Discarding such data wastes valuable information about environment dynamics and failure modes, which can instead be leveraged to improve decision-making. While 3D policies reduce reliance on high-quality demonstrations through strong spatial generalization, they still require large-scale data to achieve high task success. To address this, we propose DALI-R, a Data-Asymmetric Latent Imagination and Reranking framework for 3D robotic imitation learning from mixed-quality trajectories. It learns a Latent World Model over 3D point clouds for imagined rollouts and a Task Completion Scorer that reranks candidate action chunks, improving decision-making without additional high-quality demonstrations. We instantiate DALI-R with both diffusion and efficient flow-matching policies and evaluate it on Adroit and MetaWorld benchmarks. Across the two evaluated 3D base policies, DALI-R achieves an average $6.8$\\% improvement in success rate while incurring less than $0.7\\times$ additional inference overhead.",
+ "primary": "cs.RO"
+}

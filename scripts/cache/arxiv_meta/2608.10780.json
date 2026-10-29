@@ -1,0 +1,23 @@
+{
+ "id": "2608.10780",
+ "title": "StageWAM: Joint-Embedding Stage Prediction for World-Action Models in Robot Manipulation",
+ "authors": [
+  "Xiao Liu",
+  "Yuguang Yang",
+  "Xi Wang",
+  "Kai Jiang",
+  "Cheng Chi",
+  "Yong Xu",
+  "Wenchao Ding",
+  "Yilun Chen",
+  "Yan Wang"
+ ],
+ "v1_date": "2026-08-11",
+ "latest_version": 3,
+ "latest_date": "2026-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalist robot policies aim to map multimodal observations and linguistic task instructions to actions across diverse tasks. However, existing methods typically represent the future as a fixed, short video-action chunk. This short-term future captures local scene evolution for action execution, but it does not explicitly describe the stage-level future that specifies how a task should progress from its current stage to the next. We therefore distinguish two complementary futures for robot manipulation: a short-term physical future to capture local scene evolution and a stage-level semantic future to represent task progress. We introduce StageWAM, which augments a Motus-based World Action Model (WAM) with Stage-JEPA, a goal-conditioned Joint-Embedding Predictive Architecture (JEPA) predictor. Given the current observation and task instruction, Stage-JEPA uses a frozen V-JEPA2 encoder to extract the current-state representation and predicts the latent target of the next inferred stage. Across 50 RoboTwin 2.0 tasks in clean and randomized environments, StageWAM achieves 90.25% overall success and reduces the mean number of execution steps in successful rollouts by 5.97% relative to the strongest baseline.",
+ "primary": "cs.RO"
+}

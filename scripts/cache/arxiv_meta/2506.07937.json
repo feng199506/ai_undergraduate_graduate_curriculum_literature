@@ -1,0 +1,18 @@
+{
+ "id": "2506.07937",
+ "title": "Quantum Graph Transformer for NLP Sentiment Classification",
+ "authors": [
+  "Shamminuj Aktar",
+  "Andreas Bärtschi",
+  "Abdel-Hameed A. Badawy",
+  "Stephan Eidenbenz"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 1,
+ "latest_date": "2025-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantum machine learning is a promising direction for building more efficient and expressive models, particularly in domains where understanding complex, structured data is critical. We present the Quantum Graph Transformer (QGT), a hybrid graph-based architecture that integrates a quantum self-attention mechanism into the message-passing framework for structured language modeling. The attention mechanism is implemented using parameterized quantum circuits (PQCs), which enable the model to capture rich contextual relationships while significantly reducing the number of trainable parameters compared to classical attention mechanisms. We evaluate QGT on five sentiment classification benchmarks. Experimental results show that QGT consistently achieves higher or comparable accuracy than existing quantum natural language processing (QNLP) models, including both attention-based and non-attention-based approaches. When compared with an equivalent classical graph transformer, QGT yields an average accuracy improvement of 5.42% on real-world datasets and 4.76% on synthetic datasets. Additionally, QGT demonstrates improved sample efficiency, requiring nearly 50% fewer labeled samples to reach comparable performance on the Yelp dataset. These results highlight the potential of graph-based QNLP techniques for advancing efficient and scalable language understanding.",
+ "primary": "cs.CL"
+}

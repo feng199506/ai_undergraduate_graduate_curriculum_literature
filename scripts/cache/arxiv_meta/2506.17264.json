@@ -1,0 +1,19 @@
+{
+ "id": "2506.17264",
+ "title": "OAT-Rephrase: Optimization-Aware Training Data Rephrasing for Zeroth-Order LLM Fine-Tuning",
+ "authors": [
+  "Jikai Long",
+  "Zijian Hu",
+  "Xiaodong Yu",
+  "Jianwen Xie",
+  "Zhaozhuo Xu"
+ ],
+ "v1_date": "2025-06-10",
+ "latest_version": 1,
+ "latest_date": "2025-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fine-tuning large language models (LLMs) using zeroth-order optimization (ZO) offers a memory-efficient alternative to gradient-based methods but suffers from slower convergence and unstable optimization due to noisy gradient estimates. This paper introduces OAT-Rephrase, an Optimization-Aware Training data rephrasing strategy that leverages an LLM to rephrase training instances based on its understanding of the ZO dynamics, specifically MeZO, derived directly from its paper. The approach incorporates a dual-stage pipeline featuring a rewriter LLM and a semantic judge, ensuring all rephrasings retain task relevance and logical consistency. Evaluations across five classification tasks and three LLM architectures demonstrate that OAT-Rephrase consistently improves MeZO fine-tuning performance, often narrowing or eliminating the gap with first-order methods. Our findings suggest that optimization-aware rephrasing serves as a reusable and low-overhead enhancement for zeroth-order tuning regimes.",
+ "primary": "cs.LG"
+}

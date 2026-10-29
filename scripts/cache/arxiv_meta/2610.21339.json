@@ -1,0 +1,16 @@
+{
+ "id": "2610.21339",
+ "title": "Causal Mediation Analysis for Panel Data with Double/Debiased Machine Learning",
+ "authors": [
+  "Peikai Wu",
+  "Zhiguo Xiao"
+ ],
+ "v1_date": "2026-10-15",
+ "latest_version": 1,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a double/debiased machine learning framework for causal mediation analysis in panel data with two-way fixed effects. Binary, multivalued, or continuous treatments and continuous mediators affect outcomes via histories. We formulate partially linear models for potential outcomes and mediators, define history-specific direct, indirect, and total effects, and identify them under a sequential conditional independence assumption given unit effects, allowing arbitrary time-invariant confounding. Estimation combines first-differencing, cross-fitting sample splitting that removes period effects, and machine-learned confounding functions within a GMM framework whose score is Neyman orthogonal in all nuisance components. We establish asymptotic normality of the estimators for the structural parameters and causal estimands and provide consistent variance estimators. Simulations show small bias and near-nominal coverage under nonlinear confounding, whereas a DML-free benchmark fails severely for indirect effects. An application to U.S. county data illustrates that a stable total effect can conceal substantial sensitivity in its direct-indirect decomposition.",
+ "primary": "stat.ME"
+}

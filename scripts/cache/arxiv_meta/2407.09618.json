@@ -1,0 +1,28 @@
+{
+ "id": "2407.09618",
+ "title": "The Heterophilic Graph Learning Handbook: Benchmarks, Models, Theoretical Analysis, Applications and Challenges",
+ "authors": [
+  "Sitao Luan",
+  "Chenqing Hua",
+  "Qincheng Lu",
+  "Liheng Ma",
+  "Lirong Wu",
+  "Xinyu Wang",
+  "Minkai Xu",
+  "Xiao-Wen Chang",
+  "Doina Precup",
+  "Rex Ying",
+  "Stan Z. Li",
+  "Jian Tang",
+  "Guy Wolf",
+  "Stefanie Jegelka"
+ ],
+ "v1_date": "2024-07-12",
+ "latest_version": 1,
+ "latest_date": "2024-07-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Suggestions and comments are welcomed at sitao.luan@mail.mcgill.ca!",
+ "abstract": "Homophily principle, \\ie{} nodes with the same labels or similar attributes are more likely to be connected, has been commonly believed to be the main reason for the superiority of Graph Neural Networks (GNNs) over traditional Neural Networks (NNs) on graph-structured data, especially on node-level tasks. However, recent work has identified a non-trivial set of datasets where GNN's performance compared to the NN's is not satisfactory. Heterophily, i.e. low homophily, has been considered the main cause of this empirical observation. People have begun to revisit and re-evaluate most existing graph models, including graph transformer and its variants, in the heterophily scenario across various kinds of graphs, e.g. heterogeneous graphs, temporal graphs and hypergraphs. Moreover, numerous graph-related applications are found to be closely related to the heterophily problem. In the past few years, considerable effort has been devoted to studying and addressing the heterophily issue. In this survey, we provide a comprehensive review of the latest progress on heterophilic graph learning, including an extensive summary of benchmark datasets and evaluation of homophily metrics on synthetic graphs, meticulous classification of the most updated supervised and unsupervised learning methods, thorough digestion of the theoretical analysis on homophily/heterophily, and broad exploration of the heterophily-related applications. Notably, through detailed experiments, we are the first to categorize benchmark heterophilic datasets into three sub-categories: malignant, benign and ambiguous heterophily. Malignant and ambiguous datasets are identified as the real challenging datasets to test the effectiveness of new models on the heterophily challenge. Finally, we propose several challenges and future directions for heterophilic graph representation learning.",
+ "primary": "cs.LG"
+}

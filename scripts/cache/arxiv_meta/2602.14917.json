@@ -1,0 +1,19 @@
+{
+ "id": "2602.14917",
+ "title": "BFS-PO: Best-First Search for Large Reasoning Models",
+ "authors": [
+  "Fiorenzo Parascandolo",
+  "Wenhui Tan",
+  "Enver Sangineto",
+  "Ruihua Song",
+  "Rita Cucchiara"
+ ],
+ "v1_date": "2026-02-16",
+ "latest_version": 1,
+ "latest_date": "2026-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large Reasoning Models (LRMs) such as OpenAI o1 and DeepSeek-R1 have shown excellent performance in reasoning tasks using long reasoning chains. However, this has also led to a significant increase of computational costs and the generation of verbose output, a phenomenon known as overthinking. The tendency to overthinking is often exacerbated by Reinforcement Learning (RL) algorithms such as GRPO/DAPO. In this paper, we propose BFS-PO, an RL algorithm which alleviates this problem using a Best-First Search exploration strategy. Specifically, BFS-PO looks for the shortest correct answer using a backtracking mechanism based on maximum entropy nodes. By generating progressively shorter responses during training, BFS-PO learns to produce concise reasoning chains. Using different benchmarks and base LRMs, we show that BFS-PO can simultaneously increase the LRM accuracy and shorten its answers.",
+ "primary": "cs.CL"
+}

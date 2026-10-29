@@ -1,0 +1,18 @@
+{
+ "id": "2402.00335",
+ "title": "Regression-Based Proximal Causal Inference",
+ "authors": [
+  "Jiewen Liu",
+  "Chan Park",
+  "Kendrick Li",
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2024-02-01",
+ "latest_version": 3,
+ "latest_date": "2024-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Negative controls are increasingly used to evaluate the presence of potential unmeasured confounding in observational studies. Beyond the use of negative controls to detect the presence of residual confounding, proximal causal inference (PCI) was recently proposed to de-bias confounded causal effect estimates, by leveraging a pair of treatment and outcome negative control or confounding proxy variables. While formal methods for statistical inference have been developed for PCI, these methods can be challenging to implement as they involve solving complex integral equations that are typically ill-posed. We develop a regression-based PCI approach, employing two-stage generalized linear regression models (GLMs) to implement PCI, which obviates the need to solve difficult integral equations. The proposed approach has merit in that (i) it is applicable to continuous, count, and binary outcomes cases, making it relevant to a wide range of real-world applications, and (ii) it is easy to implement using off-the-shelf software for GLMs. We establish the statistical properties of regression-based PCI and illustrate their performance in both synthetic and real-world empirical applications.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2609.32696",
+ "title": "Flat-Consensus Diffusion for Robust Data Reshaping under Noisy Evaluator",
+ "authors": [
+  "Hongyu Cao",
+  "Kunpeng Liu",
+  "Fei Xie",
+  "Sandip Ray"
+ ],
+ "v1_date": "2026-09-26",
+ "latest_version": 1,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data shape determines how features are structured, how patterns are separated, and how distributions cover the underlying domain. Poor data shape can make models learn noise rather than generalizable structure. This paper studies robust feature-centric data reshaping: generating feature transformations that remain useful, stable, and reproducible under noisy evaluation and imperfect data conditions. We view reshaping operation sequence search as reward-guided diffusion generation, and robust reshaping as searching for regions in the latent reward landscape rather than isolated high-reward transformations. The key challenge is dual instability: noisy evaluators distort local reward guidance, while stochastic generative trajectories can converge to inconsistent solutions. We propose FCDiff, a flat-consensus diffusion framework that addresses both failures through a micro-macro decomposition. The micro layer replaces point-estimate reward guidance with Gaussian-smoothed, Monte Carlo averaged gradients, steering generation toward locally flat reward regions. The macro layer aggregates independently guided trajectories with a weighted Frechet-mean barycenter, selecting consensus-supported basins and filtering stochastic outliers. Across an 8-dataset headline cohort under heavy-tailed evaluator noise, FCDiff attains the best aggregate rank on lower-tail reliability and robustness against both search-based AutoFE and robustness-oriented generative baselines, with statistically significant accuracy gains over every generative baseline. Our results show that robust data reshaping requires searching for flat, consensus-supported regions rather than sharp single-trajectory optima.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2412.03015",
+ "title": "Benchmarking Attention Mechanisms and Consistency Regularization Semi-Supervised Learning for Post-Flood Building Damage Assessment in Satellite Images",
+ "authors": [
+  "Jiaxi Yu",
+  "Tomohiro Fukuda",
+  "Nobuyoshi Yabuki"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 2,
+ "latest_date": "2024-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Post-flood building damage assessment is critical for rapid response and post-disaster reconstruction planning. Current research fails to consider the distinct requirements of disaster assessment (DA) from change detection (CD) in neural network design. This paper focuses on two key differences: 1) building change features in DA satellite images are more subtle than in CD; 2) DA datasets face more severe data scarcity and label imbalance. To address these issues, in terms of model architecture, the research explores the benchmark performance of attention mechanisms in post-flood DA tasks and introduces Simple Prior Attention UNet (SPAUNet) to enhance the model's ability to recognize subtle changes, in terms of semi-supervised learning (SSL) strategies, the paper constructs four different combinations of image-level label category reference distributions for consistent training. Experimental results on flood events of xBD dataset show that SPAUNet performs exceptionally well in supervised learning experiments, achieving a recall of 79.10% and an F1 score of 71.32% for damaged classification, outperforming CD methods. The results indicate the necessity of DA task-oriented model design. SSL experiments demonstrate the positive impact of image-level consistency regularization on the model. Using pseudo-labels to form the reference distribution for consistency training yields the best results, proving the potential of using the category distribution of a large amount of unlabeled data for SSL. This paper clarifies the differences between DA and CD tasks. It preliminarily explores model design strategies utilizing prior attention mechanisms and image-level consistency regularization, establishing new post-flood DA task benchmark methods.",
+ "primary": "cs.CV"
+}

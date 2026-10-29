@@ -1,0 +1,22 @@
+{
+ "id": "2406.16170",
+ "title": "SimCE: Simplifying Cross-Entropy Loss for Collaborative Filtering",
+ "authors": [
+  "Xiaodong Yang",
+  "Huiyuan Chen",
+  "Yuchen Yan",
+  "Yuxin Tang",
+  "Yuying Zhao",
+  "Eric Xu",
+  "Yiwei Cai",
+  "Hanghang Tong"
+ ],
+ "v1_date": "2024-06-23",
+ "latest_version": 1,
+ "latest_date": "2024-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The learning objective is integral to collaborative filtering systems, where the Bayesian Personalized Ranking (BPR) loss is widely used for learning informative backbones. However, BPR often experiences slow convergence and suboptimal local optima, partially because it only considers one negative item for each positive item, neglecting the potential impacts of other unobserved items. To address this issue, the recently proposed Sampled Softmax Cross-Entropy (SSM) compares one positive sample with multiple negative samples, leading to better performance. Our comprehensive experiments confirm that recommender systems consistently benefit from multiple negative samples during training. Furthermore, we introduce a \\underline{Sim}plified Sampled Softmax \\underline{C}ross-\\underline{E}ntropy Loss (SimCE), which simplifies the SSM using its upper bound. Our validation on 12 benchmark datasets, using both MF and LightGCN backbones, shows that SimCE significantly outperforms both BPR and SSM.",
+ "primary": "cs.IR"
+}

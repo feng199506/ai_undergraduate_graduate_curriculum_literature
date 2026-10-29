@@ -1,0 +1,15 @@
+{
+ "id": "2405.08675",
+ "title": "Simplifying debiased inference via automatic differentiation and probabilistic programming",
+ "authors": [
+  "Alex Luedtke"
+ ],
+ "v1_date": "2024-05-14",
+ "latest_version": 3,
+ "latest_date": "2025-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce an algorithm that simplifies the construction of efficient estimators, making them accessible to a broader audience. 'Dimple' takes as input computer code representing a parameter of interest and outputs an efficient estimator. Unlike standard approaches, it does not require users to derive a functional derivative known as the efficient influence function. Dimple avoids this task by applying automatic differentiation to the statistical functional of interest. Doing so requires expressing this functional as a composition of primitives satisfying a novel differentiability condition. Dimple also uses this composition to determine the nuisances it must estimate. In software, primitives can be implemented independently of one another and reused across different estimation problems. We provide a proof-of-concept Python implementation and showcase through examples how it allows users to go from parameter specification to efficient estimation with just a few lines of code.",
+ "primary": "stat.ME"
+}

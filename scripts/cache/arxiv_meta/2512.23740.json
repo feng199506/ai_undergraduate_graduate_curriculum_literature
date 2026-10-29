@@ -1,0 +1,18 @@
+{
+ "id": "2512.23740",
+ "title": "Towards representation agnostic probabilistic programming",
+ "authors": [
+  "Ole Fenske",
+  "Maximilian Popko",
+  "Sebastian Bader",
+  "Thomas Kirste"
+ ],
+ "v1_date": "2025-12-25",
+ "latest_version": 1,
+ "latest_date": "2025-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at LAFI@POPL25",
+ "abstract": "Current probabilistic programming languages and tools tightly couple model representations with specific inference algorithms, preventing experimentation with novel representations or mixed discrete-continuous models. We introduce a factor abstraction with five fundamental operations that serve as a universal interface for manipulating factors regardless of their underlying representation. This enables representation-agnostic probabilistic programming where users can freely mix different representations (e.g. discrete tables, Gaussians distributions, sample-based approaches) within a single unified framework, allowing practical inference in complex hybrid models that current toolkits cannot adequately express.",
+ "primary": "cs.PL"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2509.22994",
+ "title": "Analysis of Variational Sparse Autoencoders",
+ "authors": [
+  "Zachary Baker",
+  "Yuxiao Li"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 11 figures",
+ "abstract": "Sparse Autoencoders (SAEs) have emerged as a promising approach for interpreting neural network representations by learning sparse, human-interpretable features from dense activations. We investigate whether incorporating variational methods into SAE architectures can improve feature organization and interpretability. We introduce the Variational Sparse Autoencoder (vSAE), which replaces deterministic ReLU gating with stochastic sampling from learned Gaussian posteriors and incorporates KL divergence regularization toward a standard normal prior. Our hypothesis is that this probabilistic sampling creates dispersive pressure, causing features to organize more coherently in the latent space while avoiding overlap. We evaluate a TopK vSAE against a standard TopK SAE on Pythia-70M transformer residual stream activations using comprehensive benchmarks including SAE Bench, individual feature interpretability analysis, and global latent space visualization through t-SNE. The vSAE underperforms standard SAE across core evaluation metrics, though excels at feature independence and ablation metrics. The KL divergence term creates excessive regularization pressure that substantially reduces the fraction of living features, leading to observed performance degradation. While vSAE features demonstrate improved robustness, they exhibit many more dead features than baseline. Our findings suggest that naive application of variational methods to SAEs does not improve feature organization or interpretability.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2411.14865",
+ "title": "Towards Dependable Optical Flow: Benchmarks for Real-World Spatiotemporal Corruptions",
+ "authors": [
+  "Zhonghua Yi",
+  "Hao Shi",
+  "Qi Jiang",
+  "Yao Gao",
+  "Ze Wang",
+  "Yufan Zhang",
+  "Kailun Yang",
+  "Kaiwei Wang"
+ ],
+ "v1_date": "2024-11-22",
+ "latest_version": 2,
+ "latest_date": "2026-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). Code and benchmark resources are publicly available at https://github.com/ZhonghuaYi/optical_flow_robustness_benchmark",
+ "abstract": "Optical flow estimation is a fundamental task in dynamic scene understanding and computer vision. While recent deep models achieve impressive accuracy on clean benchmarks, their robustness to common visual and temporal degradations remains insufficiently explored. To address this gap, we establish a real-video-based spatiotemporal corruption benchmark suite that complements rendered and mixed-source robustness benchmarks, systematically evaluating two complementary aspects of visual perception: domain robustness and motion-distribution robustness. We construct two targeted benchmarks: KITTI Flow Corruptions (KITTI-FC) for dynamic outdoor scenes and GoPro Flow Corruptions (GoPro-FC) for diverse first-person-view complex motions. Both benchmarks use captured source data and apply 24 controlled, predominantly algorithmic corruptions encompassing digital, illumination, weather, noise, blur, and video artifacts. To quantify robustness, we use two complementary axes: the GT-free output-stability error Rs and the GT-based accuracy degradation Rd, together with their clean-error-normalized variants. We systematically evaluate 33 model variants from 17 representative optical flow methods. Our results show that, under the evaluated corruption schedules, models exhibit greater vulnerability to local structural information loss (e.g., JPEG compression and spatter) than to global perceptual distortions (e.g., fog and saturation). We further find that in-domain fine-tuning does not guarantee relative robustness and that no single current method dominates across all tested source and motion settings. Our work provides a controlled diagnostic framework for assessing optical flow robustness and developing reliable perception systems in complex environments. Code and benchmark resources are publicly available at https://github.com/ZhonghuaYi/optical_flow_robustness_benchmark.",
+ "primary": "eess.IV"
+}

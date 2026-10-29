@@ -1,0 +1,19 @@
+{
+ "id": "2501.15559",
+ "title": "A Unified Information-Theoretic Framework for Meta-Learning Generalization",
+ "authors": [
+  "Wen Wen",
+  "Tieliang Gong",
+  "Yuxin Dong",
+  "Zeyu Gao",
+  "Yong-Jin Liu"
+ ],
+ "v1_date": "2025-01-26",
+ "latest_version": 2,
+ "latest_date": "2025-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, information-theoretic generalization bounds have gained increasing attention for analyzing the generalization capabilities of meta-learning algorithms. However, existing results are confined to two-step bounds, failing to provide a sharper characterization of the meta-generalization gap that simultaneously accounts for environment-level and task-level dependencies. This paper addresses this fundamental limitation by developing a unified information-theoretic framework using a single-step derivation. The resulting meta-generalization bounds, expressed in terms of diverse information measures, exhibit substantial advantages over previous work, particularly in terms of tightness, scaling behavior associated with sampled tasks and samples per task, and computational tractability. Furthermore, through gradient covariance analysis, we provide new theoretical insights into the generalization properties of two classes of noisy and iterative meta-learning algorithms, where the meta-learner uses either the entire meta-training data (e.g., Reptile), or separate training and test data within the task (e.g., model agnostic meta-learning (MAML)). Numerical results validate the effectiveness of the derived bounds in capturing the generalization dynamics of meta-learning.",
+ "primary": "stat.ML"
+}

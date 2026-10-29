@@ -1,0 +1,19 @@
+{
+ "id": "2505.24452",
+ "title": "Stepsize anything: A unified learning rate schedule for budgeted-iteration training",
+ "authors": [
+  "Anda Tang",
+  "Yiming Dong",
+  "Yutao Zeng",
+  "zhou Xun",
+  "Zhouchen Lin"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 4,
+ "latest_date": "2025-12-08",
+ "journal_ref": "NeurIPS 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "The expanding computational costs and limited resources underscore the critical need for budgeted-iteration training, which aims to achieve optimal learning within predetermined iteration budgets. While learning rate schedules fundamentally govern the performance of different networks and tasks, particularly in budgeted-iteration scenarios, their design remains largely heuristic, lacking theoretical foundations. In addition, the optimal learning rate schedule requires extensive trial-and-error selection, making the training process inefficient. In this work, we propose the Unified Budget-Aware (UBA) schedule, a theoretically grounded learning rate schedule that consistently outperforms commonly-used schedules among diverse architectures and tasks under different constrained training budgets. First, we bridge the gap by constructing a novel training budget-aware optimization framework, which explicitly accounts for the robustness to landscape curvature variations. From this framework, we derive the UBA schedule, controlled by a single hyper-parameter \\varphi that provides a trade-off between flexibility and simplicity, eliminating the need for per-network numerical optimization. Moreover, we establish a theoretical connection between \\varphi and the condition number, adding interpretation and justification to our approach. Besides, we prove the convergence for different values of \\varphi. We offer practical guidelines for its selection via theoretical analysis and empirical results. Extensive experimental results show that UBA consistently surpasses the commonly-used schedules across diverse vision and language tasks, spanning network architectures (e.g., ResNet, OLMo) and scales, under different training-iteration budgets.",
+ "primary": "cs.LG"
+}

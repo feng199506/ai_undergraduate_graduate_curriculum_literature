@@ -1,0 +1,30 @@
+{
+ "id": "2604.12965",
+ "title": "Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation",
+ "authors": [
+  "Dongqi Fu",
+  "Kaushik Rangadurai",
+  "Haiyu Lu",
+  "Yunchen Pu",
+  "Siyang Yuan",
+  "Minhui Huang",
+  "Yiqun Liu",
+  "Golnaz Ghasemiesfeh",
+  "Xingfeng He",
+  "Fangzhou Xu",
+  "Andrew Cui",
+  "Vidhoon Viswanathan",
+  "Lin Yang",
+  "Liang Wang",
+  "Jiyan Yang",
+  "Chonglin Sun"
+ ],
+ "v1_date": "2026-04-14",
+ "latest_version": 1,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 5 figures",
+ "abstract": "The increase in data volume, computational resources, and model parameters during training has led to the development of numerous large-scale industrial retrieval models for recommendation tasks. However, effectively and efficiently deploying these large-scale foundational retrieval models remains a critical challenge that has not been fully addressed. Common quick-win solutions for deploying these massive models include relying on offline computations (such as cached user dictionaries) or distilling large models into smaller ones. Yet, both approaches fall short of fully leveraging the representational and inference capabilities of foundational models. In this paper, we explore whether it is possible to learn a hierarchical organization over the memory of foundational retrieval models. Such a hierarchical structure would enable more efficient search by reducing retrieval costs while preserving exactness. To achieve this, we propose jointly learning a hierarchical index using cross-attention and residual quantization for large-scale retrieval models. We also present its real-world deployment at Meta, supporting daily advertisement recommendations for billions of Facebook and Instagram users. Interestingly, we discovered that the intermediate nodes in the learned index correspond to a small set of high-quality data. Fine-tuning the model on this set further improves inference performance, and concretize the concept of \"test-time training\" within the recommendation system domain. We demonstrate these findings using both internal and public datasets with strong baseline comparisons and hope they contribute to the community's efforts in developing the next generation of foundational retrieval models.",
+ "primary": "cs.IR"
+}

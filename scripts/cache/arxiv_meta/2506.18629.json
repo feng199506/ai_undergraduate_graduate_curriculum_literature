@@ -1,0 +1,18 @@
+{
+ "id": "2506.18629",
+ "title": "On Equivariant Model Selection through the Lens of Uncertainty",
+ "authors": [
+  "Putri A. van der Linden",
+  "Alexander Timans",
+  "Dharmesh Tailor",
+  "Erik J. Bekkers"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 2,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 4 figures, 2 tables. In the 8th Workshop on Tractable Probabilistic Modeling at UAI 2025",
+ "abstract": "Equivariant models leverage prior knowledge on symmetries to improve predictive performance, but misspecified architectural constraints can harm it instead. While work has explored learning or relaxing constraints, selecting among pretrained models with varying symmetry biases remains challenging. We examine this model selection task from an uncertainty-aware perspective, comparing frequentist (via Conformal Prediction), Bayesian (via the marginal likelihood), and calibration-based measures to naive error-based evaluation. We find that uncertainty metrics generally align with predictive performance, but Bayesian model evidence does so inconsistently. We attribute this to a mismatch in Bayesian and geometric notions of model complexity for the employed last-layer Laplace approximation, and discuss possible remedies. Our findings point towards the potential of uncertainty in guiding symmetry-aware model selection.",
+ "primary": "cs.LG"
+}

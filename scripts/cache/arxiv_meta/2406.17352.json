@@ -1,0 +1,20 @@
+{
+ "id": "2406.17352",
+ "title": "Development of a digital tool for monitoring the behaviour of pre-weaned calves using accelerometer neck-collars",
+ "authors": [
+  "Oshana Dissanayake",
+  "Sarah E. Mcpherson",
+  "Joseph Allyndrée",
+  "Emer Kennedy",
+  "Pádraig Cunningham",
+  "Lucile Riaboff"
+ ],
+ "v1_date": "2024-06-25",
+ "latest_version": 1,
+ "latest_date": "2024-06-25",
+ "journal_ref": "European Conference on Precision Livestock Farming, Sep 2024, Bologne (ITA), Italy",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automatic monitoring of calf behaviour is a promising way of assessing animal welfare from their first week on farms. This study aims to (i) develop machine learning models from accelerometer data to classify the main behaviours of pre-weaned calves and (ii) set up a digital tool for monitoring the behaviour of pre-weaned calves from the models' prediction. Thirty pre-weaned calves were equipped with a 3-D accelerometer attached to a neck-collar for two months and filmed simultaneously. The behaviours were annotated, resulting in 27.4 hours of observation aligned with the accelerometer data. The time-series were then split into 3 seconds windows. Two machine learning models were tuned using data from 80% of the calves: (i) a Random Forest model to classify between active and inactive behaviours using a set of 11 hand-craft features [model 1] and (ii) a RidgeClassifierCV model to classify between lying, running, drinking milk and other behaviours using ROCKET features [model 2]. The performance of the models was tested using data from the remaining 20% of the calves. Model 1 achieved a balanced accuracy of 0.92. Model 2 achieved a balanced accuracy of 0.84. Behavioural metrics such as daily activity ratio and episodes of running, lying, drinking milk, and other behaviours expressed over time were deduced from the predictions. All the development was finally embedded into a Python dashboard so that the individual calf metrics could be displayed directly from the raw accelerometer files.",
+ "primary": "eess.SP"
+}

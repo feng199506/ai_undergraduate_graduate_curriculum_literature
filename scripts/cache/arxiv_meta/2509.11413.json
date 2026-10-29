@@ -1,0 +1,16 @@
+{
+ "id": "2509.11413",
+ "title": "Framing AI System Benchmarking as a Learning Task: FlexBench and the Open MLPerf Dataset",
+ "authors": [
+  "Grigori Fursin",
+  "Daniel Altunay"
+ ],
+ "v1_date": "2025-09-14",
+ "latest_version": 1,
+ "latest_date": "2025-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Existing AI system benchmarks such as MLPerf often struggle to keep pace with the rapidly evolving AI landscape, making it difficult to support informed deployment, optimization, and co-design decisions for AI systems. We suggest that benchmarking itself can be framed as an AI task - one in which models are continuously evaluated and optimized across diverse datasets, software, and hardware, using key metrics such as accuracy, latency, throughput, energy consumption, and cost. To support this perspective, we present FlexBench: a modular extension of the MLPerf LLM inference benchmark, integrated with HuggingFace and designed to provide relevant and actionable insights. Benchmarking results and metadata are collected into an Open MLPerf Dataset, which can be collaboratively curated, extended, and leveraged for predictive modeling and feature engineering. We successfully validated the FlexBench concept through MLPerf Inference submissions, including evaluations of DeepSeek R1 and LLaMA 3.3 on commodity servers. The broader objective is to enable practitioners to make cost-effective AI deployment decisions that reflect their available resources, requirements, and constraints.",
+ "primary": "cs.LG"
+}

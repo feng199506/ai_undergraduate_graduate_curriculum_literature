@@ -1,0 +1,18 @@
+{
+ "id": "2311.11824",
+ "title": "Neural Graph Collaborative Filtering Using Variational Inference",
+ "authors": [
+  "Narges Sadat Fazeli Dehkordi",
+  "Hadi Zare",
+  "Parham Moradi",
+  "Mahdi Jalili"
+ ],
+ "v1_date": "2023-11-20",
+ "latest_version": 2,
+ "latest_date": "2023-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted for PAKDD2024 conference,12 pages",
+ "abstract": "The customization of recommended content to users holds significant importance in enhancing user experiences across a wide spectrum of applications such as e-commerce, music, and shopping. Graph-based methods have achieved considerable performance by capturing user-item interactions. However, these methods tend to utilize randomly constructed embeddings in the dataset used for training the recommender, which lacks any user preferences. Here, we propose the concept of variational embeddings as a means of pre-training the recommender system to improve the feature propagation through the layers of graph convolutional networks (GCNs). The graph variational embedding collaborative filtering (GVECF) is introduced as a novel framework to incorporate representations learned through a variational graph auto-encoder which are embedded into a GCN-based collaborative filtering. This approach effectively transforms latent high-order user-item interactions into more trainable vectors, ultimately resulting in better performance in terms of recall and normalized discounted cumulative gain(NDCG) metrics. The experiments conducted on benchmark datasets demonstrate that our proposed method achieves up to 13.78% improvement in the recall over the test data.",
+ "primary": "cs.IR"
+}

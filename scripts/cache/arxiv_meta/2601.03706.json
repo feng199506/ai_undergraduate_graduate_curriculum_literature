@@ -1,0 +1,15 @@
+{
+ "id": "2601.03706",
+ "title": "The Geometry of the Pivot: A Note on Lazy Pivoted Cholesky and Farthest Point Sampling",
+ "authors": [
+  "Gil Shabat"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 3,
+ "latest_date": "2026-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Low-rank approximations of large kernel matrices are ubiquitous in machine learning, particularly for scaling Gaussian Processes to massive datasets. The Pivoted Cholesky decomposition is a standard tool for this task, offering a computationally efficient, greedy low-rank approximation. While its algebraic properties are well-documented in numerical linear algebra, its geometric intuition within the context of kernel methods often remains obscure. In this note, we elucidate the geometric interpretation of the algorithm within the Reproducing Kernel Hilbert Space (RKHS). We demonstrate that the pivotal selection step is mathematically equivalent to Farthest Point Sampling (FPS) using the kernel metric, and that the Cholesky factor construction is an implicit Gram-Schmidt orthogonalization. We provide a concise derivation and a minimalist Python implementation to bridge the gap between theory and practice.",
+ "primary": "cs.LG"
+}

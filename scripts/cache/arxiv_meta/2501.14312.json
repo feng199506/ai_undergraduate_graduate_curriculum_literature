@@ -1,0 +1,27 @@
+{
+ "id": "2501.14312",
+ "title": "Locality-aware Fair Scheduling in LLM Serving",
+ "authors": [
+  "Shiyi Cao",
+  "Yichuan Wang",
+  "Ziming Mao",
+  "Pin-Lun Hsu",
+  "Liangsheng Yin",
+  "Tian Xia",
+  "Dacheng Li",
+  "Shu Liu",
+  "Yineng Zhang",
+  "Yang Zhou",
+  "Ying Sheng",
+  "Joseph Gonzalez",
+  "Ion Stoica"
+ ],
+ "v1_date": "2025-01-24",
+ "latest_version": 1,
+ "latest_date": "2025-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language model (LLM) inference workload dominates a wide variety of modern AI applications, ranging from multi-turn conversation to document analysis. Balancing fairness and efficiency is critical for managing diverse client workloads with varying prefix patterns. Unfortunately, existing fair scheduling algorithms for LLM serving, such as Virtual Token Counter (VTC), fail to take prefix locality into consideration and thus suffer from poor performance. On the other hand, locality-aware scheduling algorithms in existing LLM serving frameworks tend to maximize the prefix cache hit rate without considering fair sharing among clients. This paper introduces the first locality-aware fair scheduling algorithm, Deficit Longest Prefix Match (DLPM), which can maintain a high degree of prefix locality with a fairness guarantee. We also introduce a novel algorithm, Double Deficit LPM (D$^2$LPM), extending DLPM for the distributed setup that can find a balance point among fairness, locality, and load-balancing. Our extensive evaluation demonstrates the superior performance of DLPM and D$^2$LPM in ensuring fairness while maintaining high throughput (up to 2.87$\\times$ higher than VTC) and low per-client (up to 7.18$\\times$ lower than state-of-the-art distributed LLM serving system) latency.",
+ "primary": "cs.DC"
+}

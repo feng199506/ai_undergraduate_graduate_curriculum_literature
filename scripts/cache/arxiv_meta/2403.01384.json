@@ -1,0 +1,19 @@
+{
+ "id": "2403.01384",
+ "title": "On the Compressibility of Quantized Large Language Models",
+ "authors": [
+  "Yu Mao",
+  "Weilan Wang",
+  "Hongchao Du",
+  "Nan Guan",
+  "Chun Jason Xue"
+ ],
+ "v1_date": "2024-03-03",
+ "latest_version": 2,
+ "latest_date": "2024-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deploying Large Language Models (LLMs) on edge or mobile devices offers significant benefits, such as enhanced data privacy and real-time processing capabilities. However, it also faces critical challenges due to the substantial memory requirement of LLMs. Quantization is an effective way of reducing the model size while maintaining good performance. However, even after quantization, LLMs may still be too big to fit entirely into the limited memory of edge or mobile devices and have to be partially loaded from the storage to complete the inference. In this case, the I/O latency of model loading becomes the bottleneck of the LLM inference latency. In this work, we take a preliminary step of studying applying data compression techniques to reduce data movement and thus speed up the inference of quantized LLM on memory-constrained devices. In particular, we discussed the compressibility of quantized LLMs, the trade-off between the compressibility and performance of quantized LLMs, and opportunities to optimize both of them jointly.",
+ "primary": "cs.LG"
+}

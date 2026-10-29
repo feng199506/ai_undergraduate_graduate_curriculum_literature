@@ -1,0 +1,19 @@
+{
+ "id": "2311.02766",
+ "title": "Riemannian Laplace Approximation with the Fisher Metric",
+ "authors": [
+  "Hanlin Yu",
+  "Marcelo Hartmann",
+  "Bernardo Williams",
+  "Mark Girolami",
+  "Arto Klami"
+ ],
+ "v1_date": "2023-11-05",
+ "latest_version": 8,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "AISTATS 2024, with additional fixes and improvements. Theorem 2 is fixed",
+ "abstract": "Laplace's method approximates a target density with a Gaussian distribution at its mode. It is computationally efficient and asymptotically exact for Bayesian inference due to the Bernstein-von Mises theorem, but for complex targets and finite-data posteriors it is often too crude an approximation. A recent generalization of the Laplace Approximation transforms the Gaussian approximation according to a chosen Riemannian geometry providing a richer approximation family, while still retaining computational efficiency. However, as shown here, its properties depend heavily on the chosen metric, indeed the metric adopted in previous work results in approximations that are overly narrow as well as being biased even at the limit of infinite data. We correct this shortcoming by developing the approximation family further, deriving two alternative variants that are exact at the limit of infinite data, extending the theoretical analysis of the method, and demonstrating practical improvements in a range of experiments.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2401.03653",
+ "title": "An Exploratory Study on Automatic Identification of Assumptions in the Development of Deep Learning Frameworks",
+ "authors": [
+  "Chen Yang",
+  "Peng Liang",
+  "Zinan Ma"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 6,
+ "latest_date": "2024-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint accepted for publication in Science of Computer Programming, 2024",
+ "abstract": "Stakeholders constantly make assumptions in the development of deep learning (DL) frameworks. These assumptions are related to various types of software artifacts (e.g., requirements, design decisions, and technical debt) and can turn out to be invalid, leading to system failures. Existing approaches and tools for assumption management usually depend on manual identification of assumptions. However, assumptions are scattered in various sources (e.g., code comments, commits, pull requests, and issues) of DL framework development, and manually identifying assumptions has high costs. This study intends to evaluate different classification models for the purpose of identification with respect to assumptions from the point of view of developers and users in the context of DL framework projects (i.e., issues, pull requests, and commits) on GitHub. First, we constructed a new and largest dataset (i.e., the AssuEval dataset) of assumptions collected from the TensorFlow and Keras repositories on GitHub. Then we explored the performance of seven non-transformers based models (e.g., Support Vector Machine, Classification and Regression Trees), the ALBERT model, and three decoder-only models (i.e., ChatGPT, Claude, and Gemini) for identifying assumptions on the AssuEval dataset. The study results show that ALBERT achieves the best performance (f1-score: 0.9584) for identifying assumptions on the AssuEval dataset, which is much better than the other models (the 2nd best f1-score is 0.8858, achieved by the Claude 3.5 Sonnet model). Though ChatGPT, Claude, and Gemini are popular models, we do not recommend using them to identify assumptions in DL framework development because of their low performance. Fine-tuning ChatGPT, Claude, Gemini, or other language models (e.g., Llama3, Falcon, and BLOOM) specifically for assumptions might improve their performance for assumption identification.",
+ "primary": "cs.SE"
+}

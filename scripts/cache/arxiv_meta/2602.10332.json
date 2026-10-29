@@ -1,0 +1,17 @@
+{
+ "id": "2602.10332",
+ "title": "Generalized Prediction-Powered Inference, with Application to Binary Classifier Evaluation",
+ "authors": [
+  "Runjia Zou",
+  "Daniela Witten",
+  "Brian Williamson"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the partially-observed outcome setting, a recent set of proposals known as \"prediction-powered inference\" (PPI) involve (i) applying a pre-trained machine learning model to predict the response, and then (ii) using these predictions to obtain an estimator of the parameter of interest with asymptotic variance no greater than that which would be obtained using only the labeled observations. While existing PPI proposals consider estimators arising from M-estimation, in this paper we generalize PPI to any regular asymptotically linear estimator. Furthermore, by situating PPI within the context of an existing rich literature on missing data and semi-parametric efficiency theory, we show that while PPI does not achieve the semi-parametric efficiency lower bound outside of very restrictive and unrealistic scenarios, it can be viewed as a computationally-simple alternative to proposals in that literature. We exploit connections to that literature to propose modified PPI estimators that can handle three distinct forms of covariate distribution shift. Finally, we illustrate these developments by constructing PPI estimators of true positive rate, false positive rate, and area under the curve via numerical studies.",
+ "primary": "stat.ME"
+}

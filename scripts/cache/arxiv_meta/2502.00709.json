@@ -1,0 +1,25 @@
+{
+ "id": "2502.00709",
+ "title": "RankFlow: A Multi-Role Collaborative Reranking Workflow Utilizing Large Language Models",
+ "authors": [
+  "Can Jin",
+  "Hongwu Peng",
+  "Anxiang Zhang",
+  "Nuo Chen",
+  "Jiahui Zhao",
+  "Xi Xie",
+  "Kuangzheng Li",
+  "Shuya Feng",
+  "Kai Zhong",
+  "Caiwen Ding",
+  "Dimitris N. Metaxas"
+ ],
+ "v1_date": "2025-02-02",
+ "latest_version": 5,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In an Information Retrieval (IR) system, reranking plays a critical role by sorting candidate passages according to their relevance to a specific query. This process demands a nuanced understanding of the variations among passages linked to the query. In this work, we introduce RankFlow, a multi-role reranking workflow that leverages the capabilities of Large Language Models (LLMs) and role specializations to improve reranking performance. RankFlow enlists LLMs to fulfill four distinct roles: the query Rewriter, the pseudo Answerer, the passage Summarizer, and the Reranker. This orchestrated approach enables RankFlow to: (1) accurately interpret queries, (2) draw upon LLMs' extensive pre-existing knowledge, (3) distill passages into concise versions, and (4) assess passages in a comprehensive manner, resulting in notably better reranking results. Our experimental results reveal that RankFlow outperforms existing leading approaches on widely recognized IR benchmarks, such as TREC-DL, BEIR, and NovelEval. Additionally, we investigate the individual contributions of each role in RankFlow.",
+ "primary": "cs.IR"
+}

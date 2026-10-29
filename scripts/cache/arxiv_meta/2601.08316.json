@@ -1,0 +1,17 @@
+{
+ "id": "2601.08316",
+ "title": "Deep Exploration of Epoch-wise Double Descent in Noisy Data: Signal Separation, Large Activation, and Benign Overfitting",
+ "authors": [
+  "Tomoki Kubo",
+  "Ryuken Uda",
+  "Yusuke Iida"
+ ],
+ "v1_date": "2026-01-13",
+ "latest_version": 1,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 9 figures",
+ "abstract": "Deep double descent is one of the key phenomena underlying the generalization capability of deep learning models. In this study, epoch-wise double descent, which is delayed generalization following overfitting, was empirically investigated by focusing on the evolution of internal structures. Fully connected neural networks of three different sizes were trained on the CIFAR-10 dataset with 30% label noise. By decomposing the loss curves into signal contributions from clean and noisy training data, the epoch-wise evolutions of internal signals were analyzed separately. Three main findings were obtained from this analysis. First, the model achieved strong re-generalization on test data even after perfectly fitting noisy training data during the double descent phase, corresponding to a \"benign overfitting\" state. Second, noisy data were learned after clean data, and as learning progressed, their corresponding internal activations became increasingly separated in outer layers; this enabled the model to overfit only noisy data. Third, a single, very large activation emerged in the shallow layer across all models; this phenomenon is referred as \"outliers,\" \"massive activa-tions,\" and \"super activations\" in recent large language models and evolves with re-generalization. The magnitude of large activation correlated with input patterns but not with output patterns. These empirical findings directly link the recent key phenomena of \"deep double descent,\" \"benign overfitting,\" and \"large activation\", and support the proposal of a novel scenario for understanding deep double descent.",
+ "primary": "cs.LG"
+}

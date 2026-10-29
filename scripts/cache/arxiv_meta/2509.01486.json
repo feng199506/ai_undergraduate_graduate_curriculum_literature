@@ -1,0 +1,18 @@
+{
+ "id": "2509.01486",
+ "title": "Prior-Guided Flow Matching for Target-Aware Molecule Design with Learnable Atom Number",
+ "authors": [
+  "Jingyuan Zhou",
+  "Hao Qian",
+  "Shikui Tu",
+  "Lei Xu"
+ ],
+ "v1_date": "2025-09-01",
+ "latest_version": 2,
+ "latest_date": "2025-11-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by NeurIPS 2025",
+ "abstract": "Structure-based drug design (SBDD), aiming to generate 3D molecules with high binding affinity toward target proteins, is a vital approach in novel drug discovery. Although recent generative models have shown great potential, they suffer from unstable probability dynamics and mismatch between generated molecule size and the protein pockets geometry, resulting in inconsistent quality and off-target effects. We propose PAFlow, a novel target-aware molecular generation model featuring prior interaction guidance and a learnable atom number predictor. PAFlow adopts the efficient flow matching framework to model the generation process and constructs a new form of conditional flow matching for discrete atom types. A protein-ligand interaction predictor is incorporated to guide the vector field toward higher-affinity regions during generation, while an atom number predictor based on protein pocket information is designed to better align generated molecule size with target geometry. Extensive experiments on the CrossDocked2020 benchmark show that PAFlow achieves a new state-of-the-art in binding affinity (up to -8.31 Avg. Vina Score), simultaneously maintains favorable molecular properties.",
+ "primary": "cs.LG"
+}

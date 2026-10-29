@@ -1,0 +1,20 @@
+{
+ "id": "2605.07358",
+ "title": "A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications",
+ "authors": [
+  "Yingli Zhou",
+  "Wang Shu",
+  "Yaodong Su",
+  "Wenchuan Du",
+  "Yixiang Fang",
+  "Xuemin Lin"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 3,
+ "latest_date": "2026-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language model (LLM)-based agents that reason, plan, and act through tools, memory, and structured interaction are emerging as a promising paradigm for automating complex workflows. Recent systems such as OpenClaw and Claude Code exemplify a broader shift from passive response generation to action-oriented task execution. Yet as agents move toward open-ended, real-world deployment, relying on from-scratch reasoning and low-level tool calls for every task become increasingly inefficient, error-prone, and hard to maintain. This survey examines this challenge through the lens of \\emph{agent skills}, which we define as reusable procedural artifacts that coordinate tools, memory, and runtime context under task-specific constraints. Under this view, agents and skills play complementary roles: agents handle high-level reasoning and planning, while skills form the operational layer that enables reliable, reusable, and composable execution. Skills are therefore central to the scalability, robustness, and maintainability of modern agent systems. We organize the literature around four stages of the agent skill lifecycle -- representation, acquisition, retrieval, and evolution -- and review representative methods, ecosystem resources, and application settings across each stage. We conclude by discussing open challenges in quality control, interoperability, safe updating, and long-term capability management. All related resources, including research papers, open-source data, and projects, are collected for the community in \\textcolor{blue}{https://github.com/JayLZhou/Awesome-Agent-Skills}.",
+ "primary": "cs.IR"
+}

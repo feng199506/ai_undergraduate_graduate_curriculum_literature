@@ -1,0 +1,15 @@
+{
+ "id": "2601.21708",
+ "title": "FBS: Modeling Native Parallel Reading inside a Transformer",
+ "authors": [
+  "Tongxi Wang"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 2,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accept to ACL2026 as findings",
+ "abstract": "Large language models (LLMs) excel across many tasks, yet inference is still dominated by strictly token-by-token autoregression. Existing acceleration methods largely patch this pipeline and miss core human-reading ingredients: content-adaptive foresight, chunk-structure-aware compute allocation, and train-test consistency for preview/skimming. We propose the Fovea-Block-Skip Transformer (FBS), which injects a causal, trainable loop into Transformers via Parafovea-Attention Window (PAW), Chunk-Head (CH), and Skip-Gate (SG). Across diverse benchmarks, FBS improves the quality-efficiency trade-off without increasing parameters, and ablations show the three modules are complementary.",
+ "primary": "cs.AI"
+}

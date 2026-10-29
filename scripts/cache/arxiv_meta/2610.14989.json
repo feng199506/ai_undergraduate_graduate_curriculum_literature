@@ -1,0 +1,18 @@
+{
+ "id": "2610.14989",
+ "title": "Characterizing the Separability Gap in Prior-Data Fitted Networks",
+ "authors": [
+  "Julius Kobialka",
+  "Manuel Hülskamp",
+  "Thomas Nagler",
+  "David Rügamer"
+ ],
+ "v1_date": "2026-10-10",
+ "latest_version": 1,
+ "latest_date": "2026-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prior-data fitted networks (PFNs) are transformers pretrained on simulated datasets to approximate Bayesian posterior predictive distributions. Standard PFN theory assumes a separable task prior, under which the feature distribution and the mechanism generating labels from features are independent. We show that common PFN priors are non-separable, even in simple settings. Consequently, standard pretraining targets a predictive distribution based on a task posterior updated using both the labeled context and the query features. We characterize its difference from the predictive based on the context posterior alone and show that this difference vanishes under posterior concentration. Under misspecification (i.e., when the true joint distribution lies outside the prior's support), however, prior non-separability can favor better feature fit at the expense of conditional label fit. We illustrate the consequences for feature attribution, Bayesian optimization, and martingale checks of Bayesian behavior. The same dependence also enables PFNs to learn from additional unlabeled observations. We demonstrate this with SemiTabICL, a PFN explicitly pretrained to use these observations, which improves accuracy over a matched supervised baseline. Our findings highlight the need for explicit rules on unlabeled data use in PFN evaluation and establish the dependence between feature and label distributions as a consequential prior design choice.",
+ "primary": "cs.LG"
+}

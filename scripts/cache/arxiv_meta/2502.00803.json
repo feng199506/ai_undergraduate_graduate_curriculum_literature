@@ -1,0 +1,20 @@
+{
+ "id": "2502.00803",
+ "title": "ProPINN: Demystifying Propagation Failures in Physics-Informed Neural Networks",
+ "authors": [
+  "Yuezhou Ma",
+  "Haixu Wu",
+  "Hang Zhou",
+  "Huikun Weng",
+  "Jianmin Wang",
+  "Mingsheng Long"
+ ],
+ "v1_date": "2025-02-02",
+ "latest_version": 3,
+ "latest_date": "2026-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Physics-informed neural networks (PINNs) have earned high expectations in solving partial differential equations (PDEs), but their optimization usually faces thorny challenges due to the unique derivative-dependent loss function. By analyzing the loss distribution, previous research observed the propagation failure phenomenon of PINNs, intuitively described as the correct supervision for model outputs cannot ''propagate'' from initial states or boundaries to the interior domain. Going beyond intuitive understanding, this paper provides a formal and in-depth study of propagation failure and its root cause. Based on a detailed comparison with classical finite element methods, we ascribe the failure to the conventional single-point-processing architecture of PINNs and further prove that propagation failure is essentially caused by the lower gradient correlation of PINN models on nearby collocation points. Compared to superficial loss maps, this new perspective provides a more precise quantitative criterion to identify where and why PINN fails. The theoretical finding also inspires us to present a new PINN architecture, named ProPINN, which can effectively unite the gradients of region points for better propagation. ProPINN can reliably resolve PINN failure modes and significantly surpass advanced Transformer-based models with 46% relative promotion.",
+ "primary": "cs.LG"
+}

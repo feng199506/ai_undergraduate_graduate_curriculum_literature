@@ -1,0 +1,16 @@
+{
+ "id": "2608.29851",
+ "title": "A Comprehensive Study of Native Code Bugs in Python Applications",
+ "authors": [
+  "Haoran Yang",
+  "Haipeng Cai"
+ ],
+ "v1_date": "2026-08-30",
+ "latest_version": 1,
+ "latest_date": "2026-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The impact of Python applications has been evidenced by their widespread presence in some of the most impactful software domains, such as machine learning frameworks and scientific computing platforms. These applications often integrate native code components written in a lower-level programming language like C. This multilingual construction brings various benefits such as greater performance efficiency and easier interoperability with diverse runtime environments. However, bugs in the native code (i.e., native code bugs), which are usually stealthy, also constitute a major additional challenge to the quality of the Python applications as a whole. Yet despite existing relevant studies, there remains a lack of comprehensive understanding of native code bugs in Python applications. In this paper, we aim to mitigate this knowledge gap through the first in-depth study of such bugs, dissecting their common symptoms, introducing locations, manifestation characteristics, root causes, and fixes. Based on our extensive automated and manual analyses of 216 native code bugs in real-world Python projects on GitHub, we obtained novel findings about and new insights into the occurrence mechanisms and resolution strategies of those bugs.",
+ "primary": "cs.SE"
+}

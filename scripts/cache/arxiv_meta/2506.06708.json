@@ -1,0 +1,18 @@
+{
+ "id": "2506.06708",
+ "title": "A Survey of Retentive Network",
+ "authors": [
+  "Haiqi Yang",
+  "Zhiyuan Li",
+  "Yi Chang",
+  "Yuan Wu"
+ ],
+ "v1_date": "2025-06-07",
+ "latest_version": 1,
+ "latest_date": "2025-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 3 figures",
+ "abstract": "Retentive Network (RetNet) represents a significant advancement in neural network architecture, offering an efficient alternative to the Transformer. While Transformers rely on self-attention to model dependencies, they suffer from high memory costs and limited scalability when handling long sequences due to their quadratic complexity. To mitigate these limitations, RetNet introduces a retention mechanism that unifies the inductive bias of recurrence with the global dependency modeling of attention. This mechanism enables linear-time inference, facilitates efficient modeling of extended contexts, and remains compatible with fully parallelizable training pipelines. RetNet has garnered significant research interest due to its consistently demonstrated cross-domain effectiveness, achieving robust performance across machine learning paradigms including natural language processing, speech recognition, and time-series analysis. However, a comprehensive review of RetNet is still missing from the current literature. This paper aims to fill that gap by offering the first detailed survey of the RetNet architecture, its key innovations, and its diverse applications. We also explore the main challenges associated with RetNet and propose future research directions to support its continued advancement in both academic research and practical deployment.",
+ "primary": "cs.CL"
+}

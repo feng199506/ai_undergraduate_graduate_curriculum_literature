@@ -1,0 +1,16 @@
+{
+ "id": "2602.14262",
+ "title": "ABI: A tightly integrated, unified, sparsity-aware, reconfigurable, compute near-register file/cache GPU architecture with light-weight softmax for deep learning, linear algebra, and Ising compute",
+ "authors": [
+  "Siddhartha Raman Sundara Raman",
+  "Jaydeep P. Kulkarni"
+ ],
+ "v1_date": "2026-02-15",
+ "latest_version": 3,
+ "latest_date": "2026-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a tightly integrated and unified near-memory GPU architecture that delivers 6 to 16 times speedup and 6 to 13 times energy savings across Convolutional Neural Networks, Graph Convolutional Networks, Linear Programming, Large Language Models, and Ising workloads compared to MIAOW GPU. The design includes a custom sparsity-aware near-memory circuit providing about 1.5 times energy savings, and a lightweight softmax circuit providing about 1.6 times energy savings. The architecture supports reconfigurable compute up to INT16 with dynamic resolution updates and scales efficiently across problem sizes. ABI-enabled MI300 and Blackwell systems achieve about 4.5 times speedup over baseline MI300 and Blackwell.",
+ "primary": "cs.AR"
+}

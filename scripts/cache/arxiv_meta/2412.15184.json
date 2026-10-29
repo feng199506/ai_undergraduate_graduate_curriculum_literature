@@ -1,0 +1,30 @@
+{
+ "id": "2412.15184",
+ "title": "Data for Mathematical Copilots: Better Ways of Presenting Proofs for Machine Learning",
+ "authors": [
+  "Simon Frieder",
+  "Jonas Bayer",
+  "Sam Looi",
+  "Jacob Loader",
+  "Julius Berner",
+  "Katherine M. Collins",
+  "András Juhász",
+  "Fabian Ruehle",
+  "Sean Welleck",
+  "Gabriel Poesia",
+  "Ryan-Rhys Griffiths",
+  "Adrian Weller",
+  "Anirudh Goyal",
+  "Cameron Freer",
+  "Thomas Lukasiewicz",
+  "Timothy Gowers"
+ ],
+ "v1_date": "2024-12-19",
+ "latest_version": 2,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "59 pages",
+ "abstract": "The datasets and benchmarks commonly used to train and evaluate the mathematical capabilities of AI-based mathematical copilots (primarily large language models) exhibit several shortcomings and misdirections. These range from a restricted scope of mathematical complexity to limited fidelity in capturing aspects beyond the final, written proof (e.g. motivating the proof, or representing the thought processes leading to a proof). These issues are compounded by a dynamic reminiscent of Goodhart's law: as benchmark performance becomes the primary target for model development, the benchmarks themselves become less reliable indicators of genuine mathematical capability. We systematically explore these limitations and contend that enhancing the capabilities of large language models, or any forthcoming advancements in AI-based mathematical assistants (copilots or ``thought partners''), necessitates a course correction both in the design of mathematical datasets and the evaluation criteria of the models' mathematical ability. In particular, it is necessary for benchmarks to move beyond the existing result-based datasets that map theorem statements directly to proofs, and instead focus on datasets that translate the richer facets of mathematical research practice into data that LLMs can learn from. This includes benchmarks that supervise the proving process and the proof discovery process itself, and we advocate for mathematical dataset developers to consider the concept of \"motivated proof\", introduced by G. Pólya in 1949, which can serve as a blueprint for datasets that offer a better proof learning signal, alleviating some of the mentioned limitations.",
+ "primary": "cs.LG"
+}

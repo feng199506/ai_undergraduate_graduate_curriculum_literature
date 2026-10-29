@@ -1,0 +1,18 @@
+{
+ "id": "2505.24438",
+ "title": "Weisfeiler and Leman Follow the Arrow of Time: Expressive Power of Message Passing in Temporal Event Graphs",
+ "authors": [
+  "Franziska Heeg",
+  "Jonas Sauer",
+  "Petra Mutzel",
+  "Ingo Scholtes"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 4,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "An important characteristic of temporal graphs is how the directed arrow of time influences their causal topology, i.e., which nodes can possibly influence each other causally via time-respecting paths. The resulting patterns are often neglected by temporal graph neural networks (TGNNs). To formally analyze the expressive power of TGNNs, we lack a generalization of graph isomorphism to temporal graphs that fully captures their causal topology. Addressing this gap, we introduce the notion of consistent event graph isomorphism, which utilizes a time-unfolded representation of time-respecting paths in temporal graphs. We compare this definition with existing notions of temporal graph isomorphisms. We illustrate and highlight the advantages of our approach and develop a temporal generalization of the Weisfeiler-Leman algorithm to heuristically distinguish non-isomorphic temporal graphs. Building on this theoretical foundation, we derive a novel message passing scheme for temporal graph neural networks that operates on the event graph representation of temporal graphs. An experimental evaluation shows that our approach performs well in a temporal graph classification experiment.",
+ "primary": "cs.LG"
+}

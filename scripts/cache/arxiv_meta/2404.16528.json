@@ -1,0 +1,15 @@
+{
+ "id": "2404.16528",
+ "title": "Generalized Posterior Calibration via Sequential Monte Carlo Sampler",
+ "authors": [
+  "Masahiro Tanaka"
+ ],
+ "v1_date": "2024-04-25",
+ "latest_version": 4,
+ "latest_date": "2026-06-02",
+ "journal_ref": "Proceedings of the 2024 6th Asia Conference on Machine Learning and Computing (ACMLC 2024), pp. 62-68",
+ "doi": "10.1145/3690771.3690786",
+ "comment": "",
+ "abstract": "As the amount and complexity of available data increases, the need for robust statistical learning becomes more pressing. To enhance resilience against model misspecification, the generalized posterior inference method adjusts the likelihood term by exponentiating it with a learning rate, thereby fine-tuning the dispersion of the posterior distribution. This study proposes a computationally efficient strategy for selecting an appropriate learning rate. The proposed approach builds upon the generalized posterior calibration (GPC) algorithm, which is designed to select a learning rate that ensures nominal frequentist coverage. This algorithm, which evaluates the coverage probability using bootstrap samples, has high computational costs because of the repeated posterior simulations needed for bootstrap samples. To address this limitation, the study proposes an algorithm that combines elements of the GPC algorithm with the sequential Monte Carlo (SMC) sampler. By leveraging the similarity between the learning rate in generalized posterior inference and the inverse temperature in SMC sampling, the proposed algorithm efficiently calibrates the posterior distribution with a reduced computational cost. For demonstration, the proposed algorithm was applied to several statistical learning models and shown to be significantly faster than the original GPC.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2509.20609",
+ "title": "MMG: Mutual Information Estimation via the MMSE Gap in Diffusion",
+ "authors": [
+  "Longxuan Yu",
+  "Xing Shi",
+  "Xianghao Kong",
+  "Tong Jia",
+  "Greg Ver Steeg"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 2,
+ "latest_date": "2025-11-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the SPIGM Workshop at NeurIPS 2025",
+ "abstract": "Mutual information (MI) is one of the most general ways to measure relationships between random variables, but estimating this quantity for complex systems is challenging. Denoising diffusion models have recently set a new bar for density estimation, so it is natural to consider whether these methods could also be used to improve MI estimation. Using the recently introduced information-theoretic formulation of denoising diffusion models, we show the diffusion models can be used in a straightforward way to estimate MI. In particular, the MI corresponds to half the gap in the Minimum Mean Square Error (MMSE) between conditional and unconditional diffusion, integrated over all Signal-to-Noise-Ratios (SNRs) in the noising process. Our approach not only passes self-consistency tests but also outperforms traditional and score-based diffusion MI estimators. Furthermore, our method leverages adaptive importance sampling to achieve scalable MI estimation, while maintaining strong performance even when the MI is high.",
+ "primary": "cs.LG"
+}

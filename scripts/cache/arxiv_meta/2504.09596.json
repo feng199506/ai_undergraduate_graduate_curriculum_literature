@@ -1,0 +1,15 @@
+{
+ "id": "2504.09596",
+ "title": "Revisiting Self-Attentive Sequential Recommendation Beyond the LLM Paradigm",
+ "authors": [
+  "Zan Huang"
+ ],
+ "v1_date": "2025-04-13",
+ "latest_version": 2,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the BlueSky Track of ICDM 2026",
+ "abstract": "Sequential recommendation adopted the Transformer almost as soon as it appeared: SASRec ported the decoder to next-item prediction in 2018, a year after Attention is All You Need, and the paradigm has borrowed from language modeling ever since. The two tasks look nearly identical, both consume integer-ID sequences with causal self-attention, yet they pursue opposite ends. A recommender works to bring more users into contact with more items, an entropy-increasing goal; a language model works to converge many phrasings of a question onto one answer, an entropy-decreasing one. We argue this difference, not engineering effort, is why recommendation has not reproduced the clean scaling that language models enjoy: behavioral data is locally regular yet globally heterogeneous, a casino, whereas language is locally diverse yet globally convergent, a library. Taking SASRec as an entry point, we revisit the self-attentive paradigm as a comparative study of the two domains and ask which of its inherited assumptions, implicit-only personalization, absolute positional semantics, leakage-prone single-step evaluation, and atomic tokenization, are incidental rather than intrinsic to recommendation. Our BlueSky claim is that, beyond borrowing from language models, the next findings will come from a careful comparison of the two domains that starts from the entropy structure of behavioral data. We propose no new model; we expose the gaps, outline the data- and systems-level agenda they imply, and argue that the comparison can ultimately help both domains.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2605.04185",
+ "title": "Constraint-Enhanced Reinforcement Learning Based on Dynamic Decoupled Spherical Radial Squashing",
+ "authors": [
+  "Qijun Liao",
+  "Zhaoxin Yu",
+  "Jue Yang"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 60 figures",
+ "abstract": "When deploying reinforcement learning policies to physical robots, actuator rate constraints -- hard limits on how fast each joint can move per control step -- are unavoidable. These limits vary substantially across joints due to differences in motor inertia, power bandwidth, and transmission stiffness, creating pronounced heterogeneity that existing methods fail to handle geometrically: the per-joint feasible region forms a high-dimensional box in action-increment space, yet QP projection and spherical parameterization methods impose isotropic ball-shaped constraints, exponentially under-covering the true feasible set as heterogeneity grows. This paper proposes Dynamic Decoupled Spherical Radial Squashing (DD-SRad), which resolves this mismatch by computing a position-adaptive radius independently for each actuator, achieving tight alignment with the true per-joint feasible region. DD-SRad satisfies per-step hard constraints with probability~1, preserves well-conditioned gradients throughout training, and admits exact policy gradient backpropagation with zero runtime solver overhead. MuJoCo benchmark experiments demonstrate the highest task return at zero constraint violation -- matching the unconstrained upper bound -- with 30%--50% improvement in constraint-space coverage over spherical baselines. High-fidelity IsaacLab simulations with Unitree H1 and G1 humanoid robots confirm end-to-end optimality parameterized directly from official joint specifications, validating a systematic pathway from hardware datasheets to safe deployment.",
+ "primary": "cs.LG"
+}

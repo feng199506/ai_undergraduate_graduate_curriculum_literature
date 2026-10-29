@@ -1,0 +1,18 @@
+{
+ "id": "2507.21160",
+ "title": "Handling Out-of-Distribution Data: A Survey",
+ "authors": [
+  "Lakpa Tamang",
+  "Mohamed Reda Bouadjenek",
+  "Richard Dazeley",
+  "Sunil Aryal"
+ ],
+ "v1_date": "2025-07-25",
+ "latest_version": 1,
+ "latest_date": "2025-07-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 6 figures, 6 tables. Accepted at IEEE Transactions on Knowledge and Data Engineering",
+ "abstract": "In the field of Machine Learning (ML) and data-driven applications, one of the significant challenge is the change in data distribution between the training and deployment stages, commonly known as distribution shift. This paper outlines different mechanisms for handling two main types of distribution shifts: (i) Covariate shift: where the value of features or covariates change between train and test data, and (ii) Concept/Semantic-shift: where model experiences shift in the concept learned during training due to emergence of novel classes in the test phase. We sum up our contributions in three folds. First, we formalize distribution shifts, recite on how the conventional method fails to handle them adequately and urge for a model that can simultaneously perform better in all types of distribution shifts. Second, we discuss why handling distribution shifts is important and provide an extensive review of the methods and techniques that have been developed to detect, measure, and mitigate the effects of these shifts. Third, we discuss the current state of distribution shift handling mechanisms and propose future research directions in this area. Overall, we provide a retrospective synopsis of the literature in the distribution shift, focusing on OOD data that had been overlooked in the existing surveys.",
+ "primary": "cs.LG"
+}

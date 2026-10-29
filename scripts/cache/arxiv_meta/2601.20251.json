@@ -1,0 +1,17 @@
+{
+ "id": "2601.20251",
+ "title": "Efficient Evaluation of LLM Performance with Statistical Guarantees",
+ "authors": [
+  "Skyler Wu",
+  "Yash Nair",
+  "Emmanuel J. Candès"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 3,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 12 figures",
+ "abstract": "Exhaustively evaluating many large language models (LLMs) on a large suite of benchmarks is expensive. We cast benchmarking as finite-population inference and, under a fixed query budget, seek tight confidence intervals (CIs) for model accuracy with valid frequentist coverage. We propose Factorized Active Querying (FAQ), which (a) leverages historical information through a Bayesian factor model; (b) adaptively selects questions using a hybrid variance-reduction/active-learning sampling policy; and (c) maintains validity through Proactive Active Inference -- a finite-population extension of active inference (Zrnic & Candès, 2024) that enables direct question selection while preserving coverage. With negligible overhead cost, FAQ delivers up to $5\\times$ effective sample size gains over strong baselines on two benchmark suites, across varying historical-data missingness levels: this means that it matches the CI width of uniform sampling while using up to $5\\times$ fewer queries. We release our source code and our curated datasets to support reproducible evaluation and future research.",
+ "primary": "stat.ML"
+}

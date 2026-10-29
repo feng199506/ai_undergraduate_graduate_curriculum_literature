@@ -1,0 +1,17 @@
+{
+ "id": "2311.08657",
+ "title": "ConeQuest: A Benchmark for Cone Segmentation on Mars",
+ "authors": [
+  "Mirali Purohit",
+  "Jacob Adler",
+  "Hannah Kerner"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 1,
+ "latest_date": "2023-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at WACV 2024",
+ "abstract": "Over the years, space scientists have collected terabytes of Mars data from satellites and rovers. One important set of features identified in Mars orbital images is pitted cones, which are interpreted to be mud volcanoes believed to form in regions that were once saturated in water (i.e., a lake or ocean). Identifying pitted cones globally on Mars would be of great importance, but expert geologists are unable to sort through the massive orbital image archives to identify all examples. However, this task is well suited for computer vision. Although several computer vision datasets exist for various Mars-related tasks, there is currently no open-source dataset available for cone detection/segmentation. Furthermore, previous studies trained models using data from a single region, which limits their applicability for global detection and mapping. Motivated by this, we introduce ConeQuest, the first expert-annotated public dataset to identify cones on Mars. ConeQuest consists of >13k samples from 3 different regions of Mars. We propose two benchmark tasks using ConeQuest: (i) Spatial Generalization and (ii) Cone-size Generalization. We finetune and evaluate widely-used segmentation models on both benchmark tasks. Results indicate that cone segmentation is a challenging open problem not solved by existing segmentation models, which achieve an average IoU of 52.52% and 42.55% on in-distribution data for tasks (i) and (ii), respectively. We believe this new benchmark dataset will facilitate the development of more accurate and robust models for cone segmentation. Data and code are available at https://github.com/kerner-lab/ConeQuest.",
+ "primary": "cs.CV"
+}

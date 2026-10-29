@@ -1,0 +1,17 @@
+{
+ "id": "2404.04612",
+ "title": "Spectral Graph Pruning Against Over-Squashing and Over-Smoothing",
+ "authors": [
+  "Adarsh Jamadandi",
+  "Celia Rubio-Madrigal",
+  "Rebekka Burkholz"
+ ],
+ "v1_date": "2024-04-06",
+ "latest_version": 2,
+ "latest_date": "2024-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NeurIPS 2024",
+ "abstract": "Message Passing Graph Neural Networks are known to suffer from two problems that are sometimes believed to be diametrically opposed: over-squashing and over-smoothing. The former results from topological bottlenecks that hamper the information flow from distant nodes and are mitigated by spectral gap maximization, primarily, by means of edge additions. However, such additions often promote over-smoothing that renders nodes of different classes less distinguishable. Inspired by the Braess phenomenon, we argue that deleting edges can address over-squashing and over-smoothing simultaneously. This insight explains how edge deletions can improve generalization, thus connecting spectral gap optimization to a seemingly disconnected objective of reducing computational resources by pruning graphs for lottery tickets. To this end, we propose a more effective spectral gap optimization framework to add or delete edges and demonstrate its effectiveness on large heterophilic datasets.",
+ "primary": "cs.LG"
+}

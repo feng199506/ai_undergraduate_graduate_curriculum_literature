@@ -1,0 +1,18 @@
+{
+ "id": "2606.02221",
+ "title": "CORE-MTL: Rethinking Gradient Balancing via Causal Orthogonal Representations",
+ "authors": [
+  "Chengfeng Wu",
+  "Tao Zou",
+  "Yanru Wu",
+  "Jingge Wang"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICML 2026",
+ "abstract": "Multi-task learning (MTL) aims to construct a joint model for multiple tasks by sharing a common representation across domains. To achieve this goal, existing optimization-centric methods either balance task gradients or modify the shared architecture. However, as these approaches remain agnostic to the content of the shared representation, they fail to disentangle task-relevant structure from spurious context, leading to negative transfer and poor generalization. To overcome this limitation, we propose Causal Orthogonal Representations for Multi-Task Learning (CORE-MTL), a causally motivated representation-centric framework that encourages a structured semantic-residual factorization of the shared representation, concentrating task-relevant structure in the semantic stream while relegating nuisance variation to the residual stream. We instantiate this framework in the visual domain by leveraging physical priors for structured scenes and statistical constraints for attributes. Theoretically, our method enjoys a tighter out-of-distribution generalization bound than optimization-centric methods and reduces task gradient interference without explicit gradient projection or reweighting. Empirically, CORE-MTL consistently outperforms existing methods on visual multi-task benchmarks in both in-distribution and out-of-distribution settings. Code is publicly available at https://github.com/Hope-Rita/CORE-MTL.",
+ "primary": "cs.CV"
+}

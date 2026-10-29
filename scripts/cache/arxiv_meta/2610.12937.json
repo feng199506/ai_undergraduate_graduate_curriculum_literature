@@ -1,0 +1,18 @@
+{
+ "id": "2610.12937",
+ "title": "Sequential Conformal Calibration under Recursive Selection",
+ "authors": [
+  "Yuning Yang",
+  "Zexuan Liu",
+  "Tianci Wang",
+  "Danlin Li"
+ ],
+ "v1_date": "2026-10-09",
+ "latest_version": 2,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages, 1 figure",
+ "abstract": "Conformal prediction provides finite-sample, distribution-free coverage guarantees that can support decision-making in specific settings. In multistage problems, earlier decisions determine the populations relevant to later calibration. When later scores are refit using earlier calibration results, reusing those cases for ranking need not preserve exchangeability with a surviving test case. We study sequential conformal calibration with a fresh fold at each stage: conditional on earlier folds, the selected fold scores and the surviving test score are exchangeable. This yields finite-sample coverage guarantees for every prefix of the decision sequence. For atomless survivor score distributions, we derive a universal Binomial-thinned Beta chain for the realized coverage process. Its law depends only on fold sizes and target levels, even under predictable refitting, and yields exact coverage slack, abstention probabilities, and calibration-conditional guarantees. We further characterize the tradeoff between freshness and data reuse. For fixed scores, strict-survivor reuse is exactly valid. For adaptive scores refit using past calibration data, reusing survivors can incur worst-case rank loss, while blocked designs provide an intermediate option between full reuse and stagewise fresh folds. As a case study, we apply the framework to serial multi-echelon inventory problem and propose a sequential conditional-quantile formulation. Each stock level is learned as a context-dependent quantile of cumulative demand among scenarios satisfying earlier no-backlog constraints. We connect these targets to common-shift stationarity and derive decision-level implications for the resulting calibrated policies. In a three-echelon simulation, fresh-fold refitting achieves 81.98% final-prefix coverage against an 81.82% target while reducing mean cost by 5.5% relative to the Bonferroni baseline.",
+ "primary": "stat.ME"
+}

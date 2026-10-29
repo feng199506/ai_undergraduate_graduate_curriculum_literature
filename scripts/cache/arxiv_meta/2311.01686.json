@@ -1,0 +1,21 @@
+{
+ "id": "2311.01686",
+ "title": "Disentangled Representation Learning with Transmitted Information Bottleneck",
+ "authors": [
+  "Zhuohang Dang",
+  "Minnan Luo",
+  "Chengyou Jia",
+  "Guang Dai",
+  "Jihong Wang",
+  "Xiaojun Chang",
+  "Jingdong Wang"
+ ],
+ "v1_date": "2023-11-03",
+ "latest_version": 2,
+ "latest_date": "2024-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Encoding only the task-related information from the raw data, \\ie, disentangled representation learning, can greatly contribute to the robustness and generalizability of models. Although significant advances have been made by regularizing the information in representations with information theory, two major challenges remain: 1) the representation compression inevitably leads to performance drop; 2) the disentanglement constraints on representations are in complicated optimization. To these issues, we introduce Bayesian networks with transmitted information to formulate the interaction among input and representations during disentanglement. Building upon this framework, we propose \\textbf{DisTIB} (\\textbf{T}ransmitted \\textbf{I}nformation \\textbf{B}ottleneck for \\textbf{Dis}entangled representation learning), a novel objective that navigates the balance between information compression and preservation. We employ variational inference to derive a tractable estimation for DisTIB. This estimation can be simply optimized via standard gradient descent with a reparameterization trick. Moreover, we theoretically prove that DisTIB can achieve optimal disentanglement, underscoring its superior efficacy. To solidify our claims, we conduct extensive experiments on various downstream tasks to demonstrate the appealing efficacy of DisTIB and validate our theoretical analyses.",
+ "primary": "cs.CV"
+}

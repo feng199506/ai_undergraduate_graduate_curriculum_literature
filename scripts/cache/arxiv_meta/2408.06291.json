@@ -1,0 +1,20 @@
+{
+ "id": "2408.06291",
+ "title": "Mambular: A Sequential Model for Tabular Deep Learning",
+ "authors": [
+  "Anton Frederik Thielmann",
+  "Manish Kumar",
+  "Christoph Weisser",
+  "Arik Reuter",
+  "Benjamin Säfken",
+  "Soheila Samiee"
+ ],
+ "v1_date": "2024-08-12",
+ "latest_version": 2,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The analysis of tabular data has traditionally been dominated by gradient-boosted decision trees (GBDTs), known for their proficiency with mixed categorical and numerical features. However, recent deep learning innovations are challenging this dominance. This paper investigates the use of autoregressive state-space models for tabular data and compares their performance against established benchmark models. Additionally, we explore various adaptations of these models, including different pooling strategies, feature interaction mechanisms, and bi-directional processing techniques to understand their effectiveness for tabular data. Our findings indicate that interpreting features as a sequence and processing them and their interactions through structured state-space layers can lead to significant performance improvement. This research underscores the versatility of autoregressive models in tabular data analysis, positioning them as a promising alternative that could substantially enhance deep learning capabilities in this traditionally challenging area. The source code is available at https://github.com/basf/mamba-tabular.",
+ "primary": "cs.LG"
+}

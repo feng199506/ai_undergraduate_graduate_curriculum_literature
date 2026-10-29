@@ -1,0 +1,24 @@
+{
+ "id": "2410.07135",
+ "title": "Causal Inference with Double/Debiased Machine Learning for Evaluating the Health Effects of Multiple Mismeasured Pollutants",
+ "authors": [
+  "Gang Xu",
+  "Xin Zhou",
+  "Molin Wang",
+  "Boya Zhang",
+  "Wenhao Jiang",
+  "Francine Laden",
+  "Helen H. Suh",
+  "Adam A. Szpiro",
+  "Donna Spiegelman",
+  "Zuoheng Wang"
+ ],
+ "v1_date": "2024-09-22",
+ "latest_version": 1,
+ "latest_date": "2024-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "One way to quantify exposure to air pollution and its constituents in epidemiologic studies is to use an individual's nearest monitor. This strategy results in potential inaccuracy in the actual personal exposure, introducing bias in estimating the health effects of air pollution and its constituents, especially when evaluating the causal effects of correlated multi-pollutant constituents measured with correlated error. This paper addresses estimation and inference for the causal effect of one constituent in the presence of other PM2.5 constituents, accounting for measurement error and correlations. We used a linear regression calibration model, fitted with generalized estimating equations in an external validation study, and extended a double/debiased machine learning (DML) approach to correct for measurement error and estimate the effect of interest in the main study. We demonstrated that the DML estimator with regression calibration is consistent and derived its asymptotic variance. Simulations showed that the proposed estimator reduced bias and attained nominal coverage probability across most simulation settings. We applied this method to assess the causal effects of PM2.5 constituents on cognitive function in the Nurses' Health Study and identified two PM2.5 constituents, Br and Mn, that showed a negative causal effect on cognitive function after measurement error correction.",
+ "primary": "stat.AP"
+}

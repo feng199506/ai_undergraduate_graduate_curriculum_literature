@@ -1,0 +1,19 @@
+{
+ "id": "2610.04436",
+ "title": "Guess My Weight: Profiled Side-Channel Recovery of Floating-Point Neural-Network Weights",
+ "authors": [
+  "Timon Lumír Fillo",
+  "Ján Mikulec",
+  "Anubhab Baksi",
+  "Jakub Breier",
+  "Xiaolu Hou"
+ ],
+ "v1_date": "2026-10-03",
+ "latest_version": 1,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neural-network parameters deployed on embedded devices may be exposed through physical side-channel leakage during inference. Existing side-channel attacks on floating-point neural-network parameters have often targeted reduced numerical precision, while recovering the complete IEEE-754 representation remains considerably more challenging because of the large and structured 32-bit candidate space. We present a profiled template attack for bit-exact recovery of an IEEE-754 single-precision neural-network weight from power measurements. The attack targets the floating-point multiplication between a known input and a first-layer weight. During profiling, multivariate Gaussian templates are learned from randomized network configurations using Hamming-weight classes of the multiplication result, while the remaining network parameters act as nuisance variables. To efficiently search the structured 32-bit floating-point candidate space, we use a hierarchical coarse-to-fine-to-exact procedure that progressively increases both the numerical and leakage-model resolution. Experiments on a ChipWhisperer-Lite with an Arm Cortex-M4 demonstrate recovery of the exact float32 representation of the target weight. In the evaluated setting, the attack reaches a bit-exact success rate of 99% with 171 traces and 100% from 263 traces onward. These results demonstrate that profiling can enable practical full-precision extraction of floating-point neural-network parameters from physical leakage.",
+ "primary": "cs.CR"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2505.23084",
+ "title": "Gradient Boosting Decision Tree with LSTM for Investment Prediction",
+ "authors": [
+  "Chang Yu",
+  "Fang Liu",
+  "Jie Zhu",
+  "Shaobo Guo",
+  "Yifan Gao",
+  "Zhongheng Yang",
+  "Meiwei Liu",
+  "Qianwen Xing"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 1,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper have been accepted by IEEE confulence",
+ "abstract": "This paper proposes a hybrid framework combining LSTM (Long Short-Term Memory) networks with LightGBM and CatBoost for stock price prediction. The framework processes time-series financial data and evaluates performance using seven models: Artificial Neural Networks (ANNs), Convolutional Neural Networks (CNNs), Bidirectional LSTM (BiLSTM), vanilla LSTM, XGBoost, LightGBM, and standard Neural Networks (NNs). Key metrics, including MAE, R-squared, MSE, and RMSE, are used to establish benchmarks across different time scales. Building on these benchmarks, we develop an ensemble model that combines the strengths of sequential and tree-based approaches. Experimental results show that the proposed framework improves accuracy by 10 to 15 percent compared to individual models and reduces error during market changes. This study highlights the potential of ensemble methods for financial forecasting and provides a flexible design for integrating new machine learning techniques.",
+ "primary": "cs.LG"
+}

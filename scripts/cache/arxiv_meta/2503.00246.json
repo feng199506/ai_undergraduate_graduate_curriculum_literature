@@ -1,0 +1,15 @@
+{
+ "id": "2503.00246",
+ "title": "Matrix-Free Ghost Penalty Evaluation via Tensor Product Factorization",
+ "authors": [
+  "Michał Wichrowski"
+ ],
+ "v1_date": "2025-02-28",
+ "latest_version": 3,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a matrix-free approach for implementing ghost penalty stabilization in Cut Finite Element Methods (CutFEM). While matrix-free methods for CutFEM have been developed, the efficient evaluation of high-order, face-based ghost penalties remains a significant challenge, which this work addresses. By exploiting the tensor-product structure of the ghost penalty operator, we reduce its evaluation to a series of one-dimensional matrix-vector products using precomputed 1D matrices, avoiding the need to evaluate high-order derivatives directly. This approach achieves $O(k^{d+1})$ complexity for elements of degree $k$ in $d$ dimensions, significantly reducing implementation effort while maintaining accuracy. The derivation relies on the fact that the cells are aligned with the coordinate axes. The method is implemented within the \\texttt{deal.II} library. The source code used for this paper is available at https://github.com/mwichro/TensorGhostPenalty",
+ "primary": "math.NA"
+}

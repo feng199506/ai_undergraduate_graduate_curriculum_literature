@@ -1,0 +1,15 @@
+{
+ "id": "2609.14963",
+ "title": "Can We Triage LLM Translation Errors in Classical Texts Without Human References? Source Novelty, GEMBA Scoring, and Budgeted Review through Pali-to-English Translation",
+ "authors": [
+  "Máté Metzger"
+ ],
+ "v1_date": "2026-09-14",
+ "latest_version": 1,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint. This article has not yet been peer reviewed",
+ "abstract": "As large language models become capable translators of classical texts, a key challenge is deciding which outputs need expert review when no human reference exists. This study tests reference-free error triage through Pali-to-English translation. Three LLMs translated 15,493 passages. Five signals were compared: source novelty, source-candidate embedding distance, peer-translation disagreement, English-to-Pali backtranslation, and no-reference GEMBA scoring. Signals were calibrated on a 3,000-item reference-informed LLM-adjudicated sample and checked against a 500-item author-adjudicated anchor. Human references supported calibration and validation only; they were never used to compute the risk signals. Source novelty was a useful source-side risk prior but not a per-candidate error detector. Peer disagreement and backtranslation provided secondary signal. The strongest method was no-reference GEMBA scoring by a panel of models generally regarded as stronger than the translators: reviewing the top 10% by GEMBA risk captured 81.6% of panel-major errors in the calibration set. GEMBA also remained the best reference-free signal against the author anchor. A same-tier panel, with self-scoring excluded, remained useful but performed worse, indicating that evaluator strength matters beyond the prompt alone. A budgeted workflow is proposed, combining source novelty, peer disagreement, and stronger candidate-aware judging to allocate human review. Transfer to other classical languages, including Latin, Ancient Greek, and Sanskrit, remains to be tested.",
+ "primary": "cs.CL"
+}

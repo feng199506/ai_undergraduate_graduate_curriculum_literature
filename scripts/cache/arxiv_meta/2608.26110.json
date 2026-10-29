@@ -1,0 +1,17 @@
+{
+ "id": "2608.26110",
+ "title": "Exploring the Role of LLMs in HPC Programming: A Survey",
+ "authors": [
+  "Strahinja Ljaljevic",
+  "Josep Jorba",
+  "Sergio Iserte"
+ ],
+ "v1_date": "2026-05-24",
+ "latest_version": 1,
+ "latest_date": "2026-05-24",
+ "journal_ref": "Future Generation Computer Systems, 2026, 108618, ISSN 0167-739X",
+ "doi": "10.1016/j.future.2026.108618",
+ "comment": "",
+ "abstract": "Large Language Models (LLMs) are emerging as promising assistants in High-Performance Computing (HPC), where programming remains complex and expertise-intensive. This survey systematically reviews their application across five categories: code generation, parallelization and optimization, frameworks and architectures, evaluation and benchmarking, and broader challenges. The analysis highlights both opportunities and limitations: while general-purpose LLMs perform reasonably well on serial and OpenMP-like tasks, they fall short in distributed paradigms such as MPI, where correctness and scalability are critical. Domain-specialized models (e.g., HPC-Coder, HPC-GPT, chatHPC) achieve higher accuracy through fine-tuning, curated datasets, and retrieval-augmented generation (RAG), yet their scope remains narrow and their evaluations largely limited to benchmarks or micro-kernels. The broader picture is one of dual potential and fragility: LLMs can lower barriers to entry, accelerate prototyping, and support code modernization, but they remain brittle under production-level requirements where correctness, performance portability, and scaling cannot be compromised. We conclude that LLMs are unlikely to replace HPC experts in the near term but are positioned to become powerful collaborators in the software development pipeline. Their effective deployment will require richer datasets, integration with performance analysis and schedulers, rigorous evaluation frameworks, and governance structures that ensure transparency and trust. The convergence of AI and HPC should therefore be understood as a long-term, co-evolutionary process, where each advance uncovers new challenges and opportunities for reshaping scientific software development.",
+ "primary": "cs.DC"
+}

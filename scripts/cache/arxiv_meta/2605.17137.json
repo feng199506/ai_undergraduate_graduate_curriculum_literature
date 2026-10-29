@@ -1,0 +1,17 @@
+{
+ "id": "2605.17137",
+ "title": "Latent Heuristic Search: Continuous Optimization for Automated Algorithm Design",
+ "authors": [
+  "Cheikh Ahmed",
+  "Mahdi Mostajabdaveh",
+  "Zirui Zhou"
+ ],
+ "v1_date": "2026-05-16",
+ "latest_version": 1,
+ "latest_date": "2026-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at LION 2026, The Learning and Intelligent Optimization Conference",
+ "abstract": "The integration of Large Language Models (LLMs) into evolutionary frameworks has established a new paradigm for automated heuristic discovery. Despite their promise, these methods typically search in the discrete space of program syntax, relying on stochastic sampling to navigate a highly non-convex optimization landscape. This work proposes a continuous heuristic discovery framework that shifts optimization to a learned latent manifold. We employ an encoder to map discrete programs into continuous embeddings and train a differentiable surrogate model to predict performance, enabling gradient-based search. To regularize the optimization trajectory, an invertible normalizing flow maps these embeddings to a structured Gaussian prior, where we perform gradient ascent. The resulting optimized latent vectors are projected through a learned mapper into soft prompts, which condition a frozen LLM to synthesize novel executable heuristics. We evaluate the proposed method on the Traveling Salesman Problem (TSP), the Capacitated Vehicle Routing Problem (CVRP), the Knapsack Problem (KSP), and Online Bin Packing (OBP). Empirical results demonstrate that continuous latent-space optimization achieves performance competitive with state-of-the-art discrete evolutionary baselines while offering a complementary methodological alternative for automated algorithm design. The implementation code is available at \\url{https://github.com/cheikh025/LHS}.",
+ "primary": "cs.AI"
+}

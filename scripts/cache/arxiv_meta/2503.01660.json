@@ -1,0 +1,17 @@
+{
+ "id": "2503.01660",
+ "title": "Non-convergence to the optimal risk for Adam and stochastic gradient descent optimization in the training of deep neural networks",
+ "authors": [
+  "Thang Do",
+  "Arnulf Jentzen",
+  "Adrian Riekert"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 1,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages",
+ "abstract": "Despite the omnipresent use of stochastic gradient descent (SGD) optimization methods in the training of deep neural networks (DNNs), it remains, in basically all practically relevant scenarios, a fundamental open problem to provide a rigorous theoretical explanation for the success (and the limitations) of SGD optimization methods in deep learning. In particular, it remains an open question to prove or disprove convergence of the true risk of SGD optimization methods to the optimal true risk value in the training of DNNs. In one of the main results of this work we reveal for a general class of activations, loss functions, random initializations, and SGD optimization methods (including, for example, standard SGD, momentum SGD, Nesterov accelerated SGD, Adagrad, RMSprop, Adadelta, Adam, Adamax, Nadam, Nadamax, and AMSGrad) that in the training of any arbitrary fully-connected feedforward DNN it does not hold that the true risk of the considered optimizer converges in probability to the optimal true risk value. Nonetheless, the true risk of the considered SGD optimization method may very well converge to a strictly suboptimal true risk value.",
+ "primary": "cs.LG"
+}

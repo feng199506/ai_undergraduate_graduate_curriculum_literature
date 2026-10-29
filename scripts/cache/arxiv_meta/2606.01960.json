@@ -1,0 +1,16 @@
+{
+ "id": "2606.01960",
+ "title": "Return-to-Baseline Testing via Empirically Calibrated e-processes",
+ "authors": [
+  "Marta Regis",
+  "Paulo Serra"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of detecting a Return to Baseline (RtB) in high-frequency monitoring data preceding and following an intervention, where the aim is to identify the time at which the data-generating distribution realigns with its pre-intervention distribution. We propose a sequential, distribution-free testing procedure that does not rely on specifying a null model and provides anytime-valid error control. The method relies on ideas from universal inference to define a discrepancy measure that is aggregated into a non-negative super-martingale, and is then empirically cal- ibrated to form an e-process. The calibration is performed using the baseline data, and is thus subject-specific. We establish finite-sample bounds for the calibration error (under a flexible non-parametric assumption), discuss the impact of tuning parameters and computational complexity, and illustrate through simulations and a clinical case study that the procedure accurately detects RtB from monitoring data.",
+ "primary": "stat.ME"
+}

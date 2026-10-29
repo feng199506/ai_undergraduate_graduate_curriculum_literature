@@ -1,0 +1,16 @@
+{
+ "id": "2508.00882",
+ "title": "Learned LSM-trees: Two Approaches Using Learned Bloom Filters",
+ "authors": [
+  "Nicholas Fidalgo",
+  "Puyuan Ye"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 1,
+ "latest_date": "2025-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern key-value stores rely heavily on Log-Structured Merge (LSM) trees for write optimization, but this design introduces significant read amplification. Auxiliary structures like Bloom filters help, but impose memory costs that scale with tree depth and dataset size. Recent advances in learned data structures suggest that machine learning models can augment or replace these components, trading handcrafted heuristics for data-adaptive behavior. In this work, we explore two approaches for integrating learned predictions into the LSM-tree lookup path. The first uses a classifier to selectively bypass Bloom filter probes for irrelevant levels, aiming to reduce average-case query latency. The second replaces traditional Bloom filters with compact learned models and small backup filters, targeting memory footprint reduction without compromising correctness. We implement both methods atop a Monkey-style LSM-tree with leveled compaction, per-level Bloom filters, and realistic workloads. Our experiments show that the classifier reduces GET latency by up to 2.28x by skipping over 30% of Bloom filter checks with high precision, though it incurs a modest false-negative rate. The learned Bloom filter design achieves zero false negatives and retains baseline latency while cutting memory usage per level by 70-80%. Together, these designs illustrate complementary trade-offs between latency, memory, and correctness, and highlight the potential of learned index components in write-optimized storage systems.",
+ "primary": "cs.DS"
+}

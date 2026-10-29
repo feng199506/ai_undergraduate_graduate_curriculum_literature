@@ -1,0 +1,18 @@
+{
+ "id": "2502.04591",
+ "title": "Are We Measuring Oversmoothing in Graph Neural Networks Correctly?",
+ "authors": [
+  "Kaicheng Zhang",
+  "Piero Deidda",
+  "Desmond Higham",
+  "Francesco Tudisco"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 4,
+ "latest_date": "2026-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted into ICLR 2026",
+ "abstract": "Oversmoothing is a fundamental challenge in graph neural networks (GNNs): as the number of layers increases, node embeddings become increasingly similar, and model performance drops sharply. Traditionally, oversmoothing has been quantified using metrics that measure the similarity of neighbouring node features, such as the Dirichlet energy. We argue that these metrics have critical limitations and fail to reliably capture oversmoothing in realistic scenarios. For instance, they provide meaningful insights only for very deep networks, while typical GNNs show a performance drop already with as few as 10 layers. As an alternative, we propose measuring oversmoothing by examining the numerical or effective rank of the feature representations. We provide extensive numerical evaluation across diverse graph architectures and datasets to show that rank-based metrics consistently capture oversmoothing, whereas energy-based metrics often fail. Notably, we reveal that drops in the rank align closely with performance degradation, even in scenarios where energy metrics remain unchanged. Along with the experimental evaluation, we provide theoretical support for this approach, clarifying why Dirichlet-like measures may fail to capture performance drop and proving that the numerical rank of feature representations collapses to one for a broad family of GNN architectures.",
+ "primary": "cs.LG"
+}

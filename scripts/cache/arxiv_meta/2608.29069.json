@@ -1,0 +1,17 @@
+{
+ "id": "2608.29069",
+ "title": "Spectral-Embedded Operator Learning for Three-Phase Interfacial Flow: A Ternary Cahn-Hilliard-Navier-Stokes Benchmark",
+ "authors": [
+  "Muhammad Abid",
+  "Arth Sojitra",
+  "Omer San"
+ ],
+ "v1_date": "2026-08-29",
+ "latest_version": 1,
+ "latest_date": "2026-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Operator-learning surrogates have been benchmarked largely on single-field, single-interface problems, leaving unclear whether architectural choices validated in those settings transfer to constrained, multiphase flows. We introduce a three-phase interfacial-flow benchmark to examine whether the trunk coordinate representation matters for a multi-channel, interface-dominated target. The configuration consists of an air bubble rising through water, piercing a water-oil interface, and entraining a water plume into the oil within a bounded, wall-confined domain. Reference data are generated using a structure-preserving ternary Cahn-Hilliard-Navier-Stokes solver that algebraically preserves the simplex constraint. From 1,024 Sobol-sampled simulations spanning a nine-dimensional parameter space, we learn the mapping from physical parameters to five-channel space-time fields. We compare three parameter-matched DeepONet variants differing only in trunk representation: raw coordinates (DeepONet), random Fourier features (FEDONet), and a fixed tensor-product Chebyshev dictionary (SEDONet). SEDONet reduces the test relative L2 error by 16.8% compared with FEDONet and by 24.0% compared with DeepONet, while improving all five output channels. Spatial and temporal error analyses localize the principal gains near the diffuse interfaces and after bubble breakthrough. The results indicate that the Chebyshev representation is particularly effective for the strongly non-periodic wall-normal and temporal structure of this three-phase flow.",
+ "primary": "physics.flu-dyn"
+}

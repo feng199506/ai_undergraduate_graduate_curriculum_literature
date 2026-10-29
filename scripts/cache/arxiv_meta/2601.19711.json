@@ -1,0 +1,21 @@
+{
+ "id": "2601.19711",
+ "title": "Differentiable Semantic ID for Generative Recommendation",
+ "authors": [
+  "Junchen Fu",
+  "Xuri Ge",
+  "Alexandros Karatzoglou",
+  "Ioannis Arapakis",
+  "Suzan Verberne",
+  "Joemon M. Jose",
+  "Zhaochun Ren"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 3,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by SIGIR2026",
+ "abstract": "Generative recommendation provides a novel paradigm in which each item is represented by a discrete semantic ID (SID) learned from rich content. Most existing methods treat SIDs as predefined and train recommenders under static indexing. In practice, SIDs are typically optimized only for content reconstruction rather than recommendation accuracy. This leads to an objective mismatch: the system optimizes an indexing loss to learn the SID and a recommendation loss for interaction prediction, but because the tokenizer is trained independently, the recommendation loss cannot update it. A natural approach is to make semantic indexing differentiable so that recommendation gradients can directly influence SID learning, but this often causes codebook collapse, where only a few codes are used. We attribute this issue to early deterministic assignments that limit codebook exploration, resulting in imbalance and unstable optimization. In this paper, we propose DIGER (Differentiable Semantic ID for Generative Recommendation), a first step toward effective differentiable semantic IDs for generative recommendation. DIGER introduces Gumbel noise to explicitly encourage early-stage exploration over codes, mitigating codebook collapse and improving code utilization. To balance exploration and convergence, we further design two uncertainty decay strategies that gradually reduce the Gumbel noise, enabling a smooth transition from early exploration to exploitation of learned SIDs. Extensive experiments on multiple public datasets demonstrate consistent improvements from differentiable semantic IDs. These results confirm the effectiveness of aligning indexing and recommendation objectives through differentiable SIDs and highlight differentiable semantic indexing as a promising research direction. Our code is released under https://github.com/junchen-fu/DIGER.",
+ "primary": "cs.IR"
+}

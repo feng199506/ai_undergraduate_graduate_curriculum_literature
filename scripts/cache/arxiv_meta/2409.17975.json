@@ -1,0 +1,22 @@
+{
+ "id": "2409.17975",
+ "title": "Simulation-Based Inference Benchmark for Weak Lensing Cosmology",
+ "authors": [
+  "Justine Zeghal",
+  "Denise Lanzieri",
+  "François Lanusse",
+  "Alexandre Boucaud",
+  "Gilles Louppe",
+  "Eric Aubourg",
+  "Adrian E. Bayer",
+  "The LSST Dark Energy Science Collaboration"
+ ],
+ "v1_date": "2024-09-26",
+ "latest_version": 2,
+ "latest_date": "2025-07-03",
+ "journal_ref": "A&A 699, A327 (2025)",
+ "doi": "10.1051/0004-6361/202452410",
+ "comment": "20 pages, 16 figures, accepted to A&A",
+ "abstract": "Standard cosmological analysis, which relies on two-point statistics, fails to extract the full information of the data. This limits our ability to constrain with precision cosmological parameters. Thus, recent years have seen a paradigm shift from analytical likelihood-based to simulation-based inference. However, such methods require a large number of costly simulations. We focus on full-field inference, considered the optimal form of inference. Our objective is to benchmark several ways of conducting full-field inference to gain insight into the number of simulations required for each method. We make a distinction between explicit and implicit full-field inference. Moreover, as it is crucial for explicit full-field inference to use a differentiable forward model, we aim to discuss the advantages of having this property for the implicit approach. We use the sbi_lens package which provides a fast and differentiable log-normal forward model. This forward model enables us to compare explicit and implicit full-field inference with and without gradient. The former is achieved by sampling the forward model through the No U-Turns sampler. The latter starts by compressing the data into sufficient statistics and uses the Neural Likelihood Estimation algorithm and the one augmented with gradient. We perform a full-field analysis on LSST Y10 like weak lensing simulated mass maps. We show that explicit and implicit full-field inference yield consistent constraints. Explicit inference requires 630 000 simulations with our particular sampler corresponding to 400 independent samples. Implicit inference requires a maximum of 101 000 simulations split into 100 000 simulations to build sufficient statistics (this number is not fine tuned) and 1 000 simulations to perform inference. Additionally, we show that our way of exploiting the gradients does not significantly help implicit inference.",
+ "primary": "astro-ph.CO"
+}

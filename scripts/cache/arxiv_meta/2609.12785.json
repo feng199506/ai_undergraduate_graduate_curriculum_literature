@@ -1,0 +1,16 @@
+{
+ "id": "2609.12785",
+ "title": "Convergence of Stochastic Gradient Methods under Heavy-Tailed Noise and Hölder Smoothness",
+ "authors": [
+  "Misbah Uz Zaman",
+  "Anirbit Mukherjee"
+ ],
+ "v1_date": "2026-09-11",
+ "latest_version": 1,
+ "latest_date": "2026-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 2 figures",
+ "abstract": "Classical convergence guarantees for stochastic gradient methods typically assume Lipschitz-smooth objectives and finite-variance gradient noise, both frequently violated in practice. In contrast, we study nonconvex stochastic optimization under the joint relaxation of these assumptions: objectives with $(L,s)$-Hölder continuous gradients, $s\\in(0,1]$, and gradient noise satisfying only a bounded $α$-th moment condition for $α\\in(1,2]$. We establish three convergence results. Firstly, that standard SGD converges at rate $O(T^{-s/(1+s)})$ whenever $α\\ge1+s$, extending the classical nonconvex SGD rate to heavy-tailed noise and Hölder smoothness simultaneously. Secondly, we analyze $δ$-regularized gradient clipping ($δ$-GClip), a provable trainer of wide and deep nets, and establish a stationarity rate of $O(T^{-2s(α-1)/[(1+s)(2α-1)]})$ under the same condition. Thirdly, we analyze standard gradient clipping (G-Clip) and show that it recovers the above rate for $α\\ge1+s$ while in the very heavy-tailed regime $α<1+s$, it has a convergence rate $O(T^{-2s(α-1)/[(α-1)+s(2α-1)]})$ --- the first convergence guarantee in this regime for any stochastic gradient based method.",
+ "primary": "cs.LG"
+}

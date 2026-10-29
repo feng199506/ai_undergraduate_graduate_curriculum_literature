@@ -1,0 +1,16 @@
+{
+ "id": "2410.13278",
+ "title": "Fast Construction of Partitioned Learned Bloom Filter with Theoretical Guarantees",
+ "authors": [
+  "Atsuki Sato",
+  "Yusuke Matsui"
+ ],
+ "v1_date": "2024-10-17",
+ "latest_version": 2,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication in The VLDB Journal (2026). arXiv admin note: substantial text overlap with arXiv:2306.02846",
+ "abstract": "Bloom filter is a widely used classic data structure for approximate membership queries. Learned Bloom filters improve memory efficiency by leveraging machine learning, with the partitioned learned Bloom filter (PLBF) being among the most memory-efficient variants. However, PLBF suffers from high construction cost, with time complexity $O(N^3k)$, where $N$ and $k$ are hyperparameters. In this paper, we propose three methods, fast PLBF, fast PLBF++, and fast PLBF#, that reduce the construction complexity to $O(N^2k)$, $O(Nk \\log N)$, and $O(Nk \\log k)$, respectively. Fast PLBF preserves the original PLBF structure and memory efficiency. Although fast PLBF++ and fast PLBF# may have different structures, we theoretically prove they are equivalent to PLBF under ideal data distribution. Furthermore, for non-ideal scenarios, we introduce an instance-specific measure of deviation from the ideal distribution and use it to bound the resulting difference in memory efficiency between PLBF and fast PLBF++. Experiments on real-world datasets demonstrate that, under the default setting ($N=1000$ and $k=5$), fast PLBF, fast PLBF++, and fast PLBF# are up to 58.7, 74.5, and 75.7 times faster to construct than original PLBF, respectively. In an ablation with larger $k$, which enables the construction of more accurate PLBFs, the speedups reach 235, 865, and 871 times at $k=50$. Additionally, fast PLBF maintains the same data structure as PLBF, and fast PLBF++ and fast PLBF# achieve nearly identical memory efficiency. The source code is available at https://github.com/atsukisato/FastPLBF.",
+ "primary": "cs.DS"
+}

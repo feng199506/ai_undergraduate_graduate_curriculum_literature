@@ -1,0 +1,24 @@
+{
+ "id": "2503.18190",
+ "title": "Quantile-Based Randomized Kaczmarz for Corrupted Tensor Linear Systems",
+ "authors": [
+  "Alejandra Castillo",
+  "Jamie Haddock",
+  "Iryna Hartsock",
+  "Paulina Hoyos",
+  "Lara Kassab",
+  "Alona Kryshchenko",
+  "Kamila Larripa",
+  "Deanna Needell",
+  "Shambhavi Suryanarayanan",
+  "Karamatou Yacoubou Djima"
+ ],
+ "v1_date": "2025-03-23",
+ "latest_version": 1,
+ "latest_date": "2025-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The reconstruction of tensor-valued signals from corrupted measurements, known as tensor regression, has become essential in many multi-modal applications such as hyperspectral image reconstruction and medical imaging. In this work, we address the tensor linear system problem $\\mathcal{A} \\mathcal{X}=\\mathcal{B}$, where $\\mathcal{A}$ is a measurement operator, $\\mathcal{X}$ is the unknown tensor-valued signal, and $\\mathcal{B}$ contains the measurements, possibly corrupted by arbitrary errors. Such corruption is common in large-scale tensor data, where transmission, sensory, or storage errors are rare per instance but likely over the entire dataset and may be arbitrarily large in magnitude. We extend the Kaczmarz method, a popular iterative algorithm for solving large linear systems, to develop a Quantile Tensor Randomized Kaczmarz (QTRK) method robust to large, sparse corruptions in the observations $\\mathcal{B}$. This approach combines the tensor Kaczmarz framework with quantile-based statistics, allowing it to mitigate adversarial corruptions and improve convergence reliability. We also propose and discuss the Masked Quantile Randomized Kaczmarz (mQTRK) variant, which selectively applies partial updates to handle corruptions further. We present convergence guarantees, discuss the advantages and disadvantages of our approaches, and demonstrate the effectiveness of our methods through experiments, including an application for video deblurring.",
+ "primary": "stat.ML"
+}

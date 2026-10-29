@@ -1,0 +1,20 @@
+{
+ "id": "2602.06797",
+ "title": "Optimal Learning Rate Schedules under Functional Scaling Laws: Power Decay and Warmup-Stable-Decay",
+ "authors": [
+  "Binghui Li",
+  "Zilin Wang",
+  "Fengling Chen",
+  "Shiyang Zhao",
+  "Ruiheng Zheng",
+  "Lei Wu"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 3,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at COLT 2026. Major revision with improved analysis of fractional LR schedule",
+ "abstract": "We study optimal learning rate (LR) schedules under the functional scaling law (FSL) framework (Li et al., 2025), which decomposes training dynamics into signal learning and noise forgetting. In power-law kernel regression, these two components are governed by a source exponent $s>0$ and a capacity exponent $q>1$, respectively, with smaller $s$ corresponding to harder tasks. For a fixed training horizon $N$, we characterize the schedules that minimize the final-step loss under a stability constraint and reveal a sharp phase transition. In the easy-task regime $s>1-1/q$, the optimal schedule follows power decay from the beginning of training; in the hard-task regime $s<1-1/q$, it becomes warmup-stable-decay (WSD)-like (Hu et al., 2024), staying at the largest admissible LR for most of training before a final decay. In both regimes, the decay exponent is $2q-1$: task difficulty determines when to decay, while model capacity determines how to decay. Beyond the exact optimum, we study fractional schedules, whose shape is defined over relative training progress. We show that precise tuning of the decay shape is often unnecessary: a broad class of profiles attains the optimal convergence rate, while overly slow terminal decay leads to schedule-induced capacity saturation. Finally, for one-pass SGD in kernel regression, FSL-motivated power-decay schedules achieve optimal last-iterate rates. Experiments support the theoretical predictions and the task-dependent transition between early and delayed decay.",
+ "primary": "stat.ML"
+}

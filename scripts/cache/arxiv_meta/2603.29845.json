@@ -1,0 +1,20 @@
+{
+ "id": "2603.29845",
+ "title": "Cold-Starts in Generative Recommendation: A Reproducibility Study",
+ "authors": [
+  "Zhen Zhang",
+  "Jujia Zhao",
+  "Xinyu Ma",
+  "Xin Xin",
+  "Maarten de Rijke",
+  "Zhaochun Ren"
+ ],
+ "v1_date": "2026-03-31",
+ "latest_version": 2,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cold-start recommendation remains a central challenge in dynamic, open-world platforms, requiring models to recommend for newly registered users (user cold-start) and to recommend newly introduced items to existing users (item cold-start) under sparse or missing interaction signals. Recent generative recommenders built on pre-trained language models (PLMs) are often expected to mitigate cold-start by using item semantic information (e.g., titles and descriptions) and test-time conditioning on limited user context. However, cold-start is rarely treated as a primary evaluation setting in existing studies, and reported gains are difficult to interpret because key design choices, such as model scale, identifier design, and training strategy, are frequently changed together. In this work, we present a systematic reproducibility study of generative recommendation under a unified suite of cold-start protocols.",
+ "primary": "cs.IR"
+}

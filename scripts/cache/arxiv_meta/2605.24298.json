@@ -1,0 +1,19 @@
+{
+ "id": "2605.24298",
+ "title": "An Empirical Evaluation of LLM-Generated Code Security Across Prompting Methods",
+ "authors": [
+  "Mohammed Kharma",
+  "Ahmed Sabbah",
+  "Mohammad Alkhanafseh",
+  "Mohammad Hammoudeh",
+  "David Mohaisen"
+ ],
+ "v1_date": "2026-05-22",
+ "latest_version": 1,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 22 tables, 8 figures",
+ "abstract": "The growing use of Large Language Models (LLMs) for automated code generation has enhanced software development efficiency, but often at the cost of security. Generated code frequently overlooks critical concerns, leaving it vulnerable to issues such as weak encryption and improper input validation. To investigate this problem, we present a comprehensive empirical evaluation of the security quality of LLM-generated code across five LLMs and four programming languages (Java, C++, C, and Python), examining the impact of multiple prompt engineering methods. We introduce a weaknesses-aware zero-shot chain-of-thought (WA-0CoT) prompting strategy that enriches prompts with security context using CWE mappings to guide model reasoning. Our empirical analysis, supported by chi-square tests, finds no statistically significant reductions in vulnerability frequency or density across prompt methods. However, prompting strategies, including WA-0CoT, systematically influence the compositional distribution of CWE categories, with effects varying by programming language. These findings suggest that while security-aware prompting alters the structure of generated weaknesses, prompt engineering alone is insufficient to reliably reduce overall vulnerability levels. The results highlight the importance of language-aware and model-aware prompt design when evaluating the security properties of LLM-generated code.",
+ "primary": "cs.CR"
+}

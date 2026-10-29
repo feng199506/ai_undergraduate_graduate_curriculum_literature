@@ -1,0 +1,30 @@
+{
+ "id": "2604.25933",
+ "title": "A Scoping Review of LLM-as-a-Judge in Healthcare and the MedJUDGE Framework",
+ "authors": [
+  "Chenyu Li",
+  "Zohaib Akhtar",
+  "Mingu Kwak",
+  "Yuelyu Ji",
+  "Hang Zhang",
+  "Tracey Obi",
+  "Yufan Ren",
+  "Xizhi Wu",
+  "Sonish Sivarajkumar",
+  "Harold P. Lehmann",
+  "Shyam Visweswaran",
+  "Michael J. Becich",
+  "Danielle L. Mowery",
+  "Renxuan Liu",
+  "Haoyang Sun",
+  "Yanshan Wang"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 1,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As large language models (LLMs) increasingly generate and process clinical text, scalable evaluation has become critical. LLM-as-a-Judge (LaaJ), which uses LLMs to evaluate model outputs, offers a scalable alternative to costly expert review, but its healthcare adoption raises safety and bias concerns. We conducted a PRISMA-ScR scoping review of six databases (January 2020-January 2026), screening 11,727 studies and including 49. The landscape was dominated by evaluation and benchmarking applications (n=37, 75.5%), pointwise scoring (n=42, 85.7%), and GPT-family judges (n=36, 73.5%). Despite growing adoption, validation rigor was limited: among 36 studies with human involvement, the median number of expert validators was 3, while 13 (26.5%) used none. Risk of bias testing was absent in 36 studies (73.5%), only 1 (2.0%) examined demographic fairness, and none assessed temporal stability or patient context. Deployment remained limited, with 1 study (2.0%) reaching production and four (8.2%) prototype stage. Importantly, these gaps may interact: when judges and evaluated systems share training data or architectures, they may inherit similar blind spots, and agreement metrics may fail to distinguish true validity from shared errors. Minimal human oversight, limited bias assessment, and model monoculture together represent a governance gap where current validation may miss clinically significant errors. To address this, we propose MedJUDGE (Medical Judge Utility, De-biasing, Governance and Evaluation), a risk-stratified three-pillar framework organized around validity, safety, and accountability across clinical risk tiers, providing deployment-oriented evaluation guidance for healthcare LaaJ systems.",
+ "primary": "cs.CY"
+}

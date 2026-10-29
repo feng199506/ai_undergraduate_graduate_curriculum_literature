@@ -1,0 +1,21 @@
+{
+ "id": "2505.13585",
+ "title": "Scalable Bayesian Monte Carlo: fast uncertainty estimation beyond deep ensembles",
+ "authors": [
+  "Xinzhu Liang",
+  "Joseph M. Lukens",
+  "Sanjaya Lohani",
+  "Brian T. Kirby",
+  "Thomas A. Searles",
+  "Xin Qiu",
+  "Kody J. H. Law"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 2,
+ "latest_date": "2025-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 30 figures, 23 tables",
+ "abstract": "This work introduces a new method designed for Bayesian deep learning called scalable Bayesian Monte Carlo (SBMC). The method is comprised of a model and an algorithm. The model interpolates between a point estimator and the posterior. The algorithm is a parallel implementation of sequential Monte Carlo sampler (SMC$_\\parallel$) or Markov chain Monte Carlo (MCMC$_\\parallel$). We collectively refer to these consistent (asymptotically unbiased) algorithms as Bayesian Monte Carlo (BMC), and any such algorithm can be used in our SBMC method. The utility of the method is demonstrated on practical examples: MNIST, CIFAR, IMDb. A systematic numerical study reveals that for the same wall-clock time as state-of-the-art (SOTA) methods like deep ensembles (DE), SBMC achieves comparable or better accuracy and substantially improved uncertainty quantification (UQ)--in particular, epistemic UQ. This is demonstrated on the downstream task of estimating the confidence in predictions, which can be used for reliability assessment or abstention decisions.",
+ "primary": "stat.ML"
+}

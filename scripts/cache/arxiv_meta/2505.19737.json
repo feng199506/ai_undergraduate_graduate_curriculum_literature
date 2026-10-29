@@ -1,0 +1,16 @@
+{
+ "id": "2505.19737",
+ "title": "Weighted Leave-One-Out Cross Validation",
+ "authors": [
+  "Luc Pronzato",
+  "Maria-João Rendas"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 1,
+ "latest_date": "2025-05-26",
+ "journal_ref": "SIAM/ASA Journal on Uncertainty Quantification, 2024, 12 (4), pp.1213-1239",
+ "doi": "10.1137/23m1615917",
+ "comment": "",
+ "abstract": "We present a weighted version of Leave-One-Out (LOO) cross-validation for estimating the Integrated Squared Error (ISE) when approximating an unknown function by a predictor that depends linearly on evaluations of the function over a finite collection of sites. The method relies on the construction of the best linear estimator of the squared prediction error at an arbitrary unsampled site based on squared LOO residuals, assuming that the function is a realization of a Gaussian Process (GP). A theoretical analysis of performance of the ISE estimator is presented, and robustness with respect to the choice of the GP kernel is investigated first analytically, then through numerical examples. Overall, the estimation of ISE is significantly more precise than with classical, unweighted, LOO cross validation. Application to model selection is briefly considered through examples.",
+ "primary": "stat.ML"
+}

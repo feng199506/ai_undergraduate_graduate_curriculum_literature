@@ -1,0 +1,17 @@
+{
+ "id": "2502.04294",
+ "title": "Prediction-Powered E-Values",
+ "authors": [
+  "Daniel Csillag",
+  "Claudio José Struchiner",
+  "Guilherme Tegoni Goedert"
+ ],
+ "v1_date": "2025-02-06",
+ "latest_version": 2,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML 2025",
+ "abstract": "Quality statistical inference requires a sufficient amount of data, which can be missing or hard to obtain. To this end, prediction-powered inference has risen as a promising methodology, but existing approaches are largely limited to Z-estimation problems such as inference of means and quantiles. In this paper, we apply ideas of prediction-powered inference to e-values. By doing so, we inherit all the usual benefits of e-values -- such as anytime-validity, post-hoc validity and versatile sequential inference -- as well as greatly expand the set of inferences achievable in a prediction-powered manner. In particular, we show that every inference procedure that can be framed in terms of e-values has a prediction-powered counterpart, given by our method. We showcase the effectiveness of our framework across a wide range of inference tasks, from simple hypothesis testing and confidence intervals to more involved procedures for change-point detection and causal discovery, which were out of reach of previous techniques. Our approach is modular and easily integrable into existing algorithms, making it a compelling choice for practical applications.",
+ "primary": "stat.ML"
+}

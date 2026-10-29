@@ -1,0 +1,17 @@
+{
+ "id": "2610.03201",
+ "title": "Predictively Oriented Gaussian Process Posteriors",
+ "authors": [
+  "Callum Lau",
+  "Jeremias Knoblauch",
+  "Louis Sharrock"
+ ],
+ "v1_date": "2026-10-02",
+ "latest_version": 2,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian Processes (GPs) are a powerful tool for modelling and quantifying uncertainty in functional relationships. However, they require practitioners to make a number of design decisions, such as the choice of the kernel and the observation model. Suboptimal choices can produce misspecified models that do not capture the underlying data generating process. We introduce Predictively Oriented Gaussian Processes (PrO-GPs), which treat predictive uncertainty as the primary inferential target and provide a robust alternative to standard GPs. Although direct computation of a PrO posterior for nonparametric models is intractable, we derive a reduced formulation and practical sampling scheme for efficient computation. Through synthetic and real data experiments, we show that PrO-GPs produce better calibrated predictive distributions under model misspecification compared to standard GP approaches.",
+ "primary": "stat.ML"
+}

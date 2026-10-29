@@ -1,0 +1,18 @@
+{
+ "id": "2508.10841",
+ "title": "Performance of universal machine-learned potentials with explicit long-range interactions in biomolecular simulations",
+ "authors": [
+  "Viktor Zaverkin",
+  "Matheus Ferraz",
+  "Francesco Alesiani",
+  "Mathias Niepert"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 1,
+ "latest_date": "2025-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Universal machine-learned potentials promise transferable accuracy across compositional and vibrational degrees of freedom, yet their application to biomolecular simulations remains underexplored. This work systematically evaluates equivariant message-passing architectures trained on the SPICE-v2 dataset with and without explicit long-range dispersion and electrostatics. We assess the impact of model size, training data composition, and electrostatic treatment across in- and out-of-distribution benchmark datasets, as well as molecular simulations of bulk liquid water, aqueous NaCl solutions, and biomolecules, including alanine tripeptide, the mini-protein Trp-cage, and Crambin. While larger models improve accuracy on benchmark datasets, this trend does not consistently extend to properties obtained from simulations. Predicted properties also depend on the composition of the training dataset. Long-range electrostatics show no systematic impact across systems. However, for Trp-cage, their inclusion yields increased conformational variability. Our results suggest that imbalanced datasets and immature evaluation practices currently challenge the applicability of universal machine-learned potentials to biomolecular simulations.",
+ "primary": "physics.chem-ph"
+}

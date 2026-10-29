@@ -1,0 +1,21 @@
+{
+ "id": "2609.30957",
+ "title": "Towards Understanding Momentum Acceleration in River-Valley Loss Landscape",
+ "authors": [
+  "Miao Lu",
+  "Zeyu Bian",
+  "Kaiyue Wen",
+  "Beining Wu",
+  "Siyu Chen",
+  "Tianhao Wang",
+  "Zhiyuan Li"
+ ],
+ "v1_date": "2026-09-25",
+ "latest_version": 1,
+ "latest_date": "2026-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "70 pages, 15 figures",
+ "abstract": "The empirical success of pretraining large language models has inspired a deeper investigation into the underlying loss landscapes and the optimization dynamics. Recent empirical and theoretical study suggest that the training loss landscape often exhibits a \"river-valley\" structure, which features a low-loss manifold (river) flanked by sharp orthogonal directions with higher loss (mountains). In the long term, the optimization progress is determined primarily by the progress along the river. Within such a landscape, gradient descent with large learning rates can move faster along the river despite high apparent loss due to vertical oscillations, while a subsequent sharp decay in the learning rate suppresses these oscillations, revealing genuine optimization progress. This explains the recent success of warmup-stable-decay (WSD) learning rate scheduler which, unlike cosine scheduling, keeps stable high learning rate and decays before producing intermediate checkpoints. Building on this foundation, in this work we take a step further and study the role of momentum within such a loss landscape. We establish theoretical analysis that characterizes how momentum accelerates optimization by stabilizing large learning rates that can not be tolerated by vanilla GD without deviating significantly from the river. The enabled large learning rate in-turn gives greater speed along the river and makes faster essential progress in the long run. Another intriguing observation from theory is that for a river-valley landscape with very flat and slow-spinning river, the momentum itself does not contribute directly to acceleration in terms of the speed of tracking the river, while the main acceleration comes from the admissible larger learning rate.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2510.19705",
+ "title": "Fast Inference via Hierarchical Speculative Decoding",
+ "authors": [
+  "Clara Mohri",
+  "Haim Kaplan",
+  "Tal Schuster",
+  "Yishay Mansour",
+  "Amir Globerson"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 2,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transformer language models generate text autoregressively, making inference latency proportional to the number of tokens generated. Speculative decoding reduces this latency without sacrificing output quality, by leveraging a small draft model to propose tokens that the larger target model verifies in parallel. In practice, however, there may exist a set of potential draft models- ranging from faster but less inaccurate, to slower yet more reliable. We introduce Hierarchical Speculative Decoding (HSD), an algorithm that stacks these draft models into a hierarchy, where each model proposes tokens, and the next larger model verifies them in a single forward pass, until finally the target model verifies tokens. We derive an expression for the expected latency of any such hierarchy and show that selecting the latency-optimal hierarchy can be done in polynomial time. Empirically, HSD gives up to 1.2x speed-up over the best single-draft baseline, demonstrating the practicality of our algorithm in reducing generation latency beyond previous techniques.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2406.00403",
+ "title": "Dual-perspective Cross Contrastive Learning in Graph Transformers",
+ "authors": [
+  "Zelin Yao",
+  "Chuang Liu",
+  "Xueqi Ma",
+  "Mukun Chen",
+  "Jia Wu",
+  "Xiantao Cai",
+  "Bo Du",
+  "Wenbin Hu"
+ ],
+ "v1_date": "2024-06-01",
+ "latest_version": 1,
+ "latest_date": "2024-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 5 figures, submitted to IEEE TKDE",
+ "abstract": "Graph contrastive learning (GCL) is a popular method for leaning graph representations by maximizing the consistency of features across augmented views. Traditional GCL methods utilize single-perspective i.e. data or model-perspective) augmentation to generate positive samples, restraining the diversity of positive samples. In addition, these positive samples may be unreliable due to uncontrollable augmentation strategies that potentially alter the semantic information. To address these challenges, this paper proposed a innovative framework termed dual-perspective cross graph contrastive learning (DC-GCL), which incorporates three modifications designed to enhance positive sample diversity and reliability: 1) We propose dual-perspective augmentation strategy that provide the model with more diverse training data, enabling the model effective learning of feature consistency across different views. 2) From the data perspective, we slightly perturb the original graphs using controllable data augmentation, effectively preserving their semantic information. 3) From the model perspective, we enhance the encoder by utilizing more powerful graph transformers instead of graph neural networks. Based on the model's architecture, we propose three pruning-based strategies to slightly perturb the encoder, providing more reliable positive samples. These modifications collectively form the DC-GCL's foundation and provide more diverse and reliable training inputs, offering significant improvements over traditional GCL methods. Extensive experiments on various benchmarks demonstrate that DC-GCL consistently outperforms different baselines on various datasets and tasks.",
+ "primary": "cs.LG"
+}

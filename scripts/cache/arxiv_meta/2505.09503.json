@@ -1,0 +1,17 @@
+{
+ "id": "2505.09503",
+ "title": "Towards Fair In-Context Learning with Tabular Foundation Models",
+ "authors": [
+  "Patrik Kenfack",
+  "Samira Ebrahimi Kahou",
+  "Ulrich Aïvodji"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 4,
+ "latest_date": "2026-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in Transactions on Machine Learning Research (TMLR)",
+ "abstract": "Transformer-based tabular foundation models have recently demonstrated promising in-context learning (ICL) performance on structured data, emerging as competitive alternatives to gradient-boosted trees. However, the fairness implications of this new paradigm remain largely unexplored. We present the first investigation of fairness in tabular ICL, evaluating three recently proposed foundation models--TabPFNv2, TabICL, and TabDPT--on multiple benchmark datasets. To mitigate biases, we explore three pre-processing fairness-enhancing methods: correlation removal (decorrelating input features from the sensitive attribute), group-balanced sample selection (ensuring equal representation of protected groups in context examples), and uncertainty-based sample selection (prioritizing context examples with high sensitive-attribute prediction uncertainty). Our experiments show that the uncertainty-based strategy consistently improves group fairness metrics (e.g., demographic parity, equalized odds, and equal opportunity) with minimal impact on predictive accuracy. We release our code to facilitate reproducibility https://github.com/patrikken/Fair-TabICL.",
+ "primary": "cs.LG"
+}

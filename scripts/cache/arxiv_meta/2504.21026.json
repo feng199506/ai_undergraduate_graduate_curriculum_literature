@@ -1,0 +1,18 @@
+{
+ "id": "2504.21026",
+ "title": "Creating and Evaluating Code-Mixed Nepali-English and Telugu-English Datasets for Abusive Language Detection Using Traditional and Deep Learning Models",
+ "authors": [
+  "Manish Pandey",
+  "Nageshwar Prasad Yadav",
+  "Mokshada Adduru",
+  "Sawan Rai"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 1,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the growing presence of multilingual users on social media, detecting abusive language in code-mixed text has become increasingly challenging. Code-mixed communication, where users seamlessly switch between English and their native languages, poses difficulties for traditional abuse detection models, as offensive content may be context-dependent or obscured by linguistic blending. While abusive language detection has been extensively explored for high-resource languages like English and Hindi, low-resource languages such as Telugu and Nepali remain underrepresented, leaving gaps in effective moderation. In this study, we introduce a novel, manually annotated dataset of 2 thousand Telugu-English and 5 Nepali-English code-mixed comments, categorized as abusive and non-abusive, collected from various social media platforms. The dataset undergoes rigorous preprocessing before being evaluated across multiple Machine Learning (ML), Deep Learning (DL), and Large Language Models (LLMs). We experimented with models including Logistic Regression, Random Forest, Support Vector Machines (SVM), Neural Networks (NN), LSTM, CNN, and LLMs, optimizing their performance through hyperparameter tuning, and evaluate it using 10-fold cross-validation and statistical significance testing (t-test). Our findings provide key insights into the challenges of detecting abusive language in code-mixed settings and offer a comparative analysis of computational approaches. This study contributes to advancing NLP for low-resource languages by establishing benchmarks for abusive language detection in Telugu-English and Nepali-English code-mixed text. The dataset and insights can aid in the development of more robust moderation strategies for multilingual social media environments.",
+ "primary": "cs.CL"
+}

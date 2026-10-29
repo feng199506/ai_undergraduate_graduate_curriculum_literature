@@ -1,0 +1,17 @@
+{
+ "id": "2412.03700",
+ "title": "Good practices for evaluation of machine learning systems",
+ "authors": [
+  "Luciana Ferrer",
+  "Odette Scharenborg",
+  "Tom Bäckström"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 1,
+ "latest_date": "2024-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v1.0",
+ "abstract": "Many development decisions affect the results obtained from ML experiments: training data, features, model architecture, hyperparameters, test data, etc. Among these aspects, arguably the most important design decisions are those that involve the evaluation procedure. This procedure is what determines whether the conclusions drawn from the experiments will or will not generalize to unseen data and whether they will be relevant to the application of interest. If the data is incorrectly selected, the wrong metric is chosen for evaluation or the significance of the comparisons between models is overestimated, conclusions may be misleading or result in suboptimal development decisions. To avoid such problems, the evaluation protocol should be very carefully designed before experimentation starts. In this work we discuss the main aspects involved in the design of the evaluation protocol: data selection, metric selection, and statistical significance. This document is not meant to be an exhaustive tutorial on each of these aspects. Instead, the goal is to explain the main guidelines that should be followed in each case. We include examples taken from the speech processing field, and provide a list of common mistakes related to each aspect.",
+ "primary": "cs.LG"
+}

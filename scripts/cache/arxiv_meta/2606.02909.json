@@ -1,0 +1,16 @@
+{
+ "id": "2606.02909",
+ "title": "Scalable Derivative Gaussian Processes via Exact Gradient Reduction",
+ "authors": [
+  "Hyunseok Seung",
+  "Matthias Katzfuss"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gradient observations can substantially improve Gaussian process (GP) surrogates, particularly in high-dimensional settings where function evaluations are expensive. However, exact inference with $n$ function values and $n$ full gradients in $d$ dimensions scales cubically in the joint state size, imposing an intractable $\\mathcal{O}(n^3 d^3)$ computational bottleneck. We introduce TERA, a highly scalable derivative GP method based on target-specific exact gradient reduction. We prove that for stationary kernels, the gradient components orthogonal to the directions connecting the target and conditioning points are conditionally independent of the target function value; consequently, the exact conditional density is fully characterized by at most $m^2$ directional derivatives once a conditioning set of size $m$ is specified. By using these reduced, dimension-free conditionals as local factors in a Vecchia approximation, TERA effectively decouples $n$ and $d$ from the dense matrix inversion. This reduces the per-target evaluation cost to $\\mathcal{O}(dm^2 + m^6)$ time and $\\mathcal{O}(dm^2 + m^4)$ memory, leaving the underlying derivative GP model mathematically unchanged. Empirical evaluations demonstrate that TERA achieves state-of-the-art predictive accuracy while operating orders of magnitude faster than standard derivative GPs. Crucially, both computation time and peak GPU memory remain essentially flat with respect to $d$, enabling highly scalable inference in high-dimensional spaces.",
+ "primary": "stat.ML"
+}

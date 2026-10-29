@@ -1,0 +1,19 @@
+{
+ "id": "2404.02954",
+ "title": "Deep Generative Models through the Lens of the Manifold Hypothesis: A Survey and New Connections",
+ "authors": [
+  "Gabriel Loaiza-Ganem",
+  "Brendan Leigh Ross",
+  "Rasa Hosseinzadeh",
+  "Anthony L. Caterini",
+  "Jesse C. Cresswell"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 2,
+ "latest_date": "2024-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "TMLR 2024 (survey certification, expert certification)",
+ "abstract": "In recent years there has been increased interest in understanding the interplay between deep generative models (DGMs) and the manifold hypothesis. Research in this area focuses on understanding the reasons why commonly-used DGMs succeed or fail at learning distributions supported on unknown low-dimensional manifolds, as well as developing new models explicitly designed to account for manifold-supported data. This manifold lens provides both clarity as to why some DGMs (e.g. diffusion models and some generative adversarial networks) empirically surpass others (e.g. likelihood-based models such as variational autoencoders, normalizing flows, or energy-based models) at sample generation, and guidance for devising more performant DGMs. We carry out the first survey of DGMs viewed through this lens, making two novel contributions along the way. First, we formally establish that numerical instability of likelihoods in high ambient dimensions is unavoidable when modelling data with low intrinsic dimension. We then show that DGMs on learned representations of autoencoders can be interpreted as approximately minimizing Wasserstein distance: this result, which applies to latent diffusion models, helps justify their outstanding empirical results. The manifold lens provides a rich perspective from which to understand DGMs, and we aim to make this perspective more accessible and widespread.",
+ "primary": "cs.LG"
+}

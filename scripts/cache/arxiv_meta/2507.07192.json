@@ -1,0 +1,19 @@
+{
+ "id": "2507.07192",
+ "title": "Bridging the Last Mile of Prediction: Enhancing Time Series Forecasting with Conditional Guided Flow Matching",
+ "authors": [
+  "Huibo Xu",
+  "Runlong Yu",
+  "Likang Wu",
+  "Xianquan Wang",
+  "Qi Liu"
+ ],
+ "v1_date": "2025-07-09",
+ "latest_version": 3,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Existing generative models for time series forecasting often transform simple priors (typically Gaussian) into complex data distributions. However, their sampling initialization, independent of historical data, hinders the capture of temporal dependencies, limiting predictive accuracy. They also treat residuals merely as optimization targets, ignoring that residuals often exhibit meaningful patterns like systematic biases or nontrivial distributional structures. To address these, we propose Conditional Guided Flow Matching (CGFM), a novel model-agnostic framework that extends flow matching by integrating outputs from an auxiliary predictive model. This enables learning from the probabilistic structure of prediction residuals, leveraging the auxiliary model's prediction distribution as a source to reduce learning difficulty and refine forecasts. CGFM incorporates historical data as both conditions and guidance, uses two-sided conditional paths (with source and target conditioned on the same history), and employs affine paths to expand the path space, avoiding path crossing without complex mechanisms, preserving temporal consistency, and strengthening distribution alignment. Experiments across datasets and baselines show CGFM consistently outperforms state-of-the-art models, advancing forecasting.",
+ "primary": "cs.LG"
+}

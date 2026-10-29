@@ -1,0 +1,17 @@
+{
+ "id": "2408.12888",
+ "title": "Accelerated Markov Chain Monte Carlo Using Adaptive Weighting Scheme",
+ "authors": [
+  "Yanbo Wang",
+  "Wenyu Chen",
+  "Shimin Shan"
+ ],
+ "v1_date": "2024-08-23",
+ "latest_version": 1,
+ "latest_date": "2024-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gibbs sampling is one of the most commonly used Markov Chain Monte Carlo (MCMC) algorithms due to its simplicity and efficiency. It cycles through the latent variables, sampling each one from its distribution conditional on the current values of all the other variables. Conventional Gibbs sampling is based on the systematic scan (with a deterministic order of variables). In contrast, in recent years, Gibbs sampling with random scan has shown its advantage in some scenarios. However, almost all the analyses of Gibbs sampling with the random scan are based on uniform selection of variables. In this paper, we focus on a random scan Gibbs sampling method that selects each latent variable non-uniformly. Firstly, we show that this non-uniform scan Gibbs sampling leaves the target posterior distribution invariant. Then we explore how to determine the selection probability for latent variables. In particular, we construct an objective as a function of the selection probability and solve the constrained optimization problem. We further derive an analytic solution of the selection probability, which can be estimated easily. Our algorithm relies on the simple intuition that choosing the variable updates according to their marginal probabilities enhances the mixing time of the Markov chain. Finally, we validate the effectiveness of the proposed Gibbs sampler by conducting a set of experiments on real-world applications.",
+ "primary": "cs.LG"
+}

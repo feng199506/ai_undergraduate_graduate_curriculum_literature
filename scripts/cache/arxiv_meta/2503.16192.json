@@ -1,0 +1,16 @@
+{
+ "id": "2503.16192",
+ "title": "Nonparametric Bellman Mappings for Value Iteration in Distributed Reinforcement Learning",
+ "authors": [
+  "Yuki Akiyama",
+  "Konstantinos Slavakis"
+ ],
+ "v1_date": "2025-03-20",
+ "latest_version": 2,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces novel Bellman mappings (B-Maps) for value iteration (VI) in distributed reinforcement learning (DRL), where agents are deployed over an undirected, connected graph/network with arbitrary topology -- but without a centralized node, that is, a node capable of aggregating all data and performing computations. Each agent constructs a nonparametric B-Map from its private data, operating on Q-functions represented in a reproducing kernel Hilbert space, with flexibility in choosing the basis for their representation. Agents exchange their Q-function estimates only with direct neighbors, and unlike existing DRL approaches that restrict communication to Q-functions, the proposed framework also enables the transmission of basis information in the form of covariance matrices, thereby conveying additional structural details. Linear convergence rates are established for both Q-function and covariance-matrix estimates toward their consensus values, regardless of the network topology, with optimal learning rates determined by the ratio of the smallest positive eigenvalue (the graph's Fiedler value) to the largest eigenvalue of the graph Laplacian matrix. A detailed performance analysis further shows that the proposed DRL framework effectively approximates the performance of a centralized node, had such a node existed. Numerical tests on two benchmark control problems confirm the effectiveness of the proposed nonparametric B-Maps relative to prior methods. Notably, the tests reveal a counter-intuitive outcome: although the framework involves richer information exchange -- specifically through transmitting covariance matrices as basis information -- it achieves the desired performance at a lower cumulative communication cost than existing DRL schemes, underscoring the critical role of sharing basis information in accelerating the learning process.",
+ "primary": "cs.LG"
+}

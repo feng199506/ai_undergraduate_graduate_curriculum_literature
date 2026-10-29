@@ -1,0 +1,24 @@
+{
+ "id": "2408.16288",
+ "title": "OpenFGL: A Comprehensive Benchmark for Federated Graph Learning",
+ "authors": [
+  "Xunkai Li",
+  "Yinlin Zhu",
+  "Boyang Pang",
+  "Guochen Yan",
+  "Yeyu Yan",
+  "Zening Li",
+  "Zhengyu Wu",
+  "Wentao Zhang",
+  "Rong-Hua Li",
+  "Guoren Wang"
+ ],
+ "v1_date": "2024-08-29",
+ "latest_version": 2,
+ "latest_date": "2025-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by VLDB 2025",
+ "abstract": "Federated graph learning (FGL) is a promising distributed training paradigm for graph neural networks across multiple local systems without direct data sharing. This approach inherently involves large-scale distributed graph processing, which closely aligns with the challenges and research focuses of graph-based data systems. Despite the proliferation of FGL, the diverse motivations from real-world applications, spanning various research backgrounds and settings, pose a significant challenge to fair evaluation. To fill this gap, we propose OpenFGL, a unified benchmark designed for the primary FGL scenarios: Graph-FL and Subgraph-FL. Specifically, OpenFGL includes 42 graph datasets from 18 application domains, 8 federated data simulation strategies that emphasize different graph properties, and 5 graph-based downstream tasks. Additionally, it offers 18 recently proposed SOTA FGL algorithms through a user-friendly API, enabling a thorough comparison and comprehensive evaluation of their effectiveness, robustness, and efficiency. Our empirical results demonstrate the capabilities of FGL while also highlighting its potential limitations, providing valuable insights for future research in this growing field, particularly in fostering greater interdisciplinary collaboration between FGL and data systems.",
+ "primary": "cs.LG"
+}

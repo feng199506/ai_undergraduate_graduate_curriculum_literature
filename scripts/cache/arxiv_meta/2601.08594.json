@@ -1,0 +1,17 @@
+{
+ "id": "2601.08594",
+ "title": "Differentiating through Stochastic Differential Equations: A Primer",
+ "authors": [
+  "Rishi Leburu",
+  "Levon Nurbekyan",
+  "Lars Ruthotto"
+ ],
+ "v1_date": "2026-01-13",
+ "latest_version": 2,
+ "latest_date": "2026-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 3 figures, 1 table. Accepted for publication in SIAM Review (Education section)",
+ "abstract": "Dynamical systems are essential to model various phenomena in physics, finance, economics, and are also of current interest in machine learning. A central modeling task is investigating parameter sensitivity, whether tuning atmospheric coefficients, computing financial Greeks, or optimizing neural networks. These sensitivities are mathematically expressed as derivatives of an objective function with respect to parameters of interest and are rarely available analytically, necessitating numerical methods for approximating them. While the literature for differentiation of deterministic systems is well-covered, the treatment of stochastic systems, such as stochastic differential equations (SDEs), in most curricula is less comprehensive than what the subtleties arising from the interplay of noise and discretization warrant. This paper provides a primer on numerical differentiation of SDEs organized as a two-tale narrative. Tale 1 demonstrates that differentiating through discretized SDEs, known as the discretize-optimize approach, is reliable for both Itô and Stratonovich calculus. Tale 2 examines the optimize-discretize approach, investigating the continuous limit of adjoint equations from Tale 1 corresponding to the desired gradients. Our aim is to equip readers with a clear guide on the numerical differentiation of SDEs: computing gradients correctly in both Itô and Stratonovich settings, understanding when discretize-optimize and optimize-discretize agree or diverge, and developing intuition for reasoning about stochastic differentiation beyond the cases explicitly covered.",
+ "primary": "math.NA"
+}

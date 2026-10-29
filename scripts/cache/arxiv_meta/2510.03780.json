@@ -1,0 +1,15 @@
+{
+ "id": "2510.03780",
+ "title": "A Benchmark Study of Deep Learning Methods for Multi-Label Pediatric Electrocardiogram-Based Cardiovascular Disease Classification",
+ "authors": [
+  "Yiqiao Chen"
+ ],
+ "v1_date": "2025-10-04",
+ "latest_version": 1,
+ "latest_date": "2025-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 5 figures",
+ "abstract": "Cardiovascular disease (CVD) is a major pediatric health burden, and early screening is of critical importance. Electrocardiography (ECG), as a noninvasive and accessible tool, is well suited for this purpose. This paper presents the first benchmark study of deep learning for multi-label pediatric CVD classification on the recently released ZZU-pECG dataset, comprising 3716 recordings with 19 CVD categories. We systematically evaluate four representative paradigms--ResNet-1D, BiLSTM, Transformer, and Mamba 2--under both 9-lead and 12-lead configurations. All models achieved strong results, with Hamming Loss as low as 0.0069 and F1-scores above 85% in most settings. ResNet-1D reached a macro-F1 of 94.67% on the 12-lead subset, while BiLSTM and Transformer also showed competitive performance. Per-class analysis indicated challenges for rare conditions such as hypertrophic cardiomyopathy in the 9-lead subset, reflecting the effect of limited positive samples. This benchmark establishes reusable baselines and highlights complementary strengths across paradigms. It further points to the need for larger-scale, multi-center validation, age-stratified analysis, and broader disease coverage to support real-world pediatric ECG applications.",
+ "primary": "eess.SP"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "2507.13337",
+ "title": "FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming",
+ "authors": [
+  "Gal Beniamini",
+  "Yuval Dor",
+  "Alon Vinnikov",
+  "Shir Granot Peled",
+  "Or Weinstein",
+  "Or Sharir",
+  "Noam Wies",
+  "Tomer Nussbaum",
+  "Ido Ben Shaul",
+  "Tomer Zekharya",
+  "Yoav Levine",
+  "Shai Shalev-Shwartz",
+  "Amnon Shashua"
+ ],
+ "v1_date": "2025-07-17",
+ "latest_version": 1,
+ "latest_date": "2025-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Frontier AI models demonstrate formidable breadth of knowledge. But how close are they to true human -- or superhuman -- expertise? Genuine experts can tackle the hardest problems and push the boundaries of scientific understanding. To illuminate the limits of frontier model capabilities, we turn away from contrived competitive programming puzzles, and instead focus on real-life research problems. We construct FormulaOne, a benchmark that lies at the intersection of graph theory, logic, and algorithms, all well within the training distribution of frontier models. Our problems are incredibly demanding, requiring an array of reasoning steps. The dataset has three key properties. First, it is of commercial interest and relates to practical large-scale optimisation problems, such as those arising in routing, scheduling, and network design. Second, it is generated from the highly expressive framework of Monadic Second-Order (MSO) logic on graphs, paving the way toward automatic problem generation at scale; ideal for building RL environments. Third, many of our problems are intimately related to the frontier of theoretical computer science, and to central conjectures therein, such as the Strong Exponential Time Hypothesis (SETH). As such, any significant algorithmic progress on our dataset, beyond known results, could carry profound theoretical implications. Remarkably, state-of-the-art models like OpenAI's o3 fail entirely on FormulaOne, solving less than 1% of the questions, even when given 10 attempts and explanatory fewshot examples -- highlighting how far they remain from expert-level understanding in some domains. To support further research, we additionally curate FormulaOne-Warmup, offering a set of simpler tasks, from the same distribution. We release the full corpus along with a comprehensive evaluation framework.",
+ "primary": "cs.AI"
+}

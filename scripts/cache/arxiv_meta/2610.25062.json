@@ -1,0 +1,15 @@
+{
+ "id": "2610.25062",
+ "title": "The Optimal Sample Complexity of Pointwise Replicable Agnostic Learning",
+ "authors": [
+  "Guangjian Zhang"
+ ],
+ "v1_date": "2026-10-18",
+ "latest_version": 1,
+ "latest_date": "2026-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "92 pages",
+ "abstract": "Pointwise replicability asks that two independently trained predictors, using the same random seed, agree at each fixed query with high probability. We determine its optimal agnostic sample complexity on finite and countable domains. For every nonempty binary class of finite VC dimension $d\\ge1$, the required number of independent examples is $Θ\\!\\left(\\frac{d}{ρ^2α^2}+\\frac{\\log(1/β)}{α^2}\\right)$, uniformly over independent accuracy, failure, and disagreement parameters $α,β,ρ\\in(0,1/10)$. The learner returns one binary function, may be improper, and uses unrestricted shared randomness. Its sample budget is fixed before observing data, and the replicability guarantee includes queries of zero marginal mass. The main construction combines an ensemble of empirical-risk minimizers with a smooth, signal-dependent risk decomposition. A single shared phase selects the final binary predictor. Record times certify its weak-signal risk, while a uniform bound protects the strong-signal risk at that same selected time. A phase-comparison theorem controls the actual shared-seed execution under simultaneous changes in the marginals and risk coefficients. A rare repair step then makes the confidence cost additive. Together with matching lower bounds, this removes the remaining logarithmic overhead and parameter restrictions in the general countable-domain sample-complexity problem. This extended version also retains the earlier explicit constructions and their proofs, including proper learning for VC-one classes, the full finite-atom class, a faster realizable bound, and counterexamples that separate restrictions of particular algorithms from restrictions of the learning problem.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2403.01874",
+ "title": "A Survey on Evaluation of Out-of-Distribution Generalization",
+ "authors": [
+  "Han Yu",
+  "Jiashuo Liu",
+  "Xingxuan Zhang",
+  "Jiayun Wu",
+  "Peng Cui"
+ ],
+ "v1_date": "2024-03-04",
+ "latest_version": 1,
+ "latest_date": "2024-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning models, while progressively advanced, rely heavily on the IID assumption, which is often unfulfilled in practice due to inevitable distribution shifts. This renders them susceptible and untrustworthy for deployment in risk-sensitive applications. Such a significant problem has consequently spawned various branches of works dedicated to developing algorithms capable of Out-of-Distribution (OOD) generalization. Despite these efforts, much less attention has been paid to the evaluation of OOD generalization, which is also a complex and fundamental problem. Its goal is not only to assess whether a model's OOD generalization capability is strong or not, but also to evaluate where a model generalizes well or poorly. This entails characterizing the types of distribution shifts that a model can effectively address, and identifying the safe and risky input regions given a model. This paper serves as the first effort to conduct a comprehensive review of OOD evaluation. We categorize existing research into three paradigms: OOD performance testing, OOD performance prediction, and OOD intrinsic property characterization, according to the availability of test data. Additionally, we briefly discuss OOD evaluation in the context of pretrained models. In closing, we propose several promising directions for future research in OOD evaluation.",
+ "primary": "cs.LG"
+}

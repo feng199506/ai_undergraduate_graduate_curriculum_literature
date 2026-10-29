@@ -1,0 +1,15 @@
+{
+ "id": "2510.04277",
+ "title": "Relative Information Gain and Gaussian Process Regression",
+ "authors": [
+  "Hamish Flynn"
+ ],
+ "v1_date": "2025-10-05",
+ "latest_version": 2,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 1 figure",
+ "abstract": "The sample complexity of estimating or maximising an unknown function in a reproducing kernel Hilbert space is known to be linked to both the effective dimension and the information gain associated with the kernel. While the information gain has an attractive information-theoretic interpretation, the effective dimension typically results in better rates. We introduce a new quantity called the relative information gain, which measures the sensitivity of the information gain with respect to the observation noise. We show that the relative information gain smoothly interpolates between the effective dimension and the information gain, and that the relative information gain has the same growth rate as the effective dimension. In the second half of the paper, we prove a new PAC-Bayesian excess risk bound for Gaussian process regression. The relative information gain arises naturally from the complexity term in this PAC-Bayesian bound. We prove bounds on the relative information gain that depend on the spectral properties of the kernel. When these upper bounds are combined with our excess risk bound, we obtain minimax-optimal rates of convergence.",
+ "primary": "stat.ML"
+}

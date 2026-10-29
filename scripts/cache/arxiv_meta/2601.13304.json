@@ -1,0 +1,23 @@
+{
+ "id": "2601.13304",
+ "title": "CausalSpatial: A Benchmark for Object-Centric Causal Spatial Reasoning",
+ "authors": [
+  "Wenxin Ma",
+  "Chenlong Wang",
+  "Ruisheng Yuan",
+  "Hao Chen",
+  "Nanru Dai",
+  "S. Kevin Zhou",
+  "Yijun Yang",
+  "Alan Yuille",
+  "Jieneng Chen"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 1,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code is available: https://github.com/CausalSpatial/CausalSpatial",
+ "abstract": "Humans can look at a static scene and instantly predict what happens next -- will moving this object cause a collision? We call this ability Causal Spatial Reasoning. However, current multimodal large language models (MLLMs) cannot do this, as they remain largely restricted to static spatial perception, struggling to answer \"what-if\" questions in a 3D scene. We introduce CausalSpatial, a diagnostic benchmark evaluating whether models can anticipate consequences of object motions across four tasks: Collision, Compatibility, Occlusion, and Trajectory. Results expose a severe gap: humans score 84% while GPT-5 achieves only 54%. Why do MLLMs fail? Our analysis uncovers a fundamental deficiency: models over-rely on textual chain-of-thought reasoning that drifts from visual evidence, producing fluent but spatially ungrounded hallucinations. To address this, we propose the Causal Object World model (COW), a framework that externalizes the simulation process by generating videos of hypothetical dynamics. With explicit visual cues of causality, COW enables models to ground their reasoning in physical reality rather than linguistic priors. We make the dataset and code publicly available here: https://github.com/CausalSpatial/CausalSpatial",
+ "primary": "cs.CV"
+}

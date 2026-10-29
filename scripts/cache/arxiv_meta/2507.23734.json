@@ -1,0 +1,25 @@
+{
+ "id": "2507.23734",
+ "title": "RAGNet: Large-scale Reasoning-based Affordance Segmentation Benchmark towards General Grasping",
+ "authors": [
+  "Dongming Wu",
+  "Yanping Fu",
+  "Saike Huang",
+  "Yingfei Liu",
+  "Fan Jia",
+  "Nian Liu",
+  "Feng Dai",
+  "Tiancai Wang",
+  "Rao Muhammad Anwer",
+  "Fahad Shahbaz Khan",
+  "Jianbing Shen"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 1,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICCV 2025. The code is at https://github.com/wudongming97/AffordanceNet",
+ "abstract": "General robotic grasping systems require accurate object affordance perception in diverse open-world scenarios following human instructions. However, current studies suffer from the problem of lacking reasoning-based large-scale affordance prediction data, leading to considerable concern about open-world effectiveness. To address this limitation, we build a large-scale grasping-oriented affordance segmentation benchmark with human-like instructions, named RAGNet. It contains 273k images, 180 categories, and 26k reasoning instructions. The images cover diverse embodied data domains, such as wild, robot, ego-centric, and even simulation data. They are carefully annotated with an affordance map, while the difficulty of language instructions is largely increased by removing their category name and only providing functional descriptions. Furthermore, we propose a comprehensive affordance-based grasping framework, named AffordanceNet, which consists of a VLM pre-trained on our massive affordance data and a grasping network that conditions an affordance map to grasp the target. Extensive experiments on affordance segmentation benchmarks and real-robot manipulation tasks show that our model has a powerful open-world generalization ability. Our data and code is available at https://github.com/wudongming97/AffordanceNet.",
+ "primary": "cs.CV"
+}

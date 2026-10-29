@@ -1,0 +1,18 @@
+{
+ "id": "2506.14950",
+ "title": "Double Machine Learning for Conditional Moment Restrictions: IV Regression, Proximal Causal Learning and Beyond",
+ "authors": [
+  "Daqian Shao",
+  "Ashkan Soleymani",
+  "Francesco Quinzan",
+  "Marta Kwiatkowska"
+ ],
+ "v1_date": "2025-06-17",
+ "latest_version": 2,
+ "latest_date": "2025-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Solving conditional moment restrictions (CMRs) is a key problem considered in statistics, causal inference, and econometrics, where the aim is to solve for a function of interest that satisfies some conditional moment equalities. Specifically, many techniques for causal inference, such as instrumental variable (IV) regression and proximal causal learning (PCL), are CMR problems. Most CMR estimators use a two-stage approach, where the first-stage estimation is directly plugged into the second stage to estimate the function of interest. However, naively plugging in the first-stage estimator can cause heavy bias in the second stage. This is particularly the case for recently proposed CMR estimators that use deep neural network (DNN) estimators for both stages, where regularisation and overfitting bias is present. We propose DML-CMR, a two-stage CMR estimator that provides an unbiased estimate with fast convergence rate guarantees. We derive a novel learning objective to reduce bias and develop the DML-CMR algorithm following the double/debiased machine learning (DML) framework. We show that our DML-CMR estimator can achieve the minimax optimal convergence rate of $O(N^{-1/2})$ under parameterisation and mild regularity conditions, where $N$ is the sample size. We apply DML-CMR to a range of problems using DNN estimators, including IV regression and proximal causal learning on real-world datasets, demonstrating state-of-the-art performance against existing CMR estimators and algorithms tailored to those problems.",
+ "primary": "stat.ML"
+}

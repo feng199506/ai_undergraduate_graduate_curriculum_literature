@@ -1,0 +1,17 @@
+{
+ "id": "2507.22095",
+ "title": "Posterior Bayesian Neural Networks with Dependent Weights",
+ "authors": [
+  "Nicola Apollonio",
+  "Giovanni Franzina",
+  "Giovanni Luca Torrisi"
+ ],
+ "v1_date": "2025-07-29",
+ "latest_version": 5,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 figures",
+ "abstract": "We consider fully connected and feedforward deep neural networks with dependent and possibly heavy-tailed weights, as introduced in [26], to address limitations of the standard Gaussian prior. It has been proved in [26] that, as the number of nodes in the hidden layers grows large, according to a sequential and ordered limit, the law of the output converges weakly to a Gaussian mixture. In this paper, we study the neural network through the lens of the posterior distribution with a Gaussian likelihood. If the random covariance matrix of the infinite-width limit is positive definite under the prior, we identify the posterior distribution of the output in the wide-width limit according to a sequential regime. Remarkably, we provide mild sufficient conditions to ensure the aforementioned invertibility of the random covariance matrix under the prior, thereby extending the results in [8]. Among our results, we present sufficient conditions on some model parameters (the activation function and the associated Lévy measures) which ensure that the sequential limits are independent of the order. We illustrate our findings with examples and numerical simulations.",
+ "primary": "stat.ML"
+}

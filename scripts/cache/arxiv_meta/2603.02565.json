@@ -1,0 +1,22 @@
+{
+ "id": "2603.02565",
+ "title": "FlashEvaluator: Expanding Search Space with Parallel Sequence-Level Evaluation",
+ "authors": [
+  "Chao Feng",
+  "Yuanhao Pu",
+  "Chenghao Zhang",
+  "Shanqi Liu",
+  "Shuchang Liu",
+  "Xiang Li",
+  "Chunjie Chen",
+  "Kaiqiao Zhan"
+ ],
+ "v1_date": "2026-03-03",
+ "latest_version": 2,
+ "latest_date": "2026-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 2 figures",
+ "abstract": "The Generator-Evaluator (G-E) framework generates K candidate sequences and uses an evaluator to select the highest-scoring one, which is widely used in recommender systems (RecSys) and natural language processing (NLP). Existing evaluators commonly score candidates independently. Although such evaluations can be batched, independent scoring neither models interactions among candidates nor eliminates repeated computation of request-level context and recurring candidate elements, causing the total evaluation work to grow approximately linearly with K. To handle with, we propose FlashEvaluator, a joint evaluator that scores all candidate sequences in a single forward pass. FlashEvaluator factorizes evaluation into shared request-level encoding, reusable candidate-side computation, sequence assembly by indexing, and cross-sequence interaction for setwise comparison. We call this request-local reuse scheme QKV-Cache: inspired by autoregressive KV caching, it reuses context-side key/value representations across candidate sequences and, when candidate elements recur, reuses their request-conditioned representations on the query side. In repeated-item settings, the dominant item-encoding cost therefore depends on the number of distinct items rather than their total occurrences across sequences, reducing the marginal cost of evaluating additional candidates. We provide a computational analysis and evaluate FlashEvaluator on recommendation and text summarization. The results show lower latency and higher throughput with competitive recommendation and summarization quality. In an online deployment at Kuaishou with K=50, FlashEvaluator reduces inference latency by 44% and increases QPS by 114% relative to the production baseline, while yielding statistically significant gains in retention, engagement, and ecosystem metrics.",
+ "primary": "cs.IR"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2505.14139",
+ "title": "FlowQ: Energy-Guided Flow Policies for Offline Reinforcement Learning",
+ "authors": [
+  "Marvin Alles",
+  "Nutan Chen",
+  "Patrick van der Smagt",
+  "Botond Cseke"
+ ],
+ "v1_date": "2025-05-20",
+ "latest_version": 1,
+ "latest_date": "2025-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The use of guidance to steer sampling toward desired outcomes has been widely explored within diffusion models, especially in applications such as image and trajectory generation. However, incorporating guidance during training remains relatively underexplored. In this work, we introduce energy-guided flow matching, a novel approach that enhances the training of flow models and eliminates the need for guidance at inference time. We learn a conditional velocity field corresponding to the flow policy by approximating an energy-guided probability path as a Gaussian path. Learning guided trajectories is appealing for tasks where the target distribution is defined by a combination of data and an energy function, as in reinforcement learning. Diffusion-based policies have recently attracted attention for their expressive power and ability to capture multi-modal action distributions. Typically, these policies are optimized using weighted objectives or by back-propagating gradients through actions sampled by the policy. As an alternative, we propose FlowQ, an offline reinforcement learning algorithm based on energy-guided flow matching. Our method achieves competitive performance while the policy training time is constant in the number of flow sampling steps.",
+ "primary": "cs.LG"
+}

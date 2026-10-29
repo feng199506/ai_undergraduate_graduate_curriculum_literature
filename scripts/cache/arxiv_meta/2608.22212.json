@@ -1,0 +1,19 @@
+{
+ "id": "2608.22212",
+ "title": "Joint Causal Structure and Cluster Discovery Using Variational Inference",
+ "authors": [
+  "Avni Rajpal",
+  "Anubhav Kumar",
+  "Rishabh Karnad",
+  "Mohammad Emtiyaz Khan",
+  "P. K. Srijith"
+ ],
+ "v1_date": "2026-08-23",
+ "latest_version": 1,
+ "latest_date": "2026-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal discovery aims to understand the relationships between individual random variables. In many applications, such as brain imaging and climate modeling, it is more meaningful to consider interactions among groups of variables. Existing methods assume that knowledge of such groups or clusters is explicitly available when modeling interactions. However, in practice, these clusters as well as the causal relationships among them, are latent. In this paper, we present a novel approach based on variational inference to simultaneously infer both the latent clusters and causal structures. We learn an approximate posterior over clusters and graph-structure by considering variational distributions based on categorical and Bernoulli models respectively. We derive variational lower bounds and estimation techniques to learn variational and model parameters. The effectiveness of our proposed methods for cluster and causal discovery are demonstrated on both synthetic and real data sets.",
+ "primary": "cs.LG"
+}

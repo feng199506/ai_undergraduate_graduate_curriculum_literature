@@ -1,0 +1,17 @@
+{
+ "id": "2606.00293",
+ "title": "Accurate Large-sample Uncertainty Quantification using Stochastic Gradient Markov Chain Monte Carlo",
+ "authors": [
+  "Yu Wang",
+  "Jie Ding",
+  "Jonathan H. Huggins"
+ ],
+ "v1_date": "2026-05-29",
+ "latest_version": 1,
+ "latest_date": "2026-05-29",
+ "journal_ref": "Proceedings of the 43rd International Conference on Machine Learning, Seoul, South Korea. PMLR 306, 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tuning algorithms such as stochastic gradient descent (SGD) and stochastic gradient Langevin dynamics (SGLD) for approximate sampling and uncertainty quantification remains challenging, particularly in the practically relevant settings when the batch size is large or the model is misspecified. Existing theory that provides tuning guidance relies on continuous-time limits or strong statistical assumptions, which can become quantitatively inaccurate in these regimes. We address these shortcomings by proposing new discrete-time approximations to SG(L)D with and without momentum, which enables accurate predictions of the stationary covariance, iterate average covariance, and integrated autocorrelation time. Moreover, we prove quantitative, non-asymptotic error bounds showing that these estimates are sufficiently accurate for practical tuning and uncertainty quantification. Numerical experiments demonstrate that our theory yields improved tuning guidance across a range of models and data-generating distributions where existing approaches fail, including when using the $β$-divergence rather than log-loss to obtain statistically robust inferences.",
+ "primary": "cs.LG"
+}

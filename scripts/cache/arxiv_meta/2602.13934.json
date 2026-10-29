@@ -1,0 +1,15 @@
+{
+ "id": "2602.13934",
+ "title": "Why Code, Why Now: An Information-Theoretic Perspective on the Limits of Machine Learning",
+ "authors": [
+  "Zhimin Zhao"
+ ],
+ "v1_date": "2026-02-15",
+ "latest_version": 4,
+ "latest_date": "2026-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper offers a new perspective on the limits of machine learning: the ceiling on progress is set not by model size or algorithm choice but by the information structure of the task itself. Code generation has progressed more reliably than reinforcement learning, largely because code provides dense, local, verifiable feedback at every token, whereas most reinforcement learning problems do not. This difference in feedback quality is not binary but graded. We propose a five-level hierarchy of learnability based on information structure and argue that diagnosing a task's position in this hierarchy is more predictive of scaling outcomes than any property of the model. The hierarchy rests on a formal distinction among three properties of computational problems (expressibility, computability, and learnability). We establish their pairwise relationships, including where implications hold and where they fail, and present a unified template that makes the structural differences explicit. The analysis suggests why supervised learning on code scales predictably while reinforcement learning does not, and why the common assumption that scaling alone will solve remaining ML challenges warrants scrutiny.",
+ "primary": "cs.LG"
+}

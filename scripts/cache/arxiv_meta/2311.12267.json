@@ -1,0 +1,16 @@
+{
+ "id": "2311.12267",
+ "title": "Learning Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity",
+ "authors": [
+  "Jikai Jin",
+  "Vasilis Syrgkanis"
+ ],
+ "v1_date": "2023-11-21",
+ "latest_version": 2,
+ "latest_date": "2024-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages",
+ "abstract": "We study causal representation learning, the task of recovering high-level latent variables and their causal relationships in the form of a causal graph from low-level observed data (such as text and images), assuming access to observations generated from multiple environments. Prior results on the identifiability of causal representations typically assume access to single-node interventions which is rather unrealistic in practice, since the latent variables are unknown in the first place. In this work, we provide the first identifiability results based on data that stem from general environments. We show that for linear causal models, while the causal graph can be fully recovered, the latent variables are only identified up to the surrounded-node ambiguity (SNA) \\citep{varici2023score}. We provide a counterpart of our guarantee, showing that SNA is basically unavoidable in our setting. We also propose an algorithm, \\texttt{LiNGCReL} which provably recovers the ground-truth model up to SNA, and we demonstrate its effectiveness via numerical experiments. Finally, we consider general non-parametric causal models and show that the same identification barrier holds when assuming access to groups of soft single-node interventions.",
+ "primary": "cs.LG"
+}

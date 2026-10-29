@@ -1,0 +1,19 @@
+{
+ "id": "2402.06716",
+ "title": "Dynamic Graph Information Bottleneck",
+ "authors": [
+  "Haonan Yuan",
+  "Qingyun Sun",
+  "Xingcheng Fu",
+  "Cheng Ji",
+  "Jianxin Li"
+ ],
+ "v1_date": "2024-02-09",
+ "latest_version": 3,
+ "latest_date": "2024-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by the research tracks of The Web Conference 2024 (WWW 2024)",
+ "abstract": "Dynamic Graphs widely exist in the real world, which carry complicated spatial and temporal feature patterns, challenging their representation learning. Dynamic Graph Neural Networks (DGNNs) have shown impressive predictive abilities by exploiting the intrinsic dynamics. However, DGNNs exhibit limited robustness, prone to adversarial attacks. This paper presents the novel Dynamic Graph Information Bottleneck (DGIB) framework to learn robust and discriminative representations. Leveraged by the Information Bottleneck (IB) principle, we first propose the expected optimal representations should satisfy the Minimal-Sufficient-Consensual (MSC) Condition. To compress redundant as well as conserve meritorious information into latent representation, DGIB iteratively directs and refines the structural and feature information flow passing through graph snapshots. To meet the MSC Condition, we decompose the overall IB objectives into DGIB$_{MS}$ and DGIB$_C$, in which the DGIB$_{MS}$ channel aims to learn the minimal and sufficient representations, with the DGIB$_{MS}$ channel guarantees the predictive consensus. Extensive experiments on real-world and synthetic dynamic graph datasets demonstrate the superior robustness of DGIB against adversarial attacks compared with state-of-the-art baselines in the link prediction task. To the best of our knowledge, DGIB is the first work to learn robust representations of dynamic graphs grounded in the information-theoretic IB principle.",
+ "primary": "cs.LG"
+}

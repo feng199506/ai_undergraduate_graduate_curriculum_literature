@@ -1,0 +1,20 @@
+{
+ "id": "2501.15147",
+ "title": "A Causality-aware Paradigm for Evaluating Creativity of Multimodal Large Language Models",
+ "authors": [
+  "Zhongzhan Huang",
+  "Shanshan Zhong",
+  "Pan Zhou",
+  "Shanghua Gao",
+  "Marinka Zitnik",
+  "Liang Lin"
+ ],
+ "v1_date": "2025-01-25",
+ "latest_version": 2,
+ "latest_date": "2025-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by TPAMI. arXiv admin note: text overlap with arXiv:2312.02439",
+ "abstract": "Recently, numerous benchmarks have been developed to evaluate the logical reasoning abilities of large language models (LLMs). However, assessing the equally important creative capabilities of LLMs is challenging due to the subjective, diverse, and data-scarce nature of creativity, especially in multimodal scenarios. In this paper, we consider the comprehensive pipeline for evaluating the creativity of multimodal LLMs, with a focus on suitable evaluation platforms and methodologies. First, we find the Oogiri game, a creativity-driven task requiring humor, associative thinking, and the ability to produce unexpected responses to text, images, or both. This game aligns well with the input-output structure of modern multimodal LLMs and benefits from a rich repository of high-quality, human-annotated creative responses, making it an ideal platform for studying LLM creativity. Next, beyond using the Oogiri game for standard evaluations like ranking and selection, we propose LoTbench, an interactive, causality-aware evaluation framework, to further address some intrinsic risks in standard evaluations, such as information leakage and limited interpretability. The proposed LoTbench not only quantifies LLM creativity more effectively but also visualizes the underlying creative thought processes. Our results show that while most LLMs exhibit constrained creativity, the performance gap between LLMs and humans is not insurmountable. Furthermore, we observe a strong correlation between results from the multimodal cognition benchmark MMMU and LoTbench, but only a weak connection with traditional creativity metrics. This suggests that LoTbench better aligns with human cognitive theories, highlighting cognition as a critical foundation in the early stages of creativity and enabling the bridging of diverse concepts. https://lotbench.github.io",
+ "primary": "cs.AI"
+}

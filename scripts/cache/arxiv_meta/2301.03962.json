@@ -1,0 +1,20 @@
+{
+ "id": "2301.03962",
+ "title": "A Unified Theory of Diversity in Ensemble Learning",
+ "authors": [
+  "Danny Wood",
+  "Tingting Mu",
+  "Andrew Webb",
+  "Henry Reeve",
+  "Mikel Luján",
+  "Gavin Brown"
+ ],
+ "v1_date": "2023-01-10",
+ "latest_version": 3,
+ "latest_date": "2024-02-07",
+ "journal_ref": "Journal of Machine Learning Research, 24(359), 2023",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a theory of ensemble diversity, explaining the nature of diversity for a wide range of supervised learning scenarios. This challenge has been referred to as the holy grail of ensemble learning, an open research issue for over 30 years. Our framework reveals that diversity is in fact a hidden dimension in the bias-variance decomposition of the ensemble loss. We prove a family of exact bias-variance-diversity decompositions, for a wide range of losses in both regression and classification, e.g., squared, cross-entropy, and Poisson losses. For losses where an additive bias-variance decomposition is not available (e.g., 0/1 loss) we present an alternative approach: quantifying the effects of diversity, which turn out to be dependent on the label distribution. Overall, we argue that diversity is a measure of model fit, in precisely the same sense as bias and variance, but accounting for statistical dependencies between ensemble members. Thus, we should not be maximising diversity as so many works aim to do -- instead, we have a bias/variance/diversity trade-off to manage.",
+ "primary": "cs.LG"
+}

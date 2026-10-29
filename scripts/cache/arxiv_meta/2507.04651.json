@@ -1,0 +1,23 @@
+{
+ "id": "2507.04651",
+ "title": "FindRec: Stein-Guided Entropic Flow for Multi-Modal Sequential Recommendation",
+ "authors": [
+  "Maolin Wang",
+  "Yutian Xiao",
+  "Binhao Wang",
+  "Sheng Zhang",
+  "Shanshan Ye",
+  "Wanyu Wang",
+  "Hongzhi Yin",
+  "Ruocheng Guo",
+  "Zenglin Xu"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 3,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by KDD 2025",
+ "abstract": "Modern recommendation systems face significant challenges in processing multimodal sequential data, particularly in temporal dynamics modeling and information flow coordination. Traditional approaches struggle with distribution discrepancies between heterogeneous features and noise interference in multimodal signals. We propose \\textbf{FindRec}~ (\\textbf{F}lexible unified \\textbf{in}formation \\textbf{d}isentanglement for multi-modal sequential \\textbf{Rec}ommendation), introducing a novel \"information flow-control-output\" paradigm. The framework features two key innovations: (1) A Stein kernel-based Integrated Information Coordination Module (IICM) that theoretically guarantees distribution consistency between multimodal features and ID streams, and (2) A cross-modal expert routing mechanism that adaptively filters and combines multimodal features based on their contextual relevance. Our approach leverages multi-head subspace decomposition for routing stability and RBF-Stein gradient for unbiased distribution alignment, enhanced by linear-complexity Mamba layers for efficient temporal modeling. Extensive experiments on three real-world datasets demonstrate FindRec's superior performance over state-of-the-art baselines, particularly in handling long sequences and noisy multimodal inputs. Our framework achieves both improved recommendation accuracy and enhanced model interpretability through its modular design. The implementation code is available anonymously online for easy reproducibility~\\footnote{https://github.com/Applied-Machine-Learning-Lab/FindRec}.",
+ "primary": "cs.IR"
+}

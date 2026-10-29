@@ -1,0 +1,16 @@
+{
+ "id": "2404.05908",
+ "title": "Interpretability in Symbolic Regression: a benchmark of Explanatory Methods using the Feynman data set",
+ "authors": [
+  "Guilherme Seidyo Imai Aldeia",
+  "Fabricio Olivetti de Franca"
+ ],
+ "v1_date": "2024-04-08",
+ "latest_version": 1,
+ "latest_date": "2024-04-08",
+ "journal_ref": "Aldeia, G.S.I., de Franca, F.O. Interpretability in symbolic regression: a benchmark of explanatory methods using the Feynman data set. Genet Program Evolvable Mach 23, 309-349 (2022)",
+ "doi": "10.1007/s10710-022-09435-x",
+ "comment": "47 pages, 10 figures. This is a post peer-review, pre-copyedit version of an article published in Genetic Programming and Evolvable Machines Volume 23, pages 309-349, (2022). The final version is available on https://link.springer.com/article/10.1007/s10710-022-09435-x",
+ "abstract": "In some situations, the interpretability of the machine learning models plays a role as important as the model accuracy. Interpretability comes from the need to trust the prediction model, verify some of its properties, or even enforce them to improve fairness. Many model-agnostic explanatory methods exists to provide explanations for black-box models. In the regression task, the practitioner can use white-boxes or gray-boxes models to achieve more interpretable results, which is the case of symbolic regression. When using an explanatory method, and since interpretability lacks a rigorous definition, there is a need to evaluate and compare the quality and different explainers. This paper proposes a benchmark scheme to evaluate explanatory methods to explain regression models, mainly symbolic regression models. Experiments were performed using 100 physics equations with different interpretable and non-interpretable regression methods and popular explanation methods, evaluating the performance of the explainers performance with several explanation measures. In addition, we further analyzed four benchmarks from the GP community. The results have shown that Symbolic Regression models can be an interesting alternative to white-box and black-box models that is capable of returning accurate models with appropriate explanations. Regarding the explainers, we observed that Partial Effects and SHAP were the most robust explanation models, with Integrated Gradients being unstable only with tree-based models. This benchmark is publicly available for further experiments.",
+ "primary": "cs.LG"
+}

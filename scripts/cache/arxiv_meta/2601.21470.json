@@ -1,0 +1,19 @@
+{
+ "id": "2601.21470",
+ "title": "PPI-SVRG: Unifying Prediction-Powered Inference and Variance Reduction for Semi-Supervised Optimization",
+ "authors": [
+  "Ruicheng Ao",
+  "Hongyu Chen",
+  "Haoyang Liu",
+  "David Simchi-Levi",
+  "Will Wei Sun"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 1,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 4 figures",
+ "abstract": "We study semi-supervised stochastic optimization when labeled data is scarce but predictions from pre-trained models are available. PPI and SVRG both reduce variance through control variates -- PPI uses predictions, SVRG uses reference gradients. We show they are mathematically equivalent and develop PPI-SVRG, which combines both. Our convergence bound decomposes into the standard SVRG rate plus an error floor from prediction uncertainty. The rate depends only on loss geometry; predictions affect only the neighborhood size. When predictions are perfect, we recover SVRG exactly. When predictions degrade, convergence remains stable but reaches a larger neighborhood. Experiments confirm the theory: PPI-SVRG reduces MSE by 43--52\\% under label scarcity on mean estimation benchmarks and improves test accuracy by 2.7--2.9 percentage points on MNIST with only 10\\% labeled data.",
+ "primary": "cs.LG"
+}

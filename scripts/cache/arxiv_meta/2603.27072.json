@@ -1,0 +1,16 @@
+{
+ "id": "2603.27072",
+ "title": "On the Loss Landscape Geometry of Regularized Deep Matrix Factorization: Uniqueness and Sharpness",
+ "authors": [
+  "Anil Kamber",
+  "Rahul Parhi"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 1,
+ "latest_date": "2026-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 3 figures",
+ "abstract": "Weight decay is ubiquitous in training deep neural network architectures. Its empirical success is often attributed to capacity control; nonetheless, our theoretical understanding of its effect on the loss landscape and the set of minimizers remains limited. In this paper, we show that $\\ell^2$-regularized deep matrix factorization/deep linear network training problems with squared-error loss admit a unique end-to-end minimizer for all target matrices subject to factorization, except for a set of Lebesgue measure zero formed by the depth and the regularization parameter. This observation reveals fundamental properties of the loss landscape of regularized deep matrix factorization problems: the Hessian spectrum is constant across all minimizers of the regularized deep scalar factorization problem with squared-error loss. Moreover, we show that, in regularized deep matrix factorization problems with squared-error loss, if the target matrix does not belong to the Lebesgue measure-zero set, then the Frobenius norm of each layer is constant across all minimizers. This, in turn, yields a global lower bound on the trace of the Hessian evaluated at any minimizer of the regularized deep matrix factorization problem. Furthermore, we establish a critical threshold for the regularization parameter above which the unique end-to-end minimizer collapses to zero.",
+ "primary": "stat.ML"
+}

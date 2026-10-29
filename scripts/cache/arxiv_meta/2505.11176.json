@@ -1,0 +1,17 @@
+{
+ "id": "2505.11176",
+ "title": "Enhancing and Scaling Search Query Datasets for Recommendation Systems",
+ "authors": [
+  "Aaron Rodrigues",
+  "Mahmood Hegazy",
+  "Azzam Naeem"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 2,
+ "latest_date": "2025-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a deployed, production-grade system designed to enhance and scale search query datasets for intent-based recommendation systems in digital banking. In real-world environments, the growing volume and complexity of user intents create substantial challenges for data management, resulting in suboptimal recommendations and delayed product onboarding. To overcome these challenges, our approach shifts the focus from model-centric enhancements to automated, data-centric strategies. The proposed system integrates three core modules: Synthetic Query Generation, Intent Disambiguation, and Intent Gap Analysis. Synthetic Query Generation produces diverse and realistic user queries. Our experiments reveal no statistically significant difference when using synthetic data for Clinc150, while Banking77 and a proprietary dataset show significant differences. We dig into the underlying factors driving these variations, demonstrating that our approach effectively alleviates the cold start problem (i.e. the challenge of recommending new products with limited historical data). Intent Disambiguation refines broad and overlapping intent categories into precise subintents, achieving an F1 score of 0.863 $\\pm$ 0.127 against expert reannotations and leading to clearer differentiation and more precise recommendation mapping. Meanwhile, Intent Gap Analysis identifies latent customer needs by extracting novel intents from unlabeled queries; recovery rates reach up to 71\\% in controlled evaluations. Deployed in a live banking environment, our system demonstrates significant improvements in recommendation precision and operation agility, ultimately delivering enhanced user experiences and strategic business benefits. This work underscores the role of high-quality, scalable data in modern AI-driven applications and advocates a proactive approach to data enhancement as a key driver of value.",
+ "primary": "cs.IR"
+}

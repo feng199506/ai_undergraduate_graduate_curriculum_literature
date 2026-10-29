@@ -1,0 +1,17 @@
+{
+ "id": "2602.21272",
+ "title": "Counterdiabatic Hamiltonian Monte Carlo",
+ "authors": [
+  "Reuben Cohn-Gordon",
+  "Uroš Seljak",
+  "Dries Sels"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hamiltonian Monte Carlo (HMC) is a state of the art method for sampling from distributions with differentiable densities, but can converge slowly when applied to challenging multimodal problems. Running HMC with a time varying Hamiltonian, in order to interpolate from an initial tractable distribution to the target of interest, can address this problem. In conjunction with a weighting scheme to eliminate bias, this can be viewed as a special case of Sequential Monte Carlo (SMC) sampling \\cite{doucet2001introduction}. However, this approach can be inefficient, since it requires slow change between the initial and final distribution. Inspired by \\cite{sels2017minimizing}, where a learned \\emph{counterdiabatic} term added to the Hamiltonian allows for efficient quantum state preparation, we propose \\emph{Counterdiabatic Hamiltonian Monte Carlo} (CHMC), which can be viewed as an SMC sampler with a more efficient kernel. We establish its relationship to recent proposals for accelerating gradient-based sampling with learned drift terms, and demonstrate on simple benchmark problems.",
+ "primary": "stat.ML"
+}

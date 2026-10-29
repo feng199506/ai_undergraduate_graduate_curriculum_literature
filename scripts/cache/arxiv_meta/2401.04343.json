@@ -1,0 +1,19 @@
+{
+ "id": "2401.04343",
+ "title": "Private Fine-tuning of Large Language Models with Zeroth-order Optimization",
+ "authors": [
+  "Xinyu Tang",
+  "Ashwinee Panda",
+  "Milad Nasr",
+  "Saeed Mahloujifar",
+  "Prateek Mittal"
+ ],
+ "v1_date": "2024-01-09",
+ "latest_version": 3,
+ "latest_date": "2025-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Differentially private stochastic gradient descent (DP-SGD) allows models to be trained in a privacy-preserving manner, but has proven difficult to scale to the era of foundation models. We introduce DP-ZO, a private fine-tuning framework for large language models by privatizing zeroth order optimization methods. A key insight into the design of our method is that the direction of the gradient in the zeroth-order optimization we use is random and the only information from training data is the step size, i.e., a scalar. Therefore, we only need to privatize the scalar step size, which is memory-efficient. DP-ZO provides a strong privacy-utility trade-off across different tasks, and model sizes that are comparable to DP-SGD in $(\\varepsilon,δ)$-DP. Notably, DP-ZO possesses significant advantages over DP-SGD in memory efficiency, and obtains higher utility in $\\varepsilon$-DP when using the Laplace mechanism.",
+ "primary": "cs.LG"
+}

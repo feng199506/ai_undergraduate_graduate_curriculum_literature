@@ -1,0 +1,23 @@
+{
+ "id": "2605.31463",
+ "title": "PithTrain: A Compact and Agent-Native MoE Training System",
+ "authors": [
+  "Ruihang Lai",
+  "Hao Kang",
+  "Haozhan Tang",
+  "Akaash R. Parthasarathy",
+  "Zichun Yu",
+  "Junru Shao",
+  "Todd C. Mowry",
+  "Chenyan Xiong",
+  "Tianqi Chen"
+ ],
+ "v1_date": "2026-05-29",
+ "latest_version": 1,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixture-of-Experts (MoE) has become the dominant architecture for frontier language models. To meet this demand, production frameworks have built optimized MoE training stacks over years of engineering effort. Yet evolving these stacks for new architectures and system optimizations remains expensive. With the rise of AI coding agents, they could automate parts of training-framework development and accelerate this evolution. But applying them to these existing frameworks carries hidden costs, invisible to today's throughput-only evaluations. We name this missing dimension agent-task efficiency (ATE): the cost of using coding agents to understand, operate, and extend a framework. Grounded in four agent-native design principles, we build PithTrain, a compact, agent-native MoE training framework. We further introduce ATE-Bench, covering real-world training-framework tasks. Our evaluation shows PithTrain matches the throughput of production frameworks, and on ATE-Bench, PithTrain enables higher agent-task efficiency, with up to 62% fewer Agent Turns and 64% less Active GPU Time.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2408.15739",
+ "title": "A review of sequential Monte Carlo methods for real-time disease modeling",
+ "authors": [
+  "Dhorasso Temfack",
+  "Jason Wyse"
+ ],
+ "v1_date": "2024-08-28",
+ "latest_version": 1,
+ "latest_date": "2024-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential Monte Carlo methods are a powerful framework for approximating the posterior distribution of a state variable in a sequential manner. They provide an attractive way of analyzing dynamic systems in real-time, taking into account the limitations of traditional approaches such as Markov Chain Monte Carlo methods, which are not well suited to data that arrives incrementally. This paper reviews and explores the application of Sequential Monte Carlo in dynamic disease modeling, highlighting its capacity for online inference and real-time adaptation to evolving disease dynamics. The integration of kernel density approximation techniques within the stochastic Susceptible-Exposed-Infectious-Recovered (SEIR) compartment model is examined, demonstrating the algorithm's effectiveness in monitoring time-varying parameters such as the effective reproduction number. Case studies, including simulations with synthetic data and analysis of real-world COVID-19 data from Ireland, demonstrate the practical applicability of this approach for informing timely public health interventions.",
+ "primary": "q-bio.PE"
+}

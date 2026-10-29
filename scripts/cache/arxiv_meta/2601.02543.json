@@ -1,0 +1,18 @@
+{
+ "id": "2601.02543",
+ "title": "Normalized Conditional Mutual Information Surrogate Loss for Deep Neural Classifiers",
+ "authors": [
+  "Linfeng Ye",
+  "Zhixiang Chi",
+  "Konstantinos N. Plataniotis",
+  "En-hui Yang"
+ ],
+ "v1_date": "2026-01-05",
+ "latest_version": 3,
+ "latest_date": "2026-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures",
+ "abstract": "In this paper, we propose a novel information theoretic surrogate loss; normalized conditional mutual information (NCMI); as a drop in alternative to the de facto cross-entropy (CE) for training deep neural network (DNN) based classifiers. We first observe that the model's NCMI is inversely proportional to its accuracy. Building on this insight, we introduce an alternating algorithm to efficiently minimize the NCMI. Across image recognition and whole-slide imaging (WSI) subtyping benchmarks, NCMI-trained models surpass state of the art losses by substantial margins at a computational cost comparable to that of CE. Notably, on ImageNet, NCMI yields a 2.77% top-1 accuracy improvement with ResNet-50 comparing to the CE; on CAMELYON-17, replacing CE with NCMI improves the macro-F1 by 8.6% over the strongest baseline. Gains are consistent across various architectures and batch sizes, suggesting that NCMI is a practical and competitive alternative to CE.",
+ "primary": "cs.LG"
+}

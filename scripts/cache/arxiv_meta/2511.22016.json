@@ -1,0 +1,21 @@
+{
+ "id": "2511.22016",
+ "title": "AfriStereo: A Culturally Grounded Dataset for Evaluating Stereotypical Bias in Large Language Models",
+ "authors": [
+  "Yann Le Beux",
+  "Oluchi Audu",
+  "Oche D. Ankeli",
+  "Dhananjay Balakrishnan",
+  "Melissah Weya",
+  "Marie D. Ralaiarinosy",
+  "Ignatius Ezeani"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 1,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Existing AI bias evaluation benchmarks largely reflect Western perspectives, leaving African contexts underrepresented and enabling harmful stereotypes in applications across various domains. To address this gap, we introduce AfriStereo, the first open-source African stereotype dataset and evaluation framework grounded in local socio-cultural contexts. Through community engaged efforts across Senegal, Kenya, and Nigeria, we collected 1,163 stereotypes spanning gender, ethnicity, religion, age, and profession. Using few-shot prompting with human-in-the-loop validation, we augmented the dataset to over 5,000 stereotype-antistereotype pairs. Entries were validated through semantic clustering and manual annotation by culturally informed reviewers. Preliminary evaluation of language models reveals that nine of eleven models exhibit statistically significant bias, with Bias Preference Ratios (BPR) ranging from 0.63 to 0.78 (p <= 0.05), indicating systematic preferences for stereotypes over antistereotypes, particularly across age, profession, and gender dimensions. Domain-specific models appeared to show weaker bias in our setup, suggesting task-specific training may mitigate some associations. Looking ahead, AfriStereo opens pathways for future research on culturally grounded bias evaluation and mitigation, offering key methodologies for the AI community on building more equitable, context-aware, and globally inclusive NLP technologies.",
+ "primary": "cs.CL"
+}

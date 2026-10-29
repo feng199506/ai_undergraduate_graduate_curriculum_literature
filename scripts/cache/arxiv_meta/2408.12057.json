@@ -1,0 +1,18 @@
+{
+ "id": "2408.12057",
+ "title": "Optimised Annealed Sequential Monte Carlo Samplers",
+ "authors": [
+  "Saifuddin Syed",
+  "Alexandre Bouchard-Côté",
+  "Kevin Chern",
+  "Arnaud Doucet"
+ ],
+ "v1_date": "2024-08-22",
+ "latest_version": 2,
+ "latest_date": "2025-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "88 pages, 14 figures",
+ "abstract": "Annealed Sequential Monte Carlo (ASMC) samplers are special cases of SMC samplers where the sequence of distributions can be embedded in a smooth path of distributions. Using this underlying path and a performance model based on the variance of the normalising constant estimator, we systematically study dense-schedule limits. From our theory emerges a notion of global barrier, capturing the inherent complexity of normalising constant approximation under our performance model. We then turn the resulting approximations into surrogate objective functions of algorithm performance, using them to guide method development. This leads to novel adaptive methods, Optimised Annealed SMC (OASMC), which address practical difficulties inherent in previous adaptive SMC methods. First, our OASMC algorithms are predictable: they produce a sequence of increasingly precise estimates at deterministic, known times. Second, Optimised Annealed Importance Sampling (OAIS), a special case of OASMC, enables schedule adaptation at a memory cost constant in the number of particles, requiring significantly less communication. Finally, these characteristics make OAIS highly efficient on GPUs. We provide an open-source, high-performance GPU implementation of our method and demonstrate up to a hundred-fold speed improvement compared to state-of-the-art adaptive AIS methods.",
+ "primary": "stat.CO"
+}

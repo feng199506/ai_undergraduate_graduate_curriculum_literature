@@ -1,0 +1,17 @@
+{
+ "id": "2607.04775",
+ "title": "Non-asymptotic Convergence of Stochastic Gradient Descent in Score-based Generative Models",
+ "authors": [
+  "Stanislas Strasman",
+  "Sobihan Surendran",
+  "Sylvain Le Corff"
+ ],
+ "v1_date": "2026-07-06",
+ "latest_version": 2,
+ "latest_date": "2026-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Score-based Generative Models (SGMs) have achieved impressive performance in data generation across a wide range of applications. While the statistical properties of their sampling procedures are increasingly well understood, the optimization dynamics underlying their training remain less explored. SGMs are typically trained by minimizing a weighted denoising score-matching objective, yet optimization guarantees with stochastic gradients remain limited. In this work, we study Stochastic Gradient Descent (SGD) for SGMs, contributing results in two complementary regimes. For general score parameterizations, we derive a non-convex analysis of SGD for the weighted denoising score-matching objective, making explicit how the resulting optimization bound depends on the loss weighting and time-sampling distribution. We then consider overparameterized two-layer ReLU networks and develop a Neural Tangent Kernel analysis tailored to diffusion training with stochastic gradients, yielding score-approximation error bounds along the SGD trajectory. Our analysis quantifies the role of the reweighting factor in these bounds, providing a theoretical characterization of weighting choices used in practice.",
+ "primary": "stat.ML"
+}

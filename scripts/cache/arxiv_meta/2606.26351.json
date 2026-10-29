@@ -1,0 +1,17 @@
+{
+ "id": "2606.26351",
+ "title": "Robust Estimation of Polychoric Correlation for Complex Survey Designs Using Minimum Divergence Methods",
+ "authors": [
+  "Siqi Wei",
+  "David Kepplinger",
+  "Anand N. Vidyashankar"
+ ],
+ "v1_date": "2026-06-24",
+ "latest_version": 1,
+ "latest_date": "2026-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard maximum likelihood estimation of polychoric correlations is highly sensitive to contamination in survey data, including response errors, interviewer effects, and careless responding, yet assigns equal weight to all observations regardless of data quality. We develop robust estimators for polychoric correlation under complex survey designs based on two minimum divergence criteria -- Hellinger distance (HD) and negative exponential disparity (NED) -- incorporating survey weights through Horvitz--Thompson adjusted cell frequencies. For HD, we propose penalized Ridge and Lasso variants that regularize nuisance parameters while leaving the correlation unpenalized, and establish consistency and asymptotic normality with a sandwich covariance reflecting the sampling design. The influence function is finite but not uniformly bounded, reflecting Hellinger's sensitivity to sparse cells. Simulations under Poisson proportional-to-size sampling examine three contamination geometries -- concordant upper, concordant lower, and discordant mixed corner -- crossed with standard and non-standard latent marginals. The two estimator classes offer complementary advantages: penalized HD methods achieve the lowest mean squared error under concordant contamination, while NED performs best under discordant contamination and under compound misspecification--contamination effects. We provide practical guidelines for method selection based on anticipated contamination patterns in survey practice.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2512.21543",
+ "title": "CEMG: Collaborative-Enhanced Multimodal Generative Recommendation",
+ "authors": [
+  "Yuzhen Lin",
+  "Hongyi Chen",
+  "Xuanjing Chen",
+  "Shaowen Wang",
+  "Ivonne Xu",
+  "Dongming Jiang"
+ ],
+ "v1_date": "2025-12-25",
+ "latest_version": 1,
+ "latest_date": "2025-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generative recommendation models often struggle with two key challenges: (1) the superficial integration of collaborative signals, and (2) the decoupled fusion of multimodal features. These limitations hinder the creation of a truly holistic item representation. To overcome this, we propose CEMG, a novel Collaborative-Enhaned Multimodal Generative Recommendation framework. Our approach features a Multimodal Fusion Layer that dynamically integrates visual and textual features under the guidance of collaborative signals. Subsequently, a Unified Modality Tokenization stage employs a Residual Quantization VAE (RQ-VAE) to convert this fused representation into discrete semantic codes. Finally, in the End-to-End Generative Recommendation stage, a large language model is fine-tuned to autoregressively generate these item codes. Extensive experiments demonstrate that CEMG significantly outperforms state-of-the-art baselines.",
+ "primary": "cs.IR"
+}

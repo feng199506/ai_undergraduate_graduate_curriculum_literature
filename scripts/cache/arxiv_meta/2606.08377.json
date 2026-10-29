@@ -1,0 +1,15 @@
+{
+ "id": "2606.08377",
+ "title": "From Estimates to Schedules: Learning-Augmented Restricted Assignment",
+ "authors": [
+  "Michalis Xefteris"
+ ],
+ "v1_date": "2026-06-07",
+ "latest_version": 1,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we study Restricted Assignment scheduling on multiple machines, where each job can be processed only on a specified subset of machines and the objective is to minimize the makespan. We introduce a learning-augmented setting in which a possibly infeasible predicted assignment is provided. The prediction error (moved-load) is measured by the total processing volume that must be reassigned in order to obtain an optimal feasible schedule. Using a single prediction, we obtain two types of guarantees. First, we design an algorithm whose approximation ratio degrades smoothly with the prediction error while retaining a worst-case guarantee independent of the prediction quality. More precisely, for any fixed constant, we can make the additive dependence on the prediction error arbitrarily small, at the cost of increasing the polynomial running time. This guarantee can also be combined with any approximation algorithm for the problem without predictions to obtain robustness. Second, given a makespan estimate, we provide a repair procedure that returns a schedule matching this estimate in time parameterized by the prediction error. This allows the algorithm to exploit the separation between estimation and approximation algorithms for Restricted Assignment. Finally, we complement the repair algorithm with a parameterized hardness result, showing that exact moved-load repair with a given target makespan is W[1]-hard when parameterized by the amount of moved-load.",
+ "primary": "cs.DS"
+}

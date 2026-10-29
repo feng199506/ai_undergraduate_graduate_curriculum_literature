@@ -1,0 +1,16 @@
+{
+ "id": "2603.27385",
+ "title": "Active In-Context Learning for Tabular Foundation Models",
+ "authors": [
+  "Wilailuck Treerath",
+  "Fabrizio Pittorino"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 1,
+ "latest_date": "2026-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures, 6 tables",
+ "abstract": "Active learning (AL) reduces labeling cost by querying informative samples, but in tabular settings its cold-start gains are often limited because uncertainty estimates are unreliable when models are trained on very few labels. Tabular foundation models such as TabPFN provide calibrated probabilistic predictions via in-context learning (ICL), i.e., without task-specific weight updates, enabling an AL regime in which the labeled context - rather than parameters - is iteratively optimized. We formalize Tabular Active In-Context Learning (Tab-AICL) and instantiate it with four acquisition rules: uncertainty (TabPFN-Margin), diversity (TabPFN-Coreset), an uncertainty-diversity hybrid (TabPFN-Hybrid), and a scalable two-stage method (TabPFN-Proxy-Hybrid) that shortlists candidates using a lightweight linear proxy before TabPFN-based selection. Across 20 classification benchmarks, Tab-AICL improves cold-start sample efficiency over retrained gradient-boosting baselines (CatBoost-Margin and XGBoost-Margin), measured by normalized AULC up to 100 labeled samples.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,29 @@
+{
+ "id": "2602.14200",
+ "title": "TS-Haystack: A Multi-Task Retrieval Benchmark for Long-Context Time-Series Reasoning",
+ "authors": [
+  "Nicolas Zumarraga",
+  "Thomas Kaar",
+  "Ning Wang",
+  "William Tennien",
+  "Alpay Hasanli",
+  "Max Rosenblattl",
+  "Fan Wu",
+  "Kevin Riehl",
+  "Maxwell A. Xu",
+  "Markus Kreft",
+  "Kevin O'Sullivan",
+  "Elgar Fleisch",
+  "Paul Schmiedmayer",
+  "Robert Jakob",
+  "Patrick Langer"
+ ],
+ "v1_date": "2026-02-15",
+ "latest_version": 6,
+ "latest_date": "2026-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Workshop version of this paper published at ICLR TSALM 2026. Benchmark generation code and datasets: https://github.com/AI-X-Labs/TS-Haystack",
+ "abstract": "Time Series Language Models (TSLMs) promise reasoning over real-world temporal data, but their ability to retrieve and reason over long time-series remains largely untested. We introduce TS-Haystack, a multi-domain retrieval benchmark with ten event-grounded question-answering tasks over contexts from 100 seconds to 24 hours, spanning direct retrieval, temporal reasoning, multi-step reasoning, and contextual anomaly detection. Existing TSLMs exhibit severe long-context degradation: accuracy declines with context length, direct-tokenization models run out of memory beyond 100 seconds on high-rate signals, and time-interval-grounded tasks collapse toward near-zero accuracy when increasing the time-series lengths, aligning with existing literature on text and multi-modal long context retrieval. An agentic retrieval framework using specialized time-series classifier tools matches or outperforms SoTA TSLMs on 9 of 10 tasks, highlighting agentic retrieval as a promising approach for long-context TSLMs.",
+ "primary": "cs.LG"
+}

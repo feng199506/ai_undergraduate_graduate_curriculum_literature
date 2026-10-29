@@ -1,0 +1,16 @@
+{
+ "id": "2606.17308",
+ "title": "Kernel-Based Functional Balancing for Causal Inference with Compositional Treatments",
+ "authors": [
+  "Sungbum Kim",
+  "Jiayi Wang"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 2,
+ "latest_date": "2026-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 3 figures",
+ "abstract": "We study causal effect estimation with compositional treatments, where the exposure lies on a simplex and the estimand is defined over compositions rather than scalar or binary values. By considering a projection of the average potential outcome onto the treatment space, a kernel-based covariate functional balancing approach is adopted for weight construction. The weights are obtained by directly minimizing a worst-case balancing error over a reproducing kernel Hilbert space (RKHS) defined on the joint space of treatments and covariates, instead of being estimated under a treatment assignment model. Building on these weights, an augmented weighted estimator (AWE) is proposed, where the outcome function is estimated via kernel ridge regression and combined with a marginal augmentation over the covariate distribution. Despite the complex structure of the resulting objective, a finite-dimensional convex optimization problem is formulated via a representer theorem and a low-rank approximation. The proposed estimator achieves $\\sqrt{n}$-consistency without requiring consistent estimation or smoothness of the weights. An asymptotic normality result is established around a sample-specific target. Empirical performance is demonstrated through simulation studies and a real data application.",
+ "primary": "stat.ME"
+}

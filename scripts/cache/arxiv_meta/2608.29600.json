@@ -1,0 +1,16 @@
+{
+ "id": "2608.29600",
+ "title": "Adaptive Doubly Robust Off-Policy Evaluation for Ranking Policies under Diverse User Behavior",
+ "authors": [
+  "Kosuke Iguchi",
+  "Ren Kishimoto"
+ ],
+ "v1_date": "2026-08-30",
+ "latest_version": 1,
+ "latest_date": "2026-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 4 figures, 7 tables. Accepted at CONSEQUENCES 2026 and selected for oral presentation",
+ "abstract": "Off-policy evaluation (OPE) of ranking policies is challenging be- cause selecting and ordering multiple items from a candidate set makes the number of possible rankings grow combinatorially with the number of candidates and the ranking length. Consequently, Inverse Propensity Scoring (IPS), whose importance weight is the full-ranking probability ratio under the evaluation and logging policies, can have excessive variance. Independent IPS (IIPS) and Reward Interaction IPS (RIPS) reduce variance by imposing fixed assumptions on how users browse rankings, but may introduce bias when those assumptions mismatch actual behavior. Adaptive Inverse Propensity Scoring (AIPS) addresses this trade-off by adap- tively marginalizing importance weights over the actions that affect each position-wise reward. It attains minimum variance within a class of unbiased IPS-based estimators when the true user be- havior model is observed. However, its estimation accuracy may still degrade for longer rankings, and AIPS does not use a reward model for residual correction. We propose Adaptive Doubly Robust (ADR), which combines adaptive importance weighting with re- ward regression through a control-variate correction. We establish its unbiasedness when the true user behavior model is observed and characterize a sufficient condition under which it reduces vari- ance relative to AIPS. Across synthetic experiments with 10,000 simulations per condition, ADR improves mean squared error over AIPS and conventional ranking OPE estimators across a range of logged-data sizes and ranking lengths.",
+ "primary": "cs.LG"
+}

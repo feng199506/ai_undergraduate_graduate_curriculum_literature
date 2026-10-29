@@ -1,0 +1,17 @@
+{
+ "id": "2601.07413",
+ "title": "Adapting Neural Posterior Estimators for Simulation-Based Inference in Agent-Based Models",
+ "authors": [
+  "Junyao Zhang",
+  "Jinglai Li",
+  "Junqi Tang"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 2,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Agent-based models (ABMs) are widely used in economics and social sciences. They represent heterogeneous personal behaviors and their interactions by using simulations, whereas their likelihoods are often intractable for parameter estimations. Therefore, most traditional statistical inference techniques are hindered. Driven by recent advances in probabilistic machine learning, recent works have applied neural networks to achieve likelihood-free inference in large-scale ABMs. Specifically, Neural Posterior Estimation using normalizing flows provide amortized Bayesian inference from simulations, yet a pre-trained estimator may become inaccurate when the target task changes. In this work, we investigate the practicality of adapting a pre-trained conditional normalizing flow through a unified sequential neural posterior estimation test-time training (SNPE-TTT) framework. The framework includes four adaptation strategies: full-parameter adaptation, low-rank adaptation, and two update spaces identified from target-task gradients. We evaluate all four methods across economic simulation models with both tractable and intractable likelihoods. These benchmarks demonstrate that the sequential neural posterior estimation test-time training framework can adapt pre-trained posterior estimators to related inference tasks using a limited budget of target simulations. Posterior recovery and computational benefits depend on the task and adaptation strategy, with lower target-stage cost in some settings but no consistently superior posterior accuracy.",
+ "primary": "cs.LG"
+}

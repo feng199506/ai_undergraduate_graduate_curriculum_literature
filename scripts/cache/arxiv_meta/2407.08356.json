@@ -1,0 +1,15 @@
+{
+ "id": "2407.08356",
+ "title": "Event-based vision on FPGAs -- a survey",
+ "authors": [
+  "Tomasz Kryjak"
+ ],
+ "v1_date": "2024-07-11",
+ "latest_version": 1,
+ "latest_date": "2024-07-11",
+ "journal_ref": "",
+ "doi": "10.1109/dsd64264.2024.00078",
+ "comment": "Accepted for the 2024 27th Euromicro Conference on Digital System Design (DSD)",
+ "abstract": "In recent years there has been a growing interest in event cameras, i.e. vision sensors that record changes in illumination independently for each pixel. This type of operation ensures that acquisition is possible in very adverse lighting conditions, both in low light and high dynamic range, and reduces average power consumption. In addition, the independent operation of each pixel results in low latency, which is desirable for robotic solutions. Nowadays, Field Programmable Gate Arrays (FPGAs), along with general-purpose processors (GPPs/CPUs) and programmable graphics processing units (GPUs), are popular architectures for implementing and accelerating computing tasks. In particular, their usefulness in the embedded vision domain has been repeatedly demonstrated over the past 30 years, where they have enabled fast data processing (even in real-time) and energy efficiency. Hence, the combination of event cameras and reconfigurable devices seems to be a good solution, especially in the context of energy-efficient real-time embedded systems. This paper gives an overview of the most important works, where FPGAs have been used in different contexts to process event data. It covers applications in the following areas: filtering, stereovision, optical flow, acceleration of AI-based algorithms (including spiking neural networks) for object classification, detection and tracking, and applications in robotics and inspection systems. Current trends and challenges for such systems are also discussed.",
+ "primary": "cs.CV"
+}

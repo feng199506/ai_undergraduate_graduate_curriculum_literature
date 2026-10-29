@@ -1,0 +1,18 @@
+{
+ "id": "2411.05869",
+ "title": "Compactly-supported nonstationary kernels for computing exact Gaussian processes on big data",
+ "authors": [
+  "Mark D. Risser",
+  "Marcus M. Noack",
+  "Hengrui Luo",
+  "Ronald Pandolfi"
+ ],
+ "v1_date": "2024-11-07",
+ "latest_version": 3,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "10.1002/env.70054",
+ "comment": "",
+ "abstract": "The Gaussian process (GP) is a widely used probabilistic machine learning method with implicit uncertainty characterization for stochastic function approximation, stochastic modeling, and analyzing real-world measurements of nonlinear processes. Traditional implementations of GPs involve stationary kernels (also termed covariance functions) that limit their flexibility, and exact methods for inference that prevent application to data sets with more than about ten thousand points. Modern approaches to address stationarity assumptions generally fail to accommodate large data sets, while all attempts to address scalability focus on approximating the Gaussian likelihood, which can involve subjectivity and lead to inaccuracies. In this work, we explicitly derive an alternative kernel that can discover and encode both sparsity and nonstationarity. We embed the kernel within a fully Bayesian GP model and leverage high-performance computing resources to enable the analysis of massive data sets. We demonstrate the favorable performance of our novel kernel relative to existing exact and approximate GP methods across a variety of synthetic data examples. Furthermore, we conduct space-time prediction based on more than one million measurements of daily maximum temperature and verify that our results outperform state-of-the-art methods in the Earth sciences. More broadly, having access to exact GPs that use ultra-scalable, sparsity-discovering, nonstationary kernels allows GP methods to truly compete with a wide variety of machine learning methods.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2601.21014",
+ "title": "Efficient Causal Structure Learning via Modular Subgraph Integration",
+ "authors": [
+  "Haixiang Sun",
+  "Pengchao Tian",
+  "Zihan Zhou",
+  "Jielei Zhang",
+  "Peiyi Li",
+  "Andrew L. Liu"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 2,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning causal structures from observational data remains a fundamental yet computationally intensive task, particularly in high-dimensional settings where existing methods face challenges such as the super-exponential growth of the search space and increasing computational demands. To address this, we introduce VISTA (Voting-based Integration of Subgraph Topologies for Acyclicity), a modular framework that decomposes the global causal structure learning problem into local subgraphs based on Markov Blankets. The global integration is achieved through a weighted voting mechanism that penalizes low-support edges via exponential decay, filters unreliable ones with an adaptive threshold, and ensures acyclicity using a Feedback Arc Set (FAS) algorithm. The framework is model-agnostic, imposing no assumptions on the inductive biases of base learners, is compatible with arbitrary data settings without requiring specific structural forms, and fully supports parallelization. We also theoretically establish finite-sample error bounds for VISTA, and prove its asymptotic consistency under mild conditions. Extensive experiments on both synthetic and real datasets consistently demonstrate the effectiveness of VISTA, yielding notable improvements in both accuracy and efficiency over a wide range of base learners.",
+ "primary": "stat.ML"
+}

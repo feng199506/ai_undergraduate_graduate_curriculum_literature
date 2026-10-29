@@ -1,0 +1,30 @@
+{
+ "id": "2504.14898",
+ "title": "Expected Free Energy-based Planning as Variational Inference",
+ "authors": [
+  "Bert de Vries",
+  "Wouter Nuijten",
+  "Thijs van de Laar",
+  "Wouter Kouw",
+  "Sepideh Adamiat",
+  "Tim Nisslbeck",
+  "Mykola Lukashchuk",
+  "Hoang Minh Huu Nguyen",
+  "Marco Hidalgo Araya",
+  "Raphael Tresor",
+  "Thijs Jenneskens",
+  "Ivana Nikoloska",
+  "Raaja Ganapathy Subramanian",
+  "Bart van Erp",
+  "Dmitry Bagaev",
+  "Albert Podusenko"
+ ],
+ "v1_date": "2025-04-21",
+ "latest_version": 4,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages",
+ "abstract": "We address the problem of planning under uncertainty, where an agent must choose actions that not only achieve desired outcomes but also reduce uncertainty. Traditional methods often treat exploration and exploitation as separate objectives, lacking a unified inferential foundation. Active inference, grounded in the Free Energy Principle, provides such a foundation by minimizing Expected Free Energy (EFE), a cost function that combines utility with epistemic drives, such as ambiguity resolution and novelty seeking. However, the computational burden of EFE minimization had remained a significant obstacle to its scalability. In this paper, we show that EFE-based planning arises naturally from minimizing a variational free energy functional on a generative model augmented with preference and epistemic priors. This result reinforces theoretical consistency with the Free Energy Principle by casting planning under uncertainty itself as a form of variational inference. Our formulation yields policies that jointly support goal achievement and information gain, while incorporating a complexity term that accounts for bounded computational resources. This unifying framework connects and extends existing methods, enabling scalable, resource-aware implementations of active inference agents.",
+ "primary": "stat.ML"
+}

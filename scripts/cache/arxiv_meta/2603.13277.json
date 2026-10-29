@@ -1,0 +1,18 @@
+{
+ "id": "2603.13277",
+ "title": "Learning Retrieval Models with Sparse Autoencoders",
+ "authors": [
+  "Thibault Formal",
+  "Maxime Louis",
+  "Hervé Dejean",
+  "Stéphane Clinchant"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 1,
+ "latest_date": "2026-02-27",
+ "journal_ref": "ICLR 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse autoencoders (SAEs) provide a powerful mechanism for decomposing the dense representations produced by Large Language Models (LLMs) into interpretable latent features. We posit that SAEs constitute a natural foundation for Learned Sparse Retrieval (LSR), whose objective is to encode queries and documents into high-dimensional sparse representations optimized for efficient retrieval. In contrast to existing LSR approaches that project input sequences into the vocabulary space, SAE-based representations offer the potential to produce more semantically structured, expressive, and language-agnostic features. Building on this insight, we introduce SPLARE, a method to train SAE-based LSR models. Our experiments, relying on recently released open-source SAEs, demonstrate that this technique consistently outperforms vocabulary-based LSR in multilingual and out-of-domain settings. SPLARE-7B, a multilingual retrieval model capable of producing generalizable sparse latent embeddings for a wide range of languages and domains, achieves top results on MMTEB's multilingual and English retrieval tasks. We also developed a 2B-parameter variant with a significantly lighter footprint.",
+ "primary": "cs.LG"
+}

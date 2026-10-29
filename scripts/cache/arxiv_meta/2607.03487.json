@@ -1,0 +1,20 @@
+{
+ "id": "2607.03487",
+ "title": "Towards Diverse and Comprehensive Benchmarks for Mutual Information Estimation",
+ "authors": [
+  "Alberto Foresti",
+  "Ivan Butakov",
+  "Alexander Tolmachev",
+  "Giulio Franzese",
+  "Alexey Frolov",
+  "Pietro Michiardi"
+ ],
+ "v1_date": "2026-07-03",
+ "latest_version": 1,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mutual information (MI) estimation is a central problem in machine learning and statistics; however, existing benchmarks typically evaluate estimators on simplified, low-dimensional distributions, leaving their performance on complex, realistic data largely unexplored. We address this gap with a comprehensive benchmarking framework grounded in a unified copula-theoretic perspective that subsumes existing benchmarks as special cases. Within this framework, we propose two complementary families of tests: a copula-first family that systematically varies ground-truth MI, dimensionality, and marginal complexity using synthetic and flow-based transformations; and a marginals-first family that couples real-world image data with controlled dependency structures, extending the classic same-class-pairing paradigm. We use this suite to extensively evaluate three classes of estimators: non-parametric, discriminative, and generative. Contrary to prevailing assumptions, our results indicate that there is no universal winner: each category can systematically outperform all other estimators under specific setups. By analyzing these cases, we identify fundamental estimation barriers and propose new tests that more effectively stress these specific limitations. We share the open source code at https://github.com/VanessB/mutinfo.",
+ "primary": "cs.LG"
+}

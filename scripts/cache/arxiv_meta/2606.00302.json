@@ -1,0 +1,17 @@
+{
+ "id": "2606.00302",
+ "title": "ERICA: Quantifying Replicability of Cluster Analysis",
+ "authors": [
+  "Siamak K. Sorooshyari",
+  "Manuel A. Rivas",
+  "Robert Tibshirani"
+ ],
+ "v1_date": "2026-05-29",
+ "latest_version": 2,
+ "latest_date": "2026-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Updated writing, added link to GitHub code in the Conclusion and Discussion section",
+ "abstract": "Despite being ubiquitous in science, clustering lacks a unified framework for quantitatively evaluating the replicability of its results. We present evaluating replicability via iterative clustering assignments (ERICA), a method for determining whether clusters can be identified reproducibly in a dataset. The pipeline computes a statistic that determines whether reproducible cluster structure is present in a dataset. Quantitative visualization methods are also introduced to characterize similarities between clusters and identify observations that may represent outliers or unstable assignments. Experiments on synthetic datasets demonstrate that ERICA successfully identifies reproducible cluster structure. In contrast, application of ERICA to three breast cancer gene-expression datasets reveals instances in which clustering solutions are not reproducible. The study underscores the importance of rigorously evaluating clustering solutions and provides a practical framework for doing so.",
+ "primary": "stat.ML"
+}

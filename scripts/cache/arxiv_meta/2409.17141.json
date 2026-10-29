@@ -1,0 +1,21 @@
+{
+ "id": "2409.17141",
+ "title": "FineZip : Pushing the Limits of Large Language Models for Practical Lossless Text Compression",
+ "authors": [
+  "Fazal Mittu",
+  "Yihuan Bu",
+  "Akshat Gupta",
+  "Ashok Devireddy",
+  "Alp Eren Ozdarendeli",
+  "Anant Singh",
+  "Gopala Anumanchipalli"
+ ],
+ "v1_date": "2024-09-25",
+ "latest_version": 1,
+ "latest_date": "2024-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While the language modeling objective has been shown to be deeply connected with compression, it is surprising that modern LLMs are not employed in practical text compression systems. In this paper, we provide an in-depth analysis of neural network and transformer-based compression techniques to answer this question. We compare traditional text compression systems with neural network and LLM-based text compression methods. Although LLM-based systems significantly outperform conventional compression methods, they are highly impractical. Specifically, LLMZip, a recent text compression system using Llama3-8B requires 9.5 days to compress just 10 MB of text, although with huge improvements in compression ratios. To overcome this, we present FineZip - a novel LLM-based text compression system that combines ideas of online memorization and dynamic context to reduce the compression time immensely. FineZip can compress the above corpus in approximately 4 hours compared to 9.5 days, a 54 times improvement over LLMZip and comparable performance. FineZip outperforms traditional algorithmic compression methods with a large margin, improving compression ratios by approximately 50\\%. With this work, we take the first step towards making lossless text compression with LLMs a reality. While FineZip presents a significant step in that direction, LLMs are still not a viable solution for large-scale text compression. We hope our work paves the way for future research and innovation to solve this problem.",
+ "primary": "cs.CL"
+}

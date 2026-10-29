@@ -1,0 +1,15 @@
+{
+ "id": "2604.03190",
+ "title": "Gradient Boosting within a Single Attention Layer",
+ "authors": [
+  "Saleh Sargolzaei"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 2,
+ "latest_date": "2026-05-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transformer attention computes a single softmax-weighted average over values -- a one-pass estimate that cannot correct its own errors. We introduce \\emph{gradient-boosted attention}, which applies the principle of gradient boosting \\emph{within} a single attention layer: a second attention pass, with its own learned projections, attends to the prediction error of the first and applies a gated correction. Under a squared reconstruction objective, the construction maps onto Friedman's gradient boosting machine, with each attention pass as a base learner and the per-dimension gate as the shrinkage parameter. We show that a single Hopfield-style update erases all query information orthogonal to the stored-pattern subspace, and that further iteration under local contraction can collapse distinct queries in the same region to the same fixed point. We also show that separate projections for the correction pass can recover residual information inaccessible to the shared-projection approach of Tukey's twicing. On 10M-token subsets of WikiText-103 and OpenWebText, gradient-boosted attention improves test perplexity by $6.0\\%$ and $5.6\\%$ over standard attention, outperforming both Twicing Attention and a parameter-matched wider baseline on both benchmarks, with two rounds capturing most of the benefit. We further show, both theoretically and empirically, that the mechanism requires the additive residual structure of Pre-LN transformers: under Post-LN, the same architecture degrades perplexity by $9.6\\%$.",
+ "primary": "cs.LG"
+}

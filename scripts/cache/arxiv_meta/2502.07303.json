@@ -1,0 +1,19 @@
+{
+ "id": "2502.07303",
+ "title": "Flow Matching for Collaborative Filtering",
+ "authors": [
+  "Chengkai Liu",
+  "Yangtian Zhang",
+  "Jianling Wang",
+  "Rex Ying",
+  "James Caverlee"
+ ],
+ "v1_date": "2025-02-11",
+ "latest_version": 2,
+ "latest_date": "2025-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to KDD 2025",
+ "abstract": "Generative models have shown great promise in collaborative filtering by capturing the underlying distribution of user interests and preferences. However, existing approaches struggle with inaccurate posterior approximations and misalignment with the discrete nature of recommendation data, limiting their expressiveness and real-world performance. To address these limitations, we propose FlowCF, a novel flow-based recommendation system leveraging flow matching for collaborative filtering. We tailor flow matching to the unique challenges in recommendation through two key innovations: (1) a behavior-guided prior that aligns with user behavior patterns to handle the sparse and heterogeneous user-item interactions, and (2) a discrete flow framework to preserve the binary nature of implicit feedback while maintaining the benefits of flow matching, such as stable training and efficient inference. Extensive experiments demonstrate that FlowCF achieves state-of-the-art recommendation accuracy across various datasets with the fastest inference speed, making it a compelling approach for real-world recommender systems. The code is available at https://github.com/chengkai-liu/FlowCF.",
+ "primary": "cs.IR"
+}

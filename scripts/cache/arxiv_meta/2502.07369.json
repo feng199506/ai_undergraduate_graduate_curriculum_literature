@@ -1,0 +1,16 @@
+{
+ "id": "2502.07369",
+ "title": "Uniform Kernel Prober",
+ "authors": [
+  "Soumya Mukherjee",
+  "Bharath K. Sriperumbudur"
+ ],
+ "v1_date": "2025-02-11",
+ "latest_version": 1,
+ "latest_date": "2025-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 10 figures",
+ "abstract": "The ability to identify useful features or representations of the input data based on training data that achieves low prediction error on test data across multiple prediction tasks is considered the key to multitask learning success. In practice, however, one faces the issue of the choice of prediction tasks and the availability of test data from the chosen tasks while comparing the relative performance of different features. In this work, we develop a class of pseudometrics called Uniform Kernel Prober (UKP) for comparing features or representations learned by different statistical models such as neural networks when the downstream prediction tasks involve kernel ridge regression. The proposed pseudometric, UKP, between any two representations, provides a uniform measure of prediction error on test data corresponding to a general class of kernel ridge regression tasks for a given choice of a kernel without access to test data. Additionally, desired invariances in representations can be successfully captured by UKP only through the choice of the kernel function and the pseudometric can be efficiently estimated from $n$ input data samples with $O(\\frac{1}{\\sqrt{n}})$ estimation error. We also experimentally demonstrate the ability of UKP to discriminate between different types of features or representations based on their generalization performance on downstream kernel ridge regression tasks.",
+ "primary": "stat.ML"
+}
